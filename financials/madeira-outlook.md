@@ -1,6 +1,6 @@
 ---
-title: Usar Dynamics 365 for Financials como su bandeja de entrada de empresa en Outlook | Documentos de Microsoft
-description: Usar Dynamics 365 for Financials como su bandeja de entrada de empresa en Outlook
+title: Usar Dynamics 365 for Financials con Outlook | Documentos de Microsoft
+description: "Dynamics 365 for Financials tiene una integración profunda con Office 365 lo que le permite administrar todas sus interacciones y correo de negocio con clientes y proveedores directamente en Outlook."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a872c8817c412953a64cb1adb8f8234f2801e8fa
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1944d7633c5f19a42ae8bbe022b8ef026e9515cd
 ms.contentlocale: es-mx
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,7 +33,7 @@ Algunas empresas que usan Office 365 restringen los permisos de los usuarios par
 ## <a name="using-the-contact-insights-add-in"></a>Usar el complemento Información del contacto
 Supongamos que recibe un correo electrónico de un cliente que desea obtener una cotización de algunos productos. Puede abrir el complemento Financials directamente en Outlook, que reconoce al remitente como cliente y abre la ficha de cliente para su empresa. Desde este panel puede ver la información general del cliente, así como analizar en más detalle documentos específicos. También puede rebuscar en el historial de ventas del cliente. Si es un cliente nuevo, puede crearlo como nuevo en [!INCLUDE[d365fin](includes/d365fin_md.md)] sin salir de Outlook.  
 
-En el complemento, puede crear una cotización de venta y reenviarla a su cliente sin abandonar la ventana de Outlook. Toda la información que necesita para enviar la cotización de venta está disponible en su bandeja de entrada de empresa de Outlook.  
+En el complemento, puede crear una cotización de venta y reenviarla a su cliente sin abandonar la ventana de Outlook. Toda la información que necesita para enviar la cotización venta está disponible en su bandeja de entrada de empresa de Outlook.  
 Una vez especificados los datos, puede registrar la cotización. Puede enviarlo por correo electrónico. [!INCLUDE[d365fin](includes/d365fin_md.md)] genera un archivo .PDF con el presupuesto de ventas y lo adjunta al mensaje que tiene como borrador en el complemento.  
 
 De igual forma, si recibe un correo electrónico de un proveedor, puede utilizar el complemento para trabajar con proveedores y facturas de compra.  

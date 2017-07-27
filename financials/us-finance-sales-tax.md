@@ -1,6 +1,6 @@
 ---
-title: "Impuesto de ventas y grupos de impuestos en EE. UU. y Canadá | Documentos de Microsoft"
-description: "Obtenga información sobre cómo se configura el impuesto de ventas y cómo funcionan los grupos, las áreas, y los detalles de impuesto y las jurisdicciones fiscales."
+title: "Configurar grupos de impuestos, áreas y jurisdicción en EE. UU. y Canadá | Documentos de Microsoft"
+description: "Obtenga información sobre se configura el impuesto sobre las ventas y cómo funcionan los grupos, las áreas (estados, condados, municipios/ciudades y localidades) y las jurisdicciones fiscales, y los detalles de los impuestos."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ff1981a428a2cd3b3864b7f0cc795a1abeab7a10
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 763bb1b954b30734b0f81f121a6534c83442321a
 ms.contentlocale: es-mx
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="sales-tax-and-tax-groups-in-the-us-and-canada"></a>Impuesto de ventas y grupos de impuestos en EE. UU. y Canadá
+# <a name="reporting-sales-tax-in-the-us-and-canada"></a>Informes del impuesto de venta en EE. UU. y Canadá
 Cuando empieza por primera vez a usa [!INCLUDE[d365fin](includes/d365fin_md.md)], puede ejecutar una guía asistida de instalación para configurar rápida y fácilmente la información de los impuestos de venta para su empresa, clientes y proveedores. En cuestión de minutos puede empezar a crear documentos de compra y venta con los impuestos calculados correctamente. Toda esto se explica [en nuestra entrada en el blog](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).
 Si cambia a la opción vacía Mi empresa, recomendamos que empiece usando todas las guías asistidas de instalación incluyendo la de los impuestos de venta. Si prefiere configurar los impuestos sin asistente, este artículo explica qué debe tener en cuenta.  
 
@@ -29,7 +29,7 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)], un grupo del impuesto representa
 
 Cada área de impuesto es un conjunto de jurisdicciones que cobran el impuesto según un lugar geográfico en particular. Por ejemplo, el área de impuesto de Miami, Florida, incluye tres jurisdicciones del impuesto sobre las ventas: municipio/ciudad (Miami), condado (Dade) y estado (Florida). [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un conjunto limitado de áreas de impuesto con una configuración predeterminada, pero puede modificarlas y agregar nuevas áreas.  
 
-Si configura nuevas áreas de impuesto y jurisdicciones impositivas, debe asegurarse de rellenar los campos correctamente. En los Estados Unidos: los estados, los condados, las ciudades y las localidades pueden cobrar impuestos. En Canadá: el gobierno federal y las provincias pueden cobrar impuestos. Las empresas recaudan y envían el impuesto de las ventas que se cobra por los productos que venden a los usuarios finales a estos organismos gubernamentales. El impuesto de las ventas también se puede cobrar sobre un impuesto de las ventas existentes. Por ejemplo, se puede calcular el impuesto sobre el importe de una factura de ventas que ya incluya el impuesto gravado por otra jurisdicción.  
+Si configura nuevas áreas de impuesto y jurisdicciones impositivas, debe asegurarse de rellenar los campos correctamente. En los Estados Unidos: los estados, los condados, los municipios/ciudades y las localidades pueden cobrar impuestos. En Canadá: el gobierno federal y las provincias pueden cobrar impuestos. Las empresas recaudan y envían el impuesto de las ventas que se cobra por los productos que venden a los usuarios finales a estos organismos gubernamentales. El impuesto de las ventas también se puede cobrar sobre un impuesto de las ventas existentes. Por ejemplo, se puede calcular el impuesto sobre el importe de una factura de ventas que ya incluya el impuesto gravado por otra jurisdicción.  
 
 En Canadá, los importes del impuesto se deben detallar en los documentos para cada jurisdicción fiscal. Se pueden mostrar hasta cuatro jurisdicciones en un documento, y se combinan las que tengan el mismo orden de impresión cuando se imprimen.  
 
@@ -43,5 +43,5 @@ En los Estados Unidos, cuando vende a un cliente en un lugar donde no tiene una 
 [Configurar las finanzas](finance-setup-finance.md)  
 [Impuesto sobre bienes y servicios e impuesto de ventas en Canadá](ca-finance-tax.md)  
 [Configuración fácil del Impuesto de ventas](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -1,6 +1,6 @@
 ---
-title: Vender productos| Documentos de Microsoft
-description: "Describe cómo utilizar las órdenes de venta."
+title: Crear un pedido de venta y vender productos | Documentos de Microsoft
+description: "Describe cómo crear un pedido de venta para registrar el acuerdo con un cliente para vender o comerciar productos con condiciones específicas."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,22 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 03/09/2017
+ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a587a9eab63223f7fab94bc4f513d2b6816f0d14
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 7516e79a7cd5585629bb39ac7d97a4e6ba929712
 ms.contentlocale: es-mx
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-sell-products"></a>Procedimiento: Vender productos
 Puede crear una orden o una factura de venta para registrar el contrato con un cliente para vender determinados productos según los términos de entrega y pago establecidos.
 
-**Nota**: Use órdenes de venta si el proceso de venta requiere que pueda enviar parte de una cantidad de la orden, por ejemplo, porque la cantidad total no está disponible a la vez. Si vende productos que se entregan directamente desde el proveedor al cliente, como envío directo, deberá usar también órdenes de venta. Para obtener más información, vea [Procedimiento: Realizar envíos directos](sales-how-drop-shipment.md). En todos los demás aspectos, las órdenes de venta funcionan de la misma forma que las facturas de venta. Para obtener más información, vea [Procedimiento: Facturar ventas](sales-how-invoice-sales.md).
+> [!NOTE]  
+>   Use pedidos de venta si el proceso de venta requiere que pueda enviar parte de una cantidad del pedido, por ejemplo, porque la cantidad total no está disponible a la vez. Si vende productos que se entregan directamente desde el proveedor al cliente, como remisión directa, deberá usar también órdenes de venta. Para obtener más información, vea [Procedimiento: Realizar envíos directos](sales-how-drop-shipment.md). En todos los demás aspectos, las órdenes de venta funcionan de la misma forma que las facturas de venta. Para obtener más información, vea [Procedimiento: Facturar ventas](sales-how-invoice-sales.md).
 
-Puede negociar con el cliente creando primero una cotización que podrá convertir en una orden cuando acuerde la venta. Para obtener más información, vea [Procedimiento: Realización de cotizaciones](sales-how-make-offers.md).
+Puede negociar con el cliente creando primero una cotización venta que podrá convertir en una orden cuando acuerde la venta. Para obtener más información, vea [Procedimiento: Realización de cotizaciones](sales-how-make-offers.md).
 
 Después de que el cliente haya confirmado el contrato, por ejemplo, después de un proceso de cotización, puede enviar una confirmación de orden para registrar su obligación de entregar los productos según se ha acordado.
 
@@ -61,7 +62,8 @@ Puede rellenar los campos de cliente en la orden de venta de dos formas en funci
 9. En la ficha desplegable **Líneas**, en el campo **Producto**, especifique el número de un producto o un servicio de inventario.  
 10. En el campo **Cantidad**, escriba el número de productos que se van a vender.
 
-    **Nota**: Para los producto de tipo Servicio la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.
+    > [!NOTE]  
+>   Para los producto de tipo Servicio la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.
 
     El campo **Importe línea** se actualiza para mostrar el valor del campo **Precio unitario** multiplicado por el valor del campo **Cantidad**.
 
@@ -90,7 +92,8 @@ Puede rellenar los campos de cliente en la orden de venta de dos formas en funci
 
 11. En el campo **Cantidad**, especifique cuántas unidades de producto, cargo o transacción registrará la línea para el cliente.  
 
-    **Nota:** Si el producto es de tipo **Producto - Servicio** o **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.  
+    > [!NOTE]  
+>   Si el producto es de tipo **Producto - Servicio** o **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.  
 
     El valor del campo **Importe línea** se calculará como *Precio venta* x *Cantidad*.  
 
@@ -115,6 +118,6 @@ El producto relacionado y los movimientos de cliente se han creado ahora en su s
 ## <a name="see-also"></a>Consulte también
 [Ventas](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
-[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Inventario](inventory-manage-inventory.md)  
+[Enviar documentos por correo electrónico.](ui-how-send-documents-email.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

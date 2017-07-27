@@ -1,6 +1,6 @@
 ---
-title: Configurar un indicador de color en pilas | Documentos de Microsoft
-description: "Obtenga información sobre cómo usar indicadores de color en pilas del Área de tareas."
+title: "Especificar los indicadores de color para personalizar las señales visuales acerca de la actividad de una pila | Documentos de Microsoft"
+description: "Configure un indicador de color en un mosaico Pila para proporcionar una señal visual personalizada de la actividad de la pila."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: personalize, customize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3c5aff53c522729a95763485eb79d13c0f051831
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0cb10770954f485d9c0a3474615e6c69411de321
 ms.contentlocale: es-mx
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -45,5 +45,5 @@ La tabla siguiente muestra los colores que corresponden a las opciones de los ca
 | **Subordinado** |Gris |
 
 ## <a name="see-also"></a>Consulte también
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

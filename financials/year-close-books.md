@@ -1,6 +1,6 @@
 ---
-title: Cierre de libros| Documentos de Microsoft
-description: Explica los procesos implicados en cerrar los libros de un ejercicio o periodo fiscal.
+title: Resumen de las tareas para cerrar los libros | Documentos de Microsoft
+description: "Obtenga información sobre el proceso de cerrar los libros de un ejercicio o periodo, y qué sucede después de cerrar al final de un ejercicio."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,14 +13,14 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a8d379c971d9b21b0eac552f8c7f68926090f037
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 870f1c6a7f93195e0308a646402d642f6cadd219
 ms.contentlocale: es-mx
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="closing-books"></a>Cierre de libros
+# <a name="closing-the-books"></a>Cerrar los libros
 Una vez que se haya asegurado de que todas sus cuentas estén actualizadas, y que asigne costos e ingresos, puede cerrar los libros para un ejercicio o periodo.
 
 El cierre del año no es obligatorio, pero haciéndolo le resultará más fácil trabajar en el sistema, porque podrá utilizar las opciones de filtrado disponibles. Tampoco tendrá que temer la pérdida de datos de las transacciones al realizar el cierre, porque todos los datos se conservan, incluso después de cerrar el año.
@@ -36,14 +36,14 @@ El proceso de cerrar el libro incluye estas tareas principales:
 2. Registrar asientos post-cierre.
 
     Cuando cierre un ejercicio, debe introducir diversas transacciones administrativas (como productos prepagados y acumulados). Estas transacciones se denominan movimientos de ajuste. No existen reglas especiales para registrar estos movimientos y contienen (al igual que otros movimientos) una marca de verificación en el campo **Asiento post-cierre** si se registran en una fecha de un ejercicio cerrado. Incluso aunque un ejercicio se haya cerrado, todavía podrá registrar en él movimientos de contabilidad.
-3. Transferir saldos de las cuentas de regularización al balance de situación.
+3. Transferir saldos de las cuentas de resultado al balance de situación.
 
-    Una vez cerrado un ejercicio y registrados todos asientos post-cierre, las cuentas de resultados deben cerrarse y los ingresos netos para el año deben transferirse a una cuenta bajo los fondos propios de los propietarios en el balance. Utilice el proceso Asiento regularización con este fin. El proceso procesa todas las cuentas de contabilidad del tipo Resultado y crea movimientos que revierten sus saldos. Estos movimientos se colocan en un diario, desde donde se pueden registrar. El proceso no los registra automáticamente, salvo si se utiliza una divisa de informes adicional. En este caso, el proceso registra directamente en la contabilidad.
+    Una vez cerrado un ejercicio y registrados todos asientos post-cierre, las cuentas de resultados deben cerrarse y los ingresos netos para el año deben transferirse a una cuenta bajo los fondos propios de los propietarios en el balance. Utilice el proceso Cerrar cuenta de resultado con este fin. El proceso procesa todas las cuentas de contabilidad del tipo Resultado y crea movimientos que revierten sus saldos. Estos movimientos se colocan en un diario, desde donde se pueden registrar. El proceso no los registra automáticamente, salvo si se utiliza una divisa de informes adicional. En este caso, el proceso registra directamente en la contabilidad.
 
     Para obtener más información, consulte [Asiento regularización](year-close-income-statement.md).
 4. Registro del movimiento de cierre de fin de año junto con los movimientos de cuenta de desplazamiento de capital.
 
-    Cuando finaliza el proceso Asiento regularización, puede registrar los movimientos que ha generado el proceso. Si no ha especificado una cuenta de ajustes red. div. adic. en el proceso, escriba una línea con un movimiento de saldo que registre los ingresos netos en la cuenta contable correcta bajo los fondos propios de los propietarios en el balance. Finalmente, registre el diario.
+    Cuando finalice el proceso Cerrar cuenta de resultado, puede registrar los movimientos que ha generado el proceso. Si no ha especificado una cuenta de ajustes red. div. adic. en el proceso, escriba una línea con un movimiento de saldo que registre los ingresos netos en la cuenta contable correcta bajo los fondos propios de los propietarios en el balance. Finalmente, registre el diario.
 
     Para obtener más información, consulte [Procedimiento: Registrar movimiento de cierre del ejercicio](year-how-post-year-end-close-entry.md).
 
@@ -56,5 +56,5 @@ Puede realizar registros en un ejercicio anterior, después de se hayan cerrado 
 
 ## <a name="see-also"></a>Consulte también
 [Abrir un nuevo ejercicio](finance-how-open-new-fiscal-year.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

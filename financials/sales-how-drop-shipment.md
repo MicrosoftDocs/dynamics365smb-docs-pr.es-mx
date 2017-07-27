@@ -1,5 +1,5 @@
 ---
-title: "Realizar envíos directos | Documentos de Microsoft"
+title: "Crear una orden de venta asociada a una orden de compra para un envío directo | Documentos de Microsoft"
 description: "Describe cómo crear una orden de venta vinculada a una orden de compra para habilitar el envío directo del proveedor al cliente."
 services: project-madeira
 documentationcenter: 
@@ -13,10 +13,10 @@ ms.search.keywords: direct shipment
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 75d5c4f8417b4b1aaa2dd84cf3ba4b528f0a9f9b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 977debf7386ad1113ef54147b20fd24c7c285a78
 ms.contentlocale: es-mx
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,16 +25,17 @@ Un envío directo es el envío de los productos de uno de sus proveedores direct
 
 Cuando marca una orden de venta para envío directo y crea una orden especificando el cliente en el campo **Venta a-N.º cliente**. puede vincular los dos documentos y así asignar instrucciones al proveedor para que envíe el producto directamente al cliente.
 
-## <a name="to-create-a-sales-order-for-drop-shipment"></a>Para crear una orden de venta de envío directo
-Para preparar un envío directo cree una orden de venta como si fuese normal, pero indique en la línea de ventas que dicha venta requiere un envío directo.
+## <a name="to-create-a-sales-order-for-drop-shipment"></a>Para crear una orden de venta de remisión directa
+Para preparar una remisión directa, cree una orden de venta como si fuese normal, pero indique en la línea de ventas que dicha venta requiere una remisión directa.
 
 1. Cree una orden de venta para un artículo. Para obtener más información, vea [Procedimiento: Vender productos](sales-how-sell-products.md).
 2. En la línea del pedido de venta del envío directo, seleccione la casilla **Envío directo**. Use la función **Elegir columnas** si el campo no está visible. Para obtener más información, vea [Personalización del usuario](ui-user-personalization.md).
 
-**Nota**: Esta funcionalidad que requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
+> [!NOTE]  
+>   Esta funcionalidad requiere que la experiencia esté definida en **Conjunto de aplicaciones**. Para obtener más información, consulte [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md).
 
-## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Para crear órdenes de compra de envío directo
-Para preparar un envío directo de un producto que se va a vender, cree una orden de compra como si fuese normal, pero indique en la orden que el producto debe enviarse directamente al cliente no a usted.
+## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Para crear órdenes de compra de remisión directa
+Para preparar una remisión directa de un producto que se va a vender, cree una orden de compra como si fuese normal, pero indique en dicha orden que el producto debe enviarse directamente al cliente no a usted.
 
 1. Cree una orden de compra. No rellene ningún campo en las líneas. Para obtener más información, consulte [Procedimiento: Registrar compras](purchasing-how-record-purchases.md).
 2. En el campo **Venta a-N.º cliente**, seleccione el cliente al que le está vendiendo.
@@ -52,8 +53,8 @@ Ahora puede asignar instrucciones al proveedor para que envíe los productos al 
 ## <a name="to-post-a-drop-shipment"></a>Para registrar un envío directo
 Después de que el proveedor envíe los productos, puede establecer los pedidos de venta como enviados. También puede registrar la orden de compra, pero solo con la opción **Recibir** hasta que se haya facturado la orden de venta.
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Pedidos de venta** y elija el vínculo relacionado.
-2. Abra la orden de venta que ha creado en la sección "Para crear una orden de venta de envío directo".
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos de venta** y, a continuación, seleccione el vínculo relacionado.
+2. Abra la orden de venta que ha creado en la sección "Para crear una orden de venta de remisión directa".
 3. En el campo **Cantidad a enviar**, especifiqué qué cantidad de la orden debe enviarse, todo o solo una parte.
 4. Seleccione la acción **Registrar** o **Registrar y enviar**.
 5. Elija la opción **Enviar** para facturar más adelante o la opción **Enviar y facturar** para facturar ahora.
@@ -62,6 +63,6 @@ Después de que el proveedor envíe los productos, puede establecer los pedidos 
 [Vender productos](sales-how-sell-products.md)  
 [Registro de compras](purchasing-how-record-purchases.md)  
 [Ventas](sales-manage-sales.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Inventario](inventory-manage-inventory.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

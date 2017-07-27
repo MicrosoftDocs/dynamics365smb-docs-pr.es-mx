@@ -1,6 +1,6 @@
 ---
 title: "Formas de amortización | Documentos de Microsoft"
-description: "Describe los siete métodos que puede usar para amortizar los activos fijos."
+description: "Obtenga información sobre los diferentes métodos para amortizar los activos fijos."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a5a43c6d53bdff7c30133d88c66e33996476f580
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: es-mx
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,10 +31,12 @@ Hay ocho métodos de amortización disponibles:
 * Definido por el usuario  
 * Manual  
 
-  **Nota:**: Use este método para activos no sujetos a amortización, por ejemplo, los terrenos. Debe introducir la amortización en el diario general de activos fijos. El proceso **Calcular amortización** ignora los activos fijos que utilizan este método de amortización.  
+  > [!NOTE]  
+>   Utilice este método para activos no sujetos a amortización, por ejemplo, los terrenos. Debe introducir la amortización en el diario general de activos fijos. El proceso **Calcular amortización** ignora los activos fijos que utilizan este método de amortización.  
 * Convenio de medio año  
 
-  **Nota:** Al utilizar este método, se amortiza la misma cantidad de un activo cada año.  
+  > [!NOTE]  
+>    Al utilizar este método, se amortiza la misma cantidad de un activo fijo cada año.  
 
 ## <a name="straight-line-depreciation"></a>Amortización lineal
 Al utilizar el método lineal, debe especificar una de las siguientes opciones en el libro de amortización de activos fijos:  
@@ -64,7 +66,7 @@ Si especificó un importe fijo anual, el sistema utiliza esta fórmula para calc
 Importe amortización = (Importe fijo amortización x Número días amortización) / 360  
 
 ### <a name="example---straight-line-depreciation"></a>Ejemplo: amortización lineal
-Un activo tiene un costo de 100.000 $. Su vida estimada es de ocho años. El proceso **Calcular amortización** se realiza cada dos años.  
+Un activo fijo tiene un costo de adquisición de $100 000. Su vida estimada es de ocho años. El proceso **Calcular amortización** se realiza cada dos años.  
 
 Para este ejemplo, el movimiento de activo fijo es el siguiente:  
 
@@ -92,7 +94,7 @@ La base amortizable se calcula como el valor neto menos la amortización desde l
 El importe de amortización registrado puede contener ciertos movimientos con diferentes tipos de registros (depreciación, personalizado1 y personalizado2) registrados desde el inicio del año fiscal actual. Estos tipos de registro se incluyen en el importe de amortización registrado, si los campos **Tipo amortización** y **Componente valor contable** están activados en la ventana **Config. tipo registro A/F**.  
 
 ### <a name="example---declining-balance-1-depreciation"></a>Ejemplo: amortización con regresivo 1
-Un activo tiene un costo de 100.000 $. El valor del campo **% Regresivo** es 25. El proceso **Calcular amortización** se realiza cada dos años.  
+Un activo fijo tiene un costo de adquisición de $100 000. El valor del campo **% Regresivo** es 25. El proceso **Calcular amortización** se realiza cada dos años.  
 
 La siguiente tabla muestra el aspecto de los movimientos de activo fijo.  
 
@@ -126,7 +128,7 @@ La siguiente tabla muestra el aspecto de los movimientos de activo fijo.
 Los métodos Regresivo 1 y Regresivo 2 calculan el mismo importe total de amortización para cada año. Sin embargo, si ejecuta el proceso **Calcular amortización** más de una vez al año, el método Regresivo 1 dará como resultado importes de amortización iguales para cada periodo de amortización. Por otra parte, el método Regresivo 2 dará como resultado importes de amortización cada vez más reducidos en cada periodo.  
 
 ### <a name="example---declining-balance-2-depreciation"></a>Ejemplo: amortización con regresivo 2
-Un activo tiene un costo de 100.000 $. El valor del campo **% Regresivo** es 25. El proceso **Calcular amortización** se realiza cada dos años. Los movimientos de activos son los siguientes:  
+Un activo fijo tiene un costo de adquisición de $100 000. El valor del campo **% Regresivo** es 25. El proceso **Calcular amortización** se realiza cada dos años. Los movimientos de activos fijos son los siguientes:  
 
 | Fecha | A/F Tipo registro | Días | Importe | Valor contable |
 | --- | --- | --- | --- | --- |
@@ -169,9 +171,9 @@ Puede usar varios porcentajes para el cálculo regresivo.
 Si utiliza este método, deberá introducir la vida útil estimada y el porcentaje regresivo en la ventana **A/F Libros amortización**.  
 
 ### <a name="example---db1-sl-depreciation"></a>Ejemplo: amortización Rs1/L
-Un activo tiene un costo de 100.000 $. En la ventana **A/F Crear libros amortización**, el campo **% disminución de saldo** contiene 25 y el campo **N. º años amortización** contiene 8. El proceso **Calcular amortización** se realiza cada dos años.  
+Un activo fijo tiene un costo de adquisición de $100 000. En la ventana **A/F Crear libros amortización**, el campo **% disminución de saldo** contiene 25 y el campo **N. º años amortización** contiene 8. El proceso **Calcular amortización** se realiza cada dos años.  
 
-Los movimientos de activos son los siguientes:  
+Los movimientos de activos fijos son los siguientes:  
 
 | Fecha | A/F Tipo registro | Días | Importe | Valor contable |
 | --- | --- | --- | --- | --- |
@@ -203,7 +205,7 @@ Método de cálculo:
 
 *Importe regresivo: 25% de 100.000 = 25.000=12.500+12.500*  
 
-*Importe lineal = 100.000 / 8 = 12.500 = 6.250 + 6.250*  
+*Importe lineal = 100.000/8=12.500=6.250+6.250*  
 
 Se utiliza el importe regresivo, ya que es el importe mayor.  
 
@@ -230,14 +232,14 @@ Este método definido por el usuario también se puede utilizar para amortizar s
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Para configurar métodos de amortización definidos por usuario
 En la ventana **Tabla amortización**, puede configurar métodos de amortización definidos por el usuario. Por ejemplo, puede configurar la amortización según el número de unidades.  
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Tablas amortización** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Tablas amortización** y, a continuación, seleccione el vínculo relacionado.  
 2. En la ventana **Lista tablas amortización**, elija la acción **Nuevo**.  
 3. En la ventana **Ficha tablas amortización**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Ejemplo: amortización definida por el usuario
 Por motivos de impuestos puede utilizar un método amortización que le permita amortizar activos de forma acelerada.  
 
-Por tanto, podría utilizar los siguientes tipos de depreciación de un activo con una duración de tres años:  
+Por tanto, podría utilizar las siguientes tasas de depreciación para un activo fijo con una duración de tres años para fines fiscales:  
 
 * año 1: 25%  
 * año 2: 38%  
@@ -282,12 +284,13 @@ Este método de amortización puede utilizarse junto con los siguientes métodos
 
 Al aplicar el Convenio medio año, un activo fijo tiene seis meses de amortización en el primer año fiscal, independientemente del contenido del campo **Fecha primera amortización**.  
 
-**Nota:** La vida estimada del activo que resta después del año fiscal siempre será de medio año con el método Convenio medio año. De esta manera, para poder aplicar correctamente el método Convenio medio año, el campo **Fecha final amortización** de la ventana **A/F Libro amortización** siempre debe contener una fecha exactamente seis meses antes de la fecha final del año fiscal en el que se amortizó totalmente el activo fijo.  
+> [!NOTE]  
+>   La vida estimada del activo que resta después del ejercicio siempre será de medio año con el método Convenio medio año. De esta manera, para poder aplicar correctamente el método Convenio medio año, el campo **Fecha final amortización** de la ventana **A/F Libro amortización** siempre debe contener una fecha exactamente seis meses antes de la fecha final del año fiscal en el que se amortizó totalmente el activo fijo.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Ejemplo - Amortización de convenio de medio año
 Un activo tiene un costo de 100.000 $. La **Fecha inicio amortización** es 01/03/10. La vida estimada es de cinco años, por lo que la **Fecha final amortización** debe ser 30/06/15. El proceso **Calcular amortización** se realiza cada año. Este ejemplo sigue el calendario fiscal anual.  
 
-Los movimientos de activos son los siguientes:  
+Los movimientos de activos fijos son los siguientes:  
 
 | Fecha | A/F Tipo registro | Días | Importe | Valor contable |
 | --- | --- | --- | --- | --- |
@@ -302,9 +305,9 @@ Los movimientos de activos son los siguientes:
 * Fecha inicio amortización  
 
 ## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Ejemplo - Amortización Rs1/L utilizando el convenio de medio año
-Un activo tiene un costo de 100.000 $. La **Fecha inicio amortización** es 01/11/10. La vida estimada es de cinco años, por lo que la **Fecha final amortización** debe ser 30/06/15. En la ventana **A/F Libros amortización**, el campo **% disminución de saldo** contiene 40. El proceso **Calcular amortización** se realiza cada año. Este ejemplo sigue el calendario fiscal anual.  
+Un activo fijo tiene un costo de adquisición de $100 000. La **Fecha inicio amortización** es 01/11/10. La vida estimada es de cinco años, por lo que la **Fecha final amortización** debe ser 30/06/15. En la ventana **A/F Libros amortización**, el campo **% disminución de saldo** contiene 40. El proceso **Calcular amortización** se realiza cada año. Este ejemplo sigue el calendario fiscal anual.  
 
-Los movimientos de activos son los siguientes:  
+Los movimientos de activos fijos son los siguientes:  
 
 | Fecha | A/F Tipo registro | Días | Importe | Valor contable |
 | --- | --- | --- | --- | --- |
@@ -343,14 +346,16 @@ Si tiene tres libros de amortización, B1, B2 y B3, y desea duplicar los movimie
 
 Cuando introduzca un movimiento en B1 del diario general de activos fijos y active el campo **Utiliza lista duplicados**, el programa duplicará el movimiento en los libros B2 y B3 del diario de activos en el momento de registrar el movimiento.  
 
-**Nota:** No puede duplicar en el mismo diario y proceso de diario desde el que está duplicando. Si registra movimientos en el diario general de activos fijos, podrá duplicarlos en el diario de activos o en el diario general de activos fijos mediante otro proceso.  
+> [!NOTE]  
+>   No puede duplicar en el mismo diario y proceso de diario desde el que está duplicando. Si registra movimientos en el diario general de activos fijos, podrá duplicarlos en el diario de activos o en el diario general de activos fijos mediante otro proceso.  
 
-**Nota:** No puede utilizar el mismo número de serie en los diarios generales de activos fijos y en los diarios de activos fijos. Al registrar movimientos en los diarios generales de activos fijos, debe dejar en blanco el campo **N. º documento**. campo vacío. Si introduce un número en el campo, el número se duplica en el diario de activos fijos. También tendrá que modificar manualmente el número de documento para poder registrar el diario.  
+> [!NOTE]  
+>   No puede utilizar la misma serie de numeración en los diarios generales de activos fijos y en los diarios de activos fijos. Al registrar movimientos en los diarios generales de activos fijos, debe dejar en blanco el campo **N. º documento**. campo vacío. Si introduce un número en el campo, el número se duplica en el diario de activos fijos. También tendrá que modificar manualmente el número de documento para poder registrar el diario.  
 
 ## <a name="see-also"></a>Consulte también
 [Activos fijos](fa-manage.md)  
 [Configurar activos fijos](fa-setup.md)  
 [Finanzas](finance.md)  
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

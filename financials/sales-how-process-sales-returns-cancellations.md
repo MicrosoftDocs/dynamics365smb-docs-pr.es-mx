@@ -1,6 +1,6 @@
 ---
-title: Proceso de devoluciones o cancelaciones de ventas | Documentos de Microsoft
-description: Procesamiento de devoluciones de ventas o cancelaciones
+title: "Usar una nota de crédito de venta para procesar devoluciones o cancelaciones de ventas | Documentos de Microsoft"
+description: "Describe cómo crear una nota de crédito de venta para procesar una devolución, una cancelación o un reembolso de productos o servicios de los que ha recibido el pago."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,29 +10,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 03/29/2016
+ms.date: 06/21/2016
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: cf471e0c3a13a954ab7604a8b1d0f715f664722d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f08526054e99f742cedfefe036d8903304e54a56
 ms.contentlocale: es-mx
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-process-sales-returns-or-cancellations"></a>Procesamiento de devoluciones de ventas o cancelaciones
 Si un cliente desea devolver u obtener un reembolso de algún producto o servicio que usted vendió y que le pagaron, debe crear y registrar una nota de crédito de ventas que especifique el cambio requerido. Para incluir la información correcta de la factura de venta, puede crear la nota de crédito de venta de la factura de venta registrada o usar una función de copia.  
 
-**Nota**: Si una factura de venta registrada aún no se ha pagado, puede usar las funciones **Corregir** o **Cancelar** en la factura de venta registrada para revertir las transacciones. Estas funciones solo funcionan para las facturas sin pagar y no admiten devoluciones o cancelaciones parciales. Para obtener más información, vea [Procedimiento: Corregir o cancelar las facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md)
+> [!NOTE]  
+>   Si una factura de venta registrada aún no se ha pagado, puede usar las funciones **Corregir** o **Cancelar** en la factura de venta registrada para revertir las transacciones. Estas funciones solo funcionan para las facturas sin pagar y no admiten devoluciones o cancelaciones parciales. Para obtener más información, vea [Procedimiento: Corregir o cancelar las facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md)
 
 Además de la factura de venta registrada original, puede liquidar la nota de crédito de venta a otros documentos de venta, por ejemplo, otra factura de venta registrada, porque el cliente también devuelve los productos entregados con dicha factura.
 
 Una devolución o reembolso se puede relacionar con solo algunos de los productos o servicios de la factura de venta original. En ese caso, debe editar la información de las líneas de la nota de crédito de venta. Cuando se registra la nota de crédito de venta, se revierten los documentos de venta que se ven afectados por el cambio y se puede crear un pago de reembolso para el cliente.  
 
-Puede enviar la nota de crédito de venta registrada al cliente para confirmar la devolución o la cancelación y comunicar que el valor relacionado se reembolsará, por ejemplo, cuando se devuelvan los productos.  
+Puede enviar la nota de crédito ventas registradas al cliente para confirmar la devolución o la cancelación y comunicar que el valor relacionado se reembolsará, por ejemplo, cuando se devuelvan los productos.
+
+El registro de la nota de crédito también revertirá cualquier cargo de producto que se hubiera asignado al documento registrado, de modo que los movimientos de valor del producto serán los mismos de antes que se asignara el cargo de producto.
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Para crear una nota de crédito de venta desde una factura de venta registrada
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Histórico facturas venta** y elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Facturas de ventas registradas** y, a continuación, elija el vínculo relacionado.  
 2. En la ventana **Facturas de venta registradas**, seleccione la factura de ventas que desea revertir y, a continuación, seleccione la acción **Crear nota de crédito correctiva**.
 
     La cabecera de la nota de crédito de venta contiene información de la factura de venta registrada. Puede modificarla, por ejemplo, mediante la nueva información que indica el contrato de devolución.  
@@ -51,10 +54,10 @@ Puede enviar la nota de crédito de venta registrada al cliente para confirmar l
 
 El cuadro de diálogo de **Registrar y enviar confirmación** se abre para mostrar el método de envío preferido para el cliente. Puede cambiar el método de envío seleccionando el botón de búsqueda en el campo **Enviar documento a**. Para obtener más información, vea [Procedimiento: Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).  
 
-Los documentos de venta registrados a los que ha aplicado la nota de crédito están invertidos y se puede crear un pago de reembolso para el cliente. La nota de crédito de venta se ha eliminado y remplazado por un nuevo documento en la lista de notas de crédito de venta registradas.
+Los documentos de venta registrados a los que ha aplicado la nota de crédito están invertidos y se puede crear un pago de reembolso para el cliente. La nota de crédito de venta se ha eliminado y remplazado por un nuevo documento en la lista de notas de crédito ventas registradas.
 
 ## <a name="to-create-a-sales-credit-memo-from-scratch"></a>Para crear una nota de crédito de venta desde cero
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), especifique **Histórico facturas venta** y elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Abonos de venta** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione la acción **Nuevo** para abrir una nota de crédito de venta vacía.
 3. En el campo **Cliente**, escriba el nombre de un cliente existente.
 4. Elija la acción **Copiar documento**.
@@ -67,6 +70,6 @@ Los documentos de venta registrados a los que ha aplicado la nota de crédito es
 ## <a name="see-also"></a>Consulte también
 [Ventas](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
-[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Enviar documentos por correo electrónico.](ui-how-send-documents-email.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

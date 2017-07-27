@@ -1,6 +1,6 @@
 ---
-title: Realizar ofertas | Documentos de Microsoft
-description: "Realización de cotizaciones"
+title: "Crear una oferta de venta o una cotización de venta | Documentos de Microsoft"
+description: "Describe cómo crear una oferta de venta o un documento de solicitud de propuesta (RFQ) para registrar la oferta a un cliente para vender productos con determinadas condiciones."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,17 +12,17 @@ ms.search.keywords: rfq
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e04af16b9fcd08217e2a3efc60288805a4db26f2
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 86aad5cbe448b8de396338c609979150cc4adfa6
 ms.contentlocale: es-mx
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-make-offers"></a>Realización de cotizaciones
-Puede crear una cotización de venta para registrar la oferta realizada a un cliente para vender determinados productos según ciertos términos de entrega y pago. Puede enviar la cotización de venta al cliente para comunicar la oferta. Puede enviar por correo electrónico el documento como un documento PDF anexo. También puede rellenar previamente el cuerpo del correo electrónico con un resumen de la cotización. Para obtener más información, vea [Procedimiento: Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
+Puede crear una cotización venta para registrar la oferta realizada a un cliente para vender determinados productos según ciertos términos de entrega y pago. Puede enviar la cotización venta al cliente para comunicar la oferta. Puede enviar por correo electrónico el documento como un documento PDF anexo. También puede rellenar previamente el cuerpo del correo electrónico con un resumen de la cotización. Para obtener más información, vea [Procedimiento: Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
 
-Mientras negocia con el cliente, puede cambiar y reenviar la cotización de venta el número de veces que sea necesario. Cuando el cliente acepte la cotización, convierta la cotización de venta en una factura de venta o una orden de venta en la que se procesa la venta. Para obtener más información, consulte [Procedimiento: Facturar ventas](sales-how-invoice-sales.md) o [Procedimiento: Vender productos](sales-how-sell-products.md).
+Mientras negocia con el cliente, puede cambiar y reenviar la cotización venta el número de veces que sea necesario. Cuando el cliente acepte la cotización, convierta la cotización venta en una factura de venta o una orden de venta en la que se procese la venta. Para obtener más información, consulte [Procedimiento: Facturar ventas](sales-how-invoice-sales.md) o [Procedimiento: Vender productos](sales-how-sell-products.md).
 
 Puede rellenar los campos de clientes en la cotización de venta de dos formas en función de si el cliente ya está registrado. Consulte los pasos 2 y 3 del siguiente procedimiento.
 
@@ -37,7 +37,7 @@ En la página principal, elija la acción **Oferta de venta**.
 6. Una nueva ficha de cliente muestra la información sobre la plantilla de cliente seleccionada. Rellene el resto de campos. Para obtener más información, vea [Procedimiento: Registrar nuevos clientes](sales-how-register-new-customers.md).  
 7. Cuando haya completado la ficha cliente, haga clic en el botón **Aceptar** para volver a la ventana **Cotización venta**.
 
-   Muchos campos de la cotización de venta se rellenan con la información especificada en la nueva ficha cliente.  
+   Muchos campos de la cotización venta se rellenan con la información especificada en la nueva ficha cliente.  
 8. Rellene los campos en la ventana **Cotización de venta** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Ahora podrá rellenar las líneas de la factura de pedido de los productos que vende al cliente o para cualquier transacción con el cliente que desee registrar en una cuenta de contabilidad.   
@@ -51,7 +51,8 @@ Si ha configurado líneas de venta periódicas para el cliente, por ejemplo, una
 
 11. En el campo **Cantidad**, especifique cuántas unidades de producto, cargo o transacción registrará la línea para el cliente.
 
-    **Nota:** Si el producto es de tipo **Producto - Servicio** o **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.  
+    > [!NOTE]  
+>   Si el producto es de tipo **Producto - Servicio** o **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.  
 
     El valor del campo **Importe línea** se calculará como *Precio venta* x *Cantidad*.  
 
@@ -69,11 +70,11 @@ Si ha configurado líneas de venta periódicas para el cliente, por ejemplo, una
 16. En la ventana **Enviar correo electrónico**, rellene los campos restantes y revise la oferta de venta incluida. Para obtener más información, vea [Procedimiento: Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
 17. Si el cliente acepta la cotización, seleccione la acción **Generar factura** o **Realizar orden**.
 
-La cotización de venta se quita de la base de datos. Una factura de venta o una orden de venta se crea a partir de la información de la cotización de venta en la que puede procesar la venta. En el campo **N.º cotización**, de la factura de venta o de la orden de venta puede ver el número de la cotización de venta a partir de la que se creó. Para obtener más información, consulte [Procedimiento: Facturar ventas](sales-how-invoice-sales.md) o [Procedimiento: Vender productos](sales-how-sell-products.md).
+La cotización venta se quita de la base de datos. Una factura de venta o una orden de venta se crea a partir de la información de la cotización venta en la que puede procesar la venta. En el campo **N.º cotización**, de la factura de venta o de la orden de venta puede ver el número de la cotización venta a partir de la que se creó. Para obtener más información, consulte [Procedimiento: Facturar ventas](sales-how-invoice-sales.md) o [Procedimiento: Vender productos](sales-how-sell-products.md).
 
 ## <a name="see-also"></a>Consulte también
 [Ventas](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
-[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Enviar documentos por correo electrónico.](ui-how-send-documents-email.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
