@@ -16,44 +16,43 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 42e5357eb78df09437bbd22a288f4e583de27e67
 ms.contentlocale: es-mx
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-create-interactions-on-contacts-and-segments"></a>Procedimiento: Crear interacciones en contactos y segmentos
-Puede crear interacciones para registrar todas las interacciones y comunicaciones que mantenga con sus contactos y segmentos, por ejemplo, con el correo directo.
+# <a name="how-to-create-interactions-on-contacts-and-segments"></a><span data-ttu-id="cd92b-103">Procedimiento: Crear interacciones en contactos y segmentos</span><span class="sxs-lookup"><span data-stu-id="cd92b-103">How to: Create Interactions on Contacts and Segments</span></span>
+<span data-ttu-id="cd92b-104">Puede crear interacciones para registrar todas las interacciones y comunicaciones que mantenga con sus contactos y segmentos, por ejemplo, con el correo directo.</span><span class="sxs-lookup"><span data-stu-id="cd92b-104">You can create interactions to record all the interactions and communications you have with your contacts and segments, for example, direct mail.</span></span>
 
-Antes de crear interacciones, debe configurar las plantillas de interacción. Para obtener más información, vea [Configurar plantillas de interacción](marketing-interactions.md).
+<span data-ttu-id="cd92b-105">Antes de crear interacciones, debe configurar las plantillas de interacción.</span><span class="sxs-lookup"><span data-stu-id="cd92b-105">Before you create interactions, you must set up interaction templates.</span></span> <span data-ttu-id="cd92b-106">Para obtener más información, vea [Configurar plantillas de interacción](marketing-interactions.md).</span><span class="sxs-lookup"><span data-stu-id="cd92b-106">For more information, see  [Set Up Interaction Templates](marketing-interactions.md).</span></span>
 
-## <a name="to-create-an-interaction"></a>Para crear interacciones
-1. Abra el contacto, el vendedor o el movimiento de registro de interacción.
-2. Seleccione la acción **Crear interacción**.
-3. Rellene los campos y, a continuación, elija el botón **Aceptar**.
+## <a name="to-create-an-interaction"></a><span data-ttu-id="cd92b-107">Para crear interacciones</span><span class="sxs-lookup"><span data-stu-id="cd92b-107">To create an interaction</span></span>
+1. <span data-ttu-id="cd92b-108">Abra el contacto, el vendedor o el movimiento de registro de interacción.</span><span class="sxs-lookup"><span data-stu-id="cd92b-108">Open the contact, salesperson, or interaction log entry.</span></span>
+2. <span data-ttu-id="cd92b-109">Seleccione la acción **Crear interacción**.</span><span class="sxs-lookup"><span data-stu-id="cd92b-109">Choose the **Create Interaction** action.</span></span>
+3. <span data-ttu-id="cd92b-110">Rellene los campos y, a continuación, elija el botón **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="cd92b-110">Fill in the fields, and then choose the **OK** button.</span></span>
 
 > [!NOTE]  
->   Si tiene que ejecutar otra tarea antes de finalizar la interacción, puede seleccionar **Cancelar** y, a continuación, finalizar la interacción más adelante. Esto hace que se aplace la interacción.
+>   <span data-ttu-id="cd92b-111">Si tiene que ejecutar otra tarea antes de finalizar la interacción, puede seleccionar **Cancelar** y, a continuación, finalizar la interacción más adelante.</span><span class="sxs-lookup"><span data-stu-id="cd92b-111">If you need to perform another task before finishing the interaction, you can choose **Cancel** and then finish the interaction at a later time.</span></span> <span data-ttu-id="cd92b-112">Esto hace que se aplace la interacción.</span><span class="sxs-lookup"><span data-stu-id="cd92b-112">This postpones the interaction.</span></span>
 
-## <a name="to-finish-and-delete-postponed-interactions"></a>Para finalizar y eliminar interacciones aplazadas
-1. Abra el contacto, el vendedor o el movimiento de registro de interacción.
-2. Seleccione **Interacciones aplazadas**.
-3. Seleccione la interacción que desea terminar y, a continuación, seleccione la acción **Reanudar**.
+## <a name="to-finish-and-delete-postponed-interactions"></a><span data-ttu-id="cd92b-113">Para finalizar y eliminar interacciones aplazadas</span><span class="sxs-lookup"><span data-stu-id="cd92b-113">To finish and delete postponed interactions</span></span>
+1. <span data-ttu-id="cd92b-114">Abra el contacto, el vendedor o el movimiento de registro de interacción.</span><span class="sxs-lookup"><span data-stu-id="cd92b-114">Open the contact, salesperson, or interaction log entry.</span></span>
+2. <span data-ttu-id="cd92b-115">Seleccione **Interacciones aplazadas**.</span><span class="sxs-lookup"><span data-stu-id="cd92b-115">Choose **Postponed Interactions**.</span></span>
+3. <span data-ttu-id="cd92b-116">Seleccione la interacción que desea terminar y, a continuación, seleccione la acción **Reanudar**.</span><span class="sxs-lookup"><span data-stu-id="cd92b-116">Select the interaction you want to finish, and then choose the **Resume** action.</span></span>
 
-## <a name="to-create-an-interaction-on-a-segment"></a>Para crear una interacción en un segmento
-1. En la página Inicio, seleccione **Activar segmentos** o, en la esquina superior derecha, seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), introduzca **Segmentos** y, a continuación, seleccione el vínculo relacionado.
-2. En la ventana **Segmento**, en la sección **Interacción**, rellene los campos para especificar qué interacción quiere asignar al segmento.
+## <a name="to-create-an-interaction-on-a-segment"></a><span data-ttu-id="cd92b-117">Para crear una interacción en un segmento</span><span class="sxs-lookup"><span data-stu-id="cd92b-117">To create an interaction on a segment</span></span>
+1. <span data-ttu-id="cd92b-118">En la página Inicio, seleccione **Activar segmentos** o, en la esquina superior derecha, seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), introduzca **Segmentos** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="cd92b-118">On the Home page, choose **Active Segments**, or choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Segments**, and then choose the related link.</span></span>
+2. <span data-ttu-id="cd92b-119">En la ventana **Segmento**, en la sección **Interacción**, rellene los campos para especificar qué interacción quiere asignar al segmento.</span><span class="sxs-lookup"><span data-stu-id="cd92b-119">In the **Segment window**, in the **Interaction** section, fill in the fields to specify which interaction you want to assign to the segment.</span></span>
 
-    Después de asignar una interacción al segmento puede personalizar la interacción para cada contacto particular dentro del segmento, por ejemplo seleccionando otra plantilla de interacción en las líneas de la ventana **Segmento**.  
-3. Para registrar el segmento y las interacciones, seleccione la acción **Registrar**. Se abre la ventana **Grabar segmento**.
-4. Active la casilla de verificación **Crear segmento seguimiento** si desea crear un segmento nuevo que contenga los mismos contactos. Para crear un segmento de seguimiento, debe haber especificado antes números de serie para los segmentos en la ventana **Configuración marketing**.
+    <span data-ttu-id="cd92b-120">Después de asignar una interacción al segmento puede personalizar la interacción para cada contacto particular dentro del segmento, por ejemplo seleccionando otra plantilla de interacción en las líneas de la ventana **Segmento**.</span><span class="sxs-lookup"><span data-stu-id="cd92b-120">After you have assigned an interaction to the segment, you can personalize the interaction for each particular contact within the segment, for example, by selecting another interaction template on the lines in the **Segment** window.</span></span>  
+3. <span data-ttu-id="cd92b-121">Para registrar el segmento y las interacciones, seleccione la acción **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="cd92b-121">To log the segment and interactions, choose the **Log** action.</span></span> <span data-ttu-id="cd92b-122">Se abre la ventana **Grabar segmento**.</span><span class="sxs-lookup"><span data-stu-id="cd92b-122">The **Log Segment** window opens.</span></span>
+4. <span data-ttu-id="cd92b-123">Active la casilla de verificación **Crear segmento seguimiento** si desea crear un segmento nuevo que contenga los mismos contactos.</span><span class="sxs-lookup"><span data-stu-id="cd92b-123">If you want to create a new segment containing the same contacts, select the **Create Follow-up Segment** check box.</span></span> <span data-ttu-id="cd92b-124">Para crear un segmento de seguimiento, debe haber especificado antes números de serie para los segmentos en la ventana **Configuración marketing**.</span><span class="sxs-lookup"><span data-stu-id="cd92b-124">To create a follow-up segment, you must have specified number series for segments in the **Marketing Setup** window.</span></span>
 
-Se registra una interacción para cada contacto dentro del segmento en la tabla **Movimiento de registro de interacción** y se archiva el segmento. Puede encontrar los segmentos grabados en la ventana **Segmento grabado**.
+<span data-ttu-id="cd92b-125">Se registra una interacción para cada contacto dentro del segmento en la tabla **Movimiento de registro de interacción** y se archiva el segmento.</span><span class="sxs-lookup"><span data-stu-id="cd92b-125">An interaction is recorded for each contact within the segment in the **Interaction Log Entry** table, and the segment is logged.</span></span> <span data-ttu-id="cd92b-126">Puede encontrar los segmentos grabados en la ventana **Segmento grabado**.</span><span class="sxs-lookup"><span data-stu-id="cd92b-126">Logged segments can be found in the **Logged Segment** window.</span></span>
 
-Si activó la casilla **Crear segmento seguimiento**, se creará un nuevo segmento que contendrá los mismos contactos que el segmento recién archivado.
+<span data-ttu-id="cd92b-127">Si activó la casilla **Crear segmento seguimiento**, se creará un nuevo segmento que contendrá los mismos contactos que el segmento recién archivado.</span><span class="sxs-lookup"><span data-stu-id="cd92b-127">If you have selected the **Create Follow-up Segment** check box, a new segment is created that contains the same contacts as the segment you have just logged.</span></span>
 
-## <a name="see-also"></a>Consulte también
-[Registrar interacciones](marketing-interactions.md)  
-[Gestionar contactos](marketing-contacts.md)  
-[Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
-[Configurar la gestión de relaciones](marketing-setup-marketing.md)  
-[Trabajar con Financials](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="cd92b-128">Consulte también</span><span class="sxs-lookup"><span data-stu-id="cd92b-128">See Also</span></span>
+[<span data-ttu-id="cd92b-129">Registrar interacciones</span><span class="sxs-lookup"><span data-stu-id="cd92b-129">Recording Interactions</span></span>](marketing-interactions.md)  
+[<span data-ttu-id="cd92b-130">Gestionar contactos</span><span class="sxs-lookup"><span data-stu-id="cd92b-130">Managing Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="cd92b-131">Administrar oportunidades de venta</span><span class="sxs-lookup"><span data-stu-id="cd92b-131">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
+[<span data-ttu-id="cd92b-132">Configurar la gestión de relaciones</span><span class="sxs-lookup"><span data-stu-id="cd92b-132">Setting Up Relationship Management</span></span>](marketing-setup-marketing.md)  
+[<span data-ttu-id="cd92b-133">Trabajar con Financials</span><span class="sxs-lookup"><span data-stu-id="cd92b-133">Working with Financials</span></span>](ui-work-product.md)
 

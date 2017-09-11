@@ -15,8 +15,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: b51c163dc8eafc462a1fd489d498d44eaeafd24a
 ms.contentlocale: es-mx
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
 # Procedimiento: Trabajar con productos no inventariables
