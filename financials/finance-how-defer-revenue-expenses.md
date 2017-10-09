@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 06/16/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 40db0f3018bcf9575f80aa858bd9febd7bf0846a
 ms.contentlocale: es-mx
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-defer-revenues-and-expenses"></a>Procedimiento: fraccionar ingresos y gastos
@@ -46,7 +45,7 @@ Para ambos tipos de fraccionamiento seleccione **Balance** en el campo **Tipo** 
    * **Igual por periodo**: los importes periódicos fraccionados se calculan según el número de periodos, distribuidos equitativamente en los periodos.
    * **Días por periodo**: los importes periódicos fraccionados se calculan según el número de días en el periodo.
    * **Definido por el usuario**: no se calculan los importes periódicos de fraccionamiento. Debe rellenar manualmente el campo **Importe** para cada periodo de la ventana Previsión fraccionamiento. Para obtener más información, consulte la sección "Para cambiar una previsión de fraccionamiento de una factura de venta".
-5. En el campo **Desc. del período** especifique una descripción que se mostrará en los movimientos para el registro de fraccionamiento. Puede introducir los siguientes códigos de marcador de posición para valores habituales, que se insertarán automáticamente cuando se muestre la descripción del periodo.
+5. En el campo **Desc. del período**, especifique una descripción que se mostrará en los movimientos para el registro de fraccionamiento. Puede introducir los siguientes códigos de marcador de posición para valores habituales, que se insertarán automáticamente cuando se muestre la descripción del periodo.
 
    * %1 = el número de día de la fecha de registro del periodo
    * %2 = el número de semana de la fecha de registro del periodo

@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 06/16/2017
+ms.date: 06/14/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: b7b69b3419520c482cbe6a84494bbac7ef35bea1
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 844668124df1897493737b28383a68a2a0a66d10
 ms.contentlocale: es-mx
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="working-with-dimensions"></a>Trabajar con dimensiones
@@ -38,6 +37,9 @@ Cuantas más dimensiones use, más detallados serán los informes en los que pue
 
 ## <a name="analyzing-by-dimensions"></a>Analizar por dimensiones
 La funcionalidad Dimensiones desempeña una función importante en la inteligencia empresarial, por ejemplo al definir vistas de análisis. Para obtener más información, vea [Analizar datos por dimensiones](bi-how-analyze-data-dimension.md).
+
+> [!TIP]
+> Como una forma rápida de analizar datos transaccionales por dimensiones, puede filtrar por dimensiones los totales del plan de cuentas y movimientos en todas las ventanas **Movimientos**. Busque la acción **Establecer filtro de dimensiones**.
 
 ## <a name="dimension-sets"></a>Grupos de dimensiones
 Un grupo de dimensiones es una combinación única de valores de dimensión. Se almacena como movimientos de grupo de dimensiones en la base de datos. Cada movimiento de grupo de dimensiones representa un valor de dimensión único. El grupo de dimensiones se identifica por medio de un id común del grupo de dimensiones que está asignado a cada movimiento de grupo de dimensiones que pertenece al grupo de dimensiones.  
@@ -104,10 +106,11 @@ En un documento como una orden de venta, puede agregar información de dimensió
 
 Si trabaja con un diario, puede agregar información de dimensiones a un movimiento del mismo modo, si ha configurado dimensiones abreviadas como campos directamente en las líneas de diario.  
 
-Puede configurar dimensiones predeterminadas para cuentas o tipos de cuenta, para que esas dimensiones o valores de dimensión se completen automáticamente.  
+Puede configurar dimensiones predeterminadas para cuentas o tipos de cuenta, para que esas dimensiones o valores de dimensión se completen automáticamente.
 
 ## <a name="see-also"></a>Consulte también
 [Inteligencia empresarial](bi.md)  
 [Finanzas](finance.md)  
+[Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

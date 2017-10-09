@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: deb05c6294edeb892606154b38de2aa406abf6a2
 ms.contentlocale: es-mx
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Asignación de texto en pagos periódicos a cuentas para conciliación automática
@@ -33,7 +32,7 @@ Los pagos registrados según la asignación de texto a cuenta no se aplican a mo
 > [!NOTE]  
 >   Los pagos en las líneas de diario de conciliación solo están configuradas para el registro según el mapeo de texto a cuenta si la función de liquidación automática únicamente puede proporcionar una confianza de coincidencia de **Baja** o **Media**. Si la función de liquidación automática proporciona confianza de la coincidencia Alta, el pago se liquida automáticamente en uno o varios movimientos pendientes y no se contabiliza en las cuentas especificadas de la ventana **Asignación de texto a cuenta**. En otras palabras, una confianza de coincidencia **Alta** invalida el mapeo de texto a cuenta.
 
-En una línea del diario de conciliación de pagos en la que el pago se estableció en contabilizarse según la asignación de texto a cuenta, el campo **Confianza de la coincidencia** contiene **Alta: asignación de texto a cuenta** y los campos **Tipo de cta.** y **N.º de cuenta**. contienen las cuentas asociadas.
+En una línea del diario de conciliación de pagos en la que el pago se estableció en contabilizarse según la asignación de texto a cuenta, el campo **Confianza de la coincidencia** contiene **Alta: asignación de texto a cuentas** y los campos **Tipo de cuenta** y **N.º de cuenta** contienen las cuentas asociadas.
 
 ## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Para asignar texto en pagos periódicos a cuentas para conciliación automática
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Diarios de conciliación de pagos** y, a continuación, seleccione el vínculo relacionado.
@@ -43,19 +42,19 @@ En una línea del diario de conciliación de pagos en la que el pago se establec
 
     > [!NOTE]  
 >   Si no existen otros pagos o documentos entrantes con la asignación de texto en cuestión, la asignación tendrá lugar incluso cuando solo una parte del texto del pago o el documento entrante exista como texto de asignación.
-5. En el campo **N.º proveedor**, introduzca el proveedor para el que se crearán documentos entrantes que contienen texto de asignación o se registrarán dichos documentos. Para obtener más información, vea [Procedimiento: Usar el servicio OCR para convertir archivos PDF y de imagen en documentos](across-how-use-ocr-pdf-images-files.md).      
-6. En el campo **N.º cta. débito**, introduce la cuenta a la que se contabilizarán los pagos con texto de asignación en caso de haber pagos entrantes. Para los pagos entrantes, el signo del valor en el campo **Importe estado de cuenta** es positivo.
-7. En el campo **N.º cta. crédito**, introduce la cuenta a la que se contabilizarán los pagos con texto de asignación en caso de haber pagos salientes. Para los pagos salientes, el signo del valor en el campo **Importe estado de cuenta** es negativo.
+5. En el campo **N.º de proveedor** especifique el número del vendedor para el que se crearán documentos entrantes que contienen texto de asignación o se registrarán dichos documentos. Para obtener más información, vea [Procedimiento: Usar el servicio OCR para convertir archivos PDF y de imagen en documentos](across-how-use-ocr-pdf-images-files.md).      
+6. En el campo **N.º cta. débito**, introduzca la cuenta a la que se contabilizarán los pagos con texto asignado en caso de haber pagos entrantes. Para los pagos entrantes, el signo del valor en el campo **Importe estado de cuenta** es positivo.
+7. En el campo **N.º cta. crédito**, introduzca la cuenta a la que se contabilizarán los pagos con texto asignado en caso de haber pagos salientes. Para los pagos salientes, el signo del valor en el campo **Importe estado de cuenta** es negativo.
 8. En el campo **Tipo origen contr.**, especifique si el pago se contabilizará en una cuenta contable o en una cuenta de cliente o proveedor.
-9. En el campo **N.º origen contr.**, especifique la cuenta a la que se contabilizará el pago dependiendo de su elección en el campo **Tipo origen contr**.
+9. En el campo **N.º origen contr.** especifique la cuenta a la que se contabilizará el pago dependiendo de su elección en el campo **Tipo origen contr.**
 10. Repita los pasos del 4 al 8 para todo el texto de los pagos que desea asignar a las cuentas para el registro directo sin liquidación.
 
-La próxima vez que importe un archivo de estado de cuenta bancario o seleccione la función **Liquidar automáticamente** de la ventana **Diario de conciliación de pagos**, las líneas del diario de pagos que contienen el texto de asignación especificado incluirán las cuentas asignadas en **Tipo de cuenta** y **N.º cuenta**. . El campo **Confianza de la coincidencia** contendrá **Alta: asignación de texto a cuenta**. Esto es así siempre que la función de liquidación automática solo pueda proporcionar una confianza de correspondencia **Baja** o **Media**.
+La próxima vez que importe un archivo de un estado de cuenta de banco o seleccione la función **Liquidar automáticamente** de la ventana **Diario de conciliación de pagos**, las líneas de diario de los pagos que contienen el texto asignado especificado, incluirán las cuentas asignadas en los campos **Tipo de cuenta** y **N.º cuenta**. El campo **Confianza de la coincidencia** contendrá **Alta: asignación de texto a cuenta**. Esto es así siempre que la función de liquidación automática solo pueda proporcionar una confianza de correspondencia **Baja** o **Media**.
 
 ## <a name="example-text-to-account-mapping-for-fuel-expense"></a>Ejemplo: Asignación de texto a cuenta para gasto de combustible
 Para que los gastos de combustible de las gasolineras Shell siempre se contabilicen en la cuenta contable para la gasolina (cuenta 8510), rellene una línea en la ventana **Asignación de texto a cuenta** como se indica a continuación.
 
-| Asignación de texto | Cta. débito N.º | Cta. crédito N.º | Contrap. Tipo origen | Contrap. Cód. procedencia mov. |
+| Asignación de texto | N.º cta. débito | N.º cta. crédito | Tipo origen contr. | N.º origen contr. |
 | --- | --- | --- | --- | --- |
 | Shell |EN BLANCO |8510 |Cuenta |EN BLANCO |
 

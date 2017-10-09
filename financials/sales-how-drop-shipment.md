@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 977debf7386ad1113ef54147b20fd24c7c285a78
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 990867cb428f860b1001177738d1a027f72485bc
 ms.contentlocale: es-mx
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-make-drop-shipments"></a>Procedimiento: Realizar envíos directos
@@ -60,9 +59,10 @@ Después de que el proveedor envíe los productos, puede establecer los pedidos 
 5. Elija la opción **Enviar** para facturar más adelante o la opción **Enviar y facturar** para facturar ahora.
 
 ## <a name="see-also"></a>Consulte también
+[Cómo crear pedidos especiales](sales-how-to-create-special-orders.md)|  
 [Vender productos](sales-how-sell-products.md)  
 [Registro de compras](purchasing-how-record-purchases.md)  
-[Ventas](sales-manage-sales.md)  
+[Ccial](sales-manage-sales.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

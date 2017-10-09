@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 60906dde627216903b5ef82e34ce4bc918f3c988
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 5bd635465626c192d8650cbd2a999dd0fbceb15e
 ms.contentlocale: es-mx
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-record-purchases"></a>Registro de compras
@@ -25,7 +24,7 @@ Cree una factura o una orden de compra para registrar el costo de las compras y 
 > [!NOTE]  
 >   Debe usar órdenes de compra si el proceso de compra requiere que registre recibos parciales de una cantidad de la orden, por ejemplo, porque el proveedor no disponía de la cantidad total. Si vende productos que se entregan directamente desde el proveedor al cliente, como remisión directa, debe usar también órdenes de compra. Para obtener más información, vea [Procedimiento: Realizar envíos directos](sales-how-drop-shipment.md). En todos los demás aspectos, las órdenes de compra funcionan de la misma forma que las facturas de compra. El procedimiento siguiente se basa en una factura de compra. Los pasos son parecidos para una orden de compra.
 
-Cuando se reciben los productos de inventario, o cuando se completa el servicio comprado, se registra la factura o la orden de compra para actualizar el inventario y los registros financieros, y para activar el pago al proveedor según los términos de pago. Para obtener más información, consulte [Realizar pagos](payables-make-payments.md).
+Cuando se reciben los productos de inventario, o cuando se completa el servicio comprado, se registra la factura o la orden de compra para actualizar el inventario y los registros financieros, y para activar el pago al proveedor según los términos de pago. Para obtener más información, consulte [Creación de pagos](payables-make-payments.md).
 
 > [!CAUTION]  
 >   No registre una factura de compra hasta que reciba los productos y conozca el costo final de la compra, incluidos los cargos adicionales. De lo contrario, las cifras de valor de inventario y de ganancias pueden estar sesgadas.
@@ -58,7 +57,7 @@ Puede rellenar los campos del proveedor en la factura de compra de dos maneras d
 
     > [!NOTE]  
 >   Si ha configurado líneas de compra periódicas para el proveedor, como un pedido de reabastecimiento mensual, puede insertarlas en la factura eligiendo el botón **Obtener líneas de compra periódicas**.
-10. En la ficha desplegable **Líneas**, en el campo **N.º producto**,  introduzca el número de un producto de inventario o servicio.
+10. En la ficha desplegable **Líneas**, en el campo **Nº producto**, especifique el número de un producto o un servicio de inventario.
 11. En el campo **Cantidad**, introduzca el número de productos que se van a comprar.
 
     > [!NOTE]  
@@ -78,6 +77,7 @@ La compra ahora se refleja en el inventario y en los registros financieros, y se
 ## <a name="see-also"></a>Consulte también
 [Compras](purchasing-manage-purchasing.md)  
 [Configurar compras](purchasing-setup-purchasing.md)  
+[Procedimiento: Peticiones de cotización](purchasing-how-request-quotes.md)  
 [Comprar productos para una venta](purchasing-how-purchase-products-sale.md)  
 [Registro de proveedores nuevos](purchasing-how-register-new-vendors.md)  
 [Procedimiento: Preparar envíos directos](sales-how-drop-shipment.md)  

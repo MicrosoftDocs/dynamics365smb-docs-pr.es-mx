@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: forecast
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2185a1fc40ddae772e20994f6531b02d7e703e17
 ms.contentlocale: es-mx
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-budgets-for-fixed-assets"></a>Procedimiento: Gestionar presupuestos de los activos fijos
@@ -31,12 +30,12 @@ Para preparar sus resultados presupuestados, cuentas de balance presupuestadas y
 ## <a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a>Para presupuestar el costo de adquisición de un activo fijo
 Para preparar presupuestos, necesita configurar fichas de activo fijo para los activos fijos que quiera comprar en el futuro. Los activos fijos presupuestados se configuran como activos normales, pero deben configurarse para que no se registren en el libro mayor.
 
-Al registrar el costo de adquisición, introduzca el número del activo fijo presupuestado en el campo **A/F N.º pptdo.** . Esto provocará que se registre un costo con signo inverso en el activo presupuestado. Significa que el costo total del activo presupuestado es la diferencia entre el costo presupuestado y el real.
+Al registrar el costo, introduzca el número de activos presupuestados en el campo **A/F N.º pptdo.** Esto provocará que se registre un costo con signo inverso en el activo presupuestado. Significa que el costo total del activo presupuestado es la diferencia entre el costo presupuestado y el real.
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Activos fijos** y, a continuación, seleccione el vínculo relacionado.
 2. Elija la acción **Nuevo** para crear una nueva ficha del activo para el activo presupuestado.
 3. Seleccione la casilla **Activo presupuestado** para evitar su registro en el libro mayor.
-4. Rellene los campos restantes, asigne un libro de amortización y, a continuación, registre el primer costo de adquisición con el activo fijo presupuestado especificado en el campo **A/F N.º pptdo.** de la línea del diario. Para obtener más información, vea [Procedimiento: Activos fijos adquiridos](fa-how-acquire.md).
+4. Rellene los campos restantes, asigne un libro de amortización y, a continuación, registre el primer costo con el activo presupuestado especificado en el campo **A/F N. º pptdo.** en la línea del diario. Para obtener más información, vea [Procedimiento: Activos fijos adquiridos](fa-how-acquire.md).
 
 ## <a name="to-budget-the-disposal-of-a-fixed-asset"></a>Para presupuestar la venta/baja de un activo fijo
 Si desea vender activos en el periodo de presupuesto, puede especificar información acerca del precio y fecha de venta.

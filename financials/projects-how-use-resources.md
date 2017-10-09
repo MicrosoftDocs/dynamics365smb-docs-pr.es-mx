@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 48692c9837007c6dd9c3891f0940b6f15b1d6541
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: f110f4cc342f5284e3da2641d56dc13f67c3773a
 ms.contentlocale: es-mx
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-resources-for-jobs"></a>Uso de recursos para proyectos
@@ -64,7 +63,7 @@ Si desea configurar varios precios alternativos basados en los precios estándar
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Para obtener propuestas de modificación de precios de recursos basadas en precios alternativos
 Si ya ha configurado precios de venta alternativos para algunos recursos, puede utilizar un proceso para configurar varios precios de venta de recurso alternativos.
 
-1. En el cuadro **Buscar**, especifique **Prop. &mod. recursos (precio)** y, a continuación, elija el vínculo relacionado.  
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Prop. &mod. recursos (precio)** y, a continuación, seleccione el vínculo relacionado.  
 2. Rellene los campos según sea necesario.
 3. Elija el botón **Aceptar**.  
 4. Cuando termine el proceso, abra la ventana **Cambios de precio en recursos** para ver los resultados del proceso.
