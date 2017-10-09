@@ -11,28 +11,28 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/12/2017
 ms.author: solsen
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: bf6d659eacf12903af128f77956de5c47ba038c2
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/11/2017
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="how-to-view-test-reports-before-posting"></a><span data-ttu-id="1f74b-103">Procedimiento: Ver los informes de prueba antes de realizar el registro</span><span class="sxs-lookup"><span data-stu-id="1f74b-103">How to: View Test Reports Before Posting</span></span>
-<span data-ttu-id="1f74b-104">Cuando esté listo para registrar un documento, como una orden, una factura o una nota de crédito, puede probar el documento para asegurarse de que no hay problemas que vayan a bloquear el registro.</span><span class="sxs-lookup"><span data-stu-id="1f74b-104">When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.</span></span>
+# <a name="how-to-view-test-reports-before-posting"></a><span data-ttu-id="ebbd3-103">Procedimiento: Ver los informes de prueba antes de realizar el registro</span><span class="sxs-lookup"><span data-stu-id="ebbd3-103">How to: View Test Reports Before Posting</span></span>
+<span data-ttu-id="ebbd3-104">Cuando esté listo para registrar un documento, como una orden, una factura o una nota de crédito, puede probar el documento para asegurarse de que no hay problemas que vayan a bloquear el registro.</span><span class="sxs-lookup"><span data-stu-id="ebbd3-104">When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="1f74b-105">Con el siguiente procedimiento se realiza una prueba antes de registrar un documento de compra.</span><span class="sxs-lookup"><span data-stu-id="1f74b-105">The following procedure is about testing before posting a purchase document.</span></span> <span data-ttu-id="1f74b-106">La funcionalidad funciona de la misma forma que para los documentos de venta.</span><span class="sxs-lookup"><span data-stu-id="1f74b-106">The functionality works in the same way for sales documents.</span></span>
+>   <span data-ttu-id="ebbd3-105">Con el siguiente procedimiento se realiza una prueba antes de registrar un documento de compra.</span><span class="sxs-lookup"><span data-stu-id="ebbd3-105">The following procedure is about testing before posting a purchase document.</span></span> <span data-ttu-id="ebbd3-106">La funcionalidad funciona de la misma forma que para los documentos de venta.</span><span class="sxs-lookup"><span data-stu-id="ebbd3-106">The functionality works in the same way for sales documents.</span></span>
 
-## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a><span data-ttu-id="1f74b-107">Para imprimir un test antes de registrar una factura de compra</span><span class="sxs-lookup"><span data-stu-id="1f74b-107">To print a test report before posting a purchase invoice</span></span>
-1. <span data-ttu-id="1f74b-108">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Facturas de compra** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="1f74b-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then select the related link.</span></span>
-2. <span data-ttu-id="1f74b-109">Abra la factura de compra que desee evaluar.</span><span class="sxs-lookup"><span data-stu-id="1f74b-109">Open the purchase invoice that you want to test.</span></span>
-3. <span data-ttu-id="1f74b-110">Elija la acción **Informe de prueba**.</span><span class="sxs-lookup"><span data-stu-id="1f74b-110">Choose the **Test Report** action.</span></span>  
+## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a><span data-ttu-id="ebbd3-107">Para imprimir un test antes de registrar una factura de compra</span><span class="sxs-lookup"><span data-stu-id="ebbd3-107">To print a test report before posting a purchase invoice</span></span>
+1. <span data-ttu-id="ebbd3-108">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Facturas de compra** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="ebbd3-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then select the related link.</span></span>
+2. <span data-ttu-id="ebbd3-109">Abra la factura de compra que desee evaluar.</span><span class="sxs-lookup"><span data-stu-id="ebbd3-109">Open the purchase invoice that you want to test.</span></span>
+3. <span data-ttu-id="ebbd3-110">Elija la acción **Informe de prueba**.</span><span class="sxs-lookup"><span data-stu-id="ebbd3-110">Choose the **Test Report** action.</span></span>  
 
-<span data-ttu-id="1f74b-111">Todas las partes de la factura de compra se prueban y el resultado se presenta en un informe.</span><span class="sxs-lookup"><span data-stu-id="1f74b-111">All parts of the purchase invoice are tested, and the result is presented in a report.</span></span> <span data-ttu-id="1f74b-112">Si el informe indica errores o falta información, deberá solucionar el problema antes de registrar la factura de compra.</span><span class="sxs-lookup"><span data-stu-id="1f74b-112">If the report indicates any errors or missing information, then you must correct the problem before posting the purchase invoice.</span></span>
+<span data-ttu-id="ebbd3-111">Todas las partes de la factura de compra se prueban y el resultado se presenta en un informe.</span><span class="sxs-lookup"><span data-stu-id="ebbd3-111">All parts of the purchase invoice are tested, and the result is presented in a report.</span></span> <span data-ttu-id="ebbd3-112">Si el informe indica errores o falta información, deberá solucionar el problema antes de registrar la factura de compra.</span><span class="sxs-lookup"><span data-stu-id="ebbd3-112">If the report indicates any errors or missing information, then you must correct the problem before posting the purchase invoice.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="1f74b-113">Consulte también</span><span class="sxs-lookup"><span data-stu-id="1f74b-113">See Also</span></span>
-[<span data-ttu-id="1f74b-114">Registrar documentos y diarios</span><span class="sxs-lookup"><span data-stu-id="1f74b-114">Post Documents and Journals</span></span>](ui-post-documents-journals.md)  
-<span data-ttu-id="1f74b-115">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="1f74b-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="ebbd3-113">Consulte también</span><span class="sxs-lookup"><span data-stu-id="ebbd3-113">See Also</span></span>
+[<span data-ttu-id="ebbd3-114">Registrar documentos y diarios</span><span class="sxs-lookup"><span data-stu-id="ebbd3-114">Post Documents and Journals</span></span>](ui-post-documents-journals.md)  
+<span data-ttu-id="ebbd3-115">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ebbd3-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
 
