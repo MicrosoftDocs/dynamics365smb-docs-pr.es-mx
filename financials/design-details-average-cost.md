@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4ced0ece340de08598fecff157d59aa708e4e17c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70a0773826984bab5c49334a88ea48872a629023
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-average-cost"></a>Detalles de diseño: Costo promedio
@@ -51,14 +51,14 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
  El programa aplica el costo promedio calculado a las salidas de inventario del elemento (producto, almacén o variante) con fechas de registro durante el periodo de costo promedio. Si se han aplicado entradas de inventario de forma fija a salidas de inventario en el periodo de costo promedio, el costo promedio calculado se reenvía desde la entrada a la salida.  
 
 ### <a name="example-average-cost-period--day"></a>Ejemplo: Periodo de costo promedio = Día  
- En el ejemplo siguiente se muestra el efecto de calcular el costo promedio basado en un periodo de costo promedio de un día. El campo **Tipo cálculo cto. Prom.** en la ventana **Configuración de inventario** está configurado en **Producto**.  
+ En el ejemplo siguiente se muestra el efecto de calcular el costo promedio basado en un periodo de costo promedio de un día. El campo **Tipo cálculo cto. prom.** de la ventana **Configuración de inventario** está configurado en **Producto**.  
 
  En la tabla siguiente se muestran los movimientos de producto del producto del costo promedio de muestra, ITEM1, antes de que se haya ejecutado el proceso **Valorar existencias - movs. producto**.  
 
 |**Fecha registro**|**Tipo mov. producto**|**Cantidad**|**Importe costo (real)**|**N.º de movimiento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Compras|0|20.00|0|  
-|01-01-20|Compras|0|40.00|2|  
+|01-01-20|Compras|1|20.00|1|  
+|01-01-20|Compras|1|40.00|2|  
 |01-01-20|Ventas|-1|-20,00|3|  
 |01-02-20|Ventas|-1|-40,00|4|  
 |02-02-20|Compra|1|100,00|5|  
@@ -71,8 +71,8 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |**Nº producto**|**Cód. variante**|**Cód. almacén**|**Fecha valoración**|**Costo ajustado**|  
 |-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|PROD1||AZUL|01-01-20|N.º|  
-|PROD1||AZUL|01-02-20|N.º|  
+|PROD1||AZUL|01-01-20|No|  
+|PROD1||AZUL|01-02-20|No|  
 |PROD1||AZUL|02-02-20|No|  
 |PROD1||AZUL|03-02-20|No|  
 
@@ -80,8 +80,8 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |**Fecha registro**|**Tipo mov. producto**|**Cantidad**|**Importe costo (real)**|**N.º de movimiento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Compras|0|20.00|0|  
-|01-01-20|Compras|0|40.00|2|  
+|01-01-20|Compras|1|20.00|1|  
+|01-01-20|Compras|1|40.00|2|  
 |01-01-20|Ventas|-1|-30,00|3|  
 |01-02-20|Ventas|-1|-30,00|4|  
 |02-02-20|Compra|1|100,00|5|  
@@ -96,8 +96,8 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |**Fecha registro**|**Tipo mov. producto**|**Cantidad**|**Importe costo (real)**|**N.º de movimiento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Compras|0|20.00|0|  
-|01-01-20|Compras|0|40.00|2|  
+|01-01-20|Compras|1|20.00|1|  
+|01-01-20|Compras|1|40.00|2|  
 |01-01-20|Ventas|-1|-20,00|3|  
 |01-02-20|Ventas|-1|-40,00|4|  
 |02-02-20|Compra|1|100,00|5|  
@@ -108,10 +108,10 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
  En la tabla siguiente se muestran los movimientos en la tabla **Punto de entrada aj. costo promedio** que se aplican a los movimientos de valor que son el resultado de los movimientos de producto en la tabla anterior.  
 
-|**Nº producto**|**Cód. variante)**|**Cód. almacén**|**Fecha valoración**|**Costo ajustado**|  
+|**Nº producto**|**Cód. variante**|**Cód. almacén**|**Fecha valoración**|**Costo ajustado**|  
 |-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|PROD1||AZUL|31-01-20|N.º|  
-|PROD1||AZUL|28-02-20|N.º|  
+|PROD1||AZUL|31-01-20|No|  
+|PROD1||AZUL|28-02-20|No|  
 
 > [!NOTE]  
 >  La fecha de valuación se establece como el último día del periodo de costo promedio, que, en este caso, es el último día del mes.  
@@ -120,8 +120,8 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |**Fecha registro**|**Tipo mov. producto**|**Cantidad**|**Importe costo (real)**|**N.º de movimiento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Compras|0|20.00|0|  
-|01-01-20|Compras|0|40.00|2|  
+|01-01-20|Compras|1|20.00|1|  
+|01-01-20|Compras|1|40.00|2|  
 |01-01-20|Ventas|-1|-30,00|3|  
 |01-02-20|Ventas|-1|-65,00|4|  
 |02-02-20|Compra|1|100,00|5|  
@@ -138,7 +138,7 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |Caso|Fecha reg.|Cdad. valuada|Reevaluación|Fecha valoración|  
 |--------------|-------------------------------------|-----------------------------------------|-----------------|-----------------------------------------|  
-|0||Positivo|N.º|Fecha de registro del movimiento de producto|  
+|1||Positivo|No|Fecha de registro del movimiento de producto|  
 |2|Posterior a la última fecha de valuación de los movimientos de valuación aplicados|Negativo|No|Fecha de registro del movimiento de producto|  
 |3|Anterior a la última fecha de valuación de los movimientos de valuación aplicados|Positivo|No|Última fecha de valuación de los movimientos de valuación aplicados|  
 |4||Negativo|Sí|Fecha de registro del movimiento de valoración de revalorización|  
@@ -148,7 +148,7 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |Caso|Fecha reg.|Tipo mov. producto|Fecha valoración|Cdad. valuada|Importe costo (real)|Nº mov. producto|N.º de movimiento|  
 |--------------|-------------------------------------|-----------------------------------------------|-----------------------------------------|-----------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|0|01-01-20|Compras|01-01-20|2|20.00|0|0|  
+|1|01-01-20|Compras|01-01-20|2|20.00|1|1|  
 |2|15-01-20|(Cargo de producto)|01-01-20|2|8.00|1|2|  
 |3|01-02-20|Ventas|01-02-20|-1|-14,00|2|3|  
 |4|01-03-20|(Revalorización)|01-03-20|1|-.4,00|1|4|  
@@ -187,8 +187,8 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |Fecha valoración|Cantidad|Importe costo (real)|N.º de movimiento|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10.00|0|  
-|02-01-20|0|20.00|2|  
+|01-01-20|1|10.00|1|  
+|02-01-20|1|20.00|2|  
 |15-02-20|-1|-15,00|3|  
 |16-02-20|-1|-15,00|4|  
 
@@ -198,9 +198,9 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |Fecha valoración|Cantidad|Importe costo (real)|N.º de movimiento|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10.00|0|  
-|02-01-20|0|20.00|2|  
-|03-01-20|0|21.00|5|  
+|01-01-20|1|10.00|1|  
+|02-01-20|1|20.00|2|  
+|03-01-20|1|21.00|5|  
 |15-02-20|-1|-17,00|3|  
 |16-02-20|-1|-17,00|4|  
 

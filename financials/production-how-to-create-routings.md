@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 166d85bbcf7d97cb513ba668e41fc4a179d8fcc3
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-create-routings"></a>Creación de rutas
@@ -24,11 +24,11 @@ Las empresas con procesos de fabricación utilizan las rutas para visualizar y d
 
 La ruta es también la base para la programación del proceso, la programación de la capacidad, la programación de la asignación de los materiales necesarios y los documentos de fabricación.  
 
-En función de la L.M. de producción, las rutas se asignan al producto final de fabricación. Una ruta contiene los datos maestros que capturan los requisitos del proceso de un producto fabricado específico. Una vez creada la orden de producción para ese producto principal, la ruta controlará la programación de operaciones tal como se representan en la ventana **Ruta orden producción** bajo la orden de producción.  
+En función de la L.M. de producción, las rutas se asignan al producto final de fabricación. Una ruta contiene los datos maestros que captura los requisitos del proceso de un producto fabricado específico. Una vez creada la orden de producción para ese producto principal, la ruta controlará la programación de operaciones tal como se representan en la ventana **Ruta orden producción** bajo la orden de producción.  
 
 Para poder configurar una ruta, lo siguiente debe existir:  
 
-- Se deben crear fichas de producto para los productos principales que forman parte de la fabricación. Para obtener más información, vea [Procedimiento: Registrar nuevos productos](inventory-how-register-new-items.md).
+- Se deben crear fichas de producto para los productos principales que forman parte de la fabricación. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 - Se han configurado recursos de producción. Para obtener más información, consulte [Cómo configurar centros de trabajoy centros de máquina](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Para crear una ruta  
@@ -43,7 +43,7 @@ Para poder configurar una ruta, lo siguiente debe existir:
 6.  En el campo **Nº operación** especifique el número de la primera operación, por ejemplo **10**.  
 7.  En el campo **Tipo**, especifique qué tipo de recurso se utiliza, por ejemplo **Centro trabajo**.  
 8.  En el campo **N.º**, seleccione el recurso que se va a utilizar o especifíquelo en el campo.  
-9.  En el campo **Código de conexión de ruta**, introduzca un código para conectar el componente con una operación específica. Para obtener más información, consulte la sección "Creación de conexiones de ruta".
+9.  En el campo **Cód. conexión ruta**, introduzca un código para conectar el componente con una operación específica. Para obtener más información, consulte la sección "Creación de conexiones de ruta".
 10.  En los campos **Tiempo ejecución** y **Tiempo preparación**, especifique los tiempos de proceso necesarios para realizar la operación.  
 
     > [!NOTE]  
@@ -53,7 +53,7 @@ Para poder configurar una ruta, lo siguiente debe existir:
 12.  Continúe rellenando las líneas para todas las operaciones necesarias para fabricar el producto en cuestión.  
 13.  Para copiar líneas desde una ruta existente, seleccione la acción **Copiar ruta** para seleccionar las líneas existentes.  
 14. Certifique la ruta.  
-15. Ahora puede asociar la nueva ruta a la ficha del producto en cuestión, rellenando el campo **Nº de ruta**. Para obtener más información, vea [Procedimiento: Registrar nuevos productos](inventory-how-register-new-items.md).  
+15. Ahora puede asociar la nueva ruta a la ficha del producto en cuestión, rellenando el campo **Nº de ruta**. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Recuerde también volver a calcular el costo estándar del producto desde la ficha **Producto**. Para ello, seleccione la acción **Fabricación**, seleccione la acción **Calcular costo estándar** y, a continuación, seleccione la acción **Todos los niveles**.  

@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a0cac0236611c90d3d1fdf1bae9deaaeb235b540
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b4f49d7d103bebeb6512d825a68c5941c8835214
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="sales-and-inventory-forecast-for-dynamics-365-for-financials"></a>Previsión de inventario y ventas para Dynamics 365 for Financials
+# <a name="sales-and-inventory-forecast-for-dynamics-365-business-edition"></a>Previsión de inventario y ventas para Dynamics 365 Business edition 
 La gestión del inventario es un equilibrio entre el servicio al cliente y la administración del costo. Por un lado, un inventario bajo requiere menos capital de trabajo, pero, por otro lado, la falta de existencias puede llevar potencialmente a la pérdida de ventas. La extensión Previsión de inventario y ventas pronostica ventas potenciales con datos históricos y ofrece una visión general clara de la falta de existencias prevista. Según la previsión, la extensión ayuda a crear solicitudes de reposición a los proveedores y le ahorra tiempo.  
 
 ## <a name="setting-up-forecasting"></a>Configurar la previsión

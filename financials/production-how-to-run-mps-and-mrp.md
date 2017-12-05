@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ffe729c1d0fbbb062394f815281dcf658cbff783
+ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
+ms.openlocfilehash: 89982479ec539f6bf394d31af8775a0b735588fc
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/02/2017
 
 ---
-# <a name="how-to-run-full-planning-mps-and-mrp"></a>Cómo ejecutar la planificación completa, MPS y MRP
+# <a name="how-to-run-full-planning-mps-or-mrp"></a>Cómo ejecutar la planificación completa, MPS o MRP
 Los términos "ejecutar la hoja de planificación" o "ejecutar MRP" hacen referencia al cálculo del programa de producción principal y a las necesidades de material, en función de la demanda real y prevista. El sistema de planificación puede calcular tanto el Programa de planificación principal (MPS) como la Planificación de necesidades de material (MRP) cuando se solicite, o calcular ambas cosas a la vez.  
 
--   *MPS* se refiere al cálculo de un programa de producción principal basado en la demanda real y en la previsión de producción. El cálculo de MPS se utiliza para productos finales que tengan una previsión o una línea de pedido de venta. Estos productos se denominan "productos MPS" y se identifican dinámicamente cuando comienza el cálculo.  
--   *MRP* se refiere al cálculo de las necesidades de material basado en la demanda real de componentes y en la previsión de producción de componentes. Sólo se calcula para los productos que no son productos de MPS. La finalidad de MRP es ofrecer planes formales con fases temporales, por producto, para suministrar el producto adecuado, en el momento correcto, en el lugar convenido y en la cantidad justa.  
+-   MPS se refiere al cálculo de un programa de producción principal basado en la demanda real y en la previsión de producción. El cálculo de MPS se utiliza para productos finales que tengan una previsión o una línea de pedido de venta. Estos productos se denominan "productos de MPS" y se identifican dinámicamente al iniciarse el cálculo.  
+-   MRP se refiere al cálculo de las necesidades de material basado en la demanda real de componentes y en la previsión de producción de componentes. Sólo se calcula para los productos que no son productos de MPS. La finalidad de MRP es ofrecer planes formales con fases temporales, por producto, para suministrar el producto adecuado, en el momento correcto, en el lugar convenido y en la cantidad justa.  
 
 Los algoritmos de planificación usados tanto para MPS como para MRP son idénticos. Los algoritmos de planificación relativos a saldos netos reutilizan órdenes de reposición existentes y mensajes de acción. El proceso del sistema de planificación examina lo que se necesita o se va a necesitar (la demanda) y lo que hay físicamente o se espera que haya (el suministro). Cuando estas cantidades se comparan, [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona mensajes de acción. Los mensajes de acción son sugerencias para crear un pedido nuevo, para cambiar un pedido (la cantidad o la fecha) o para cancelar un pedido ya solicitado. El término "pedido" incluye pedidos de compra, pedido de ensamblado, pedidos de producción y pedidos de transferencia.
 
@@ -111,7 +111,7 @@ Como respuesta a los desequilibrios entre aprovisionamiento y demanda, se genera
 [Fabricación](production-manage-manufacturing.md)    
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
+[Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)   
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -13,10 +13,10 @@ ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a7944daaa0b07336361a03a9f46097f346481e66
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: e8e6098cf6efe91153fe4e112cf3f6f6635032ed
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="managing-receivables"></a>Administrar cobros
@@ -36,7 +36,7 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 
 | Para | Vea |
 | --- | --- |
-| Liquide pagos en los movimientos pendientes de cliente o proveedor en función de un archivo o una fuente de estado de cuenta bancario importado y concilie la cuenta bancaria una vez liquidados todos los pagos. |[Liquidar pagos automáticamente y conciliar cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
+| Liquide pagos en los movimientos pendientes de cliente o proveedor en función de un archivo o una fuente de estado de cuenta bancario importado y concilie la cuenta bancaria una vez liquidados todos los pagos. |[Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 | Liquide pagos para abrir movimientos de cliente basados en una introducción manual de datos en una lista de documentos de ventas sin pagar. |[Conciliar pagos manualmente de una lista de documentos de venta sin abonar](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
 | Registre reembolsos o recepciones de efectivo de clientes en el diario de cobros y aplíquelos a movimientos de cliente, ya sea desde el diario o desde movimientos registrados. |[Conciliar pagos de cliente manualmente](receivables-how-apply-sales-transactions-manually.md) |
 | Recordar a los clientes los importes vencidos, calcular intereses y administrar los cobros. |[Cobrar saldos pendientes](receivables-collect-outstanding-balances.md) |

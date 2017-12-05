@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5a02126430e698d7624dfbae41390cdfb2ea2e0b
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: af4f55a85b0269832c6afba791f2499aebf0979c
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-set-up-electronic-document-sending-and-receiving"></a>Procedimiento: Configurar el envío y la recepción de documentos electrónicos
@@ -137,7 +137,7 @@ El tema incluye los siguientes procedimientos:
     |**Cuenta para líneas que no son artículos físicos**|Especifica la cuenta que se inserta automáticamente en las líneas de compra creadas a partir de los documentos electrónicos cuando la línea de documento entrante no contiene un producto identificable. Cualquier línea del documento entrante que no tenga un GTIN o el número de producto del proveedor se convierte en una línea de compra de tipo **Cuenta**, y el campo **Nº** de la línea de compra contendrá la cuenta seleccionada en el campo **Cuenta para líneas que no son artículos físicos**.<br /><br /> Si dejas el campo **Cuenta para líneas que no son artículos físicos** en blanco y el documento entrante contiene líneas sin artículos identificables, no se creará el documento de compra. Entonces, aparecerá un mensaje de error que te indicará que rellenes el campo **Cuenta para líneas que no son artículos físicos** antes de completar la tarea.|  
 
 ## <a name="see-also"></a>Consulte también  
-[Intercambio de datos como documentos electrónicos](across-data-exchange.md)   
+[Intercambio de datos electrónicamente](across-data-exchange.md)   
 [Facturación de ventas](sales-how-invoice-sales.md)   
 [Registro de compras](purchasing-how-record-purchases.md)
 

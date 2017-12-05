@@ -11,10 +11,10 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: d81e73ec99d8ef993cff8ec3b5f5f38d00741c7a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 0823414b222c2f578a6e6c6908f403240cf104d5
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="frequently-asked-questions"></a>Preguntas más frecuentes
@@ -35,7 +35,7 @@ N.º Pero si desea experimentar [!INCLUDE[d365fin](includes/d365fin_md.md)] comp
 Sí, pero dependiendo de cómo inició sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] se pueden eliminar o conservar sus datos. Para obtener más información, consulte [Cancelar [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>¿Adónde me dirijo si tengo preguntas?
-Si tiene alguna pregunta sobre [!INCLUDE[d365fin](includes/d365fin_md.md)] cuya respuesta no encuentre en esta documentación, puede preguntar a la comunidad de Dynamics 365 for Financials. Para obtener más información, vea la [comunidad de Dynamics 365, edición Business](https://community.dynamics.com/business). Además, nuestro equipo publica consejos y trucos. Para obtener más información, consulte [Blog de asistencia de Dynamics 365 for Financials](https://blogs.msdn.microsoft.com/dyn365finsupport).  
+Si tiene alguna pregunta sobre [!INCLUDE[d365fin](includes/d365fin_md.md)] cuya respuesta no encuentre en esta documentación, puede preguntar a la comunidad de Dynamics 365 Business edition. Para obtener más información, vea la [comunidad de Dynamics 365, edición Business](https://community.dynamics.com/business). Además, nuestro equipo publica consejos y trucos. Para obtener más información, vea la [Blog de asistencia de Dynamics 365 Business edition](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>¿Se puede ampliar mi periodo de prueba de "Nueva empresa" de 30 días?
 Sí. Si desea ampliar la prueba, debe ponerse en contacto con Microsoft en el 1-888-477-7989 (EE. UU.) o 1-800-741-9206 (Canadá). NOTA: Puede tardar hasta 2 días laborales en completarse el proceso de ampliación de la prueba.  
@@ -51,5 +51,5 @@ Esto es un poco complicado, pero parece que el administrador no cambió el Área
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook](madeira-outlook.md)  
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] sin Outlook](madeira-no-outlook.md)  
 [Procedimiento: Cambiar el área de tareas](change-role.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 

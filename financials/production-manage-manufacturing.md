@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/05/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 61c89c50b549a802df1973538edb83d3baf328e4
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: e27ceb91b25669a31d95256385cb7e5acd9160bd
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="manufacturing"></a>Fabricación
@@ -24,9 +24,11 @@ Cuando se ha planificado un pedido y se han emitido los materiales de acuerdo co
 
 Una parte importante de la ejecución de la producción, desde el punto de vista del sistema, es el registro de la salida de la producción en la base de datos, para notificar el progreso y actualizar el inventario con los productos terminados. El registro de la salida se puede realizar manualmente, rellenando y registrando las líneas del diario después de las operaciones de producción. O bien, se puede efectuar de forma automática, utilizando la baja retroactiva. En ese caso, el consumo de material se registra automáticamente junto con la salida cuando el pedido de producción cambia a terminado.  
 
-Como alternativa al diario de lotes para el registro de salida de varias órdenes de producción, es posible utilizar la ventana **Diario de producción** para registrar el consumo y la salida de una línea de orden de producción.  
+Como alternativa al diario de lotes para el registro de salida de varias órdenes de producción, es posible utilizar la ventana **Diario de producción** para registrar el consumo y la salida de una línea de orden de producción.
 
-En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.   
+Antes de que pueda comenzar a producir elementos, debe realizar varias configuraciones, como centros de trabajo, rutas y listas de materiales de producción. Para obtener más información, vea [Configurar fabricación](production-configure-production-processes.md).
+
+En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas que las describen.   
 
 |**Para**|**Vea**|  
 |------------|-------------|  
@@ -39,7 +41,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Contabilizar el número de artículos producido en cada operación terminada que no se cualifican como salida terminada, sino como material rechazado.|[Cómo registrar el material de rechazo:](production-how-to-post-scrap.md)|
 |Ver la carga de planta como resultado de órdenes de producción planificadas y lanzadas.|[Cómo visualizar la carga en centros de trabajo y de máquina](production-how-to-view-the-load-on-work-centers.md)|      
 |Utilizar la ventana **Diario de capacidad** para registrar capacidades consumidas que no están asignadas a una orden de producción, como el trabajo de mantenimiento.|[Registro de capacidades](production-how-to-post-capacities.md)|  
-|Calcular y ajustar el costo de artículos de producción terminados y componentes consumidos para la reconciliación financiera.|[Sobre los costes de la orden de producción terminada](finance-about-finished-production-order-costs.md)|  
+|Calcular y ajustar el costo de artículos de producción terminados y componentes consumidos para la reconciliación financiera.|[Sobre los costos del orden de producción terminada](finance-about-finished-production-order-costs.md)|  
 
 ## <a name="see-also"></a>Consulte también  
 [Configuración de fabricación](production-configure-production-processes.md)  

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5beb5f6795bd7f4943a6ed9d8b691c05fc5ecb63
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 021c48efc6bf6b1fdb7b17bf742cb6f084d3964b
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-post-sepa-direct-debit-payment-receipts"></a>Registro de recibos de pagos de domiciliación de adeudo directo SEPA
@@ -38,6 +38,6 @@ Puede registrar el recibo de pago directamente desde la ventana **Cobros por ade
 5. Elija el botón **Aceptar**.  
 
 ## <a name="see-also"></a>Consulte también  
- [Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
+ [Cobro de pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)   
  [Ventas](sales-manage-sales.md)
 
