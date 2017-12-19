@@ -1,8 +1,6 @@
 ---
 title: "Detalles de diseño: Parámetros de la planificación | Documentos de Microsoft"
-description: "En este tema se describen los distintos parámetros de planificación que puede usar en [!INCLUDE[d365fin](includes/d365fin_md.md)]."
-services: project-madeira
-documentationcenter: 
+description: "En este tema se describen los distintos parámetros de planificación que puede usar en Dynamics 365."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6d1b9d86d53076c2373f4f08316192eda29592c5
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 5ab63063b5ad2ae453ecb9953ba4547f31536ee8
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-planning-parameters"></a>Detalles de diseño: Parámetros de la planificación
@@ -59,7 +57,7 @@ Independiente de la directiva de reorden, el sistema de planificación sigue nor
 4. Si hay más demanda bruta que vence antes de la fecha de fin de la propuesta de pedido anticipado y esta demanda lleva a las existencias disponibles proyectadas actualmente calculadas por debajo de la cantidad de inventario de seguridad, la cantidad del pedido se aumenta para suplir el déficit. El pedido de suministro sugerido se programa hacia atrás a partir de la fecha de vencimiento de la demanda bruta que habría infringido el inventario de seguridad.  
 5. Si el campo **Ciclo** no está relleno, solo se agregará la demanda bruta en la misma fecha de vencimiento.  
 
-     Los siguientes campos de periodo de reorden también desempeñan un rol en la definición de la cantidad de reorden: **Periodo de reprogramación**, **Periodo de acumulación de lotes** y **Periodo de tolerancia**. Para obtener más información, vea la sección "Optimizar cuando y qué cantidad de reaprovisionar".  
+     Los siguientes campos de periodo de reorden también desempeñan un rol en la definición de la cantidad de reorden: **Periodo de reprogramación**, **Periodo de acumulación de lotes** y **Periodo de tolerancia**. Para obtener más información, vea la sección "Optimizar cuando y qué cantidad se reordena".  
 
 ### <a name="reordering-policies"></a>Directivas de reorden  
 Las siguientes directivas de reorden afectan a la cuenta que recibirá la reorden.  

@@ -11,16 +11,16 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 09/08/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 46908fb1ae2e0281e730a03e2bcad6e79704d22e
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 33a1c64886fc7b16cddd67ad175539c96f8d48d6
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-process-sales-returns-or-cancellations"></a>Procesamiento de devoluciones de ventas o cancelaciones
 Si un cliente desea devolver u obtener un reembolso de algún producto o servicio que usted ha vendido y que le han pagado, debe crear y registrar una nota de crédito de venta que especifique el cambio requerido. Para incluir la información correcta de la factura de ventas, puede crear la nota de crédito de venta directamente de la factura de venta contabilizada o puede crear una nueva nota de crédito de venta con información de factura copiada.
 
-Si necesita más control del proceso de devolución de ventas, como documentos de almacén para el manejo de artículos o una mejor descripción al devolver elementos de varios documentos de ventas con una sola devolución, puede crear órdenes de devolución de ventas. Un pedido de devolución de ventas emite automáticamente la nota de crédito de venta relacionada y otros documentos relacionados con la devolución, como un pedido de venta de reemplazo, si es necesario. Para obtener más información, consulte la sección "Para crear un pedido de devolución de ventas basado en uno o más documentos de ventas publicados".
+Si necesita más control del proceso de devolución de ventas, como documentos de almacén para el manejo de artículos o una mejor descripción al recibir productos de varios documentos de ventas con una sola devolución de ventas, puede crear órdenes de devolución de ventas. Un pedido de devolución de ventas emite automáticamente la nota de crédito de venta relacionada y otros documentos relacionados con la devolución, como un pedido de venta de reemplazo, si es necesario. Para obtener más información, consulte la sección "Para crear un pedido de devolución de ventas basado en uno o más documentos de ventas publicados".
 
 > [!NOTE]  
 >   Si una factura de venta registrada aún no se ha pagado, puede usar las funciones **Corregir** o **Cancelar** en la factura de venta registrada para revertir las transacciones. Estas funciones solo funcionan para las facturas sin pagar y no admiten devoluciones o cancelaciones parciales. Para obtener más información, vea [Procedimiento: Corregir o cancelar las facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md)

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0f2f91a9813b07b0868043a4a2a3ed0b3f838536
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 902c98c126ff23659cb103e8eaf351c144b76ea9
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Procedimiento: configurar y publicar un servicio web KPI que se basa en estructuras de cuentas
@@ -49,8 +49,8 @@ En la ventana**Configuración de servicio web KPI de estructura de cuentas**, se
 6.  Para ver los datos de KPI de la estructura de cuentas que ha configurado, elija la acción **Servicio web KPI de estructura de cuentas**.  
 7.  Para publicar el servicio Web KPI de esquema de cuentas, elija la acción **Publicar servicio Web**. El servicio web se agrega a la lista de servicios web publicados en la ventana **Servicios web**.  
 
-    > [!NOTE]  
-    >  También puede publicar el servicio web KPI seleccionando el objeto de la página **Configuración de servicio web KPI de estructura de cuentas** de la ventana **Servicios web**. Para obtener más información, consulte [Cómo publicar un servicio Web](https://msdn.microsoft.com/en-us/library/dd338978.aspx) en MSDN.  
+> [!NOTE]  
+>  También puede publicar el servicio web KPI seleccionando el objeto de la página **Configuración de servicio web KPI de estructura de cuentas** de la ventana **Servicios web**. Para obtener más información, consulte [Publicar un servicio web](across-how-publish-web-service.md).  
 
 ## <a name="see-also"></a>Consulte también  
 [Inteligencia empresarial](bi.md)  
