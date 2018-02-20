@@ -13,20 +13,20 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: e9d08040932be4fec5ddefb5db69e453c375d3c6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f2ab1e60eb826b93a1b8b7ae354bcadfa0fafd62
 ms.contentlocale: es-mx
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-count-adjust-and-reclassify-inventory"></a>Recuento, ajuste y reclasificación de inventario
+# <a name="count-adjust-and-reclassify-inventory"></a>Recuento, ajuste y reclasificación de inventario
 Como mínimo una vez cada ejercicio, debe realizar un inventario físico (es decir, contar todos los productos del inventario) para ver si la cantidad registrada en la base de datos es la misma que la cantidad física real en los almacenes. Una vez se sepa la cantidad física, debe registrarse en la contabilidad como parte de la evaluación del inventario de final de periodo.
 
 Aunque cuente todos los productos del inventario una vez al año, puede que haya decidido contar algunos productos con mayor frecuencia, quizás porque son más valiosos o porque se fluctúan muy rápido y forman una gran parte del negocio. Con este fin, puede asignar períodos de recuento especiales a esos elementos. Para obtener más información, consulte la sección “Realizar el recuento cíclico”.
 
 Si es necesario ajustar las cantidades de inventario registradas, por motivos de recuento u otros, puede usar un diario de productos para cambiar las entradas de contabilidad del inventario sin registrar las transacciones de negocio. Como alternativa, puede ajustar un solo artículo en la tarjeta de artículo.
 
-Si necesita cambiar los atributos de las entradas de contabilidad de los productos, puede usar el diario de reclasificación de productos. Los atributos típicos para reclasificar incluyen dimensiones y códigos de campaña, aunque también realiza el "transferencias del sistema" mediante la reclasificación de códigos de ubicación y de almacén. Se aplican pasos especiales cuando desea reclasificar números de serie o de lote, y sus fechas de caducidad. Para obtener más información, consulte [Procedimiento: Trabajar con números de serie y de lote](inventory-how-work-item-tracking.md).
+Si necesita cambiar los atributos de las entradas de contabilidad de los productos, puede usar el diario de reclasificación de productos. Los atributos típicos para reclasificar incluyen dimensiones y códigos de campaña, aunque también realiza el "transferencias del sistema" mediante la reclasificación de códigos de ubicación y de almacén. Se aplican pasos especiales cuando desea reclasificar números de serie o de lote, y sus fechas de caducidad. Para obtener más información, consulte [Trabajar con números de serie y de lote](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
 > En configuraciones avanzadas de almacén, los elementos se registran en las ubicaciones como movimientos de almacén, no como movimientos de productos. Por lo tanto, realice el recuento, el ajuste y la reclasificación en diarios especiales de almacén que soportan ubicaciones. A continuación, utilice funciones especiales para sincronizar las entradas de almacén nuevas o modificadas con sus movimientos de productos relacionados para reflejar los cambios en las cantidades y valores de inventario. Esto se describe en los procedimientos específicos que se muestran a continuación cuando es relevante.
@@ -169,7 +169,7 @@ Una vez realizado un recuento físico de un productos en el área de inventario,
 
 El inventario de producto ahora está ajustado. La nueva cantidad se muestra en el campo **Inventario actual** en la ventana **Ajustar inventario** y en el campo **Inventario** de la ventana **Ficha de producto**.
 
-También puede usar la función **Ajustar inventario** como una manera sencilla de incluir los productos comprados en el inventario si no usa facturas o pedidos de compra para registrar las compras. Para obtener más información, consulte [Procedimiento: Registrar compras](purchasing-how-record-purchases.md).
+También puede usar la función **Ajustar inventario** como una manera sencilla de incluir los productos comprados en el inventario si no usa facturas o pedidos de compra para registrar las compras. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 
 > [!NOTE]  
 >   Una vez que haya ajustado el inventario, debe actualizarlo con el valor calculado actual. Para obtener más información, vea [Revaluación de inventario](inventory-how-revalue-inventory.md).
@@ -211,7 +211,7 @@ En los intervalos adecuados definidos por la política de la empresa, debe regis
 ## <a name="to-reclassify-an-items-lot-number"></a>Reclasificar el número de lote de un producto
 Si necesita cambiar los atributos de las entradas de contabilidad de los productos, puede usar el diario de reclasificación de productos. Los atributos típicos para reclasificar incluyen dimensiones y códigos de campaña, aunque también realiza el "transferencias del sistema" mediante la reclasificación de códigos de ubicación y de almacén.
 
-Se aplican pasos especiales cuando desea reclasificar números de serie o de lote, y sus fechas de caducidad. Para obtener más información, consulte [Procedimiento: Trabajar con números de serie y de lote](inventory-how-work-item-tracking.md).
+Se aplican pasos especiales cuando desea reclasificar números de serie o de lote, y sus fechas de caducidad. Para obtener más información, consulte [Trabajar con números de serie y de lote](inventory-how-work-item-tracking.md).
 
 El siguiente ejemplo se basa en un código de almacén. Los pasos son parecidos para otros tipos de atributos de producto.
 

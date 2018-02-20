@@ -11,19 +11,19 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 09/08/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 33a1c64886fc7b16cddd67ad175539c96f8d48d6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: eac8f4fdd6a5333662e272c8c71e585cf1fb876a
 ms.contentlocale: es-mx
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-process-sales-returns-or-cancellations"></a>Procesamiento de devoluciones de ventas o cancelaciones
+# <a name="process-sales-returns-or-cancellations"></a>Procesamiento de devoluciones de ventas o cancelaciones
 Si un cliente desea devolver u obtener un reembolso de algún producto o servicio que usted ha vendido y que le han pagado, debe crear y registrar una nota de crédito de venta que especifique el cambio requerido. Para incluir la información correcta de la factura de ventas, puede crear la nota de crédito de venta directamente de la factura de venta contabilizada o puede crear una nueva nota de crédito de venta con información de factura copiada.
 
 Si necesita más control del proceso de devolución de ventas, como documentos de almacén para el manejo de artículos o una mejor descripción al recibir productos de varios documentos de ventas con una sola devolución de ventas, puede crear órdenes de devolución de ventas. Un pedido de devolución de ventas emite automáticamente la nota de crédito de venta relacionada y otros documentos relacionados con la devolución, como un pedido de venta de reemplazo, si es necesario. Para obtener más información, consulte la sección "Para crear un pedido de devolución de ventas basado en uno o más documentos de ventas publicados".
 
 > [!NOTE]  
->   Si una factura de venta registrada aún no se ha pagado, puede usar las funciones **Corregir** o **Cancelar** en la factura de venta registrada para revertir las transacciones. Estas funciones solo funcionan para las facturas sin pagar y no admiten devoluciones o cancelaciones parciales. Para obtener más información, vea [Procedimiento: Corregir o cancelar las facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md)
+>   Si una factura de venta registrada aún no se ha pagado, puede usar las funciones **Corregir** o **Cancelar** en la factura de venta registrada para revertir las transacciones. Estas funciones solo funcionan para las facturas sin pagar y no admiten devoluciones o cancelaciones parciales. Para obtener más información, vea [Corregir o cancelar las facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md)
 
 Una devolución o reembolso se puede relacionar con solo algunos de los productos o servicios de la factura de venta original. En ese caso, debe editar la información de las líneas de la nota de crédito de venta o del pedido de devolución de ventas. Cuando se registra la nota de crédito de venta o el pedido de devolución de ventas, se revierten los documentos de venta que se ven afectados por el cambio y se puede crear un pago de devolución para el cliente. Para obtener más información, consulte [Creación de pagos](payables-make-payments.md).  
 
@@ -65,7 +65,7 @@ Para obtener más información, consulte [Detalles de diseño: valoración de in
     Después de crear o editar las líneas de nota de crédito de venta y especificar una o varias aplicaciones, puede registrar la nota de crédito de venta.   
 8. Seleccione la acción **Registrar y enviar**.  
 
-El cuadro de diálogo de **Registrar y enviar confirmación** se abre para mostrar el método de envío preferido para el cliente. Puede cambiar el método de envío seleccionando el botón de búsqueda en el campo **Enviar documento a**. Para obtener más información, vea [Procedimiento: Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).  
+El cuadro de diálogo de **Registrar y enviar confirmación** se abre para mostrar el método de envío preferido para el cliente. Puede cambiar el método de envío seleccionando el botón de búsqueda en el campo **Enviar documento a**. Para obtener más información, vea [Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).  
 
 Los documentos de venta registrados a los que ha aplicado la nota de crédito están invertidos y se puede crear un pago de reembolso para el cliente. La nota de crédito de venta se ha eliminado y remplazado por un nuevo documento en la lista de notas de crédito ventas registradas.
 
@@ -135,7 +135,7 @@ Quizás decida compensar a un cliente por un producto que le vendió cambiando e
 1. En la ventana **Pedido dev. venta** para un proceso de devolución activo, en una línea vacía, haga un movimiento negativo para el producto de reposición insertando un importe negativo en el campo **Cantidad** .  
 2. Seleccione la acción **Mover líneas negativas**.
 3. En la ventana **Mover líneas ventas negativas**, rellene los campos en una línea según sea necesario.
-4. Elija el botón **Aceptar**. La línea negativa del producto de reposición se borra del pedido de devolución de ventas y se inserta en una nueva ventana **Pedido venta**. Para obtener más información, vea [Procedimiento: Vender productos](sales-how-sell-products.md).
+4. Elija el botón **Aceptar**. La línea negativa del producto de reposición se borra del pedido de devolución de ventas y se inserta en una nueva ventana **Pedido venta**. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
 
 ## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>Crear documentos relativos a devoluciones a partir de un pedido de devolución de ventas
 Puede crear automáticamente órdenes de venta de reposición, órdenes de devolución de compras y órdenes de compra de sustitución durante el proceso de devolución de ventas. Esto puede ser útil, por ejemplo, en aquellos casos en los que desee controlar productos con garantías proporcionadas por proveedores.
@@ -153,7 +153,7 @@ Registre este precio aumentado como un cargo de producto en una nota de crédito
 
 1. Abra la ventana **Pedido dev. venta** para un proceso de devolución activo.
 2. En una línea nueva, en el campo **Tipo**, seleccione **Cargo (prod.)**.  
-3. Rellene los campos según la líneas del coste de producto. Para obtener más información, consulte [Procedimiento: Utilizar los cargos de producto a cuenta para los costos comerciales adicionales](payables-how-assign-item-charges.md).  
+3. Rellene los campos según la líneas del coste de producto. Para obtener más información, consulte [Usar los cargos de producto para costos comerciales adicionales](payables-how-assign-item-charges.md).  
 
 Cuando registre el pedido de devolución de ventas, se añadirá el cargo de reaprovisionamiento al importe del movimiento de ventas correspondiente. De este modo podrá mantener la precisión de la valuación de inventarios.  
 
@@ -169,7 +169,7 @@ Registre este precio reducido como un cargo de producto en una nota de crédito 
      Puede que desee crear un número de cargo de producto especial para cubrir las deducciones de venta.  
 6.  En el campo **Cantidad**, introduzca **1**.  
 7.  En el campo **Precio venta**, introduzca el importe de la deducción de venta.  
-8.  Asigne la deducción de venta como un cargo de producto a los productos de la remisión registrada. Para obtener más información, consulte [Procedimiento: Utilizar los cargos de producto a cuenta para los costos comerciales adicionales](payables-how-assign-item-charges.md). Una vez asignada la deducción, vuelva a la ventana **Nota de crédito de venta**.  
+8.  Asigne la deducción de venta como un cargo de producto a los productos de la remisión registrada. Para obtener más información, consulte [Usar los cargos de producto para costos comerciales adicionales](payables-how-assign-item-charges.md). Una vez asignada la deducción, vuelva a la ventana **Nota de crédito de venta**.  
 
 Cuando registre el pedido de devolución de ventas, la deducción de ventas se añadirá al importe del movimiento de ventas correspondiente. De este modo podrá mantener la precisión de la valuación de inventarios.
 
@@ -216,8 +216,8 @@ Cuando las recepciones de devolución se agrupan en una nota de crédito y se re
 También puede eliminar los pedidos de devolución de venta individuales manualmente.   
 
 ## <a name="see-also"></a>Consulte también
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
-[Enviar documentos por correo electrónico.](ui-how-send-documents-email.md)  
+[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

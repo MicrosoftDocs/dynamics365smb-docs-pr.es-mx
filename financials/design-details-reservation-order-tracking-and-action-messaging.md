@@ -1,5 +1,5 @@
 ---
-title: "Detalles de diseño: Directivas de reaprovisionamiento | Documentos de Microsoft"
+title: "Detalles de diseño: Políticas de reorden | Documentos de Microsoft"
 description: "En este tema se proporciona un resumen de las cuatro políticas de reorden disponibles para la reposición."
 services: project-madeira
 documentationcenter: 
@@ -16,11 +16,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: ec506a5d6abbb2e7626462bc66567248019e0311
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
-# <a name="design-details-reordering-policies"></a>Detalles de diseño: Directivas de reaprovisionamiento
-Las directivas de reaprovisionamiento definen cuánto se debe pedir cuando se debe reponer el producto. Hay cuatro directivas de reorden.  
+# <a name="design-details-reordering-policies"></a>Detalles de diseño: Directivas de reorden
+Las directivas de reorden definen cuánto se debe pedir cuando se debe reponer el producto. Hay cuatro directivas de reorden.  
 
 ## <a name="in-this-section"></a>En esta sección  
 [Detalles de diseño: Cantidad de reorden fija](design-details-fixed-reorder-qty.md)  

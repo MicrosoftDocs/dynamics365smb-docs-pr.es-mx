@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 511381e4f6d469ff16714a30fde60d3e238ad975
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8c53878418592daf9179d6864da4447ca8ad1262
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-track-relations-between-demand-and-supply"></a>Cómo hacer un seguimiento de las relaciones entre demanda y suministro
+# <a name="track-relations-between-demand-and-supply"></a>Realizar un seguimiento de las relaciones entre demanda y suministro
 Desde cualquier documento de suministro o demanda de la llamada red de pedidos, puede efectuar el seguimiento de la demanda de pedido (cantidad seguida), previsión, pedido de ventas abierto o parámetro de planificación (cantidad no seguida) que ha dado lugar a la línea de planificación en cuestión.
 
 Las hojas de planificación también presentan información de planificación complementaria, acerca de entidades sin pedidos para ayudar al planificador a elaborar un plan de suministro óptimo. Para obtener más información, consulte la sección "Elementos de planificación sin seguimiento".
@@ -29,7 +29,7 @@ El seguimiento de pedidos muestra cómo se relacionan los pedidos de venta, las 
 
 A continuación se describe cómo seguir productos asociados en una orden de producción planificada en firme. Los pasos son parecidos a los de todos los tipos de pedidos y planificación de las líneas de hoja de trabajo.
 
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **O.P. Planificada en firme** y elija el vínculo relacionado.
+1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), especifique **Orden produc. planif. en firme** y elija el vínculo relacionado.
 2. Abra la orden de producción planificada en firme pertinente de la lista.
 3. En la ficha desplegable **Líneas**, elija la acción **Funciones** y, a continuación, seleccione la acción **Seguimiento de pedido**.
 
@@ -61,7 +61,7 @@ La ventana contiene entradas que contabilizan la cantidad de excedentes sin segu
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Detalles de diseño: Reserva, seguimiento y mensajes de acciones](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
+[Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)   
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

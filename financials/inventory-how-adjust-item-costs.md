@@ -13,13 +13,13 @@ ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory 
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 988a13b7e558a50fdf41c4ba97b9fa09ed04828a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c2a6f5a214662dd5255d075a623b2039e5392e3d
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-adjust-item-costs"></a>Procedimiento: Ajustar precios de productos
+# <a name="adjust-item-costs"></a>Ajustar precios de productos
 El precio de un producto (valor de inventario) que compre y más tarde venda puede cambiar durante su vida útil, por ejemplo, debido a que se agregue un costo de flete a su precio de compra después de que haya vendido el producto. El ajuste de costo es muy relevante en aquellas situaciones en las que se venden bienes antes de generar la factura de compra para dichos bienes. Para conocer siempre el valor de inventario correcto, los costos de productos se deben ajustar con frecuencia. Esto garantiza que las estadísticas relativas a ventas y beneficios estén actualizadas y que los KPI financieros sean correctos. Para obtener más información, consulte [Detalles de diseño: Ajuste de costo](design-details-cost-adjustment.md).
 
 Como norma general, el valor del campo **Costo unitario** de la ficha de producto se basa en el costo estándar de los productos que utilizan el método de costos estándar. Para los productos que utilizan los demás métodos de costo, este valor se basa en el cálculo de las existencias disponibles (costos facturados y esperados) dividido por la cantidad física disponible. Para obtener más información, consulte la sección "Comprender el cálculo del costo unitario".
@@ -63,7 +63,7 @@ Como norma general, el valor del campo **Costo unitario** de la ficha de product
  La opción que elija en el campo **Valoración existencias** influye en el modo en que [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula el contenido del campo **Costo unitario** de las líneas.  
 
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Métodos de valuación de inventarios FIFO, LIFO, Especial o Medio  
- [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula el valor del campo **Costo unitario ($) de la línea de compra** o el contenido del campo **Costo unitario** de la línea del diario de productos siguiendo la fórmula siguiente:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula el valor del campo **Costo unitario ($)** de la línea de compra o el valor del campo **Costo unitario** de la línea del diario de productos según la fórmula siguiente:  
 
  Costo unitario ($) = (Precio de compra - (Importe descuento / Cantidad)) × (1 + % costo indirecto / 100) + Tasa costos generales  
 

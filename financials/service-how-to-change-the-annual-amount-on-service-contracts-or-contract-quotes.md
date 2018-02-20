@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 541eed23db807d62c570834ab0efbef6fc4f4083
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: afeaeb66ee6ff9f45b642e56c9a06ec484fe9669
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Cómo cambiar el importe anual de los contratos de servicio o las cotizaciones de contrato
+# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Cambiar el importe anual de los contratos de servicio o las cotizaciones de contrato
 Puede cambiar el importe anual del contrato de servicio o la cotización de contrato para corregir el importe que se facturará anualmente.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Para cambiar el importe anual del contrato de servicio o la cotización de contrato  
@@ -186,6 +186,6 @@ Finalmente, las líneas del contrato tendrán los siguientes datos:
 |Producto 3|100.00|115.00|8.20|9.43|105.57|5.57|  
 
 ## <a name="see-also"></a>Consulte también  
-[Creación de contratos de servicio y ofertas de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Crear contratos de servicio y cotizaciones de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
 

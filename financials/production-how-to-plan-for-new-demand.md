@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 143124fd2e458ee756d47d3f8523380cff6826a9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a7266eddba4293807a1e7e2a187c5002be771499
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-for-new-demand-order-by-order"></a>Procedimiento: Planear la nueva demanda de pedido por pedido
+# <a name="plan-for-new-demand-order-by-order"></a>Planear la nueva demanda de pedido por pedido
 Esta tarea de planificación se puede realizar en la ventana **Programación de pedidos**, en la que se muestra toda la demanda nueva junto con información sobre disponibilidad y sugerencias de aprovisionamiento. Esta ventana proporciona la información y las herramientas necesarias para planificar de forma eficaz la demanda de las líneas de venta y las líneas de componentes y crear después directamente diferentes tipos de pedidos de suministros.  
 
 Puede entrar en la ventana **Planificación de pedidos** de dos formas distintas según para lo que la utilice: Desde una orden que desea planificar específicamente o en por lotes porque desea planificar todas y cualquier demanda nueva.  
@@ -116,7 +116,7 @@ Cuando termine el trabajo de planificación en la ventana **Programación de ped
 [Fabricación](production-manage-manufacturing.md)    
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
+[Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)   
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

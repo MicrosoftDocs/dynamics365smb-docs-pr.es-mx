@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 8276d7362fb940c70573f14ac10b8f02d3e145e4
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-inventory-valuation"></a>Detalles de diseño: Valuación de Inventarios
@@ -58,7 +58,7 @@ El propósito de la valuación de inventarios del trabajo en curso es determinar
 [Detalles de diseño: Conciliación con contabilidad](design-details-reconciliation-with-the-general-ledger.md)   
 [Detalles de diseño: Revalorización](design-details-revaluation.md)   
 [Detalles de diseño: Registro de órdenes de producción](design-details-production-order-posting.md)
-[Gestión de costes de inventario](finance-manage-inventory-costs.md)  
+[Gestión de costos de inventario](finance-manage-inventory-costs.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

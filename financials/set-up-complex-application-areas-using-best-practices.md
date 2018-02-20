@@ -31,8 +31,8 @@ Es importante introducir los valores de configuración correctos desde el princi
 -   [Procedimientos recomendados de configuración: valuación de inventarios](setup-best-practices-costing-method.md)  
 
 ## <a name="see-also"></a>Consulte también  
-[Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
-[Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  
+[Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)   
+[Detalles de diseño: Métodos de costo](design-details-costing-methods.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -13,13 +13,13 @@ ms.search.keywords: cost types, general ledger, accounts
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7598dbfbedf8faf7a80ac52469c2edcc4e2c1c66
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 945a60af52eec7fb4f00842acdac42472d735a12
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-cost-types"></a>Procedimiento para configurar centros de costos
+# <a name="set-up-cost-types"></a>Configurar tipos de costo
 El plan de tipos de costo es similar al catálogo de cuentas de la contabilidad general. Puede configurar el plan de tipos de costo de la siguiente forma:  
 
 -   Estructure el plan de tipos de costo de manera similar a las cuentas de ingresos del Catálogo de cuentas de contabilidad general. Luego puede transferir el Catálogo de cuentas de contabilidad al plan de tipos de costo. Puede hacer los ajustes necesarios después de la transferencia.  
@@ -61,7 +61,7 @@ El plan de tipos de costo es similar al catálogo de cuentas de la contabilidad 
 [Definición de centros de costo y de objetos de costo para el Catálogo de cuentas](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
 [Saldos entre el tipo de costo, centro de costo y objeto de costo](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
 [Configuración de contabilidad de costos](finance-set-up-cost-accounting.md)   
-[Terminología en contabilidad de costes](finance-terminology-in-cost-accounting.md)   
+[Terminología en contabilidad de costos](finance-terminology-in-cost-accounting.md)   
 [Acerca de la contabilidad de costos](finance-about-cost-accounting.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c6d15f43e2a308dc8107e7a58e64f4b98452b1db
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac292561a5777b760fd8e857d28085af36201e3e
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-undo-assembly-posting"></a>Procedimiento: deshacer registro de ensamblado
+# <a name="undo-assembly-posting"></a>Deshacer registro de ensamblado.
 Puede que, a veces, tenga que deshacer un pedido de ensamblado registrado, por ejemplo cuando se haya registrado con errores que deban corregirse, o porque no deban haberse registrado en el primer lugar y deban revertirse.
 
 Cuando se deshace un pedido de ensamblado registrado, se crea un grupo de los movimientos de producto correctores para revertir las entradas originales. Cada entrada positiva de salida para el producto de ensamblado se revierte mediante una entrada negativa de salida. Cada entrada de consumo negativo de un componente de ensamblado se revierte mediante una entrada de consumo positivo. La solicitud del costo fijo se crea automáticamente entre las entradas correctoras y originales para garantizar una reversión exacta del costo.  
@@ -60,7 +60,7 @@ El campo **Revertido** de la cabecera del pedido de ensamblado cambia a **Sí**.
 [Revertir registros](finance-how-reverse-journal-posting.md)  
 [Procesamiento de devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md)    
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
-[Inventario](inventory-manage-inventory.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

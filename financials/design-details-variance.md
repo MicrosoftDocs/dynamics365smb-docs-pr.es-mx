@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 04faa28799288e272da93c60cbb90fa19fd190f0
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-variance"></a>Detalles de diseño: Desviación
@@ -63,7 +63,7 @@ La desviación se define como la diferencia entre el costo real y el costo está
 
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)   
- [Detalles de diseño: métodos de coste](design-details-costing-methods.md) [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
+ [Detalles de diseño: Valoraciones existencias](design-details-costing-methods.md) [Administración de costos de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

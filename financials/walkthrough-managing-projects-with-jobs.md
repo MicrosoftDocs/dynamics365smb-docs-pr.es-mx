@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b6a61a9c5d2b8c7b3d197780c580c8bcf957560e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2df47e6f5bcd7b02282e45757d94bd6fc0f0981d
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Explicación detallada: Administración de proyectos con proyectos
@@ -147,7 +147,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
     1.  **Nº producto**: **80201 (Programa gráfico)**  
     2.  **Precio unitario**: **200**  
 
-6.  Seleccione el botón **Aceptar** para cerrar la ventana.  
+6.  Elija el botón**Aceptar** para cerrar la ventana.  
 7.  Elija la acción **Cuentas C/G**.  
 8.  En la ventana de **precios de la cuenta de proyectos**, introduzca la siguiente información y el costo de viaje, para el que el cliente ha acordado pagar el costo además de un porcentaje del 25 %:  
 
@@ -214,7 +214,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
      **Línea 1**  
 
-    -   **Tipo de línea**: **previsión y contrato**  
+    -   **Tipo línea**: **previsión y contrato**  
     -   **Fecha planif.**: **(fecha actual)**  
     -   **Tipo**: **recurso**  
     -   **Nº**: **Tricia**  
@@ -293,7 +293,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 4.  En la ventana **Líneas de tarea de proyecto**, seleccione la línea 1120 y, a continuación, elija la acción **Líneas de planificación de proyecto**.  
 5.  Seleccione **Nuevo**, para crear una línea con la siguiente información:  
 
-    -   **Tipo de línea**: **previsión y contrato**  
+    -   **Tipo línea**: **previsión y contrato**  
     -   **Tipo**: **recurso**  
     -   **Nº**: **Tricia**  
     -   **Cantidad**: **30**  
@@ -346,7 +346,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 
      Mediante el uso del tipo de línea **Programa**, se actualizan los costos y los precios previstos, pero no se factura al cliente ninguna de las actualizaciones de costos y precios de contrato.  
 
-8.  Seleccione la acción **Registrar**. Seleccione el botón **Aceptar** para cerrar la ventana.  
+8.  Seleccione la acción **Registrar**. Elija el botón**Aceptar** para cerrar la ventana.  
 9. Abra la lista **Proyectos** .  
 10. Seleccione el proyecto DECO y, a continuación, elija la acción **Líneas de tarea de proyecto**.  
 11. Seleccione la línea 1120 y, en el campo **Previsión (costo total)**, haga clic con el botón secundario en el importe. Elija **Análisis** para ver la información.  
@@ -417,7 +417,7 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
     -   **Código**: **Tricia**  
     -   **Precio unitario**: **10**  
 
-     Seleccione el botón **Aceptar** para cerrar la ventana.  
+     Elija el botón**Aceptar** para cerrar la ventana.  
 
 4.  En la ficha **Proyecto**, elija la acción **Líneas de tarea de proyecto**.  
 
@@ -481,8 +481,8 @@ Este tutorial se centra en la empresa CRONUS International Ltd., una empresa de 
 ## <a name="see-also"></a>Consulte también  
  [Tutorial de procesos empresariales](walkthrough-business-process-walkthroughs.md)   
  [Configurar la administración de proyectos](projects-setup-projects.md)   
- [Cómo usar recursos](projects-how-use-resources.md)   
- [Cómo supervisar el progreso y el rendimiento](projects-how-monitor-progress-performance.md)   
- [Facturación de proyectos](projects-how-invoice-jobs.md)  
+ [Usar recursos](projects-how-use-resources.md)   
+ [Controlar el progreso y el rendimiento](projects-how-monitor-progress-performance.md)   
+ [Facturar proyectos](projects-how-invoice-jobs.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

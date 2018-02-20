@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 050b0bd997629ca189cfbe035e361de7a252d079
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 04e5a95b7a926528cc26c254390d08e3bce6ad8a
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="defining-and-allocating-costs"></a>Definición y asignación de costos
@@ -38,15 +38,15 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 
 |Para|Vea|  
 |--------|---------|  
-|Configurar el origen de asignación y sus destinos.|[Procedimiento: configurar origen y destinos de asignación](finance-how-to-set-up-allocation-source-and-targets.md)|  
+|Configurar el origen de asignación y sus destinos.|[Configurar origen de asignación y destinos](finance-how-to-set-up-allocation-source-and-targets.md)|  
 |Configuración de varios filtros para las bases de la asignaciones dinámicas.|[Configuración de filtros para las bases de la asignación dinámica](finance-setting-filters-for-dynamic-allocation-bases.md)|  
 |Consulte un ejemplo de cómo definir una asignación estática.|[Ejemplo: definición de asignaciones estáticas basadas en la proporción de asignación](finance-scenario-example-defining-static-allocations-based-on-allocation-ratio.md)|  
 |Consulte un ejemplo de cómo definir una asignación dinámica.|[Ejemplo: definición de asignaciones dinámicas basándose en productos vendidos](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)|  
 
 ## <a name="see-also"></a>Consulte también  
  [Configuración de contabilidad de costos](finance-set-up-cost-accounting.md)   
- [Transferencia y registro de movimientos de coste](finance-transfer-and-post-cost-entries.md)   
+ [Transferencia y registro de movimientos de costo](finance-transfer-and-post-cost-entries.md)   
  [Contabilidad para costos](finance-manage-cost-accounting.md)   
- [Terminología en contabilidad de costes](finance-terminology-in-cost-accounting.md)   
+ [Terminología en contabilidad de costos](finance-terminology-in-cost-accounting.md)   
  [Acerca de la contabilidad de costos](finance-about-cost-accounting.md)
 

@@ -13,10 +13,10 @@ ms.search.keywords: projects
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cd42389cdebe3ce480603e07e01cc063f6d1f8bf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4334dd85d5dff1989e7435814e552fabad04a6ca
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-project-management"></a>Configurar la administración de proyectos
@@ -28,9 +28,9 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 
 | Para | Vea |
 | --- | --- |
-| Configure los recursos y los costes y precios relacionados para recursos individuales, grupos de recursos o todos los recursos disponibles de la empresa. |[Configuración de recursos](projects-how-setup-resources.md) |
+| Configure los recursos y los costes y precios relacionados para recursos individuales, grupos de recursos o todos los recursos disponibles de la empresa. |[Configurar recursos](projects-how-setup-resources.md) |
 | Habilitar los recursos para notificar el uso del tiempo de un individuo o una máquina, y habilitar que un administrador pueda revisar el uso y su asignación. |[Configuración de hojas de horas](projects-how-setup-time-sheets.md) |
-| Crear fichas de proyecto y preparar tareas de proyecto. Configurar precios de los productos y los recursos de proyecto y definir los grupos contables de proyectos. |[Cómo configurar proyectos](projects-how-setup-jobs.md) |
+| Crear fichas de proyecto y preparar tareas de proyecto. Configurar precios de los productos y los recursos de proyecto y definir los grupos contables de proyectos. |[Configurar proyectos](projects-how-setup-jobs.md) |
 
 ## <a name="see-also"></a>Consulte también
 [Administrar proyectos](projects-manage-projects.md)  

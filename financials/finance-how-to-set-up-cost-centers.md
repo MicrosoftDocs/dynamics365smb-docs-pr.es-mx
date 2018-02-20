@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 433526fbd2a13f32e64be94cc1936151445c19f5
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 38b6ce01e48f1b32c28b1883875a566d19f02ea3
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-cost-centers"></a>Procedimiento para configurar centros de costos
-Los centros de coste son departamentos que son responsables de los costes y de los ingresos. El plan de centros de costo es similar a la información de dimensión de contabilidad. Puede configurar el plan de centros de costo de la siguiente forma:  
+# <a name="set-up-cost-centers"></a>Configurar centros de costo
+Los centros de costo son departamentos que son responsables de los costos y de los ingresos. El plan de centros de costo es similar a la información de dimensión de contabilidad. Puede configurar el plan de centros de costo de la siguiente forma:  
 
 -   Transfiera los valores de dimensión en la contabilidad al plan de centros de costo. Puede hacer los ajustes necesarios después de la transferencia.  
 -   Cree un nuevo plan de centro de costo que es independiente de la contabilidad o agregue un nuevo centro de costo a un plan existente de centro de costo. Debe crear cada centro de costo por separado.  
@@ -54,8 +54,8 @@ Puede configurar y mantener centros de costo en la ficha **Ficha centro de costo
 
 ## <a name="see-also"></a>Consulte también  
 [Contabilidad para costos](finance-manage-cost-accounting.md)  
-[Configuración de contabilidad de costes](finance-set-up-cost-accounting.md)   
-[Terminología en contabilidad de costes](finance-terminology-in-cost-accounting.md)   
+[Configuración de contabilidad de costos](finance-set-up-cost-accounting.md)   
+[Terminología en contabilidad de costos](finance-terminology-in-cost-accounting.md)   
 [Acerca de la contabilidad de costos](finance-about-cost-accounting.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

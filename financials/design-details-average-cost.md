@@ -1,6 +1,6 @@
 ---
 title: "Detalles de diseño: Costo promedio | Documentos de Microsoft"
-description: "El costo promedio de un producto se calcula con una media ponderada periódica, en función del período de costo promedio que esté configurado en Dynamics 365."
+description: "El costo promedio de un producto se calcula con una media ponderada periódica, en función del periodo de costo promedio que esté configurado en Finance and Operations, Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 70a0773826984bab5c49334a88ea48872a629023
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9e04bd1dbbae80cd209b28c14764fbf7dc7f0934
 ms.contentlocale: es-mx
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-average-cost"></a>Detalles de diseño: Costo promedio
@@ -71,8 +71,8 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |**Nº producto**|**Cód. variante**|**Cód. almacén**|**Fecha valoración**|**Costo ajustado**|  
 |-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|PROD1||AZUL|01-01-20|No|  
-|PROD1||AZUL|01-02-20|No|  
+|PROD1||AZUL|01-01-20|N.º|  
+|PROD1||AZUL|01-02-20|N.º|  
 |PROD1||AZUL|02-02-20|No|  
 |PROD1||AZUL|03-02-20|No|  
 
@@ -138,7 +138,7 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |Caso|Fecha reg.|Cdad. valuada|Reevaluación|Fecha valoración|  
 |--------------|-------------------------------------|-----------------------------------------|-----------------|-----------------------------------------|  
-|1||Positivo|No|Fecha de registro del movimiento de producto|  
+|1||Positivo|N.º|Fecha de registro del movimiento de producto|  
 |2|Posterior a la última fecha de valuación de los movimientos de valuación aplicados|Negativo|No|Fecha de registro del movimiento de producto|  
 |3|Anterior a la última fecha de valuación de los movimientos de valuación aplicados|Positivo|No|Última fecha de valuación de los movimientos de valuación aplicados|  
 |4||Negativo|Sí|Fecha de registro del movimiento de valoración de revalorización|  

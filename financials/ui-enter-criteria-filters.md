@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 11d7ef56e980ba263dba6328b2f2f08b86410242
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="searching-filtering-and-sorting-data"></a>Buscar, filtrar y ordenar datos
@@ -96,7 +96,7 @@ Puede agregar un filtro de una o varias columnas a una lista. El filtrado en col
 4. Elija el botón **Aceptar**.
 
 ## <a name="filter-criteria-and-symbols"></a>Filtrar los criterios y símbolos
-Al introducir criterios, puede usar todos los números y las letras que normalmente se emplean en un campo. También puede usar símbolos especiales para filtrar aún más los resultados. En las tablas siguientes se muestran los símbolos que se pueden usar en los filtros.  
+Al introducir criterios, puede usar todos los números y las letras que normalmente se emplean en un campo. También puede usar símbolos especiales o expresiones matemáticas para filtrar aún más los resultados. En las tablas siguientes se muestran los símbolos que se pueden usar en los filtros.  
   
 > [!IMPORTANT]  
 >  Puede haber instancias donde los valores de campo contengan los siguientes símbolos y desee filtrarlos. Para ello, debe incluir la expresión de filtro que contiene el símbolo entre comillas ("). Por ejemplo, si desea filtrar en los registros que comienzan por el texto *S&R*, la expresión de filtro es **'S&R*'**.  

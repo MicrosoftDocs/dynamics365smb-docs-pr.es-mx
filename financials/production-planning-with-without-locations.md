@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 964bcd38897e676baa993399fe772b8ccfdc9ea0
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="planning-with-or-without-locations"></a>Planificación con o sin almacenes
@@ -143,7 +143,7 @@ Por consiguiente, si normalmente planifica la demanda de los almacenes, es muy r
 [Fabricación](production-manage-manufacturing.md)    
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
+[Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)   
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4e68378d7acc789a70caf9c5b0590a81bf874337
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 592f42f53593735526ccbd3ddaa69bb0778de0ac
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-transfer-general-ledger-entries-to-cost-entries"></a>Procedimiento: transferencia de movimientos de contabilidad a los movimientos de costo
+# <a name="transfer-general-ledger-entries-to-cost-entries"></a>Transferir movimientos de contabilidad general a movimientos de costo
 Puede transferir movimientos de contabilidad a movimientos de costo.  
 
 Antes de ejecutar el proceso para transferir movimientos de contabilidad a movimientos de costo, debe preparar la transferencia para evitar el registro manual de corrección.  
@@ -44,6 +44,6 @@ Antes de ejecutar el proceso para transferir movimientos de contabilidad a movim
  [Criterios para la transferencia de movimientos de contabilidad a movimientos de costo](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
  [Transferencia automática y movimientos combinados](finance-automatic-transfer-combined-entries.md)   
  [Resultados de la transferencia](finance-results-of-the-transfer.md)   
- [Transferencia y registro de movimientos de coste](finance-transfer-and-post-cost-entries.md)   
+ [Transferencia y registro de movimientos de costo](finance-transfer-and-post-cost-entries.md)   
  [Definición de la relación entre los tipos de costo y las cuentas de contabilidad](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
 

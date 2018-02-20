@@ -13,13 +13,13 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1385b97ef7d6a27a62cb347521b61f5853a0618c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 02e72507a2118cf279be156774079be70d5ede43
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-add-contacts-to-segments"></a>Procedimiento para añadir contactos a segmentos
+# <a name="add-contacts-to-segments"></a>Añadir contactos a segmentos
 Después de crear un segmento y especificado su información básica, puede que quiera añadir contactos al segmento. Puede hacerlo si rellena manualmente las líneas de la ventana **Segmento**, pero es más sencillo y rápido usar la acción **Agregar contactos**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Procedimiento para agregar un contacto a un segmento
@@ -54,7 +54,7 @@ Después de seleccionar los contactos de un segmento, puede que desee eliminar a
 Puede reducir un segmento tantas veces como desee. Si ha reducido el segmento por error y desea retroceder un paso, seleccione la acción **Retroceder**.
 
 ## <a name="see-also"></a>Consulte también
-[Procedimiento: Crear un segmento](marketing-how-create-segment.md)   
+[Crear un segmento](marketing-how-create-segment.md)   
 [Administrar segmentos](marketing-segments.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

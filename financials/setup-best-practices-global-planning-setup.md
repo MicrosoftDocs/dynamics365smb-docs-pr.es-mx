@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: f1a4e3a30d4d665a83ab599ad19dfd3760d744b2
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="setup-best-practices-global-planning-setup"></a>Procedimientos recomendados de configuración: configuración de planificación global
@@ -32,7 +32,7 @@ La ficha desplegable **Planificación** de la ventana **Configuración fabricaci
 
 ## <a name="see-also"></a>Consulte también  
  [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)   
- [Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
+ [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)   
  [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

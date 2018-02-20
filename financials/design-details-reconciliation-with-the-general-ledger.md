@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 6b45f26f4e9ef63d0bdb6cfe755c0e7a45142483
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Detalles de diseño: Conciliación con contabilidad
@@ -122,8 +122,8 @@ Para obtener más información acerca de la relación entre los tipos de cuenta 
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)   
 [Detalles de diseño: Registro de costo esperado](design-details-expected-cost-posting.md)   
-[Detalles de diseño: Ajuste de coste](design-details-cost-adjustment.md)
-[Gestión de costes de inventario](finance-manage-inventory-costs.md)  
+[Detalles de diseño: Ajuste de costo](design-details-cost-adjustment.md)
+[Gestión de costos de inventario](finance-manage-inventory-costs.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 45bfe558c8bdc1f7c0befc4c929e895c54b7d85f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3f371a772f710576a70bac4808b15be091a61d66
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-cost-objects"></a>Procedimiento: configurar objetos de costo
+# <a name="set-up-cost-objects"></a>Configurar objetos de costo
 Los objetos de costo son proyectos, productos o servicios de una empresa. El plan de objetos de costo es similar a la información de dimensión de contabilidad. Puede configurar el plan de objetos de costo de la siguiente forma:  
 
 * Transfiera los valores de dimensión en la contabilidad al plan de objetos de costo. Puede hacer los ajustes necesarios después de la transferencia.  
@@ -57,7 +57,7 @@ Puede configurar y mantener objetos de costo en la ficha **Plan objeto de costo*
 [Definición de centros de costo y de objetos de costo para el Catálogo de cuentas](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
 [Saldos entre el tipo de costo, centro de costo y objeto de costo](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
 [Configuración de contabilidad de costos](finance-set-up-cost-accounting.md)   
-[Terminología en contabilidad de costes](finance-terminology-in-cost-accounting.md)   
+[Terminología en contabilidad de costos](finance-terminology-in-cost-accounting.md)   
 [Acerca de la contabilidad de costos](finance-about-cost-accounting.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

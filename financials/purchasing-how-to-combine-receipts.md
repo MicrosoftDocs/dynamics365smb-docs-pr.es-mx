@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9b3599a3f1a2cfc53d682a153eda8395e892305b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2176baf2947a08785fdf6327b2ebebf35686d04a
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-combine-receipts-on-a-single-invoice"></a>Procedimiento: agrupar albaranes en una factura única
+# <a name="combine-receipts-on-a-single-invoice"></a>Agrupar albaranes en una factura única
 Si desea facturar varias recepciones de compra a la vez, puede utilizar la función **Combinar recepciones**.  
 
 Para poder crear una recepción de compra combinada, es necesario haber registrado primero más de una recepción del mismo proveedor y en la misma divisa. En otras palabras, debe haber rellenado dos o más pedidos de compra, así como haberlos registrado como recibidos, pero no facturado.  
@@ -28,7 +28,7 @@ Cuando se combinan varias recepciones de compra en una factura y se registran, s
 
 ## <a name="to-combine-receipts"></a>Para combinar recepciones  
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Facturas compra** y, a continuación, seleccione el vínculo relacionado.  
-2. Seleccione la acción **Nuevo**. Para obtener más información, consulte [Procedimiento: Registrar compras](purchasing-how-record-purchases.md).  
+2. Seleccione la acción **Nuevo**. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).  
 3. En la ficha desplegable Líneas, haga clic en **Acciones**, y elija la acción **Tomar líneas de envío**.  
 4. Seleccione las distintas líneas de recepción que desee incluir en la factura.  
 

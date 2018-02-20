@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 59ab4fdc2cedb39296985dfaf9c5ac66fd5bf61d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 473cf43c227793e4e606c893154caf28466fdff7
 ms.contentlocale: es-mx
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-contact-persons"></a>Crear personas de contacto
@@ -33,7 +33,7 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 | Para | Vea |
 | --- | --- |
 | Proporcionar información sobre una persona de contacto. |[Crear personas de contacto](marketing-how-create-contact-persons.md) |
-| Configurar una dirección alternativa para un contacto. |[Asignar direcciones alternativas](marketing-how-assign-alternate-address.md) |
+| Configurar una dirección alternativa para un contacto. |[Asignar direcciones alternas](marketing-how-assign-alternate-address.md) |
 | Describir la relación de negocio de un contacto de la empresa. |[Configurar responsabilidades de cargo en contactos](marketing-job-responsibilities.md) |
 | Describe el nivel de organización de sus contactos. |[Configurar niveles de organización en personas de contacto](marketing-organizational-levels.md) |
 | Asignar grupos de correo a los contactos |[Asignar grupos de direcciones a un contacto](marketing-mailing-groups.md) |
@@ -41,5 +41,5 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 ## <a name="see-also"></a>Consulte también
 [Crear empresas de contacto](marketing-create-contact-companies.md)  
 [Creación y administración de contactos]()  
-[Trabajar con Dynamics 365](ui-work-product.md)
+[Trabajar con Finance and Operations, Business edition](ui-work-product.md)
 

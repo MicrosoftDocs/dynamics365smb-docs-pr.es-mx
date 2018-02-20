@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c56cd3c44e06f354bd11f24fb0f16b90a1ac7a34
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8520630e03e26c8c2aab5157fc1efb853552919a
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Detalles de diseño: Ajuste de costo
@@ -171,7 +171,7 @@ Si ha configurado aplicar el ajuste automático del costo en los registros que s
 Si ha configurado aplicar el ajuste automático del costo en los registros que se produzcan dentro de un día o una semana a partir de la fecha de trabajo actual, el ajuste automático del costo no se ejecutará, y el costo de compra no se desviará a la venta hasta ejecutar el proceso **Valorar existencias - movs. producto**.  
 
 ## <a name="see-also"></a>Consulte también
-[Procedimiento: Ajustar precios de productos](inventory-how-adjust-item-costs.md)   
+[Ajustar precios de productos](inventory-how-adjust-item-costs.md)   
 [Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)   
 [Detalles de diseño: Conciliación con contabilidad](design-details-reconciliation-with-the-general-ledger.md)   
 [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md)   

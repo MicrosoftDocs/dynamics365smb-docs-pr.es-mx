@@ -13,10 +13,10 @@ ms.search.keywords: contract, agreement, configure
 ms.date: 08/23/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 338fc294813487438073391495035d40635f9202
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ad29dddb5a3dac2063e06fd973f1e41dc51d08a
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="fulfilling-service-contracts"></a>Cumplimiento de contratos de servicio 
@@ -29,12 +29,12 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 |**Para**|**Vea**|  
 |------------|-------------|  
 |Gestione un contrato de servicio en múltiples contratos. | [Contratos múltiples](service-multiple-contracts.md)|  
-|Cree contratos de servicio de forma manual o desde una cotización de contrato de servicio.| [Creación de contratos de servicio y cotizaciones de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
-|Ajuste el importe anual de un contrato de servicio o cotización de contrato para asegurarse de que factura el importe correcto.|[Cómo cambiar el importe anual de los contratos de servicio o las cotizaciones de contrato](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
+|Cree contratos de servicio de forma manual o desde una cotización de contrato de servicio.| [Crear contratos de servicio y cotizaciones de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
+|Ajuste el importe anual de un contrato de servicio o cotización de contrato para asegurarse de que factura el importe correcto.|[Cambiar el importe anual de los contratos de servicio o las cotizaciones de contrato](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
 
 ## <a name="see-also"></a>Consulte también .
 [Servicio de planificación](service-plan-service.md)  
 [Prestación del servicio](service-deliver-service.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
-[Creación de contratos de servicio y cotizaciones de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Crear contratos de servicio y cotizaciones de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 
