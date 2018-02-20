@@ -1,1 +1,1 @@
-<span data-ttu-id="8eb2a-101">Herramienta de administración del servidor Microsoft Dynamics NAV</span><span class="sxs-lookup"><span data-stu-id="8eb2a-101">Microsoft Dynamics NAV Server Administration tool</span></span>
+<span data-ttu-id="bb82a-101">Herramienta de administración del servidor Microsoft Dynamics NAV</span><span class="sxs-lookup"><span data-stu-id="bb82a-101">Microsoft Dynamics NAV Server Administration tool</span></span>
