@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 03/29/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7c9dec3bcb000be958acec3f0d88abbab9946bf8
 ms.contentlocale: es-mx
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="changing-basic-settings"></a>Cambiar la configuración básica
@@ -27,9 +27,13 @@ El área de tareas representa la página principal, una página de inicio que es
 
 En el centro se encuentra el mosaico Actividades. Actividades muestra los datos actuales y se puede hacer clic o pinchar sobre ellas para conseguir un acceso fácil al documento seleccionado. Los Indicadores de rendimiento clave pueden configurarse para mostrar un gráfico seleccionado para una representación visual de, por ejemplo, el flujo de caja o ingresos y gastos.
 
-También puede crear una lista de Clientes favoritos en la página Inicio para las cuentas con las que hace negocios a menudo o a las que necesita prestar especial atención. Use las flechas para contraer parte de la página y haga más espacio para mostrar datos específicos. En la parte superior de la página principal encontrará todas las acciones que se pueden aplicar al contenido actual. Todo esto también se puede contraer y solo necesita hacer clic o pinchar en el área contraída para volverlo a ver.
+También puede crear una lista de clientes favoritos en la página Inicio para las cuentas con las que hace negocios a menudo o a las que necesita prestar especial atención. Use las flechas para contraer parte de la página y haga más espacio para mostrar datos específicos. En la parte superior de la página principal encontrará todas las acciones que se pueden aplicar al contenido actual. Todo esto también se puede contraer y solo necesita elegir el área contraída para volverlo a ver.
 
-El Área de tareas predeterminada es **Administrador empresarial**, pero puede seleccionar otra área de tareas que se adapte mejor a sus necesidades. Para obtener más información, vea [Cambiar el área de tareas](change-role.md).
+### <a name="to-change-role-center"></a>Para cambiar el Área de tareas
+El Área de tareas predeterminada es **Administrador empresarial**, pero puede seleccionar otra área de tareas que se adapte mejor a sus necesidades.
+1. En la esquina superior derecha, elija el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono Configuración para el área de trabajo") y, a continuación, elija **Mi configuración**.
+2. En la ventana **Mi configuración**, en el campo **Área de tareas**, seleccione el área de tareas que quiere establecer como estándar. Por ejemplo, seleccione **Contable**.
+3. Elija el botón **Aceptar**.
 
 ## <a name="company"></a>Compañía
 Una empresa funciona como un contenedor de datos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puede haber múltiples empresas en una base de datos, pero solo se puede seleccionar una a la vez.
@@ -56,6 +60,5 @@ Seleccione este vínculo para ver o cambiar las notificaciones que recibe sobre 
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Cambiar el área de tareas](change-role.md)  
 [Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
 

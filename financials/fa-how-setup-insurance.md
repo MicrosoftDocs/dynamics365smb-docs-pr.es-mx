@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: fd59a1aea6cb42dbeac7c6978619a5648f877b52
 ms.contentlocale: es-mx
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Configure el seguro de los activos fijos
@@ -42,7 +42,7 @@ Puede acumular información acerca de cada póliza de seguros en la ficha de seg
 3. Rellene los campos según sea necesario.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Para configurar libros diarios de seguros
-[!INCLUDE[d365fin](includes/d365fin_md.md)] crea automáticamente un libro de diario de seguros la primera vez que se abre la ventana **Diario de seguros**, pero se pueden configurar libros de diario adicionales. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] crea automáticamente un libro de diario de seguros la primera vez que abra la ventana **Diario seguros**, pero puede configurar libros de diario adicionales. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Libros diario seguros** y, a continuación, seleccione el vínculo relacionado.  
 2. Rellene los campos según sea necesario.
