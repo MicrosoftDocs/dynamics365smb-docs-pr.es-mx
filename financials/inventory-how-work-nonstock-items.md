@@ -12,10 +12,10 @@ ms.search.keywords: non-inventoriable
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2969b3168f063e636455dd67457c01ed89a0727d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: a6e8c6f24bd369e4d9a5e96894501d9a95711c00
 ms.contentlocale: es-mx
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="work-with-nonstock-items"></a><span data-ttu-id="2f3fc-103">Trabajar con productos no inventariables</span><span class="sxs-lookup"><span data-stu-id="2f3fc-103">Work with Nonstock Items</span></span>
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="2f3fc-116">Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos sin stock** y, a continuación, seleccione el vínculo relacionado.</span><span class="sxs-lookup"><span data-stu-id="2f3fc-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Nonstock Items**, and then choose the related link.</span></span>
 2. <span data-ttu-id="2f3fc-117">Seleccione la acción **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="2f3fc-117">Choose the **New** action.</span></span>
-3. <span data-ttu-id="2f3fc-118">Rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="2f3fc-118">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="2f3fc-118">Rellene los campos según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="2f3fc-118">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-how-nonstock-item-numbers-are-converted-to-your-own-numbering"></a><span data-ttu-id="2f3fc-119">Para configurar cómo se convierten los números de productos no inventariables a la numeración que usted usa</span><span class="sxs-lookup"><span data-stu-id="2f3fc-119">To set up how nonstock item numbers are converted to your own numbering</span></span>
 <span data-ttu-id="2f3fc-120">Para activar la conversión de una ficha de producto no inventariable en una ficha de producto normal, primero debe especificar cómo se convertirá la numeración del producto del proveedor a su formato de número de producto.</span><span class="sxs-lookup"><span data-stu-id="2f3fc-120">To enable conversion of a nonstock item card to a normal item card, you must first set up how the vendor's item numbering is converted to your own item number format.</span></span>

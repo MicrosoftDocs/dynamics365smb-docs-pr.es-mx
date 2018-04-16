@@ -13,10 +13,10 @@ ms.search.keywords: cost types, general ledger, accounts
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 945a60af52eec7fb4f00842acdac42472d735a12
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c89170fd159428d771df105ca16a1d91d29651e4
 ms.contentlocale: es-mx
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-cost-types"></a><span data-ttu-id="df3fe-103">Configurar tipos de costo</span><span class="sxs-lookup"><span data-stu-id="df3fe-103">Set Up Cost Types</span></span>
@@ -35,17 +35,17 @@ ms.lasthandoff: 03/22/2018
     >  <span data-ttu-id="df3fe-119">La función **Registrar tipos de costo en Cat. ctas.** actualiza la relación entre el Catálogo de cuentas y el plan de tipos de costo.</span><span class="sxs-lookup"><span data-stu-id="df3fe-119">The **Register Cost Types in Chart of Accounts** function updates the relationship between the chart of accounts and the chart of cost types.</span></span> <span data-ttu-id="df3fe-120">El campo **Nº**</span><span class="sxs-lookup"><span data-stu-id="df3fe-120">The **No.**</span></span> <span data-ttu-id="df3fe-121">se rellena y comprueba para asegurarse de que cada cuenta contable está relacionada con un solo tipo de costo.</span><span class="sxs-lookup"><span data-stu-id="df3fe-121">field is filled and verified to make sure that each general ledger account is related to only one cost type.</span></span> <span data-ttu-id="df3fe-122">La función se ejecuta automáticamente antes de transferir los movimientos de contabilidad a la contabilidad de costos.</span><span class="sxs-lookup"><span data-stu-id="df3fe-122">The function runs automatically before transferring general ledger entries to cost accounting.</span></span>  
 
 ## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a><span data-ttu-id="df3fe-123">Configurar nuevos tipos de costo en la ventana Plan tipos costo</span><span class="sxs-lookup"><span data-stu-id="df3fe-123">To set up new cost types in the Chart of Cost Types window</span></span>  
-1.  <span data-ttu-id="df3fe-124">Abra la ventana **Plan tipos costo** en el modo de edición.</span><span class="sxs-lookup"><span data-stu-id="df3fe-124">Open the **Chart of Cost Types** window in edit mode.</span></span>  
-2.  <span data-ttu-id="df3fe-125">Rellene los campos descritos como necesarios.</span><span class="sxs-lookup"><span data-stu-id="df3fe-125">Fill in the fields as described as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. <span data-ttu-id="df3fe-124">Abra la ventana **Plan tipos costo** en el modo de edición.</span><span class="sxs-lookup"><span data-stu-id="df3fe-124">Open the **Chart of Cost Types** window in edit mode.</span></span>  
+2. <span data-ttu-id="df3fe-125">Rellene los campos descritos como necesarios.</span><span class="sxs-lookup"><span data-stu-id="df3fe-125">Fill in the fields as described as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
-    >  <span data-ttu-id="df3fe-126">Puede configurar y mantener tipos de costo en la ventana **Ficha tipo de costo** o bien en la ventana **Plan tipos costo**.</span><span class="sxs-lookup"><span data-stu-id="df3fe-126">You can set up and maintain cost types in either the **Cost Type Card** window or in the **Chart of Cost Types** window.</span></span> <span data-ttu-id="df3fe-127">En este procedimiento, va a configurar tipos de costo en la ventana **Plan tipos costo**.</span><span class="sxs-lookup"><span data-stu-id="df3fe-127">In this procedure, you set up cost types in the **Chart of Cost Types** window.</span></span>
+   > [!NOTE]  
+   >  <span data-ttu-id="df3fe-126">Puede configurar y mantener tipos de costo en la ventana **Ficha tipo de costo** o bien en la ventana **Plan tipos costo**.</span><span class="sxs-lookup"><span data-stu-id="df3fe-126">You can set up and maintain cost types in either the **Cost Type Card** window or in the **Chart of Cost Types** window.</span></span> <span data-ttu-id="df3fe-127">En este procedimiento, va a configurar tipos de costo en la ventana **Plan tipos costo**.</span><span class="sxs-lookup"><span data-stu-id="df3fe-127">In this procedure, you set up cost types in the **Chart of Cost Types** window.</span></span>
 
-3.  <span data-ttu-id="df3fe-128">Una vez creados todos los tipos de costo, elija la acción **Indentar tipos costo**.</span><span class="sxs-lookup"><span data-stu-id="df3fe-128">After you have created all cost types, choose the **Indent Cost Types** action.</span></span> <span data-ttu-id="df3fe-129">En el cuadro de diálogo, elija el botón **Sí**.</span><span class="sxs-lookup"><span data-stu-id="df3fe-129">In the dialog box, choose the **Yes** button.</span></span>  
-4.  <span data-ttu-id="df3fe-130">Vincule el nuevo tipo de costo a la cuenta de contabilidad correspondiente.</span><span class="sxs-lookup"><span data-stu-id="df3fe-130">Link the new cost type to the corresponding general ledger account.</span></span>  
+3. <span data-ttu-id="df3fe-128">Una vez creados todos los tipos de costo, elija la acción **Indentar tipos costo**.</span><span class="sxs-lookup"><span data-stu-id="df3fe-128">After you have created all cost types, choose the **Indent Cost Types** action.</span></span> <span data-ttu-id="df3fe-129">En el cuadro de diálogo, elija el botón **Sí**.</span><span class="sxs-lookup"><span data-stu-id="df3fe-129">In the dialog box, choose the **Yes** button.</span></span>  
+4. <span data-ttu-id="df3fe-130">Vincule el nuevo tipo de costo a la cuenta de contabilidad correspondiente.</span><span class="sxs-lookup"><span data-stu-id="df3fe-130">Link the new cost type to the corresponding general ledger account.</span></span>  
 
-    > [!IMPORTANT]  
-    >  <span data-ttu-id="df3fe-131">Si se han escrito definiciones en el campo **Totales** para las cuentas de tipo **Fin-Total** antes de ejecutar la función **Indentar tipos costo**, deberá volver a escribir las definiciones más adelante porque la función sobrescribe los valores de todos los campos **Fin-Total**.</span><span class="sxs-lookup"><span data-stu-id="df3fe-131">If you have entered definitions in the **Totaling** fields for the line type of **End-Total** before you run the **Indent Cost Types** function, then you must enter the definitions again because the function overwrites the values in all **End-Total** fields.</span></span>  
+   > [!IMPORTANT]  
+   >  <span data-ttu-id="df3fe-131">Si se han escrito definiciones en el campo **Totales** para las cuentas de tipo **Fin-Total** antes de ejecutar la función **Indentar tipos costo**, deberá volver a escribir las definiciones más adelante porque la función sobrescribe los valores de todos los campos **Fin-Total**.</span><span class="sxs-lookup"><span data-stu-id="df3fe-131">If you have entered definitions in the **Totaling** fields for the line type of **End-Total** before you run the **Indent Cost Types** function, then you must enter the definitions again because the function overwrites the values in all **End-Total** fields.</span></span>  
 
 ## <a name="to-update-cost-types"></a><span data-ttu-id="df3fe-132">Para actualizar tipos de costo</span><span class="sxs-lookup"><span data-stu-id="df3fe-132">To update cost types</span></span>  
 1.  <span data-ttu-id="df3fe-133">En la ventana **Configuración contabilidad costos**, seleccione si desea que el plan de tipos de costo se actualice automáticamente cuando el catálogo de cuentas se cambia.</span><span class="sxs-lookup"><span data-stu-id="df3fe-133">In the **Cost Accounting Setup** window, select if you want the chart of cost types to be automatically updated when the chart of accounts is changed.</span></span>  
