@@ -35,17 +35,17 @@ El plan de tipos de costo es similar al catálogo de cuentas de la contabilidad 
     >  La función **Registrar tipos de costo en Cat. ctas.** actualiza la relación entre el Catálogo de cuentas y el plan de tipos de costo. El campo **Nº** se rellena y comprueba para asegurarse de que cada cuenta contable está relacionada con un solo tipo de costo. La función se ejecuta automáticamente antes de transferir los movimientos de contabilidad a la contabilidad de costos.  
 
 ## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Configurar nuevos tipos de costo en la ventana Plan tipos costo  
-1.  Abra la ventana **Plan tipos costo** en el modo de edición.  
-2.  Rellene los campos descritos como necesarios. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Abra la ventana **Plan tipos costo** en el modo de edición.  
+2. Rellene los campos descritos como necesarios. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
-    >  Puede configurar y mantener tipos de costo en la ventana **Ficha tipo de costo** o bien en la ventana **Plan tipos costo**. En este procedimiento, va a configurar tipos de costo en la ventana **Plan tipos costo**.
+   > [!NOTE]  
+   >  Puede configurar y mantener tipos de costo en la ventana **Ficha tipo de costo** o bien en la ventana **Plan tipos costo**. En este procedimiento, va a configurar tipos de costo en la ventana **Plan tipos costo**.
 
-3.  Una vez creados todos los tipos de costo, elija la acción **Indentar tipos costo**. En el cuadro de diálogo, elija el botón **Sí**.  
-4.  Vincule el nuevo tipo de costo a la cuenta de contabilidad correspondiente.  
+3. Una vez creados todos los tipos de costo, elija la acción **Indentar tipos costo**. En el cuadro de diálogo, elija el botón **Sí**.  
+4. Vincule el nuevo tipo de costo a la cuenta de contabilidad correspondiente.  
 
-    > [!IMPORTANT]  
-    >  Si se han escrito definiciones en el campo **Totales** para las cuentas de tipo **Fin-Total** antes de ejecutar la función **Indentar tipos costo**, deberá volver a escribir las definiciones más adelante porque la función sobrescribe los valores de todos los campos **Fin-Total**.  
+   > [!IMPORTANT]  
+   >  Si se han escrito definiciones en el campo **Totales** para las cuentas de tipo **Fin-Total** antes de ejecutar la función **Indentar tipos costo**, deberá volver a escribir las definiciones más adelante porque la función sobrescribe los valores de todos los campos **Fin-Total**.  
 
 ## <a name="to-update-cost-types"></a>Para actualizar tipos de costo  
 1.  En la ventana **Configuración contabilidad costos**, seleccione si desea que el plan de tipos de costo se actualice automáticamente cuando el catálogo de cuentas se cambia.  

@@ -30,8 +30,8 @@ Puede utilizar una cotización de servicio como borrador de un pedido de servici
 3. En el campo **N.º**, introduzca un número para la cotización de servicio. Si ha configurado números de serie para cotizaciones de servicio en la ventana **Config. gestión servicio**, también puede presionar Enter para seleccionar el siguiente número de cotización de servicio disponible.  
 4. En el campo **Nº cliente**,  seleccione el cliente pertinente de la lista.  
 
-  > [!Note]  
-  >  Los campos del cliente se rellenan automáticamente con información de la pestaña **Cliente**. Si una ficha **Cliente** no existe para el cliente y ha configurado una plantilla de cliente, podrá crear el cliente que figura en la cotización servicio. Rellene los campos relevantes y, a continuación, seleccione la acción **Crear cliente**.  
+   > [!Note]  
+   >  Los campos del cliente se rellenan automáticamente con información de la pestaña **Cliente**. Si una ficha **Cliente** no existe para el cliente y ha configurado una plantilla de cliente, podrá crear el cliente que figura en la cotización servicio. Rellene los campos relevantes y, a continuación, seleccione la acción **Crear cliente**.  
   
 5. Dependiendo de la configuración de la ficha desplegable **Campos obligatorios** de la ventana **Configurar gestión servicios**, puede que necesite rellenar el campo **Tipo pedido de servicio** y el campo **Código de vendedor**.  
 6. Rellene las líneas de producto de servicio.  

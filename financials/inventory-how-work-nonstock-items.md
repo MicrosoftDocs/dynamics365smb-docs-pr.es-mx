@@ -34,7 +34,7 @@ Las fichas de productos no inventariables disponen de mucha menos información q
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Productos sin stock** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.
-3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-how-nonstock-item-numbers-are-converted-to-your-own-numbering"></a>Para configurar cómo se convierten los números de productos no inventariables a la numeración que usted usa
 Para activar la conversión de una ficha de producto no inventariable en una ficha de producto normal, primero debe especificar cómo se convertirá la numeración del producto del proveedor a su formato de número de producto.
