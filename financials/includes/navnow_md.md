@@ -1,1 +1,1 @@
-<span data-ttu-id="b2dc3-101">Dynamics 365 for Finance and Operations, Business edition (local)</span><span class="sxs-lookup"><span data-stu-id="b2dc3-101">Dynamics 365 for Finance and Operations, Business edition (on-premises)</span></span>
+<span data-ttu-id="81b53-101">Dynamics NAV</span><span class="sxs-lookup"><span data-stu-id="81b53-101">Dynamics NAV</span></span>
