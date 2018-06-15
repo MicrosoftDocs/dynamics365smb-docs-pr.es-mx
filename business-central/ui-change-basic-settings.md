@@ -13,21 +13,21 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f71b0e7d53138be0f89abe4e7935ab7c21437d8e
 ms.contentlocale: es-mx
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="changing-basic-settings"></a>Cambiar la configuración básica
-En la ventana **Mi configuración**, puede ver y cambiar la configuración básica de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+En la ventana **Mi configuración**, puede ver y cambiar la configuración básica de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Los cambios que realice sólo afectan a su área de trabajo; no a las áreas de trabajo de otros usuarios.  
 
 ## <a name="role-center"></a>Área de tareas
-El Área de tareas representa la página Inicio y está designada para las necesidades del trabajo. El Área de tareas proporciona una visión general del negocio, que refleja la información, las tareas y las prioridades de su rol.
+El Área de tareas representa la página Inicio, una pantalla de inicio que está designada para las necesidades específicas del trabajo en una empresa. Dependiendo de su función, el Área de tareas le brinda una descripción general del negocio, su departamento o sus tareas personales. También le ayuda a navegar por sus tareas diarias y encontrar el trabajo que le asignaron.
 
-En la parte superior del Área de tareas verá una barra de navegación que le brinda fácil acceso a entidades típicas para el rol, como clientes, proveedores, productos, etc.
+-   En la parte superior, la navegación le permite cambiar entre clientes, proveedores, artículos y otras listas importantes de información. Del mismo modo, las acciones le permiten iniciar tareas, como crear una nueva factura de venta, directamente desde el Área de tareas.
 
-Lo que aparezca en el área de contenido principal dependerá del Área de tareas específica. Por ejemplo, en la mayoría de las Áreas de tareas, puede encontrar los iconos de Actividades que muestran datos actuales y que se pueden hacer clic o tocar para acceder fácilmente al documento seleccionado. Los Indicadores de rendimiento clave pueden configurarse para mostrar un gráfico seleccionado para una representación visual de, por ejemplo, el flujo de caja o ingresos y gastos. Algunas Áreas de tareas le permiten crear una lista de entidades favoritas, como clientes y proveedores, o mostrar una Bandeja de entrada de informes.
+-   En el centro se encuentran las **Actividades**. Las actividades muestran datos actuales y se puede hacer clic en ellas o tocarlas para ver información más detallada. Los Indicadores de rendimiento clave pueden configurarse para mostrar un gráfico seleccionado para una representación visual de, por ejemplo, el flujo de caja o ingresos y gastos. También puede crear una lista de clientes favoritos en la página de inicio para las cuentas con las que hace negocios a menudo o a las que necesita prestar especial atención.
 
 ### <a name="to-change-role-center"></a>Para cambiar el Área de tareas
 El Área de tareas predeterminada es **Administrador empresarial**, pero puede seleccionar otra área de tareas que se adapte mejor a sus necesidades.
@@ -55,10 +55,16 @@ La fecha predeterminada de trabajo será normalmente la fecha actual. Es posible
 ## <a name="region"></a>Región
 El valor **Región** determina cómo se muestran o se forman las fechas, los tiempos, los números, y divisas.   
 
+
+## <a name="language"></a>Idioma
+Cambia el idioma de la pantalla. Este campo aparece sólo cuando hay más de un idioma a elegir. 
+
+El idioma inicial lo determina el administrador o la configuración de su navegador cuando inicia sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El idioma que establezca se usará en todos los dispositivos desde los que inicie sesión, como un teléfono o una tableta. 
+
 ## <a name="changing-when-i-receive-notifications"></a>Cambio al recibir notificaciones
 Seleccione este vínculo para ver o cambiar las notificaciones que recibe sobre determinados eventos o cambios de estado, cuando va a facturar a un cliente que tiene un saldo vencido o cuando las existencias disponibles son inferiore a la cantidad que va a vender, por ejemplo. Para obtener más información, consulte [Notificaciones inteligentes](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Personalizar la experiencia de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)  
+[Cambiar las funciones que se muestran](ui-experiences.md)  
 
