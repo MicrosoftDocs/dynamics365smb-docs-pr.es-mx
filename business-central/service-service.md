@@ -46,5 +46,5 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 
