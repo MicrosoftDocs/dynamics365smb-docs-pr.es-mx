@@ -11,10 +11,10 @@ ms.search.keywords: trade
 ms.date: 04/30/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: b3a3c4067c40ff2911c368cc97c94404b9dd66e2
+ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
+ms.openlocfilehash: ad8936e09a8f093f5855a87c8d78e05839afefc1
 ms.contentlocale: es-mx
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 07/02/2018
 
 ---
 # <a name="sell-products"></a>Vender productos
@@ -23,7 +23,7 @@ Puede crear una orden o una factura de venta para registrar el contrato con un c
 > [!NOTE]  
 >   Use pedidos de venta si el proceso de venta requiere que pueda enviar parte de una cantidad del pedido, por ejemplo, porque la cantidad total no está disponible a la vez. Si vende productos que se entregan directamente desde el proveedor al cliente, como remisión directa, deberá usar también órdenes de venta. Para obtener más información, vea [Realizar envíos directos](sales-how-drop-shipment.md). En todos los demás aspectos, las órdenes de venta funcionan de la misma forma que las facturas de venta. Para obtener más información, vea [Facturar ventas](sales-how-invoice-sales.md).
 
-Puede negociar con el cliente creando primero una cotización venta que podrá convertir en una orden cuando acuerde la venta. Para obtener más información, consulte [Realización de ofertas](sales-how-make-offers.md).
+Puede negociar con el cliente creando primero una cotización venta que podrá convertir en una orden cuando acuerde la venta. Para obtener más información, consulte [Crear cotizaciones de ventas](sales-how-make-offers.md).
 
 Después de que el cliente haya confirmado el contrato, por ejemplo, después de un proceso de cotización, puede enviar una confirmación de orden para registrar su obligación de entregar los productos según se ha acordado.
 

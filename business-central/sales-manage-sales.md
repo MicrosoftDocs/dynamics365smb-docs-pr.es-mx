@@ -11,10 +11,10 @@ ms.search.keywords: trade, sell
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ef18d7cedac26894d4053fbe72dc3254e328c3dd
+ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
+ms.openlocfilehash: 6351f2b8a79afa201192addc4960bda6d59448eb
 ms.contentlocale: es-mx
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/02/2018
 
 ---
 # <a name="sales"></a>Ccial
@@ -38,7 +38,7 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 
 | Para | Vea |
 | --- | --- |
-| Crea una cotización venta donde ofrece los productos según los términos negociables antes de convertir la cotización en una factura de venta. |[Crear ofertas](sales-how-make-offers.md) |
+| Crea una cotización venta donde ofrece los productos según los términos negociables antes de convertir la cotización en una factura de venta. |[Crear cotizaciones de ventas](sales-how-make-offers.md) |
 | Crea una factura de venta para registrar el contrato con un cliente para vender productos según términos de entrega y pago determinados. |[Facturar ventas](sales-how-invoice-sales.md) |
 | Procesar una orden de venta que requiera una remisión parcial o directa. |[Vender productos](sales-how-sell-products.md) |
 |Configurar líneas de ventas o compras estándar que puede insertar rápidamente en documentos, por ejemplo, para las órdenes de reposición periódicas.|[Crear líneas de ventas y de compras periódicas](sales-how-work-standard-lines.md)|  
