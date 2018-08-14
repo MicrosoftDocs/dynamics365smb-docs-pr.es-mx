@@ -144,11 +144,11 @@ Puede especificar fechas y horas en todos los campos diseñados específicamente
 |1.12.02|01-12-02 00:00:00|  
 |11 12|11-mes actual-año actual 12:00:00|  
 |1112 12|11-12-año actual 12:00:00|  
-|t or today|fecha de hoy 0:00:00|  
-|t time|fecha de hoy hora real|  
-|t 10:30|fecha de hoy 10:30:00|  
-|t 3:3:3|fecha de hoy 03:03:03|  
-|w or workdate|la fecha de trabajo 00:00:00|  
+|h u hoy|fecha de hoy 0:00:00|  
+|h hora|fecha de hoy hora real|  
+|h 10:30|fecha de hoy 10:30:00|  
+|h 3:3:3|fecha de hoy 03:03:03|  
+|t o fecha de trabajo|la fecha de trabajo 00:00:00|  
 |l o lunes|Lunes de la semana actual 00:00:00|  
 |ma o martes|Martes de la semana actual 0:00:00|  
 |mi o miércoles|Miércoles de la semana actual 00:00:00|  
