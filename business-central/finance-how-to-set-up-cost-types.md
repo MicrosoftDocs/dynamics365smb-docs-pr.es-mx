@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger, accounts
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2e915eb443a7f726cb002ddf6a1d32f9302d9c08
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 37800664c79e501f1cf5dc41c12be6197fcb6bfd
 ms.contentlocale: es-mx
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-cost-types"></a>Configurar tipos de costo
@@ -26,7 +26,7 @@ El plan de tipos de costo es similar al catálogo de cuentas de la contabilidad 
 -   Cree el nuevo plan de tipos de costo o agregue nuevos tipos de costo al plan existente de tipos de costo. Debe crear cada tipo de costo nuevo por separado.  
 
 ## <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Para transferir el Catálogo de cuentas de contabilidad al plan de tipos de costo  
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Plan tipos costo** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plan de tipos de costo** y luego elija el enlace relacionado.  
 2.  Elija la acción **Tomar tipos costo de catálogo ctas**. En el cuadro de diálogo, seleccione el botón **Sí** para confirmar la transferencia. La función utiliza el Catálogo de cuentas para crear un plan de tipos de costo.  
 
     El plan de tipos de costo contendrá todas las cuentas de ingresos en la contabilidad e incluye títulos y subtotales. Puede cambiar el plan de tipos de costo, según sea necesario. Por ejemplo, puede eliminar los tipos de costo existentes duplicados.  

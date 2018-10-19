@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c3eaa16ebf1266a7c90d4130fcb25b2fbbc2b40d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c771db9256edfb6cc82f8d7a16a1fdd307d030b7
 ms.contentlocale: es-mx
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-costing-methods"></a>Detalles de diseño: Métodos de costo
@@ -32,7 +32,7 @@ La valuación de inventarios determina si en el cálculo de costos se capitaliza
 
  En la imagen siguiente se muestra cómo fluyen los costos a través del inventario por cada valuación de inventarios.  
 
- ![Métodos de valoración de existencias](media/design_details_inventory_costing_7_costing_methods.png "design_details_inventory_costing_7_costing_methods")  
+ ![Métodos de valoración](media/design_details_inventory_costing_7_costing_methods.png "Métodos de valoración")  
 
  Los métodos de costo varían en cuanto a la forma en que el inventario disminuye y si se utiliza el costo real o el costo estándar como base de valuación. En la tabla siguiente se explican las diferentes características. (Se excluye el método LIFO por ser muy parecido al método FIFO).  
 

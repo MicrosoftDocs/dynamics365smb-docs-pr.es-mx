@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 356f01706f40bdb8fd46871e3dbde73577a78117
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6aa3eec4afc365789b1fd85d64781593156ba068
 ms.contentlocale: es-mx
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="the-paypal-payments-standard-extension-to-business-central"></a>La extensión PayPal Payments Standard para Business Central 
+# <a name="the-paypal-payments-standard-extension"></a>Extensión PayPal Payments Standard
 Los clientes requieren continuamente un servicio de atención al cliente mejor, ya sea en cuanto a la calidad de los productos o a las opciones de pago y envío. El servicio Estándar de pagos de PayPal ayuda a mejorar el servicio de atención al cliente.
 
 Como alternativa a recopilar pagos a través de la transferencia bancaria o las tarjetas de crédito, puede ofrecer a sus clientes la opción de pagar a través de su cuenta de PayPal. Cuando envía una factura de venta o una orden de venta por correo electrónico, hay un vínculo de PayPal en el cuerpo del correo electrónico y en el documento PDF adjunto. Cuando el cliente elige el vínculo, aparece la página de su cuenta de PayPal y muestra los detalles de pago de la venta. El cliente podrá pagar la factura como cualquier otro pago de PayPal.

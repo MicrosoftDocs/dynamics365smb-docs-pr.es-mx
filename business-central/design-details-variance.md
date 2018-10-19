@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f01c57c3686764866c9d2a3c25d426e7f9a986a6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 36062fc6fa40c3fc2b928ffad7e3b242634149fc
 ms.contentlocale: es-mx
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-variance"></a>Detalles de diseño: Desviación
@@ -40,7 +40,7 @@ La desviación se define como la diferencia entre el costo real y el costo está
 
  En la tabla siguiente se muestran los movimientos de valoración resultantes.  
 
- ![Cálculo desviación compras](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
+ ![Cálculo de desviación de compra](media/design_details_inventory_costing_11_purchase_variance.png "Cálculo de desviación de compra")  
 
 ## <a name="determining-the-standard-cost"></a>Determinación del costo estándar  
  El costo estándar se usa al calcular la desviación y el importe para capitalizar. Como el costo estándar puede cambiarse con el tiempo debido al cálculo de actualización manual, para el cálculo de desviación necesita un punto en el tiempo en el que el costo estándar sea fijo. Este momento se produce cuando se factura la entrada de existencias. En el caso de productos fabricados o ensamblados, el punto en el que se determina el costo estándar es cuando se ajusta el costo.  
@@ -50,16 +50,16 @@ La desviación se define como la diferencia entre el costo real y el costo está
 |Parte costo|Producto comprado|Producto fabricado/ensamblado|  
 |----------------|--------------------|------------------------------|  
 |**Coste estándar**||Costo material a un nivel + Costo de Capacidad a un nivel + Costo subcontrat. a un nivel + Costos gen. cap. a un nivel + Costo gen. fab. a un nivel|  
-|**Costo material a un nivel**|Costo unitario|![Ecuación 1](media/design_details_inventory_costing_11_equation_1.png "design_details_inventory_costing_11_equation_1")|  
-|**Costo de Capacidad a un nivel**|No aplicable|![Ecuación 2](media/design_details_inventory_costing_11_equation_2.png "design_details_inventory_costing_11_equation_2")|  
-|**Costo subcontrat. a un nivel**|No aplicable|![Ecuación 3](media/design_details_inventory_costing_11_equation_3.png "design_details_inventory_costing_11_equation_3")|  
-|**Costos gen. cap. a un nivel**|No aplicable|![Ecuación 4](media/design_details_inventory_costing_11_equation_4.png "design_details_inventory_costing_11_equation_4")|  
+|**Costo material a un nivel**|Costo unitario|![Ecuación 1](media/design_details_inventory_costing_11_equation_1.png "Ecuación 1")|  
+|**Costo de Capacidad a un nivel**|No aplicable|![Ecuación 2](media/design_details_inventory_costing_11_equation_2.png "Ecuación 2")|  
+|**Costo subcontrat. a un nivel**|No aplicable|![Ecuación 3](media/design_details_inventory_costing_11_equation_3.png "Ecuación 3")|  
+|**Costos gen. cap. a un nivel**|No aplicable|![Ecuación 4](media/design_details_inventory_costing_11_equation_4.png "Ecuación 4")|  
 |**Costo gen. fab. a un nivel**|No aplicable|(Costo de material de un nivel + Costo de capacidad de un nivel + Costo subcontr. de un nivel) * Costo indirecto % /100 + Tasa costos generales|  
-|**Costo material distribuido**|Costo unitario|![Ecuación 5](media/design_details_inventory_costing_11_equation_5.png "design_details_inventory_costing_11_equation_5")|  
-|**Costo de Capacidad distribuida**|No aplicable|![Ecuación 6](media/design_details_inventory_costing_11_equation_6.png "design_details_inventory_costing_11_equation_6")|  
-|**Costo subcontratado distrib.**|No aplicable|![Ecuación 7](media/design_details_inventory_costing_11_equation_7.png "design_details_inventory_costing_11_equation_7")|  
-|**Costo gen. capacidad distribuida**|No aplicable|![Ecuación 8](media/design_details_inventory_costing_11_equation_8.png "design_details_inventory_costing_11_equation_8")|  
-|**Costos gen. fabr. distrib.**|No aplicable|![Ecuación 9](media/design_details_inventory_costing_11_equation_9.png "design_details_inventory_costing_11_equation_9")|  
+|**Costo material distribuido**|Costo unitario|![Ecuación 5](media/design_details_inventory_costing_11_equation_5.png "Ecuación 5")|  
+|**Costo de Capacidad distribuida**|No aplicable|![Ecuación 6](media/design_details_inventory_costing_11_equation_6.png "Ecuación 6")|  
+|**Costo subcontratado distrib.**|No aplicable|![Ecuación 7](media/design_details_inventory_costing_11_equation_7.png "Ecuación 7")|  
+|**Costo gen. capacidad distribuida**|No aplicable|![Ecuación 8](media/design_details_inventory_costing_11_equation_8.png "Ecuación 8")|  
+|**Costos gen. fabr. distrib.**|No aplicable|![Ecuación 9](media/design_details_inventory_costing_11_equation_9.png "Ecuación 9")|  
 
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)   

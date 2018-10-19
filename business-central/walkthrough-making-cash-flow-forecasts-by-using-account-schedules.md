@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3747515bbea41a207c9467600065b5049b7f3575
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 59264fada4455f3f0a40ba225d45159d2fb77194
 ms.contentlocale: es-mx
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Tutorial: elaboración de previsiones del flujo de caja con estructuras de cuentas
@@ -50,7 +50,7 @@ Una estructura de cuentas consta de un nombre de estructura de cuentas del flujo
 
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Configuración de un nuevo nombre de estructura de cuentas  
 
-1.  Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Esquemas de cuentas** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Estructuras de cuentas** y luego elija el enlace relacionado.  
 2.  En la ventana **Nombres de estructura de cuentas**, elija **Nuevo** para crear un nuevo nombre de estructura de cuentas de flujo de caja.  
 3.  En el campo **Nombre**, especifique **Previsiones**.  
 4.  En el campo **Descripción**, introduzca **Previsión de flujo de caja**.  
