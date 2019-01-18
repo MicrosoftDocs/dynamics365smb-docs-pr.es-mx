@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger, accounts
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37800664c79e501f1cf5dc41c12be6197fcb6bfd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2846967648f5c0e0b6015c7990a941642fc27323
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-types"></a>Configurar tipos de costo
@@ -34,12 +35,12 @@ El plan de tipos de costo es similar al catálogo de cuentas de la contabilidad 
     > [!IMPORTANT]  
     >  La función **Registrar tipos de costo en Cat. ctas.** actualiza la relación entre el Catálogo de cuentas y el plan de tipos de costo. El campo **Nº** se rellena y comprueba para asegurarse de que cada cuenta contable está relacionada con un solo tipo de costo. La función se ejecuta automáticamente antes de transferir los movimientos de contabilidad a la contabilidad de costos.  
 
-## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Configurar nuevos tipos de costo en la ventana Plan tipos costo  
-1.  Abra la ventana **Plan tipos costo** en el modo de edición.  
+## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-page"></a>Configurar nuevos tipos de costo en la página Tipos centros costo  
+1.  Abra la página **Plan tipos costo** en el modo de edición.  
 2.  Rellene los campos descritos como necesarios. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  Puede configurar y mantener tipos de costo en la ventana **Ficha tipo de costo** o bien en la ventana **Plan tipos costo**. En este procedimiento, va a configurar tipos de costo en la ventana **Plan tipos costo**.
+    >  Puede configurar y mantener tipos de costo en la página **Ficha tipo de costo** o bien en la página **Plan tipos costo**. En este procedimiento, va a configurar tipos de costo en la página **Plan de tipos de costo**.
 
 3.  Una vez creados todos los tipos de costo, elija la acción **Indentar tipos costo**. En el cuadro de diálogo, elija el botón **Sí**.  
 4.  Vincule el nuevo tipo de costo a la cuenta de contabilidad correspondiente.  
@@ -48,7 +49,7 @@ El plan de tipos de costo es similar al catálogo de cuentas de la contabilidad 
     >  Si se han escrito definiciones en el campo **Totales** para las cuentas de tipo **Fin-Total** antes de ejecutar la función **Indentar tipos costo**, deberá volver a escribir las definiciones más adelante porque la función sobrescribe los valores de todos los campos **Fin-Total**.  
 
 ## <a name="to-update-cost-types"></a>Para actualizar tipos de costo  
-1.  En la ventana **Configuración contabilidad costos**, seleccione si desea que el plan de tipos de costo se actualice automáticamente cuando el catálogo de cuentas se cambia.  
+1.  En la página **Configuración contabilidad costos**, seleccione si desea que el plan de tipos de costo se actualice automáticamente cuando el plan de cuentas se cambia.  
 2.  En el campo **Alinear cuenta C/G** puede seleccionar de entre las siguientes opciones.  
 
 - **Sin alineación**: no hay cambio aplicable en el plan de tipos de costo cuando se modifica el Catálogo de cuentas.  
@@ -57,7 +58,6 @@ El plan de tipos de costo es similar al catálogo de cuentas de la contabilidad 
 
 ## <a name="see-also"></a>Consulte también  
 [Contabilidad para costos](finance-manage-cost-accounting.md)  
-[Definición de la relación entre los tipos de costo y las cuentas de contabilidad](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
 [Definición de centros de costo y de objetos de costo para el Catálogo de cuentas](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
 [Saldos entre el tipo de costo, centro de costo y objeto de costo](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
 [Configuración de contabilidad de costos](finance-set-up-cost-accounting.md)   

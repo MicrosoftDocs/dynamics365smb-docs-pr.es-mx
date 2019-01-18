@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6ae013ab8d661b88be18ce93f6b7a03927ab2f79
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 15a79e17fcc3c2c783f845cd7391448a75af89e3
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-electronic-invoicing"></a>Configurar la facturación electrónica
@@ -25,12 +25,12 @@ Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[d3
 > [!IMPORTANT]  
 >  El certificado que recibe de la autoridad fiscal mexicana debe instalarse para cada usuario que envía facturas electrónicas. Para obtener más información, consulte el sitio web del [Servicio de Administración Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772).  
 >   
->  Asimismo, la empresa debe tener configurado el correo SMTP para el envío de facturas electrónicas. En función de la configuración de la empresa, quizá sea necesario conceder permisos explícitos de SMTP a cada usuario y equipo correspondiente. Los documentos se enviarán desde la dirección especificada en la ventana **Información de empresa**.  
+>  Asimismo, la empresa debe tener configurado el correo SMTP para el envío de facturas electrónicas. En función de la configuración de la empresa, quizá sea necesario conceder permisos explícitos de SMTP a cada usuario y equipo correspondiente. Los documentos se enviarán desde la dirección especificada en la página **Información de empresa**.  
 
 ## <a name="to-set-up-company-information"></a>Para configurar la información de la empresa  
 
 1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Información de la empresa** y, a continuación, seleccione el vínculo relacionado.  
-2.  En la ventana **Información de empresa**, en la ficha desplegable **Impuesto**, rellene los campos tal como se describe en la tabla siguiente.  
+2.  En la página **Información empresa**, en la ficha desplegable **Impuesto**, llene los campos como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
     |------------------------------------|---------------------------------------|  

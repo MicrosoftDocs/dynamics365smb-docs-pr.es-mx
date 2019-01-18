@@ -11,10 +11,10 @@ ms.search.keywords: local
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: aab9afcd1ed9454fd9b594d0561ffd9c5edc4bf0
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 62254ea9a2a9e5ee42a6aee0fcda58d24a5d2521
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="reporting-sales-tax-in-the-mexico"></a>Informes del impuesto de venta en México
@@ -27,7 +27,7 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], un grupo del impuesto repr
 Si configura nuevas áreas de impuesto y jurisdicciones impositivas, debe asegurarse de rellenar los campos correctamente. En México: los estados, los condados, los municipios/ciudades y las localidades pueden cobrar impuestos. Las empresas recaudan y envían el impuesto de las ventas que se cobra por los productos que venden a los usuarios finales a estos organismos gubernamentales. El impuesto de las ventas también se puede cobrar sobre un impuesto de las ventas existentes. Por ejemplo, se puede calcular el impuesto sobre el importe de una factura de ventas que ya incluya el impuesto gravado por otra jurisdicción.  
 
 ## <a name="tax-details"></a>Detalles impuesto
-La ventana **Detalles de impuesto** muestra distintas combinaciones de jurisdicciones del impuesto de ventas y de grupos de impuesto de venta para establecer las tasas del impuesto de ventas. Por cada jurisdicción fiscal, recomendamos que configure un grupo de impuestos para el impuesto de venta normal, otro para productos o servicios que no cobran impuestos y un grupo adicional para cada tipo de producto o servicio que se gestione con una tarifa distinta del impuesto de ventas en dicha jurisdicción.  
+La págin **Detalles de impuesto** muestra distintas combinaciones de jurisdicciones del impuesto de ventas y de grupos de impuesto de venta para establecer las tasas del impuesto de ventas. Por cada jurisdicción fiscal, recomendamos que configure un grupo de impuestos para el impuesto de venta normal, otro para productos o servicios que no cobran impuestos y un grupo adicional para cada tipo de producto o servicio que se gestione con una tarifa distinta del impuesto de ventas en dicha jurisdicción.  
 
 En México, cuando vende a un cliente en un lugar donde no tiene una *sede* (o un domicilio legal en ese estado) no cobra impuesto de las ventas. En lugares donde no tiene una sede, asegúrese de que los campos **Impto. inferior al máximo** e **Impto. superior al máximo** estén en 0.00.  
 

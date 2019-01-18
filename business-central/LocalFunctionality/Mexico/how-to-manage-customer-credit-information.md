@@ -12,10 +12,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: ../../receivables-how-block-customers
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 17aabb224c07ec4b66f2c72c5f509d3eeec70597
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d37ae2fa853931910d74958f4bd37c9931b08033
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-customer-credit-information"></a>Gestionar información crediticia del cliente
@@ -23,8 +23,8 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede agregar comentarios 
 
 ## <a name="to-add-comments-to-customer-credit-information"></a>Para añadir comentarios a la información de crédito de un cliente  
 1.  Elija el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono de Buscar página o informe"), escriba **Administración de crédito** y, a continuación, elija el vínculo relacionado.  
-2.  En la ventana **Lista de clientes - Gestión créditos**, seleccione un cliente y, a continuación, elija la acción **Comentarios**.  
-3.  En la ventana **Hoja comentarios**, llene los campos como se describe en la tabla siguiente.  
+2.  En la página **Lista de clientes - Gestión créditos**, seleccione un cliente y, a continuación, elija la acción **Comentarios**.  
+3.  En la página **Hoja comentarios**, llene los campos como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  

@@ -11,10 +11,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 44648f9d9cfd9ad2e1ea3589031b6560f4a4dcfb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 587817f68dd731c1ea3e23617e405d0c9493fdd6
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-bills-of-material"></a>Trabajar con listas de materiales
@@ -51,16 +51,16 @@ Existen dos partes para crear una L.M. de ensamblado:
 1. Configure un producto nuevo. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
     Continúe para introducir los componentes o recursos en la L.M. de ensamblado.  
-2. En la ventana **Ficha producto** de un elemento del ensamblado, elija la acción **Ensamblado** y, a continuación, seleccione la acción **L.M. de ensamblado**.
-3. En la ventana **L.M. de ensamblado**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. En la página **Ficha producto** de un producto de ensamblado, elija la acción **Ensamblado** y, a continuación, seleccione la acción **L.M. de ensamblado**.
+3. En la página **L.M. de ensamblado**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Para ver los componentes de un producto de ensamblado indentado según la estructura de la L.M.
-En la ventana **L.M. de ensamblado** puede abrir una ventana independiente que muestre que los componentes y cualquier recurso con sangría de acuerdo con la posición de la L.M. debajo del elemento del ensamblado.
+En la página **L.M. de ensamblado** puede abrir una página independiente que muestre que los componentes y cualquier recurso con sangría de acuerdo con la posición de la L.M. debajo del producto de ensamblado.
 
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
-2. Abra la ficha de un producto de ensamblado. (El campo **L.M. de ensamblado** de la ventana **Productos** contiene **Sí**).
-3. En la ventana **Ficha producto**, elija la acción **Ensamblado** y, a continuación, seleccione la acción **L.M. de ensamblado**.
-4. En la ventana **L.M. de ensamblado**, elija la acción **Mostrar L.M.**.
+2. Abra la ficha de un producto de ensamblado. (El campo **L.M. de ensamblado** de la página **Productos** contiene **Sí**).
+3. En la página **Ficha producto**, elija la acción **Ensamblado** y, a continuación, seleccione la acción **L.M. de ensamblado**.
+4. En la página **L.M. de ensamblado**, elija la acción **Mostrar L.M.**.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Para sustituir el producto de ensamblado por sus componentes en líneas de documento
 Desde cualquier documento de venta y de compra que contenga el producto de ensamblado, puede utilizar una función especial para reemplazar la línea del producto de ensamblado con nuevas líneas para sus componentes. Esta función es útil, por ejemplo, si desea vender componentes como un kit que representa el producto de ensamblado.
@@ -75,19 +75,19 @@ El procedimiento siguiente se basa en una factura de ventas. Los mismos pasos se
 
 Se vacían todos los campos de la línea de factura de ventas para el producto de ensamblado, salvo los campos **Producto** y **Descripción**. Se insertan las líneas completas de la factura de venta para los componentes y recursos posibles que componen el producto de ensamblado.
 
-**Nota**: La función Desplega L.M. también está disponible en la ventana **L.M. de ensamblado**.
+**Nota**: La función Desplega L.M. también está disponible en la página **L.M. de ensamblado**.
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Para calcular el costo estándar de un producto de ensamblado
 Se calcula el costo unitario de un producto de ensamblado distribuyendo el costo unitario de cada componente y recurso de la L.M. de ensamblado del producto.
 
-También puede calcular y actualizar el costo estándar de uno o varios productos en la ventana **Hoja trab. costo estándar**. Para obtener más información, consulte [Actualizar costos estándar](finance-how-to-update-standard-costs.md).  
+También puede calcular y actualizar el costo estándar de uno o varios productos en la página **Hoja trab. costo estándar**. Para obtener más información, consulte [Actualizar costos estándar](finance-how-to-update-standard-costs.md).  
 
 El costo unitario de una L.M. de ensamblado equivale siempre al total de los costos unitarios de sus componentes, incluidas las L.M. de otros ensamblados y cualquier recurso.
 
 1. En la esquina superior derecha, seleccione el icono **Buscar página o informe**, escriba **Productos** y, a continuación, seleccione el enlace relacionado.
-2. Abra la ficha de un producto de ensamblado. (El campo **L.M. de ensamblado** de la ventana **Productos** contiene **Sí**).
-3. En la ventana **Ficha producto**, elija la acción **Ensamblado** y, a continuación, seleccione la acción **L.M. de ensamblado**.
-4. En la ventana **L.M. de ensamblado**, seleccione la acción **Calcular costo estándar**.
+2. Abra la ficha de un producto de ensamblado. (El campo **L.M. de ensamblado** de la página **Productos** contiene **Sí**).
+3. En la página **Ficha producto**, elija la acción **Ensamblado** y, a continuación, seleccione la acción **L.M. de ensamblado**.
+4. En la página **L.M. de ensamblado**, seleccione la acción **Calc. Costo estándar**.
 5. Seleccione una de las siguientes opciones y haga clic en el botón **Aceptar**.
 
 |Opción |Descripción |

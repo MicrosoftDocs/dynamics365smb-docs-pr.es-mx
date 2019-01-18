@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ed0f263184c2384a3d5a9b671123bbf123b27037
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d33e371b5b9ece7e3d2f563e5b8b4ccdd09826af
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-deposits"></a>Crear depósitos
@@ -44,7 +44,7 @@ Puede crear depósitos para llevar un registro de las transacciones que incluya 
     |**Nº documento**|El número de documento del movimiento de la línea del diario.|  
     |**Importe haber**|El importe total de crédito que figura en la línea del diario.|  
 
-5.  Como alternativa, vaya a la pestaña **Navegar**, elija **Dimensiones** y agregue las dimensiones pertinentes en la ventana **Movimientos de grupo de dimensiones**.  
+5.  Como alternativa, vaya a la pestaña **Navegar**, elija **Dimensiones** y agregue las dimensiones pertinentes en la página **Movimientos de grupo de dimensiones**.  
 
 Después de haber creado un depósito, debe registrarlo.  
 

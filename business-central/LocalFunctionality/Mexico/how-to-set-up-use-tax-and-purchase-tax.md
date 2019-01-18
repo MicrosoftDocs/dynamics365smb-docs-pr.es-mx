@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5a6714283f76674b2f604a1a65be7465b0e47413
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 356305a79113819e134b3dbe0525f69903f46888
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-use-tax-and-purchase-tax"></a>Configurar impuesto sobre servicios e impuesto a las compras
@@ -25,22 +25,22 @@ La definición de impuesto de las ventas comprende los impuestos que pagan las e
 
 ## <a name="to-set-up-use-tax-for-a-purchase-order"></a>Para configurar el impuesto sobre servicios para un pedido de compra  
 1.  Seleccione ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos compra** y, a continuación, elija el vínculo relacionado en **Procesamiento de pedidos**.  
-2.  En la ventana **Pedidos compra**, de la pestaña **Inicio**, del grupo **Nuevo**, elija **Nuevo**.  
+2.  En la ventana **Pedidos de compra**, en la pestaña **Inicio**, en el grupo **Nuevo**, seleccione **Nuevo**.  
 3.  En la ficha desplegable **Líneas**, rellene los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 4.  En la ficha desplegable **Facturación**, llene los campos como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
-    |**Sujeto a impuesto**|Seleccione este campo para configurar los impuestos a los que está sujeto. **Importante:** Este campo está disponible en la ventana **Cab. compra**, pero no se muestra de forma predeterminada. Para seleccionar este campo, primero debe agregar la columna que lo muestra. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
-    |**Cód. área impuesto**|El código de área de impuesto del proveedor. **Importante:** Este campo está disponible en la ventana **Cab. compra**, pero no se muestra de forma predeterminada. Para seleccionar este campo, primero debe agregar la columna que lo muestra. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
-    |**Nº exención fisc.**|El número de exención fiscal de la empresa. Puede introducir un máximo de 30 caracteres alfanuméricos. **Importante:** Este campo está disponible en la ventana **Cab. compra**, pero no se muestra de forma predeterminada. Para seleccionar este campo, primero debe agregar la columna que lo muestra. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
-    |**Cód. área impuesto provincial**|El código de impuesto de la provincia. **Importante:** Este campo está disponible en la ventana **Cab. compra**, pero no se muestra de forma predeterminada. Para seleccionar este campo, primero debe agregar la columna que lo muestra. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
+    |**Sujeto a impuesto**|Seleccione este campo para configurar los impuestos a los que está sujeto. **Importante:**  Este campo está disponible en la página **Encabezado de compra**, pero no se muestra de forma predeterminada. Para seleccionar este campo, primero debe agregar la columna que lo muestra. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
+    |**Cód. área impuesto**|El código de área de impuesto del proveedor. **Importante:**  Este campo está disponible en la página **Encabezado de compra**, pero no se muestra de forma predeterminada. Para seleccionar este campo, primero debe agregar la columna que lo muestra. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
+    |**Nº exención fisc.**|El número de exención fiscal de la empresa. Puede introducir un máximo de 30 caracteres alfanuméricos. **Importante:**  Este campo está disponible en la página **Encabezado de compra**, pero no se muestra de forma predeterminada. Para seleccionar este campo, primero debe agregar la columna que lo muestra. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
+    |**Cód. área impuesto provincial**|El código de impuesto de la provincia. **Importante:**  Este campo está disponible en la página **Encabezado de compra**, pero no se muestra de forma predeterminada. Para seleccionar este campo, primero debe agregar la columna que lo muestra. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
 5.  Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-use-tax-details"></a>Para configurar detalles del impuesto sobre servicios  
 1.  Elija el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono de Buscar página o informe"), escriba **Detalles de impuesto** y, a continuación, elija el vínculo relacionado.  
-2.  En la ventana **Detalles impuesto**, elija la acción **Nuevo**.  
-3.  En la ventana **Nuevo - Detalles impuesto**, llene los campos como se describe en la tabla siguiente.  
+2.  En la página **Detalles de impuesto**, seleccione la acción **Nuevo**.  
+3.  En la página **Nuevos - Detalles de impuesto**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
@@ -51,7 +51,7 @@ La definición de impuesto de las ventas comprende los impuestos que pagan las e
 
 ## <a name="to-set-up-purchase-tax-for-a-company"></a>Para configurar el impuesto a las compras para una empresa  
 1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Información de la empresa** y, a continuación, seleccione el vínculo relacionado.  
-2.  En la ventana **Información de empresa**, en la ficha desplegable **Impuesto**, rellene los campos tal como se describe en la tabla siguiente.  
+2.  En la página **Información de la empresa**, en la ficha desplegable **Impuesto**, rellene los campos tal y como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
@@ -62,7 +62,7 @@ La definición de impuesto de las ventas comprende los impuestos que pagan las e
 
 ## <a name="to-set-up-purchase-tax-for-a-location"></a>Para configurar el impuesto a las compras para un almacén  
 1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y, a continuación, seleccione el vínculo relacionado.  
-2.  En la ventana **Ubicaciones**, seleccione la ubicación necesaria y, a continuación, elija el botón **Editar**.  
+2.  En la página **Ubicaciones**, seleccione la ubicación requerida y, a continuación, elija la acción **Editar**.  
 3.  En la ficha desplegable **General**, llene los campos como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
@@ -74,8 +74,8 @@ La definición de impuesto de las ventas comprende los impuestos que pagan las e
 4.  Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-purchase-tax-for-non-recoverable-tax"></a>Para configurar el impuesto a las compras para impuestos irrecuperables  
-1.  Elija el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono de Buscar página o informe"), escriba **Detalles de impuesto** y, a continuación, elija el vínculo relacionado.  
-2.  En la ventana **Detalles impuesto**, elija la acción **Nuevo**.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Detalles de impuesto** y, a continuación, seleccione el vínculo relacionado.  
+2.  En la página **Detalles de impuesto**, seleccione la acción **Nuevo**.  
 3.  Active la casilla de verificación **Gastar/Capitalizar**.  
 
     > [!NOTE]  

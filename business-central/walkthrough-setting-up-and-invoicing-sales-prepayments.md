@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ab76136c7f28e322bbc3b52a0fec354c6c13f3ff
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 81176d2dc4cb5223d20ea553390b591d47bd5a85
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Tutorial: Configuración y facturación de prepagos de ventas
@@ -65,11 +65,11 @@ En los siguientes procedimientos, se describe cómo realizar las tareas de Felis
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Para configurar series numéricas para anticipos  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración ventas y cobros** y luego elija el enlace relacionado.  
-2.  En la ventana **Conf. ventas y cobros**, amplíe la ficha desplegable **Numeración**.  
+2.  En la página **Conf. ventas y cobros**, amplíe la ficha desplegable **Numeración**.  
 3.  Verifique que la serie numérica de las facturas de anticipo registradas en el campo **Nº fact. anticipo registrada** sea la misma que para las facturas de venta registradas (**Nº serie fact. registrada**) y que la serie numérica para notas de crédito de anticipo registradas (**Nº nota de crédito anticipo registrada**) sea la misma que para las notas de crédito registradas (**Nº serie nota de crédito registrada**).  
 
 #### <a name="to-block-shipments-for-unpaid-prepayment"></a>Para bloquear envíos por anticipos sin abonar  
-1.  En la ventana **Conf. ventas y cobros**, en la ficha desplegable **General**, seleccione la casilla **Comprobar prepago al registrar**.
+1.  En la página **Conf. ventas y cobros**, en la ficha desplegable **General**, seleccione la casilla **Comprobar anticipo al registrar**.
 
     Ahora no se puede enviar ni facturar un pedido que tenga un importe de anticipo sin abonar.  
 
@@ -85,7 +85,7 @@ Felisa requiere que a todos los clientes se les facture un depósito del 20% par
 5.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
 6.  Abrir la ficha para el cliente 1100.
 7.  Seleccione la acción **Porcentajes anticipo**.  
-8.  Rellene dos líneas en la ventana **Porcentajes anticipo ventas** como sigue.  
+8.  Rellene dos líneas en la página **Porcentajes anticipo ventas** como sigue:  
 
     |**Tipo venta**|**Código ventas**|**Nº producto**|**% anticipo**|  
     |--------------------|--------------------|------------------|----------------------|  
@@ -95,12 +95,12 @@ Felisa requiere que a todos los clientes se les facture un depósito del 20% par
     > [!IMPORTANT]  
     >  Dependiendo de su país o región, también debe especificar un código de grupo de impuesto en la ficha desplegable **Facturación** para los productos 1000 y 1100.  
 
-9. Cierre todas las ventanas.  
+9. Cierre todas las páginas.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Para especificar una cuenta para los anticipos de ventas en la configuración del registro general  
 1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de registro general** y luego elija el enlace relacionado.  
 2.  Seleccione la línea donde el campo de **General neg. grupo contable** se establece en **EXPORTAR**, y el campo **General producción. grupo contable** se establece en **MERCADERÍA** y, a continuación, seleccione **Editar**.  
-3.  En la ventana de **Ficha grupos contabilización**, en el campo **Cuenta anticipo ventas**, especifique la cuenta correspondiente.  
+3.  En la página **Ficha grupos contabilización**, en el campo **Cuenta anticipo ventas**, especifique la cuenta correspondiente.  
 4.  Elija el botón **Aceptar**.  
 
 ## <a name="creating-an-order-that-requires-a-prepayment"></a>Creación de un pedido que requiera un anticipo  
@@ -126,7 +126,7 @@ Susana crea la factura de anticipo y la envía al cliente.
 
 7. Compruebe que el campo **% anticipo** de la línea con el producto **1000** contiene **30**. El valor predeterminado se ha tomado de la cabecera de venta, que se ha rellenado de la ficha cliente.  
 
-    El campo **% anticipo** de la línea con el producto **1100** contiene **40**. Es el porcentaje que especificó en la ventana **Porcentajes anticipo ventas** para el producto **1100** y el cliente **20000**.  
+    El campo **% anticipo** de la línea con el producto **1100** contiene **40**. Es el porcentaje que especificó en la página **Porcentajes anticipo ventas** para el producto **1100** y el cliente **20000**.  
 
     Para obtener más información, consulte [Configurar anticipos](finance-set-up-prepayments.md).  
 8. Seleccione la acción **Estadísticas**.  
@@ -136,14 +136,14 @@ Susana crea la factura de anticipo y la envía al cliente.
 
     > [!IMPORTANT]  
     >  Dependiendo de su país o región, el paso siguiente puede que no se aplique.  
-10. Cambie el importe que aparece en el campo **Importe línea anticipo sin IVA** a **2000** y cierre la ventana.  
+10. Cambie el importe que aparece en el campo **Importe línea anticipo excl. IVA** a **2000** y cierre la página.  
 11. Consulte el campo **% anticipo** de la líneas de ventas, y verá que se ha calculado de nuevo el valor hasta **40,81625**.  
 
     El nuevo cálculo incluye todas las líneas con un porcentaje de anticipo superior a 0.  
 
     Ahora, el cliente pregunta si el porcentaje de anticipo se puede ajustar en 35%. El supervisor de Susana aprueba el cambio.  
 
-12. En la ventana **Pedido venta**, campo **% de anticipo**, introduzca **35**.  
+12. En la página **Pedido venta**, campo **% anticipo**, introduzca **35**.  
 13. En la advertencia que aparece, seleccione el botón de **Sí**. Un índice del 35% será aplicado como el porcentaje de pago para todo el pedido.  
 14. Verifique que se han actualizado las líneas en consecuencia.  
 
@@ -152,7 +152,7 @@ Después de escribir los valores de anticipo correctos en el pedido, Susana crea
 
 #### <a name="to-create-a-prepayment-invoice"></a>Para crear una factura de anticipo  
 
-1.  En la ventana **Pedido de ventas**, elija la acción **Registrar factura anticipo**.  
+1.  En la página **Pedido de ventas**, elija la acción **Registrar factura de anticipo**.  
 
 > [!NOTE]  
 >  Susana debería seleccionar **Registrar e imprimir factura anticipo** y enviar por correo la factura al cliente.  
@@ -162,7 +162,7 @@ Al día siguiente, el cliente llama a Susana y realiza cambios en el pedido. El 
 
 #### <a name="to-create-an-additional-prepayment-invoice"></a>Para crear una factura de anticipo adicional  
 
-1.  En la ventana **Pedido de ventas**, elija la acción **Volver a abrir**.  
+1.  En la página **Pedido venta**, seleccione la acción **Volver a abrir**.  
 2.  En la línea del producto **1100**, en el campo **Cantidad**, escriba **2**.  
 
     Desplácese para ver los campos de anticipo. El campo de **Anticipo Excl de la línea importe. IVA** contiene ahora **630** y el campo **Importe anticipo facturado sin IVA** contiene **315**. Este campo muestra que hay un importe de anticipo adicional que aún no se ha facturado.  
@@ -182,7 +182,7 @@ El cliente paga el importe de anticipo y Andrés, que trabaja en el departamento
     |**Tipo mov.**|**Cliente**|  
     |**Nº cuenta**|**20000**|  
 3. Seleccione la acción **Liquidar movs.**.  
-4.  En la ventana **Movs. pendientes cliente**, seleccione la primera factura de anticipo y, a continuación, elija **Marcar id. de liquidación**.  
+4.  En la página **Movs. pendientes cliente**, seleccione la primera factura de anticipo y, a continuación, elija **Marcar id. de liquidación**.  
 5.  Repita el paso anterior para el segundo anticipo.  
 6.  Elija el botón **Aceptar**.  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 50ac9cbb946fedc687eb5ea1373c99d68f3d322b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ae88a455552c7194422d07e6e666bd81b7eab101
 ms.contentlocale: es-mx
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-expected-cost-posting"></a>Detalles de diseño: Registro de costo esperado
@@ -27,12 +27,12 @@ Los costos esperados representan la estimación, por ejemplo, del costo de un pr
 > [!NOTE]  
 >  Los costos esperados solo se gestionan para transacciones de productos. Los costos esperados no son tipos de transacciones no materiales, como capacidad y cargos de productos.  
 
- Si solo se ha registrado la parte de la cantidad de un aumento de inventario, el valor de inventario en la contabilidad no cambia, a menos que haya seleccionado la casilla **Regis. cte. previsto en contab.** en la ventana **Configuración de inventario**. En ese caso, el costo esperado se registra en las cuentas provisionales en el momento de recepción. Tras haber facturado por completo la recepción, las cuentas provisionales se saldan y el costo real se registra en la cuenta de inventario.  
+ Si solo se ha registrado la parte de la cantidad de una entrada de existencias, el valor de inventario en la contabilidad no cambia, a menos que haya seleccionado la casilla **Regis. cto. previsto en contab.** en la página **Configuración de inventario**. En ese caso, el costo esperado se registra en las cuentas provisionales en el momento de recepción. Tras haber facturado por completo la recepción, las cuentas provisionales se saldan y el costo real se registra en la cuenta de inventario.  
 
  Para respaldar el trabajo de conciliación y trazabilidad, el movimiento de valoración facturado muestra el importe del costo esperado que se ha registrado para cuadrar las cuentas provisionales.  
 
 ## <a name="example"></a>Ejemplo  
- En el ejemplo siguiente se muestra el costo esperado si las casillas **Variación existencias automát.** y **Regis. cto. Previsto en contab.** se seleccionan en la ventana **Configuración de inventario**.  
+ En el ejemplo siguiente se muestra el costo esperado si las casillas **Variación existencias automát.** y **Regis. cto. previsto en contab.** se seleccionan en la página **Configuración de inventario**.  
 
  Registra un pedido de compra como recibido. El costo esperado es de 95,00 $.  
 

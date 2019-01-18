@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 309e17cfccf6472ba568cd3ad6032ef09d620aae
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 66b95121b63f675acd15f7d738021e75fc95f233
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="electronic-invoicing"></a>Factura electrónica
@@ -51,7 +51,7 @@ Además, debe especificar los servicios web que utilizará para comunicarse con 
 ## <a name="sending-electronic-invoices"></a>Envío de facturas electrónicas  
 Una vez que haya registrado una factura o una nota de crédito, podrá enviarla al cliente. Pero antes debe obtener el sello digital de un PAC. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] se comunica con el PAC a través de servicios web para solicitar un sello y, de este modo, su empresa y el PAC firman digitalmente el documento de forma automática.  
 
-Al enviar una factura o una nota de crédito al cliente, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] utiliza la dirección de correo electrónico que se ha especificado en la ventana **Información de empresa**. El documento se envía a la dirección de correo electrónico que se ha especificado en la ventana **Ficha cliente** del cliente de facturación que consta en la factura o la nota de crédito. En la ventana **Configuración de contabilidad**, también puede elegir si desea incluir documentos como archivos PDF en el mensaje de correo electrónico que se envía.  
+Al enviar una factura o una nota de crédito al cliente, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] utiliza la dirección de correo electrónico que se ha especificado en la página **Información de empresa**. El documento se envía a la dirección de correo electrónico que se ha especificado en la página **Ficha cliente** del cliente de facturación que consta en la factura o la nota de crédito. En la página **Configuración de contabilidad**, también puede elegir si desea incluir documentos como archivos PDF en el mensaje de correo electrónico que se envía.  
 
 > [!IMPORTANT]  
 >  Los usuarios encargados de enviar las facturas electrónicas deben ser capaces de enviar correo a través del Protocolo simple de transferencia de correo (SMTP). En función de la configuración de la empresa, puede que deba conceder permisos explícitos a cada usuario y equipo correspondiente.  
@@ -61,7 +61,7 @@ Asimismo, si desea imprimir los documentos, estos incluirán un código de barra
 Para obtener más información, consulte [Generar facturas electrónicas](how-to-generate-electronic-invoices.md).  
 
 ## <a name="communication-component"></a>Componentes de comunicación  
-El componente [!INCLUDE[d365fin](../../includes/d365fin_md.md)] para la facturación electrónica se implementa en un montaje de biblioteca, Microsoft.Dynamics.NAV.MX.dll, que se instala automáticamente cuando se instala el cliente [!INCLUDE[d365fin](../../includes/d365fin_md.md)] de Windows. El componente gestiona la comunicación con los servicios web del PAC y también genera los códigos QR que se incluyen en los documentos impresos. Para consultar ejemplos sobre cómo utilizar el ensamblado Microsoft.Dynamics.NAV.MX.dll, consulte la codeunit 10145 **Admin. de facturas elect.** y la codeunit 10147 **Generador de objetos de factura electrónica**.  
+El componente [!INCLUDE[d365fin](../../includes/d365fin_md.md)] para la facturación electrónica se implementa en un montaje de biblioteca, Microsoft.Dynamics.NAV.MX.dll, que se instala automáticamente cuando instala el cliente de las páginas [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. El componente gestiona la comunicación con los servicios web del PAC y también genera los códigos QR que se incluyen en los documentos impresos. Para consultar ejemplos sobre cómo utilizar el ensamblado Microsoft.Dynamics.NAV.MX.dll, consulte la codeunit 10145 **Admin. de facturas elect.** y la codeunit 10147 **Generador de objetos de factura electrónica**.  
 
  Al generar un documento electrónico para solicitar un sello, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] crea un documento XML y lo envía al PAC para su procesamiento. El documento XML original incluye la misma información que el campo de cadena original que se muestra en el documento impreso. La cadena original incluye la información siguiente:  
 

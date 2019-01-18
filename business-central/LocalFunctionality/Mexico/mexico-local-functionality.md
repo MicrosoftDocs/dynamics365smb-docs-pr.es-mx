@@ -1,36 +1,36 @@
 ---
 title: "Funcionalidad local de México"
-description: "Los temas siguientes describen la funcionalidad local en la versión mexicana de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]."
-services: project-madeira
-documentationcenter: 
+description: "Los temas siguientes describen la funcionalidad local en la versión mexicana de Business Central."
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 75d6ccd45adb2973fc9192717f57ed2cbc654013
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: d571a7861213731849cfe65fe6271db8dbf62597
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="mexico-local-functionality"></a>Funcionalidad local de México
 En los temas siguientes se describe la funcionalidad local que es exclusiva de la versión mexicana de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="in-this-section"></a>En esta sección  
+[Crear depósitos](how-to-create-deposits.md)  
+[Facturación electrónica](electronic-invoicing.md)  
+[Generar facturas electrónicas](how-to-generate-electronic-invoices.md)  
+[Gestionar información crediticia del cliente](how-to-manage-customer-credit-information.md)  
+[Impuesto a las ventas de México](mexico-sales-tax.md)  
+[Imprimir informes de solución de problemas](how-to-print-troubleshooting-reports.md)  
+[Informes del impuesto de venta en México](mexico-sales-tax.md)  
+[Configurar la facturación electrónica](how-to-set-up-electronic-invoicing.md)  
+[Configuración de servicios web PAC](how-to-set-up-pac-web-services.md)  
 [Configurar impuesto sobre servicios e impuesto a las compras](how-to-set-up-use-tax-and-purchase-tax.md)  
 [Configurar descuentos por pago de ventas e impuestos ventas no realizados](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
-[Informes del impuesto de venta en México](mexico-sales-tax.md)  
-[Facturación electrónica](electronic-invoicing.md)  
 [Tipos identificación impuestos para México](tax-identification-types-for-mexico.md)  
 [Nuevo cálculo de IVA](vat-recalculation.md)  
-[Crear depósitos](how-to-create-deposits.md)  
-[Imprimir informes de solución de problemas](how-to-print-troubleshooting-reports.md)
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)    

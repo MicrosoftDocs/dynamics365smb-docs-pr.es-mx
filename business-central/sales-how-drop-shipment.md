@@ -13,10 +13,10 @@ ms.search.keywords: direct shipment
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0fc9fee94f06b2452fa38a0a754f054a0ed16a0d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 68af9892db003a2200bd0ceb9b9fa839952dce36
 ms.contentlocale: es-mx
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-drop-shipments"></a>Realizar envíos directos
@@ -36,7 +36,7 @@ Para preparar una remisión directa de un producto que se va a vender, cree una 
 1. Cree una orden de compra. No rellene ningún campo en las líneas. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 2. En el campo **Venta a-N.º cliente**, seleccione el cliente al que le está vendiendo.
 3. Elija la acción **Envíos directos** y, a continuación, **Tomar orden venta**.
-4. En la ventana **Lista ventas**, seleccione la orden de venta que ha preparado en la sección "Para crear una orden de venta de envío directo".
+4. En la página **Lista ventas**, seleccione el pedido de ventas que ha preparado en la sección "Para crear un pedido de venta de remisión directa".
 5. Elija el botón **Aceptar**.
 
 La información de la línea de la orden de venta se inserta en las líneas de la orden de compra.

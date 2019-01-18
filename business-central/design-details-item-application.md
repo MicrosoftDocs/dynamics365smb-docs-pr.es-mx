@@ -11,10 +11,10 @@ ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12fa67c9e0c161d99faab376c440f6299fa8aa52
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5165cb97d73562d9614a955269ebdcbdc2ff33e4
 ms.contentlocale: es-mx
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-item-application"></a>Detalles de diseño: Liquidación de productos
@@ -68,7 +68,7 @@ En la tabla siguiente se muestra el movimiento de liquidación de producto que s
 
 |Fecha reg.|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|Nº mov. producto|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|1|0|10|1|  
+|01-01-20|0|0|10|0|  
 
 ## <a name="inventory-decrease"></a>Salida de existencias  
 Cuando registra una salida de existencias, se crea un movimiento de liquidación de producto que enlaza la salida de existencias con una entrada de existencias. Este vínculo se crea mediante la guía de la valuación de inventarios del producto. En el caso de productos que usen métodos de coste FIFO, Estándar y Promedio, la vinculación se basa en el principio de "primero en entrar, primero en salir". La salida de inventario se aplica a la entrada de inventario con la fecha de registro más temprana. En el caso de productos que usen métodos de costo LIFO, la vinculación se basa en el principio de "último en entrar, primero en salir". La salida de inventario se aplica a la entrada de inventario con la fecha de registro más reciente.  
@@ -82,8 +82,8 @@ En la tabla siguiente se muestran los dos movimientos de liquidación de product
 
 |Fecha reg.|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|Nº mov. producto|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|1|0|10|1|  
-|03-01-20|1|2|-5|2|  
+|01-01-20|0|0|10|0|  
+|03-01-20|0|2|-5|2|  
 
 ## <a name="fixed-application"></a>Liquidación fija  
 Se realiza una liquidación fija cuando especifica que el costo de una entrada de existencias debería aplicarse a una salida de existencias específico o viceversa. La liquidación fija afecta a las cantidades restantes de los movimientos, pero también revierte el costo exacto del movimiento original que está liquidando.  
@@ -101,7 +101,7 @@ En la tabla siguiente se muestran los movimientos de producto como consecuencia 
 
 |**Fecha registro**|**Tipo mov. producto**|**Cantidad**|**Importe costo (real)**|**Nº mov. producto**|  
 |----------------------|---------------------------------------------------|------------------|----------------------------------------------------|---------------------------------------------------|  
-|04-01-20|Compras|10|10.00|1|  
+|04-01-20|Compras|10|10.00|0|  
 |05-01-20|Compras|10|20.00|2|  
 |06-01-20|Compras (devolución)|-10|-20,00|3|  
 
@@ -111,7 +111,7 @@ En la tabla siguiente se muestra el movimiento de liquidación de producto que e
 
 |Fecha reg.|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|Nº mov. producto|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|06-01-20|1|3|10|3|  
+|06-01-20|0|3|10|3|  
 
 A continuación, el costo de la segunda compra, $ 20,00, se pasará correctamente a la devolución de la compra.  
 
@@ -128,8 +128,8 @@ En la tabla siguiente se muestra el resultado del escenario en los movimientos d
 
 |Fecha reg.|Tipo mov. producto|Cdad. valuada|Importe costo (real)|Liq. por nº orden producto|Valuado a costo promedio|Nº mov. producto|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Compras|1|200.00||N.º|1|1|  
-|01-01-20|Compras|1|1000.00||No|2|2|  
+|01-01-20|Compras|0|200.00||N.º|0|0|  
+|01-01-20|Compras|0|1000.00||No|2|2|  
 |01-01-20|Compra|-1|-1000|2|No|3|3|  
 |01-01-20|Compra|1|100,00||No|4|4|  
 |01-01-20|Ventas|-2|-300,00||Sí|5|5|  
@@ -140,8 +140,8 @@ En la tabla siguiente se muestra el resultado en los movimientos de valoración 
 
 |Fecha reg.|Tipo mov. producto|Cdad. valuada|Importe costo (real)|Liq. por nº orden producto|Valuado a costo promedio|Nº mov. producto|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Compras|1|200.00||N.º|1|1|  
-|01-01-20|Compras|1|1000.00||No|2|2|  
+|01-01-20|Compras|0|200.00||N.º|0|0|  
+|01-01-20|Compras|0|1000.00||No|2|2|  
 |01-01-20|Compra|-1|433,33||Sí|3|3|  
 |01-01-20|Compra|1|100,00||No|4|4|  
 |01-01-20|Venta|-2|866,67||Sí|5|5|  
@@ -167,7 +167,7 @@ En la tabla siguiente se muestra el resultado de los pasos 1 a 3 del escenario e
 
 |Fecha reg.|Tipo mov. producto|Cdad. valuada|Importe costo (real)|Liq. movimiento prod.|Nº mov. producto|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Compras|1|1000.00||1|1|  
+|01-01-20|Compras|0|1000.00||0|0|  
 |01-02-20|Venta|-1|1000.00||2|2|  
 |01-03-20|Venta (nota de crédito)|1|1000|2|3|3|  
 
@@ -175,21 +175,21 @@ En la tabla siguiente se muestra el movimiento de valoración que es el resultad
 
 |Fecha reg.|Tipo mov. producto|Cdad. valuada|Importe costo (real)|Liq. movimiento prod.|Nº mov. producto|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-04-20|(Cargo de producto)|1|100.00||1|4|  
+|01-04-20|(Cargo de producto)|0|100.00||0|4|  
 
 En la tabla siguiente se muestra el efecto de la reversión de costo exacta en los movimientos de valoración del producto.  
 
 |Fecha reg.|Tipo mov. producto|Cdad. valuada|Importe costo (real)|Liq. movimiento prod.|Nº mov. producto|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Compras|1|1000.00||1|1|  
+|01-01-20|Compras|0|1000.00||0|0|  
 |01-02-20|Venta|-1|1100.00||2|2|  
 |01-03-20|Venta (nota de crédito)|1|1100.00|2|3|3|  
-|01-04-20|(Cargo de producto)|1|100.00||1|4|  
+|01-04-20|(Cargo de producto)|0|100.00||0|4|  
 
 Al ejecutar el proceso **Valorar existencias - movs. producto**, el aumento de costo del movimiento de compra, debido al cargo de producto, se desvía al movimiento de venta (número de movimiento 2). A continuación, el movimiento de venta desvía este aumento de costo al movimiento de crédito de ventas (movimiento número 3). El resultado final es que el costo se revierte correctamente.  
 
 > [!NOTE]  
->  Si está trabajando con reembolsos o abonos y ha configurado el campo **Coste exacto devolución obligatorio** en la ventana **Configuración compras y pagos** o en la ventana **Configuración ventas y cobros**, según corresponda en su caso, [!INCLUDE[d365fin](includes/d365fin_md.md)] rellenará automáticamente los distintos campos de registro al usar la función **Copiar documento**. Si utiliza la función **Revertir líneas documentos registrados**, el programa siempre rellenará esos campos automáticamente.  
+>  Si está trabajando con reembolsos o notas de crédito y ha configurado el campo **Costo exacto devolución obligatorio** en la página **Configuración compras y pagos** o en la página **Configuración ventas y cobros**, según corresponda en su caso, [!INCLUDE[d365fin](includes/d365fin_md.md)] rellenará automáticamente los distintos campos de registro al usar la función **Copiar documento**. Si utiliza la función **Revertir líneas documentos registrados**, el programa siempre rellenará esos campos automáticamente.  
 
 > [!NOTE]  
 >  Si registra una transacción con una liquidación fija y el movimiento de producto al que lo está aplicando está cerrado (lo que significa que la cantidad restante es cero), el programa deshará automáticamente la liquidación anterior y volverá a aplicar el movimiento del producto utilizando la liquidación fija que ha especificado.  
@@ -208,8 +208,8 @@ En la tabla siguiente se muestra el efecto de la transferencia en los movimiento
 
 |Fecha reg.|Tipo mov. producto|Cód. almacén|Cdad. valuada|Importe costo (real)|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Compras|AZUL|1|10.00|1|  
-|01-01-20|Compras|AZUL|1|20.00|2|  
+|01-01-20|Compras|AZUL|0|10.00|0|  
+|01-01-20|Compras|AZUL|0|20.00|2|  
 |01-02-20|Transferencia|AZUL|-1|15.00|3|  
 |01-02-20|Transferencia|ROJO|1|15.00|4|  
 
@@ -223,7 +223,7 @@ En la tabla siguiente se muestra el efecto de la transferencia en los movimiento
 
 |Fecha reg.|Tipo mov. producto|Cód. almacén|Cdad. valuada|Importe costo (real)|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Compras|AZUL|1|10.00|1|  
+|01-01-20|Compras|AZUL|0|10.00|0|  
 |01-02-20|Transferencia|AZUL|-1|10.00|2|  
 |01-02-20|Transferencia|ROJO|1|10.00|3|  
 
@@ -237,7 +237,7 @@ Debido a la forma en la que se calcula el costo unitario de un producto, una liq
 * Desea invalidar la liquidación creada automáticamente al efectuar el registro, según la valuación de inventarios del producto.  
 * Tiene que devolver un producto al que ya se le ha aplicado una ventana, sin usar la función **Revertir líneas documentos registrados** y, por lo tanto, debe deshacer la liquidación.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece una característica para analizar y corregir las liquidaciones de productos. Este trabajo se realiza en la ventana de **Hoja liquidación**.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece una característica para analizar y corregir las liquidaciones de productos. Este trabajo se realiza en la página **Hoja liquidación**.  
 
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Problema de liquidación de producto conocido](design-details-inventory-zero-level-open-item-ledger-entries.md)  
