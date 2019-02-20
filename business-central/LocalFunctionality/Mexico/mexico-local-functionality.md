@@ -8,10 +8,10 @@ ms.search.keywords:
 ms.date: 10/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
-ms.openlocfilehash: d571a7861213731849cfe65fe6271db8dbf62597
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 39c8333ffafcbc121e434c2857cc2445bbaf3e6c
 ms.contentlocale: es-mx
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="mexico-local-functionality"></a>Funcionalidad local de México
@@ -20,6 +20,7 @@ En los temas siguientes se describe la funcionalidad local que es exclusiva de l
 ## <a name="in-this-section"></a>En esta sección  
 [Crear depósitos](how-to-create-deposits.md)  
 [Facturación electrónica](electronic-invoicing.md)  
+[Regulaciones electrónicas de la contabilidad en México](electronic-accounting-regulations.md)
 [Generar facturas electrónicas](how-to-generate-electronic-invoices.md)  
 [Gestionar información crediticia del cliente](how-to-manage-customer-credit-information.md)  
 [Impuesto a las ventas de México](mexico-sales-tax.md)  
