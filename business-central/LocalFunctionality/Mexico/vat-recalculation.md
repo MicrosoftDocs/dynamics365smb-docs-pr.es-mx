@@ -1,23 +1,23 @@
 ---
-title: "Nuevo cálculo de IVA"
-description: "Cuando un cliente efectúa un pago en divisa extranjera, se debe volver a calcular el IVA con el tipo de cambio vigente al momento del pago de la factura."
+title: Nuevo cálculo de IVA
+description: Cuando un cliente efectúa un pago en divisa extranjera, se debe volver a calcular el IVA con el tipo de cambio vigente al momento del pago de la factura.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 65209e0955a24e3dddc27f138e9544cd60d1bc79
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 03cab3a918529e0d0392094f30aed02ad9b2b3bc
-ms.contentlocale: es-mx
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826880"
 ---
 # <a name="vat-recalculation"></a>Nuevo cálculo de IVA
 Cuando un cliente efectúa un pago en divisa extranjera, se debe volver a calcular el IVA con el tipo de cambio vigente al momento del pago de la factura.  
@@ -35,4 +35,3 @@ A continuación, se muestra cómo crear un informe sobre importes de IVA no real
  [Crear informes de IVA para las autoridades fiscales](../../finance-how-report-vat.md)   
  [Configurar descuentos por pago de ventas e impuestos ventas no realizados](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
  [Funcionalidad local de México](mexico-local-functionality.md)
-

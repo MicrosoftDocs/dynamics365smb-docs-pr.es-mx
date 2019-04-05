@@ -1,23 +1,23 @@
 ---
 title: Procedimiento para configurar servicios web de PAC
-description: "Para enviar facturas y notas de crédito de forma electrónica, primero debe especificar uno o varios proveedores del sello electrónico que debe incluirse en las facturas de México."
+description: Para enviar facturas y notas de crédito de forma electrónica, primero debe especificar uno o varios proveedores del sello electrónico que debe incluirse en las facturas de México.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 75bfa3993f977c8f6737e1f3ad2feb9287d3d705
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9bc172eb83c75adab2b563ff33e960687de9f99c
-ms.contentlocale: es-mx
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826874"
 ---
 # <a name="set-up-pac-web-services"></a>Configuración de servicios web PAC
 Para enviar facturas y notas de crédito de forma electrónica, primero debe especificar uno o varios proveedores del sello electrónico que debe incluirse en las facturas de México.  
@@ -51,4 +51,3 @@ Si el PAC ofrece el servicio de cancelación de documentos firmados, debe especi
  [Facturación electrónica](electronic-invoicing.md)   
  [Configurar la facturación electrónica](how-to-set-up-electronic-invoicing.md)  
  [Funcionalidad local de México](mexico-local-functionality.md)
-

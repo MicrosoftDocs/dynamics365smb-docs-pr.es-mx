@@ -1,21 +1,21 @@
 ---
 title: Procedimiento para configurar el impuesto sobre las ventas no realizado y los descuentos por pago de ventas
-description: "Puede utilizar la página Configuración de contabilidad para configurar el impuesto a las ventas. También puede configurar importes máximos de corrección para limitar los importes de corrección de impuestos que se introducen en concepto de ventas y compras. Esto le permite sobrescribir el impuesto calculado cuando existen diferencias de redondeo entre lo calculado en el pedido de compra y lo calculado en la factura de compra del proveedor."
+description: Puede utilizar la página Configuración de contabilidad para configurar el impuesto a las ventas. También puede configurar importes máximos de corrección para limitar los importes de corrección de impuestos que se introducen en concepto de ventas y compras. Esto le permite sobrescribir el impuesto calculado cuando existen diferencias de redondeo entre lo calculado en el pedido de compra y lo calculado en la factura de compra del proveedor.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: bcce868f9d35e4f435b0e31e71ab95e33ee5c747
-ms.contentlocale: es-mx
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826855"
 ---
 # <a name="set-up-unrealized-sales-tax-and-sales-payment-discounts"></a>Configurar descuentos por pago de ventas e impuestos ventas no realizados
 Puede utilizar la página **Configuración de contabilidad** para configurar el impuesto a las ventas. También puede configurar importes máximos de corrección para limitar los importes de corrección de impuestos que se introducen en concepto de ventas y compras. Esto le permite sobrescribir el impuesto calculado cuando existen diferencias de redondeo entre lo calculado en la orden de compra y lo calculado en la factura de compra del proveedor.  
@@ -72,4 +72,3 @@ Puede utilizar la página **Configuración de contabilidad** para configurar el 
 [Informes del impuesto de venta en México](mexico-sales-tax.md)  
 [Finanzas](../../finance.md)  
 [Configurar las finanzas](../../finance.md)
-

@@ -1,22 +1,22 @@
 ---
-title: "Procedimiento para administrar información de crédito de los clientes"
-description: "En Business Central, puede agregar comentarios a la información crediticia de los clientes. También puede retener y bloquear clientes que tengan malos antecedentes crediticios antes de realizar el envío o la facturación."
+title: Procedimiento para administrar información de crédito de los clientes
+description: En Business Central, puede agregar comentarios a la información crediticia de los clientes. También puede retener y bloquear clientes que tengan malos antecedentes crediticios antes de realizar el envío o la facturación.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: ../../receivables-how-block-customers
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d37ae2fa853931910d74958f4bd37c9931b08033
-ms.contentlocale: es-mx
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826865"
 ---
 # <a name="manage-customer-credit-information"></a>Gestionar información crediticia del cliente
 En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede agregar comentarios a la información crediticia de los clientes. También puede retener y bloquear clientes que tengan malos antecedentes crediticios antes de realizar el envío o la facturación.  
@@ -57,4 +57,3 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede agregar comentarios 
 [Funcionalidad local de México](mexico-local-functionality.md)  
 [Finanzas](../../finance.md)  
 [Configurar las finanzas](../../finance.md)
-

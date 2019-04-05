@@ -1,18 +1,18 @@
 ---
-title: "Funcionalidad local de México"
-description: "Los temas siguientes describen la funcionalidad local en la versión mexicana de Business Central."
+title: Funcionalidad local de México
+description: Los temas siguientes describen la funcionalidad local en la versión mexicana de Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/12/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: 39c8333ffafcbc121e434c2857cc2445bbaf3e6c
-ms.contentlocale: es-mx
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826868"
 ---
 # <a name="mexico-local-functionality"></a>Funcionalidad local de México
 En los temas siguientes se describe la funcionalidad local que es exclusiva de la versión mexicana de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
@@ -38,4 +38,3 @@ En los temas siguientes se describe la funcionalidad local que es exclusiva de l
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
-

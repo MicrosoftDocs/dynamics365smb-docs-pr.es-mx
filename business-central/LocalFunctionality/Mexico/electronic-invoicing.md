@@ -1,23 +1,23 @@
 ---
-title: "Factura electrónica"
-description: "Las empresas mexicanas deben tener la posibilidad de enviar facturas de forma electrónica como archivos de Comprobante Fiscal Digital por Internet (CFDI). Business Central admite CFDI para que pueda exportar facturas de ventas y servicios, y notas de crédito como documentos electrónicos que tienen la firma digital requerida."
+title: Factura electrónica
+description: Las empresas mexicanas deben tener la posibilidad de enviar facturas de forma electrónica como archivos de Comprobante Fiscal Digital por Internet (CFDI). Business Central admite CFDI para que pueda exportar facturas de ventas y servicios, y notas de crédito como documentos electrónicos que tienen la firma digital requerida.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 66b95121b63f675acd15f7d738021e75fc95f233
-ms.contentlocale: es-mx
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826871"
 ---
 # <a name="electronic-invoicing"></a>Factura electrónica
 Las empresas mexicanas deben tener la posibilidad de enviar facturas de forma electrónica como archivos de Comprobante Fiscal Digital por Internet (CFDI). [!INCLUDE[d365fin](../../includes/d365fin_md.md)] admite CFDI para que pueda exportar facturas de ventas y servicios, así como notas de crédito con formato de documentos electrónicos que cuenten con la firma digital requerida.  
@@ -78,4 +78,3 @@ El PAC devuelve un documento XML que incluye la cadena original y, también, una
  [Configurar la facturación electrónica](how-to-set-up-electronic-invoicing.md)   
  [Configuración de servicios web PAC](how-to-set-up-pac-web-services.md)   
  [Generar facturas electrónicas](how-to-generate-electronic-invoices.md)
-

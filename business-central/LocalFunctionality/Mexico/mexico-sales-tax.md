@@ -1,6 +1,6 @@
 ---
-title: "Configurar grupos de impuestos, áreas y jurisdicción en México"
-description: "Obtenga información sobre se configura el impuesto sobre las ventas y cómo funcionan los grupos, las áreas (estados, condados, municipios/ciudades y localidades) y las jurisdicciones fiscales, y los detalles de los impuestos."
+title: Configurar grupos de impuestos, áreas y jurisdicción en México
+description: Obtenga información sobre se configura el impuesto sobre las ventas y cómo funcionan los grupos, las áreas (estados, condados, municipios/ciudades y localidades) y las jurisdicciones fiscales, y los detalles de los impuestos.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: local
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 62254ea9a2a9e5ee42a6aee0fcda58d24a5d2521
-ms.contentlocale: es-mx
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826864"
 ---
 # <a name="reporting-sales-tax-in-the-mexico"></a>Informes del impuesto de venta en México
 Cuando empieza por primera vez a usa [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede ejecutar una guía asistida de instalación para configurar rápida y fácilmente la información de los impuestos de venta para su empresa, clientes y proveedores. En cuestión de minutos puede empezar a crear documentos de compra y venta con los impuestos calculados correctamente. Toda esto se explica [en nuestra entrada en el blog](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).
@@ -37,4 +37,3 @@ En México, cuando vende a un cliente en un lugar donde no tiene una *sede* (o u
 [Configurar las finanzas](../../finance.md)  
 [Configurar impuesto de ventas - Vea un video](https://www.youtube.com/watch?v=qMs4BoSytN8&index=13&list=PLcakwueIHoT8K1m148oMqo7amR2a7Bz-8)  
 [Trabajar con [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
-
