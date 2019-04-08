@@ -1,1 +1,1 @@
-Dynamics 365 — Buje contable
+Dynamics 365 — Accountant Hub

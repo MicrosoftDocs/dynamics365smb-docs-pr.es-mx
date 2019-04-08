@@ -1,6 +1,6 @@
 ---
 title: Generar informes financieros con estructuras de cuentas
-description: "Describe cómo utilizar los estructuras de cuentas para crear varias vistas e informes para analizar los datos de rendimiento financiero."
+description: Describe cómo utilizar los estructuras de cuentas para crear varias vistas e informes para analizar los datos de rendimiento financiero.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/16/2018
+ms.date: 03/01/2019
 ms.author: edupont
+ms.openlocfilehash: 6c6ffd488dc903c2a1142727ce205975e27091b2
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 854cadb176bc79a8506ccff3c13a1e579eb43e85
-ms.contentlocale: es-mx
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852527"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparar informes financieros con estructuras de cuentas y categorías de cuentas
 Use estructuras de cuentas para obtener información sobre los datos financieros almacenados en su catálogo de cuentas. Los esquemas de cuentas analizan cifras en cuentas de contabilidad y comparan los movimientos de contabilidad con los presupuestados. Los resultados se muestran en gráficos en su área de tareas, como el gráfico de flujo de caja, y en informes, como los informes de declaración de ingresos y de Balance.
@@ -36,7 +36,7 @@ También puede comparar dos o más estructuras de cuentas y plantillas de column
 * Configurar diversas plantillas de informes e imprimir estos con las cifras actuales.
 
 ## <a name="account-categories"></a>Categorías de cuenta
-Puede usar categorías de cuentas para cambiar el diseño de sus balances financieros. Después de configurar las categorías de cuentas en la página **Categorías de cuenta** y haya elegido la acción **Generar estructuras de cuentas**, se actualizan los estructuras de cuentas subyacentes para los informes financieros principales. La próxima vez que ejecute uno de estos informes, como el informe de estado de cuenta del balance, se agregan los nuevos totales y subtotales en función de los cambios que haya realizado. Para obtener más información, consulte la sesión "Categorías de cuentas" en [Descripción del libro mayor y plan de cuentas](finance-general-ledger.md).  
+Puede usar categorías de cuentas para cambiar el diseño de sus balances financieros. Después de configurar las categorías de cuentas en la página **Categorías de cuenta** y haya elegido la acción **Generar estructuras de cuentas**, se actualizan los estructuras de cuentas subyacentes para los informes financieros principales. La próxima vez que ejecute uno de estos informes, como el informe de estado de cuenta del saldo, se agregan los nuevos totales y subtotales en función de los cambios que haya realizado. Para obtener más información, consulte [Categorías de cuenta](finance-general-ledger.md#account-categories).  
 
 ## <a name="to-create-a-new-account-schedule"></a>Para crear un nuevo estructura de cuentas  
 Usar estructuras de cuentas para analizar cifras en cuentas de contabilidad o comparar los movimientos de contabilidad con los presupuestados. Por ejemplo, puede ver los movimientos de contabilidad como porcentajes de los movimientos de presupuesto.
@@ -50,10 +50,10 @@ La página **Panorama estr. cuentas** es donde puede obtener una vista previa de
 3. También puede elegir la acción **Copiar estructura de cuentas**, rellenar los dos campos y, a continuación, elegir el botón **Aceptar**.
 4. Rellene los campos según sea necesario. En el campo **Plantilla columna genér.**, seleccione una disposición existente. Puede cambiarla más adelante si lo desea.
 
-    Las disposiciones de columnas se utilizan para definir columnas de diferentes parámetros mediante los cuales se muestran los datos financieros en las filas. Por ejemplo, puede diseñar una disposición de columnas para comparar el saldo del periodo y el saldo a la fecha del mismo periodo del año actual y del año anterior, con cuatro columnas. Para obtener más información, consulte la sección "Para editar una disposición de columnas".
+    Las disposiciones de columnas se utilizan para definir columnas de diferentes parámetros mediante los cuales se muestran los datos financieros en las filas. Por ejemplo, puede diseñar una disposición de columnas para comparar el saldo del periodo y el saldo a la fecha del mismo periodo del año actual y del año anterior, con cuatro columnas. Para obtener más información, consulte [Para editar una disposición de columnas](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
-5. Elija la acción **Editar esquema cuentas**.
-6. Cree una fila para cada elemento financiero que desee que aparezca en el informe, como una fila para los activos actuales y otra para los activos fijos. Para obtener inspiración, consulte los estructuras de cuentas existentes en la empresa de demostración CRONUS.
+5. Elija la acción **Editar estructura de cuentas**.
+6. Cree una fila para cada elemento financiero que desee que aparezca en el informe, como una fila para los activos actuales y otra para los activos fijos. Para obtener inspiración, consulte las estructuras de cuentas existentes en la empresa de demostración CRONUS.
 7. Seleccione la acción **Panorama** para ver el informe financiero resultante.
 8. En la página **Panorama estr. cuentas**, en el campo **Nombre plantilla columna**, seleccione otra plantilla de columnas para ver los datos de notificación por otros parámetros.
 9. Elija el botón **Aceptar**.
@@ -199,4 +199,3 @@ Si desea calcular el importe del periodo de comparación para periodos de tiempo
 [Configurar las finanzas](finance-setup-finance.md)  
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

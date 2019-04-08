@@ -281,7 +281,7 @@
     <Node Name="" DisplayName="Gestión de clientes y ventas creados en Dynamics 365 for Sales" Page="marketing-integrate-dynamicscrm.html"/>
   </Node>
   <Node Name="" DisplayName="Recursos humanos" Page="hr-manage-human-resources.html">
-    <Node Name="" DisplayName="Registrar empleados" Page="hr-how-register-employees.html"/>
+    <Node Name="" DisplayName="Procedimiento: Registrar empleados" Page="hr-how-register-employees.html"/>
     <Node Name="" DisplayName="Procedimiento: Administrar las ausencias de los empleados" Page="hr-how-manage-absence.html"/>
   </Node>
   <Node Name="" DisplayName="Planificación" Page="production-planning.html">
