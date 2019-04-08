@@ -1,6 +1,6 @@
 ---
 title: Resumen de tareas para administrar las ventas | Documentos de Microsoft
-description: "Describe cómo gestionar las actividades de ventas."
+description: Describe cómo gestionar las actividades de ventas.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 6c8c3f39d782a33896e531c4bfdf95b589458f99
-ms.contentlocale: es-mx
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815268"
 ---
 # <a name="sales"></a>Ccial
 Puede crear una factura o una orden de venta para registrar el contrato con un cliente para vender determinados productos según términos de entrega y pago determinados.
@@ -62,4 +62,3 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 [Funciones empresariales generales](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

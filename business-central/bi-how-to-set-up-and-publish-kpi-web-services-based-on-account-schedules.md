@@ -1,23 +1,23 @@
 ---
 title: Configurar y publicar servicios Web KPI para estructuras de cuentas | Documentos de Microsoft
-description: "Este tema describe cómo mostrar los datos de KPI de la estructura de cuentas en función de estructuras de cuentas específicas."
+description: Este tema describe cómo mostrar los datos de KPI de la estructura de cuentas en función de estructuras de cuentas específicas.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 89ea440851c359db7e08d4f0265a647cb9424330
-ms.contentlocale: es-mx
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "814917"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Configurar y publicar servicios web de KPI basados en estructuras de cuentas
 En la página **Configuración de servicio Web KPI de estructura de cuentas**, se configura cómo mostrar los datos KPI de la estructura de cuentas y en qué estructuras de cuentas específicos se deben basar los KPI. Cuando elige el botón **Publicar servicio Web**, los datos especificados KPI de esquema de cuentas se agregan a la lista de servicios Web publicados en la página **Servicios Web**.  
@@ -57,4 +57,3 @@ En la página **Configuración de servicio Web KPI de estructura de cuentas**, s
 [Configurar las finanzas](finance-setup-finance.md)  
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

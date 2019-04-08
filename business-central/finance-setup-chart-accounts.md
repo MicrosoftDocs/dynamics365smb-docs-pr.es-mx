@@ -1,6 +1,6 @@
 ---
-title: "Configurar un Catálogo de cuentas"
-description: "Puede cambiar las cuentas predeterminadas en el catálogo de cuentas (COA) y puede agregar nuevas cuentas."
+title: Configurar un Catálogo de cuentas
+description: Puede cambiar las cuentas predeterminadas en el catálogo de cuentas (COA) y puede agregar nuevas cuentas.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 12/10/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: 962f0b81d39e8e79fb7273ee93417b01be8d9e5a
-ms.contentlocale: es-mx
-ms.lasthandoff: 12/11/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815710"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Configurar o cambiar el catálogo de cuentas
 El catálogo de cuentas muestra las cuentas de contabilidad que almacenan sus datos financieros. [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un gráfico estándar de cuentas que está preparado para respaldar su negocio.
@@ -37,9 +37,8 @@ Desde el catálogo de cuentas, puede abrir cada cuenta de contabilidad y agregar
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Administrar cuentas bancarias](bank-manage-bank-accounts.md)  
 [Trabajar con dimensiones](finance-dimensions.md)  
-[Importar datos de otros sistemas financieros](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Importar datos de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Trabajar con estructuras de cuentas](bi-how-work-account-schedule.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
-

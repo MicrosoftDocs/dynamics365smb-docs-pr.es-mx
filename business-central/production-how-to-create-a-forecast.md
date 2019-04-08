@@ -1,23 +1,23 @@
 ---
-title: "Como crear una previsión de la demanda | Documentos de Microsoft"
-description: "Es posible crear previsiones de ventas y producción desde la página **Previsión de la demanda**."
+title: Como crear una previsión de la demanda | Documentos de Microsoft
+description: Es posible crear previsiones de ventas y producción desde la página **Previsión de la demanda**.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b7937bf83074dcbe9cd2bf501d4a5f67c1712511
-ms.contentlocale: es-mx
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815399"
 ---
 # <a name="create-a-demand-forecast"></a>Crear una previsión de la demanda
 Es posible crear previsiones de ventas y producción desde la página **Previsión de la demanda**.  
@@ -77,4 +77,3 @@ Puede establecerse en la configuración de fabricación si desea filtrar el pron
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)   
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

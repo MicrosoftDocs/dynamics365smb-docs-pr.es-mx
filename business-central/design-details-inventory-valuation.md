@@ -1,23 +1,23 @@
 ---
-title: "Detalles de diseño: Valuación de Inventarios | Documentos de Microsoft"
-description: "La valuación de inventarios \"Valuación de inventarios\" es la determinación del costo que se asigna a un producto de inventario, tal como expresa la ecuación siguiente."
+title: 'Detalles de diseño: Valuación de Inventarios | Documentos de Microsoft'
+description: La valuación de inventarios "Valuación de inventarios" es la determinación del costo que se asigna a un producto de inventario, tal como expresa la ecuación siguiente.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 8d186d3f104f152a4ad121d32e14ad2bc1e33c5d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1e2f307a4309389b09e5ce291cb5eca3abee6b88
-ms.contentlocale: es-mx
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815616"
 ---
 # <a name="design-details-inventory-valuation"></a>Detalles de diseño: Valuación de Inventarios
 La valuación de inventarios "Valuación de inventarios" es la determinación del costo que se asigna a un producto de inventario, tal como expresa la ecuación siguiente.  
@@ -61,4 +61,3 @@ El propósito de la valuación de inventarios del trabajo en curso es determinar
 [Gestión de costos de inventario](finance-manage-inventory-costs.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

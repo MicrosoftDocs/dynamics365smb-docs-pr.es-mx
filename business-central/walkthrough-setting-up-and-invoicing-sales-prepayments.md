@@ -1,21 +1,21 @@
 ---
-title: "Tutorial: Configuración y facturación de anticipos de ventas | Documentos de Microsoft"
-description: "Los anticipos son pagos que se facturan y registran en un pedido de anticipo de ventas o compras antes de la facturación final. Es posible que solicite un depósito antes de fabricar productos del pedido, o que solicite un pago antes de enviar productos al cliente. La funcionalidad de anticipos en Business Central se utiliza para facturar y cobrar depósitos requeridos de los clientes o remitir depósitos a los proveedores. De este modo, puede asegurar que todos los pagos estén registrados contra una factura."
+title: 'Tutorial: Configuración y facturación de anticipos de ventas | Documentos de Microsoft'
+description: Los anticipos son pagos que se facturan y registran en un pedido de anticipo de ventas o compras antes de la facturación final. Es posible que solicite un depósito antes de fabricar productos del pedido, o que solicite un pago antes de enviar productos al cliente. La funcionalidad de anticipos en Business Central se utiliza para facturar y cobrar depósitos requeridos de los clientes o remitir depósitos a los proveedores. De este modo, puede asegurar que todos los pagos estén registrados contra una factura.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 5fb8201f85fe94ac124e80014a4f3ff5073fbf65
-ms.contentlocale: es-mx
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815226"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Tutorial: Configuración y facturación de anticipos de ventas
 
@@ -219,4 +219,3 @@ La función de anticipos en [!INCLUDE[d365fin](includes/d365fin_md.md)] facilita
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Tutorial de procesos empresariales](walkthrough-business-process-walkthroughs.md)
-

@@ -1,23 +1,23 @@
 ---
 title: Trabajar con contratos o cotizaciones de servicio | Documentos de Microsoft
-description: "Puede crear un contrato de servicio de forma manual o desde una cotización de contrato de servicio. Puede crear un contrato basado en una cotización de contrato de servicio:"
+description: 'Puede crear un contrato de servicio de forma manual o desde una cotización de contrato de servicio. Puede crear un contrato basado en una cotización de contrato de servicio:'
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8f27a27941130a56f8ad1c1c5ef22d3e448e455b
-ms.contentlocale: es-mx
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815721"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Trabajar con contratos de servicio y cotizaciones de contrato de servicio
 Puede crear un contrato de servicio de forma manual o desde una cotización de contrato de servicio. Puede utilizar una cotización de contrato de servicio como precursora de un contrato de servicio, en ésta su empresa realiza una cotización al cliente para obtener así su aprobación para poder convertirla en un contrato de servicio. Los procedimientos para crear un contrato de servicio o una cotización de contrato de servicio son similares.  
@@ -202,4 +202,3 @@ Puede archivar contratos de servicio y cotizaciones de contrato en cualquier mom
 [Configurar contratos de servicio](service-how-setup-service-contracts.md)  
 [Gestión de servicios](service-service.md)  
 [Convertir contratos de servicio que incluyen importes de IVA](service-how-to-convert-service-contracts.md)  
-

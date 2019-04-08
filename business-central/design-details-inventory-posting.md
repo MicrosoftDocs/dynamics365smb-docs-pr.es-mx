@@ -1,23 +1,23 @@
 ---
-title: "Detalles de diseño: Registro inventario | Documentos de Microsoft"
-description: "Cada transacción de inventario, como una remisión de compra o una remisión de venta, registra dos movimientos de distintos tipos."
+title: 'Detalles de diseño: Registro inventario | Documentos de Microsoft'
+description: Cada transacción de inventario, como una remisión de compra o una remisión de venta, registra dos movimientos de distintos tipos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 80c2912836d8f11a8e3cf869b9412ad9ed66ca54
-ms.contentlocale: es-mx
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815280"
 ---
 # <a name="design-details-inventory-posting"></a>Detalles de diseño: Registro de inventario
 Cada transacción de inventario, como una remisión de compra o una remisión de venta, registra dos movimientos de distintos tipos.  
@@ -77,7 +77,7 @@ Cada transacción de inventario, como una remisión de compra o una remisión de
 
 |Nº mov.|Nº mov. producto|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|  
 |---------------|---------------------------|----------------------------|-----------------------------|--------------|  
-|2|2|0|2|-10|  
+|2|2|1|2|-10|  
 
  Al final del periodo contable se ejecuta el proceso de **Reg. var. inventario en cont.** en contabilidad para conciliar estas transacciones de inventario con la contabilidad.  
 
@@ -133,4 +133,3 @@ Para obtener más información, consulte [Detalles de diseño: Registro de pedid
  [Detalles de diseño: Componentes de costo](design-details-cost-components.md) [Administración de costos de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

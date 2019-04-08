@@ -1,18 +1,18 @@
 ---
 title: Configurar anticipos | Documentos de Microsoft
-description: "Los anticipos son pagos que se facturan y registran en un pedido de anticipo de ventas o compras antes de la facturación final. Puede requerir un depósito antes de fabricar productos bajo pedido o puede requerir el pago antes de enviar productos a un cliente. La funcionalidad de anticipos le permite facturar y cobrar depósitos requeridos de los clientes o remitir depósitos a proveedores. De este modo, puede asegurar que todos los pagos se registran contra una factura."
+description: Los anticipos son pagos que se facturan y registran en un pedido de anticipo de ventas o compras antes de la facturación final. Puede requerir un depósito antes de fabricar productos bajo pedido o puede requerir el pago antes de enviar productos a un cliente. La funcionalidad de anticipos le permite facturar y cobrar depósitos requeridos de los clientes o remitir depósitos a proveedores. De este modo, puede asegurar que todos los pagos se registran contra una factura.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: prepayment
 ms.date: 12/04/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
 ms.openlocfilehash: 3038fc256ec45b8eb51abe3f71b7fcc7d273b353
-ms.contentlocale: es-mx
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "814979"
 ---
 # <a name="set-up-prepayments"></a>Configurar anticipos
 Si desea que sus clientes realicen el pago antes de enviarles un pedido o su proveedor le requiere que efectúe el pago antes de enviarle un pedido, puede utilizar la funcionalidad Anticipo. La funcionalidad le permite facturar y cobrar depósitos requeridos de los clientes o remitir depósitos a proveedores y asegurarse de que todos los pagos parciales se contabilicen con una factura. Para obtener más información, consulte [Crear facturas de anticipo](finance-how-to-create-prepayment-invoices.md).
@@ -84,4 +84,3 @@ Dicho de otro modo, el porcentaje de anticipo de la ficha del cliente sólo se a
 [Descripción de contabilidad y plan de cuentas](finance-general-ledger.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

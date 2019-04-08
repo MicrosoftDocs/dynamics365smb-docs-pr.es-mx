@@ -1,6 +1,6 @@
 ---
-title: "Introducción | Documentos de Microsoft"
-description: "Obtenga más información sobre las capacidades y los escenarios de trabajo en Business Central, una solución de administración empresarial para pequeñas y medianas empresas."
+title: Introducción | Documentos de Microsoft
+description: Obtenga más información sobre las capacidades y los escenarios de trabajo en Business Central, una solución de administración empresarial para pequeñas y medianas empresas.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 12/03/2018
 ms.author: edupont
+ms.openlocfilehash: 5386dc4158dbd1e944eac75f4339ca2295a92fd2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
-ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
-ms.contentlocale: es-mx
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "814944"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Introducción a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Registrarse es muy fácil y puede migrar los datos de la empresa existentes desde su sistema de herencia. Para ayudarle con su suscripción, encuentre [aquí](https://www.microsoft.com/en-us/solution-providers/search) un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -38,8 +38,8 @@ Para obtener más información, consulte [Trabajar con [!INCLUDE[d365fin](includ
 
 Cuando esté preparado para empezar a trabajar y desee examinar algunos de los procesos empresariales que admite [!INCLUDE[d365fin](includes/d365fin_md.md)], vea [Funciones empresariales](across-business-functionality.md). Para obtener un resumen de las funciones actuales y futuras, eche un vistazo a las notas de la versión en [Notas de la versión de Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
-## <a name="the-role-centers"></a>Las Áreas de tareas
-La página área de tareas se basa un diseño basado en roles para ofrecerle acceso rápido a las herramientas de procesos e inteligencia empresariales que necesita para realizar su trabajo. Por ejemplo, un contable puede supervisar pagos y aprobaciones, y ver gráficos de rendimiento financiero. Vea las diferentes Áreas de tareas eligiendo el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono Configuración del Área de tareas") en la esquina superior derecha, eligiendo **Mi configuración** y, a continuación, el Área de tareas para explorar. Inicie sesión de nuevo para aplicar el cambio. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).
+## <a name="the-role-centers"></a>Áreas de tareas
+La página Área de tareas se basa un diseño basado en roles para ofrecerle acceso rápido a las herramientas de procesos e inteligencia empresariales que necesita para realizar su trabajo. Por ejemplo, un contable puede supervisar pagos y aprobaciones, y ver gráficos de rendimiento financiero. Vea las diferentes Áreas de tareas eligiendo el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono Configuración del Área de tareas") en la esquina superior derecha, eligiendo **Mi configuración** y, a continuación, el Área de tareas para explorar. Inicie sesión de nuevo para aplicar el cambio. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).
 
 Cada Área de tareas proporciona un botón **Configuración y extensiones**. Aquí tiene acceso a una lista de configuración de asistencia que puede ayudarle a empezar mediante la configuración de las áreas seleccionadas rápidamente. Si un área no está cubierta por una configuración asistida, elija la acción **Configuración manual** para obtener acceso a las páginas de configuración donde puede rellenar los campos de configuración de todas las áreas manualmente. Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
@@ -89,14 +89,13 @@ Si es un contable, puede registrarse en [!INCLUDE[d365acc_long](includes/d365acc
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Equipar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] usando extensiones](ui-extensions.md)  
+[Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
 [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como mi bandeja de entrada de empresa en Outlook](admin-outlook.md)  
 [Obtener [!INCLUDE[d365fin](includes/d365fin_md.md)] en el dispositivo móvil](install-mobile-app.md)  
 [Documentación de Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
-[Notas de la versión del Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
+[Notas de la versión de Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

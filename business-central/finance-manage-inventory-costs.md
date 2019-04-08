@@ -1,23 +1,23 @@
 ---
-title: "Administración de costos de inventario | Documentos de Microsoft"
-description: "La gestión de costos, también conocida como \"valoración de existencias\", se refiere al registro y la creación de informes sobre los costos operativos de la empresa. Incluye la creación de informes de los costos de existencias y fabricación, es decir, el valor de los productos."
+title: Administración de costos de inventario | Documentos de Microsoft
+description: La gestión de costos, también conocida como "valoración de existencias", se refiere al registro y la creación de informes sobre los costos operativos de la empresa. Incluye la creación de informes de los costos de existencias y fabricación, es decir, el valor de los productos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/27/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: d5f5885055aa1094e4172d4a4e327ff1e940f799
-ms.contentlocale: es-mx
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815048"
 ---
 # <a name="managing-inventory-costs"></a>Administración de costos de inventario
 La gestión de costos, también conocida como "valoración de existencias", se refiere al registro y la creación de informes sobre los costos operativos de la empresa. Incluye la creación de informes de los costos de existencias y fabricación, es decir, el valor de los productos.   
@@ -46,4 +46,3 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
  [Ccial](sales-manage-sales.md)   
  [Compras](purchasing-manage-purchasing.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

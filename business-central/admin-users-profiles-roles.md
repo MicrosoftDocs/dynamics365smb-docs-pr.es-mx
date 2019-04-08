@@ -1,18 +1,18 @@
 ---
 title: Administre usuarios y roles | Documentos de Microsoft
-description: "Obtener información sobre cómo administrar usuarios y Áreas de tareas en Business Central."
+description: Obtener información sobre cómo administrar usuarios y Áreas de tareas en Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 10/24/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7ecd8a5ad2b321d4d1683047e70ede90c7ce229f
-ms.contentlocale: es-mx
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815320"
 ---
 # <a name="understanding-users-profiles-and-role-centers"></a>Comprender Usuarios, Perfiles y Áreas de tareas
 
@@ -99,4 +99,3 @@ Los usuarios personalizan la interfaz de usuario de su versión personal mediant
 [Gestionar usuarios y permisos](ui-how-users-permissions.md)  
 [Administrar la personalización como administrador](ui-personalization-manage.md)  
 [Personalización de su área de trabajo](ui-personalization-user.md)  
-

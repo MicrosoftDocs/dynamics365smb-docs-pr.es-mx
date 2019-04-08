@@ -1,8 +1,8 @@
 ---
-title: "Detalles de diseño: Liquidación de producto | Documentos de Microsoft"
-description: "En este tema se describe cómo se produce la liquidación de producto cuando se registra una transacción del inventario."
+title: 'Detalles de diseño: Liquidación de producto | Documentos de Microsoft'
+description: En este tema se describe cómo se produce la liquidación de producto cuando se registra una transacción del inventario.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, item, item ledger, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0fa6bb40ccd17c01c40a7068ff0b081e5be1aa16
-ms.contentlocale: es-mx
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815207"
 ---
 # <a name="design-details-item-application"></a>Detalles de diseño: Liquidación de productos
 Cuando se registra una transacción de inventario, el registro de cantidad se guarda en los movimientos de producto y el registro de valor en los movimientos de valoración. Para obtener más información, consulte [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md).  
@@ -36,7 +36,7 @@ Las liquidaciones de producto se pueden crear de las siguientes formas.
 |Método|Descripción|Tipo de aplicación|  
 |------------|---------------------------------------|----------------------|  
 |Automática|Se produce como un desvío de costo general según la valuación de inventarios|Liquidación de cantidad|  
-|Fijo|Realizado por el usuario cuando:<br /><br /> -   Procesar devoluciones<br />-   Registrar correcciones<br />-   Procedimiento para deshacer registros de cantidades<br />-   Creación de los envíos directos **Nota**: La liquidación fija se puede realizar manualmente si especifica un número de movimiento en el campo **Liq. movimiento prod.** o con una función, como **Revertir líneas documentos registrados**.|Liquidación de cantidad<br /><br /> Costo liquidación **Nota:** La liquidación del costo solo se produce en transacciones de entrada cuando el campo **Liq. movimiento prod.** se rellena para crear una liquidación fija. Vea la tabla siguiente.|  
+|Fijo|Realizado por el usuario cuando:<br /><br /> -   Procesar devoluciones<br />-   Registrar correcciones<br />-   Procedimiento para deshacer registros de cantidades<br />-   Creación de las remisiones directas **Nota**: La liquidación fija se puede realizar manualmente si especifica un número de movimiento en el campo **Liquid. mov. prod.** o con una función, como **Revertir líneas documentos registrados**.|Liquidación de cantidad<br /><br /> Costo liquidación **Nota:** La liquidación del costo solo se produce en transacciones de entrada cuando el campo **Liq. movimiento prod.** se rellena para crear una liquidación fija. Vea la tabla siguiente.|  
   
 El hecho que de que se hagan liquidaciones de cantidad o de costo depende de la dirección de la transacción de inventario y de si la liquidación de producto se realiza de modo automático o fijo, en conexión con procesos especiales.  
   
@@ -70,7 +70,7 @@ En la tabla siguiente se muestra el movimiento de liquidación de producto que s
   
 |Fecha reg.|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|Nº mov. producto|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|0|0|10|0|  
+|01-01-20|1|0|10|1|  
   
 ## <a name="inventory-decrease"></a>Salida de existencias  
 Cuando registra una salida de existencias, se crea un movimiento de liquidación de producto que enlaza la salida de existencias con una entrada de existencias. Este vínculo se crea mediante la guía de la valuación de inventarios del producto. En el caso de productos que usen métodos de coste FIFO, Estándar y Promedio, la vinculación se basa en el principio de "primero en entrar, primero en salir". La salida de inventario se aplica a la entrada de inventario con la fecha de registro más temprana. En el caso de productos que usen métodos de costo LIFO, la vinculación se basa en el principio de "último en entrar, primero en salir". La salida de inventario se aplica a la entrada de inventario con la fecha de registro más reciente.  
@@ -84,8 +84,8 @@ En la tabla siguiente se muestran los dos movimientos de liquidación de product
   
 |Fecha reg.|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|Nº mov. producto|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|0|0|10|0|  
-|03-01-20|0|2|-5|2|  
+|01-01-20|1|0|10|1|  
+|03-01-20|1|2|-5|2|  
   
 ## <a name="fixed-application"></a>Liquidación fija  
 Se realiza una liquidación fija cuando especifica que el costo de una entrada de existencias debería aplicarse a una salida de existencias específico o viceversa. La liquidación fija afecta a las cantidades restantes de los movimientos, pero también revierte el costo exacto del movimiento original que está liquidando.  
@@ -103,7 +103,7 @@ En la tabla siguiente se muestran los movimientos de producto como consecuencia 
   
 |**Fecha registro**|**Tipo mov. producto**|**Cantidad**|**Importe costo (real)**|**Nº mov. producto**|  
 |----------------------|---------------------------------------------------|------------------|----------------------------------------------------|---------------------------------------------------|  
-|04-01-20|Compras|10|10.00|0|  
+|04-01-20|Compras|10|10.00|1|  
 |05-01-20|Compras|10|20.00|2|  
 |06-01-20|Compras (devolución)|-10|-20,00|3|  
   
@@ -113,7 +113,7 @@ En la tabla siguiente se muestra el movimiento de liquidación de producto que e
   
 |Fecha reg.|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|Nº mov. producto|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|06-01-20|0|3|10|3|  
+|06-01-20|1|3|10|3|  
   
 A continuación, el costo de la segunda compra, $ 20,00, se pasará correctamente a la devolución de la compra.  
   
@@ -130,8 +130,8 @@ En la tabla siguiente se muestra el resultado del escenario en los movimientos d
   
 |Fecha reg.|Tipo mov. producto|Cdad. valuada|Importe costo (real)|Liq. por nº orden producto|Valuado a costo promedio|Nº mov. producto|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Compras|0|200.00||N.º|0|0|  
-|01-01-20|Compras|0|1000.00||No|2|2|  
+|01-01-20|Compras|1|200.00||N.º|1|1|  
+|01-01-20|Compras|1|1000.00||No|2|2|  
 |01-01-20|Compra|-1|-1000|2|No|3|3|  
 |01-01-20|Compra|1|100,00||No|4|4|  
 |01-01-20|Ventas|-2|-300,00||Sí|5|5|  
@@ -142,8 +142,8 @@ En la tabla siguiente se muestra el resultado en los movimientos de valoración 
   
 |Fecha reg.|Tipo mov. producto|Cdad. valuada|Importe costo (real)|Liq. por nº orden producto|Valuado a costo promedio|Nº mov. producto|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Compras|0|200.00||N.º|0|0|  
-|01-01-20|Compras|0|1000.00||No|2|2|  
+|01-01-20|Compras|1|200.00||N.º|1|1|  
+|01-01-20|Compras|1|1000.00||No|2|2|  
 |01-01-20|Compra|-1|433,33||Sí|3|3|  
 |01-01-20|Compra|1|100,00||No|4|4|  
 |01-01-20|Venta|-2|866,67||Sí|5|5|  
@@ -169,7 +169,7 @@ En la tabla siguiente se muestra el resultado de los pasos 1 a 3 del escenario e
   
 |Fecha reg.|Tipo mov. producto|Cdad. valuada|Importe costo (real)|Liq. movimiento prod.|Nº mov. producto|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Compras|0|1000.00||0|0|  
+|01-01-20|Compras|1|1000.00||1|1|  
 |01-02-20|Venta|-1|1000.00||2|2|  
 |01-03-20|Venta (nota de crédito)|1|1000|2|3|3|  
   
@@ -177,16 +177,16 @@ En la tabla siguiente se muestra el movimiento de valoración que es el resultad
   
 |Fecha reg.|Tipo mov. producto|Cdad. valuada|Importe costo (real)|Liq. movimiento prod.|Nº mov. producto|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-04-20|(Cargo de producto)|0|100.00||0|4|  
+|01-04-20|(Cargo de producto)|1|100.00||1|4|  
   
 En la tabla siguiente se muestra el efecto de la reversión de costo exacta en los movimientos de valoración del producto.  
   
 |Fecha reg.|Tipo mov. producto|Cdad. valuada|Importe costo (real)|Liq. movimiento prod.|Nº mov. producto|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Compras|0|1000.00||0|0|  
+|01-01-20|Compras|1|1000.00||1|1|  
 |01-02-20|Venta|-1|1100.00||2|2|  
 |01-03-20|Venta (nota de crédito)|1|1100.00|2|3|3|  
-|01-04-20|(Cargo de producto)|0|100.00||0|4|  
+|01-04-20|(Cargo de producto)|1|100.00||1|4|  
   
 Al ejecutar el proceso **Valorar existencias - movs. producto**, el aumento de costo del movimiento de compra, debido al cargo de producto, se desvía al movimiento de venta (número de movimiento 2). A continuación, el movimiento de venta desvía este aumento de costo al movimiento de crédito de ventas (movimiento número 3). El resultado final es que el costo se revierte correctamente.  
   
@@ -210,8 +210,8 @@ En la tabla siguiente se muestra el efecto de la transferencia en los movimiento
   
 |Fecha reg.|Tipo mov. producto|Cód. almacén|Cdad. valuada|Importe costo (real)|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Compras|AZUL|0|10.00|0|  
-|01-01-20|Compras|AZUL|0|20.00|2|  
+|01-01-20|Compras|AZUL|1|10.00|1|  
+|01-01-20|Compras|AZUL|1|20.00|2|  
 |01-02-20|Transferencia|AZUL|-1|15.00|3|  
 |01-02-20|Transferencia|ROJO|1|15.00|4|  
   
@@ -225,7 +225,7 @@ En la tabla siguiente se muestra el efecto de la transferencia en los movimiento
   
 |Fecha reg.|Tipo mov. producto|Cód. almacén|Cdad. valuada|Importe costo (real)|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Compras|AZUL|0|10.00|0|  
+|01-01-20|Compras|AZUL|1|10.00|1|  
 |01-02-20|Transferencia|AZUL|-1|10.00|2|  
 |01-02-20|Transferencia|ROJO|1|10.00|3|  
   
@@ -246,4 +246,3 @@ Debido a la forma en la que se calcula el costo unitario de un producto, una liq
 [Detalles de diseño: Métodos de costo](design-details-costing-methods.md)  
 [Detalles de diseño: Costo promedio](design-details-average-cost.md)  
 [Detalles de diseño: Ajuste de costo](design-details-cost-adjustment.md)  
-

@@ -1,6 +1,6 @@
 ---
-title: "Detalles de diseño: Liquidación de producto | Documentos de Microsoft"
-description: "En este tema se describe donde se registran la cantidad y el valor de existencias cuando se registra una transacción del inventario."
+title: 'Detalles de diseño: Liquidación de producto | Documentos de Microsoft'
+description: En este tema se describe donde se registran la cantidad y el valor de existencias cuando se registra una transacción del inventario.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 12/21/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
 ms.openlocfilehash: 772702717a250e7068e93d362bc09a5ba719defe
-ms.contentlocale: es-mx
-ms.lasthandoff: 12/27/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "814799"
 ---
 # <a name="design-details-item-application"></a>Detalles de diseño: Liquidación de productos
 Cuando se registra una transacción de inventario, el registro de cantidad se guarda en los movimientos de producto y el registro de valor en los movimientos de valoración. Para obtener más información, consulte [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md).  
@@ -34,7 +34,7 @@ Las liquidaciones de producto se pueden crear de las siguientes formas.
 |Método|Descripción|Tipo de aplicación|  
 |------------|---------------------------------------|----------------------|  
 |Automática|Se produce como un desvío de costo general según la valuación de inventarios|Liquidación de cantidad|  
-|Fijo|Realizado por el usuario cuando:<br /><br /> -   Procesar devoluciones<br />-   Registrar correcciones<br />-   Procedimiento para deshacer registros de cantidades<br />-   Creación de los envíos directos **Nota**: La liquidación fija se puede realizar manualmente si especifica un número de movimiento en el campo **Liq. movimiento prod.** o con una función, como **Revertir líneas documentos registrados**.|Liquidación de cantidad<br /><br /> Costo liquidación **Nota:** La liquidación del costo solo se produce en transacciones de entrada cuando el campo **Liq. movimiento prod.** se rellena para crear una liquidación fija. Vea la tabla siguiente.|  
+|Fijo|Realizado por el usuario cuando:<br /><br /> -   Procesar devoluciones<br />-   Registrar correcciones<br />-   Procedimiento para deshacer registros de cantidades<br />-   Creación de las remisiones directas **Nota**: La liquidación fija se puede realizar manualmente si especifica un número de movimiento en el campo **Liquid. mov. prod.** o con una función, como **Revertir líneas documentos registrados**.|Liquidación de cantidad<br /><br /> Costo liquidación **Nota:** La liquidación del costo solo se produce en transacciones de entrada cuando el campo **Liq. movimiento prod.** se rellena para crear una liquidación fija. Vea la tabla siguiente.|  
 
 El hecho que de que se hagan liquidaciones de cantidad o de costo depende de la dirección de la transacción de inventario y de si la liquidación de producto se realiza de modo automático o fijo, en conexión con procesos especiales.  
 
@@ -248,4 +248,3 @@ Debido a la forma en la que se calcula el costo unitario de un producto, una liq
 [Administración de costos de inventario](finance-manage-inventory-costs.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

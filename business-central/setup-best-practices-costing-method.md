@@ -1,23 +1,23 @@
 ---
-title: "Procedimientos recomendados de configuración: valoración de existencias | Documentos de Microsoft"
-description: "La opción Valoración existencias en la ficha de producto define cómo se registra el flujo de costo del producto y si un el valor real o presupuestado se capitaliza y utiliza en el cálculo del costo."
+title: 'Procedimientos recomendados de configuración: valoración de existencias | Documentos de Microsoft'
+description: La opción Valoración existencias en la ficha de producto define cómo se registra el flujo de costo del producto y si un el valor real o presupuestado se capitaliza y utiliza en el cálculo del costo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: b8a5f4dcfa9a4e3f728c8de3786e7d5716ac82c7
 ms.openlocfilehash: 0e52344ffe60a03e6bb9a64e798f639e9c3109a9
-ms.contentlocale: es-mx
-ms.lasthandoff: 10/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815104"
 ---
 # <a name="setup-best-practices-costing-method"></a>Procedimientos recomendados de configuración: valuación de inventarios
 La opción **Valoración existencias** en la ficha de producto define cómo se registra el flujo de costo del producto y si un el valor real o presupuestado se capitaliza y utiliza en el cálculo del costo.  
@@ -39,4 +39,3 @@ La opción **Valoración existencias** en la ficha de producto define cómo se r
  [Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)   
  [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

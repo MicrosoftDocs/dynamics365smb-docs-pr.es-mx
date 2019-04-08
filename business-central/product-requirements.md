@@ -1,6 +1,6 @@
 ---
-title: "Requisitos mínimos para usar Business Central | Documentos de Microsoft"
-description: "Conocer los requisitos mínimos del sistema y de versión para usar Business Central."
+title: Requisitos mínimos para usar Business Central | Documentos de Microsoft
+description: Conocer los requisitos mínimos del sistema y de versión para usar Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8e69b29eff604a78151b6a6f3ad3564abb04a5b2
 ms.openlocfilehash: 650fb7c92e5d66d238462911011369201d102ea0
-ms.contentlocale: es-mx
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815254"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisitos mínimos para utilizar Business Central
 Antes de que acceda a [!INCLUDE[d365fin](includes/d365fin_md.md)], le recomendamos que verifique que su equipo o dispositivo móvil cumple o supera los requisitos mínimos del sistema para el producto. En este artículo se especifican los requisitos.  
@@ -38,9 +38,8 @@ Antes de que acceda a [!INCLUDE[d365fin](includes/d365fin_md.md)], le recomendam
 **Plataformas**: Al usar el complemento de Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)] en OWA por iPhone, OWA for iPad y OWA por Android, el complemento requiere que su dispositivo móvil ejecute uno de los dispositivos móviles compatibles especificados para [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="excel"></a>Excel
-**Editar en Excel:** Para usar el complemento de Excel para realizar cambios en Excel y volver a insertar los cambios en [!INCLUDE[d365fin](includes/d365fin_md.md)], necesita Excel 2016 o posterior. Para obtener más información, consulte [Análisis de resultados financieros en Microsoft Excel](finance-analyze-excel.md).  
+**Editar en Excel:** Para usar el complemento de Excel para realizar cambios en Excel y volver a insertar los cambios en [!INCLUDE[d365fin](includes/d365fin_md.md)], necesita Excel 2016 o posterior. Para obtener más información, consulte [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="see-also"></a>Consulte también
 [Introducción](product-get-started.md)  
-[Requerimientos del sistema para Dynamics 365 Business Central local](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  
-
+[Requisitos del sistema para Dynamics 365 Business Central On-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  

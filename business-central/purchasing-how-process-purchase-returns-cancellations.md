@@ -1,8 +1,8 @@
 ---
 title: Proceso de devoluciones o cancelaciones | Documentos de Microsoft
-description: "Explica cómo crear y registrar una nota de crédito de compra cuando se desean devolver productos a un proveedor o cancelar servicios comprados."
+description: Explica cómo crear y registrar una nota de crédito de compra cuando se desean devolver productos a un proveedor o cancelar servicios comprados.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: eef48d2390a497692b19b0ce6eae6afc654f8d22
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8f73492e70d4d30a73030953eb235f586954867e
-ms.contentlocale: es-mx
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "814590"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Procesamiento de devoluciones de compra o cancelaciones
 Si desea devolver productos al proveedor o cancelar servicios comprados, puede crear y registrar una nota de crédito de compras que especifique el cambio solicitado en relación a la factura de compra original. Para incluir la información correcta de la factura de compras, puede crear el abono de compra directamente de la factura de compra contabilizada o puede crear un nuevo abono de compra con información de factura copiada.
 
-Si necesita más control del proceso de devolución de compras, como documentos de almacén para el manejo de artículos o una mejor descripción al devolver productos de varios documentos de compras con una sola devolución de compra, puede crear órdenes de devolución de compras. Un pedido de devolución de compra emite automáticamente un abono de compra relacionado. Para obtener más información, consulte la sección "Crear un pedido de devolución de compra basado en uno o más documentos de compra registrados".
+Si necesita más control del proceso de devolución de compras, como documentos de almacén para el manejo de artículos o una mejor descripción al devolver productos de varios documentos de compras con una sola devolución de compra, puede crear órdenes de devolución de compras. Un pedido de devolución de compra emite automáticamente un abono de compra relacionado. Para obtener más información, consulte [Crear un pedido de devolución de compra basado en uno o más documentos de compra registrados](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
 > [!NOTE]  
 >   Si una factura de compra registrada aún no se ha pagado, puede utilizar las funciones **Corregir** o **Cancelar** en la factura de compra registrada para revertir automáticamente las transacciones correspondientes. Estas funciones solo funcionan para las facturas sin pagar y no admiten devoluciones o cancelaciones parciales. Para obtener más información, vea [Corregir o cancelar las facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
@@ -42,7 +42,7 @@ Existen dos funciones para asignar la reversión de costo exacta automáticament
 
 |Función|Descripción|  
 |------------------|---------------------------------------|  
-|Función **Revertir líneas documentos registrados** en la página **Pedido dev. compra**|Copia una o varias líneas de documentos registrados para revertirlas en el pedido de devolución de compra. Para obtener más información, consulte la sección "Para crear un pedido de devolución de compras y el abono de compra relacionado, para uno o varias facturas de compras registradas".|  
+|Función **Revertir líneas documentos registrados** en la página **Pedido dev. compra**|Copia una o varias líneas de documentos registrados para revertirlas en el pedido de devolución de compra. Para obtener más información, consulte [Crear un pedido de devolución de compra basado en uno o más facturas de compra registradas](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents).|  
 |Función**Copiar líneas** en las páginas **Abono compra** y **Pedido dev. compra**|Copia la cabecera y las líneas de un documento registrado que se revertirá.<br /><br /> Requiere que se active la casilla de verificación **Costo exacto devol. obligatorio** en la página **Configuración compras y pagos**.|
 
 Para asignar manualmente la reversión del costo exacto, debe elegir el campo **Liq. movimiento prod.** en cualquier tipo de línea de documento, y seleccionar el número del movimiento de compra original. De este modo la nota de crédito de compra o el pedido de devolución de compra se vincula al movimiento de compra original y se asegura que el producto se value con el costo unitario original.
@@ -77,10 +77,10 @@ La nota de crédito de compra se ha eliminado y remplazado por un nuevo document
 5. En la página **Copiar doc. compra**, en el campo **Tipo de documento**, seleccione el campo **Factura registrada**
 6. Elija el campo **Nº documento** para abrir la página **Histórico facturas compra** y seleccione la factura de compra registrada que contiene las líneas que desea revertir.
 7. Seleccione la casilla **Recalcular líneas** si desea que las líneas de factura de compra registradas copiadas se actualicen con los cambios en el precio y el costo unitario del producto desde que la factura fue registrada.
-8. Elija el botón **Aceptar**. Las líneas de factura copiadas se insertarán en la nota de crédito de compra.
-9. Complete la nota de crédito de compra como se explica en la sección "Para crear una nota de crédito de compra a partir de una factura de compra registrada" en este tema.
+8. Elija el botón **Aceptar**. Las líneas de factura copiadas se insertarán en el abono de compra.
+9. Complete el abono de compra como se explica en [Para crear un abono de compra de una factura de compras registrada](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
-## <a name="to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents"></a>Crear un pedido de devolución de compras basado en uno o más documentos de compras registrados
+## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Crear un pedido de devolución de compras basado en uno o más documentos de compras registrados
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos devolución compra** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. Rellen los campos de la ficha desplegable **General**.
@@ -186,4 +186,3 @@ Cuando se combinan envíos devueltos en una nota de crédito y se registran, se 
 [Registrar compras](purchasing-how-record-purchases.md)  
 [Corregir o cancelar facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

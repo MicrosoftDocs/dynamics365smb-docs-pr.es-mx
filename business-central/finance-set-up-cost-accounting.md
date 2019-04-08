@@ -1,23 +1,23 @@
 ---
 title: Configurar contabilidad de costos | Documentos de Microsoft
-description: "Antes de empezar a trabajar con la contabilidad de costos, debe realizar tareas de configuración."
+description: Antes de empezar a trabajar con la contabilidad de costos, debe realizar tareas de configuración.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ca6f16a22c3eb84584e8e522a15eadac6b21ca6a
-ms.contentlocale: es-mx
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "814771"
 ---
 # <a name="setting-up-cost-accounting"></a>Configuración de contabilidad de costos
 Antes de empezar a trabajar con la contabilidad de costos, debe realizar tareas de configuración.
@@ -116,7 +116,7 @@ Puede configurar y mantener centros de costo en la ficha **Ficha centro de costo
 3. En el campo **Nombre**, introduzca el nombre del centro de costo.  
 4. Seleccione la flecha desplegable del campo **Tipo línea** para especificar la finalidad del centro de costo.  
 
-    - Para los centros de costo de la línea **Total** debe rellenar el campo **Totales**. Utilice el operador **or**, que es una línea vertical (**&#124;**) para establecer rangos de centros de coste.  
+    - Para los centros de costo de la línea **Total** debe rellenar el campo **Totales**. Utilice el operador **or**, que es una línea vertical (**&#124;**) para establecer rangos de centros de costo.  
     - Para centros de costo del tipo de línea **Total final**, este campo se rellena automáticamente cuando utiliza la función Indentar.  
 5.  Rellene los campos **Orden clasificación** y **Subtipo de costo**.  
 6.  Seleccione la siguiente línea vacía para crear un centro de costo nuevo y, a continuación, repita del paso 2 al 5.  
@@ -149,7 +149,7 @@ Puede configurar y mantener objetos de costo en la ficha **Plan objeto de costo*
 3.  En el campo **Nombre**, introduzca el nombre del objeto de costo.  
 4.  Seleccione la flecha desplegable del campo **Tipo línea** para especificar la finalidad del objeto de costo.  
 
-    * Para los objetos de costo de la línea **Total** debe rellenar el campo **Total desde/a**. Utilice el operador **or**, que es una línea vertical (**&#124;**), para establecer rangos de objetos de coste.  
+    * Para los objetos de costo de la línea **Total** debe rellenar el campo **Total desde/a**. Utilice el operador **or**, que es una línea vertical (**&#124;**), para establecer rangos de objetos de costo.  
     * Para objetos de costo del tipo de línea **Total final**, este campo se rellena automáticamente cuando utiliza la función Indentar.  
 5.  Rellene el campo **Orden clasificación**.  
 6.  Seleccione la siguiente línea vacía para crear un objeto de costo nuevo y, a continuación, repita del paso 2 al 5.  
@@ -185,4 +185,3 @@ Para cada cuenta de contabilidad, puede definir valores de dimensión predetermi
 [Transferencia y registro de movimientos de costo](finance-transfer-and-post-cost-entries.md)   
 [Definición y asignación de costos](finance-define-and-allocate-costs.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

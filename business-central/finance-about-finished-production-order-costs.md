@@ -1,18 +1,18 @@
 ---
-title: "Sobre los costos de la orden de producción terminada | Documentos de Microsoft"
-description: "La finalización de la orden de producción es una tarea importante para terminar el ciclo de costos del producto que se está fabricando. Los costos finales, incluidas las variaciones en un entorno de costos estándar, los costos reales en un entorno de costos FIFO, promedio o LIFO, se calculan mediante el trabajo por lotes Valorar existencias - movs. producto."
+title: Sobre los costos de la orden de producción terminada | Documentos de Microsoft
+description: La finalización de la orden de producción es una tarea importante para terminar el ciclo de costos del producto que se está fabricando. Los costos finales, incluidas las variaciones en un entorno de costos estándar, los costos reales en un entorno de costos FIFO, promedio o LIFO, se calculan mediante el trabajo por lotes Valorar existencias - movs. producto.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: 39a5a63141f298de17b0e1ea100f72d956ca8fe3
-ms.contentlocale: es-mx
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815653"
 ---
 # <a name="about-finished-production-order-costs"></a>Sobre los costos del orden de producción terminada
 La finalización de la orden de producción es una tarea importante para terminar el ciclo de costos del producto que se está fabricando. Los costos finales, entre los que se incluyen las desviaciones en un entorno de costos estándar y los costos reales en un entorno de costos FIFO, promedio o LIFO, se calculan mediante el proceso **Valorar existencias - movs. producto**, que permite realizar la conciliación financiera de los costos de la fabricación de productos. Para que una orden de producción se tenga en cuenta en el ajuste de costos, el estado debe ser **Terminada**. Por ello, es esencial que, al terminarla, el estado de una orden de producción se cambie a **Terminada**.  
@@ -24,4 +24,3 @@ La finalización de la orden de producción es una tarea importante para termina
 [Administración de costos de inventario](finance-manage-inventory-costs.md)  
 [Fabricación](production-manage-manufacturing.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

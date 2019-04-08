@@ -1,8 +1,8 @@
 ---
 title: Administrar activos fijos | Documentos de Microsoft
-description: "Obtener información sobre la funcionalidad de activos fijos y obtener un resumen de cómo trabajar con activos fijos."
+description: Obtener información sobre la funcionalidad de activos fijos y obtener un resumen de cómo trabajar con activos fijos.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9569f01f286008b76667e3a524257ba1aac61f91
-ms.contentlocale: es-mx
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815382"
 ---
 # <a name="fixed-assets"></a>Activos fijos
 La funcionalidad Activos fijos de [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona un resumen de sus activos y asegura una correcta amortización periódica. También le permite realizar un seguimiento de los costos de mantenimiento, gestionar las pólizas de seguros, registrar transacciones de activos fijos y generar diversos informes y estadísticas.
@@ -57,4 +57,3 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

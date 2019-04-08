@@ -1,21 +1,21 @@
 ---
-title: "Detalles de diseño: Costo promedio | Documentos de Microsoft"
-description: "El costo promedio de un producto se calcula con una media ponderada periódica, en función del periodo de costo promedio que esté configurado en Business Central."
+title: 'Detalles de diseño: Costo promedio | Documentos de Microsoft'
+description: El costo promedio de un producto se calcula con una media ponderada periódica, en función del periodo de costo promedio que esté configurado en Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 97bc83c402cd8bbdc34f05035dfa6c680c2e635e
-ms.contentlocale: es-mx
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "815571"
 ---
 # <a name="design-details-average-cost"></a>Detalles de diseño: Costo promedio
 El costo promedio de un producto se calcula con un promedio ponderado periódico, en función del periodo de costo promedio que esté configurado en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -57,8 +57,8 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |**Fecha registro**|**Tipo mov. producto**|**Cantidad**|**Importe costo (real)**|**N.º de movimiento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Compras|0|20.00|0|  
-|01-01-20|Compras|0|40.00|2|  
+|01-01-20|Compras|1|20.00|1|  
+|01-01-20|Compras|1|40.00|2|  
 |01-01-20|Ventas|-1|-20,00|3|  
 |01-02-20|Ventas|-1|-40,00|4|  
 |02-02-20|Compra|1|100,00|5|  
@@ -80,8 +80,8 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |**Fecha registro**|**Tipo mov. producto**|**Cantidad**|**Importe costo (real)**|**N.º de movimiento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Compras|0|20.00|0|  
-|01-01-20|Compras|0|40.00|2|  
+|01-01-20|Compras|1|20.00|1|  
+|01-01-20|Compras|1|40.00|2|  
 |01-01-20|Ventas|-1|-30,00|3|  
 |01-02-20|Ventas|-1|-30,00|4|  
 |02-02-20|Compra|1|100,00|5|  
@@ -96,8 +96,8 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |**Fecha registro**|**Tipo mov. producto**|**Cantidad**|**Importe costo (real)**|**N.º de movimiento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Compras|0|20.00|0|  
-|01-01-20|Compras|0|40.00|2|  
+|01-01-20|Compras|1|20.00|1|  
+|01-01-20|Compras|1|40.00|2|  
 |01-01-20|Ventas|-1|-20,00|3|  
 |01-02-20|Ventas|-1|-40,00|4|  
 |02-02-20|Compra|1|100,00|5|  
@@ -120,8 +120,8 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |**Fecha registro**|**Tipo mov. producto**|**Cantidad**|**Importe costo (real)**|**N.º de movimiento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Compras|0|20.00|0|  
-|01-01-20|Compras|0|40.00|2|  
+|01-01-20|Compras|1|20.00|1|  
+|01-01-20|Compras|1|40.00|2|  
 |01-01-20|Ventas|-1|-30,00|3|  
 |01-02-20|Ventas|-1|-65,00|4|  
 |02-02-20|Compra|1|100,00|5|  
@@ -138,7 +138,7 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |Caso|Fecha reg.|Cdad. valuada|Reevaluación|Fecha valoración|  
 |--------------|-------------------------------------|-----------------------------------------|-----------------|-----------------------------------------|  
-|0||Positivo|N.º|Fecha de registro del movimiento de producto|  
+|1||Positivo|N.º|Fecha de registro del movimiento de producto|  
 |2|Posterior a la última fecha de valuación de los movimientos de valuación aplicados|Negativo|No|Fecha de registro del movimiento de producto|  
 |3|Anterior a la última fecha de valuación de los movimientos de valuación aplicados|Positivo|No|Última fecha de valuación de los movimientos de valuación aplicados|  
 |4||Negativo|Sí|Fecha de registro del movimiento de valoración de revalorización|  
@@ -148,7 +148,7 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |Caso|Fecha reg.|Tipo mov. producto|Fecha valoración|Cdad. valuada|Importe costo (real)|Nº mov. producto|N.º de movimiento|  
 |--------------|-------------------------------------|-----------------------------------------------|-----------------------------------------|-----------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|0|01-01-20|Compras|01-01-20|2|20.00|0|0|  
+|1|01-01-20|Compras|01-01-20|2|20.00|1|1|  
 |2|15-01-20|(Cargo de producto)|01-01-20|2|8.00|1|2|  
 |3|01-02-20|Ventas|01-02-20|-1|-14,00|2|3|  
 |4|01-03-20|(Revalorización)|01-03-20|1|-.4,00|1|4|  
@@ -187,8 +187,8 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |Fecha valoración|Cantidad|Importe costo (real)|N.º de movimiento|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10.00|0|  
-|02-01-20|0|20.00|2|  
+|01-01-20|1|10.00|1|  
+|02-01-20|1|20.00|2|  
 |15-02-20|-1|-15,00|3|  
 |16-02-20|-1|-15,00|4|  
 
@@ -198,9 +198,9 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |Fecha valoración|Cantidad|Importe costo (real)|N.º de movimiento|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10.00|0|  
-|02-01-20|0|20.00|2|  
-|03-01-20|0|21.00|5|  
+|01-01-20|1|10.00|1|  
+|02-01-20|1|20.00|2|  
+|03-01-20|1|21.00|5|  
 |15-02-20|-1|-17,00|3|  
 |16-02-20|-1|-17,00|4|  
 
@@ -212,4 +212,3 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
  [Administración de costos de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-
