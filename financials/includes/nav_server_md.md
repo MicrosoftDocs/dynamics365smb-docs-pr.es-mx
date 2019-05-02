@@ -1,1 +1,0 @@
-<span data-ttu-id="b8606-101">Servidor de Microsoft Dynamics NAV</span><span class="sxs-lookup"><span data-stu-id="b8606-101">Microsoft Dynamics NAV Server</span></span>
