@@ -1,8 +1,6 @@
 ---
 title: Configurar recursos, hojas de horas y proyectos | Documentos de Microsoft
 description: Describe cómo configurar recursos, hojas de horas y proyectos para administrar proyectos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,31 +8,34 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6089fa6ceb5198d280fa0c2240967c5728a2a3a9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: dd297498918630e604a3e9f179c1f7f2a7c2df40
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "814977"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937615"
 ---
-# <a name="setting-up-project-management"></a><span data-ttu-id="a2e25-103">Configurar la administración de proyectos</span><span class="sxs-lookup"><span data-stu-id="a2e25-103">Setting Up Project Management</span></span>
-<span data-ttu-id="a2e25-104">Antes de poder usar [!INCLUDE[d365fin](includes/d365fin_md.md)] para administrar proyectos, debe configurar los recursos, las hojas de horas y los proyectos.</span><span class="sxs-lookup"><span data-stu-id="a2e25-104">Before you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] to manage projects, you must set up resources, time sheets, and jobs.</span></span>
+# <a name="setting-up-project-management"></a><span data-ttu-id="14a75-103">Configurar la administración de proyectos</span><span class="sxs-lookup"><span data-stu-id="14a75-103">Setting Up Project Management</span></span>
+<span data-ttu-id="14a75-104">Antes de poder usar [!INCLUDE[d365fin](includes/d365fin_md.md)] para administrar proyectos, debe configurar los recursos, las hojas de horas y los proyectos.</span><span class="sxs-lookup"><span data-stu-id="14a75-104">Before you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] to manage projects, you must set up resources, time sheets, and jobs.</span></span>
 
-<span data-ttu-id="a2e25-105">A continuación, puede crear proyectos y programar recursos para los proyectos, así como administrar presupuestos y realizar el seguimiento de las horas de máquinas y de empleados con las hojas de horas.</span><span class="sxs-lookup"><span data-stu-id="a2e25-105">Then you can create jobs and schedule resources for projects as well as manage budgets and track machine and employee hours with time sheets.</span></span> <span data-ttu-id="a2e25-106">Para obtener más información, vea [Administración de proyectos](projects-manage-projects.md).</span><span class="sxs-lookup"><span data-stu-id="a2e25-106">For more information, see [Managing Projects](projects-manage-projects.md).</span></span>  
+<span data-ttu-id="14a75-105">A continuación, puede crear proyectos y programar recursos para los proyectos, así como administrar presupuestos y realizar el seguimiento de las horas de máquinas y de empleados con las hojas de horas.</span><span class="sxs-lookup"><span data-stu-id="14a75-105">Then you can create jobs and schedule resources for projects as well as manage budgets and track machine and employee hours with time sheets.</span></span> <span data-ttu-id="14a75-106">Para obtener más información, vea [Administración de proyectos](projects-manage-projects.md).</span><span class="sxs-lookup"><span data-stu-id="14a75-106">For more information, see [Managing Projects](projects-manage-projects.md).</span></span>  
 
-<span data-ttu-id="a2e25-107">En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas que las describen.</span><span class="sxs-lookup"><span data-stu-id="a2e25-107">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+<span data-ttu-id="14a75-107">En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.</span><span class="sxs-lookup"><span data-stu-id="14a75-107">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
 
-| <span data-ttu-id="a2e25-108">Para</span><span class="sxs-lookup"><span data-stu-id="a2e25-108">To</span></span> | <span data-ttu-id="a2e25-109">Vea</span><span class="sxs-lookup"><span data-stu-id="a2e25-109">See</span></span> |
+| <span data-ttu-id="14a75-108">Para</span><span class="sxs-lookup"><span data-stu-id="14a75-108">To</span></span> | <span data-ttu-id="14a75-109">Vea</span><span class="sxs-lookup"><span data-stu-id="14a75-109">See</span></span> |
 | --- | --- |
-| <span data-ttu-id="a2e25-110">Configure los recursos y los costes y precios relacionados para recursos individuales, grupos de recursos o todos los recursos disponibles de la empresa.</span><span class="sxs-lookup"><span data-stu-id="a2e25-110">Set up your resources and the related costs and prices, either for individual resources, resource groups, or for all available resources of the company.</span></span> |[<span data-ttu-id="a2e25-111">Configurar recursos</span><span class="sxs-lookup"><span data-stu-id="a2e25-111">Set Up Resources</span></span>](projects-how-setup-resources.md) |
-| <span data-ttu-id="a2e25-112">Habilitar los recursos para notificar el uso del tiempo de un individuo o una máquina, y habilitar que un administrador pueda revisar el uso y su asignación.</span><span class="sxs-lookup"><span data-stu-id="a2e25-112">Enable resources to report time usage for an individual or a machine and enable a manager to review the usage and its allocation.</span></span> |[<span data-ttu-id="a2e25-113">Configuración de hojas de horas</span><span class="sxs-lookup"><span data-stu-id="a2e25-113">Set Up Time Sheets</span></span>](projects-how-setup-time-sheets.md) |
-| <span data-ttu-id="a2e25-114">Crear fichas de proyecto y preparar tareas de proyecto.</span><span class="sxs-lookup"><span data-stu-id="a2e25-114">Create job cards and prepare job tasks.</span></span> <span data-ttu-id="a2e25-115">Configurar precios de los productos y los recursos de proyecto y definir los grupos contables de proyectos.</span><span class="sxs-lookup"><span data-stu-id="a2e25-115">Set up prices for job items and job resources and define job posting groups.</span></span> |[<span data-ttu-id="a2e25-116">Configurar proyectos</span><span class="sxs-lookup"><span data-stu-id="a2e25-116">Set Up Jobs</span></span>](projects-how-setup-jobs.md) |
+| <span data-ttu-id="14a75-110">Configurar la administración de proyectos.</span><span class="sxs-lookup"><span data-stu-id="14a75-110">Set up project management.</span></span>|[<span data-ttu-id="14a75-111">Configurar la información general de los proyectos</span><span class="sxs-lookup"><span data-stu-id="14a75-111">Set general information for jobs</span></span>](projects-how-setup-jobs.md#to-set-general-information-for-jobs)|
+| <span data-ttu-id="14a75-112">Configure los recursos y los costos y precios relacionados para recursos individuales, grupos de recursos o todos los recursos disponibles de la empresa.</span><span class="sxs-lookup"><span data-stu-id="14a75-112">Set up your resources and the related costs and prices, either for individual resources, resource groups, or for all available resources of the company.</span></span> |[<span data-ttu-id="14a75-113">Configurar recursos</span><span class="sxs-lookup"><span data-stu-id="14a75-113">Set Up Resources</span></span>](projects-how-setup-resources.md) |
+| <span data-ttu-id="14a75-114">Habilitar los recursos para notificar el uso del tiempo de un individuo o una máquina, y habilitar que un administrador pueda revisar el uso y su asignación.</span><span class="sxs-lookup"><span data-stu-id="14a75-114">Enable resources to report time usage for an individual or a machine and enable a manager to review the usage and its allocation.</span></span> |[<span data-ttu-id="14a75-115">Configuración de hojas de horas</span><span class="sxs-lookup"><span data-stu-id="14a75-115">Set Up Time Sheets</span></span>](projects-how-setup-time-sheets.md) |
+| <span data-ttu-id="14a75-116">Crear fichas de proyecto y preparar tareas de proyecto.</span><span class="sxs-lookup"><span data-stu-id="14a75-116">Create job cards and prepare job tasks.</span></span> <span data-ttu-id="14a75-117">Configurar precios de los productos y los recursos de proyecto y definir los grupos contables de proyectos.</span><span class="sxs-lookup"><span data-stu-id="14a75-117">Set up prices for job items and job resources and define job posting groups.</span></span> |[<span data-ttu-id="14a75-118">Configurar proyectos</span><span class="sxs-lookup"><span data-stu-id="14a75-118">Set Up Jobs</span></span>](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a><span data-ttu-id="a2e25-117">Consulte también</span><span class="sxs-lookup"><span data-stu-id="a2e25-117">See Also</span></span>
-[<span data-ttu-id="a2e25-118">Administrar proyectos</span><span class="sxs-lookup"><span data-stu-id="a2e25-118">Managing Projects</span></span>](projects-manage-projects.md)  
-[<span data-ttu-id="a2e25-119">Finanzas</span><span class="sxs-lookup"><span data-stu-id="a2e25-119">Finance</span></span>](finance.md)  
-<span data-ttu-id="a2e25-120">[Compras](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="a2e25-120">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
-<span data-ttu-id="a2e25-121">[Ccial](sales-manage-sales.md)   </span><span class="sxs-lookup"><span data-stu-id="a2e25-121">[Sales](sales-manage-sales.md)   </span></span>  
-<span data-ttu-id="a2e25-122">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a2e25-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="14a75-119">Consulte también</span><span class="sxs-lookup"><span data-stu-id="14a75-119">See Also</span></span>
+
+[<span data-ttu-id="14a75-120">Administrar proyectos</span><span class="sxs-lookup"><span data-stu-id="14a75-120">Managing Projects</span></span>](projects-manage-projects.md)  
+[<span data-ttu-id="14a75-121">Vídeo: Cómo crear un proyecto en Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="14a75-121">Video: How to create a job in Dynamics 365 Business Central</span></span>](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
+[<span data-ttu-id="14a75-122">Finanzas</span><span class="sxs-lookup"><span data-stu-id="14a75-122">Finance</span></span>](finance.md)  
+[<span data-ttu-id="14a75-123">Compras</span><span class="sxs-lookup"><span data-stu-id="14a75-123">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="14a75-124">Ccial</span><span class="sxs-lookup"><span data-stu-id="14a75-124">Sales</span></span>](sales-manage-sales.md)  
+<span data-ttu-id="14a75-125">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="14a75-125">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
