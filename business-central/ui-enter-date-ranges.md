@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 54466c381bbeb3653a239920c00dd6f45536d9e3
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c7e80edfd796056176d37ad12a56c76e64bb44e6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "814869"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932989"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Trabajar con fechas y horas del calendario
 
@@ -129,7 +129,7 @@ En listas, totales e informes, puede establecer filtros en fechas, horas y fecha
 |**Significado**|**Expresión de muestra (Fecha)**|**Datos que se incluyen en el filtro**|
 |-----------|---------------------|--------------------|
 |Intervalo|`12 15 00..01 15 01`<br /><br />`..12 15 00`<br /><br />`p1..p4`|Registros con fechas entre el 15 12 00 y el 15 01 01 inclusive.<br /><br />Registros con fechas de 12 15 00 o anteriores.<br /><br />Intervalo de fechas que incluye los períodos contables segundo, tercero y cuarto, por ejemplo, `01/01/20..04/30/20`.|
-|O/o|`12 15 00|12 16 00`|Registros con datos de 12 15 00 o 12 16 00. Si hay registros con fechas en ambos días, se mostrarán todos.|
+|O|`12 15 00|12 16 00`|Registros con datos de 12 15 00 o 12 16 00. Si hay registros con fechas en ambos días, se mostrarán todos.|
 |Combinación|`12 15 00|12 01 00..12 10 00`  \n`..12 14 00|12 30 00..`|Registros con fechas de 15 12 00 o en fechas entre el 01 12 00 y el 10 12 00, inclusive.  \nRegistros con fechas de 12 14 00 o anteriores, o fechas de 12 30 00 o posteriores, es decir, todos los registros excepto aquellos con fechas comprendidas entre 12 15 00 y 12 29 00 inclusive.|
 
 Puede utilizar cualquiera de los formatos válidos en los filtros de rango de fechas. Por ejemplo, `mon14 3..t 4p` aplicado en un campo de fecha y hora da como resultado un filtro desde las 3 a.m. del lunes en la semana 14 del año actual de la fecha de trabajo, inclusive, hasta hoy a las 4 p.m., inclusive.

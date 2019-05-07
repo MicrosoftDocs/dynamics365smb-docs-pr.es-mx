@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 88e715ddd2c60c3eb780ffe71d80676fdea00209
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c1f8f0bf70a72944d216f2b948224cd9f706bdff
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815241"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934246"
 ---
 # <a name="update-standard-costs"></a>Actualizar costos estándar
 Debe actualizar periódicamente los costos estándar de los componentes y distribuir los nuevos costos al producto principal. El proceso normalmente consiste en los cuatro pasos siguientes:  
@@ -44,6 +44,6 @@ Para obtener más información, consulte [Acerca de Calcular el costo estándar]
 
 ## <a name="see-also"></a>Consulte también  
  [Acerca del cálculo de costo estándar](finance-about-calculating-standard-cost.md)   
- [Administración de costos de inventario](finance-manage-inventory-costs.md)   
+ [Gestión de costos de inventario](finance-manage-inventory-costs.md)   
  [Detalles de diseño: Métodos de coste](design-details-costing-methods.md) [Finanzas](finance.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
