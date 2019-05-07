@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d7eafb21bbcf6c4b446f02b3a33ff6349c2d415d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: bfdfaf123dd9983fa9edb5c848a44dab8d22c384
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "815364"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913590"
 ---
 # <a name="about-cost-accounting"></a>Acerca de la contabilidad de costos
 La contabilidad de costos puede ayudarle a conocer los costos de la dirección de una empresa. La información de contabilidad de costos se ha diseñado para analizar:  
