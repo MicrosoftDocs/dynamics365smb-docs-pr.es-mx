@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bcce868f9d35e4f435b0e31e71ab95e33ee5c747
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a9547df3d0262b6db9ea9421823181cd93feda1a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826855"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918548"
 ---
 # <a name="set-up-unrealized-sales-tax-and-sales-payment-discounts"></a>Configurar descuentos por pago de ventas e impuestos ventas no realizados
 Puede utilizar la página **Configuración de contabilidad** para configurar el impuesto a las ventas. También puede configurar importes máximos de corrección para limitar los importes de corrección de impuestos que se introducen en concepto de ventas y compras. Esto le permite sobrescribir el impuesto calculado cuando existen diferencias de redondeo entre lo calculado en la orden de compra y lo calculado en la factura de compra del proveedor.  

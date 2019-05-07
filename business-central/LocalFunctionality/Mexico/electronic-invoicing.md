@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 66b95121b63f675acd15f7d738021e75fc95f233
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1dae5a43ebf4bf90143a9741a86a827ac5547305
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826871"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916465"
 ---
 # <a name="electronic-invoicing"></a>Factura electrónica
 Las empresas mexicanas deben tener la posibilidad de enviar facturas de forma electrónica como archivos de Comprobante Fiscal Digital por Internet (CFDI). [!INCLUDE[d365fin](../../includes/d365fin_md.md)] admite CFDI para que pueda exportar facturas de ventas y servicios, así como notas de crédito con formato de documentos electrónicos que cuenten con la firma digital requerida.  

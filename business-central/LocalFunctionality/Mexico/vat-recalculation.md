@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 65209e0955a24e3dddc27f138e9544cd60d1bc79
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1403774d71608878c0b427fb94dbb0a1a9001037
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826880"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912552"
 ---
 # <a name="vat-recalculation"></a>Nuevo cálculo de IVA
 Cuando un cliente efectúa un pago en divisa extranjera, se debe volver a calcular el IVA con el tipo de cambio vigente al momento del pago de la factura.  
