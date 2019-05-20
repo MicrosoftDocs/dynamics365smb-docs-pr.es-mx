@@ -12,11 +12,11 @@ ms.search.keywords: BI, add-in, insight, headline, data
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 3848005cc0159a52143903362a8f9b5e0efadfa9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930978"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250008"
 ---
 # <a name="the-essential-business-insights-extension"></a>La extensión Información de la empresa esencial
 La extensión Información comercial esencial encuentra hechos comerciales interesantes en los datos de su empresa y los muestra como titulares de periódicos en las Áreas de tareas. En función de lo que encuentre la extensión en los datos, la información será de la última semana, mes o tres meses desde la fecha actual. La información se actualiza cada 10 minutos.  

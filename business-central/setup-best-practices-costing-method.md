@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 8f670b125532300af169cc82f318abddd768e417
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931085"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250491"
 ---
 # <a name="setup-best-practices-costing-method"></a>Procedimientos recomendados de configuración: valuación de inventarios
 La opción **Valoración existencias** en la ficha de producto define cómo se registra el flujo de costo del producto y si un el valor real o presupuestado se capitaliza y utiliza en el cálculo del costo.  
