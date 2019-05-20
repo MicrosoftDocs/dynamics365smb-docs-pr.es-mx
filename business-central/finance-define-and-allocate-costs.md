@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 79e925efff4b8ce7b779e46fe40e1dfa225716a9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941760"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239808"
 ---
 # <a name="defining-and-allocating-costs"></a>Definición y asignación de costos
 Las asignaciones de costos mueven los costos e ingresos entre tipos de costo, centros de costo y objetos de costo. Puede definir tantas asignaciones como necesite. Cada asignación consta de:  

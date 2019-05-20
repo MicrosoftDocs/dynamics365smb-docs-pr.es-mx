@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 75bd53acf885a79c1d3ea236240e2e7f2ca66829
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916693"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238796"
 ---
 # <a name="accounting-for-costs"></a>Contabilidad para costos
 La contabilidad de costos se utiliza para ayudarle a conocer los costos de la dirección de una empresa. Para iniciarse en la contabilidad de costos, vea los temas siguientes.  

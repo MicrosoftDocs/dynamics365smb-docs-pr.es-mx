@@ -1,5 +1,5 @@
 ---
-title: Configuración de una empresa con RapidStart Services | Documentos de Microsoft
+title: Configurar una empresa con RapidStart Services | Documentos de Microsoft
 description: Puede configurar una nueva empresa en Business Central con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas.
 services: project-madeira
 documentationcenter: ''
@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 04d665ac1cfcf66c2581d97bac05d636114a5ef4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914797"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244335"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Configurar una empresa con RapidStart Services
 Puede configurar una nueva empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas.  
@@ -46,9 +46,9 @@ Puede utilizar los componentes siguientes para agilizar la configuración de su 
 |Configure registros de datos maestros básicos mediante plantillas para prepararse para migrar los datos existentes de clientes.|[Preparar migración de datos de cliente](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Defina las tablas y campos, valide los datos existentes de clientes y migre los datos en la base de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Migrar datos del cliente](admin-migrate-customer-data.md)|
 |Prepárese para reutilizar las configuraciones de la empresa en otras empresas.|[Crear paquetes de configuración de empresa personalizados](admin-how-to-create-custom-company-configuration-packages.md)|
-|Busque soluciones para problemas conocidos en el kit de herramientas de RapidStart Services.|[Sugerencias y trucos: servicios de RapidStart](admin-tips-and-tricks-rapidstart-services.md)|  
+|Busque soluciones para problemas conocidos en el kit de herramientas de RapidStart Services.|[Sugerencias y trucos: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Consulte también  
 [Administración](admin-setup-and-administration.md)  
-[Equipar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)   

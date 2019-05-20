@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: cb25c0266fe77454b20b471691e4d930110ac09a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912084"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245177"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Usar el Área de tareas del implementador de RapidStart Services
 Cuando utiliza RapidStart Services, le recomendamos que utilice el Área de tareas del implementador de RapidStart Services ya que proporciona el contexto correcto para su trabajo de configuración. Para obtener más información, vea [Para cambiar el área de tareas](ui-change-basic-settings.md#to-change-role-center).
@@ -32,10 +32,10 @@ De forma predeterminada, cuando agrega una tabla a la hoja de trabajo de configu
 3.  Seleccione una tabla y, en el campo **Estado**, elija el estado correspondiente.  
 4.  Elija el botón **Aceptar**.  
 
-Cuando regresa al Área de tareas, los iconos del apartado **Actividades** se actualizan para reflejar los cambios.  
+Cuando se vuelve al área de tareas, los mosaicos del apartado **Actividades** se actualizan para reflejar los cambios.  
 
 ## <a name="to-track-the-status-of-a-configuration-project"></a>Procedimiento para realizar un seguimiento del el estado de un proyecto de configuración  
-- Abra el Área de tareas de RapidStart Services.  
+- Abra el área de tareas de RapidStart Services.  
 
 En el apartado **Áreas de configuración**, se muestran las estadísticas de finalización para las áreas y los grupos que estableció. Si no configuró ningún grupo o área, este apartado no contiene datos.  
 

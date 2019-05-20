@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: eb51c0dc6f4b50efde7162487e1c888efdb41ab4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918623"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241726"
 ---
 # <a name="print-troubleshooting-reports"></a>Imprimir informes de solución de problemas
 Los siguientes informes sobre solución de problemas están disponibles para asistir a los Microsoft Certified Partners:  

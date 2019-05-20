@@ -4,22 +4,22 @@ description: Cuando configura empresas con RapidStart Services, hay algunas suge
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 03/05/2018
 ms.author: sgroespe
 ms.openlocfilehash: 6a10ab0d2e4658eba4824e44527d45cbf0f33dd8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936923"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243491"
 ---
-# <a name="tips-and-tricks-rapidstart-services"></a>Sugerencias y trucos: servicios de RapidStart
+# <a name="tips-and-tricks-rapidstart-services"></a>Sugerencias y trucos: RapidStart Services
 Cuando configura empresas con RapidStart Services, hay algunas sugerencias y trucos que puede aprovechar para facilitar la implementación.  
 
 ## <a name="take-advantage-of-configuration-templates"></a>Aprovechar las plantillas de configuración  
@@ -37,7 +37,7 @@ Se recomienda migrar los saldos iniciales en el orden siguiente.
 1.  Migre los saldos iniciales de contabilidad sin usar los sublibros de la cuenta de contabilidad. Use cuentas de compensación de saldos iniciales específicas, una para cada sublibro. Configure las cuentas de compensación para habilitar los registros directos.  
 2.  Migre los movimientos de cliente abiertos.  
 3.  Migre los movimientos de producto abiertos.  
-4.  Migre los movimientos de activos abiertos.  
+4.  Migre los movimientos de activos fijos abiertos.  
 
 ## <a name="see-also"></a>Consulte también  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  

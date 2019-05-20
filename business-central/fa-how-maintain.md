@@ -13,11 +13,11 @@ ms.search.keywords: repair, service
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: b7116d54844aeeaf1289efb4401ab5556d3f03ec
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931042"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240826"
 ---
 # <a name="maintain-fixed-assets"></a>Mantener activos fijos
 Los gastos de mantenimiento son costos periódicos habituales necesarios para mantener el valor de los activos fijos. A diferencia de los incrementos de capital, éstos no aumentan el valor.
