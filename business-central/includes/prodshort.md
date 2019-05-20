@@ -1,1 +1,1 @@
-<span data-ttu-id="1bcf8-101">Business Central</span><span class="sxs-lookup"><span data-stu-id="1bcf8-101">Business Central</span></span>
+<span data-ttu-id="b1dfd-101">Business Central</span><span class="sxs-lookup"><span data-stu-id="b1dfd-101">Business Central</span></span>

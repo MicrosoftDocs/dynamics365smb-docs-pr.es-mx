@@ -1,1 +1,1 @@
-<span data-ttu-id="b2915-101">Microsoft Dynamics NAV Server</span><span class="sxs-lookup"><span data-stu-id="b2915-101">Microsoft Dynamics NAV Server</span></span>
+<span data-ttu-id="8d917-101">Microsoft Dynamics NAV Server</span><span class="sxs-lookup"><span data-stu-id="8d917-101">Microsoft Dynamics NAV Server</span></span>
