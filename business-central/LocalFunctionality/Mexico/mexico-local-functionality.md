@@ -8,11 +8,11 @@ ms.search.keywords: ''
 ms.date: 04/09/2019
 ms.author: sgroespe
 ms.openlocfilehash: 40957dc650c29ab884890ff2d8f516df39ccb8e5
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "990172"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246278"
 ---
 # <a name="mexico-local-functionality"></a>Funcionalidad local de México
 En los temas siguientes se describe la funcionalidad local que es exclusiva de la versión mexicana de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
