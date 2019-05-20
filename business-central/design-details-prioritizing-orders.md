@@ -4,59 +4,58 @@ description: Leer información sobre cómo dar prioridad para satisfacer los req
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, priority, prioritize, order, sku, demand, supply
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
-redirect_url: design-details-balancing-demand-and-supply
 ms.openlocfilehash: 06eb5221369d8777330ae844adfb5d87658d591d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924221"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238635"
 ---
-# <a name="design-details-prioritizing-orders"></a><span data-ttu-id="57437-103">Detalles de diseño: Prioridad de pedidos</span><span class="sxs-lookup"><span data-stu-id="57437-103">Design Details: Prioritizing Orders</span></span>
-<span data-ttu-id="57437-104">En una UA concreta, la fecha solicitada o disponible representa la máxima prioridad; la demanda de hoy se debe tratar antes que la de la semana que viene.</span><span class="sxs-lookup"><span data-stu-id="57437-104">Within a given SKU, the requested or available date represents the highest priority; the demand of today should be dealt with before the demand of next week.</span></span> <span data-ttu-id="57437-105">Pero además de esta prioridad general, el sistema de planificación sugerirá también el tipo de demanda que debe ser satisfecho antes de cubrir otra demanda.</span><span class="sxs-lookup"><span data-stu-id="57437-105">But in addition to this overall priority, the planning system will also suggest which type of demand should be fulfilled before fulfilling another demand.</span></span> <span data-ttu-id="57437-106">Del mismo modo, sugerirá el origen de suministro que se debe aplicar antes de aplicar otros orígenes de suministro.</span><span class="sxs-lookup"><span data-stu-id="57437-106">Likewise, it will suggest what source of supply should be applied before applying other sources of supply.</span></span> <span data-ttu-id="57437-107">Esto se realice según las prioridades de pedido.</span><span class="sxs-lookup"><span data-stu-id="57437-107">This is done according to order priorities.</span></span>  
-
-<span data-ttu-id="57437-108">La demanda y el suministro cargados contribuyen a un perfil del inventario proyectado según las prioridades siguientes:</span><span class="sxs-lookup"><span data-stu-id="57437-108">Loaded demand and supply contribute to a profile for the projected inventory according to the following priorities:</span></span>  
-
-## <a name="priorities-on-the-demand-side"></a><span data-ttu-id="57437-109">Prioridades en la demanda</span><span class="sxs-lookup"><span data-stu-id="57437-109">Priorities on the Demand Side</span></span>  
-1. <span data-ttu-id="57437-110">Ya enviado: movimiento de producto</span><span class="sxs-lookup"><span data-stu-id="57437-110">Already shipped: Item Ledger Entry</span></span>  
-2. <span data-ttu-id="57437-111">Pedido devolución compra</span><span class="sxs-lookup"><span data-stu-id="57437-111">Purchase Return Order</span></span>  
-3. <span data-ttu-id="57437-112">Pedido venta</span><span class="sxs-lookup"><span data-stu-id="57437-112">Sales Order</span></span>  
-4. <span data-ttu-id="57437-113">Pedido servicio</span><span class="sxs-lookup"><span data-stu-id="57437-113">Service Order</span></span>  
-5. <span data-ttu-id="57437-114">Necesidad de componentes de producción</span><span class="sxs-lookup"><span data-stu-id="57437-114">Production Component Need</span></span>  
-6. <span data-ttu-id="57437-115">Línea de pedido ensamblado</span><span class="sxs-lookup"><span data-stu-id="57437-115">Assembly Order Line</span></span>  
-7. <span data-ttu-id="57437-116">Pedido de transferencia de salida</span><span class="sxs-lookup"><span data-stu-id="57437-116">Outbound Transfer Order</span></span>  
-8. <span data-ttu-id="57437-117">Pedido abierto (que no ha sido consumido todavía por los pedidos de venta relacionados)</span><span class="sxs-lookup"><span data-stu-id="57437-117">Blanket Order (that has not already been consumed by related sales orders)</span></span>  
-9. <span data-ttu-id="57437-118">Previsión (que no han consumido aún otros pedidos de venta)</span><span class="sxs-lookup"><span data-stu-id="57437-118">Forecast (that has not already been consumed by other sales orders)</span></span>  
-
+# <a name="design-details-prioritizing-orders"></a><span data-ttu-id="f65eb-103">Detalles de diseño: Prioridad de pedidos</span><span class="sxs-lookup"><span data-stu-id="f65eb-103">Design Details: Prioritizing Orders</span></span>
+<span data-ttu-id="f65eb-104">En una UA concreta, la fecha solicitada o disponible representa la máxima prioridad; la demanda de hoy se debe tratar antes que la de la semana que viene.</span><span class="sxs-lookup"><span data-stu-id="f65eb-104">Within a given SKU, the requested or available date represents the highest priority; the demand of today should be dealt with before the demand of next week.</span></span> <span data-ttu-id="f65eb-105">Pero además de esta prioridad general, el sistema de planificación sugerirá también el tipo de demanda que debe ser satisfecho antes de cubrir otra demanda.</span><span class="sxs-lookup"><span data-stu-id="f65eb-105">But in addition to this overall priority, the planning system will also suggest which type of demand should be fulfilled before fulfilling another demand.</span></span> <span data-ttu-id="f65eb-106">Del mismo modo, sugerirá el origen de suministro que se debe aplicar antes de aplicar otros orígenes de suministro.</span><span class="sxs-lookup"><span data-stu-id="f65eb-106">Likewise, it will suggest what source of supply should be applied before applying other sources of supply.</span></span> <span data-ttu-id="f65eb-107">Esto se realice según las prioridades de pedido.</span><span class="sxs-lookup"><span data-stu-id="f65eb-107">This is done according to order priorities.</span></span>  
+  
+<span data-ttu-id="f65eb-108">La demanda y el suministro cargados contribuyen a un perfil del inventario proyectado según las prioridades siguientes:</span><span class="sxs-lookup"><span data-stu-id="f65eb-108">Loaded demand and supply contribute to a profile for the projected inventory according to the following priorities:</span></span>  
+  
+## <a name="priorities-on-the-demand-side"></a><span data-ttu-id="f65eb-109">Prioridades en la demanda</span><span class="sxs-lookup"><span data-stu-id="f65eb-109">Priorities on the Demand Side</span></span>  
+1. <span data-ttu-id="f65eb-110">Ya enviado: movimiento de producto</span><span class="sxs-lookup"><span data-stu-id="f65eb-110">Already shipped: Item Ledger Entry</span></span>  
+2. <span data-ttu-id="f65eb-111">Pedido devolución compra</span><span class="sxs-lookup"><span data-stu-id="f65eb-111">Purchase Return Order</span></span>  
+3. <span data-ttu-id="f65eb-112">Pedido venta</span><span class="sxs-lookup"><span data-stu-id="f65eb-112">Sales Order</span></span>  
+4. <span data-ttu-id="f65eb-113">Pedido servicio</span><span class="sxs-lookup"><span data-stu-id="f65eb-113">Service Order</span></span>  
+5. <span data-ttu-id="f65eb-114">Necesidad de componentes de producción</span><span class="sxs-lookup"><span data-stu-id="f65eb-114">Production Component Need</span></span>  
+6. <span data-ttu-id="f65eb-115">Línea de pedido ensamblado</span><span class="sxs-lookup"><span data-stu-id="f65eb-115">Assembly Order Line</span></span>  
+7. <span data-ttu-id="f65eb-116">Pedido de transferencia de salida</span><span class="sxs-lookup"><span data-stu-id="f65eb-116">Outbound Transfer Order</span></span>  
+8. <span data-ttu-id="f65eb-117">Pedido abierto (que no ha sido consumido todavía por los pedidos de venta relacionados)</span><span class="sxs-lookup"><span data-stu-id="f65eb-117">Blanket Order (that has not already been consumed by related sales orders)</span></span>  
+9. <span data-ttu-id="f65eb-118">Previsión (que no han consumido aún otros pedidos de venta)</span><span class="sxs-lookup"><span data-stu-id="f65eb-118">Forecast (that has not already been consumed by other sales orders)</span></span>  
+  
 > [!NOTE]  
->  <span data-ttu-id="57437-119">Las devoluciones de compras normalmente no intervienen en la planificación de suministros; siempre se deben reservar del lote que se va a devolver.</span><span class="sxs-lookup"><span data-stu-id="57437-119">Purchase returns are usually not involved in supply planning; they should always be reserved from the lot that is going to be returned.</span></span> <span data-ttu-id="57437-120">Si no reserva, las devoluciones de compra desempeñan una función en la disponibilidad y se les da una elevada prioridad para evitar que el sistema de planificación sugiera un pedido de aprovisionamiento solo para servir a una devolución de compra.</span><span class="sxs-lookup"><span data-stu-id="57437-120">If not reserved, purchase returns play a role in the availability and are highly prioritized to avoid that the planning system suggests a supply order just to serve a purchase return.</span></span>  
-
-## <a name="priorities-on-the-supply-side"></a><span data-ttu-id="57437-121">Prioridades en el suministro</span><span class="sxs-lookup"><span data-stu-id="57437-121">Priorities on the Supply Side</span></span>  
-1. <span data-ttu-id="57437-122">Ya en el inventario: movimiento de producto (flexibilidad de planificación = ninguna)</span><span class="sxs-lookup"><span data-stu-id="57437-122">Already in inventory: Item Ledger Entry (Planning Flexibility = None)</span></span>  
-2. <span data-ttu-id="57437-123">Pedido de devolución de venta (flexibilidad de planificación = ninguna)</span><span class="sxs-lookup"><span data-stu-id="57437-123">Sales Return Order (Planning Flexibility = None)</span></span>  
-3. <span data-ttu-id="57437-124">Pedido de transferencia de entrada</span><span class="sxs-lookup"><span data-stu-id="57437-124">Inbound Transfer Order</span></span>  
-4. <span data-ttu-id="57437-125">Orden de producción</span><span class="sxs-lookup"><span data-stu-id="57437-125">Production Order</span></span>  
-5. <span data-ttu-id="57437-126">Pedido de ensamblado</span><span class="sxs-lookup"><span data-stu-id="57437-126">Assembly Order</span></span>  
-6. <span data-ttu-id="57437-127">Pedido compra</span><span class="sxs-lookup"><span data-stu-id="57437-127">Purchase Order</span></span>  
-
-## <a name="priority-related-to-the-state-of-demand-and-supply"></a><span data-ttu-id="57437-128">Prioridad relacionada con el estado de la demanda y del suministro</span><span class="sxs-lookup"><span data-stu-id="57437-128">Priority Related to the State of Demand and Supply</span></span>  
-<span data-ttu-id="57437-129">Aparte de las prioridades dadas por el tipo de demanda y aprovisionamiento, el estado actual de los pedidos en el proceso de ejecución también define una prioridad.</span><span class="sxs-lookup"><span data-stu-id="57437-129">Apart from priorities given by the type of demand and supply, the present state of the orders in the execution process also defines a priority.</span></span> <span data-ttu-id="57437-130">Por ejemplo, las actividades de almacén repercuten y se tiene en cuenta el estado de los pedidos de ventas, compra, transferencia, ensamblado y órdenes de producción.</span><span class="sxs-lookup"><span data-stu-id="57437-130">For example, warehouse activities have an impact, and the status of sales, purchase, transfer, assembly, and production orders is taken into account:</span></span>  
-
-1. <span data-ttu-id="57437-131">Parcialmente controlado (flexibilidad de planificación = ninguna)</span><span class="sxs-lookup"><span data-stu-id="57437-131">Partly handled (Planning Flexibility = None)</span></span>  
-2. <span data-ttu-id="57437-132">Ya en proceso en el almacén (flexibilidad de planificación = ninguna)</span><span class="sxs-lookup"><span data-stu-id="57437-132">Already in process in the warehouse (Planning Flexibility = None)</span></span>  
-3. <span data-ttu-id="57437-133">Lanzados: todos los tipos de pedido (flexibilidad de planificación = ilimitada)</span><span class="sxs-lookup"><span data-stu-id="57437-133">Released – all order types (Planning Flexibility = Unlimited)</span></span>  
-4. <span data-ttu-id="57437-134">Orden de producción planificada en firme (flexibilidad de planificación = ilimitada)</span><span class="sxs-lookup"><span data-stu-id="57437-134">Firm Planned Production Order (Planning Flexibility = Unlimited)</span></span>  
-5. <span data-ttu-id="57437-135">Planificado/Abierto: todos los tipos de pedido (flexibilidad de planificación = ilimitada)</span><span class="sxs-lookup"><span data-stu-id="57437-135">Planned/Open – all order types (Planning Flexibility = Unlimited)</span></span>  
-
-## <a name="see-also"></a><span data-ttu-id="57437-136">Consulte también</span><span class="sxs-lookup"><span data-stu-id="57437-136">See Also</span></span>  
-<span data-ttu-id="57437-137">[Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md) </span><span class="sxs-lookup"><span data-stu-id="57437-137">[Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md) </span></span>  
-<span data-ttu-id="57437-138">[Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md) </span><span class="sxs-lookup"><span data-stu-id="57437-138">[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md) </span></span>  
-[<span data-ttu-id="57437-139">Detalles de diseño: Planificación de aprovisionamiento</span><span class="sxs-lookup"><span data-stu-id="57437-139">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
+>  <span data-ttu-id="f65eb-119">Las devoluciones de compras normalmente no intervienen en la planificación de suministros; siempre se deben reservar del lote que se va a devolver.</span><span class="sxs-lookup"><span data-stu-id="f65eb-119">Purchase returns are usually not involved in supply planning; they should always be reserved from the lot that is going to be returned.</span></span> <span data-ttu-id="f65eb-120">Si no reserva, las devoluciones de compra desempeñan una función en la disponibilidad y se les da una elevada prioridad para evitar que el sistema de planificación sugiera un pedido de aprovisionamiento solo para servir a una devolución de compra.</span><span class="sxs-lookup"><span data-stu-id="f65eb-120">If not reserved, purchase returns play a role in the availability and are highly prioritized to avoid that the planning system suggests a supply order just to serve a purchase return.</span></span>  
+  
+## <a name="priorities-on-the-supply-side"></a><span data-ttu-id="f65eb-121">Prioridades en el suministro</span><span class="sxs-lookup"><span data-stu-id="f65eb-121">Priorities on the Supply Side</span></span>  
+1. <span data-ttu-id="f65eb-122">Ya en el inventario: movimiento de producto (flexibilidad de planificación = ninguna)</span><span class="sxs-lookup"><span data-stu-id="f65eb-122">Already in inventory: Item Ledger Entry (Planning Flexibility = None)</span></span>  
+2. <span data-ttu-id="f65eb-123">Pedido de devolución de venta (flexibilidad de planificación = ninguna)</span><span class="sxs-lookup"><span data-stu-id="f65eb-123">Sales Return Order (Planning Flexibility = None)</span></span>  
+3. <span data-ttu-id="f65eb-124">Pedido de transferencia de entrada</span><span class="sxs-lookup"><span data-stu-id="f65eb-124">Inbound Transfer Order</span></span>  
+4. <span data-ttu-id="f65eb-125">Orden de producción</span><span class="sxs-lookup"><span data-stu-id="f65eb-125">Production Order</span></span>  
+5. <span data-ttu-id="f65eb-126">Pedido de ensamblado</span><span class="sxs-lookup"><span data-stu-id="f65eb-126">Assembly Order</span></span>  
+6. <span data-ttu-id="f65eb-127">Pedido compra</span><span class="sxs-lookup"><span data-stu-id="f65eb-127">Purchase Order</span></span>  
+  
+## <a name="priority-related-to-the-state-of-demand-and-supply"></a><span data-ttu-id="f65eb-128">Prioridad relacionada con el estado de la demanda y del suministro</span><span class="sxs-lookup"><span data-stu-id="f65eb-128">Priority Related to the State of Demand and Supply</span></span>  
+<span data-ttu-id="f65eb-129">Aparte de las prioridades dadas por el tipo de demanda y aprovisionamiento, el estado actual de los pedidos en el proceso de ejecución también define una prioridad.</span><span class="sxs-lookup"><span data-stu-id="f65eb-129">Apart from priorities given by the type of demand and supply, the present state of the orders in the execution process also defines a priority.</span></span> <span data-ttu-id="f65eb-130">Por ejemplo, las actividades de almacén repercuten y se tiene en cuenta el estado de los pedidos de ventas, compra, transferencia, ensamblado y órdenes de producción.</span><span class="sxs-lookup"><span data-stu-id="f65eb-130">For example, warehouse activities have an impact, and the status of sales, purchase, transfer, assembly, and production orders is taken into account:</span></span>  
+  
+1. <span data-ttu-id="f65eb-131">Parcialmente controlado (flexibilidad de planificación = ninguna)</span><span class="sxs-lookup"><span data-stu-id="f65eb-131">Partly handled (Planning Flexibility = None)</span></span>  
+2. <span data-ttu-id="f65eb-132">Ya en proceso en el almacén (flexibilidad de planificación = ninguna)</span><span class="sxs-lookup"><span data-stu-id="f65eb-132">Already in process in the warehouse (Planning Flexibility = None)</span></span>  
+3. <span data-ttu-id="f65eb-133">Lanzados: todos los tipos de pedido (flexibilidad de planificación = ilimitada)</span><span class="sxs-lookup"><span data-stu-id="f65eb-133">Released – all order types (Planning Flexibility = Unlimited)</span></span>  
+4. <span data-ttu-id="f65eb-134">Orden de producción planificada en firme (flexibilidad de planificación = ilimitada)</span><span class="sxs-lookup"><span data-stu-id="f65eb-134">Firm Planned Production Order (Planning Flexibility = Unlimited)</span></span>  
+5. <span data-ttu-id="f65eb-135">Planificado/Abierto: todos los tipos de pedido (flexibilidad de planificación = ilimitada)</span><span class="sxs-lookup"><span data-stu-id="f65eb-135">Planned/Open – all order types (Planning Flexibility = Unlimited)</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="f65eb-136">Consulte también</span><span class="sxs-lookup"><span data-stu-id="f65eb-136">See Also</span></span>  
+<span data-ttu-id="f65eb-137">[Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md) </span><span class="sxs-lookup"><span data-stu-id="f65eb-137">[Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md) </span></span>  
+<span data-ttu-id="f65eb-138">[Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md) </span><span class="sxs-lookup"><span data-stu-id="f65eb-138">[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md) </span></span>  
+[<span data-ttu-id="f65eb-139">Detalles de diseño: Planificación de aprovisionamiento</span><span class="sxs-lookup"><span data-stu-id="f65eb-139">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
