@@ -10,19 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1175a7fe058de5f8e7876014d8a71227b7cc46d8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 99d3a5b4048756e71711abf9fa24bef12c12d963
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243951"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621079"
 ---
 # <a name="design-details-costing-methods"></a>Detalles de diseño: Métodos de costo
-La valuación de inventarios determina si en el cálculo de costos se capitaliza y utiliza un valor real o uno presupuestado. Junto con la fecha de registro y la secuencia, el método de costo también influye en cómo se registra el flujo de costos. En [!INCLUDE[d365fin](includes/d365fin_md.md)] se admiten las siguientes valoraciones:  
+La valuación de inventarios determina si en el cálculo de costos se capitaliza y utiliza un valor real o uno presupuestado. Junto con la fecha de registro y la secuencia, el método de costo también influye en cómo se registra el flujo de costos.
 
-|Método de costo|Descripción|Cuándo se debe usar|  
+> [!NOTE]
+> No puede modificar la valoración de existencias de un producto si existen movimientos de productos para el producto.<br /><br />
+> Próximamente se publicará aquí información sobre las soluciones para cambiar una valoración de existencias en situaciones especiales.
+
+En [!INCLUDE[d365fin](includes/d365fin_md.md)] se admiten las siguientes valoraciones:  
+
+|Método de coste|Descripción|Cuándo se debe usar|  
 |--------------------|---------------------------------------|-----------------|  
 |FIFO|El costo unitario de un producto es el valor real de cualquier recepción del producto, seleccionado durante la regla de FIFO.<br /><br /> En la valuación de inventarios, se presupone que los primeros productos colocados en el inventario se venden primero.|En entornos empresariales donde el costo de productos es estable.<br /><br /> (Cuando suben los precios, la hoja de balance muestra el valor mayor). Esto significa que las deudas tributarias aumentan, pero las puntuaciones de crédito y capacidad de pedir efectivo prestado mejoran.<br /><br /> En el caso de productos con una vida útil limitada, ya que los productos más antiguos deben venderse antes de que superen su fecha de límite de venta.|  
 |LIFO|El costo unitario de un producto es el valor real de cualquier recepción del producto, seleccionado durante la regla de LIFO.<br /><br /> En la valuación de inventarios, se presupone que los últimos productos colocados en el inventario se venden primero.|No se permite en muchos países o regiones, ya que puede utilizarse para debilitar las ganancias.<br /><br /> (Cuando suben los precios, el valor del balance de ingresos disminuye). Esto significa que las deudas tributarias disminuyen, pero la capacidad de pedir efectivo prestado deteriora.|  

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 30396e25dbf251e674744d1ba797c100b5762a46
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3cc053158581d4fc9b87dc3e505a23ed809c1c8f
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238037"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620872"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Uso de Dynamics 365 for Sales desde Business Central
 Si lo utiliza Dynamics 365 for Sales para la interacción con el cliente, puede disfrutar de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de [!INCLUDE[d365fin](includes/d365fin_md.md)] para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas.
@@ -78,7 +78,11 @@ Las cotizaciones de venta que se activan en [!INCLUDE[crm_md](includes/crm_md.md
 Como alternativa, puede convertir manualmente las cotizaciones de venta activadas desde [!INCLUDE[crm_md](includes/crm_md.md)] utilizando la acción **Procesar en [!INCLUDE[d365fin](includes/d365fin_md.md)]** en la página **Cotizaciones de venta - Dynamics 365 for Sales**.
 En dichas cotizaciones de venta, el campo **Nombre** de la cotización original se transfiere y se asigna al campo **Número de documento externo** del pedido de venta en [!INCLUDE[d365fin](includes/d365fin_md.md)]. También se transfiere el campo **En vigor hasta** de la cotización y se asigna al campo **Cotización válida hasta** en la cotización de venta en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Las cotizaciones de venta pasan por muchas revisiones mientras se están finalizando. El procesamiento manual y automático de las cotizaciones de venta en [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiza que las versiones anteriores de las cotizaciones de venta se archiven antes de procesar nuevas versiones de las cotizaciones de venta desde [!INCLUDE[crm_md](includes/crm_md.md)].  
+Las cotizaciones de venta pasan por muchas revisiones mientras se están finalizando. El procesamiento manual y automático de las cotizaciones de venta en [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiza que las versiones anteriores de las cotizaciones de venta se archiven antes de procesar nuevas revisiones de cotizaciones de venta desde [!INCLUDE[crm_md](includes/crm_md.md)]. 
+
+## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Gestión de histórico de facturas de venta, pagos de cliente y estadísticas
+Después de completar el pedido de venta, se crearán las facturas correspondientes. Cuando se factura un pedido de venta, se puede transferir el histórico de facturas de venta a [!INCLUDE[crm_md](includes/crm_md.md)] si selecciona **Crear factura en [!INCLUDE[crm_md](includes/crm_md.md)]** en la página de histórico de facturas de venta. Las facturas registradas se transfieren a [!INCLUDE[crm_md](includes/crm_md.md)] con el estado **Facturado**. Una vez recibido el pago del cliente para la factura de venta en [!INCLUDE[d365fin](includes/d365fin_md.md)], el estado de la factura de venta cambiará a **Pagado** con el motivo del estado establecido en **Parcial**, si se ha pagado parcialmente, o **Completo**, si se ha pagado completamente, cuando ejecute **Actualizar estadísticas de cuentas** en la página del cliente en [!INCLUDE[d365fin](includes/d365fin_md.md)]. **Actualizar estadísticas de cuenta** también actualizará valores como Saldo y Total ventas en el cuadro informativo de estadísticas de cuentas de [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)].
+Alternativamente, puede hacer que los trabajos programados (Estadísticas de clientes y POSTEDSALESINV-INV) ejecuten automáticamente estos dos procesos en segundo plano. 
 
 ## <a name="see-also"></a>Consulte también
 [Preparación para integrar en Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
