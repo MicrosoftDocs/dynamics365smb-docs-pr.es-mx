@@ -7,19 +7,19 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/09/2019
 ms.author: sgroespe
-ms.openlocfilehash: 40957dc650c29ab884890ff2d8f516df39ccb8e5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: af3a5692130ded0a0306abe85da7808f86a57515
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246278"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594213"
 ---
 # <a name="mexico-local-functionality"></a>Funcionalidad local de México
 En los temas siguientes se describe la funcionalidad local que es exclusiva de la versión mexicana de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Disponibilidad de la característica  
 
-* IVA e impuestos
+* Tributos
     * [Impuesto sobre las ventas en México](mexico-sales-tax.md) **Disponible ahora**
     * [Configurar impuesto sobre servicios e impuesto a las compras](how-to-set-up-use-tax-and-purchase-tax.md) **Disponible ahora**
     * [Configurar el impuesto sobre las ventas no realizado y los descuentos por pago de ventas](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Disponible ahora**
