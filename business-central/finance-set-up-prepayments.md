@@ -5,19 +5,19 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: prepayment
-ms.date: 04/01/2019
+ms.date: 06/24/2019
 ms.author: edupont
-ms.openlocfilehash: e8a6e0834b259358de5c07d3f83a7b5477a0d3a7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 77e53c7492a1c9ab5bd1e4d150b291ebd2b61917
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244710"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701163"
 ---
 # <a name="set-up-prepayments"></a>Configurar anticipos
 Si desea que sus clientes realicen el pago antes de enviarles un pedido o su proveedor le requiere que efectúe el pago antes de enviarle un pedido, puede utilizar la funcionalidad Anticipo. La funcionalidad le permite facturar y cobrar depósitos requeridos de los clientes o remitir depósitos a proveedores y asegurarse de que todos los pagos parciales se contabilicen con una factura. Para obtener más información, consulte [Crear facturas de anticipo](finance-how-to-create-prepayment-invoices.md).
 
-Para poder registrar facturas de anticipo, debe configurar las cuentas auxiliares en la contabilidad y configurar series numéricas para documentos de anticipo.  
+Para poder registrar facturas de anticipo, debe configurar las cuentas auxiliares en la contabilidad y configurar series numéricas para documentos de anticipo. Debe especificar una cuenta para los anticipos relacionados con las ventas y otra cuenta para los anticipos relacionados con las compras. Puede especificar las mismas cuentas auxiliares que se utilizarán para todos los anticipos relacionados con todos los grupos contables empresariales generales o grupos contables de productos generales, o puede especificar cuentas específicas para grupos contables específicos de ventas y compras, respectivamente. Esto depende de los requisitos de su empresa para el seguimiento de los anticipos.  
 
 Puede definir el porcentaje del importe de línea que se va a facturar para el anticipo, para un cliente o proveedor, para todos los productos o para algunos. Una vez que finalice la configuración, puede generar facturas de anticipo a partir de pedidos de compra y venta. Puede usar los porcentajes predeterminados para cada línea de compra o venta o cambiar los importes en la factura según sea necesario. Por ejemplo, puede especificar un importe total para todo el pedido.  
 
@@ -30,10 +30,13 @@ Dado que el importe de anticipo pertenece al comprador hasta que haya recibido l
 1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de registro general** y luego elija el enlace relacionado.
 2. En la página **Configuración grupos contables**, rellene los campos siguientes:  
 
-    - **Cuenta anticipo ventas**  
-    - **Cuenta anticipo compras**  
+    - **Cuenta anticipos ventas**  
+    - **Cuenta anticipos compras**  
 
-Si aún no ha configurado cuentas de contabilidad para anticipos, puede hacerlo en la página **Lista de cuentas**.  
+> [!TIP]
+> Si no puede ver los campos de la página **Configuración grupos contables**, utilice la barra de desplazamiento horizontal situada en la parte inferior de la página para desplazarse hacia la derecha.  
+
+Si todavía no ha configurado cuentas de contabilidad para anticipos, puede abrir la página **Lista de cuentas** desde el campo de cuenta relevante.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Configurar números de serie para documentos de anticipo  
 
@@ -50,7 +53,7 @@ Si aún no ha configurado cuentas de contabilidad para anticipos, puede hacerlo 
     - **Nº nota crédito anticipo registrado**
 
 > [!NOTE]  
->  Puede utilizar la misma numeración de serie para las facturas de anticipo y las facturas normales, o bien utilizar numeraciones de serie distintas. Si utiliza series distintas, éstas no deben solaparse, ya que no debe haber ningún número que se repita en ambas series.  
+> Puede utilizar la misma numeración de serie para las facturas de anticipo y las facturas normales, o bien utilizar numeraciones de serie distintas. Si utiliza series distintas, éstas no deben solaparse, ya que no debe haber ningún número que se repita en ambas series.  
 
 ## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Definir porcentajes de anticipo para productos, clientes y vendedores  
 Puede definir un porcentaje de anticipo predeterminado de un producto para todos los clientes, un cliente determinado o un grupo de precios de cliente.  
@@ -67,7 +70,9 @@ Puede definir un porcentaje de anticipo predeterminado para un cliente o proveed
 4. Repita los pasos para otros clientes o proveedores.  
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Para determinar qué porcentaje de anticipo tiene prioridad  
+
 Un pedido puede tener un porcentaje de anticipo en la cabecera de venta y otro porcentaje distinto para los productos en las líneas. Para determinar qué porcentaje de anticipo se aplica a cada línea de venta, el sistema busca el porcentaje de anticipo en el siguiente pedido y aplicará el primer valor predeterminado que encuentre:  
+
 1. Un porcentaje de anticipo para el producto en la línea y el cliente al que se dirige el pedido.  
 2. Un porcentaje de anticipo para el producto en la línea y el grupo de precios al que pertenece el cliente.  
 3. Un porcentaje de anticipo para el producto en la línea para todos los clientes.  
