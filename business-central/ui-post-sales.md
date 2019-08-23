@@ -1,22 +1,21 @@
 ---
-title: Descripción de cómo registrar documentos de venta | Documentos de Microsoft
-description: Obtenga información sobre las diversas funciones de registro para registrar documentos de venta.
-services: project-madeira
-documentationcenter: ''
-author: SusanneWindfeldPedersen
+title: Registro de documentos de ventas | Documentos de Microsoft
+description: Obtenga información sobre las diferentes funciones de registro para registrar documentos de ventas y cómo puede actualizar los documentos registrados.
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.reviewer: edupont
 ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: d1b2d29c4c5b8397bd6e9e05088e7ea50d68fd20
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.author: sgroespe
+ms.openlocfilehash: 01e831ddddeffe6a64c6de24b4cd8c1b94bad9c3
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247924"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796906"
 ---
 # <a name="posting-sales"></a>Registrar ventas
 En **Grupo contable** en un documento de ventas, puede elegir entre las funciones de registro siguientes:
@@ -40,10 +39,12 @@ Por cada línea de orden de venta, se creará un movimiento de producto en la ta
 > [!IMPORTANT]  
 >   Cuando registre un pedido, puede crear una remisión de venta y una factura. Esto se puede realizar al mismo tiempo o de manera independiente. También puede crear una remisión y una factura parciales completando los campos **Cantidad a enviar** y **Cantidad a facturar** en las líneas individuales de la orden de venta antes de registrar. Tenga en cuenta que no puede crear una factura de algo no se ha enviado. Es decir, antes de poder facturar, tiene que haber registrado una remisión de venta o haber seleccionado, al mismo tiempo, entregar y facturar.
 
-Una vez completado el registro, las líneas de venta registradas se quitan de la orden. Al terminar el registro aparece un mensaje de aviso. Después de esto, podrá ver los movimientos registrados en las diferentes páginas que los contienen, como **Movs. cliente**, **Movs. contabilidad**, **Movs. producto**, **Histórico de remisión de ventas** y **Histórico facturas venta**.
+Una vez completado el registro, las líneas de venta registradas se quitan de la orden. Al terminar el registro aparece un mensaje de aviso. Después de esto, podrá ver los movimientos registrados en las diferentes páginas que los contienen, como **Movs. cliente**, **Movs. contabilidad**, **Movs. producto**, **Histórico remisiones ventas** y **Histórico facturas venta**.  
 
 ## <a name="see-also"></a>Consulte también
-[Ventas](sales-manage-sales.md)  
-[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
+[Ccial](sales-manage-sales.md)  
+[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
+[Corregir o cancelar facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md)  
+[Usar la opción Dígame para encontrar características e información](ui-search.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

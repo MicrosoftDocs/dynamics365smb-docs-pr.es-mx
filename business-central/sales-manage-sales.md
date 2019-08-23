@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/01/2019
+ms.date: 07/30/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6f80d2e1a1a864d5aaff0660d21603f91c5ce229
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c0f2f591bf43113b160bd81cd37b03d6efc8d41e
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251526"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796827"
 ---
 # <a name="sales"></a>Ccial
 Puede crear una factura o una orden de venta para registrar el contrato con un cliente para vender determinados productos según términos de entrega y pago determinados.
@@ -41,7 +41,8 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 |Cree una ficha de cliente para cada cliente al que vende.|[Permite registrar nuevos clientes](sales-how-register-new-customers.md)|
 | Crea una cotización venta donde ofrece los productos según los términos negociables antes de convertir la cotización en una factura de venta. |[Crear cotizaciones de ventas](sales-how-make-offers.md) |
 | Crea una factura de venta para registrar el contrato con un cliente para vender productos según términos de entrega y pago determinados. |[Facturar ventas](sales-how-invoice-sales.md) |
-| Procesar una orden de venta que requiera una remisión parcial o directa. |[Vender productos](sales-how-sell-products.md) |
+| Procesar un pedido de ventas que requiera una remisión parcial o directa. |[Vender productos](sales-how-sell-products.md) |
+|Conozca lo que sucede cuando se registran documentos de ventas.|[Registrar ventas](ui-post-sales.md)|
 |Configurar líneas de ventas o compras estándar que puede insertar rápidamente en documentos, por ejemplo, para las órdenes de reposición periódicas.|[Crear líneas de ventas y de compras periódicas](sales-how-work-standard-lines.md)|  
 | Vincular una orden de venta a una orden de compra para vender un producto de remisión directa que se entregará directamente desde el proveedor al cliente. |[Realizar envíos directos](sales-how-drop-shipment.md) |
 |Crear un producto del catálogo enviado desde un proveedor a su almacén para poder enviar el producto a su cliente.|[Crear pedidos especiales](sales-how-to-create-special-orders.md)|
