@@ -1,1 +1,1 @@
-<span data-ttu-id="1fcc6-101">Las funciones Isabel están disponibles solo para las implementaciones locales.</span><span class="sxs-lookup"><span data-stu-id="1fcc6-101">The Isabel features are available only for on-premises deployments.</span></span>
+<span data-ttu-id="37fa5-101">Las funciones Isabel están disponibles solo para las implementaciones locales.</span><span class="sxs-lookup"><span data-stu-id="37fa5-101">The Isabel features are available only for on-premises deployments.</span></span>
