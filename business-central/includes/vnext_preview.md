@@ -1,1 +1,1 @@
-<span data-ttu-id="ed814-101">Esta característica, o parte de ella, está en vista previa y el contenido está en proceso.</span><span class="sxs-lookup"><span data-stu-id="ed814-101">This feature, or part of the feature, is in preview and the content is work in progress.</span></span>
+<span data-ttu-id="08b4d-101">Esta característica, o parte de ella, está en vista previa y el contenido está en proceso.</span><span class="sxs-lookup"><span data-stu-id="08b4d-101">This feature, or part of the feature, is in preview and the content is work in progress.</span></span>
