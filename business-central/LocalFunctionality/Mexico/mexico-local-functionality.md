@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 04/09/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: af3a5692130ded0a0306abe85da7808f86a57515
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: a2373f536ef0037600a935b2dcb7b5e83c8b6f50
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594213"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301281"
 ---
 # <a name="mexico-local-functionality"></a>Funcionalidad local de México
 En los temas siguientes se describe la funcionalidad local que es exclusiva de la versión mexicana de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0f808cc80309456553d6e90b2c05561448e54272
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ce37b6a4afcb8f23c3199452e1c80a4d60267f2e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241765"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300131"
 ---
 # <a name="set-up-use-tax-and-purchase-tax"></a>Configurar impuesto sobre servicios e impuesto a las compras
 La definición de impuesto de las ventas comprende los impuestos que pagan las empresas por usar productos:  

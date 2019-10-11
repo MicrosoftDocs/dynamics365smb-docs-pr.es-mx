@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: ../../receivables-how-block-customers
-ms.openlocfilehash: 8f051ecfb004a1b0763452e5bea8b34e7e2b6a88
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 29035441f100ba841392157c0ef826df18b936d7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246355"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301290"
 ---
 # <a name="manage-customer-credit-information"></a>Gestionar información crediticia del cliente
 En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede agregar comentarios a la información crediticia de los clientes. También puede retener y bloquear clientes que tengan malos antecedentes crediticios antes de realizar el envío o la facturación.  
