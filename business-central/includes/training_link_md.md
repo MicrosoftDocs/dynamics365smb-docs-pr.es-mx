@@ -1,1 +1,1 @@
-¡Obtener [capacitación!](/dynamics365/get-started/training/)
+¡Obtener [capacitación!](/learn/browse/?products=dynamics-business-central)

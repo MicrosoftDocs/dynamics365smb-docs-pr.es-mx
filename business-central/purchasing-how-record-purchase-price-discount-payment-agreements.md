@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 98618f60b0d6ac60ccb55aae56646a5ab13f4530
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2495292a967d81cd64694d3a238399e964c1d94f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252936"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316727"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrar precios y descuentos de compra especiales
 Es necesario definir los diferentes acuerdos de precios y descuentos que se aplican al comprar a distintos proveedores de modo que se apliquen las reglas y los valores acordados a los documentos de compra que se crean para los proveedores.

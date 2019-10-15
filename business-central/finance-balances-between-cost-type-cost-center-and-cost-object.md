@@ -4,20 +4,21 @@ description: Al configurar la contabilidad de costos, debe asegurarse de que tod
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8b64941b6c17468b598d419053c05e1d32dac7ce
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: finance-set-up-cost-accounting
+ms.openlocfilehash: 7ae54e8a1a011b8e4f1914ef9f15c179794d2675
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239033"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302535"
 ---
 # <a name="balances-between-cost-type-cost-center-and-cost-object"></a>Saldos entre el tipo de costo, centro de costo y objeto de costo
 Al configurar la contabilidad de costos, debe asegurarse de que todos los movimientos están asignados a un tipo de costo así como a un centro o un objeto de costo. Indica que cada movimiento de costo debe tener un tipo de costo asignado y un código de centro de costo o un objeto de costo asignado. Esta norma garantiza que cada movimiento de costo aparezca en los centros de costo u objetos de costo, pero nunca en ambas situaciones.  

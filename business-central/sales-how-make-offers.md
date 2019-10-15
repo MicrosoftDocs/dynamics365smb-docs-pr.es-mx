@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6083e5ff57ebfb57a31d294e5c565b5bc6a3f8c6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2ee57d1faf3603229e9ef9017a47c681bd78336c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252699"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316439"
 ---
 # <a name="make-sales-quotes"></a>Crear cotizaciones de ventas
 Puede crear una cotización venta para registrar la oferta realizada a un cliente para vender determinados productos según ciertos términos de entrega y pago. Puede enviar la cotización venta al cliente para comunicar la oferta. Puede enviar por correo electrónico el documento como un documento PDF anexo. También puede rellenar previamente el cuerpo del correo electrónico con un resumen de la cotización. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
@@ -53,7 +53,7 @@ Puede rellenar los campos de clientes en la cotización de venta de dos formas e
 11. En el campo **Cantidad**, especifique cuántas unidades de producto, cargo o transacción registrará la línea para el cliente.
 
     > [!NOTE]  
-    >   Si el producto es de tipo **Producto - Servicio** o **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.  
+    >  Si el producto es de tipo **Servicio** o el campo **Tipo** contiene **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea. Para obtener más información, vea [Configurar unidades de medida de producto](inventory-how-setup-units-of-measure.md)
 
     El valor del campo **Importe línea** se calculará como *Precio venta* x *Cantidad*.  
 
@@ -69,7 +69,7 @@ Puede rellenar los campos de clientes en la cotización de venta de dos formas e
     Si ha configurado descuentos en factura para el cliente, el valor porcentual especificado se inserta automáticamente en el campo **% descuento en factura** si se cumplen los criterios, y el importe relacionado se inserta en el campo **Descuento en factura excluyendo impuesto** . Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
 
     > [!TIP]
-    > Para que la **Cotización válida hasta fecha** se complete automáticamente con un número determinado de días después de la creación de la cotización, puede completar el campo **Cálculo de validez de la cotización** en la página **Ventas y cobros**. 
+    > Para que la **Cotización válida hasta fecha** se complete automáticamente con un número determinado de días después de la creación de la cotización, puede completar el campo **Cálculo de validez de la cotización** en la página **Ventas y cobros**.
 
 15. Cuando las líneas de la oferta de venta ya estén completas, seleccione la acción **Enviar por correo electrónico**.
 16. En la página **Enviar correo electrónico**, rellene los campos restantes y revise la cotización de venta incluida. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).

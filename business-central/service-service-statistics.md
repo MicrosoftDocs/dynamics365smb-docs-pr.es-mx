@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: b4482727547c80d41f96c31ba3b4a4e0ac7c1682
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 16b3a3be096bc8d5391b7a14b56524191663ff56
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250560"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315887"
 ---
 # <a name="viewing-service-statistics"></a>Visualización de estadísticas de servicio
 Puede utilizar estadísticas para analizar los documentos de servicio y determinar el cómo de bien está gestionando sus procesos de servicio. Puede analizar los contratos de servicio, los productos, las cotizaciones, las órdenes, las facturas y las notas de crédito si elige la acción **Estadísticas**. Para los productos y los contratos de servicios, también puede usar **Análisis prod. servicio** o **Análisis contrato** para ver un resumen de los movimientos de servicio para un producto de servicio determinado.   
