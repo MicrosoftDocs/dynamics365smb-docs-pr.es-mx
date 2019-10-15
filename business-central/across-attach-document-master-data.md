@@ -8,30 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: upload, attach, attachments
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: cfed7b7946aaa24544c6ae47dfc9ebc39c00716d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: ui-how-add-link-to-record
+ms.openlocfilehash: 2b5ed5ade59e2cf3b8832da088d79adfba4ad7fa
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240895"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300698"
 ---
-# <a name="attaching-files-to-cards-and-documents"></a><span data-ttu-id="68006-103">Asociar archivos a fichas y documentos</span><span class="sxs-lookup"><span data-stu-id="68006-103">Attaching Files to Cards and Documents</span></span>
-<span data-ttu-id="68006-104">Puede adjuntar imágenes, documentos y otros tipos de archivos a todas las fichas, como la ficha de producto y la ficha de trabajo, y puede adjuntar archivos a todos los tipos de documentos de compra y venta.</span><span class="sxs-lookup"><span data-stu-id="68006-104">You can attach pictures, documents, and other types of files to all cards, such as the item card and job card, and you can attach files to all types of sales and purchase documents.</span></span>
+# <a name="attaching-files-to-cards-and-documents"></a><span data-ttu-id="ecf9b-103">Asociar archivos a fichas y documentos</span><span class="sxs-lookup"><span data-stu-id="ecf9b-103">Attaching Files to Cards and Documents</span></span>
+<span data-ttu-id="ecf9b-104">Puede adjuntar imágenes, documentos y otros tipos de archivos a todas las fichas, como la ficha de producto y la ficha de trabajo, y puede adjuntar archivos a todos los tipos de documentos de compra y venta.</span><span class="sxs-lookup"><span data-stu-id="ecf9b-104">You can attach pictures, documents, and other types of files to all cards, such as the item card and job card, and you can attach files to all types of sales and purchase documents.</span></span>
 
 > [!Note]
-> <span data-ttu-id="68006-105">En general, el tamaño máximo de archivo para los archivos adjuntos es de 150 MB.</span><span class="sxs-lookup"><span data-stu-id="68006-105">In general, the maximum file size for attachments is 150 MB.</span></span> <span data-ttu-id="68006-106">Sin embargo, el límite puede ser menor para algunas características.</span><span class="sxs-lookup"><span data-stu-id="68006-106">However, the limit can be lower for some features.</span></span> 
+> <span data-ttu-id="ecf9b-105">En general, el tamaño máximo de archivo para los archivos adjuntos es de 150 MB.</span><span class="sxs-lookup"><span data-stu-id="ecf9b-105">In general, the maximum file size for attachments is 150 MB.</span></span> <span data-ttu-id="ecf9b-106">Sin embargo, el límite puede ser menor para algunas características.</span><span class="sxs-lookup"><span data-stu-id="ecf9b-106">However, the limit can be lower for some features.</span></span>
 
-## <a name="to-attach-a-file-to-a-sales-order"></a><span data-ttu-id="68006-107">Para adjuntar un archivo a un pedido de venta</span><span class="sxs-lookup"><span data-stu-id="68006-107">To attach a file to a sales order</span></span>
-<span data-ttu-id="68006-108">El procedimiento siguiente se basa en un pedido de venta.</span><span class="sxs-lookup"><span data-stu-id="68006-108">The following procedure is based on a sales order.</span></span> <span data-ttu-id="68006-109">Los pasos son parecidos a los de los documentos de venta y compra, así como para las demás fichas.</span><span class="sxs-lookup"><span data-stu-id="68006-109">The steps are similar for all other sales and purchase documents and for all cards.</span></span>
+## <a name="to-attach-a-file-to-a-sales-order"></a><span data-ttu-id="ecf9b-107">Para adjuntar un archivo a un pedido de venta</span><span class="sxs-lookup"><span data-stu-id="ecf9b-107">To attach a file to a sales order</span></span>
+<span data-ttu-id="ecf9b-108">El procedimiento siguiente se basa en un pedido de venta.</span><span class="sxs-lookup"><span data-stu-id="ecf9b-108">The following procedure is based on a sales order.</span></span> <span data-ttu-id="ecf9b-109">Los pasos son parecidos a los de los documentos de venta y compra, así como para las demás fichas.</span><span class="sxs-lookup"><span data-stu-id="ecf9b-109">The steps are similar for all other sales and purchase documents and for all cards.</span></span>
 
-1. <span data-ttu-id="68006-110">Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="68006-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span></span>
-2. <span data-ttu-id="68006-111">Abra la venta a la que desea adjuntar un archivo.</span><span class="sxs-lookup"><span data-stu-id="68006-111">Open the sales that you want to attach a file to.</span></span>
-3. <span data-ttu-id="68006-112">Elija la acción **Datos adjuntos**.</span><span class="sxs-lookup"><span data-stu-id="68006-112">Choose the **Attachments** action.</span></span>
-4. <span data-ttu-id="68006-113">En la página **Documentos adjuntos**, en el campo **Archivo adjunto**, seleccione el botón **Seleccionar archivo**.</span><span class="sxs-lookup"><span data-stu-id="68006-113">On the **Attached Documents** page, in the **Attachment** field, choose the **Select File** button.</span></span>
-5. <span data-ttu-id="68006-114">Seleccione un archivo de cualquier ubicación y, a continuación, elija el botón **Abrir**.</span><span class="sxs-lookup"><span data-stu-id="68006-114">Select a file from any location, and then choose the **Open** button.</span></span>
+1. <span data-ttu-id="ecf9b-110">Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="ecf9b-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span></span>
+2. <span data-ttu-id="ecf9b-111">Abra la venta a la que desea adjuntar un archivo.</span><span class="sxs-lookup"><span data-stu-id="ecf9b-111">Open the sales that you want to attach a file to.</span></span>
+3. <span data-ttu-id="ecf9b-112">Elija la acción **Datos adjuntos**.</span><span class="sxs-lookup"><span data-stu-id="ecf9b-112">Choose the **Attachments** action.</span></span>
+4. <span data-ttu-id="ecf9b-113">En la página **Documentos adjuntos**, en el campo **Archivo adjunto**, seleccione el botón **Seleccionar archivo**.</span><span class="sxs-lookup"><span data-stu-id="ecf9b-113">On the **Attached Documents** page, in the **Attachment** field, choose the **Select File** button.</span></span>
+5. <span data-ttu-id="ecf9b-114">Seleccione un archivo de cualquier ubicación y, a continuación, elija el botón **Abrir**.</span><span class="sxs-lookup"><span data-stu-id="ecf9b-114">Select a file from any location, and then choose the **Open** button.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="68006-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="68006-115">See Also</span></span>
-[<span data-ttu-id="68006-116">Registro de productos nuevos</span><span class="sxs-lookup"><span data-stu-id="68006-116">Register New Items</span></span>](inventory-how-register-new-items.md)  
-[<span data-ttu-id="68006-117">Vender productos</span><span class="sxs-lookup"><span data-stu-id="68006-117">Sell Products</span></span>](sales-how-sell-products.md)
+## <a name="see-also"></a><span data-ttu-id="ecf9b-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="ecf9b-115">See Also</span></span>
+[<span data-ttu-id="ecf9b-116">Registro de productos nuevos</span><span class="sxs-lookup"><span data-stu-id="ecf9b-116">Register New Items</span></span>](inventory-how-register-new-items.md)  
+[<span data-ttu-id="ecf9b-117">Vender productos</span><span class="sxs-lookup"><span data-stu-id="ecf9b-117">Sell Products</span></span>](sales-how-sell-products.md)

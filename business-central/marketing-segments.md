@@ -10,32 +10,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 0392e39957455702bb1aae8eef38d872f803ee42
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 186f14f25e4b158babcdd2930ace3263269415ea
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446818"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308775"
 ---
-# <a name="managing-segments"></a><span data-ttu-id="5d697-103">Administrar segmentos</span><span class="sxs-lookup"><span data-stu-id="5d697-103">Managing Segments</span></span>
-<span data-ttu-id="5d697-104">Puede crear segmentos para seleccionar un grupo de contactos en función de criterios específicos.</span><span class="sxs-lookup"><span data-stu-id="5d697-104">You create segments to select a group of contacts according to specific criteria.</span></span> <span data-ttu-id="5d697-105">Por ejemplo, un segmento puede ser el sector al que pertenecen los contactos o su relación de negocio con los contactos.</span><span class="sxs-lookup"><span data-stu-id="5d697-105">For example, a segment could be the industry that the contacts belong to or your business relationship with the contacts.</span></span> <span data-ttu-id="5d697-106">Puede crear un segmento para seleccionar los contactos a los que se va a dirigir la campaña.</span><span class="sxs-lookup"><span data-stu-id="5d697-106">You can create a segment to select the contacts you want to target with a campaign.</span></span>
+# <a name="managing-segments"></a><span data-ttu-id="0df61-103">Administrar segmentos</span><span class="sxs-lookup"><span data-stu-id="0df61-103">Managing Segments</span></span>
+<span data-ttu-id="0df61-104">Puede crear segmentos para seleccionar un grupo de contactos en función de criterios específicos.</span><span class="sxs-lookup"><span data-stu-id="0df61-104">You create segments to select a group of contacts according to specific criteria.</span></span> <span data-ttu-id="0df61-105">Por ejemplo, un segmento puede ser el sector al que pertenecen los contactos o su relación de negocio con los contactos.</span><span class="sxs-lookup"><span data-stu-id="0df61-105">For example, a segment could be the industry that the contacts belong to or your business relationship with the contacts.</span></span> <span data-ttu-id="0df61-106">Puede crear un segmento para seleccionar los contactos a los que se va a dirigir la campaña.</span><span class="sxs-lookup"><span data-stu-id="0df61-106">You can create a segment to select the contacts you want to target with a campaign.</span></span>
 
-<span data-ttu-id="5d697-107">La creación de un segmento consta de dos tareas principales:</span><span class="sxs-lookup"><span data-stu-id="5d697-107">There are two main tasks in creating a segment:</span></span>
+<span data-ttu-id="0df61-107">La creación de un segmento consta de dos tareas principales:</span><span class="sxs-lookup"><span data-stu-id="0df61-107">There are two main tasks in creating a segment:</span></span>
 
-* <span data-ttu-id="5d697-108">Introducir información general sobre el segmento.</span><span class="sxs-lookup"><span data-stu-id="5d697-108">Enter general information about the segment.</span></span> <span data-ttu-id="5d697-109">Para poder seleccionar los contactos del segmento, debe crear el segmento.</span><span class="sxs-lookup"><span data-stu-id="5d697-109">Before you can select the contacts within the segment, you must first create the segment.</span></span>
-* <span data-ttu-id="5d697-110">Seleccionar los contactos que se van a incluir en el segmento.</span><span class="sxs-lookup"><span data-stu-id="5d697-110">Select the contacts to be included within the segment.</span></span>
+* <span data-ttu-id="0df61-108">Introducir información general sobre el segmento.</span><span class="sxs-lookup"><span data-stu-id="0df61-108">Enter general information about the segment.</span></span> <span data-ttu-id="0df61-109">Para poder seleccionar los contactos del segmento, debe crear el segmento.</span><span class="sxs-lookup"><span data-stu-id="0df61-109">Before you can select the contacts within the segment, you must first create the segment.</span></span>
+* <span data-ttu-id="0df61-110">Seleccionar los contactos que se van a incluir en el segmento.</span><span class="sxs-lookup"><span data-stu-id="0df61-110">Select the contacts to be included within the segment.</span></span>
 
-<span data-ttu-id="5d697-111">En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas que las describen.</span><span class="sxs-lookup"><span data-stu-id="5d697-111">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+<span data-ttu-id="0df61-111">En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas que las describen.</span><span class="sxs-lookup"><span data-stu-id="0df61-111">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
 
-| <span data-ttu-id="5d697-112">Para</span><span class="sxs-lookup"><span data-stu-id="5d697-112">To</span></span> | <span data-ttu-id="5d697-113">Vea</span><span class="sxs-lookup"><span data-stu-id="5d697-113">See</span></span> |
+| <span data-ttu-id="0df61-112">Para</span><span class="sxs-lookup"><span data-stu-id="0df61-112">To</span></span> | <span data-ttu-id="0df61-113">Vea</span><span class="sxs-lookup"><span data-stu-id="0df61-113">See</span></span> |
 | --- | --- |
-| <span data-ttu-id="5d697-114">Crear segmentos que permitan seleccionar un grupo de contactos.</span><span class="sxs-lookup"><span data-stu-id="5d697-114">Create segments which allow you to select a group of contacts.</span></span> <span data-ttu-id="5d697-115">Por ejemplo, correo directo.</span><span class="sxs-lookup"><span data-stu-id="5d697-115">For example, direct mail.</span></span> |[<span data-ttu-id="5d697-116">Crear segmentos</span><span class="sxs-lookup"><span data-stu-id="5d697-116">Create Segments</span></span>](marketing-how-create-segment.md) |
-| <span data-ttu-id="5d697-117">Gestione los contactos que están asignados a segmentos.</span><span class="sxs-lookup"><span data-stu-id="5d697-117">Manage the contacts that are assigned to segments.</span></span> |[<span data-ttu-id="5d697-118">Añadir contactos a segmentos</span><span class="sxs-lookup"><span data-stu-id="5d697-118">Add Contacts to Segments</span></span>](marketing-add-contact-segment.md) |
-| <span data-ttu-id="5d697-119">Obtenga información sobre el uso de interacciones para segmentos, incluido el registro.</span><span class="sxs-lookup"><span data-stu-id="5d697-119">Learn about using interactions for segments, including logging.</span></span> |[<span data-ttu-id="5d697-120">Administrar interacciones para segmentos</span><span class="sxs-lookup"><span data-stu-id="5d697-120">Managing Interactions for Segments</span></span>](marketing-interaction-segments.md) |
+| <span data-ttu-id="0df61-114">Crear segmentos que permitan seleccionar un grupo de contactos.</span><span class="sxs-lookup"><span data-stu-id="0df61-114">Create segments which allow you to select a group of contacts.</span></span> <span data-ttu-id="0df61-115">Por ejemplo, correo directo.</span><span class="sxs-lookup"><span data-stu-id="0df61-115">For example, direct mail.</span></span> |[<span data-ttu-id="0df61-116">Crear segmentos</span><span class="sxs-lookup"><span data-stu-id="0df61-116">Create Segments</span></span>](marketing-how-create-segment.md) |
+| <span data-ttu-id="0df61-117">Gestione los contactos que están asignados a segmentos.</span><span class="sxs-lookup"><span data-stu-id="0df61-117">Manage the contacts that are assigned to segments.</span></span> |[<span data-ttu-id="0df61-118">Añadir contactos a segmentos</span><span class="sxs-lookup"><span data-stu-id="0df61-118">Add Contacts to Segments</span></span>](marketing-add-contact-segment.md) |
+| <span data-ttu-id="0df61-119">Obtenga información sobre el uso de interacciones para segmentos, incluido el registro.</span><span class="sxs-lookup"><span data-stu-id="0df61-119">Learn about using interactions for segments, including logging.</span></span> |[<span data-ttu-id="0df61-120">Administrar interacciones para segmentos</span><span class="sxs-lookup"><span data-stu-id="0df61-120">Managing Interactions for Segments</span></span>](marketing-interaction-segments.md) |
 
-## <a name="see-also"></a><span data-ttu-id="5d697-121">Consulte también</span><span class="sxs-lookup"><span data-stu-id="5d697-121">See Also</span></span>
-[<span data-ttu-id="5d697-122">Administrar oportunidades de venta</span><span class="sxs-lookup"><span data-stu-id="5d697-122">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
-[<span data-ttu-id="5d697-123">Gestionar contactos</span><span class="sxs-lookup"><span data-stu-id="5d697-123">Managing Contacts</span></span>](marketing-contacts.md)  
-<span data-ttu-id="5d697-124">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="5d697-124">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="0df61-121">Consulte también</span><span class="sxs-lookup"><span data-stu-id="0df61-121">See Also</span></span>
+[<span data-ttu-id="0df61-122">Administrar oportunidades de venta</span><span class="sxs-lookup"><span data-stu-id="0df61-122">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
+[<span data-ttu-id="0df61-123">Gestionar contactos</span><span class="sxs-lookup"><span data-stu-id="0df61-123">Managing Contacts</span></span>](marketing-contacts.md)  
+<span data-ttu-id="0df61-124">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0df61-124">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

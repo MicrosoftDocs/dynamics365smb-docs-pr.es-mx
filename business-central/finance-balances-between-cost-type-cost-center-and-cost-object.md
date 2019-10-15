@@ -4,34 +4,35 @@ description: Al configurar la contabilidad de costos, debe asegurarse de que tod
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8b64941b6c17468b598d419053c05e1d32dac7ce
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: finance-set-up-cost-accounting
+ms.openlocfilehash: 7ae54e8a1a011b8e4f1914ef9f15c179794d2675
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239033"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302535"
 ---
-# <a name="balances-between-cost-type-cost-center-and-cost-object"></a><span data-ttu-id="6381f-105">Saldos entre el tipo de costo, centro de costo y objeto de costo</span><span class="sxs-lookup"><span data-stu-id="6381f-105">Balances Between Cost Type, Cost Center, and Cost Object</span></span>
-<span data-ttu-id="6381f-106">Al configurar la contabilidad de costos, debe asegurarse de que todos los movimientos están asignados a un tipo de costo así como a un centro o un objeto de costo.</span><span class="sxs-lookup"><span data-stu-id="6381f-106">When you set up cost accounting, you must make sure that all entries are assigned to a cost type as well as a cost center or a cost object.</span></span> <span data-ttu-id="6381f-107">Indica que cada movimiento de costo debe tener un tipo de costo asignado y un código de centro de costo o un objeto de costo asignado.</span><span class="sxs-lookup"><span data-stu-id="6381f-107">The means that each cost entry must have a cost type assigned and a cost center code or a cost object assigned.</span></span> <span data-ttu-id="6381f-108">Esta norma garantiza que cada movimiento de costo aparezca en los centros de costo u objetos de costo, pero nunca en ambas situaciones.</span><span class="sxs-lookup"><span data-stu-id="6381f-108">This rule ensures that each cost entry appears in either the cost centers or the cost objects, but never in both places.</span></span>  
+# <a name="balances-between-cost-type-cost-center-and-cost-object"></a><span data-ttu-id="fdcf4-105">Saldos entre el tipo de costo, centro de costo y objeto de costo</span><span class="sxs-lookup"><span data-stu-id="fdcf4-105">Balances Between Cost Type, Cost Center, and Cost Object</span></span>
+<span data-ttu-id="fdcf4-106">Al configurar la contabilidad de costos, debe asegurarse de que todos los movimientos están asignados a un tipo de costo así como a un centro o un objeto de costo.</span><span class="sxs-lookup"><span data-stu-id="fdcf4-106">When you set up cost accounting, you must make sure that all entries are assigned to a cost type as well as a cost center or a cost object.</span></span> <span data-ttu-id="fdcf4-107">Indica que cada movimiento de costo debe tener un tipo de costo asignado y un código de centro de costo o un objeto de costo asignado.</span><span class="sxs-lookup"><span data-stu-id="fdcf4-107">The means that each cost entry must have a cost type assigned and a cost center code or a cost object assigned.</span></span> <span data-ttu-id="fdcf4-108">Esta norma garantiza que cada movimiento de costo aparezca en los centros de costo u objetos de costo, pero nunca en ambas situaciones.</span><span class="sxs-lookup"><span data-stu-id="fdcf4-108">This rule ensures that each cost entry appears in either the cost centers or the cost objects, but never in both places.</span></span>  
 
- <span data-ttu-id="6381f-109">De esta manera, crea la siguiente ecuación de contabilidad:</span><span class="sxs-lookup"><span data-stu-id="6381f-109">By doing this, you create the following accounting equation:</span></span>  
+ <span data-ttu-id="fdcf4-109">De esta manera, crea la siguiente ecuación de contabilidad:</span><span class="sxs-lookup"><span data-stu-id="fdcf4-109">By doing this, you create the following accounting equation:</span></span>  
 
- <span data-ttu-id="6381f-110">Saldo tipo costo = Saldo centro costo + Saldo objeto costo</span><span class="sxs-lookup"><span data-stu-id="6381f-110">Cost Type Balance = Cost Center Balance + Cost Object Balance</span></span>  
+ <span data-ttu-id="fdcf4-110">Saldo tipo costo = Saldo centro costo + Saldo objeto costo</span><span class="sxs-lookup"><span data-stu-id="fdcf4-110">Cost Type Balance = Cost Center Balance + Cost Object Balance</span></span>  
 
- <span data-ttu-id="6381f-111">Al imprimir el plan del tipo de costo, el plan de centros de costo y el plan de informes de objetos de costo, puede analizar esta relación.</span><span class="sxs-lookup"><span data-stu-id="6381f-111">When you print the chart of cost type, the chart of cost centers, and the chart of cost objects reports, you can analyze this relationship.</span></span>  
+ <span data-ttu-id="fdcf4-111">Al imprimir el plan del tipo de costo, el plan de centros de costo y el plan de informes de objetos de costo, puede analizar esta relación.</span><span class="sxs-lookup"><span data-stu-id="fdcf4-111">When you print the chart of cost type, the chart of cost centers, and the chart of cost objects reports, you can analyze this relationship.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="6381f-112">Consulte también</span><span class="sxs-lookup"><span data-stu-id="6381f-112">See Also</span></span>  
-[<span data-ttu-id="6381f-113">Contabilidad para costos</span><span class="sxs-lookup"><span data-stu-id="6381f-113">Accounting for Costs</span></span>](finance-manage-cost-accounting.md)  
- <span data-ttu-id="6381f-114">[Configuración de contabilidad de costos](finance-set-up-cost-accounting.md) </span><span class="sxs-lookup"><span data-stu-id="6381f-114">[Setting Up Cost Accounting](finance-set-up-cost-accounting.md) </span></span>  
- <span data-ttu-id="6381f-115">[Terminología en contabilidad de costos](finance-terminology-in-cost-accounting.md) </span><span class="sxs-lookup"><span data-stu-id="6381f-115">[Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md) </span></span>  
- [<span data-ttu-id="6381f-116">Acerca de la contabilidad de costos</span><span class="sxs-lookup"><span data-stu-id="6381f-116">About Cost Accounting</span></span>](finance-about-cost-accounting.md)  
- [<span data-ttu-id="6381f-117">Crear presupuesto costo</span><span class="sxs-lookup"><span data-stu-id="6381f-117">Creating Cost Budgets</span></span>](finance-create-cost-budgets.md)  
- <span data-ttu-id="6381f-118">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="6381f-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="fdcf4-112">Consulte también</span><span class="sxs-lookup"><span data-stu-id="fdcf4-112">See Also</span></span>  
+[<span data-ttu-id="fdcf4-113">Contabilidad para costos</span><span class="sxs-lookup"><span data-stu-id="fdcf4-113">Accounting for Costs</span></span>](finance-manage-cost-accounting.md)  
+ <span data-ttu-id="fdcf4-114">[Configuración de contabilidad de costos](finance-set-up-cost-accounting.md) </span><span class="sxs-lookup"><span data-stu-id="fdcf4-114">[Setting Up Cost Accounting](finance-set-up-cost-accounting.md) </span></span>  
+ <span data-ttu-id="fdcf4-115">[Terminología en contabilidad de costos](finance-terminology-in-cost-accounting.md) </span><span class="sxs-lookup"><span data-stu-id="fdcf4-115">[Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md) </span></span>  
+ [<span data-ttu-id="fdcf4-116">Acerca de la contabilidad de costos</span><span class="sxs-lookup"><span data-stu-id="fdcf4-116">About Cost Accounting</span></span>](finance-about-cost-accounting.md)  
+ [<span data-ttu-id="fdcf4-117">Crear presupuesto costo</span><span class="sxs-lookup"><span data-stu-id="fdcf4-117">Creating Cost Budgets</span></span>](finance-create-cost-budgets.md)  
+ <span data-ttu-id="fdcf4-118">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="fdcf4-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
