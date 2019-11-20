@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ce37b6a4afcb8f23c3199452e1c80a4d60267f2e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4995b793d11dd05300c5e9c48f8b7247e0dd9f7e
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300131"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554546"
 ---
 # <a name="set-up-use-tax-and-purchase-tax"></a>Configurar impuesto sobre servicios e impuesto a las compras
 La definición de impuesto de las ventas comprende los impuestos que pagan las empresas por usar productos:  
@@ -25,7 +25,7 @@ La definición de impuesto de las ventas comprende los impuestos que pagan las e
 
 ## <a name="to-set-up-use-tax-for-a-purchase-order"></a>Para configurar el impuesto sobre servicios para un pedido de compra  
 1.  Seleccione ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos compra** y, a continuación, elija el vínculo relacionado en **Procesamiento de pedidos**.  
-2.  En la ventana **Pedidos de compra**, en la pestaña **Inicio**, en el grupo **Nuevo**, seleccione **Nuevo**.  
+2.  En la página **Órdenes de compra**, seleccione la acción **Nueva**.  
 3.  En la ficha desplegable **Líneas**, rellene los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 4.  En la ficha desplegable **Facturación**, llene los campos como se describe en la tabla siguiente.  
 

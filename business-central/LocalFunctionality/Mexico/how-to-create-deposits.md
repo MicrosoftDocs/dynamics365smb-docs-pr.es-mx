@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 81ecf1f5a2961248d44ace0806be51fd50b9edcc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a37d1fb37dd706b8d1585d0cd6909bc87b41b97c
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301285"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554547"
 ---
 # <a name="create-deposits"></a>Crear depósitos
 Puede crear depósitos para llevar un registro de las transacciones que incluya información que pueda aplicarse a facturas y notas de crédito pendientes.  
@@ -44,7 +44,7 @@ Puede crear depósitos para llevar un registro de las transacciones que incluya 
     |**Nº documento**|El número de documento del movimiento de la línea del diario.|  
     |**Importe haber**|El importe total de crédito que figura en la línea del diario.|  
 
-5.  Como alternativa, vaya a la pestaña **Navegar**, elija **Dimensiones** y agregue las dimensiones pertinentes en la página **Movimientos de grupo de dimensiones**.  
+5.  Opcionalmente, seleccione las acciones **Dimensiones** y, a continuación, agregue las dimensiones relevantes en la página **Entradas de conjunto de dimensiones**.  
 
 Después de haber creado un depósito, debe registrarlo.  
 
