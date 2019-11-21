@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f1724f95652194e426a353b4ebb89c54ef384754
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d9fdc5deab54647f5a4387b62862fd45bc36dd39
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310551"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554631"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Tutorial: Configuración y facturación de anticipos de ventas
 
@@ -169,7 +169,7 @@ Al día siguiente, el cliente llama a Susana y realiza cambios en el pedido. El 
 2.  En la línea del producto **1100**, en el campo **Cantidad**, escriba **2**.  
 
     Desplácese para ver los campos de anticipo. El campo de **Anticipo Excl de la línea importe. IVA** contiene ahora **630** y el campo **Importe anticipo facturado sin IVA** contiene **315**. Este campo muestra que hay un importe de anticipo adicional que aún no se ha facturado.  
-3.  Para registrar una factura para el importe de anticipo adicional, en la pestaña **Acciones**, en el grupo **Registro**, elija **Anticipo** y seleccione **Registrar factura de anticipo**.  
+3.  Para registrar una factura para el importe de anticipo adicional, elija la acción **Registrar Factura de anticipo**.  
 
 ## <a name="applying-the-prepayments"></a>Aplicación de los anticipos  
 El cliente paga el importe de anticipo y Andrés, que trabaja en el departamento contable, registra el pago y lo aplica a las facturas de anticipo.  

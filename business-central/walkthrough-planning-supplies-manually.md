@@ -1,6 +1,6 @@
 ---
 title: 'Tutorial: planificación manual de suministros | Documentos de Microsoft'
-description: En este tutorial, se demuestra el proceso de planificar pedidos de suministro para cubrir la nueva demanda. Puede iniciar la planificación de suministros a intervalos fijos, por ejemplo, todas las mañanas o todos los lunes, o bien cuando le notifiquen desde ventas o producción, en función del tipo de demanda.
+description: En este tutorial, se demuestra el proceso de planificar órdenes de suministro para cubrir la nueva demanda. Puede iniciar la planificación de suministros a intervalos fijos, por ejemplo, todas las mañanas o todos los lunes, o bien cuando le notifiquen desde ventas o producción, en función del tipo de demanda.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2d3c72cf638e196d3b39287fef577c8293332aec
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf3a0653b4094b9e7d90be2909572ed831863c4f
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310575"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554679"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Tutorial: planificación manual de suministros
 
@@ -60,15 +60,12 @@ En este tutorial, se demuestra el proceso de planificar órdenes de suministro p
 
 ## <a name="using-the-order-planning-page"></a>Uso de la página Planificación de pedidos  
 
-<!--
-The **Order Planning** page can be accessed from several different locations on the **Departments** menu in the navigation pane:  
+A la página **Planificación de pedidos** se puede acceder desde varias ubicaciones diferentes:  
 
--   Manufacturing, Planning  
--   Sales & Marketing, Order Processing  
--   Purchase, Planning  
--   In addition, you can open this page for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
-
--->  
+-   Fabricación, Planificación  
+-   Ventas y Marketing, Procesamiento de pedidos  
+-   Compra, Planificación  
+-   Además, puede abrir esta página para un pedido de producción específico eligiendo la acción **Planificación**.
 
 ### <a name="to-use-the-order-planning-page"></a>Para utilizar la página Planificación de pedidos  
 
@@ -115,7 +112,7 @@ The **Order Planning** page can be accessed from several different locations on 
     -   **Proveedor**: Para compras  
     -   **Ubicación** – Para transferencias  
 
-     Si el campo no está relleno, aparecerá un mensaje de error cuando trate de crear los pedidos de suministro.  
+     Si el campo no está relleno, aparecerá un mensaje de error cuando trate de crear los órdenes de suministro.  
 
     > [!NOTE]  
     >  Si los componentes tienen configurado un número de proveedor predeterminado en las fichas producto, las líneas estarán predefinidas.  
@@ -147,7 +144,7 @@ The **Order Planning** page can be accessed from several different locations on 
      Aparecerá el sistema de reposición definido del producto y el proveedor predefinido.  
 
     > [!NOTE]  
-    >  En la parte inferior de la página, existen cuatro campos de información. En el campo **Primera fecha posible**, las diez piezas que se necesitan estarán disponibles, en un pedido de suministro de entrada, nueve días más tarde de la fecha de vencimiento actual. Si es demasiado tarde para el cliente, el campo **Disponible para transfer.** muestra 13 piezas del producto en otro almacén. Desea planificar para estas existencias.  
+    >  En la parte inferior de la página, existen cuatro campos de información. En el campo **Primera fecha posible**, las diez piezas que se necesitan estarán disponibles, en un orden de suministro de entrada, nueve días más tarde de la fecha de vencimiento actual. Si es demasiado tarde para el cliente, el campo **Disponible para transfer.** muestra 13 piezas del producto en otro almacén. Desea planificar para estas existencias.  
 
 3.  Elija el campo **Disponible para transfer.** para abrir la página **Obtener suministro alternativo**.  
 4.  Elija el botón **Aceptar** para reservar los diez productos que están disponibles.  
@@ -173,7 +170,7 @@ The **Order Planning** page can be accessed from several different locations on 
 
 2.  Seleccione la acción **Componentes** para abrir la página **Componentes de planificación**.  
 3.  En la línea con el producto Timbre, cambie el campo **Cantidad por** de **1** a **2**.  
-4.  En la página **Planificación de pedidos**, considere las alternativas de planificación que tiene. En este caso, no tiene métodos de suministro alternativos, ni transferencia, ni sustituto ni entrega posterior. Debe crear el pedido de suministro sugerido: una orden de producción.  
+4.  En la página **Planificación de pedidos**, considere las alternativas de planificación que tiene. En este caso, no tiene métodos de suministro alternativos, ni transferencia, ni sustituto ni entrega posterior. Debe crear el orden de suministro sugerido: una orden de producción.  
 5.  Elija el botón de **Crear pedidos** para crear la orden de producción.  
 
      En la página **Planificación de pedidos**, observe que la línea de planificación para el pedido de venta **1001** ya no existe y que se ha cubierto la demanda de venta inicial.  
@@ -210,7 +207,7 @@ The **Order Planning** page can be accessed from several different locations on 
 
      Antes de seleccionar el botón **Aceptar**, observe el texto en la ficha desplegable **Programación de pedidos**. Este texto es importante porque sabe que la bicicleta tiene varios componentes producidos, semiterminados, en su estructura de producto que pueden suponer una demanda cuando cree esta orden de producción.  
 
-7.  En la página **Crear órden de suministro**, en el campo de **Crear órdenes para**, seleccione la opción **Todas las líneas** y, a continuación, seleccione el botón de **Aceptar** para crear las órdenes de producción para el segundo nivel del producto de la orden.  
+7.  En la página **Crear orden de suministro**, en el campo de **Crear órdenes para**, seleccione la opción **Todas las líneas** y, a continuación, seleccione el botón de **Aceptar** para crear las órdenes de producción para el segundo nivel del producto de la orden.  
 
      Tenga en cuenta que ya no existe demanda de producción de nivel superior para la orden de producción 101001. Esto significa que se ha planificado la demanda de producción inicial para productos semiterminados.  
 
