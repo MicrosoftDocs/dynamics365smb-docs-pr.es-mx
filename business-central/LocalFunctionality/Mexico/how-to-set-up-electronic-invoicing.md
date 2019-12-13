@@ -1,8 +1,6 @@
 ---
 title: Procedimiento para configurar la facturación electrónica
 description: Para poder enviar documentos electrónicos, primero debe configurar Business Central para asegurarse de que el número de identificación fiscal (RFC), el número de identificación personal (CURP) y los identificadores de inscripción estatal estén disponibles para la empresa y para todos sus clientes y proveedores.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: be918e829f18e8260a797dffb9a70822c1c66645
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7e74860a88daa234654ac0a52ef9f0fd6e721793
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301286"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879269"
 ---
 # <a name="set-up-electronic-invoicing"></a>Configurar la facturación electrónica
 Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[d365fin](../../includes/d365fin_md.md)] para asegurarse de que el número de identificación fiscal (RFC), el número de identificación personal (CURP) y los identificadores de inscripción estatal estén disponibles para la empresa y para todos sus clientes y proveedores. Además, debe configurar los parámetros necesarios para el envío de facturas electrónicas a clientes y proveedores. Tales parámetros incluyen la huella digital del certificado, es decir, el certificado que recibe de la autoridad fiscal mexicana (SAT).  
@@ -29,7 +27,7 @@ Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[d3
 
 ## <a name="to-set-up-company-information"></a>Para configurar la información de la empresa  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Información de la empresa** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Buscar por página o informe ](../../media/ui-search/search_small.png "Buscar por página o icono de informe"), escriba **Información de la empresa** y luego elija el enlace relacionado.  
 2.  En la página **Información empresa**, en la ficha desplegable **Impuesto**, llene los campos como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  

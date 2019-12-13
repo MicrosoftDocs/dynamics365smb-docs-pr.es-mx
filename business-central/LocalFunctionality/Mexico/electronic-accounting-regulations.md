@@ -1,8 +1,6 @@
 ---
 title: Regulaciones electrónicas de la contabilidad en México
 description: Conozca cómo Business Central lo ayuda a cumplir con los requisitos de contabilidad electrónica en México.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 3356a2e0ce77e74655bb905127392715ab69aab7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f5961d101e3d861840e2da642c824950ff7d935a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301289"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878908"
 ---
 # <a name="complying-with-electronic-accounting-regulations-in-mexico"></a>Cumplimiento con las regulaciones electrónicas de la contabilidad en México
 En México, los individuos y las empresas deben hacer su contabilidad electrónicamente y enviar sus resultados mensuales al Servicio de Administración Tributaria de México (SAT) como archivos XML separados al final de cada mes. Los archivos XML deben contener lo siguiente:
@@ -42,7 +40,7 @@ Para el archivo que contiene transacciones de diario:
 * En la página **Método de pago**, en el campo **Método de pago SAT** debe especificar cómo se realizó el pago.
 
 ## <a name="to-generate-the-xml-files"></a>Para generar los archivos XML
-1. Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Exportar contabilidad eléct.** y, a continuación, seleccione el vínculo relacionado.
+1. Elija el icono ![Buscar por página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), escriba **Exportar contabilidad elect.** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Consulte también
