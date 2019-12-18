@@ -1,8 +1,6 @@
 ---
 title: 'Detalles de diseño: Equilibrado de aprovisionamiento y demanda | Documentos de Microsoft'
 description: Para saber cómo funciona el sistema de planificación, es necesario conocer los objetivos con prioridad del sistema de planificación, los más importantes de los cuales son asegurarse de que las demandas se satisfagan con suficiente suministro y de que los suministros tengan un propósito.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b8e4cb09e8b391f9818c9dabbc25d88eeca4aeac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1dda414746c8661e5a9cee3eee5ce569cfa83e16
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303783"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882961"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Detalles de diseño: Equilibrio de aprovisionamiento y demanda
 Para saber cómo funciona el sistema de planificación, es necesario conocer los objetivos con prioridad del sistema de planificación, los más importantes de los cuales son asegurarse de que:  
@@ -52,7 +50,7 @@ Para evitar que un plan de suministro muestre sugerencias imposibles y, por tant
 
 Toda la demanda y aprovisionamiento antes de la fecha de inicio del periodo de planificación se tendrá como parte del inventario o enviado.  
 
-Por consiguiente, el sistema de planificación, salvo algunas excepciones, no sugerirá ningún cambio en los pedidos de aprovisionamiento en la zona congelada, y no se creará ni se guardará ningún vínculo de seguimiento de pedidos para ese periodo.  
+Por consiguiente, el sistema de planificación, salvo algunas excepciones, no sugerirá ningún cambio en las órdenes de suministro en la zona congelada, y no se creará ni se guardará ningún vínculo de seguimiento de órdenes para ese periodo.  
 
 Las excepciones a esta regla son las siguientes:  
 
@@ -60,7 +58,7 @@ Las excepciones a esta regla son las siguientes:
    * Si hacen falta números de serie o lote en los pedidos con fecha anterior.  
    * Si el conjunto de aprovisionamiento y demanda se vincula por una directiva de pedido a pedido.  
 
-Si las existencias disponibles iniciales son menores que cero, el sistema de planificación sugiere un pedido de aprovisionamiento de emergencia el día antes del periodo de planificación para cubrir la cantidad que falta. Por tanto, el inventario proyectado y disponible será siempre al menos cero cuando empiece la planificación para el periodo futuro. La línea de planificación de este pedido de suministro mostrará un icono de advertencia de emergencia y, tras la búsqueda, se proporciona información adicional.  
+Si las existencias disponibles iniciales son menores que cero, el sistema de planificación sugiere una orden de suministro de emergencia el día antes del periodo de planificación para cubrir la cantidad que falta. Por tanto, el inventario proyectado y disponible será siempre al menos cero cuando empiece la planificación para el periodo futuro. La línea de planificación de esta orden de suministro mostrará un icono de advertencia de emergencia y, tras la búsqueda, se proporciona información adicional.  
 
 ### <a name="seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone"></a>Los números de serie y de lote y las conexiones de pedido contra pedido están exentos de la zona congelada  
    Si se requieren números de serie y de lote o si hay un vínculo de pedido a pedido, el sistema de planificación no tendrá en cuenta la zona congelada e incorporará estas cantidades con fecha anterior a partir de la fecha de inicio y potencialmente propondrá acciones correctivas si la demanda y el aprovisionamiento no están sincronizados. El motivo empresarial de este principio es que dichos conjuntos de demanda-suministro específicos deben coincidir para garantizar que se cumple esta demanda específica.
@@ -72,7 +70,7 @@ Los tipos normales de demanda y suministro con fechas de fecha de vencimiento en
 
 Como se indicaba anteriormente, la demanda también podría ser negativa. Esto significa que se debe tratar como suministro; no obstante, a diferencia de los tipos de suministro normales, la demanda negativa se considera suministro fijo. El sistema de planificación puede tenerla en cuenta, pero no sugerirá cambios.  
 
-En general, el sistema de planificación considera todos los pedidos de aprovisionamiento posteriores a la fecha de inicio de la planificación como sujetos a cambios para cubrir la demanda. No obstante, en cuanto una cantidad se registra a partir de un pedido de aprovisionamiento, ya no la puede modificar el sistema de planificación. Por consiguiente, los diferentes pedidos siguientes no se pueden replanificar:  
+En general, el sistema de planificación considera todas las órdenes de suministro posteriores a la fecha de inicio de la planificación como sujetas a cambios para cubrir la demanda. No obstante, en cuanto una cantidad se registra a partir de una orden de suministro, ya no la puede modificar el sistema de planificación. Por consiguiente, los diferentes pedidos siguientes no se pueden replanificar:  
 
 - Órdenes de producción lanzadas donde se ha registrado la salida o el consumo.  
 - Pedidos de ensamblado donde se ha registrado la salida o el consumo.  
@@ -111,10 +109,10 @@ La demanda y el suministro de pedido contra pedido se deben equilibrar de forma 
 Esta contrapartida también afecta a la temporización. No se considera el horizonte limitado que ofrece el ciclo; el suministro se reprogramará si ha cambiado el plazo de la demanda. No obstante, el tiempo de amortiguación se respetará e impedirá que los aprovisionamientos de pedido a pedido no entren en el programa, excepto en el caso de aprovisionamientos internos de una orden de producción de varios niveles (orden de proyecto).  
 
 > [!NOTE]  
->  Los números de serie y de lote también se pueden especificar en la demanda de pedido contra pedido. En ese caso, el aprovisionamiento no es inflexible de forma predeterminada, como generalmente sucede con números de serie y de lote. En este caso, el programa aumentará o disminuirá según los cambios en la demanda. Además, si una demanda lleva distintos números de serie o de lote, por ejemplo más de un número de lote, se sugerirá un pedido de aprovisionamiento por lote.  
+>  Los números de serie y de lote también se pueden especificar en la demanda de pedido contra pedido. En ese caso, el aprovisionamiento no es inflexible de forma predeterminada, como generalmente sucede con números de serie y de lote. En este caso, el programa aumentará o disminuirá según los cambios en la demanda. Además, si una demanda lleva distintos números de serie o de lote, por ejemplo más de un número de lote, se sugerirá una orden de suministro por lote.  
 
 > [!NOTE]  
->  Las previsiones no deben llevar a crear pedidos de aprovisionamiento limitados por un vínculo de pedido a pedido. Si se usa la previsión, solo debe hacerse como generador de una demanda dependiente en un entorno de fabricación.  
+>  Las previsiones no deben llevar a crear órdenes de suministro limitados por un vínculo de orden a orden. Si se usa la previsión, solo debe hacerse como generador de una demanda dependiente en un entorno de fabricación.  
 
 ### <a name="component-need-is-loaded-according-to-production-order-changes"></a>La necesidad de componente se carga según los cambios de la orden de producción  
 Al manipular las órdenes de producción, el sistema de planificación debe supervisar los componentes necesarios antes de cargarlos en el perfil de demanda. Las líneas de componente resultantes de una orden de producción modificada reemplazarán las del pedido original. De este modo se garantiza que el sistema de planificación establece que nunca se dupliquen las líneas de planificación de la necesidad de componentes.  
@@ -122,7 +120,7 @@ Al manipular las órdenes de producción, el sistema de planificación debe supe
 ###  <a name="BKMK_SafetyStockMayBeConsumed"></a> El stock de seguridad se puede consumir  
 El inventario de seguridad es, principalmente, un tipo de demanda y, por lo tanto, se carga en el perfil de inventario en la fecha inicial de la planificación.  
 
-El inventario de seguridad es una cantidad que se aparta para compensar las incertidumbres en la demanda durante el plazo de reposición. No obstante, se pueden consumir si es necesario para cubrir una demanda. En dicho caso, el programa de planificación garantizaría que el inventario de seguridad se sustituye rápidamente sugiriendo un pedido de aprovisionamiento para abastecer la cantidad de inventario de seguridad en la fecha en la que se consume. Esta línea de planificación mostrará un icono de advertencia de excepción explicando al planificador que el stock de seguridad se ha consumido parcialmente o en su totalidad a través de un pedido de excepción para la cantidad que falta.  
+El inventario de seguridad es una cantidad que se aparta para compensar las incertidumbres en la demanda durante el plazo de reposición. No obstante, se pueden consumir si es necesario para cubrir una demanda. En dicho caso, el programa de planificación garantizaría que el inventario de seguridad se sustituye rápidamente sugiriendo una orden de suministro para abastecer la cantidad de inventario de seguridad en la fecha en la que se consume. Esta línea de planificación mostrará un icono de advertencia de excepción explicando al planificador que el stock de seguridad se ha consumido parcialmente o en su totalidad a través de un pedido de excepción para la cantidad que falta.  
 
 ### <a name="forecast-demand-is-reduced-by-sales-orders"></a>Los pedidos de ventas reducen la demanda de previsión  
 La previsión de demanda expresa la demanda futura prevista. Mientras se introduce la demanda real, normalmente como pedidos de venta para productos fabricados, se consume la previsión.  
@@ -157,7 +155,7 @@ La demanda y el suministro cargados contribuyen a un perfil del inventario proye
 9. Previsión (que no han consumido aún otros pedidos de venta)  
 
 > [!NOTE]  
->  Las devoluciones de compras normalmente no intervienen en la planificación de suministros; siempre se deben reservar del lote que se va a devolver. Si no reserva, las devoluciones de compra desempeñan una función en la disponibilidad y se les da una elevada prioridad para evitar que el sistema de planificación sugiera un pedido de aprovisionamiento solo para servir a una devolución de compra.  
+>  Las devoluciones de compras normalmente no intervienen en la planificación de suministros; siempre se deben reservar del lote que se va a devolver. Si no reserva, las devoluciones de compra desempeñan una función en la disponibilidad y se les da una elevada prioridad para evitar que el sistema de planificación sugiera una orden de suministro solo para servir a una devolución de compra.  
 
 ### <a name="priorities-on-the-supply-side"></a>Prioridades en el suministro  
 1. Ya en el inventario: movimiento de producto (flexibilidad de planificación = ninguna)  
@@ -177,7 +175,7 @@ Aparte de las prioridades dadas por el tipo de demanda y aprovisionamiento, el e
 5. Planificado/Abierto: todos los tipos de pedido (flexibilidad de planificación = ilimitada)
 
 ## <a name="balancing-supply-with-demand"></a>Equilibrio de aprovisionamiento con demanda
-El núcleo del sistema de planificación implica el equilibrio de la demanda y del suministro mediante la sugerencia de acciones de usuario para revisar los pedidos de suministro en caso de que se produzca un desequilibrio. Se produce por la combinación de variante y de ubicación.  
+El núcleo del sistema de planificación implica el equilibrio de la demanda y del suministro mediante la sugerencia de acciones de usuario para revisar las órdenes de suministro en caso de que se produzca un desequilibrio. Se produce por la combinación de variante y de ubicación.  
 
 Imagínese que cada perfil de inventario contiene una cadena de eventos de demanda (ordenados por fecha y prioridad) y una cadena correspondiente de eventos de aprovisionamiento. Cada evento hace referencia a su tipo e identificación de origen. Las reglas para la contrapartida del producto son sencillas. Se pueden producir cuatro casos de coincidencia entre aprovisionamiento y demanda en cualquier momento del proceso:  
 
@@ -205,47 +203,47 @@ Imagínese que cada perfil de inventario contiene una cadena de eventos de deman
  El procedimiento comienza de nuevo con la demanda siguiente y el suministro actual, o viceversa. El suministro actual también puede cubrir esta demanda siguiente, o la demanda actual no se ha cubierto por completo.  
 
 ### <a name="rules-concerning-actions-for-supply-events"></a>Reglas relativas a las acciones para los eventos de suministro  
-Cuando el sistema de planificación realiza un cálculo descendente en el que el suministro debe satisfacer la demanda, esta se toma tal como se indica, es decir, está fuera del control del sistema de planificación. No obstante, el lado de aprovisionamiento sigue pudiéndose gestionar. Por lo tanto, el sistema de planificación sugerirá la creación de nuevos pedidos de suministro, reprogramar los existentes o cambiar la cantidad del pedido. Si un pedido de aprovisionamiento existente pasa a ser superfluo, el sistema de planificación sugiere que el usuario lo cancele.  
+Cuando el sistema de planificación realiza un cálculo descendente en el que el suministro debe satisfacer la demanda, esta se toma tal como se indica, es decir, está fuera del control del sistema de planificación. No obstante, el lado de aprovisionamiento sigue pudiéndose gestionar. Por lo tanto, el sistema de planificación sugerirá la creación de nuevas órdenes de suministro, reprogramar los existentes o cambiar la cantidad del orden. Si una orden de suministro existente pasa a ser superfluo, el sistema de planificación sugiere que el usuario lo cancele.  
 
-Si el usuario desea excluir un pedido de aprovisionamiento existente de las sugerencias de planificación, puede indicar que no tiene flexibilidad de planificación (flexibilidad de planificación = ninguna). A continuación, el exceso de suministro del pedido se usará para satisfacer la demanda, pero no se sugerirá ninguna acción.  
+Si el usuario desea excluir una orden de suministro existente de las sugerencias de planificación, puede indicar que no tiene flexibilidad de planificación (flexibilidad de planificación = ninguna). A continuación, el exceso de suministro del pedido se usará para satisfacer la demanda, pero no se sugerirá ninguna acción.  
 
 En general, todo el aprovisionamiento tiene una flexibilidad de planificación limitada por las condiciones de cada una de las acciones sugeridas.  
 
--   **Reprogramar fuera**: fecha de un pedido de suministro existente que se puede excluir de la programación para cumplir la fecha de vencimiento de demanda a menos que:  
+-   **Reprogramar fuera**: fecha de una orden de suministro existente que se puede excluir de la programación para cumplir la fecha de vencimiento de demanda a menos que:  
 
     -   Representa el inventario (siempre en el día cero).  
     -   Tiene una directiva pedido a pedido vinculada a otra demanda.  
     -   Se encuentra fuera de la página de reprogramación definida por el ciclo.  
     -   Hay un suministro más aproximado que se podría usar.  
     -   Por otro lado, el usuario puede decidir no reprogramar porque:  
-    -   El pedido de suministro ya se ha vinculado a otra demanda en una fecha anterior.  
+    -   El orden de suministro ya se ha vinculado a otra demanda en una fecha anterior.  
     -   La reprogramación necesaria es tan mínima que el usuario la considera insignificante.  
 
--   **Reprogramar dentro**: fecha de un pedido de suministro existente que se puede incluir en la programación, excepto con las condiciones siguientes:  
+-   **Reprogramar dentro**: fecha de una orden de suministro existente que se puede incluir en la programación, excepto con las condiciones siguientes:  
 
     -   Está vinculada directamente a otra demanda.  
     -   Se encuentra fuera de la página de reprogramación definida por el ciclo.  
 
 > [!NOTE]  
->  Al planificar un producto con un punto de reorden, siempre se puede programar el pedido de suministro si es necesario. Esto es habitual en los pedidos de suministro con programación anticipada que se activan mediante un punto de reorden.  
+>  Al planificar un producto con un punto de reorden, siempre se puede programar la orden de suministro si es necesario. Esto es habitual en las órdenes de suministro con programación anticipada que se activan mediante un punto de reorden.  
 
--   **Aumentar cantidad**: la cantidad de un pedido de aprovisionamiento existente se puede aumentar para satisfacer la demanda, a menos que los pedidos de aprovisionamiento estén conectados directamente con una demanda por un vínculo de pedido a pedido.  
+-   **Aumentar cantidad**: la cantidad de una orden de suministro existente se puede aumentar para satisfacer la demanda, a menos que las órdenes de suministro estén conectadas directamente con una demanda por un vínculo de orden a orden.  
 
 > [!NOTE]  
->  Aunque es posible aumentar el pedido de aprovisionamiento, puede quedar limitado por una cantidad máxima de pedido definida.  
+>  Aunque es posible aumentar la orden de suministro, puede quedar limitado por una cantidad máxima de orden definida.  
 
--   **Disminución de cantidad**: los pedidos de aprovisionamiento existentes con excedente en comparación con una demanda existente se pueden disminuir para satisfacer la demanda.  
+-   **Disminución de cantidad**: las órdenes de suministro existentes con excedente en comparación con una demanda existente se pueden disminuir para satisfacer la demanda.  
 
 > [!NOTE]  
 >  Aunque la cantidad se podría disminuir, pueden quedar excedentes en comparación con la demanda porque haya una cantidad mínima de pedido definida o un múltiplo de pedido.  
 
--   **Cancelar**: como incidente especial de la acción de disminución de cantidad, el pedido de aprovisionamiento podría cancelarse si se ha reducido a cero.  
--   **Nuevo**: si no existe ningún pedido de suministro, o no se puede cambiar uno existente para satisfacer la cantidad necesaria en la fecha de vencimiento solicitada, se sugiere un nuevo pedido de suministro.  
+-   **Cancelar**: como incidente especial de la acción de disminución de cantidad, la orden de suministro podría cancelarse si se ha reducido a cero.  
+-   **Nuevo**: si no existe ningún orden de suministro, o no se puede cambiar uno existente para satisfacer la cantidad necesaria en la fecha de vencimiento solicitada, se sugiere un nuevo orden de suministro.  
 
 ### <a name="determining-the-supply-quantity"></a>Configuración de la cantidad de aprovisionamiento  
-Los parámetros de planificación definidos por el usuario controlan la cantidad sugerida de cada pedido de suministro.  
+Los parámetros de planificación definidos por el usuario controlan la cantidad sugerida de cada orden de suministro.  
 
-Cuando el sistema de planificación calcula la cantidad de un nuevo pedido de suministro o el cambio de cantidad de uno existente, la cantidad sugerida puede ser distinta de la demanda real.  
+Cuando el sistema de planificación calcula la cantidad de un nuevo orden de suministro o el cambio de cantidad de uno existente, la cantidad sugerida puede ser distinta de la demanda real.  
 
 Si se seleccionan un inventario máximo o una cantidad de pedido fija, la cantidad sugerida se puede aumentar para coincidir con esa cantidad fija o ese inventario máximo. Si una directiva de reorden utiliza una punto de reorden, la cantidad se puede aumentar para llegar al menos al punto de reorden.  
 
@@ -260,7 +258,7 @@ En cuanto al seguimiento de pedidos durante la planificación, es importante men
 
 Existen dos motivos para esto:  
 
--   El sistema de planificación debe poder justificar las sugerencias, que toda la demanda quede cubierta y que ningún pedido de suministro sea superfluo.  
+-   El sistema de planificación debe poder justificar las sugerencias, que toda la demanda quede cubierta y que ningún orden de suministro sea superfluo.  
 -   Los vínculos de seguimiento de pedidos creados dinámicamente deben volverse a equilibrar con regularidad.  
 
 Con el tiempo, las conexiones de seguimiento de pedidos se descuadran porque la red completa de seguimiento de pedidos no se reorganiza hasta que un evento de demanda o de suministro se cierre realmente.  
@@ -273,13 +271,13 @@ Antes de cuadrar el aprovisionamiento por la demanda, la aplicación elimina tod
 Cuando se han realizado los procedimientos de equilibrado del suministro, existen tres situaciones finales posibles:  
 
 * Se han cumplido la cantidad necesaria y la fecha de los eventos de demanda, y se puede cerrar la planificación de ellos. El evento de suministro aún está abierto y puede cubrir la demanda siguiente, por lo que el procedimiento de contrapartida puede empezar con el evento de suministro actual y la demanda siguiente.  
-* El pedido de suministro no se puede modificar para cubrir toda la demanda. El evento de demanda sigue abierto, con una cantidad sin cubrir que se puede cubrir mediante el evento de suministro siguiente. Por lo tanto, se cierra el evento de suministro, por lo que el equilibrado puede empezar con la demanda actual y el siguiente evento de suministro.  
+* El orden de suministro no se puede modificar para cubrir toda la demanda. El evento de demanda sigue abierto, con una cantidad sin cubrir que se puede cubrir mediante el evento de suministro siguiente. Por lo tanto, se cierra el evento de suministro, por lo que el equilibrado puede empezar con la demanda actual y el siguiente evento de suministro.  
 * Se ha cubierto toda la demanda; no hay demanda subsiguiente (o no ha habido demanda en absoluto). Si hay algún aprovisionamiento de excedente, se puede reducir (o cancelarse) y después cerrar. Es posible que existan eventos de suministro adicionales más adelante en la cadena y también se deben cancelar.  
 
 Por último, el sistema de planificación creará una conexión de seguimiento de pedidos entre el suministro y la demanda.  
 
 ### <a name="creating-the-planning-line-suggested-action"></a>Crear la línea de planificación (acción sugerida)  
-Si se sugiere alguna acción (nueva, cambiar de cantidad, reprogramar, reprogramar y cambiar de cantidad o cancelar) para revisar el pedido de aprovisionamiento, el sistema de planificación crea una línea de planificación en la hoja de trabajo de planificación. El seguimiento de pedidos obliga a la creación de la línea de planificación no solo cuando se cierra el evento de aprovisionamiento, sino también si se cierra el evento de demanda, aunque el evento de aprovisionamiento esté aún abierto y puede estar sujeto a los cambios adicionales cuando se procesa el evento de demanda siguiente. Esto significa que la línea de planificación se puede modificar de nuevo cuando se crea por primera vez.  
+Si se sugiere alguna acción (nueva, cambiar de cantidad, reprogramar, reprogramar y cambiar de cantidad o cancelar) para revisar la orden de suministro, el sistema de planificación crea una línea de planificación en la hoja de trabajo de planificación. El seguimiento de pedidos obliga a la creación de la línea de planificación no solo cuando se cierra el evento de aprovisionamiento, sino también si se cierra el evento de demanda, aunque el evento de aprovisionamiento esté aún abierto y puede estar sujeto a los cambios adicionales cuando se procesa el evento de demanda siguiente. Esto significa que la línea de planificación se puede modificar de nuevo cuando se crea por primera vez.  
 
 Para minimizar el acceso de base de datos al manipular las órdenes de producción, la línea de planificación se puede mantener en tres niveles, a la vez que se intenta realizar el nivel de mantenimiento menos exigente:  
 

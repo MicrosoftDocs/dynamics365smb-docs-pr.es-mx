@@ -1,8 +1,6 @@
 ---
 title: Configurar contabilidad de costos | Documentos de Microsoft
 description: Antes de empezar a trabajar con la contabilidad de costos, debe realizar tareas de configuración.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a521280c3a3f3f38e06a37984401652d9fa9e50c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f65755d13ccfb445006fec9dc8c1697777db66c4
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301743"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882509"
 ---
 # <a name="setting-up-cost-accounting"></a>Configuración de contabilidad de costos
 Antes de empezar a trabajar con la contabilidad de costos, debe realizar tareas de configuración.
@@ -38,7 +36,7 @@ El plan de tipos de costo es similar al catálogo de cuentas de la contabilidad 
 -   Cree el nuevo plan de tipos de costo o agregue nuevos tipos de costo al plan existente de tipos de costo. Debe crear cada tipo de costo nuevo por separado.  
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Para transferir el Catálogo de cuentas de contabilidad al plan de tipos de costo  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plan de tipos de costo** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan tipos costo** y luego elija el enlace relacionado.  
 2.  Elija la acción **Tomar tipos costo de catálogo ctas**. En el cuadro de diálogo, seleccione el botón **Sí** para confirmar la transferencia. La función utiliza el Catálogo de cuentas para crear un plan de tipos de costo.  
 
     El plan de tipos de costo contendrá todas las cuentas de ingresos en la contabilidad e incluye títulos y subtotales. Puede cambiar el plan de tipos de costo, según sea necesario. Por ejemplo, puede eliminar los tipos de costo existentes duplicados.  
@@ -100,7 +98,7 @@ Los centros de costo son departamentos que son responsables de los costos y de l
 
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Para transferir los valores de dimensión en la contabilidad al plan de centros de costo  
 1.  Configure una dimensión para que sea la dimensión del centro de costo en la página **Actualizar dimensiones contabilidad costos**. Sólo los valores de esta dimensión se transfieren.  
-2.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plan de centros de costo** y luego elija el enlace relacionado.  
+2.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan centros costo** y luego elija el enlace relacionado.  
 3.  En la pestaña **Acciones**, en el grupo **Funciones**, seleccione **Tomar centros de costo de dimensión** para transferir los valores de dimensión al plan de centros de costo. La función transfiere los valores de dimensión que definió en el paso 1.  
 
     > [!NOTE]  
@@ -133,7 +131,7 @@ Los objetos de costo son proyectos, productos o servicios de una empresa. El pla
 
 ### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Para transferir valores de dimensión de la contabilidad al plan de objetos de costo  
 1.  Configurar una dimensión para que sea la dimensión del objeto de costo en la página **Actualizar dimensiones CA**. Sólo los valores de esta dimensión se transfieren.  
-2.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Plan de objetos de costo** y luego elija el enlace relacionado.  
+2.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de objetos de costo** y luego elija el enlace relacionado.  
 3.  Elija la acción **Tomar objetos costo de dimensión** para transferir los valores de dimensión al plan de objetos de costo. La función transfiere los valores de dimensión que definió en el paso 1.  
 
     > [!NOTE]  
