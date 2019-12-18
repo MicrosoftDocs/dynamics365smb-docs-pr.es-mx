@@ -1,8 +1,6 @@
 ---
 title: Como crear una cabecera de orden de producción | Documentos de Microsoft
 description: Puede crear una orden de producción manualmente, y el primer paso es crear la cabecera.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,36 +10,36 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fc0a0dda33b7b90658ca60285abab0562c28fbbc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2088cd12faaefb2d9902cad0cc149d209f905f71
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314131"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877986"
 ---
-# <a name="create-production-order-headers"></a><span data-ttu-id="ba8ce-103">Crear cabeceras de orden de producción</span><span class="sxs-lookup"><span data-stu-id="ba8ce-103">Create Production Order Headers</span></span>
-<span data-ttu-id="ba8ce-104">Puede crear una orden de producción manualmente, y el primer paso es crear la cabecera.</span><span class="sxs-lookup"><span data-stu-id="ba8ce-104">You can create a production order manually, and the first step is to create a production order header.</span></span>
+# <a name="create-production-order-headers"></a><span data-ttu-id="13880-103">Crear cabeceras de orden de producción</span><span class="sxs-lookup"><span data-stu-id="13880-103">Create Production Order Headers</span></span>
+<span data-ttu-id="13880-104">Puede crear una orden de producción manualmente, y el primer paso es crear la cabecera.</span><span class="sxs-lookup"><span data-stu-id="13880-104">You can create a production order manually, and the first step is to create a production order header.</span></span>
 
-<span data-ttu-id="ba8ce-105">Las órdenes de producción normalmente se crean automáticamente por algunas tareas de planificación para cubrir una demanda conocida.</span><span class="sxs-lookup"><span data-stu-id="ba8ce-105">Production orders are typically created automatically by a planning function to fulfill a known demand.</span></span> <span data-ttu-id="ba8ce-106">Para obtener más información, consulte [Planificación](production-planning.md).</span><span class="sxs-lookup"><span data-stu-id="ba8ce-106">For more information, see [Planning](production-planning.md).</span></span>   
+<span data-ttu-id="13880-105">Las órdenes de producción normalmente se crean automáticamente por algunas tareas de planificación para cubrir una demanda conocida.</span><span class="sxs-lookup"><span data-stu-id="13880-105">Production orders are typically created automatically by a planning function to fulfill a known demand.</span></span> <span data-ttu-id="13880-106">Para obtener más información, consulte [Planificación](production-planning.md).</span><span class="sxs-lookup"><span data-stu-id="13880-106">For more information, see [Planning](production-planning.md).</span></span>   
 
-<span data-ttu-id="ba8ce-107">En el siguiente procedimiento, se crea una orden de producción planificada en firme.</span><span class="sxs-lookup"><span data-stu-id="ba8ce-107">In the following procedure, a firm planned production order is created.</span></span> <span data-ttu-id="ba8ce-108">Puede también crear órdenes de producción con estados distintos.</span><span class="sxs-lookup"><span data-stu-id="ba8ce-108">You can also create production orders with a different status.</span></span>  
+<span data-ttu-id="13880-107">En el siguiente procedimiento, se crea una orden de producción planificada en firme.</span><span class="sxs-lookup"><span data-stu-id="13880-107">In the following procedure, a firm planned production order is created.</span></span> <span data-ttu-id="13880-108">Puede también crear órdenes de producción con estados distintos.</span><span class="sxs-lookup"><span data-stu-id="13880-108">You can also create production orders with a different status.</span></span>  
 
-## <a name="to-create-a-production-order-header"></a><span data-ttu-id="ba8ce-109">Para crear la cabecera de una orden de producción</span><span class="sxs-lookup"><span data-stu-id="ba8ce-109">To create a production order header</span></span>  
-1.  <span data-ttu-id="ba8ce-110">Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") escriba **O.P. Planificadas en firme** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="ba8ce-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="ba8ce-111">Seleccione la acción **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="ba8ce-111">Choose the **New** action.</span></span>  
-3.  <span data-ttu-id="ba8ce-112">En el campo **N.º**,</span><span class="sxs-lookup"><span data-stu-id="ba8ce-112">In the **No.**</span></span> <span data-ttu-id="ba8ce-113">inserte el número siguiente de la serie.</span><span class="sxs-lookup"><span data-stu-id="ba8ce-113">field, insert the next number in the series.</span></span>  
-4.  <span data-ttu-id="ba8ce-114">En el campo **Tipo procedencia mov.**, seleccione la procedencia del movimiento de la orden de producción.</span><span class="sxs-lookup"><span data-stu-id="ba8ce-114">In the **Source Type** field, select the source of the production order.</span></span>
+## <a name="to-create-a-production-order-header"></a><span data-ttu-id="13880-109">Para crear la cabecera de una orden de producción</span><span class="sxs-lookup"><span data-stu-id="13880-109">To create a production order header</span></span>  
+1.  <span data-ttu-id="13880-110">Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **O.P. Planificadas en firme** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="13880-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="13880-111">Seleccione la acción **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="13880-111">Choose the **New** action.</span></span>  
+3.  <span data-ttu-id="13880-112">En el campo **N.º**,</span><span class="sxs-lookup"><span data-stu-id="13880-112">In the **No.**</span></span> <span data-ttu-id="13880-113">inserte el número siguiente de la serie.</span><span class="sxs-lookup"><span data-stu-id="13880-113">field, insert the next number in the series.</span></span>  
+4.  <span data-ttu-id="13880-114">En el campo **Tipo procedencia mov.**, seleccione la procedencia del movimiento de la orden de producción.</span><span class="sxs-lookup"><span data-stu-id="13880-114">In the **Source Type** field, select the source of the production order.</span></span>
 
-    <span data-ttu-id="ba8ce-115">Aquí puede seleccionar producir para una familia de productos.</span><span class="sxs-lookup"><span data-stu-id="ba8ce-115">Here you can select to produce for a family of items.</span></span> <span data-ttu-id="ba8ce-116">Para obtener más información, consulte [Trabajar con familias de producción](production-how-work-family.md).</span><span class="sxs-lookup"><span data-stu-id="ba8ce-116">For more information, see [Work With Production Families](production-how-work-family.md).</span></span>
-5.  <span data-ttu-id="ba8ce-117">En el campo **Cód. procedencia mov.**, seleccione el código de producto, familia o cabecera de venta para el cual se va a generar la orden de producción.</span><span class="sxs-lookup"><span data-stu-id="ba8ce-117">In the **Source No.** field, select the item number, family, or sales header for which the production order is to be generated.</span></span>  
-6.  <span data-ttu-id="ba8ce-118">Rellene los campos **Cantidad** y **Fecha vencimiento** según sus especificaciones.</span><span class="sxs-lookup"><span data-stu-id="ba8ce-118">Fill in the **Quantity** and **Due Date** fields according to your specifications.</span></span>  
+    <span data-ttu-id="13880-115">Aquí puede seleccionar producir para una familia de productos.</span><span class="sxs-lookup"><span data-stu-id="13880-115">Here you can select to produce for a family of items.</span></span> <span data-ttu-id="13880-116">Para obtener más información, consulte [Trabajar con familias de producción](production-how-work-family.md).</span><span class="sxs-lookup"><span data-stu-id="13880-116">For more information, see [Work With Production Families](production-how-work-family.md).</span></span>
+5.  <span data-ttu-id="13880-117">En el campo **Cód. procedencia mov.**, seleccione el código de producto, familia o cabecera de venta para el cual se va a generar la orden de producción.</span><span class="sxs-lookup"><span data-stu-id="13880-117">In the **Source No.** field, select the item number, family, or sales header for which the production order is to be generated.</span></span>  
+6.  <span data-ttu-id="13880-118">Rellene los campos **Cantidad** y **Fecha vencimiento** según sus especificaciones.</span><span class="sxs-lookup"><span data-stu-id="13880-118">Fill in the **Quantity** and **Due Date** fields according to your specifications.</span></span>  
 
-<span data-ttu-id="ba8ce-119">Cuando cambian las necesidades de producción, como componentes u operaciones, puede replantear rápidamente la orden de producción.</span><span class="sxs-lookup"><span data-stu-id="ba8ce-119">When production requirements change, such as components or operations, you can quickly replan the production order.</span></span> <span data-ttu-id="ba8ce-120">Para obtener más información, vea [Actualizar o replanificar las órdenes de producción directamente](production-how-to-replan-refresh-production-orders.md).</span><span class="sxs-lookup"><span data-stu-id="ba8ce-120">For more information, see [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md).</span></span> 
+<span data-ttu-id="13880-119">Cuando cambian las necesidades de producción, como componentes u operaciones, puede replantear rápidamente la orden de producción.</span><span class="sxs-lookup"><span data-stu-id="13880-119">When production requirements change, such as components or operations, you can quickly replan the production order.</span></span> <span data-ttu-id="13880-120">Para obtener más información, vea [Actualizar o replanificar las órdenes de producción directamente](production-how-to-replan-refresh-production-orders.md).</span><span class="sxs-lookup"><span data-stu-id="13880-120">For more information, see [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md).</span></span> 
 
-## <a name="see-also"></a><span data-ttu-id="ba8ce-121">Consulte también</span><span class="sxs-lookup"><span data-stu-id="ba8ce-121">See Also</span></span>  
-<span data-ttu-id="ba8ce-122">[Fabricación](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="ba8ce-122">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
-[<span data-ttu-id="ba8ce-123">Configuración de fabricación</span><span class="sxs-lookup"><span data-stu-id="ba8ce-123">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-<span data-ttu-id="ba8ce-124">[Planificación](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="ba8ce-124">[Planning](production-planning.md)    </span></span>  
-[<span data-ttu-id="ba8ce-125">Grupos contables inventario</span><span class="sxs-lookup"><span data-stu-id="ba8ce-125">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="ba8ce-126">Compras</span><span class="sxs-lookup"><span data-stu-id="ba8ce-126">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="ba8ce-127">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ba8ce-127">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="13880-121">Consulte también</span><span class="sxs-lookup"><span data-stu-id="13880-121">See Also</span></span>  
+<span data-ttu-id="13880-122">[Fabricación](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="13880-122">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+[<span data-ttu-id="13880-123">Configuración de fabricación</span><span class="sxs-lookup"><span data-stu-id="13880-123">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+<span data-ttu-id="13880-124">[Planificación](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="13880-124">[Planning](production-planning.md)    </span></span>  
+[<span data-ttu-id="13880-125">Inventario</span><span class="sxs-lookup"><span data-stu-id="13880-125">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="13880-126">Compras</span><span class="sxs-lookup"><span data-stu-id="13880-126">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="13880-127">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="13880-127">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
