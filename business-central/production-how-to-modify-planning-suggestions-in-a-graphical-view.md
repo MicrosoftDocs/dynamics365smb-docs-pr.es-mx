@@ -1,8 +1,6 @@
 ---
 title: Cómo modificar las sugerencias de planificación en una vista gráfica | Documentos de Microsoft
-description: Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de cálculo de planificación para modificar los pedidos de suministros sugeridos para poder confirmarlos ejecutando la función **Ejecutar mensajes acción**. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica.
-services: project-madeira
-documentationcenter: ''
+description: Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de cálculo de planificación para modificar las órdenes de suministro sugeridas para poder confirmarlos ejecutando la función **Ejecutar mensajes acción**. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,23 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3aea6aa1aab6b5006bdc548b99bfa037e995de32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d068ed3e206f7d93b15d0cd2af56a7557ce3977
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313383"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877938"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modificar las sugerencias de planificación en una vista gráfica
-Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de cálculo de planificación para modificar los pedidos de suministros sugeridos para poder confirmarlos ejecutando la función **Ejecutar mensajes acción**. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica.
+Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de cálculo de planificación para modificar las órdenes de suministro sugeridas para poder confirmarlos ejecutando la función **Ejecutar mensajes acción**. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica.
 
 En la página **Disponibilidad de producto por escala de tiempo**, puede modificar algunas órdenes de suministro y sugerencias si arrastra los elementos del eje x para cambiar la cantidad o si arrastra los elementos del eje y para cambiar la fecha de vencimiento.  
 
  En la página **Disponib. prod. por escala de tiempo** y **Hoja planificación** puede realizar los cambios siguientes:  
 
--   Modificar un pedido de suministro sugerido que solo existe como una línea de la planificación.  
--   Modificar el pedido de suministro existente que el sistema de planificación sugiere cambiar.  
--   Crear un nuevo pedido de suministro sugerido y modificarlo.  
+-   Modificar una orden de suministro sugerido que solo existe como una línea de la planificación.  
+-   Modificar la orden de suministro existente que el sistema de planificación sugiere cambiar.  
+-   Crear un nuevo orden de suministro sugerido y modificarlo.  
 
 Para obtener más información acerca de los tipos de línea de planificación que se muestran, consulte el campo Descripción en la ficha desplegable **Cambios de eventos**.  
 
@@ -36,13 +34,13 @@ Cuando elige **Guardar cambios** en la página **Disponib. prod. por escala de t
 
 El siguiente procedimiento muestra cómo modificar las sugerencias de suministro mediante arrastrar y soltar. Como alternativa, puede cambiar los campos **Fecha de vencimiento** y **Cantidad** en la ficha desplegable **Cambios en eventos** y ver inmediatamente los cambios gráficamente en la ficha desplegable **Escala de tiempo** en la página **Hoja planificación**.  
 
-## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Para modificar los pedidos de suministros sugeridos en la vista gráfica  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Disponib. prod. por escala de tiempo** y luego elija el enlace relacionado.  
+## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Para modificar las órdenes de suministro sugeridas en la vista gráfica  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Disponib. prod. por escala de tiempo** y luego elija el enlace relacionado.  
 
     La página **Disponib. prod. por escala de tiempo** se abre con el número de producto, almacén y variante del producto en la línea seleccionada de la planificación prellenada en los campos en la ficha desplegable **Opciones**. La ficha desplegable **Escala de tiempo** muestra una representación gráfica del inventario proyectado del producto, incluidas las sugerencias de la planificación.  
 
 2.  Asegúrese de que el campo **Incluir sugerencias de planificación** se ha seleccionado.  
-3.  Buscar los pedidos de suministro sugeridos que desea modificar. Puede identificar los elementos modificables por el círculo verde y el icono de disco. Para obtener más información acerca de los diferentes símbolos, consulte [Símbolos e iconos en la ficha desplegable](production-how-to-modify-planning-suggestions-in-a-graphical-view.md#symbols-and-icons-on-the-timeline-fasttab).  
+3.  Buscar las órdenes de suministro sugeridas que desea modificar. Puede identificar los elementos modificables por el círculo verde y el icono de disco. Para obtener más información acerca de los diferentes símbolos, consulte [Símbolos e iconos en la ficha desplegable](production-how-to-modify-planning-suggestions-in-a-graphical-view.md#symbols-and-icons-on-the-timeline-fasttab).  
 4.  Coloque el puntero sobre el círculo verde hasta que se agrande y el puntero cambie a la forma de movimiento (cuatro flechas).  
 5.  Mantenga pulsado el botón del mouse mientras arrastra el puntero hacia arriba o hacia abajo para modificar la cantidad. Mantenga pulsado el botón del mouse mientras arrastra el puntero hacia la izquierda y hacia la derecha para modificar la fecha de vencimiento.  
 6.  Además de mover los elementos mediante arrastrar y soltar, puede modificar las sugerencias de planificación utilizando varias funciones del menú desplegable. Acceda al menú desplegable para el círculo verde de un producto de suministro sugerido y seleccione una las funciones siguientes  
@@ -62,17 +60,17 @@ Para implementar los cambios del plan de suministro, debe seguir los mensajes de
  |Símbolo/icono|Descripción|  
  |------------------|---------------------------------------|  
  |Cruz negra|Pedidos (aprovisionamiento y demanda).<br /><br /> -   No puede modificar.<br />-   Visible cuando está seleccionado el campo **Mostrar inventario proyectado** (gráfico anaranjado).|  
- |Círculo rojo|Pedidos de suministros existentes que no están incluidos en las sugerencias de la planificación.<br /><br /> -   No puede modificar.<br />-   Visible cuando está seleccionado el campo **Mostrar inventario proyectado** (gráfico anaranjado).|  
+ |Círculo rojo|órdenes de suministro existentes que no están incluidos en las sugerencias de la planificación.<br /><br /> -   No puede modificar.<br />-   Visible cuando está seleccionado el campo **Mostrar inventario proyectado** (gráfico anaranjado).|  
  |Asterisco amarillo|Previsión de la demanda.<br /><br /> -   No puede modificar.<br />-   Visible cuando el campo **Nombre de previsión** tiene un valor.<br /><br /> Cuando se seleccionan los campos **Mostrar inventario proyectado** e **Incluir sugerencias de planificación**, cada asterisco amarillo tiene una parte vinculada en el gráfico opuesto. Esto ilustra como un suministro sugerido satisface la demanda prevista.|  
- |Círculo verde con un icono en forma de disco que tiene una cruz de color rojo|Pedido de suministro sugerido con el mensaje de acción *Cancelar*.<br /><br /> -   No puede modificar.<br />-   Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).|  
- |Círculo verde con un icono en forma de disco que tiene un asterisco|Pedidos de suministros sugeridos con los mensajes de acción *Nuevo*.<br /><br /> -   Se puede modificar.<br />-   Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).|  
- |Círculo verde con un icono en forma de disco que tiene una o dos flechas|Pedidos de suministros sugeridos con el mensaje de acción *Volver a programar*, *Cambiar cdad.* o *Reprog. y Cambiar cdad.*<br /><br /> -   Se puede modificar.<br />-   Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).<br /><br /> Las flechas reflejan la dirección de la sugerencia de la planificación. Por ejemplo, una flecha izquierda con una flecha hacia arriba refleja el mensaje de acción *Reprog. y Cambiar cdad.* que consiste en una actualización hacia atrás y un aumento de cantidad.|  
+ |Círculo verde con un icono en forma de disco que tiene una cruz de color rojo|orden de suministro sugerido con el mensaje de acción *Cancelar*.<br /><br /> -   No puede modificar.<br />-   Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).|  
+ |Círculo verde con un icono en forma de disco que tiene un asterisco|órdenes de suministro sugeridos con los mensajes de acción *Nuevo*.<br /><br /> -   Se puede modificar.<br />-   Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).|  
+ |Círculo verde con un icono en forma de disco que tiene una o dos flechas|órdenes de suministro sugeridos con el mensaje de acción *Volver a programar*, *Cambiar cdad.* o *Reprog. y Cambiar cdad.*<br /><br /> -   Se puede modificar.<br />-   Visible cuando está seleccionado el campo **Incluir sugerencias de planificación** (gráfico verde).<br /><br /> Las flechas reflejan la dirección de la sugerencia de la planificación. Por ejemplo, una flecha izquierda con una flecha hacia arriba refleja el mensaje de acción *Reprog. y Cambiar cdad.* que consiste en una actualización hacia atrás y un aumento de cantidad.|  
 
 Cuando acceda al menú desplegable para la ficha desplegable **Escala de tiempo**, las funciones siguientes aparecen dependiendo de lo que elija  
 
  |Función|Descripción|  
  |--------------|---------------------------------------|  
- |**Crear nuevo suministro**|Crea un nuevo elemento en el punto donde se accede al menú desplegable, que representa una nueva orden de suministro sugerida. Se convierte en una nueva línea en la hoja de planificación cuando elige **Guardar cambios** en la pestaña **Procesar**.<br /><br /> Cualquier valor de filtro que esté definido en los campos **Filtro almacén** o **Filtro variante** en la ficha desplegable **Opciones** se aplicará a las nuevas órdenes de suministros. **Nota**: Si los campos de filtro están vacíos o tienen más de un valor filtro, las nuevas órdenes de suministros se crean utilizando los siguientes códigos: <ul><li>Si el campo de filtro está vacío, el nuevo suministro se crea sin un código de almacén o variante.</li><li>Si se define más de un valor de filtro, el nuevo suministro se crea utilizando el primer valor de filtro según la ordenación.</li></ul> Si desea otro código de variante o de almacén en el nuevo pedido de suministro, debe modificarlo manualmente en la nueva línea de planificación.|  
+ |**Crear nuevo suministro**|Crea un nuevo elemento en el punto donde se accede al menú desplegable, que representa una nueva orden de suministro sugerida. Se convierte en una nueva línea en la hoja de planificación cuando elige **Guardar cambios** en la pestaña **Procesar**.<br /><br /> Cualquier valor de filtro que esté definido en los campos **Filtro almacén** o **Filtro variante** en la ficha desplegable **Opciones** se aplicará a las nuevas órdenes de suministro. **Nota**: Si los campos de filtro están vacíos o tienen más de un valor filtro, las nuevas órdenes de suministro se crean utilizando los siguientes códigos: <ul><li>Si el campo de filtro está vacío, el nuevo suministro se crea sin un código de almacén o variante.</li><li>Si se define más de un valor de filtro, el nuevo suministro se crea utilizando el primer valor de filtro según la ordenación.</li></ul> Si desea otro código de variante o de almacén en el nuevo orden de suministro, debe modificarlo manualmente en la nueva línea de planificación.|  
  |**Auto-Ajuste suministro**|Optimiza un nuevo suministro que ha creado en el gráfico para asegurarse de que crea un inventario de cero antes del suministro siguiente.|  
  |**Eliminar suministro**|Elimina el producto en la ficha desplegable **Escala de tiempo** y elimina la línea de planificación cuando elige **Guardar cambios** en la pestaña **Proceso**. El icono cambia a un disco que tiene una cruz de color rojo cuando se ha eliminado el suministro. **Nota**: Solo puede eliminar un suministro de tipo de mensajes de acción *Nuevo*. Después de elegir **Guardar cambios** en la pestaña **Proceso** debe eliminar manualmente la línea de planificación en cuestión en la hoja de planificación o demanda.|  
  |**Mostrar documento**|Abre el pedido, la línea de planificación o la previsión que el elemento representa.|  

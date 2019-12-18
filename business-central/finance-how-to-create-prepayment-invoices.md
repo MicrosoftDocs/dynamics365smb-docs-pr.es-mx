@@ -1,8 +1,6 @@
 ---
 title: Cómo crear facturas de anticipo | Documentos de Microsoft
 description: Conocer el modo de gestionar las situaciones en las que requiere anticipo, o lo requiere el proveedor.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5841329a2e369be081c2728edf1837e85859f38e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ee10367990ebb0e60879ac885ad03072dd877c2a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302151"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879739"
 ---
 # <a name="create-prepayment-invoices"></a>Crear facturas de anticipo
 Si desea que sus clientes realicen el pago antes de enviarles un pedido o su proveedor le requiere que efectúe el pago antes de enviarle un pedido, puede utilizar la funcionalidad de anticipo.  
@@ -27,7 +25,7 @@ Después de crear un pedido de venta o de compra, puede crear una factura de ant
 El procedimiento siguiente describe cómo facturar un anticipo del pedido. Los pasos son parecidos para pedidos de compra.  
 
 ## <a name="to-create-a-prepayment-invoice"></a>Para crear una factura de anticipo  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2. Crear un nuevo pedido de venta. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).  
 
     En la ficha desplegable **Anticipo**, el campo **% anticipo** de la cabecera se rellenará automáticamente si existe un porcentaje de anticipo predeterminado en la ficha del cliente. Puede cambiar el contenido del campo. El porcentaje de anticipo sólo se copia desde la cabecera en las líneas que no copian dicho porcentaje predeterminado del producto.  
@@ -63,6 +61,6 @@ Puede emitir facturas de anticipo adicionales para el pedido. Para ello, aumente
 
 ## <a name="see-also"></a>Consulte también  
 [Facturación de anticipos](finance-invoice-prepayments.md)  
-[Tutorial: Configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+[Tutorial: Configuración y facturación de anticipos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

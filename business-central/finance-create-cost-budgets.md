@@ -1,8 +1,6 @@
 ---
 title: Crear presupuestos costo | Documentos de Microsoft
 description: En este tema se proporciona información general sobre dónde crear y analizar presupuestos de costos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c107daa3725cf2f8b06039655738e8763cc0f6b1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 33999778898c671a87638ef5868103ea34875ff8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306423"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879835"
 ---
 # <a name="creating-cost-budgets"></a>Crear presupuesto costo
 El presupuesto en contabilidad de costos se parece al presupuesto de la contabilidad. Un presupuesto de costos se crea a partir de los tipos de costo del mismo modo como un presupuesto para la contabilidad se crea a partir de las cuentas de contabilidad.  
 
 Un presupuesto de costo se crea para un determinado periodo de tiempo, por ejemplo, un ejercicio. Puede crear tantos presupuestos de costo como sea necesario. Puede crear un presupuesto de costos nuevo, importarlo o copiar uno ya existente como base. Para obtener más información, consulte [Crear presupuestos contables](finance-how-create-budgets.md).
 
-Utilice las siguientes páginas para crear y analizar presupuestos de costo. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") para encontrar una página, y luego lea la información sobre herramientas para cada uno.
+Utilice las siguientes páginas para crear y analizar presupuestos de costo. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") para encontrar una página, y luego lea la información sobre herramientas para cada uno.
 
 |Para|Vea|  
 |--------|---------|  

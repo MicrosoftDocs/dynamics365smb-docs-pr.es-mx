@@ -1,8 +1,6 @@
 ---
 title: 'Detalles de diseño: reserva, seguimiento de pedidos y mensajes de acciones | Documentos de Microsoft'
 description: El sistema de reservas es completo e incluye las características correlacionadas y paralelas de seguimiento de pedidos y mensajes de acción.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1408c3e97ffd54f516bf18823442f3f986131038
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306855"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878448"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones
 El sistema de reservas es completo e incluye las características correlacionadas y paralelas de seguimiento de pedidos y mensajes de acción.  
@@ -31,7 +29,7 @@ El sistema de reservas es completo e incluye las características correlacionada
 
  El sistema de reservas también constituye la base estructural del sistema de seguimiento de productos. Para obtener más información, consulte [Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md).  
 
- Para obtener información más detallada acerca de cómo funciona el programa de reservas, consulte la documentación sobre la tabla de movimientos de reserva en [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348).  
+ Para obtener información más detallada acerca de cómo funciona el programa de reservas, consulte la documentación sobre la tabla de movimientos de reserva en [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  
 
 ## <a name="reservation"></a>Reservas  
  Una reserva es un vínculo firme que conecta una demanda determinada con un aprovisionamiento específico. Este vínculo afecta directamente a la transacción de inventario posterior y garantiza la liquidación correcta de los movimientos de producto para fines de valoración de costos. Una reserva reemplaza el método de costo predeterminado de un producto. Para obtener más información, consulte "Detalles de diseño: Métodos de costo".  
@@ -184,7 +182,7 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 
  El campo **Nº lote** ahora está rellenado en el movimiento de seguimiento de pedidos para la tabla 5407 porque los números de lote se han asignado a las líneas de componente de la orden de producción.  
 
- Para ver más ejemplos de movimientos de seguimiento de pedidos en la tabla **Mov. reserva**, consulte la documentación sobre la tabla de movimientos de reserva en [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348) (requiere inicio de sesión).
+ Para ver más ejemplos de movimientos de seguimiento de pedidos en la tabla **Mov. reserva**, consulte la documentación sobre la tabla de movimientos de reserva en [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348) (requiere inicio de sesión).
 
 ## <a name="action-messaging"></a>Mensajes de acción  
  Cuando el sistema de seguimiento de pedidos detecta un desequilibrio en la red de pedidos, crea automáticamente un mensaje de acción para notificar al usuario. Los mensajes de acción son llamadas generadas por el sistema para que el usuario realice una acción que especifican los detalles de desequilibrio y sugerencias sobre cómo restaurar los saldos a la red de pedidos. Se muestran como líneas de planificación en la página **Hoja planificación** cuando se elige **Traer mensajes acción**. Además, los mensajes de acción se muestran en líneas de planificación generadas por la ejecución de la planificación para reflejar las sugerencias del sistema de planificación sobre cómo restaurar los saldos en la red de pedidos. En ambos casos, se ejecutan propuestas en la red de pedidos al elegir **Ejecutar mensajes de acción**.  
@@ -195,7 +193,7 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 
 |Mensaje acción|Descripción|  
 |--------------------|---------------------------------------|  
-|**Cambiar cdad.**|Cambia la cantidad en un pedido de aprovisionamiento existente para cubrir una demanda modificada o nueva.|  
+|**Cambiar cdad.**|Cambia la cantidad en una orden de suministro existente para cubrir una demanda modificada o nueva.|  
 |**Reprogramar**|Vuelve a programar la fecha de vencimiento en un pedido existente.|  
 |**Volver a programar & camb. cdad.**|Vuelve a programar la fecha de vencimiento y cambia la cantidad en un pedido existente.|  
 |**Nuevo**|Crea un pedido nuevo si la demanda no se puede satisfacer mediante ninguno de los mensajes de acción anteriores.|  
@@ -206,8 +204,8 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 1.  Comprobar cualquier exceso de aprovisionamiento en el registro del seguimiento de pedido existente para esta demanda.  
 2.  Comprobar recepciones planeadas y programadas en pedido con fecha de recepción. Se selecciona la última fecha posible.  
 3.  Comprobar existencias disponibles.  
-4.  Comprobar si un pedido de aprovisionamiento existe en el registro actual de seguimiento de pedido. Si es así, el programa emite un mensaje de acción de tipo **Cambiar** para incrementar el pedido.  
-5.  Comprobar que no exista un pedido de aprovisionamiento en el registro actual de seguimiento de pedido. Si es así, el programa emite un mensaje de acción de tipo **Nuevo** para crear un pedido nuevo.  
+4.  Comprobar si una orden de suministro existe en el registro actual de seguimiento de orden. Si es así, el programa emite un mensaje de acción de tipo **Cambiar** para incrementar el pedido.  
+5.  Comprobar que no exista una orden de suministro en el registro actual de seguimiento de orden. Si es así, el programa emite un mensaje de acción de tipo **Nuevo** para crear un pedido nuevo.  
 
  Las demandas abiertas pasan por la lista y desplazan el aprovisionamiento disponible en cada momento. La demanda restante se cubre siempre mediante el cheque 4 o el cheque 5.  
 

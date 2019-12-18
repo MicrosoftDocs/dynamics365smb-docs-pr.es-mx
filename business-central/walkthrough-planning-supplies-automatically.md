@@ -1,8 +1,6 @@
 ---
 title: 'Tutorial: planificación automática de suministros | Documentos de Microsoft'
 description: Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálculo del programa maestro de producción (MPS) y del plan de necesidades de material (MRP) basándose en la demanda real y prevista.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ba3e5b085dba8b577ed9ca54e3956a02d5ecd841
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ec5de84594d733886bb42cfe251a83230556b060
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314783"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881905"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Tutorial: planificación automática de suministros
 
@@ -28,7 +26,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 -   MPS se refiere al cálculo de un programa de producción principal basado en la demanda real y en la previsión de demanda. El cálculo de MPS se utiliza para productos finales que tengan una previsión o una línea de pedido de venta. Estos productos se denominan "productos MPS" y se identifican dinámicamente cuando comienza el cálculo.  
 -   MRP se refiere al cálculo de las necesidades de material basado en la demanda real de componentes y en la previsión de demanda de componentes. Sólo se calcula para los productos que no son productos de MPS. La finalidad global de MRP es la de proporcionar planes con fases temporales, por producto, para suministrar el producto correcto en el momento correcto, en el lugar correcto y en la cantidad correcta.  
 
- Los algoritmos de planificación usados tanto para MPS como para MRP son idénticos. Los algoritmos de planificación utilizan saldos netos, reutilizan pedidos de suministro existentes y mensajes de acción. El proceso del sistema de planificación examina lo que se necesita o se va a necesitar (la demanda) y lo que hay disponible o se espera que haya (el suministro). Cuando estas cantidades se comparan, se muestran mensajes de acción en la hoja de planificación. Los mensajes de acción son sugerencias para crear un nuevo pedido de suministro, cambiar un pedido de suministro (la cantidad o la fecha) o cancelar un pedido de suministro existente. Los pedidos de suministro pueden ser órdenes de producción, pedidos de compra y pedidos de transferencia. Para obtener información detallada, consulte [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md).  
+ Los algoritmos de planificación usados tanto para MPS como para MRP son idénticos. Los algoritmos de planificación utilizan saldos netos, reutilizan órdenes de suministro existentes y mensajes de acción. El proceso del sistema de planificación examina lo que se necesita o se va a necesitar (la demanda) y lo que hay disponible o se espera que haya (el suministro). Cuando estas cantidades se comparan, se muestran mensajes de acción en la hoja de planificación. Los mensajes de acción son sugerencias para crear un nuevo orden de suministro, cambiar una orden de suministro (la cantidad o la fecha) o cancelar una orden de suministro existente. Los órdenes de suministro pueden ser órdenes de producción, órdenes de compra y órdenes de transferencia. Para obtener información detallada, consulte [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md).  
 
  El resultado de planificación se calcula en parte con los conjuntos demanda-suministro de la base de datos y en parte con la configuración de fichas de unidades de almacenamiento o fichas de producto, L.M. producción y rutas.  
 
@@ -39,7 +37,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 -   Creación del pedido de venta y cálculo de un plan de suministro completo.  
 -   Visualización de los parámetros de planificación y los movimientos de seguimiento de pedidos detrás de las líneas de planificación.  
--   Creación automática de los pedidos de suministros sugeridos.  
+-   Creación automática de las órdenes de suministro sugeridas.  
 -   Creación de nueva demanda de ventas y replanificar consiguientemente.  
 
 ## <a name="roles"></a>Acciones  
@@ -58,9 +56,9 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
  Eduardo, el planificador de producción, realiza la planificación de suministros de rutina para la primera semana de febrero de 2014. Realiza el filtrado en su propio almacén, AZUL, y especifica el intervalo de planificación de la fecha de trabajo 23-01-2014 a 07-02-2014 antes de calcular un plan de suministro inicial.  
 
- La única demanda de dicha semana es para el pedido de venta de GDE Distribución S.A.. Eduardo ve que ninguna de las líneas de planificación tiene advertencias y crea pedidos de suministro sin cambios para las líneas de planificación sugeridas.  
+ La única demanda de dicha semana es para el pedido de venta de GDE Distribución S.A.. Eduardo ve que ninguna de las líneas de planificación tiene advertencias y crea órdenes de suministro sin cambios para las líneas de planificación sugeridas.  
 
- Al día siguiente, antes de que se inicie o registre ninguno de los pedidos de suministro iniciales, notifican a Eduardo que otro cliente ha realizado un pedido de diez bicicletas de ruta para su envío el 12-02-2014. Eduardo vuelve a calcular para ajustar el plan de suministro según el cambio en la demanda. El nuevo cálculo arroja un plan de saldo periodo que sugiere cambios tanto en el tiempo como en la cantidad de algunos de los pedidos de suministro creados la primera vez.  
+ Al día siguiente, antes de que se inicie o registre ninguno de las órdenes de suministro iniciales, notifican a Eduardo que otro cliente ha realizado un orden de diez bicicletas de ruta para su remisión el 12-02-2014. Eduardo vuelve a calcular para ajustar el plan de suministro según el cambio en la demanda. El nuevo cálculo arroja un plan de saldo periodo que sugiere cambios tanto en el tiempo como en la cantidad de algunos de las órdenes de suministro creadas la primera vez.  
 
  Durante los diversos pasos de planificación, Eduardo consulta los pedidos implicados y utiliza la función Seguimiento pedido para ver qué demanda es cubierta con qué suministro.  
 
@@ -76,7 +74,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 ### <a name="to-change-selected-planning-parameters"></a>Para cambiar los parámetros de planificación seleccionados  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Unidades de almacenam.** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Unidades de almacenamiento** y luego elija el enlace relacionado.  
 2.  Abra la ficha de unidad de almacenamiento AZUL para el producto 1100, rueda delantera.  
 3.  En la ficha desplegable **Planificación**, rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -93,7 +91,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 ### <a name="to-create-the-sales-order"></a>Para crear el pedido de venta  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  En la página **Pedido de venta**, rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -105,7 +103,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>Crear un plan regenerativo para satisfacer la demanda en el almacén AZUL.  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja planificación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de planificación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Calcular planificación regenerativa**.  
 3.  En la página **Calcular plan - Hoja planif.** rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -128,7 +126,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Para calcular MRP para incluir las necesidades subyacentes del componente  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja planificación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de planificación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Calcular planificación regenerativa**.  
 3.  En la página **Calcular plan - Hoja planif.** rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -138,7 +136,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 4.  Elija el botón **Aceptar** para comenzar la ejecución de la planificación.  
 
-     Se crea un total de 14 líneas de planificación que sugieren pedidos de suministro para toda la demanda que representa el pedido de venta de bicicletas de ruta del almacén AZUL.  
+     Se crea un total de 14 líneas de planificación que sugieren órdenes de suministro para toda la demanda que representa la orden de venta de bicicletas de ruta del almacén AZUL.  
 
 ## <a name="analyzing-the-planning-result"></a>Análisis del resultado de planificación  
  Para estudiar las cantidades sugeridas, Eduardo analiza según líneas de planificación seleccionadas para ver movimientos de seguimiento y parámetros de planificación de pedido.  
@@ -189,9 +187,9 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
  De este modo finaliza el análisis del plan de suministro inicial. Observe que la casilla **Aceptar mensaje acción** está seleccionada en todas las líneas de planificación, lo que indica que están listas para convertirse en órdenes de suministro.  
 
 ## <a name="carrying-out-action-messages"></a>Realización de mensajes de acción  
- A continuación, Eduardo convierte las líneas de planificación sugeridas en pedidos de suministro con la función **Ejecutar mensajes acción**.  
+ A continuación, Eduardo convierte las líneas de planificación sugeridas en órdenes de suministro con la función **Ejecutar mensajes acción**.  
 
-### <a name="to-automatically-create-the-suggested-supply-orders"></a>Para crear automáticamente los pedidos de suministros sugeridos  
+### <a name="to-automatically-create-the-suggested-supply-orders"></a>Para crear automáticamente las órdenes de suministro sugeridas  
 
 1.  Seleccione la casilla **Aceptar mensaje acción** en todas las líneas de planificación con una advertencia de tipo Excepción.  
 2.  Seleccione la acción **Ejecutar mensajes de acción**.  
@@ -201,13 +199,13 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
     |----------------------|--------------------|--------------------|  
     |Planif. en firme|Crear ped. compra|Crear ped. transf.|  
 
-4.  Elija el botón **Aceptar** para crear automáticamente todos los pedidos de suministro sugeridos.  
+4.  Elija el botón **Aceptar** para crear automáticamente todos las órdenes de suministro sugeridas.  
 5.  Cierre la página **Hoja planificación** vacía.  
 
  De este modo finaliza el cálculo inicial, análisis y creación de un plan de suministro para la demanda en el almacén AZUL para la primera semana de febrero. En la siguiente sección, otro cliente realiza un pedido de diez bicicletas de ruta, por lo que Eduardo deberá replanificar.  
 
 ## <a name="creating-a-net-change-plan"></a>Creación de un plan de saldo periodo  
- Al día siguiente, antes de que se inicie o registre ninguno de los pedidos de suministro iniciales, llega un nuevo pedido de venta de Libros S.A. de diez bicicletas de ruta para enviarse el 12-02-2014. A Eduardo le notifican la nueva demanda y pasa a replanificar para ajustar el plan de suministro actual. Eduardo utiliza la función Planif. saldo periodo para calcular únicamente los cambios que se realizan a la demanda o al suministro desde la última ejecución de la planificación. Además, expande el periodo de planificación al 14-02-2014 para incluir la nueva demanda de venta el 12-02-2014.  
+ Al día siguiente, antes de que se inicie o registre ninguna de las órdenes de suministro iniciales, llega una nueva orden de venta de Libros S.A. de diez bicicletas de ruta para enviarse el 12-02-2014. A Eduardo le notifican la nueva demanda y pasa a replanificar para ajustar el plan de suministro actual. Eduardo utiliza la función Planif. saldo periodo para calcular únicamente los cambios que se realizan a la demanda o al suministro desde la última ejecución de la planificación. Además, expande el periodo de planificación al 14-02-2014 para incluir la nueva demanda de venta el 12-02-2014.  
 
  El sistema de planificación calcula el mejor modo de cubrir la demanda para estos dos productos idénticos, como consolidar algunos pedidos de compra y órdenes de producción, reprogramar otros pedidos y crear nuevos pedidos donde se requiera.  
 
@@ -222,7 +220,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 3.  Acepte el aviso de disponibilidad y elija el botón **Sí** para registrar la cantidad de demanda.  
 4.  Replanifique para ajustar el plan de suministro actual.  
-5.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja planificación** y luego elija el enlace relacionado.  
+5.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de planificación** y luego elija el enlace relacionado.  
 6.  Seleccione la acción **Calcular planificación de saldo neto**.  
 7.  En la página **Calcular plan - Hoja planif.** rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -239,7 +237,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
  Todas las demás líneas de planificación contienen un mensaje de acción **Reprog. y camb. cdad.** Esto indica que, además de aumentarse en cantidad, se trasladan las fechas de vencimiento en relación con el plan de suministro para incluir la cantidad adicional en el tiempo de producción disponible (capacidad). Los componentes comprados se vuelven a programar y se aumentan para suministrar las órdenes de producción. Empiece a analizar el nuevo plan.  
 
 ## <a name="analyzing-the-changed-planning-result"></a>Análisis del resultado de planificación modificado  
- Dado que todos los productos planificados de lote a lote en el filtro, 1100 a 1300, tienen un periodo de reprogramación de dos semanas, se modifican todos sus pedidos de suministros existentes para cubrir la nueva demanda, que se realiza dentro de las dos semanas especificadas.  
+ Dado que todos los productos planificados de lote a lote en el filtro, 1100 a 1300, tienen un periodo de reprogramación de dos semanas, se modifican todos sus órdenes de suministro existentes para cubrir la nueva demanda, que se realiza dentro de las dos semanas especificadas.  
 
  Varias líneas de planificación se multiplican simplemente por tres para proporcionar 15 bicicletas de ruta en lugar de 5, y las fechas de vencimiento se retroceden para proporcionar las cantidades aumentadas por la fecha de envío del pedido de venta Cannon Group. Para estas líneas de planificación, todas las cantidades pueden ser seguidas. Las líneas de planificación restantes incrementan en diez piezas, además de mover sus fechas de vencimiento. Para estas líneas de planificación, una parte de las cantidades no son seguidas debido a parámetros de planificación diferentes. Empiece a visualizar algunos de estos movimientos de seguimiento del pedido.  
 
@@ -263,7 +261,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 2.  En la página **Orden produc. planif. en firme** para el buje trasero. El pedido existente de diez piezas, que se creó en la primera ejecución de la planificación, se abrirá.  
 3.  Cierre la orden de producción planificada en firme.  
 
- De este modo finaliza el tutorial sobre cómo se utiliza el sistema de planificación para detectar automáticamente la demanda, calcular los pedidos de suministro adecuados según los parámetros de demanda y planificación y, finalmente, crear automáticamente diferentes tipos de pedidos de suministro con las fechas y cantidades adecuadas.  
+ De este modo finaliza el tutorial sobre cómo se utiliza el sistema de planificación para detectar automáticamente la demanda, calcular las órdenes de suministro adecuadas según los parámetros de demanda y planificación y, finalmente, crear automáticamente diferentes tipos de órdenes de suministro con las fechas y cantidades adecuadas.  
 
 ## <a name="see-also"></a>Consulte también  
  [Tutorial de procesos empresariales](walkthrough-business-process-walkthroughs.md)   

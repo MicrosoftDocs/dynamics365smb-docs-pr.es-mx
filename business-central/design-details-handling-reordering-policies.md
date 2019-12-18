@@ -1,8 +1,6 @@
 ---
 title: 'Detalles de diseño: gestión de políticas de reorden | Documentos de Microsoft'
 description: Resumen de las tareas de definición de una directiva de reorden de planificación del suministro.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53d9d0ff2d9d1f42bb7f9c05ed49aa4df20f2a92
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0708a78be4dbd70d8555b8c088fedd88d3fb5459
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307167"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880483"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Detalles de diseño: Gestión de directivas de reorden
 Para que un producto participe en la planificación de aprovisionamiento es necesario definir una directiva de reorden. Existen las cuatro directivas de reorden siguientes:  
@@ -34,7 +32,7 @@ Además del equilibrio general de la oferta y la demanda, el sistema de planific
 
 Un punto de reorden representa la demanda durante un plazo de entrega. Cuando el inventario proyectado está por debajo del nivel de inventario definido por el punto de reorden, ha llegado el momento de pedir más cantidad. Mientras tanto, se prevé que el inventario se reduzca gradualmente y posiblemente alcance cero (o el nivel de inventario de seguridad), hasta que llegue la reposición.  
 
-Por consiguiente, el sistema de planificación sugerirá un pedido de suministros de programación anticipada en el momento en el que el inventario proyectado quede por debajo del punto de reorden.  
+Por consiguiente, el sistema de planificación sugerirá una orden de suministros de programación anticipada en el momento en el que el inventario proyectado quede por debajo del punto de reorden.  
 
 El punto de reorden refleja un determinado nivel de inventario. No obstante, los niveles de inventario pueden variar significativamente durante el ciclo y, por tanto, el sistema de planificación debe supervisar constantemente las existencias disponibles proyectadas.
 
@@ -65,7 +63,7 @@ En la secuencia siguiente se describe cómo se determina el nivel de inventario 
 * Cuando un evento de suministro, como, por ejemplo, un pedido de compra, se ha planificado totalmente, aumentará el inventario proyectado en su fecha de vencimiento.  
 * Cuando se ha satisfecho completamente un evento de demanda, el inventario proyectado no se reducirá inmediatamente. En su lugar, registra un aviso de disminución, que es un registro interno que lleva la fecha y la cantidad de la contribución al inventario proyectado.  
 * Cunando un evento de suministro posterior se planifica y se coloca en la línea temporal, los avisos de disminución registrados se investigan uno a uno hasta la fecha planificada del suministro mientras se actualiza el inventario proyectado. Durante este proceso, se puede alcanzar o pasar el nivel del punto de reorden del aviso de aumento interno.  
-* Si se introduce un nuevo pedido de aprovisionamiento, el sistema comprueba si se hace antes del aprovisionamiento actual. Si lo es, el nuevo aprovisionamiento se convierte en el aprovisionamiento actual y el procedimiento de contrapartida comienza de nuevo.  
+* Si se introduce una nueva orden de suministro, el sistema comprueba si se hace antes del aprovisionamiento actual. Si lo es, el nuevo aprovisionamiento se convierte en el aprovisionamiento actual y el procedimiento de contrapartida comienza de nuevo.  
 
 A continuación se muestra una ilustración gráfica de este principio:  
 
@@ -92,13 +90,13 @@ A continuación se muestra una ilustración gráfica de este principio:
 ## <a name="the-role-of-the-time-bucket"></a>El rol del ciclo
 El propósito del ciclo es recopilar los eventos de demanda dentro del intervalo de tiempo para crear una orden de suministro conjunto.  
 
-En el caso de directivas de reorden que utilizan un punto de reorden se puede definir un ciclo. De este modo se garantiza que se acumula la demanda en el mismo periodo de tiempo antes de comprobar el impacto en el inventario proyectado y si se ha superado el último punto de reorden. Si se sobrepasa el punto de reorden, se programa de forma anticipada un nuevo pedido de aprovisionamiento desde el final del periodo definido por el ciclo. Los ciclos comienzan en la fecha inicial de planificación.  
+En el caso de directivas de reorden que utilizan un punto de reorden se puede definir un ciclo. De este modo se garantiza que se acumula la demanda en el mismo periodo de tiempo antes de comprobar el impacto en el inventario proyectado y si se ha superado el último punto de reorden. Si se sobrepasa el punto de reorden, se programa de forma anticipada una nueva orden de suministro desde el final del periodo definido por el ciclo. Los ciclos comienzan en la fecha inicial de planificación.  
 
 El concepto por ciclos refleja el proceso manual de comprobación del nivel de inventario de un modo frecuente en vez de hacerlo por cada transacción. El usuario debe definir la frecuencia (el ciclo). Por ejemplo, el usuario recopila todas las exigencias de producto de un proveedor para hacer un pedido semanal.  
 
 ![Ejemplo de ciclo en la planificación](media/nav_app_supply_planning_2_reorder_cycle.png "Ejemplo de ciclo en la planificación")  
 
-Por lo general, el ciclo se usa para evitar un efecto de cascada. Por ejemplo, una fila equilibrada de demanda y aprovisionamiento donde se cancela una demanda temprana, o se crea una nueva. El resultado podría ser que se programe cada pedido de suministro (sin incluir el último).
+Por lo general, el ciclo se usa para evitar un efecto de cascada. Por ejemplo, una fila equilibrada de demanda y aprovisionamiento donde se cancela una demanda temprana, o se crea una nueva. El resultado podría ser que se programe cada orden de suministro (sin incluir el último).
 
 ## <a name="staying-under-the-overflow-level"></a>Mantenimiento por debajo de los niveles de desbordamiento
 Cuando se usan directivas de cantidad máxima y cantidad de reorden fija, el sistema de planificación se centra en el inventario proyectado únicamente en el ciclo indicado. Esto significa que el sistema de planificación puede sugerir un suministro superfluo cuando se producen cambios de demanda negativa o de suministro positivo fuera del ciclo determinado. Si, por esta razón, se sugiere un aprovisionamiento superfluo, el sistema de planificación calcula qué cantidad de aprovisionamiento debe disminuirse (o eliminarse) para evitar un aprovisionamiento superfluo. Esta cantidad se denomina “nivel de desbordamiento.” El desbordamiento se comunica como una línea de planificación con una acción de **Cambiar cantidad. (salida)** o **Cancelar** y el mensaje de advertencia siguiente:  
@@ -181,7 +179,7 @@ En este ejemplo, un cliente cambia un pedido de venta de 70 a 40 piezas entre do
 #### <a name="resulting-planning-lines"></a>Líneas de planificación resultantes  
  Se crea una línea de planificación (advertencia) para reducir la compra con 30 de 90 a 60 para mantener el inventario proyectado en 100 según el nivel de desbordamiento.  
 
-![Plan según el nivel de desbordamiento](media/nav_app_supply_planning_2_overflow2.png "Plan según el nivel de desbordamiento")  
+![Planificar de acuerdo con el nivel de desbordamiento](media/nav_app_supply_planning_2_overflow2.png "Planificar de acuerdo con el nivel de desbordamiento")  
 
 > [!NOTE]  
 >  Sin la característica de desbordamiento, no se crea ninguna advertencia si el nivel de inventario proyectado está por encima del inventario máximo. Esto podría provocar un suministro superfluo de 30.
@@ -189,13 +187,13 @@ En este ejemplo, un cliente cambia un pedido de venta de 70 a 40 piezas entre do
 ## <a name="handling-projected-negative-inventory"></a>Gestión de inventario negativo proyectado
 El punto de reorden expresa la demanda prevista durante el plazo del producto. Cuando se supera el punto de reorden, ha llegado el momento de pedir más. Pero el inventario proyectado debe ser lo suficientemente grande como para satisfacer la demanda hasta que se reciba el nuevo pedido. Mientras tanto, el stock de seguridad debe satisfacer las fluctuaciones en la demanda hasta un nivel de servicio objetivo.  
 
- Por tanto, el sistema de planificación considera una emergencia el que una demanda futura no se pueda atender desde el inventario proyectado, o dicho de otro modo, que el inventario proyectado quede en negativo. El sistema se ocupa de dicha excepción mediante la sugerencia de un nuevo pedido de suministro para satisfacer la parte de la demanda que no se puede satisfacer mediante las existencias u otro suministro. El tamaño de pedido de reorden de suministro no tendrá en cuenta el inventario máximo o la cantidad de reorden Tampoco tendrá en cuenta los modificadores Cantidad máxima pedido, Cantidad mínima pedido y Múltiplos de pedido. En su lugar, reflejará la deficiencia exacta.  
+ Por tanto, el sistema de planificación considera una emergencia el que una demanda futura no se pueda atender desde el inventario proyectado, o dicho de otro modo, que el inventario proyectado quede en negativo. El sistema se ocupa de dicha excepción mediante la sugerencia de un nuevo orden de suministro para satisfacer la parte de la demanda que no se puede satisfacer mediante las existencias u otro suministro. El tamaño de pedido de reorden de suministro no tendrá en cuenta el inventario máximo o la cantidad de reorden Tampoco tendrá en cuenta los modificadores Cantidad máxima pedido, Cantidad mínima pedido y Múltiplos de pedido. En su lugar, reflejará la deficiencia exacta.  
 
- La línea de planificación para este tipo pedido de suministro mostrará un icono de advertencia de emergencia y, tras la búsqueda, se proporcionará información adicional para comunicar al usuario la situación.  
+ La línea de planificación para este tipo orden de suministro mostrará un icono de advertencia de emergencia y, tras la búsqueda, se proporcionará información adicional para comunicar al usuario la situación.  
 
  En la ilustración siguiente, el aprovisionamiento D representa un pedido de emergencia que ajustar para inventario negativo.  
 
- ![Sugerencia de planificación de emergencia para evitar inventario negativo](media/nav_app_supply_planning_2_negative_inventory.png "Sugerencia de planificación de emergencia para evitar inventario negativo")  
+ ![Sugerencia de planificación de emergencia para evitar existencias negativas](media/nav_app_supply_planning_2_negative_inventory.png "Sugerencia de planificación de emergencia para evitar existencias negativas")  
 
 1.  El suministro **A**, inventario proyectado inicial, está por debajo del punto de reorden.  
 2.  Se ha creado un nuevo aprovisionamiento programación de forma anticipada (**C**).  
@@ -223,20 +221,20 @@ Las directivas de reorden definen cuánto se debe pedir cuando se debe reponer e
 La directiva Cdad. fija reorden está relacionada con la planificación de inventario de los productos C típicos (costo de inventario bajo, poco riesgo de obsolescencia o muchos productos). Normalmente, esta directiva se usa con relación a un punto de reorden que refleja la demanda anticipada durante el plazo del producto.  
 
 #### <a name="calculated-per-time-bucket"></a>Calculado por ciclo  
-Si el sistema de planificación detecta que se ha alcanzado o superado el punto de pedido en un ciclo determinado (ciclo reorden), por encima del punto de pedido al inicio del periodo o en ese mismo punto, o por debajo al final del periodo o en ese mismo punto, sugerirá crear un nuevo pedido de aprovisionamiento con la cantidad de reorden especificada y anticipará su programación a partir de la primera fecha después de final del ciclo.  
+Si el sistema de planificación detecta que se ha alcanzado o superado el punto de orden en un ciclo determinado (ciclo reorden), por encima del punto de orden al inicio del periodo o en ese mismo punto, o por debajo al final del periodo o en ese mismo punto, sugerirá crear una nueva orden de suministro con la cantidad de reorden especificada y anticipará su programación a partir de la primera fecha después de final del ciclo.  
 
 El concepto de punto de reorden por ciclos reduce el número de sugerencias de suministro. Esto refleja el proceso manual de recorrer con frecuencia el almacén para comprobar el contenido real de varias ubicaciones.  
 
 #### <a name="creates-only-necessary-supply"></a>Crea solo el aprovisionamiento necesario  
-Antes de proponer nuevos pedidos de aprovisionamiento para satisfacer un punto de reorden, el sistema de planificación comprueba si el aprovisionamiento se ha pedido ya para ser recibido en el plazo de entrega del producto. Si un pedido de aprovisionamiento existente puede solucionar el problema llevando el inventario proyectado hasta el punto de reorden o por encima dentro del plazo de entrega, el sistema no sugerirá un nuevo pedido de aprovisionamiento.  
+Antes de proponer nuevas órdenes de suministro para satisfacer un punto de reorden, el sistema de planificación comprueba si el aprovisionamiento se ha pedido ya para ser recibido en el plazo de entrega del producto. Si una orden de suministro existente puede solucionar el problema llevando el inventario proyectado hasta el punto de reorden o por encima dentro del plazo de entrega, el sistema no sugerirá una nueva orden de suministro.  
 
-Los pedidos de suministro que se crean específicamente para satisfacer un punto de reorden se excluyen del equilibrado de suministro normal y no cambiarán posteriormente. Por tanto, si un producto con punto de reorden debe retirarse (no reponerse), es recomendable revisar los pedidos de aprovisionamiento pendientes manualmente o cambiar la directiva de reorden a lote por lote, de modo que el sistema reduzca o cancele los aprovisionamientos superfluos.  
+Los órdenes de suministro que se crean específicamente para satisfacer un punto de reorden se excluyen del equilibrado de suministro normal y no cambiarán posteriormente. Por tanto, si un producto con punto de reorden debe retirarse (no reponerse), es recomendable revisar las órdenes de suministro pendientes manualmente o cambiar la política de reorden a lote por lote, de modo que el sistema reduzca o cancele los aprovisionamientos superfluos.  
 
 #### <a name="combines-with-order-modifiers"></a>Combina con modificadores de pedido  
 Los modificadores de pedido, Cantidad mínima pedido, Cantidad máxima pedido y Múltiplos de pedido, no deben desempeñar un rol amplio cuando se usa la directiva cantidad de pedido fija. No obstante, el sistema de planificación aún tiene en cuenta estos modificadores y disminuye la cantidad a la cantidad de pedido máxima especificada (y crea dos o más aprovisionamientos para alcanzar la cantidad total de pedido), aumenta el pedido a la cantidad de pedido mínima especificada, o la redondea para que llegue al múltiplo del pedido especificado.  
 
 #### <a name="combines-with-calendars"></a>Combina con Calendarios  
-Antes de proponer nuevos pedidos de aprovisionamiento para satisfacer un punto de reorden, el sistema de planificación comprueba si el pedido está programado para un día no laborable, según los calendarios definidos en el campo **Código calendario base** en las páginas **Información empresa** y **Ficha almacén**.  
+Antes de proponer nuevas órdenes de suministro para satisfacer un punto de reorden, el sistema de planificación comprueba si la orden está programada para un día no laborable, según los calendarios definidos en el campo **Código calendario base** en las páginas **Información empresa** y **Ficha almacén**.  
 
 Si la fecha programada es un día no laborable, el sistema de planificación mueve el pedido al próximo día laborable. Esto puede dar lugar a un pedido que cumpla con el punto de reorden pero que no cumpla una demanda específica. Para este tipo de demandas sin saldar, el sistema de planificación crea un suministro extra.  
 
@@ -252,7 +250,7 @@ La directiva de cantidad máxima es una forma de mantener el inventario mediante
 También se aplica a esta directiva todo lo relacionado con la directiva de cantidad de reorden fija. La única diferencia es la cantidad del suministro sugerido. Al usar la directiva de cantidad máxima, la cantidad de reorden se definirá dinámicamente según el nivel de inventario proyectado y, por lo tanto, normalmente será distinta de un pedido a otro.  
 
 #### <a name="calculated-per-time-bucket"></a>Calculado por ciclo  
-La cantidad a pedir se actualmente en el momento (el final de un ciclo) en el que el sistema de planificación detecta que se ha superado el punto de reorden. En este punto, el programa mide la diferencia entre el nivel de inventario proyectado actual y el inventario máximo especificado. Esto constituye la cantidad que se debe volver a pedir. A continuación, el sistema comprueba si el suministro ya se ha pedido en otra parte para recibirse en el plazo y, en caso afirmativo, reduce la cantidad del nuevo pedido de suministro en las cantidades ya pedidas.  
+La cantidad a pedir se actualmente en el momento (el final de un ciclo) en el que el sistema de planificación detecta que se ha superado el punto de reorden. En este punto, el programa mide la diferencia entre el nivel de inventario proyectado actual y el inventario máximo especificado. Esto constituye la cantidad que se debe volver a pedir. A continuación, el sistema comprueba si el suministro ya se ha pedido en otra parte para recibirse en el plazo y, en caso afirmativo, reduce la cantidad del nuevo orden de suministro en las cantidades ya pedidas.  
 
 El programa garantizará que el inventario proyectado llegue como mínimo al nivel de punto de reorden como mínimo, en el caso de que el usuario haya olvidado especificar una cantidad de inventario máxima.  
 
@@ -286,11 +284,11 @@ De algún modo, la directiva del lote por lote se parece a la directiva de pedid
 
 El ciclo se define en el campo **Ciclo**. El programa trabaja con un ciclo mínimo de un día, ya que es la unidad de medida de tiempo menor en los eventos de demanda y de suministro del sistema (aunque, en la práctica, la unidad de medida de tiempo en las órdenes de producción y las necesidades de componentes puede ser segundos).  
 
-El ciclo también establece límites con respecto a cuándo se debe reprogramar un pedido de suministro existente para cubrir una demanda determinada. Si el aprovisionamiento entra dentro del ciclo, se volverá a programar dentro o fuera para cubrir la demanda. De lo contrario, si es anterior, se producirá una acumulación innecesaria del inventario y se debe cancelar. Si es posterior, se creará un nuevo pedido de aprovisionamiento en su lugar.  
+El ciclo también establece límites con respecto a cuándo se debe reprogramar una orden de suministro existente para cubrir una demanda determinada. Si el aprovisionamiento entra dentro del ciclo, se volverá a programar dentro o fuera para cubrir la demanda. De lo contrario, si es anterior, se producirá una acumulación innecesaria del inventario y se debe cancelar. Si es posterior, se creará una nueva orden de suministro en su lugar.  
 
 Con esta directiva, también se puede definir un stock de seguridad para compensar las fluctuaciones posibles en el suministro, o para satisfacer la demanda repentina.  
 
-Dado que la cantidad del pedido de aprovisionamiento se basa en la demanda real, puede tener sentido usar los modificadores de pedido: redondear la cantidad del pedido para satisfacer un múltiplo de pedido especificado (o unidad de medida de compra), incrementar el pedido a una cantidad mínima especificada o disminuir la cantidad máxima especificada (y crear así dos aprovisionamientos o más para alcanzar la cantidad total necesaria).
+Dado que la cantidad de la orden de suministro se basa en la demanda real, puede tener sentido usar los modificadores de orden: redondear la cantidad de la orden para satisfacer un múltiplo de orden especificado (o unidad de medida de compra), incrementar el orden a una cantidad mínima especificada o disminuir la cantidad máxima especificada (y crear así dos aprovisionamientos o más para alcanzar la cantidad total necesaria).
 
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)   

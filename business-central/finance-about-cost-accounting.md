@@ -1,8 +1,6 @@
 ---
 title: Acerca de la contabilidad de costos | Documentos de Microsoft
 description: La contabilidad de costos puede ayudarle a conocer los costos de la dirección de una empresa.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 053a0ca21ff26b53cabcc8894ed1cd0e48c904b0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ab142468f152b6430d5454c29a5b663be954412
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302679"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879883"
 ---
 # <a name="about-cost-accounting"></a>Acerca de la contabilidad de costos
 La contabilidad de costos puede ayudarle a conocer los costos de la dirección de una empresa. La información de contabilidad de costos se ha diseñado para analizar:  
@@ -39,7 +37,7 @@ Contabilidad de costos tiene los siguientes componentes principales:
 
 El diagrama siguiente muestra el flujo de trabajo en contabilidad de costos.  
 
-![Resumen de la contabilidad de costos](media/costaccountingoverview.png "ResumenContabilidadCostos")  
+![Resumen de la contabilidad de costos](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Tipos de costo, centros de costo y objetos de costos  
 Define los tipos de costo, los centros de costo y los objetos de costo para analizar cuáles son los costos, de dónde provienen y quién debe asumirlos.  
@@ -73,5 +71,5 @@ La mayoría de los informes y las estadística se basan en los movimientos de co
 ## <a name="see-also"></a>Consulte también  
  [Contabilidad para costos](finance-manage-cost-accounting.md)  
  [Finanzas](finance.md)   
- [Terminología en contabilidad de costos](finance-terminology-in-cost-accounting.md)  
+ [Terminología en costos de inventario](finance-terminology-in-cost-accounting.md)  
  [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

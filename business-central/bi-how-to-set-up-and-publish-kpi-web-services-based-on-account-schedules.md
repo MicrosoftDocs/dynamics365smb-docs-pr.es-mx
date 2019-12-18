@@ -1,8 +1,6 @@
 ---
 title: Configurar y publicar servicios Web KPI para estructuras de cuentas | Documentos de Microsoft
 description: Este tema describe cómo mostrar los datos de KPI de la estructura de cuentas en función de estructuras de cuentas específicas.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 84cb09cbe7291ae0bd57997f5f23d04bd22cb898
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 95089c696457662737bc524a095b674a5b9a83d5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303927"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878568"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Configurar y publicar servicios web de KPI basados en estructuras de cuentas
 En la página **Configuración de servicio Web KPI de estructura de cuentas**, se configura cómo mostrar los datos KPI de la estructura de cuentas y en qué estructuras de cuentas específicos se deben basar los KPI. Cuando elige el botón **Publicar servicio Web**, los datos especificados KPI de esquema de cuentas se agregan a la lista de servicios Web publicados en la página **Servicios Web**.  
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Para configurar y publicar un servicio web KPI que se basa en estructuras de cuentas  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de servicio web KPI de estructura de cuentas** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de servicio web KPI de Estructura de cuentas** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **General**, llene los campos como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
