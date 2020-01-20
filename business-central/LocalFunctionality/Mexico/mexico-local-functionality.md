@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a2373f536ef0037600a935b2dcb7b5e83c8b6f50
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 34f95b22ea2549225f6c4635637c57ad14250946
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301281"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943083"
 ---
 # <a name="mexico-local-functionality"></a>Funcionalidad local de México
 En los temas siguientes se describe la funcionalidad local que es exclusiva de la versión mexicana de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
@@ -20,6 +20,7 @@ En los temas siguientes se describe la funcionalidad local que es exclusiva de l
 ## <a name="feature-availability"></a>Disponibilidad de la característica  
 
 * Tributos
+    * [Configurar y generar informes DIOT](ui-extensions-setup-and-generate-diot-report-mx.md) **Disponible ahora**
     * [Impuesto sobre las ventas en México](mexico-sales-tax.md) **Disponible ahora**
     * [Configurar impuesto sobre servicios e impuesto a las compras](how-to-set-up-use-tax-and-purchase-tax.md) **Disponible ahora**
     * [Configurar el impuesto sobre las ventas no realizado y los descuentos por pago de ventas](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Disponible ahora**
