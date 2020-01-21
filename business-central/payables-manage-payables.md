@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 8e2ea625682444e2de50e96d03f4dc28e1d30852
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ea3091ecb79a345bf4bed9572e98de057cde38db
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313576"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954246"
 ---
 # <a name="managing-payables"></a>Administración de pagos
 
@@ -35,10 +35,12 @@ En la tabla siguiente se muestra una secuencia de tareas de cuentas por pagar, c
 |Asegúrese de la valuación de inventarios correcta mediante la asignación de costos de producto, tales como fletes, manipulación física, seguros y transporte en los que incurra al comprar.|[Usar los cargos de producto a cuenta para los costos comerciales adicionales](payables-how-assign-item-charges.md)|
 |Reembolse a los empleados por gastos personales durante las actividades comerciales mediante el pago a su cuenta bancaria.|[Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)|
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-customer-vendor-payments-dynamics-365-business-central"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Consulte también
 [Compras](purchasing-manage-purchasing.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
-[Usar los cargos de producto para costos comerciales adicionales](payables-how-assign-item-charges.md)  
+[Usar los cargos de producto a cuenta para los costos comerciales adicionales](payables-how-assign-item-charges.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 249c38574c2f5ff1babc17df25bf33679a6b6764
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3d7c1fa772263aa863b6398e86f35be47998f455
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316415"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954028"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Procesamiento de devoluciones de ventas o cancelaciones
 Si un cliente desea devolver u obtener un reembolso de algún producto o servicio que usted ha vendido y que le han pagado, debe crear y registrar una nota de crédito de venta que especifique el cambio requerido. Para incluir la información correcta de la factura de ventas, puede crear la nota de crédito de venta directamente de la factura de venta contabilizada o puede crear una nueva nota de crédito de venta con información de factura copiada.
@@ -48,7 +48,7 @@ Para asignar manualmente la reversión del costo exacto, debe elegir el campo **
 Para obtener más información, consulte [Detalles de diseño: valoración de inventario](design-details-inventory-costing.md).
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Para crear una nota de crédito de venta desde una factura de venta registrada
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Histórico facturas venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Histórico facturas venta** y luego elija el enlace relacionado.  
 2. En la página **Facturas de venta registradas**, seleccione la factura de ventas que desea revertir y, a continuación, seleccione la acción **Crear abono correctivo**.
 
     La cabecera de la nota de crédito de venta contiene información de la factura de venta registrada. Puede modificarla, por ejemplo, mediante la nueva información que indica el contrato de devolución.  
@@ -70,7 +70,7 @@ El cuadro de diálogo de **Registrar y enviar confirmación** se abre para mostr
 Los documentos de venta registrados a los que ha aplicado la nota de crédito están invertidos y se puede crear un pago de reembolso para el cliente. La nota de crédito de venta se ha eliminado y remplazado por un nuevo documento en la lista de notas de crédito ventas registradas.
 
 ## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Crear una nueva nota de crédito de venta copiándola desde una factura de venta registrada
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Notas de crédito de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Notas de crédito de venta** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo** para abrir una nota de crédito de venta vacía.
 3. En el campo **Cliente**, escriba el nombre de un cliente existente.
 4. Elija la acción **Copiar documento**.
@@ -81,7 +81,7 @@ Los documentos de venta registrados a los que ha aplicado la nota de crédito es
 9. Complete la nota de crédito de venta como se explica en [Para crear una nota de crédito de ventas de una factura de ventas registrada](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).
 
 ## <a name="to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Crear un pedido de devolución de ventas basado en uno o más documentos de ventas publicados
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos dev. venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Pedido de devolución de venta** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.  
 3. Rellen los campos de la ficha desplegable **General**.
 4. En la ficha desplegable **Líneas**, rellene las líneas manualmente o copie la información de otros documentos para rellenar las líneas automáticamente:
@@ -161,7 +161,7 @@ Cuando registre el pedido de devolución de ventas, se añadirá el cargo de rea
 Puede enviar una nota de crédito a un cliente con una reducción en el precio si el cliente ha recibido los productos ligeramente dañados o si los ha recibido con retraso.  
 Registre este precio reducido como un cargo de producto en una nota de crédito o una devolución y asígnelo al envío registrado. A continuación se describe esto para una nota de crédito de venta, pero los mismos pasos se aplican a un pedido de devolución.
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Notas de crédito de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Notas de crédito de venta** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo** para abrir una nota de crédito de venta vacía.
 3. Rellene la cabecera de nota de crédito con información acerca del cliente al que desea conceder la deducción de venta.  
 4. Seleccione **Cargo (prod.)** en el campo **Tipo** de la ficha desplegable **Líneas**.  
@@ -184,7 +184,7 @@ Para agrupar recibos de devolución deberá activar la casilla de verificación 
 
 ### <a name="to-manually-combine-return-receipts"></a>Para agrupar recibos de devolución de forma manual  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Nota de crédito de venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Nota de crédito de venta** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.
 3. En la ficha desplegable **General**, rellene los campos como sea necesario.  
 4. Elija la acción **Tomar líns. recep. dev.**.  
@@ -200,7 +200,7 @@ Para agrupar recibos de devolución deberá activar la casilla de verificación 
 ### <a name="to-automatically-combine-return-receipts"></a>Agrupar automáticamente recepciones de devolución  
 Puede agrupar recepciones de devolución de forma automática y registrar los abonos automáticamente utilizando la función **Fact. autom. recep. dev.**  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Fact. autom. recep. dev.** y luego elija el enlace relacionado.
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Unir recepciones de devolución** y luego elija el enlace relacionado.
 2. En la página **Fact. autom. recep. dev...** , rellene los campos para seleccionar las recepciones de devolución relevantes.
 3. Seleccione la casilla de verificación **Registrar abonos**. De lo contrario, deberá registrar manualmente los abonos resultantes de compra.
 4.  Elija el botón **Aceptar**.  
@@ -209,14 +209,16 @@ Puede agrupar recepciones de devolución de forma automática y registrar los ab
 Al facturar recepciones de devolución de esta forma, los pedidos de devolución a partir de los cuales se registraron las recepciones de devolución siguen existiendo, aunque se hayan recibido y facturado por completo.  
 
 Cuando las recepciones de devolución se agrupan en una nota de crédito y se registran, se crea una nota de crédito de ventas registrada para las líneas acreditadas. El campo **Cantidad facturada** de la devolución de venta de origen se actualiza en función de la cantidad facturada.   
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Eliminar dev. ventas fact.** y seleccione el enlace.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Eliminar pedidos de devolución de venta facturados** y luego seleccione el enlace.  
 2.  Especifique en el campo de filtro **Nº.** que pedidos de devolución desea eliminar.  
 3.  Elija el botón **Aceptar**.  
 
 También puede eliminar los pedidos de devolución de venta individuales manualmente.   
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsreturn-items-dynamics-365-business-central"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Consulte también
-[Ventas](sales-manage-sales.md)  
+[Ccial](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
