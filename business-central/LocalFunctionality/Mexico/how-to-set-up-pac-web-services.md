@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9e98a26c0c704151f18b5f5d8586fb837c32f5d8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 76eb6a2cbc7319a23db148b678cec9a7220de0f4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300130"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181107"
 ---
 # <a name="set-up-pac-web-services"></a>Configuración de servicios web PAC
 Para enviar facturas y notas de crédito de forma electrónica, primero debe especificar uno o varios proveedores del sello electrónico que debe incluirse en las facturas de México.  
@@ -30,7 +30,7 @@ Si el PAC ofrece el servicio de cancelación de documentos firmados, debe especi
 
 ## <a name="to-set-up-a-pac-web-service"></a>Para configurar el servicio web del PAC  
 
-1.  Elija el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono de Buscar página o informe"), escriba **Servicios web de PAC** y, a continuación, elija el vínculo relacionado.  
+1.  Seleccione el icono ![Buscar por página o informe](../../media/ui-search/search_small.png "Icono de Buscar por página o informe"), ingrese los **Servicios web del PAC** y, a continuación, seleccione el vínculo relacionado.  
 2.  Rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  

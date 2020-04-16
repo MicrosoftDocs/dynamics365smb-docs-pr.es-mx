@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4995b793d11dd05300c5e9c48f8b7247e0dd9f7e
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 958cd12ec8f41085fdce5b6227d9f7e4d8ccd41b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554546"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181105"
 ---
 # <a name="set-up-use-tax-and-purchase-tax"></a>Configurar impuesto sobre servicios e impuesto a las compras
 La definición de impuesto de las ventas comprende los impuestos que pagan las empresas por usar productos:  
@@ -24,7 +24,7 @@ La definición de impuesto de las ventas comprende los impuestos que pagan las e
 - Impuesto a las compras (Canadá): el impuesto a las compras es un impuesto de las ventas de Canadá que debe pagar una empresa sobre los productos que compra a los proveedores. Cuando una empresa compra productos que usará para sí misma, el proveedor cobra el impuesto de las ventas apropiado correspondiente a los productos.  
 
 ## <a name="to-set-up-use-tax-for-a-purchase-order"></a>Para configurar el impuesto sobre servicios para un pedido de compra  
-1.  Seleccione ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Pedidos compra** y, a continuación, elija el vínculo relacionado en **Procesamiento de pedidos**.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Buscar por página o icono de informe"), escriba **Órdenes de compra** y, a continuación, elija el vínculo relacionado en **Procesamiento de órdenes**.  
 2.  En la página **Órdenes de compra**, seleccione la acción **Nueva**.  
 3.  En la ficha desplegable **Líneas**, rellene los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 4.  En la ficha desplegable **Facturación**, llene los campos como se describe en la tabla siguiente.  
@@ -38,7 +38,7 @@ La definición de impuesto de las ventas comprende los impuestos que pagan las e
 5.  Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-use-tax-details"></a>Para configurar detalles del impuesto sobre servicios  
-1.  Elija el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono de Buscar página o informe"), escriba **Detalles de impuesto** y, a continuación, elija el vínculo relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono de Buscar por página o informe"), ingrese los **Detalles fiscales** y, a continuación, seleccione el vínculo relacionado.  
 2.  En la página **Detalles de impuesto**, seleccione la acción **Nuevo**.  
 3.  En la página **Nuevos - Detalles de impuesto**, rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -50,7 +50,7 @@ La definición de impuesto de las ventas comprende los impuestos que pagan las e
 4.  Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-purchase-tax-for-a-company"></a>Para configurar el impuesto a las compras para una empresa  
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Información de la empresa** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Buscar por página o informe ](../../media/ui-search/search_small.png "Icono de Buscar por página o informe"), escriba **Información de la empresa** y luego elija el enlace relacionado.  
 2.  En la página **Información de la empresa**, en la ficha desplegable **Impuesto**, rellene los campos tal y como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
@@ -61,7 +61,7 @@ La definición de impuesto de las ventas comprende los impuestos que pagan las e
 3.  Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-purchase-tax-for-a-location"></a>Para configurar el impuesto a las compras para un almacén  
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Almacenes** y, a continuación, seleccione el vínculo relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono de Buscar por página o informe"), ingrese las **Localidades** y, a continuación, seleccione el vínculo relacionado.  
 2.  En la página **Ubicaciones**, seleccione la ubicación requerida y, a continuación, elija la acción **Editar**.  
 3.  En la ficha desplegable **General**, llene los campos como se describe en la tabla siguiente.  
 
@@ -74,8 +74,8 @@ La definición de impuesto de las ventas comprende los impuestos que pagan las e
 4.  Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-purchase-tax-for-non-recoverable-tax"></a>Para configurar el impuesto a las compras para impuestos irrecuperables  
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Detalles de impuesto** y, a continuación, seleccione el vínculo relacionado.  
-2.  En la página **Detalles de impuesto**, seleccione la acción **Nuevo**.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), ingrese los **Detalles fiscales** y, a continuación, seleccione el vínculo relacionado.  
+2.  En la página **Detalles discales**, seleccione la acción **Nuevo**.  
 3.  Active la casilla de verificación **Gastar/Capitalizar**.  
 
     > [!NOTE]  

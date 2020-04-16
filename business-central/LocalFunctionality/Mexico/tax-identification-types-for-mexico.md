@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 53b58788e45a1b774db0f60d389f6dee3bbb2764
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 59157c53176f0e7eacb4be71f4f87eed6cdea07c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301282"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181101"
 ---
 # <a name="tax-identification-types-for-mexico"></a>Tipos identificación impuestos para México
 Todos los clientes y proveedores deben tener un número de identificación fiscal federal. El tipo de identificación que se usa para un cliente o un proveedor depende de que esté clasificado como persona jurídica o persona física.  

@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 051c31cdfd871af95bf0ab3b6a3a4f51553c3fe0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 056a7056b87a09eb7b473fcffbc1ed117b375dc0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301284"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181106"
 ---
 # <a name="set-up-unrealized-sales-tax-and-sales-payment-discounts"></a>Configurar descuentos por pago de ventas e impuestos ventas no realizados
 Puede utilizar la página **Configuración de contabilidad** para configurar el impuesto a las ventas. También puede configurar importes máximos de corrección para limitar los importes de corrección de impuestos que se introducen en concepto de ventas y compras. Esto le permite sobrescribir el impuesto calculado cuando existen diferencias de redondeo entre lo calculado en la orden de compra y lo calculado en la factura de compra del proveedor.  
 
 ## <a name="to-set-up-unrealized-sales-tax"></a>Para configurar impuestos a las ventas no realizados  
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), introduzca **Configuración contabilidad** y, a continuación, elija el vínculo relacionado.  
+1.  Elija el icono ![Buscar por página o informe](../../media/ui-search/search_small.png "Icono de Buscar por página o informe"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.  
 2.  En la página **Configuración de contabilidad**, en la ficha desplegable **General**, llene los campos como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
@@ -32,7 +32,7 @@ Puede utilizar la página **Configuración de contabilidad** para configurar el 
 3.  Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-unrealized-tax-for-jurisdictions"></a>Para configurar impuestos no realizados para jurisdicciones  
-1.  Elija el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono de Buscar página o informe"), escriba **Jurisdicciones impuesto** y, a continuación, elija el vínculo relacionado.  
+1.  Seleccione el icono ![Buscar por página o informe](../../media/ui-search/search_small.png "Icono de Buscar por página o informe"), ingrese las **Jurisdicciones fiscales** y, a continuación, seleccione el vínculo relacionado.  
 2.  En la página **Jurisdicciones de impuesto**, seleccione la acción **Editar lista**.  
 3.  Rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -45,7 +45,7 @@ Puede utilizar la página **Configuración de contabilidad** para configurar el 
 4.  Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-adjustments-for-payment-discounts-in-a-tax-posting-group"></a>Para configurar ajustes para descuentos de pagos en un grupo contable de impuestos  
-1.  Elija el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono de Buscar página o informe"), escriba **Configuración de registro impuesto** y, a continuación, elija el vínculo relacionado.  
+1.  Seleccione el icono ![Buscar por página o informe](../../media/ui-search/search_small.png "Icono de Buscar por página o informe"), ingrese la **Configuración de registro fiscal** y, a continuación, seleccione el vínculo relacionado.  
 2.  Seleccione la acción **Editar**.  
 3.  En la página **Tarjeta de config. grupos registro IVA**, active la casilla de verificación **Ajuste para dto. p. p**.  
 
@@ -54,13 +54,13 @@ Puede utilizar la página **Configuración de contabilidad** para configurar el 
 4.  Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-maximum-tax-correction-amounts"></a>Para configurar los importes máximos de corrección de impuestos  
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Conf. ventas y cobros** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Buscar por página o informe](../../media/ui-search/search_small.png "Icono de Buscar por página o informe"), escriba **Configuración de cobros y ventas**, y luego elija el vínculo relacionado.  
 2.  En la página **Configuración cobros ventas**, en la ficha desplegable **General**, active la casilla de verificación **Permitir diferencia impto**.  
 3.  Elija el botón **Aceptar**.  
-4.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Configuración de compras y pagos** y, a continuación, seleccione el vínculo relacionado.  
+4.  Elija el icono ![Buscar por página o informe](../../media/ui-search/search_small.png "Icono de Buscar por página o informe"), escriba **Configuración de compras y pagos**, y luego elija el vínculo relacionado.  
 5.  En la página **Configuración compras y pagos**, en la ficha desplegable **General**, active la casilla de verificación **Permitir diferencia impto**.  
 6.  Elija el botón **Aceptar**.  
-7.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), introduzca **Configuración contabilidad** y, a continuación, elija el vínculo relacionado.  
+7.  Elija el icono ![Buscar por página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), escriba **Configuración de contabilidad** y luego elija el vínculo relacionado.  
 8.  En la página **Dif. impto. máx. permitida**, en el campo **Configuración de contabilidad**, indique el importe máximo de corrección de impuesto permitido para la divisa local.  
 
     > [!NOTE]  
@@ -69,6 +69,6 @@ Puede utilizar la página **Configuración de contabilidad** para configurar el 
 
 ## <a name="see-also"></a>Consulte también  
 [Funcionalidad local de México](mexico-local-functionality.md)  
-[Informes del impuesto de venta en México](mexico-sales-tax.md)  
+[Informes del impuesto sobre las ventas en México](mexico-sales-tax.md)  
 [Finanzas](../../finance.md)  
 [Configurar las finanzas](../../finance.md)

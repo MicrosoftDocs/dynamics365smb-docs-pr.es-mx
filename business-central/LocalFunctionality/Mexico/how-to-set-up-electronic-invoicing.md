@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7e74860a88daa234654ac0a52ef9f0fd6e721793
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 347e5bf8a7caa3d2198bbd1613cfc464014204cc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879269"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181108"
 ---
 # <a name="set-up-electronic-invoicing"></a>Configurar la facturación electrónica
 Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[d365fin](../../includes/d365fin_md.md)] para asegurarse de que el número de identificación fiscal (RFC), el número de identificación personal (CURP) y los identificadores de inscripción estatal estén disponibles para la empresa y para todos sus clientes y proveedores. Además, debe configurar los parámetros necesarios para el envío de facturas electrónicas a clientes y proveedores. Tales parámetros incluyen la huella digital del certificado, es decir, el certificado que recibe de la autoridad fiscal mexicana (SAT).  
