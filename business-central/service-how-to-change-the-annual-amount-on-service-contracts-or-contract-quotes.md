@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f34aec769a1b850eb14dcc9a5310274e0b82b375
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 73390a2857714e87378affb34409500d8f1436d3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311751"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195062"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Cambiar el importe anual de los contratos de servicio o las cotizaciones de contrato
 Puede cambiar el importe anual del contrato de servicio o la cotización de contrato para corregir el importe que se facturará anualmente.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Para cambiar el importe anual del contrato de servicio o la cotización de contrato  
 
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), especifique **Contratos de servicio** u **Cotizaciones de contrato servicio** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Contratos de Servicio** u **Cotizaciones Contrato de Servicio** y, a continuación, elija el vínculo relacionado.  
 2. Elija el contrato o la cotización de contrato.  
 3. Elija la acción **Abrir contrato** para abrir el contrato o la cotización de contrato para su modificación.  
 4. Seleccione la casilla **Permite importes sin saldar** si desea cambiar el importe anual y distribuir la diferencia del importe anual manualmente en la líneas de contrato. En caso contrario, desactive la casilla para distribuir automáticamente la diferencia de importe anual automáticamente en las líneas de contrato después de cambiar el importe anual.  
