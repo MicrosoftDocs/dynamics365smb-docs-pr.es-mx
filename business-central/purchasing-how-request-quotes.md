@@ -9,32 +9,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 71c31fc15027d1f2d571afe97ae79f95709c9f06
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bae0ddeb2a3b22d4f29c04628a54754f4d608ec9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312423"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191030"
 ---
-# <a name="request-quotes"></a><span data-ttu-id="a9db9-103">Solicitar cotizaciones</span><span class="sxs-lookup"><span data-stu-id="a9db9-103">Request Quotes</span></span>
-<span data-ttu-id="a9db9-104">Las cotizaciones de compra pueden utilizarse como borradores de pedidos de compra, que luego se pueden convertir en facturas de compra o en pedidos.</span><span class="sxs-lookup"><span data-stu-id="a9db9-104">A purchase quote can be used as a preliminary draft for a purchase order, and the order can then be converted to a purchase invoice or an order.</span></span>
+# <a name="request-quotes"></a><span data-ttu-id="48168-103">Solicitar cotizaciones</span><span class="sxs-lookup"><span data-stu-id="48168-103">Request Quotes</span></span>
+<span data-ttu-id="48168-104">Las cotizaciones de compra pueden utilizarse como borradores de pedidos de compra, que luego se pueden convertir en facturas de compra o en pedidos.</span><span class="sxs-lookup"><span data-stu-id="48168-104">A purchase quote can be used as a preliminary draft for a purchase order, and the order can then be converted to a purchase invoice or an order.</span></span>
 
 
-## <a name="to-create-a-purchase-quote"></a><span data-ttu-id="a9db9-105">Para crear una cotización de compra</span><span class="sxs-lookup"><span data-stu-id="a9db9-105">To create a purchase quote</span></span>
-1. <span data-ttu-id="a9db9-106">Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Cotizaciones de compra** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="a9db9-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Quotes**, and then choose the related link.</span></span>
-2. <span data-ttu-id="a9db9-107">Crear un documento nuevo, de la misma forma que hace un pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="a9db9-107">Create a new document, in the same way as you make a purchase order.</span></span> <span data-ttu-id="a9db9-108">Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="a9db9-108">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>
+## <a name="to-create-a-purchase-quote"></a><span data-ttu-id="48168-105">Para crear una cotización de compra</span><span class="sxs-lookup"><span data-stu-id="48168-105">To create a purchase quote</span></span>
+1. <span data-ttu-id="48168-106">Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cotizaciones de compra** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="48168-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Quotes**, and then choose the related link.</span></span>
+2. <span data-ttu-id="48168-107">Crear un documento nuevo, de la misma forma que hace un pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="48168-107">Create a new document, in the same way as you make a purchase order.</span></span> <span data-ttu-id="48168-108">Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="48168-108">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>
 
-## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a><span data-ttu-id="a9db9-109">Para convertir una cotización de compra en un pedido de compra</span><span class="sxs-lookup"><span data-stu-id="a9db9-109">To convert a purchase quote to a purchase order</span></span>
-<span data-ttu-id="a9db9-110">Cuando haya aceptado la cotización del proveedor, puede convertirla en una factura o un pedido de compra para procesar la compra.</span><span class="sxs-lookup"><span data-stu-id="a9db9-110">When you have accepted the vendor's quote, you can convert it to a purchase invoice or order to process the purchase.</span></span>
+## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a><span data-ttu-id="48168-109">Para convertir una cotización de compra en un pedido de compra</span><span class="sxs-lookup"><span data-stu-id="48168-109">To convert a purchase quote to a purchase order</span></span>
+<span data-ttu-id="48168-110">Cuando haya aceptado la cotización del proveedor, puede convertirla en una factura o un pedido de compra para procesar la compra.</span><span class="sxs-lookup"><span data-stu-id="48168-110">When you have accepted the vendor's quote, you can convert it to a purchase invoice or order to process the purchase.</span></span>
 
-1. <span data-ttu-id="a9db9-111">Abra una cotización de compra que esté lista para convertir, y haga clic en **Convertir en pedido**.</span><span class="sxs-lookup"><span data-stu-id="a9db9-111">Open a purchase quote that is ready to convert, and then choose the **Make Order** action.</span></span>
+1. <span data-ttu-id="48168-111">Abra una cotización de compra que esté lista para convertir, y haga clic en **Convertir en pedido**.</span><span class="sxs-lookup"><span data-stu-id="48168-111">Open a purchase quote that is ready to convert, and then choose the **Make Order** action.</span></span>
 
-<span data-ttu-id="a9db9-112">La cotización de compra se quita de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="a9db9-112">The purchase quote is removed from the database.</span></span> <span data-ttu-id="a9db9-113">Se crea una factura o un pedido de compra a partir de la información en la cotización de compra en la que puede procesar la venta.</span><span class="sxs-lookup"><span data-stu-id="a9db9-113">A purchase invoice or a purchase order is created based on the information in the purchase quote in which you can process the purchase.</span></span> <span data-ttu-id="a9db9-114">En el campo **Nº cotización** de la factura de compra o del pedido de compra, se muestra el número de la cotización de compra a partir de la que se creó.</span><span class="sxs-lookup"><span data-stu-id="a9db9-114">In the **Quote No.** field on the purchase invoice or purchase order, you can see the number of the purchase quote that it was made from.</span></span>
+<span data-ttu-id="48168-112">La cotización de compra se quita de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="48168-112">The purchase quote is removed from the database.</span></span> <span data-ttu-id="48168-113">Se crea una factura o un pedido de compra a partir de la información en la cotización de compra en la que puede procesar la venta.</span><span class="sxs-lookup"><span data-stu-id="48168-113">A purchase invoice or a purchase order is created based on the information in the purchase quote in which you can process the purchase.</span></span> <span data-ttu-id="48168-114">En el campo **Nº cotización** de la factura de compra o del pedido de compra, se muestra el número de la cotización de compra a partir de la que se creó.</span><span class="sxs-lookup"><span data-stu-id="48168-114">In the **Quote No.** field on the purchase invoice or purchase order, you can see the number of the purchase quote that it was made from.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a9db9-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="a9db9-115">See Also</span></span>
-[<span data-ttu-id="a9db9-116">Compras</span><span class="sxs-lookup"><span data-stu-id="a9db9-116">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-[<span data-ttu-id="a9db9-117">Configurar compras</span><span class="sxs-lookup"><span data-stu-id="a9db9-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
-[<span data-ttu-id="a9db9-118">Enviar documentos por correo electrónico</span><span class="sxs-lookup"><span data-stu-id="a9db9-118">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
-<span data-ttu-id="a9db9-119">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a9db9-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="48168-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="48168-115">See Also</span></span>
+[<span data-ttu-id="48168-116">Compras</span><span class="sxs-lookup"><span data-stu-id="48168-116">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="48168-117">Configurar compras</span><span class="sxs-lookup"><span data-stu-id="48168-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
+[<span data-ttu-id="48168-118">Enviar documentos por correo electrónico</span><span class="sxs-lookup"><span data-stu-id="48168-118">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
+<span data-ttu-id="48168-119">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="48168-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
