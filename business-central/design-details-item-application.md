@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9f4ef853d62e76ce3ade8062a341eb4336116028
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303519"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185167"
 ---
 # <a name="design-details-item-application"></a>Detalles de diseño: Liquidación de productos
 Cuando se registra una transacción de inventario, el registro de cantidad se guarda en los movimientos de producto y el registro de valor en los movimientos de valoración. Para obtener más información, consulte [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md).  
@@ -189,7 +189,7 @@ En la tabla siguiente se muestra el efecto de la reversión de costo exacta en l
 Al ejecutar el proceso **Valorar existencias - movs. producto**, el aumento de costo del movimiento de compra, debido al cargo de producto, se desvía al movimiento de venta (número de movimiento 2). A continuación, el movimiento de venta desvía este aumento de costo al movimiento de crédito de ventas (movimiento número 3). El resultado final es que el costo se revierte correctamente.  
 
 > [!NOTE]  
->  Si está trabajando con reembolsos o notas de crédito y ha configurado el campo **Costo exacto devolución obligatorio** en la página **Configuración compras y pagos** o en la página **Configuración ventas y cobros**, según corresponda en su caso, [!INCLUDE[d365fin](includes/d365fin_md.md)] rellenará automáticamente los distintos campos de registro al usar la función **Copiar documento**. Si utiliza la función **Revertir líneas documentos registrados**, el programa siempre rellenará esos campos automáticamente.  
+>  Si está trabajando con reembolsos o notas de crédito y ha configurado el campo **Costo exacto devolución obligatorio** en la página **Configuración de compras y pagos** o en la página **Configuración de ventas y cobros**, según corresponda en su caso, [!INCLUDE[d365fin](includes/d365fin_md.md)] rellenará automáticamente los distintos campos de registro al usar la función **Copiar de documento**. Si utiliza la función **Revertir líneas documentos registrados**, el programa siempre rellenará esos campos automáticamente.  
 
 > [!NOTE]  
 >  Si registra una transacción con una liquidación fija y el movimiento de producto al que lo está aplicando está cerrado (lo que significa que la cantidad restante es cero), el programa deshará automáticamente la liquidación anterior y volverá a aplicar el movimiento del producto utilizando la liquidación fija que ha especificado.  

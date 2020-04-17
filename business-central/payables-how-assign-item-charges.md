@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a113573ca1732472f5ec926f78273cdb4b94f989
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 2d9228b213d540a6aed034964fbeaa2bd6f49b57
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878149"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190334"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Usar los cargos de producto para costos comerciales adicionales
 Para asegurarse de la valoración correcta, sus productos de inventario deben cargar costes adicionales, tales como fletes, manipulación física, seguros y transporte en los que incurra al comprar o vender artículos. En el caso de las compras, el costo de descarga de un producto comprado se compone del precio de compra del proveedor más todos los cargos directos de producto adicionales que se pueden asignar a recepciones o envíos de devolución individuales. En el caso de las ventas, conocer el costo de envío de los productos vendidos es tan importante para la empresa como conocer el costo de los productos comprados.
@@ -40,7 +40,7 @@ Para los documentos de compra y de venta, puede asignar un coste de producto de 
 ## <a name="example"></a>Ejemplo:
 Este vídeo muestra cómo gestionar un costo de remisión adicional como parte de la valoración de existencias.
 <br><br>  
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
 ## <a name="to-set-up-item-charge-numbers"></a>Configurar números de coste de producto
 Los números de cargo de producto sirven para diferenciar los distintos tipos de cargos que se utilizan en la empresa.

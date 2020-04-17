@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a1f448bf0d446d8a7a6bcc1db9a1cd636ea8cdd6
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: c1fafc84bf3b473d7d195563cbde232078483764
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882409"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192566"
 ---
 # <a name="work-on-service-tasks"></a>Trabajar en tareas de servicio
 Una vez que haya creado un pedido o cotización de servicio, registrado líneas de producto de servicio y asignado recursos a los productos de servicio del pedido o cotización, podrá empezar a reparar y mantener los productos de servicio.  

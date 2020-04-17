@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 101fa49a803f03d805bbcdeba4066f34323ad578
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6168b8a14bc520f811db231e9d8f885e7372a3d6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303371"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185215"
 ---
 # <a name="design-details-known-item-application-issue"></a>Detalles de diseño: Problema de liquidación de producto conocido
 Este artículo aborda un problema donde el nivel de inventario es cero aunque existen movimientos de producto pendientes en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -91,7 +91,7 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de costo.
 
  El diagrama siguiente ilustra cómo se realizan las liquidaciones de productos en ambos escenarios.  
 
-![El flujo de ajuste de costos va en ambas direcciones](media/helene/TechArticleInventoryZero6.png "El flujo de ajuste de costos va en ambas direcciones")  
+![Flujo de ajuste de costos en ambas direcciones](media/helene/TechArticleInventoryZero6.png "Flujo de ajuste de costos en ambas direcciones")  
 
  Tenga en cuenta que se realiza una liquidación de costo (representada por las flechas azules) para asegurar que el movimiento de producto 2 (Devolución ventas) tenga los mismos costos que el movimiento de producto que invierte, movimiento de producto 1 (Venta 1). Sin embargo, no se crea ninguna liquidación de cantidad (representada por las flechas rojas).  
 
@@ -150,4 +150,4 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de costo.
 
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Liquidación de productos](design-details-item-application.md)   
-[Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)  
+[Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  
