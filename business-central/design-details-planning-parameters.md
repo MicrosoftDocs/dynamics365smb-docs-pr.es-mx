@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: e45850539b84e2762d93140e47ae336f2ec6efda
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8f988be119132765fb02287c3935495e98f29b31
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184903"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272049"
 ---
 # <a name="design-details-planning-parameters"></a>Detalles de diseño: Parámetros de la planificación
 En este tema se describen los distintos parámetros de planificación que puede usar en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -26,7 +26,7 @@ La forma en que el sistema de planificación controla el suministro de productos
 |-------------|---------------|  
 |Definir si se va a planificar el producto|Directiva reorden = En blanco|  
 |Definir cuándo hacer la reorden|Ciclo<br /><br /> Punto de reorden<br /><br /> Plazo de seguridad|  
-|Definir qué cantidad de la reorden|Inventario de seguridad<br /><br /> Directiva reorden:<br /><br /> -   Cant. fija reorden frente a Cantidad a solicitar<br />-   Cantidad máxima más stock máximo<br />-   Sentido<br />-   Lote a lote|  
+|Definir qué cantidad de la reorden|Inventario de seguridad<br /><br /> Directiva reorden:<br /><br /> -   Cantidad fija de reorden más cantidad de reorden<br />-   Cantidad máxima más inventario máximo<br />-   Pedido<br />-   Lote a lote|  
 |Optimizar cuando se produzca la reorden y según la cantidad de reorden|Periodo de reprogramación<br /><br /> Periodo de acumulación de lotes<br /><br /> Periodo de tolerancia|  
 |Modificar los pedidos de suministro|Cantidad mínima pedido<br /><br /> Cantidad máxima pedido<br /><br /> Múltiplos de pedido|  
 |Delimitación del producto planificado|Directiva fabricación:<br /><br /> -   Fab-contra-stock<br />-   Fab-contra-pedido|  
@@ -75,8 +75,10 @@ Para obtener un plan de suministro racional, el planificador optimizará los par
 |Campo|Descripción|  
 |---------------------------------|---------------------------------------|  
 |**Periodo de reprogramación**|Este campo se usa para determinar si el mensaje de acción debe reprogramar un pedido existente o bien cancelarlo y crear otro nuevo. El pedido existente se reprogramará en un periodo de reprogramación antes del suministro actual y hasta el periodo de reprogramación después del suministro actual.|  
-|**Periodo de acumulación de lotes**|Con la directiva de reorden Lote a lote, este campo se usa para acumular varias necesidades de suministro en un pedido de suministro. Desde la fecha del primer aprovisionamiento planificado, el sistema acumula todas las necesidades de aprovisionamiento del periodo de acumulación de lote siguiente en un aprovisionamiento que se coloca en la fecha del primer aprovisionamiento. Demanda que está fuera del periodo de acumulación del lote no cubierta por este aprovisionamiento.|  
+|**Periodo de acumulación de lotes**|Con la política reorden lote a lote, este campo se usa para acumular varias necesidades de suministro en un orden de suministro. Desde la fecha del primer aprovisionamiento planificado, el sistema acumula todas las necesidades de aprovisionamiento del periodo de acumulación de lote siguiente en un aprovisionamiento que se coloca en la fecha del primer aprovisionamiento. Demanda que está fuera del periodo de acumulación del lote no cubierta por este aprovisionamiento.|  
 |**Periodo de tolerancia**|Este campo se usa para evitar la reprogramación menor del suministro existente fuera de plazo. Los cambios de la fecha de aprovisionamiento hasta un periodo de tolerancia a partir de la fecha de aprovisionamiento no generarán ningún mensaje de acción.<br /><br /> El periodo de tolerancia especifica un periodo de tiempo durante el cual no desea que el sistema de planificación proponga volver a programar órdenes de suministro existentes hacia adelante. Esto limita el número de períodos de reprogramación insignificantes de aprovisionamiento existente a una fecha posterior si la fecha reprogramada se encuentra dentro del periodo de tolerancia.<br /><br /> Como resultado, un delta positivo entre la nueva fecha de aprovisionamiento propuesta y la fecha de aprovisionamiento original será siempre mayor que el periodo de tolerancia.|  
+> [!NOTE]
+> Con la política reorden lote a lote, el valor del campo **Periodo de acumulación de lotes** debe ser igual o mayor que el valor del campo **Periodo de tolerancia**. De lo contrario, el período de tolerancia se reducirá automáticamente durante la rutina de planificación para que coincida con el período de acumulación de lotes.  
 
 El momento del periodo de reprogramación, el periodo de tolerancia y el periodo de acumulación de lotes se basa en una fecha de suministro. El ciclo se basa en la fecha de inicio de la planificación, tal como se muestra en la ilustración siguiente.  
 

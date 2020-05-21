@@ -1,8 +1,6 @@
 ---
 title: Obtener información sobre contabilidad y plan de cuentas | Documentos de Microsoft
 description: Describe la contabilidad, el catálogo de cuentas y las categorías de cuenta.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2020
+ms.date: 05/12/2020
 ms.author: edupont
-ms.openlocfilehash: ce221fed4704a278e7227affe13516303613c9cf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 098317d09a5ad8c3792de48e5332b4c247eff0e0
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183775"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372554"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Descripción de contabilidad y plan de cuentas
+
 La contabilidad almacena sus datos financieros y el catálogo de cuentas muestra las cuentas donde se registran todos los movimientos contables. [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un gráfico estándar de cuentas que está preparado para respaldar su negocio.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Configuración de contabilidad y grupos contables
+
 La configuración de la contabilidad es en la base de los procesos financieros porque define cómo se registran los datos.  
 
 En la página **Configuración contabilidad** especifique cómo gestionar determinados asuntos de contabilidad en su empresa, como:  
@@ -31,9 +31,13 @@ En la página **Configuración contabilidad** especifique cómo gestionar determ
 * Formatos de dirección  
 * Informes financieros  
 
-De manera similar, en la página **Configuración grupos contables**, puede especificar cómo desea configurar las combinaciones generales del negocio y los grupos contables de producto. Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Rellene una línea por cada combinación de grupo contable de negocio y de producto. Para obtener más información, consulte [Configuraciones de grupos de registro](finance-posting-groups.md)  
+De manera similar, en la página **Configuración grupos contables**, puede especificar cómo desea configurar las combinaciones generales del negocio y los grupos contables de producto. Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Rellene una línea por cada combinación de grupo contable de negocio y de producto. Para obtener más información, consulte [Configuraciones de grupos de registro](finance-posting-groups.md).  
+
+> [!TIP]
+> La página **Configuración de contabilidad:** incluye campos genéricos y campos que son específicos de su país o región. Si no está seguro del significado de un campo, le sugerimos que trabaje con su contable para determinar si es relevante para su organización.  
 
 ## <a name="the-chart-of-accounts"></a>Catálogo de cuentas
+
 El catálogo de cuentas muestra todas las cuentas de contabilidad. Desde el catálogo de cuentas, puede realizar acciones como las siguientes:  
 
 * Ver informes que muestran movimientos de contabilidad y saldos.  
@@ -45,6 +49,7 @@ El catálogo de cuentas muestra todas las cuentas de contabilidad. Desde el cat�
 Puede agregar, cambiar o eliminar cuentas de contabilidad. Sin embargo, para evitar discrepancias, no puede eliminar una cuenta de contabilidad si sus datos se utilizan en el catálogo de cuentas.  
 
 ## <a name="account-categories"></a>Categorías de cuenta
+
 Puede personalizar la estructura de los informes financieros con la asignación de las cuentas de contabilidad a las categorías de cuenta.  
 
 La página **Categorías de cuenta** muestra las categorías y subcategorías, y las cuentas que asignó a cada categoría. Puede crear nuevas subcategorías y asignarlas a las cuentas existentes.  
@@ -62,6 +67,7 @@ Por ejemplo, el estado de cuenta de saldo predeterminado tiene una subcategoría
 La próxima vez que genere las estructuras de cuentas, su estado de cuenta de saldo mostrará un estado de cuenta total de efectivo y dos líneas con estados de cuenta para caja chica y cuenta corriente.  
 
 ## <a name="see-also"></a>Consulte también
+
 [Finanzas](finance.md)  
 [Configurar o cambiar el plan de cuentas](finance-setup-chart-accounts.md)  
 [Inteligencia empresarial](bi.md)  
