@@ -1,6 +1,6 @@
 ---
-title: Cómo bloquear ventas a productos de clientes desde el apartado de Ventas o Compras
-description: En Business Central, un producto se puede marcar como bloqueado para ventas, bloqueado para compras o bloqueado para todos los propósitos.
+title: Cómo bloquear ventas a clientes
+description: Si es necesario, puede bloquear la inclusión de un cliente en documentos de ventas y otras transacciones de ventas.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,33 +10,33 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 832963169f4c81d65b105ca71722435554d8e262
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7cc82ab0aaf28b355117571d0d2cc5869141693f
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193766"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410727"
 ---
-# <a name="block-customers"></a><span data-ttu-id="5b85a-103">Bloquear clientes</span><span class="sxs-lookup"><span data-stu-id="5b85a-103">Block Customers</span></span>
-<span data-ttu-id="5b85a-104">Puede bloquear a un cliente, por ejemplo, por insolvencia, para que el no pueda añadirse a los documentos de ventas o para que no se puedan registrar transacciones para el cliente.</span><span class="sxs-lookup"><span data-stu-id="5b85a-104">You can block a customer, for example because of insolvency, so that the customer cannot be added to sales documents or so that no transactions can be posted for the customer.</span></span>
+# <a name="block-customers"></a><span data-ttu-id="5d08e-103">Bloquear clientes</span><span class="sxs-lookup"><span data-stu-id="5d08e-103">Block Customers</span></span>
+<span data-ttu-id="5d08e-104">Puede bloquear a un cliente, por ejemplo, por insolvencia, para que el no pueda añadirse a los documentos de ventas o para que no se puedan registrar transacciones para el cliente.</span><span class="sxs-lookup"><span data-stu-id="5d08e-104">You can block a customer, for example because of insolvency, so that the customer cannot be added to sales documents or so that no transactions can be posted for the customer.</span></span>
 
-<span data-ttu-id="5b85a-105">Además de bloquear a un cliente, puede configurar las transacciones por cobrar para que el cliente esté en espera en conexión con los recordatorios.</span><span class="sxs-lookup"><span data-stu-id="5b85a-105">In addition to blocking a customer, you can set receivable transactions for the customer to be on hold in connection with reminders.</span></span> <span data-ttu-id="5b85a-106">Para obtener más información, vea [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md).</span><span class="sxs-lookup"><span data-stu-id="5b85a-106">For more information, see [Collect Outstanding Balances](receivables-collect-outstanding-balances.md).</span></span>   
+<span data-ttu-id="5d08e-105">Además de bloquear a un cliente, puede configurar las transacciones por cobrar para que el cliente esté en espera en conexión con los recordatorios.</span><span class="sxs-lookup"><span data-stu-id="5d08e-105">In addition to blocking a customer, you can set receivable transactions for the customer to be on hold in connection with reminders.</span></span> <span data-ttu-id="5d08e-106">Para obtener más información, vea [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md).</span><span class="sxs-lookup"><span data-stu-id="5d08e-106">For more information, see [Collect Outstanding Balances](receivables-collect-outstanding-balances.md).</span></span>   
 
-<span data-ttu-id="5b85a-107">La siguiente tabla describe las distintas opciones de bloqueo.</span><span class="sxs-lookup"><span data-stu-id="5b85a-107">The following table describes the different blocking options.</span></span>  
+<span data-ttu-id="5d08e-107">La siguiente tabla describe las distintas opciones de bloqueo de clientes.</span><span class="sxs-lookup"><span data-stu-id="5d08e-107">The following table describes the options for blocking customers.</span></span>  
 
-|<span data-ttu-id="5b85a-108">Opción</span><span class="sxs-lookup"><span data-stu-id="5b85a-108">Option</span></span>|<span data-ttu-id="5b85a-109">Descripción</span><span class="sxs-lookup"><span data-stu-id="5b85a-109">Description</span></span>|  
+|<span data-ttu-id="5d08e-108">Opción</span><span class="sxs-lookup"><span data-stu-id="5d08e-108">Option</span></span>|<span data-ttu-id="5d08e-109">Description</span><span class="sxs-lookup"><span data-stu-id="5d08e-109">Description</span></span>|  
 |--------------------|------------|  
-|<span data-ttu-id="5b85a-110">**En blanco**</span><span class="sxs-lookup"><span data-stu-id="5b85a-110">**Blank**</span></span>|<span data-ttu-id="5b85a-111">Se permiten las transacciones de este cliente.</span><span class="sxs-lookup"><span data-stu-id="5b85a-111">Transactions are allowed for this customer.</span></span>|
-|<span data-ttu-id="5b85a-112">**Envío**</span><span class="sxs-lookup"><span data-stu-id="5b85a-112">**Ship**</span></span>|<span data-ttu-id="5b85a-113">No se pueden crear pedidos y envíos nuevos para este cliente.</span><span class="sxs-lookup"><span data-stu-id="5b85a-113">New orders and new shipments cannot be created for this customer.</span></span> <span data-ttu-id="5b85a-114">Los envíos existentes no facturados aún se pueden facturar.</span><span class="sxs-lookup"><span data-stu-id="5b85a-114">Existing shipments not yet invoiced can be invoiced.</span></span>|  
-|<span data-ttu-id="5b85a-115">**Factura**</span><span class="sxs-lookup"><span data-stu-id="5b85a-115">**Invoice**</span></span>|<span data-ttu-id="5b85a-116">No se pueden crear facturas, pedidos ni remisiones nuevas para este cliente.</span><span class="sxs-lookup"><span data-stu-id="5b85a-116">New orders, new shipments, and new invoices cannot be created for this customer.</span></span> <span data-ttu-id="5b85a-117">Los envíos existentes no facturados aún no se pueden facturar.</span><span class="sxs-lookup"><span data-stu-id="5b85a-117">Existing shipments not yet invoiced cannot be invoiced.</span></span>|  
-|<span data-ttu-id="5b85a-118">**Todos**</span><span class="sxs-lookup"><span data-stu-id="5b85a-118">**All**</span></span>|<span data-ttu-id="5b85a-119">No se permite ninguna transacción para este cliente, incluidos los pagos.</span><span class="sxs-lookup"><span data-stu-id="5b85a-119">No transaction is allowed for this customer, including payments.</span></span>|  
+|<span data-ttu-id="5d08e-110">**En blanco**</span><span class="sxs-lookup"><span data-stu-id="5d08e-110">**Blank**</span></span>|<span data-ttu-id="5d08e-111">Se permiten las transacciones de este cliente.</span><span class="sxs-lookup"><span data-stu-id="5d08e-111">Transactions are allowed for this customer.</span></span>|
+|<span data-ttu-id="5d08e-112">**Envío**</span><span class="sxs-lookup"><span data-stu-id="5d08e-112">**Ship**</span></span>|<span data-ttu-id="5d08e-113">No se pueden crear pedidos y envíos nuevos para este cliente.</span><span class="sxs-lookup"><span data-stu-id="5d08e-113">New orders and new shipments cannot be created for this customer.</span></span> <span data-ttu-id="5d08e-114">Los envíos existentes no facturados aún se pueden facturar.</span><span class="sxs-lookup"><span data-stu-id="5d08e-114">Existing shipments not yet invoiced can be invoiced.</span></span>|  
+|<span data-ttu-id="5d08e-115">**Factura**</span><span class="sxs-lookup"><span data-stu-id="5d08e-115">**Invoice**</span></span>|<span data-ttu-id="5d08e-116">No se pueden crear facturas, pedidos ni remisiones nuevas para este cliente.</span><span class="sxs-lookup"><span data-stu-id="5d08e-116">New orders, new shipments, and new invoices cannot be created for this customer.</span></span> <span data-ttu-id="5d08e-117">Los envíos existentes no facturados aún no se pueden facturar.</span><span class="sxs-lookup"><span data-stu-id="5d08e-117">Existing shipments not yet invoiced cannot be invoiced.</span></span> <span data-ttu-id="5d08e-118">Aún puede enviar recordatorios y documentos de interés al cliente.</span><span class="sxs-lookup"><span data-stu-id="5d08e-118">You can still send reminders and finance charge memos to the customer.</span></span>|  
+|<span data-ttu-id="5d08e-119">**Todo**</span><span class="sxs-lookup"><span data-stu-id="5d08e-119">**All**</span></span>|<span data-ttu-id="5d08e-120">No se permite ninguna transacción para este cliente, incluidos los pagos.</span><span class="sxs-lookup"><span data-stu-id="5d08e-120">No transaction is allowed for this customer, including payments.</span></span>|  
 
-## <a name="to-block-a-customer"></a><span data-ttu-id="5b85a-120">Para bloquear a un cliente</span><span class="sxs-lookup"><span data-stu-id="5b85a-120">To block a customer</span></span>  
-1. <span data-ttu-id="5b85a-121">Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="5b85a-121">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.</span></span>
-2. <span data-ttu-id="5b85a-122">Seleccione un cliente y, a continuación, elija la acción **Editar**.</span><span class="sxs-lookup"><span data-stu-id="5b85a-122">Select a customer, and then choose the **Edit** action.</span></span>
-3. <span data-ttu-id="5b85a-123">Rellene el campo **Bloqueado** con una de las opciones descritas anteriormente.</span><span class="sxs-lookup"><span data-stu-id="5b85a-123">Fill in the **Blocked** field with one of the options described above.</span></span>
+## <a name="to-block-a-customer"></a><span data-ttu-id="5d08e-121">Para bloquear a un cliente</span><span class="sxs-lookup"><span data-stu-id="5d08e-121">To block a customer</span></span>  
+1. <span data-ttu-id="5d08e-122">Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="5d08e-122">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.</span></span>
+2. <span data-ttu-id="5d08e-123">Seleccione un cliente y, a continuación, elija la acción **Editar**.</span><span class="sxs-lookup"><span data-stu-id="5d08e-123">Select a customer, and then choose the **Edit** action.</span></span>
+3. <span data-ttu-id="5d08e-124">En el campo **Bloqueado**, elija qué bloquear, como se describe en la tabla anterior.</span><span class="sxs-lookup"><span data-stu-id="5d08e-124">In the **Blocked** field, choose what to block, as described in the table above.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="5b85a-124">Consulte también</span><span class="sxs-lookup"><span data-stu-id="5b85a-124">See Also</span></span>  
-[<span data-ttu-id="5b85a-125">Permite registrar nuevos clientes</span><span class="sxs-lookup"><span data-stu-id="5b85a-125">Register New Customers</span></span>](sales-how-register-new-customers.md)  
-[<span data-ttu-id="5b85a-126">Cobrar saldos pendientes</span><span class="sxs-lookup"><span data-stu-id="5b85a-126">Collect Outstanding Balances</span></span>](receivables-collect-outstanding-balances.md)  
-[<span data-ttu-id="5b85a-127">Administrar cobros</span><span class="sxs-lookup"><span data-stu-id="5b85a-127">Managing Receivables</span></span>](receivables-manage-receivables.md)  
+## <a name="see-also"></a><span data-ttu-id="5d08e-125">Consulte también</span><span class="sxs-lookup"><span data-stu-id="5d08e-125">See Also</span></span>  
+[<span data-ttu-id="5d08e-126">Permite registrar nuevos clientes</span><span class="sxs-lookup"><span data-stu-id="5d08e-126">Register New Customers</span></span>](sales-how-register-new-customers.md)  
+[<span data-ttu-id="5d08e-127">Cobrar saldos pendientes</span><span class="sxs-lookup"><span data-stu-id="5d08e-127">Collect Outstanding Balances</span></span>](receivables-collect-outstanding-balances.md)  
+[<span data-ttu-id="5d08e-128">Administrar cobros</span><span class="sxs-lookup"><span data-stu-id="5d08e-128">Managing Receivables</span></span>](receivables-manage-receivables.md)  
