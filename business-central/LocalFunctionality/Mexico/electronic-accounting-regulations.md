@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f1123e79eefbe7ba35ebe9ceadaf9066845ce424
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bcf5f58a5233e9786db2576ced0c4296b35ccf84
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181113"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677196"
 ---
 # <a name="complying-with-electronic-accounting-regulations-in-mexico"></a>Cumplimiento con las regulaciones electrónicas de la contabilidad en México
 En México, los individuos y las empresas deben hacer su contabilidad electrónicamente y enviar sus resultados mensuales al Servicio de Administración Tributaria de México (SAT) como archivos XML separados al final de cada mes. Los archivos XML deben contener lo siguiente:
@@ -40,7 +40,7 @@ Para el archivo que contiene transacciones de diario:
 * En la página **Método de pago**, en el campo **Método de pago SAT** debe especificar cómo se realizó el pago.
 
 ## <a name="to-generate-the-xml-files"></a>Para generar los archivos XML
-1. Elija el icono ![Buscar por página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), escriba **Exportar contabilidad elect.** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Contabilidad elect. de exportación** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Consulte también

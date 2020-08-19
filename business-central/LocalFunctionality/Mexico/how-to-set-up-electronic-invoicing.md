@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 347e5bf8a7caa3d2198bbd1613cfc464014204cc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b3d25eeea42e8403ffc43840ea952750f540768f
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181108"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677049"
 ---
 # <a name="set-up-electronic-invoicing"></a>Configurar la facturación electrónica
 Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[d365fin](../../includes/d365fin_md.md)] para asegurarse de que el número de identificación fiscal (RFC), el número de identificación personal (CURP) y los identificadores de inscripción estatal estén disponibles para la empresa y para todos sus clientes y proveedores. Además, debe configurar los parámetros necesarios para el envío de facturas electrónicas a clientes y proveedores. Tales parámetros incluyen la huella digital del certificado, es decir, el certificado que recibe de la autoridad fiscal mexicana (SAT).  
@@ -27,7 +27,7 @@ Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[d3
 
 ## <a name="to-set-up-company-information"></a>Para configurar la información de la empresa  
 
-1.  Elija el icono ![Buscar por página o informe ](../../media/ui-search/search_small.png "Buscar por página o icono de informe"), escriba **Información de la empresa** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado.  
 2.  En la página **Información empresa**, en la ficha desplegable **Impuesto**, llene los campos como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
