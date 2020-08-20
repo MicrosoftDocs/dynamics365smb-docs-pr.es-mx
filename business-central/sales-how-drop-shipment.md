@@ -12,29 +12,29 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c61f55701ecb07862f42d3cce242756001529588
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7cc6101fbd63ed7bc4f92372acf651fe8868c7be
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193694"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666983"
 ---
 # <a name="make-drop-shipments"></a>Realizar envíos directos
 Un envío directo es el envío de los productos de uno de sus proveedores directamente a uno de sus clientes.
 
-Cuando se marca un pedido de venta para remisión directo y se crea un pedido de compra especificando el cliente en el campo **Dirección de envío**, **Dirección del cliente**, se pueden enlazar los dos documentos y, de este modo, indicar al proveedor que realice el envío directamente al cliente.
+Cuando se marca una orden de venta para remisión directa y se crea una orden de compra especificando el cliente en el campo **Dirección de envío**, **Dirección del cliente**, se pueden enlazar los dos documentos para indicar al proveedor que realice el envío directamente al cliente.
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
 ## <a name="to-create-a-sales-order-for-drop-shipment"></a>Para crear una orden de venta de remisión directa
-Para preparar una remisión directa, cree una orden de venta como si fuese normal, pero indique en la línea de ventas que dicha venta requiere una remisión directa.
+Para preparar una remisión directa cree una orden de venta para un producto e indique en la línea de ventas que dicha venta requiere una remisión directa.
 
 1. Cree una orden de venta para un artículo. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
 2. En la línea del pedido de venta del envío directo, seleccione la casilla **Envío directo**. Use la función **Elegir columnas** si el campo no está visible. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Para crear órdenes de compra de remisión directa
-Para preparar una remisión directa de un producto que se va a vender, cree una orden de compra como si fuese normal, pero indique en dicha orden que el producto debe enviarse directamente al cliente no a usted.
+Para preparar una remisión directo, debe indicar en la orden de compra que debe enviarse a su cliente, no a usted mismo.
 
 1. Cree una orden de compra. No rellene ningún campo en las líneas. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 2. En el campo **Dirección de envío**, seleccione **Dirección del cliente**.
@@ -47,6 +47,15 @@ La información de la línea del pedido de venta se inserta en las líneas del p
 
 Ahora puede asignar instrucciones al proveedor para que envíe los productos al cliente, por ejemplo, enviando la orden de compra por correo electrónico en formato PDF.     
 
+## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Para crear varias órdenes de compra para remisiones directas
+También puede utilizar la hoja de demanda para crear el pedido de compra para el proveedor. La ventaja de utilizar la hoja de requisición es que puede crear órdenes de compra para todas las remisiones directas pendientes, por lo que no tiene que crear cada uno individualmente.
+
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hojas de demanda** y luego elija el enlace relacionado.
+2. Elija la acción **Remisiones directas** y, a continuación, **Tomar pedido venta**.
+3. Elija el botón **Aceptar**.
+4. Revise las líneas del pedido de compra y, en el campo **Nº proveedor**, seleccione el proveedor que suministra los bienes necesarios. 
+5. Elija la acción **Ejecutar mensajes de acción*** para convertir líneas revisadas en un pedido de compra.
+
 ## <a name="to-view-the-linked-purchase-order-from-the-sales-order"></a>Para ver la orden de compra vinculada a la orden de venta
 * Seleccione la línea de la orden de compra de envío directo, elija las acciones **Orden**, **Envío directo** y, a continuación, **Orden de compra**.
 
@@ -54,7 +63,7 @@ Ahora puede asignar instrucciones al proveedor para que envíe los productos al 
 Después de que el proveedor envíe los productos, puede establecer los pedidos de venta como enviados. También puede registrar la orden de compra, pero solo con la opción **Recibir** hasta que se haya facturado la orden de venta.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
-2. Abra el pedido de venta que ha creado en [Para crear un pedido de venta de remisión directa]().
+2. Abra el pedido de venta que ha creado en [Para crear un pedido de venta de remisión directa](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
 3. En el campo **Cantidad a enviar**, especifiqué qué cantidad del pedido debe enviarse, todo o solo una parte.
 4. Seleccione la acción **Registrar** o **Registrar y enviar**.
 5. Elija la opción **Enviar** para facturar más adelante o la opción **Enviar y facturar** para facturar ahora.

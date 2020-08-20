@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 098bb0e946d78f69a848ddeb8405ea43579c4597
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185167"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617638"
 ---
 # <a name="design-details-item-application"></a>Detalles de diseño: Liquidación de productos
+
 Cuando se registra una transacción de inventario, el registro de cantidad se guarda en los movimientos de producto y el registro de valor en los movimientos de valoración. Para obtener más información, consulte [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md).  
 
 Además, se hace una solicitud de producto para conectar al destinatario del costo con el origen del costo y hacer así un desvío de costo al método de costo. Para obtener más información, consulte [Detalles de diseño: Métodos de coste](design-details-costing-methods.md).  
@@ -34,21 +35,21 @@ Las liquidaciones de producto se pueden crear de las siguientes formas.
 |Método|Descripción|Tipo de aplicación|  
 |------------|---------------------------------------|----------------------|  
 |Automática|Se produce como un desvío de costo general según la valuación de inventarios|Liquidación de cantidad|  
-|Fijo|Realizado por el usuario cuando:<br /><br /> -   Procesar devoluciones<br />-   Registrar correcciones<br />-   Procedimiento para deshacer registros de cantidades<br />-   Creación de las remisiones directas **Nota**: La liquidación fija se puede realizar manualmente si especifica un número de movimiento en el campo **Liquid. mov. prod.** o con una función, como **Revertir líneas documentos registrados**.|Liquidación de cantidad<br /><br /> Costo liquidación **Nota:** La liquidación del costo solo se produce en transacciones de entrada cuando el campo **Liq. movimiento prod.** se rellena para crear una liquidación fija. Vea la tabla siguiente.|  
+|Fijo|Realizado por el usuario cuando:<br /><br /> -   Procesar devoluciones<br />-   Registrar correcciones<br />-   Procedimiento para deshacer registros de cantidades<br />-   Creación de los remisiones directas **Nota**: La liquidación fija se puede realizar manualmente si especifica un número de movimiento en el campo **Liq. mov. prod.** o con una función, como **Revertir líneas de documentos registrados**.|Liquidación de cantidad<br /><br /> Costo liquidación **Nota:** La liquidación del costo solo se produce en transacciones de entrada cuando el campo **Liq. movimiento prod.** se rellena para crear una liquidación fija. Vea la tabla siguiente.|  
 
 El hecho que de que se hagan liquidaciones de cantidad o de costo depende de la dirección de la transacción de inventario y de si la liquidación de producto se realiza de modo automático o fijo, en conexión con procesos especiales.  
 
 En la tabla siguiente se muestra, según los campos de la aplicación central en las líneas de transacción de inventario, cómo fluyen los costes según la dirección de la transacción. También indica cuándo y por qué la liquidación del producto es de tipo cantidad o costo.  
 
-||Campo Liq. por nº orden producto|Campo Liq. movimiento prod.|  
+|-|Campo Liq. por nº orden producto|Campo Liq. movimiento prod.|  
 |-|--------------------------------|----------------------------------|  
 |Aplicación de movimiento de salida|El movimiento de salida obtiene el costo del movimiento de entrada abierto.<br /><br /> **Liquidación de cantidad**|No compatible|  
 |Aplicación de movimiento de entrada|El movimiento de entrada envía el costo al movimiento de salida abierto.<br /><br /> El movimiento de entrada es el origen de costo.<br /><br /> **Liquidación de cantidad**|El movimiento de entrada obtiene el costo del movimiento de salida. **Nota:** Al realizar esta liquidación fija, la transacción de entrada se trata como una devolución de venta. Por lo tanto, el movimiento de salida aplicado permanecerá abierto. <br /><br /> El movimiento de entrada NO es el origen de costo.<br /><br /> **Costo liquidación**|  
 
 > [!IMPORTANT]  
->  Una devolución de venta NO se considera un origen de costo cuando se liquida de forma fija.  
->   
->  El movimiento de venta permanece abierto hasta que se registra el origen real.  
+> Una devolución de venta NO se considera un origen de costo cuando se liquida de forma fija.  
+>
+> El movimiento de venta permanece abierto hasta que se registra el origen real.  
 
 Un movimiento de liquidación de producto registra la siguiente información.  
 
@@ -71,7 +72,7 @@ En la tabla siguiente se muestra el movimiento de liquidación de producto que s
 |01-01-20|1|0|10|1|  
 
 ## <a name="inventory-decrease"></a>Salida de existencias  
-Cuando registra una salida de existencias, se crea un movimiento de liquidación de producto que enlaza la salida de existencias con una entrada de existencias. Este vínculo se crea mediante la guía de la valuación de inventarios del producto. En el caso de productos que usen métodos de coste FIFO, Estándar y Promedio, la vinculación se basa en el principio de "primero en entrar, primero en salir". La salida de inventario se aplica a la entrada de inventario con la fecha de registro más temprana. En el caso de productos que usen métodos de costo LIFO, la vinculación se basa en el principio de "último en entrar, primero en salir". La salida de inventario se aplica a la entrada de inventario con la fecha de registro más reciente.  
+Cuando registra una salida de existencias, se crea un movimiento de liquidación de producto que enlaza la salida de existencias con una entrada de existencias. Este vínculo se crea mediante la guía de la valoración de existencias del producto. En el caso de productos que usen métodos de coste FIFO, Estándar y Promedio, la vinculación se basa en el principio de "primero en entrar, primero en salir". La salida de inventario se aplica a la entrada de inventario con la fecha de registro más temprana. En el caso de productos que usen métodos de costo LIFO, la vinculación se basa en el principio de "último en entrar, primero en salir". La salida de inventario se aplica a la entrada de inventario con la fecha de registro más reciente.  
 
 En la tabla **Mov. producto**, el campo **Cantidad pendiente** muestra la cantidad que todavía no se ha procesado. Si la cantidad pendiente es mayor que 0, se selecciona la casilla **Abrir**.  
 
@@ -234,7 +235,7 @@ Debido a la forma en la que se calcula el costo unitario de un producto, una liq
 
 * Ha olvidado realizar una liquidación fija.  
 * Ha realizado una liquidación fija incorrecta.  
-* Desea invalidar la liquidación creada automáticamente al efectuar el registro, según la valuación de inventarios del producto.  
+* Desea invalidar la liquidación creada automáticamente al efectuar el registro, según la valoración de existencias del producto.  
 * Tiene que devolver un producto al que ya se le ha aplicado una ventana, sin usar la función **Revertir líneas documentos registrados** y, por lo tanto, debe deshacer la liquidación.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece una característica para analizar y corregir las liquidaciones de productos. Este trabajo se realiza en la página **Hoja liquidación**.  

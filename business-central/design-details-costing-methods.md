@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8333e3127a009a04d63fceb8ec17530f83de10d0
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: e3ec3ad00d73fcb74d41ff46cc2d2c0e34e78489
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496686"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617922"
 ---
 # <a name="design-details-costing-methods"></a>Detalles de diseño: Métodos de costo
+
 La valuación de existencias determina si en el cálculo de costos se capitaliza y utiliza un valor real o uno presupuestado. Junto con la fecha de registro y la secuencia, el método de costo también influye en cómo se registra el flujo de costos.
 
 > [!NOTE]
@@ -26,13 +27,13 @@ La valuación de existencias determina si en el cálculo de costos se capitaliza
 
 En [!INCLUDE[d365fin](includes/d365fin_md.md)] se admiten las siguientes valoraciones:  
 
-|Método de coste|Descripción|Cuándo se debe usar|  
-|--------------------|---------------------------------------|-----------------|  
-|FIFO|El costo unitario de un producto es el valor real de cualquier recepción del producto, seleccionado durante la regla de FIFO.<br /><br /> En la valuación de inventarios, se presupone que los primeros productos colocados en el inventario se venden primero.|En entornos empresariales donde el costo de productos es estable.<br /><br /> (Cuando suben los precios, la hoja de balance muestra el valor mayor). Esto significa que las deudas tributarias aumentan, pero las puntuaciones de crédito y capacidad de pedir efectivo prestado mejoran.<br /><br /> En el caso de productos con una vida útil limitada, ya que los productos más antiguos deben venderse antes de que superen su fecha de límite de venta.|  
-|LIFO|El costo unitario de un producto es el valor real de cualquier recepción del producto, seleccionado durante la regla de LIFO.<br /><br /> En la valuación de inventarios, se presupone que los últimos productos colocados en el inventario se venden primero.|No se permite en muchos países o regiones, ya que puede utilizarse para debilitar las ganancias.<br /><br /> (Cuando suben los precios, el valor del balance de ingresos disminuye). Esto significa que las deudas tributarias disminuyen, pero la capacidad de pedir efectivo prestado deteriora.|  
-|Promedio|El costo unitario de un producto se calcula como el costo unitario promedio en cada momento después de una compra.<br /><br /> De la valuación de inventarios, se presupone que todos los inventarios se venden simultáneamente.|En entornos empresariales donde el costo de productos es inestable.<br /><br /> Cuando se apilan inventarios o se mezclan y no pueden ser diferenciados, tal como sustancias químicas.|  
-|Específico|El costo unitario de un producto es el costo exacto en el que la unidad determinada fue recibida.|En producción o comercio de productos fácilmente identificables con costos unitarios relativamente elevados.<br /><br /> En el caso de productos que están sujetos normativas.<br /><br /> Para productos con números de serie.|  
-|Estándar|El costo unitario de un producto se preestablece basándose en una estimación.<br /><br /> Cuando el costo real se realiza posteriormente, el costo estándar se debe ajustar al costo real a través de valores de varianza.|Cuando el control del costo es crítico.<br /><br /> En fabricación repetitiva para establecer el valor de los costes de material directo, mano de obra directa y gastos de fabricación.<br /><br /> Cuando hay disciplina y personal para mantener los estándares.|  
+| Método de coste | Description | Cuándo se debe usar |
+|--|--|--|
+| FIFO | El costo unitario de un producto es el valor real de cualquier recepción del producto, seleccionado durante la regla de FIFO.<br /><br /> En la valuación de inventarios, se presupone que los primeros productos colocados en el inventario se venden primero. | En entornos empresariales donde el costo de productos es estable.<br /><br /> (Cuando suben los precios, la hoja de balance muestra el valor mayor). Esto significa que las deudas tributarias aumentan, pero las puntuaciones de crédito y capacidad de pedir efectivo prestado mejoran.<br /><br /> En el caso de productos con una vida útil limitada, ya que los productos más antiguos deben venderse antes de que superen su fecha de límite de venta. |
+| LIFO | El costo unitario de un producto es el valor real de cualquier recepción del producto, seleccionado durante la regla de LIFO.<br /><br /> En la valuación de inventarios, se presupone que los últimos productos colocados en el inventario se venden primero. | No se permite en muchos países o regiones, ya que puede utilizarse para debilitar las ganancias.<br /><br /> (Cuando suben los precios, el valor del balance de ingresos disminuye). Esto significa que las deudas tributarias disminuyen, pero la capacidad de pedir efectivo prestado deteriora. |
+| Promedio | El costo unitario de un producto se calcula como el costo unitario promedio en cada momento después de una compra.<br /><br /> De la valuación de inventarios, se presupone que todos los inventarios se venden simultáneamente. | En entornos empresariales donde el costo de productos es inestable.<br /><br /> Cuando se apilan inventarios o se mezclan y no pueden ser diferenciados, tal como sustancias químicas. |
+| Específico | El costo unitario de un producto es el costo exacto en el que la unidad determinada fue recibida. | En producción o comercio de productos fácilmente identificables con costos unitarios relativamente elevados.<br /><br /> En el caso de productos que están sujetos normativas.<br /><br /> Para productos con números de serie. |
+| Estándar | El costo unitario de un producto se preestablece basándose en una estimación.<br /><br /> Cuando el costo real se realiza posteriormente, el costo estándar se debe ajustar al costo real a través de valores de varianza. | Cuando el control del costo es crítico.<br /><br /> En fabricación repetitiva para establecer el valor de los costes de material directo, mano de obra directa y gastos de fabricación.<br /><br /> Cuando hay disciplina y personal para mantener los estándares. |
 
  En la imagen siguiente se muestra cómo fluyen los costos a través del inventario por cada valuación de inventarios.  
 
@@ -40,7 +41,7 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)] se admiten las siguientes valorac
 
  Los métodos de costo varían en cuanto a la forma en que el inventario disminuye y si se utiliza el costo real o el costo estándar como base de valuación. En la tabla siguiente se explican las diferentes características. (Se excluye el método LIFO por ser muy parecido al método FIFO).  
 
-||FIFO|Promedio|Estándar|Específico|  
+|<!--blank -->|FIFO|Promedio|Estándar|Específico|  
 |-|----------|-------------|--------------|--------------|  
 |Característica general|Fácil de comprender|Basándose en opciones de periodo: **Día**/**Semana**/**Mes**/**Trimestre**/**Periodo contable**.<br /><br /> Se puede calcular por producto o por producto, almacén y variante.|Fácil de usar pero requiere mantenimiento cualificado.|Requiere el seguimiento de producto en la transacción de entrada y de salida.<br /><br /> Normalmente se usa para productos serializados.|  
 |Aplicación/ajuste|La aplicación hace un seguimiento de **la cantidad pendiente**.<br /><br /> El ajuste desvía los costes según la liquidación de la cantidad.|La aplicación hace un seguimiento de la **cantidad pendiente**.<br /><br /> Los costes se calculan y se envían por la **fecha de valoración**.|La aplicación hace un seguimiento de la **cantidad pendiente**.<br /><br /> La aplicación se basa en el método FIFO.|Toda las liquidaciones son fijas.|  
@@ -67,7 +68,7 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)] se admiten las siguientes valorac
 ### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Efecto de los métodos de costo en la valoración de entrada de inventario  
  **FIFO**/**LIFO**/**Promedio**/**Específico**  
 
- En el caso de productos con métodos de costo que utilizan el costo real como base de valuación (**FIFO**, **LIFO**, **Promedio** o **Específico**), las entradas de inventario se calculan según el costo de compra del producto.  
+ En el caso de productos con métodos de costo que utilizan el costo actual como base de valoración (**FIFO**, **LIFO**, **Promedio** o **Específico**), las entradas de existencias se calculan según el costo de compra del producto.  
 
  En la tabla siguiente se muestra cómo se valoran las entradas de inventario para todas las valoraciones de inventario excepto **Estándar**.  
 
@@ -79,7 +80,7 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)] se admiten las siguientes valorac
 
  **Estándar**  
 
- En el caso de productos donde se use el método de costos **Estándar**, las entradas de inventario se calculan según el costo estándar actual.  
+ En el caso de productos donde se use el método de costos **Estándar**, las entradas de existencias se calculan según el costo estándar actual.  
 
  En la tabla siguiente se muestra cómo se valoran las entradas de inventario para la valuación de inventarios **Estándar**.  
 

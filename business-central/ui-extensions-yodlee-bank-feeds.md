@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ca384d58046bd0c798038878a3ed93f5a00eeec5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7ef9d8e7904b51956960973e06ca6d936acb1aa0
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189854"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666883"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Extensión Envestnet Yodlee Bank Feeds
 Para conciliar pagos realizados en sus bancos rápidamente, el servicio Envestnet Yodlee Bank Feeds permite vincular su cuenta bancaria del sistema a su cuenta bancaria en línea. Esto significa que el último estado de cuenta bancario se introduce manual o automáticamente en el diario de conciliación de pagos, lo que garantiza que siempre procesará sus últimos pagos con el mínimo de errores.
@@ -40,6 +40,9 @@ El servicio Envestnet Yodlee Bank Feeds proporciona las siguientes ventajas:
 * Permite información actualizada sobre transacciones bancarias en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 * Admite fuentes de banco manuales o automáticas.
 * Habilita la externalización de la conciliación de pagos a un contable proporcionando acceso a los extractos bancarios.
+
+## <a name="available-bank-feeds"></a>Fuentes de banco disponibles
+Puede comprobar si un banco es compatible configurando y conectándose al servicio Envestnet Yodlee Bank Feeds. El banco aparecerá en la lista si es compatible con Envestnet Yodlee.
 
 Para obtener más información, vea [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
