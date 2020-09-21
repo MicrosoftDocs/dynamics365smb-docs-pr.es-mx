@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 784011749aab593b37cbf874045a97364120403d
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 3b77b697ae746a7d7ed4cd2851d6f70f47e3e34c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677258"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779051"
 ---
 # <a name="create-deposits"></a>Crear depósitos
 Puede crear depósitos para llevar un registro de las transacciones que incluya información que pueda aplicarse a facturas y notas de crédito pendientes.  

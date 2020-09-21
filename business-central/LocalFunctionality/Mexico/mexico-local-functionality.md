@@ -6,13 +6,13 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
 ms.date: 06/09/2020
-ms.author: sgroespe
-ms.openlocfilehash: e82e0ed833abf89b991c5f494ce1dd77b651ade4
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.author: edupont
+ms.openlocfilehash: 4777c861c0f3f3b96d7f2f123cb974f61d4aee7e
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454349"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778559"
 ---
 # <a name="mexico-local-functionality"></a>Funcionalidad local de México
 
