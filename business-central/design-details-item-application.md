@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 07/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: 098bb0e946d78f69a848ddeb8405ea43579c4597
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.author: edupont
+ms.openlocfilehash: b13bc643a93d7558c4760791af81a9a6cc6190b2
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617638"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787682"
 ---
 # <a name="design-details-item-application"></a>Detalles de diseño: Liquidación de productos
 
@@ -35,7 +35,7 @@ Las liquidaciones de producto se pueden crear de las siguientes formas.
 |Método|Descripción|Tipo de aplicación|  
 |------------|---------------------------------------|----------------------|  
 |Automática|Se produce como un desvío de costo general según la valuación de inventarios|Liquidación de cantidad|  
-|Fijo|Realizado por el usuario cuando:<br /><br /> -   Procesar devoluciones<br />-   Registrar correcciones<br />-   Procedimiento para deshacer registros de cantidades<br />-   Creación de los remisiones directas **Nota**: La liquidación fija se puede realizar manualmente si especifica un número de movimiento en el campo **Liq. mov. prod.** o con una función, como **Revertir líneas de documentos registrados**.|Liquidación de cantidad<br /><br /> Costo liquidación **Nota:** La liquidación del costo solo se produce en transacciones de entrada cuando el campo **Liq. movimiento prod.** se rellena para crear una liquidación fija. Vea la tabla siguiente.|  
+|Fijo|Realizado por el usuario cuando:<br /><br /> -   Procesar devoluciones<br />-   Registrar correcciones<br />-   Procedimiento para deshacer registros de cantidades<br />-   Creación de las remisiones directas **Nota**: La liquidación fija se puede realizar manualmente si especifica un número de movimiento en el campo **Liquid. mov. prod.** o con una función, como **Revertir líneas documentos registrados**.|Liquidación de cantidad<br /><br /> Costo liquidación **Nota:** La liquidación del costo solo se produce en transacciones de entrada cuando el campo **Liq. movimiento prod.** se rellena para crear una liquidación fija. Vea la tabla siguiente.|  
 
 El hecho que de que se hagan liquidaciones de cantidad o de costo depende de la dirección de la transacción de inventario y de si la liquidación de producto se realiza de modo automático o fijo, en conexión con procesos especiales.  
 

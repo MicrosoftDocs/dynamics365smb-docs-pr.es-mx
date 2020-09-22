@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e222e133313147cecd94c8cb7f2644776ee1034a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: ffd2837365ec6cfb93528aa422603a68bc5d6788
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186271"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779797"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Configurar la extensión AMC Banking 365 Fundamentals
 Ya está configurado y listo para habilitar un proveedor global de servicios de conversión de información de pagos a cualquier formato de datos que requiera el banco en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Esto se menciona en [!INCLUDE[d365fin](includes/d365fin_md.md)] como la extensión AMC Banking 365 Fundamentals.
@@ -29,7 +29,7 @@ Como alternativa a la importación de estados de cuenta bancarios con la extensi
 Para importar o exportar archivos bancarios, deberá configurar su propia cuenta bancaria y las de sus proveedores. Para obtener más información, consulte [Configurar cuentas bancarias](bank-how-setup-bank-accounts.md).
 
 > [!NOTE]  
-> La extensión AMC Banking 365 Fundamentals puede imponer un límite de número de líneas que se pueden exportar en un archivo. Recibirá un mensaje de error si se supera el límite. Es aconsejable que los archivos de estado de cuenta bancario no excedan las 1000 líneas, ya que el tiempo de procesado en la extensión AMC Banking 365 Fundamentals puede aumentar significativamente.
+> La extensión AMC Banking 365 Fundamentals puede imponer un límite de número de líneas que se pueden exportar en un archivo. Recibirá un mensaje de error si se supera el límite. Es aconsejable que los archivos de estado de cuenta no excedan las 1000 líneas, ya que el tiempo de procesado en la extensión AMC Banking 365 Fundamentals puede aumentar significativamente.
 
 ## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>Para inscribir a su empresa en la extensión AMC Banking 365 Fundamentals
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de servicio de conv. de datos del banco** y luego elija el enlace relacionado.  

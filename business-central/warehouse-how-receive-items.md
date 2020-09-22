@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/07/2020
-ms.author: sgroespe
-ms.openlocfilehash: 99aab6de06cd50d53b977ed37a863cad28fab8fa
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 038ecb0122e58cfdca3ff62ac93554fab01dcdb6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542678"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786607"
 ---
 # <a name="receive-items"></a>Recibir productos
 
@@ -32,7 +32,8 @@ A continuación se describe cómo recibir productos con un pedido de compra. Los
 3. Escriba la cantidad recibida en el campo **Cantidad a recibir**.
 
   > [!NOTE]
-  > Si la cantidad recibida es mayor que la ordenada en la orden de compra, según el campo **Cantidad**, y el proveedor se ha configurado para permitir recepciones en exceso, entonces usa el campo **En exceso** para administrar la cantidad en exceso. Para más información, vea [Para recibir más artículos de los solicitados](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+  > Si la cantidad recibida es mayor que la ordenada en la orden de compra, según el campo **Cantidad**, y el proveedor se ha configurado para permitir recepciones en exceso, entonces use el campo **Recepción en exceso** para administrar la cantidad en exceso. Para más información, vea [Para recibir más artículos de los solicitados](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+
 4. Seleccione la acción **Registrar**.
 
   El valor del campo **Cdad. recibida** se actualiza según corresponde. Si se trata de un recibo parcial, el valor es menor que el valor del campo **Cantidad**.
