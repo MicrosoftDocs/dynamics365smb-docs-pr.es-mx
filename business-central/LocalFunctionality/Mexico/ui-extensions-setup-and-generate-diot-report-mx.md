@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, diot, authorities, export, compliance
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: d844564e4516914b17a44c6a5892c5971a4127a2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 77ddb3548bb9955d76321f9e2daa0f4be186be36
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181100"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919923"
 ---
 # <a name="set-up-and-generate-diot-reports"></a>Configurar y generar informes DIOT
 

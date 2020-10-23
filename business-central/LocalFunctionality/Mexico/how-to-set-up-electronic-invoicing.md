@@ -8,27 +8,40 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/06/2020
 ms.author: edupont
-ms.openlocfilehash: e36ed66bbb03674d0a903b881b32bc5322db09be
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 032784efe08b4286e03333091b5d4163b38dd3a4
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778568"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968326"
 ---
 # <a name="set-up-electronic-invoicing"></a>Configurar la facturación electrónica
+
 Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[d365fin](../../includes/d365fin_md.md)] para asegurarse de que el número de identificación fiscal (RFC), el número de identificación personal (CURP) y los identificadores de inscripción estatal estén disponibles para la empresa y para todos sus clientes y proveedores. Además, debe configurar los parámetros necesarios para el envío de facturas electrónicas a clientes y proveedores. Tales parámetros incluyen la huella digital del certificado, es decir, el certificado que recibe de la autoridad fiscal mexicana (SAT).  
 
 > [!IMPORTANT]  
->  El certificado que recibe de la autoridad fiscal mexicana debe instalarse para cada usuario que envía facturas electrónicas. Para obtener más información, consulte el sitio web del [Servicio de Administración Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772).  
->   
->  Asimismo, la empresa debe tener configurado el correo SMTP para el envío de facturas electrónicas. En función de la configuración de la empresa, quizá sea necesario conceder permisos explícitos de SMTP a cada usuario y equipo correspondiente. Los documentos se enviarán desde la dirección especificada en la página **Información de empresa**.  
+> El certificado que recibe de la autoridad fiscal mexicana debe instalarse para cada usuario que envía facturas electrónicas. Para obtener más información, consulte el sitio web del [Servicio de Administración Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772).  
+>
+> Asimismo, la empresa debe tener configurado el correo SMTP para el envío de facturas electrónicas. En función de la configuración de la empresa, quizá sea necesario conceder permisos explícitos de SMTP a cada usuario y equipo correspondiente. Los documentos se enviarán desde la dirección especificada en la página **Información de empresa**.  
 
 ## <a name="to-set-up-company-information"></a>Para configurar la información de la empresa  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado.  
-2.  En la página **Información empresa**, en la ficha desplegable **Impuesto**, llene los campos como se describe en la tabla siguiente.  
+1. Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado.  
+2. En la página **Información de la empresa**, en la ficha desplegable **Impuesto**, rellene los campos tal y como se describe en la tabla siguiente.  
+
+    |Campo|Description|  
+    |------------------------------------|---------------------------------------|
+    |**Esquema fiscal**|Ingrese el esquema fiscal que cumple su empresa. Los esquemas fiscales comúnmente utilizados son Régimen General, Régimen intermedio y Régimen de pequeños contribuyentes (REPECOS).|
+    |**N° RFC**|Ingrese el número de registro federal de los contribuyentes. El tipo de identificación fiscal Registro Federal de Contribuyentes (RFC) se puede aplicar a empresas y a personas. El número de RFC de una empresa incluye 12 caracteres, mientras que el número de RFC de una persona incluye 13 caracteres.|
+    |**N° CURP**|Ingrese el número de identificación de la tarjeta fiscal única. El tipo de identificación fiscal Cédula de identification fiscal con clave única de registro de población (CURP) solo puede aplicarse a personas. Un número de CURP incluye 18 caracteres.|
+    |**Inscripción estatal**|Ingrese el número de identificación fiscal que asignan las autoridades fiscales del estado a toda persona o empresa.|
+
+## <a name="to-set-up-general-ledger-information"></a>Para configurar la información contable  
+
+1. Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.  
+2. En la página **Configuración contabilidad**, en la ficha desplegable **Factura electrónica**, llene los campos como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
     |------------------------------------|---------------------------------------|  
@@ -39,7 +52,26 @@ Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[d3
 
 Como alternativa, puede solicitar a su Microsoft Certified Partner que modifique el texto que se incluye en el correo electrónico que se usa al enviar facturas electrónicas. El texto se almacena como variables de texto en la codeunit 10145.  
 
-## <a name="see-also"></a>Consulte también  
- [Facturación electrónica](electronic-invoicing.md)   
- [Generar facturas electrónicas](how-to-generate-electronic-invoices.md)   
- [Funcionalidad local de México](mexico-local-functionality.md)
+## <a name="to-set-up-customer-and-vendor-information"></a>Para configurar la información del cliente y el proveedor
+
+Finalmente, debe agregar la información sobre sus clientes y proveedores. En la siguiente sección se describe cómo especificar esta información a los clientes, pero se deben especificar los mismos campos para los proveedores.
+
+1. Elija el ícono ![Una tercera bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), ingrese **Tarjeta de cliente**, y luego elija el enlace relacionado.
+2. En la ventana **Tarjeta del cliente**, en la ficha desplegable **Facturación**, llene los campos como se describe en la tabla siguiente.
+
+    |Campo|Description|
+    |------------------------------------|---------------------------------------|
+    |**N° RFC**|Ingrese el número de registro federal de los contribuyentes. El número RFC debe contener 12 dígitos.|
+    |**N° CURP**|Ingrese el número de identificación de la tarjeta fiscal única. El número CURP debe contener 18 dígitos.|
+    |**Inscripción estatal**|Ingrese el número de identificación fiscal que asignan las autoridades fiscales del estado a toda persona o empresa.|
+
+    > [!NOTE]
+    > Si selecciona el campo **Precios incluido IVA** para un cliente, los documentos electrónicos incluirán el IVA en todas las cantidades, incluidos los precios unitarios. Los documentos electrónicos también contendrán un elemento separado para el IVA. Si quiere evitar cualquier posible confusión sobre las cantidades que incluyen el IVA, puede elegir no seleccionar el campo **Precios incluido IVA**.
+
+3. En la ficha rápida **Pagos**, en el campo **Código del método de pago**, especifique la forma de pago que desea utilizar para este cliente.
+
+## <a name="see-also"></a>Consulte también
+
+[Facturación electrónica](electronic-invoicing.md)  
+[Generar facturas electrónicas](how-to-generate-electronic-invoices.md)  
+[Funcionalidad local de México](mexico-local-functionality.md)  

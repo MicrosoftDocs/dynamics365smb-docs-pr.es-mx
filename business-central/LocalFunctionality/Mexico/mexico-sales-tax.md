@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: local
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 01a55b25899b123f20dc75c993727cec5abe838f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0deacc53cd46bfb6e022ae4129ad9833df37389d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181103"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919925"
 ---
 # <a name="reporting-sales-tax-in-the-mexico"></a>Informes del impuesto de venta en México
 Cuando empieza por primera vez a usa [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede ejecutar una guía asistida de instalación para configurar rápida y fácilmente la información de los impuestos de venta para su empresa, clientes y proveedores. En cuestión de minutos puede empezar a crear documentos de compra y venta con los impuestos calculados correctamente. Toda esto se explica [en nuestra entrada en el blog](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).
