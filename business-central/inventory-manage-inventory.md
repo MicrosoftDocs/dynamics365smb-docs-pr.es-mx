@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4c3bcff76a258223b80231e94782ab908077e55e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1d1eb5a29a1e83b3dad454426327f03786b8f644
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785632"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921778"
 ---
 # <a name="inventory"></a>Inventario
-Por cada producto físico que se comercialice, debe crear una ficha de producto del tipo **Inventario**. Los productos que ofrece a los clientes pero que no mantiene en el inventario, puede registrarlos como productos del catálogo, y puede convertirlos a productos de inventario cuando sea necesario. Puede aumentar o reducir la cantidad de un producto en el inventario registrándolo directamente desde los movimientos de producto, por ejemplo, después de un recuento físico o si no registra compras.
+Por cada producto físico que se comercialice, debe crear una ficha de producto del tipo **Inventario** . Los productos que ofrece a los clientes pero que no mantiene en el inventario, puede registrarlos como productos del catálogo, y puede convertirlos a productos de inventario cuando sea necesario. Puede aumentar o reducir la cantidad de un producto en el inventario registrándolo directamente desde los movimientos de producto, por ejemplo, después de un recuento físico o si no registra compras.
 
 Los aumentos y las disminuciones de inventario también se registran cuando registra documentos de compra y de ventas respectivamente. Para obtener más información, vea [Registrar compras](purchasing-how-record-purchases.md), [Vender productos](sales-how-sell-products.md) y [Facturar ventas](sales-how-invoice-sales.md). Las transferencias entre almacenes cambian las cantidades de inventario en los almacenes de la empresa.   
 
@@ -42,7 +42,7 @@ Aunque se hayan registrado los costes de inventario automáticamente en el libro
 |Mantener una visión general de los productos y ayudarle a buscarlos y clasificarlos al organizarlos en categorías.|[Clasificar productos](inventory-how-categorize-items.md)|
 |Asignar atributos de producto de distintos tipos de valor a sus productos le ayudará a ordenarlos y encontrarlos.|[Trabajar con atributos de producto](inventory-how-work-item-attributes.md)|
 |Crear fichas especiales para los productos que desea ofrecer a los clientes, pero que no desea mantener en el inventario.|[Trabajar con productos del catálogo](inventory-how-work-nonstock-items.md)|
-|Realice el recuento físico de su inventario con las páginas **Pedido de inventario físico** y **Registro de inventario físico**.|[Contar inventario mediante documentos](inventory-how-count-inventory-with-documents.md)|
+|Realice el recuento físico de su inventario con las páginas **Pedido de inventario físico** y **Registro de inventario físico** .|[Contar inventario mediante documentos](inventory-how-count-inventory-with-documents.md)|
 |Realizar recuento físico, hacer ajustes negativos o positivos y cambiar la información, como la ubicación o el número de lote, en los movimientos de productos.|[Recuento, ajuste y reclasificación de inventario con diarios](inventory-how-count-adjust-reclassify.md)|
 |Ver la disponibilidad de productos por almacén, por periodo, por evento de venta o de compra, o por su uso en las L.M. de ensamblado o producción.|[Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)|
 |Transferir productos de inventario entre almacenes con pedidos de transferencia, para administrar las actividades de almacén o con el diario de reclasificación de productos.|[Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)|

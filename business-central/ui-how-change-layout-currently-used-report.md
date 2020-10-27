@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9dc74627139ceed4f475686d57b64737e7e42b47
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5a062f9a18b6c0e965a06a7d4b18ff1e983f05db
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789361"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916054"
 ---
 # <a name="change-the-current-report-layout"></a>Cambiar el diseño de informe actual
 Un informe se puede configurar con varios diseños de informe, entre los que puede cambiar según sea necesario.
@@ -34,9 +34,9 @@ Cuando se definen diseños de informes personalizados, puede seleccionarlos de l
    La página **Selección de diseño de informes** muestra todos los informes disponibles en la empresa especificada en el campo **Empresa** en la parte superior de la página. El campo **Diseño seleccionado** especifica el diseño que actualmente se está usando en el informe.
 2. Establezca el campo **Empresa** en la parte superior de la página en la empresa que incluye el informe.
 3. Para cambiar el diseño que se usa en un informe, en la fila del informe, establezca el campo **Diseño seleccionado** en una de las opciones siguientes:
-   * **RDLC (integrado)**, usa el diseño de informe de RDLC integrado en el informe.
-   * **Word (integrado)**, usa el diseño de informe de Word integrado en el informe.
-   * **Personalizado**, usa un diseño personalizado en el informe.  
+   * **RDLC (integrado)** , usa el diseño de informe de RDLC integrado en el informe.
+   * **Word (integrado)** , usa el diseño de informe de Word integrado en el informe.
+   * **Personalizado** , usa un diseño personalizado en el informe.  
 
 > [!NOTE]
 > Si elige un diseño de informe de tipo **RDLC (integrado)** o **Word (integrado)** y recibe un mensaje de error en el que se indica que el informe no tiene un diseño del tipo especificado, debe elegir otra opción de diseño o crear un diseño de informe personalizado del tipo que desea usar. Vea el procedimiento siguiente.
@@ -46,10 +46,10 @@ Si ha seleccionado un diseño de informe de RDLC o de Word, no se requiere ningu
 ## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Para cambiar el diseño de informe personalizado para usar un diseño de informe
 También es posible que desee cambiar el diseño personalizado utilizado actualmente. Para obtener más información, vea [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md).
 
-Todos los diseños de informe personalizados que existen para los diseños de informe en una empresa se enumeran en la página **Diseños de informe personalizados**. En la página **Selección de diseño de informes** puede ver qué diseños personalizados estarán disponibles para cada informe en el cuadro informativo **Diseños personalizados**.
+Todos los diseños de informe personalizados que existen para los diseños de informe en una empresa se enumeran en la página **Diseños de informe personalizados** . En la página **Selección de diseño de informes** puede ver qué diseños personalizados estarán disponibles para cada informe en el cuadro informativo **Diseños personalizados** .
 
-1. En la página **Selección de diseño de informes**, en la línea del diseño de informe que desea cambiar, elija el botón de búsqueda en el campo **Descripción de diseño personalizado**.
-2. En la página **Diseños de informe personalizados**, seleccione la fila del diseño personalizado que desee usar y, después, seleccione el botón **Aceptar**.
+1. En la página **Selección de diseño de informes** , en la línea del diseño de informe que desea cambiar, elija el botón de búsqueda en el campo **Descripción de diseño personalizado** .
+2. En la página **Diseños de informe personalizados** , seleccione la fila del diseño personalizado que desee usar y, después, seleccione el botón **Aceptar** .
 
 El nombre del diseño personalizado seleccionado ahora se muestra en el campo **Descripción de diseño personalizado** y se usará la próxima vez que se obtenga una vista previa, imprima o envíe el informe o documento.
 

@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e128a6232382468676982c339ec98492beb99087
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 565b12c884ebc144174307a6d6dd893915d042cb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783921"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919074"
 ---
 # <a name="planning"></a>Planificación
 
 Las operaciones de producción necesarias para transformar entradas en productos terminados se deben planificar a diario o semanalmente, en función del volumen y la naturaleza de los productos. [!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece funciones para cubrir la demanda anticipada y real de las ventas, montaje y la producción, así como funciones de planificación de la distribución mediante unidades de almacenamiento y transferencias de ubicación.
 
 > [!NOTE]
-> En este tema se describe principalmente la planificación de empresas dedicadas a la fabricación o gestión de ensamblaje donde las órdenes de suministro que se crean pueden ser tanto de producción, como de ensamblado, transferencia u órdenes de compra. La interfaz principal de este trabajo de planificación es la página **Hoja planificación**.
+> En este tema se describe principalmente la planificación de empresas dedicadas a la fabricación o gestión de ensamblaje donde las órdenes de suministro que se crean pueden ser tanto de producción, como de ensamblado, transferencia u órdenes de compra. La interfaz principal de este trabajo de planificación es la página **Hoja planificación** .
 >
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] también admite la planificación de suministro de las compañías mayoristas, en las que las órdenes de suministro que se crean solo pueden ser de transferencia y órdenes de compra. La interfaz principal de este trabajo de planificación es la página **Hoja de demanda**, que se describe indirectamente en este tema, pues la mayoría de las funciones de planificación se aplica a ambas hojas de trabajo.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] también admite la planificación de suministro de las compañías mayoristas, en las que las órdenes de suministro que se crean solo pueden ser de transferencia y órdenes de compra. La interfaz principal de este trabajo de planificación es la página **Hoja de demanda** , que se describe indirectamente en este tema, pues la mayoría de las funciones de planificación se aplica a ambas hojas de trabajo.
 
 La planificación puede considerarse como la preparación de los órdenes de suministro necesarios en los departamentos de compra, ensamblaje o de fabricación para cubrir la demanda de ventas o productos finales. Si desea obtener más información, consulte [Compras](purchasing-manage-purchasing.md), [Administración de ensamblados](assembly-assemble-items.md) y [Fabricación](production-manage-manufacturing.md).
 

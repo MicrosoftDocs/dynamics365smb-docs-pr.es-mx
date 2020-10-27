@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5698110875799fe39cf3544dce0ea39f7c3dd5ba
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 571261190274fc74535e7b18b2c949d7f7714c1b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786232"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917737"
 ---
 # <a name="set-up-company-configuration"></a>Establecer la configuración de una empresa
 El proceso de la implementación comienza con el socio de Microsoft. El socio es responsable de analizar los detalles de configuración y crear un paquete que un cliente podrá aplicar fácilmente. Antes de crear una nueva empresa, debe planificar su configuración. Debe tener en cuenta los datos de configuración básica y tipos de datos que necesitará la solución [!INCLUDE[d365fin](includes/d365fin_md.md)]. Toda esta información se agrupa en paquetes de configuración.
 
 RapidStart Services también le proporciona las herramientas que usará para migrar sus datos heredados, como clientes y proveedores.  
 
-Es recomendable crear paquetes de configuración con la mayoría de las tablas de configuración rellenadas, de modo que los clientes solo tengan que cambiar algunas opciones después de aplicar el paquete. Por ejemplo, cuando crea una nueva empresa, las tablas **Nº serie** y **Lín. nº serie**, este campo se rellenan con un conjunto de series numéricas y números de inicio. Los campos de **Serie numérica** correspondientes de las tablas de configuración también se rellenan automáticamente. No tiene que hacer el trabajo de introducir la serie numérica y otros datos básicos de configuración. También puede modificar manualmente todos los datos predeterminados que se use con RapidStart Services mediante la hoja de trabajo de configuración.  
+Es recomendable crear paquetes de configuración con la mayoría de las tablas de configuración rellenadas, de modo que los clientes solo tengan que cambiar algunas opciones después de aplicar el paquete. Por ejemplo, cuando crea una nueva empresa, las tablas **Nº serie** y **Lín. nº serie** , este campo se rellenan con un conjunto de series numéricas y números de inicio. Los campos de **Serie numérica** correspondientes de las tablas de configuración también se rellenan automáticamente. No tiene que hacer el trabajo de introducir la serie numérica y otros datos básicos de configuración. También puede modificar manualmente todos los datos predeterminados que se use con RapidStart Services mediante la hoja de trabajo de configuración.  
 
 Los paquetes de configuración se basan en una empresa preconfigurada. Después de configurar una empresa que satisfaga todas sus necesidades, puede crear un paquete de configuración que contenga los datos pertinentes para esta empresa. Luego podrá usarla al crear una nueva empresa que se deba configurar del mismo modo.  
 

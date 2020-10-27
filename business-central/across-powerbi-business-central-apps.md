@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b4430118eb8075ceded16bdc375479e61a132f96
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 292f78f16b77940fa16a6ffc25bd79dbca0684e3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697819"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915871"
 ---
 # <a name="using-the-prodshort-apps-in-power-bi"></a>Uso de aplicaciones de [!INCLUDE [prodshort](includes/prodshort.md)] en Power BI
 
@@ -52,7 +52,7 @@ Las aplicaciones de Power BI requieren permisos para las tablas de donde se recu
 |[!INCLUDE[prodshort](includes/prodshort.md)] – Sales| <ul><li>Ventas de productos por cliente</li><li>Panel de ventas</li><li>Plantilla de empresa de vista de plantilla de Excel</li><li>Etiquetas de informe del Power BI</li></ul>|
 
 > [!TIP]
-> Un modo de fácil de encontrar los servicios web es buscar *servicios web* en [!INCLUDE[prodshort](includes/prodshort.md)]. En la página de **Servicios web**, asegúrese de que el campo **Publicar** esté seleccionado para los servicios web enumerados más arriba. Para obtener más información, consulte [Publicar un servicio web](across-how-publish-web-service.md).
+> Un modo de fácil de encontrar los servicios web es buscar *servicios web* en [!INCLUDE[prodshort](includes/prodshort.md)]. En la página de **Servicios web** , asegúrese de que el campo **Publicar** esté seleccionado para los servicios web enumerados más arriba. Para obtener más información, consulte [Publicar un servicio web](across-how-publish-web-service.md).
 
 ## <a name="get-ready"></a>Prepararse
 
@@ -67,25 +67,25 @@ Regístrese para el servicio de Power BI. Si aún no se ha registrado, vaya a [h
 
     También puede empezar desde [!INCLUDE [prodshort](includes/prodshort.md)]. Desde su página Web, vaya a **Selección de informes** en la sección Power BI. Seleccione **Servicio** o **Mi organización** en la cinta. Se abre la galería de la organización en Power BI o Microsoft AppSource, filtrados para mostrar solo las aplicaciones relacionadas con [!INCLUDE[prodshort](includes/prodshort.md)].
 
-3. En el cuadro **Servicios**, seleccione **Obtener**.
+3. En el cuadro **Servicios** , seleccione **Obtener** .
 
-    Este paso abre la página **Aplicaciones de Power BI**, que le permite buscar la aplicación de Power BI disponible en **AppSource**.  
+    Este paso abre la página **Aplicaciones de Power BI** , que le permite buscar la aplicación de Power BI disponible en **AppSource** .  
 
-4. En el cuadro de **Buscar**, introduzca **Dynamics 365 Business Central**.
-5. Seleccione la aplicación que desea usar, seleccione **Obtener ahora** y luego, **Instalar**.  
+4. En el cuadro de **Buscar** , introduzca **Dynamics 365 Business Central** .
+5. Seleccione la aplicación que desea usar, seleccione **Obtener ahora** y luego, **Instalar** .  
 
     Cuando se complete, la aplicación estará disponible en **Aplicaciones** en el menú de navegación en Power BI.
 
 ## <a name="connect-the-prodshort-app-to-your-data"></a>Conecte la aplicación de [!INCLUDE[prodshort](includes/prodshort.md)] a sus datos
 
-1. Bajo **Aplicaciones**, seleccione la aplicación Business Central, luego **Conectar**.
+1. Bajo **Aplicaciones** , seleccione la aplicación Business Central, luego **Conectar** .
 2. Cuando se le solicite, rellene **Nombre de empresa** y **Entorno** con información sobre la instancia de [!INCLUDE[prodshort](includes/prodshort.md)] a la que desee conectarse.
 
-    - Para**Nombre de empresa**, asegúrese de utilizar el nombre completo, no el nombre para mostrar. Puede encontrar el nombre de la empresa en la página **Empresas** en [!INCLUDE[prodshort](includes/prodshort.md)]. 
-    - Para **Entorno**, si no ha creado varios entornos, introduzca **Producción**.
+    - Para **Nombre de empresa** , asegúrese de utilizar el nombre completo, no el nombre para mostrar. Puede encontrar el nombre de la empresa en la página **Empresas** en [!INCLUDE[prodshort](includes/prodshort.md)]. 
+    - Para **Entorno** , si no ha creado varios entornos, introduzca **Producción** .
 
-3. Seleccione **Siguiente**.
-4. Seleccione **Registrarse**.
+3. Seleccione **Siguiente** .
+4. Seleccione **Registrarse** .
 5. Cuando se le solicite, ingrese el nombre de usuario y la contraseña para iniciar sesión en [!INCLUDE[prodshort](includes/prodshort.md)].
 6. Una vez conectado, se añaden un panel e informes a su área de trabajo de Power BI. Cuando se haya completado, se muestran los mosaicos con datos de su empresa de [!INCLUDE[prodshort](includes/prodshort.md)].
 
@@ -101,7 +101,7 @@ No se ha configurado una cuenta de Power BI. Debe tener una licencia para obtene
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Mensaje: No hay informes habilitados. Elija Seleccionar informe para ver una lista de informes que se pueden visualizar.
 
-Este mensaje aparece si el informe predeterminado no se pudo implementar en su espacio de trabajo de Power BI. O el informe se implementó pero no se actualizó correctamente. Si sucede este problema, navegue hasta el informe en su espacio de trabajo de Power BI, seleccione **Conjunto de datos**, **Configuración** y luego actualice manualmente las credenciales. Una vez que el conjunto de datos se actualice correctamente, vuelva a [!INCLUDE[prodshort](includes/prodshort.md)] y seleccione manualmente el informe desde la página **Seleccionar informes**.
+Este mensaje aparece si el informe predeterminado no se pudo implementar en su espacio de trabajo de Power BI. O el informe se implementó pero no se actualizó correctamente. Si sucede este problema, navegue hasta el informe en su espacio de trabajo de Power BI, seleccione **Conjunto de datos** , **Configuración** y luego actualice manualmente las credenciales. Una vez que el conjunto de datos se actualice correctamente, vuelva a [!INCLUDE[prodshort](includes/prodshort.md)] y seleccione manualmente el informe desde la página **Seleccionar informes** .
 
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Necesita una licencia Power BI Pro para instalar la aplicación de [!INCLUDE[prodshort](includes/prodshort.md)] en Power BI
 
@@ -130,7 +130,7 @@ Para [!INCLUDE[prodshort](includes/prodshort.md)] local, el problema podría ser
 
 ### <a name="incorrect-company-name"></a>Nombre de empresa incorrecto
 
-Un error común es introducir el nombre para mostrar de empresa en lugar del nombre de la empresa. Para buscar el nombre de la empresa, busque **Empresas**. A continuación, use el campo **Nombre** al introducir el nombre de su empresa.
+Un error común es introducir el nombre para mostrar de empresa en lugar del nombre de la empresa. Para buscar el nombre de la empresa, busque **Empresas** . A continuación, use el campo **Nombre** al introducir el nombre de su empresa.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>La clave no coincidía con ninguna fila de la tabla
 
@@ -149,7 +149,7 @@ La aplicación de Power BI solo mostrará los datos de la empresa de [!INCLUDE[p
 - Intente [hacer una pregunta en el cuadro de preguntas](/power-bi/service-q-and-a-tips) en la parte superior del escritorio.
 - [Cambie los mosaicos](/power-bi/service-dashboard-edit-tile) en el escritorio.  
 - [Seleccione un mosaico](/power-bi/service-dashboard-tiles) para abrir el informe subyacente.  
-- De forma predeterminada, su conjunto de datos no está programado para actualizarse. Puede cambiar la programación de actualización o intentar actualizarlo a petición utilizando **Actualizar ahora**. Para obtener más información, vea [Configuración de actualización programada](/power-bi/refresh-scheduled-refresh).
+- De forma predeterminada, su conjunto de datos no está programado para actualizarse. Puede cambiar la programación de actualización o intentar actualizarlo a petición utilizando **Actualizar ahora** . Para obtener más información, vea [Configuración de actualización programada](/power-bi/refresh-scheduled-refresh).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

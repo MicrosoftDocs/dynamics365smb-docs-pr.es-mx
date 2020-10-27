@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8cf4d954171e663ed065128a91c313f6e38b9148
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: dbe63d653120eb9e6450af401558414cf2057b1d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787932"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922253"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Detalles de diseño: Gestión de directivas de reorden
 Para que un producto participe en la planificación de aprovisionamiento es necesario definir una directiva de reorden. Existen las cuatro directivas de reorden siguientes:  
@@ -81,9 +81,9 @@ A continuación se muestra una ilustración gráfica de este principio:
 
      Esto aumenta el nivel de inventario proyectado (A: +0 => +4 o B: +2 = +6).  
 
-7. El sistema realiza una comprobación final: ¿hay un aviso de disminución? Sí, hay uno con fecha de **Da**.  
+7. El sistema realiza una comprobación final: ¿hay un aviso de disminución? Sí, hay uno con fecha de **Da** .  
 8. El programa agrega el aviso de disminución del aviso -3 en el nivel de inventario proyectado, A: +4 -3 = 1 o B: +6 -3 = +3.  
-9. En el caso de A, el sistema crea un pedido con programación anticipada en la fecha **Da**.  
+9. En el caso de A, el sistema crea un pedido con programación anticipada en la fecha **Da** .  
 
      En caso de B, el punto de reorden se alcanza y no se crea ningún pedido nuevo.
 
@@ -195,16 +195,16 @@ El punto de reorden expresa la demanda prevista durante el plazo del producto. C
 
  ![Sugerencia de planificación de emergencia para evitar existencias negativas](media/nav_app_supply_planning_2_negative_inventory.png "Sugerencia de planificación de emergencia para evitar existencias negativas")  
 
-1.  El suministro **A**, inventario proyectado inicial, está por debajo del punto de reorden.  
-2.  Se ha creado un nuevo aprovisionamiento programación de forma anticipada (**C**).  
+1.  El suministro **A** , inventario proyectado inicial, está por debajo del punto de reorden.  
+2.  Se ha creado un nuevo aprovisionamiento programación de forma anticipada ( **C** ).  
 
      (Cantidad = Inventario máximo – Nivel de inventario proyectado)  
-3.  El suministro **A** está cerrado por la demanda **B**, que no se cubre por completo.  
+3.  El suministro **A** está cerrado por la demanda **B** , que no se cubre por completo.  
 
      (La demanda **B** podría intentar programar el aprovisionamiento C, pero esto no sucederá según el concepto de ciclo).  
-4.  Se crea un nuevo suministro (**D**) para cubrir la cantidad restante de la demanda **B**.  
+4.  Se crea un nuevo suministro ( **D** ) para cubrir la cantidad restante de la demanda **B** .  
 5.  La demanda **B** está cerrada (creando un aviso al inventario proyectado).  
-6.  Se cierra el nuevo suministro **D**.  
+6.  Se cierra el nuevo suministro **D** .  
 7.  Se ha comprobado el inventario proyectado; no se ha superado el punto de reorden.  
 8.  El suministro **C** está cerrado (no hay más demanda).  
 9. Comprobación final: que no queden avisos pendientes en el nivel de inventario.  
@@ -234,7 +234,7 @@ Los órdenes de suministro que se crean específicamente para satisfacer un punt
 Los modificadores de pedido, Cantidad mínima pedido, Cantidad máxima pedido y Múltiplos de pedido, no deben desempeñar un rol amplio cuando se usa la directiva cantidad de pedido fija. No obstante, el sistema de planificación aún tiene en cuenta estos modificadores y disminuye la cantidad a la cantidad de pedido máxima especificada (y crea dos o más aprovisionamientos para alcanzar la cantidad total de pedido), aumenta el pedido a la cantidad de pedido mínima especificada, o la redondea para que llegue al múltiplo del pedido especificado.  
 
 #### <a name="combines-with-calendars"></a>Combina con Calendarios  
-Antes de proponer nuevas órdenes de suministro para satisfacer un punto de reorden, el sistema de planificación comprueba si la orden está programada para un día no laborable, según los calendarios definidos en el campo **Código calendario base** en las páginas **Información empresa** y **Ficha almacén**.  
+Antes de proponer nuevas órdenes de suministro para satisfacer un punto de reorden, el sistema de planificación comprueba si la orden está programada para un día no laborable, según los calendarios definidos en el campo **Código calendario base** en las páginas **Información empresa** y **Ficha almacén** .  
 
 Si la fecha programada es un día no laborable, el sistema de planificación mueve el pedido al próximo día laborable. Esto puede dar lugar a un pedido que cumpla con el punto de reorden pero que no cumpla una demanda específica. Para este tipo de demandas sin saldar, el sistema de planificación crea un suministro extra.  
 
@@ -258,7 +258,7 @@ El programa garantizará que el inventario proyectado llegue como mínimo al niv
 Dependiendo de la configuración, puede ser mejor agrupar la directiva de cantidad máxima con modificadores de pedido para garantizar una cantidad de pedido mínima o redondearla a un número entero de unidades de medida de compra, o dividirla en más lotes según lo definido en la cantidad de pedido máxima.  
 
 ### <a name="combines-with-calendars"></a>Combina con Calendarios  
-Antes de proponer una nueva orden de suministro para satisfacer un punto de reorden, el sistema de planificación comprueba si el pedido está programado para un día no laborable, según los calendarios definidos en el campo **Código calendario base** en las páginas **Información empresa** y **Ficha almacén**.  
+Antes de proponer una nueva orden de suministro para satisfacer un punto de reorden, el sistema de planificación comprueba si el pedido está programado para un día no laborable, según los calendarios definidos en el campo **Código calendario base** en las páginas **Información empresa** y **Ficha almacén** .  
 
 Si la fecha programada es un día no laborable, el sistema de planificación mueve el pedido al próximo día laborable. Esto puede dar lugar a un pedido que cumpla con el punto de reorden pero que no cumpla una demanda específica. Para este tipo de demandas sin saldar, el sistema de planificación crea un suministro extra.
 
@@ -282,7 +282,7 @@ La directiva de lote por lote es la más flexible porque el sistema solo reaccio
 
 De algún modo, la directiva del lote por lote se parece a la directiva de pedido, pero su acercamiento a los productos es genérico; puede aceptar cantidades en el inventario y une demandas con aprovisionamientos correspondientes en ciclos definidos por el usuario.  
 
-El ciclo se define en el campo **Ciclo**. El programa trabaja con un ciclo mínimo de un día, ya que es la unidad de medida de tiempo menor en los eventos de demanda y de suministro del sistema (aunque, en la práctica, la unidad de medida de tiempo en las órdenes de producción y las necesidades de componentes puede ser segundos).  
+El ciclo se define en el campo **Ciclo** . El programa trabaja con un ciclo mínimo de un día, ya que es la unidad de medida de tiempo menor en los eventos de demanda y de suministro del sistema (aunque, en la práctica, la unidad de medida de tiempo en las órdenes de producción y las necesidades de componentes puede ser segundos).  
 
 El ciclo también establece límites con respecto a cuándo se debe reprogramar una orden de suministro existente para cubrir una demanda determinada. Si el aprovisionamiento entra dentro del ciclo, se volverá a programar dentro o fuera para cubrir la demanda. De lo contrario, si es anterior, se producirá una acumulación innecesaria del inventario y se debe cancelar. Si es posterior, se creará una nueva orden de suministro en su lugar.  
 

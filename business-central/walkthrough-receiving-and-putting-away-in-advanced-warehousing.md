@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9a54bcb1131e2b5df0fd98ece66701c9f601ce41
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c200d178a00716de99bd88475346ff4396c9bebf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786757"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918399"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Tutorial: recepción y ubicación en la configuración del almacenamiento avanzado
 
@@ -59,9 +59,9 @@ Para completar este tutorial, necesitará:
 -   Para convertirse en un empleado de almacén en el almacén BLANCO, realice los pasos siguientes:  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
-2.  Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la página **Usuarios**.  
-3.  En el campo **Cód. almacén**, especifique BLANCO.  
-4.  Seleccione el campo de **Predeterminado**.  
+2.  Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la página **Usuarios** .  
+3.  En el campo **Cód. almacén** , especifique BLANCO.  
+4.  Seleccione el campo de **Predeterminado** .  
 
 ## <a name="story"></a>Historia  
 Alicia, el agente de compra en CRONUS España S.A., crea dos pedidos de compra de productos de accesorio de los proveedores 10000 y 20000 para su entrega al almacén BLANCO. Cuando las salidas llegan al almacén, Sammy, responsable de recibir los productos de los proveedores 10000 y 20000, utiliza un filtro para crear las líneas de recepción para los pedidos de compra que llegan de los dos proveedores. Sammy registra los productos como recibidos en el inventario en una recepción de almacén y pone los productos a disposición para venta u otra demanda. Juan, el empleado del almacén, toma los artículos de la ubicación de recepción y los aparta. Guarda todas las unidades en sus ubicaciones predeterminadas, excepto 40 de las 100 bisagras recibidas, las cuales guarda en el departamento de ensamblado dividiendo la línea de ubicación interna. Cuando Juan registra la ubicación, se actualiza el contenido de la ubicación se y los productos se ponen a disposición para picking del almacén.  
@@ -73,11 +73,11 @@ La configuración de la página **Ficha almacén** define los flujos de almacén
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacenes** y, a continuación, elija el enlace relacionado.  
 2.  Abra la ficha de almacén BLANCO.  
-3.  Observe que en la ficha desplegable **Almacén** el casilla **Ubicac. y pick. directo**.  
+3.  Observe que en la ficha desplegable **Almacén** el casilla **Ubicac. y pick. directo** .  
 
     Esto significa que la ubicación está configurada para el máximo nivel de complejidad, reflejado por el hecho de que todas las casillas de manipulación de almacén de la ficha desplegable están seleccionadas.  
 
-4.  Observe en la ficha desplegable **Ubicaciones** que las ubicaciones están especificadas en los campos **Cód. ubicación recepción** y **Cód. ubicación envío**.  
+4.  Observe en la ficha desplegable **Ubicaciones** que las ubicaciones están especificadas en los campos **Cód. ubicación recepción** y **Cód. ubicación envío** .  
 
 Esto significa que cuando se crea una recepción de almacén, este código de ubicación se copia en la cabecera del documento de recepción de almacén de manera predeterminada y en las líneas de las ubicaciones de almacén resultantes.  
 
@@ -87,7 +87,7 @@ Los pedidos de compra son el tipo más común de documento de origen de entrada.
 ### <a name="to-create-the-purchase-orders"></a>Procedimiento para crear pedidos de compra  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Nuevo**.  
+2.  Seleccione la acción **Nuevo** .  
 3.  Cree un pedido de compra para el proveedor 10000 en la fecha de trabajo (23 de enero) con las líneas de pedido de compra siguientes.  
 
     |Producto|Cód. almacén|Cantidad|  
@@ -97,11 +97,11 @@ Los pedidos de compra son el tipo más común de documento de origen de entrada.
 
     Empiece a notificar el almacén para el que el pedido de compra está preparado para la manipulación en almacén cuando llegue la entrega.  
 
-4.  Seleccione la acción **Liberar**.  
+4.  Seleccione la acción **Liberar** .  
 
     Continúe creando el segundo pedido de compra.  
 
-5.  Seleccione la acción **Nuevo**.  
+5.  Seleccione la acción **Nuevo** .  
 6.  Cree un pedido de compra para el proveedor 20000 en la fecha de trabajo con las líneas de pedido de compra siguientes.  
 
     |Producto|Cód. almacén|Cantidad|  
@@ -109,47 +109,47 @@ Los pedidos de compra son el tipo más común de documento de origen de entrada.
     |70100|BLANCO|10 CAN|  
     |70101|BLANCO|12 CAN|  
 
-    Seleccione la acción **Liberar**.  
+    Seleccione la acción **Liberar** .  
 
     Las entregas de los artículos de los proveedores 10000 y 20000 han llegado al almacén BLANCO y Sammy comienza a procesar las recepciones de compra.  
 
 ## <a name="receiving-the-items"></a>Recibir los productos  
-En la página **Recep. almacén**, puede administrar varios pedidos entrantes para documentos de origen, como un pedido de compra.  
+En la página **Recep. almacén** , puede administrar varios pedidos entrantes para documentos de origen, como un pedido de compra.  
 
 ### <a name="to-receive-the-items"></a>Procedimiento para recibir productos  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Recepciones almacén** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Nuevo**.  
-3.  En el campo **Cód. almacén**, especifique BLANCO.  
-4.  Elija la acción **Utiliz. filt. para tomar docs. or**.  
-5.  En el campo **Código**, especifique **ACCESORIO**.  
-6.  En el campo **Descripción**, escriba **Proveedores 10000 y 20000**.  
-7.  Seleccione la acción **Modificar**.  
-8.  En la ficha desplegable **Compra**, en el campo **Filtro compra-a nº proveedor**, especifique **10000&#124;20000**.  
-9. Seleccione la acción **Ejecutar**. La recepción de almacén se rellena con cuatro líneas que representan líneas de pedido de compra para los proveedores especificados. Se rellena el campo **Cantidad a recibir** porque no seleccionó la casilla **No rellene cdad. a manipular** de la página **Filtros para traer docs. orig.**.  
+2.  Seleccione la acción **Nuevo** .  
+3.  En el campo **Cód. almacén** , especifique BLANCO.  
+4.  Elija la acción **Utiliz. filt. para tomar docs. or** .  
+5.  En el campo **Código** , especifique **ACCESORIO** .  
+6.  En el campo **Descripción** , escriba **Proveedores 10000 y 20000** .  
+7.  Seleccione la acción **Modificar** .  
+8.  En la ficha desplegable **Compra** , en el campo **Filtro compra-a nº proveedor** , especifique **10000&#124;20000** .  
+9. Seleccione la acción **Ejecutar** . La recepción de almacén se rellena con cuatro líneas que representan líneas de pedido de compra para los proveedores especificados. Se rellena el campo **Cantidad a recibir** porque no seleccionó la casilla **No rellene cdad. a manipular** de la página **Filtros para traer docs. orig.** .  
 10. Como alternativa, si desea utilizar un filtro como se ha descrito anteriormente en esta sección, elija la opción **Tomar documento origen** y, a continuación, seleccione las órdenes de compra de los proveedores en cuestión.  
-11. Elija la acción **Registrar recepción** y, a continuación, seleccione el botón **Si**.  
+11. Elija la acción **Registrar recepción** y, a continuación, seleccione el botón **Si** .  
 
     Los movimientos de producto positivos se crean reflejando las recepciones de compra registradas de los accesorios de los proveedores 10000 y 20000, y los artículos están listos para ubicarlos en el almacén de la ubicación de recepción.  
 
 ## <a name="putting-the-items-away"></a>Establecer la ubicación de productos  
-En la página **Ubicar almacén**, puede administrar ubicaciones para un documento de recepción de almacén específico que cubre varios documentos de origen. Como todos los documentos de actividad de almacén, cada producto de la ubicación de almacén se representa por una línea Tomar y una línea Colocar. En el procedimiento siguiente, el código de ubicación en las líneas Tomar es la ubicación de recepción predeterminada en la ubicación BLANCO, W-08-0001.  
+En la página **Ubicar almacén** , puede administrar ubicaciones para un documento de recepción de almacén específico que cubre varios documentos de origen. Como todos los documentos de actividad de almacén, cada producto de la ubicación de almacén se representa por una línea Tomar y una línea Colocar. En el procedimiento siguiente, el código de ubicación en las líneas Tomar es la ubicación de recepción predeterminada en la ubicación BLANCO, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>Para ubicar los productos  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
-2.  Seleccione el único documento de ubicación de almacén en la lista y, a continuación, elija acción **Editar**.  
+2.  Seleccione el único documento de ubicación de almacén en la lista y, a continuación, elija acción **Editar** .  
 
     El documento de ubicación de almacén se abre con un total de ocho líneas Tomar o Colocar para las cuatro líneas del pedido de compra.
 
     Al empleado del almacén se le indica que necesitan 40 bisagras en el departamento de ensamblado y divide la única línea Colocar para especificar una segunda línea Colocar para la ubicación W-02-0001 en el departamento de ensamblado donde coloca esa parte de las bisagras recibidas.  
 
-3.  Seleccione la segunda línea de la página **Ubicar almacén**, la línea Colocar del producto 70200.  
-4.  En el campo **Cdad. a manipular**, cambie el valor de 100 a 60.  
-5.  En la ficha desplegable **Líneas**, elija **Acciones** y, a continuación, elija **Dividir línea**. Una nueva línea se inserta para el producto 70200 con 40 en el campo **Cdad. a manipular**.  
-6.  En el campo **Cód. ubicación**, especifique W-02-0001. El campo **Cód. zona** se rellena de forma automática.  
+3.  Seleccione la segunda línea de la página **Ubicar almacén** , la línea Colocar del producto 70200.  
+4.  En el campo **Cdad. a manipular** , cambie el valor de 100 a 60.  
+5.  En la ficha desplegable **Líneas** , elija **Acciones** y, a continuación, elija **Dividir línea** . Una nueva línea se inserta para el producto 70200 con 40 en el campo **Cdad. a manipular** .  
+6.  En el campo **Cód. ubicación** , especifique W-02-0001. El campo **Cód. zona** se rellena de forma automática.  
 
     Continúe registrando la ubicación.  
 
-7.  Elija la acción **Registrar ubicación** y, a continuación, seleccione el botón **Si**.  
+7.  Elija la acción **Registrar ubicación** y, a continuación, seleccione el botón **Si** .  
 
     Los accesorios recibidos se ubican ahora en las ubicaciones predeterminadas de los productos y se colocan 40 bisagras en el departamento de ensamblado. Los productos recibidos están disponibles ahora para picking para demanda interna, como pedidos de ensamblado, o para demanda externa, como remisiones de venta.  
 

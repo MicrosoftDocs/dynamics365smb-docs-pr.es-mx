@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3999e22b27a92988997ddabd447e5a178d551eb9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cfc696141e2d3db0b5da1facb83e09216529e269
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788711"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917113"
 ---
 # <a name="create-gl-budgets"></a>Crear presupuestos contables
 Puede tener varios presupuestos para idénticos periodos de tiempo si crea presupuestos con nombres distintos. En primer lugar, debe configurar el nombre del presupuesto e introducir las cifras del presupuesto. El nombre del presupuesto se incluye en todos los movimientos de presupuesto que cree.  
@@ -31,12 +31,12 @@ En contabilidad de costos, trabaja con los presupuestos de costos de forma simil
 ## <a name="to-create-a-new-gl-budget"></a>Para crear un nuevo presupuesto contable  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Presupuestos generales** y luego elija el enlace relacionado.  
 2. Elija la acción **Editar lista** y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Seleccione la acción **Editar presupuesto**.
+3. Seleccione la acción **Editar presupuesto** .
 4. En la parte superior de la página **Presupuesto** rellene los campos según sea necesario para definir lo que se muestra.  
 
-    Solo se mostrarán los movimientos que contengan el nombre del presupuesto que ha introducido en el campo **Nombre presupuesto**. Dado que el nombre de presupuesto acaba de crearse, no hay movimientos que coincidan con el filtro. Por tanto, la página está vacía.  
-5. Para escribir una cantidad, seleccione la celda correspondiente de la matriz. Se abre la página **Movs. pptos. contabilidad**.  
-6. Cree una nueva línea y rellene el campo **Importe**. Cierre la página **Movs. pptos. contabilidad**.  
+    Solo se mostrarán los movimientos que contengan el nombre del presupuesto que ha introducido en el campo **Nombre presupuesto** . Dado que el nombre de presupuesto acaba de crearse, no hay movimientos que coincidan con el filtro. Por tanto, la página está vacía.  
+5. Para escribir una cantidad, seleccione la celda correspondiente de la matriz. Se abre la página **Movs. pptos. contabilidad** .  
+6. Cree una nueva línea y rellene el campo **Importe** . Cierre la página **Movs. pptos. contabilidad** .  
 7. Repita los pasos de 5 y 6 hasta que escriba todos los importes del presupuesto.  
 
 > [!NOTE]  
@@ -46,7 +46,7 @@ En contabilidad de costos, trabaja con los presupuestos de costos de forma simil
 Prácticamente en todas las demás páginas, puede exportar datos en páginas de presupuesto a Excel para su posterior procesamiento o análisis. Para obtener más información, consulte [Exportar los datos de negocio a Excel](about-export-data.md).
 
 > [!NOTE]
-> El plan de cuentas, en el que se basan los presupuestos contables, tiene líneas de tipo de cuenta Mayor que contienen el total de las líneas siguientes. Cuando se exporta un presupuesto contable, se exportan los datos de todas las líneas independientemente del tipo de cuenta. Sin embargo, solo se pueden volver a importar los datos de las líneas del tipo Registro. En consecuencia: <br /><br /> **Al importar un presupuesto contable, todos los valores que existían en las líneas de cabecera se eliminarán.** <br /><br /> Esto sirve para evitar cantidades totales erróneas después de importar datos que se han creado o editado en Excel.<br /><br /> **Escenario**: Usted sabe que el nuevo costo de los salarios presupuestados será de 1.200.000 $. Desea permitir que el departamento de Salarios presupueste las tres líneas específicas (de tipo de cuenta Publicación) para Empleados a tiempo completo, Empleados a tiempo parcial y Ayuda temporal. Las tres líneas se agrupan bajo una línea de encabezado de Salarios.<br /><br />Introduzca 1.200.000 en la línea Mayor, exporte el presupuesto a Excel y luego envíelo al departamento de Salarios y dígales que distribuyan los 1.200.000 $.<br /><br /> El departamento de Salarios distribuye el importe en las tres cuentas contables. Cuando vuelve a importar al presupuesto contable, las tres cuentas se completan con los nuevos datos de Excel, que suman 1.200.000 $ y la línea Mayor está en blanco.
+> El plan de cuentas, en el que se basan los presupuestos contables, tiene líneas de tipo de cuenta Mayor que contienen el total de las líneas siguientes. Cuando se exporta un presupuesto contable, se exportan los datos de todas las líneas independientemente del tipo de cuenta. Sin embargo, solo se pueden volver a importar los datos de las líneas del tipo Registro. En consecuencia: <br /><br /> **Al importar un presupuesto contable, todos los valores que existían en las líneas de cabecera se eliminarán.** <br /><br /> Esto sirve para evitar cantidades totales erróneas después de importar datos que se han creado o editado en Excel.<br /><br /> **Escenario** : Usted sabe que el nuevo costo de los salarios presupuestados será de 1.200.000 $. Desea permitir que el departamento de Salarios presupueste las tres líneas específicas (de tipo de cuenta Publicación) para Empleados a tiempo completo, Empleados a tiempo parcial y Ayuda temporal. Las tres líneas se agrupan bajo una línea de encabezado de Salarios.<br /><br />Introduzca 1.200.000 en la línea Mayor, exporte el presupuesto a Excel y luego envíelo al departamento de Salarios y dígales que distribuyan los 1.200.000 $.<br /><br /> El departamento de Salarios distribuye el importe en las tres cuentas contables. Cuando vuelve a importar al presupuesto contable, las tres cuentas se completan con los nuevos datos de Excel, que suman 1.200.000 $ y la línea Mayor está en blanco.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 

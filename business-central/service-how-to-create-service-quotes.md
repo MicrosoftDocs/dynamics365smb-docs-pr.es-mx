@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 26b250a6c902e70bd4badf712d620f835d4ebb5a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 41cb742ac256e124a273ac202a1c7f112a69795d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784445"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918649"
 ---
 # <a name="create-service-quotes"></a>Crear cotizaciones de servicio
 Puede pensar en cotizaciones de servicio como base para las órdenes de servicio. De hecho, son casi idénticos. Ambos contienen información como quién es el cliente, el tipo de pedido, el producto que requiera servicio, información sobre facturación y sobre el envío, e información acerca del proyecto de servicio real.
@@ -25,13 +25,13 @@ Puede utilizar una cotización de servicio como borrador de un pedido de servici
 ## <a name="to-create-a-service-quote"></a>Para crear una cotización de servicio  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cotizaciones servicio** y luego elija el enlace relacionado.  
 2. Cree una cotización de servicio nueva.  
-3. En el campo **N.º**, introduzca un número para la cotización de servicio. Si ha configurado números de serie para cotizaciones de servicio en la página **Config. gestión servicio**, también puede presionar Enter para seleccionar el siguiente número de cotización de servicio disponible.  
-4. En el campo **Nº cliente**,  seleccione el cliente pertinente de la lista.  
+3. En el campo **N.º** , introduzca un número para la cotización de servicio. Si ha configurado números de serie para cotizaciones de servicio en la página **Config. gestión servicio** , también puede presionar Enter para seleccionar el siguiente número de cotización de servicio disponible.  
+4. En el campo **Nº cliente** ,  seleccione el cliente pertinente de la lista.  
 
   > [!Note]  
-  >  Los campos del cliente se rellenan automáticamente con información de la pestaña **Cliente**. Si una ficha **Cliente** no existe para el cliente y ha configurado una plantilla de cliente, podrá crear el cliente que figura en la cotización servicio. Rellene los campos relevantes y, a continuación, seleccione la acción **Crear cliente**.  
+  >  Los campos del cliente se rellenan automáticamente con información de la pestaña **Cliente** . Si una ficha **Cliente** no existe para el cliente y ha configurado una plantilla de cliente, podrá crear el cliente que figura en la cotización servicio. Rellene los campos relevantes y, a continuación, seleccione la acción **Crear cliente** .  
   
-5. Dependiendo de la configuración de la ficha desplegable **Campos obligatorios** de la página **Configurar gestión servicios**, puede que necesite rellenar el campo **Tipo pedido de servicio** y el campo **Código de vendedor**.  
+5. Dependiendo de la configuración de la ficha desplegable **Campos obligatorios** de la página **Configurar gestión servicios** , puede que necesite rellenar el campo **Tipo pedido de servicio** y el campo **Código de vendedor** .  
 6. Rellene las líneas de producto de servicio.  
 7. Registre los costos previstos en las líneas de servicio.  
   

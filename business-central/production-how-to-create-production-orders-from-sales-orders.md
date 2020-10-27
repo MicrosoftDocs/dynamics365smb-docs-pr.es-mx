@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd4e78bac5390cfbcdb5496ad7e747e87cab593f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ac927f9ef676cbfa433265346f69c92552802fce
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779921"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919249"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Crear órdenes de producción desde pedidos de venta
 Puede crear órdenes de producción para artículos producidos directamente desde los pedidos de venta.  
@@ -24,8 +24,8 @@ Puede crear órdenes de producción para artículos producidos directamente desd
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2.  Seleccione el pedido de venta para el que desea crear una orden de producción.  
-3.  Seleccione la acción **Planificación**. En la página **Planificación pedido venta**, puede consultar la disponibilidad de un producto incluido en un pedido de venta.  
-4.  Seleccione la acción **Orden de producción**.  
+3.  Seleccione la acción **Planificación** . En la página **Planificación pedido venta** , puede consultar la disponibilidad de un producto incluido en un pedido de venta.  
+4.  Seleccione la acción **Orden de producción** .  
 5.  Seleccione el tipo del estado y orden.  
 6.  Elija el botón de **Sí** para crear la orden de producción.
 

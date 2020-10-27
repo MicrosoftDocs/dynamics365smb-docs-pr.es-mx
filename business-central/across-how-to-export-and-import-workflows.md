@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e38ffe59525ca1ef8c124028365bbb597a54a350
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 803af5e396df2a3eade763bfce1172a7a2627da2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785157"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916229"
 ---
 # <a name="export-and-import-workflows"></a>Importar y exportar flujos de trabajo
 Para transferir flujos de trabajo a otras bases de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)], por ejemplo, para ahorrar tiempo al crear nuevos flujos de trabajo, puede exportar e importar flujos de trabajo.  
@@ -26,14 +26,14 @@ Para transferir flujos de trabajo a otras bases de datos de [!INCLUDE[d365fin](i
 
 ## <a name="to-export-a-workflow"></a>Para exportar un flujo de trabajo  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
-2.  Seleccione un flujo de trabajo y, a continuación, la acción **Exportar a archivo**.  
-3.  En la página **Exportar archivo**, elija el botón **Guardar**.  
-4.  En la página **Exportar**, seleccione una ubicación de archivo y elija el botón **Guardar**.  
+2.  Seleccione un flujo de trabajo y, a continuación, la acción **Exportar a archivo** .  
+3.  En la página **Exportar archivo** , elija el botón **Guardar** .  
+4.  En la página **Exportar** , seleccione una ubicación de archivo y elija el botón **Guardar** .  
 
 ## <a name="to-import-a-workflow"></a>Para importar un flujo de trabajo  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
-2.  Elija la acción **Importar desde archivo**.  
-3.  En la página **Importar**, seleccione el archivo XML que contiene el flujo de trabajo y elija el botón **Abrir**.  
+2.  Elija la acción **Importar desde archivo** .  
+3.  En la página **Importar** , seleccione el archivo XML que contiene el flujo de trabajo y elija el botón **Abrir** .  
 
 > [!CAUTION]  
 >  Si el código de flujo de trabajo ya existe en la base de datos, los pasos del flujo de trabajo se sobrescribirán con los pasos del flujo de trabajo importado.  

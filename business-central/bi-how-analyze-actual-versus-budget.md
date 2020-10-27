@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc0497b4e0add53ce983883cd58c10475c9d9a6e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 587e41ebb4e700b376e555e761a4aa221b49b6c0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783497"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917662"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analizar importes reales frente a importes presupuestados
 Como parte de la recopilación, el análisis y el uso compartido de los datos de la empresa, puede ver importes reales comparados con los importes presupuestados para todas las cuentas y durante varios periodos.
@@ -28,14 +28,14 @@ Para analizar los importes presupuestados, primero debe crear presupuestos conta
 En un presupuesto con dimensiones, puede filtrar los movimientos y, por lo tanto, ver presupuestos concretos.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Presupuestos generales** y luego elija el enlace relacionado.
-2. En la página **Presupuestos contables**, abra el presupuesto que desee ver.  
+2. En la página **Presupuestos contables** , abra el presupuesto que desee ver.  
 3. En la parte superior de la página rellene los campos según sea necesario para definir lo que se muestra. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Si ha seleccionado **Periodo** en el campo **Muestra como líneas** o **Muestra como columnas**, debe rellenar el campo **Ver por**. Si no ha seleccionado **Periodo** en el campo **Muestra como líneas** o **Muestra como columnas**, escriba el periodo apropiado en el campo **Filtro fecha**.  
+>   Si ha seleccionado **Periodo** en el campo **Muestra como líneas** o **Muestra como columnas** , debe rellenar el campo **Ver por** . Si no ha seleccionado **Periodo** en el campo **Muestra como líneas** o **Muestra como columnas** , escriba el periodo apropiado en el campo **Filtro fecha** .  
 
 > [!NOTE]  
->   Sólo se incluyen en el cálculo los movimientos del presupuesto que incluyan los códigos de filtro que haya introducido en la ficha desplegable **Filtros**. No se incluirán los movimientos de presupuesto que tengan otros códigos de filtro o que no tengan ninguno. Mientras el filtro aparezca en la página, el presupuesto sólo mostrará los movimientos de presupuesto con dichos códigos de filtro.  
+>   Sólo se incluyen en el cálculo los movimientos del presupuesto que incluyan los códigos de filtro que haya introducido en la ficha desplegable **Filtros** . No se incluirán los movimientos de presupuesto que tengan otros códigos de filtro o que no tengan ninguno. Mientras el filtro aparezca en la página, el presupuesto sólo mostrará los movimientos de presupuesto con dichos códigos de filtro.  
 
 > [!TIP]  
 >   Si tiene que modificar el presupuesto, puede editar sus movimientos. Elija un importe para ver los movimientos de contabilidad subyacentes.
@@ -44,7 +44,7 @@ En un presupuesto con dimensiones, puede filtrar los movimientos y, por lo tanto
 Puede ver presupuestos y compararlos con las cifras reales de varias áreas de [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Catálogo de cuentas** y luego elija el enlace relacionado.  
-2. En la página **Plan de cuentas**, seleccione la acción **Saldo/Ppto. cuenta**.
+2. En la página **Plan de cuentas** , seleccione la acción **Saldo/Ppto. cuenta** .
 3. En la parte superior de la página rellene los campos según sea necesario para definir lo que se muestra.  
 4. Para ver una especificación que compone un importe que aparece en pantalla, elija el campo.  
 
@@ -54,13 +54,13 @@ Puede ver presupuestos y compararlos con las cifras reales de varias áreas de [
 Las columnas de la izquierda contienen el Catálogo de cuentas. De las cinco columnas de la derecha, las primeras cuatro muestran los importes del Debe y el Haber reales y presupuestados de cada cuenta. La quinta columna muestra las relaciones proporcionales entre los importes reales y presupuestados de la cuenta.  
 
 > [!TIP]  
->   Utilice el campo **Ver por** en la página **Saldo/Ppto. cuenta** seleccionar la longitud del periodo. Utilice el campo **Ver como** para seleccionar el modo de cálculo de los importes **Saldo periodo** o **Saldo a la fecha**. Elija la acción **Periodo anterior** o **Periodo siguiente** para cambiar el periodo.  
+>   Utilice el campo **Ver por** en la página **Saldo/Ppto. cuenta** seleccionar la longitud del periodo. Utilice el campo **Ver como** para seleccionar el modo de cálculo de los importes **Saldo periodo** o **Saldo a la fecha** . Elija la acción **Periodo anterior** o **Periodo siguiente** para cambiar el periodo.  
 
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Para ver los importes reales y presupuestados de varios periodos  
 En lugar de ver los importes reales y presupuestados de todas las cuentas en un único periodo, puede ver varios periodos de una cuenta.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Catálogo de cuentas** y luego elija el enlace relacionado.  
-2. En la página **Plan de cuentas**, seleccione la cuenta contable relevante y, después, seleccione la acción **Saldo cuenta/Presupuesto**.  
+2. En la página **Plan de cuentas** , seleccione la cuenta contable relevante y, después, seleccione la acción **Saldo cuenta/Presupuesto** .  
 3. En la parte superior de la página rellene los campos según sea necesario para definir lo que se muestra.   
 4. Para ver una especificación de un importe que aparece en pantalla, elija el campo.  
 

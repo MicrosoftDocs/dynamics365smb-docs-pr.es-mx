@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/08/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 498b3410ee635a4e31b9bd20e509950541371c43
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a434de3479f4b100317230b93b06b922fa04692b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779971"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916612"
 ---
 # <a name="set-up-standard-routing-lines"></a>Configurar de líneas de ruta estándar
 
@@ -24,15 +24,15 @@ La utilización de tareas estándar simplifica la creación y el mantenimiento d
 ## <a name="to-set-up-a-standard-task"></a>Para configurar tareas estándar
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Tareas estándar** y luego elija el enlace relacionado.
-2. Seleccione la acción **Nuevo**.
+2. Seleccione la acción **Nuevo** .
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Elija la acción **Herramientas**, **Personal**, **Descripción** o **Herramientas**, y luego, en la página que se abre, agregue la entrada relevante.
+4. Elija la acción **Herramientas** , **Personal** , **Descripción** o **Herramientas** , y luego, en la página que se abre, agregue la entrada relevante.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Para añadir una tarea estándar a una operación
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.
 2. Abra la ruta pertinente.
-3. Seleccione una línea correspondiente de ruta, elija la acción **Operaciones** , y después **Herramientas**, **Personal**, **Descripción**, o la acción **Herramientas**.
+3. Seleccione una línea correspondiente de ruta, elija la acción **Operaciones** , y después **Herramientas** , **Personal** , **Descripción** , o la acción **Herramientas** .
 
 Cuando imprime la hoja de ruta, puede optar por incluir los elementos de la tarea estándar que agregó a las líneas de ruta.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/27/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 39aae609e588635a07fdc406faa63dd4ced3606d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 447012a66e75e1acf03f2aff1ba6b6922164312f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789386"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918574"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrar archivos adjuntos, vínculos y notas en fichas y documentos
 
@@ -32,23 +32,23 @@ Los archivos adjuntos, vínculos y notas permanecen adjuntos a medida que la fic
 Puede adjuntar cualquier tipo de archivo, que contenga texto, imagen o vídeo, a una ficha o documento. Esto es útil, por ejemplo, cuando desea almacenar la factura de un proveedor como un archivo PDF en la factura de compra relacionada en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!NOTE]
-> Los archivos adjuntos con la función Documentos entrantes no se incluyen en la pestaña **Anexos**. Para obtener más información, consulte [Documentos entrantes](across-income-documents.md).
+> Los archivos adjuntos con la función Documentos entrantes no se incluyen en la pestaña **Anexos** . Para obtener más información, consulte [Documentos entrantes](across-income-documents.md).
 
 El procedimiento siguiente se basa en una factura de compra. Los pasos son parecidos a los de los demás documentos y las fichas admitidos.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego elija el enlace relacionado.
 2. Abra el pedido de venta al que desea adjuntar un archivo.
-3. En el cuadro informativo, abra la pestaña **Anexos**.
-4. Elija el valor que va detrás del campo **Documentos**, como "0".
-5. En la página **Documentos adjuntos**, en el campo **Archivo adjunto**, seleccione la acción **Seleccionar archivo**.
-5. Seleccione un archivo de cualquier ubicación y, a continuación, elija el botón **Abrir**.
+3. En el cuadro informativo, abra la pestaña **Anexos** .
+4. Elija el valor que va detrás del campo **Documentos** , como "0".
+5. En la página **Documentos adjuntos** , en el campo **Archivo adjunto** , seleccione la acción **Seleccionar archivo** .
+5. Seleccione un archivo de cualquier ubicación y, a continuación, elija el botón **Abrir** .
 
 El archivo se adjunta ahora a la factura de compra.
 
 ## <a name="to-view-an-attached-file"></a>Para ver un archivo adjunto.
-1. En el cuadro informativo, abra la pestaña **Anexos**.
-2. Elija el valor que va detrás del campo **Documentos**, como "1".
-3. En la página **Documentos adjuntos**, seleccione la acción **Vista previa**.
+1. En el cuadro informativo, abra la pestaña **Anexos** .
+2. Elija el valor que va detrás del campo **Documentos** , como "1".
+3. En la página **Documentos adjuntos** , seleccione la acción **Vista previa** .
 4. Abra el archivo descargado.
 
 ## <a name="to-save-a-document-as-a-pdf-attachment"></a>Para guardar un documento como un archivo PDF adjunto
@@ -68,13 +68,13 @@ El procedimiento siguiente se basa en una ficha de producto. Los pasos son parec
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
 2. Seleccione el producto del que desea agregar un vínculo y luego elija la pestaña **Anexos** en el cuadro informativo.
-3. En **Vínculos**, elija el icono **+**.
-4. En el campo **Vincular dirección**, especifique el vínculo.
+3. En **Vínculos** , elija el icono **+** .
+4. En el campo **Vincular dirección** , especifique el vínculo.
 
     El enlace debe ser una URL válida de Internet o intranet.
 
-5. En el campo **Descripción**, escriba cualquier información sobre el vínculo.  
-6. Elija el botón **Aceptar**.
+5. En el campo **Descripción** , escriba cualquier información sobre el vínculo.  
+6. Elija el botón **Aceptar** .
 
 El vínculo ahora está adjunto a la ficha de producto.  
 
@@ -88,9 +88,9 @@ El procedimiento siguiente se basa en un pedido de venta. Los pasos son parecido
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
 2. Seleccione el pedido de venta del en el que desea escribir una nota y luego elija la pestaña **Anexos** en el cuadro informativo.
-3. En la sección **Notas**, elija el icono **+**.
-4. En el campo **Nota**, escriba cualquier texto, por ejemplo, "Este pedido es urgente.".
-5. Elija el botón **Aceptar**.
+3. En la sección **Notas** , elija el icono **+** .
+4. En el campo **Nota** , escriba cualquier texto, por ejemplo, "Este pedido es urgente.".
+5. Elija el botón **Aceptar** .
 
 La nota ahora está adjuntada al pedido de venta.
 

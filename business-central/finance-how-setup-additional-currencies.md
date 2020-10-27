@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0b5370b8babf000b1dc2f5b1980ada383788067
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b0442a935442890d0edaec4fa803e887da47477f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785757"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920558"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Configurar una divisa de informes adicional
 Las empresas trabajan cada vez en un mayor número de países o regiones, por lo que es muy importante que puedan revisar y crear informes de datos financieros en más de una divisa.
@@ -49,7 +49,7 @@ Para configurar una divisa adicional para informes, debe seguir estos pasos:
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Para especificar cuentas para registrar los ajustes de tipo de cambio.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Divisas** y luego elija el enlace relacionado.  
-2. En la página **Divisas**, rellene los siguientes campos para la divisa adicional de informe.  
+2. En la página **Divisas** , rellene los siguientes campos para la divisa adicional de informe.  
 
 |Campo|Descripción|  
 |---------------------------------|---------------------------------------|  
@@ -65,44 +65,44 @@ Debe especificar, para cada cuenta, como se ajustarán los importes de contabili
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Para especificar el método de ajuste de tipo de cambio para todas las cuentas  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Catálogo de cuentas** y luego elija el enlace relacionado.  
-2. En la página **Plan de cuentas**, seleccione la cuenta correspondiente y, a continuación, la acción **Editar**.  
-3. En la página **Ficha cuenta**, seleccione el método correspondiente en el campo **Ajuste tipo cambio**.  
+2. En la página **Plan de cuentas** , seleccione la cuenta correspondiente y, a continuación, la acción **Editar** .  
+3. En la página **Ficha cuenta** , seleccione el método correspondiente en el campo **Ajuste tipo cambio** .  
 
     Si realiza registros en una divisa adicional, en el campo **Ajuste tipo cambio** deberá especificar cómo se ajustará esta cuenta en función de las fluctuaciones del tipo de cambio entre $ y la divisa adicional. La siguiente tabla muestra a opciones que puede elegir.  
 
     |Campo|Descripción|  
     |----------------------------------|---------------------------------------|  
-    |**No ajustar**|No se realiza ningún ajuste del tipo de cambio en la cuenta. Ésta es la opción predeterminada.<br /><br /> **NOTA**: Esta opción se debe seleccionar si el tipo de cambio entre $ y la divisa adicional es siempre fijo.|  
-    |**Ajustar importe**|El importe en $ se ajusta para las ganancias o las pérdidas del tipo de cambio. Las diferencias positivas o negativas en la cuenta en el campo **Importe** y en las cuentas que haya especificado para las diferencias positivas o negativas en los campos **Cta. aj. pos. C/G realizados** o **Cta. aj. neg. C/G** realizados de la página **Divisas**.|  
-    |**Ajustar importe divisa adicional**|La divisa de informe adicional se ajusta para las ganancias o las pérdidas del tipo de cambio. Las diferencias positivas o negativas en la cuenta en el campo **Importe divisa-adicional** y en las cuentas que haya especificado para las diferencias positivas o negativas en los campos **Cta. aj. pos. C/G realizados** o **Cta. aj. neg. C/G** realizados de la página **Divisas**.|  
+    |**No ajustar**|No se realiza ningún ajuste del tipo de cambio en la cuenta. Ésta es la opción predeterminada.<br /><br /> **NOTA** : Esta opción se debe seleccionar si el tipo de cambio entre $ y la divisa adicional es siempre fijo.|  
+    |**Ajustar importe**|El importe en $ se ajusta para las ganancias o las pérdidas del tipo de cambio. Las diferencias positivas o negativas en la cuenta en el campo **Importe** y en las cuentas que haya especificado para las diferencias positivas o negativas en los campos **Cta. aj. pos. C/G realizados** o **Cta. aj. neg. C/G** realizados de la página **Divisas** .|  
+    |**Ajustar importe divisa adicional**|La divisa de informe adicional se ajusta para las ganancias o las pérdidas del tipo de cambio. Las diferencias positivas o negativas en la cuenta en el campo **Importe divisa-adicional** y en las cuentas que haya especificado para las diferencias positivas o negativas en los campos **Cta. aj. pos. C/G realizados** o **Cta. aj. neg. C/G** realizados de la página **Divisas** .|  
 
-    Las ganancias y pérdidas por tipo de cambio se registran al ejecutar el proceso **Ajustar tipos de cambio**. En dicho proceso, el tipo de cambio queda definido en la página **Tipos cambio divisa** y, a continuación, compara los importes de los campos **Importe** e **Importe divisa-adicional** del movimiento de contabilidad para determinar si hay una ganancia o una pérdida por el tipo de cambio. En el proceso se usa la opción seleccionada en el campo **Ajuste tipo cambio** para determinar cómo se deben calcular y registrar las pérdidas o ganancias de tipo de cambio de las cuentas.  
+    Las ganancias y pérdidas por tipo de cambio se registran al ejecutar el proceso **Ajustar tipos de cambio** . En dicho proceso, el tipo de cambio queda definido en la página **Tipos cambio divisa** y, a continuación, compara los importes de los campos **Importe** e **Importe divisa-adicional** del movimiento de contabilidad para determinar si hay una ganancia o una pérdida por el tipo de cambio. En el proceso se usa la opción seleccionada en el campo **Ajuste tipo cambio** para determinar cómo se deben calcular y registrar las pérdidas o ganancias de tipo de cambio de las cuentas.  
 
-4.  Cierre la página **Ficha cuenta**.  
+4.  Cierre la página **Ficha cuenta** .  
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Especificar el método de ajuste de tipo de cambio para los movimientos del IVA  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.  
-2. En la página **Configuración de contabilidad**, seleccione el método correspondiente en el campo **Tipo cambio ajuste IVA**.  
+2. En la página **Configuración de contabilidad** , seleccione el método correspondiente en el campo **Tipo cambio ajuste IVA** .  
 3. Si realiza registros en una divisa adicional, en el campo **Tipo cambio ajuste IVA** puede especificar cómo se ajustarán las cuentas para el registro del IVA de la página **Config. grupos registro IVA** en función de las fluctuaciones del tipo de cambio entre $ y la divisa adicional.  
 
-    Al ejecutar el proceso **Ajustar tipos de cambio**, el tipo de cambio de ajuste se identifica en la página **Tipo cambio divisa** y, a continuación, se comparan los importes de los campos **Importe** y **Importe divisa-adicional** del movimiento de IVA para determinar si hay ganancias o pérdidas por el tipo de cambio. El proceso usa la opción que seleccione en este campo para determinar cómo se van a registrar las diferencias positivas o negativas en el cambio para las cuentas de IVA.  
+    Al ejecutar el proceso **Ajustar tipos de cambio** , el tipo de cambio de ajuste se identifica en la página **Tipo cambio divisa** y, a continuación, se comparan los importes de los campos **Importe** y **Importe divisa-adicional** del movimiento de IVA para determinar si hay ganancias o pérdidas por el tipo de cambio. El proceso usa la opción que seleccione en este campo para determinar cómo se van a registrar las diferencias positivas o negativas en el cambio para las cuentas de IVA.  
 
     Las opciones son las mismas que para los movimientos de contabilidad, pero en este caso los movimientos que se ajustan son los del IVA. La siguiente tabla muestra a opciones que puede elegir.
 
     |Campo|Descripción|  
     |----------------------------------|---------------------------------------|  
     |**No ajustar**|No se realiza ningún ajuste del tipo de cambio en la cuenta. Ésta es la opción predeterminada.|  
-    |**Ajustar importe**|El importe en $ se ajusta para las ganancias o las pérdidas del tipo de cambio. Las diferencias positivas o negativas en la cuenta en el campo **Importe** y en las cuentas que haya especificado para las diferencias positivas o negativas en los campos **Cta. aj. pos. C/G realizados** o **Cta. aj. neg. C/G** realizados de la página **Divisas**.|  
-    |**Ajustar importe divisa adicional**|La divisa de informe adicional se ajusta para las ganancias o las pérdidas del tipo de cambio. Las diferencias positivas o negativas en la cuenta en el campo **Importe divisa-adicional** y en las cuentas que haya especificado para las diferencias positivas o negativas en los campos **Cta. aj. pos. C/G realizados** o **Cta. aj. neg. C/G** realizados de la página **Divisas**.|  
+    |**Ajustar importe**|El importe en $ se ajusta para las ganancias o las pérdidas del tipo de cambio. Las diferencias positivas o negativas en la cuenta en el campo **Importe** y en las cuentas que haya especificado para las diferencias positivas o negativas en los campos **Cta. aj. pos. C/G realizados** o **Cta. aj. neg. C/G** realizados de la página **Divisas** .|  
+    |**Ajustar importe divisa adicional**|La divisa de informe adicional se ajusta para las ganancias o las pérdidas del tipo de cambio. Las diferencias positivas o negativas en la cuenta en el campo **Importe divisa-adicional** y en las cuentas que haya especificado para las diferencias positivas o negativas en los campos **Cta. aj. pos. C/G realizados** o **Cta. aj. neg. C/G** realizados de la página **Divisas** .|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>Activar la divisa adicional  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.  
-2. En la página **Configuración de contabilidad**, elija el campo **Divisa de informes adicional** para seleccionar la divisa adicional en la que desea informar.  
+2. En la página **Configuración de contabilidad** , elija el campo **Divisa de informes adicional** para seleccionar la divisa adicional en la que desea informar.  
 3. Al salir del campo, [!INCLUDE[d365fin](includes/d365fin_md.md)] mostrará un mensaje de confirmación con una descripción de los efectos de seleccionar (y activar) la divisa adicional.  
 4. Elija el botón **Sí** para confirmar que desea activar la divisa.  
 5. El trabajo por lotes **Ajustar divisa de informe adicional** se abre.
 
-    Este proceso convierte los importes en la divisa local de los movimientos existentes a la divisa adicional. El proceso usa un tipo de cambio predeterminado, copiado del que es válido en la fecha de trabajo de la página **Tipos cambio divisa**. La conversión de $ a la divisa adicional puede producir importes residuales, que se registran en las cuentas de ganancias y pérdidas residuales especificadas en la página **Divisas**. La fecha de registro y el número de documento de estos movimientos son los mismos que los del movimiento de contabilidad original. Después de haber registrado todos los movimientos residuales, el proceso registra un movimiento de redondeo en la fecha de cierre de cada año cerrado en la cuenta de remanentes. Así se garantiza que el saldo final de las cuentas de ingresos de todos los años cerrados es 0, tanto en $ como en la divisa adicional.
+    Este proceso convierte los importes en la divisa local de los movimientos existentes a la divisa adicional. El proceso usa un tipo de cambio predeterminado, copiado del que es válido en la fecha de trabajo de la página **Tipos cambio divisa** . La conversión de $ a la divisa adicional puede producir importes residuales, que se registran en las cuentas de ganancias y pérdidas residuales especificadas en la página **Divisas** . La fecha de registro y el número de documento de estos movimientos son los mismos que los del movimiento de contabilidad original. Después de haber registrado todos los movimientos residuales, el proceso registra un movimiento de redondeo en la fecha de cierre de cada año cerrado en la cuenta de remanentes. Así se garantiza que el saldo final de las cuentas de ingresos de todos los años cerrados es 0, tanto en $ como en la divisa adicional.
 6. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
 7. Elija el botón **Aceptar** para iniciar el trabajo por lotes.  
 
@@ -119,7 +119,7 @@ Después de ejecutar el proceso, los importes de los siguientes movimientos exis
 Además, los importes de todos los movimientos posteriores del mismo tipo se registrarán en la divisa local y en la divisa adicional.  
 
 > [!NOTE]  
->  El campo **Divisa adicional** sólo quedará activada una vez que se haya seleccionado **Aceptar** en el proceso **Ajust. divisa adicional**.  
+>  El campo **Divisa adicional** sólo quedará activada una vez que se haya seleccionado **Aceptar** en el proceso **Ajust. divisa adicional** .  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 

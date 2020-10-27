@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b164ce7ba4be7e21b7c99c6e38cb9019e3ddc665
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3d053de6193593256e404803d61b14f4681dc771
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784878"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921552"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Realizar un seguimiento de las relaciones entre demanda y suministro
 Desde cualquier documento de suministro o demanda de la llamada red de pedidos, puede efectuar el seguimiento de la demanda de pedido (cantidad seguida), previsión, pedido de ventas abierto o parámetro de planificación (cantidad no seguida) que ha dado lugar a la línea de planificación en cuestión.
@@ -29,15 +29,15 @@ A continuación se describe cómo seguir productos asociados en una orden de pro
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Orden produc. planif. en firme** y luego elija el enlace relacionado.
 2. Abra la orden de producción planificada en firme pertinente de la lista.
-3. En la ficha desplegable **Líneas**, elija la acción **Funciones** y, a continuación, seleccione la acción **Seguimiento de pedido**.
+3. En la ficha desplegable **Líneas** , elija la acción **Funciones** y, a continuación, seleccione la acción **Seguimiento de pedido** .
 
 Las líneas de **Seguimiento de pedido** muestran los documentos que están relacionados con la línea de pedido de producción actual.
 
 ## <a name="untracked-planning-elements"></a>Elementos planificación sin seguimiento
-Se abre la página **Elementos de planificación sin seguimiento** cuando elige el campo **Cantidad sin seguimiento** en la página **Planificación de pedidos**. Responde a dos propósitos:
+Se abre la página **Elementos de planificación sin seguimiento** cuando elige el campo **Cantidad sin seguimiento** en la página **Planificación de pedidos** . Responde a dos propósitos:
 
 1. Albergar información sobre cantidades sin seguimiento que se muestran cuando el usuario busca desde la página Seguimiento pedido las cantidades sin seguimiento.
-2. Albergar los mensajes de advertencia que se muestran cuando el usuario selecciona el icono de **Advertencia** en la página **Hoja de planificación**.
+2. Albergar los mensajes de advertencia que se muestran cuando el usuario selecciona el icono de **Advertencia** en la página **Hoja de planificación** .
 
 La página contiene entradas que contabilizan la cantidad de excedentes sin seguimiento con el objeto de realizar un seguimiento de la red. Estas entradas se generan durante la ejecución de la planificación y explican la procedencia de dicha cantidad en las líneas de seguimiento de pedido. La procedencia de este excedente sin seguimiento puede ser:
 

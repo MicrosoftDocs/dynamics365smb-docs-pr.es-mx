@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 371f9c8629d699d7c07f2d72c99b8b64fac3b4b9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 68271b7f6f90f88af74cee848af82d28abbf339f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780346"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921379"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Uso de hojas de horas para proyectos
 
@@ -32,31 +32,31 @@ Para poder utilizar las hojas de horas, debe configurar la información general 
 Puede usar el proceso **Crear hojas de horas** para configurar hojas de horas de un número determinado de periodos o semanas. Después, el propietario de la hoja de horas puede abrirla y registrar el tiempo dedicado en una tarea.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hojas de horas** y luego elija el enlace relacionado.
-2. En la página **Lista de hojas de horas**, seleccione la acción **Crear hojas de horas**.
+2. En la página **Lista de hojas de horas** , seleccione la acción **Crear hojas de horas** .
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Los campos **Usar hoja horas** e **Id. usuario prop. hoja horas** deben completarse en la ficha del recurso de la hoja de horas.
-4. Elija el botón **Aceptar**.  
+4. Elija el botón **Aceptar** .  
 
-Puede ver las hojas de horas creadas en la página **Lista de hojas de horas**.
+Puede ver las hojas de horas creadas en la página **Lista de hojas de horas** .
 
 ## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Para copiar líneas de planificación del proyecto en una hoja de horas
 El procedimiento siguiente describe cómo agregar rápidamente líneas de planificación del proyecto a una hoja de horas.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hojas de horas** y luego elija el enlace relacionado.  
-2. En la página **Lista de hojas de horas**, seleccione una hoja de horas del periodo de tiempo correspondiente y, a continuación, elija la acción **Editar hoja de horas**.  
-3. Elija la acción **Crear líneas de planificación de proyecto**. Cualquier línea de planificación de proyecto del periodo de tiempo de la hoja de horas se copia en la hoja de horas de la persona o equipo en el campo **N.º recurso** en la hoja de horas.
+2. En la página **Lista de hojas de horas** , seleccione una hoja de horas del periodo de tiempo correspondiente y, a continuación, elija la acción **Editar hoja de horas** .  
+3. Elija la acción **Crear líneas de planificación de proyecto** . Cualquier línea de planificación de proyecto del periodo de tiempo de la hoja de horas se copia en la hoja de horas de la persona o equipo en el campo **N.º recurso** en la hoja de horas.
 
 ## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Para definir los tipos de trabajo y agregar uno a una hoja de horas
 Puede definir el tipo de trabajo de todas las líneas de la hoja de horas para los proyectos. De esta forma, puede agregar información que necesite para facturar al cliente distintos tipos de trabajo.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hojas de horas** y luego elija el enlace relacionado.   
 2. Abra la hoja de horas relevante.
-3. Elija el campo **Descripción**.  
-4. En la página **Detalle proyecto línea hoja de horas**, elija el campo **Cód. tipo trabajo** y seleccione un tipo de trabajo en la lista, como **Millas**.  
-5. Si hay ningún tipos de trabajo, elija la acción **Nuevo**.
-6. En la página **Tipos de trabajo**, rellene los campos según sea necesario.
+3. Elija el campo **Descripción** .  
+4. En la página **Detalle proyecto línea hoja de horas** , elija el campo **Cód. tipo trabajo** y seleccione un tipo de trabajo en la lista, como **Millas** .  
+5. Si hay ningún tipos de trabajo, elija la acción **Nuevo** .
+6. En la página **Tipos de trabajo** , rellene los campos según sea necesario.
 7. Repita el paso 4 para asignar el nuevo tipo de trabajo a la hoja de horas.
 
 ## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Para volver a utilizar las líneas de la hoja de horas en otras hojas de horas
@@ -64,29 +64,29 @@ Si la información de la hoja de horas no cambia con el tiempo, puede ahorrar ti
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hojas de horas** y luego elija el enlace relacionado.  
 2. Abra la hoja de horas de un periodo posterior al periodo de una hoja de horas existente con las líneas.  
-3. Elija la acción **Copiar líneas desde hoja de horas anterior**.
+3. Elija la acción **Copiar líneas desde hoja de horas anterior** .
 
-Las líneas se copiarán, incluidos los detalles como el tipo y la descripción. Por ejemplo, si la línea está relacionada con un trabajo, se copiará **Nº proyecto**. Todas las líneas copiadas tienen el estado **Abierto**. Ahora puede modificar las líneas según sea necesario.
+Las líneas se copiarán, incluidos los detalles como el tipo y la descripción. Por ejemplo, si la línea está relacionada con un trabajo, se copiará **Nº proyecto** . Todas las líneas copiadas tienen el estado **Abierto** . Ahora puede modificar las líneas según sea necesario.
 
 ## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>Para rellenar una línea de hoja de horas y enviarla para su aprobación
 El registro de la hoja de horas se hace en horas, la unidad de medida base estándar para los recursos. De forma predeterminada, una hoja de horas muestra los días de trabajo comunes de lunes a viernes.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hojas de horas** y luego elija el enlace relacionado.  
-2. Seleccione una hoja de horas del periodo de tiempo correspondiente y, a continuación, elija la acción **Editar hoja de horas**.  
+2. Seleccione una hoja de horas del periodo de tiempo correspondiente y, a continuación, elija la acción **Editar hoja de horas** .  
 3. Rellene los campos de una línea, que sean necesario. Introduzca el número de horas que ha usado el recurso cada día de la semana.
 
     > [!TIP]  
-    >   Puede revisar la suma de horas de la hoja de horas que ha introducido en el cuadro informativo **Resumen real/presupuestado**.  
+    >   Puede revisar la suma de horas de la hoja de horas que ha introducido en el cuadro informativo **Resumen real/presupuestado** .  
 4. Repita el paso 3 para otros tipos de trabajo que realice el recurso.
-5. Elija la acción **Enviar** y, a continuación, elija la acción **Todas las líneas abiertas** para enviar todas las líneas o la acción **Solo líneas seleccionadas** para enviar únicamente las líneas que están seleccionadas en la página **Hoja de horas**.  
+5. Elija la acción **Enviar** y, a continuación, elija la acción **Todas las líneas abiertas** para enviar todas las líneas o la acción **Solo líneas seleccionadas** para enviar únicamente las líneas que están seleccionadas en la página **Hoja de horas** .  
 
     > [!NOTE]  
     >   Solo puede enviar las líneas de hoja de horas para las que haya especificado tiempo.  
-6. Para modificar la información de una línea que se ha definido como **Enviado**, seleccione la línea y, a continuación, elija la acción **Volver a abrir**.
+6. Para modificar la información de una línea que se ha definido como **Enviado** , seleccione la línea y, a continuación, elija la acción **Volver a abrir** .
 
     > [!NOTE]  
-    >   Un administrador puede rechazar una línea de hoja de horas que se ha enviado para su aprobación. Si una línea tiene el estado de **Impagado**, puede realizar los cambios en la línea y seleccionar **Enviar** de nuevo.  
-7. Elija el botón **Aceptar**.
+    >   Un administrador puede rechazar una línea de hoja de horas que se ha enviado para su aprobación. Si una línea tiene el estado de **Impagado** , puede realizar los cambios en la línea y seleccionar **Enviar** de nuevo.  
+7. Elija el botón **Aceptar** .
 
 ## <a name="to-approve-or-reject-a-time-sheet"></a>Para aprobar o rechazar una hoja de horas
 Una hoja de horas debe haberse enviado para su aprobación para que se pueda usar. Puede aprobar y rechazar las líneas individuales en una hoja de horas o enviarlas de nuevo al emisor para una acción adicional. Una hoja de horas se puede aprobar de dos maneras:
@@ -96,8 +96,8 @@ Una hoja de horas debe haberse enviado para su aprobación para que se pueda usa
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hojas de horas del administrador** y luego elija el enlace relacionado.
 2. Seleccione una hoja de horas de la lista.  
-3. En la página **Hoja de horas**, elija la acción **Aprobar** y, a continuación, **Todas las líneas enviadas** para aprobar todas las líneas o la acción **Solo líneas seleccionadas** para aprobar únicamente las líneas que están seleccionadas en la página **Hoja de horas**.
-4. Elija el botón **Aceptar**.  
+3. En la página **Hoja de horas** , elija la acción **Aprobar** y, a continuación, **Todas las líneas enviadas** para aprobar todas las líneas o la acción **Solo líneas seleccionadas** para aprobar únicamente las líneas que están seleccionadas en la página **Hoja de horas** .
+4. Elija el botón **Aceptar** .  
 5. También puede elegir la acción **Rechazar** y seguir los pasos del 4 al 5.  
 
 > [!TIP]  
@@ -110,41 +110,62 @@ Una vez aprobada o rechazada una hoja de horas, no se podrá modificar hasta que
 2. Abra una hoja de horas de la lista.  
 
     > [!NOTE]  
-    >   Puede volver a abrir sólo las líneas con el estado **Aprobado**. No puede volver a abrir solo las líneas con el estado **Impagado**. No puede volver a abrir una hoja de horas si ya se ha registrado.  
-3. En la página **Hoja de horas**, elija la acción **Volver a abrir** y, a continuación, **Todas las líneas enviadas** para volver a abrir todas las líneas o la acción **Solo líneas seleccionadas** para volver a abrir únicamente las líneas que están seleccionadas en la página **Hoja de horas**.
-4. Elija el botón **Aceptar**. El estado de las líneas de la hoja de horas cambia a **Enviado**.  
+    >   Puede volver a abrir sólo las líneas con el estado **Aprobado** . No puede volver a abrir solo las líneas con el estado **Impagado** . No puede volver a abrir una hoja de horas si ya se ha registrado.  
+3. En la página **Hoja de horas** , elija la acción **Volver a abrir** y, a continuación, **Todas las líneas enviadas** para volver a abrir todas las líneas o la acción **Solo líneas seleccionadas** para volver a abrir únicamente las líneas que están seleccionadas en la página **Hoja de horas** .
+4. Elija el botón **Aceptar** . El estado de las líneas de la hoja de horas cambia a **Enviado** .  
+
+## <a name="to-view-and-approve-time-sheets-by-job"></a>Para ver y aprobar partes de horas por tarea
+
+En una tarea, puede especificar una persona que sea responsable del proyecto. Dicha información está vinculada a las líneas del parte de horas y puede utilizarse para proporcionar una lista de partes de horas que un director del proyecto deberá revisar y aprobar. Por ejemplo, el director del proyecto del equipo puede ser responsable de determinados trabajos de la empresa. En ese caso, el director debe designarse como **Persona responsable** en la tarjeta de trabajo. En esta vista de información del parte de horas, puede ver las tareas del trabajo asociadas a un trabajo y la cantidad de horas empleadas.
+
+> [!NOTE]
+> Para poder aprobar los partes de horas en la ventana **Hoja de horas del administrador por trabajo** , primero debe seleccionar una opción **Parte de horas por aprobación de trabajoo** en la página **Configuración de recursos** . Para obtener más información, consulte [Configurar recursos](projects-how-setup-resources.md).
+
+### <a name="to-approve-or-reject-a-time-sheet-by-job"></a>Para aprobar o rechazar un parte de horas por trabajo
+
+1. En el cuadro **Buscar** , escriba **Hoja de horas del administrador por trabajo** y, a continuación, elija el vínculo relacionado. Microsoft Dynamics NAV muestra una lista de líneas de parte de horas asociadas con los trabajos de los que es responsable.
+2. En la pestaña **Inicio** , elija **Aprobar** . Elija **Todo** para aprobar todas las líneas. Elija **Seleccionadas** para aprobar solo las líneas seleccionadas.
+
+    > [!NOTE]
+    > Solo puede aprobar los partes de horas que tengan el estado **Enviado** .
+
+3. Para proporcionar información adicional acerca de la aprobación o el rechazo, seleccione una línea del parte de horas y, en la pestaña **Navegar** , seleccione **Comentarios** . En el campo **Fecha** , introduzca una fecha y, a continuación, un comentario en el campo **Comentario** .
+4. Elija el botón **Aceptar** .
+
+> [!NOTE]
+> Una vez aprobada o rechazada una línea del parte de horas por trabajo, no se podrá volver a abrir ni modificar en la ventana **Parte de horas** .
 
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Para registrar las líneas de hoja de horas en un diario de recursos
 Una vez aprobados los movimientos de la hoja de horas de un recurso, puede registrarlas en el diario de recursos correspondiente.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario recursos** y luego elija el enlace relacionado.  
-2. Elija la acción **Sugerir líneas de hojas de horas**.  
+2. Elija la acción **Sugerir líneas de hojas de horas** .  
 3. Rellene los campos según sea necesario.  
-4. Elija el botón **Aceptar**. Los movimientos de uso se crean en el diario de recursos, donde puede modificar la información según sea necesario.  
-5. Seleccione la acción **Registrar**.  
-6. Para comprobar el registro, elija la acción **Movimientos**. Se abre la página **Movs. recursos**, en la que muestra el resultado del registro del diario de recursos.
+4. Elija el botón **Aceptar** . Los movimientos de uso se crean en el diario de recursos, donde puede modificar la información según sea necesario.  
+5. Seleccione la acción **Registrar** .  
+6. Para comprobar el registro, elija la acción **Movimientos** . Se abre la página **Movs. recursos** , en la que muestra el resultado del registro del diario de recursos.
 
 ## <a name="to-post-time-sheet-lines-in-a-job-journal"></a>Para registrar las líneas de hoja de horas en un diario de proyectos
 Una vez aprobados los movimientos de la hoja de horas de un proyecto, puede registrarlas en el diario de proyecto correspondiente.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario de proyectos** y luego elija el enlace relacionado.  
-2. Elija la acción **Sugerir líneas de hojas de horas**.  
+2. Elija la acción **Sugerir líneas de hojas de horas** .  
 3. Rellene los campos según sea necesario.  
-4. Elija el botón **Aceptar**. Los movimientos de uso se crean en el diario de proyectos, donde puede modificar la información según sea necesario.  
+4. Elija el botón **Aceptar** . Los movimientos de uso se crean en el diario de proyectos, donde puede modificar la información según sea necesario.  
 
     > [!NOTE]  
-    >   La información acerca del tipo de trabajo y si el trabajo es facturable debe copiarse de la línea de la hoja de horas. Si es necesario, puede reducir la cantidad de horas cuenta y hacer un registro parcial. Si se reduce la cantidad, la próxima vez que elija la acción **Sugerir líneas de hojas de horas**, la línea creada contendrá la cantidad pendiente de horas.  
-5. Seleccione la acción **Registrar**.  
-6. Para comprobar el registro, elija la acción **Movimientos**. Se abre la página **Movs. proyectos**, en la que muestra el resultado del registro del diario de recursos.
+    >   La información acerca del tipo de trabajo y si el trabajo es facturable debe copiarse de la línea de la hoja de horas. Si es necesario, puede reducir la cantidad de horas cuenta y hacer un registro parcial. Si se reduce la cantidad, la próxima vez que elija la acción **Sugerir líneas de hojas de horas** , la línea creada contendrá la cantidad pendiente de horas.  
+5. Seleccione la acción **Registrar** .  
+6. Para comprobar el registro, elija la acción **Movimientos** . Se abre la página **Movs. proyectos** , en la que muestra el resultado del registro del diario de recursos.
 
 ## <a name="to-archive-time-sheets"></a>Para archivar las hojas de horas
 Después de registrar las hojas de horas, puede archivarlas para referencia futura. Para que una hoja de horas se pueda archivar, se deben registrar todas las líneas de hoja de horas.
 
 > [!NOTE]  
->   Cuando se archiva una hoja de horas, se elimina de las listas de las páginas **Hojas de horas** y **Hojas de horas del administrador**.
+>   Cuando se archiva una hoja de horas, se elimina de las listas de las páginas **Hojas de horas** y **Hojas de horas del administrador** .
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Mover partes de horas a archivo** y luego elija el enlace relacionado.  
-2. Rellene los campos según sea necesario y, a continuación, haga clic en el botón **Aceptar**.  
+2. Rellene los campos según sea necesario y, a continuación, haga clic en el botón **Aceptar** .  
 3. Para revisar las hojas de horas archivadas, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Archivos de parte de horas** o **Archivos de parte de horas del administrador** y luego elija el enlace relacionado.
 
 ## <a name="see-also"></a>Consulte también

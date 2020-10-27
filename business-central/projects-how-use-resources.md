@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ac15e8f84efba5a46e3d5fc3d0d07f9dceed666a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: fef4421cafa8d0f7fd18d24ab7a78a814702513e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778860"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918999"
 ---
 # <a name="use-resources-for-jobs"></a>Uso de recursos para proyectos
 El consumo de los recursos en el diario de proyectos se registra para hacer un seguimiento de costes, precios y tipos de trabajo que están vinculados a proyectos. Para obtener más información, consulte [Registro del uso para proyectos](projects-how-record-job-usage.md).
@@ -33,13 +33,13 @@ Asigne recursos a proyectos creando líneas de planificación para el proyecto. 
 ## <a name="to-record-resource-usage-for-a-job"></a>Para registrar el uso de recursos de un proyecto
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de proyectos** y luego elija el enlace relacionado.
 2. Abra una sección del diario de proyectos correspondiente y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Cuando el diario esté completo, seleccione la acción **Registrar**.
+3. Cuando el diario esté completo, seleccione la acción **Registrar** .
 
 ## <a name="to-adjust-resource-prices"></a>Para ajustar los precios de los recursos
 Si desea modificar los precios de coste y de venta de un gran número de recursos, puede utilizar un proceso.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ajustar costos y precios de recursos**, y luego elija el enlace relacionado.
-2. Rellene los campos de una línea según sea necesario y, a continuación, haga clic en el botón **Aceptar**.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ajustar costos y precios de recursos** , y luego elija el enlace relacionado.
+2. Rellene los campos de una línea según sea necesario y, a continuación, haga clic en el botón **Aceptar** .
 
 > [!NOTE]  
 >   Este proceso no crea ni ajusta costes o precios alternativos de recursos. Solo cambia el contenido del campo de la ficha del recurso del **Campo ajuste** seleccionada en el trabajo por lotes. Dado que el ajuste surte efecto en los recursos al instante, compruebe los factores de ajuste antes de ejecutar el trabajo por lotes.
@@ -49,7 +49,7 @@ Si ya ha configurado precios de venta alternativos para algunos recursos, puede 
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cambios de precio en recursos** y luego elija el enlace relacionado.
 2. Elija la acción **Prop. mod. recursos (precio)** y, a continuación, rellene los campos según sea necesario.
-3. Elija el botón **Aceptar**.  
+3. Elija el botón **Aceptar** .  
 4. Cuando termine el proceso, la página **Cambios de precio en recursos** muestra los resultados del proceso.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Para obtener propuestas de cambio de precio de recursos basadas en precios estándar
@@ -57,7 +57,7 @@ Si desea configurar varios precios alternativos basados en los precios estándar
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cambios de precio en recursos** y luego elija el enlace relacionado.
 2. Elija la acción **Prop. mod. recurso (recurso)** y, a continuación, rellene los campos según sea necesario.  
-3. Elija el botón **Aceptar**.  
+3. Elija el botón **Aceptar** .  
 4. Cuando termine el proceso, abra la página **Borrador mod. precios recursos** para ver los resultados del proceso.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Para obtener propuestas de modificación de precios de recursos basadas en precios alternativos
@@ -65,7 +65,7 @@ Si ya ha configurado precios de venta alternativos para algunos recursos, puede 
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Prop. mod. recursos (precio)** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
-3. Elija el botón **Aceptar**.  
+3. Elija el botón **Aceptar** .  
 4. Cuando termine el proceso, abra la página **Borrador mod. precios recursos** para ver los resultados del proceso.
 
 ## <a name="see-also"></a>Consulte también

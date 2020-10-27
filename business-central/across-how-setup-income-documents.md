@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 08/10/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1b0942c53f435a79cae733fe4d7287e628cf7478
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0be6c730664d5162bd2359e029f9a387eae0d5d8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780521"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915921"
 ---
 # <a name="set-up-incoming-documents"></a>Configurar documentos entrantes
 
@@ -40,7 +40,7 @@ Finalmente, si utiliza un servicio para convertir archivos PDF o de imagen que r
 
 Opcionalmente, configure un proceso de aprobación para los documentos entrantes. Se deben configurar a los aprobadores de documentos entrantes como usuarios de flujo de trabajo de aprobación.
 
-Antes de que puedas crear flujos de trabajo que impliquen pasos de aprobación, tienes que configurar los usuarios del flujo de trabajo implicados en los procesos de aprobación. En la página **Config. usuario aprobación**, también se pueden establecer los límites del importe de tipos específicos de solicitudes y definir aprobadores sustitutos a los que delegar las solicitudes de aprobación cuando el aprobador original está ausente. Para obtener más información, vea [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md).
+Antes de que puedas crear flujos de trabajo que impliquen pasos de aprobación, tienes que configurar los usuarios del flujo de trabajo implicados en los procesos de aprobación. En la página **Config. usuario aprobación** , también se pueden establecer los límites del importe de tipos específicos de solicitudes y definir aprobadores sustitutos a los que delegar las solicitudes de aprobación cuando el aprobador original está ausente. Para obtener más información, vea [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md).
 
 ## <a name="to-set-up-an-ocr-service"></a>Para configurar un servicio de OCR
 

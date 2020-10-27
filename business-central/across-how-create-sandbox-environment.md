@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: d85ec46d5514c91e9a6b1403b5f90a7094d9deba
-ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
+ms.openlocfilehash: 5482460acb6ce0e92b1d6dbe876b1b64267974ae
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535445"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919699"
 ---
 # <a name="creating-a-sandbox-environment-in-prodshort"></a>Crear un entorno aislado en [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Con [!INCLUDE[prodshort](includes/prodshort.md)], puede crear fácilmente un entorno seguro donde puede probar, formar o solucionar problemas sin alterar los procesos de trabajo o los datos de negocio de su empresa. Tal entorno de no producción se llama *entorno aislado*. Aislado de la producción, un entorno aislado es el lugar para explorar, aprender, demostrar, desarrollar y probar el servicio de forma segura sin el riesgo de afectar los datos y la configuración de su entorno de producción.  
+Con [!INCLUDE[prodshort](includes/prodshort.md)], puede crear fácilmente un entorno seguro donde puede probar, formar o solucionar problemas sin alterar los procesos de trabajo o los datos de negocio de su empresa. Tal entorno de no producción se llama *entorno aislado* . Aislado de la producción, un entorno aislado es el lugar para explorar, aprender, demostrar, desarrollar y probar el servicio de forma segura sin el riesgo de afectar los datos y la configuración de su entorno de producción.  
 
 Su administrador puede crear entornos aislados en el [centro de administración](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), pero si desea probar algo rápidamente, puede crear un entorno aislado desde dentro de [!INCLUDE[prodshort](includes/prodshort.md)].  
 
@@ -32,7 +32,7 @@ Su administrador puede crear entornos aislados en el [centro de administración]
 
 2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Entorno aislado** y luego elija el enlace relacionado.
     <!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
-3. Haga clic en el botón **Crear**.  
+3. Haga clic en el botón **Crear** .  
 
     Se abre otra pestaña con [!INCLUDE[d365fin](includes/d365fin_md.md)] en la que puede terminar la configuración de su entorno aislado.
 
@@ -69,9 +69,9 @@ El entorno aislado no es menos útil porque incluye un par de características �
 
 ### <a name="to-enable-the-advanced-user-experience"></a>Para activar la experiencia del usuario avanzado
 
-Es posible activar y probar la función avanzada (completa) de la versión estándar de [!INCLUDE[d365fin](includes/d365fin_md.md)] de un suscriptor aislado configurando el campo **Experiencia** en la página **Información de la empresa** a *Premium*. Busque la página **Información de la empresa** en el menú con el :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="icono de Configuración":::.  
+Es posible activar y probar la función avanzada (completa) de la versión estándar de [!INCLUDE[d365fin](includes/d365fin_md.md)] de un suscriptor aislado configurando el campo **Experiencia** en la página **Información de la empresa** a *Premium* . Busque la página **Información de la empresa** en el menú con el :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="icono de Configuración":::.  
 
-Después de habilitar la experiencia de usuario *Premium*, obtendrá acceso a todos los perfiles estándar (roles) y Áreas de tareas en la versión estándar. También puede crear una empresa de evaluación que esté completamente configurada, incluyendo datos de demostración y acceso a las áreas avanzadas del producto. Alternativamente, póngase en contacto con un distribuidor para una demostración de las capacidades. Para obtener más información, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)  
+Después de habilitar la experiencia de usuario *Premium* , obtendrá acceso a todos los perfiles estándar (roles) y Áreas de tareas en la versión estándar. También puede crear una empresa de evaluación que esté completamente configurada, incluyendo datos de demostración y acceso a las áreas avanzadas del producto. Alternativamente, póngase en contacto con un distribuidor para una demostración de las capacidades. Para obtener más información, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)  
 
 ### <a name="to-enable-complete-sample-data"></a>Para habilitar datos de muestra completos
 
@@ -80,9 +80,9 @@ En el entorno de espacio aislado, también puede crear una nueva empresa con la 
 #### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>Para crear una empresa con datos de muestra completos en un entorno aislado
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Empresas** y luego elija el enlace relacionado.  
-2. Elija la acción **Nuevo** y, a continuación, elija **Crear nueva empresa**.  
-3. En la página **Configuración asistida para crear una empresa**, elija **Siguiente**.  
-4. Especifique un nombre para la nueva empresa y luego, en **Seleccionar los datos y la configuración para comenzar**, elija **Evaluación avanzada: completar datos de muestra**.  
+2. Elija la acción **Nuevo** y, a continuación, elija **Crear nueva empresa** .  
+3. En la página **Configuración asistida para crear una empresa** , elija **Siguiente** .  
+4. Especifique un nombre para la nueva empresa y luego, en **Seleccionar los datos y la configuración para comenzar** , elija **Evaluación avanzada: completar datos de muestra** .  
 5. Complete el resto de los pasos de la guía de configuración asistida.  
 
 Cuando se completa la guía de configuración asistida, puede comenzar a explorar la nueva empresa con los datos de muestra completos. Para obtener más información, consulte [Crear nuevas empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).  

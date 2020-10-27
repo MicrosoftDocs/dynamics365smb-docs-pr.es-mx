@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb0f01c84cb82765c346e45273bff82fbd1a53af
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: db613df030a739ac8899b3cea19e89f17dcfe53e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778501"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916586"
 ---
 # <a name="batch-post-output-and-run-times"></a>Registrar por lotes el resultado y los tiempos de ejecución
 La cantidad de salida representa el trabajo en curso en términos de cantidad terminada.  
@@ -26,18 +26,18 @@ La cantidad de salida representa el trabajo en curso en términos de cantidad te
 ## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>Para registrar cantidades de salida en una o varias líneas de la orden de producción
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario salida** y luego elija el enlace relacionado.  
 2. Rellene los campos con los datos de las órdenes de producción y los datos de salida. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Si la operación se ha completado, seleccione el campo **Terminado**.  
+3. Si la operación se ha completado, seleccione el campo **Terminado** .  
 
     Si el almacén donde se deben ubicar los componentes utiliza ubicaciones, pero no requiere el proceso de ubicación,  asigne un código de ubicación a la línea del diario para especificar dónde se deben colocar los productos en el almacén. Para obtener más información, consulte [Sacar producción o salida de ensamblado](warehouse-how-to-put-away-production-output.md).  
 
-4. Para registrar las operaciones, elija la acción **Registrar**. Se registrará la cantidad de salida. El producto estará disponible para su envío.  
+4. Para registrar las operaciones, elija la acción **Registrar** . Se registrará la cantidad de salida. El producto estará disponible para su envío.  
 
 ## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>Para registrar el tiempo de ejecución en una o varias líneas de la orden de producción
 El tiempo de ejecución representa el trabajo en curso en términos de tiempo de trabajo necesario.    
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario salida** y luego elija el enlace relacionado.  
 2. Rellene los campos con los datos de las órdenes de producción y los datos de salida.  
-3.  Si la operación se ha completado, seleccione el campo **Terminado**.  
+3.  Si la operación se ha completado, seleccione el campo **Terminado** .  
 4. Seleccione la acción **Registrar** para registrar el tiempo empleado por operación. Los movimientos de capacidad se actualizan en los centros utilizados de trabajo o de máquina.
 
 ## <a name="see-also"></a>Consulte también  

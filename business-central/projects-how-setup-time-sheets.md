@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1a5bb6f15f568c09aa2e897a7f986bfbcd63de56
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 16b167ae9412449e29a002b9d588109ddc75da28
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781821"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919024"
 ---
 # <a name="set-up-time-sheets"></a>Configuración de hojas de horas
 Las hojas de horas de [!INCLUDE[d365fin](includes/d365fin_md.md)] administran el registro de horas en incrementos semanales de siete días. Se usan para realizar el seguimiento del tiempo empleado en proyectos y puede usarlas para efectuar el registro de tiempo simple. Antes de poder usar las hojas de horas, debe especificar cómo desea que se configuren.
@@ -32,7 +32,7 @@ Cuando haya configurado las hojas de horas, puede crear hojas de horas para recu
 ## <a name="to-set-up-general-information-for-time-sheets"></a>Para configurar la información general de las hojas de horas
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de recursos** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Para el campo **Hojas horas por aprob. proyecto**, seleccione una de las opciones siguientes.
+3. Para el campo **Hojas horas por aprob. proyecto** , seleccione una de las opciones siguientes.
 
 | Opción | Descripción |
 | --- | --- |
@@ -43,19 +43,19 @@ Cuando haya configurado las hojas de horas, puede crear hojas de horas para recu
 ## <a name="to-assign-a-time-sheet-administrator"></a>Para asignar un administrador de la hoja de horas
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de usuarios** y luego elija el enlace relacionado.  
 2. Agregue un nuevo usuario, si la lista de usuarios no incluye a la persona que desea que sea el administrador de la hoja de horas. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).
-3. Seleccione el usuario que sea un administrador de hoja de horas y seleccione la casilla **Admin. hoja horas**.  
+3. Seleccione el usuario que sea un administrador de hoja de horas y seleccione la casilla **Admin. hoja horas** .  
 
 > [!TIP]  
 >   Se recomienda que designe a un solo usuario como administrador de hoja de horas para una empresa. En el siguiente procedimiento, configure un propietario y un aprobado de hoja de horas, donde el aprobador se asigne para cada recurso.  
 
 ## <a name="to-assign-a-time-sheets-owner-and-approver"></a>Para asignar un propietario y un aprobador de la hoja de horas
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Recursos** y luego elija el enlace relacionado.
-2. Seleccione el recurso para el que desea definir la capacidad para usar hojas de horas y, a continuación, seleccione la casilla **Usar hoja horas**.  
-3. En el campo **Id. usuario prop. hoja horas**, escriba el identificador del propietario de la hoja de horas. El propietario puede especificar el uso de tiempo en una hoja de horas y enviarla para su aprobación. Normalmente, cuando el recurso es una persona, esa persona también es el propietario.  
-4. En el campo **Id. usuario aprob. hoja horas**, escriba el identificador del aprobador de la hoja de horas. El aprobador puede aprobar, rechazar o volver a abrir una hoja de horas.  
+2. Seleccione el recurso para el que desea definir la capacidad para usar hojas de horas y, a continuación, seleccione la casilla **Usar hoja horas** .  
+3. En el campo **Id. usuario prop. hoja horas** , escriba el identificador del propietario de la hoja de horas. El propietario puede especificar el uso de tiempo en una hoja de horas y enviarla para su aprobación. Normalmente, cuando el recurso es una persona, esa persona también es el propietario.  
+4. En el campo **Id. usuario aprob. hoja horas** , escriba el identificador del aprobador de la hoja de horas. El aprobador puede aprobar, rechazar o volver a abrir una hoja de horas.  
 
 > [!NOTE]  
->   No se puede cambiar el identificador de aprobador de la hoja de horas si hay hojas de horas que aún no se han procesado y tienen el estado **Enviado** o **Pendiente**.
+>   No se puede cambiar el identificador de aprobador de la hoja de horas si hay hojas de horas que aún no se han procesado y tienen el estado **Enviado** o **Pendiente** .
 
 ## <a name="see-also"></a>Consulte también
 [Configurar la administración de proyectos](projects-setup-projects.md)  

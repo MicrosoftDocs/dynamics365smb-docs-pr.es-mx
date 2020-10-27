@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6f0d7f5af6750eba3622ca697f81eb0804f6be16
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 183a127ff9584723c52159397c75d1f17765d81f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786582"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917687"
 ---
 # <a name="create-reports-with-xbrl"></a>Crear informes con XBRL
 XBRL, siglas en inglés de eXtensible Business Reporting Language (Lenguaje ampliado para informes comerciales), es un lenguaje basado en XML para etiquetar datos financieros que permite a las empresas procesar y compartir sus datos de manera eficiente y precisa. La iniciativa XBRL permite los informes financieros mundiales a numerosas empresas de software ERP y organizaciones internacionales de contabilidad. El objetivo de la iniciativa es proporcionar una norma para informes uniformes sobre información financiera para bancos, inversores y autoridades. Estos informes comerciales pueden incluir:  
@@ -30,7 +30,7 @@ XBRL, siglas en inglés de eXtensible Business Reporting Language (Lenguaje ampl
  [!INCLUDE[d365fin](includes/d365fin_md.md)] permite a las empresas implementar datos en XBRL y aprovechar la flexibilidad y automatización que proporciona tanto para recopilar como para compartir datos.  
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language (Lenguaje ampliado para informes comerciales)
-XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage, Lenguaje extensible de información de negocios) es un lenguaje basado en XML para información financiera. XBRL proporciona un estándar de información uniforme para todos los usuarios de la cadena de suministro de información financiera; como empresas públicas y privadas, profesionales contables, auditores, analistas, inversores, mercados de capital y entidades de , y otros como desarrolladores de software e intermediarios de datos.  
+XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage, Lenguaje extensible de información de negocios) es un lenguaje basado en XML para información financiera. XBRL proporciona un estándar de información uniforme para todos los usuarios de la cadena de suministro de información financiera; como empresas públicas y privadas, profesionales contables, auditores, analistas, inversores, mercados de capital y entidades de , y otros como desarrolladores de software e intermediarios de datos.  
 
 El sitio Web www.xbrl.org mantiene las taxonomías. Para obtener más información o descargar taxonomías visite el sitio Web de XBRL.  
 
@@ -67,15 +67,15 @@ Después de importar o actualizar la taxonomía, las líneas de los esquema debe
 Configure las líneas XBRL asignando los datos de la texto a sus datos contables.  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Taxonomías de XBRL** y luego elija el enlace relacionado.  
-2.  En la página **Taxonomías XBRL**, seleccione una taxonomía de la lista.  
-3.  Seleccione la acción **Líneas**.  
+2.  En la página **Taxonomías XBRL** , seleccione una taxonomía de la lista.  
+3.  Seleccione la acción **Líneas** .  
 4.  Seleccione una línea y rellene los campos.   
-5.  Para obtener más información acerca de lo que tiene que rellenar, elija la acción **Información**.  
-6.  Para configurar la asignación de las cuentas contables del plan de cuentas a las líneas XBRL, elija la acción **Lín. contabilidad asignadas**.  
-7.  Para agregar notas a los resultados financieros, elija la acción **Notas**.  
+5.  Para obtener más información acerca de lo que tiene que rellenar, elija la acción **Información** .  
+6.  Para configurar la asignación de las cuentas contables del plan de cuentas a las líneas XBRL, elija la acción **Lín. contabilidad asignadas** .  
+7.  Para agregar notas a los resultados financieros, elija la acción **Notas** .  
 
 > [!NOTE]  
->  Sólo puede exportar datos que coincidan con el tipo de datos que ha seleccionado en el campo **Tipo procedencia mov.**, incluidas la descripción y las notas.  
+>  Sólo puede exportar datos que coincidan con el tipo de datos que ha seleccionado en el campo **Tipo procedencia mov.** , incluidas la descripción y las notas.  
 
 > [!NOTE]  
 >  Las líneas sin importancia pueden marcarse como tipo de línea **NO APLICABLE** para que las líneas no se exporten.
@@ -84,10 +84,10 @@ Configure las líneas XBRL asignando los datos de la texto a sus datos contables
 El primer paso para trabajar con la funcionalidad XBRL es importar la taxonomía en la base de datos de la empresa. Una taxonomía se compone de uno o varios esquemas y algunas bases de enlaces. Una vez haya completado la importación de los esquemas y las bases de enlaces y haya aplicado las bases de enlaces linkbases a los esquemas, puede configurar las líneas y asignar el Catálogo de cuentas del pan de cuentas a las líneas apropiadas de la taxonomía.  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Taxonomías de XBRL** y luego elija el enlace relacionado.  
-2.  En la página **Taxonomías XBRL**, cree una línea nueva y escriba el nombre y la descripción de la taxonomía.  
+2.  En la página **Taxonomías XBRL** , cree una línea nueva y escriba el nombre y la descripción de la taxonomía.  
 3.  Elija la acción **Esquemas** y, a continuación, inserte la descripción del esquema.  
-4.  Para importar el esquema, en la página **Esquemas XBRL**, elija la acción **Importar** y seleccione una carpeta y un archivo XSD. Elija el botón **Abrir**.  
-5.  Para importar la base de enlaces, en la página **Esquemas XBRL**, elija la acción **Base de enlaces** y seleccione una carpeta y un archivo XML. Elija el botón **Abrir**.  
+4.  Para importar el esquema, en la página **Esquemas XBRL** , elija la acción **Importar** y seleccione una carpeta y un archivo XSD. Elija el botón **Abrir** .  
+5.  Para importar la base de enlaces, en la página **Esquemas XBRL** , elija la acción **Base de enlaces** y seleccione una carpeta y un archivo XML. Elija el botón **Abrir** .  
 6.  Ahora puede elegir entre aplicar la base de enlaces al esquema. Repita el proceso hasta que haya importado todas las bases de enlaces.  
 7. Seleccione la acción **Aplicar a taxonomía** para aplicar la base de enlaces al esquema.  
 
@@ -98,11 +98,11 @@ El primer paso para trabajar con la funcionalidad XBRL es importar la taxonomía
 Cuando una taxonomía cambie, también tiene que actualizar la taxonomía actual. La razón para la actualización puede ser un cambio en el esquema, un cambio en la base de enlaces o una nueva base de enlaces. Después de actualizar la taxonomía, sólo tiene que asignar las líneas de las líneas nuevas o modificadas.  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Taxonomías de XBRL** y luego elija el enlace relacionado.  
-2.  En la página **Taxonomías XBRL**, seleccione la acción **Esquemas**.  
-3.  Para actualizar un esquema, seleccione el esquema que desea actualizar y elija la acción **Importar**.  
-4.  Para actualizar o agregar una base de enlaces nueva, elija la acción **Bases de enlaces**.  
+2.  En la página **Taxonomías XBRL** , seleccione la acción **Esquemas** .  
+3.  Para actualizar un esquema, seleccione el esquema que desea actualizar y elija la acción **Importar** .  
+4.  Para actualizar o agregar una base de enlaces nueva, elija la acción **Bases de enlaces** .  
 5.  Seleccione la base de enlaces correspondiente o pulse Ctrl+N para crear una nueva línea, seleccione el tipo de base de enlaces y, a continuación, inserte una descripción.  
-6.  Para importar la base de enlaces, elija la acción **Importar**.  
+6.  Para importar la base de enlaces, elija la acción **Importar** .  
 7.  Elija el botón **Sí** para aplicar la base de enlaces al esquema.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)

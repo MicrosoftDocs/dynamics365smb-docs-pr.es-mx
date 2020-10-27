@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7e24351bb7382d01a060326ec8e592af555870a7
-ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
+ms.openlocfilehash: 2f1b79cdf04075159b5e464e384bace89d9f933c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "3619395"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917812"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-common-data-service"></a>Programación de una sincronización entre Business Central y Common Data Service
 
@@ -29,7 +29,7 @@ Hay varios trabajos de sincronización que están disponibles de forma inmediata
 4. Proyecto de sincronización de CLIENTE - Common Data Service.
 5. Proyecto de sincronización de VENDEDORES - Common Data Service.
 
-Puede los proyectos en la página de **Movimientos de cola de proyectos**. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
+Puede los proyectos en la página de **Movimientos de cola de proyectos** . Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
 ## <a name="default-synchronization-job-queue-entries"></a>Movimientos de la cola de proyectos de sincronización predeterminados
 
@@ -51,7 +51,7 @@ Para sincronizar datos, los registros de entidad de [!INCLUDE[cds_long_md](inclu
 
 - La casilla **Sincronizar solo reg. emparejados** controla si se crean nuevos registros cuando sincroniza. De forma predeterminada, la casilla está seleccionada, lo que significa que solo se sincronizarán los registros que estén emparejados. En la asignación de tabla de integración puede cambiar la asignación de tabla entre una entidad de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] y una tabla de [!INCLUDE[d365fin](includes/d365fin_md.md)], de manera que los proyectos de sincronización de integración creen los registros nuevos en la base de datos de destino para cada registro de la base de datos de origen que no esté emparejado. Para obtener más información, consulte [Crear registros nuevos](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).
 
-    **Ejemplo** Si desactiva la casilla **Sincronizar solo reg. emparejados**, cuando sincroniza los clientes en [!INCLUDE[d365fin](includes/d365fin_md.md)] con cuentas en [!INCLUDE[cds_long_md](includes/cds_long_md.md)], se crea una nueva cuenta para cada cliente en [!INCLUDE[d365fin](includes/d365fin_md.md)] y se empareja automáticamente. Además, como la sincronización en este caso es bidireccional, se crea un cliente nuevo y se empareja para cada cuenta de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] que aún no está emparejada.  
+    **Ejemplo** Si desactiva la casilla **Sincronizar solo reg. emparejados** , cuando sincroniza los clientes en [!INCLUDE[d365fin](includes/d365fin_md.md)] con cuentas en [!INCLUDE[cds_long_md](includes/cds_long_md.md)], se crea una nueva cuenta para cada cliente en [!INCLUDE[d365fin](includes/d365fin_md.md)] y se empareja automáticamente. Además, como la sincronización en este caso es bidireccional, se crea un cliente nuevo y se empareja para cada cuenta de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] que aún no está emparejada.  
 
     > [!NOTE]  
     > Existen reglas y filtros que determinan qué datos se sincronizan. Para obtener más información, vea [Reglas de sincronización](admin-synchronizing-business-central-and-sales.md).
@@ -80,7 +80,7 @@ Por ejemplo, de forma predeterminada, el movimiento de cola de trabajo DIVISA, q
 ## <a name="to-view-the-synchronization-job-log"></a>Para ver el registro de proyectos de sincronización
 
 1. Elija el icono :::image type="icon" source="media/ui-search/search_small.png" border="false":::, introduzca **Registro de sincronización de integración** y luego elija el enlace relacionado.
-2. Si se generan uno o más errores para un proyecto de sincronización, el número de errores aparece en la columna **Erróneo**. Para ver los errores del proyecto, elija el número.  
+2. Si se generan uno o más errores para un proyecto de sincronización, el número de errores aparece en la columna **Erróneo** . Para ver los errores del proyecto, elija el número.  
 
     > [!TIP]  
     > Puede ver todos los errores del proyecto de sincronización abriendo el registro de errores del proyecto de sincronización directamente.
@@ -88,7 +88,7 @@ Por ejemplo, de forma predeterminada, el movimiento de cola de trabajo DIVISA, q
 ## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>Para ver el registro del proyecto de sincronización desde las asignaciones de tabla
 
 1. Elija el icono :::image type="icon" source="media/ui-search/search_small.png" border="false":::, introduzca **Asignaciones de tabla de integración** y luego elija el enlace relacionado.
-2. En la página **Lista de asignaciones de tablas de integración**, seleccione un movimiento y después seleccione **Registro de trabajo de sinc. de integración**.  
+2. En la página **Lista de asignaciones de tablas de integración** , seleccione un movimiento y después seleccione **Registro de trabajo de sinc. de integración** .  
 
 ## <a name="to-view-the-synchronization-error-log"></a>Para ver el registro de errores de sincronización
 

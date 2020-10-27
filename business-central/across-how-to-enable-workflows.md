@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 185e35e9b9f44e8cc18b10adf0dc359c3dce1ef0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b04f9edd37c96efb9ee6b215d85335c743de6214
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784243"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916329"
 ---
 # <a name="enable-workflows"></a>Activar flujos de trabajo
 Una vez que haya creado un flujo de trabajo y esté seguro de que está preparado para empezar, debe activar el flujo de trabajo.  
@@ -25,7 +25,7 @@ Una vez que haya creado un flujo de trabajo y esté seguro de que está preparad
 ## <a name="to-enable-a-workflow"></a>Para activar un flujo de trabajo  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
 2.  Abra el flujo de trabajo que quiera activar.  
-3.  En la página **Flujo de trabajo**, seleccione la casilla **Habilitado**.  
+3.  En la página **Flujo de trabajo** , seleccione la casilla **Habilitado** .  
 
 ## <a name="see-also"></a>Consulte también  
  [Crear flujos de trabajo](across-how-to-create-workflows.md)   

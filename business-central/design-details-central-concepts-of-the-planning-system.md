@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6cfe028d21086269f1492aefde31fe6b659d06b4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 76a25b3810c41d413c662d77bdcc72678bf8c59f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788132"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917512"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Detalles de diseño: Conceptos centrales del sistema de planificación
 Las funciones de planificación se incluyen en un proceso que primero selecciona los productos correspondientes y el periodo que se planificará. A continuación, según el código de nivel inferior de cada producto (posición de la L.M.), el proceso llama a una codeunit que calcula un plan de suministro equilibrando los conjuntos de suministro y demanda, y sugiriendo acciones posibles que puede realizar el usuario. Las acciones sugeridas aparecen como líneas en la hoja de planificación o la hoja de demanda.  
@@ -91,6 +91,14 @@ En un entorno de fabricación, la demanda para un producto terminado y sellable 
 En la figura se ilustra la secuencia en el que el sistema realiza las sugerencias de las órdenes de suministro en el nivel superior y, si se supone que el usuario va a aceptar estas sugerencias, también para productos de nivel inferior.  
 
 Para obtener más información acerca de las consideraciones de fabricación, consulte [Carga de los perfiles de inventario](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+
+#### <a name="optimizing-performance-for-low-level-calculations"></a>Optimización del rendimiento para cálculos de bajo nivel
+Los cálculos de código de bajo nivel pueden afectar el rendimiento del sistema. Para mitigar el impacto, puede desactivar **Cálculo dinámico de códigos de bajo nivel** en la página **Configuración fabricación** . Cuando lo haga, [!INCLUDE[d365fin](includes/d365fin_md.md)] le sugerirá que cree una entrada de cola de trabajos recurrente que actualizará diariamente los códigos de bajo nivel. Puede asegurarse de que el trabajo se ejecutará fuera del horario laboral especificando una hora de inicio en el campo **Primera fecha/hora de inicio** .
+
+También puede habilitar la lógica que acelera los cálculos de códigos de bajo nivel seleccionando **Optimizar el cálculo de códigos de bajo nivel** en la página **Configuración fabricación** . 
+
+> [!IMPORTANT]
+> Si elige optimizar el rendimiento, [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizará nuevos métodos de cálculo para determinar los códigos de bajo nivel. Si tiene una extensión que se basa en los eventos utilizados por los cálculos anteriores, es posible que la extensión deje de funcionar.   
 
 ### <a name="locations--transfer-level-priority"></a>Prioridad de ubicaciones o de nivel de transferencia  
 Las empresas que trabajan con más de un almacén pueden tener que planificar para cada almacén por individual. Por ejemplo, el nivel de inventario de seguridad de un producto y su directiva de reorden pueden diferir de un almacén a otro. En este caso, los parámetros de planificación deben especificarse por producto y también por almacén.  
@@ -209,7 +217,7 @@ La primera columna de la hoja de planificación corresponde a los campos de adve
 
 El aprovisionamiento de las líneas de planificación con advertencias no se modificará normalmente según los parámetros de planificación. En su lugar, el sistema de planificación sugiere solo un suministro para satisfacer la cantidad exacta de demanda. Sin embargo, el sistema se puede configurar para respetar ciertos parámetros de planificación para las líneas de planificación con determinadas advertencias. Para obtener más información, consulte la descripción de estas opciones para el proceso **Calcular plan - Hoja planif.** y el proceso **Calcular plan - Hoja demanda** respectivamente.  
 
-La información de advertencia se muestra en la página **Elementos planificación sin seguimiento**, que también se usa para presentar vínculos del seguimiento de pedidos a las entidades de red que no realizan pedidos. Existen los siguientes tipos de advertencia:  
+La información de advertencia se muestra en la página **Elementos planificación sin seguimiento** , que también se usa para presentar vínculos del seguimiento de pedidos a las entidades de red que no realizan pedidos. Existen los siguientes tipos de advertencia:  
 
 -   Emergencia  
 -   Excepción  
@@ -250,7 +258,7 @@ La advertencia de atención se muestra en tres situaciones:
 ## <a name="error-logs"></a>Registros de errores  
 En la página de la solicitud Calcular plan, el usuario puede seleccionar el campo **Parar y mostrar primer error** para incluir una parada en la ejecución de la planificación cuando se encuentre el primer error. Además, mostrará un mensaje con información sobre el error. Si hay algún error, solo se mostrarán en la hoja de planificación las líneas de planificación correctas realizadas antes de que se produjera el error.  
 
-Si el campo no está seleccionado, el trabajo por lotes Calcular plan continuará hasta que se haya completado. Los errores no interrumpirán el trabajo por lotes. Si hay errores, la aplicación mostrará un mensaje al final, para indicar cuántos productos se ven afectados por los errores. A continuación, se abrirá la página **Registro error planificación**, con más información sobre el error y vínculos a los documentos afectados o las fichas de configuración.  
+Si el campo no está seleccionado, el trabajo por lotes Calcular plan continuará hasta que se haya completado. Los errores no interrumpirán el trabajo por lotes. Si hay errores, la aplicación mostrará un mensaje al final, para indicar cuántos productos se ven afectados por los errores. A continuación, se abrirá la página **Registro error planificación** , con más información sobre el error y vínculos a los documentos afectados o las fichas de configuración.  
 
 ![Mensajes de error en la hoja de planificación](media/NAV_APP_supply_planning_1_error_log.png "Mensajes de error en la hoja de planificación")  
 

@@ -1,6 +1,6 @@
 ---
 title: Cómo planificar órdenes de proyecto | Documentos de Microsoft
-description: Esta tarea de planificación se inicia desde un pedido de venta y para realizarla se utiliza la página **Planificación pedido venta**. Una vez creada la orden de producción de un proyecto, puede seguir planificándola en la página **Planificación de pedidos**.
+description: Esta tarea de planificación se inicia desde un pedido de venta y para realizarla se utiliza la página **Planificación pedido venta** . Una vez creada la orden de producción de un proyecto, puede seguir planificándola en la página **Planificación de pedidos** .
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,31 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 99f60e9811827869dda6f6b79440a36d680fde60
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 09fea87bb1d8606390fe8c0ed5b2e3780dbc4978
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785982"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919199"
 ---
 # <a name="plan-project-orders"></a>Planificar órdenes de proyecto
-Esta tarea de planificación se inicia desde un pedido de venta y para realizarla se utiliza la página **Planificación pedido venta**. Una vez creada la orden de producción de un proyecto, puede seguir planificándola en la página **Planificación de pedidos**.  
+Esta tarea de planificación se inicia desde un pedido de venta y para realizarla se utiliza la página **Planificación pedido venta** . Una vez creada la orden de producción de un proyecto, puede seguir planificándola en la página **Planificación de pedidos** .  
 
 ## <a name="to-create-a-project-production-order"></a>Para crear una orden de producción de un proyecto  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
-2.  Seleccione el pedido de venta que representa el proyecto de producción y después seleccione la acción **Planificación**.  
-4.  En la página **Planificación de pedido de venta**, seleccione la acción **Crear orden de producción**.  
-5.  En la página **Crear pedido a partir de las ventas**, en el campo **Tipo orden**, seleccione **Orden proyecto**.  
-6.  Elija el botón **Sí**.  
+2.  Seleccione el pedido de venta que representa el proyecto de producción y después seleccione la acción **Planificación** .  
+4.  En la página **Planificación de pedido de venta** , seleccione la acción **Crear orden de producción** .  
+5.  En la página **Crear pedido a partir de las ventas** , en el campo **Tipo orden** , seleccione **Orden proyecto** .  
+6.  Elija el botón **Sí** .  
 7.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Órdenes de producción** y luego elija el enlace relacionado.
 8. Abra la orden de producción que acaba de crear.  
 
     Tenga en cuenta que el campo **Tipo de procedencia** de la orden de producción contiene **Cabecera de ventas** y la orden tiene varias líneas, una para cada producto de línea de venta que debe fabricarse.  
-9. Seleccione la acción **Planificación**.
-10. En la página **Planificación de pedidos**, seleccione la acción **Actualizar** para calcular una nueva demanda.  
+9. Seleccione la acción **Planificación** .
+10. En la página **Planificación de pedidos** , seleccione la acción **Actualizar** para calcular una nueva demanda.  
 
 Se mostrará la línea de cabecera de la orden del proyecto con todas las líneas de demanda no satisfecha expandidas bajo ella. Aunque la orden de producción contiene líneas para varios productos fabricados, la demanda total de todas las líneas de la orden de producción aparece bajo una línea de cabecera de la orden en la página **Programación de pedidos** y se muestra el nombre del cliente original. Ahora puede empezar a planificar la demanda, según se indica en [Planificar nueva demanda pedido por pedido](production-how-to-plan-for-new-demand.md).  
 

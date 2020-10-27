@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 34a9461a967760b682f9a219389bd4078e3e654c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: fcc8e97a61c777a7857e95db04fe16973c4c7b07
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782885"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918824"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Recibir y convertir documentos electrónicos
 La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite la recepción de facturas electrónicas y abonos en formato PEPPOL, admitido por los proveedores de servicios de intercambio de documentos más importantes. Para recibir una factura de un proveedor como un documento electrónico PEPPOL, debe procesarse el documento en la página Documentos entrantes para luego convertirlo en una factura de compra o en una línea de diario general en [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -28,7 +28,7 @@ La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite la r
 
  El tráfico de documentos electrónicos hacia y desde [!INCLUDE[d365fin](includes/d365fin_md.md)] lo administra la característica Cola proyecto. Antes de que pueda recibir documentos electrónicos, debe iniciarse la cola de proyectos correspondiente.  
 
- Puede iniciar la conversión de documentos electrónicos manualmente, tal como se describe en este procedimiento, o puede activar un flujo de trabajo para convertir los documentos electrónicos automáticamente cuando se reciban. La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye una plantilla de flujo de trabajo, *Flujo de trabajo desde Documento electrónico entrante hasta Abrir factura de compra*, que está listo para copiarse en un flujo de trabajo y activarse. Para obtener más información, consulte [Flujo de trabajo](across-workflow.md).  
+ Puede iniciar la conversión de documentos electrónicos manualmente, tal como se describe en este procedimiento, o puede activar un flujo de trabajo para convertir los documentos electrónicos automáticamente cuando se reciban. La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye una plantilla de flujo de trabajo, *Flujo de trabajo desde Documento electrónico entrante hasta Abrir factura de compra* , que está listo para copiarse en un flujo de trabajo y activarse. Para obtener más información, consulte [Flujo de trabajo](across-workflow.md).  
 
 > [!NOTE]  
 >  Cuando conviertes documentos electrónicos recibidos del servicio de OCR o de líneas del diario de [!INCLUDE[d365fin](includes/d365fin_md.md)], se suman varias líneas en el documento de origen en una línea. La línea única será del tipo Cuenta del libro mayor y los campos de **Descripción** y **Número** (de cuenta del libro mayor) estarán vacíos. El valor del campo **Importe** se igualará al importe total (IVA excluído) de todas las líneas del documento de origen.  
@@ -43,19 +43,19 @@ La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite la r
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Documentos entrantes** y luego elija el enlace relacionado.  
 
-2.  Seleccione la línea del registro del documento entrante que representa una factura electrónica entrante nueva y, a continuación, elija la acción **Editar**.  
+2.  Seleccione la línea del registro del documento entrante que representa una factura electrónica entrante nueva y, a continuación, elija la acción **Editar** .  
 
-     En la página **Ficha de documento entrante**, está adjunto el archivo XML relacionado, y la mayor parte de los campos se prellenan con la información de la factura electrónica. Para obtener más información, vea [Crear registros de documentos entrantes](across-how-create-income-document-records.md).  
+     En la página **Ficha de documento entrante** , está adjunto el archivo XML relacionado, y la mayor parte de los campos se prellenan con la información de la factura electrónica. Para obtener más información, vea [Crear registros de documentos entrantes](across-how-create-income-document-records.md).  
 
-3.  En el campo **Tipo de intercambio de datos**, seleccione **PEPPOL - Factura** o **OCR - Factura** según el origen del documento electrónico.  
+3.  En el campo **Tipo de intercambio de datos** , seleccione **PEPPOL - Factura** o **OCR - Factura** según el origen del documento electrónico.  
 
-4.  Para asignar el texto de la factura de proveedor a una cuenta Debe específica, en la pestaña **Acciones**, en el grupo **General**, seleccione **Asignar texto a cuenta** y, a continuación rellene la página **Hoja asignación de texto a cuenta**.  
+4.  Para asignar el texto de la factura de proveedor a una cuenta Debe específica, en la pestaña **Acciones** , en el grupo **General** , seleccione **Asignar texto a cuenta** y, a continuación rellene la página **Hoja asignación de texto a cuenta** .  
 
-5.  Seleccione la acción **Crear documento**.  
+5.  Seleccione la acción **Crear documento** .  
 
      Se creará una factura de compra en [!INCLUDE[d365fin](includes/d365fin_md.md)] basándose en la información del documento electrónico.  
 
-     Los errores de validación, normalmente relacionados con datos maestros incorrectos o no presentes en [!INCLUDE[d365fin](includes/d365fin_md.md)], se mostrarán en la ficha desplegable **Mensajes de error**.  
+     Los errores de validación, normalmente relacionados con datos maestros incorrectos o no presentes en [!INCLUDE[d365fin](includes/d365fin_md.md)], se mostrarán en la ficha desplegable **Mensajes de error** .  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 

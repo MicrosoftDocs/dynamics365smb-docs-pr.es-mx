@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/07/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aa12b250f404f149d790b0768560cad958c26d31
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 83bb0691baada420d8360736b613d1fbb33690e4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787432"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922078"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Detalles de diseño: Flujo de salida del almacén
 
@@ -69,7 +69,7 @@ Además, existen los siguientes documentos de origen internos que funcionan como
 
 ### <a name="3-create-inventory-pick-or-movement"></a>3: Crear selección de inventario o movimiento
 
- En la página **Picking inventario** o **Movimiento de inventario**, el trabajador del almacén recupera, mediante extracción, las líneas pendientes del documento de origen basándose en las solicitudes de salida del almacén. Las líneas de selección de inventario las puede crear también mediante envío el usuario responsable del documento de origen.  
+ En la página **Picking inventario** o **Movimiento de inventario** , el trabajador del almacén recupera, mediante extracción, las líneas pendientes del documento de origen basándose en las solicitudes de salida del almacén. Las líneas de selección de inventario las puede crear también mediante envío el usuario responsable del documento de origen.  
 
 ### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Registrar selección de inventario o Registrar movimiento de inventario
 
@@ -93,7 +93,7 @@ Además, existen los siguientes documentos de origen internos que funcionan como
 
 ### <a name="3-create-warehouse-shipment"></a>3: Crear envío de almacén
 
- En la página **remisiones almacén**, el trabajador responsable de las remisioness recupera las líneas pendientes del documento de origen basándose en la solicitud de salida del almacén. Se pueden combinar varias líneas del documento de origen en un documento de envío de almacén.  
+ En la página **remisiones almacén** , el trabajador responsable de las remisioness recupera las líneas pendientes del documento de origen basándose en la solicitud de salida del almacén. Se pueden combinar varias líneas del documento de origen en un documento de envío de almacén.  
 
 ### <a name="4-release-shipment--create-warehouse-pick"></a>4: Lanzar envío/Crear selección de almacén
 
@@ -113,9 +113,9 @@ Además, existen los siguientes documentos de origen internos que funcionan como
 
 ### <a name="7-generate-pick-worksheet-lines"></a>7: Generar líneas de hoja de trabajo de selección
 
- El usuario responsable de coordinar el picking recupera las líneas de picking del almacén en la **Hoja trabajo picking**, basándose en las solicitudes de picking de los envíos de almacén o las operaciones internas con el consumo de componentes. El usuario selecciona las líneas para picking y prepara los picking mediante la especificación de las ubicaciones de las que se tomarán, las ubicaciones en las que se colocarán y la cantidad de unidades que se manipularán. Las ubicaciones se pueden predefinir mediante la configuración del recurso de ubicación de almacén o de operación.  
+ El usuario responsable de coordinar el picking recupera las líneas de picking del almacén en la **Hoja trabajo picking** , basándose en las solicitudes de picking de los envíos de almacén o las operaciones internas con el consumo de componentes. El usuario selecciona las líneas para picking y prepara los picking mediante la especificación de las ubicaciones de las que se tomarán, las ubicaciones en las que se colocarán y la cantidad de unidades que se manipularán. Las ubicaciones se pueden predefinir mediante la configuración del recurso de ubicación de almacén o de operación.  
 
- El usuario especifica los métodos de picking para la manipulación optimizada en el almacén y, a continuación, usa una función para crear los documentos de picking de almacén correspondientes, que se asignan a distintos empleados de almacén que realizan los picking de almacén. Cuando los picking de almacén están totalmente asignados, se eliminan las líneas en **Hoja trabajo picking**.  
+ El usuario especifica los métodos de picking para la manipulación optimizada en el almacén y, a continuación, usa una función para crear los documentos de picking de almacén correspondientes, que se asignan a distintos empleados de almacén que realizan los picking de almacén. Cuando los picking de almacén están totalmente asignados, se eliminan las líneas en **Hoja trabajo picking** .  
 
 ### <a name="8-create-warehouse-pick-documents"></a>8: Cree documentos de selección de almacén
 

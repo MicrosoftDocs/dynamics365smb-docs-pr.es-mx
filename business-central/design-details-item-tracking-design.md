@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c1742447287273a1661ccb87056ca93abbbab76b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a9cdea97b9753adbbe8128b674dc4161178bc6f8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787582"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917437"
 ---
 # <a name="design-details-item-tracking-design"></a>Detalles de diseño: Diseño de seguimiento de productos
 En la primera versión de seguimiento de productos de [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60, los números de serie o de lote se registraban directamente en los movimientos de producto. Este diseño proporcionó información de disponibilidad completa y un seguimiento sencillo del historial de movimientos, pero carecía de flexibilidad y funcionalidad.  
@@ -34,7 +34,7 @@ En el diagrama siguiente se describe el diseño de la funcionalidad de seguimien
 
 El objeto de registro central se ha rediseñado para controlar la subclasificación única de una línea de documento con el formato de números de serie o de lote, y se han agregado tablas de relación especiales para crear relaciones de uno a varios entre los documentos registrados y sus movimientos de producto y de valoración divididos.  
 
-La codeunit 22, **Diario de productos – Línea de registro**, divide ahora el registro según los números de seguimiento de producto que se especifican en la línea de documento. Cada número de seguimiento de producto único en la línea crea su propio movimiento para el producto. Esto significa que el vínculo desde la línea de documento registrado a los movimientos de producto asociados ahora es una relación de uno a varios. Esta relación se controla mediante las siguientes tablas de relaciones de seguimiento de producto.  
+La codeunit 22, **Diario de productos – Línea de registro** , divide ahora el registro según los números de seguimiento de producto que se especifican en la línea de documento. Cada número de seguimiento de producto único en la línea crea su propio movimiento para el producto. Esto significa que el vínculo desde la línea de documento registrado a los movimientos de producto asociados ahora es una relación de uno a varios. Esta relación se controla mediante las siguientes tablas de relaciones de seguimiento de producto.  
 
 |Campo|Descripción|  
 |---------------|---------------------------------------|  

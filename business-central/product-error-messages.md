@@ -4,22 +4,22 @@ description: Descubra cómo puede solucionar problemas y encontrar soluciones a 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62a60610b565cc37c812023dd2bea08c3f5c8834
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 6e261b1ec22f24638b29ec28531008362475a484
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611732"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916637"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Advertencias y mensajes de error en Dynamics 365 Business Central
 
-Durante un día de trabajo, es posible que vea notificaciones en [!INCLUDE [prodshort](includes/prodshort.md)] sobre que algo salió mal o que no fue posible publicar algo, por ejemplo. En muchos casos, la notificación facilita la resolución del problema o la reversión de cualquier cambio que haya realizado. En otros casos, es posible que no tenga la información que necesita para el desbloqueo. Este artículo proporciona consejos sobre cómo progresar.  
+Durante un día de trabajo, es posible que vea notificaciones en [!INCLUDE [prodshort](includes/prodshort.md)] sobre que algo salió mal o que no fue posible publicar algo, por ejemplo. En muchos casos, la notificación facilita la resolución del problema o la reversión de cualquier cambio que haya realizado. En otros casos, es posible que no tenga la información que necesita para el desbloqueo. Este artículo proporciona sugerencias sobre cómo progresar.  
 
 ## <a name="in-product-user-assistance"></a>Asistencia al usuario en el producto
 
-La versión predeterminada de [!INCLUDE [prodshort](includes/prodshort.md)] incluye descripciones para la mayoría de los campos, columnas y acciones a las que se puede acceder cuando se elige el nombre. En combinación con leyendas descriptivas y texto instructivo, estas descripciones emergentes o leyendas son nuestra implementación actual de la *asistencia al usuario integrada*, que es un principio importante en el mundo actual del diseño de software.  
+La versión predeterminada de [!INCLUDE [prodshort](includes/prodshort.md)] incluye descripciones para la mayoría de los campos, columnas y acciones a las que se puede acceder cuando se elige el nombre. En combinación con leyendas descriptivas y texto instructivo, estas descripciones emergentes o leyendas son nuestra implementación actual de la *asistencia al usuario integrada* , que es un principio importante en el mundo actual del diseño de software.  
 
 Si tiene una pregunta sobre un campo u otro elemento de la interfaz de usuario, elija el nombre y aparecerá una breve descripción. Elija el vínculo *Más información* si eso no es suficiente.  
 
@@ -27,7 +27,7 @@ Para más información, vea [Modelo de asistencia al usuario de Dynamics 365 Bus
 
 ## <a name="help-and-support-page"></a>Página Ayuda y soporte técnico
 
-En [!INCLUDE[prodshort](includes/prodshort.md)], el elemento del menú Ayuda (el signo de interrogación en la esquina superior derecha) le da acceso a la página de **Ayuda y soporte técnico**, donde puede encontrar vínculos a recursos que pueden ayudarle a encontrar respuestas a sus preguntas. Para obtener más información, vea [Recursos para ayuda y soporte técnico](product-help-and-support.md).  
+En [!INCLUDE[prodshort](includes/prodshort.md)], el elemento del menú Ayuda (el signo de interrogación en la esquina superior derecha) le da acceso a la página de **Ayuda y soporte técnico** , donde puede encontrar vínculos a recursos que pueden ayudarle a encontrar respuestas a sus preguntas. Para obtener más información, vea [Recursos para ayuda y soporte técnico](product-help-and-support.md).  
 
 ## <a name="help-others"></a>Ayuda a otros
 

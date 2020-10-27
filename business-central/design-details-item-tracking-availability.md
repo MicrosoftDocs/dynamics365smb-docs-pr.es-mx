@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9763f513f4c80247f246cd835c30335ffd0d64b2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ac580a9ffebc8d8a3587a9802855af41ca7402cc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787607"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922053"
 ---
 # <a name="design-details-item-tracking-availability"></a>Detalles de diseño: Disponibilidad de seguimiento de productos
 Las páginas **Líneas seguimiento producto** y **Resumen seguimiento producto** proporcionan información de disponibilidad dinámica de los números de serie o de lote. El propósito de esto es aumentar la transparencia para los usuarios con respecto a los documentos de salida, como pedidos de venta, mostrándoles qué números de serie o cuántas unidades de un número de lote están asignado actualmente a otros documentos abiertos. De este modo se reduce la incertidumbre que provoca la doble asignación y transmite confianza en los procesadores de pedidos de que se pueden cumplir los números y las fechas de seguimiento de producto que han prometido en los pedidos de venta sin registrar. Para obtener más información, consulte [Detalles de diseño: Página de líneas de seguimiento de productos](design-details-item-tracking-lines-window.md).  
 
- Al abrir la página **Líneas seguimiento producto**, se recuperan los datos de disponibilidad de las tablas **Mov. producto** y **Mov. reserva**, sin filtro de reserva. Cuando elige el campo **Nº serie** o **Nº lote**, se abre la página **Resumen seguimiento prod.** y muestra un resumen de la información de seguimiento de producto en la tabla **Mov. reserva**. El resumen contiene la siguiente información sobre cada número de serie o de lote en la línea de seguimiento de producto:  
+ Al abrir la página **Líneas seguimiento producto** , se recuperan los datos de disponibilidad de las tablas **Mov. producto** y **Mov. reserva** , sin filtro de reserva. Cuando elige el campo **Nº serie** o **Nº lote** , se abre la página **Resumen seguimiento prod.** y muestra un resumen de la información de seguimiento de producto en la tabla **Mov. reserva** . El resumen contiene la siguiente información sobre cada número de serie o de lote en la línea de seguimiento de producto:  
 
 |Campo|Descripción|  
 |---------------------------------|---------------------------------------|  
@@ -30,7 +30,7 @@ Las páginas **Líneas seguimiento producto** y **Resumen seguimiento producto**
 |**Cantidad total disponible**|Cantidad del número de serie o de lote que está disponible para que la solicite el usuario.<br /><br /> Esta cantidad se calcula a partir de otros campos de la página de la siguiente forma:<br /><br /> cantidad total – (cantidad total solicitada + cantidad actual pendiente).|  
 
 > [!NOTE]  
->  También puede ver la información de la tabla anterior con la función **Seleccionar movs.** en la página **Líneas seguimiento producto**.  
+>  También puede ver la información de la tabla anterior con la función **Seleccionar movs.** en la página **Líneas seguimiento producto** .  
 
  Para mantener el rendimiento de la base de datos, los datos de disponibilidad se recuperan solo una vez de la base de datos cuando se abre la página **Líneas seguimiento producto** y usa la función **Actualizar disponibilidad** en la página.  
 

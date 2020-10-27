@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 40b2dfa872440feab8444fe4b0bdcb4ae191b01b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 097a1853b671afe582e40446c43cd628d807dfc0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786707"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918424"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Tutorial: vender, ensamblar y enviar kits
 
@@ -23,7 +23,7 @@ ms.locfileid: "3786707"
 
 Para usar el inventario puntual y la capacidad de personalizar los productos según las solicitudes del cliente, los pedidos de ensamblado pueden crearse y vincularse automáticamente tan pronto como se cree la línea del pedido de venta. El vínculo entre la demanda de venta y suministro de ensamblado permite a los procesadores de pedidos de venta personalizar el producto de ensamblado y comprometerse con fechas de entrega según la disponibilidad de los componentes. Además, el consumo y la salida del ensamblado se registran automáticamente con la remisión del pedido de venta vinculada.  
 
-La funcionalidad especial existe para controlar el envío de las cantidades tipo ensamblar para pedido, en las configuraciones de almacén tanto básicas como avanzadas. Cuando los trabajadores responsables del ensamblado terminan de montar componentes o toda la cantidad de ensamblar para pedido, la registran en el campo **Cdad. a enviar** de la línea de envío de almacén en las configuraciones avanzadas y luego se debe elegir **Registrar envío**. El resultado es que se registra la salida del ensamblado correspondiente, incluido el consumo de componentes relacionado. También se registra en las remisiones de venta para la cantidad del pedido de venta vinculado. En este tutorial se muestra el proceso de almacén avanzado.  
+La funcionalidad especial existe para controlar el envío de las cantidades tipo ensamblar para pedido, en las configuraciones de almacén tanto básicas como avanzadas. Cuando los trabajadores responsables del ensamblado terminan de montar componentes o toda la cantidad de ensamblar para pedido, la registran en el campo **Cdad. a enviar** de la línea de envío de almacén en las configuraciones avanzadas y luego se debe elegir **Registrar envío** . El resultado es que se registra la salida del ensamblado correspondiente, incluido el consumo de componentes relacionado. También se registra en las remisiones de venta para la cantidad del pedido de venta vinculado. En este tutorial se muestra el proceso de almacén avanzado.  
 
 En configuraciones de almacén básicas, cuando una cantidad de ensamblar para pedido está lista para enviarse, el empleado del almacén responsable registra un picking de existencias para las líneas del pedido de venta. Esto crea un movimiento de inventario para los componentes y registra la salida de ensamblado y la remisión del pedido de venta. Para obtener más información, consulte [Gestión de productos de ensamblar para pedido en picking de inventario](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
@@ -83,26 +83,26 @@ Para poder realizar las tareas del tutorial, deberá hacer lo siguiente:
 -   Conviértase en un empleado de almacén en el almacén BLANCO. Para ello, realice los pasos siguientes:  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
-2.  Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la página **Usuarios**.  
-3.  En el campo **Cód. almacén**, especifique BLANCO.  
-4.  Seleccione el campo de **Predeterminado**.  
+2.  Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la página **Usuarios** .  
+3.  En el campo **Cód. almacén** , especifique BLANCO.  
+4.  Seleccione el campo de **Predeterminado** .  
 
 Realice los pasos siguientes para preparar el almacén BLANCO para el procesamiento de ensamblado:  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacenes** y, a continuación, elija el enlace relacionado.  
 2.  Abra la ficha de almacén para el almacén BLANCO.  
-3.  En la ficha desplegable **Ubicaciones**, escriba **W-10-0001** en el campo **Cód. ubic. para ensamblado**.  
+3.  En la ficha desplegable **Ubicaciones** , escriba **W-10-0001** en el campo **Cód. ubic. para ensamblado** .  
 
     Al especificar este código de ubicación de tipo no picking, todas las líneas del pedido de ensamblado están listas para recibir sus componentes en la ubicación.  
 
-4.  En el campo **Cód. ubic. desde ensamblado**, especifique **W-01-0001**.  
+4.  En el campo **Cód. ubic. desde ensamblado** , especifique **W-01-0001** .  
 
     Al especificar este código de ubicación de picking, los productos de ensamblado terminados se enviarán a la ubicación.  
 
 Realice los pasos siguientes para quitar el plazo de entrega predeterminada para los procesos internos:  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración fabricación** y luego elija el enlace relacionado.  
-2.  En la página **Configuración fabricación**, en la ficha desplegable **Planificación**, elimine el valor del campo **Plazo seguridad genérico**.  
+2.  En la página **Configuración fabricación** , en la ficha desplegable **Planificación** , elimine el valor del campo **Plazo seguridad genérico** .  
 
 Cree el inventario para los componentes del ensamblado. Para ello, siga [Preparar datos de ejemplo](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).  
 
@@ -148,19 +148,19 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
     |80203|PICKING|W-01-0001|nº 20|  
     |80209|PICKING|W-01-0001|nº 20|  
 
-4.  Elija la acción **Registrar** y, a continuación, seleccione el botón **Sí**.  
+4.  Elija la acción **Registrar** y, a continuación, seleccione el botón **Sí** .  
 
     A continuación, sincronice los nuevos movimientos de almacén con el inventario.  
 
-5.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de productos** y luego elija el enlace relacionado. Se abre la página **Diario productos**.  
-6.  Seleccione la acción **Calcular ajuste almacén**.  
-7.  En la página **Calcular ajuste almacén**, seleccione el botón **Aceptar**.  
-8.  En la página **Diario de producto**, elija la acción **Registrar** y el botón **Sí**.  
+5.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de productos** y luego elija el enlace relacionado. Se abre la página **Diario productos** .  
+6.  Seleccione la acción **Calcular ajuste almacén** .  
+7.  En la página **Calcular ajuste almacén** , seleccione el botón **Aceptar** .  
+8.  En la página **Diario de producto** , elija la acción **Registrar** y el botón **Sí** .  
 
 ### <a name="creating-the-assembly-items"></a>Crear productos de ensamblado  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Nuevo**.  
+2.  Seleccione la acción **Nuevo** .  
 3.  Cree el primer producto del ensamblado según la información siguiente.  
 
     |Campo|Valor|  
@@ -175,7 +175,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
     > [!NOTE]  
     >  El kit A suele suministrarse por ensamblado para inventario y, por tanto, tiene una Política de reorden para que forme parte de la planificación de suministros general.  
 
-4.  Elija la acción **Ensamblado** y luego elija **L.M. de ensamblado**.  
+4.  Elija la acción **Ensamblado** y luego elija **L.M. de ensamblado** .  
 5.  Defina una L.M. de ensamblado para el kit A con la siguiente información.  
 
     |**Escriba**|**Nº**|**Cantidad por**|  
@@ -198,7 +198,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
     > [!NOTE]  
     >  El kit B suele suministrarse por ensamblado para pedido y, por tanto, no tiene directiva de reorden, ya que no debería formar parte de la planificación de suministros general.  
 
-7.  Elija la acción **Ensamblado** y luego elija **L.M. de ensamblado**.  
+7.  Elija la acción **Ensamblado** y luego elija **L.M. de ensamblado** .  
 8.  Defina una L.M. de ensamblado para el kit B con la siguiente información.  
 
     |**Escriba**|**Nº**|**Cantidad por**|  
@@ -211,7 +211,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 ### <a name="selling-the-assembly-items"></a>Vender productos de ensamblado  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Nuevo**.  
+2.  Seleccione la acción **Nuevo** .  
 3.  Cree dos líneas de pedido de venta para el cliente 62000, La Tienda Aparatos, en la fecha de trabajo con la siguiente información.  
 
     |**Escriba**|**Descripción**|**Cantidad**|Cantidad a ensamblar para pedido|Fecha envío|  
@@ -222,7 +222,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
     > [!NOTE]  
     >  Existe el siguiente problema de disponibilidad para la línea de pedido de venta del kit B:  
     >   
-    >  -   El componente del ensamblado 80210 no está disponible. Esto significa que las tres unidades especificadas del kit B no se pueden ensamblar, indicado por el valor **0** en el campo **Capaz de ensamblar** de la página **Disponibilidad de ensamblado**.  
+    >  -   El componente del ensamblado 80210 no está disponible. Esto significa que las tres unidades especificadas del kit B no se pueden ensamblar, indicado por el valor **0** en el campo **Capaz de ensamblar** de la página **Disponibilidad de ensamblado** .  
     >   
     >  Existe el siguiente problema de disponibilidad para la línea de pedido de venta del kit A:  
     >   
@@ -231,8 +231,8 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
     A continuación, personalice el pedido de venta.  
 
 4.  Seleccione la línea de pedido de venta para tres unidades del kit B.  
-5.  En la ficha desplegable **Líneas**, seleccione **Línea**, seleccione **Ensamblar para pedido** y, a continuación, elija **Ensamblar para líneas de pedido**.  
-6.  En la página **Ensamblar para líneas de pedido**, en la línea del pedido de ensamblado para el producto 80014, introduzca **2** en el campo **Cantidad por**.  
+5.  En la ficha desplegable **Líneas** , seleccione **Línea** , seleccione **Ensamblar para pedido** y, a continuación, elija **Ensamblar para líneas de pedido** .  
+6.  En la página **Ensamblar para líneas de pedido** , en la línea del pedido de ensamblado para el producto 80014, introduzca **2** en el campo **Cantidad por** .  
 7.  En la línea del pedido de ensamblado para el producto 80210, elija el campo **Nº** y seleccione el producto 80209 en su lugar.  
 8.  Cree una nueva línea de pedido de ensamblado con la siguiente información.  
 
@@ -240,15 +240,15 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
     |----------|---------|------------------|  
     |Artículo|80203|1|  
 
-9. Cierre la página **Ensamblar para líneas de pedido**.  
+9. Cierre la página **Ensamblar para líneas de pedido** .  
 
-    A continuación, actualice el precio unitario de venta del kit B según la personalización que acaba de realizar. Observe el valor actual en el campo **Precio unitario de venta sin IVA**.  
+    A continuación, actualice el precio unitario de venta del kit B según la personalización que acaba de realizar. Observe el valor actual en el campo **Precio unitario de venta sin IVA** .  
 
-10. En la ficha desplegable **Líneas**, seleccione **Línea**, seleccione **Ensamblar para pedido** y, a continuación, elija **Revertir precio**.  
-11. Elija el botón **Sí**. Observe el valor aumentado en el campo **Precio unitario de venta sin IVA**.  
+10. En la ficha desplegable **Líneas** , seleccione **Línea** , seleccione **Ensamblar para pedido** y, a continuación, elija **Revertir precio** .  
+11. Elija el botón **Sí** . Observe el valor aumentado en el campo **Precio unitario de venta sin IVA** .  
 12. Seleccione la línea de pedido de venta para quince unidades del kit A.  
-13. En la ficha desplegable **Líneas**, seleccione **Línea**, seleccione **Ensamblar para pedido** y, a continuación, elija **Ensamblar para líneas de pedido**.  
-14. En la página **Ensamblar para líneas de pedido**, cree una nueva línea de pedido de ensamblado con la siguiente información.  
+13. En la ficha desplegable **Líneas** , seleccione **Línea** , seleccione **Ensamblar para pedido** y, a continuación, elija **Ensamblar para líneas de pedido** .  
+14. En la página **Ensamblar para líneas de pedido** , cree una nueva línea de pedido de ensamblado con la siguiente información.  
 
     |Tipo|Nº|Cantidad por|  
     |----------|---------|------------------|  
@@ -256,28 +256,28 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
      A continuación, cambie la fecha de remisión de la segunda línea de pedido de venta según la programación del ensamblado.  
 
-15. En la línea de pedido de venta de 15 unidades del kit A, especifique **27-01-2014** en el campo **Fecha envío**.  
-16. Seleccione la acción **Liberar**.  
+15. En la línea de pedido de venta de 15 unidades del kit A, especifique **27-01-2014** en el campo **Fecha envío** .  
+16. Seleccione la acción **Liberar** .  
 17. Seleccione la acción **Crear remisión alm.**  
 18. Cierre el pedido de venta.  
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planificar para producto ATS no disponibles  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de planificación** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Calcular planificación regenerativa**.  
-3.  En la página **Calcular plan**, establezca los filtros siguientes.  
+2.  Seleccione la acción **Calcular planificación regenerativa** .  
+3.  En la página **Calcular plan** , establezca los filtros siguientes.  
 
     |Fecha inicial|Fecha final|N.º|  
     |-------------------|-----------------|---------|  
     |23-01-2014|27-01-2014|Kit A: equipo PC básico|  
 
-4.  Elija el botón **Aceptar**.  
+4.  Elija el botón **Aceptar** .  
 
     Se crea una nueva línea de planificación para el pedido de ensamblaje necesario de diez unidades, con fecha 27 de enero. No necesita cambios, por lo que ahora puede crear el pedido.  
 
-5.  Seleccione la acción **Ejecutar mensajes de acción**.  
-6.  En la página **Ejecutar mensajes acción**, elija el campo **Pedido de ensamblado** y seleccione **Realizar pedidos de ensamblado**.  
-7.  Elija el botón **Aceptar**.  
+5.  Seleccione la acción **Ejecutar mensajes de acción** .  
+6.  En la página **Ejecutar mensajes acción** , elija el campo **Pedido de ensamblado** y seleccione **Realizar pedidos de ensamblado** .  
+7.  Elija el botón **Aceptar** .  
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Ensamblar y enviar la primera cantidad ATO  
 
@@ -296,7 +296,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     A continuación, cree un documento de picking para todos los componentes del ensamblado ATO que se necesitan en la remisión de almacén.  
 
-3.  Elija la acción **Crear picking** y, a continuación, seleccione el botón **Aceptar**.  
+3.  Elija la acción **Crear picking** y, a continuación, seleccione el botón **Aceptar** .  
 
     A continuación, realice la tarea del encargado de picking.  
 
@@ -307,33 +307,33 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     A continuación, registre el picking sin cambiar la información predeterminada.  
 
-6.  Seleccione la acción **Autorrellenar el campo Cdad. para manipular**.  
-7.  Elija la acción **Registrar picking**.  
+6.  Seleccione la acción **Autorrellenar el campo Cdad. para manipular** .  
+7.  Elija la acción **Registrar picking** .  
 
     Vuelva al área para realizar las tareas de envío.  
 
-8.  Vuelva a abrir la página **Remisión almacén**.  
+8.  Vuelva a abrir la página **Remisión almacén** .  
 
     Observe que el campo **Cdad. preparada pedido** aún está vacío en todas las líneas. Esto se debe a que aún no ha realizado el picking de los productos que se deben enviar, sino solo los componentes necesarios para ensamblar las cantidades ATO.  
 
     Empiece a revisar el pedido de ensamblado relacionado.  
 
 9. Seleccione la línea de envío para tres unidades del kit B.  
-10. En la ficha desplegable **Líneas**, seleccione **Línea** y elija **Ensamblar para pedido**. Se abrirá la página **Pedido de ensamblado**.  
+10. En la ficha desplegable **Líneas** , seleccione **Línea** y elija **Ensamblar para pedido** . Se abrirá la página **Pedido de ensamblado** .  
 
     Observe que varios campos del pedido de ensamblado no están disponibles porque el pedido está vinculado a un pedido de venta.  
 
     Observe en las líneas de pedido de ensamblado que el campo **Cdad. preparada pedido** se ha rellenado. Esto se debe al picking registrado en el paso 7 de esta sección.  
 
-11. En el campo **Cantidad a ensamblar**, intente especificar cualquier valor menor que **3**.  
+11. En el campo **Cantidad a ensamblar** , intente especificar cualquier valor menor que **3** .  
 
     Lea el mensaje de error que explica la razón por la cual este campo solo se puede rellenar a través del campo **Cdad. a enviar** en el envío relacionado.  
 
     El campo **Cantidad a ensamblar** se puede editar para las situaciones en las que desea enviar parcialmente una cantidad de inventario en lugar de ensamblar más unidades en el pedido. Para obtener más información, consulte la sección "Escenarios de combinación" en [Comprender Ensamblar para pedido y Ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-12. Cierre la página **Pedido de ensamblado** para volver a la página **Remisión almacén**.  
-13. En la línea de envío para tres unidades del kit B, en el campo **Ctdad. a enviar**, especifique **3**.  
-14. Seleccione la acción **Registrar remisión** y, a continuación, el botón **Enviar**.  
+12. Cierre la página **Pedido de ensamblado** para volver a la página **Remisión almacén** .  
+13. En la línea de envío para tres unidades del kit B, en el campo **Ctdad. a enviar** , especifique **3** .  
+14. Seleccione la acción **Registrar remisión** y, a continuación, el botón **Enviar** .  
 
     Junto con este registro de envío de almacén, se registran el consumo y las cantidades de salida completos del pedido de ensamblado relacionado y el campo **Cantidad pendiente** está vacío. La línea de pedido de venta del kit B se actualiza para indicar que las tres unidades se han enviado.  
 
@@ -356,12 +356,12 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     A continuación, registre que el pedido de ensamblado se ha completado.  
 
-3.  Elija la acción **Lín. envío almacén ensamblar para pedido**.  
-4.  En la página **Lín. envío almacén ensamblar para pedido**, en el campo **Cdad. a enviar**, especifique **5** y, a continuación cierre la página.  
+3.  Elija la acción **Lín. envío almacén ensamblar para pedido** .  
+4.  En la página **Lín. envío almacén ensamblar para pedido** , en el campo **Cdad. a enviar** , especifique **5** y, a continuación cierre la página.  
 
     Observe en la página **Pedido de ensamblado** que los campos **Cantidad a ensamblar** y **Cantidad a consumir** ahora se rellenaron con las cantidades de salida y consumo que se registrarán con la remisión.  
 
-5.  Cierre la página **Pedido de ensamblado**.  
+5.  Cierre la página **Pedido de ensamblado** .  
 
 ### <a name="assembling-the-ats-quantity"></a>Ensamblar la cantidad ATS  
 
@@ -372,8 +372,8 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     A continuación, cree un documento de picking para recuperar los componentes necesarios.  
 
-3.  Seleccione la acción **Liberar**.  
-4.  Elija la acción **Crear picking alm.** y seleccione el botón **Aceptar**.  
+3.  Seleccione la acción **Liberar** .  
+4.  Elija la acción **Crear picking alm.** y seleccione el botón **Aceptar** .  
 
     A continuación, realice la tarea del encargado de picking.  
 
@@ -382,12 +382,12 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
      Registre el picking sin cambiar la información predeterminada.  
 
-7.  Seleccione la acción **Autorrellenar el campo Cdad. para manipular**.  
-8.  Elija la acción **Registrar picking**.  
+7.  Seleccione la acción **Autorrellenar el campo Cdad. para manipular** .  
+8.  Elija la acción **Registrar picking** .  
 
     Vuelva al pedido de ensamblado para realizar la última tarea de ensamblado.  
 
-9. En **Pedido de ensamblado**, elija la acción **Registrar** y, a continuación, el botón **Sí**.  
+9. En **Pedido de ensamblado** , elija la acción **Registrar** y, a continuación, el botón **Sí** .  
 
     Observe que el pedido de ensamblado se quitó de la lista de pedidos abiertos.  
 
@@ -400,7 +400,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     A continuación, realice el picking de los productos restantes.  
 
-3.  Elija la acción **Crear picking** y, a continuación, seleccione el botón **Aceptar**.  
+3.  Elija la acción **Crear picking** y, a continuación, seleccione el botón **Aceptar** .  
 
     A continuación, realice la tarea final del encargado de picking para esta remisión de almacén.  
 
@@ -411,16 +411,16 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     A continuación, registre el picking sin cambiar la información predeterminada.  
 
-6.  Seleccione la acción **Autorrellenar el campo Cdad. para manipular**.  
-7.  Elija la acción **Registrar picking** y, a continuación, seleccione el botón **Sí**.  
+6.  Seleccione la acción **Autorrellenar el campo Cdad. para manipular** .  
+7.  Elija la acción **Registrar picking** y, a continuación, seleccione el botón **Sí** .  
 
     Vuelva a la remisión de almacén para realizar la última tarea.  
 
-8.  Vuelva a abrir la página **Remisión almacén**.  
+8.  Vuelva a abrir la página **Remisión almacén** .  
 
-    En la página **Remisión almacén**, en la línea de diez unidades del kit A, observe que los campos **Ctdad. a enviar** y **Cdad. preparada pedido** ahora contienen el valor **10**.  
+    En la página **Remisión almacén** , en la línea de diez unidades del kit A, observe que los campos **Ctdad. a enviar** y **Cdad. preparada pedido** ahora contienen el valor **10** .  
 
-9. Seleccione la acción **Registrar remisión** y, a continuación, elija **Enviar**.  
+9. Seleccione la acción **Registrar remisión** y, a continuación, elija **Enviar** .  
 
     Se elimina el documento de remisión de almacén, que indica que se completaron las actividades de almacén correspondientes. A continuación, compruebe que se ha procesado el pedido de venta.  
 

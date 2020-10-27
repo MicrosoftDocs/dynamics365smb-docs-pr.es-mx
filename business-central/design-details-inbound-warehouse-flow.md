@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d893b810c85faaa297f7775cbf02c208fc67a2e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 42a8fd05fe74276c5b570253b67be20189201071
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787857"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922153"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Detalles de diseño: Flujo de entrada en almacén
 El flujo de entrada de un almacén comienza cuando los productos llegan al almacén de la ubicación de empresa, recibidos de orígenes externos o de otra ubicación de empresa. Un empleado registra los productos normalmente mediante el escaneo de un código de barras. Desde la dársena de recepción, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para introducir los productos en el área de almacén.  
@@ -60,7 +60,7 @@ Cuando se reciben productos en el almacén, el usuario responsable de la recepci
 Cuando se libera el documento de origen de entrada, se crea automáticamente una solicitud de almacén de entrada. Contiene referencias al tipo y el número de documento de origen y no puede verlo el usuario.  
 
 ### <a name="3-create-inventory-put-away"></a>3: Crear ubicación de inventario  
-En la página **Ubicación inventario**, el trabajador del almacén recupera, mediante extracción, las líneas pendientes del documento de origen basándose en las solicitudes de entrada al almacén. Las líneas de ubicación de inventario las puede crear también mediante envío el usuario responsable del documento de origen.  
+En la página **Ubicación inventario** , el trabajador del almacén recupera, mediante extracción, las líneas pendientes del documento de origen basándose en las solicitudes de entrada al almacén. Las líneas de ubicación de inventario las puede crear también mediante envío el usuario responsable del documento de origen.  
 
 ### <a name="4-post-inventory-put-away"></a>4: Publicar ubicación de inventario  
 En cada línea de los productos que se han ubicado, parcial o totalmente, el empleado del almacén rellena el campo **Cantidad** y, a continuación, registra la ubicación de inventario. Los documentos de origen que están relacionados con la ubicación de inventario se registran como recibidos.  
@@ -79,7 +79,7 @@ Cuando se reciben productos en el almacén, el usuario responsable de la recepci
 Cuando se libera el documento de origen de entrada, se crea automáticamente una solicitud de almacén de entrada. Contiene referencias al tipo y el número de documento de origen y no puede verlo el usuario.  
 
 ### <a name="3-create-warehouse-receipt"></a>3: Crear recepción de almacén  
-En la página **Recep. almacén**, el usuario responsable de recibir los productos recupera las líneas pendientes del documento de origen basándose en la solicitud de entrada en el almacén. Se pueden combinar varias líneas del documento de origen en un documento de recepción de almacén.  
+En la página **Recep. almacén** , el usuario responsable de recibir los productos recupera las líneas pendientes del documento de origen basándose en la solicitud de entrada en el almacén. Se pueden combinar varias líneas del documento de origen en un documento de recepción de almacén.  
 
 El usuario rellena el campo **Cdad. a manipular** y selecciona la zona y la ubicación de recepción, si procede.  
 
@@ -95,7 +95,7 @@ Cuando se registra el documento de origen de entrada, se crea automáticamente u
 ### <a name="7-generate-put-away-worksheet-lines-optional"></a>7: Generar líneas de hoja de trabajo de ubicación (opcional)  
 El usuario responsable de coordinar las ubicaciones recupera las líneas de ubicación de almacén en **Hoja trabajo ubicación** basándose en las recepciones de almacén registradas o las operaciones internas con salida. El usuario selecciona las líneas para ubicación y prepara las ubicaciones mediante la especificación de las ubicaciones de las que se tomarán, las ubicaciones en las que se colocarán y la cantidad de unidades que se manipularán. Las ubicaciones se pueden predefinir mediante la configuración del recurso de ubicación de almacén o de operación.  
 
-Cuando todas las ubicaciones se planifican y asignan a empleados de almacén, el usuario genera los documentos de ubicación de almacén. Las líneas con ubicación totalmente asignada se eliminan de **Hoja trabajo ubicación**.  
+Cuando todas las ubicaciones se planifican y asignan a empleados de almacén, el usuario genera los documentos de ubicación de almacén. Las líneas con ubicación totalmente asignada se eliminan de **Hoja trabajo ubicación** .  
 
 > [!NOTE]  
 >  Si el campo **Utilizar hoja trabajo ubicación** no se ha seleccionado en la ficha de almacén, los documentos de ubicación en almacén se crean directamente de acuerdo con las recepciones de almacén registradas. En ese caso, se omite el paso 7.  

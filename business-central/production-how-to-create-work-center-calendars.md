@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8fe746bcde1bf02c366664c02ea48029777e22ef
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 343f608e9f8a451b67422a3c198ba4306256c0ad
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777947"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921677"
 ---
 # <a name="set-up-shop-calendars"></a>Configurar calendarios de planta
 Un calendario del centro de trabajo o de máquina especifica los días y las horas laborables, las vacaciones y las ausencias que determinan la capacidad disponible bruta del centro de trabajo, medida en tiempo, de acuerdo con los valores de eficiencia y capacidad definidos.
@@ -26,8 +26,8 @@ A continuación se describe cómo configurar calendarios de centro de trabajo. L
 
 ## <a name="to-create-work-shifts"></a>Para crear turnos de trabajo  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Turnos trabajo** y luego elija el enlace relacionado.  
-2.  En una línea en blanco, escriba un número en el campo **Código** que identifique el turno de trabajo, por ejemplo, **1**.  
-3.  Describa el turno de trabajo en el campo **Descripción**, por ejemplo, **Primer turno**.  
+2.  En una línea en blanco, escriba un número en el campo **Código** que identifique el turno de trabajo, por ejemplo, **1** .  
+3.  Describa el turno de trabajo en el campo **Descripción** , por ejemplo, **Primer turno** .  
 4.  Opcionalmente, rellene las líneas para un segundo o tercer turno de trabajo.  
 
 Aunque en los centros de trabajo no se trabaje en diferentes turnos, introduzca al menos un código de turno.  
@@ -35,11 +35,11 @@ Aunque en los centros de trabajo no se trabaje en diferentes turnos, introduzca 
 ## <a name="to-set-up-a-shop-calendar"></a>Para configurar un calendario de planta  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Calendarios planta** y luego elija el enlace relacionado.  
 2.  En una línea en blanco, escriba un número en el campo **Código** que identifique el calendario de planta.  
-3.  Describa el calendario de planta en el campo **Descripción**.  
-4.  Seleccione la acción **Días laborables**.
-5.  En la página **Días laborables de calendario planta**, defina una semana laborable completa, con el comienzo y finalización para cada día.  
+3.  Describa el calendario de planta en el campo **Descripción** .  
+4.  Seleccione la acción **Días laborables** .
+5.  En la página **Días laborables de calendario planta** , defina una semana laborable completa, con el comienzo y finalización para cada día.  
 
-    En el campo **Cód. turno trabajo**, seleccione uno de los turnos definidos previamente. Agregue una línea para cada día laborable y cada turno. Por ejemplo:  
+    En el campo **Cód. turno trabajo** , seleccione uno de los turnos definidos previamente. Agregue una línea para cada día laborable y cada turno. Por ejemplo:  
 
     Lunes 07:00 15:00 1   
     Martes 07:00 15:00 1  
@@ -55,8 +55,8 @@ Aunque en los centros de trabajo no se trabaje en diferentes turnos, introduzca 
 
     Una vez definidos todos los días laborables de una semana, puede cerrar la página **Días labor. calendario planta** y empezar a especificar las vacaciones:  
 
-6.  En la página **Calendarios de planta**, seleccione el calendario de planta y, después, seleccione la acción **Vacaciones**.
-7. En la página **Calendario de vacaciones de planta**, defina las vacaciones del año, especificando la fecha y la hora inicial, la hora final y una descripción de cada día festivo en distintas líneas. Por ejemplo:  
+6.  En la página **Calendarios de planta** , seleccione el calendario de planta y, después, seleccione la acción **Vacaciones** .
+7. En la página **Calendario de vacaciones de planta** , defina las vacaciones del año, especificando la fecha y la hora inicial, la hora final y una descripción de cada día festivo en distintas líneas. Por ejemplo:  
 
     04/07/14 0:00:00 23:59:00 Vacaciones de verano  
     05/07/14 0:00:00 23:59:00 Vacaciones de verano  
@@ -70,19 +70,19 @@ El calendario de planta se puede asignar ahora a un centro de trabajo para calcu
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Centros de trabajo** y luego elija el enlace relacionado.
 2. Abra el centro de trabajo que desea actualizar.  
-3. En la el campo **Código de calendario de planta**, seleccione qué calendario de planta se va a utilizar como base de un calendario de centro de trabajo.  
-4. Elija la acción **Calendario**.  
-5. En la página **Calendario de centro de trabajo**, elija la acción **Mostrar matriz**.  
+3. En la el campo **Código de calendario de planta** , seleccione qué calendario de planta se va a utilizar como base de un calendario de centro de trabajo.  
+4. Elija la acción **Calendario** .  
+5. En la página **Calendario de centro de trabajo** , elija la acción **Mostrar matriz** .  
 
     En el margen izquierdo de la página de matriz se incluyen los centros de trabajo definidos. En el margen derecho, se muestra un calendario en el que se indican los valores de capacidad disponible para cada día laborable en la unidad de medida definida, por ejemplo, **480** minutos. Cada línea representa el calendario de un centro de trabajo.  
 
     > [!NOTE]  
-    >  También puede ver los valores de capacidad de cada semana o mes al cambiar la selección en el campo **Ver por** de la página **Calendario centro trabajo**.  
+    >  También puede ver los valores de capacidad de cada semana o mes al cambiar la selección en el campo **Ver por** de la página **Calendario centro trabajo** .  
 
     Para reflejar el nuevo calendario de planta como una línea en el centro de trabajo seleccionado, primero se debe calcular.  
 
-6.  Elija la acción **Calcular**.  
-7.  En la ficha desplegable **Centro trabajo**, puede definir un filtro para realizar los cálculos de un solo centro de trabajo. Si no define un filtro, se calcularán todos los calendarios de los centro de trabajo existentes.  
+6.  Elija la acción **Calcular** .  
+7.  En la ficha desplegable **Centro trabajo** , puede definir un filtro para realizar los cálculos de un solo centro de trabajo. Si no define un filtro, se calcularán todos los calendarios de los centro de trabajo existentes.  
 8.  Defina las fechas de inicio y de finalización del periodo del calendario que debe calcularse, por ejemplo, un año, del 01/01/14 al 31/12/14.
 9. Elija el botón **Aceptar** para calcular la capacidad.  
 
@@ -95,13 +95,13 @@ Ahora se crearán o actualizarán los movimientos del calendario para mostrar la
 El calendario calculado del centro de trabajo definirá ahora cuándo y cuánta capacidad hay disponible en este centro de trabajo. Esto controla la programación detallada de las operaciones realizadas en el centro de trabajo.  
 
 ## <a name="to-record-work-center-absence"></a>Para registrar las ausencias en el centro de trabajo  
-1.  En la página **Calendario de centro de trabajo**, elija la acción **Mostrar matriz**.
-2. En la página **Matriz de calendario de centro de trabajo**, seleccione el centro de trabajo y el día de calendario donde debe registrarse el tiempo de ausencia y, a continuación, seleccione la acción **Ausencia**.  
-3.  En la página **Ausencia**, defina la hora de inicio, la hora de finalización y la descripción del día de ausencia. Por ejemplo:  
+1.  En la página **Calendario de centro de trabajo** , elija la acción **Mostrar matriz** .
+2. En la página **Matriz de calendario de centro de trabajo** , seleccione el centro de trabajo y el día de calendario donde debe registrarse el tiempo de ausencia y, a continuación, seleccione la acción **Ausencia** .  
+3.  En la página **Ausencia** , defina la hora de inicio, la hora de finalización y la descripción del día de ausencia. Por ejemplo:  
 
     25/01/01 08:00 10:00 Mantenimiento  
 
-4.  Seleccione la acción **Actualizar** y luego cierre la página **Ausencia**.  
+4.  Seleccione la acción **Actualizar** y luego cierre la página **Ausencia** .  
 
 El tiempo de ausencia registrado se reduce de la capacidad del día seleccionado.  
 

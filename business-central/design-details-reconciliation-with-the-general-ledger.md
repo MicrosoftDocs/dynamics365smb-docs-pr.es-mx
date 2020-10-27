@@ -8,32 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 73005b4c9886e44cf7a9e23e75c247c3739d19ec
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1d65156d46749e7d06bb746899cee4aa439a1e93
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787307"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917287"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Detalles de diseño: Conciliación con contabilidad
 Cuando registra transacciones del inventario, como envíos de ventas, salida de producción o ajustes negativos, se registran los cambios realizados en la cantidad y en los valores del inventario en los movimientos de contabilidad y en los movimientos de valores, respectivamente. El siguiente paso en el proceso será registrar los valores de existencias en las cuentas del inventario del módulo de contabilidad.  
 
 Existen dos formas de conciliar el inventario con la contabilidad:  
 
-* Esto se hace manualmente ejecutando el proceso **Reg. var. inventario en cont.**.  
+* Esto se hace manualmente ejecutando el proceso **Reg. var. inventario en cont.** .  
 * Automáticamente, cada vez que se registra una transacción de inventario.  
 
 ## <a name="post-inventory-cost-to-gl-batch-job"></a>Trabajo por lote Reg. var. inventario en cont.  
-Cuando ejecute el proceso **Reg. var. inventario en cont.**, se crearán los movimientos de contabilidad según los movimientos de valuación. Puede resumir los movimientos de contabilidad por cada movimiento de valoración o crear movimientos de contabilidad por cada combinación de fecha de registro, código de ubicaciones, grupo de registro de inventario, grupo contable general del negocio y grupo contable general del producto.  
+Cuando ejecute el proceso **Reg. var. inventario en cont.** , se crearán los movimientos de contabilidad según los movimientos de valuación. Puede resumir los movimientos de contabilidad por cada movimiento de valoración o crear movimientos de contabilidad por cada combinación de fecha de registro, código de ubicaciones, grupo de registro de inventario, grupo contable general del negocio y grupo contable general del producto.  
 
 Las fechas de registro de los movimientos de contabilidad se establecerán en la fecha de registro del movimiento de valoración correspondiente, excepto si el movimiento de valoración se encuentra en un periodo contable cerrado. En este caso, se omite el movimiento de valoración y se debe cambiar la configuración de contabilidad o del usuario para activar el registro dentro del rango de fechas.  
 
-Cuando ejecute el proceso **Reg. var. inventario en cont.**, es posible que se produzcan errores porque falta la configuración o porque la configuración de dimensión no es compatible. Si el proceso encuentra errores relacionados con la configuración de dimensión, omitirá dichos errores y utilizará las dimensiones del movimiento de valor. Para otros errores, el trabajo por lotes no registra los movimientos de valores y muestra una lista de ellos al final del informe, en una sección llamada **Movimientos omitidos**. Para registrar dichos movimientos, deberá primeramente arreglar las causas de los errores. Para ver una lista con los errores antes de ejecutar el proceso, puede ejecutar el informe **Reg. var. ex. en cont. - Test**. Este informe muestra un listado con todos los errores encontrados durante un proceso de registro de prueba. Puede solucionar dichos errores y después ejecutar el proceso de registro de costos sin que se omita ningún movimiento.  
+Cuando ejecute el proceso **Reg. var. inventario en cont.** , es posible que se produzcan errores porque falta la configuración o porque la configuración de dimensión no es compatible. Si el proceso encuentra errores relacionados con la configuración de dimensión, omitirá dichos errores y utilizará las dimensiones del movimiento de valor. Para otros errores, el trabajo por lotes no registra los movimientos de valores y muestra una lista de ellos al final del informe, en una sección llamada **Movimientos omitidos** . Para registrar dichos movimientos, deberá primeramente arreglar las causas de los errores. Para ver una lista con los errores antes de ejecutar el proceso, puede ejecutar el informe **Reg. var. ex. en cont. - Test** . Este informe muestra un listado con todos los errores encontrados durante un proceso de registro de prueba. Puede solucionar dichos errores y después ejecutar el proceso de registro de costos sin que se omita ningún movimiento.  
 
 ## <a name="automatic-cost-posting"></a>Variación existencias automát.  
-Para configurar que el registro de costos en contabilidad se ejecute automáticamente al registrar una transacción de inventario, seleccione la casilla **Variación existencias automát.** en la página **Configuración de inventario**. La fecha de registro del movimiento de contabilidad es la misma que la fecha de registro del movimiento de producto.  
+Para configurar que el registro de costos en contabilidad se ejecute automáticamente al registrar una transacción de inventario, seleccione la casilla **Variación existencias automát.** en la página **Configuración de inventario** . La fecha de registro del movimiento de contabilidad es la misma que la fecha de registro del movimiento de producto.  
 
 ## <a name="account-types"></a>Tipos de cuenta  
 Durante la conciliación, los valores de inventario se registran en la cuenta de inventario en la hoja de balance. El mismo importe, pero con el signo contrario, se registra en la cuenta de contrapartida correspondiente. Normalmente, la cuenta de contrapartida es una cuenta de ganancias y pérdidas. No obstante, cuando se registra un costo directo relacionado con un consumo o una salida, la cuenta de contrapartida es una cuenta de balance. El tipo del movimiento de producto y del movimiento de valoración determina en qué cuenta de contabilidad se realizará el registro.  
@@ -93,7 +93,7 @@ En la tabla siguiente se muestra cómo está configurado el centro de trabajo en
 
         ![Resultados de los registros de capacidad con las cuentas de contabilidad](media/design_details_inventory_costing_3_gl_posting_capacity.png "Resultados de los registros de capacidad con las cuentas de contabilidad")  
 7. El usuario registra el costo esperado de una cadena. (Salida)  
-8. El usuario acaba la orden de producción y ejecuta el proceso **Valorar existencias - movs. producto**. (Salida)  
+8. El usuario acaba la orden de producción y ejecuta el proceso **Valorar existencias - movs. producto** . (Salida)  
 
     1. Se borran las cuentas provisionales. (Salida)  
     2. El costo directo se transfiere de la cuenta de trabajo en curso a la cuenta de inventario. (Salida)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 07/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 783e93fd4b9c33a249556b75bc880daff0afd24b
-ms.sourcegitcommit: e22666f90262c7d2084ca6c74ca7d66652fc6df6
+ms.openlocfilehash: 23a90d6529da231194b80f75e570e106d66a99c6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617349"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922203"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparar informes financieros con estructuras de cuentas y categorías de cuentas
 
@@ -39,12 +39,12 @@ También puede comparar dos o más estructuras de cuentas y plantillas de column
 
 ## <a name="gl-account-categories"></a>Categorías de cuenta
 
-Puede usar categorías de cuentas para cambiar el diseño de sus estados de cuenta financieros. Después de configurar las categorías de cuentas en la página **Categorías de cuenta** y haya elegido la acción **Generar estructuras de cuentas**, se actualizan los estructuras de cuentas subyacentes para los informes financieros principales. La próxima vez que ejecute uno de estos informes, como el informe **Estado de cuenta del saldo**, se agregan los nuevos totales y subtotales en función de los cambios que haya realizado.
+Puede usar categorías de cuentas para cambiar el diseño de sus estados de cuenta financieros. Después de configurar las categorías de cuentas en la página **Categorías de cuenta** y haya elegido la acción **Generar estructuras de cuentas** , se actualizan los estructuras de cuentas subyacentes para los informes financieros principales. La próxima vez que ejecute uno de estos informes, como el informe **Estado de cuenta del saldo** , se agregan los nuevos totales y subtotales en función de los cambios que haya realizado.
 
 > [!NOTE]
 > Las categorías de cuentas de nivel superior, como el nodo **Pasivo** son fijas y no puede agregar las suyas. Sin embargo, puede eliminar y agregar categorías de cuenta en niveles inferiores y cambiar su estructura para definir cómo aparece la estructura de cuentas relacionada en los informes.
 >
-> Se recomienda crear y estructurar sus propias categorías de cuentas de mayor de nivel inferior desde cero, en una jerarquía si es necesario, en lugar de tratar de reorganizar las existentes. Por ejemplo, puede reestructurar el nodo **Pasivo** para contener un nuevo nodo **Capital** seguido por los nodos **Pasivo circulante** y **Pasivos a largo plazo**.
+> Se recomienda crear y estructurar sus propias categorías de cuentas de mayor de nivel inferior desde cero, en una jerarquía si es necesario, en lugar de tratar de reorganizar las existentes. Por ejemplo, puede reestructurar el nodo **Pasivo** para contener un nuevo nodo **Capital** seguido por los nodos **Pasivo circulante** y **Pasivos a largo plazo** .
 
 ## <a name="to-create-a-new-account-schedule"></a>Para crear un nuevo estructura de cuentas
 
@@ -52,20 +52,20 @@ Usar estructuras de cuentas para analizar cifras en cuentas de contabilidad o co
 
 Las estructuras de cuentas en la versión estándar de [!INCLUDE[d365fin](includes/d365fin_md.md)] son la base de los informes financieros estándar, los que podrían no adaptarse a las necesidades de su empresa. Para crear rápidamente sus propios informes financieros, puede empezar por copiar una estructura de cuentas existente. Vea el paso 3 siguiente.
 
-La página **Panorama estr. cuentas** es donde puede obtener una vista previa del informe financiero que define la estructura de cuentas. A continuación, es importante comprender que lo que se configura como filas y columnas de la estructura de cuentas solo se puede ver y validar en la página **Panorama estr. cuentas**, que se abre desde una estructura de cuentas seleccionando la acción **Panorama**. La página **estructura cuentas** en sí misma es solo un área de configuración.  
+La página **Panorama estr. cuentas** es donde puede obtener una vista previa del informe financiero que define la estructura de cuentas. A continuación, es importante comprender que lo que se configura como filas y columnas de la estructura de cuentas solo se puede ver y validar en la página **Panorama estr. cuentas** , que se abre desde una estructura de cuentas seleccionando la acción **Panorama** . La página **estructura cuentas** en sí misma es solo un área de configuración.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Estructuras de cuentas** y luego elija el enlace relacionado.  
-2. En la página **estructuras de cuentas**, elija la acción **Nuevo** para crear un nuevo nombre de estructura de cuenta.
-3. También puede elegir la acción **Copiar estructura de cuentas**, rellenar los dos campos y, a continuación, elegir el botón **Aceptar**.
-4. Rellene los campos según sea necesario. En el campo **Plantilla columna genér.**, seleccione una disposición existente. Puede cambiarla más adelante si lo desea.
+2. En la página **estructuras de cuentas** , elija la acción **Nuevo** para crear un nuevo nombre de estructura de cuenta.
+3. También puede elegir la acción **Copiar estructura de cuentas** , rellenar los dos campos y, a continuación, elegir el botón **Aceptar** .
+4. Rellene los campos según sea necesario. En el campo **Plantilla columna genér.** , seleccione una disposición existente. Puede cambiarla más adelante si lo desea.
 
     Las disposiciones de columnas se utilizan para definir columnas de diferentes parámetros mediante los cuales se muestran los datos financieros en las filas. Por ejemplo, puede diseñar una disposición de columnas para comparar el saldo del periodo y el saldo a la fecha del mismo periodo del año actual y del año anterior, con cuatro columnas. Para obtener más información, consulte [Para editar una disposición de columnas](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
-5. Elija la acción **Editar estructura de cuentas**.
+5. Elija la acción **Editar estructura de cuentas** .
 6. Cree una fila para cada elemento financiero que desee que aparezca en el informe, como una fila para los activos actuales y otra para los activos fijos. Para obtener inspiración, consulte las estructuras de cuentas existentes en la empresa de demostración CRONUS.
 7. Seleccione la acción **Panorama** para ver el informe financiero resultante.
-8. En la página **Panorama estr. cuentas**, en el campo **Nombre plantilla columna**, seleccione otra plantilla de columnas para ver los datos de notificación por otros parámetros.
-9. Elija el botón **Aceptar**.
+8. En la página **Panorama estr. cuentas** , en el campo **Nombre plantilla columna** , seleccione otra plantilla de columnas para ver los datos de notificación por otros parámetros.
+9. Elija el botón **Aceptar** .
 
 Ha definido la base de la estructura de cuentas, las filas de datos financieros que se visualizarán y una plantilla de columnas existente para mostrar los datos de las filas según diferentes parámetros. Si la plantilla de columnas predeterminada seleccionada en el paso 4 no se adapta a su finalidad, siga el procedimiento siguiente.
 
@@ -74,27 +74,27 @@ Ha definido la base de la estructura de cuentas, las filas de datos financieros 
 Utilice las plantillas de columnas para determinar qué columnas va a incluir en el informe resultante. Por ejemplo, puede diseñar una plantilla para comparar el saldo del periodo y el saldo a la fecha del mismo periodo del año actual y del año anterior.
 
 > [!NOTE]
-> Una versión impresa, guardada o de vista preliminar de una estructura de cuentas puede mostrar como máximo cinco columnas. Si la estructura de cuentas solo está destinado al análisis en la página **Panorama estr. cuentas**, puede crear tantas columnas como desee.
+> Una versión impresa, guardada o de vista preliminar de una estructura de cuentas puede mostrar como máximo cinco columnas. Si la estructura de cuentas solo está destinado al análisis en la página **Panorama estr. cuentas** , puede crear tantas columnas como desee.
 
-1. En la página **estructuras de cuentas**, seleccione la estructura de cuentas correspondiente y después seleccione la acción **Editar configuración de disposición de columna**.
-2. En la página **Plantillas de columnas**, cree una fila para cada columna por la que los datos financieros se van a mostrar en el informe financiero. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Elija el botón **Aceptar**.
+1. En la página **estructuras de cuentas** , seleccione la estructura de cuentas correspondiente y después seleccione la acción **Editar configuración de disposición de columna** .
+2. En la página **Plantillas de columnas** , cree una fila para cada columna por la que los datos financieros se van a mostrar en el informe financiero. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Elija el botón **Aceptar** .
 4. Abra la página **Panorama estr. cuentas** de vez en cuando para verificar que la nueva disposición de columnas funciona del modo previsto.
 
 > [!NOTE]
-> Las columnas definidas en cada fila representan las columnas 3 y posteriores en la página **Panorama estr. cuentas**. Las dos primeras columnas, **N.º fila** y **Descripción**, son fijas.  
+> Las columnas definidas en cada fila representan las columnas 3 y posteriores en la página **Panorama estr. cuentas** . Las dos primeras columnas, **N.º fila** y **Descripción** , son fijas.  
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Para crear una columna que calcule porcentajes
 
 En ocasiones, podría desear incluir una columna en una estructura de cuentas para calcular los porcentajes de un total. Por ejemplo, si tiene una serie de filas que detallan las ventas por dimensión, podría desear crear una columna para indicar el porcentaje de las ventas totales que representa cada fila.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Estructuras de cuentas** y luego elija el enlace relacionado.
-2. En la página **Nombres estructuras de cuentas**, seleccione una estructura de cuenta.  
+2. En la página **Nombres estructuras de cuentas** , seleccione una estructura de cuenta.  
 3. Elija la acción **Editar esquema cuentas** para configurar una fila del esquema de cuentas para calcular el total en el que se basarán los porcentajes.  
 4. Inserta una línea justo encima de la primera fila para la que desea que se muestre un porcentaje.  
-5. Rellene los campos de la línea como se indica a continuación: en el campo **Tipo sumatorio**, especifique **Fijar base para porcentaje**. En el campo **Sumatorio**, introduzca una fórmula para el total en el que el porcentaje se basará. Por ejemplo, si la fila 11 contiene las ventas totales, escriba **11**.  
+5. Rellene los campos de la línea como se indica a continuación: en el campo **Tipo sumatorio** , especifique **Fijar base para porcentaje** . En el campo **Sumatorio** , introduzca una fórmula para el total en el que el porcentaje se basará. Por ejemplo, si la fila 11 contiene las ventas totales, escriba **11** .  
 6. Elija la acción **Editar configuración de disposición de columna** para configurar una columna.  
-7. Rellene los campos de la línea como se indica a continuación: en el campo **Tipo columna**, seleccione **Fórmula**. En el campo **Fórmula**, introduzca una fórmula para el importe para el que desea calcular un porcentaje, seguida de %. Por ejemplo, si el número de columna N contiene los saldos periodos, escriba **N%**.  
+7. Rellene los campos de la línea como se indica a continuación: en el campo **Tipo columna** , seleccione **Fórmula** . En el campo **Fórmula** , introduzca una fórmula para el importe para el que desea calcular un porcentaje, seguida de %. Por ejemplo, si el número de columna N contiene los saldos periodos, escriba **N%** .  
 8. Repita los pasos del 4 al 7 para cada grupo de filas que desee subdividir por porcentaje.
 
 ## <a name="to-set-up-account-schedules-with-overviews"></a>Para configurar estructuras de cuentas con resúmenes
@@ -102,16 +102,16 @@ En ocasiones, podría desear incluir una columna en una estructura de cuentas pa
 Puede usar un estructura de cuentas para crear un estado de cuenta que compare las cifras de contabilidad con las cifras presupuestadas.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Estructuras de cuentas** y luego elija el enlace relacionado.
-2. En la página **Nombres estructuras de cuentas**, seleccione una estructura de cuenta.  
+2. En la página **Nombres estructuras de cuentas** , seleccione una estructura de cuenta.  
 3. Elija la acción **Editar esquema cuentas**  
-4. En la ventana **estructura cuentas**, en el campo **Nombre**, seleccione el nombre de la estructura de cuentas predeterminada.
-5. Elija la acción **Insertar cuentas**.  
-6. Seleccione la cuenta que desea incluir en la declaración y, a continuación, seleccione el botón **Aceptar**.
+4. En la ventana **estructura cuentas** , en el campo **Nombre** , seleccione el nombre de la estructura de cuentas predeterminada.
+5. Elija la acción **Insertar cuentas** .  
+6. Seleccione la cuenta que desea incluir en la declaración y, a continuación, seleccione el botón **Aceptar** .
 
     Estas cuentas se insertan en la estructura de cuentas. Si lo desea, puede modificar la plantilla de columna.  
-7. Seleccione la acción **Resumen**.  
-8. En la página **Panorama estr. cuentas**, en la ficha desplegable **Filtros dimensión** y asigne al filtro de presupuesto el nombre que desee.  
-9. Elija el botón **Aceptar**.  
+7. Seleccione la acción **Resumen** .  
+8. En la página **Panorama estr. cuentas** , en la ficha desplegable **Filtros dimensión** y asigne al filtro de presupuesto el nombre que desee.  
+9. Elija el botón **Aceptar** .  
 
 Ahora puede copiar y pegar el estado de cuenta de banco del presupuesto en una hoja de cálculo.  
 
@@ -142,10 +142,10 @@ Ejemplos de fórmulas:
 | \-1FY\[1..CP\]  | Desde el principio del año fiscal anterior hasta el periodo actual en el año fiscal anterior, ambos periodos inclusive. |
 | \-1FY\[CP..LP\] | Desde el periodo actual en el año fiscal anterior hasta el último periodo del año fiscal anterior, ambos periodos inclusive.   |
 
-Si desea calcular el importe del periodo de comparación para periodos de tiempo regulares, deberá introducir una fórmula en el campo **Fórmula fecha comparación**. Por ejemplo, si el campo está establecido en -1Y, [!INCLUDE [prodshort](includes/prodshort.md)] compara con el mismo periodo de 1 de año antes.
+Si desea calcular el importe del periodo de comparación para periodos de tiempo regulares, deberá introducir una fórmula en el campo **Fórmula fecha comparación** . Por ejemplo, si el campo está establecido en -1Y, [!INCLUDE [prodshort](includes/prodshort.md)] compara con el mismo periodo de 1 de año antes.
 
 > [!NOTE]
-> No siempre es transparente qué períodos está comparando porque puede establecer un filtro de fecha en un informe que abarca diferentes fechas a los períodos contables que se reflejan en los datos del plan de cuentas. Por ejemplo, cree un estructura de cuentas en el que desee comparar este período con el mismo período del año anterior, por lo que debe establecer el campo **Fórmula de fecha de comparación** en *-1FY*. Luego, ejecute el informe el 28 de febrero y configure el filtro de fecha en enero y febrero. Como resultado, la estructura de cuentas compara enero y febrero de este año con enero del año pasado, que es el único período contable completado de los dos para el año pasado.  
+> No siempre es transparente qué períodos está comparando porque puede establecer un filtro de fecha en un informe que abarca diferentes fechas a los períodos contables que se reflejan en los datos del plan de cuentas. Por ejemplo, cree un estructura de cuentas en el que desee comparar este período con el mismo período del año anterior, por lo que debe establecer el campo **Fórmula de fecha de comparación** en *-1FY* . Luego, ejecute el informe el 28 de febrero y configure el filtro de fecha en enero y febrero. Como resultado, la estructura de cuentas compara enero y febrero de este año con enero del año pasado, que es el único período contable completado de los dos para el año pasado.  
 
 Para obtener más información sobre las fórmulas de fecha, consulte [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md).  
 

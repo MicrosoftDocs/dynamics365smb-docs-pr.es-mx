@@ -8,28 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0f2b5a2ce4fd53d9d487d20f7139d7b36c5387b5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0479efcd967c7188e38fff2fb1da76e461a1bda6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780496"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919599"
 ---
 # <a name="archive-documents"></a>Archivar documentos
 Puede archivar pedidos de compra y venta, cotizaciones, pedidos de devolución y pedidos abiertos, por ejemplo, porque desea guardar una copia de un documento para reutilizarla más tarde. Puede archivar un documento de ventas o compras varias veces y guardar una versión archivada diferente cada vez.
 
 Para documentos archivados donde el original aún existe y no está registrado, puede usar la función **Restaurar** para sobrescribir el original con la versión archivada del documento. Esto es práctico si tiene que restaurar el contenido de un documento a un estado anterior.
 
-Para los documentos archivados en los que se elimina el original, solo puede reutilizar el contenido copiando los datos, por ejemplo, con la función **Copiar desde documento**.   
+Para los documentos archivados en los que se elimina el original, solo puede reutilizar el contenido copiando los datos, por ejemplo, con la función **Copiar desde documento** .   
 
 ## <a name="to-set-up-automatic-document-archiving"></a>Para configurar el archivado automático de documentos  
 Puede configurar el archivado automático de pedidos de venta y compra, cotizaciones, pedidos abiertos y órdenes de devolución antes de eliminar documentos.
 
 El siguiente procedimiento describe cómo configurar el archivado automático de los documentos de ventas. Los pasos son parecidos para documentos de compra.
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.
-2. En la página **Conf. ventas y cobros**, rellene los campos del modo que se indica a continuación.
+2. En la página **Conf. ventas y cobros** , rellene los campos del modo que se indica a continuación.
 
 |Campo|Descripción|
 |-----|-----------|
@@ -42,15 +42,15 @@ El siguiente procedimiento describe cómo archivar una orden de venta. Los pasos
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2.  Abra un pedido de venta del que desee archivar.  
-3.  Elija la acción **Archivar documento**.
+3.  Elija la acción **Archivar documento** .
 
-El pedido de ventas está archivado. Puede verlo en la página **Pedidos de venta archivados**.
+El pedido de ventas está archivado. Puede verlo en la página **Pedidos de venta archivados** .
 
 ## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Para restaurar un pedido de venta no registrado desde el archivo
 El procedimiento siguiente describe cómo traer el contenido de un pedido de venta archivado de nuevo al pedido de venta original. Esto solo es posible cuando el documento original no se ha registrado. Los pasos son similares para todas las órdenes, órdenes abiertas, órdenes de devolución y cotizaciones.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta archivados** y luego elija el enlace relacionado.
-2. Seleccione el pedido de venta archivado, o una versión de este, que desea restaurar y después seleccione **Volver a crear**.  
+2. Seleccione el pedido de venta archivado, o una versión de este, que desea restaurar y después seleccione **Volver a crear** .  
 
 El contenido del pedido original se sustituyen con el de la versión almacenada seleccionada.
 
@@ -58,8 +58,8 @@ El contenido del pedido original se sustituyen con el de la versión almacenada 
 El siguiente procedimiento describe cómo eliminar pedidos de venta archivados. Los pasos son similares para otros documentos de compra y venta archivados.
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Eliminar versiones pedido venta archiv.** y luego elija el enlace relacionado.  
-2.  En la página **Eliminar versiones pedido venta archiv.**, seleccione los filtros apropiados.  
-3.  Elija el botón **Aceptar**.
+2.  En la página **Eliminar versiones pedido venta archiv.** , seleccione los filtros apropiados.  
+3.  Elija el botón **Aceptar** .
 
 ## <a name="see-also"></a>Consulte también
 [Seguimiento de líneas de documentos](across-how-to-track-document-lines.md)  

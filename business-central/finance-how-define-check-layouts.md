@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8346e8a868f73d3de729a56e86530048c58229aa
-ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
+ms.openlocfilehash: 31a3df66b3b82e7901a494c7ef552c27b317ba99
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "3458944"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917087"
 ---
 # <a name="select-a-check-layout"></a>Seleccionar una plantilla de cheques
 Puede diseñar los cheques conforme a los estándares definidos por las autoridades locales. Las imágenes de los cheques se pueden imprimir en inglés, francés o español.
@@ -24,7 +24,7 @@ Los cheques se han diseñado para imprimir formatos de imágenes de cheque de Es
 
 ## <a name="to-select-a-check-layout"></a>Para seleccionar una plantilla de cheques
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Selección informes banco** y luego elija el enlace relacionado.
-2. En la página **Informe selección - Bancos**, en el campo **Uso**, seleccione **Cheque**.
+2. En la página **Informe selección - Bancos** , en el campo **Uso** , seleccione **Cheque** .
 3. Seleccione uno de los identificadores de informes siguientes:
 
 | Id. informe | Nombre informe | Descripción |
@@ -34,7 +34,7 @@ Los cheques se han diseñado para imprimir formatos de imágenes de cheque de Es
 | 10412 |Cheque (Matriz/Cheque/Matriz) |Este informe está diseñado para imprimir cheques en un formato matriz/cheque/matriz. |
 | 10413 |Tres cheques por página |Este informe está diseñado para imprimir tres cheques por página. |
 
-Cuando haya configurado los diseños de cheques, puede imprimir cheques desde la página **Diario de pagos**. Para obtener más información, consulte [Trabajar con cheques](payables-how-work-checks.md).
+Cuando haya configurado los diseños de cheques, puede imprimir cheques desde la página **Diario de pagos** . Para obtener más información, consulte [Trabajar con cheques](payables-how-work-checks.md).
 
 Para cambiar una de estas plantillas de cheques predeterminadas, utilice la integración de Word o RDLC. Para obtener más información, vea [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md).
 

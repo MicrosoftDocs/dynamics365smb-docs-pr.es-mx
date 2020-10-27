@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: daff9e471ce62f4885703a1fd11bbf35620360f9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6a9db4249cdf5814bc04653a1987d17f8f94ecb2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189686"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918624"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Extensión de previsión de ventas e inventario
 La gestión del inventario es un equilibrio entre el servicio al cliente y la administración del costo. Por un lado, un inventario bajo requiere menos capital de trabajo, pero, por otro lado, la falta de existencias puede llevar potencialmente a la pérdida de ventas. La extensión Previsión de inventario y ventas pronostica ventas potenciales con datos históricos y ofrece una visión general clara de la falta de existencias prevista. Según la previsión, la extensión ayuda a crear solicitudes de reposición a los proveedores y le ahorra tiempo.  
@@ -29,7 +29,7 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)], la conexión a [Azure AI](https:
 >   Considere la duración de los periodos que el servicio usará en los cálculos. Cuantos más datos proporcione, más precisas serán las predicciones. Asimismo, controle las variaciones grandes en los periodos. También afectarán a las predicciones. Si Azure AI no encuentra suficientes datos, o los datos varían mucho, el servicio no creará ninguna predicción.
 
 ## <a name="using-the-forecasts"></a>Usar las previsiones
-La extensión usa Azure AI para pronosticar las ventas futuras en función del historial de ventas para ayudarle a evitar la escasez de inventario. Por ejemplo, cuando elige un producto en la página **Productos**, la ficha del panel **Previsión del producto** muestra las ventas futuras estimadas de ese producto. De esta manera podrá ver si pronto agotará el stock del producto.  
+La extensión usa Azure AI para pronosticar las ventas futuras en función del historial de ventas para ayudarle a evitar la escasez de inventario. Por ejemplo, cuando elige un producto en la página **Productos** , la ficha del panel **Previsión del producto** muestra las ventas futuras estimadas de ese producto. De esta manera podrá ver si pronto agotará el stock del producto.  
 
 También puede utilizar la extensión para sugerir cuándo desea almacenar el inventario. Por ejemplo, si crea una orden de compra para Fabrikam porque desea comprar su nueva silla de escritorio, la extensión de previsión de inventario y ventas sugerirá que también reaprovisione la silla giratoria LONDON que normalmente le compra a ese proveedor. Eso se debe a que la extensión prevé que se le agotará el stock de la silla giratoria LONDON durante los próximos dos meses, de modo que es posible que desee pedir más sillas ahora.  
 
@@ -42,14 +42,14 @@ Estos servicios web no tienen estado, lo que significa que usan datos solo para 
 >   También puede usar su propio servicio web de predicción en lugar del nuestro. Para obtener más información, consulte [Crear y usar su propio servicio web predictivo para ventas y previsiones de inventario](#AnchorText). 
 
 ### <a name="data-required-for-forecast"></a>Datos requeridos para la previsión
-Para hacer predicciones sobre ventas futuras, el servicio web requiere datos cuantitativos sobre ventas pasadas. Esa información proviene de los campos **Fecha de contabilización**, **Nº producto** y **Cantidad** de la página **Movs. productos**, donde:
+Para hacer predicciones sobre ventas futuras, el servicio web requiere datos cuantitativos sobre ventas pasadas. Esa información proviene de los campos **Fecha de contabilización** , **Nº producto** y **Cantidad** de la página **Movs. productos** , donde:
 -    El tipo de movimiento es "Venta".
 - La fecha de registro es entre la fecha que se calcula en función de los valores en los campos **Periodos históricos** y **Tipo de periodo** en la página **Configuración de previsión de ventas e inventario** y la fecha de trabajo.
 
-Antes de usar el servicio web [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime las transacciones por **Nº producto** y **Fecha de registro** según el valor del campo **Tipo de periodo** en la página **Configuración de previsión de ventas e inventario**.
+Antes de usar el servicio web [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime las transacciones por **Nº producto** y **Fecha de registro** según el valor del campo **Tipo de periodo** en la página **Configuración de previsión de ventas e inventario** .
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-sales-and-inventory-forecasts"></a><a name="AnchorText"> </a>Crear y usar su propio servicio web predictivo para ventas y previsiones de inventario
-También puede crear su propio servicio web predictivo basado en un modelo público denominado **Modelo de previsión para Microsoft Business Central**. Este modelo predictivo está disponible en línea en la galería de Azure AI. Para usar el modelo, siga estos pasos:  
+También puede crear su propio servicio web predictivo basado en un modelo público denominado **Modelo de previsión para Microsoft Business Central** . Este modelo predictivo está disponible en línea en la galería de Azure AI. Para usar el modelo, siga estos pasos:  
 
 1. Abra un explorador y vaya a la [Galería de Azure AI](https://go.microsoft.com/fwlink/?linkid=828352).  
 2. Busque **Modelo de previsión para Microsoft Business Central** y, a continuación, abra el modelo en Azure Machine Learning Studio.  

@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 10a510f48dbe84da175a5b95248f02fa822e659f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 167f99d7a7a0df7727e8c50df376b847e5dfefcb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788532"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917223"
 ---
 # <a name="about-calculating-standard-cost"></a>Acerca del cálculo de costo estándar
-Muchas empresas de fabricación eligen una base de valuación de costo estándar. Esto también se aplica a las empresas que llevan a cabo la fabricación ligera, como ensamblado y kitting. Un sistema de costos estándar determina el costo unitario del inventario en función de ciertos costos históricos o esperados razonables. Los estudios sobre costos anteriores y sobre costos futuros previstos pueden ofrecer una base para calcular costos estándar. Dichos costos quedan fijos hasta que se tome la decisión de cambiarlos. El costo real para fabricar un producto puede ser diferente de los costos estándar calculados. Para controlar la gestión, el costo real se compara con el costo estándar de un producto en particular, y se identifican y analizan las diferencias o *variaciones*.  
+Muchas empresas de fabricación eligen una base de valuación de costo estándar. Esto también se aplica a las empresas que llevan a cabo la fabricación ligera, como ensamblado y kitting. Un sistema de costos estándar determina el costo unitario del inventario en función de ciertos costos históricos o esperados razonables. Los estudios sobre costos anteriores y sobre costos futuros previstos pueden ofrecer una base para calcular costos estándar. Dichos costos quedan fijos hasta que se tome la decisión de cambiarlos. El costo real para fabricar un producto puede ser diferente de los costos estándar calculados. Para controlar la gestión, el costo real se compara con el costo estándar de un producto en particular, y se identifican y analizan las diferencias o *variaciones* .  
 
 Los costos estándar se pueden mantener para los productos que se rellenan con la compra, el ensamblado y la producción. Para cada método de reaprovisionamiento, el costo estándar puede constar de los elementos siguientes.  
 
@@ -48,7 +48,7 @@ Los elementos de costo claves siguientes conforman el costo directo total de un 
  Los costos de materiales son aquellos que se asocian con productos semiterminados y materias prima que se hayan comprado. El costo unitario del material puede estar compuesto por elementos de costo directos e indirectos.  
 
 -   El costo directo del material representa la cantidad facturada por las materias primas que se hayan comprado o por el costo de procesamiento de un producto semiterminado.  
--   El costo indirecto del material, o *costos generales*, puede representar elementos tales como costos de merma de inventario del producto acabado después de producido.  
+-   El costo indirecto del material, o *costos generales* , puede representar elementos tales como costos de merma de inventario del producto acabado después de producido.  
 
 La configuración del costo de materiales para los productos comprados que afectan los costos directos e indirectos depende del método de valoración que haya seleccionado para el producto en cuestión. Puede configurar la información relativa al costo para cualquiera de los métodos en la ficha de producto. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
@@ -81,7 +81,7 @@ Puede configurar las tasas para cada tipo de tiempo por cada máquina o centro d
 > [!NOTE]  
 >  Mientras las tasas de tiempo de ejecución se aplican para cada unidad de producto fabricado, las tasas de tiempo de preparación se aplican para cada lote. Por tanto, debe prorratear el tiempo de preparación de la ruta por cada operación en función del tamaño del lote. Puede especificar el tamaño del lote en el campo correspondiente de la ficha desplegable **Pedidos** de la ficha del producto.  
 
-Para especificar el tiempo de preparación en la ruta por motivos de planificación, pero no incluir este gasto en el cálculo del costo estándar, desactive el campo **Costo incl. preparación** de la página **Configuración fabricación**.  
+Para especificar el tiempo de preparación en la ruta por motivos de planificación, pero no incluir este gasto en el cálculo del costo estándar, desactive el campo **Costo incl. preparación** de la página **Configuración fabricación** .  
 
 En el caso de un solo nivel, se trata del costo de mano de obra requerido para fabricar el producto final y se especifica en la ruta de producción del producto. En el caso de varios niveles, se trata del costo de capacidad que se especifica para cada producto que se fabrica individualmente que se incluye en la L.M. del producto principal.  
 
@@ -95,9 +95,9 @@ Para actualizar o calcular el costo estándar de productos de ensamblado, use la
 
 El proceso de actualizar o calcular los costos estándar normalmente consiste en las siguientes tareas:  
 
-1.  Actualización de los costos a nivel de los componentes y de la capacidad. Para obtener más información, consulte los procesos **Sugerir costo estándar prod.** y **Sugerir costo estándar capacidad**.  
+1.  Actualización de los costos a nivel de los componentes y de la capacidad. Para obtener más información, consulte los procesos **Sugerir costo estándar prod.** y **Sugerir costo estándar capacidad** .  
 2.  Consolidación y distribución de los costos de componentes y de capacidad para calcular el costo total de fabricación o montaje de los productos. Para obtener más información, consulte la sección [Para calcular el costo estándar de un producto de ensamblado](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
-3.  La implementación de los costos estándar que se introducen al ejecutar los procesos por lotes anteriores. Los costos estándar no tienen efecto hasta que se implementan. Para obtener más información, consulte el proceso **Implementar cambios de costo estándar**.  
+3.  La implementación de los costos estándar que se introducen al ejecutar los procesos por lotes anteriores. Los costos estándar no tienen efecto hasta que se implementan. Para obtener más información, consulte el proceso **Implementar cambios de costo estándar** .  
 4.  Implementación de los cambios para actualizar el campo **Costo unitario** en la ficha del producto y realizar una revaluación de inventario. Para obtener más información, vea [Revaluación de inventario](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Consulte también  

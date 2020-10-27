@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: efaad34052430c0f37d39f1c93737c94db36fc31
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2ad867ebf705a4be3b544e017fe67f17d63e47b7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788207"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917587"
 ---
 # <a name="design-details-average-cost"></a>Detalles de diseño: Costo promedio
 El costo promedio de un producto se calcula con un promedio ponderado periódico, en función del periodo de costo promedio que esté configurado en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -36,10 +36,10 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 >  La página **Pedidos contables** muestra el periodo de costo promedio y el tipo de cálculo de costo promedio que está en vigor durante ese periodo, por cada periodo contable.  
 
 ## <a name="calculating-average-cost"></a>Cálculo de costo promedio  
- Cuando se registra una transacción para un producto que utiliza el método de valoración de existencias Promedio, se crea un movimiento en la tabla **Punto de entrada aj. costo promedio**. Esta entrada contiene el número de producto de la transacción, el código de variante y el código de almacén. El movimiento también contiene el campo **Fecha valoración**, el cual especifica la última fecha del periodo de costo promedio en la que se registró la transacción.  
+ Cuando se registra una transacción para un producto que utiliza el método de valoración de existencias Promedio, se crea un movimiento en la tabla **Punto de entrada aj. costo promedio** . Esta entrada contiene el número de producto de la transacción, el código de variante y el código de almacén. El movimiento también contiene el campo **Fecha valoración** , el cual especifica la última fecha del periodo de costo promedio en la que se registró la transacción.  
 
 > [!NOTE]  
->  Este campo no se debe confundir con el campo **Fecha valoración** de la tabla **Movimiento valor**, que muestra la fecha en la que el valor surte efecto y se usa para determinar el periodo de costo promedio al que corresponde el movimiento de valoración.  
+>  Este campo no se debe confundir con el campo **Fecha valoración** de la tabla **Movimiento valor** , que muestra la fecha en la que el valor surte efecto y se usa para determinar el periodo de costo promedio al que corresponde el movimiento de valoración.  
 
  El costo promedio de una transacción se calcula al ajustar el costo del producto. Para obtener más información, consulte [Detalles de diseño: Ajuste de costo](design-details-cost-adjustment.md). Un ajuste de costos utiliza los movimientos de la tabla **Punto de entrada aj. costo promedio** para identificar para qué productos (o productos, almacenes y variantes) se deben calcular los costos promedio. Para cada movimiento cuyo costo no se haya ajustado aún, el ajuste de costo realiza lo siguiente para determinar el costo promedio:  
 
@@ -51,9 +51,9 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
  El programa aplica el costo promedio calculado a las salidas de inventario del elemento (producto, almacén o variante) con fechas de registro durante el periodo de costo promedio. Si se han aplicado entradas de inventario de forma fija a salidas de inventario en el periodo de costo promedio, el costo promedio calculado se reenvía desde la entrada a la salida.  
 
 ### <a name="example-average-cost-period--day"></a>Ejemplo: Periodo de costo promedio = Día  
- En el ejemplo siguiente se muestra el efecto de calcular el costo promedio basado en un periodo de costo promedio de un día. El campo **Tipo cálculo cto. Prom.** en la página **Configuración de inventario** está configurado en **Producto**.  
+ En el ejemplo siguiente se muestra el efecto de calcular el costo promedio basado en un periodo de costo promedio de un día. El campo **Tipo cálculo cto. Prom.** en la página **Configuración de inventario** está configurado en **Producto** .  
 
- En la tabla siguiente se muestran los movimientos de producto del producto del costo promedio de muestra, ITEM1, antes de que se haya ejecutado el proceso **Valorar existencias - movs. producto**.  
+ En la tabla siguiente se muestran los movimientos de producto del producto del costo promedio de muestra, ITEM1, antes de que se haya ejecutado el proceso **Valorar existencias - movs. producto** .  
 
 |**Fecha registro**|**Tipo mov. producto**|**Cantidad**|**Importe costo (real)**|**N.º de movimiento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
@@ -76,7 +76,7 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 |PROD1||AZUL|02-02-20|No|  
 |PROD1||AZUL|03-02-20|No|  
 
- En la tabla siguiente se muestran los mismos movimientos de producto después de que se haya ejecutado el proceso **Valorar existencias - movs. producto**. Se calcula el costo promedio por día y se aplica a las disminuciones de inventario.  
+ En la tabla siguiente se muestran los mismos movimientos de producto después de que se haya ejecutado el proceso **Valorar existencias - movs. producto** . Se calcula el costo promedio por día y se aplica a las disminuciones de inventario.  
 
 |**Fecha registro**|**Tipo mov. producto**|**Cantidad**|**Importe costo (real)**|**N.º de movimiento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
@@ -88,11 +88,11 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 |03-02-20|Ventas|-1|-100,00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Ejemplo: Periodo de costo promedio = Mes  
- En el ejemplo siguiente se muestra el efecto de calcular el costo promedio basado en un periodo de costo promedio de un mes. El campo **Tipo cálculo cto. Prom.** en la página **Configuración de inventario** está configurado en **Producto**.  
+ En el ejemplo siguiente se muestra el efecto de calcular el costo promedio basado en un periodo de costo promedio de un mes. El campo **Tipo cálculo cto. Prom.** en la página **Configuración de inventario** está configurado en **Producto** .  
 
  Si el periodo de costo promedio es un mes, solo se crea una entrada para cada combinación de número de producto, código de variante, código de almacén y fecha de valuación.  
 
- En la tabla siguiente se muestran los movimientos de producto del producto del costo promedio de muestra, ITEM1, antes de que se haya ejecutado el proceso **Valorar existencias - movs. producto**.  
+ En la tabla siguiente se muestran los movimientos de producto del producto del costo promedio de muestra, ITEM1, antes de que se haya ejecutado el proceso **Valorar existencias - movs. producto** .  
 
 |**Fecha registro**|**Tipo mov. producto**|**Cantidad**|**Importe costo (real)**|**N.º de movimiento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
@@ -116,7 +116,7 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 > [!NOTE]  
 >  La fecha de valuación se establece como el último día del periodo de costo promedio, que, en este caso, es el último día del mes.  
 
- En la tabla siguiente se muestran los mismos movimientos de producto después de que se haya ejecutado el proceso **Valorar existencias - movs. producto**. Se calcula el costo promedio por mes y se aplica a las disminuciones de inventario.  
+ En la tabla siguiente se muestran los mismos movimientos de producto después de que se haya ejecutado el proceso **Valorar existencias - movs. producto** . Se calcula el costo promedio por mes y se aplica a las disminuciones de inventario.  
 
 |**Fecha registro**|**Tipo mov. producto**|**Cantidad**|**Importe costo (real)**|**N.º de movimiento**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
@@ -176,12 +176,12 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 > [!NOTE]  
 >  Otro motivo de esta flexibilidad es la liquidación fija. Para obtener más información acerca de la liquidación fija, consulte [Detalles de diseño: Liquidación de productos](design-details-item-application.md).  
 
- Esta flexibilidad obliga a tener que volver a calcular el costo promedio después de haberse producido el registro asociado. Por ejemplo, si registra una entrada o una salida de existencias con una fecha de valoración anterior a una o más salidas de existencias. El recálculo del costo promedio se producirá automáticamente cuando ejecute el proceso **Valorar existencias - movs. producto**, manual o automáticamente.  
+ Esta flexibilidad obliga a tener que volver a calcular el costo promedio después de haberse producido el registro asociado. Por ejemplo, si registra una entrada o una salida de existencias con una fecha de valoración anterior a una o más salidas de existencias. El recálculo del costo promedio se producirá automáticamente cuando ejecute el proceso **Valorar existencias - movs. producto** , manual o automáticamente.  
 
- Es posible cambiar la base de valuación de inventarios dentro de un periodo contable si se modifican los campos **Periodo costo promedio** y **Tipo cálculo cto. promedio**. No obstante, debe hacerse con cuidado y de acuerdo con un auditor.  
+ Es posible cambiar la base de valuación de inventarios dentro de un periodo contable si se modifican los campos **Periodo costo promedio** y **Tipo cálculo cto. promedio** . No obstante, debe hacerse con cuidado y de acuerdo con un auditor.  
 
 ### <a name="example"></a>Ejemplo  
- En el ejemplo siguiente se ilustra el modo en que se recalcula el costo promedio cuando se introduce un registro posterior en una fecha anterior a una o varias salidas de inventario. El ejemplo se basa en el periodo de costo promedio de **Día**.  
+ En el ejemplo siguiente se ilustra el modo en que se recalcula el costo promedio cuando se introduce un registro posterior en una fecha anterior a una o varias salidas de inventario. El ejemplo se basa en el periodo de costo promedio de **Día** .  
 
  En la tabla siguiente se muestran los movimientos de valoración que hay para el producto antes de que se haya introducido el registro.  
 

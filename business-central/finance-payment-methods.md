@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 708ae474b15724e151cba367842091763544a434
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cba54a66815874a3885e038283e8fe9a84b9dd09
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182983"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916862"
 ---
 # <a name="defining-payment-methods"></a>Definir las formas de pago
-Las formas de pago definen la forma en que prefiere que los clientes le paguen y cómo desea pagar a sus proveedores. El método puede variar para cada cliente o proveedor. Ejemplos de formas de pago habituales son **banco**, **efectivo**, **cheque** o **cuenta**.
+Las formas de pago definen la forma en que prefiere que los clientes le paguen y cómo desea pagar a sus proveedores. El método puede variar para cada cliente o proveedor. Ejemplos de formas de pago habituales son **banco** , **efectivo** , **cheque** o **cuenta** .
 
 Puede asignar una forma de pago a clientes y proveedores para que siempre se utilice la misma forma en los documentos de compras y ventas que cree para ellos. Si es necesario, puede cambiar la forma en el documento de venta o de compra. Por ejemplo, si desea pagar una determinada factura de compra en efectivo en lugar de hacerlo en cheque. Esto no cambia la forma de pago predeterminada asignada al proveedor.
 
 Se usan mismas formas de pago para documentos de venta y compra. Por ejemplo, se utiliza una forma de pago en _efectivo_ cuando crea pagos y cuando los recibe. [!INCLUDE[d365fin](includes/d365fin_md.md)] sabe que cuando está creando una factura de ventas espera recibir el pago y lo contrario para las facturas de compra.
 
-Sin embargo, los abonos para devoluciones son excepciones porque el dinero fluye en direcciones opuestas, de usted a su cliente y de su proveedor a usted. Por lo tanto, no se asigna una forma de pago predeterminada a los abonos. Sin embargo, existe una solución alternativa si se ha especificado condiciones de pago para el cliente o el proveedor. Aunque el campo **Calc. dto. P.P. en créditos** no se ha diseñado para este fin, si marca la casilla de la página **Condiciones de pago**, se añadirá una forma de pago predeterminada al crear una nota de crédito. <br><br>  
+Sin embargo, los abonos para devoluciones son excepciones porque el dinero fluye en direcciones opuestas, de usted a su cliente y de su proveedor a usted. Por lo tanto, no se asigna una forma de pago predeterminada a los abonos. Sin embargo, existe una solución alternativa si se ha especificado condiciones de pago para el cliente o el proveedor. Aunque el campo **Calc. dto. P.P. en créditos** no se ha diseñado para este fin, si marca la casilla de la página **Condiciones de pago** , se añadirá una forma de pago predeterminada al crear una nota de crédito. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys?rel=0]
 
@@ -36,7 +36,7 @@ Sin embargo, los abonos para devoluciones son excepciones porque el dinero fluye
 
 ## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Para asignar una forma de pago a un cliente o proveedor
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cliente** o **Proveedor** y luego elija el enlace relacionado.
-2. En el campo **Cód. forma pago**, seleccione la forma que se usará de forma predeterminada para el cliente o proveedor.
+2. En el campo **Cód. forma pago** , seleccione la forma que se usará de forma predeterminada para el cliente o proveedor.
 
 ## <a name="see-also"></a>Consulte también
 [Permite registrar nuevos clientes](sales-how-register-new-customers.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 08/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 787f6eecef82abf7b76bf7273b49deb13b18554a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 12cb799668430fe8eaaa47ebb2d93549539bb4eb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777997"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916712"
 ---
 # <a name="make-check-payments"></a>Realizar pagos por cheque
 
@@ -23,10 +23,10 @@ Puede emitir cheques electrónicos y manuales en [!INCLUDE[d365fin](includes/d36
 
 El siguiente procedimiento muestra cómo pagar a un proveedor con cheques por ordenador, mediante la liquidación del pago a la factura del proveedor relevante, la impresión del cheque y la contabilización del pago como pagado. Esto da como resultado entradas positivas en la contabilidad del proveedor, aplicadas a las entradas negativas y a los cheques físicos para el procesamiento en el banco.
 
-Puede pagar con dos tipos de cheques. Para ambos tipos, el campo **Tipo contrapartida** o **Tipo de cuenta** debe contener **Cuenta bancaria**.
+Puede pagar con dos tipos de cheques. Para ambos tipos, el campo **Tipo contrapartida** o **Tipo de cuenta** debe contener **Cuenta bancaria** .
 
-- **Cheque automático**: Seleccione esta opción si desea imprimir un cheque por el importe de la línea del diario de pagos. Debe imprimir los cheques antes de que pueda registrar las líneas del diario.
-- **Cheque manual**: Seleccione esta opción si ha creado manualmente un cheque y desea crear el movimiento de cheque correspondiente a ese importe. Usando esta opción no puede imprimir el cheque.
+- **Cheque automático** : Seleccione esta opción si desea imprimir un cheque por el importe de la línea del diario de pagos. Debe imprimir los cheques antes de que pueda registrar las líneas del diario.
+- **Cheque manual** : Seleccione esta opción si ha creado manualmente un cheque y desea crear el movimiento de cheque correspondiente a ese importe. Usando esta opción no puede imprimir el cheque.
 
 > [!NOTE]  
 > Para asegurarse de que su banco solo compensa cheques e importes validados, puede enviarles un archivo que contenga la información de proveedor, cheque y pago. Para obtener más información, vea [Exportar un archivo de Positive Pay](finance-how-positive-pay.md).
@@ -41,14 +41,14 @@ A continuación se describe cómo pagar a un proveedor mediante un cheque. Los p
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. Rellene las líneas del diario de pagos. Para obtener más información, vea [Registre pagos y reembolsos](payables-how-post-payments-refunds.md).
-3. En el campo **Cód. forma pago**, seleccione **Cheque**.
-4. En el campo **Tipo pago por banco**, seleccione **Cheque automático**.
-5. Seleccione la acción **Imprimir cheque**.
-6. En la página **Cheque**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Si su impresora está configurada para imprimir cheques, elija el botón **Imprimir**. De lo contrario, seleccione el botón **Enviar a**, seleccione la opción **Documento PDF** y, a continuación, el botón **Aceptar** y después imprima el documento PDF.
+3. En el campo **Cód. forma pago** , seleccione **Cheque** .
+4. En el campo **Tipo pago por banco** , seleccione **Cheque automático** .
+5. Seleccione la acción **Imprimir cheque** .
+6. En la página **Cheque** , rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Si su impresora está configurada para imprimir cheques, elija el botón **Imprimir** . De lo contrario, seleccione el botón **Enviar a** , seleccione la opción **Documento PDF** y, a continuación, el botón **Aceptar** y después imprima el documento PDF.
 
     Los cheques físicos ahora se pueden enviar a los proveedores para que los procesen. Proceda a publicar el pago tal como se le aplica al proveedor y, por lo tanto, pagado en el sistema.
-8. Seleccione la acción **Registrar**.
+8. Seleccione la acción **Registrar** .
 
 Se crean los movimientos de contabilidad de proveedores y de cuenta bancaria totalmente aplicados.
 
@@ -56,9 +56,9 @@ Se crean los movimientos de contabilidad de proveedores y de cuenta bancaria tot
 > Si quiere imprimir y pagar cheques en varias divisas de cuentas bancarias distintas, deberá ejecutar el proceso **Imprimir cheque** por separado para cada divisa y especificar la cuenta bancaria correspondiente.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Para anular los cheques imprimidos que no han sido registrados
-Puede anular los cheques no registrados después de que hayan sido imprimidos usando la acción **Anular cheque** de la página **Diario de pagos**.
+Puede anular los cheques no registrados después de que hayan sido imprimidos usando la acción **Anular cheque** de la página **Diario de pagos** .
 
-1. En la página **Diario de pagos**, seleccione **Anular cheque** y, a continuación, seleccione qué cheques desea cancelar.
+1. En la página **Diario de pagos** , seleccione **Anular cheque** y, a continuación, seleccione qué cheques desea cancelar.
 
 ## <a name="to-void-checks"></a>Para anular cheques
 
@@ -68,15 +68,15 @@ Cuando se ha registrado el pago del cheque, solo puede cancelar (anular) cheques
 > Si el cheque se aplica a una factura, anule la aplicación del cheque primero para que la factura se pueda pagar y luego anule el cheque. Si el cheque se imprimió y no pagó una factura, elija **Solo cheque nulo** como se describe en esta sección.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Bancos** y luego elija el enlace relacionado.
-2. Seleccione la cuenta bancaria correspondiente, seleccione la acción **Editar** y, a continuación, seleccione la acción **Movs. cheques**.
-3. En la página **Movs. cheques**, seleccione la acción **Anular cheque**.
-4. Seleccione la casilla **Anular cheque solo**.
-5. Elija el botón **Aceptar**.
+2. Seleccione la cuenta bancaria correspondiente, seleccione la acción **Editar** y, a continuación, seleccione la acción **Movs. cheques** .
+3. En la página **Movs. cheques** , seleccione la acción **Anular cheque** .
+4. Seleccione la casilla **Anular cheque solo** .
+5. Elija el botón **Aceptar** .
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Para ver un resumen de los cheques registrados
-Si desea revisar los cheques registrados, por ejemplo, para verificar los cheques múltiples pagados a un proveedor, puede usar el informe **Bancos - Desglose cheques**.
+Si desea revisar los cheques registrados, por ejemplo, para verificar los cheques múltiples pagados a un proveedor, puede usar el informe **Bancos - Desglose cheques** .
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Banco - Desglose cheques** y luego elija el enlace relacionado.
-2. Establezca los filtros como relevantes y luego elija el botón **Vista previa**.
+2. Establezca los filtros como relevantes y luego elija el botón **Vista previa** .
 
 ## <a name="see-also"></a>Consulte también
 [Creación de pagos](payables-make-payments.md)  

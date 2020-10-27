@@ -4,15 +4,15 @@ description: Responde a preguntas comunes sobre cómo registrarse o comprar Busi
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 07/21/2020
+ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 57e16c820da7879d92223050979b6f9c6a770644
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611595"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918112"
 ---
 # <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
@@ -59,11 +59,11 @@ El contenido adicional lo proporciona la comunidad de [!INCLUDE[prodshort](inclu
 Para obtener más información, consulte [Ayuda y soporte técnico](product-help-and-support.md) y la sección [¿Cómo encuentro un socio distribuidor?](#findpartner).  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>¿Por qué la Ayuda describe una funcionalidad a la que no puedo acceder?
-Si la configuración de Experiencia en la página **Información de la empresa** está establecida en **Esencial**, los elementos de la interfaz de usuario para las funciones de Gestión de fabricación y servicios no serán visibles porque requieren la experiencia **Premium**. Se inserta una nota de texto en los temas de ayuda de alto nivel para estas áreas de funciones. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
+Si la configuración de Experiencia en la página **Información de la empresa** está establecida en **Esencial** , los elementos de la interfaz de usuario para las funciones de Gestión de fabricación y servicios no serán visibles porque requieren la experiencia **Premium** . Se inserta una nota de texto en los temas de ayuda de alto nivel para estas áreas de funciones. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
 ## <a name="where-is-the-save-button"></a>¿Dónde se encuentra el botón Guardar?
 
-No hay ningún botón *Guardar* en las páginas como en otros programas con los que pueda estar familiarizado. En [!INCLUDE[d365fin](includes/d365fin_md.md)], los cambios realizados en un campo se guardan automáticamente en cuanto se traslada al siguiente campo o cierra la página, mientras no haya errores. Al realizar cambios en un campo y pasar a otro, verá el texto **Guardando** en la esquina superior derecha de la página, que cambiará rápidamente a **Guardado** si no se produce ningún error. Si se produce un error, el texto cambiará **No guardado**.
+No hay ningún botón *Guardar* en las páginas como en otros programas con los que pueda estar familiarizado. En [!INCLUDE[d365fin](includes/d365fin_md.md)], los cambios realizados en un campo se guardan automáticamente en cuanto se traslada al siguiente campo o cierra la página, mientras no haya errores. Al realizar cambios en un campo y pasar a otro, verá el texto **Guardando** en la esquina superior derecha de la página, que cambiará rápidamente a **Guardado** si no se produce ningún error. Si se produce un error, el texto cambiará **No guardado** .
 
 ## <a name="what-email-address-can-i-use-with-d365fin"></a><a name="email"></a>¿Qué dirección de correo electrónico puedo usar en [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Para iniciar sesión, [!INCLUDE[d365fin](includes/d365fin_md.md)] requiere una dirección de correo electrónico del trabajo o la escuela. [!INCLUDE[d365fin](includes/d365fin_md.md)] no admite direcciones de correo electrónico proporcionadas por servicios de correo electrónico del consumidor ni por proveedores de la telecomunicación. Esto incluye outlook.com, hotmail.com, gmail.com y otros.  
@@ -72,15 +72,15 @@ Si intenta iniciar sesión con una dirección de correo personal, recibirá un m
 
 Si desea realizar la implementación local de [!INCLUDE[d365fin](includes/d365fin_md.md)], puede utilizar otros métodos de autenticación. Para obtener más información, consulte [Implementación de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
-## <a name="do-i-have-to-buy-office-365"></a>¿Tengo que comprar Office 365?
-N.º Pero si desea experimentar [!INCLUDE[d365fin](includes/d365fin_md.md)] completamente integrado con Office 365, puede registrarse para un mes de prueba gratuita de Office 365 [aquí](https://products.office.com/try).  
+## <a name="do-i-have-to-buy-microsoft-365"></a>¿Tengo que comprar Microsoft Office 365?
+Nº Pero si desea experimentar con [!INCLUDE[d365fin](includes/d365fin_md.md)] completamente integrado en Microsoft 365, puede registrarse gratuitamente para 1 mes de prueba de Microsoft 365 [aquí](https://products.office.com/try).  
 
-Si la cuenta con la que se registra es una cuenta de trabajo que no es de Office 365 (como joe@mysolution.com) y tiene una suscripción a Office 365, puede asociar su dominio (*mysolution.com*) con la suscripción de Office 365. Para obtener más información, consulte [Obtener ayuda con los dominios de Office 365](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+Si la cuenta con la que se registra es una cuenta de trabajo que no es de Microsoft 365 (como joe@mysolution.com) y tiene una suscripción a Microsoft 365, puede asociar su dominio ( *mysolution.com* ) con la suscripción de Microsoft 365. Para obtener más información, consulte [Obtener ayuda con los dominios de Microsoft 365](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
-Si no tiene una suscripción a Office 365 y no desea adquirir una, entonces, cuando se registre, le proporcionamos un nuevo inquilino de Azure Active Directory para que tenga acceso al portal de Azure al que tiene acceso a herramientas avanzadas de administración.  
+Si no tiene una suscripción a Microsoft 365 y no desea adquirir una, entonces, cuando se registre, le proporcionamos un nuevo suscriptor de Azure Active Directory para que tenga acceso al portal de Azure donde tiene acceso a herramientas avanzadas de administración.  
 
-## <a name="what-is-the-integration-with-office-365-about"></a>¿De qué trata la integración con Office 365?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] en línea está completamente integrado en Office 365, por esta razón puede navegar libremente entre las aplicaciones de Office 365 y [!INCLUDE[d365fin](includes/d365fin_md.md)] usando el iniciador de aplicaciones. En [!INCLUDE[d365fin](includes/d365fin_md.md)], por ejemplo, puede abrir datos en Excel, imprimir los informes usando Word y trabajar en sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en Outlook. Para obtener más información, consulte [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook](admin-outlook.md).  
+## <a name="what-is-the-integration-with-microsoft-365-about"></a>¿De qué trata la integración con Microsoft 365?
+[!INCLUDE[d365fin](includes/d365fin_md.md)] en línea está completamente integrado en Microsoft 365, por esta razón puede navegar libremente entre las aplicaciones de Microsoft 365 y [!INCLUDE[d365fin](includes/d365fin_md.md)] usando el lanzador de aplicaciones. En [!INCLUDE[d365fin](includes/d365fin_md.md)], por ejemplo, puede abrir datos en Excel, imprimir los informes usando Word y trabajar en sus datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en Outlook. Para obtener más información, consulte [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como su bandeja de entrada de empresa en Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>¿Puedo ampliar mi periodo de prueba de 30 días de "Nueva empresa"?
 Sí. Cuando se acerque la fecha de vencimiento de su período de prueba, cuando inicie sesión le mostraremos una notificación para avisarle. La notificación contendrá un enlace a la guía **Ampliar período de prueba** que puede usar para ampliar su período de prueba. Los 30 días adicionales comienzan en el momento que elija **Ampliar versión de prueba** en la guía. Puede ampliarse el período de prueba una vez. Después, puede ampliarlo otros 30 días una empresa asociada con Microsoft. Para obtener más información, vea [Extender la versión de prueba](admin-extend-trial.md).
@@ -97,7 +97,7 @@ Esto es un poco complicado, pero parece que el administrador no ha cambiado el r
 Sí, pero dependiendo de cómo inició sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)] se pueden eliminar o conservar sus datos. Para obtener más información, consulte [Cancelar [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>¿Puedo utilizar la autenticación de varios factores?
-Por supuesto. Si lo hace, es posible que necesite una contraseña de aplicación para enviar mensajes de correo electrónico. Las contraseñas de las aplicaciones le dan acceso a una aplicación o dispositivo a su cuenta de correo electrónico. Los pasos para obtener una contraseña de aplicación varían según el proveedor de correo electrónico. Para obtener más información, consulte la ayuda del proveedor. Por ejemplo, si utiliza Outlook, vea [Crear una contraseña de aplicación para Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+Por supuesto. Si lo hace, es posible que necesite una contraseña de aplicación para enviar mensajes de correo electrónico. Las contraseñas de las aplicaciones le dan acceso a una aplicación o dispositivo a su cuenta de correo electrónico. Los pasos para obtener una contraseña de aplicación varían según el proveedor de correo electrónico. Para obtener más información, consulte la ayuda del proveedor. Por ejemplo, si utiliza Outlook, vea [Crear una contraseña de aplicación para Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>¿Cómo encuentro un socio distribuidor?
 
@@ -111,7 +111,7 @@ Su socio distribuidor también se ocupará del soporte técnico. Para obtener m�
 
 ## <a name="where-do-i-find-that-line-number"></a>¿Dónde encuentro ese número de línea?
 
-Los documentos, como los pedidos de venta o las facturas de compra, constan de encabezados y líneas. Cada línea tiene un número que [!INCLUDE [prodshort](includes/prodshort.md)] utiliza para identificar esta línea en particular. Como resultado, es posible que vea una advertencia o un mensaje de error de que algo anda mal en la línea número 1000, por ejemplo. En la versión predeterminada de [!INCLUDE [prodshort](includes/prodshort.md)], los números de línea están ocultos. Si desea ver los números de línea, debe personalizar la página actual y agregar el **número de línea**. . Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+Los documentos, como los pedidos de venta o las facturas de compra, constan de encabezados y líneas. Cada línea tiene un número que [!INCLUDE [prodshort](includes/prodshort.md)] utiliza para identificar esta línea en particular. Como resultado, es posible que vea una advertencia o un mensaje de error de que algo anda mal en la línea número 1000, por ejemplo. En la versión predeterminada de [!INCLUDE [prodshort](includes/prodshort.md)], los números de línea están ocultos. Si desea ver los números de línea, debe personalizar la página actual y agregar el **número de línea** . . Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
 
 ## <a name="why-is-new-information-not-available-in-my-language"></a>¿Por qué no hay nueva información disponible en mi idioma?
 

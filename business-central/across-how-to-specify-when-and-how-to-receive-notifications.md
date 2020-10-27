@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2983a1e87b0cc2ef11ca545de0c485a8348e3aa1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7ae55ba1c1aa0d2f10d1529dbf82b47022d3d9d5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785232"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916304"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Especificar cómo y cuándo recibir notificaciones
 Al configurar usuarios en los flujos de trabajo de aprobación, especifique en las páginas **Configuración de notificación** y **Programación de notificación** cómo y cuándo cada usuario recibe las notificaciones sobre los pasos de flujo de aprobación. Los usuarios individuales pueden cambiar también su configuración de notificación eligiendo el botón **Cambiar configuración de notificación** en cualquier notificación.  
@@ -32,8 +32,8 @@ Al configurar usuarios en los flujos de trabajo de aprobación, especifique en l
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Especificar cómo y cuándo los usuarios reciben notificaciones  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. usuario aprobación** y luego elija el enlace relacionado.  
-2.  Seleccione la línea del usuario para el que desea configurar las preferencias de notificación y, a continuación, elija la acción **Configuración de notificación**.  
-3.  En la página **Configuración de notificación**, rellene los campos tal como se describe en la tabla siguiente.  
+2.  Seleccione la línea del usuario para el que desea configurar las preferencias de notificación y, a continuación, elija la acción **Configuración de notificación** .  
+3.  En la página **Configuración de notificación** , rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
@@ -44,21 +44,21 @@ Al configurar usuarios en los flujos de trabajo de aprobación, especifique en l
 
     Ya ha especificado cómo recibe el usuario las notificaciones. Proceda a especificar cuándo recibe el usuario las notificaciones.  
 
-4.  Elija la acción **Programación de notificación**.  
-5.  En la página **Programación de notificación**, rellene los campos tal como se describe en la tabla siguiente.  
+4.  Elija la acción **Programación de notificación** .  
+5.  En la página **Programación de notificación** , rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Periodicidad**|Especifique el modelo de periodicidad en el que el usuario recibe las notificaciones.|  
-    |**Hora**|Especifique a qué hora del día recibe notificaciones el usuario cuando el valor del campo **Periodicidad** no es **Inmediatamente**.|  
-    |**Frecuencia diaria**|Especifique en qué tipo de días recibe el usuario las notificaciones cuando el valor del campo **Periodicidad** es **Diario**.<br /><br /> Seleccione **Día laborable** para recibir notificaciones cada día laborable de la semana. Seleccione **Diario** para recibir notificaciones cada día de la semana, incluso los fines de semana.|  
-    |**Lunes** a **Domingo**|Especifique en qué tipo de días recibe el usuario las notificaciones cuando el valor del campo **Periodicidad** es **Semanal**.|  
+    |**Hora**|Especifique a qué hora del día recibe notificaciones el usuario cuando el valor del campo **Periodicidad** no es **Inmediatamente** .|  
+    |**Frecuencia diaria**|Especifique en qué tipo de días recibe el usuario las notificaciones cuando el valor del campo **Periodicidad** es **Diario** .<br /><br /> Seleccione **Día laborable** para recibir notificaciones cada día laborable de la semana. Seleccione **Diario** para recibir notificaciones cada día de la semana, incluso los fines de semana.|  
+    |**Lunes** a **Domingo**|Especifique en qué tipo de días recibe el usuario las notificaciones cuando el valor del campo **Periodicidad** es **Semanal** .|  
     |**Fecha de mes**|Especifique si el usuario recibe notificaciones al principio del mes, al final o en una fecha específica.|  
-    |**Fecha de notificación mensual**|Especifique la fecha del mes en las que el usuario recibe las notificaciones cuando el valor del campo **Fecha de mes** es **Personalizada**.|  
+    |**Fecha de notificación mensual**|Especifique la fecha del mes en las que el usuario recibe las notificaciones cuando el valor del campo **Fecha de mes** es **Personalizada** .|  
 
 ## <a name="change-when-and-how-you-receive-notifications"></a>Cambiar cómo y cuándo recibe notificaciones  
-1.  En una de las notificaciones que ha recibido, en correo electrónico o nota, seleccione el botón **Cambiar configuración de notificación**.  
-2.  En la página **Configuración de notificación**, cambie sus preferencias de notificación tal como se describe en el procedimiento anterior.  
+1.  En una de las notificaciones que ha recibido, en correo electrónico o nota, seleccione el botón **Cambiar configuración de notificación** .  
+2.  En la página **Configuración de notificación** , cambie sus preferencias de notificación tal como se describe en el procedimiento anterior.  
 
 ## <a name="see-also"></a>Consulte también  
  [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)   

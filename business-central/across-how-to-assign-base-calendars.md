@@ -8,38 +8,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc4ae1263aa6ce12607563f15e9376f9a1d0aa98
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f6fcaf1594408a80cc9731abca1906082d311bb3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783235"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916357"
 ---
 # <a name="set-up-base-calendars"></a>Configurar calendarios base
 Puede asignar un calendario base a la empresa y a los socios comerciales, como clientes, proveedores o almacenes. Se calculan las fechas de entrega y de recepción de futuros pedidos de venta, pedidos de compra, pedidos de transferencia y líneas de órdenes de producción según los días laborables especificados en el calendario. La tarea principal en la configuración de un calendario base nuevo es especificar y definir los días no laborables que desea aplicar.  
 
 ## <a name="to-set-up-a-base-calendar"></a>Para configurar un calendario base  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Calendario base** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Nuevo**.  
-3.  Rellene el campo **Código**.  
+2.  Seleccione la acción **Nuevo** .  
+3.  Rellene el campo **Código** .  
 4. Seleccione la acción **Mantener cambios en el calendario base** .
-5. En la página **Cambios en el calendario base**, utilice el campo **Sistema periódico** para marcar una fecha o un día determinado como día no laborable periódico. Puede seleccionar la opción **Periódico anual** o **Periódico semanal**.  
+5. En la página **Cambios en el calendario base** , utilice el campo **Sistema periódico** para marcar una fecha o un día determinado como día no laborable periódico. Puede seleccionar la opción **Periódico anual** o **Periódico semanal** .  
 
-    Si selecciona **Periódico anual**, también debe especificar la fecha pertinente en el campo **Fecha**.  
+    Si selecciona **Periódico anual** , también debe especificar la fecha pertinente en el campo **Fecha** .  
 
-    Si selecciona **Periódico semanal**, deberá seleccionar también el día de la semana correspondiente en el campo **Día**. Si deja el campo en blanco, debe rellenar el campo **Fecha**. El campo **Día** se rellena de forma automática.  
+    Si selecciona **Periódico semanal** , deberá seleccionar también el día de la semana correspondiente en el campo **Día** . Si deja el campo en blanco, debe rellenar el campo **Fecha** . El campo **Día** se rellena de forma automática.  
 
-Cuando se realice un movimiento, se selecciona el campo **No laborables**. Puede elegir borrar la marca de verificación para hacerlo un día laborable.  
- Cuando vuelva a la ficha de calendario base, verá que se han actualizado los valores de los días no laborables que ha introducido. Estas entradas aparecen ahora en color rojo y se selecciona el campo de **No laborables**.  
+Cuando se realice un movimiento, se selecciona el campo **No laborables** . Puede elegir borrar la marca de verificación para hacerlo un día laborable.  
+ Cuando vuelva a la ficha de calendario base, verá que se han actualizado los valores de los días no laborables que ha introducido. Estas entradas aparecen ahora en color rojo y se selecciona el campo de **No laborables** .  
 
 > [!NOTE]  
->  Al configurar un calendario base nuevo, puede seleccionar y copiar líneas de un calendario existente. Hágalo en la página **Cambios calendario base**.  
+>  Al configurar un calendario base nuevo, puede seleccionar y copiar líneas de un calendario existente. Hágalo en la página **Cambios calendario base** .  
 
 > [!IMPORTANT]  
 >  Los calendarios base definidos para un proveedor o ubicación afecta en cómo se calculan las fechas y se redondea a los días laborables.
-Especifica una fórmula de fecha con el tiempo que se tarda en reponer el producto. Se utiliza para calcular el campo **Fecha de recepción planificada**, si se calcula hacia adelante, y el campo **Fecha de pedido**, si calcula hacia atrás. Consulte [Plazo entrega (días)](across-how-to-assign-base-calendars.md#lead-time-calculation).
+Especifica una fórmula de fecha con el tiempo que se tarda en reponer el producto. Se utiliza para calcular el campo **Fecha de recepción planificada** , si se calcula hacia adelante, y el campo **Fecha de pedido** , si calcula hacia atrás. Consulte [Plazo entrega (días)](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Plazo entrega (días)
 Los calendarios base definidos para un proveedor o ubicación afecta en cómo se calculan las fechas y se redondea a los días laborables. Del mismo modo, los dos campos clave de fecha de las líneas de pedido de compra se calculan como sigue en distintas condiciones.
@@ -50,12 +50,12 @@ Los calendarios base definidos para un proveedor o ubicación afecta en cómo se
 |Atrás|order date = planned receipt date - vendor lead time (por calendario de proveedor y redondeado al anterior día laborable en, primero el calendario de proveedor y después el calendario de la ubicación)|order date = planned receipt date - vendor lead time (por el calendario de la ubicación)|
 
 > [!NOTE]
-> Además del plazo de entrega que afecte a la fecha de envío planificada y fecha de pedido, como se muestra en la tabla descritas anteriormente, tiempo de manipulación en almacén y plazo de seguridad se pueden agregar a las fórmulas para conformar el valor del campo **Fecha de recepción esperada**, como se indica a continuación: Fecha de recepción planificada + plazo de seguridad + tiempo de manipulación en el almacén = Fecha de recepción esperada.
+> Además del plazo de entrega que afecte a la fecha de envío planificada y fecha de pedido, como se muestra en la tabla descritas anteriormente, tiempo de manipulación en almacén y plazo de seguridad se pueden agregar a las fórmulas para conformar el valor del campo **Fecha de recepción esperada** , como se indica a continuación: Fecha de recepción planificada + plazo de seguridad + tiempo de manipulación en el almacén = Fecha de recepción esperada.
 
 > [!Important]
 > Si su almacén utiliza un calendario significativamente distinto al de sus proveedores, entonces es importante que se definan los calendarios concretos para esos proveedores, para calcular el plazo de proveedor óptimo. Para obtener información acerca de cómo configurar calendarios de proveedor, consulte [Asignar un calendario base](across-how-to-assign-base-calendars.md#to-assign-a-base-calendar).
 
-El contenido del campo **Cálculo del plazo de entrega** se copia de la ficha de producto o de la ficha SKU, si el plazo se define para el producto, o en la página **Catálogo de productos del proveedor**, si el plazo se define para el proveedor.
+El contenido del campo **Cálculo del plazo de entrega** se copia de la ficha de producto o de la ficha SKU, si el plazo se define para el producto, o en la página **Catálogo de productos del proveedor** , si el plazo se define para el proveedor.
 
 ## <a name="to-customize-a-calendar"></a>Para personalizar un calendario
 La tarea principal en la personalización de un calendario base para su empresa, o uno de sus socios comerciales, es cambiar el estado de los días laborables y días no laborables.
@@ -65,21 +65,21 @@ Por ejemplo, mientras que un calendario base normalmente enumeraría todos los s
 El siguiente procedimiento utiliza este almacén como ejemplo. Tenga en cuenta que en este momento, ya ha asignado a un calendario base al almacén.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacenes** y, a continuación, elija el enlace relacionado.
-2. Abra la ubicación que desea actualizar y seleccione el campo **Calendario personalizado**. Tenga en cuenta que debe seleccionarse un calendario en el campo **Código calendario base**.
-3. En la página **Entradas del calendario personalizadas**, seleccionar la acción **Mantener los cambios del calendario personalizado**.
-4. En **Cambios personalizados del calendario**, añada líneas para las entradas del calendario personalizadas.
+2. Abra la ubicación que desea actualizar y seleccione el campo **Calendario personalizado** . Tenga en cuenta que debe seleccionarse un calendario en el campo **Código calendario base** .
+3. En la página **Entradas del calendario personalizadas** , seleccionar la acción **Mantener los cambios del calendario personalizado** .
+4. En **Cambios personalizados del calendario** , añada líneas para las entradas del calendario personalizadas.
 
     Cuando se introduce una línea, el cuadro de verificación **No laborables** está seleccionado. Puede quitar la marca de verificación si desea cambiar el estado a día laborable.
 
-    Puede utilizar el campo **Sistema periódico** para definir una fecha o un día determinado como día no laborable periódico. Puede seleccionar la opción **Periódico anual** o **Periódico semanal**.
+    Puede utilizar el campo **Sistema periódico** para definir una fecha o un día determinado como día no laborable periódico. Puede seleccionar la opción **Periódico anual** o **Periódico semanal** .
 
-    Si selecciona **Periódico anual**, también debe especificar la fecha pertinente en el campo **Fecha**. Si selecciona **Periódico semanal**, deberá seleccionar también el día de la semana correspondiente en el campo **Día**. Si deja el campo en blanco, debe rellenar el campo **Fecha**. El campo **Día** se rellena de forma automática. Esto sería útil si deseara marcar una fecha determinada como día laborable o no laborable.
+    Si selecciona **Periódico anual** , también debe especificar la fecha pertinente en el campo **Fecha** . Si selecciona **Periódico semanal** , deberá seleccionar también el día de la semana correspondiente en el campo **Día** . Si deja el campo en blanco, debe rellenar el campo **Fecha** . El campo **Día** se rellena de forma automática. Esto sería útil si deseara marcar una fecha determinada como día laborable o no laborable.
 
-5. Elija el botón **Aceptar**.
+5. Elija el botón **Aceptar** .
 
-La página **Movs. calendario personaliz.**, verá que los movimientos de fechas se actualizan con los cambios que realiza.
+La página **Movs. calendario personaliz.** , verá que los movimientos de fechas se actualizan con los cambios que realiza.
 
-En la ficha ubicación, verá que el campo **Calendario personalizado** contiene la palabra **Sí**, lo que indica que se ha configurado un calendario personalizado.
+En la ficha ubicación, verá que el campo **Calendario personalizado** contiene la palabra **Sí** , lo que indica que se ha configurado un calendario personalizado.
 
 > [!Important]
 > Si no rellena el campo **Cód. almacén** de la línea de pedido, se utiliza el calendario de la empresa.
@@ -95,14 +95,14 @@ Como ejemplo, el siguiente procedimiento programa fechas de entrega en líneas d
 
 Los calendarios base se asignan a su propia empresa, clientes, proveedores, almacenes, y transportistas de la siguiente forma:  
 
--   En las fichas **Información de la empresa** y **Cliente**, el calendario base se asigna en la ficha desplegable **Envío**.  
--   En la ficha **Proveedor**, el calendario base se asigna en la ficha desplegable **Recepción**.  
--   En la ficha **Almacén**, el calendario base se asigna en la ficha desplegable **Almacén**.  
--   En la página **Transportistas**, el calendario base se asigna en la página **Servicios transportista**.  
+-   En las fichas **Información de la empresa** y **Cliente** , el calendario base se asigna en la ficha desplegable **Envío** .  
+-   En la ficha **Proveedor** , el calendario base se asigna en la ficha desplegable **Recepción** .  
+-   En la ficha **Almacén** , el calendario base se asigna en la ficha desplegable **Almacén** .  
+-   En la página **Transportistas** , el calendario base se asigna en la página **Servicios transportista** .  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
 2.  Abra la ficha **Cliente** a la que asignará un calendario base.  
-3.  En la ficha desplegable **Envío**, en el campo **Código calendario base**, seleccione el calendario base que desea asignar.  
+3.  En la ficha desplegable **Envío** , en el campo **Código calendario base** , seleccione el calendario base que desea asignar.  
 
 > [!IMPORTANT]  
 >  -   Si no asigna un calendario base a una empresa, todas las fechas se calculan como días laborables.  

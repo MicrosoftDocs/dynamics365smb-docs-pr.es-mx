@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 04/01/2020
-ms.openlocfilehash: 9cf4817cd85951f193ffadbcd3e7ebc971bcca36
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 10/01/2020
+ms.openlocfilehash: ef8b2c90ef01841e2c641b9fc96348d899d4997e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181591"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919349"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Use cuestionarios de perfil para clasificar contactos comerciales
 Puede configurar los cuestionarios de perfil que desea utilizar en el momento de especificar información de los perfiles de sus contactos. En cada cuestionario, puede configurar distintas preguntas que desee realizar a sus contactos.  
@@ -24,14 +24,14 @@ Puede ejecutar el cuestionario para que responder de forma automática algunas d
 
 ## <a name="to-add-a-profile-questionnaire"></a>Para añadir un cuestionario de perfil
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Configuración de cuestionario** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Nuevo**.  
+2.  Seleccione la acción **Nuevo** .  
 3.  Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>Para añadir preguntas a un cuestionario de perfil
-1.  Seleccione el cuestionario de perfil correspondiente y, a continuación, elija la acción **Editar config. cuestionario**.  
-2.  En la primera línea vacía, en el campo **Tipo**, elija **Pregunta** y escriba su pregunta en el campo **Descripción**. Rellene los otros campos de la línea.  
-3.  En la siguiente línea vacía, en el campo **Tipo**, elija **Respuesta** y escriba su respuesta en el campo **Descripción**.  
-4.  En el campo **Prioridad**, seleccione la prioridad. En los campos **Desde valor** y **Hasta valor**, defina un intervalo de punto. Los contactos que reciban puntos en el rango definido obtendrán la respuesta.  
+1.  Seleccione el cuestionario de perfil correspondiente y, a continuación, elija la acción **Editar config. cuestionario** .  
+2.  En la primera línea vacía, en el campo **Tipo** , elija **Pregunta** y escriba su pregunta en el campo **Descripción** . Rellene los otros campos de la línea.  
+3.  En la siguiente línea vacía, en el campo **Tipo** , elija **Respuesta** y escriba su respuesta en el campo **Descripción** .  
+4.  En el campo **Prioridad** , seleccione la prioridad. En los campos **Desde valor** y **Hasta valor** , defina un intervalo de punto. Los contactos que reciban puntos en el rango definido obtendrán la respuesta.  
 
 Repita estos pasos para especificar todas las preguntas y respuestas del cuestionario de perfil.
 
@@ -41,7 +41,7 @@ Tras crear un cuestionario, debe crear clasificaciones de contactos para clasifi
 > Si especifica una pregunta que el sistema responde de forma automática, seleccione <STRONG>Línea</STRONG> y, a continuación, <STRONG>Detalles pregunta</STRONG> para especificar los criterios para responder a la pregunta automáticamente.
 
 ## <a name="the-automatic-classification-of-contacts"></a>la clasificación automática de los contactos
-Puede clasificar automáticamente sus contactos según la información de cliente, proveedor y contacto, si configura las preguntas del perfil en la página **Config. cuestionario perfil**.  
+Puede clasificar automáticamente sus contactos según la información de cliente, proveedor y contacto, si configura las preguntas del perfil en la página **Config. cuestionario perfil** .  
 
 > [!NOTE]
 > Sólo a los contactos registrados como clientes se les puede asignar una clasificación según los datos de cliente, y sólo a los contactos registrados como proveedores se les puede asignar una clasificación según datos de proveedor. La clasificación automática no se actualiza automáticamente. Por lo tanto, quizás desee actualizar los cuestionarios de perfil, después de actualizar los datos del cliente, proveedor o contacto en los que se basa.  

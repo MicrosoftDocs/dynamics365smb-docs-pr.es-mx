@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 2c1836d133c36ba5a8bf44bae0443c252bc13d8e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6526760c78cb11d8454b7f5390c6fefe713647d2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191774"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918249"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Resumen de tareas para cerrar periodos contables
 [!INCLUDE[d365fin](includes/d365fin_md.md)] no le fuerza a cerrar los períodos, pero numerosas actividades de fin de período (fin de mes) que puede realizar. Este tema proporciona una visión general de procesos y actividades opcionales para cerrar períodos.  
@@ -30,21 +30,21 @@ ms.locfileid: "3191774"
 * Actualice y registre los Diarios periódicos.  
   <!--* Process Consolidations-->
 * Ejecute los esquemas de cuentas como se indica a continuación:  
-  * Abra la página **estructura cuentas** y, a continuación, seleccione la acción **Imprimir**.  
+  * Abra la página **estructura cuentas** y, a continuación, seleccione la acción **Imprimir** .  
 
 ## <a name="sales-and-receivables"></a>Ventas y cobros
 * Registre todas las órdenes, facturas, notas de crédito y devoluciones de ventas.  
 * Registre todo los diarios de recepciones de efectivo.  
 * Actualice y registre los diarios periódicos relativos a ventas y cobros.  
 * Concilie los cobros en el libro de contabilidad  
-* Ejecute el proceso **Eliminar peds. venta factdos**.  
+* Ejecute el proceso **Eliminar peds. venta factdos** .  
 
 ## <a name="purchases-and-payables"></a>Compras y pagos
 * Registre todas las órdenes, facturas, notas de crédito y devoluciones de compra.  
 * Registre todos los registros de pagos.  
 * Actualice y registre los diarios periódicos que son relativos a compras y pagos.  
 * Ejecute el informe **Antigüedad pagos** y concilie las cuentas por pagar en el libro de contabilidad.  
-* Ejecute el proceso **Eliminar peds. compra factdos**.  
+* Ejecute el proceso **Eliminar peds. compra factdos** .  
 
 Activos fijos
 * Todos los costos de mantenimiento se han registrado mediante los diarios periódicos de activos o facturas.

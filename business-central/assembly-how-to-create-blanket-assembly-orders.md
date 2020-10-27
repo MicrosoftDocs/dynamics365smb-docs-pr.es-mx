@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9a0f3c81aad31eb51d282479e56acbfc935bf1dd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 84232aadd133527d06ff0bf2b65490d5dfe8d651
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786082"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917712"
 ---
 # <a name="create-blanket-assembly-orders"></a>Crear pedidos abiertos ensamblados
 Puede utilizar la administración de ensamblados para personalizar un producto de ensamblado a la solicitud de un cliente durante el proceso de venta. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -33,9 +33,9 @@ Puede utilizar la administración de ensamblados para personalizar un producto d
     > [!NOTE]  
     >  No debe crear los acuerdos de pedido abierto para una cantidad parcial. Por tanto, deberá especificar la misma cantidad que haya especificado en el campo **Cantidad** de la línea de pedido de ventas abierto.  
 
-4. Elija la acción **Ensamblar para pedido** y, a continuación, **Ensamblar para líneas de pedido**. También puede elegir el campo **Cdad. al ensamblar para pedido** en la línea.  
-5. En la página **Líneas de ensamblado para pedido**, revise o modifique las líneas de pedido de ensamblado de acuerdo con el acuerdo de pedido abierto que haya suscrito con el cliente. Si desea ver más información, seleccione la acción **Mostrar documento** para abrir el pedido de ensamblado abierto completo. No puede modificar el contenido de la mayoría de los campos, y no puede realizar ningún registro.  
-6. Cuando se hayan ajustado las líneas del pedido de ensamblado según el acuerdo de pedido abierto, cierre la página **Líneas de ensamblado para pedido** para volver a la página **Pedido abierto de ventas**.  
+4. Elija la acción **Ensamblar para pedido** y, a continuación, **Ensamblar para líneas de pedido** . También puede elegir el campo **Cdad. al ensamblar para pedido** en la línea.  
+5. En la página **Líneas de ensamblado para pedido** , revise o modifique las líneas de pedido de ensamblado de acuerdo con el acuerdo de pedido abierto que haya suscrito con el cliente. Si desea ver más información, seleccione la acción **Mostrar documento** para abrir el pedido de ensamblado abierto completo. No puede modificar el contenido de la mayoría de los campos, y no puede realizar ningún registro.  
+6. Cuando se hayan ajustado las líneas del pedido de ensamblado según el acuerdo de pedido abierto, cierre la página **Líneas de ensamblado para pedido** para volver a la página **Pedido abierto de ventas** .  
 7. Cuando el cliente solicita crear un pedido de venta basado en el pedido de ventas abierto acordado, crea un pedido de venta para los productos de ensamblado acordados. Consulte [Crear pedidos abiertos de venta](sales-how-to-create-blanket-sales-orders.md) para obtener más información.
 
 El pedido de ensamblado abierto vinculado y las personalizaciones se vinculan a ese nuevo pedido de ventas para preparar el ensamblado de los artículos que se van a vender.  

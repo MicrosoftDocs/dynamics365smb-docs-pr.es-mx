@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bc7bb92185d979871298a3312019e3116fecdab5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 34a063feaeaef390c9eee8023d42a912a29582f8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782937"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918919"
 ---
 # <a name="request-quotes"></a>Solicitar cotizaciones
 Las cotizaciones de compra pueden utilizarse como borradores de pedidos de compra, que luego se pueden convertir en facturas de compra o en pedidos.
@@ -29,7 +29,7 @@ Las cotizaciones de compra pueden utilizarse como borradores de pedidos de compr
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>Para convertir una cotización de compra en un pedido de compra
 Cuando haya aceptado la cotización del proveedor, puede convertirla en una factura o un pedido de compra para procesar la compra.
 
-1. Abra una cotización de compra que esté lista para convertir, y haga clic en **Convertir en pedido**.
+1. Abra una cotización de compra que esté lista para convertir, y haga clic en **Convertir en pedido** .
 
 La cotización de compra se quita de la base de datos. Se crea una factura o un pedido de compra a partir de la información en la cotización de compra en la que puede procesar la venta. En el campo **Nº cotización** de la factura de compra o del pedido de compra, se muestra el número de la cotización de compra a partir de la que se creó.
 
