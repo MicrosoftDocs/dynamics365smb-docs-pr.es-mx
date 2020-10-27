@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 00b7958c9402ff47e1daf8ddd9b55b7623f7fe6a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9e750f5c68361d0582ce59784bab41337d331152
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183511"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913649"
 ---
 # <a name="set-up-a-vat-statement"></a>Configurar una nueva declaración de IVA
 
@@ -26,23 +26,23 @@ Las autoridades fiscales pueden modificar, y lo hacen, sus requisitos para regis
 Las declaraciones de IVA le permiten calcular el importe de liquidación de IVA de un determinado periodo, por ejemplo, un trimestre.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Declaraciones de IVA** y luego elija el enlace relacionado.  
-2. Elija el campo **Nombre** y después **Nuevo** en la página **Nombres de declaración de IVA**.
+2. Elija el campo **Nombre** y después **Nuevo** en la página **Nombres de declaración de IVA** .
 3. Rellene los campos requeridos. Por lo general, desea tener una configuración para cada combinación de grupo de registro de IVA de negocio/grupo de registro IVA de producto. Para los números de fila tiene sentido usar números o códigos equivalentes como en su declaración de IVA oficial [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 
 > [!Tip]
-> Puede filtrar la información que incluirá la declaración, dependiendo de lo que elija en el campo **Tipo**. **Cuentas a totalizar** resulta útil cuando desea el IVA de una cuenta específica.
-**Total mov. IVA** obtiene el IVA de las cuentas asignadas a las selecciones en los campos **Tipo IVA**, **Grupo reg. IVA negocio** o **Grupo reg. IVA producto**. **Filas a totalizar** permite introducir un valor o criterios de filtro rápido en el campo **Filas a totalizar**. Para obtener más información, consulte [Buscar, filtrar y ordenar datos](ui-enter-criteria-filters.md). **Descripción** se utiliza con frecuencia para agregar una nota a la declaración. Por ejemplo, puede utilizarlo como cabecera cuando haya utilizado el total de filas.
+> Puede filtrar la información que incluirá la declaración, dependiendo de lo que elija en el campo **Tipo** . **Cuentas a totalizar** resulta útil cuando desea el IVA de una cuenta específica.
+**Total mov. IVA** obtiene el IVA de las cuentas asignadas a las selecciones en los campos **Tipo IVA** , **Grupo reg. IVA negocio** o **Grupo reg. IVA producto** . **Filas a totalizar** permite introducir un valor o criterios de filtro rápido en el campo **Filas a totalizar** . Para obtener más información, consulte [Buscar, filtrar y ordenar datos](ui-enter-criteria-filters.md). **Descripción** se utiliza con frecuencia para agregar una nota a la declaración. Por ejemplo, puede utilizarlo como cabecera cuando haya utilizado el total de filas.
 
 ## <a name="to-preview-the-vat-statement"></a>Para obtener una vista previa de la declaración de IVA
 Después de definir una declaración de IVA, puede obtener una vista previa de ella para asegurarse de que satisface sus necesidades.
 > [!Tip]
-> Es una práctica recomendad tener una sección en la declaración de IVA utilizando **Tipo** **Total mov. IVA** y otra sección a continuación usando **Tipo** **Cuentas a totalizar** para conciliar las cantidades basadas en la tabla **Movimiento de IVA** en comparación con el importe en **Cuentas**. También puede usar el informe **C/G: Conciliación de IVA** para este propósito.
+> Es una práctica recomendad tener una sección en la declaración de IVA utilizando **Tipo** **Total mov. IVA** y otra sección a continuación usando **Tipo** **Cuentas a totalizar** para conciliar las cantidades basadas en la tabla **Movimiento de IVA** en comparación con el importe en **Cuentas** . También puede usar el informe **C/G: Conciliación de IVA** para este propósito.
 
-1. Seleccione **Vista previa**.
+1. Seleccione **Vista previa** .
 2. Escriba un filtro de fecha para limitar la declaración a un periodo específico. Para obtener más información sobre cómo personalizar la página para mostrar el filtro de fecha, consulte [Buscar, filtrar y ordenar datos](ui-enter-criteria-filters.md).
 3. Puede seleccionar diversas opciones para especificar el tipo de entradas de IVA que se incluirán en la declaración.
-4. En las líneas cuyo campo **Tipo** contenga **Total mov. IVA**, podrá ver una lista de los movimientos de IVA al seleccionar el importe del campo **Importe columna**.
+4. En las líneas cuyo campo **Tipo** contenga **Total mov. IVA** , podrá ver una lista de los movimientos de IVA al seleccionar el importe del campo **Importe columna** .
 5. Puede usar la personalización para mostrar más campos en las líneas. Por ejemplo, el importe base no realizado y el importe de IVA no realizado, si está utilizando el IVA no realizado.
 
 ## <a name="see-also"></a>Consulte también  

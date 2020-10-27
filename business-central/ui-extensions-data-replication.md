@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 07/13/2020
+ms.date: 10/01/2020
 ms.author: jenolson
-ms.openlocfilehash: 712950571d5b45680aae46bccfd8401b999993cd
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.openlocfilehash: dde6797139f383948d72c52ca1d05298a280087b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577272"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915221"
 ---
 # <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Extensiones inteligentes en la nube para la migración a la nube
 
@@ -28,18 +28,18 @@ Para más información, consulte [Migración de datos locales a Business Central
 
 ## <a name="business-central-on-premises"></a>Business Central local
 
-Si utiliza una implementación local de [!INCLUDE[prodshort](includes/prodshort.md)], obtenga las extensiones **Base de nube inteligente** y **Nube inteligente de Business Central**, y luego ejecute la guía de configuración asistida **Configuración de migración a la nube**.  
+Si utiliza una implementación local de [!INCLUDE[prodshort](includes/prodshort.md)], obtenga las extensiones **Base de nube inteligente** y **Nube inteligente de Business Central** , y luego ejecute la guía de configuración asistida **Configuración de migración a la nube** .  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
 
-Si utiliza Dynamics GP, obtenga las extensiones **Extensión de base de nube inteligente** y **Nube inteligente de Dynamics GP**, y luego ejecute la guía de configuración asistida **Configuración de migración a la nube**.  
+Si utiliza Dynamics GP, obtenga las extensiones **Extensión de base de nube inteligente** y **Nube inteligente de Dynamics GP** , y luego ejecute la guía de configuración asistida **Configuración de migración a la nube** .  
 
 > [!IMPORTANT]
 > Migrar desde Dynamics GP usando la guía de configuración asistida **Configuración de migración a la nube** actualmente solo es compatible en los siguientes mercados: Estados Unidos, Canadá, Reino Unido.
 
 ## <a name="dynamics-sl"></a>Dynamics SL
 
-Si utiliza Dynamics SL, obtenga las extensiones **Base de nube inteligente**, **Nube inteligente de Microsoft Dynamics SL** y **Listas inteligentes de historial de Microsoft Dynamics SL**, y luego ejecute la guía de configuración asistida **Configuración de migración a la nube**.  
+Si utiliza Dynamics SL, obtenga las extensiones **Base de nube inteligente** , **Nube inteligente de Microsoft Dynamics SL** y **Listas inteligentes de historial de Microsoft Dynamics SL** , y luego ejecute la guía de configuración asistida **Configuración de migración a la nube** .  
 
 ## <a name="see-also"></a>Consulte también
 

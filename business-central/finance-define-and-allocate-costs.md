@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f82b0a8f6734a9711cb0a6e2cc5a96c9f0dd1b34
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6e620772e5e83777d0ef48cc2b86bfbdc372daf8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786407"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913332"
 ---
 # <a name="defining-and-allocating-costs"></a>Definición y asignación de costos
 Las asignaciones de costos mueven los costos e ingresos entre tipos de costo, centros de costo y objetos de costo. Puede definir tantas asignaciones como necesite. Cada asignación consta de:  
@@ -39,15 +39,15 @@ Cada asignación está formada por un origen de asignación y uno o varios desti
 
 ### <a name="to-set-up-cost-allocations"></a>Para configurar asignaciones de costo  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Asignación de costos** y, a continuación, elija el enlace relacionado.  
-2.  En la página **Asignación costos**, elija la acción **Editar**.  
-3.  Especifique un identificador para el origen de asignación en el campo **ID**.  
-4.  Defina un nivel como un número entre 1 y 99 en el campo **Nivel**. El registro de la asignación seguirá el orden de los niveles.  
-5.  Escriba un tipo de costo para definir qué tipos de costo se asignarán en el campo **Intervalo tipo costo**. Si todos los costos de un tipo de costo se asignan, no se define ningún intervalo.  
-6.  Especifique un centro de costo junto con los costos que se asignarán en el campo **Código centro costo**.  
-7.  Especifique un objeto de costo junto con los costos que se asignarán en el campo **Código objeto costo**. Muy a menudo, este campo permanece vacío porque raramente los objetos de costo se asignan a otros objetos de costo.  
-8.  Especifique un tipo de costo en el campo **Abonar en tipo de costo**. Los costos que asignen se abonarán en el tipo de costo de origen. El registro de haber se registrará en el tipo de costo que se indique aquí.  
-9. En la ficha desplegable **Líneas**, define los destinos de asignación. En la primera línea, escriba un tipo de costo en el campo **Tipo costo destino**. Define a qué tipo de costo se carga la asignación.  
-10. En la primera línea, introduzca el primer destino de asignación en el campo **Centro costo destino** o el campo **Objeto costo destino**. Estos dos campos definen en qué centro de costo u objeto de costo se carga la asignación. Sólo puede rellenar uno de ellos, pero no los dos.  
+2.  En la página **Asignación costos** , elija la acción **Editar** .  
+3.  Especifique un identificador para el origen de asignación en el campo **ID** .  
+4.  Defina un nivel como un número entre 1 y 99 en el campo **Nivel** . El registro de la asignación seguirá el orden de los niveles.  
+5.  Escriba un tipo de costo para definir qué tipos de costo se asignarán en el campo **Intervalo tipo costo** . Si todos los costos de un tipo de costo se asignan, no se define ningún intervalo.  
+6.  Especifique un centro de costo junto con los costos que se asignarán en el campo **Código centro costo** .  
+7.  Especifique un objeto de costo junto con los costos que se asignarán en el campo **Código objeto costo** . Muy a menudo, este campo permanece vacío porque raramente los objetos de costo se asignan a otros objetos de costo.  
+8.  Especifique un tipo de costo en el campo **Abonar en tipo de costo** . Los costos que asignen se abonarán en el tipo de costo de origen. El registro de haber se registrará en el tipo de costo que se indique aquí.  
+9. En la ficha desplegable **Líneas** , define los destinos de asignación. En la primera línea, escriba un tipo de costo en el campo **Tipo costo destino** . Define a qué tipo de costo se carga la asignación.  
+10. En la primera línea, introduzca el primer destino de asignación en el campo **Centro costo destino** o el campo **Objeto costo destino** . Estos dos campos definen en qué centro de costo u objeto de costo se carga la asignación. Sólo puede rellenar uno de ellos, pero no los dos.  
 11. Repita los mismos pasos en la segunda línea para configurar los destinos de asignación adicionales.  
 12. Una vez configurado el destino y los orígenes de asignación, elija la acción **Calcular clave de asignación** para calcular los valores compartidos totales.  
 
@@ -58,7 +58,7 @@ Cada asignación está formada por un origen de asignación y uno o varios desti
 El método de asignación dinámica se basa en los valores cambiables. Por ejemplo, el número de empleados de un centro de costo o los productos vendidos de un objeto de costo en un periodo de tiempo determinado. Existen nueve bases predefinidas de asignación y doce rangos de fechas dinámicas. Define distintos filtros basados en la base de asignación.  
 
 ### <a name="setting-filters-for-dynamic-allocation-bases"></a>Configuración de filtros para las bases de la asignación dinámica  
- La siguiente tabla muestra qué filtros son posibles para distintas bases de asignación y qué valores son válidos en los campos **Filtro nº** y **Filtro grupo**. Presione F1 en el campo **Filtro fecha vto.** para leer descripciones detalladas.  
+ La siguiente tabla muestra qué filtros son posibles para distintas bases de asignación y qué valores son válidos en los campos **Filtro nº** y **Filtro grupo** . Presione F1 en el campo **Filtro fecha vto.** para leer descripciones detalladas.  
 
 |**Base**|**Filtro Nº**|**Filtro fecha vto.**|**Filtro centro costo**|**Filtro objeto costo**|**Filtro grupo**|  
 |--------------|----------------------------------------|----------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------|  
@@ -83,30 +83,30 @@ Este tema describe cómo definir tres nuevos objetos de costo de destino de asig
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Para definir el centro de costo PROD de origen de asignación en la ficha desplegable General  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Asignación de costos** y, a continuación, elija el enlace relacionado.  
-2.  En la página **Asignación costos**, elija la acción **Nuevo**.  
-3.  En el campo **ID**, presione Entrar o escriba un Id.  
-4.  En el campo **Nivel**, introduzca **1**.  
-5.  Especifique las fechas del período en los campos **Válido desde** y **Válido hasta**.  
-6.  En el campo **Código centro costo**, introduzca **PROD**.  
-7.  En el campo **Abonar en tipo de costo**, especifique un tipo de costo **9903**.  
+2.  En la página **Asignación costos** , elija la acción **Nuevo** .  
+3.  En el campo **ID** , presione Entrar o escriba un Id.  
+4.  En el campo **Nivel** , introduzca **1** .  
+5.  Especifique las fechas del período en los campos **Válido desde** y **Válido hasta** .  
+6.  En el campo **Código centro costo** , introduzca **PROD** .  
+7.  En el campo **Abonar en tipo de costo** , especifique un tipo de costo **9903** .  
 
 ### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>Para definir los objetos de costo de destino de asignación en la Ficha desplegable Líneas  
 
-1.  En la primera línea, en el campo **Tipo costo destino**, especifique **9903**.  
-2.  En la primera línea, en el campo **Objeto costo destino**, seleccione **ACCESORIOS**.  
-3.  En la primera línea, en el campo **Tipo destino asignación**, seleccione **Todos los costos** para definir cómo se asignan todos los costos acumulados.  
-4.  En la primera línea, en el campo **Base**, seleccione **Estático** para utilizar el método de asignación estática.  
-5.  En la primera línea, en el campo **Compartir**, especifique la proporción de asignación **5**.  
-6.  En la segunda línea, en el campo **Tipo costo destino**, especifique **9903**.  
-7.  En la segunda línea, en el campo **Objeto costo destino**, seleccione **PINTURA**.  
-8.  En la segunda línea, en el campo **Tipo destino asignación**, seleccione **Todos los costos** para definir cómo se asignan todos los costos acumulados.  
-9. En la segunda línea, en el campo **Base**, seleccione **Estático** para utilizar el método de asignación estática.  
-10. En la segunda línea, en el campo **Compartir**, especifique la proporción de asignación **2**.  
-11. En la tercera línea, en el campo **Tipo costo destino**, especifique **9903**.  
-12. En la tercera línea, en el campo **Objeto costo destino**, seleccione **COMPLEM**.  
-13. En la tercera línea, en el campo **Tipo destino asignación**, seleccione **Todos los costos** para definir cómo se asignan todos los costos acumulados.  
-14. En la tercera línea, en el campo **Base**, seleccione **Estático** para utilizar el método de asignación estática.  
-15. En la tercera línea, en el campo **Compartir**, especifique la proporción de asignación **4**.  
+1.  En la primera línea, en el campo **Tipo costo destino** , especifique **9903** .  
+2.  En la primera línea, en el campo **Objeto costo destino** , seleccione **ACCESORIOS** .  
+3.  En la primera línea, en el campo **Tipo destino asignación** , seleccione **Todos los costos** para definir cómo se asignan todos los costos acumulados.  
+4.  En la primera línea, en el campo **Base** , seleccione **Estático** para utilizar el método de asignación estática.  
+5.  En la primera línea, en el campo **Compartir** , especifique la proporción de asignación **5** .  
+6.  En la segunda línea, en el campo **Tipo costo destino** , especifique **9903** .  
+7.  En la segunda línea, en el campo **Objeto costo destino** , seleccione **PINTURA** .  
+8.  En la segunda línea, en el campo **Tipo destino asignación** , seleccione **Todos los costos** para definir cómo se asignan todos los costos acumulados.  
+9. En la segunda línea, en el campo **Base** , seleccione **Estático** para utilizar el método de asignación estática.  
+10. En la segunda línea, en el campo **Compartir** , especifique la proporción de asignación **2** .  
+11. En la tercera línea, en el campo **Tipo costo destino** , especifique **9903** .  
+12. En la tercera línea, en el campo **Objeto costo destino** , seleccione **COMPLEM** .  
+13. En la tercera línea, en el campo **Tipo destino asignación** , seleccione **Todos los costos** para definir cómo se asignan todos los costos acumulados.  
+14. En la tercera línea, en el campo **Base** , seleccione **Estático** para utilizar el método de asignación estática.  
+15. En la tercera línea, en el campo **Compartir** , especifique la proporción de asignación **4** .  
 
 > [!IMPORTANT]  
 >  [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula automáticamente el campo **Porcentaje** con un porcentaje que depende de las tres relaciones de asignación que se han introducido en el campo **Compartir** para las tres líneas.
@@ -120,18 +120,18 @@ Este tema muestra un ejemplo de cómo definir asignaciones mediante el método d
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Para definir las asignaciones dinámicas basándose en los productos vendidos el año anterior  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Asignaciones de costos** y, a continuación, elija el enlace relacionado.  
-2.  En la página **Asignación costos**, elija la acción **Nuevo**.  
-3.  En el campo **ID**, presione Entrar o escriba un Id.  
-4.  En el campo **Nivel**, introduzca **1**.  
-5.  Especifique las fechas del período en los campos **Válido desde** y **Válido hasta**.  
-6.  En el campo **Código centro costo**, introduzca **VENTAS**.  
-7.  En el campo **Abonar en tipo de costo**, especifique un tipo de costo **9903**.  
-8.  En el campo **Tipo costo destino**, especifique un tipo de costo **9903**.  
-9. En el campo **Objeto costo destino**, seleccione **Nuevo** para crear un nuevo EQUIPO TI de objeto de costo y rellene los campos según sea necesario. Seleccione **EQUIPO TI**. Deje en blanco el campo **Centro costo destino**.  
-10. En el campo **Tipo destino asignación**, seleccione **Todos los costos** para definir cómo se asignan todos los costos acumulados.  
-11. En el campo **Base**, seleccione la base de asignación **Productos vendidos (importe)**.  
-12. En el campo **Nº filtro**, especifique **8904-W..8924-W**.  
-13. En el campo **Filtro fecha vto.**, especifique **Año anterior**.  
+2.  En la página **Asignación costos** , elija la acción **Nuevo** .  
+3.  En el campo **ID** , presione Entrar o escriba un Id.  
+4.  En el campo **Nivel** , introduzca **1** .  
+5.  Especifique las fechas del período en los campos **Válido desde** y **Válido hasta** .  
+6.  En el campo **Código centro costo** , introduzca **VENTAS** .  
+7.  En el campo **Abonar en tipo de costo** , especifique un tipo de costo **9903** .  
+8.  En el campo **Tipo costo destino** , especifique un tipo de costo **9903** .  
+9. En el campo **Objeto costo destino** , seleccione **Nuevo** para crear un nuevo EQUIPO TI de objeto de costo y rellene los campos según sea necesario. Seleccione **EQUIPO TI** . Deje en blanco el campo **Centro costo destino** .  
+10. En el campo **Tipo destino asignación** , seleccione **Todos los costos** para definir cómo se asignan todos los costos acumulados.  
+11. En el campo **Base** , seleccione la base de asignación **Productos vendidos (importe)** .  
+12. En el campo **Nº filtro** , especifique **8904-W..8924-W** .  
+13. En el campo **Filtro fecha vto.** , especifique **Año anterior** .  
 14. Elija la acción **Calcular clave de asignación** para calcular el reparto.  
 
 > [!IMPORTANT]  

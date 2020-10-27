@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb3357d2d102dceba9896731c651174a4962bab6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 43a62271bab9401bfea21663c72b6363884c2ef4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787257"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911016"
 ---
 # <a name="design-details-revaluation"></a>Detalles de diseño: Revalorización
 Puede revalorizar el inventario según la base de valoración que refleja de forma más precisa el valor de inventario. También puede especificar una fecha retroactiva para una revaluación, de modo que el costo total de las mercancías vendidas se actualice correctamente para los productos que ya se han vendido. Los productos que usan la valuación de inventarios Estándar que no se han facturado por completo también se pueden volver a valorar.  
@@ -41,7 +41,7 @@ En el ejemplo siguiente se ilustra cuándo forman parte del inventario las trans
 
 ![Inventario WIP y revalorización](media/design_details_inventory_costing_10_revaluation_wip.png "Inventario WIP y revalorización")  
 
-**1T**: el usuario registra vínculos de comprados según se reciben. En la tabla siguiente se muestra el movimiento de producto resultante.  
+**1T** : el usuario registra vínculos de comprados según se reciben. En la tabla siguiente se muestra el movimiento de producto resultante.  
 
 |Fecha registro|Producto|Tipo mov.|Cantidad|Nº mov.|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -50,13 +50,13 @@ En el ejemplo siguiente se ilustra cuándo forman parte del inventario las trans
 > [!NOTE]  
 >  Ahora, un producto que use la valuación de inventarios Estándar estará disponible para la revaluación.  
 
-**1V**: el usuario registra vínculos de comprados como facturados y los vínculos se convierten en parte del inventario desde un punto de vista financiero. En la tabla siguiente se muestran los movimientos de valoración resultantes.  
+**1V** : el usuario registra vínculos de comprados como facturados y los vínculos se convierten en parte del inventario desde un punto de vista financiero. En la tabla siguiente se muestran los movimientos de valoración resultantes.  
 
 |Fecha registro|Tipo mov.|Fecha valoración|Importe costo (Real)|Nº mov. producto|Nº mov.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |15-01-20|Costo directo|01-01-20|150,00|1|1|  
 
- **2T + 2V**: el usuario registra vínculos de comprados como consumidos para la producción de la cadena de hierro. Desde un punto de vista financiero, los vínculos pasan a formar parte del inventario WIP.  En la tabla siguiente se muestra el movimiento de producto resultante.  
+ **2T + 2V** : el usuario registra vínculos de comprados como consumidos para la producción de la cadena de hierro. Desde un punto de vista financiero, los vínculos pasan a formar parte del inventario WIP.  En la tabla siguiente se muestra el movimiento de producto resultante.  
 
 |Fecha registro|Producto|Tipo mov.|Cantidad|Nº mov.|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -70,13 +70,13 @@ En la tabla siguiente se muestra el movimiento de valoración resultante.
 
 La fecha de valoración se establece en la fecha del registro de consumo (01-02-20), como una salida de existencias normal.  
 
-**3T**: el usuario registra la cadena como salida y termina el orden de producción. En la tabla siguiente se muestra el movimiento de producto resultante.  
+**3T** : el usuario registra la cadena como salida y termina el orden de producción. En la tabla siguiente se muestra el movimiento de producto resultante.  
 
 |Fecha registro|Producto|Tipo mov.|Cantidad|N.º de movimiento|  
 |------------------|----------|----------------|--------------|---------------|  
 |15-02-20|CADENA|Output|1|3|  
 
-**3V**: el usuario ejecuta el trabajo por lotes **Valorar existencias - movs. producto**, que registra la cadena como facturada para indicar que todo el consumo de material se ha facturado completamente. Desde un punto de vista financiero, los enlaces ya no forman parte del inventario WIP cuando se factura y se ajusta totalmente la salida. En la tabla siguiente se muestran los movimientos de valoración resultantes.  
+**3V** : el usuario ejecuta el trabajo por lotes **Valorar existencias - movs. producto** , que registra la cadena como facturada para indicar que todo el consumo de material se ha facturado completamente. Desde un punto de vista financiero, los enlaces ya no forman parte del inventario WIP cuando se factura y se ajusta totalmente la salida. En la tabla siguiente se muestran los movimientos de valoración resultantes.  
 
 |Fecha registro|Tipo mov.|Fecha valoración|Importe costo (Real)|Nº mov. producto|Nº mov.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
@@ -92,9 +92,9 @@ La cantidad revalorizable XE "Cantidad revalorizable" XE "Cantidad;Revalorizable
 
 Al calcular la cantidad revalorizable de los productos mediante la valuación de inventarios Estándar, los movimientos de producto que no se han facturado por completo se incluyen en el cálculo. A continuación, estos movimientos se revalorizan al registrar la revalorización. Cuando se factura la entrada revalorizada, se crean los siguientes movimientos de valoración:  
 
--   El movimiento de valoración facturado habitual con el tipo de movimiento **Costo directo**. El importe de costo de establece movimiento es el costo directo de la línea de origen.  
--   Una entrada de valor con tipo de entrada **Desviación**. Este movimiento registra la diferencia entre el costo facturado y el costo estándar revalorizado.  
--   Una entrada de valor con tipo de entrada **Revalorización**. Este movimiento registra la reversión de la revaluación del costo esperado.  
+-   El movimiento de valoración facturado habitual con el tipo de movimiento **Costo directo** . El importe de costo de establece movimiento es el costo directo de la línea de origen.  
+-   Una entrada de valor con tipo de entrada **Desviación** . Este movimiento registra la diferencia entre el costo facturado y el costo estándar revalorizado.  
+-   Una entrada de valor con tipo de entrada **Revalorización** . Este movimiento registra la reversión de la revaluación del costo esperado.  
 
 ### <a name="example"></a>Ejemplo  
 En el ejemplo siguiente, que se basa en la producción de la cadena del ejemplo anterior, se muestra cómo se crean los tres tipos de movimientos. Se basa en el siguiente caso:  
@@ -103,7 +103,7 @@ En el ejemplo siguiente, que se basa en la producción de la cadena del ejemplo 
 2.  A continuación, el usuario registra una revaluación de los eslabones con un nuevo costo unitario de 3,00 $, con lo que se actualiza el costo estándar a 3,00 $.  
 3.  El usuario registra la compra original de los eslabones como facturados, que crea el siguiente:  
 
-    1.  Un movimiento de valor facturado con un tipo de entrada **Costo directo**.  
+    1.  Un movimiento de valor facturado con un tipo de entrada **Costo directo** .  
     2.  Una entrada de valor con tipo de entrada **Revaluación** para registrar la reversión de revaluación del costo esperado.  
     3.  Una entrada de valor con tipo de entrada Desviación para registrar la diferencia entre el costo facturado y el costo estándar revalorizado.  
 En la tabla siguiente se muestran los movimientos de valoración resultantes.  
@@ -141,7 +141,7 @@ El ejemplo siguiente, en el que se ilustra la revaluación de un producto que us
 6.  El 01-02-20, el usuario registra una venta de 1 unidad.  
 7.  El 01-03-20, el usuario registra una venta de 1 unidad.  
 8.  El 01-04-20, el usuario registra una venta de 1 unidad.  
-9. El usuario ejecuta el proceso **Valorar existencias - movs. producto**.  
+9. El usuario ejecuta el proceso **Valorar existencias - movs. producto** .  
 
 En la tabla siguiente se muestran los movimientos de valoración resultantes.  
 

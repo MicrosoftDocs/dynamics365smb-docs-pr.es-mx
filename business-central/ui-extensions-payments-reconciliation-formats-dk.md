@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7e8a56492c1c848f4f3b371e1411c11f159c3cf3
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: 1afd60dc4c9c86b476c3c2c80974ce805b19a4ca
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496761"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912332"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Extensión de pagos y conciliaciones (DK)
 
@@ -56,8 +56,8 @@ Además, debe asignar a los proveedores a un **Grupo contable negocio** y un **G
 ### <a name="to-allow-d365fin-to-export-payment-data"></a>Para permitir que [!INCLUDE[d365fin](includes/d365fin_md.md)] realice exportaciones de datos de pagos
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.  
-2. En la página **Editar diario de pagos**, seleccione el proceso **Banco**.  
-3. Seleccione la casilla de verificación **Permitir exportación de pagos**.  
+2. En la página **Editar diario de pagos** , seleccione el proceso **Banco** .  
+3. Seleccione la casilla de verificación **Permitir exportación de pagos** .  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Para especificar una forma de pago de un proveedor
 
@@ -70,21 +70,21 @@ La siguiente tabla muestra las combinaciones de formas de pago FIK y GIRO que [!
 |¿Contiene el número de referencia de pago? | N.º | Sí, 16 dígitos. | Sí, 15 dígitos. | No|
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.  
-2. Abra la ficha, amplíe la pestaña **Pagos**, en el campo **Forma pago** seleccione la forma de pago.  
+2. Abra la ficha, amplíe la pestaña **Pagos** , en el campo **Forma pago** seleccione la forma de pago.  
 3. Según de la opción que seleccione, debe rellenar otros campos. Consulte la tabla anterior para obtener una descripción de las combinaciones.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Para especificar el formato que debe utilizar en un banco
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Bancos** y luego elija el enlace relacionado.  
 2. Abra la ficha del banco.  
-3. En el campo **Formato de exportación de pagos**, seleccione el formato del archivo de exportación.  
+3. En el campo **Formato de exportación de pagos** , seleccione el formato del archivo de exportación.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Elección de la información de pago de FIK o Giro para facturas de proveedores
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego elija el enlace relacionado.
 2. Seleccione el proveedor. Recuerde, debe ser un proveedor danés con una dirección en Dinamarca.
 3. Cree una factura. Los campos **Forma pago** y **Número de proveedor** se rellenan según los valores de la ficha de proveedor. Puede cambiarlo si lo desea.
-4. En el campo **Referencia de pago**, introduzca el número de 15 dígitos de la factura del proveedor.  
+4. En el campo **Referencia de pago** , introduzca el número de 15 dígitos de la factura del proveedor.  
 
     > [!Tip]
     > Tiene que agregar solo los 11 últimos dígitos del número. [!INCLUDE[d365fin](includes/d365fin_md.md)] añadirá cuatro ceros al comienzo del número.  
@@ -94,14 +94,14 @@ La siguiente tabla muestra las combinaciones de formas de pago FIK y GIRO que [!
 ## <a name="to-use-the-extension-to-export-payment-data"></a>Para utilizar la extensión para exportar datos de pago
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.  
-2. Seleccione la acción **Proponer diarios de pagos a proveedores**.  
+2. Seleccione la acción **Proponer diarios de pagos a proveedores** .  
 
     > [!Tip]
     > Si desea exportar únicamente pagos específicos, utilice las opciones para filtrar los datos.  
 
 3. Si es necesario, puede agregar filtros para exportar únicamente pagos específicos.  
-4. En el campo **Tipo pago por banco**, elija **Pago electrónico**.  
-5. Seleccione la acción **Exportar**.  
+4. En el campo **Tipo pago por banco** , elija **Pago electrónico** .  
+5. Seleccione la acción **Exportar** .  
 
 ## <a name="see-also"></a>Consulte también .
 

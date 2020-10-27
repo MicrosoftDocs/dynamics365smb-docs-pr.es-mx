@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 05/05/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 236cb83e99c2385edc09622255037a152bf41e6e
-ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
+ms.openlocfilehash: f6afaa9ade29c955033914b608806c3fb0f5a310
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339933"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912232"
 ---
 # <a name="send-remittance-advice"></a>Enviar aviso de pago
 
@@ -26,8 +26,8 @@ Cuando se utiliza el aviso de pago para notificar a los proveedores de los pagos
 
 Puede enviar el aviso de pago de dos maneras diferentes:
 
-* En la página **Diario de pagos**, seleccione **Navegar**, **Pagos**, **Enviar aviso de pago** para enviar por correo electrónico el aviso de pago para una o varias líneas del diario de pagos.
-* En la página **Movs. proveedores**, elija **Acciones**, **Funciones**, **Enviar aviso de pago** para enviar por correo electrónico un aviso de pago después de registrar los pagos del proveedor, para uno o varios movimientos de proveedores.
+* En la página **Diario de pagos** , seleccione **Relacionado** , **Pagos** , **Enviar aviso de remesa** para enviar por correo electrónico el aviso de remesa para una o varias líneas del diario de pagos
+* En la página **Movs. proveedores** , elija **Acciones** , **Funciones** , **Enviar aviso de pago** para enviar por correo electrónico un aviso de pago después de registrar los pagos del proveedor, para uno o varios movimientos de proveedores.
 
 ## <a name="see-also"></a>Consulte también
 

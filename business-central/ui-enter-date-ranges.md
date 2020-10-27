@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 122c1e602f9f7d1c50115ba1e6ba515694fc84a1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f658764eafa6f9aa35e33cf8098ca77799fb1e0c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785432"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912482"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Trabajar con fechas y horas del calendario
 
@@ -27,7 +27,7 @@ La página **Mi configuración** especifica los valores de **Región** e **Idiom
 
 -   El valor **Región** determina cómo se muestran o se forman las fechas, los tiempos, los números, y divisas.
 
--   Para los patrones de fecha que involucran palabras, el idioma de las palabras que usa debe corresponder a la configuración de **Idioma**.
+-   Para los patrones de fecha que involucran palabras, el idioma de las palabras que usa debe corresponder a la configuración de **Idioma** .
 
 > [!NOTE]
 > [!INCLUDE[d365fin](includes/d365fin_long_md.md)] utiliza el sistema de calendario gregoriano.
@@ -72,19 +72,19 @@ En un campo de fecha, puede introducir dos, cuatro, seis u ocho dígitos:
 
 ### <a name="today"></a>Hoy
 
-Introduzca la palabra para hoy, en el idioma establecido por la configuración de **Idioma**, que establecerá la fecha a la fecha actual. En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio, como h u hoy, siempre que no sea también el comienzo de otra palabra.
+Introduzca la palabra para hoy, en el idioma establecido por la configuración de **Idioma** , que establecerá la fecha a la fecha actual. En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio, como h u hoy, siempre que no sea también el comienzo de otra palabra.
 
 ### <a name="period"></a>Período
 
-Para filtrar un período contable específico, en un campo de fecha introduzca la letra p, o la palabra periodo, seguida de un número que identifique el período contable, como p2 o periodo4. El período contable es relativo al ejercicio de la fecha de trabajo actual que la establecida en su área de tareas. Por ejemplo, si la fecha de trabajo es **21/03/20**, con p1, o solo p, se filtra el primer periodo contable del ejercicio 2020 (por ejemplo, 01/01/20..31/01/20). p15 filtra el decimoquinto periodo contable desde el inicio del ejercicio 2020 (por ejemplo, 01/03/21..31/03/21).
+Para filtrar un período contable específico, en un campo de fecha introduzca la letra p, o la palabra periodo, seguida de un número que identifique el período contable, como p2 o periodo4. El período contable es relativo al ejercicio de la fecha de trabajo actual que la establecida en su área de tareas. Por ejemplo, si la fecha de trabajo es **21/03/20** , con p1, o solo p, se filtra el primer periodo contable del ejercicio 2020 (por ejemplo, 01/01/20..31/01/20). p15 filtra el decimoquinto periodo contable desde el inicio del ejercicio 2020 (por ejemplo, 01/03/21..31/03/21).
 
-Los periodos contables se definen en la página **Periodos contables**. Para ver o cambiar los períodos contables, abra la página [aquí](https://businesscentral.dynamics.com/?page=100).
+Los periodos contables se definen en la página **Periodos contables** . Para ver o cambiar los períodos contables, abra la página [aquí](https://businesscentral.dynamics.com/?page=100).
 
 ### <a name="current-work-date"></a>Fecha de trabajo actual
 
 La función de fecha de trabajo le permite grabar transacciones usando una fecha que es diferente de la fecha actual.
 
-La palabra para 'fecha de trabajo', en el idioma establecido por la configuración **Idioma**, establecerá la fecha en la fecha de trabajo establecida actualmente que se especifica en la página **Mis configuraciones**. En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio, como "t" o "trabajo".
+La palabra para 'fecha de trabajo', en el idioma establecido por la configuración **Idioma** , establecerá la fecha en la fecha de trabajo establecida actualmente que se especifica en la página **Mis configuraciones** . En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio, como "t" o "trabajo".
 
 Si no ha definido una fecha de trabajo, la fecha actual se usará como la fecha de trabajo. Una fecha de trabajo se puede usar si hay muchas operaciones con una fecha distinta a la activa.
 
@@ -98,7 +98,7 @@ Para especificar que es una fecha de cierre, coloque una C delante, como C123101
 
 ### <a name="examples"></a>Ejemplos
 
-La siguiente tabla contiene ejemplos de fechas en todos los formatos. Se supone que la configuración regional formatea las fechas de acuerdo con: **año.mes.día.**, una semana a partir del lunes y el idioma inglés.
+La siguiente tabla contiene ejemplos de fechas en todos los formatos. Se supone que la configuración regional formatea las fechas de acuerdo con: **año.mes.día.** , una semana a partir del lunes y el idioma inglés.
 
 |**Mov.**      |**Interpretación**      |
 |---------------|------------------------|
@@ -194,7 +194,7 @@ El ejemplo siguiente muestra cómo utilizar un signo menos para indicar una fech
 |-1A|Hace un año desde hoy|
 
 > [!IMPORTANT]
->  Si el almacén utiliza un calendario base, la fórmula de fecha que escriba en este campo, por ejemplo el campo **Tiempo envío**, se interpreta según los días laborables del calendario. Por ejemplo, 1S significa siete días laborables.
+>  Si el almacén utiliza un calendario base, la fórmula de fecha que escriba en este campo, por ejemplo el campo **Tiempo envío** , se interpreta según los días laborables del calendario. Por ejemplo, 1S significa siete días laborables.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:

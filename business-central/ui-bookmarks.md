@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb6c3762d9b6ec587cea6915cf292a6bb57e25fd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1078b9839920684c4be54e1753db5c87e1694912
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782504"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912707"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Marque una página o informe en su área de tareas
 Con el nuevo icono de marcador, puede agregar una acción que abre una página o informe desde el menú de navegación de su área de tareas. Esto le permite alcanzar rápidamente su contenido favorito o tareas comerciales. Agrega el marcador desde la página o informe de destino, lo que significa la pantalla que quiera vincular en el área de tareas para abrir.
@@ -35,7 +35,7 @@ Ahora se agrega un nombre de acción según la página al menú de navegación e
 Ahora se agrega un nombre de acción según el informe al menú de navegación en su área de tareas.
 
 ## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>Para marcar una página o un informe desde la ventana Avisarme
-1. Abra la ventana **Dígame** e introduzca, por ejemplo, **Pedidos de venta**.
+1. Abra la ventana **Dígame** e introduzca, por ejemplo, **Pedidos de venta** .
 2. Pase el cursor sobre el resultado de búsqueda para la página o informe **Pedidos de venta** y luego elija el icono ![Marcador](media/ui_bookmark_icon.png "Marcador").
 
 Ahora se agrega un nombre de acción según la página o informe al menú de navegación en su área de tareas.

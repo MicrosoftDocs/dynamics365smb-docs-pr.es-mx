@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c5e3f26e45a4c990a3614011e21fe8d661973035
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b2ee2dcba364f7b89bae49c3f15f098c51d2c5a3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784745"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913558"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Crear flujos de trabajo a partir de plantillas de flujo de trabajo
 Para ahorrar el tiempo al crear nuevos flujos de trabajo, puede crear flujos de trabajo a partir de plantillas de flujo de trabajo.  
@@ -30,8 +30,8 @@ En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una 
 
 ## <a name="to-create-a-workflow-from-workflow-template"></a>Para crear un flujo de trabajo a partir de una plantilla de flujo de trabajo  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Crear flujo de trabajo desde una plantilla**. Se abre la página **Plantillas de flujo de trabajo**.  
-3.  Seleccione una plantilla de flujo de trabajo y haga clic en el botón **Aceptar**.  
+2.  Seleccione la acción **Crear flujo de trabajo desde una plantilla** . Se abre la página **Plantillas de flujo de trabajo** .  
+3.  Seleccione una plantilla de flujo de trabajo y haga clic en el botón **Aceptar** .  
 
      La página **Flujo de trabajo** se abre para un nuevo flujo de trabajo que contiene toda la información de la plantilla seleccionada. El valor del campo **Código** se amplia, por ejemplo, con “-01” para indicar que este es el primer flujo de trabajo creado a partir de la plantilla de flujo de trabajo.  
 4.  Empiece a crear el flujo de trabajo modificando los pasos del flujo de trabajo o agregando nuevos pasos. Para obtener más información, consulte [Crear flujos de trabajo](across-how-to-create-workflows.md).  

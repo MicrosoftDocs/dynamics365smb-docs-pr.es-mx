@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4b6e9c03e93f055ccdc4066df56db5d53027852a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6251b995d81f9452188fb40e9ac7e9ec6ba234d5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779572"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911832"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Mover productos en configuraciones avanzadas de almacén
 En configuraciones de almacén avanzadas, es decir, en ubicaciones con ubicación y picking directos, los movimientos de almacén entre ubicaciones los realiza un empleado con experiencia que los prepara en la hoja de trabajo de movimientos y, a continuación, crea dichos movimientos para que los realicen los empleados de almacén.  
 
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Para mover los artículos con la hoja de cálculo del movimiento de almacén
-En la página **Hoja trabajo movimiento** existen dos funciones que pueden ayudarle a rellenar las líneas automáticamente. La primera es la función **Calcular reposición ubicación**. Esta función utiliza los rankings de ubicación para sugerir el reabastecimiento para ubicaciones de alto ranking desde ubicaciones de bajo ranking. El segundo es la función **Tomar conten. ubicac.**, que rellena las líneas de la hoja de cálculo con los contenidos enteros de las ubicaciones que especifique.
+En la página **Hoja trabajo movimiento** existen dos funciones que pueden ayudarle a rellenar las líneas automáticamente. La primera es la función **Calcular reposición ubicación** . Esta función utiliza los rankings de ubicación para sugerir el reabastecimiento para ubicaciones de alto ranking desde ubicaciones de bajo ranking. El segundo es la función **Tomar conten. ubicac.** , que rellena las líneas de la hoja de cálculo con los contenidos enteros de las ubicaciones que especifique.
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja trabajo mov.** y luego elija el enlace relacionado.  
 2.  Especifique la información de movimientos de almacén en las líneas de la hoja de trabajo como crea conveniente.  
@@ -30,22 +30,22 @@ En la página **Hoja trabajo movimiento** existen dos funciones que pueden ayuda
 ### <a name="to-register-the-warehouse-movement"></a>Para registrar el movimiento de almacén  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Movimientos** y luego elija el enlace relacionado.  
 2.  Abra el movimiento de almacén que desee procesar.  
-3.  En las líneas de acción tipo **Plaza**, especifique dónde, qué y cuándo mover el artículo en cuestión modificando los campos **Cód. zona**, **Cód. ubicación**, **Cdad. a manipular** o **Fecha vencimiento**.  
+3.  En las líneas de acción tipo **Plaza** , especifique dónde, qué y cuándo mover el artículo en cuestión modificando los campos **Cód. zona** , **Cód. ubicación** , **Cdad. a manipular** o **Fecha vencimiento** .  
 
     Si su almacén se ha configurado para que los códigos de ubicación sigan la estructura física del almacén, puede tomar varias cantidades de diferentes productos de ubicaciones correlativas y, a continuación, colocarlas en ubicaciones de picking sucesivas, que estarán próximas entre sí.  
-4.  En las líneas de acción tipo **Toma**, especifique en el campo **Cdad. a manipular** una cantidad de la parte del contenido de la ubicación que desea mover. El resto de los campos de las líneas de tipo de acción **Tomar** son de solo lectura.  
-5.  Para mover todas las cantidades sugeridas según lo especificado en el campo **Cantidad**, elija la acción **Cdad autorell. a manipular**.  
-6. Elija la acción **Registrar**.  
+4.  En las líneas de acción tipo **Toma** , especifique en el campo **Cdad. a manipular** una cantidad de la parte del contenido de la ubicación que desea mover. El resto de los campos de las líneas de tipo de acción **Tomar** son de solo lectura.  
+5.  Para mover todas las cantidades sugeridas según lo especificado en el campo **Cantidad** , elija la acción **Cdad autorell. a manipular** .  
+6. Elija la acción **Registrar** .  
 
 > [!NOTE]  
 >  Si el almacén utiliza ubicación y picking directos, no puede mover manualmente productos dentro o fuera de ubicaciones de tipo Recepción, porque los productos en dichas ubicaciones deben ubicarse antes de que formen parte de las existencias disponibles.
 
 ## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>Para registrar el movimiento de producto que ya se ha producido  
-Si utiliza ubicación y picking directos y necesita mover productos a otros ubicaciones sin un movimiento, picking o ubicación de almacén existente, puede registrar la colocación correcta de los productos en el almacén con el **Diario reclasificación almacén**.
+Si utiliza ubicación y picking directos y necesita mover productos a otros ubicaciones sin un movimiento, picking o ubicación de almacén existente, puede registrar la colocación correcta de los productos en el almacén con el **Diario reclasificación almacén** .
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario reclasificación almacén** y luego elija el enlace relacionado.  
-2.  Rellene los campos **Nº producto**, **Desde cód. zona**, **Desde cód. ubicación**, **Hasta cód. zona**, **Hasta cód. ubicación**.  
-3.  Elija la acción **Registrar**.  
+2.  Rellene los campos **Nº producto** , **Desde cód. zona** , **Desde cód. ubicación** , **Hasta cód. zona** , **Hasta cód. ubicación** .  
+3.  Elija la acción **Registrar** .  
 
 ## <a name="see-also"></a>Consulte también  
 [Gestión almacén](warehouse-manage-warehouse.md)  

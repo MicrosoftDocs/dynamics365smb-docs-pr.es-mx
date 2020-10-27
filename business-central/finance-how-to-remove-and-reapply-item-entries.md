@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 258e17fc2ddd698f0ab74c2ee7afec7b78c63c6e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f90f17fa962bc8a18ea3ba1c30b01af52463ede4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788662"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915596"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Eliminar y liquidar de nuevo los movimientos contables de producto
-En la página **Hoja liquidación**, puede ver y modificar manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.  
+En la página **Hoja liquidación** , puede ver y modificar manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.  
 
 Cuando registra una transacción en la que entran o salen productos del inventario, se crea una liquidación de producto entre cada aumento y disminución de inventario. Dichas liquidaciones determinan el flujo de costos desde los bienes que se reciben en el inventario al costo de los bienes que salen del inventario. Debido a la forma en la que se calcula el costo unitario, una liquidación de producto que sea incorrecta podría resultar en un costo promedio sesgado y en un costo unitario también sesgado. Para obtener más información, consulte Detalles de diseño: Liquidación de productos.
 
@@ -34,7 +34,7 @@ Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene q
 
 > [!Warning]  
 > A continuación se muestran algunos aspectos importantes que es necesario tener en cuenta a la hora de trabajar con la hoja de liquidación:
-    - No debe dejar movimientos de liquidación sin liquidar durante largos periodos porque otros usuarios no pueden procesar los productos hasta que vuelve a liquidar los movimientos de liquidación o cierra la página **Hoja liquidación**. Los usuarios que intentan realizar acciones relacionadas con un movimiento de liquidación manualmente no liquidado recibirán el mensaje de error siguiente: “No se puede realizar esta acción porque los movimientos para el producto XXX no están liquidados en la Hoja de liquidación del usuario XXX”.
+    - No debe dejar movimientos de liquidación sin liquidar durante largos periodos porque otros usuarios no pueden procesar los productos hasta que vuelve a liquidar los movimientos de liquidación o cierra la página **Hoja liquidación** . Los usuarios que intentan realizar acciones relacionadas con un movimiento de liquidación manualmente no liquidado recibirán el mensaje de error siguiente: “No se puede realizar esta acción porque los movimientos para el producto XXX no están liquidados en la Hoja de liquidación del usuario XXX”.
     - Es recomendable llevar a cabo el proceso de repetición de la liquidación sólo fuera del horario laboral para evitar conflictos con otros usuarios que estén registrando transacciones relacionadas con los mismos productos.
     - Cuando cierre la hoja de liquidación, [!INCLUDE[d365fin](includes/d365fin_md.md)] llevará a cabo una comprobación para asegurarse de que se liquidaron todos los productos. Por ejemplo, si elimina una liquidación de cantidad pero no crea una nueva liquidación y, a continuación, cierra la hoja de liquidación, se creará una nueva liquidación. Esto permite mantener intacto el costo. No obstante, si elimina una liquidación fija, no se creará automáticamente una liquidación fija nueva cuando cierre la hoja de liquidación. Deberá hacerlo manualmente creando una nueva liquidación en la hoja.
     - Es posible eliminar liquidaciones de más de un movimiento a la vez desde la hoja de liquidación. Sin embargo, dado que la liquidación de movimientos afecta al conjunto de movimientos disponibles para ser liquidados, no es posible crear una liquidación para más de un movimiento a la vez.
@@ -44,33 +44,33 @@ Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene q
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de liquidación** y luego elija el enlace relacionado.  
 2.  La página **Hoja liquidación** se abre y muestra los movimientos de producto existentes para todos los productos.  
 3.  Especifique los filtros en la ficha desplegable **General** para facilitar el movimiento del producto para el cual desea cambiar la liquidación.  
-4.  Seleccione el movimiento de producto relevante y, a continuación, seleccione la acción **Movs. liquidados**. Se abre la página **Ver, Movs. conciliados - Movs. conciliados** para mostrar los movimientos de producto que se aplican actualmente al movimiento seleccionado.  
+4.  Seleccione el movimiento de producto relevante y, a continuación, seleccione la acción **Movs. liquidados** . Se abre la página **Ver, Movs. conciliados - Movs. conciliados** para mostrar los movimientos de producto que se aplican actualmente al movimiento seleccionado.  
 5.  Seleccione aquel para el cual desea eliminar la liquidación.  
-6.  Seleccione la acción **Eliminar liquidación**. De esta forma, se elimina el movimiento de liquidación del producto que vincula los dos movimientos y lo traslada a la página **Ver movs. conciliados - Movs. sin conciliar**.  
-7.  Cierre la página **Ver, Movs. conciliados - Movs. conciliados**.  
+6.  Seleccione la acción **Eliminar liquidación** . De esta forma, se elimina el movimiento de liquidación del producto que vincula los dos movimientos y lo traslada a la página **Ver movs. conciliados - Movs. sin conciliar** .  
+7.  Cierre la página **Ver, Movs. conciliados - Movs. conciliados** .  
 
- El campo **Cantidad pendiente** de los dos movimientos de producto aumenta según la cantidad que se ha desliquidado. El movimiento de producto eliminado está ya disponible para la nueva liquidación en la página **Ver movs. conciliados - Movs. sin conciliar**.  
+ El campo **Cantidad pendiente** de los dos movimientos de producto aumenta según la cantidad que se ha desliquidado. El movimiento de producto eliminado está ya disponible para la nueva liquidación en la página **Ver movs. conciliados - Movs. sin conciliar** .  
 
 > [!IMPORTANT]  
->  No debe dejar movimientos de liquidación sin liquidar durante periodos más largos porque otros usuarios no pueden procesar los productos afectados hasta que vuelva a liquidar los movimientos o cierre la página **Hoja liquidación**. Se muestra el mensaje de error siguiente si intenta realizar acciones relacionadas con un movimiento de liquidación no aplicado manualmente:  
+>  No debe dejar movimientos de liquidación sin liquidar durante periodos más largos porque otros usuarios no pueden procesar los productos afectados hasta que vuelva a liquidar los movimientos o cierre la página **Hoja liquidación** . Se muestra el mensaje de error siguiente si intenta realizar acciones relacionadas con un movimiento de liquidación no aplicado manualmente:  
 >   
 >  **No puede realizar esta acción porque los movimientos del producto <item> no están liquidados en la Hoja de liquidación del usuario <user>.**  
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Para volver a liquidar un producto con la Hoja liquidación  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de liquidación** y luego elija el enlace relacionado.  
 2.  La página **Hoja liquidación** se abre y muestra los movimientos de producto existentes para todos los productos.  
-3.  Para volver a liquidar los movimientos que se eliminaron desde que abriera la hoja de trabajo, seleccione el movimiento que desea volver a liquidar y, a continuación, elija la acción **Liquidar de nuevo**.  
+3.  Para volver a liquidar los movimientos que se eliminaron desde que abriera la hoja de trabajo, seleccione el movimiento que desea volver a liquidar y, a continuación, elija la acción **Liquidar de nuevo** .  
 
     > [!NOTE]  
-    >  Esta nueva liquidación en el saldo original también se produce automáticamente cuando cierra la página **Hoja liquidación**.  
-4.  Para aplicar un movimiento de producto abierto disponible a otro movimiento, seleccione el movimiento de producto que desea aplicar. Seleccione la acción **Movs. no liquidados**. Se abre la página **Ver movs. conciliados - Movs. sin conciliar**.  
-5.  Seleccione uno o más movimientos que desee liquidar en el movimiento seleccionado en la página **Hoja liquidación** y, a continuación, elija el botón **Aceptar**.  
+    >  Esta nueva liquidación en el saldo original también se produce automáticamente cuando cierra la página **Hoja liquidación** .  
+4.  Para aplicar un movimiento de producto abierto disponible a otro movimiento, seleccione el movimiento de producto que desea aplicar. Seleccione la acción **Movs. no liquidados** . Se abre la página **Ver movs. conciliados - Movs. sin conciliar** .  
+5.  Seleccione uno o más movimientos que desee liquidar en el movimiento seleccionado en la página **Hoja liquidación** y, a continuación, elija el botón **Aceptar** .  
 
      Se crea un movimiento de liquidación del producto entre ambos movimientos. Los campos **Cantidad pendiente** de ambos movimientos se verán reducidos por la cantidad aplicada.  
 
     > [!NOTE]  
     >  Si ha elegido llevar a cabo una liquidación que creará un bucle infinito en el proceso de ajuste del costo, la liquidación que ha propuesto no se realiza. Esto puede ocurrir cuando los movimientos originales han creado existencias negativas. La liquidación no se realiza. Por tanto, debe seleccionar un movimiento diferente para la liquidación.  
-6.  If el campo **Ajuste automático de costo** en **Configuración de inventario** se establece en **Siempre**, el proceso de ajuste del costo se ejecuta automáticamente una vez que se haya realizado una nueva liquidación. De lo contrario, ejecute el proceso **Valorar existencias - movs. producto** para asegurarse de que todos los costos estén actualizados.  
+6.  If el campo **Ajuste automático de costo** en **Configuración de inventario** se establece en **Siempre** , el proceso de ajuste del costo se ejecuta automáticamente una vez que se haya realizado una nueva liquidación. De lo contrario, ejecute el proceso **Valorar existencias - movs. producto** para asegurarse de que todos los costos estén actualizados.  
 
 ## <a name="see-also"></a>Consulte también  
 [Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  

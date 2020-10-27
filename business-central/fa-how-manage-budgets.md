@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5baf1342dc019233529386d43a28159adfc08af6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 75b7363ca6ee2c940f245fea4d62cf83611c43dc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780321"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915621"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Gestionar presupuestos de los activos fijos
 Puede configurar activos fijos presupuestados. Por ejemplo, esto le permite incluir adquisiciones y ventas anticipadas en los informes.  
 
-Para preparar sus resultados presupuestados, cuentas de balance presupuestadas y el presupuesto de caja, necesitará información acerca de las inversiones futuras, ventas/bajas y amortización de activos fijos. Puede obtener esta información desde el informe **A/F - Proyección amort**. Antes de imprimir este informe, debe preparar el presupuesto.  
+Para preparar sus resultados presupuestados, cuentas de balance presupuestadas y el presupuesto de caja, necesitará información acerca de las inversiones futuras, ventas/bajas y amortización de activos fijos. Puede obtener esta información desde el informe **A/F - Proyección amort** . Antes de imprimir este informe, debe preparar el presupuesto.  
 
 ## <a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a>Para presupuestar el costo de adquisición de un activo fijo
 Para preparar presupuestos, necesita configurar fichas de activo fijo para los activos fijos que quiera comprar en el futuro. Los activos fijos presupuestados se configuran como activos normales, pero deben configurarse para que no se registren en el libro mayor.
@@ -38,24 +38,24 @@ Al registrar el costo, introduzca el número de activos presupuestados en el cam
 Si desea vender activos en el periodo de presupuesto, puede especificar información acerca del precio y fecha de venta.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Activos fijos** y luego elija el enlace relacionado.
-2. Seleccione el activo que desee dar de baja o vender y, a continuación, elija la acción **Libros amortización**.
-3. En la página **Libros amortización A/F**, rellene los campos **Fecha prevista venta/baja** y **Ingresos previstos venta/baja**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Seleccione el activo que desee dar de baja o vender y, a continuación, elija la acción **Libros amortización** .
+3. En la página **Libros amortización A/F** , rellene los campos **Fecha prevista venta/baja** y **Ingresos previstos venta/baja** . [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a>Para ver valores venta/baja previstos
-Para ver los valores venta/baja previstos y que se calculen las ganancias y pérdidas, puede usar el informe **Proyección de la amortización A/F**.
+Para ver los valores venta/baja previstos y que se calculen las ganancias y pérdidas, puede usar el informe **Proyección de la amortización A/F** .
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyección de la amortización A/F** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario.
-3. Haga clic en el botón **Imprimir** o **Vista previa**.
+3. Haga clic en el botón **Imprimir** o **Vista previa** .
 
 ## <a name="to-budget-depreciation"></a>Para presupuestar amortización
 Puede usar el informe **A/F - Proyección amort.** para calcular la amortización futura. El informe muestra el valor neto y la amortización acumulada al principio del periodo seleccionado, los cambios durante el periodo y el valor neto y la amortización acumulada al final del periodo seleccionado.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Valor proyectado de activo fijo** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario.
-3. Para ver los valores totales de todos los activos, desactive la casilla **Imprimir por activo fijo**.
-4. Deje en blanco la ficha desplegable **Activo** para incluir todos los activos. En el campo **Activo presupuestado**, puede especificar **No** para excluir los activos presupuestados o **Sí** para ver solo los activos presupuestados.
-5. Haga clic en el botón **Imprimir** o **Vista previa**.
+3. Para ver los valores totales de todos los activos, desactive la casilla **Imprimir por activo fijo** .
+4. Deje en blanco la ficha desplegable **Activo** para incluir todos los activos. En el campo **Activo presupuestado** , puede especificar **No** para excluir los activos presupuestados o **Sí** para ver solo los activos presupuestados.
+5. Haga clic en el botón **Imprimir** o **Vista previa** .
 
 ## <a name="see-also"></a>Consulte también
 [Activos fijos](fa-manage.md)  

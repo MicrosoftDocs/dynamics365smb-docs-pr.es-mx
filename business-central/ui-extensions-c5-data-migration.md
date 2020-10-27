@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: d52b04f000617ac037ccc37bcf02061609e680c6
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: fb71224df8730c68fb5c56c255353a05a7846eed
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617847"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912376"
 ---
 # <a name="the-c5-data-migration-extension"></a>Extensión de migración de datos de C5
 
@@ -96,7 +96,7 @@ Si migra cuentas, los datos siguientes también se migrarán:
 * Transacciones históricas de contabilidad  
 
 > [!Note]
-> Las transacciones históricas de contabilidad se gestionan de un modo un poco diferente. Al migrar datos se establece un parámetro **Periodo actual**. Este parámetro especifica cómo procesar transacciones de contabilidad. Las transacciones después de esta fecha se migran por separado. Las transacciones anteriores a esta fecha se agregan por cuenta y se migran como un único importe. Por ejemplo, supongamos que hay transacciones en 2015, 2016, 2017 y 2018, y especifica el 1 de enero de 2017 en el campo Período actual. Para cada cuenta, los importes de las transacciones del 31 de diciembre de 2016 o anteriores se agregarán en una sola línea de diario general para cada cuenta de contabilidad. Todas las transacciones después de esta fecha se migrarán por separado.
+> Las transacciones históricas de contabilidad se gestionan de un modo un poco diferente. Al migrar datos se establece un parámetro **Periodo actual** . Este parámetro especifica cómo procesar transacciones de contabilidad. Las transacciones después de esta fecha se migran por separado. Las transacciones anteriores a esta fecha se agregan por cuenta y se migran como un único importe. Por ejemplo, supongamos que hay transacciones en 2015, 2016, 2017 y 2018, y especifica el 1 de enero de 2017 en el campo Período actual. Para cada cuenta, los importes de las transacciones del 31 de diciembre de 2016 o anteriores se agregarán en una sola línea de diario general para cada cuenta de contabilidad. Todas las transacciones después de esta fecha se migrarán por separado.
 
 ## <a name="file-size-requirements"></a>Requisitos de tamaño del archivo
 
@@ -107,7 +107,7 @@ El tamaño máximo del archivo que puede descargar en [!INCLUDE[d365fin](include
 Deben realizarse algunos para exportar datos de la C5 e importarlos a [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 1. En la C5, utilice la función **Base de datos de exportación** para exportar los datos. Envíe la carpeta de exportación a una carpeta comprimida.  
-2. En [!INCLUDE[d365fin](includes/d365fin_md.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Migración de datos** y luego elija **Migración de datos**.  
+2. En [!INCLUDE[d365fin](includes/d365fin_md.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Migración de datos** y luego elija **Migración de datos** .  
 3. Complete los pasos de la guía de configuración asistida. Asegúrese de elegir **Importar de Microsoft Dynamcis C5 2012** como origen de datos.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Ver el estado de la migración
@@ -130,14 +130,14 @@ Para ayudar a evitar el registro doble en la contabilidad, se utilizan las sigui
 Si algo sale mal y se produce un error, el campo **Estado** mostrará **Completado con errores** y el campo **Recuento de errores** mostrará cuántos. Para ver una lista de los errores, puede abrir la página **Errores de migración de datos** si elige:  
 
 * El número en el campo **Recuento de errores** de la entidad.  
-* La entidad y la acción **Mostrar errores**.  
+* La entidad y la acción **Mostrar errores** .  
 
-En la página **Errores de migración de datos**, para corregir un error puede elegir un mensaje de error y seleccionar **Editar registro** para ver los datos migrados de la entidad. Si tiene varios errores a corregir, puede elegir **Corrección masiva de errores** para modificar las entidades de una lista. Aún así, debe abrir registros individuales si el error lo causó una entrada relacionada. Por ejemplo, un proveedor no se migrará si una dirección de correo electrónico a uno de sus contactos tiene un formato no válido.
+En la página **Errores de migración de datos** , para corregir un error puede elegir un mensaje de error y seleccionar **Editar registro** para ver los datos migrados de la entidad. Si tiene varios errores a corregir, puede elegir **Corrección masiva de errores** para modificar las entidades de una lista. Aún así, debe abrir registros individuales si el error lo causó una entrada relacionada. Por ejemplo, un proveedor no se migrará si una dirección de correo electrónico a uno de sus contactos tiene un formato no válido.
 
 Después de corregir uno o más errores, puede elegir **Migrar** para migrar solo las entidades que corrigió, sin necesidad de reiniciar por completo la migración.  
 
 > [!Tip]
-> Si ha solucionado más de un error, puede usar la función **Seleccionar más** para seleccionar varias líneas para migrar. De forma alternativa, si hay errores que no son importantes para solucionar, puede elegirlos y seleccionar **Omitir selecciones**.
+> Si ha solucionado más de un error, puede usar la función **Seleccionar más** para seleccionar varias líneas para migrar. De forma alternativa, si hay errores que no son importantes para solucionar, puede elegirlos y seleccionar **Omitir selecciones** .
 
 > [!Note]
 > Si tiene elementos que se incluyen en una lista de materiales, es posible que tenga que migrar más de una vez si el elemento original no se crea antes de las variantes que le hacen referencia. Si primero se crea una variante del elemento, la referencia al elemento original puede provocar un mensaje de error.  
@@ -155,7 +155,7 @@ Un modo de comprobar que los datos se han migrado correctamente es mirar las pá
 
 ## <a name="stopping-data-migration"></a>Detener la migración de datos
 
-Puede detener la migración de datos con la opción **Detener todas las migraciones**. Si utiliza esta opción, todas las migraciones pendientes también se detendrán.
+Puede detener la migración de datos con la opción **Detener todas las migraciones** . Si utiliza esta opción, todas las migraciones pendientes también se detendrán.
 
 ## <a name="see-also"></a>Consulte también
 

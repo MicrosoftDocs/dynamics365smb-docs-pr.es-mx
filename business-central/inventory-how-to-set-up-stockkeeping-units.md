@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c94a02cdbd658efcf96c5cff443ebfe03cb3feef
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4f5a1933e803322367b241e772d796f1365f9d11
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785907"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915471"
 ---
 # <a name="set-up-stockkeeping-units"></a>Configurar unidades de almacenamiento
 Utilice unidades de almacenamiento para registrar información sobre los productos de un determinado almacén o de un código de variante en particular.  
@@ -25,15 +25,15 @@ Utilice unidades de almacenamiento para registrar información sobre los product
 ## <a name="to-set-up-a-stockkeeping-unit"></a>Para configurar una unidad de almacenamiento  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Unidades de almacenamiento** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Nuevo**.  
-3.  Rellene los campos de la ficha. Se requieren los siguientes campos: **Nº producto**, **Cód. almacén** y/o **Cód. variante**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2.  Seleccione la acción **Nuevo** .  
+3.  Rellene los campos de la ficha. Se requieren los siguientes campos: **Nº producto** , **Cód. almacén** y/o **Cód. variante** . [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-Una vez configurada la primera unidad de almacenamiento para un producto, se selecciona la casilla **Existe unidad de almacenam.** de la ficha **Producto**.  
+Una vez configurada la primera unidad de almacenamiento para un producto, se selecciona la casilla **Existe unidad de almacenam.** de la ficha **Producto** .  
 
-Para crear varias unidades de almacenamiento para un producto, utilice el proceso **Crear ud. de almacenan.**.  
+Para crear varias unidades de almacenamiento para un producto, utilice el proceso **Crear ud. de almacenan.** .  
 
 > [!NOTE]  
->  La información de la ficha **Unidad de almacenamiento** tiene prioridad sobre la ficha de **Producto**.
+>  La información de la ficha **Unidad de almacenamiento** tiene prioridad sobre la ficha de **Producto** .
 
 > [!Warning]
 > Si UA se suministra a través de producción, el campo **Costo estándar** no se usa al facturar y ajustar el costo real del producto fabricado. En su lugar, el campo **Costo estándar** de la ficha subyacente de producto se utiliza, y cualquier desviación se calcula con el reparto de costos de dicho producto.<br /><br />

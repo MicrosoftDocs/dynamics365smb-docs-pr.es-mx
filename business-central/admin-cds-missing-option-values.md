@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 02/03/2020
-ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.date: 10/01/2020
+ms.openlocfilehash: 9148217400da88506e41b460157fe00be596a7c5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693035"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911690"
 ---
 # <a name="handling-missing-option-values"></a>Administración de valores de opciones que faltan
 [!INCLUDE[d365fin](includes/cds_long_md.md)] contiene solo tres campos de conjunto de opciones que contienen valores de opciones que puede asignar a campos [!INCLUDE[d365fin](includes/d365fin_md.md)] de tipo de opción<!-- Option type, not enum? @Onat can you vertify this? --> para sincronización automática. Durante la sincronización, las opciones no asignadas se ignoran y las opciones que faltan se anexan a la tabla [!INCLUDE[d365fin](includes/d365fin_md.md)] relacionada y se agregan la tabla de sistema **Asignación de opciones de CDS** para su administración manual más tarde. Por ejemplo, agregando las opciones que faltan en cualquiera de los productos y luego actualizando la asignación. Esta sección describe cómo funciona.
@@ -36,7 +36,7 @@ La página **Asignación de tablas de integración** contiene tres mapas de camp
 | Transportista: FULLLOAD   | 6            | Carga completa            |
 | Transportista: WILLCALL   | 7            | Recogida a cargo del cliente            |
 
-El contenido de la página **Asignación de opciones de CDS** se basa en los valores de enumeración de la tabla **Cuenta de CDS**. En [!INCLUDE[d365fin](includes/cds_long_md.md)], los siguientes campos en la entidad de cuenta se asignan a campos en los registros de clientes y proveedores:
+El contenido de la página **Asignación de opciones de CDS** se basa en los valores de enumeración de la tabla **Cuenta de CDS** . En [!INCLUDE[d365fin](includes/cds_long_md.md)], los siguientes campos en la entidad de cuenta se asignan a campos en los registros de clientes y proveedores:
 
 - **Dirección 1: Términos de flete** del tipo de datos Enum, donde los valores se definen de la siguiente manera:
 
@@ -109,7 +109,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ### <a name="update-d365fin-option-mapping"></a>Actualizar la asignación de opciones [!INCLUDE[d365fin](includes/cds_long_md.md)]
 Ahora puede recrear la asignación entre las opciones [!INCLUDE[d365fin](includes/cds_long_md.md)] y los registros [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-En la página **Asignación de tablas de integración**, elija la línea para la asignación **Condiciones de pago** y luego elija la acción **Sincronizar registros modificados**. La página **Asignación de opciones de CDS** se actualiza con los registros adicionales siguientes.
+En la página **Asignación de tablas de integración** , elija la línea para la asignación **Condiciones de pago** y luego elija la acción **Sincronizar registros modificados** . La página **Asignación de opciones de CDS** se actualiza con los registros adicionales siguientes.
 
 |         Registro                 | Valor de opción   | Título del valor de opción |
 |--------------------------------|----------------|----------------------|

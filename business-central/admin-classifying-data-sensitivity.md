@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 04/01/2020
-ms.openlocfilehash: e1b199c16bb39feb4ecbef9b36ccd49a5c32e3c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 10/01/2020
+ms.openlocfilehash: 8d26a8a2f6ec5ffe17f38d5dc429e50efe08ea7e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187423"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911641"
 ---
 # <a name="classifying-data-sensitivity"></a>Clasificar confidencialidad de datos
 Para clasificar los campos que contienen datos confidenciales o personales, un socio de Microsoft puede establecer la propiedad ```DataClassification``` en los campos. Esto requiere acceso a las tablas de la base de datos, ya sea a través del entorno de desarrollo o ejecutando un script de Windows PowerShell. Para obtener más información, consulte [Clasificar datos](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
@@ -36,7 +36,7 @@ En la tabla siguiente se describen niveles de confidencialidad de datos que pued
 Clasificar la confidencialidad de muchos campos uno a uno llevaría mucho tiempo. Para ayudar a acelerar el proceso, proporcionamos herramientas que puede usar para clasificar en bloque la confidencialidad de los campos y luego ajustar las clasificaciones para campos específicos. Puede encontrar herramientas en la hoja de cálculo Clasificación de datos, que está disponible en el Área de tareas de Administración de usuarios, grupos de usuarios y permisos. Es necesario ser administrador del sistema para usar la hoja de trabajo.
 
 > [!Important]
-> Cuando abra la hoja de trabajo Clasificación de datos por primera vez, estará vacía. Debe ejecutar la guía Clasificación de datos para generar la lista de campos. Para iniciar la guía, elija la acción **Configurar clasificaciones de datos**.
+> Cuando abra la hoja de trabajo Clasificación de datos por primera vez, estará vacía. Debe ejecutar la guía Clasificación de datos para generar la lista de campos. Para iniciar la guía, elija la acción **Configurar clasificaciones de datos** .
 
 Por ejemplo, la hoja de trabajo Clasificación de datos le permite hacer cosas como:  
 

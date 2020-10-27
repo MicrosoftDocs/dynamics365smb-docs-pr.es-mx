@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd15339a77fbe04ee823302256e8c9724c369bbf
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 484174bf02377081d9220f9dd4f0b47fdc547c34
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784218"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915546"
 ---
 # <a name="set-up-multiple-interest-rates"></a>Configurar varios tipos de interés.
 Las tasas de interés múltiples se utilizan para diferentes períodos de pagos retrasados en las transacciones comerciales. Por ejemplo, un gobierno especifica el interés máximo que debe percibirse por un consumidor. Esta tipo de interés se puede modificar dos veces al año el 1 de enero y el 1 de julio. Las partes acuerdan la tasa de interés entre las empresas (B2B) y no existe un límite para ese grupo de clientes. La tasa anunciada es usualmente cuatro por ciento más que el interés bancario normal.
@@ -24,12 +24,12 @@ Cuando cree los términos de interés y los términos de recordatorio, para la p
 
 ## <a name="to-set-up-multiple-interest-rates"></a>Configurar varios tipos de interés  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Términos interés** y luego elija el enlace relacionado.  
-2.  En la página **Términos interés**, seleccione el término requerido de interés y después seleccione la acción **Tipos de interés**.  
+2.  En la página **Términos interés** , seleccione el término requerido de interés y después seleccione la acción **Tipos de interés** .  
 3.  Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Elija el botón **Aceptar**.  
+4.  Elija el botón **Aceptar** .  
 5.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Términos recordatorio** y luego elija el enlace relacionado.  
-6.  En la página **Términos recordatorio**, seleccione el término recordatorio requerido y después seleccione la acción **Niveles**.  
-7.  En la página **Niveles recordatorio**, seleccione el campo **Cálculo interés**.  
+6.  En la página **Términos recordatorio** , seleccione el término recordatorio requerido y después seleccione la acción **Niveles** .  
+7.  En la página **Niveles recordatorio** , seleccione el campo **Cálculo interés** .  
 
 Cuando emite una nota de cargo financiero, la nota muestra los cargos financieros con tasas de interés múltiples para un período de tiempo específico. La nota también contiene los detalles de contacto del cliente, la empresa que emite la nota, el importe adicional y el importe total. El movimiento inicial de la nota se muestra en negrita. Los cargos financieros se calculan con tasas de interés múltiples para un período de tiempo específico y se imprimen después del movimiento inicial de la nota.  
 

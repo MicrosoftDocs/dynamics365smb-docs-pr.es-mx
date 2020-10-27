@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
-ms.date: 08/12/2020
+ms.date: 10/01/2020
 ms.author: andreipa
-ms.openlocfilehash: fbc512242a335a938b6280e749f5278947e0db5e
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.openlocfilehash: 25cf2c75ac6beca4f187b329c610914452d7dfcb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693160"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910816"
 ---
 # <a name="work-with-recurring-revenue-in-d365fin"></a>Trabajar con ingresos recurrentes en [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -39,7 +39,7 @@ Para obtener más información, consulte [Trabajar con diarios periódicos](ui-w
 
 El diario periódico de proyecto es una alternativa más avanzada al diario general. Define Artículos, Recursos y Cuentas, que deben repetirse para cada trabajo, y especifica la frecuencia de periodicidad.  
 
-Después de registrar un diario periódico de proyecto, puede crear varias facturas con la tarea **Crear factura de venta de proyecto**. Puede revisar y registrar facturas creadas en la página **Facturas de venta**.
+Después de registrar un diario periódico de proyecto, puede crear varias facturas con la tarea **Crear factura de venta de proyecto** . Puede revisar y registrar facturas creadas en la página **Facturas de venta** .
 
 ### <a name="why-use-this-option"></a>Por qué usar esta opción
 

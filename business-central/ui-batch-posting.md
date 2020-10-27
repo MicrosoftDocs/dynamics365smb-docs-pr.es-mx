@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 08/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c04dac37b043995a9b78e2f662f9411c3cf9ae1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1fd25f8b07a359414f62ef4757162f8a73889c27
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782529"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912732"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Registrar varios documentos al mismo tiempo
 
@@ -26,10 +26,10 @@ En lugar de registrar documentos individuales uno por uno, puede seleccionar var
 El siguiente procedimiento explica cómo registrar varios pedidos de compra inmediatamente. Los pasos son parecidos a todos los documentos de compra y venta.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.
-2. En la página **Pedidos de compra**, seleccione todos los pedidos que se registrarán:
-3. En el campo **N.º**, elija los tres puntos verticales para abrir el menú contextual y luego elija la acción **Seleccionar más**.
+2. En la página **Pedidos de compra** , seleccione todos los pedidos que se registrarán:
+3. En el campo **N.º** , elija los tres puntos verticales para abrir el menú contextual y luego elija la acción **Seleccionar más** .
 4. Seleccione la casilla para todas las líneas que representan los pedidos que desea registrar al mismo tiempo.
-5. Elija la acción **Registro** y, a continuación, seleccione la acción **Registrar**.
+5. Elija la acción **Registro** y, a continuación, seleccione la acción **Registrar** .
 6. Elija el botón **Sí** para en el mensaje de confirmación.
 
 ## <a name="to-batch-post-multiple-purchase-orders"></a>Para registrar por lotes varios pedidos de compra
@@ -40,17 +40,17 @@ El siguiente procedimiento explica cómo registrar por lotes los pedidos de comp
 > La contabilización por lotes de documentos se realiza en segundo plano. [!INCLUDE [prodshort](includes/prodshort.md)] online incluye trabajos predeterminados para publicación en segundo plano y publicación por lotes. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.  
-2. En la página **Pedidos de compra**, seleccione todos los pedidos que se registrarán:
-3. En el campo **N.º**, elija los tres puntos verticales para abrir el menú contextual y luego elija la acción **Seleccionar más**.
+2. En la página **Pedidos de compra** , seleccione todos los pedidos que se registrarán:
+3. En el campo **N.º** , elija los tres puntos verticales para abrir el menú contextual y luego elija la acción **Seleccionar más** .
 4. Seleccione la casilla para todas las líneas que representan los pedidos que desea registrar al mismo tiempo.
-5. Elija la acción **Registro** y, a continuación, seleccione la acción **Registrar por lotes**.
-6. En la página **Reg. lotes pedidos compra**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Elija el botón **Aceptar**.
-8. Para ver posibles problemas que han sucedido durante el registro por lotes de documentos, abra la página **Registro de mensajes de error**.
+5. Elija la acción **Registro** y, a continuación, seleccione la acción **Registrar por lotes** .
+6. En la página **Reg. lotes pedidos compra** , rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Elija el botón **Aceptar** .
+8. Para ver posibles problemas que han sucedido durante el registro por lotes de documentos, abra la página **Registro de mensajes de error** .
 
 Los pedidos de compra ahora se agregarán a una entrada de cola de trabajos dedicada, que define cuándo se registran los documentos. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
-Si selecciona **PDF** en el campo **Tipo de salida de informe**, los pedidos de compra registrados correctamente estarán disponibles en la pata **Bandeja de entrada de informes** de su área de tareas.
+Si selecciona **PDF** en el campo **Tipo de salida de informe** , los pedidos de compra registrados correctamente estarán disponibles en la pata **Bandeja de entrada de informes** de su área de tareas.
 
 ## <a name="see-also"></a>Consulte también
 

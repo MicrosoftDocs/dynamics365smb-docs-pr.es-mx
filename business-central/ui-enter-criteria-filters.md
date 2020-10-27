@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7e08a4487c9ae6782555530adc0c0cf4cfc5458e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5c67ea33937ded164626e4c403522a7dc1f3dca0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786907"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912582"
 ---
 # <a name="sorting-searching-and-filtering"></a>Ordenar, buscar y filtrar
 
@@ -32,9 +32,9 @@ When you want to search for data, such as customer names, addresses, or product 
 
 ## <a name="sorting"></a>Ordenación
 
-La ordenación facilita la obtención rápida de un resumen de sus datos. Si hay varios clientes, por ejemplo, puede elegir ordenarlos por **N.º de cliente**, **Grupo contable cliente**, **Cód. divisa**, **Cód. país/región** o **N.º de registro de impuesto sobre las ventas** para disponer de la vista general que desea.
+La ordenación facilita la obtención rápida de un resumen de sus datos. Si hay varios clientes, por ejemplo, puede elegir ordenarlos por **N.º de cliente** , **Grupo contable cliente** , **Cód. divisa** , **Cód. país/región** o **N.º de registro de impuesto sobre las ventas** para disponer de la vista general que desea.
 
-Para ordenar una lista, puede elegir un texto de cabecera de columna para alternar entre el pedido ascendente y descendente o elegir la flecha desplegable de la cabecera de columna y, a continuación, elegir la acción **Ascendente** o **Descendente**.  
+Para ordenar una lista, puede elegir un texto de cabecera de columna para alternar entre el pedido ascendente y descendente o elegir la flecha desplegable de la cabecera de columna y, a continuación, elegir la acción **Ascendente** o **Descendente** .  
 
 > [!NOTE]  
 > El ordenamiento no se admite en imágenes, campos BLOB, FlowFilters ni campos que no pertenecen a una tabla.  
@@ -64,11 +64,11 @@ En la tabla siguiente se muestran algunos ejemplos de cómo puede utilizar la b�
 
 |Criterios de búsqueda|Búsquedas…|
 |---------------|----------|
-|`man`<br />o <br />`Man`|Todos los registros con los campos que contienen el texto **man**, independientemente de las mayúsculas y minúsculas. Por ejemplo, **Manchester**, **manual** o **Norman**. |
+|`man`<br />o <br />`Man`|Todos los registros con los campos que contienen el texto **man** , independientemente de las mayúsculas y minúsculas. Por ejemplo, **Manchester** , **manual** o **Norman** . |
 |`'Man'`|Todos los registros con los campos que contienen solo el texto **Man** y coinciden las mayúsculas y minúsculas.|
-|`Man*`|Todos los registros con los campos que empiezan por <b>Man</b> y coinciden las mayúsculas y minúsculas. Por ejemplo, **Manchester** pero no **manual** o **Norman**.|
-|`@Man*`|Todos los registros con los campos que empiezan por **man** independientemente de las mayúsculas y minúsculas. Por ejemplo, **Manchester** y **manual** pero no **Norman**.|
-|`@*man`|Todos los registros que acaban por **man** independientemente de las mayúsculas y minúsculas. Por ejemplo, **Norman** pero no **Manchester** o **manual**.|
+|`Man*`|Todos los registros con los campos que empiezan por <b>Man</b> y coinciden las mayúsculas y minúsculas. Por ejemplo, **Manchester** pero no **manual** o **Norman** .|
+|`@Man*`|Todos los registros con los campos que empiezan por **man** independientemente de las mayúsculas y minúsculas. Por ejemplo, **Manchester** y **manual** pero no **Norman** .|
+|`@*man`|Todos los registros que acaban por **man** independientemente de las mayúsculas y minúsculas. Por ejemplo, **Norman** pero no **Manchester** o **manual** .|
 
 > [!TIP]
 > Puede presionar **F3** para activar y desactivar el cuadro de búsqueda. Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#KeyboardFilter).
@@ -93,45 +93,45 @@ Para las listas, los filtros se muestran en un panel de filtro que aparece a la 
 
 Para los campos "normales" que contienen datos, fecha de configuración o datos de negocio, puede establecer filtros seleccionando datos y escribiendo valores de filtro, y puede usar símbolos para definir criterios de filtro avanzados. Para obtener más información, vea [Introducción de criterios de filtros](ui-enter-criteria-filters.md#entering-filter-criteria).
 
-Sin embargo, para campos de tipo **Opción**, solo puede establecer un filtro seleccionando una o más opciones de una lista desplegable de las opciones disponibles. Un ejemplo de un campo de opción es el campo **Estado** en la página **Pedidos de venta**.
+Sin embargo, para campos de tipo **Opción** , solo puede establecer un filtro seleccionando una o más opciones de una lista desplegable de las opciones disponibles. Un ejemplo de un campo de opción es el campo **Estado** en la página **Pedidos de venta** .
 
 > [!NOTE]
-> Cuando selecciona varias opciones como valor de filtro, la relación entre las opciones se define como *O*. Por ejemplo, si selecciona las casillas **Abierto** y **Lanzado** en el campo de filtro **Estado** en la página **Pedidos de venta**, significa que se muestran los pedidos de venta que están abiertos o lanzados.
+> Cuando selecciona varias opciones como valor de filtro, la relación entre las opciones se define como *O* . Por ejemplo, si selecciona las casillas **Abierto** y **Lanzado** en el campo de filtro **Estado** en la página **Pedidos de venta** , significa que se muestran los pedidos de venta que están abiertos o lanzados.
 
 ### <a name="setting-filters-on-lists"></a>Configuración de filtros en listas
 
-En las listas, los filtros se establecen utilizando el panel de filtro. Para mostrar el panel de filtro de una lista, elija la flecha desplegable situada junto al nombre de la página y luego elija la acción **Mostrar panel de filtros**. Alternativamente, presione **Mayús+F3**.
+En las listas, los filtros se establecen utilizando el panel de filtro. Para mostrar el panel de filtro de una lista, elija la flecha desplegable situada junto al nombre de la página y luego elija la acción **Mostrar panel de filtros** . Alternativamente, presione **Mayús+F3** .
 
-Para mostrar el panel de filtro de una columna de una lista, elija la flecha desplegable y luego elija la acción **Filtrar**. Alternativamente, presione **Mayús+F3**. El panel de filtro se abre con la columna seleccionada que se muestra como un campo de filtro en la sección **Filtrar lista por**.
+Para mostrar el panel de filtro de una columna de una lista, elija la flecha desplegable y luego elija la acción **Filtrar** . Alternativamente, presione **Mayús+F3** . El panel de filtro se abre con la columna seleccionada que se muestra como un campo de filtro en la sección **Filtrar lista por** .
 
-El panel de filtro muestra los filtros actuales para una lista y le permite configurar sus propios filtros personalizados en uno o más campos eligiendo la acción **+ Filtrar**.
+El panel de filtro muestra los filtros actuales para una lista y le permite configurar sus propios filtros personalizados en uno o más campos eligiendo la acción **+ Filtrar** .
 
- Un panel de filtros se divide en tres secciones: **Vistas**, **Filtrar lista por** y **Filtrar totales por**:
+ Un panel de filtros se divide en tres secciones: **Vistas** , **Filtrar lista por** y **Filtrar totales por** :
 
 - **Vistas**
 
-  Algunas listas incluyen la sección **Vistas**. Las vistas son variaciones de la lista que se han preconfigurado con filtros. Puede definir y guardar tantas vistas como desee por lista, y las vistas estarán a su disposición en cualquier dispositivo en el que inicie sesión. Para obtener más información, consulte [Guardar y personalizar vistas de lista](ui-views.md).
+  Algunas listas incluyen la sección **Vistas** . Las vistas son variaciones de la lista que se han preconfigurado con filtros. Puede definir y guardar tantas vistas como desee por lista, y las vistas estarán a su disposición en cualquier dispositivo en el que inicie sesión. Para obtener más información, consulte [Guardar y personalizar vistas de lista](ui-views.md).
 
 - **Filtrar lista por**
 
-  Es donde se agregan filtros en campos específicos para reducir el número de registros mostrados. Para agregar un filtro, elija la acción **+ Filtrar**, escriba el nombre del campo por el que desea filtrar la lista o elija un campo de la lista desplegable.
+  Es donde se agregan filtros en campos específicos para reducir el número de registros mostrados. Para agregar un filtro, elija la acción **+ Filtrar** , escriba el nombre del campo por el que desea filtrar la lista o elija un campo de la lista desplegable.
 
 - **Filtrar totales por**
 
-  Algunas listas que muestran campos calculados, como cantidades e importes, incluyen la sección **Filtrar totales por**, donde puede ajustar varias dimensiones que influyen en los cálculos. Para agregar un filtro, elija la acción **+ Filtrar**, escriba el nombre del campo por el que desea filtrar la lista o elija un campo de la lista desplegable.
+  Algunas listas que muestran campos calculados, como cantidades e importes, incluyen la sección **Filtrar totales por** , donde puede ajustar varias dimensiones que influyen en los cálculos. Para agregar un filtro, elija la acción **+ Filtrar** , escriba el nombre del campo por el que desea filtrar la lista o elija un campo de la lista desplegable.
 
   > [!NOTE]
   > FlowFilters es el encargado de controlar los filtros de la sección **Filtrar totales por** en el diseño de la página. Para obtener información técnica, vea [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
-Puede establecer un filtro simple directamente en una lista mediante el panel de filtro, es decir, un filtro que muestra solo registros con el mismo valor que en la celda seleccionada. Seleccione una celda de la lista, elija la flecha desplegable y luego elija la acción **Filtrar a este valor**. Alternativamente, presione **Alt+F3**.
+Puede establecer un filtro simple directamente en una lista mediante el panel de filtro, es decir, un filtro que muestra solo registros con el mismo valor que en la celda seleccionada. Seleccione una celda de la lista, elija la flecha desplegable y luego elija la acción **Filtrar a este valor** . Alternativamente, presione **Alt+F3** .
 
 ### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Configuración de filtros en informes, trabajos por lotes y XMLports
 
-Para informes y XMLports, los filtros están visibles directamente en la página de solicitud. La página de solicitud muestra los últimos filtros utilizados de acuerdo con su selección en el campo **Usar valores predeterminados de**. Para obtener más información, consulte [Uso de la configuración guardada](ui-work-report.md#SavedSettings).
+Para informes y XMLports, los filtros están visibles directamente en la página de solicitud. La página de solicitud muestra los últimos filtros utilizados de acuerdo con su selección en el campo **Usar valores predeterminados de** . Para obtener más información, consulte [Uso de la configuración guardada](ui-work-report.md#SavedSettings).
 
-La sección principal **Filtrar** muestra los campos de filtro predeterminados que usa para delimitar qué registros incluir en el informe o XMLport. Para agregar un filtro, elija la acción **+ Filtrar**, escriba el nombre del campo por el que desea filtrar o elija un campo de la lista desplegable.
+La sección principal **Filtrar** muestra los campos de filtro predeterminados que usa para delimitar qué registros incluir en el informe o XMLport. Para agregar un filtro, elija la acción **+ Filtrar** , escriba el nombre del campo por el que desea filtrar o elija un campo de la lista desplegable.
 
-En la sección **Filtrar totales por**, puede ajustar varias dimensiones que influyen en los cálculos en el informe o XMLport. Para agregar un filtro, elija la acción **+ Filtrar**, escriba el nombre del campo por el que desea filtrar o elija un campo de la lista desplegable.
+En la sección **Filtrar totales por** , puede ajustar varias dimensiones que influyen en los cálculos en el informe o XMLport. Para agregar un filtro, elija la acción **+ Filtrar** , escriba el nombre del campo por el que desea filtrar o elija un campo de la lista desplegable.
 
 ## <a name="entering-filter-criteria"></a>Introducción de criterios de filtros
 
@@ -139,7 +139,7 @@ Tanto en el panel de filtro como en una página de solicitud, introduzca sus cri
 
 El tipo de campo de filtro determina qué criterios puede especificar. Por ejemplo, filtrar un campo que tiene valores fijos solo le permitirá elegir entre esos valores. Para obtener más información sobre símbolos de filtro especiales, consulte [Criterios de filtro](#FilterCriteria) y [Tokens de filtro](#FilterTokens).
 
-Las columnas que ya tienen filtros se indican mediante el icono ![Icono Filtro](media/ui-search/filter-icon.png "Icono de filtro") en el encabezado de la columna. Para eliminar un filtro, seleccione la flecha desplegable y, a continuación, elija la acción **Borrar filtro**.
+Las columnas que ya tienen filtros se indican mediante el icono ![Icono Filtro](media/ui-search/filter-icon.png "Icono de filtro") en el encabezado de la columna. Para eliminar un filtro, seleccione la flecha desplegable y, a continuación, elija la acción **Borrar filtro** .
 
 > [!TIP]
 > Acelere la búsqueda y el análisis de sus datos utilizando combinaciones de atajos de teclado. Por ejemplo, seleccione un campo, use **Mayús+Alt+F3** para agregar ese campo al panel de filtros, escriba los criterios de filtro, use **Ctrl+Intro** para volver a las filas, seleccione otro campo y use **Alt+F3** para filtrar ese valor. Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#KeyboardFilter).
@@ -149,7 +149,7 @@ Las columnas que ya tienen filtros se indican mediante el icono ![Icono Filtro](
 Al introducir criterios, puede usar todos los números y las letras que normalmente se emplean en un campo. También puede usar símbolos especiales (u operadores) para filtrar aún más los resultados. En las tablas siguientes se muestran los símbolos que se pueden usar en los filtros. Para obtener más información sobre fechas y horas, también puede consultar [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]  
-> Puede haber instancias donde los valores de campo contengan los siguientes símbolos y desee filtrarlos. Para ello, debe incluir la expresión de filtro que contiene el símbolo entre comillas ("). Por ejemplo, si desea filtrar en los registros que comienzan por el texto *S&R*, la expresión de filtro es `'S&R*'`.
+> Puede haber instancias donde los valores de campo contengan los siguientes símbolos y desee filtrarlos. Para ello, debe incluir la expresión de filtro que contiene el símbolo entre comillas ("). Por ejemplo, si desea filtrar en los registros que comienzan por el texto *S&R* , la expresión de filtro es `'S&R*'`.
 
 En las siguientes secciones se describe cómo utilizar los diferentes operadores.
 
@@ -252,7 +252,7 @@ Al introducir criterios de filtro, también puede escribir palabras que tengan u
 
 #### <a name="me-or-userid-records-assigned-to-you"></a>(%me o %userid) Registros que se le han asignado
 
-Utilice `%me` o `%userid` cuando filtre campos que contengan el ID de usuario, como el campo **Asignado a ID de usuario**, para mostrar todos los registros que se le asignaron.
+Utilice `%me` o `%userid` cuando filtre campos que contengan el ID de usuario, como el campo **Asignado a ID de usuario** , para mostrar todos los registros que se le asignaron.
 
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  

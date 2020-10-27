@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d7aafe33ac70546378abd90cc98aea3b1a326c77
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d53932be1597a96ced906ed7546ce8ff011639e3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782479"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912632"
 ---
 # <a name="copy-and-paste-faq"></a>Preguntas frecuentes sobre copiar y pegar
 Puede copiar una o más filas (registros) de una lista o un solo campo en una página y luego pegar lo que ha copiado en la misma página, otra página o un documento externo (como Microsoft Excel y el correo electrónico de Outlook). En resumen, para copiar, presione CTRL+C (cmd+C en macOS) en su teclado. Para pegar, presione CTRL+V (cmd+V en macOS).
@@ -38,7 +38,7 @@ Para copiar una sola fila, selecciónela y, a continuación, presione Ctrl+C.
 
 Si desea copiar más filas, puede:
 - Presionar Ctrl+Clic en otra fila o Mayús+Clic para seleccionar la fila y todas las filas intermedias. Consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#CopyRows) para obtener más combinaciones de mouse y teclado para seleccionar filas.
-- Seleccione ![Mostrar más opciones](media/show-more-options-icon.png "Icono Mostrar más opciones") en la primera columna, elija **Seleccionar más**, seleccione la casilla junto a cada fila que desea copiar y luego presione Ctrl+C.
+- Seleccione ![Mostrar más opciones](media/show-more-options-icon.png "Icono Mostrar más opciones") en la primera columna, elija **Seleccionar más** , seleccione la casilla junto a cada fila que desea copiar y luego presione Ctrl+C.
 
 ## <a name="how-do-i-paste-rows"></a>¿Cómo pego las filas?
 Seleccione una fila vacía, con el enfoque en cualquier celda y luego presione Crtl+V.

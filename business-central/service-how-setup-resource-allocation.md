@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resource, skill, service, zones
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 99ef1e0f9c78e75cf9713808a23576b6db6fec34
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cac2d270fec47d35749d3ccf1ce1e3a3f130d097
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195225"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910341"
 ---
 # <a name="set-up-resource-allocation"></a>Configurar asignación de recursos
-Para garantizar que una tarea de servicio esté bien efectuada, es importante encontrar un recurso que esté cualificado para hacer el trabajo. Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] de forma que resulte fácil asignar a quien tiene las habilidades correctas para el trabajo. En [!INCLUDE[d365fin](includes/d365fin_md.md)], llamamos a esto _asignación de recursos_. Puede asignar recursos basándose en las habilidades, disponibilidad o si se encuentran en la misma zona que el cliente. 
+Para garantizar que una tarea de servicio esté bien efectuada, es importante encontrar un recurso que esté cualificado para hacer el trabajo. Puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] de forma que resulte fácil asignar a quien tiene las habilidades correctas para el trabajo. En [!INCLUDE[d365fin](includes/d365fin_md.md)], llamamos a esto _asignación de recursos_ . Puede asignar recursos basándose en las habilidades, disponibilidad o si se encuentran en la misma zona que el cliente. 
 
 Para usar la asignación de recursos, debe configurar:  
   
@@ -34,8 +34,8 @@ Para usar la asignación de recursos, debe configurar:
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos de servicio** o **Recursos** y luego elija el enlace relacionado.  
 2. Abra la ficha del producto o recurso de servicio y elija una de las opciones siguientes:  
   
-    * Para productos de servicio, elija **Habilidades recurso**.  
-    * Para los recursos, elija **Habilidades**.  
+    * Para productos de servicio, elija **Habilidades recurso** .  
+    * Para los recursos, elija **Habilidades** .  
 
 ## <a name="to-set-up-zones"></a>Para configurar zonas
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Zonas** y luego elija el enlace relacionado.  
@@ -45,12 +45,12 @@ Para usar la asignación de recursos, debe configurar:
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** o **Recursos** y luego elija el enlace relacionado.  
 2. Abra la ficha del producto o recurso de servicio y elija una de las opciones siguientes:  
   
-    * Para los clientes, elija una zona en el campo **Cód. zona servicio**.  
-    * Para los recursos, elija la acción de **Zonas servicio**.  
+    * Para los clientes, elija una zona en el campo **Cód. zona servicio** .  
+    * Para los recursos, elija la acción de **Zonas servicio** .  
 
 ## <a name="to-specify-what-to-show-when-a-resource-is-chosen"></a>Para especificar qué mostrar cuando seleccione un recurso
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración del servicio** y luego elija el enlace relacionado. 
-2. En el campo **Opción habilidades recurso**, seleccione una de las opciones descritas en la tabla siguiente.  
+2. En el campo **Opción habilidades recurso** , seleccione una de las opciones descritas en la tabla siguiente.  
   
     |**Opción**|**Descripción**|  
     |------------|-------------|  
@@ -62,19 +62,19 @@ Para usar la asignación de recursos, debe configurar:
 Es posible que tenga que cambiar la capacidad de los recursos.  
   
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Capacidad recurso** y luego elija el enlace relacionado.  
-2. Elija el recurso y, a continuación, elija la acción **Fijar capacidad**.  
-3. Realice los cambios y, a continuación, seleccione **Actualizar capacidad**.  
+2. Elija el recurso y, a continuación, elija la acción **Fijar capacidad** .  
+3. Realice los cambios y, a continuación, seleccione **Actualizar capacidad** .  
 
 ## <a name="to-update-skills-for-items-service-items-or-service-item-groups"></a>Para actualizar las habilidades para los productos, productos de servicio o grupos de producto de servicio
-Si desea cambiar los códigos de habilidades asignados a elementos, por ejemplo de **PC** a **PCS**, puede hacerlo para un producto, un producto de servicio o para todos los productos de un grupo de productos de servicio.  
+Si desea cambiar los códigos de habilidades asignados a elementos, por ejemplo de **PC** a **PCS** , puede hacerlo para un producto, un producto de servicio o para todos los productos de un grupo de productos de servicio.  
   
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Productos**, **Producto de servicio** o **Grupo de productos de servicio** y, a continuación, elija el vínculo relacionado.  
-2. Elija la entidad que desee actualizar y, a continuación, elija la acción **Habilidades recurso**.  
-3. En la línea con el código que desea modificar, en el campo **Cód. cualificación**, elija el código de cualificación correspondiente.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Productos** , **Producto de servicio** o **Grupo de productos de servicio** y, a continuación, elija el vínculo relacionado.  
+2. Elija la entidad que desee actualizar y, a continuación, elija la acción **Habilidades recurso** .  
+3. En la línea con el código que desea modificar, en el campo **Cód. cualificación** , elija el código de cualificación correspondiente.  
 4.  Si el producto tiene productos de servicio asociados, se abrirá un cuadro de diálogo con las dos opciones siguientes:  
   
     * Cambiar el código de capacidad al valor seleccionado: seleccione esta opción si desea reemplazar el antiguo código de habilidad por el nuevo en todos los productos de servicio relacionados.  
-    * Elimine los códigos de aptitudes o actualice sus relaciones: seleccione esta opción si desea modificar el código de aptitud solo en este artículo. El código de habilidad de los productos de servicio relacionados se reasignará, es decir, se actualizará el campo **Se asigna de**.  
+    * Elimine los códigos de aptitudes o actualice sus relaciones: seleccione esta opción si desea modificar el código de aptitud solo en este artículo. El código de habilidad de los productos de servicio relacionados se reasignará, es decir, se actualizará el campo **Se asigna de** .  
   
 ## <a name="see-also"></a>Consulte también
 [Asignar recursos](service-how-to-allocate-resources.md)  

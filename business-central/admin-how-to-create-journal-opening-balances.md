@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9984d61e97ff6c04733bd10818deb1d6cf57a66c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a2c2dc42ad600d4e3d05f4f3bdc1e5cbe2947812
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783637"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915779"
 ---
 # <a name="create-journal-opening-balances"></a>Crear saldos iniciales del diario
 
@@ -34,13 +34,13 @@ Antes de comenzar, asegúrese de estar en la página área de tareas de la admin
 2. Abra la hoja de trabajo de configuración e importe los datos existentes acerca de los clientes, los productos, los proveedores y la contabilidad. Para obtener más información, consulte [Migrar datos del cliente](admin-migrate-customer-data.md).  
 
     Ahora tiene los datos maestros correctos. A continuación, agregue los saldos iniciales. Los siguientes pasos describen cómo crear líneas de diario para cuentas de mayor, pero lo mismo se aplica a la creación de líneas de diario para clientes, proveedores y artículos.  
-3. Elija, la acción **Crear líneas diario de cuentas general**.  
-4. Rellene la ficha desplegable **Opciones** según corresponda y establezca los filtros según sea necesario. Por ejemplo, en el campo **Libro diario**, especifique un nombre.  
-5. Elija el botón **Aceptar**. Los registros ahora están en el diario, pero los importes estarán vacíos.  
+3. Elija, la acción **Crear líneas diario de cuentas general** .  
+4. Rellene la ficha desplegable **Opciones** según corresponda y establezca los filtros según sea necesario. Por ejemplo, en el campo **Libro diario** , especifique un nombre.  
+5. Elija el botón **Aceptar** . Los registros ahora están en el diario, pero los importes estarán vacíos.  
 6. Exporte la tabla del diario a Excel y especifique manualmente la información de cuenta de registro y saldo a partir de los datos heredados.
 7. Importe y aplique la información de la tabla a la nueva empresa. Las líneas del diario estarán preparadas para el registro.  
-8. En la hoja de trabajo de configuración, seleccione la tabla de línea de diario y elija la acción **Datos de base de datos**.  
-9. Revise la información y, a continuación, seleccione la acción **Registrar**.  
+8. En la hoja de trabajo de configuración, seleccione la tabla de línea de diario y elija la acción **Datos de base de datos** .  
+9. Revise la información y, a continuación, seleccione la acción **Registrar** .  
 10. Repita los pasos para importar y registrar todos los saldos abiertos.  
 
 > [!TIP]

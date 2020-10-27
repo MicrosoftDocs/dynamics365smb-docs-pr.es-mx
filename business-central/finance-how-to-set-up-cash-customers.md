@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b93999ec3e8520dedd1601efad7fc00d4d625317
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a4f73de177129f5bc33808e6acf74bd273ae0d33
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788636"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915571"
 ---
 # <a name="set-up-cash-customers"></a>Configurar clientes de efectivo
 No se puede crear una factura sin un número de cliente. Esto es válido, incluso si realiza una venta en efectivo y no tiene nada que registrar en una cuenta de cliente.  
@@ -23,9 +23,9 @@ No se puede crear una factura sin un número de cliente. Esto es válido, inclus
 ## <a name="to-set-up-a-cash-customer"></a>Para configurar un cliente de efectivo  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cliente** y luego elija el enlace relacionado.  
 2.  Cree una ficha **Cliente** nueva. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).
-3.  En el campo **N.º**, introduzca, por ejemplo, **Efectivo**.  
-4.  En el campo **Nombre**, escriba **Venta en efectivo**.  
-5.  En la ficha desplegable **Facturación**, rellene los campos **Grupo contable cliente** y **Grupo contable negocio**.  
+3.  En el campo **N.º** , introduzca, por ejemplo, **Efectivo** .  
+4.  En el campo **Nombre** , escriba **Venta en efectivo** .  
+5.  En la ficha desplegable **Facturación** , rellene los campos **Grupo contable cliente** y **Grupo contable negocio** .  
 
  Ya ha configurado un cliente que contiene suficiente información para facturarle.  
 

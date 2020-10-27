@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9beffaa8e881717506d0c471b9e8bfb9feaf3168
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0ff9dd0851b220b9e3e4888e43ffa070397b8943
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779145"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911932"
 ---
 # <a name="ship-items"></a>Enviar productos
 
@@ -32,10 +32,10 @@ A continuación se describe cómo enviar productos de un pedido de venta. Los pa
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
 2. Abra un pedido de venta existente o cree uno nuevo. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
-3. Escriba la cantidad enviada en el campo **Cantidad a enviar**.
+3. Escriba la cantidad enviada en el campo **Cantidad a enviar** .
 
-    El valor del campo **Cdad. enviada** se actualiza según corresponde. Si se trata de un envío parcial, el valor es menor que el valor del campo **Cantidad**.
-4. Seleccione la acción **Registrar**.
+    El valor del campo **Cdad. enviada** se actualiza según corresponde. Si se trata de un envío parcial, el valor es menor que el valor del campo **Cantidad** .
+4. Seleccione la acción **Registrar** .
 
 > [!NOTE]
 > Si su organización no utiliza pedidos de ventas, cuando contabilice la factura de ventas, [!INCLUDE [prodshort](includes/prodshort.md)] asume que ha enviado la cantidad completa. Si esto contradice el funcionamiento de su organización, le recomendamos que utilice pedidos de ventas y registre remisiones como se explica en este artículo.
@@ -49,30 +49,30 @@ Primero cree un documento de envío de un documento de origen de negocio. A cont
 Normalmente, el empleado que es responsable de los envíos crea una remisión de almacén. El siguiente procedimiento describe cómo crear la remisión manualmente en la versión predeterminada de [!INCLUDE[prodshort](includes/prodshort.md)], pero su organización podría haber automatizado parte del proceso, como el uso de escáneres portátiles o montados que son compatibles con proveedores externos.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Remisiones de almacén** y luego elija el enlace relacionado.  
-2. Seleccione la acción **Nuevo**.  
+2. Seleccione la acción **Nuevo** .  
 
-    Rellene los campos en la ficha desplegable **General**. Al recuperar las líneas del documento de origen, se copia parte de la información en cada línea.  
+    Rellene los campos en la ficha desplegable **General** . Al recuperar las líneas del documento de origen, se copia parte de la información en cada línea.  
 
-    Para la configuración de almacén con ubicación y picking directos, si el almacén tiene una zona y ubicación genéricas para los envíos, se rellenarán automáticamente los campos **Cód. zona** y **Cód. ubicación**, pero puede cambiarlos como considere.  
+    Para la configuración de almacén con ubicación y picking directos, si el almacén tiene una zona y ubicación genéricas para los envíos, se rellenarán automáticamente los campos **Cód. zona** y **Cód. ubicación** , pero puede cambiarlos como considere.  
 
     > [!NOTE]  
     > Si desea enviar productos con códigos de clase de almacén de la ubicación en el campo **Cód. ubicación** de la cabecera de documento, debe eliminar el contenido del campo **Cód. ubicación** en la cabecera antes de recuperar líneas del documento de origen para los productos.  
-3. Seleccione la acción **Tomar doc. origen**. Se abre la página **Documentos origen**.
+3. Seleccione la acción **Tomar doc. origen** . Se abre la página **Documentos origen** .
 
     Desde una recepción o una remisión de almacén nuevos o abiertos, puede utilizar la página **Filtros para traer docs. orig.** para recuperar las líneas del documento de origen lanzado que definen la artículos para recibir o enviar.
 
-    1. Elija la acción **Utiliz. filt. para tomar docs. or**.  
-    2. Para configurar un nuevo filtro introduzca un código descriptivo en el campo **Código** y, a continuación, elija la acción **Modificar**.  
+    1. Elija la acción **Utiliz. filt. para tomar docs. or** .  
+    2. Para configurar un nuevo filtro introduzca un código descriptivo en el campo **Código** y, a continuación, elija la acción **Modificar** .  
     3. Defina el tipo de líneas del documento de origen que desea que recupere el sistema rellenando los campos de filtro correspondientes.  
-    4. Seleccione la acción **Ejecutar**.  
+    4. Seleccione la acción **Ejecutar** .  
 
     Todas las líneas del documento de origen lanzado que cumplan los criterios del filtro se insertarán en la página **Remisión almacén** desde las que se activó la función del filtro.  
 
-    Las combinaciones de filtros que defina se guardan en la página **Filtros para traer docs. orig.** hasta que la próxima vez que las necesite. Puede crear un número ilimitado de combinaciones de filtros. Puede modificar los criterios en cualquier momento eligiendo la acción **Modificar**.
+    Las combinaciones de filtros que defina se guardan en la página **Filtros para traer docs. orig.** hasta que la próxima vez que las necesite. Puede crear un número ilimitado de combinaciones de filtros. Puede modificar los criterios en cualquier momento eligiendo la acción **Modificar** .
 
-4. Seleccione los documentos de origen de los que desea enviar productos y, a continuación, haga clic en **Aceptar**.  
+4. Seleccione los documentos de origen de los que desea enviar productos y, a continuación, haga clic en **Aceptar** .  
 
-Las líneas de los documentos de origen aparecerán en la página **Remisión almacén**. El campo **Cantidad a enviar** se rellena con la cantidad pendiente de cada línea, pero puede cambiarla según necesite. Si ha eliminado el contenido del campo **Cód. ubicación** de la ficha desplegable **General** antes de tomar las líneas, debe rellenar un código de ubicación apropiado en cada línea de envío.  
+Las líneas de los documentos de origen aparecerán en la página **Remisión almacén** . El campo **Cantidad a enviar** se rellena con la cantidad pendiente de cada línea, pero puede cambiarla según necesite. Si ha eliminado el contenido del campo **Cód. ubicación** de la ficha desplegable **General** antes de tomar las líneas, debe rellenar un código de ubicación apropiado en cada línea de envío.  
 
 > [!NOTE]  
 > No puede enviar más productos que el número que se muestra en el campo **Cdad. pendiente** de la línea del documento de origen. Para enviar más productos, recupere otro documento de origen que contenga una línea para el producto mediante la función de filtro para tomar documentos de origen con el producto.  
@@ -84,8 +84,8 @@ Cuando tenga las líneas que desea enviar, puede iniciar el proceso que envía l
 Normalmente, un empleado de almacén responsable del picking crea un documento de picking, o bien abre un documento ya creado de picking.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Remisiones de almacén** y luego elija el enlace relacionado.
-2. Seleccione el envío de almacén para el que desea realizar el picking, y después seleccione la acción **Crear picking**.
-3. Rellene los campos en la página de solicitud y, a continuación, elija el botón **Aceptar**. Se crea el documento de picking de almacén especificado.
+2. Seleccione el envío de almacén para el que desea realizar el picking, y después seleccione la acción **Crear picking** .
+3. Rellene los campos en la página de solicitud y, a continuación, elija el botón **Aceptar** . Se crea el documento de picking de almacén especificado.
 
     Alternativamente, abra un picking de almacén existente.
 4. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Picking** y luego elija el enlace relacionado. Seleccione el picking de almacén con el que desea trabajar.
@@ -95,7 +95,7 @@ Normalmente, un empleado de almacén responsable del picking crea un documento d
     Puede ordenar las líneas, asignar un empleado al picking, definir un filtro de división de bultos, si utiliza ubicación y picking directos e imprimir las instrucciones.
 
 5. Realice el picking de los productos y colóquelos en la ubicación de envío especificada, o en el área de envío, si no tiene ubicaciones.
-6. Elija la acción **Registrar picking**.
+6. Elija la acción **Registrar picking** .
 
     Se actualizarán los campos **Cantidad a enviar** y **Estado documento** de la cabecera del documento de envío. Los productos de los que ha realizado el picking ya no estarán disponibles para picking para otros envíos o para operaciones internas.
 7. Imprima sus documentos de envío, prepare el embalaje y, a continuación, registre el envío.

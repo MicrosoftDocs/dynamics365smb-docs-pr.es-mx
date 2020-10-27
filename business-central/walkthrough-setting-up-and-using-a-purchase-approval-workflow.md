@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9254d7b32d96fc97dd1c6facba567f92bbb630b4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 25d94f27f1a440342c8e24310b5c853aa832b4db
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786657"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910216"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra
 Puede automatizar el proceso de aprobar nuevos registros o registros modificados, como documentos, líneas de diario y fichas cliente, creando flujos de trabajo con pasos para las aprobaciones en cuestión. Antes de crear flujos de trabajo de aprobación, debe configurar un aprobador y un aprobador sustituto para cada usuario de aprobación. También puede establecer límites de cantidad de aprobadores para definir qué registros de venta y de compra pueden aprobar. Las solicitudes de aprobación y otras notificaciones se pueden enviar como mensajes de correo electrónico o como notas internas. Para cada configuración de usuario de aprobación, también puede configurar cuándo reciben notificaciones.
@@ -47,7 +47,7 @@ Cuando inicie sesión como usted mismo, configure a Alicia como un usuario de ap
 
 #### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Para configurarse a usted y a Alicia como usuarios de aprobación  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. usuario aprobación** y luego elija el enlace relacionado.  
-2.  En la página **Config. usuario aprobación**, seleccione la acción **Nuevo**.  
+2.  En la página **Config. usuario aprobación** , seleccione la acción **Nuevo** .  
 
     > [!NOTE]  
     >  Debe configurar un aprobador para poder configurar usuarios que requieren la aprobación del aprobador. Así, antes de configurar a Alicia, debe configurarse a sí mismo.  
@@ -63,22 +63,22 @@ Cuando inicie sesión como usted mismo, configure a Alicia como un usuario de ap
 En este tutorial, el usuario recibe una notificación mediante una nota interna sobre las solicitudes para aprobar. La notificación de aprobación también puede ser por correo electrónico. Para obtener más información, consulte [Especificar cómo y cuándo recibir notificaciones](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
 #### <a name="to-set-up-how-and-when-you-are-notified"></a>Para configurar cómo y cuándo recibirá notificaciones  
-1.  En la página **Config. usuario aprobación**, seleccione la línea para usted y después seleccione la acción **Configuración de notificación**.  
-2.  En la página **Configuración de notificación**, en el campo **Tipo de notificación**, elija **Aprobación**.  
-3.  En el campo **Método de notificación**, elija **Nota**.  
-6.  En la página **Configuración de notificación**, seleccione la acción **Programación de notificación**.  
-7.  En la página **Programación de notificación**, del campo **Periodicidad**, seleccione **Inmediatamente**.  
+1.  En la página **Config. usuario aprobación** , seleccione la línea para usted y después seleccione la acción **Configuración de notificación** .  
+2.  En la página **Configuración de notificación** , en el campo **Tipo de notificación** , elija **Aprobación** .  
+3.  En el campo **Método de notificación** , elija **Nota** .  
+6.  En la página **Configuración de notificación** , seleccione la acción **Programación de notificación** .  
+7.  En la página **Programación de notificación** , del campo **Periodicidad** , seleccione **Inmediatamente** .  
 
 ## <a name="creating-the-approval-workflow"></a>Creación del flujo de aprobación  
  Cree el flujo de aprobación de pedido de compra copiando los pasos de la plantilla de flujo de trabajo de aprobación de pedido de compra. Deje los pasos de flujo de trabajo existentes sin cambiar y, a continuación, active el flujo de trabajo.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Para crear y activar un flujo de trabajo de aprobación de pedido de compra  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
-2.  En la página **Flujos de trabajo**, elija la acción **Nuevo flujo de trabajo de plantilla**.  
-3.  En la página **Plantillas de flujo de trabajo**, seleccione la plantilla de flujo de trabajo denominada Flujo de trabajo de aprobación de pedido de compra y haga clic en el botón **Aceptar**.  
+2.  En la página **Flujos de trabajo** , elija la acción **Nuevo flujo de trabajo de plantilla** .  
+3.  En la página **Plantillas de flujo de trabajo** , seleccione la plantilla de flujo de trabajo denominada Flujo de trabajo de aprobación de pedido de compra y haga clic en el botón **Aceptar** .  
 
     La página **Flujo de trabajo** se abre para un nuevo flujo de trabajo que contiene toda la información de la plantilla seleccionada. El valor del campo **Código** se amplía con “-01” para indicar que este es el primer flujo de trabajo creado a partir de la plantilla de flujo de trabajo denominada Flujo de trabajo de aprobación de pedido de compra.  
-5.  En el encabezado de la página **Flujo de trabajo**, seleccione la casilla **Habilitado**.  
+5.  En el encabezado de la página **Flujo de trabajo** , seleccione la casilla **Habilitado** .  
 
 ## <a name="using-the-approval-workflow"></a>Uso del flujo de trabajo de aprobación  
 Utilice el nuevo flujo de trabajo de aprobación de pedido de compra iniciando sesión primero en [!INCLUDE[d365fin](includes/d365fin_md.md)] como Alicia para solicitar la aprobación de un pedido de compra. Después, inicie sesión como usted mismo, consulte la nota en el área de tareas, siga el vínculo a la solicitud de aprobación y, a continuación, apruebe la solicitud.  
@@ -86,19 +86,19 @@ Utilice el nuevo flujo de trabajo de aprobación de pedido de compra iniciando s
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Para solicitar aprobación de un pedido de compra como Alicia  
 1. Inicie sesión como Alicia.
 2.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.  
-3.  Seleccione la línea del pedido de compra abierto 106001 y, después, seleccione **Editar**.  
-4.  En la página **Pedido compra**, seleccione la acción **Enviar solicitud aprobación**.  
+3.  Seleccione la línea del pedido de compra abierto 106001 y, después, seleccione **Editar** .  
+4.  En la página **Pedido compra** , seleccione la acción **Enviar solicitud aprobación** .  
 
-Observe que el valor del campo **Estado** ha cambiado **Pendiente de aprobación**.  
+Observe que el valor del campo **Estado** ha cambiado **Pendiente de aprobación** .  
 
 ### <a name="to-approve-the-purchase-order-as-sean"></a>Para aprobar el pedido de compra como Pedro  
 1. Inicie sesión como Sean.
-2. En el área de tareas, en el área **Autoservicio**, elija la ventana **Solicitudes para aprobar**.
-3. En la página **Solicitudes para aprobar**, seleccione la línea sobre el pedido de compra de Alicia y luego elija la acción **Aprobar**.  
+2. En el área de tareas, en el área **Autoservicio** , elija la ventana **Solicitudes para aprobar** .
+3. En la página **Solicitudes para aprobar** , seleccione la línea sobre el pedido de compra de Alicia y luego elija la acción **Aprobar** .  
 
-El valor del campo **Estado** del pedido de compra de Alicia cambia **Lanzado**.  
+El valor del campo **Estado** del pedido de compra de Alicia cambia **Lanzado** .  
 
-Ya ha configurado y probado un flujo de trabajo de aprobación sencillo según los dos primeros pasos del flujo de trabajo de aprobación de pedido de compra. Puede ampliar fácilmente este flujo de trabajo para registrar automáticamente el pedido de compra de Alicia cuando Pedro lo apruebe. Para hacerlo, debe activar el flujo de trabajo de factura de compra, en el que la respuesta a una factura de compra lanzada es registrarla. Primero debe cambiar la condición del evento en el primer paso del flujo de trabajo (compra) **Factura** a **Pedido**.  
+Ya ha configurado y probado un flujo de trabajo de aprobación sencillo según los dos primeros pasos del flujo de trabajo de aprobación de pedido de compra. Puede ampliar fácilmente este flujo de trabajo para registrar automáticamente el pedido de compra de Alicia cuando Pedro lo apruebe. Para hacerlo, debe activar el flujo de trabajo de factura de compra, en el que la respuesta a una factura de compra lanzada es registrarla. Primero debe cambiar la condición del evento en el primer paso del flujo de trabajo (compra) **Factura** a **Pedido** .  
 
 La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye varias plantillas de flujo de trabajo para ejemplos compatibles con el código de aplicación. La mayor parte de ellos son de los flujos de trabajo de aprobación.  
 

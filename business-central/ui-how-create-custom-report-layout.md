@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 07/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f8d8b40e77e53dad7855721f23cf4cb33a669c4e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ee4d805ce0fc51e96e4d6956a2bcf1537830730f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782710"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914971"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Crear y modificar diseños de informe personalizados
 
@@ -37,19 +37,19 @@ Cuando se definen diseños de informes personalizados, puede seleccionarlos de l
 
     La página **Selección de diseño de informes** muestra todos los informes disponibles en la empresa especificada en el campo **Nombre de la empresa** en la parte superior de la página.
 2. Establezca el campo **Empresa** en la empresa en la que desea crear el diseño del informe.
-3. Seleccione la fila para el informe para el cual desee crear el diseño y, a continuación, elija la acción **Diseños personalizados**.  
+3. Seleccione la fila para el informe para el cual desee crear el diseño y, a continuación, elija la acción **Diseños personalizados** .  
 
    La página **Diseños de informe personalizados** aparece con todos los diseños personalizados disponibles para el informe seleccionado.
-4. Si desea crear una copia de un diseño personalizado existente, seleccione el diseño personalizado existente en la lista y, a continuación, elija la acción **Copiar**.  
+4. Si desea crear una copia de un diseño personalizado existente, seleccione el diseño personalizado existente en la lista y, a continuación, elija la acción **Copiar** .  
 
-   La copia del diseño personalizado aparece en la página **Diseños de informe personalizados** e incluye las palabras *Copia de* en el campo **Descripción**.
+   La copia del diseño personalizado aparece en la página **Diseños de informe personalizados** e incluye las palabras *Copia de* en el campo **Descripción** .
 5. Si desea añadir un nuevo diseño personalizado que se base en un diseño integrado, haga lo siguiente:  
-   1. Seleccione la acción **Nuevo**. Aparece la página **Insertar diseñado integrado para un informe**. Los campos de **Id.** y **Nombre** se rellenan automáticamente.
-   2. Para agregar un tipo de diseño de informe de Word personalizado, seleccione la casilla **Insertar diseño de Word**.
-   3. Para agregar un tipo de diseño de informe de RDLC personalizado, seleccione la casilla **Insertar diseño de RDLC**.
-   4. Elija el botón **Aceptar**.  
+   1. Seleccione la acción **Nuevo** . Aparece la página **Insertar diseñado integrado para un informe** . Los campos de **Id.** y **Nombre** se rellenan automáticamente.
+   2. Para agregar un tipo de diseño de informe de Word personalizado, seleccione la casilla **Insertar diseño de Word** .
+   3. Para agregar un tipo de diseño de informe de RDLC personalizado, seleccione la casilla **Insertar diseño de RDLC** .
+   4. Elija el botón **Aceptar** .  
 
-    El nuevo diseño personalizado aparece en la página **Diseños de informe personalizados**. Si un diseño nuevo se basa en un diseño integrado, tendrá las palabras **Copia de un diseño integrado** en el campo **Descripción**. Si no había diseño integrado para el informe, el nuevo diseño tendrá las palabras **Nuevo diseño** en el campo **Descripción** para indicar que el diseño personalizado está en blanco.
+    El nuevo diseño personalizado aparece en la página **Diseños de informe personalizados** . Si un diseño nuevo se basa en un diseño integrado, tendrá las palabras **Copia de un diseño integrado** en el campo **Descripción** . Si no había diseño integrado para el informe, el nuevo diseño tendrá las palabras **Nuevo diseño** en el campo **Descripción** para indicar que el diseño personalizado está en blanco.
 6. De forma predeterminada, el campo **Nombre de la empresa** está en blanco, lo que significa que el diseño personalizado estará disponible para el informe en todas las empresas. Para que el diseño personalizado esté disponible en una empresa específica solo, elija **Editar** y, a continuación, establezca el campo **Nombre de la empresa** en la empresa que quiera.
 
 El diseño personalizado se ha creado. Ahora puede modificar el diseño personalizado según sea necesario.
@@ -60,8 +60,8 @@ Para modificar un diseño de informe, primero deberá exportar el diseño de inf
 
 ### <a name="to-modify-a-custom-layout"></a>Para modificar un diseño personalizado
 
-1.  Puede exportar un diseño personalizado desde la página **Diseños de informe personalizados**. Si esta página no es ya abierta, busque y abra la página **Selección de diseño de informes**, seleccione el informe que tiene el diseño que quiere modificar y haga clic en la acción **Diseños personalizados**.  
-2.  En la página **Diseños de informe personalizados**, seleccione el diseño que desea modificar, seleccione la acción **Exportar diseño** y, después, seleccione **Guardar** o **Guardar como** para guardar el documento de diseño del informe en una ubicación del equipo o red.  
+1.  Puede exportar un diseño personalizado desde la página **Diseños de informe personalizados** . Si esta página no es ya abierta, busque y abra la página **Selección de diseño de informes** , seleccione el informe que tiene el diseño que quiere modificar y haga clic en la acción **Diseños personalizados** .  
+2.  En la página **Diseños de informe personalizados** , seleccione el diseño que desea modificar, seleccione la acción **Exportar diseño** y, después, seleccione **Guardar** o **Guardar como** para guardar el documento de diseño del informe en una ubicación del equipo o red.  
 
 3.  Abra el documento de diseño de informe que acaba de guardar y realice las modificaciones.
 
@@ -71,9 +71,9 @@ Para modificar un diseño de informe, primero deberá exportar el diseño de inf
 
       No olvide guardar los cambios cuando termine.
 
-4.  Vuelva a la página **Diseños de informe personalizados**, seleccione la plantilla del informe que se exportó y modificó y después seleccione **Importar diseño**.  
+4.  Vuelva a la página **Diseños de informe personalizados** , seleccione la plantilla del informe que se exportó y modificó y después seleccione **Importar diseño** .  
 
-5. En el cuadro de diálogo **Importar**, seleccione **Seleccionar** para buscar y seleccionar un documento de diseño y, a continuación, elija **Abrir**.
+5. En el cuadro de diálogo **Importar** , seleccione **Seleccionar** para buscar y seleccionar un documento de diseño y, a continuación, elija **Abrir** .
 
 ##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Crear y modificar diseños de informe personalizados
 
@@ -82,7 +82,7 @@ Para realizar cambios generales de formato y diseño, como cambiar la fuente del
 Si está creando un diseño de informe de Word desde cero o agregando nuevos campos de datos, empiece sumando una tabla que incluya las filas y columnas que llevarán los campos de datos.
 
 > [!TIP]  
-> Mostrar las líneas de cuadrícula de la tabla de manera que se vean los límites de las celdas de la tabla. No se olvide de ocultar las líneas de cuadrícula cuando termine la edición. Para mostrar u ocultar líneas de cuadrícula de tabla, seleccione la tabla y, a continuación, en **Diseño** en la pestaña **Escritorio**, elija **Ver líneas de cuadrícula**.
+> Mostrar las líneas de cuadrícula de la tabla de manera que se vean los límites de las celdas de la tabla. No se olvide de ocultar las líneas de cuadrícula cuando termine la edición. Para mostrar u ocultar líneas de cuadrícula de tabla, seleccione la tabla y, a continuación, en **Diseño** en la pestaña **Escritorio** , elija **Ver líneas de cuadrícula** .
 
 ### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Inserción de fuentes en disposiciones de Word para mayor consistencia
 
@@ -98,7 +98,7 @@ Para garantizar que los informes siempre se muestren e impriman con las fuentes 
 
 ### <a name="to-remove-a-label-or-data-field"></a>Para eliminar una etiqueta o un campo de datos  
 
-1. Haga clic con el botón secundario en el campo que desee eliminar y seleccione **Eliminar control de contenido**.  
+1. Haga clic con el botón secundario en el campo que desee eliminar y seleccione **Eliminar control de contenido** .  
 
      El control de contenido se elimina, pero el nombre del campo permanece como texto.  
 

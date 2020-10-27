@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 113370eaad1696fd21944d4896f7e2d9fdf41531
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 823403fc34ad57cb170fc39bd9533b53c4008950
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780621"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910891"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Trabajar con tolerancias de pago y tolerancias de descuento de pago
 Puede configurar una tolerancia de pago para cerrar una factura cuando el pago no cubre totalmente el importe de la factura. Por ejemplo, las tolerancias de pago son típicamente para pequeñas cantidades que costarían más corregir que solo aceptar. Puede configurar una tolerancia de descuento por pronto pago para conceder un descuento por pronto pago después de que haya pasado la fecha de descuento por pronto pago.  
@@ -44,7 +44,7 @@ Para obtener más información, consulte [Para activar o desactivar la advertenc
 ## <a name="to-set-up-tolerances"></a>Para configurar las tolerancias  
 La tolerancia en días e importes le permite cerrar una factura aunque el pago no se haya realizado todo el pago del importe de la misma, si esto se debe a que se ha superado la fecha de vencimiento del descuento por pronto pago, a que se han realizado deducciones o a causa de un error sin importancia. Esto también se aplica a reembolsos y notas de crédito.  
 
-Para configurar la tolerancia tiene que configurar varias cuentas de tolerancia, especificar la tolerancia de descuento en el pago y los métodos de registro de tolerancia en el pago y, a continuación, ejecute el proceso **Cambiar tolerancia pagos**.  
+Para configurar la tolerancia tiene que configurar varias cuentas de tolerancia, especificar la tolerancia de descuento en el pago y los métodos de registro de tolerancia en el pago y, a continuación, ejecute el proceso **Cambiar tolerancia pagos** .  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración grupos contables** y luego elija el enlace relacionado.  
 2. En la página **Configuración grupos contables** configure una cuenta de debe y de haber de tolerancia de pago de ventas y una cuenta de debe y de haber de tolerancia de pago de compras  
 3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos contables clientes** y luego elija el enlace relacionado.    
@@ -52,13 +52,13 @@ Para configurar la tolerancia tiene que configurar varias cuentas de tolerancia,
 5. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración contable proveedor** y luego elija el enlace relacionado.  
 6. En la página **Grupos contables proveedores** configure una cuenta de debe y de haber de tolerancia de pagos.  
 7. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.  
-8. Abra la página **Configuración contabilidad**.  
-9. En la ficha desplegable **Liquidación**, rellene los campos **Registrar tolerancia dto. P.P.**, **Periodo gracia descuento pagos** y **Registrar tolerancia pagos**.   
-10. Seleccione la acción **Cambiar tolerancia pagos**.
-11. En la página **Cambiar tolerancia pagos**, rellene los campos **% Tolerancia pago** y **Máx. importe tolerancia pago** y, a continuación, seleccione **Aceptar**.
+8. Abra la página **Configuración contabilidad** .  
+9. En la ficha desplegable **Liquidación** , rellene los campos **Registrar tolerancia dto. P.P.** , **Periodo gracia descuento pagos** y **Registrar tolerancia pagos** .   
+10. Seleccione la acción **Cambiar tolerancia pagos** .
+11. En la página **Cambiar tolerancia pagos** , rellene los campos **% Tolerancia pago** y **Máx. importe tolerancia pago** y, a continuación, seleccione **Aceptar** .
 
 > [!IMPORTANT]  
->  Sólo ha configurado la tolerancia para las divisa local. Si desea que [!INCLUDE[d365fin](includes/d365fin_md.md)] controle la tolerancia de pagos, abonos y reembolsos en una divisa extranjera, debe ejecutar el proceso **Cambiar tolerancia pagos** con un valor en el campo **Código divisa**.  
+>  Sólo ha configurado la tolerancia para las divisa local. Si desea que [!INCLUDE[d365fin](includes/d365fin_md.md)] controle la tolerancia de pagos, abonos y reembolsos en una divisa extranjera, debe ejecutar el proceso **Cambiar tolerancia pagos** con un valor en el campo **Código divisa** .  
 
 > [!NOTE]  
 >  Si desea recibir una advertencia de tolerancia de pagos cada vez que registre una liquidación dentro de la tolerancia, debe activar la advertencia de tolerancia de pagos. Para obtener más información, consulte [Para activar o desactivar la advertencia de tolerancia de pago:](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
@@ -70,16 +70,16 @@ Para configurar la tolerancia tiene que configurar varias cuentas de tolerancia,
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Para activar o desactivar las advertencias de tolerancia de pago
 La advertencia de tolerancia de pagos aparece cuando registra una liquidación con un saldo dentro de la tolerancia permitida. A continuación, puede elegir cómo desea registrar y documentar el saldo.    
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.  
-2. En la página **Configuración de contabilidad**, en la ficha desplegable **Liquidación**, active el campo **Advertencia tolerancia pagos** para activar la advertencia. Para desactivar la advertencia, apague la alternancia.  
+2. En la página **Configuración de contabilidad** , en la ficha desplegable **Liquidación** , active el campo **Advertencia tolerancia pagos** para activar la advertencia. Para desactivar la advertencia, apague la alternancia.  
 
 > [!NOTE]  
->  La opción predeterminada para la página **Advertencia tolerancia pagos** es **Dejar el saldo como importe pendiente**. La opción predeterminada para la página **Advertencia tolerancia dto. P.P.** es **No aceptar el descuento por pago vencido**.
+>  La opción predeterminada para la página **Advertencia tolerancia pagos** es **Dejar el saldo como importe pendiente** . La opción predeterminada para la página **Advertencia tolerancia dto. P.P.** es **No aceptar el descuento por pago vencido** .
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Para bloquear la tolerancia de pagos de clientes  
 El valor predeterminado para la tolerancia de pagos es permitida. Para no permitir la tolerancia de pagos de un cliente o proveedor determinado tiene que bloquear la tolerancia en la ficha del cliente o proveedor correspondiente. A continuación se describe cómo debe hacerlo para un cliente. Los pasos son parecidos para un proveedor.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cliente** o **Proveedor** y luego elija el enlace relacionado.  
-2. En la Ficha desplegable **Pagos**, seleccione la casilla **Bloquear tolerancia de pagos**.  
+2. En la Ficha desplegable **Pagos** , seleccione la casilla **Bloquear tolerancia de pagos** .  
 
 > [!NOTE]  
 >  Si el cliente o proveedor tiene movimientos pendientes, primero debe eliminar la tolerancia de pagos de los movimientos que están abiertos actualmente.
@@ -93,7 +93,7 @@ La página **Configuración contabilidad** contiene la configuración siguiente:
 
 Los ejemplos con la alternativa A o B representan lo siguiente:  
 
-- **A**: en este caso la advertencia tolerancia dto. P.P. se ha desactivado O el usuario tiene activado la advertencia y ha seleccionado permitir el descuento P.P vencido (Registrar el saldo como tolerancia pagos).  
+- **A** : en este caso la advertencia tolerancia dto. P.P. se ha desactivado O el usuario tiene activado la advertencia y ha seleccionado permitir el descuento P.P vencido (Registrar el saldo como tolerancia pagos).  
 - **B** en este caso, el usuario tiene activada la advertencia y ha seleccionado no permitir el descuento P.P vencido (Dejar el saldo como importe pendiente).  
 
 |—|fra.|Dto. P.P.|Máx. tol. pagos|Fecha dto. P.P.|Fecha tol. dto. Fecha|Fecha pago|Tol.|Tipo tolerancia|Todos los movimientos cerrados|Fecha tol. dto. Cb/Cl|tol. pagos Cb.|  
@@ -164,8 +164,8 @@ Los ejemplos con la alternativa A, B, C o D representan lo siguiente:
 
 - **A** en este caso la Advertencia tolerancia dto. P.P. se ha desactivado O el usuario tiene activada la advertencia y ha seleccionado permitir el descuento P.P vencido (Registrar como tolerancia) en una factura.  
 - **B** en este caso, el usuario tiene activada la advertencia y ha seleccionado no permitir el descuento P.P vencido en una factura.  
-- **C**: en este caso, el usuario tiene activada la advertencia y ha seleccionado permitir el descuento P.P vencido en la primera factura, pero no en la segunda.  
-- **D**: en este caso, el usuario tiene activada la advertencia y ha seleccionado no permitir el descuento P.P vencido en la primera factura, pero sí en la segunda.  
+- **C** : en este caso, el usuario tiene activada la advertencia y ha seleccionado permitir el descuento P.P vencido en la primera factura, pero no en la segunda.  
+- **D** : en este caso, el usuario tiene activada la advertencia y ha seleccionado no permitir el descuento P.P vencido en la primera factura, pero sí en la segunda.  
 
 |—|fra.|Dto. P.P.|Máx. tol. pagos|Fecha dto. P.P.|Fecha tol. dto. Fecha|Fecha pago|Dto. P.P.|Tipo tolerancia|Todos los movimientos cerrados|Fecha tol. dto. Cb/Cl|tol. pagos Cb.|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  

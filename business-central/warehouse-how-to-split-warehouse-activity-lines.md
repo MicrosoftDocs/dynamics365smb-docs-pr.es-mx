@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4484f4fcaef8f48642f83984f1b3dab8acc14def
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8a9fef52a67072e15f611162c0c038d92ebd4ff0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784982"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914721"
 ---
 # <a name="split-warehouse-activity-lines"></a>Dividir líneas de actividad de almacén
 En ubicaciones, movimientos o picking de almacén y en ubicaciones y picking de inventario, se sugieren las ubicaciones para el picking o la ubicación de productos. La cantidad real de la ubicación sugerida quizá no sea suficiente, o no hay sitio suficiente en la ubicación sugerida para ubicar la cantidad requerida. En estos casos, necesita dividir la línea para que los productos de esa línea se obtengan o coloquen en varias ubicaciones.  
@@ -24,8 +24,8 @@ El procedimiento siguiente se aplica a todos los documentos de almacén, como ub
 
 ## <a name="to-split-warehouse-activity-lines"></a>Para dividir líneas de actividad de almacén  
 1.  Abra una línea de actividad de almacén en donde esté intentando gestionar una cantidad insuficiente.  
-2.  En el campo de **Cdad. a manipular**, introduzca la cantidad reducida que pueda manipular.  
-3.  En la ficha desplegable **Líneas**, elija **Acciones**, **Funciones** y **Dividir línea**. Aparecerá una nueva línea, que es una copia de la línea original, excepto en que el campo **Cdad. a manipular** contiene la cantidad que ha eliminado de la línea original.  
+2.  En el campo de **Cdad. a manipular** , introduzca la cantidad reducida que pueda manipular.  
+3.  En la ficha desplegable **Líneas** , elija **Acciones** , **Funciones** y **Dividir línea** . Aparecerá una nueva línea, que es una copia de la línea original, excepto en que el campo **Cdad. a manipular** contiene la cantidad que ha eliminado de la línea original.  
 4.  Asigne una ubicación adecuada y, si utiliza ubicación y picking directos, una zona, a esta nueva línea, o continúe dividiendo la línea según sea necesario hasta que encuentre ubicaciones apropiadas para toda la cantidad.  
 
 > [!NOTE]  

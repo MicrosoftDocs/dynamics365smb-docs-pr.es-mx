@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b89724725f5929e0ebea79a94bcdb3e87069c75d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8875cdcc7ad13f72c9cf131061b301dac1dcff2b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788911"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910591"
 ---
 # <a name="send-electronic-documents"></a>Enviar documentos electrónicos
 La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el envío de facturas electrónicas y abonos en formato PEPPOL, admitido por los proveedores de servicios de intercambio de documentos más importantes. El proveedor de servicios de intercambio de documentos entrega documentos electrónicos de un socio comercial a otro. Para proporcionar compatibilidad con otros formatos de documento electrónico, utilice el marco de intercambio de datos.  
@@ -30,24 +30,24 @@ La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el e
 
 2.  Cree una nueva factura de venta.  
 
-3.  Cuando la factura de venta esté lista para facturarse, seleccione la acción **Registrar y enviar**.  
+3.  Cuando la factura de venta esté lista para facturarse, seleccione la acción **Registrar y enviar** .  
 
-     Si el perfil de envío predeterminado del cliente es **Documento electrónico**, se mostrará en el cuadro de diálogo **Registrar y enviar la confirmación** y solo tiene que elegir el botón **Sí** para registrar y enviar la factura electrónicamente en el formato seleccionado.  
+     Si el perfil de envío predeterminado del cliente es **Documento electrónico** , se mostrará en el cuadro de diálogo **Registrar y enviar la confirmación** y solo tiene que elegir el botón **Sí** para registrar y enviar la factura electrónicamente en el formato seleccionado.  
 
-4.  En el cuadro de diálogo **Registrar y enviar la confirmación**, seleccione el botón AssistEdit situado a la derecha del campo **Enviar documento a**.  
+4.  En el cuadro de diálogo **Registrar y enviar la confirmación** , seleccione el botón AssistEdit situado a la derecha del campo **Enviar documento a** .  
 
-5.  En el cuadro de diálogo **Enviar documento a**, en el campo **Documento electrónico**, seleccione **A través del servicio de intercambio de documentos**.  
+5.  En el cuadro de diálogo **Enviar documento a** , en el campo **Documento electrónico** , seleccione **A través del servicio de intercambio de documentos** .  
 
-6.  En el campo **Formato**, seleccione **PEPPOL**.  
+6.  En el campo **Formato** , seleccione **PEPPOL** .  
 
-7.  Elija el botón **Aceptar**. Aparece el cuadro de diálogo **Registrar y enviar la confirmación**. **Documento electrónico (PEPPOL)** se agrega al campo **Enviar documento a**.  
+7.  Elija el botón **Aceptar** . Aparece el cuadro de diálogo **Registrar y enviar la confirmación** . **Documento electrónico (PEPPOL)** se agrega al campo **Enviar documento a** .  
 
-8.  Elija el botón **Sí**.  
+8.  Elija el botón **Sí** .  
 
      Se registra la factura de venta y se envía al cliente como un documento electrónico en el formato PEPPOL.  
 
     > [!NOTE]  
-    >  También puede enviar una factura de venta registrada como documento electrónico. El procedimiento es el mismo que el descrito en este tema para documentos de venta no registrada. En la página **Factura venta reg.**, elija la acción **Registro de actividades** para ver el estado del documento electrónico. Para obtener más información, vea **Registro de actividades**.  
+    >  También puede enviar una factura de venta registrada como documento electrónico. El procedimiento es el mismo que el descrito en este tema para documentos de venta no registrada. En la página **Factura venta reg.** , elija la acción **Registro de actividades** para ver el estado del documento electrónico. Para obtener más información, vea **Registro de actividades** .  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 

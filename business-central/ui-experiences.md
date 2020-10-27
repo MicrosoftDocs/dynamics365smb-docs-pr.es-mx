@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc25efa746e7dd3282159b13ecea66ec66ac5e82
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1e4de0f59788bb49ebaead7a4ee2516ff32147eb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785407"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912457"
 ---
 # <a name="change-which-features-are-displayed"></a>Cambiar las funciones que se muestran
 [!INCLUDE[d365fin](includes/d365fin_md.md)] está diseñado para ayudarlo a administrar su empresa, independientemente del tamaño y la complejidad. En el núcleo del producto, encontrará características esenciales, como informes financieros, ventas, compras y administración de inventario. A medida que aumenta la complejidad empresarial, puede activar la funcionalidad para la fabricación y la administración de servicios, por ejemplo.
 
-Puede definir el nivel de complejidad del producto y, por lo tanto, a qué características tienen acceso los usuarios de la empresa, cambiando la configuración **Experiencia** en la página **Información de empresa**. Tenga en cuenta que la configuración de experiencia también se puede cambiar agregando ciertas extensiones desde AppSource. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).
+Puede definir el nivel de complejidad del producto y, por lo tanto, a qué características tienen acceso los usuarios de la empresa, cambiando la configuración **Experiencia** en la página **Información de empresa** . Tenga en cuenta que la configuración de experiencia también se puede cambiar agregando ciertas extensiones desde AppSource. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).
 
 La siguiente tabla enumera la experiencias que están disponibles actualmente.
 
@@ -40,24 +40,24 @@ Antes de definir la configuración de experiencia de una empresa, defina el acce
 La configuración **Experiencia** se aplica a todos los usuarios de una empresa, pero cada usuario puede personalizar aún más su propia experiencia cambiando el diseño y el contenido de la página. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Habilitar características premium después de actualizar un plan
-Los usuarios se asignan a planes en el Centro de administración de Microsoft 365 en relación con el trabajo general para crear los usuarios de Business Central. Para obtener más información, vea [Agregar usuarios individualmente o en masa a Office 365](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Los usuarios se asignan a planes en el Centro de administración de Microsoft 365 en relación con el trabajo general para crear los usuarios de Business Central. Para obtener más información, consulte [Agregar usuarios individualmente o en masa a Microsoft 365](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Para actualizar los cambios del plan en grupos de usuarios
 Cuando haya realizado un cambio en los planes de los usuarios en el Centro de administración de Microsoft 365, como asignar más usuarios al plan Premium, debe reflejar el cambio en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Inicie sesión como administrador.
 2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Usuarios** y luego elija el enlace relacionado.
-3. En la página **Usuarios**, seleccione la acción **Actualizar todos los grupos de usuarios**.
+3. En la página **Usuarios** , seleccione la acción **Actualizar todos los grupos de usuarios** .
 
 Toda la información nueva sobre los planes de los usuarios y sus grupos de usuarios asignados ahora se actualizan de acuerdo con los cambios del plan.
 
 ### <a name="to-select-the-premium-experience"></a>Para seleccionar la experiencia Premium
 Ahora puede proceder a seleccionar la nueva experiencia.
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado.
-2. En la página **Información empresa**, en la ficha desplegable **Experiencia del usuario**, seleccione Premium en el campo **Experiencia**.
+2. En la página **Información empresa** , en la ficha desplegable **Experiencia del usuario** , seleccione Premium en el campo **Experiencia** .
 
 ## <a name="help-assumes-premium-experience"></a>En la ayuda se asume la experiencia premium
-Todas las descripciones de funciones que aparecen en la documentación de [!INCLUDE[d365fin](includes/d365fin_md.md)] asumen la experiencia **Premium**, lo que significa que las descripciones cubren todo el alcance de los elementos de la interfaz de usuario.
+Todas las descripciones de funciones que aparecen en la documentación de [!INCLUDE[d365fin](includes/d365fin_md.md)] asumen la experiencia **Premium** , lo que significa que las descripciones cubren todo el alcance de los elementos de la interfaz de usuario.
 
 ## <a name="see-also"></a>Consulte también .
 [Personalizar el área de trabajo](ui-personalization-user.md)  

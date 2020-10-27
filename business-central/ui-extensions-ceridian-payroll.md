@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5c90555b71fd3991d6a3c2e4e8a44c687b4299bb
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 29dfaaa1cefe2bdc55fd68b1efd752be2c11cbc8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785382"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912371"
 ---
 # <a name="the-ceridian-payroll-extension"></a>La extensión de nóminas de Ceridian
 Para contabilizar los pagos de salario y transacciones relacionadas, deberá importar y registrar las transacciones financieras de salario creadas para el proveedor de nóminas al libro mayor.
 
-Para hacer esto, primero importe un archivo que recibirá del proveedor de nóminas en la página **Diario general**. A continuación asigne las cuentas externas del archivo de nóminas a las cuentas correspondientes. Por último, registre las transacciones de nómina según el mapeo de cuentas. Para obtener más información, vea [Importar transacciones de nómina](finance-how-import-payroll-transactions.md).
+Para hacer esto, primero importe un archivo que recibirá del proveedor de nóminas en la página **Diario general** . A continuación asigne las cuentas externas del archivo de nóminas a las cuentas correspondientes. Por último, registre las transacciones de nómina según el mapeo de cuentas. Para obtener más información, vea [Importar transacciones de nómina](finance-how-import-payroll-transactions.md).
 
 La extensión de nóminas de Ceridian le permite importar transacciones de nóminas de los servicios Ceridian HR/Payroll (EE. UU.) y Ceridian PowerPay (Canadá).
 

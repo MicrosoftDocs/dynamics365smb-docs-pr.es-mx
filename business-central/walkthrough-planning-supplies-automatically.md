@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 219b7aa5bdeff1ba0a7a527ba35ff23b846920ed
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6f0d7b5c90777e46a3cfca2ceb4603aa9173aec0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786807"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912107"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Tutorial: planificación automática de suministros
 
@@ -68,15 +68,15 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 ### <a name="to-create-stockkeeping-units"></a>Para crear unidades de almacenamiento  
 
 1.  Abra la ficha de producto correspondiente a 1001, bicicleta de ruta.  
-2.  Seleccione la acción **Crear unidad de almacenamiento**.  
-3.  En la página **Crear unidad de almacenam.**, deje todas las opciones y filtros sin cambiar y, a continuación, haga clic en **Aceptar**.  
+2.  Seleccione la acción **Crear unidad de almacenamiento** .  
+3.  En la página **Crear unidad de almacenam.** , deje todas las opciones y filtros sin cambiar y, a continuación, haga clic en **Aceptar** .  
 4.  Repita los pasos 1 a 3 para todos los productos en el intervalo numérico entre 1100 y 1300.  
 
 ### <a name="to-change-selected-planning-parameters"></a>Para cambiar los parámetros de planificación seleccionados  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Unidades de almacenamiento** y luego elija el enlace relacionado.  
 2.  Abra la ficha de unidad de almacenamiento AZUL para el producto 1100, rueda delantera.  
-3.  En la ficha desplegable **Planificación**, rellene los campos tal como se describe en la tabla siguiente.  
+3.  En la ficha desplegable **Planificación** , rellene los campos tal como se describe en la tabla siguiente.  
 
     |Directiva reaprov.|Inventario de seguridad|Periodo de acumulación de lotes|Periodo de reprogramación|  
     |-------------------------------------------|-----------------------------------------------|-------------------------------------------------|---------------------------------------------|  
@@ -92,8 +92,8 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 ### <a name="to-create-the-sales-order"></a>Para crear el pedido de venta  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Nuevo**.  
-3.  En la página **Pedido de venta**, rellene los campos tal como se describe en la tabla siguiente.  
+2.  Seleccione la acción **Nuevo** .  
+3.  En la página **Pedido de venta** , rellene los campos tal como se describe en la tabla siguiente.  
 
     |Venta a-Nombre|Fecha envío|Nº producto|Almacén|Cantidad|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
@@ -104,7 +104,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>Crear un plan regenerativo para satisfacer la demanda en el almacén AZUL.  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de planificación** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Calcular planificación regenerativa**.  
+2.  Seleccione la acción **Calcular planificación regenerativa** .  
 3.  En la página **Calcular plan - Hoja planif.** rellene los campos tal como se describe en la tabla siguiente.  
 
     |Calcular plan|Fecha inicial|Fecha final|Mostrar resultados:|Totales límite para|  
@@ -115,19 +115,19 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
      Se crea una línea de planificación que sugiere que se emita una orden de producción planificada para producir las diez bicicletas de ruta, producto 1001, para el 05-02-2014, la fecha de envío del pedido de venta.  
 
-     A continuación, compruebe que esta línea de planificación está relacionada con el pedido de venta de GDE Distribución con la función **Seguimiento pedido**, que vincula dinámicamente la demanda con el suministro planificado.  
+     A continuación, compruebe que esta línea de planificación está relacionada con el pedido de venta de GDE Distribución con la función **Seguimiento pedido** , que vincula dinámicamente la demanda con el suministro planificado.  
 
-5.  Seleccione la nueva línea de planificación y haga clic en **Seguimiento pedido**.  
-6.  En la página **Seguimiento de pedido**, elija la acción **Mostrar**.  
+5.  Seleccione la nueva línea de planificación y haga clic en **Seguimiento pedido** .  
+6.  En la página **Seguimiento de pedido** , elija la acción **Mostrar** .  
 
      Se muestra el pedido de venta de las cinco bicicletas de ruta que se envía al cliente número 10000 el 05-02-2014.  
 
-7.  Cierre las páginas **Pedido venta** y **Seguimiento pedido**.  
+7.  Cierre las páginas **Pedido venta** y **Seguimiento pedido** .  
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Para calcular MRP para incluir las necesidades subyacentes del componente  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de planificación** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Calcular planificación regenerativa**.  
+2.  Seleccione la acción **Calcular planificación regenerativa** .  
 3.  En la página **Calcular plan - Hoja planif.** rellene los campos tal como se describe en la tabla siguiente.  
 
     |Calcular|Fecha inicial|Fecha final|Mostrar resultados:|Totales límite para:|  
@@ -141,32 +141,32 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 ## <a name="analyzing-the-planning-result"></a>Análisis del resultado de planificación  
  Para estudiar las cantidades sugeridas, Eduardo analiza según líneas de planificación seleccionadas para ver movimientos de seguimiento y parámetros de planificación de pedido.  
 
- En la página **Hoja de planificación**, observe en la columna **Fecha vencimiento** que las órdenes de suministro sugeridos se programan hacia atrás desde la fecha de vencimiento de la orden de venta, 05-02-2014. La escala de tiempo empieza en la línea de planificación superior con la orden de producción para producir las bicicletas de ruta terminadas. La escala de tiempo finaliza en la línea de planificación inferior con el pedido de compra de productos de nivel inferior, 1255, Arandela trasera, que vence el 01-30-2014. Como la línea de planificación para el producto 1251, eje de rueda posterior, esta línea representa un pedido de compra para los componentes que vencen en la fecha inicial de su producto principal fabricado, el producto de subensamblado 1250 que, a su vez, vence el 03-02-2014. En toda la hoja de cálculo, puede ver que todos los productos subyacentes vencen en la fecha inicial de sus productos principales.  
+ En la página **Hoja de planificación** , observe en la columna **Fecha vencimiento** que las órdenes de suministro sugeridos se programan hacia atrás desde la fecha de vencimiento de la orden de venta, 05-02-2014. La escala de tiempo empieza en la línea de planificación superior con la orden de producción para producir las bicicletas de ruta terminadas. La escala de tiempo finaliza en la línea de planificación inferior con el pedido de compra de productos de nivel inferior, 1255, Arandela trasera, que vence el 01-30-2014. Como la línea de planificación para el producto 1251, eje de rueda posterior, esta línea representa un pedido de compra para los componentes que vencen en la fecha inicial de su producto principal fabricado, el producto de subensamblado 1250 que, a su vez, vence el 03-02-2014. En toda la hoja de cálculo, puede ver que todos los productos subyacentes vencen en la fecha inicial de sus productos principales.  
 
  La línea de planificación para el producto 1300, Mtje. cadena, sugiere diez piezas. Esto se desvía de las cinco piezas que esperamos que necesite para cubrir el pedido de venta. Empiece a visualizar los movimientos de seguimiento del pedido.  
 
 ### <a name="to-view-order-tracking-entries-for-item-1300"></a>Ver los movimientos de seguimiento del pedido para el producto 1300  
 
-1.  Seleccione la línea de planificación del producto 1300 y seleccione la acción **Seguimiento de pedido**.  
+1.  Seleccione la línea de planificación del producto 1300 y seleccione la acción **Seguimiento de pedido** .  
 
-     Las dos líneas de la página **Seguimiento pedido** muestran que se hace un seguimiento de cinco piezas desde la línea de planificación (primera línea de seguimiento de pedido) al pedido de venta 1001 (segunda línea de seguimiento de pedido). Las cinco últimas piezas sugeridas en la línea de planificación no están relacionadas con ninguna línea documentada, sino con un parámetro de planificación, movimiento de previsión o movimiento de pedido abierto. Estas cantidades no seguidas se suman en el campo **Cantidad no seguida** en la cabecera de la página **Seguimiento pedido**.  
+     Las dos líneas de la página **Seguimiento pedido** muestran que se hace un seguimiento de cinco piezas desde la línea de planificación (primera línea de seguimiento de pedido) al pedido de venta 1001 (segunda línea de seguimiento de pedido). Las cinco últimas piezas sugeridas en la línea de planificación no están relacionadas con ninguna línea documentada, sino con un parámetro de planificación, movimiento de previsión o movimiento de pedido abierto. Estas cantidades no seguidas se suman en el campo **Cantidad no seguida** en la cabecera de la página **Seguimiento pedido** .  
 
-2.  Elija el campo **Cantidad no seguida**.  
+2.  Elija el campo **Cantidad no seguida** .  
 
      La página **Elementos planificación sin seguimiento** muestra que el producto 1300 utiliza un parámetro de planificación, Cantidad mínima pedido, de 10,00. Por lo tanto, la línea de planificación es para diez piezas en total, de las cuales se puede realizar un seguimiento de cinco a una demanda. Las cinco últimas piezas son una cantidad no seguida para satisfacer el parámetro de planificación. Empiece a revisar el parámetro de la planificación.  
 
 ### <a name="to-check-the-planning-parameter"></a>Para comprobar el parámetro de planificación  
 
-1.  En la página **Elementos planificación sin seguimiento**, seleccione la línea de seguimiento de pedido para el producto 1300.  
-2.  Elija el campo **Nº de producto** y, a continuación, elija la acción **Avanzado**.  
-3.  En la página **Lista de producto**, seleccione la acción **Unidades de almacenamiento**.  
-4.  En la página **Lista unidad de almacenam.**, abra la ficha de la unidad de almacenamiento AZUL.  
-5.  En la ficha desplegable **Planificación**, tenga en cuenta que el campo **Cantidad mínima pedido** contiene 10.  
-6.  Cierre todas las páginas salvo **Hoja planificación**.  
+1.  En la página **Elementos planificación sin seguimiento** , seleccione la línea de seguimiento de pedido para el producto 1300.  
+2.  Elija el campo **Nº de producto** y, a continuación, elija la acción **Avanzado** .  
+3.  En la página **Lista de producto** , seleccione la acción **Unidades de almacenamiento** .  
+4.  En la página **Lista unidad de almacenam.** , abra la ficha de la unidad de almacenamiento AZUL.  
+5.  En la ficha desplegable **Planificación** , tenga en cuenta que el campo **Cantidad mínima pedido** contiene 10.  
+6.  Cierre todas las páginas salvo **Hoja planificación** .  
 
 ### <a name="to-view-more-order-tracking-entries"></a>Para ver más movimientos de seguimiento de pedidos  
 
-1.  Seleccione la línea de planificación del producto 1110, Llanta y seleccione la acción **Seguimiento de pedido**.  
+1.  Seleccione la línea de planificación del producto 1110, Llanta y seleccione la acción **Seguimiento de pedido** .  
 
      La página **Seguimiento pedido** muestra que se necesitan cinco llantas para cada orden de producción para las ruedas frontales y traseras, respectivamente.  
 
@@ -174,11 +174,11 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
      La línea de planificación para el producto 1150 para seis piezas tiene un aspecto irregular. Empiece a analizar.  
 
-2.  Seleccione la línea de planificación del producto 1150, Llanta y seleccione la acción **Seguimiento de pedido**.  
+2.  Seleccione la línea de planificación del producto 1150, Llanta y seleccione la acción **Seguimiento de pedido** .  
 
      La página **Seguimiento pedido** muestra que se hace el seguimiento de cinco unidades para la rueda delantera y que no se hace el seguimiento de una unidad. Empiece a visualizar la cantidad sin seguimiento.  
 
-3.  Elija el campo **Cantidad no seguida**.  
+3.  Elija el campo **Cantidad no seguida** .  
 
      La página **Elementos planificación sin seguimiento** muestra que el producto 1150 utiliza un parámetro de planificación, Múltiplos de pedido, de 2,00, que especifica que cuando se solicita el producto, debe ser en una cantidad múltiplo de 2. El número más próximo a 5 divisible por 2 es 6.  
 
@@ -187,13 +187,13 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
  De este modo finaliza el análisis del plan de suministro inicial. Observe que la casilla **Aceptar mensaje acción** está seleccionada en todas las líneas de planificación, lo que indica que están listas para convertirse en órdenes de suministro.  
 
 ## <a name="carrying-out-action-messages"></a>Realización de mensajes de acción  
- A continuación, Eduardo convierte las líneas de planificación sugeridas en órdenes de suministro con la función **Ejecutar mensajes acción**.  
+ A continuación, Eduardo convierte las líneas de planificación sugeridas en órdenes de suministro con la función **Ejecutar mensajes acción** .  
 
 ### <a name="to-automatically-create-the-suggested-supply-orders"></a>Para crear automáticamente las órdenes de suministro sugeridas  
 
 1.  Seleccione la casilla **Aceptar mensaje acción** en todas las líneas de planificación con una advertencia de tipo Excepción.  
-2.  Seleccione la acción **Ejecutar mensajes de acción**.  
-3.  En la página **Ejecutar mensajes acción-Plan.**, rellene los campos descritos en la tabla siguiente.  
+2.  Seleccione la acción **Ejecutar mensajes de acción** .  
+3.  En la página **Ejecutar mensajes acción-Plan.** , rellene los campos descritos en la tabla siguiente.  
 
     |Orden producción|Pedido compra|Pedido transferencia|  
     |----------------------|--------------------|--------------------|  
@@ -211,8 +211,8 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 ### <a name="to-create-the-new-sales-demand-and-replan-accordingly"></a>Para crear la demanda de ventas nueva y replanificar  
 
-1.  Seleccione la acción **Nuevo**.  
-2.  En la página **Pedido de venta**, rellene los campos tal como se describe en la tabla siguiente.  
+1.  Seleccione la acción **Nuevo** .  
+2.  En la página **Pedido de venta** , rellene los campos tal como se describe en la tabla siguiente.  
 
     |Venta a-Nombre|Fecha envío|Nº producto|Almacén|Cantidad|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
@@ -221,7 +221,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 3.  Acepte el aviso de disponibilidad y elija el botón **Sí** para registrar la cantidad de demanda.  
 4.  Replanifique para ajustar el plan de suministro actual.  
 5.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de planificación** y luego elija el enlace relacionado.  
-6.  Seleccione la acción **Calcular planificación de saldo neto**.  
+6.  Seleccione la acción **Calcular planificación de saldo neto** .  
 7.  En la página **Calcular plan - Hoja planif.** rellene los campos tal como se describe en la tabla siguiente.  
 
     |Calcular plan|Fecha inicial|Fecha final|Mostrar resultados:|Totales límite para|  
@@ -230,9 +230,9 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 8.  Elija el botón **Aceptar** para comenzar la ejecución de la planificación.  
 
- Se crea un total de 14 líneas de planificación. Observe en la primera línea de planificación que el campo **Mensaje acción** indica **Nuevo**, el campo **Cantidad** muestra 10 y el campo **Fecha vencimiento** señala 12-02-14. Esta nueva línea para el producto principal superior, 1001, Bicicleta ruta, se crea debido a que el producto utiliza la política de reorden **Pedido**, que indica que debe suministrarse en una relación de uno a uno a la demanda, el pedido de venta de diez piezas.  
+ Se crea un total de 14 líneas de planificación. Observe en la primera línea de planificación que el campo **Mensaje acción** indica **Nuevo** , el campo **Cantidad** muestra 10 y el campo **Fecha vencimiento** señala 12-02-14. Esta nueva línea para el producto principal superior, 1001, Bicicleta ruta, se crea debido a que el producto utiliza la política de reorden **Pedido** , que indica que debe suministrarse en una relación de uno a uno a la demanda, el pedido de venta de diez piezas.  
 
- Las dos siguientes líneas de planificación son las órdenes de producción de las ruedas para bicicletas de ruta. Cada pedido existente de cinco, en el campo **Cantidad original**, aumenta hasta 15, en el campo **Cantidad**. Ambas órdenes de producción tienen fechas de vencimiento sin cambiar, como se indica en el campo **Mensaje de acción** que contiene **Cambiar cdad**. Esto ocurre también para la línea de planificación para el producto 1300, excepto su múltiplo de pedido de 10,00 redondea la demanda seguida de 15 piezas hasta 20.  
+ Las dos siguientes líneas de planificación son las órdenes de producción de las ruedas para bicicletas de ruta. Cada pedido existente de cinco, en el campo **Cantidad original** , aumenta hasta 15, en el campo **Cantidad** . Ambas órdenes de producción tienen fechas de vencimiento sin cambiar, como se indica en el campo **Mensaje de acción** que contiene **Cambiar cdad** . Esto ocurre también para la línea de planificación para el producto 1300, excepto su múltiplo de pedido de 10,00 redondea la demanda seguida de 15 piezas hasta 20.  
 
  Todas las demás líneas de planificación contienen un mensaje de acción **Reprog. y camb. cdad.** Esto indica que, además de aumentarse en cantidad, se trasladan las fechas de vencimiento en relación con el plan de suministro para incluir la cantidad adicional en el tiempo de producción disponible (capacidad). Los componentes comprados se vuelven a programar y se aumentan para suministrar las órdenes de producción. Empiece a analizar el nuevo plan.  
 
@@ -243,21 +243,21 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 ### <a name="to-view-order-tracking-entries-for-item-1250"></a>Ver los movimientos de seguimiento del pedido para el producto 1250  
 
-1.  Seleccione la línea de planificación del producto 1250 y seleccione la acción **Seguimiento de pedido**.  
+1.  Seleccione la línea de planificación del producto 1250 y seleccione la acción **Seguimiento de pedido** .  
 
      Las sietes líneas de la página **Seguimiento pedido** muestran que se hace un seguimiento de cinco y diez piezas desde la rueda trasera hasta las bicicletas de ruta en los dos pedidos de venta, respectivamente.  
 
      No se hace el seguimiento de las últimas cinco piezas. Empiece a analizar.  
 
-2.  Elija el campo **Cantidad no seguida**.  
+2.  Elija el campo **Cantidad no seguida** .  
 
      La página **Elementos planificación sin seguimiento** muestra que el producto 1250 utiliza un parámetro de planificación, Múltiplos de pedido, de 10,00. Por lo tanto, la línea de planificación es de 20 piezas en el total para redondear la necesidad real hasta el número más cercano divisible por 10. Las cinco últimas piezas son una cantidad no seguida para satisfacer el parámetro de planificación.  
 
-3.  Cierre todas las páginas salvo **Hoja planificación**.  
+3.  Cierre todas las páginas salvo **Hoja planificación** .  
 
 ### <a name="to-view-an-existing-order"></a>Ver un pedido existente  
 
-1.  En la línea de planificación del producto 1250, elija el campo **Nº orden ref.**. .  
+1.  En la línea de planificación del producto 1250, elija el campo **Nº orden ref.** . .  
 2.  En la página **Orden produc. planif. en firme** para el buje trasero. El pedido existente de diez piezas, que se creó en la primera ejecución de la planificación, se abrirá.  
 3.  Cierre la orden de producción planificada en firme.  
 

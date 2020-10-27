@@ -3,19 +3,19 @@ title: 'Solución de problemas: acceso a la cámara y a la ubicación'
 description: Este artículo describe cómo solucionar problemas de acceso a la información de la cámara y la ubicación en Business Central.
 author: blrobl
 ms.author: t-blrobl
-ms.date: 04/22/2020
+ms.date: 10/01/2020
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.openlocfilehash: 10338040ddcfb64dd91e9e55f607280e99720403
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b44044b9ec2c71ad3b99f25b4a941a3ab473ca4f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781146"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912032"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Solución de problemas: acceso a la cámara y a la ubicación
 
@@ -29,11 +29,11 @@ Si su dispositivo tiene capacidades de cámara y ubicación, pero sigue teniendo
 
 ## <a name="access-permissions-not-enabled"></a>Permisos de acceso no habilitados
 
-Debe habilitar el acceso general a la cámara y la ubicación desde la configuración de privacidad de su dispositivo y otorgar permiso explícitamente para [!INCLUDE[prodshort](includes/prodshort.md)] para acceder a ellos. Por ejemplo, para ver o cambiar los permisos de un dispositivo ejecutando Windows, vaya a **Configuración**, elija **Privacidad** y, a continuación, **Permisos de la aplicación**. 
+Debe habilitar el acceso general a la cámara y la ubicación desde la configuración de privacidad de su dispositivo y otorgar permiso explícitamente para [!INCLUDE[prodshort](includes/prodshort.md)] para acceder a ellos. Por ejemplo, para ver o cambiar los permisos de un dispositivo ejecutando Windows, vaya a **Configuración** , elija **Privacidad** y, a continuación, **Permisos de la aplicación** . 
 
-Para dispositivos móviles, debe dar permisos de acceso a la cámara y a la ubicación para la Aplicación móvil de [!INCLUDE[prodshort](includes/prodshort.md)]. Para hacerlo en un dispositivo iOS, vaya a **Configuración**, elija **Privacidad**, y después a **Cámara** o **Localización**. Para los dispositivos Android, vaya a **Configuración**, elija **Aplicaciones y notificaciones**, **Avanzado**, **Administrador de permisos** y después, **Cámara** o **Ubicación**.
+Para dispositivos móviles, debe dar permisos de acceso a la cámara y a la ubicación para la Aplicación móvil de [!INCLUDE[prodshort](includes/prodshort.md)]. Para hacerlo en un dispositivo iOS, vaya a **Configuración** , elija **Privacidad** , y después a **Cámara** o **Localización** . Para los dispositivos Android, vaya a **Configuración** , elija **Aplicaciones y notificaciones** , **Avanzado** , **Administrador de permisos** y después, **Cámara** o **Ubicación** .
 
-Además, si está utilizando [!INCLUDE[prodshort](includes/prodshort.md)] en un navegador, también debe dar permiso al sitio de [!INCLUDE[prodshort](includes/prodshort.md)] para acceder a la información de la cámara o ubicación. Para ver o cambiar los permisos de un sitio en el navegador de Microsoft Edge, vaya a **Configuración**, elija **Permisos del sitio** y después, **Cámara** o **Ubicación**. Tenga en cuenta que esto puede ser diferente para otros navegadores.
+Además, si está utilizando [!INCLUDE[prodshort](includes/prodshort.md)] en un navegador, también debe dar permiso al sitio de [!INCLUDE[prodshort](includes/prodshort.md)] para acceder a la información de la cámara o ubicación. Para ver o cambiar los permisos de un sitio en el navegador de Microsoft Edge, vaya a **Configuración** , elija **Permisos del sitio** y después, **Cámara** o **Ubicación** . Tenga en cuenta que esto puede ser diferente para otros navegadores.
 
 De manera predeterminada, el dispositivo o navegador mostrará una solicitud para acceder a estas características cuando el usuario las active por primera vez.
 

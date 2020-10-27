@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 718df42f71fe5fd23877ce6660b7e3715c3bccb8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8da226a21e795228efa253f994d817f60ac5616b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779497"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910066"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Realizar picking de artículos para envío de almacén
 Cuando el almacén está configurado para requerir los procesos de picking y envío, utilice documentos de picking de almacén para crear y procesar la información de picking anterior al registro del envío de almacén.  
@@ -26,7 +26,7 @@ Puede crear los documentos de picking de almacén en forma de extracción abrien
 
 Como alternativa, puede utilizar la página **Preparar hoj. trab. pedido** para obtener y crear líneas de picking en lote. Para obtener más información, consulte [Planifique pickings en hojas de trabajo](warehouse-how-to-plan-picks-in-worksheets.md).  
 
-También puede crear los documentos de picking de almacén en forma de empuje de la página **Remisión almacén** seleccionando **Crear picking**.  
+También puede crear los documentos de picking de almacén en forma de empuje de la página **Remisión almacén** seleccionando **Crear picking** .  
 
 > [!NOTE]  
 >  Picking en el envío de almacén de los productos que se ensamblan al pedido de venta que se envía sigue los mismos pasos que para picking de almacén normales para envío, tal como se describe en este tema. Sin embargo, el número de líneas de picking por la cantidad a enviar puede ser de "muchas a una" porque realiza el picking de los componentes, no el producto de ensamblado.  
@@ -48,9 +48,9 @@ También puede crear los documentos de picking de almacén en forma de empuje de
 
     Si el almacén está configurado para utilizar ubicación y picking directos, el ranking de ubicación se utiliza para calcular las mejores ubicaciones de las que hacer picking y, a continuación, se sugieren en las líneas de picking. Las instrucciones aparecen en dos líneas independientes, al menos una para cada tipo de acción, Traer y Colocar.  
 
-4.  Cuando haya hecho el picking y colocado los productos en el área de o ubicación de envío, elija la acción **Registrar picking**.  
+4.  Cuando haya hecho el picking y colocado los productos en el área de o ubicación de envío, elija la acción **Registrar picking** .  
 
-La persona responsable de remisión ahora puede llevar los artículos al muelle de remisión y registrar la remisión, incluido el documento de origen relacionado, en la página **Remisión de almacén**. Para obtener más información, consulte [Enviar productos](warehouse-how-ship-items.md).   
+La persona responsable de remisión ahora puede llevar los artículos al muelle de remisión y registrar la remisión, incluido el documento de origen relacionado, en la página **Remisión de almacén** . Para obtener más información, consulte [Enviar productos](warehouse-how-ship-items.md).   
 
 Además del picking para los documentos de origen, tal como se describe en este tema, puede traer y situar los artículos entre las ubicaciones sin hacer referencia a los documentos de origen. Para obtener más información, vea [Realizar el picking y la ubicación sin un documento de origen](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
@@ -59,9 +59,9 @@ En escenarios de ensamblar para pedido, el campo **Cdad. a enviar** de las líne
 
 Para las demás líneas de envío de almacén, el valor del campo **Cdad. a enviar** es cero desde el principio.
 
-Cuando los trabajadores responsables del ensamblado terminan de montar componentes o toda la cantidad de ensamblar para pedido, la registran en el campo **Cdad. a enviar** de la línea de envío de almacén y eligen la acción **Registrar envío**. El resultado es que se registra la salida de ensamblado correspondiente, incluido el consumo de componentes. Un envío de venta para la cantidad se registra para el pedido de venta.
+Cuando los trabajadores responsables del ensamblado terminan de montar componentes o toda la cantidad de ensamblar para pedido, la registran en el campo **Cdad. a enviar** de la línea de envío de almacén y eligen la acción **Registrar envío** . El resultado es que se registra la salida de ensamblado correspondiente, incluido el consumo de componentes. Un envío de venta para la cantidad se registra para el pedido de venta.
 
-Desde el pedido de ensamblado, puede elegir **Lín. envío almacén ensamblar para pedido** para acceder a la línea de envío de almacén. Esto resulta adecuado para los trabajadores que no utilizan normalmente la página **Remisión de almacén**.
+Desde el pedido de ensamblado, puede elegir **Lín. envío almacén ensamblar para pedido** para acceder a la línea de envío de almacén. Esto resulta adecuado para los trabajadores que no utilizan normalmente la página **Remisión de almacén** .
 
 Una vez registrado el envío de almacén, los distintos campos de la línea de pedido de venta se actualizan para mostrar el progreso en el almacén. Los siguientes campos también se actualizan para mostrar cuántas cantidades de ensamblar para pedido faltan ensamblar y enviar:
 

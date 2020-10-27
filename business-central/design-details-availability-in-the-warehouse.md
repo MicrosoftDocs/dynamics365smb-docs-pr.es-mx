@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dbab0b20fd46235b549e48950d23879229e6dc1c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8381f2f41fedb4f41fd0515124b74254fc74517e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788232"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915671"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Detalles de diseño: Disponibilidad en el almacén
 El sistema debe mantener un control constante de la disponibilidad de productos el almacén, para que los pedidos de salida puedan fluir de un modo eficaz y proporcionar las entregas óptimas.  
 
 La disponibilidad varía en función de las asignaciones en el nivel de ubicación cuando tienen lugar actividades de almacén, como selección y movimientos, y cuando el programa de reservas de inventario impone restricciones. Un algoritmo bastante complejo comprueba que todas las condiciones se cumplan antes de asignar cantidades a selecciones para los flujos de salida.
 
-Si no se cumplen una o más condiciones, se pueden mostrar diferentes mensajes de error, incluyendo el mensaje genérico "Nada a manipular." . El mensaje "Nada a manipular." puede producirse por muchas razones diferentes, en los flujos de entrada y salida, en los que una línea de documento directa o indirectamente implicada contiene el campo **Cant. a manipular**.
+Si no se cumplen una o más condiciones, se pueden mostrar diferentes mensajes de error, incluyendo el mensaje genérico "Nada a manipular." . El mensaje "Nada a manipular." puede producirse por muchas razones diferentes, en los flujos de entrada y salida, en los que una línea de documento directa o indirectamente implicada contiene el campo **Cant. a manipular** .
 
 > [!NOTE]
 > Pronto se publicará aquí información sobre posibles razones y soluciones para el mensaje "Nada a manipular." .
@@ -35,7 +35,7 @@ Si no se cumplen una o más condiciones, se pueden mostrar diferentes mensajes d
 ## <a name="quantity-available-to-pick"></a>Cantidad disponible para picking  
  Si, por ejemplo, el algoritmo de selección no tiene en cuenta las cantidades del producto que están reservadas para un envío de pedido de venta pendiente, entonces los productos se pueden seleccionar para otro pedido de venta que se envíe antes, lo que impide satisfacer las primeras ventas. Para evitar esta situación, el algoritmo de picking resta las cantidades que están reservadas para otros documentos de salida, las cantidades de los documentos de picking existentes y las cantidades de las que se realiza el picking pero aún no se han enviado o consumido.  
 
- El resultado se muestra en el campo **Cdad. a picking disponible** en la página **Hoja de trabajo de picking**, donde el campo se calcula dinámicamente. El valor también se calcula cuando los usuarios crean los picking de almacén directamente para los documentos de salida. Dichos documentos de salida podrían ser pedidos de venta, consumo de producción o transferencias de salida, donde el resultado se refleja en los campos de cantidad relacionados, **Cdad. a manipular**.  
+ El resultado se muestra en el campo **Cdad. a picking disponible** en la página **Hoja de trabajo de picking** , donde el campo se calcula dinámicamente. El valor también se calcula cuando los usuarios crean los picking de almacén directamente para los documentos de salida. Dichos documentos de salida podrían ser pedidos de venta, consumo de producción o transferencias de salida, donde el resultado se refleja en los campos de cantidad relacionados, **Cdad. a manipular** .  
 
 > [!NOTE]  
 >  En relación con la prioridad de las reservas, la cantidad que reservar se resta de la cantidad disponible para seleccionar. Por ejemplo, si la cantidad disponible en las ubicaciones de selección es 5 unidades, pero hay 100 unidades en ubicaciones de colocación, cuando se intente reservar más de 5 unidades para otro pedido, aparecerá un mensaje de error, ya que la cantidad adicional debe estar disponible en ubicaciones de selección.  
@@ -61,9 +61,9 @@ Si no se cumplen una o más condiciones, se pueden mostrar diferentes mensajes d
 -   Cantidad en ubicaciones para ensamblado  
 -   Cantidad en ubicaciones de ajuste  
 
- El resultado se muestra en el campo**Cantidad total disponible** en la página **Reservas**.  
+ El resultado se muestra en el campo **Cantidad total disponible** en la página **Reservas** .  
 
- En una línea de reserva, la cantidad que no se puede reservar, porque está asignada en el almacén, se muestra en el campo **Cant. asignada en Almacén** de la página **Reservas**.  
+ En una línea de reserva, la cantidad que no se puede reservar, porque está asignada en el almacén, se muestra en el campo **Cant. asignada en Almacén** de la página **Reservas** .  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Cálculo de la cantidad disponible para reservar  
  La cantidad disponible para reservar se calcula de la manera siguiente:  

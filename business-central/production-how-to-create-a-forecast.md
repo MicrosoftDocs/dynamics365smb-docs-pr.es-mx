@@ -1,6 +1,6 @@
 ---
 title: Como crear una previsión de la demanda | Documentos de Microsoft
-description: Es posible crear previsiones de ventas y producción desde la página **Previsión de la demanda**.
+description: Es posible crear previsiones de ventas y producción desde la página **Previsión de la demanda** .
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6935f96c39ae378ddd8fa960c574f150bba16328
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 63009574c6d569cfc0ac20a6f474a11e2f8d5cb9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777777"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913282"
 ---
 # <a name="create-a-demand-forecast"></a>Crear una previsión de la demanda
-Es posible crear previsiones de ventas y producción desde la página **Previsión de la demanda**.  
+Es posible crear previsiones de ventas y producción desde la página **Previsión de la demanda** .  
 
 La funcionalidad de previsión se utiliza para crear la demanda prevista; la demanda real se crea a partir de las ventas y los pedidos de producción. Durante la creación del Programa de producción principal (MPS), la previsión se liquida con las ventas y los pedidos de producción. La opción *Componente* de la previsión determina qué tipo de requisitos se deben tener en cuenta en el proceso de liquidación. Si la previsión es para un producto de venta, sólo se liquidan los pedidos de venta en la previsión. Si es para componentes, sólo se liquida la demanda que depende de los componentes de la orden de producción en la previsión.  
 
@@ -32,11 +32,11 @@ La funcionalidad de previsión de la aplicación se puede usar para crear previs
 
 En la mayoría de los casos, el responsable de la planificación de la producción modifica la previsión de ventas para ajustarla a las condiciones de producción, si bien debe satisfacer la previsión de ventas.  
 
-Las previsiones se crean manualmente en la página **Previsión de la demanda**. En el sistema puede haber muchas previsiones, que se distinguen por el nombre y el tipo. Las previsiones se pueden copiar y editar como sea necesario. Tenga en cuenta que, en un momento dado, sólo se puede usar una previsión para realizar la planificación.  
+Las previsiones se crean manualmente en la página **Previsión de la demanda** . En el sistema puede haber muchas previsiones, que se distinguen por el nombre y el tipo. Las previsiones se pueden copiar y editar como sea necesario. Tenga en cuenta que, en un momento dado, sólo se puede usar una previsión para realizar la planificación.  
 
 La previsión está formada por una serie de registros, cada uno de los cuales debe tener un número de producto, una fecha de previsión y una cantidad prevista. La previsión de un producto abarca un periodo de tiempo, definido mediante la fecha de previsión y la fecha de previsión del siguiente registro de la previsión. Desde el punto de vista de la planificación, la cantidad prevista debe estar disponible al principio del periodo de demanda.  
 
-Debe calificar una previsión como de *Producto venta*, *Componente* o *Ambos*. El tipo de previsión *Producto venta* se usa en la previsión de ventas. La previsión de producción se crea con el tipo *Componente*. El tipo de previsión *Ambos* sólo se usa para ofrecer al responsable de la planificación una visión general de las previsiones de ventas y de producción. Con esta opción, los movimientos de previsión no se pueden modificar. Mediante la calificación de estos tipos de previsión aquí, puede usar la misma hoja para introducir una previsión de ventas de la misma forma que se introduce una previsión de producción, y usar la misma hoja para ver las dos previsiones a la vez. Tenga en cuenta que el sistema trata los dos tipos de información (ventas y producción) de distinta forma al calcular la planificación, en función de la configuración del producto, la fabricación y la producción.  
+Debe calificar una previsión como de *Producto venta* , *Componente* o *Ambos* . El tipo de previsión *Producto venta* se usa en la previsión de ventas. La previsión de producción se crea con el tipo *Componente* . El tipo de previsión *Ambos* sólo se usa para ofrecer al responsable de la planificación una visión general de las previsiones de ventas y de producción. Con esta opción, los movimientos de previsión no se pueden modificar. Mediante la calificación de estos tipos de previsión aquí, puede usar la misma hoja para introducir una previsión de ventas de la misma forma que se introduce una previsión de producción, y usar la misma hoja para ver las dos previsiones a la vez. Tenga en cuenta que el sistema trata los dos tipos de información (ventas y producción) de distinta forma al calcular la planificación, en función de la configuración del producto, la fabricación y la producción.  
 
 ## <a name="component-forecast"></a>Previsión de componentes  
 La previsión de componentes es una previsión en relación con un producto principal. Puede resultar útil, por ejemplo, si el responsable de la planificación puede estimar la demanda del componente.  
@@ -52,20 +52,20 @@ Puede establecerse en la configuración de fabricación si desea filtrar el pron
 ## <a name="to-create-a-demand-forecast"></a>Para crear una previsión de la demanda
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Previsión de la demanda** y luego elija el enlace relacionado.  
-2. Seleccione una previsión en el campo **Nombre previsión demanda** de la ficha desplegable  **General**. Puede haber varias previsiones, que se distinguen por el nombre y el tipo de previsión.  
-3. En el campo **Filtro almacén**, seleccione la ubicación a la que se aplicará esta previsión.
-4. En el campo **Ver por** para cambiar el periodo que se muestra en cada columna. Se pueden seleccionar los siguientes intervalos: **Día**, **Semana**, **Mes**, **Trimestre**, **Año** o el **Periodo contable** configurado en su área financiera.    
+2. Seleccione una previsión en el campo **Nombre previsión demanda** de la ficha desplegable  **General** . Puede haber varias previsiones, que se distinguen por el nombre y el tipo de previsión.  
+3. En el campo **Filtro almacén** , seleccione la ubicación a la que se aplicará esta previsión.
+4. En el campo **Ver por** para cambiar el periodo que se muestra en cada columna. Se pueden seleccionar los siguientes intervalos: **Día** , **Semana** , **Mes** , **Trimestre** , **Año** o el **Periodo contable** configurado en su área financiera.    
 
 > [!NOTE]  
 >  Debería analizar qué intervalo de tiempo desea utilizar para futuras previsiones para que sea el mismo en todas las ocasiones. Si especifica una cantidad de previsión, es válida el primer día del intervalo de tiempo seleccionado. Por ejemplo, si selecciona un mes, debe especificar la cantidad prevista en el primer día del mes. Si selecciona un trimestre, debe especificar la cantidad del primer día del primer mes del trimestre.
 
-5. Seleccione cómo se mostrarán las cantidades de previsión del intervalo de tiempo en el campo **Ver como**. Si se selecciona **Saldo periodo**, se mostrará el balance del saldo del periodo. Si se selecciona **Saldo a la fecha**, la página mostrará el saldo del último día del intervalo de tiempo.  
-6. En el campo **Tipo previsión**, seleccione **Producto venta**, **Componente** o **Ambos**. Si selecciona **Producto venta** o **Componente**, puede editar la cantidad según el periodo. Si selecciona **Ambos**, no podrá modificar la cantidad, pero podrá elegir el botón de flecha desplegable y ver los movimientos de previsión de la demanda.  
+5. Seleccione cómo se mostrarán las cantidades de previsión del intervalo de tiempo en el campo **Ver como** . Si se selecciona **Saldo periodo** , se mostrará el balance del saldo del periodo. Si se selecciona **Saldo a la fecha** , la página mostrará el saldo del último día del intervalo de tiempo.  
+6. En el campo **Tipo previsión** , seleccione **Producto venta** , **Componente** o **Ambos** . Si selecciona **Producto venta** o **Componente** , puede editar la cantidad según el periodo. Si selecciona **Ambos** , no podrá modificar la cantidad, pero podrá elegir el botón de flecha desplegable y ver los movimientos de previsión de la demanda.  
 7. Especifique un **Filtro fecha** si desea limitar la cantidad de datos que se muestran.  
-8. En la ficha desplegable **Matriz de previsión de demanda**, introduzca las cantidades pronosticadas escribiendo una cantidad en la celda que represente un producto en una fecha o período en particular. Tenga en cuenta que en las celdas vacías, el botón de búsqueda abre una página vacía que indica que debe introducir un valor manualmente.   
+8. En la ficha desplegable **Matriz de previsión de demanda** , introduzca las cantidades pronosticadas escribiendo una cantidad en la celda que represente un producto en una fecha o período en particular. Tenga en cuenta que en las celdas vacías, el botón de búsqueda abre una página vacía que indica que debe introducir un valor manualmente.   
 
 > [!NOTE]  
->  También se puede editar una previsión existente. Haga clic en la página **Matriz de previsión de la demanda**, seleccione la acción **Copiar previsión de la demanda** y rellene la página **Previsión de la demanda** con una previsión existente. Es posible realizar modificaciones a las cantidades según sea pertinente.  
+>  También se puede editar una previsión existente. Haga clic en la página **Matriz de previsión de la demanda** , seleccione la acción **Copiar previsión de la demanda** y rellene la página **Previsión de la demanda** con una previsión existente. Es posible realizar modificaciones a las cantidades según sea pertinente.  
 
 ## <a name="see-also"></a>Consulte también  
 [Configuración de fabricación](production-configure-production-processes.md)  

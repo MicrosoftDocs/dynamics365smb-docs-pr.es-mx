@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eac9b5268cda8671a7189a429dedd9eb3cbfbc53
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: e39de1d4656b272c5c6cf5c01f54d5d6ebeca05b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372698"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914225"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Configuración de códigos de origen y códigos de auditoría para pistas de auditoría
 
@@ -29,27 +29,27 @@ A veces querrá saber cómo surge un movimiento determinado, por ejemplo, si pro
 
 El registro de diarios, pedidos, facturas o notas de crédito, así como la ejecución de diversos trabajos por lotes, genera movimientos en los estados de cuenta financieros. La página **Configuración códigos origen** contiene varias fichas desplegables, una por cada área de aplicación. Cada ficha desplegable contiene los códigos de origen correspondientes a esa área de aplicación.
 
-Cuando registra o ejecuta un trabajo por lotes, el programa adjunta automáticamente el código de origen correspondiente al movimiento. Por ejemplo, al registrar desde el diario general, el programa codificará el movimiento con la abreviatura *DIAGEN*. Luego puede filtrar la página **Movs. contabilidad** para mostrar qué movimientos se publicaron desde el diario general o desde documentos de ventas, por ejemplo.
+Cuando registra o ejecuta un trabajo por lotes, el programa adjunta automáticamente el código de origen correspondiente al movimiento. Por ejemplo, al registrar desde el diario general, el programa codificará el movimiento con la abreviatura *DIAGEN* . Luego puede filtrar la página **Movs. contabilidad** para mostrar qué movimientos se publicaron desde el diario general o desde documentos de ventas, por ejemplo.
 
 ### <a name="to-define-source-codes"></a>Para definir códigos de origen
 
 1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono de Buscar por página o informe"), introduzca **Configuración códigos origen** y, a continuación, elija el vínculo relacionado.  
 
-2. En la ventana **Configuración del código fuente**, especifique el código fuente relevante para cada tipo de registro y trabajo por lotes.  
+2. En la ventana **Configuración del código fuente** , especifique el código fuente relevante para cada tipo de registro y trabajo por lotes.  
 
 Puede cambiar el contenido de un campo más tarde, y ese cambio afectará a futuros registros.
 
 ## <a name="change-source-codes"></a>Cambiar códigos de origen
 
-Puede querer cambiar un código de origen. Por ejemplo, quiere modificar el código de origen *GENJNL* a *GNJ*.
+Puede querer cambiar un código de origen. Por ejemplo, quiere modificar el código de origen *GENJNL* a *GNJ* .
 
 ### <a name="to-change-source-codes"></a>Para modificar códigos de origen
 
 1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono de Buscar por página o informe"), introduzca **Códigos de origen** y, a continuación, elija el vínculo relacionado.
 
-2. En la línea que contiene el código que debe modificarse, seleccione el código en el campo **Código**.
+2. En la línea que contiene el código que debe modificarse, seleccione el código en el campo **Código** .
 
-3. Introduzca el nuevo código y, a continuación, elija el botón **Sí**. También puede modificar el contenido del campo **Descripción**.
+3. Introduzca el nuevo código y, a continuación, elija el botón **Sí** . También puede modificar el contenido del campo **Descripción** .
 
 Todos los nuevos movimientos que se registren posteriormente del diario general tendrán el nuevo código de origen.
 
@@ -61,7 +61,7 @@ Los códigos de auditoría complementan los código de origen y se utilizan para
 
 1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono de Buscar por página o informe"), introduzca **Código de auditoría** y, a continuación, elija el vínculo relacionado.
 
-2. En la ventana **Códigos auditoría**, introduzca el primer código en el campo **Código**. En el campo **Descripción**, escriba un texto explicativo.
+2. En la ventana **Códigos auditoría** , introduzca el primer código en el campo **Código** . En el campo **Descripción** , escriba un texto explicativo.
 
 Repita el procedimiento para cada código que desee utilizar. Puede configurar cualquier número de códigos.
 
@@ -71,7 +71,7 @@ El siguiente procedimiento describe cómo agregar un código de auditoría a un 
 
 1. Elija el icono ![Buscar por página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), escriba **Libro diario general** y, a continuación, elija el enlace relacionado.
 
-2. En la línea que contiene el libro diario seleccionado, en el campo **Código de motivo**, especifique el código relevante.
+2. En la línea que contiene el libro diario seleccionado, en el campo **Código de motivo** , especifique el código relevante.
 
 3. Cierre el libro diario.
 
@@ -81,7 +81,7 @@ El código de auditoría seleccionado se copiará en las nuevas secciones de dia
 
 1. Abra el documento de compras correspondiente.
 
-2. En la cabecera de ventas o de compra, escriba el código en el campo **Código de auditoría**.
+2. En la cabecera de ventas o de compra, escriba el código en el campo **Código de auditoría** .
 
 Al registrar la factura, el código de auditoría se copia en cada movimiento de contabilidad, cliente y proveedor. No puede asignar códigos de auditoría distintos a cada una de las líneas de compra porque todas las líneas se registran como un solo movimiento.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 65064d8c8fb0082c49f230398f22ce1406993f46
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b7eb82e5fc3dc20449f3fc8352fbda4e80372a20
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788836"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910441"
 ---
 # <a name="setting-up-sales"></a>Configuración de ventas
 Para poder administrar procesos de venta, debe configurar las reglas y valores que definen las políticas de venta de la empresa.
@@ -32,7 +32,7 @@ La configuración de ventas relacionada con las finanzas, como las formas de pag
 | Permita a los clientes que paguen mediante PayPal eligiendo su logotipo en los documentos de ventas. |[Permitir el pago de clientes mediante PayPal](sales-how-enable-payment-service-extensions.md) |
 | Especifique los distintos descuentos y precios especiales que ofrece a los clientes en función del producto, cantidades o fecha. |[Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md) |
 | Configure los vendedores para que pueda asignarles contactos de cliente o medir el rendimiento del vendedor como base para calcular la comisión o prima por ventas. |[Configurar vendedores](sales-how-setup-salespeople.md) |
-| Especifique para clientes individuales o para todos los clientes cómo se envían los documentos de ventas por defecto cuando elige la acción **Registrar y enviar**. |[Configurar perfiles de envío de documentos](sales-how-setup-document-send-profiles.md) |
+| Especifique para clientes individuales o para todos los clientes cómo se envían los documentos de ventas por defecto cuando elige la acción **Registrar y enviar** . |[Configurar perfiles de envío de documentos](sales-how-setup-document-send-profiles.md) |
 | Configure su correo electrónico para que contenga un resumen de información en el documento de ventas que se está enviando. |[Enviar documentos por correo electrónico](ui-how-send-documents-email.md). |
 |Utilice un servicio Web de la UE para comprobar el número de CIF/NIF de un cliente.|[Comprobar CIF/NIF](finance-setup-vat.md)|
 |Defina los diferentes incoterms que ofrece a los clientes o que sus proveedores le ofrecen.|[Configuración de métodos de envío](sales-how-set-up-shipment-methods.md)|

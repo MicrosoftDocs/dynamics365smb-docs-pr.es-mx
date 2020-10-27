@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef4127f7bfe8a135f07b5fa1aa7db4b953489282
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1dccea4f700f8cf141e05058b54fd20d62665b7b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787107"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910991"
 ---
 # <a name="design-details-table-structure"></a>Detalles de diseño: Estructura de tablas
 Para entender cómo se almacenan y registran los movimientos de dimensión, es importante comprender la estructura de tabla.  
@@ -43,7 +43,7 @@ Esta tabla no se puede modificar. Se usa para buscar un grupo de dimensiones. Si
 |4|**Utilizándose**|Booleano|Falso si no se usa.|  
 
 ## <a name="table-482-reclas-dimension-set-buffer"></a>Tabla 482 Almacenaje grupo de dimensiones reclas.  
-Esta tabla se usa cuando se modifica un código de valor de dimensión, por ejemplo, en un movimiento de producto mediante la página **Diario reclasificación producto**.  
+Esta tabla se usa cuando se modifica un código de valor de dimensión, por ejemplo, en un movimiento de producto mediante la página **Diario reclasificación producto** .  
 
 |N.º de campo|Nombre de campo|Tipo de datos|Comentario|  
 |---------------|----------------|---------------|-------------|  

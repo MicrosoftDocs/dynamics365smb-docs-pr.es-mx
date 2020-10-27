@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d37ef45bc1232bf0811a14123a814f1bf57ee7c2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 15ad8d52508148449fcb82c8c4b3b5b3c42b8443
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787707"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913699"
 ---
 # <a name="design-details-inventory-valuation"></a>Detalles de diseño: Valuación de Inventarios
 La valuación de inventarios "Valuación de inventarios" es la determinación del costo que se asigna a un producto de inventario, tal como expresa la ecuación siguiente.  
@@ -27,7 +27,7 @@ El cálculo de valuación de inventarios usa el campo **Importe costo (real)** d
 Las entradas se aplican una respecto a otra, por liquidación fija XE "Liquidación; fija" o según el supuesto de flujo de costo general definido por la valoración de existencias XE "Valoración; existencias" XE "Valoración existencias". Se puede aplicar un movimiento de disminución de inventario a varios movimientos de aumento con distintas fechas de registro y, posiblemente, distintos costos XE "Costo". Para obtener más información, consulte [Detalles de diseño: Liquidación de productos](design-details-item-application.md). Por lo tanto, el cálculo del valor de inventario XE "Valor de inventario" para una fecha determinada se basa en la suma de movimientos de valoración positivos y negativos.  
 
 ## <a name="inventory-valuation-report"></a>Informe de valuación de inventarios  
-Para calcular el valor de inventario en el informe **Valuación de Inventarios**, se comienza con el cálculo del valor del inventario del producto en una fecha inicial determinada. Después agrega valor de las entradas de existencias y resta el valor de las salidas de existencias hasta una fecha final determinada. El resultado final es el valor de inventario en la fecha final. El informe calcula estos valores mediante la suma de los valores del campo **Importe costo (real)** en los movimientos de valoración, usando las fechas de registro como filtros.  
+Para calcular el valor de inventario en el informe **Valuación de Inventarios** , se comienza con el cálculo del valor del inventario del producto en una fecha inicial determinada. Después agrega valor de las entradas de existencias y resta el valor de las salidas de existencias hasta una fecha final determinada. El resultado final es el valor de inventario en la fecha final. El informe calcula estos valores mediante la suma de los valores del campo **Importe costo (real)** en los movimientos de valoración, usando las fechas de registro como filtros.  
 
 El informe impreso siempre muestra los importes reales, es decir, el costo de los movimientos que se han registrado como facturados. Si activa el campo Incluir costo esperado de la ficha desplegable Opciones, el informe impreso también incluirá el costo esperado de los movimientos que se hayan registrado como recibidos o enviados.  
 

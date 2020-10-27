@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/10/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fea86618e064267537eb72c1be0473ad7c3431ab
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0b8c0acb51467d8320a6ebe91ee6dbf6827f8e85
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784118"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915396"
 ---
 # <a name="subcontract-manufacturing"></a>Subcontratación de fabricación
 La subcontratación de operaciones seleccionadas al proveedor es común de muchas empresas de fabricación. La subcontratación puede ser esporádica o puede formar parte integrante de todos los procesos de producción.
@@ -32,9 +32,9 @@ Los centros de trabajo subcontratados se configuran igual que los centros de tra
 ### <a name="subcontract-work-center-fields"></a>Subcontratar campos de centros de trabajo  
 El campo **Nº subcontratista** indica que el centro de trabajo es un centro de trabajo subcontratado. Puede escribir el número de un subcontratista que suministra el centro de trabajo. Este campo se puede usar para administrar los centros de trabajo que no están dentro de la empresa, sino que realizan procesos por contrato.  
 
-Si subcontrata al proveedor a una tarifa distinta para cada proceso, puede seleccionar el campo **Costo unitario específico**. De esta forma, puede configurar un costo en cada línea de la ruta y no tener que volver a introducir la información en cada pedido de compra. El costo de la línea de ruta se usa en el procesamiento en lugar del costo de los campos de costo del centro de trabajo. Si activa el campo **Costo unitario específico**, el programa puede calcular los costos del proveedor por operación de ruta.  
+Si subcontrata al proveedor a una tarifa distinta para cada proceso, puede seleccionar el campo **Costo unitario específico** . De esta forma, puede configurar un costo en cada línea de la ruta y no tener que volver a introducir la información en cada pedido de compra. El costo de la línea de ruta se usa en el procesamiento en lugar del costo de los campos de costo del centro de trabajo. Si activa el campo **Costo unitario específico** , el programa puede calcular los costos del proveedor por operación de ruta.  
 
-Si subcontrata a cada proveedor a una única tarifa, deje en blanco el campo **Costo unitario específico**. Los costos se configurarán rellenando los campos **Costo unit. directo**, **% Costo indirecto** y **Tasa costos generales**.  
+Si subcontrata a cada proveedor a una única tarifa, deje en blanco el campo **Costo unitario específico** . Los costos se configurarán rellenando los campos **Costo unit. directo** , **% Costo indirecto** y **Tasa costos generales** .  
 
 ### <a name="routings-that-use-subcontract-work-centers"></a>Rutas que usan centros de trabajo subcontratados  
 Los centros de trabajo subcontratados se pueden usar para las operaciones de las rutas de la misma forma que los centros de trabajo normales.  
@@ -46,24 +46,24 @@ Para obtener más información, consulte [Crear rutas](production-how-to-create-
 ## <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Calcular las hojas de cálculo de la subcontratación y cree los pedidos de compra de subcontratación  
 Una vez que ha calculado la hoja de subcontratación, se crea el documento correspondiente, en este caso un pedido de compra.  
 
-Las funciones de la página **Hoja subcontratación** como **Hoja planificación** calculando el suministro necesario, en este caso los pedidos de compra, que se revisa en la hoja de cálculo y después crea con la función de **Ejecutar mensajes acción**.  
+Las funciones de la página **Hoja subcontratación** como **Hoja planificación** calculando el suministro necesario, en este caso los pedidos de compra, que se revisa en la hoja de cálculo y después crea con la función de **Ejecutar mensajes acción** .  
 
 > [!NOTE]  
->  En las hojas de subcontratación, sólo se pueden ver y utilizar las órdenes de producción que tengan el estado de **Lanzadas**.  
+>  En las hojas de subcontratación, sólo se pueden ver y utilizar las órdenes de producción que tengan el estado de **Lanzadas** .  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Para calcular la hoja de subcontratación  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja subcontratación** y luego elija el enlace relacionado.  
-2.  Para calcular la hoja, seleccione la acción **Calcular subcontratos**.  
-3.  En la página **Calcular subcontratos**, defina filtros para operaciones subcontratadas, o los centros de trabajo donde se realizan, para calcular solo las órdenes de producción correspondientes.  
-4.  Elija el botón **Aceptar**.  
+2.  Para calcular la hoja, seleccione la acción **Calcular subcontratos** .  
+3.  En la página **Calcular subcontratos** , defina filtros para operaciones subcontratadas, o los centros de trabajo donde se realizan, para calcular solo las órdenes de producción correspondientes.  
+4.  Elija el botón **Aceptar** .  
 
-    Revise las líneas en la página **Hoja subcontratación**. La información de esta hoja de cálculo proviene de la orden de producción y de las líneas de ruta y flujos de la orden de producción del pedido de compra cuando se crea el documento. Puede eliminar una fila de la hoja de cálculo sin asignar a la información original, tal como puede hacer con las otras hojas de cálculo. La información reaparecerá la siguiente vez que ejecute la función de **Calcular subcontratos**.  
+    Revise las líneas en la página **Hoja subcontratación** . La información de esta hoja de cálculo proviene de la orden de producción y de las líneas de ruta y flujos de la orden de producción del pedido de compra cuando se crea el documento. Puede eliminar una fila de la hoja de cálculo sin asignar a la información original, tal como puede hacer con las otras hojas de cálculo. La información reaparecerá la siguiente vez que ejecute la función de **Calcular subcontratos** .  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Para generar el pedido de compra subcontratado  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja subcontratación** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Ejecutar mensajes de acción**.  
+2.  Seleccione la acción **Ejecutar mensajes de acción** .  
 3.  Seleccione el campo **Imprimir pedidos** para imprimir el pedido de compra al crearlo.  
-4.  Elija el botón **Aceptar**.  
+4.  Elija el botón **Aceptar** .  
 
 Si todas las operaciones subcontratadas se van a enviar a un solo proveedor, se crea un solo pedido de compra.  
 
@@ -76,9 +76,9 @@ Una vez que se han creado los pedidos de compra del subcontratista, se pueden re
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Pedidos de compra** y luego elija el enlace relacionado.  
 2.  Abra un pedido de compra creado en la hoja de subcontratación.  
 
-    En las líneas del pedido de compra, puede ver la misma información que estaba en la hoja de cálculo. Los campos **Nº orden producción**, **Nº lín. orden producc.**, **Nº operación** y **Nº centro trabajo** se rellenan con la información del pedido de producción de origen.  
+    En las líneas del pedido de compra, puede ver la misma información que estaba en la hoja de cálculo. Los campos **Nº orden producción** , **Nº lín. orden producc.** , **Nº operación** y **Nº centro trabajo** se rellenan con la información del pedido de producción de origen.  
 
-3.  Seleccione la acción **Registrar**.  
+3.  Seleccione la acción **Registrar** .  
 
 Cuando la compra se registra como recibida, se registra automáticamente un movimiento de diario de salida para la orden de producción. Esto se aplica solo si la operación de subcontratación es la última operación en la ruta de la orden de producción.  
 

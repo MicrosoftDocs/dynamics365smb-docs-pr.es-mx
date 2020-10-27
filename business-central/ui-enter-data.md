@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/03/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1ad2eb6d2e9a423aa1891eb52f71e815f4b89eff
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 31432399981befb3b844c5d951b5b752e1152458
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785457"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912507"
 ---
 # <a name="entering-data"></a>Introducción de datos
 
@@ -33,7 +33,7 @@ Algunos campos editables proporcionan un selector para ayudarle a especificar un
 |------------------|------------------------------------|
 |Selector de fechas       |Este selector muestra un calendario basado en su configuración regional actual. Le ayuda a elegir una única fecha.|
 |Desplegable          |Los menús desplegables ofrecen una opción de valores fijos o registros de referencia de otra tabla|
-|Conmutador o casilla|Algunos campos ofrecen una elección sencilla de valores *Sí* o *No*. El conmutador se usa para especificar este valor y siempre se muestra como una casilla en listas|
+|Conmutador o casilla|Algunos campos ofrecen una elección sencilla de valores *Sí* o *No* . El conmutador se usa para especificar este valor y siempre se muestra como una casilla en listas|
 |Edición de asistencia       |Algunos campos proporcionan selectores personalizados adecuados para buscar y elegir el mejor valor para ese campo, como la ventana emergente.|
 
 
@@ -41,20 +41,20 @@ Algunos campos editables proporcionan un selector para ayudarle a especificar un
 
 Para modificar el valor de un campo, primero debe establecer el foco en ese campo. El foco se establece mediante las siguientes acciones:
 
-- Usando la tecla **Tab**. La acción selecciona todo el valor.
+- Usando la tecla **Tab** . La acción selecciona todo el valor.
 - Haciendo clic con el botón izquierdo del ratón o dispositivo de entrada similar. Esta acción solo seleccionará el valor del campo completo si el campo está en una lista.  
 
 Cuando interactúa con campos en la interfaz de usuario, [!INCLUDE[d365fin](includes/d365fin_md.md)] normalmente favorece la selección de todo el valor del campo para que le sea más fácil reemplazar ese valor.
 
 Cuando se selecciona todo el valor del campo:
-- Reemplace el valor simplemente escribiendo para especificar un nuevo valor. Si el campo ofrece un selector, puede activarlo usando el método abreviado de teclado **Alt+flecha abajo**.
+- Reemplace el valor simplemente escribiendo para especificar un nuevo valor. Si el campo ofrece un selector, puede activarlo usando el método abreviado de teclado **Alt+flecha abajo** .
 - Utilice la tecla **Supr** o **Retroceso** para borrar el valor.
 
 Presione la tecla **F2** para alternar entre seleccionar todo el valor del campo o colocar el cursor después del valor del campo. Al colocar el cursor al final del valor se facilita la anexión al valor existente.
 
 Cuando el cursor se muestra al final del valor del campo:
 - Agregue al valor escribiendo.
-- Use las teclas **Inicio**, **Fin**, **Flecha izquierda** y **Flecha derecha** para mover el cursor dentro del valor. Si está editando un campo en una lista, presionar la tecla **Flecha izquierda** nuevamente cuando el cursor esté al comienzo del valor establecerá el foco en el campo anterior. Del mismo modo, al presionar la tecla **Flecha derecha** nuevamente cuando el cursor esté al final del valor establecerá el foco en el siguiente campo.
+- Use las teclas **Inicio** , **Fin** , **Flecha izquierda** y **Flecha derecha** para mover el cursor dentro del valor. Si está editando un campo en una lista, presionar la tecla **Flecha izquierda** nuevamente cuando el cursor esté al comienzo del valor establecerá el foco en el campo anterior. Del mismo modo, al presionar la tecla **Flecha derecha** nuevamente cuando el cursor esté al final del valor establecerá el foco en el siguiente campo.
 
 > [!NOTE]
 > Después de especificar un valor, Business Central solo comprobará que sea válido después de hacer clic fuera del campo o establecer el foco en otro elemento, como el siguiente campo.  
@@ -74,7 +74,7 @@ Puede usar tecla Tab para navegar desde un campo de una página al siguiente cam
 
 ### <a name="how-quick-entry-works"></a>Cómo funciona la entrada rápida
 
-Cada campo puede marcarse como *incluido en la entrada rápida* o como *excluido de la entrada rápida*. Los campos que se incluyen en la Entrada rápida se incluirán en la ruta cuando presione Entrar. Los campos que están excluidos de la Entrada rápida no lo harán.
+Cada campo puede marcarse como *incluido en la entrada rápida* o como *excluido de la entrada rápida* . Los campos que se incluyen en la Entrada rápida se incluirán en la ruta cuando presione Entrar. Los campos que están excluidos de la Entrada rápida no lo harán.
 
 Cuando haya finalizado de rellenar un campo, presione Entrar para confirmar los cambios e ir al siguiente campo. Si desea invertir la dirección y pasar al campo anterior, pulse Mayús+Entrar. Para obtener más información sobre estos métodos abreviados, consulte [Métodos abreviados de entrada rápida para campos](keyboard-shortcuts.md#QuickEntry).
 
@@ -93,8 +93,8 @@ La lista siguiente ofrece información útil sobre el uso de la entrada rápida.
 
 Para configurar la Entrada rápida en campos, utilice la personalización.
 
-1. Comience la personalización seleccionando el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el Área de tareas") y luego la acción **Personalizar**.
-2. Seleccione el campo que desea cambiar. En listas, seleccione el encabezado de columna correspondiente. Luego, elija **Incluir en Entrada rápida** o **Excluir de Entrada rápida**.
+1. Comience la personalización seleccionando el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el Área de tareas") y luego la acción **Personalizar** .
+2. Seleccione el campo que desea cambiar. En listas, seleccione el encabezado de columna correspondiente. Luego, elija **Incluir en Entrada rápida** o **Excluir de Entrada rápida** .
 
 Para obtener más información sobre la personalización, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
@@ -192,14 +192,14 @@ Puede especificar números negativos de dos formas. El número -20,5 se puede es
 
  En ambos casos, el importe se registrará como -20,5.  
 
- Si el último carácter de la expresión es **+** o **-**, la expresión completa se registrará con ese signo. Ejemplo, **10-20+** dará como resultado 10 y no -10.  
+ Si el último carácter de la expresión es **+** o **-** , la expresión completa se registrará con ese signo. Ejemplo, **10-20+** dará como resultado 10 y no -10.  
 
 ## <a name="entering-dates-and-times"></a>Introducir fechas y horas
 
 Puede especificar fechas y horas en todos los campos diseñados para las fechas (campos de fecha). Las fechas pueden escribirse con o sin separadores.
 
 > [!NOTE]  
-> La forma de especificar las fechas y horas depende de los valores **Región**. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).  
+> La forma de especificar las fechas y horas depende de los valores **Región** . Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).  
 
 ### <a name="entering-dates"></a>Introducción de fechas
 

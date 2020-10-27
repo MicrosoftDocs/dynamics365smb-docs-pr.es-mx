@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e2099599edcf5217b0130e75bbb171fddd39839e
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 4946eb43dd854f8f04b0c267a9ba1bc328cc62bb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611470"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915146"
 ---
 # <a name="the-image-analyzer-extension"></a>Extensión del analizador de imágenes
 
@@ -25,7 +25,7 @@ El analizador sugiere atributos basados en etiquetas que encuentra la API de Com
 
 El analizador está disponible en [!INCLUDE[d365fin](includes/d365fin_md.md)], pero hay un límite en el número de elementos que puede analizar durante un cierto período de tiempo. De forma predeterminada, puede analizar 100 imágenes por mes.
 
-Después de habilitar la extensión, el analizador se ejecuta cada vez que importa una imagen a un elemento o persona de contacto. Verá los atributos, el nivel de confianza y los detalles de inmediato y podrá decidir qué hacer con cada atributo. Si ha importado imágenes antes de activar la extensión del analizador de imágenes, debe ir al elemento o a las tarjetas de contacto y seleccionar la acción **Analizar imagen**.  
+Después de habilitar la extensión, el analizador se ejecuta cada vez que importa una imagen a un elemento o persona de contacto. Verá los atributos, el nivel de confianza y los detalles de inmediato y podrá decidir qué hacer con cada atributo. Si ha importado imágenes antes de activar la extensión del analizador de imágenes, debe ir al elemento o a las tarjetas de contacto y seleccionar la acción **Analizar imagen** .  
 
 ## <a name="privacy-notice"></a>Aviso de privacidad
 
@@ -44,12 +44,12 @@ Hay algunos requisitos para las imágenes:
 La extensión del analizador de imágenes viene incorporada en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Solo necesita activarla.
 
 > [!NOTE]  
-> Para activar la extensión del analizador de imágenes, debe ser administrador. Asegúrese de que se le ha asignado el conjunto de permisos de usuario **SUPER**.
+> Para activar la extensión del analizador de imágenes, debe ser administrador. Asegúrese de que se le ha asignado el conjunto de permisos de usuario **SUPER** .
 
 1. Para activar la extensión del analizador de imágenes, elija una de estas acciones:
 
-* Abrir un elemento o tarjeta de contacto. En la barra de notificación, elija **Analizar imágenes**y, a continuación, siga los pasos de la guía de configuración asistida.  
-* Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conexiones de servicio** y luego elija **Configuración del análisis de imagen**. Seleccione la casilla **Activar analizador de imágenes**y, a continuación, complete los pasos de la guía de configuración asistida.  
+* Abrir un elemento o tarjeta de contacto. En la barra de notificación, elija **Analizar imágenes** y, a continuación, siga los pasos de la guía de configuración asistida.  
+* Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conexiones de servicio** y luego elija **Configuración del análisis de imagen** . Seleccione la casilla **Activar analizador de imágenes** y, a continuación, complete los pasos de la guía de configuración asistida.  
 
     > [!TIP]  
     > La página **Configuración del análisis de imágenes** también permite cambiar el grado de confianza de las sugerencias de atributos. Por ejemplo, si desea exigir un mayor grado de confianza, puede introducir un porcentaje más alto.
@@ -59,19 +59,19 @@ La extensión del analizador de imágenes viene incorporada en [!INCLUDE[d365fin
 Los siguientes pasos describen cómo analizar una imagen que se importó antes de activar la extensión del analizador.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
-2. Seleccione el producto y, a continuación, elija la acción **Analizar imagen**.  
+2. Seleccione el producto y, a continuación, elija la acción **Analizar imagen** .  
 3. La página **Atributos del analizador de imágenes** muestra los atributos detectados, el nivel de confianza y otros detalles sobre el atributo. Utilice las opciones **Acción para realizar** para especificar qué debe hacer con el atributo.  
 
     > [!TIP]  
-    > Puede agregar el nombre del atributo a la descripción del artículo mediante **Añadir a la descripción del artículo**. Por ejemplo, esto puede ser útil para agregar rápidamente detalles.  
+    > Puede agregar el nombre del atributo a la descripción del artículo mediante **Añadir a la descripción del artículo** . Por ejemplo, esto puede ser útil para agregar rápidamente detalles.  
 
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Analizar una imagen de una persona de contacto
 
 Los siguientes pasos describen cómo analizar una imagen que se importó antes de activar la extensión del analizador.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.  
-2. Seleccione la persona de contacto y, a continuación, elija la acción **Analizar imagen**.  
-3. En la ficha desplegable **Cuestionario perfil**, revise las sugerencias y realice correcciones si es necesario.  
+2. Seleccione la persona de contacto y, a continuación, elija la acción **Analizar imagen** .  
+3. En la ficha desplegable **Cuestionario perfil** , revise las sugerencias y realice correcciones si es necesario.  
 
 ## <a name="block-suggested-attributes"></a>Bloquear atributos sugeridos
 
@@ -92,12 +92,12 @@ También puede utilizar su propia cuenta para la API de Computer Vision, por eje
 Puede ver el número de análisis que ha realizado y cuántos pueden hacerse en el período actual.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de análisis de imagen** y luego elija el enlace relacionado.  
-2. El **Tipo límite**, el **Valor límite** y los **Análisis realizados** proporcionan la información de uso.  
+2. El **Tipo límite** , el **Valor límite** y los **Análisis realizados** proporcionan la información de uso.  
 
 ## <a name="to-stop-using-the-image-analyzer-extension"></a>Detener el uso de la extensión del analizador de imágenes
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conexiones de servicio** y luego elija **Configuración del analizador de imágenes**.  
-2. Desactive la casilla **Activar analizador de imágenes**.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conexiones de servicio** y luego elija **Configuración del analizador de imágenes** .  
+2. Desactive la casilla **Activar analizador de imágenes** .  
 
 ## <a name="see-also"></a>Consulte también
 

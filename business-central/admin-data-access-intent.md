@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/30/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b46786b60d7c5799b056c49188785bd595db57ff
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: 98105cb3e3634169b31a850f20a65a3854b006b4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333919"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911566"
 ---
 # <a name="managing-database-access-intent"></a>Gestionar la intención de acceso a la base de datos 
 
@@ -29,7 +29,7 @@ Cuando se ejecutan los objetos, la intención de acceso a la base de datos deter
 
 La página **Lista de intenciones de acceso a la base de datos** permite anular la intención de acceso a la base de datos predefinida para los objetos cuando se ejecutan.
 
-En términos de base de datos, esta característica se conoce comúnmente como *escalado de lectura*. Para obtener más información sobre el escalado de lectura y la intención de acceso a datos en [!INCLUDE[prodshort](includes/prodshort.md)], vea [Utilizar el escalado de lectura para un mejor rendimiento](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) en la ayuda para desarrolladores y administración de [!INCLUDE[prodshort](includes/prodshort.md)].
+En términos de base de datos, esta característica se conoce comúnmente como *escalado de lectura* . Para obtener más información sobre el escalado de lectura y la intención de acceso a datos en [!INCLUDE[prodshort](includes/prodshort.md)], vea [Utilizar el escalado de lectura para un mejor rendimiento](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) en la ayuda para desarrolladores y administración de [!INCLUDE[prodshort](includes/prodshort.md)].
 
 ## <a name="to-change-the-database-access-intent"></a>Para cambiar la intención de acceso a la base de datos
 
@@ -43,12 +43,12 @@ En términos de base de datos, esta característica se conoce comúnmente como *
     |**Permitir escritura**|Establece el objeto para usar la base de datos primaria, lo que permite al usuario modificar datos.|
     |**Solo lectura**|Establece el objeto para usar la réplica de la base de datos, lo que significa que el usuario solo puede ver datos, no cambiarlos.|
 
-2. Seleccione la acción **Editar lista**.
+2. Seleccione la acción **Editar lista** .
 
-3. En la página **Editar - Lista de intenciones de acceso a la base de datos**, cambie el campo **Intento de acceso** para los objetos.
+3. En la página **Editar - Lista de intenciones de acceso a la base de datos** , cambie el campo **Intento de acceso** para los objetos.
 
     > [!NOTE]
-    > Si un objeto que es editable, como la Tarjeta del cliente, se establece en **Solo lectura**, se seguirá utilizando la base de datos principal, independientemente de la intención de acceso, lo que permitirá a los usuarios realizar cambios de forma normal.
+    > Si un objeto que es editable, como la Tarjeta del cliente, se establece en **Solo lectura** , se seguirá utilizando la base de datos principal, independientemente de la intención de acceso, lo que permitirá a los usuarios realizar cambios de forma normal.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 

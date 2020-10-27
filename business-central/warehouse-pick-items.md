@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/30/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f051eb1267fd7ce9a45da23bf99007a21f039cf6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ef457ddf93e2634345c809b241e15acc94d0593e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784907"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911732"
 ---
 # <a name="pick-items"></a>Elegir productos
 
@@ -24,7 +24,7 @@ La actividad de almacén consistente en realizar el picking de los productos ant
 Si decide organizar y registrar su actividad de picking con documentos de almacén, active el campo **Picking requerido** en la ficha de almacén. Esto indica que, cuando tenga que realizar el picking de productos para un documento de origen de salida, desea que el picking de estos productos se controle por el sistema. El documento de origen de salida puede ser un pedido de venta, una devolución de compras, un pedido de transferencia de salida, un pedido de servicio o una orden de producción de cuyos componentes debe realizarse el picking.
 
 > [!NOTE]
-> A pesar de que la configuración se denomina **Picking requerido**, todavía puede registrar envíos directamente desde el documento empresarial de origen en la ubicación donde selecciona esta casilla de verificación.
+> A pesar de que la configuración se denomina **Picking requerido** , todavía puede registrar envíos directamente desde el documento empresarial de origen en la ubicación donde selecciona esta casilla de verificación.
 
 Si el almacén está configurado para requerir el proceso de picking, pero no el proceso de remisión, utilice la página **Picking inventario** para organizar la información de picking, imprimirla, especificar el resultado del picking real y registrar la información de picking, que, a su vez, registra la remisión de los productos. En caso de realizar el picking de componentes para una orden de producción, el registro del picking también registra el consumo.
 

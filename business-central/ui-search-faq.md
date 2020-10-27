@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a23851dfbca688c5935d967a66ad6ebc8a0abe5e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f7534d1e3365dd02b6f9f1afde03b5de76640e1a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195350"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914896"
 ---
 # <a name="tell-me-faq"></a>FAQ acerca de la función Dígame
 Este tema responde las preguntas que nuestros usuarios avanzados suelen hacer sobre la función Dígame.
@@ -39,7 +39,7 @@ Puede usar la función Dígame en el cliente web local para buscar acciones, pá
 La función Dígame solo está disponible en el cliente web o en la aplicación de escritorio de Windows.
 
 ### <a name="are-the-documentation-results-available-in-any-language"></a>¿Los resultados de la documentación están disponibles en algún idioma?
-Los artículos de ayuda se mostrarán en el idioma que ha especificado en **Mi configuración**, si la ayuda está disponible en ese idioma.
+Los artículos de ayuda se mostrarán en el idioma que ha especificado en **Mi configuración** , si la ayuda está disponible en ese idioma.
 
 ### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>¿Por qué no veo un icono de marcador para mis resultados de búsqueda?
 El icono de marcador no se muestra en la ventana Dígame cuando la personalización está deshabilitada para un rol de usuario.

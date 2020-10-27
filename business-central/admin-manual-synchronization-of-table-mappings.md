@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 015084b999f7488339c98605018bff2bc9a4ded2
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: ba79088bc386a856f1b3e7727f1f778ebabb7d51
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196722"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911341"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Sincronizar manualmente las asignaciones de tablas
 Una asignación de tabla de integración asocia una tabla de [!INCLUDE[d365fin](includes/d365fin_md.md)] (tipo de registro), como un cliente, con una entidad de [!INCLUDE[d365fin](includes/cds_long_md.md)], como una cuenta. La sincronización de una asignación de tablas de integración le permite sincronizar los datos de todos los registros de la tabla de [!INCLUDE[d365fin](includes/d365fin_md.md)] y de la entidad de [!INCLUDE[d365fin](includes/cds_long_md.md)] que están emparejadas. Además, dependiendo de la configuración de la asignación de tablas, la sincronización puede crear y emparejar nuevos registros en la solución de destino para los registros desemparejados en el origen.  
@@ -25,7 +25,7 @@ La sincronización manual de las asignaciones de tablas de integración puede se
 Este artículo describe tres métodos para sincronizar manualmente las asignaciones de tablas de integración. Cada método proporciona un nivel diferente de sincronización.
 
 ## <a name="run-a-full-synchronization"></a>Ejecutar una sincronización completa
-Una sincronización completa ejecuta todos los trabajos de sincronización de integración predeterminados para sincronizar registros de [!INCLUDE[d365fin](includes/d365fin_md.md)] y entidades de [!INCLUDE[d365fin](includes/cds_long_md.md)], tal como se define en la página **Asignaciones de tablas de integración**. 
+Una sincronización completa ejecuta todos los trabajos de sincronización de integración predeterminados para sincronizar registros de [!INCLUDE[d365fin](includes/d365fin_md.md)] y entidades de [!INCLUDE[d365fin](includes/cds_long_md.md)], tal como se define en la página **Asignaciones de tablas de integración** . 
 
 Una sincronización completa realiza las siguientes operaciones para los registros de [!INCLUDE[d365fin](includes/d365fin_md.md)] o [!INCLUDE[d365fin](includes/cds_long_md.md)] que son:
 
@@ -46,14 +46,14 @@ Si se crea un registro, y dónde se crea, depende de la dirección de sincroniza
     > [!NOTE]
     > Si desea ejecutar una sincronización completa para entidades a través de Dynamics 365 Sales, use la página **Configuración de la conexión de Microsoft Dynamics 365 Sales** en su lugar.
 
-2.  Seleccione la acción **Ejecutar sincronización completa** y, a continuación, el botón **Sí**.  
+2.  Seleccione la acción **Ejecutar sincronización completa** y, a continuación, el botón **Sí** .  
 3.  Una vez finalizada la sincronización completa, puede especificar si desea permitir que los trabajos de sincronización programados creen nuevos registros.  
 
-    Si desea que todos los trabajos de sincronización creen nuevos registros en el destino para registros desemparejados en el origen, seleccione **Sí**. Esto establece el campo **Sincronizar solo reg. emparejados** en las asignaciones de tablas que utilizan los trabajos de sincronización.  
+    Si desea que todos los trabajos de sincronización creen nuevos registros en el destino para registros desemparejados en el origen, seleccione **Sí** . Esto establece el campo **Sincronizar solo reg. emparejados** en las asignaciones de tablas que utilizan los trabajos de sincronización.  
 
-    Si desea que los trabajos de sincronización se ejecuten como antes de la sincronización completa con respecto a la creación de nuevos registros, seleccione **No**. Esto establece el campo **Sincronizar solo reg. emparejados** a la configuración que tenía antes de la sincronización completa.  
+    Si desea que los trabajos de sincronización se ejecuten como antes de la sincronización completa con respecto a la creación de nuevos registros, seleccione **No** . Esto establece el campo **Sincronizar solo reg. emparejados** a la configuración que tenía antes de la sincronización completa.  
 
-Puede ver los resultados de la sincronización completa en la página **Trabajos de sincronización de integración**. Para obtener más información, consulte [Ver el estado de una sincronización](admin-how-to-view-synchronization-status.md).  
+Puede ver los resultados de la sincronización completa en la página **Trabajos de sincronización de integración** . Para obtener más información, consulte [Ver el estado de una sincronización](admin-how-to-view-synchronization-status.md).  
 
 ## <a name="synchronizing-all-modified-records"></a>Sincronización de todos los registros modificados
 Puede utilizar la página **Configuración de la conexión de CDS** para sincronizar los cambios en los datos de todas las asignaciones de tablas de integración. Es similar a una sincronización completa. Sincronizará los datos de todos los registros emparejados en las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] y las entidades de [!INCLUDE[d365fin](includes/cds_long_md.md)] definidas en las asignaciones de tablas. De forma predeterminada, solo se sincronizarán los registros que se hayan modificado desde la última vez que se sincronizaron. Los trabajos de sincronización sincronizan las asignaciones de tablas en el siguiente orden para evitar dependencias de emparejamiento entre las entidades:  
@@ -64,14 +64,14 @@ Puede utilizar la página **Configuración de la conexión de CDS** para sincron
 4.  CLIENTE  
 5.  CONTACTOS  
 
-Puede ver los resultados de la sincronización en la página **Trabajos de sincronización de integración**. Para obtener más información, consulte [Ver el estado de una sincronización](admin-how-to-view-synchronization-status.md).  
+Puede ver los resultados de la sincronización en la página **Trabajos de sincronización de integración** . Para obtener más información, consulte [Ver el estado de una sincronización](admin-how-to-view-synchronization-status.md).  
 
 > [!TIP]  
 >  Al modificar previamente la asignación de tabla de integración, puede configurar la sincronización con filtros para controlar qué registros se sincronizan o configurarla para crear nuevos registros en la solución de destino para registros desemparejados en el origen. Para obtener más información, consulte [Modificar asignaciones de tablas para la sincronización](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### <a name="to-synchronize-records-for-all-tables"></a>Para sincronizar los registros para todas las tablas  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de la conexión de Microsoft Dynamics 365 Sales** y luego elija el enlace relacionado.
-2.  Elija la acción **Sincronizar registros modificados** y, a continuación, seleccione **Si**.  
+2.  Elija la acción **Sincronizar registros modificados** y, a continuación, seleccione **Si** .  
 
 ## <a name="synchronize-individual-table-mappings"></a>Sincronizar las asignaciones de tablas individuales
 Puede utilizar la página **Lista de asignaciones de tablas de integración** para ejecutar asignaciones de tabla específicas de un trabajo de sincronización. Esto sincronizará los datos de todos los registros emparejados en la tabla de [!INCLUDE[d365fin](includes/d365fin_md.md)] y la entidad de [!INCLUDE[d365fin](includes/cds_long_md.md)] definidas mediante las asignaciones de tablas. De forma predeterminada, solo se sincronizarán los registros que se hayan modificado desde la última vez que se sincronizaron.  
@@ -80,7 +80,7 @@ Al modificar la asignación de tablas de integración por adelantado, puede conf
 
 ### <a name="to-synchronize-records-of-an-integration-table-mapping"></a>Para sincronizar los registros de asignación de tabla de integración  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Asignaciones de tablas de integración** y luego elija el enlace relacionado.
-2.  Elija la acción **Sincronizar registros modificados** y, a continuación, seleccione **Si**.  
+2.  Elija la acción **Sincronizar registros modificados** y, a continuación, seleccione **Si** .  
 
 ## <a name="see-also"></a>Consulte también  
 [Sincronización de Business Central y Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   

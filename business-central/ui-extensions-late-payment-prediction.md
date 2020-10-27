@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 79b57454d0e4ac1bcdad9817b53f1b273e416658
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6456d982629571d4d39622a910df4bfd7039d7a8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194174"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915071"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Extensión de Predicción de pagos atrasados  
 La gestión efectiva de los cobres es importante para el estado financiero general de una empresa. La extensión de Predicción de pagos atrasados puede ayudarle a reducir los cobros pendientes y afinar su estrategia de cobros puesto que predice si las facturas de ventas se pagarán a tiempo. Por ejemplo, si se predice que un pago se retrasará, puede decidir ajustar los términos de pago o el método de pago para el cliente.
@@ -30,20 +30,20 @@ Para activar la extensión manualmente, siga estos pasos:
 2. Rellene los campos según sea necesario.
 
 > [!Note]
-> Si decide habilitar la extensión manualmente, tenga en cuenta que [!INCLUDE[d365fin](includes/d365fin_md.md)] no le permitirá hacerlo si la calidad del modelo es baja. La calidad del modelo indica la precisión de las predicciones. Varios factores pueden afectar la calidad de un modelo. Por ejemplo, podría no haber suficientes datos o que los datos no contuviesen suficiente variación. Puede ver la calidad del modelo que utiliza actualmente en la página **Configuración de predicción de pago atrasado**. También puede especificar un umbral mínimo de calidad para el modelo.   
+> Si decide habilitar la extensión manualmente, tenga en cuenta que [!INCLUDE[d365fin](includes/d365fin_md.md)] no le permitirá hacerlo si la calidad del modelo es baja. La calidad del modelo indica la precisión de las predicciones. Varios factores pueden afectar la calidad de un modelo. Por ejemplo, podría no haber suficientes datos o que los datos no contuviesen suficiente variación. Puede ver la calidad del modelo que utiliza actualmente en la página **Configuración de predicción de pago atrasado** . También puede especificar un umbral mínimo de calidad para el modelo.   
 
 ## <a name="viewing-all-payment-predictions"></a>Ver todas las predicciones de pago
-Si habilita la extensión, estará disponible un mosaico de **Pagos previstos como atrasados** el Área de tareas del **administrador de negocio**. El mosaico muestra la cantidad de pagos que se prevé que se atrasarán y le permite abrir la página **Movs. clientes** en la que puede profundizar en las facturas publicadas. Hay tres columnas a las que se les debe prestar atención:  
+Si habilita la extensión, estará disponible un mosaico de **Pagos previstos como atrasados** el Área de tareas del **administrador de negocio** . El mosaico muestra la cantidad de pagos que se prevé que se atrasarán y le permite abrir la página **Movs. clientes** en la que puede profundizar en las facturas publicadas. Hay tres columnas a las que se les debe prestar atención:  
 
-* **Pago atrasado**: indica que se prevé que el pago de la factura esté atrasado.
-* **Confianza de predicción**: indica la fiabilidad de la predicción. **Alta** indica que la predicción es al menos un 90% segura, **Media** es entre el 80 y el 90% y **Baja** es por debajo del 80%.
-* **% de confianza de la predicción**: muestra el porcentaje actual por detrás de la clasificación de la confianza. De forma predeterminada, esta columna no se muestra, pero puede agregarla si lo desea. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
+* **Pago atrasado** : indica que se prevé que el pago de la factura esté atrasado.
+* **Confianza de predicción** : indica la fiabilidad de la predicción. **Alta** indica que la predicción es al menos un 90% segura, **Media** es entre el 80 y el 90% y **Baja** es por debajo del 80%.
+* **% de confianza de la predicción** : muestra el porcentaje actual por detrás de la clasificación de la confianza. De forma predeterminada, esta columna no se muestra, pero puede agregarla si lo desea. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
 > [!Tip]
-> La página Movs. cliente también muestra un cuadro informativo a la derecha. Cuando esté revisando predicciones, le puede resultar útil la información que aparece en la sección **Detalles de cliente**. Cuando elija la factura en la lista, la sección mostrará información acerca del cliente. Esto también permite tomar medidas inmediatas. Por ejemplo, si un cliente con frecuencia pierde su billetera, puede abrir la ficha del cliente desde el cuadro de datos y bloquear al cliente para futuras ventas.  
+> La página Movs. cliente también muestra un cuadro informativo a la derecha. Cuando esté revisando predicciones, le puede resultar útil la información que aparece en la sección **Detalles de cliente** . Cuando elija la factura en la lista, la sección mostrará información acerca del cliente. Esto también permite tomar medidas inmediatas. Por ejemplo, si un cliente con frecuencia pierde su billetera, puede abrir la ficha del cliente desde el cuadro de datos y bloquear al cliente para futuras ventas.  
 
 ## <a name="viewing-a-payment-prediction-for-a-specific-sales-document"></a>Visualización de una predicción de pago para un documento de ventas específico
-También puede predecir pagos atrasados por adelantado. En las páginas **Cotizaciones venta**, **Pedidos venta** y **Facturas venta**, puede usar la acción **Predecir pago** para generar una predicción para el documento de ventas que está viendo.
+También puede predecir pagos atrasados por adelantado. En las páginas **Cotizaciones venta** , **Pedidos venta** y **Facturas venta** , puede usar la acción **Predecir pago** para generar una predicción para el documento de ventas que está viendo.
 
 <!--## Scheduling Payment Predictions
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
@@ -64,7 +64,7 @@ Estos servicios web no tienen estado, lo que significa que usan datos solo para 
 ### <a name="data-required-to-train-and-evaluate-the-model"></a>Datos requeridos para entrenar y evaluar el modelo 
 Para cada **movimiento de cliente** que tiene un **histórico de facturas de de venta** relacionado:
 - Importe ($) incluido impto.
-- Las condiciones de pago en días se calculan como **Fecha de vencimiento** menos **Fecha de registro**.
+- Las condiciones de pago en días se calculan como **Fecha de vencimiento** menos **Fecha de registro** .
 - Si hay un nota de crédito aplicada. 
 
 Además, el registro se enriquece con datos agregados de otras facturas relacionadas con el mismo cliente. Esto incluye lo siguiente:
@@ -92,11 +92,11 @@ Si parece que sus procesos no coinciden con el modelo estándar, aún puede usar
 
 #### <a name="to-train-and-use-your-model"></a>Para entrenar y usar el modelo
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de predicción de pago atrasado** y luego elija el enlace relacionado.  
-2. En el campo **Modelo seleccionado**, elija **Mi modelo**.
+2. En el campo **Modelo seleccionado** , elija **Mi modelo** .
 3. Elija la acción **Crear mi modelo** para entrenar el modelo con sus datos.  
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-late-payment-prediction"></a><a name="AnchorText"> </a>Crear y usar su propio servicio web predictivo para la predicción de pagos atrasados
-También puede crear su propio servicio web predictivo basado en un modelo público denominado **Experimento de predicción para Dynamics 365 Business Central**. Este modelo predictivo está disponible en línea en la galería de Azure AI. Para usar el modelo, siga estos pasos:  
+También puede crear su propio servicio web predictivo basado en un modelo público denominado **Experimento de predicción para Dynamics 365 Business Central** . Este modelo predictivo está disponible en línea en la galería de Azure AI. Para usar el modelo, siga estos pasos:  
 
 1. Abra un explorador y vaya a la [Galería de Azure AI](https://go.microsoft.com/fwlink/?linkid=2086310).  
 2. Busque **Experimento de predicción para Dynamics 365 Business Central** y, a continuación, abra el modelo en Azure Machine Learning Studio.  
@@ -104,8 +104,8 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 4. Ejecute el modelo y como publíquelo como un servicio web.  
 5. Anote la URL de API y la clave de API. Usará estas credenciales para una configuración de flujo de caja.  
 6. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de predicción de pago atrasado** y luego elija el enlace relacionado.  
-7. Seleccione la casilla de verificación **Usar Mi suscripción a Azure**.
-8. En la ficha desplegable **Credenciales de mi modelo**, introduzca la URL y la clave de API para su modelo.  .  
+7. Seleccione la casilla de verificación **Usar Mi suscripción a Azure** .
+8. En la ficha desplegable **Credenciales de mi modelo** , introduzca la URL y la clave de API para su modelo.  .  
 
 ## <a name="see-also"></a>Consulte también  
 [Documentación de Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  

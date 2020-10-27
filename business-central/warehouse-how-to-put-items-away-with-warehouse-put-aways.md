@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: da7eedc909425b9f09da8d68c1b697974ec8fba4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f158499f0c93e1a991b1f092676f653cf067a46e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779322"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910041"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Ubicar productos con ubic. exist. almacén
 Si el almacén está configurado para requerir los procesos de ubicación y recepción de almacén, utilice la función de documentos de ubicación de almacén para controlar la ubicación de los productos.  
@@ -31,7 +31,7 @@ Además de las formas estándar de crear las ubicaciones de almacén que se desc
 2.  Abra el almacén la ubicación que está preparado para manipular.  
 
     Puede ordenar las ubicaciones por varios criterios, por ejemplo, por producto, número de estante o fecha de vencimiento y, por tanto, optimizar el proceso de ubicación.  
-3.  En cada línea, en el campo **Cdad. a manipular**, escriba la cantidad que desea ubicar.  
+3.  En cada línea, en el campo **Cdad. a manipular** , escriba la cantidad que desea ubicar.  
 4.  Una vez haya completado la ubicación de los productos, elija la acción **Registrar ubicación** para registrar la finalización de la actividad y hacer que los productos estén disponibles para picking.  
 
 ## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Para ubicar productos con ubicaciones y picking directos  
@@ -43,14 +43,14 @@ Además de las formas estándar de crear las ubicaciones de almacén que se desc
 
     Tenga en cuenta que cada línea de la recepción se ha convertido en al menos dos líneas en la ubicación de almacén:  
 
-    -   La primera línea, con **Traer** en el campo **Tipo acción**, indica dónde están colocados los productos en el área de recepción. En esta línea no puede cambiar el campo zona y ubicación.  
-    -   La siguiente línea, con **Colocar** en el campo **Tipo acción**, muestra dónde debe colocar los productos en el almacén. Si el almacén ha recibido muchos productos en una línea de recepción, quizá deba colocarlos en varias ubicaciones a fin de tener una línea Colocar en cada ubicación.  
+    -   La primera línea, con **Traer** en el campo **Tipo acción** , indica dónde están colocados los productos en el área de recepción. En esta línea no puede cambiar el campo zona y ubicación.  
+    -   La siguiente línea, con **Colocar** en el campo **Tipo acción** , muestra dónde debe colocar los productos en el almacén. Si el almacén ha recibido muchos productos en una línea de recepción, quizá deba colocarlos en varias ubicaciones a fin de tener una línea Colocar en cada ubicación.  
 
-        Si las líneas Traer y Colocar de cada línea de recepción no están una a continuación de otra y desea hacerlo, puede ordenar las líneas seleccionando **Producto** en el campo **Método ordenación** de la ficha desplegable **General**.  
+        Si las líneas Traer y Colocar de cada línea de recepción no están una a continuación de otra y desea hacerlo, puede ordenar las líneas seleccionando **Producto** en el campo **Método ordenación** de la ficha desplegable **General** .  
 
         Si el diseño físico del almacén refleja los rankings de las ubicaciones, puede utilizar el método de ordenación **Ranking ubicación** para preparar una ubicación que minimizará los pasos que tiene que dar en el almacén.  
 
-5.  Cuando haya colocado todos los productos en ubicaciones como se le ha indicado, elija la acción **Registrar ubicación**.  
+5.  Cuando haya colocado todos los productos en ubicaciones como se le ha indicado, elija la acción **Registrar ubicación** .  
 
 En las ubicaciones configuradas para utilizar ubicación y picking directos, la siguiente es un requisito previo para el procedimiento anterior:  
 
@@ -65,12 +65,12 @@ El ranking de ubicación se tiene en cuenta cuando varias ubicaciones cumplen lo
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Recep. almacén regis.** y luego elija el enlace relacionado.  
 2.  Seleccione una recepción registrada que sea necesario ubicar.  
-3.  Seleccione la acción **Ficha**.  
+3.  Seleccione la acción **Ficha** .  
 
     Si el campo **Estado documento** está en blanco, la recepción aún no se ha ubicado. En caso contrario, el campo indica la recepción se ha ubicado parcial o completamente.  
 
-4.  Si el albarán se ha ubicado parcialmente o no se ha ubicado, elija la acción **Crear ubicación**.  
-5.  Rellene la página del proceso para crear la ubicación como necesite y a continuación seleccione **Aceptar**.   
+4.  Si el albarán se ha ubicado parcialmente o no se ha ubicado, elija la acción **Crear ubicación** .  
+5.  Rellene la página del proceso para crear la ubicación como necesite y a continuación seleccione **Aceptar** .   
 
 ## <a name="see-also"></a>Consulte también  
 [Gestión almacén](warehouse-manage-warehouse.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 22a31f050c1b1a25e17076c3f1469d97b638add5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5194d1a24b987f0b7ef88d9b535eb00d3203a9b9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788257"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915696"
 ---
 # <a name="design-details-assembly-order-posting"></a>Detalles de diseño: Registro de pedidos de ensamblado
 El registro de pedidos de ensamblado se basa en los mismos principios que al registrar las actividades similares de los pedidos de venta y el consumo o la salida de producción. No obstante, los principios que se agrupan en los pedidos de ensamblado tienen su propia IU de registro, como para los pedidos de venta, mientras que el registro real de movimientos se produce en segundo plano como registro de productos directos y registro de diario de recursos, como con el de consumo, la salida y la capacidad de producción.  
@@ -72,7 +72,7 @@ En el gráfico siguiente se muestra la estructura del movimiento de ajuste y có
 ![Flujo de movimiento relacionado con el ensamblado durante el ajuste de costos](media/design_details_assembly_posting_3.png "Flujo de movimiento relacionado con el ensamblado durante el registro")  
 
 ### <a name="performing-the-adjustment"></a>Realizar el ajuste  
-La distribución de los ajustes detectados de la lista de materiales y los costos de recursos en los movimientos de salida de ensamblado se lleva a cabo mediante el proceso **Valorar existencias - movs. producto**. Contiene la función para aplicar ajustes de multinivel, que consta de los dos elementos siguientes:  
+La distribución de los ajustes detectados de la lista de materiales y los costos de recursos en los movimientos de salida de ensamblado se lleva a cabo mediante el proceso **Valorar existencias - movs. producto** . Contiene la función para aplicar ajustes de multinivel, que consta de los dos elementos siguientes:  
 
 -   Realizar el ajuste de pedido de ensamblado, que desvía el costo de la utilización de materiales y de recursos al movimiento de salida de ensamblado. Las líneas 5 y 6 del algoritmo siguiente son las responsables.  
 -   Realizar los ajustes de nivel individual, que desvía los costos de los productos individuales mediante su valuación de inventarios. Las líneas 9 y 10 del algoritmo siguiente son las responsables.  
@@ -90,7 +90,7 @@ Para obtener más información acerca de cómo se registran los costos de ensamb
 Eso se habilita mediante la estructura de datos siguiente.  
 
 -   En el campo **Tipo** en las líneas de diario del producto, en las tablas **Movs. capacidad** y **Movimiento valor** se usa *Recurso* para identificar los movimientos del recurso de ensamblado.  
--   En el campo **Tipo mov. producto** en las líneas de diario del producto, en las tablas **Movs. capacidad** y **Movimiento valor**, se utilizan *Salida de ensamblado* y *Consumo de ensamblado* para identificar los movimientos del producto de ensamblado de salida y los movimientos de componentes de ensamblado consumidos respectivamente.  
+-   En el campo **Tipo mov. producto** en las líneas de diario del producto, en las tablas **Movs. capacidad** y **Movimiento valor** , se utilizan *Salida de ensamblado* y *Consumo de ensamblado* para identificar los movimientos del producto de ensamblado de salida y los movimientos de componentes de ensamblado consumidos respectivamente.  
 
 Además, los campos del grupo contable de la cabecera de pedido de ensamblado y las líneas de pedido de ensamblado se rellenan de forma predeterminada como sigue.  
 
@@ -105,7 +105,7 @@ Por consiguiente, en la contabilidad solo se registran los costes reales, y no s
 ## <a name="assemble-to-order"></a>Ensamblar para pedido  
 El movimiento de producto obtenido como consecuencia de registrar una venta de ensamblar para pedido se liquida de forma fija en el movimiento de producto relacionado para la salida de ensamblado. Por consiguiente, el costo de una venta de ensamblar para pedido se obtiene del pedido de ensamblado con el que está vinculado.  
 
-Los movimientos de producto del tipo Venta resultantes del registro de las cantidades de ensamblar para pedido se marcan con **Sí** en el campo **Ensamblar para pedido**.  
+Los movimientos de producto del tipo Venta resultantes del registro de las cantidades de ensamblar para pedido se marcan con **Sí** en el campo **Ensamblar para pedido** .  
 
 El registro de las líneas de pedido de venta donde una parte es cantidad de inventario y otra parte es cantidad ensamblar para pedido genera movimientos de producto independientes, uno para la cantidad de inventario y otro para la cantidad de ensamblar para pedido.  
 

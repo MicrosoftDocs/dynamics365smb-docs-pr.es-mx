@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 774c45d50ac56cb0e950ea8687ee86d24cfb9b0a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2382fa440c67881411fe67e596a62aaf5d431426
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782604"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912757"
 ---
 # <a name="general-business-functionality"></a>Funciones empresariales generales
 [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones dedicadas para las áreas habituales comerciales, como finanzas y ventas. Para obtener más información, consulte [Funciones empresariales](across-business-functionality.md).
@@ -38,7 +38,7 @@ En la tabla siguiente se indican las áreas de negocio generales, con vínculos 
 | Establecer códigos de texto estándar para poder ampliarlo mediante la incorporación de líneas adicionales y establecer las condiciones de uso de estas últimas. |[Añadir textos ampliados del producto](ui-how-define-ext-text.md) |
 |Crear tareas para recordarle que debe realizar el proyecto. Puede crear tareas para usted, pero también puede asignar tareas a otras personas o a otra persona en su organización|[Definir tareas de usuario](across-user-tasks.md)|
 |Trabaje con los datos de Business Central en Excel.|[Exportar los datos de negocio a Excel](about-export-data.md)|
-|Comprender lo que sucede cuando elige la acción **Registrar**.|[Registrar documentos y diarios](ui-post-documents-journals.md)|
+|Comprender lo que sucede cuando elige la acción **Registrar** .|[Registrar documentos y diarios](ui-post-documents-journals.md)|
 |Registre varios documentos de venta o compra juntos, inmediatamente o según lo programado.|[Registrar varios documentos al mismo tiempo](ui-batch-posting.md)|  
 |Revise el resultado del registro antes de registrar.|[Vista previa de los resultados del registro](ui-how-preview-post-results.md)|
 |Edite los campos seleccionados en las ventas registradas o en los documentos de compra.|[Editar documentos registrados](across-edit-posted-document.md)|

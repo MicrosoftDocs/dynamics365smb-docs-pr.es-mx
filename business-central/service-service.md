@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a7856041b30ebf61284583370cd1c9d81ab9c740
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3bf97a81c41823b9b4d839af4d53045f0bdaa74e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782629"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913057"
 ---
 # <a name="service-management"></a>Gestión de servicios
 > [!NOTE]
-> La funcionalidad descrita en este tema y los subtemas solo están visibles en la interfaz de usuario si tiene la experiencia **Premium**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
+> La funcionalidad descrita en este tema y los subtemas solo están visibles en la interfaz de usuario si tiene la experiencia **Premium** . Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
 Proporcionar un servicio continuado a los clientes es una parte importante de cualquier empresa y puede ser el origen de la satisfacción y fidelidad de los clientes, así como de ingresos. Sin embargo, la gestión y supervisión del servicio no resulta siempre sencilla, y [!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece un conjunto de herramientas para ayudarle. Estas herramientas se han diseñado para admitir operaciones de taller de reparaciones y especialidades de servicios, y pueden usarse en supuestos empresariales como sistemas complejos de distribución de servicios al cliente, entornos de servicios industriales con listas de materiales y despacho de alto volumen de técnicos de servicio con requisitos para gestión de piezas de repuesto.  
 
