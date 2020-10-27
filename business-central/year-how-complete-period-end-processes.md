@@ -10,56 +10,56 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 2c1836d133c36ba5a8bf44bae0443c252bc13d8e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6526760c78cb11d8454b7f5390c6fefe713647d2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191774"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918249"
 ---
-# <a name="overview-of-tasks-to-close-accounting-periods"></a><span data-ttu-id="ea791-103">Resumen de tareas para cerrar periodos contables</span><span class="sxs-lookup"><span data-stu-id="ea791-103">Overview of Tasks to Close Accounting Periods</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="ea791-104">no le fuerza a cerrar los períodos, pero numerosas actividades de fin de período (fin de mes) que puede realizar.</span><span class="sxs-lookup"><span data-stu-id="ea791-104">does not force you to close periods, however, there are many period-end (month-end) activities that you can do.</span></span> <span data-ttu-id="ea791-105">Este tema proporciona una visión general de procesos y actividades opcionales para cerrar períodos.</span><span class="sxs-lookup"><span data-stu-id="ea791-105">This topic provides an overview of optional processes and activities for closing periods.</span></span>  
+# <a name="overview-of-tasks-to-close-accounting-periods"></a><span data-ttu-id="499d3-103">Resumen de tareas para cerrar periodos contables</span><span class="sxs-lookup"><span data-stu-id="499d3-103">Overview of Tasks to Close Accounting Periods</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="499d3-104">no le fuerza a cerrar los períodos, pero numerosas actividades de fin de período (fin de mes) que puede realizar.</span><span class="sxs-lookup"><span data-stu-id="499d3-104">does not force you to close periods, however, there are many period-end (month-end) activities that you can do.</span></span> <span data-ttu-id="499d3-105">Este tema proporciona una visión general de procesos y actividades opcionales para cerrar períodos.</span><span class="sxs-lookup"><span data-stu-id="499d3-105">This topic provides an overview of optional processes and activities for closing periods.</span></span>  
 
-## <a name="general-ledger"></a><span data-ttu-id="ea791-106">Contabilidad</span><span class="sxs-lookup"><span data-stu-id="ea791-106">General Ledger</span></span>
-* <span data-ttu-id="ea791-107">Especifique períodos de registro para todo el sistema y específicos para el usuario.</span><span class="sxs-lookup"><span data-stu-id="ea791-107">Specify system-wide and user-specific posting periods.</span></span>  
+## <a name="general-ledger"></a><span data-ttu-id="499d3-106">Contabilidad</span><span class="sxs-lookup"><span data-stu-id="499d3-106">General Ledger</span></span>
+* <span data-ttu-id="499d3-107">Especifique períodos de registro para todo el sistema y específicos para el usuario.</span><span class="sxs-lookup"><span data-stu-id="499d3-107">Specify system-wide and user-specific posting periods.</span></span>  
 
-    <span data-ttu-id="ea791-108">Esto especifica las fechas entre las cuales puede efectuar registros.</span><span class="sxs-lookup"><span data-stu-id="ea791-108">This specifies the dates between which you allow posting.</span></span> <span data-ttu-id="ea791-109">En función de su empresa, puede permitir el registro al inicio del periodo o hacia el final.</span><span class="sxs-lookup"><span data-stu-id="ea791-109">Depending on your business, you may want to allow posting at the start of the period, or toward the end.</span></span> <span data-ttu-id="ea791-110">Para obtener más información, vea [Especificar periodos de registro](finance-how-specify-posting-periods.md).</span><span class="sxs-lookup"><span data-stu-id="ea791-110">For more information, see [Specify Posting Periods](finance-how-specify-posting-periods.md).</span></span>  
-* <span data-ttu-id="ea791-111">Lleve a cabo todos los ajustes de contabilidad necesarios</span><span class="sxs-lookup"><span data-stu-id="ea791-111">Make all necessary G/L adjustments.</span></span>  
-* <span data-ttu-id="ea791-112">Actualice y registre los Diarios periódicos.</span><span class="sxs-lookup"><span data-stu-id="ea791-112">Update and post Recurring Journals.</span></span>  
+    <span data-ttu-id="499d3-108">Esto especifica las fechas entre las cuales puede efectuar registros.</span><span class="sxs-lookup"><span data-stu-id="499d3-108">This specifies the dates between which you allow posting.</span></span> <span data-ttu-id="499d3-109">En función de su empresa, puede permitir el registro al inicio del periodo o hacia el final.</span><span class="sxs-lookup"><span data-stu-id="499d3-109">Depending on your business, you may want to allow posting at the start of the period, or toward the end.</span></span> <span data-ttu-id="499d3-110">Para obtener más información, vea [Especificar periodos de registro](finance-how-specify-posting-periods.md).</span><span class="sxs-lookup"><span data-stu-id="499d3-110">For more information, see [Specify Posting Periods](finance-how-specify-posting-periods.md).</span></span>  
+* <span data-ttu-id="499d3-111">Lleve a cabo todos los ajustes de contabilidad necesarios</span><span class="sxs-lookup"><span data-stu-id="499d3-111">Make all necessary G/L adjustments.</span></span>  
+* <span data-ttu-id="499d3-112">Actualice y registre los Diarios periódicos.</span><span class="sxs-lookup"><span data-stu-id="499d3-112">Update and post Recurring Journals.</span></span>  
   <!--* Process Consolidations-->
-* <span data-ttu-id="ea791-113">Ejecute los esquemas de cuentas como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="ea791-113">Run account schedules as follows:</span></span>  
-  * <span data-ttu-id="ea791-114">Abra la página **estructura cuentas** y, a continuación, seleccione la acción **Imprimir**.</span><span class="sxs-lookup"><span data-stu-id="ea791-114">Open the **Account Schedule** page, and then choose the **Print** action.</span></span>  
+* <span data-ttu-id="499d3-113">Ejecute los esquemas de cuentas como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="499d3-113">Run account schedules as follows:</span></span>  
+  * <span data-ttu-id="499d3-114">Abra la página **estructura cuentas** y, a continuación, seleccione la acción **Imprimir** .</span><span class="sxs-lookup"><span data-stu-id="499d3-114">Open the **Account Schedule** page, and then choose the **Print** action.</span></span>  
 
-## <a name="sales-and-receivables"></a><span data-ttu-id="ea791-115">Ventas y cobros</span><span class="sxs-lookup"><span data-stu-id="ea791-115">Sales and Receivables</span></span>
-* <span data-ttu-id="ea791-116">Registre todas las órdenes, facturas, notas de crédito y devoluciones de ventas.</span><span class="sxs-lookup"><span data-stu-id="ea791-116">Post all sales orders, invoices, credit memos, and return orders.</span></span>  
-* <span data-ttu-id="ea791-117">Registre todo los diarios de recepciones de efectivo.</span><span class="sxs-lookup"><span data-stu-id="ea791-117">Post all cash receipt journals.</span></span>  
-* <span data-ttu-id="ea791-118">Actualice y registre los diarios periódicos relativos a ventas y cobros.</span><span class="sxs-lookup"><span data-stu-id="ea791-118">Update and post recurring journals that are related to sales and receivables.</span></span>  
-* <span data-ttu-id="ea791-119">Concilie los cobros en el libro de contabilidad</span><span class="sxs-lookup"><span data-stu-id="ea791-119">Reconcile accounts receivable to the general ledger.</span></span>  
-* <span data-ttu-id="ea791-120">Ejecute el proceso **Eliminar peds. venta factdos**.</span><span class="sxs-lookup"><span data-stu-id="ea791-120">Run the **Delete Invoiced Sales Orders** batch job.</span></span>  
+## <a name="sales-and-receivables"></a><span data-ttu-id="499d3-115">Ventas y cobros</span><span class="sxs-lookup"><span data-stu-id="499d3-115">Sales and Receivables</span></span>
+* <span data-ttu-id="499d3-116">Registre todas las órdenes, facturas, notas de crédito y devoluciones de ventas.</span><span class="sxs-lookup"><span data-stu-id="499d3-116">Post all sales orders, invoices, credit memos, and return orders.</span></span>  
+* <span data-ttu-id="499d3-117">Registre todo los diarios de recepciones de efectivo.</span><span class="sxs-lookup"><span data-stu-id="499d3-117">Post all cash receipt journals.</span></span>  
+* <span data-ttu-id="499d3-118">Actualice y registre los diarios periódicos relativos a ventas y cobros.</span><span class="sxs-lookup"><span data-stu-id="499d3-118">Update and post recurring journals that are related to sales and receivables.</span></span>  
+* <span data-ttu-id="499d3-119">Concilie los cobros en el libro de contabilidad</span><span class="sxs-lookup"><span data-stu-id="499d3-119">Reconcile accounts receivable to the general ledger.</span></span>  
+* <span data-ttu-id="499d3-120">Ejecute el proceso **Eliminar peds. venta factdos** .</span><span class="sxs-lookup"><span data-stu-id="499d3-120">Run the **Delete Invoiced Sales Orders** batch job.</span></span>  
 
-## <a name="purchases-and-payables"></a><span data-ttu-id="ea791-121">Compras y pagos</span><span class="sxs-lookup"><span data-stu-id="ea791-121">Purchases and Payables</span></span>
-* <span data-ttu-id="ea791-122">Registre todas las órdenes, facturas, notas de crédito y devoluciones de compra.</span><span class="sxs-lookup"><span data-stu-id="ea791-122">Post all purchase orders, invoices, credit memos, and return orders.</span></span>  
-* <span data-ttu-id="ea791-123">Registre todos los registros de pagos.</span><span class="sxs-lookup"><span data-stu-id="ea791-123">Post all payment journals.</span></span>  
-* <span data-ttu-id="ea791-124">Actualice y registre los diarios periódicos que son relativos a compras y pagos.</span><span class="sxs-lookup"><span data-stu-id="ea791-124">Update and post recurring journals that are related to purchases & payables.</span></span>  
-* <span data-ttu-id="ea791-125">Ejecute el informe **Antigüedad pagos** y concilie las cuentas por pagar en el libro de contabilidad.</span><span class="sxs-lookup"><span data-stu-id="ea791-125">Run the **Aged Accounts Payable** report and reconcile accounts payable to the general ledger.</span></span>  
-* <span data-ttu-id="ea791-126">Ejecute el proceso **Eliminar peds. compra factdos**.</span><span class="sxs-lookup"><span data-stu-id="ea791-126">Run the **Delete Invoiced Purchase Orders** batch job.</span></span>  
+## <a name="purchases-and-payables"></a><span data-ttu-id="499d3-121">Compras y pagos</span><span class="sxs-lookup"><span data-stu-id="499d3-121">Purchases and Payables</span></span>
+* <span data-ttu-id="499d3-122">Registre todas las órdenes, facturas, notas de crédito y devoluciones de compra.</span><span class="sxs-lookup"><span data-stu-id="499d3-122">Post all purchase orders, invoices, credit memos, and return orders.</span></span>  
+* <span data-ttu-id="499d3-123">Registre todos los registros de pagos.</span><span class="sxs-lookup"><span data-stu-id="499d3-123">Post all payment journals.</span></span>  
+* <span data-ttu-id="499d3-124">Actualice y registre los diarios periódicos que son relativos a compras y pagos.</span><span class="sxs-lookup"><span data-stu-id="499d3-124">Update and post recurring journals that are related to purchases & payables.</span></span>  
+* <span data-ttu-id="499d3-125">Ejecute el informe **Antigüedad pagos** y concilie las cuentas por pagar en el libro de contabilidad.</span><span class="sxs-lookup"><span data-stu-id="499d3-125">Run the **Aged Accounts Payable** report and reconcile accounts payable to the general ledger.</span></span>  
+* <span data-ttu-id="499d3-126">Ejecute el proceso **Eliminar peds. compra factdos** .</span><span class="sxs-lookup"><span data-stu-id="499d3-126">Run the **Delete Invoiced Purchase Orders** batch job.</span></span>  
 
-<span data-ttu-id="ea791-127">Activos fijos</span><span class="sxs-lookup"><span data-stu-id="ea791-127">Fixed Assets</span></span>
-* <span data-ttu-id="ea791-128">Todos los costos de mantenimiento se han registrado mediante los diarios periódicos de activos o facturas.</span><span class="sxs-lookup"><span data-stu-id="ea791-128">Post all maintenance costs have been posted through the fixed asset journals or invoices.</span></span>
-* <span data-ttu-id="ea791-129">Registrar ajustes.</span><span class="sxs-lookup"><span data-stu-id="ea791-129">Post adjustments.</span></span>
-* <span data-ttu-id="ea791-130">Registrar apreciación.</span><span class="sxs-lookup"><span data-stu-id="ea791-130">Post appreciation.</span></span>
-* <span data-ttu-id="ea791-131">Registrar depreciación.</span><span class="sxs-lookup"><span data-stu-id="ea791-131">Post depreciation.</span></span>
-* <span data-ttu-id="ea791-132">Actualizar y registrar el diario periódico de activos fijos.</span><span class="sxs-lookup"><span data-stu-id="ea791-132">Update and post the recurring fixed asset journal.</span></span>
+<span data-ttu-id="499d3-127">Activos fijos</span><span class="sxs-lookup"><span data-stu-id="499d3-127">Fixed Assets</span></span>
+* <span data-ttu-id="499d3-128">Todos los costos de mantenimiento se han registrado mediante los diarios periódicos de activos o facturas.</span><span class="sxs-lookup"><span data-stu-id="499d3-128">Post all maintenance costs have been posted through the fixed asset journals or invoices.</span></span>
+* <span data-ttu-id="499d3-129">Registrar ajustes.</span><span class="sxs-lookup"><span data-stu-id="499d3-129">Post adjustments.</span></span>
+* <span data-ttu-id="499d3-130">Registrar apreciación.</span><span class="sxs-lookup"><span data-stu-id="499d3-130">Post appreciation.</span></span>
+* <span data-ttu-id="499d3-131">Registrar depreciación.</span><span class="sxs-lookup"><span data-stu-id="499d3-131">Post depreciation.</span></span>
+* <span data-ttu-id="499d3-132">Actualizar y registrar el diario periódico de activos fijos.</span><span class="sxs-lookup"><span data-stu-id="499d3-132">Update and post the recurring fixed asset journal.</span></span>
 
-<span data-ttu-id="ea791-133">Intercompany</span><span class="sxs-lookup"><span data-stu-id="ea791-133">Intercompany</span></span>
-* <span data-ttu-id="ea791-134">Procesar transacciones entre empresas vinculadas</span><span class="sxs-lookup"><span data-stu-id="ea791-134">Process Intercompany Transactions</span></span>
+<span data-ttu-id="499d3-133">Intercompany</span><span class="sxs-lookup"><span data-stu-id="499d3-133">Intercompany</span></span>
+* <span data-ttu-id="499d3-134">Procesar transacciones entre empresas vinculadas</span><span class="sxs-lookup"><span data-stu-id="499d3-134">Process Intercompany Transactions</span></span>
 
-## <a name="calculate-and-process-sales-tax"></a><span data-ttu-id="ea791-135">Calcular y procesar los impuestos de venta</span><span class="sxs-lookup"><span data-stu-id="ea791-135">Calculate and Process Sales Tax</span></span>
-* <span data-ttu-id="ea791-136">Realice los extractos de impuesto.</span><span class="sxs-lookup"><span data-stu-id="ea791-136">Complete Tax Statements.</span></span>  
+## <a name="calculate-and-process-sales-tax"></a><span data-ttu-id="499d3-135">Calcular y procesar los impuestos de venta</span><span class="sxs-lookup"><span data-stu-id="499d3-135">Calculate and Process Sales Tax</span></span>
+* <span data-ttu-id="499d3-136">Realice los extractos de impuesto.</span><span class="sxs-lookup"><span data-stu-id="499d3-136">Complete Tax Statements.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="ea791-137">Consulte también</span><span class="sxs-lookup"><span data-stu-id="ea791-137">See Also</span></span>
-[<span data-ttu-id="ea791-138">Cerrar años y periodos</span><span class="sxs-lookup"><span data-stu-id="ea791-138">Closing Years and Periods</span></span>](year-close-years-periods.md)  
-[<span data-ttu-id="ea791-139">Cierre de libros</span><span class="sxs-lookup"><span data-stu-id="ea791-139">Closing Books</span></span>](year-close-books.md)  
-<span data-ttu-id="ea791-140">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ea791-140">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="499d3-137">Consulte también</span><span class="sxs-lookup"><span data-stu-id="499d3-137">See Also</span></span>
+[<span data-ttu-id="499d3-138">Cerrar años y periodos</span><span class="sxs-lookup"><span data-stu-id="499d3-138">Closing Years and Periods</span></span>](year-close-years-periods.md)  
+[<span data-ttu-id="499d3-139">Cierre de libros</span><span class="sxs-lookup"><span data-stu-id="499d3-139">Closing Books</span></span>](year-close-books.md)  
+<span data-ttu-id="499d3-140">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="499d3-140">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
