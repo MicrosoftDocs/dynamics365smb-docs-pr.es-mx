@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bmeier
-ms.openlocfilehash: c2fbd841332ff48bd4716a082b0c9ef2bb9ac6df
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 8f4da5b51b4e0df5cdf6f41f7a78c0a51cf0f083
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528999"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924864"
 ---
 # <a name="using-prodshort-in-an-automated-workflow"></a>Usar [!INCLUDE[prodshort](includes/prodshort.md)] en un flujo de trabajo automatizado
 
@@ -32,23 +32,23 @@ Puede utilizar sus datos de [!INCLUDE[prodshort](includes/prodshort.md)] como pa
 
 1. En el explorador, vaya a [flow.microsoft.com](https://flow.microsoft.com) y, a continuación, inicie sesión.
 2. Seleccione **Mis flujos** en la cinta en la parte superior de la página.
-3. Hay tres formas de crear un flujo: **Iniciar desde plantilla**, **Iniciar desde cero** e **Iniciar desde un conector**. Una plantilla es un flujo predefinido que se ha creado de forma automática. Para utilizar una plantilla, selecciónela y cree una conexión para cada servicio que la plantilla usa. Con las opciones **Iniciar desde cero** e **Iniciar desde un conector** puede crear un flujo nuevo completamente desde cero.
-4. Para crear desde cero, en la página **Mis flujos**, elija las opciones **Iniciar desde cero** y **Flujo automatizado**.
-5. Busque el conector de **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]**.
+3. Hay tres formas de crear un flujo: **Iniciar desde plantilla** , **Iniciar desde cero** e **Iniciar desde un conector** . Una plantilla es un flujo predefinido que se ha creado de forma automática. Para utilizar una plantilla, selecciónela y cree una conexión para cada servicio que la plantilla usa. Con las opciones **Iniciar desde cero** e **Iniciar desde un conector** puede crear un flujo nuevo completamente desde cero.
+4. Para crear desde cero, en la página **Mis flujos** , elija las opciones **Iniciar desde cero** y **Flujo automatizado** .
+5. Busque el conector de **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]** .
 6. Defina un nombre y elija el activador que desea usar para su flujo.
 7. En la lista de disparadores disponibles, seleccione uno de los de [!INCLUDE[prodshort](includes/prodshort.md)] disponibles:  
 
-    *Cuando se solicite la aprobación de un proveedor*,  
-    *Cuando se solicite la aprobación de una línea de diario general*,  
-    *Cuando se elimine un registro*,  
-    *Cuando se cambie un registro*,  
-    *Cuando se cree un registro*,  
-    *Cuando se modifique un registro*,  
-    *Cuando se solicite la aprobación de un lote de diario general*,  
-    *Cuando se solicite la aprobación de un cliente*,  
-    *Cuando se solicite la aprobación de un artículo*,  
+    *Cuando se solicite la aprobación de un proveedor* ,  
+    *Cuando se solicite la aprobación de una línea de diario general* ,  
+    *Cuando se elimine un registro* ,  
+    *Cuando se cambie un registro* ,  
+    *Cuando se cree un registro* ,  
+    *Cuando se modifique un registro* ,  
+    *Cuando se solicite la aprobación de un lote de diario general* ,  
+    *Cuando se solicite la aprobación de un cliente* ,  
+    *Cuando se solicite la aprobación de un artículo* ,  
     *Cuando se solicite la aprobación de un documento de compra* o  
-    *Cuando se solicite la aprobación de un documento de ventas*.
+    *Cuando se solicite la aprobación de un documento de ventas* .
 
 8. Power Automate le solicitará que seleccione un ambiente y una empresa en su suscriptor de [!INCLUDE[prodshort](includes/prodshort.md)], así como las condiciones de los datos que desee escuchar.
 
@@ -57,23 +57,23 @@ Puede utilizar sus datos de [!INCLUDE[prodshort](includes/prodshort.md)] como pa
 
     Ya se ha conectado correctamente con los datos de Business Central[!INCLUDE[prodshort](includes/prodshort.md)] y está preparado para comenzar a crear su flujo.
 
-9. Para crear desde una plantilla, seleccione la opción **Iniciar desde plantilla**.
-10. Busque las plantillas de **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]**.
-11. En la lista de plantillas disponibles, seleccione una de las plantillas y, a continuación, elija **Crear**.  
+9. Para crear desde una plantilla, seleccione la opción **Iniciar desde plantilla** .
+10. Busque las plantillas de **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]** .
+11. En la lista de plantillas disponibles, seleccione una de las plantillas y, a continuación, elija **Crear** .  
 
-    *Solicitar aprobación para pedido de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para la cotización de venta de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para factura de venta de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para la nota de crédito de venta de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para cliente de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para pedido de compra de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para factura de compra de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para abono de compra de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para producto de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
-    *Solicitar aprobación para proveedor de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*,  
+    *Solicitar aprobación para pedido de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]* ,  
+    *Solicitar aprobación para la cotización de venta de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]* ,  
+    *Solicitar aprobación para factura de venta de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]* ,  
+    *Solicitar aprobación para la nota de crédito de venta de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]* ,  
+    *Solicitar aprobación para cliente de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]* ,  
+    *Solicitar aprobación para pedido de compra de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]* ,  
+    *Solicitar aprobación para factura de compra de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]* ,  
+    *Solicitar aprobación para abono de compra de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]* ,  
+    *Solicitar aprobación para producto de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]* ,  
+    *Solicitar aprobación para proveedor de [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]* ,  
     *Solicitar aprobación para lote de diario general de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]* o    
-    *Solicitar aprobación para líneas de diario general de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]*.  
-12. Power Automate mostrará una lista de servicios utilizados en la plantilla de flujo e intentará conectarse automáticamente a esos servicios. Si no se ha conectado previamente a un servicio, se le pedirá que inicie sesión en cada uno de los servicios a los que necesita conectarse. Aparecerá una marca de verificación verde al lado de cada servicio una vez que se haya realizado una conexión correctamente. Seleccione **Continuar**.
+    *Solicitar aprobación para líneas de diario general de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]* .  
+12. Power Automate mostrará una lista de servicios utilizados en la plantilla de flujo e intentará conectarse automáticamente a esos servicios. Si no se ha conectado previamente a un servicio, se le pedirá que inicie sesión en cada uno de los servicios a los que necesita conectarse. Aparecerá una marca de verificación verde al lado de cada servicio una vez que se haya realizado una conexión correctamente. Seleccione **Continuar** .
 13. Power Automate le solicitará que seleccione un ambiente y una empresa en el suscriptor de [!INCLUDE[prodshort](includes/prodshort.md)]. Debido a que cada paso del flujo es independiente del siguiente, es posible que deba definir el ambiente y la empresa varias veces al usar una plantilla de Power Automate de [!INCLUDE[prodshort](includes/prodshort.md)].
 
 Para obtener más información, consulte [Documentación de Power Automate](/power-automate/getting-started).

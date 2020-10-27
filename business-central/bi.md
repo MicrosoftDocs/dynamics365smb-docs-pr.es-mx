@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e4a08c3c81aa9c59c27da920deb354320559f54c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 006df06509175a19ee63317ee89526192a924808
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786482"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924339"
 ---
 # <a name="business-intelligence"></a>Inteligencia empresarial
 Las empresas capturan una ingente cantidad de información con su actividad diaria. Esta información, que refleja aspectos como las cifras de ventas, las compras, los gastos operativos, los salarios de los empleados o los presupuestos de la organización, y que se conoce como inteligencia empresarial, resulta muy valiosa para los responsables de la toma de decisiones. [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene numerosas funciones que le ayudan a recopilar, analizar y compartir la información de su empresa.
@@ -25,7 +25,7 @@ Las empresas capturan una ingente cantidad de información con su actividad diar
 La funcionalidad Dimensiones desempeña una función importante en la inteligencia empresarial. Una dimensión son datos que puede agregar a un movimiento como una especie de marcador. Estos datos se utilizan para agrupar movimientos de características similares, como clientes, regiones, productos y vendedor, y así poder recuperar con facilidad estos grupos para su análisis. Entre otros usos, utilice las dimensiones al definir las vistas de análisis y al crear esquemas de cuentas para la elaboración de informes. Para obtener más información, consulte [Trabajar con dimensiones](finance-dimensions.md).
 
 > [!TIP]
-> Como una forma rápida de analizar datos transaccionales por dimensiones, puede filtrar por dimensiones los totales del plan de cuentas y movimientos en todas las páginas **Movimientos**. Busque la acción **Establecer filtro de dimensiones**.  
+> Como una forma rápida de analizar datos transaccionales por dimensiones, puede filtrar por dimensiones los totales del plan de cuentas y movimientos en todas las páginas **Movimientos** . Busque la acción **Establecer filtro de dimensiones** .  
 
 En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas que las describen.  
 

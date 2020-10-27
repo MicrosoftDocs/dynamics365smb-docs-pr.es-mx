@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 33de4d2b6d75f79c140c7c2fdf5b84b7a77521d6
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 1c4e33593cd7d0084d3c41a22a865160411ef01f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617797"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923506"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Extensión de migración de datos de QuickBooks Online
 
@@ -52,14 +52,14 @@ Si las transacciones en QuickBooks Online tienen impuestos, debe configurar una 
 
 ## <a name="how-do-i-start-using-the-extension"></a>¿Cómo empiezo a usar la extensión?
 
-Empezar es muy fácil. Únicamente tiene que ejecutar la guía de configuración asistida **Migración de datos**. Instrucciones:
+Empezar es muy fácil. Únicamente tiene que ejecutar la guía de configuración asistida **Migración de datos** . Instrucciones:
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración asistida** y luego elija **Migrar los datos empresariales**.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración asistida** y luego elija **Migrar los datos empresariales** .
 2. Siga las instrucciones en cada paso de la guía de configuración asistida.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>¿Qué hago después de la migración de datos?
 
-Una vez haya migrado los datos, las transacciones muestran el estado **No registrado**, para que pueda revisarlas y crear ajustes. Para revisar las transacciones, vaya a la página donde están normalmente. Por ejemplo, para revisar facturas de ventas no registradas, vaya a la página **Facturas de ventas**. Para revisar las diario de pagos, vaya a la página **Diario de pagos**.  
+Una vez haya migrado los datos, las transacciones muestran el estado **No registrado** , para que pueda revisarlas y crear ajustes. Para revisar las transacciones, vaya a la página donde están normalmente. Por ejemplo, para revisar facturas de ventas no registradas, vaya a la página **Facturas de ventas** . Para revisar las diario de pagos, vaya a la página **Diario de pagos** .  
 
 Hay algunos pasos que es recomendable que haga:
 

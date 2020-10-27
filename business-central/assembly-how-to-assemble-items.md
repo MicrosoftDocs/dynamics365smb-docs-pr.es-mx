@@ -1,6 +1,6 @@
 ---
 title: Cómo ensamblar productos | Documentos de Microsoft
-description: Si el campo **Sistema reposición** en la ficha del artículo contiene **Montaje**, el método predeterminado para suministrar el artículo será ensamblarlo desde los componentes definidos y potencialmente por un recurso definido.
+description: Si el campo **Sistema reposición** en la ficha del artículo contiene **Montaje** , el método predeterminado para suministrar el artículo será ensamblarlo desde los componentes definidos y potencialmente por un recurso definido.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 249565d7a351cc2064c5bc0daa16d96f30ce24b8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5fee9631f984c8d9a54c42c63359af2386ea17c0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782254"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924514"
 ---
 # <a name="assemble-items"></a>Ensamblar artículos
-Si el campo **Sistema reposición** en la ficha del artículo contiene **Montaje**, el método predeterminado para suministrar el artículo será ensamblarlo desde los componentes definidos y potencialmente por un recurso definido.  
+Si el campo **Sistema reposición** en la ficha del artículo contiene **Montaje** , el método predeterminado para suministrar el artículo será ensamblarlo desde los componentes definidos y potencialmente por un recurso definido.  
 
 Los componentes y los recursos que forman esta clase de producto de ensamblado deben definirse en un L.M. de ensamblado. Para obtener más información, consulte [Trabajar con listas de materiales](inventory-how-work-BOMs.md).  
 
@@ -42,10 +42,10 @@ En este procedimiento se crea y procesa un pedido de ensamblado para los artícu
 
 ## <a name="to-assemble-an-item"></a>Para ensamblar un artículo  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de ensamblados** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Nuevo**. Se abrirá la página **Nuevo pedido de ensamblado**.  
+2.  Seleccione la acción **Nuevo** . Se abrirá la página **Nuevo pedido de ensamblado** .  
 3.  Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  En el campo **Nº producto**, introduzca el número del producto de ensamblado que desea solicitar. El campo se filtra para mostrar solo los artículos configurados para el ensamblado, lo que significa que tienen asignado el ensamblado L.M..  
-5.  En el campo **Cantidad**, especifique cuántas unidades del artículo desea que se ensamblen.  
+4.  En el campo **Nº producto** , introduzca el número del producto de ensamblado que desea solicitar. El campo se filtra para mostrar solo los artículos configurados para el ensamblado, lo que significa que tienen asignado el ensamblado L.M..  
+5.  En el campo **Cantidad** , especifique cuántas unidades del artículo desea que se ensamblen.  
 
     > [!NOTE]  
     >  Si uno o más componentes no están disponibles para cubrir la cantidad introducida del artículo de montaje en la fecha de vencimiento determinada, la página **Disponibilidad de ensamblado** se abrirá automáticamente para proporcionar información detallada acerca de cuántos productos de ensamblado se pueden ensamblar basándose en la disponibilidad de componentes. Para obtener más información, consulte [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md). Cuando se cierra la página, el pedido de ensamblado se crea con las alertas de la disponibilidad de las líneas de componente afectados.  
@@ -55,17 +55,17 @@ En este procedimiento se crea y procesa un pedido de ensamblado para los artícu
     > [!NOTE]  
     >  Si la página **Disponibilidad de ensamblado** se abre cuando se rellena la cabecera del pedido de ensamblado, cada línea asignado de pedido de ensamblado afectada contiene **Sí** en el campo **Advertencia disp.** con un vínculo a la información detallada de disponibilidad. Para obtener más información, consulte Comprobar disponibilidad. Puede resolver un problema de disponibilidad de componente posponiendo la fecha inicial, reemplazando al componente por otro artículo o seleccionando un sustituto disponible si hay alguno definido.  
 
-6.  En el campo **Cantidad a ensamblar**, introduzca cuántas unidades del producto de ensamblado va a registrar como salida la próxima vez que registre el pedido de ensamblado. Esta cantidad puede ser menor que el valor del campo **Cantidad** para reflejar un registro parcial de salida.  
+6.  En el campo **Cantidad a ensamblar** , introduzca cuántas unidades del producto de ensamblado va a registrar como salida la próxima vez que registre el pedido de ensamblado. Esta cantidad puede ser menor que el valor del campo **Cantidad** para reflejar un registro parcial de salida.  
 
     > [!NOTE]  
-    >  Para garantizar que el registro de consumo del componente cumpla el registro de salida del producto de ensamblado, los campos de cantidad en las líneas del pedido de ensamblado ajustan automáticamente el valor que se introduce en el campo **Cantidad a ensamblar**.  
-7.  En líneas de pedido de ensamblado de tipo **Producto** o **Recurso**, en el campo **Cantidad para consumir**, introduzca cuántas unidades va a registrar como consumidas la próxima vez que registre el pedido de ensamblado.
-8.  Cuando esté listo listas para realizar el registro parcial o completamente, elija la acción **Registrar**.  
+    >  Para garantizar que el registro de consumo del componente cumpla el registro de salida del producto de ensamblado, los campos de cantidad en las líneas del pedido de ensamblado ajustan automáticamente el valor que se introduce en el campo **Cantidad a ensamblar** .  
+7.  En líneas de pedido de ensamblado de tipo **Producto** o **Recurso** , en el campo **Cantidad para consumir** , introduzca cuántas unidades va a registrar como consumidas la próxima vez que registre el pedido de ensamblado.
+8.  Cuando esté listo listas para realizar el registro parcial o completamente, elija la acción **Registrar** .  
 
     > [!NOTE]  
     >  Si las advertencias todavía están presentes en algunas de las líneas del pedido de ensamblado, se bloquea el registro. Se muestra un mensaje sobre que el o los componentes no están en inventario.  
 
-Después de que el registrar se realice correctamente, el producto de ensamblado se registra como salida al código de almacén y al potencial código de ubicación definidos en el pedido de ensamblado. Para los pedidos de ensamblado creados manualmente, la ubicación se puede copiar desde el campo de instalación **Ubicación pred. pedidos**. Para los flujos de ensamblar para pedido, el código de almacén se copia de la línea del pedido de venta.  
+Después de que el registrar se realice correctamente, el producto de ensamblado se registra como salida al código de almacén y al potencial código de ubicación definidos en el pedido de ensamblado. Para los pedidos de ensamblado creados manualmente, la ubicación se puede copiar desde el campo de instalación **Ubicación pred. pedidos** . Para los flujos de ensamblar para pedido, el código de almacén se copia de la línea del pedido de venta.  
 
 ## <a name="see-also"></a>Consulte también
 [Gestión de ensamblaje](assembly-assemble-items.md)  

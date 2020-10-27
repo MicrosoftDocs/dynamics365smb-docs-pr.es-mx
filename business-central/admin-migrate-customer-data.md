@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 33d5caec7086d12b9a2450fc36224987c5a97642
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e25082286f53c5b0458359d5f5c895b03c6f6bcf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783537"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927133"
 ---
 # <a name="migrate-customer-data"></a>Migrar datos del cliente
 Puede migrar los datos existentes de cliente de un sistema de ERP existente a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizando las herramientas de migración de datos de RapidStart Services. Puede usar archivos de Excel como soporte de datos. También puede mover manualmente los datos al introducirlos directamente en la empresa.
@@ -38,20 +38,20 @@ Antes de comenzar, debe asegurarse de tener permiso para ejecutar los RapidStart
 >
 >  Puede importar un paquete de configuración que se ha exportado desde una base de datos con un esquema distinto al de la base de datos de destino. Sin embargo, no se importarán las tablas o los campos del paquete de configuración que falten en la base de datos de destino.
 >
-> Tampoco se importarán las tablas que tengan diferentes claves principales ni los campos que tengan distintos tipos de datos. Por ejemplo, si el paquete de configuración incluye la tabla **50000 Cliente** que tiene la clave principal **Code20** y la base de datos a la que importa el paquete incluye la tabla **50000 Banco cliente** que tiene la clave principal **Code20 + Código 20**, no se importarán los datos.  
+> Tampoco se importarán las tablas que tengan diferentes claves principales ni los campos que tengan distintos tipos de datos. Por ejemplo, si el paquete de configuración incluye la tabla **50000 Cliente** que tiene la clave principal **Code20** y la base de datos a la que importa el paquete incluye la tabla **50000 Banco cliente** que tiene la clave principal **Code20 + Código 20** , no se importarán los datos.  
 
 1. Abra la nueva empresa.  
 2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
-3. Elija la acción **Importar paquete**. Navegue hasta el archivo del paquete .rapidstart que desea importar y luego elija la acción **Abrir**. Durante la importación, se descomprimen los contenidos del paquete y se crea el registro del paquete.  
+3. Elija la acción **Importar paquete** . Navegue hasta el archivo del paquete .rapidstart que desea importar y luego elija la acción **Abrir** . Durante la importación, se descomprimen los contenidos del paquete y se crea el registro del paquete.  
 
-    Cuando la importación esté completada, puede ver el número de tablas de configuración que se han importado en el campo **Nº de tablas**.  
-4. Para revisar la lista de tablas de configuración, elija la acción de **Ver**.  
-5. Para liquidar el paquete, elija la acción **Aplicar paquete**.  
+    Cuando la importación esté completada, puede ver el número de tablas de configuración que se han importado en el campo **Nº de tablas** .  
+4. Para revisar la lista de tablas de configuración, elija la acción de **Ver** .  
+5. Para liquidar el paquete, elija la acción **Aplicar paquete** .  
 
     > [!NOTE]  
     >  La información de migración de datos se basa en plantillas de configuración, si se especifica una. Debe actualizar la plantilla primero para cambiar la lista de campos.  
 
-6.  Para revisar las selecciones de campo, seleccione una tabla y luego, en la pestaña **Líneas**, elija la acción **Campos**. Compare y revise el número de campos que están disponibles con el número de campos cuyos datos se han aplicado.  
+6.  Para revisar las selecciones de campo, seleccione una tabla y luego, en la pestaña **Líneas** , elija la acción **Campos** . Compare y revise el número de campos que están disponibles con el número de campos cuyos datos se han aplicado.  
 
 Si la selección de tablas no cubre sus necesidades, puede crear uno o varios nuevos archivos de migración de datos. Si los archivos de la migración de datos predeterminados son suficientes, puede continuar con la migración de datos mediante archivos Excel o XML.
 
@@ -60,13 +60,13 @@ Si la selección de tablas no cubre sus necesidades, puede crear uno o varios nu
 Puede crear nuevos archivos de migración de datos y personalizarlos para satisfacer las necesidades de su negocio.  
 
 > [!TIP]
-> Un archivo solo se puede utilizar para migrar un campo que tenga su propiedad **FieldClass** establecida en **Normal**.  
+> Un archivo solo se puede utilizar para migrar un campo que tenga su propiedad **FieldClass** establecida en **Normal** .  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquete de configuración** y luego elija el enlace relacionado.  
-2. Seleccione y abra el paquete que desea utilizar para migrar datos y después seleccione **Obtener tablas**. Se abre la página **Traer tabla de paquete**.  
-3. En el campo **TableID**, introduzca un número de tabla o seleccione una tabla de la lista, por ejemplo, la tabla 18, **Cliente**. El campo **Nombre de tabla** se rellena automáticamente.  
-4. Seleccione la nueva tabla de la migración y, a continuación, en la pestaña **Tablas**, elija la acción **Campos**. Se abre la página **Campos migración**.  
-5. Desactive la casilla **Incluir campo** para los campos que no desee importar y después la acción **Definir incluido** o **Borrar incluido**.  
+2. Seleccione y abra el paquete que desea utilizar para migrar datos y después seleccione **Obtener tablas** . Se abre la página **Traer tabla de paquete** .  
+3. En el campo **TableID** , introduzca un número de tabla o seleccione una tabla de la lista, por ejemplo, la tabla 18, **Cliente** . El campo **Nombre de tabla** se rellena automáticamente.  
+4. Seleccione la nueva tabla de la migración y, a continuación, en la pestaña **Tablas** , elija la acción **Campos** . Se abre la página **Campos migración** .  
+5. Desactive la casilla **Incluir campo** para los campos que no desee importar y después la acción **Definir incluido** o **Borrar incluido** .  
 
 > [!IMPORTANT]  
 >  Si la casilla **Incluir campo** está activada de forma predeterminada, dicho campo forma parte de la clave principal. La selección no se debe borrar o se introducirán errores y el registro no se podrá importar.  
@@ -80,7 +80,7 @@ Cuando haya determinado las tablas a las que desea transferir datos de cliente, 
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
 2. Seleccione y abra el paquete que desee usar para la exportación.
-3. Seleccione la tabla o tablas que desea exportar y después seleccione **Exportar a Excel**.
+3. Seleccione la tabla o tablas que desea exportar y después seleccione **Exportar a Excel** .
 4. Guarde el archivo Excel exportado.  
 5. Repita este procedimiento para todas las tablas de migración de datos pertinentes. Si selecciona varias tablas al mismo tiempo, la exportación de los datos se realiza en un libro común.  
 
@@ -101,25 +101,25 @@ En los siguientes procedimientos, debe revisar por adelantado los valores que de
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.
 2. Abra el paquete de la empresa en cuestión.  
-3. Seleccione la tabla a la que desee asignar valores y en la pestaña **Tablas**, elija la acción **Campos**.  
-4. Para cada campo que desee asignar, elija la acción **Asignación**.  
-5. En el campo **Valor antiguo**, escriba el valor que desea cambiar. En el campo **Valor nuevo**, escriba el valor al que desea que se cambie el valor original. Elija el botón **Aceptar**.  
+3. Seleccione la tabla a la que desee asignar valores y en la pestaña **Tablas** , elija la acción **Campos** .  
+4. Para cada campo que desee asignar, elija la acción **Asignación** .  
+5. En el campo **Valor antiguo** , escriba el valor que desea cambiar. En el campo **Valor nuevo** , escriba el valor al que desea que se cambie el valor original. Elija el botón **Aceptar** .  
 6. Importe los datos del cliente. Para obtener más información, consulte [Para importar datos del cliente](admin-migrate-customer-data.md#to-import-customer-data).
-7. En el campo **Nº errores de paquete**, compruebe si hay errores notificados. Si es así, explore en profundidad para ver los errores. Se abre la página **Registros paquete config**.
-8. Elija la acción **Mostrar error**. Recibirá el error siguiente: **XX no es una opción válida. Las opciones válidas son: XX**. Elija el botón **Aceptar**.  
-9. Para liquidar la asignación que ha configurado, elija la acción **Aplicar datos**.  
+7. En el campo **Nº errores de paquete** , compruebe si hay errores notificados. Si es así, explore en profundidad para ver los errores. Se abre la página **Registros paquete config** .
+8. Elija la acción **Mostrar error** . Recibirá el error siguiente: **XX no es una opción válida. Las opciones válidas son: XX** . Elija el botón **Aceptar** .  
+9. Para liquidar la asignación que ha configurado, elija la acción **Aplicar datos** .  
 
 ### <a name="mapping-example"></a>Ejemplo de asignación  
 El ejemplo siguiente ilustra cómo implementa [!INCLUDE[d365fin](includes/d365fin_md.md)] las definiciones de asignación.  
 
-1. Crear una tabla de configuración que tenga una tabla **Vendedor/Comprador**. Definir una asignación para el campo **Código**.  
-2. Añada tablas adicionales al paquete, por ejemplo, **Cliente** y **Proveedor**. Estas tablas hacen referencia a la tabla **Vendedor/Comprador** a través del **código de vendedor** y el **código de comprador**, respectivamente.  
-3. Cuando se aplican datos, la asignación proporcionada en el campo **Código** de la tabla **Vendedor/Comprador** también se tendrá en cuenta al procesar los campos **Código de vendedor** y **Código de comprador**.
+1. Crear una tabla de configuración que tenga una tabla **Vendedor/Comprador** . Definir una asignación para el campo **Código** .  
+2. Añada tablas adicionales al paquete, por ejemplo, **Cliente** y **Proveedor** . Estas tablas hacen referencia a la tabla **Vendedor/Comprador** a través del **código de vendedor** y el **código de comprador** , respectivamente.  
+3. Cuando se aplican datos, la asignación proporcionada en el campo **Código** de la tabla **Vendedor/Comprador** también se tendrá en cuenta al procesar los campos **Código de vendedor** y **Código de comprador** .
 
 ## <a name="to-add-additional-values-to-d365fin"></a>Para agregar valores adicionales a [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
-2. Seleccione la tabla a la que desee asignar valores adicionales y en la pestaña **Tablas**, elija la acción **Campos**.  
-3. Para los campos para los que desea que [!INCLUDE[d365fin](includes/d365fin_md.md)] permita valores adicionales durante la migración, seleccione la casilla **Crear códigos que faltan**.  
+2. Seleccione la tabla a la que desee asignar valores adicionales y en la pestaña **Tablas** , elija la acción **Campos** .  
+3. Para los campos para los que desea que [!INCLUDE[d365fin](includes/d365fin_md.md)] permita valores adicionales durante la migración, seleccione la casilla **Crear códigos que faltan** .  
 4. Importe los datos del cliente. Para obtener más información, consulte [Para importar datos del cliente](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>Para limpiar y procesar datos antes de aplicar datos
@@ -131,8 +131,8 @@ En algunos casos, puede que desee limpiar los datos de cliente y procesarlos par
 Cuando haya ejecutado el proceso, utilice el procedimiento siguiente para procesar los datos.  
 
 1. Abra el paquete de configuración de la empresa.  
-2. Seleccione la acción **Procesar datos**.  
-3. Para liquidar la asignación que ha configurado, elija la acción **Aplicar datos**.
+2. Seleccione la acción **Procesar datos** .  
+3. Para liquidar la asignación que ha configurado, elija la acción **Aplicar datos** .
 
 ## <a name="to-migrate-customer-data"></a>Para migrar datos del cliente
 Cuando haya exportado una tabla de migración, el siguiente paso es introducir datos heredados del cliente. Para simplificar sus tareas, puede aprovechar las herramientas de manipulación de XML que se integran en Excel. También puede utilizar las funciones integradas de Excel para ayudar con el formato de datos y para colocar los datos en la celda correcta.
@@ -156,15 +156,15 @@ Ahora podrá importar los archivos de migración de datos que contienen datos he
 ## <a name="to-import-customer-data"></a>Para importar datos del cliente
 Cuando se hayan introducido los datos del cliente en los archivos de migración de datos en Excel, importe los archivos en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Abra la página **Configurar tarjeta de paquete**.
-2. Seleccione la tabla a la que desee importar datos y en la pestaña **Tablas**, elija la acción **Importar desde Excel**.
+1. Abra la página **Configurar tarjeta de paquete** .
+2. Seleccione la tabla a la que desee importar datos y en la pestaña **Tablas** , elija la acción **Importar desde Excel** .
 3. Localice y abra el archivo del que desea importar datos.
-4. En la página **Config. vista previa importación paquetes**, revise el contenido que se va a importar.
+4. En la página **Config. vista previa importación paquetes** , revise el contenido que se va a importar.
 
     La página **Config. vista previa importación paquetes** proporciona una visión general del contenido del archivo de Excel que se va a importar. También indica si se crea un nuevo paquete de configuración o si se actualiza el existente, y si se crean nuevas líneas (tablas) de paquete de configuración o se actualizan las existentes.    
-5. Seleccione la acción **Importar**.
+5. Seleccione la acción **Importar** .
 
-Los datos del archivo se importan en las tablas de paquetes de configuración. En el campo **Nº registros de paquete**, puede ver el número de registros que se han importado. Además, puede ver el número de errores de la migración.
+Los datos del archivo se importan en las tablas de paquetes de configuración. En el campo **Nº registros de paquete** , puede ver el número de registros que se han importado. Además, puede ver el número de errores de la migración.
 
 ## <a name="to-validate-customer-data"></a>Para validar datos del cliente
 Los datos del cliente deben validarse antes de aplicar registros a la base de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -172,24 +172,24 @@ Los datos del cliente deben validarse antes de aplicar registros a la base de da
 > [!NOTE]  
 >  En la mayoría de los casos, los datos no válidos no se crean en la base de datos. Sin embargo, la solicitud se puede bloquear de vez en cuando si una tabla de migración importada contiene errores.  
 
-1. En la página **Info. gral. migración**, revise el campo **Nº errores migración** para ver si se han producido errores durante la importación.  
-2. Si hay errores, seleccione la tabla de migración y en la pestaña **Tablas** elija la acción **Errores**. La casilla **No válido** se selecciona para cada registro que tenga un error.  
-3. Para revisar errores, seleccione una línea y después la acción **Mostrar error**.  
+1. En la página **Info. gral. migración** , revise el campo **Nº errores migración** para ver si se han producido errores durante la importación.  
+2. Si hay errores, seleccione la tabla de migración y en la pestaña **Tablas** elija la acción **Errores** . La casilla **No válido** se selecciona para cada registro que tenga un error.  
+3. Para revisar errores, seleccione una línea y después la acción **Mostrar error** .  
 
     Este campo **Texto error** contiene el motivo del error. El campo **Título campo** contiene el título del campo que contiene el error.  
-4.  Para corregir un error o realizar una actualización, en la página **Información general sobre migración**, seleccione la acción **Registro migración** y en la página **Registro de migración**, corrija el registro con el error.  
+4.  Para corregir un error o realizar una actualización, en la página **Información general sobre migración** , seleccione la acción **Registro migración** y en la página **Registro de migración** , corrija el registro con el error.  
 
-Cuando se haya realizado la corrección, el registro se eliminará de la lista de registros de la página **Errores migración datos**.  
+Cuando se haya realizado la corrección, el registro se eliminará de la lista de registros de la página **Errores migración datos** .  
 
 Ahora podrá aplicar los datos del cliente a la base de datos.  
 
 ## <a name="to-apply-customer-data"></a>Procedimiento para aplicar datos del cliente
 Cuando tenga todos los registros de migración de datos importados que sean válidos y no tengan ningún error, podrá aplicar los registros a la base de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1. Abra la página **Paquete de configuración**.  
-2. Seleccione la tabla para el archivo de migración de datos que desea aplicar y elija la acción **Aplicar datos**.
+1. Abra la página **Paquete de configuración** .  
+2. Seleccione la tabla para el archivo de migración de datos que desea aplicar y elija la acción **Aplicar datos** .
 
-Puede ver el número de registros de base de datos que se han creado en el campo **Nº registros de base de datos**. Puede verificar que se hayan creado los registros correctos seleccionando el enlace en el campo **Nº registros de base de datos**.  
+Puede ver el número de registros de base de datos que se han creado en el campo **Nº registros de base de datos** . Puede verificar que se hayan creado los registros correctos seleccionando el enlace en el campo **Nº registros de base de datos** .  
 
 Ya está configurada la base de datos de la empresa del cliente y se han importado los datos básicos. Los pasos siguientes en el proceso de implementación son entrenar a los usuarios, definir procesos, crear datos adicionales, personalizar informes, etc.
 

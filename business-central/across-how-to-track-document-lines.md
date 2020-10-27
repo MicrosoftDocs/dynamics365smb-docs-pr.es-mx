@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ee77fe46999d6b586d7c524232ba4883f9c18340
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 056cb7d0aec55ae939c09adb47477343908c2e6c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781996"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924989"
 ---
 # <a name="track-document-lines"></a>Seguimiento de líneas de documentos
 Puede ver documentos relacionados con líneas de orden de venta y líneas de orden de compra, incluso desde líneas de pedido archivadas. Los documentos relacionados que puede rastrear incluyen cotizaciones, remisiones, recibos y órdenes abiertas. Esto le permite identificar los documentos que se usan para procesar pedidos.  
@@ -25,9 +25,9 @@ El siguiente procedimiento describe cómo rastrear desde una línea de orden de 
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2.  Abra un pedido de venta del que desee realizar un seguimiento.  
-3.  Seleccione una línea y, a continuación, seleccione la acción **Seguimiento de línea de documento**.
-4. En la página **Seguimiento de líneas de documento**, seleccione el documento que desea ver y después seleccione la acción **Muestra** para ver la línea relacionada.
-5. Para ver el documento completo para la línea de documento seleccionada, elija la acción **Mostrar documento**.
+3.  Seleccione una línea y, a continuación, seleccione la acción **Seguimiento de línea de documento** .
+4. En la página **Seguimiento de líneas de documento** , seleccione el documento que desea ver y después seleccione la acción **Muestra** para ver la línea relacionada.
+5. Para ver el documento completo para la línea de documento seleccionada, elija la acción **Mostrar documento** .
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 

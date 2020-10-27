@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 541d3842977e7b139877d9a26fcc39b448ef9745
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b6999be84e2fdaca2eefef41c339c366c330a3dc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786982"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925041"
 ---
 # <a name="about-planning-functionality"></a>Sobre la funcionalidad de la planificación
 
@@ -97,11 +97,11 @@ Para obtener más información, consulte [Detalles de diseño: parámetros de pl
 En la mayoría de las órdenes de suministros, como órdenes de producción, puede seleccionar **Ilimitada** o **Ninguna** en el campo **Flexib. planificación** en las líneas.
 
 Esto especifica si el sistema de planificación tiene en cuenta el suministro representado en la línea del pedido de producción al calcular mensajes de acción.
-Si el campo contiene la opción **Ilimitada**, el sistema de planificación incluye la línea cuando calcula mensajes de acción. Si en el campo está especificada la opción **Ninguna**, la línea es firme e invariable, y el sistema de planificación no la incluye al calcular los mensajes de acción.
+Si el campo contiene la opción **Ilimitada** , el sistema de planificación incluye la línea cuando calcula mensajes de acción. Si en el campo está especificada la opción **Ninguna** , la línea es firme e invariable, y el sistema de planificación no la incluye al calcular los mensajes de acción.
 
 ### <a name="warning"></a>Advertencia
 
-El campo de información **Advertencia**, la página **Hoja de planificación** le indica las líneas de planificación creadas para una situación inusual, con un texto que el usuario puede elegir para leer información adicional. Existen los siguientes tipos de advertencia:
+El campo de información **Advertencia** , la página **Hoja de planificación** le indica las líneas de planificación creadas para una situación inusual, con un texto que el usuario puede elegir para leer información adicional. Existen los siguientes tipos de advertencia:
 
 - Emergencia
 - Excepción
@@ -148,7 +148,7 @@ La página **Hoja demanda** incluye una lista de productos que desea solicitar. 
 
 - Introduzca los productos manualmente en la hoja y rellene los campos pertinentes.
 
-- Use el trabajo por lotes **Calcular plan**. De este modo, se calculará un plan de reposición para los productos y las unidades de almacenamiento que se han configurado con un sistema de reposición de **Compra** o **Transferencia**. Cuando utilice este proceso, el programa rellenará automáticamente el campo **Mensaje acción** con una acción recomendada que puede realizar para reponer el producto. Esta acción podría, por ejemplo, aumentar la cantidad del producto en un pedido existente o crear un nuevo pedido.
+- Use el trabajo por lotes **Calcular plan** . De este modo, se calculará un plan de reposición para los productos y las unidades de almacenamiento que se han configurado con un sistema de reposición de **Compra** o **Transferencia** . Cuando utilice este proceso, el programa rellenará automáticamente el campo **Mensaje acción** con una acción recomendada que puede realizar para reponer el producto. Esta acción podría, por ejemplo, aumentar la cantidad del producto en un pedido existente o crear un nuevo pedido.
 
 - Si ha utilizado el proceso **Calcular plan** desde la página **Hoja planificación** para calcular un plan de reposición, puede aplicar el proceso **Ejecutar mensajes acción** para copiar las propuestas de pedido de compra y transferencia de la hoja de planificación a la hoja de demanda. Esto es práctico si separa los usuarios responsables de la gestión de órdenes de producción de los responsables de pedidos de compra y transferencia.
 
@@ -156,7 +156,7 @@ La página **Hoja demanda** incluye una lista de productos que desea solicitar. 
 
 - Puede utilizar la acción **Pedido especial** para rellenar las líneas de la hoja de demanda. Esta acción utiliza el proceso **Tomar órdenes de venta** para determinar las líneas de la orden de venta que desea asignar a una orden especial.
 
-Las líneas de la hoja de demanda contienen información detallada sobre los productos que es necesario reaprovisionar. Puede editar y eliminar líneas para ajustar su plan de reposición y, más tarde, procesar las líneas con el proceso **Ejecutar mensajes acción**.
+Las líneas de la hoja de demanda contienen información detallada sobre los productos que es necesario reaprovisionar. Puede editar y eliminar líneas para ajustar su plan de reposición y, más tarde, procesar las líneas con el proceso **Ejecutar mensajes acción** .
 
 Para obtener detalles sobre la planificación con ubicaciones y transferencias, consulte [Planificación con o sin ubicaciones](production-planning-with-without-locations.md).
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 720eb2d5899ba067dbcee8dc97492ebcd01b1abd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: dc8014cf0896db1ebbc5f0c5ea22e0f160c1b06d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779194"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926558"
 ---
 # <a name="block-customers"></a>Bloquear clientes
 Puede bloquear a un cliente, por ejemplo, por insolvencia, para que el no pueda añadirse a los documentos de ventas o para que no se puedan registrar transacciones para el cliente.
@@ -33,8 +33,8 @@ La siguiente tabla describe las distintas opciones de bloqueo de clientes.
 
 ## <a name="to-block-a-customer"></a>Para bloquear a un cliente  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
-2. Seleccione un cliente y, a continuación, elija la acción **Editar**.
-3. En el campo **Bloqueado**, elija qué bloquear, como se describe en la tabla anterior.
+2. Seleccione un cliente y, a continuación, elija la acción **Editar** .
+3. En el campo **Bloqueado** , elija qué bloquear, como se describe en la tabla anterior.
 
 ## <a name="see-also"></a>Consulte también  
 [Permite registrar nuevos clientes](sales-how-register-new-customers.md)  

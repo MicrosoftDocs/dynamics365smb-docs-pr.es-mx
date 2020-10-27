@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e5543c19abb9d40a1ed19b7224a54d584af36635
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e54c82e2d00c26f191506b8057a730d31fddc867
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783818"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925408"
 ---
 # <a name="set-up-bin-types"></a>Configurar tipos de ubicación
 Puede dirigir el flujo de productos por las ubicaciones que ha definido para las actividades de un almacén determinado. Indique las actividades de flujo básicas para cada ubicación y defina la forma en que se utilizará la ubicación, asignándola a un tipo de ubicación.  
@@ -24,7 +24,7 @@ Existen seis tipos. Puede trabajar en el almacén con seis tipos de ubicaciones 
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Para configurar los tipos de ubicaciones que desea utilizar  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Tipos de ubicación** y luego elija el enlace relacionado.  
-2.  En la página **Tipos ubicación**, cree un código d e10 caracteres para el tipo de ubicación.  
+2.  En la página **Tipos ubicación** , cree un código d e10 caracteres para el tipo de ubicación.  
 3.  Seleccione las actividades que se pueden realizar con cada tipo de ubicación.  
 
 > [!NOTE]  
@@ -41,7 +41,7 @@ A continuación, se muestran los tipos de ubicaciones que puede crear.
 |UBICAR|Normalmente, los productos se almacenan en unidades de medida grandes a las que no desea que tenga acceso para realizar el picking. Debido a que no se realiza el picking de estas ubicaciones, ya sea de órdenes de producción o envíos, el uso de una ubicación de tipo Ubicar puede estar limitado, pero este tipo de ubicación podría ser útil si ha comprado una gran cantidad de productos. Las ubicaciones de este tipo siempre deben tener un ranking de ubicación bajo, para que cuando se coloquen los productos recibidos, se ubiquen primero otras ubicaciones COLOCARPICKING de ranking más alto asignados al producto. Si utiliza este tipo de ubicación, debe realizar con regularidad la reposición de ubicación para que los productos almacenados en estas ubicaciones también estén disponibles en ubicaciones de tipo COLOCARPICKING o PICKING.|  
 |PICKING|Los productos utilizados sólo para picking, por ejemplo, para los productos con una fecha de caducidad próxima que ha movido a este tipo de ubicación. En estas ubicaciones debería indicar un ranking de ubicación alto para que el sistema sugiera primero el picking de estas ubicaciones.|  
 |COLOCARPICKING|Artículos en ubicaciones que se sugieren para funciones de ubicación y de picking. Probablemente, las ubicaciones de este tipo tengan distintos rankings de ubicación. Puede configurar las ubicaciones de almacenamiento masivo como de este tipo con rankings de ubicación bajos comparados con las ubicaciones de picking normales o las ubicaciones del área de picking de seguimiento.|  
-|QC|Esta ubicación se utiliza para ajustes de inventario si se especifica en la ficha de almacén en el campo **Cód. ubicación ajuste**. También puede configurar ubicaciones de este tipo para productos defectuosos y productos que es preciso inspeccionar. puede mover productos a este tipo de ubicación si desea que no se tenga a consulta a los mismos desde el flujo de productos normal.<br /><br /> **NOTA**: A diferencia de resto de tipos de ubicación, el de **QC** no tiene seleccionada de forma predeterminada ninguna de las casillas de verificación de manejo de artículos. Esto indica que el contenido que sitúe en una ubicación de control de calidad no se incluye de los flujos del artículo.|  
+|QC|Esta ubicación se utiliza para ajustes de inventario si se especifica en la ficha de almacén en el campo **Cód. ubicación ajuste** . También puede configurar ubicaciones de este tipo para productos defectuosos y productos que es preciso inspeccionar. puede mover productos a este tipo de ubicación si desea que no se tenga a consulta a los mismos desde el flujo de productos normal.<br /><br /> **NOTA** : A diferencia de resto de tipos de ubicación, el de **QC** no tiene seleccionada de forma predeterminada ninguna de las casillas de verificación de manejo de artículos. Esto indica que el contenido que sitúe en una ubicación de control de calidad no se incluye de los flujos del artículo.|  
 
 ## <a name="see-also"></a>Consulte también
 [Gestión almacén](warehouse-manage-warehouse.md)  

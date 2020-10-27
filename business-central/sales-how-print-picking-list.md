@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/27/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fadf974c41b34a5beb7b3b313847cc6a5bfcec78
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c89cb40559a570605401108d7560f6b989e06773
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781646"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926158"
 ---
 # <a name="print-the-picking-list"></a>Imprimir la lista de picking
 Puede imprimir una lista de picking de inventario directamente desde un pedido de ventas, una factura de venta y otros documentos que inicien la remisión de los productos.
@@ -27,7 +27,7 @@ El procedimiento siguiente se basa en un pedido de venta. Los pasos son similare
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono de Buscar por página o informe"), introduzca **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2. Abra el pedido de venta para el que desea elegir productos.  
-3. Elija la acción **Informe** y luego elija la acción **Lista de selección por orden**.  
+3. Elija la acción **Informe** y luego elija la acción **Lista de selección por orden** .  
 4. Seleccione el botón de **Imprimir** para imprimir la lista de picking o elija el botón de **Vista previa** para verlo en la pantalla.
 
 También puede guardar la lista de picking como un documento, por ejemplo, para enviarla a alguien o para agregarla como un archivo adjunto al pedido de ventas. Para obtener información, consulte [Administrar archivos adjuntos, vínculos y notas en fichas y documentos](ui-how-add-link-to-record.md).

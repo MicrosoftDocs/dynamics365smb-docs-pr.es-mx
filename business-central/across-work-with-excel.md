@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: f782b3ce19baa29d9268f3fdf742d2aa6112957f
-ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
+ms.openlocfilehash: b25413c8f0479aaccfc67ae96f2870690f993dfa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "3534608"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927283"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Ver y editar en Excel desde Business Central
 
@@ -30,7 +30,7 @@ Con las páginas que muestran una lista de registros en filas y columnas, como u
 - Esta acción funciona tanto en Windows como en macOS.
 
 > [!NOTE]
-> Por [!INCLUDE[prodshort](includes/prodshort.md)] local, la acción **Abrir en Excel** está disponible de forma predeterminada. Sin embargo, si configura [!INCLUDE[prodshort](includes/prodshort.md)] local para editar datos en Excel, la acción **Abrir en Excel** se reemplaza por la acción **Editar en Excel**.
+> Por [!INCLUDE[prodshort](includes/prodshort.md)] local, la acción **Abrir en Excel** está disponible de forma predeterminada. Sin embargo, si configura [!INCLUDE[prodshort](includes/prodshort.md)] local para editar datos en Excel, la acción **Abrir en Excel** se reemplaza por la acción **Editar en Excel** .
 
 ## <a name="edit-in-excel"></a>Editar en Excel
 
@@ -40,7 +40,7 @@ Con las páginas que muestran una lista de registros en filas y columnas, como u
 
 - Solo funciona en Windows; en macOS, no.
 
-- Puede cambiar la compañía con la que está trabajando. Para hacerlo, seleccione el icono **Opciones** ![Opciones de complemento de Excel](media/cogwheel.png "Opciones del complemento de Excel") en el panel Complemento de Excel y luego seleccione la compañía en el campo **Empresa**.  
+- Puede cambiar la compañía con la que está trabajando. Para hacerlo, seleccione el icono **Opciones** ![Opciones de complemento de Excel](media/cogwheel.png "Opciones del complemento de Excel") en el panel Complemento de Excel y luego seleccione la compañía en el campo **Empresa** .  
 
     > [!IMPORTANT]
     > Al cambiar de compañía, asegúrese de que el campo **Entorno** no está vacío. Si es así, configúrelo en una de las opciones disponibles; de lo contrario, el complemento no funcionará correctamente.  
@@ -59,5 +59,6 @@ Si realiza cambios en el complemento, debe volver a cargarlo para actualizar la 
 
 ## <a name="see-also"></a>Consulte también
 
+[Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md)  
 [Trabajar con Business Central](ui-work-product.md)  
 [Mejoras en la integración de Excel en el segundo lanzamiento de versiones de 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  

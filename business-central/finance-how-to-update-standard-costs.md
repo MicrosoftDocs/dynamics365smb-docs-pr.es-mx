@@ -10,36 +10,36 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5bbe6afc90cd89c7cd1a98b65a386404d90b5088
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8343a4169c127abdcee18a0a2e15cbc5f6b2b7c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780946"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924114"
 ---
 # <a name="update-standard-costs"></a>Actualizar costos estándar
 Debe actualizar periódicamente los costos estándar de los componentes y distribuir los nuevos costos al producto principal. El proceso normalmente consiste en los cuatro pasos siguientes:  
 
-1.  Actualizar los costos en los niveles de componente y de capacidad. Para obtener más información, consulte el proceso **Sugerir costo estándar prod.**.  
+1.  Actualizar los costos en los niveles de componente y de capacidad. Para obtener más información, consulte el proceso **Sugerir costo estándar prod.** .  
 2.  Consolide y distribuya los costos de componentes y de capacidad para calcular el costo total de fabricación o ensamblado de los productos.  
 3.  Implementar los costos estándar que se introducen al ejecutar los trabajos por lotes anteriores. Los costos estándar no tienen efecto hasta que se implementan. Para obtener más información, consulte Implementar cambios de costo estándar.  
 4.  Implementar los cambios para actualizar el campo **Costo unitario** en la ficha del producto y realizar una revaluación de inventario. Para obtener más información, vea [Revaluación de inventario](inventory-how-revalue-inventory.md).  
 
 Para obtener más información, consulte [Acerca de Calcular el costo estándar](finance-about-calculating-standard-cost.md).  
 ## <a name="to-update-standard-costs"></a>Para actualizar los costos estándar  
-1.  Ejecute el proceso **Valorar existencias - movs. producto**.  
-2.  Ejecute el proceso **Reg. var. inventario en cont.**.  
+1.  Ejecute el proceso **Valorar existencias - movs. producto** .  
+2.  Ejecute el proceso **Reg. var. inventario en cont.** .  
 3.  Abra la **Hoja trab. costo estándar** y use una o más de las funciones siguientes:  
 
     1.  Ejecute el proceso **Sugerir costo estándar prod.**  
     2.  Repase los resultados y realice los cambios que sean necesarios.  
-    3.  Ejecute el proceso **Sugerir costo estándar capacidad**.  
+    3.  Ejecute el proceso **Sugerir costo estándar capacidad** .  
     4.  Repase los resultados y realice los cambios que sean necesarios.
-    5. Ejecute el proceso **Distribuir costo estándar**.
+    5. Ejecute el proceso **Distribuir costo estándar** .
     6.  Repase los resultados y realice los cambios que sean necesarios.
-    7.  Ejecute el proceso **Implementar cambios de costo estándar**.  
+    7.  Ejecute el proceso **Implementar cambios de costo estándar** .  
 4.  Revise y registre la página **Diario revalorizac.** , el cual se ha rellenado con entradas provenientes de los pasos anteriores del proceso.  
 
 ## <a name="see-also"></a>Consulte también  

@@ -7,14 +7,14 @@ ms.topic: article
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: andregu
-ms.openlocfilehash: 1672c163237e23510e2d8f3a5a99760018d023d9
-ms.sourcegitcommit: ec3034640ed10e0fd028568ec45f21c84498d3de
+ms.openlocfilehash: 7d75cb42b064f8541a1142ef149c9641baa6f69a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3486332"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923931"
 ---
 # <a name="managing-vat-rate-changes"></a>Administración de cambios del tipo de IVA
 
@@ -72,15 +72,15 @@ Antes de configurar la herramienta de cambio de tasa de IVA, debe llevar a cabo 
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>Para configurar la herramienta de cambio de tasa de IVA
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conf. cambio tipo IVA** y luego elija el enlace relacionado.  
-2. En las fichas desplegables **Datos maestros**, **Diarios** y **Documentos**, elija un valor de grupo contable de la lista de opciones para los campos necesarios. Para cada grupo, puede elegir si desea convertir grupos de registro IVA de producto o grupos de contabilización de productos generales, o convertir ambos valores si están disponibles en el elemento de datos maestros. Para algunas áreas, también puede establecer un filtro para convertir solo un subconjunto de valores, por ejemplo, cuentas. 
-3. En la pestaña desplegable **Precios con IVA**, elija para qué tipos de línea en los pedidos desea actualizar los precios unitarios. Los precios unitarios en las líneas de tipo producto y recurso siempre se actualizarán.
+2. En las fichas desplegables **Datos maestros** , **Diarios** y **Documentos** , elija un valor de grupo contable de la lista de opciones para los campos necesarios. Para cada grupo, puede elegir si desea convertir grupos de registro IVA de producto o grupos de contabilización de productos generales, o convertir ambos valores si están disponibles en el elemento de datos maestros. Para algunas áreas, también puede establecer un filtro para convertir solo un subconjunto de valores, por ejemplo, cuentas. 
+3. En la pestaña desplegable **Precios con IVA** , elija para qué tipos de línea en los pedidos desea actualizar los precios unitarios. Los precios unitarios en las líneas de tipo producto y recurso siempre se actualizarán.
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Para configurar una conversión grupos de registro de producto
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conf. cambio tipo IVA** y luego elija el enlace relacionado.  
-2. En la página **Conf. cambio tasa IVA**, elija la acción **Conv. gr. contable producto IVA** o **Conv. gr. contable producto general**.  
-3. En el campo **Código origen**, especifique el grupo de registro actual.  
-4. En el campo **Código destino**, especifique el nuevo grupo de registro.  
+2. En la página **Conf. cambio tasa IVA** , elija la acción **Conv. gr. contable producto IVA** o **Conv. gr. contable producto general** .  
+3. En el campo **Código origen** , especifique el grupo de registro actual.  
+4. En el campo **Código destino** , especifique el nuevo grupo de registro.  
 
 ### <a name="to-perform-vat-rate-change-conversion"></a>Para realizar la conversión de cambio de tasa de IVA
 
@@ -90,16 +90,16 @@ Utiliza la herramienta de cambio de tasa de IVA para gestionar los cambios en la
 * Los cambios se implementan en cuentas de contabilidad, clientes, proveedores, documentos pendientes, líneas de diario, etc.  
 
 > [!IMPORTANT]  
-> Antes de realizar la conversión de cambio del tipo de IVA, puede probarla. Para hacerlo, siga los pasos siguientes, pero asegúrese de desactivar las casillas de verificación **Realizar conversión** y **Herramienta cambio tasa IVA finalizada**. Durante la conversión de prueba, el campo **Convertido** en la tabla **Mov. registro cambios en tasa IVA** está desactivada y el campo **Fecha conversión** en la tabla **Mov. registro cambios en tasa IVA** está vacío. Después de que la conversión esté completa, elija **Movs. reg. de cambio de tasa de IVA** para ver los resultados de la prueba. Verifique cada movimiento antes de realizar la conversión. Concretamente, verifique las transacciones que utilizan una tasa de IVA antigua.
+> Antes de realizar la conversión de cambio del tipo de IVA, puede probarla. Para hacerlo, siga los pasos siguientes, pero asegúrese de desactivar las casillas de verificación **Realizar conversión** y **Herramienta cambio tasa IVA finalizada** . Durante la conversión de prueba, el campo **Convertido** en la tabla **Mov. registro cambios en tasa IVA** está desactivada y el campo **Fecha conversión** en la tabla **Mov. registro cambios en tasa IVA** está vacío. Después de que la conversión esté completa, elija **Movs. reg. de cambio de tasa de IVA** para ver los resultados de la prueba. Verifique cada movimiento antes de realizar la conversión. Concretamente, verifique las transacciones que utilizan una tasa de IVA antigua.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conf. cambio tipo IVA** y luego elija el enlace **Conf. cambio tasa IVA**.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conf. cambio tipo IVA** y luego elija el enlace **Conf. cambio tasa IVA** .  
 2. Compruebe que haya configurado la conversión del grupo de registro de IVA de producto o la conversión del grupo de registro general de producto.  
-3. Elija la casilla de verificación **Realizar conversión**.  
+3. Elija la casilla de verificación **Realizar conversión** .  
 
     > [!IMPORTANT]  
-    >  Desactive la casilla de verificación **Herramienta cambio tasa IVA finalizada**. La casilla de verificación se selecciona automáticamente cuando la conversión de cambio de tasa de IVA se completa.  
+    >  Desactive la casilla de verificación **Herramienta cambio tasa IVA finalizada** . La casilla de verificación se selecciona automáticamente cuando la conversión de cambio de tasa de IVA se completa.  
 
-4. Seleccione la acción **Convertir**.  
+4. Seleccione la acción **Convertir** .  
 5. Después de que la conversión esté completa, elija la acción **Movs. reg. de cambio de tasa de IVA** para ver los resultados de la conversión.  
 
 > [!IMPORTANT]  

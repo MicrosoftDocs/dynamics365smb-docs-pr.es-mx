@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fdf20f215cee14d8cfb2d4287f8f0a5173ce4466
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d167d55196f651ea3b6286ba969829042fabefaf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195248"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925883"
 ---
 # <a name="set-up-a-loaner-program"></a>Configurar un programa de productos prestados
 En ocasiones, debe entregar al cliente un producto prestado para que lo utilice mientras el equipo de servicio al cliente realiza la reparación. En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede establecer un programa de productos prestados, prestar artículos a sus clientes y llevar un seguimiento de la recepción de los artículos cuando los clientes los devuelven. Además, puede agregar comentarios acerca de los productos prestados de una de las siguientes formas:  
@@ -26,9 +26,9 @@ En ocasiones, debe entregar al cliente un producto prestado para que lo utilice 
 ## <a name="to-set-up-a-loaner"></a>Para configurar un producto prestado  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos prestados** y luego elija el enlace relacionado.  
 2. Cree una ficha de producto prestado nueva. 
-3. En el campo **N.º**, introduzca un número para el producto prestado. Si ha configurado una serie numérica para productos prestados en la página **Config. gestión servicios**, también puede presionar la tecla Enter para seleccionar el siguiente número de producto prestado disponible.  
-4. Rellene los campos **Descripción**, **Descripción 2** y **Nº serie**.  
-5. En el campo **Cód. unidad medida**, elija la unidad de medida correspondiente.  
+3. En el campo **N.º** , introduzca un número para el producto prestado. Si ha configurado una serie numérica para productos prestados en la página **Config. gestión servicios** , también puede presionar la tecla Enter para seleccionar el siguiente número de producto prestado disponible.  
+4. Rellene los campos **Descripción** , **Descripción 2** y **Nº serie** .  
+5. En el campo **Cód. unidad medida** , elija la unidad de medida correspondiente.  
   
 ## <a name="see-also"></a>Consulte también
 [Prestar y recibir productos prestados](service-how-to-lend-receive-loaners.md)  

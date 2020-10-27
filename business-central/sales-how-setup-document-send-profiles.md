@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: email, PDF, electronic document
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 528ee49dda35055872c7ebe2d241456383028434
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 424d497154e9fc8023ba38cbd22859c0874124ec
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780821"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926033"
 ---
 # <a name="set-up-document-sending-profiles"></a>Configurar perfiles de envío de documentos
-Puede configurar cada cliente con un método preferido para enviar documentos de venta, de modo que no tenga que seleccionar una opción de envío cada vez que elija la acción **Registrar y enviar**.
+Puede configurar cada cliente con un método preferido para enviar documentos de venta, de modo que no tenga que seleccionar una opción de envío cada vez que elija la acción **Registrar y enviar** .
 
-En la página **Perfiles de envío de documentos**, puede establecer diferentes perfiles de envío que puede seleccionar del campo **Perfil de envío de documentos** de una ficha de cliente. Puede seleccionar la casilla de verificación **Predeterminado** para especificar que el perfil de envíos de documentos sea el perfil predeterminado para todos los clientes, en que el campo **Perfil de envío de documentos** se rellena con otro perfil de envío.
+En la página **Perfiles de envío de documentos** , puede establecer diferentes perfiles de envío que puede seleccionar del campo **Perfil de envío de documentos** de una ficha de cliente. Puede seleccionar la casilla de verificación **Predeterminado** para especificar que el perfil de envíos de documentos sea el perfil predeterminado para todos los clientes, en que el campo **Perfil de envío de documentos** se rellena con otro perfil de envío.
 
 Cuando elige la acción **Registrar y enviar** en un documento de venta, el cuadro de diálogo **Registrar y enviar confirmación** muestra el perfil de envío usado, tanto el configurado para el cliente como el predeterminado para todos los clientes. En el cuadro de diálogo puede cambiar el perfil de envío para el documento de venta. Para obtener más información, vea [Facturar ventas](sales-how-invoice-sales.md).
 <br><br>  
@@ -31,13 +31,13 @@ Cuando elige la acción **Registrar y enviar** en un documento de venta, el cuad
 
 ## <a name="to-set-up-a-document-sending-profile"></a>Para configurar un perfil de envío de documentos
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Perfiles de envío de documentos** y luego elija el enlace relacionado.
-2. En la página **Perfiles de envío de documentos**, elija la acción **Nuevo**.
+2. En la página **Perfiles de envío de documentos** , elija la acción **Nuevo** .
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Para especificar un perfil de envío en una ficha cliente
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
 2. Abra la ficha del cliente para el que desea configurar un perfil de envío.
-3. En el campo **Perfil de envío de documentos**, seleccione un perfil que haya configurado como se describe en el procedimiento anterior.
+3. En el campo **Perfil de envío de documentos** , seleccione un perfil que haya configurado como se describe en el procedimiento anterior.
 
 ## <a name="see-also"></a>Consulte también
 [Configuración de ventas](sales-setup-sales.md)  

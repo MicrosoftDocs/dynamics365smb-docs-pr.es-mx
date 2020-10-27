@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b08d5a227f2133989948634f32d88aa614941a0f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 095daa34ee8a956da8245f4e02c3bd438ba277fb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780096"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924014"
 ---
 # <a name="about-item-types"></a>Acerca de los tipos de productos
-En el campo **Tipo** en la página **Ficha de producto**, puede seleccionar para qué se usa el producto en su negocio y, por lo tanto, cómo se administra en el sistema. Existen tres opciones:
+En el campo **Tipo** en la página **Ficha de producto** , puede seleccionar para qué se usa el producto en su negocio y, por lo tanto, cómo se administra en el sistema. Existen tres opciones:
 
 |Opción|Propósito típico|
 |------|-----------|
@@ -43,9 +43,9 @@ Los tres tipos de elementos admiten las siguientes características, respectivam
 ## <a name="costing-methods-for-types-of-items"></a>Valoración de existencias para tipos de productos
 Cuando publica transacciones de inventario, las cambios en la cantidad y en los valores del inventario se registran en los movimientos de producto y los movimientos de valores respectivamente. 
 
-Para los artículos de inventario, el costo se registra en el campo **Importe de costo (real)** en la página **Movimientos de valor**, y cuando se concilia con la contabilidad, el costo se mostrará en el campo **Costo regis. en contab.**. Para obtener más información, consulte [Detalles de diseño: valoración de inventario](design-details-inventory-costing.md).
+Para los artículos de inventario, el costo se registra en el campo **Importe de costo (real)** en la página **Movimientos de valor** , y cuando se concilia con la contabilidad, el costo se mostrará en el campo **Costo regis. en contab.** . Para obtener más información, consulte [Detalles de diseño: valoración de inventario](design-details-inventory-costing.md).
 
-Para los productos que no son de inventario y los productos de servicio, el costo se registra en el campo **Importe de costo (No-invent.)** en la página **Movimientos de valor**. Para los productos que no son de inventario y los productos de servicio, el costo se especifica en los documentos y diarios de ventas, ensamblado y producción. El costo predeterminado se puede especificar en el campo **Costo unitario** en las páginas **Ficha de producto** y **Unidad de almacenamiento**. Los costos de este tipo de productos no se concilian con la contabilidad. 
+Para los productos que no son de inventario y los productos de servicio, el costo se registra en el campo **Importe de costo (No-invent.)** en la página **Movimientos de valor** . Para los productos que no son de inventario y los productos de servicio, el costo se especifica en los documentos y diarios de ventas, ensamblado y producción. El costo predeterminado se puede especificar en el campo **Costo unitario** en las páginas **Ficha de producto** y **Unidad de almacenamiento** . Los costos de este tipo de productos no se concilian con la contabilidad. 
 
 ## <a name="catalog-and-service-items"></a>Productos de catálogo y de servicio
 Los productos que ofrece a sus clientes pero que no desea administrar en su sistema hasta que comience a venderlos se pueden configurar como productos del catálogo. Los productos del catálogo no deben confundirse con artículos regulares de tipo No inventario. Para obtener más información, consulte [Trabajar con productos del catálogo](inventory-how-work-nonstock-items.md).

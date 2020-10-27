@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2cc3fd679909e51422afe75ee4a1436f5ad8cb9c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5e9609ae65cd2cd23abad5680e576c3c16d89493
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789011"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926008"
 ---
 # <a name="calculate-order-promising-dates"></a>Calcular fechas de compromiso de entrega de pedido
 Una empresa debe poder informar a los clientes de las fechas de entrega del pedido. La página **Líneas compromiso entrega pedido** permite realizar esta operación desde una línea de pedido de venta.  
@@ -69,15 +69,15 @@ A continuación, [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba si la fec
 
 La fecha de envío se utiliza para realizar la comprobación de disponibilidad. Si el producto está disponible esta fecha, [!INCLUDE[d365fin](includes/d365fin_md.md)] confirma que la entrega solicitada/acordada se puede cumplir estableciendo la fecha de entrega prevista en la misma fecha de entrega solicitada/acordada. Si el producto no está disponible, devolverá una fecha en blanco y el procesador de pedidos podrá utilizar la funcionalidad de CTP.  
 
-Basándose en las nuevas fechas y horas, todas las fechas relacionadas se calculan según las fórmulas enumeradas anteriormente en esta sección. El cálculo de CTP tarda más en realizarse pero proporciona una fecha exacta en la que el cliente puede esperar que el producto se entregue. Las fechas que se calculan de CTP se muestran en los campos **Fecha entrega planificada** y **Primera fecha remisión** en la página **Líneas compromiso entrega pedido**.  
+Basándose en las nuevas fechas y horas, todas las fechas relacionadas se calculan según las fórmulas enumeradas anteriormente en esta sección. El cálculo de CTP tarda más en realizarse pero proporciona una fecha exacta en la que el cliente puede esperar que el producto se entregue. Las fechas que se calculan de CTP se muestran en los campos **Fecha entrega planificada** y **Primera fecha remisión** en la página **Líneas compromiso entrega pedido** .  
 
 El procesador de pedidos termina el proceso de CTP validando las fechas. Esto significa que se crean una línea de planificación y un movimiento de reserva para el producto antes de las fechas calculadas para garantizar que el pedido se cumple.  
 
-Además del compromiso de entrega externo que puede realizar en la página **Líneas compromiso entrega pedido**, también puede comprometerse con fechas de entrega internas o externas para los productos de la lista de materiales. Para obtener más información, consulte [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md).
+Además del compromiso de entrega externo que puede realizar en la página **Líneas compromiso entrega pedido** , también puede comprometerse con fechas de entrega internas o externas para los productos de la lista de materiales. Para obtener más información, consulte [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Para configurar compromisos de pedidos  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. compr. entrega ped.** y luego elija el enlace relacionado.  
-2. Introduzca un número y una unidad de tiempo en el campo **Desfase (tiempo)**. Seleccione uno de los siguientes códigos.  
+2. Introduzca un número y una unidad de tiempo en el campo **Desfase (tiempo)** . Seleccione uno de los siguientes códigos.  
 
     |Código|Descripción|  
     |----------|-----------------|  
@@ -87,15 +87,15 @@ Además del compromiso de entrega externo que puede realizar en la página **Lí
     |**t**|Trimestre|  
     |**a**|Año|  
 
-    Por ejemplo, "3w" indica que el tiempo de desfase son tres semanas. Para indicar el periodo corriente, utilice "c" como prefijo en cualquiera de estos códigos. Por ejemplo, si desea que el tiempo de desfase sea el mes corriente, introduzca **cm**.  
-3. Introduzca una serie numérica en el campo **Nº serie compr. entreg. ped.** al seleccionar una línea de la lista en la página **N.º serie**.  
-4. Introduzca una plantilla de compromiso de entrega de pedido en el campo **Plantilla compr. entrega ped.** al seleccionar una línea de la lista en la página **Lista libros hojas demanda**.  
-5. Introduzca una hoja de demanda en el campo **Hoja compr. entrega ped.** al seleccionar una línea de la lista en la página **Nombres hojas demanda**.
+    Por ejemplo, "3w" indica que el tiempo de desfase son tres semanas. Para indicar el periodo corriente, utilice "c" como prefijo en cualquiera de estos códigos. Por ejemplo, si desea que el tiempo de desfase sea el mes corriente, introduzca **cm** .  
+3. Introduzca una serie numérica en el campo **Nº serie compr. entreg. ped.** al seleccionar una línea de la lista en la página **N.º serie** .  
+4. Introduzca una plantilla de compromiso de entrega de pedido en el campo **Plantilla compr. entrega ped.** al seleccionar una línea de la lista en la página **Lista libros hojas demanda** .  
+5. Introduzca una hoja de demanda en el campo **Hoja compr. entrega ped.** al seleccionar una línea de la lista en la página **Nombres hojas demanda** .
 
 ### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Para especificar un tiempo de manipulación en almacén de entrada en la página de configuración de existencias  
 Si desea incluir un tiempo de manipulación en almacén en el cálculo del compromiso de entrega del pedido en la línea de compra, configúrelo como valor predeterminado para el inventario y para el almacén.    
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. existencias** y luego elija el enlace relacionado.  
-2. En la ficha desplegable **General**, en el campo **Tiempo manip. almacén entrada**, introduzca el número de días que desea incluir en el cálculo del compromiso de entrega.  
+2. En la ficha desplegable **General** , en el campo **Tiempo manip. almacén entrada** , introduzca el número de días que desea incluir en el cálculo del compromiso de entrega.  
 
 > [!NOTE]  
 >  Si ha especificado un valor en el campo **Tiempo manip. almacén entrada** de la **Ficha almacén** para el almacén, este campo se utiliza como el tiempo de manipulación en el almacén de entrada predeterminado.  
@@ -103,16 +103,16 @@ Si desea incluir un tiempo de manipulación en almacén en el cálculo del compr
 ### <a name="to-enter-inbound-warehouse-handling-time-on-location-cards"></a>Para especificar un tiempo de manipulación en almacén de entrada en las fichas de almacén  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacén** y, a continuación, elija el enlace relacionado.  
 2.  Abra la ficha de almacén correspondiente.  
-3.  En la ficha desplegable **Almacén**, en el campo **Tiempo manip. almacén entrada**, introduzca el número de días que desea que se incluya en el cálculo del compromiso de entrega.  
+3.  En la ficha desplegable **Almacén** , en el campo **Tiempo manip. almacén entrada** , introduzca el número de días que desea que se incluya en el cálculo del compromiso de entrega.  
 
 > [!NOTE]  
->  Si deja en blanco el campo **Tiempo manipulación almacén entrada**, el cálculo usa el valor de la página **Config. existencias**.
+>  Si deja en blanco el campo **Tiempo manipulación almacén entrada** , el cálculo usa el valor de la página **Config. existencias** .
 
 ### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Para especificar un tiempo de manipulación en almacén de salida en la página de configuración de existencias  
 Si desea configurar un tiempo de manipulación en almacén de salida para incluirlo en el cálculo del compromiso de entrega del pedido en la línea de venta, configúrelo como un valor predeterminado para las existencias.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. existencias** y luego elija el enlace relacionado.  
-2. En la ficha desplegable **General**, en el campo **Tiempo manip. almacén salida**, introduzca el número de días que desea incluir en el cálculo del compromiso de entrega.  
+2. En la ficha desplegable **General** , en el campo **Tiempo manip. almacén salida** , introduzca el número de días que desea incluir en el cálculo del compromiso de entrega.  
 
 > [!NOTE]  
 >  Si ha especificado un valor en el campo **Tiempo manip. almacén salida** de la ficha Almacén, este campo se utiliza como el tiempo de manipulación en almacén de salida predeterminado.  
@@ -120,21 +120,21 @@ Si desea configurar un tiempo de manipulación en almacén de salida para inclui
 ### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Para especificar un tiempo de manipulación en almacén de salida en las fichas almacén  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacenes** y, a continuación, elija el enlace relacionado.  
 2.  Abra la ficha de almacén correspondiente.  
-3.  En la ficha desplegable **Almacén**, en el campo **Tiempo manip. almacén salida**, introduzca el número de días que desea incluir en el cálculo del compromiso de entrega.  
+3.  En la ficha desplegable **Almacén** , en el campo **Tiempo manip. almacén salida** , introduzca el número de días que desea incluir en el cálculo del compromiso de entrega.  
 
 > [!NOTE]  
->  Si deja en blanco el campo **Tiempo manipulación almacén salida**, el cálculo usa el valor de la página **Config. existencias**.
+>  Si deja en blanco el campo **Tiempo manipulación almacén salida** , el cálculo usa el valor de la página **Config. existencias** .
 
 ## <a name="to-make-an-item-critical"></a>Para identificar un producto como crítico  
 Para que un producto se pueda incluir en el cálculo del compromiso de entrega, debe marcarse como crítico. Esta configuración garantiza que los elementos no críticos no causen cálculos de compromiso de entrega de pedidos irrelevantes.   
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
 2.  Abra la ficha de producto que corresponda.  
-3.  En la ficha desplegable **Planificación**, seleccione el campo **Crítico**.  
+3.  En la ficha desplegable **Planificación** , seleccione el campo **Crítico** .  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Para calcular una fecha de compromiso de entrega de pedido  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedido de venta** y luego elija el enlace relacionado.  
 2.  Abra el pedido de venta pertinente y seleccione las líneas del pedido de venta que desea que calcule la aplicación.  
-3.  Seleccione la acción **Comprom. entreg.** y, a continuación elija **Líneas compromiso entrega pedido**.  
+3.  Seleccione la acción **Comprom. entreg.** y, a continuación elija **Líneas compromiso entrega pedido** .  
 4.  Seleccione una línea y, a continuación, una de las siguientes opciones:  
 
     - Seleccione **Neto no comprometido** si desea calcular la fecha más temprana en que el producto estará disponible en función del inventario, las recepciones programadas y los requerimientos brutos.  

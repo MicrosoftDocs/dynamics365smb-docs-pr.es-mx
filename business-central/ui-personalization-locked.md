@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d24e78d7f0286e1ef633008e22ceb3f922b48768
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0bd24833f37fe70f8e642685be4d28dbb593a16d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781371"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923406"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Por qué la página está bloqueada para evitar la personalización
 
@@ -38,7 +38,7 @@ Puede haber dos razones para ello:
 
 ### <a name="unlocking-the-page"></a>Desbloqueo de la página
 
-Si desea desbloquear una página y seguir personalizándola, seleccione el icono ![Personalización bloqueada](media/personalization-lock-icon.png "Bloqueo de personalizacion") y, a continuación, elija la acción **Desbloquear**.  
+Si desea desbloquear una página y seguir personalizándola, seleccione el icono ![Personalización bloqueada](media/personalization-lock-icon.png "Bloqueo de personalizacion") y, a continuación, elija la acción **Desbloquear** .  
 
 Antes de desbloquear la página, tenga en cuenta lo siguiente:
 
@@ -48,7 +48,7 @@ Antes de desbloquear la página, tenga en cuenta lo siguiente:
 
 ## <a name="blocked-from-personalizing"></a>Bloqueado para evitar la personalización
 
-Si hay un icono ![Personalización bloqueada](media/personalization-blocked-icon.png "Personalización bloqueada") en el banner **Personalización**, significa que se le impide hacer cualquier personalización de la página.
+Si hay un icono ![Personalización bloqueada](media/personalization-blocked-icon.png "Personalización bloqueada") en el banner **Personalización** , significa que se le impide hacer cualquier personalización de la página.
 
 <!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
 

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e1bbdf84a85470aa3d34d34a06efc8efbacd3909
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4d92b4fc380dfaaf5b4fe2705367dff359eae6e5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788582"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926983"
 ---
 # <a name="setting-up-fixed-assets"></a>Configurar activos fijos
 Antes de trabajar con activos fijos, debe definir algunos parámetros:  
@@ -27,9 +27,9 @@ Antes de trabajar con activos fijos, debe definir algunos parámetros:
 La siguiente tabla tiene vínculos a más información. Una vez configurados estos parámetros, pueda empezar las distintas actividades. Para obtener más información, vea [Activos fijos](fa-manage.md).  
 
 > [!NOTE]  
->   Puede registrar transacciones de activos en las páginas **A/F Diario general** o **Diario activos fijos**, dependiendo de si las transacciones son para la información financiera o la gestión interna. La ayuda para los activos fijos solo describe cómo utilizar la página **A/F Diario general**.  
+>   Puede registrar transacciones de activos en las páginas **A/F Diario general** o **Diario activos fijos** , dependiendo de si las transacciones son para la información financiera o la gestión interna. La ayuda para los activos fijos solo describe cómo utilizar la página **A/F Diario general** .  
 
-Cuando habilita una actividad de activo fijo en la sección **Integración contabilidad** de la página **Ficha libro amortización**, la página **A/F Diario general** se usa para registrar las transacciones de la actividad.
+Cuando habilita una actividad de activo fijo en la sección **Integración contabilidad** de la página **Ficha libro amortización** , la página **A/F Diario general** se usa para registrar las transacciones de la actividad.
 
 En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas que las describen.  
 

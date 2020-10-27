@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f2711b50e4cc1fd0f79e8c35a3843783ff14327
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4f9fd9287055bed116201d13417a6a392cf9b477
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787657"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927008"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Detalles de diseño: Seguimiento de productos y planificación
 Dado que se almacenan en el programa de reservas, los números de seguimiento de producto se coordinan completamente con los registros de seguimiento de pedidos. Esto significa que a los productos con registros de seguimiento de pedido se les pueden asignar números de seguimiento de producto. Por el contrario, los productos que tienen número de seguimiento de producto pueden convertirse en registros de seguimiento de pedido. Para obtener más información, consulte [Detalles de diseño: Diseño de seguimiento de producto](design-details-item-tracking-design.md).
@@ -29,7 +29,7 @@ Dado que el seguimiento de pedidos hace referencia únicamente a la aplicación 
 
 En consonancia con los principios de equilibrado de aprovisionamiento/demanda estándar, el sistema de planificación y la función de seguimiento de pedidos relacionada solo emparejan aprovisionamientos y demandas con números de seguimiento de productos si el producto en cuestión utiliza el seguimiento de productos específico. En todos los demás casos, los sistemas de planificación y seguimiento de pedidos ignoran los números de seguimiento de productos al aplicar aprovisionamientos para satisfacer la demanda o aplicar la demanda al aprovisionamiento. Para obtener más información, consulte [Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones](design-details-reservation-order-tracking-and-action-messaging.md).
 
-Por ejemplo, cuando hay un seguimiento de pedido para un producto determinado, esto implica que los registros para el producto ya están en la tabla **Mov. reserva**, que es el núcleo del programa de reservas, antes de que se definan los números de seguimiento de productos. Por lo tanto, se aplican las siguientes restricciones de acoplamiento a los números de seguimiento de producto de los que se realiza el seguimiento de pedido:
+Por ejemplo, cuando hay un seguimiento de pedido para un producto determinado, esto implica que los registros para el producto ya están en la tabla **Mov. reserva** , que es el núcleo del programa de reservas, antes de que se definan los números de seguimiento de productos. Por lo tanto, se aplican las siguientes restricciones de acoplamiento a los números de seguimiento de producto de los que se realiza el seguimiento de pedido:
 
 - La demanda con un número de serie o un número de lote puede cubrir solo el aprovisionamiento con el mismo número de serie o número de lote.
 - La demanda sin un número de serie o un número de lote puede cubrir cualquier aprovisionamiento, con o sin número de serie o de lote.

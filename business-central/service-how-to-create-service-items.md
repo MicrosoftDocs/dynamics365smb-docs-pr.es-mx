@@ -8,30 +8,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 22eee9eacbbc3589c41aa70e7619e2097b51aa73
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 27ebf5dbd8081c39b4d3b4671e00d49869c7bed3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784394"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925683"
 ---
 # <a name="create-service-items"></a>Crear productos de servicio
 En [!INCLUDE[d365fin](includes/d365fin_md.md)], el término “producto de servicio” se refiere el equipo o productos que requieren servicio. Al crear un pedido de servicio, se especifican los productos que necesitan servicio. En el pedido, puede vincular un producto de servicio a un producto en existencias o un grupo de productos de servicio.    
 
-Cuando reciba un producto que necesita servicio, puede registrarlo como un producto de servicio. Existen varias formas de hacerlo. Por ejemplo, puede crear un producto de servicio en la página **Productos de servicio**, o como parte de otro proceso, por ejemplo al trabajar con un pedido de servicio.   
+Cuando reciba un producto que necesita servicio, puede registrarlo como un producto de servicio. Existen varias formas de hacerlo. Por ejemplo, puede crear un producto de servicio en la página **Productos de servicio** , o como parte de otro proceso, por ejemplo al trabajar con un pedido de servicio.   
 
 ## <a name="to-create-a-service-item"></a>Para crear un producto de servicio  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos de servicio** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-service-items-within-a-service-order"></a>Para crear productos de servicio en un pedido de servicio  
-Cuando se reciben productos para servicio que desea registrar como productos de servicio, puede crearlos como productos de servicio en las páginas **Pedido servicio** u **Cotización servicio**.  
+Cuando se reciben productos para servicio que desea registrar como productos de servicio, puede crearlos como productos de servicio en las páginas **Pedido servicio** u **Cotización servicio** .  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de servicio** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Elija la acción **Crear producto de servicio**.  
+3. Elija la acción **Crear producto de servicio** .  
 
     Se asignará un número al artículo de servicio y se creará una ficha de artículo de servicio. El campo **Nº producto servicio** se rellenará con el número del nuevo producto de servicio.
 
@@ -42,9 +42,9 @@ El siguiente procedimiento muestra cómo crear productos de servicio al enviar p
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2. Abra el pedido de venta correspondiente.  
-3. Seleccione la acción **Registrar** o **Registrar e imprimir**.  
-4. Seleccione la acción **Enviar** o **Enviar y facturar**.  
-5. Se crearán automáticamente productos de servicio para los productos del pedido, siempre que pertenezcan a un grupo de productos de servicio que se ha configurado para crear productos de servicio. Si ha registrado números de serie específicos en la página **Líns. seguim. prod.**, éstos se asignarán a los productos de servicio.  
+3. Seleccione la acción **Registrar** o **Registrar e imprimir** .  
+4. Seleccione la acción **Enviar** o **Enviar y facturar** .  
+5. Se crearán automáticamente productos de servicio para los productos del pedido, siempre que pertenezcan a un grupo de productos de servicio que se ha configurado para crear productos de servicio. Si ha registrado números de serie específicos en la página **Líns. seguim. prod.** , éstos se asignarán a los productos de servicio.  
 
 > [!NOTE]  
 >  Si un producto es una L.M. y la ha desplegado, los productos de la L.M. desplegada se procesarán de la misma forma que los productos comunes. Los productos de servicio se crean en base a la condición del grupo de productos de servicio y, de manera opcional, en la condición de los números de serie. Además, si se crea un producto de servicio para un producto de la L.M. desplegada compuesto por otros componentes de la L.M., estos productos se crearán como componentes de un producto de servicio para el producto de servicio de la L.M. desplegada.  
@@ -53,8 +53,8 @@ El siguiente procedimiento muestra cómo crear productos de servicio al enviar p
 
 ## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Para insertar un gasto de inicio para un producto de servicio
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Tareas de servicio** y luego elija el enlace relacionado.
-2. Elija la acción **Hoja de producto**.
-3. Seleccione la línea de servicio y, a continuación elija **Acciones**, seleccione **Funciones** y luego la acción **Insertar cuota inicial**.  
+2. Elija la acción **Hoja de producto** .
+3. Seleccione la línea de servicio y, a continuación elija **Acciones** , seleccione **Funciones** y luego la acción **Insertar cuota inicial** .  
 
     Se insertará una línea de servicio del tipo **Costo** con el gasto de inicio. El gasto de inicio se aplica al producto de servicio seleccionado.
 

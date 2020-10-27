@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e2074a9c6209f6b292db27a4f719fa40b6b2cda6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2b4acded234f4cb6aa0ef85c663866032ce49121
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782835"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926458"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Conciliar pagos que no se pueden liquidar automáticamente
-En ocasiones es posible que tenga que gestionar los pagos en su cuenta bancaria que no se pueden liquidar con un cliente, proveedor o movimiento de cuenta bancario abierto relacionado. Los motivos pueden ser que no haya ningún documento en [!INCLUDE[d365fin](includes/d365fin_md.md)] con el que se pueda liquidar el pago o el documento relacionado en [!INCLUDE[d365fin](includes/d365fin_md.md)] tiene un importe diferente al de la transacción, por ejemplo, debido al tipo de cambio de divisa. En la página **Diario de conciliación de pagos**, todos los importes de transacciones de pagos que aún no se hayan liquidado aparecen en el campo **Diferencia**, incluidos los importes que no se pueden liquidar debido a los motivos que aparecen anteriormente.
+En ocasiones es posible que tenga que gestionar los pagos en su cuenta bancaria que no se pueden liquidar con un cliente, proveedor o movimiento de cuenta bancario abierto relacionado. Los motivos pueden ser que no haya ningún documento en [!INCLUDE[d365fin](includes/d365fin_md.md)] con el que se pueda liquidar el pago o el documento relacionado en [!INCLUDE[d365fin](includes/d365fin_md.md)] tiene un importe diferente al de la transacción, por ejemplo, debido al tipo de cambio de divisa. En la página **Diario de conciliación de pagos** , todos los importes de transacciones de pagos que aún no se hayan liquidado aparecen en el campo **Diferencia** , incluidos los importes que no se pueden liquidar debido a los motivos que aparecen anteriormente.
 
 Los pagos que no se pueden liquidar pueden aparecer en líneas del diario de conciliación de pagos de las distintas formas siguientes:
 
-* El valor del campo **Diferencia** es igual al valor del campo **Importe de transacción**, que indica que no se puede liquidar ninguna parte del pago con un movimiento de cliente, proveedor o banco pendiente relacionado.
-* El valor del campo **Diferencia** es inferior al valor del campo **Importe de transacción**, que indica que una parte del pago se puede liquidar con un movimiento de cliente, proveedor o banco pendiente relacionado. La parte del pago restante no se puede liquidar y se debe conciliar de forma manual o registrándola directamente en una cuenta.
+* El valor del campo **Diferencia** es igual al valor del campo **Importe de transacción** , que indica que no se puede liquidar ninguna parte del pago con un movimiento de cliente, proveedor o banco pendiente relacionado.
+* El valor del campo **Diferencia** es inferior al valor del campo **Importe de transacción** , que indica que una parte del pago se puede liquidar con un movimiento de cliente, proveedor o banco pendiente relacionado. La parte del pago restante no se puede liquidar y se debe conciliar de forma manual o registrándola directamente en una cuenta.
 
 Para conciliar esos pagos, puede seleccionar el botón **Transferir diferencia a cuenta** y especificar en qué cuenta se registrará el importe del campo **Diferencia** al registrar el diario de conciliación de pagos.
 
@@ -33,15 +33,15 @@ Para conciliar esos pagos, puede seleccionar el botón **Transferir diferencia a
 ## <a name="to-reconcile-payments-that-cannot-be-applied-automatically"></a>Para conciliar pagos que no se pueden liquidar automáticamente
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diario de conciliación de pagos** y luego elija el enlace relacionado.
 2. Abra un diario de conciliación de pagos. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
-3. Seleccione **Transferir diferencia a cuenta**. Se abre la página **Transferir diferencia a cuenta**.
-4. En el campo **Tipo de cuenta**, especifique el tipo de cuenta en el que se registrará el importe del pago.
-5. En el campo **Nº de cuenta**, especifique la cuenta en la que se registrará el importe del pago.
-6. En el campo **Descripción**, especifique el texto que describe este registro de pago directo. Por omisión, se inserta el texto del campo **Texto de la transacción** en la línea de diario de conciliación de pagos.
-7. Elija el botón **Aceptar**.
+3. Seleccione **Transferir diferencia a cuenta** . Se abre la página **Transferir diferencia a cuenta** .
+4. En el campo **Tipo de cuenta** , especifique el tipo de cuenta en el que se registrará el importe del pago.
+5. En el campo **Nº de cuenta** , especifique la cuenta en la que se registrará el importe del pago.
+6. En el campo **Descripción** , especifique el texto que describe este registro de pago directo. Por omisión, se inserta el texto del campo **Texto de la transacción** en la línea de diario de conciliación de pagos.
+7. Elija el botón **Aceptar** .
 
 Si el valor del campo **Diferencia** era igual al valor del campo **Importe de la transacción** cuando registró el diario de conciliación de pagos, el pago completo de la línea de diario se registrará directamente en la cuenta de contrapartida especificada.
 
-Si el valor del campo **Diferencia** era inferior al valor del campo **Importe de la transacción**, se creará una línea de diario adicional con el mismo texto y fecha y con la diferencia insertada en el campo **Importe de la transacción**. En la línea del diario original, la diferencia se deducirá del valor del campo **Importe de la transacción** y el pago seguirá liquidado en su movimiento de cliente, proveedor o banco relacionado. Cuando registre el diario de conciliación de pagos, se registrará una parte del pago como un pago liquidado. La otra parte del pago se registrará directamente en la cuenta especificada.
+Si el valor del campo **Diferencia** era inferior al valor del campo **Importe de la transacción** , se creará una línea de diario adicional con el mismo texto y fecha y con la diferencia insertada en el campo **Importe de la transacción** . En la línea del diario original, la diferencia se deducirá del valor del campo **Importe de la transacción** y el pago seguirá liquidado en su movimiento de cliente, proveedor o banco relacionado. Cuando registre el diario de conciliación de pagos, se registrará una parte del pago como un pago liquidado. La otra parte del pago se registrará directamente en la cuenta especificada.
 
 ## <a name="see-also"></a>Consulte también
 [Administrar cobros](receivables-manage-receivables.md)  

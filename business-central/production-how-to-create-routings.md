@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/08/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 22afb13b526e77783810ac2c45c283eac6b4f951
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6df2078128cbcf9c4e5f59b7815f777d130543e5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779896"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922705"
 ---
 # <a name="create-routings"></a>Creación de rutas
 
@@ -33,30 +33,30 @@ Para poder configurar una ruta, lo siguiente debe existir:
 ## <a name="to-create-a-routing"></a>Para crear una ruta
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
-2. Seleccione la acción **Nuevo**.  
+2. Seleccione la acción **Nuevo** .  
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. En el campo de **Tipo**, seleccione **Número de serie** para calcular la ruta de producción según el valor del campo de **Nº operación** .  
+4. En el campo de **Tipo** , seleccione **Número de serie** para calcular la ruta de producción según el valor del campo de **Nº operación** .  
     Seleccione **Paralelo** para calcular las operaciones según el valor del campo de **Nº operación siguiente** .  
-5. Para editar la ruta, establezca el campo **Estado** en **Nueva** o **En desarrollo**. Para activarla, establezca el campo **Estado** en **Certificada**.  
+5. Para editar la ruta, establezca el campo **Estado** en **Nueva** o **En desarrollo** . Para activarla, establezca el campo **Estado** en **Certificada** .  
 
     Proceda a rellenar las líneas de ruta.
-6. En el campo **Nº operación** especifique el número de la primera operación, por ejemplo **10**.  
-7. En el campo **Tipo**, especifique qué tipo de recurso se utiliza, por ejemplo **Centro trabajo**.  
-8. En el campo **N.º**, seleccione el recurso que se va a utilizar o especifíquelo en el campo.  
-9. En el campo **Código de conexión de ruta**, introduzca un código para conectar el componente con una operación específica. Para obtener más información, consulte [Para crear conexiones de ruta](production-how-to-create-routings.md#to-create-routing-links).
-10. En los campos **Tiempo ejecución** y **Tiempo preparación**, especifique los tiempos de proceso necesarios para realizar la operación.
+6. En el campo **Nº operación** especifique el número de la primera operación, por ejemplo **10** .  
+7. En el campo **Tipo** , especifique qué tipo de recurso se utiliza, por ejemplo **Centro trabajo** .  
+8. En el campo **N.º** , seleccione el recurso que se va a utilizar o especifíquelo en el campo.  
+9. En el campo **Código de conexión de ruta** , introduzca un código para conectar el componente con una operación específica. Para obtener más información, consulte [Para crear conexiones de ruta](production-how-to-create-routings.md#to-create-routing-links).
+10. En los campos **Tiempo ejecución** y **Tiempo preparación** , especifique los tiempos de proceso necesarios para realizar la operación.
 
     > [!NOTE]
     > El tiempo de preparación se calcula para cada orden de producción, mientras que el tiempo de ejecución se calcula para cada producto fabricado.  
 
-11. En el campo de **Capacidades concurrentes**, especifique cuántas unidades del recurso seleccionado se van a utilizar para realizar la operación. Por ejemplo, dos personas asignadas a una operación de embalaje dividirán por dos el tiempo de ejecución.  
+11. En el campo de **Capacidades concurrentes** , especifique cuántas unidades del recurso seleccionado se van a utilizar para realizar la operación. Por ejemplo, dos personas asignadas a una operación de embalaje dividirán por dos el tiempo de ejecución.  
 12. Continúe rellenando las líneas para todas las operaciones necesarias para fabricar el producto en cuestión.  
 13. Para copiar líneas desde una ruta existente, seleccione la acción **Copiar ruta** para seleccionar las líneas existentes.  
 14. Certifique la ruta.  
-15. Ahora puede asociar la nueva ruta a la ficha del producto en cuestión, rellenando el campo **Nº de ruta**. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).  
+15. Ahora puede asociar la nueva ruta a la ficha del producto en cuestión, rellenando el campo **Nº de ruta** . Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
-> Recuerde también volver a calcular el costo estándar del producto desde la ficha de **Producto**: Seleccione la acción **Fabricación**, seleccione la acción **Calcular costo estándar** y, a continuación, seleccione la acción **Todos los niveles**.  
+> Recuerde también volver a calcular el costo estándar del producto desde la ficha de **Producto** : Seleccione la acción **Fabricación** , seleccione la acción **Calcular costo estándar** y, a continuación, seleccione la acción **Todos los niveles** .  
 
 ## <a name="to-create-routing-links"></a>Para crear conexiones de ruta
 
@@ -67,9 +67,9 @@ Otra ventaja importante es que las operaciones y los componentes conectados se m
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
 2. Abra la ruta que contiene las operaciones que desea conectar.  
 
-    Asegúrese de que el estado de la ruta sea **En desarrollo**.  
+    Asegúrese de que el estado de la ruta sea **En desarrollo** .  
 
-3. En la línea de ruta correspondiente, en el campo de **Cód. conexión ruta**, seleccione un código.  
+3. En la línea de ruta correspondiente, en el campo de **Cód. conexión ruta** , seleccione un código.  
 4. Agregue diferentes códigos de conexión de ruta a otras operaciones en la ruta, si procede.  
 
     > [!NOTE]  
@@ -77,15 +77,15 @@ Otra ventaja importante es que las operaciones y los componentes conectados se m
     >
     > Es aconsejable asignar un nombre al código de conexión de ruta detrás de la operación para garantizar que se utilizan conexiones de ruta específicas de la operación.
 
-5. Establezca el estado de la ruta en **Certificada**.  
+5. Establezca el estado de la ruta en **Certificada** .  
 
     Los códigos de vínculo de ruta se asignan ahora a operaciones. Siguiente, debe crear vínculos reales asignando los mismos códigos a los componentes específicos en la L.M. de producción correspondiente.  
 
 6. Abra la **L.M. de producción** que contiene los componentes que desea vincular a las operaciones anteriores. Para obtener más información, consulte [Crear L.M. de producción](production-how-to-create-production-boms.md).
-7. Asegúrese de que el estado de la L.M. está **En desarrollo**.  
-8. En la línea correspondiente de la L.M. de producción, en el campo de **Cód. conexión ruta**, seleccione el código que se acaba de asignar a la operación correspondiente.  
+7. Asegúrese de que el estado de la L.M. está **En desarrollo** .  
+8. En la línea correspondiente de la L.M. de producción, en el campo de **Cód. conexión ruta** , seleccione el código que se acaba de asignar a la operación correspondiente.  
 9. Agregue códigos de conexión de ruta a otros componentes según las operaciones únicas en las que éstos se utilizan.  
-10. Establezca el estado de la ruta en **Certificada**.  
+10. Establezca el estado de la ruta en **Certificada** .  
 
     > [!NOTE]  
     > Para activar las conexiones de ruta en una orden de producción existente, debe actualizar la orden de producción. Para obtener más información, consulte [Crear órdenes de producción](production-how-to-create-production-orders.md).  
@@ -98,8 +98,8 @@ Si necesita personal con una habilidad, conocimiento o autorización especial pa
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
 2. Abra la ruta pertinente.  
-3. En la ficha desplegable **Líneas**, seleccione la línea que desea procesar, elija la acción **Operaciones** y, después, seleccione la acción **Personal**.  
-4. Rellene los campos de la página **Personal ruta**.  
+3. En la ficha desplegable **Líneas** , seleccione la línea que desea procesar, elija la acción **Operaciones** y, después, seleccione la acción **Personal** .  
+4. Rellene los campos de la página **Personal ruta** .  
 5. Elija el botón **Aceptar** para salir de la página. Los valores introducidos se copian y asignan a la operación.  
 
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Para crear una versión de ruta nueva
@@ -107,19 +107,19 @@ Si necesita personal con una habilidad, conocimiento o autorización especial pa
 El principio de versión le permite administrar varias versiones de rutas. La estructura de la versión de ruta se corresponde con la de la ruta, la cual se compone de la cabecera y las líneas de la versión de la ruta. La diferencia básica se define mediante la fecha inicial.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Rutas** y luego elija el enlace relacionado.  
-2. Seleccione la ruta a copiar y después seleccione la acción **Versiones**.  
-3. En la página **Versiones de rutas**, seleccione la acción **Nuevo**.
+2. Seleccione la ruta a copiar y después seleccione la acción **Versiones** .  
+3. En la página **Versiones de rutas** , seleccione la acción **Nuevo** .
 4. Rellene los campos según sea necesario.
-5. En el campo **Código de versión**, introduzca la identificación única de la versión. Se permite cualquier combinación de letras y números.  
+5. En el campo **Código de versión** , introduzca la identificación única de la versión. Se permite cualquier combinación de letras y números.  
 
     A la versión que se acaba de crear se le asigna automáticamente el estado **Nueva.**  
 6. Para crear líneas de operación, seleccione la primera línea en blanco, y rellene el **Nº de operación** según la secuencia de operaciones.
 
     Las líneas de operación se ordenan en orden ascendente por número de operación. Para poder realizar cambios posteriormente, se recomienda seleccionar anchos de paso apropiados. El campo **Nº operación siguiente** hace referencia a la siguiente operación. El número de la operación puede escribirse directamente.
 
-7. Cuando se completa la versión de la ruta, se establece el campo **Estado** en **Certificado**.
+7. Cuando se completa la versión de la ruta, se establece el campo **Estado** en **Certificado** .
 
-El periodo de validez de la versión se especifica mediante el campo **Fecha inicial**.  
+El periodo de validez de la versión se especifica mediante el campo **Fecha inicial** .  
 
 ## <a name="see-also"></a>Consulte también
 

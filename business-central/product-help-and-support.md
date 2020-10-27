@@ -6,19 +6,19 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/01/2020
-ms.openlocfilehash: 7d9ad42f501d3fe7a810fba7573488e8988e7406
-ms.sourcegitcommit: f9aec4a72172d9270e14e2938c5550d69508f1aa
+ms.date: 10/01/2020
+ms.openlocfilehash: 607e34730cbca4992212c293a73ff077b0b081a9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3532655"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925116"
 ---
 # <a name="resources-for-help-and-support"></a>Recursos de ayuda y soporte técnico
 
-En [!INCLUDE[prodlong](includes/prodlong.md)], el elemento del menú Ayuda (el signo de interrogación en la esquina superior derecha) le da acceso a la página de **Ayuda y soporte técnico**, donde puede encontrar vínculos a recursos que pueden ayudarle a encontrar respuestas a sus preguntas. También puede ver cómo puede ponerse en contacto con el soporte técnico para su [!INCLUDE[prodshort](includes/prodshort.md)].  
+En [!INCLUDE[prodlong](includes/prodlong.md)], el elemento del menú Ayuda (el signo de interrogación en la esquina superior derecha) le da acceso a la página de **Ayuda y soporte técnico** , donde puede encontrar vínculos a recursos que pueden ayudarle a encontrar respuestas a sus preguntas. También puede ver cómo puede ponerse en contacto con el soporte técnico para su [!INCLUDE[prodshort](includes/prodshort.md)].  
 
-Esta página describe los recursos disponibles en las diferentes secciones de la página **Ayuda y soporte técnico**.  
+Esta página describe los recursos disponibles en las diferentes secciones de la página **Ayuda y soporte técnico** .  
 
 ## <a name="finding-answers"></a>Búsqueda de respuestas
 
@@ -66,7 +66,7 @@ Asegúrese de buscar en la lista de sugerencias enviadas. Lo más probable es qu
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
-La sección **Solución de problemas** muestra a información técnica que su administrador o socio de [!INCLUDE[prodshort](includes/prodshort.md)] pueden utilizar para desbloquear usuarios. Esto incluye información sobre el último mensaje de error, la versión actual de su [!INCLUDE[prodshort](includes/prodshort.md)] y un vínculo para ir a la página **inspección de la página**. Para obtener más información, consulte [Inspección de páginas en Business Central](across-inspect-page.md).  
+La sección **Solución de problemas** muestra a información técnica que su administrador o socio de [!INCLUDE[prodshort](includes/prodshort.md)] pueden utilizar para desbloquear usuarios. Esto incluye información sobre el último mensaje de error, la versión actual de su [!INCLUDE[prodshort](includes/prodshort.md)] y un vínculo para ir a la página **inspección de la página** . Para obtener más información, consulte [Inspección de páginas en Business Central](across-inspect-page.md).  
 
 Como administrador interno, tiene acceso al centro de administración donde puede continuar con la solución de problemas. Puede ver telemetría, administrar entornos y administrar sesiones de usuario. Para obtener más información, consulte [Encontrar información técnica](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) y [Administrar entornos](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) en el contenido de administración.  
 
@@ -89,13 +89,13 @@ El sitio docs.microsoft.com es la ubicación predeterminada para obtener informa
 
 ### <a name="content-on-the-site"></a>Contenido en el sitio
 
-El contenido que Microsoft publica bajo el concepto de asistencia a usuarios de *Más información* está en parte destinado a responder aquellas preguntas a las que la interfaz de usuario no puede responder, como dónde encaja esa página en un flujo de trabajo más grande o qué viene después o cuál sería la alternativa y así sucesivamente. Desde el interior del producto, puede acceder a este contenido a través del vínculo *Más información* en la información sobre herramientas o mediante el método abreviado de teclado *Ctrl+F1*.  
+El contenido que Microsoft publica bajo el concepto de asistencia a usuarios de *Más información* está en parte destinado a responder aquellas preguntas a las que la interfaz de usuario no puede responder, como dónde encaja esa página en un flujo de trabajo más grande o qué viene después o cuál sería la alternativa y así sucesivamente. Desde el interior del producto, puede acceder a este contenido a través del vínculo *Más información* en la información sobre herramientas o mediante el método abreviado de teclado *Ctrl+F1* .  
 
-El panel de navegación a la izquierda, la tabla de contenido, agrupa los artículos por área comercial. Por ejemplo, leyó el artículo [Comprar productos para una venta](purchasing-how-purchase-products-sale.md), y luego la tabla de contenido le muestra que también hay un artículo llamado [Corregir o cancelar facturas de compra impagas](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Ambos artículos están en el grupo llamado *Compras*, que agrupa los artículos relacionados con el módulo Compras en [!INCLUDE [prodshort](includes/prodshort.md)].  
+El panel de navegación a la izquierda, la tabla de contenido, agrupa los artículos por área comercial. Por ejemplo, leyó el artículo [Comprar productos para una venta](purchasing-how-purchase-products-sale.md), y luego la tabla de contenido le muestra que también hay un artículo llamado [Corregir o cancelar facturas de compra impagas](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Ambos artículos están en el grupo llamado *Compras* , que agrupa los artículos relacionados con el módulo Compras en [!INCLUDE [prodshort](includes/prodshort.md)].  
 
 La tabla de contenido incluye un grupo de contenido que describe la funcionalidad local para los países que admite Microsoft. Si no ve su país en la lista, probablemente sea porque su país está localizado por un socio. Para más información, vea [Disponibilidad nacional y regional e idiomas compatibles](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
-El contenido de funcionalidad local describe las funcionalidades en [!INCLUDE [prodshort](includes/prodshort.md)] que pueden ayudarlo a cumplir la normativa en los mercados admitidos, como declaraciones de impuestos y otros informes. En algunos casos, la diferencia entre la versión predeterminada y la versión específica del país es invisible para los usuarios. En otros casos, los usuarios deben configurar la generación de informes o la facturación electrónica de una manera específica. Si no puede encontrar una descripción de un determinado botón o acción en la sección predeterminada del contenido en el sitio docs.microsoft.com, podrá encontrarlo seguramente en la sección *Funcionalidad local*.  
+El contenido de funcionalidad local describe las funcionalidades en [!INCLUDE [prodshort](includes/prodshort.md)] que pueden ayudarlo a cumplir la normativa en los mercados admitidos, como declaraciones de impuestos y otros informes. En algunos casos, la diferencia entre la versión predeterminada y la versión específica del país es invisible para los usuarios. En otros casos, los usuarios deben configurar la generación de informes o la facturación electrónica de una manera específica. Si no puede encontrar una descripción de un determinado botón o acción en la sección predeterminada del contenido en el sitio docs.microsoft.com, podrá encontrarlo seguramente en la sección *Funcionalidad local* .  
 
 ### <a name="finding-other-content"></a>Buscar otro contenido
 
@@ -103,7 +103,7 @@ Si llega a un artículo que no responde a su pregunta, puede buscar otro conteni
 
 - Utilizar el campo **Filtrar por título** en la tabla de contenido en el lado izquierdo del sitio web
 
-  De esta manera, puede filtrar por palabras utilizadas en los títulos de los diversos artículos. Por ejemplo, escriba *factura*, y luego elija uno de los enlaces ofrecidos, como [Configurar el redondeo de facturas](finance-set-up-invoice-rounding.md) o [Crear facturas de anticipo](finance-how-to-create-prepayment-invoices.md).  
+  De esta manera, puede filtrar por palabras utilizadas en los títulos de los diversos artículos. Por ejemplo, escriba *factura* , y luego elija uno de los enlaces ofrecidos, como [Configurar el redondeo de facturas](finance-set-up-invoice-rounding.md) o [Crear facturas de anticipo](finance-how-to-create-prepayment-invoices.md).  
 
   Debajo de cada enlace, puede ver dónde está ese artículo en la tabla de contenido. De esa manera, puede ver fácilmente si el artículo está en la sección Compras o en la sección de funcionalidad local australiana, por ejemplo.  
 - Utilizar el campo **Buscar** en la esquina superior derecha del sitio web
@@ -116,18 +116,18 @@ El contenido sobre la funcionalidad empresarial se publica en varios idiomas. Cu
 
 Puede cambiar el idioma cambiando la dirección URL, o puede usar el control de alternancia de idioma en la esquina inferior izquierda del sitio web.  
 
-El contenido está escrito en inglés y publicado en URL con *en-us* como el código del idioma. Cuando se publica nueva información en inglés, se envía para su traducción a los idiomas admitidos. En algunos casos, no podrá leer este nuevo contenido en su propio idioma hasta que pasen hasta 4 semanas, pero en la mayoría de los casos solo tarda una o dos semanas. Siempre puede ver la información más reciente cambiando el idioma a *en-us*.  
+El contenido está escrito en inglés y publicado en URL con *en-us* como el código del idioma. Cuando se publica nueva información en inglés, se envía para su traducción a los idiomas admitidos. En algunos casos, no podrá leer este nuevo contenido en su propio idioma hasta que pasen hasta 4 semanas, pero en la mayoría de los casos solo tarda una o dos semanas. Siempre puede ver la información más reciente cambiando el idioma a *en-us* .  
 
 Para cada idioma, la tabla de contenido se traduce, pero el contenido en la sección *Funcionalidad local* está en inglés, excepto para el país que se corresponde con el idioma actual. Por ejemplo, en la versión danesa del sitio docs.microsoft.com (`https://docs.microsoft.com/da-dk/dynamics365/business-central/`), puede ver las entradas para la funcionalidad local australiana en danés en la tabla de contenido, pero los artículos están en inglés. Solo los artículos sobre la funcionalidad local danesa se traducen al danés.  
 
 ### <a name="providing-feedback"></a>Enviar comentarios
 
-En docs.microsoft.com, cada artículo tiene dos botones al final del artículo. El botón *Comentarios del producto* lo envía al sitio de Ideas, y el botón *Iniciar sesión para enviar comentarios sobre la documentación* le permite enviar comentarios sobre el contenido a través de GitHub. En ambos casos, debe crear una cuenta si aún no tiene una. Para *comentarios del producto*, debe iniciar sesión con su cuenta de correo de trabajo o de la organización. Para obtener *acceso a GitHub*, puede usar cualquier dirección de correo electrónico cuando cree una cuenta.  
+En docs.microsoft.com, cada artículo tiene dos botones al final del artículo. El botón *Comentarios del producto* lo envía al sitio de Ideas, y el botón *Iniciar sesión para enviar comentarios sobre la documentación* le permite enviar comentarios sobre el contenido a través de GitHub. En ambos casos, debe crear una cuenta si aún no tiene una. Para *comentarios del producto* , debe iniciar sesión con su cuenta de correo de trabajo o de la organización. Para obtener *acceso a GitHub* , puede usar cualquier dirección de correo electrónico cuando cree una cuenta.  
 
 Agradecemos sus contribuciones, tanto como solicitudes de extracción con sugerencias o correcciones al contenido y como problemas de GitHub con errores o preguntas. Pero tenga en cuenta que los comentarios y contribuciones al repositorio *dynamics365smb-docs* es sobre el contenido, no sobre el producto.  
 
 > [!IMPORTANT]
-> Microsoft acepta solicitudes de extracción solo para el repositorio *dynamics365smb-docs*, no para los repositorios específicos del idioma. Si tiene comentarios sobre las traducciones, puede notificar un problema de GitHub en el repositorio correspondiente.  
+> Microsoft acepta solicitudes de extracción solo para el repositorio *dynamics365smb-docs* , no para los repositorios específicos del idioma. Si tiene comentarios sobre las traducciones, puede notificar un problema de GitHub en el repositorio correspondiente.  
 
 ### <a name="navigating-to-other-parts-of-the-site"></a>Navegar a otras partes del sitio
 

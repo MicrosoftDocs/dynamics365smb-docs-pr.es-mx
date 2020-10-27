@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 08/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 342ffb57090aa78e10b8448b6316c610f6485040
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.openlocfilehash: d20b1814e6b5a21efee145223b42c703d65a6c2e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693110"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924664"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>Versiones de prueba y suscripciones de [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 
@@ -53,15 +53,15 @@ Para ayudarlo a configurar su empresa, la página **Configuración asistida** en
 | Configurar un flujo de trabajo de aprobación de cliente |Configura la capacidad de notificar automáticamente al aprobador cuando un usuario intente crear o cambiar una ficha cliente. |
 | Configurar un flujo de trabajo de aprobación de pago |Configura la capacidad de enviar una notificación a un aprobador cuando un usuario envíe líneas de diario de pagos para su aprobación. |
 | Configurar la conexión de Dynamics 365 Sales |Le permite conectar con Dynamics 365 Sales, que le posibilita la sincronización de datos como los contactos y la información de los pedidos. |
-| Configurar previsión de flujo de caja |Configura el gráfico Previsión de flujo de caja, por lo que puede ver el movimiento previsto de efectivo dentro y fuera de su empresa. El gráfico está disponible en **Área de trabajo Contable**. |
+| Configurar previsión de flujo de caja |Configura el gráfico Previsión de flujo de caja, por lo que puede ver el movimiento previsto de efectivo dentro y fuera de su empresa. El gráfico está disponible en **Área de trabajo Contable** . |
 | Configurar datos de informes|Configura conjuntos de datos que puede usar para generar informes eficaces utilizando Excel o Power BI, por ejemplo. |
 | Invitar a contable externo |Si utiliza un contable externo para administrar los libros y los informes financieros, puede invitarle a su [!INCLUDE[prodshort](includes/prodshort.md)] para que pueda trabajar con usted en los datos fiscales. |
 
-La página **Configuración asistida** puede contener otras entradas. Cuando realice una configuración, esta se marcará como **Completada**. Puede configurar áreas adicionales de la empresa mediante la configuración manual. Para obtener más información, consulte [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+La página **Configuración asistida** puede contener otras entradas. Cuando realice una configuración, esta se marcará como **Completada** . Puede configurar áreas adicionales de la empresa mediante la configuración manual. Para obtener más información, consulte [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 ### <a name="resetting-your-prodshort-trial-experience"></a>Restablecer la experiencia de prueba de [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Si ha agregado datos a su versión de prueba de [!INCLUDE[prodshort](includes/prodshort.md)] y quiere volver a empezar con una nueva experiencia, puede crear una nueva empresa de evaluación y, a continuación, eliminar la primera empresa. Abra la página **Empresas** y elija **Nuevo** para iniciar la guía de configuración asistida **Crear nueva empresa**. La guía puede ayudarle a establecer una nueva empresa de evaluación con datos de muestra. También puede crear una copia de su empresa actual, cerrar sesión y luego iniciar sesión en su nueva empresa.  
+Si ha agregado datos a su versión de prueba de [!INCLUDE[prodshort](includes/prodshort.md)] y quiere volver a empezar con una nueva experiencia, puede crear una nueva empresa de evaluación y, a continuación, eliminar la primera empresa. Abra la página **Empresas** y elija **Nuevo** para iniciar la guía de configuración asistida **Crear nueva empresa** . La guía puede ayudarle a establecer una nueva empresa de evaluación con datos de muestra. También puede crear una copia de su empresa actual, cerrar sesión y luego iniciar sesión en su nueva empresa.  
 
 > [!IMPORTANT]
 > Cuando comparte [!INCLUDE[prodshort](includes/prodshort.md)] con otras personas de su organización, debe asegurarse de que las demás personas no hayan iniciado sesión cuando elimine una empresa.  
@@ -70,7 +70,7 @@ Si ha agregado datos a su versión de prueba de [!INCLUDE[prodshort](includes/pr
 
 Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, busque un socio de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner) El socio distribuidor puede ayudarle a configurar [!INCLUDE[prodshort](includes/prodshort.md)] para adaptarlo a su negocio, incluida la importación de los datos del sistema anterior. También puede personalizar [!INCLUDE[prodshort](includes/prodshort.md)] agregando aplicaciones de [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-[!INCLUDE[prodshort](includes/prodshort.md)] en línea usa Office 365. Si su empresa utiliza un tipo diferente de configuración de correo electrónico, el socio distribuidor puede ayudarlo a decidir cómo migrar, o si debe usar [!INCLUDE[prodshort](includes/prodshort.md)] local.  
+[!INCLUDE[prodshort](includes/prodshort.md)] en línea utiliza Microsoft 365. Si su empresa utiliza un tipo diferente de configuración de correo electrónico, el socio distribuidor puede ayudarlo a decidir cómo migrar, o si debe usar [!INCLUDE[prodshort](includes/prodshort.md)] local.  
 
 También puede ponerse en contacto con el [equipo de ventas de [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: list, filter, pane, views
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: mikebc
-ms.openlocfilehash: 1433e22f232b032242a4464730b07df376cadaf3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7b992fe4f5db07605015a88ea69d9a510adbcca4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189326"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925525"
 ---
 # <a name="list-views-faq"></a>Preguntas frecuentes sobre vistas de lista
 Este tema responde preguntas que nuestros usuarios avanzados hacen a menudo sobre cómo trabajar con vistas de lista y guardar filtros.  
@@ -42,7 +42,7 @@ Las mismas vistas están disponibles en una página de listas si accede a ella d
 En la parte inferior del panel de filtro, elija la acción **Restablecer filtros** para borrar los cambios de filtro que ha realizado en la vista y devolverla a sus campos filtrados y criterios de filtro originales.
 
 ### <a name="what-is-the-difference-between-hiding-and-removing-views"></a>¿Cuál es la diferencia entre ocultar y quitar vistas?
-Al quitar una vista, se eliminará permanentemente. Ocultar una vista le permite ocultarla temporalmente del panel de filtro, pero puede volver a mostrarla más tarde seleccionando la acción **Mostrar**.
+Al quitar una vista, se eliminará permanentemente. Ocultar una vista le permite ocultarla temporalmente del panel de filtro, pero puede volver a mostrarla más tarde seleccionando la acción **Mostrar** .
 
 ### <a name="how-can-i-share-my-views-with-others"></a>¿Cómo puedo compartir mis vistas con otros usuarios?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] no proporciona una forma de compartir la vista de lista precisa, pero puede compartir sus filtros actuales para que otros usuarios puedan ver una lista similar de registros. En su explorador de escritorio, copie la URL y compártala con sus colegas. No se garantiza que compartir filtros proporcione al destinatario un conjunto idéntico de filtros que ve en su explorador.
@@ -77,13 +77,13 @@ Tenga en cuenta que las vistas de sistema heredadas dejarán de estar operativas
 ### <a name="others-in-my-organization-need-similar-list-views-as-standard-what-can-i-do"></a>Otros usuarios de mi organización necesitan vistas de lista similares de forma estándar. ¿Qué puedo hacer?
 Trabajar con vistas personales es rápido y efectivo, pero [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona herramientas adicionales para definir vistas de lista necesarias para roles de usuario específicos o para todos los usuarios de la organización.
  - Los desarrolladores pueden personalizar el ambiente y crear vistas de lista en extensiones para todos los usuarios de la organización.
- - Los usuarios que no son codificadores, como los administradores o los responsables de departamento, pueden crear vistas de lista específicas de roles al personalizar un rol desde la página **Perfiles (roles)**.
+ - Los usuarios que no son codificadores, como los administradores o los responsables de departamento, pueden crear vistas de lista específicas de roles al personalizar un rol desde la página **Perfiles (roles)** .
 
 ### <a name="i-work-with-multiple-languages-how-do-i-translate-the-name-of-the-view"></a>Trabajo con varios idiomas: ¿cómo traduzco el nombre de la vista?
-Al guardar una nueva vista o cambiar el nombre de una vista existente, debe introducir un nombre reconocible y significativo para esa vista. El nombre se guarda para su idioma actual y se mostrará también cuando usted u otros usuarios trabajen con [!INCLUDE[d365fin](includes/d365fin_md.md)] en diferentes idiomas. Para proporcionar nombres de vista traducidos, debe cambiar el idioma utilizando la página **Mi configuración**; después, cambie el nombre de la vista, que almacenará el nombre traducido en el nuevo idioma.
+Al guardar una nueva vista o cambiar el nombre de una vista existente, debe introducir un nombre reconocible y significativo para esa vista. El nombre se guarda para su idioma actual y se mostrará también cuando usted u otros usuarios trabajen con [!INCLUDE[d365fin](includes/d365fin_md.md)] en diferentes idiomas. Para proporcionar nombres de vista traducidos, debe cambiar el idioma utilizando la página **Mi configuración** ; después, cambie el nombre de la vista, que almacenará el nombre traducido en el nuevo idioma.
 
 ### <a name="do-views-with-expressions-work-in-all-languages"></a>¿Las vistas con expresiones funcionan en todos los idiomas?
-Las expresiones que solo usan símbolos, como '**|**' o **..**, se consideran seguras para el acceso de los usuarios en cualquier idioma. Cualquier vista con expresiones que incluyan letras, palabras clave o tokens de filtro solo funcionará para el idioma en el que se creó.
+Las expresiones que solo usan símbolos, como ' **|** ' o **..** , se consideran seguras para el acceso de los usuarios en cualquier idioma. Cualquier vista con expresiones que incluyan letras, palabras clave o tokens de filtro solo funcionará para el idioma en el que se creó.
 
 
 ### <a name="see-also"></a>Consulte también  

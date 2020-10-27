@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7ac0630857eb775a904e2bbf5d4a21a89efb73c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 401f471fe8af79c2373547a7ec6f51dc6366bd78
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182815"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923055"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuración del análisis de flujo de caja
 Si desea ayuda para decidir qué debe hacer con el efectivo, eche un vistazo a los gráficos del Área de tareas Contable:  
@@ -44,9 +44,9 @@ Los gráficos **Ciclo de efectivo** e **Ingresos y gastos** están preparados pa
 
 **Nota** Es recomendable conservar los cálculos que se proporcionan para el esquema de cuentas.  
 
-Introduzca las cuentas en el campo **Sumatorio** de **Total ingresos**, **Total cuentas por cobrar**, **Total cuentas por pagar** y **Total inventario**. Para asignarlo a un intervalo de cuentas, o a varias cuentas específicas, escriba los números de cuenta separados por ".." o por una barra vertical, respectivamente. Por ejemplo, **1111..4444** o **2222|3333|5555**.  
+Introduzca las cuentas en el campo **Sumatorio** de **Total ingresos** , **Total cuentas por cobrar** , **Total cuentas por pagar** y **Total inventario** . Para asignarlo a un intervalo de cuentas, o a varias cuentas específicas, escriba los números de cuenta separados por ".." o por una barra vertical, respectivamente. Por ejemplo, **1111..4444** o **2222|3333|5555** .  
 
-**Sugerencia** Verifique la asignación eligiendo la acción **Panorama**.  
+**Sugerencia** Verifique la asignación eligiendo la acción **Panorama** .  
 
 ## <a name="set-up-the-cash-flow-chart"></a>Configurar el gráfico Flujo de caja
 El gráfico Flujo de caja se basa en lo siguiente:  
@@ -56,7 +56,7 @@ El gráfico Flujo de caja se basa en lo siguiente:
 
 Para ayudarle a empezar, se proporcionan algunas cuentas y configuraciones de flujo de caja. Puede agregarlas, cambiarlas o quitarlas.  
 
-Para configurarla, busque **cuentas de flujo de efectivo**, elija el vínculo y rellene los campos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Repita estos pasos para la **configuración de flujo de efectivo**.  
+Para configurarla, busque **cuentas de flujo de efectivo** , elija el vínculo y rellene los campos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Repita estos pasos para la **configuración de flujo de efectivo** .  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Configurar previsiones de flujo de caja
 El gráfico **Previsión de flujo de efectivo** utiliza cuentas de flujo de efectivo, configuraciones de flujo de efectivo y previsiones de flujo de efectivo. Se proporcionan algunas, pero configurar las suyas propias usando una guía de configuración asistida. Esta guía le ayuda a especificar aspectos como la frecuencia con que se actualizará la previsión, las cuentas en las que se basará, la información acerca de cuándo se pagan impuestos y si activar [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
@@ -68,17 +68,17 @@ Las previsiones de flujo de caja pueden usar la Azure AI para predecir documento
 
 Para usar la guía de configuración asistida:  
 
-1. En el área de trabajo Contable, en el gráfico **Previsión de flujo de efectivo**, elija la acción **Abrir configuración asistida**.  
+1. En el área de trabajo Contable, en el gráfico **Previsión de flujo de efectivo** , elija la acción **Abrir configuración asistida** .  
 2. Rellene los campos en cada paso de la guía.  
 3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Previsión de flujo de caja** y luego elija el enlace relacionado.
-4. En la página **Previsión de flujo de caja**, seleccione la acción **Recalcular previsión**.  
+4. En la página **Previsión de flujo de caja** , seleccione la acción **Recalcular previsión** .  
 
 Para usar un proceso manual:  
 
 1. En el área de tareas Contable, busque **Configuración de flujo de caja** y, a continuación, elija el vínculo relacionado.  
-2. Expanda la ficha desplegable **Azure AI** y active la casilla **Azure AI habilitado**.  
+2. Expanda la ficha desplegable **Azure AI** y active la casilla **Azure AI habilitado** .  
 3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Previsión de flujo de caja** y luego elija el enlace relacionado.
-4. En la página **Previsión de flujo de caja**, seleccione la acción **Recalcular previsión**.  
+4. En la página **Previsión de flujo de caja** , seleccione la acción **Recalcular previsión** .  
 
 > [!TIP]  
 >   Considere la duración de los periodos que el servicio usará en los cálculos. Cuantos más datos proporcione, más precisas serán las predicciones. Asimismo, controle las variaciones grandes en los periodos. También afectarán a las predicciones. Si Azure AI no encuentra suficientes datos, o los datos varían mucho, el servicio no creará ninguna predicción.  
@@ -95,28 +95,28 @@ Estos servicios web no tienen estado, lo que significa que usan datos solo para 
 Para hacer predicciones sobre futuros ingresos y gastos, los servicios web requieren datos históricos de cuentas por cobrar, cuentas por pagar e impuestos.
 
 #### <a name="receivables"></a>Cobros:
-Campos **Fecha de vencimiento**, **Importe ($)** de la página **Movimientos de cliente**, donde:
+Campos **Fecha de vencimiento** , **Importe ($)** de la página **Movimientos de cliente** , donde:
 - El tipo de documento es Factura o Nota de crédito.
 - La fecha de vencimiento es entre la fecha que se calcula en función de los valores en los campos **Periodos históricos** y **Tipo de periodo** en la página **Configuración de flujo de caja** y la fecha de trabajo.
 
-Antes de usar el servicio web predictivo [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime las transacciones por **Fecha de vencimiento** según el valor del campo **Tipo de periodo** de la página **Configuración de flujo de caja**.
+Antes de usar el servicio web predictivo [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime las transacciones por **Fecha de vencimiento** según el valor del campo **Tipo de periodo** de la página **Configuración de flujo de caja** .
 
 #### <a name="payables"></a>Pagos:
-Campos **Fecha de vencimiento**, **Importe ($)** de la página **Movimientos de proveedor**, donde:
+Campos **Fecha de vencimiento** , **Importe ($)** de la página **Movimientos de proveedor** , donde:
 - El tipo de documento es "Factura" o "Nota de crédito".
 - La fecha de vencimiento es entre la fecha que se calcula en función de los valores en los campos **Periodos históricos** y **Tipo de periodo** en la página **Configuración de flujo de caja** y la fecha de trabajo.
 
-Antes de usar el servicio web predictivo [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime las transacciones por **Fecha de vencimiento** según el valor del campo **Tipo de periodo** de la página **Configuración de flujo de caja**.
+Antes de usar el servicio web predictivo [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime las transacciones por **Fecha de vencimiento** según el valor del campo **Tipo de periodo** de la página **Configuración de flujo de caja** .
 
 #### <a name="tax"></a>Tributos:
-Campos **Fecha de documento**, **Monto** de la página **Movs. IVA**, donde:
+Campos **Fecha de documento** , **Monto** de la página **Movs. IVA** , donde:
 - El tipo de documento es "ventas".
 - La fecha de documento es entre la fecha que se calcula en función de los valores en los campos **Periodos históricos** y **Tipo de periodo** en la página **Configuración de flujo de caja** y la fecha de trabajo.
 
-Antes de usar el servicio web predictivo [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime las transacciones por **Fecha de documento** según el valor del campo **Tipo de periodo** de la página **Configuración de flujo de caja**.
+Antes de usar el servicio web predictivo [!INCLUDE[d365fin](includes/d365fin_md.md)] comprime las transacciones por **Fecha de documento** según el valor del campo **Tipo de periodo** de la página **Configuración de flujo de caja** .
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"> </a>Crear y usar su propio servicio web predictivo para las previsiones de flujo de efectivo
-También puede crear su propio servicio web predictivo basado en un modelo público denominado **Modelo de previsión para Microsoft Business Central**. Este modelo predictivo está disponible en línea en la galería de Azure AI. Para usar el modelo, siga estos pasos:  
+También puede crear su propio servicio web predictivo basado en un modelo público denominado **Modelo de previsión para Microsoft Business Central** . Este modelo predictivo está disponible en línea en la galería de Azure AI. Para usar el modelo, siga estos pasos:  
 
 1. Abra un explorador y vaya a la [Galería de Azure AI](https://go.microsoft.com/fwlink/?linkid=828352).  
 2. Busque **Modelo de previsión para Microsoft Business Central** y, a continuación, abra el modelo en Azure Machine Learning Studio.  

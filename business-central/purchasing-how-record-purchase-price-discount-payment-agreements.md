@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f1269ad2503806669209d642d929bc8b712a5115
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8027465189507ce9ad78ebadea9dcc086e512ea4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783060"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926833"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrar precios y descuentos de compra especiales
 Es necesario definir los diferentes acuerdos de precios y descuentos que se aplican al comprar a distintos proveedores de modo que se apliquen las reglas y los valores acordados a los documentos de compra que se crean para los proveedores.
@@ -35,7 +35,7 @@ Puesto que los descuentos de línea y los precios de compra se basan en una comb
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Para configurar un precio de compra especial para un proveedor
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.
-2. Abra la ficha de proveedor correspondiente y, a continuación, elija la acción **Precios**.
+2. Abra la ficha de proveedor correspondiente y, a continuación, elija la acción **Precios** .
 
     El campo **Tipo de compras** se rellena previamente con el campo **Proveedor** y el campo **Código de compre** se rellena con el número del proveedor.
 3. Rellene los campos de la línea como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -43,7 +43,7 @@ Puesto que los descuentos de línea y los precios de compra se basan en una comb
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Para configurar un descuento de línea para un proveedor
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.
-2. Abra la ficha de proveedor correspondiente y, a continuación, elija la acción **Dto. línea**.
+2. Abra la ficha de proveedor correspondiente y, a continuación, elija la acción **Dto. línea** .
 
     El campo **Tipo de compras** se rellena previamente con el campo **Proveedor** y el campo **Código de compre** se rellena con el número del proveedor.
 3. Rellene los campos de la línea como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -54,16 +54,16 @@ Una vez su proveedor le haya informado de que descuentos en factura garantizan, 
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.
 2. Abra la ficha de un proveedor que pueda obtener descuentos en factura.
-3. En el campo **Código descuento factura**, seleccione un código para los términos relevantes de la factura con descuentos que usará para calcular los descuentos en facturas para el proveedor.
+3. En el campo **Código descuento factura** , seleccione un código para los términos relevantes de la factura con descuentos que usará para calcular los descuentos en facturas para el proveedor.
 
     > [!NOTE]  
     >   Los códigos de descuento en factura se representan por las fichas existentes del proveedor. Lo que permite asignar rápidamente las condiciones de descuento en factura a proveedores realizando el picking del nombre de otros proveedores con los mismos términos.
 
     Configure de nuevo los términos de descuento en factura para compras.
-4. En la página **Ficha proveedor**, seleccione la acción **Descuento factura**. Aparecerá la página **Dtos. factura proveedores**.
-5. En el campo **Código divisa**, introduzca el código de una divisa que se aplique a los términos de descuento en factura en la línea. Deje el campo en blanco para establecer condiciones de descuento de factura en USD.
-6. En el campo **Importe mínimo**, escriba el importe mínimo que deba tener una factura para optar al descuento.
-7. En el campo **% descuento**, introduzca el descuento en la factura como un porcentaje del importe de la factura.
+4. En la página **Ficha proveedor** , seleccione la acción **Descuento factura** . Aparecerá la página **Dtos. factura proveedores** .
+5. En el campo **Código divisa** , introduzca el código de una divisa que se aplique a los términos de descuento en factura en la línea. Deje el campo en blanco para establecer condiciones de descuento de factura en USD.
+6. En el campo **Importe mínimo** , escriba el importe mínimo que deba tener una factura para optar al descuento.
+7. En el campo **% descuento** , introduzca el descuento en la factura como un porcentaje del importe de la factura.
 8. Repita los pasos 5 a 7 para cada divisa para la que el proveedor va a recibir un descuento diferente de factura.
 
 El descuento en factura está configurado y asignado el proveedor en cuestión. En el momento que selecciona el código de proveedor en el campo **Código de descuento de factura** en las fichas de proveedores, se asigna el mismo descuento en factura a ese proveedor.
@@ -71,10 +71,10 @@ El descuento en factura está configurado y asignado el proveedor en cuestión. 
 ## <a name="to-choose-a-principle-for-posting-purchase-discounts"></a>Para seleccionar un principio de registro para descuentos de compra  
 Cuando se registra una factura de compra que incluye uno o varios descuentos, puede escoger entre dos principios de registro de importes de descuento. Puede registrar los descuentos por separado o restar los descuentos de los descuentos en factura.  
 
-Antes de que pueda hacerlo, deberá haber configurado las cuentas correspondientes de registro de importes de descuento en el catálogo de cuentas. También debe comprobar que haya escrito los números de cuenta correctos en la configuración de grupos contables de los campos **Cta. dto. línea compras** y **Cta. dto. factura compras**.
+Antes de que pueda hacerlo, deberá haber configurado las cuentas correspondientes de registro de importes de descuento en el catálogo de cuentas. También debe comprobar que haya escrito los números de cuenta correctos en la configuración de grupos contables de los campos **Cta. dto. línea compras** y **Cta. dto. factura compras** .
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de compras y pagos** y luego elija el enlace relacionado.
-2. En el campo **Registro dto.**, seleccione uno de los siguientes principios de registro de descuentos.
+2. En el campo **Registro dto.** , seleccione uno de los siguientes principios de registro de descuentos.
 
 |**Principio de registro de descuento**|**Descuento en factura**|**Descuento en línea**|  
 |------------------------------------|--------------------------|-----------------------|  
@@ -88,7 +88,7 @@ Si aplica términos fijos para los descuentos en factura a algunos proveedores, 
 
  Para poder utilizar descuentos en factura en las compras, deberá especificar los proveedores que le ofrecen los descuentos.  
 
- Se relacionan los porcentajes de descuento a los importes de factura específicos en las páginas **Dtos. factura proveedores**. Puede introducir un número ilimitado de porcentajes en cada página. Cada proveedor puede tener su propia página o se pueden vincular varios proveedores a la misma página.  
+ Se relacionan los porcentajes de descuento a los importes de factura específicos en las páginas **Dtos. factura proveedores** . Puede introducir un número ilimitado de porcentajes en cada página. Cada proveedor puede tener su propia página o se pueden vincular varios proveedores a la misma página.  
 
  Además de un porcentaje de descuento, puede vincular un importe de cargo por servicios a un importe facturado específico.  
 

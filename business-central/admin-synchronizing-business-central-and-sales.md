@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2c7b7c4175f4c17e01c114f76d0b14834e0409ae
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 9d3f4e86a0da5c26a84ca79b1712f2f240e347a2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617715"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922453"
 ---
 # <a name="synchronizing-data-in-business-central-with-common-data-service"></a>Sincronización de datos en Business Central con Common Data Service
 
@@ -43,17 +43,20 @@ Las entidades en [!INCLUDE[d365fin](includes/cds_long_md.md)], como las cuentas,
 
 La siguiente tabla enumera la asignación estándar entre entidades en [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[d365fin](includes/cds_long_md.md)] que proporciona [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
+> [!TIP]
+> Puede restablecer los cambios de configuración realizados en la tabla de integración y las asignaciones de campo a su configuración predeterminada, seleccionando las asignaciones y luego eligiendo **Usar la configuración de sincronización predeterminada** .
+
 | [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] | Dirección de la sincronización | Filtro predeterminado |
 |---------------------------------------------|----------------------------------------------|---------------------------|----------------|
-| Vendedor/Comprador | Usuario | [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro de contacto de [!INCLUDE[d365fin](includes/cds_long_md.md)]: **Estado** es **No**, **Usuario con licencia** es **Sí**, Modo de integración de usuario es **No** |
-| Cliente | Cuenta | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] y [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro de cuenta de [!INCLUDE[d365fin](includes/cds_long_md.md)]: el **Tipo de relación** es **Cliente** y el **Estado** es **Activo**. Filtro de [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Bloqueado** está vacío (Cliente no está bloqueado). |
-| Proveedor | Cuenta | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] y [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro de cuenta de [!INCLUDE[d365fin](includes/cds_long_md.md)]: el **Tipo de relación** es **Proveedor** y el **Estado** es **Activo**. Filtro de [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Bloqueado** está vacío (Proveedor no está bloqueado). |
+| Vendedor/Comprador | Usuario | [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro de contacto de [!INCLUDE[d365fin](includes/cds_long_md.md)]: **Estado** es **No** , **Usuario con licencia** es **Sí** , Modo de integración de usuario es **No** |
+| Cliente | Cuenta | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] y [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro de cuenta de [!INCLUDE[d365fin](includes/cds_long_md.md)]: el **Tipo de relación** es **Cliente** y el **Estado** es **Activo** . Filtro de [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Bloqueado** está vacío (Cliente no está bloqueado). |
+| Proveedor | Cuenta | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] y [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro de cuenta de [!INCLUDE[d365fin](includes/cds_long_md.md)]: el **Tipo de relación** es **Proveedor** y el **Estado** es **Activo** . Filtro de [!INCLUDE[d365fin](includes/d365fin_md.md)]: **Bloqueado** está vacío (Proveedor no está bloqueado). |
 | Contacto | Contacto | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] y [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | Filtro de contacto de [!INCLUDE[d365fin](includes/d365fin_md.md)]: el **tipo** es **Persona** y el contacto se asigna una empresa. Filtro de contacto de [!INCLUDE[d365fin](includes/cds_long_md.md)]: el contacto se asigna a una empresa y el tipo de cliente principal es **Cuenta** |
 | Divisa | Divisa de la transacción | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] |  |
 
 
 ### <a name="tip-for-admins-viewing-entity-mappings"></a>Consejo para administradores: visualización de asignaciones de entidad
-Puede ver la asignación entre las entidades en [!INCLUDE[d365fin](includes/cds_long_md.md)] y las tablas en la página en [!INCLUDE[d365fin](includes/d365fin_md.md)] en la página **Lista de asignaciones de tablas de integración**, donde también puede aplicar filtros. La asignación entre los campos de las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] y los campos de las entidades de [!INCLUDE[d365fin](includes/cds_long_md.md)] se define en la página **Lista de asignaciones de campos de integración**, donde se puede añadir lógica de asignación adicional. Por ejemplo, esto puede ser útil si necesita solucionar problemas de sincronización.
+Puede ver la asignación entre las entidades en [!INCLUDE[d365fin](includes/cds_long_md.md)] y las tablas en la página en [!INCLUDE[d365fin](includes/d365fin_md.md)] en la página **Lista de asignaciones de tablas de integración** , donde también puede aplicar filtros. La asignación entre los campos de las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] y los campos de las entidades de [!INCLUDE[d365fin](includes/cds_long_md.md)] se define en la página **Lista de asignaciones de campos de integración** , donde se puede añadir lógica de asignación adicional. Por ejemplo, esto puede ser útil si necesita solucionar problemas de sincronización.
 
 ## <a name="see-also"></a>Consulte también  
 [Emparejar y sincronizar registros manualmente](admin-how-to-couple-and-synchronize-records-manually.md)   

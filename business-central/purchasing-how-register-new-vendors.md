@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 08/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 88107b3f42be23a723ccded0729098de74b15de2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e77238b4e0578307a90f80bddfdec64002e7ac27
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782985"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926783"
 ---
 # <a name="register-new-vendors"></a>Permite registrar nuevos proveedores
 
@@ -34,11 +34,11 @@ Las fichas de proveedor contienen la información necesaria para comprar product
 ## <a name="to-create-a-new-vendor-card"></a>Para crear una nueva ficha de proveedor
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.  
-2. En la página **Proveedores**, elija **Nuevo**.
+2. En la página **Proveedores** , elija **Nuevo** .
 
     Si existe más de una plantilla de proveedor, se abre una página desde la que puede seleccionar una plantilla de proveedor. En ese caso, siga los dos pasos siguientes.
-3. En la página **Seleccionar una plantilla para un proveedor nuevo**, seleccione la plantilla que quiere usar para la nueva ficha de proveedor.
-4. Elija el botón **Aceptar**. Una nueva ficha de proveedor se abre con algunos campos completados con la información de la plantilla.
+3. En la página **Seleccionar una plantilla para un proveedor nuevo** , seleccione la plantilla que quiere usar para la nueva ficha de proveedor.
+4. Elija el botón **Aceptar** . Una nueva ficha de proveedor se abre con algunos campos completados con la información de la plantilla.
 5. Empiece a rellenar o cambiar campos en la ficha de proveedor, según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -52,11 +52,11 @@ Si desea usar esta ficha de proveedor como plantilla cuando cree nuevas fichas d
 Si ha publicado una transacción para un proveedor, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la auditoría. Para eliminar fichas de proveedores con movimientos, póngase en contacto con el socio de Microsoft para hacerlo a través del código.
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Para guardar la ficha de proveedor como una plantilla
-1. En la página **Ficha proveedor**, seleccione la acción **Guardar como plantilla**. La página **Plantilla proveedor** se abre mostrando la ficha de proveedor como plantilla.
+1. En la página **Ficha proveedor** , seleccione la acción **Guardar como plantilla** . La página **Plantilla proveedor** se abre mostrando la ficha de proveedor como plantilla.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Para volver a usar dimensiones en las plantillas, seleccione la acción **Dimensiones**. La página **Plantilla de dimensiones** se abre mostrando los códigos de dimensión configurados para el proveedor.
+3. Para volver a usar dimensiones en las plantillas, seleccione la acción **Dimensiones** . La página **Plantilla de dimensiones** se abre mostrando los códigos de dimensión configurados para el proveedor.
 4. Modifique o introduzca los códigos de dimensión que se aplicarán a nuevas fichas de proveedor creadas con la plantilla.
-5. Cuando haya completado la nueva plantilla de proveedor, seleccione el botón de **Aceptar**.  
+5. Cuando haya completado la nueva plantilla de proveedor, seleccione el botón de **Aceptar** .  
    La plantilla de proveedor se agrega a la lista de plantillas de proveedor, de modo que puede usarla para crear nuevas fichas de proveedor.
 
 ## <a name="see-also"></a>Consulte también

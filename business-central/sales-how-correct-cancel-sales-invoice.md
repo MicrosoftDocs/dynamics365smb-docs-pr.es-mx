@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc370ed908fff138be64f1630d19eb87f2b62c2d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3803ce840569d1b1668db64879e68395ee6f3a65
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781796"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926308"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Corregir o cancelar facturas de venta sin abonar
 
@@ -24,7 +24,7 @@ Puede corregir o cancelar una factura de venta registrada. Esto es útil si se c
 > [!NOTE]  
 > Una vez que una factura de venta registrada se haya pagado parcial o totalmente, no puede corregirla o cancelarla de la factura de venta registrada en sí. En su lugar, debe crear manualmente una nota de crédito de venta para anular la venta y reembolsar al cliente, opcionalmente administrada con un pedido de devolución de ventas. Para obtener más información, vea [Procesar devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md).
 
-En la página **Histórico facturas venta**, puede elegir las acciones **Corregir** o **Cancelar** para realizar las acciones que se describen en la tabla siguiente.
+En la página **Histórico facturas venta** , puede elegir las acciones **Corregir** o **Cancelar** para realizar las acciones que se describen en la tabla siguiente.
 
 | Acción | Descripción |
 | --- | --- |
@@ -42,9 +42,9 @@ Al corregir o cancelar una factura de ventas registrada, la nota de crédito de 
 2. Seleccione la factura de venta registrada que desea corregir.
 
     > [!NOTE]  
-    >   Si se selecciona la casilla **Cancelado**, no puede corregir la factura de venta registrada porque ya se ha corregido o cancelado.
-3. En la página **Factura de ventas registrada**, elija la acción **Corregir**.  
-4. Una nueva factura de venta con la misma información se crea donde puede realizar la corrección. El campo **Cancelado** en la factura de ventas registrada inicial se cambia a **Sí**.
+    >   Si se selecciona la casilla **Cancelado** , no puede corregir la factura de venta registrada porque ya se ha corregido o cancelado.
+3. En la página **Factura de ventas registrada** , elija la acción **Corregir** .  
+4. Una nueva factura de venta con la misma información se crea donde puede realizar la corrección. El campo **Cancelado** en la factura de ventas registrada inicial se cambia a **Sí** .
 
     Una nota de crédito de ventas se crea y se registra automáticamente para anular la factura de venta registrada inicial.
 5. Elija la acción **Mostrar nota de crédito correctiva** para ver la nota de crédito de venta que anula la factura de venta registrada inicial.
@@ -55,10 +55,10 @@ Al corregir o cancelar una factura de ventas registrada, la nota de crédito de 
 2. Seleccione la factura de venta registrada que desea cancelar.
 
     > [!NOTE]  
-    >   Si se selecciona la casilla **Cancelado**, no puede cancelar la factura de venta registrada porque ya se ha cancelado o corregido.
-3. En la página **Factura de ventas registrada**, elija la acción **Cancelar**.
+    >   Si se selecciona la casilla **Cancelado** , no puede cancelar la factura de venta registrada porque ya se ha cancelado o corregido.
+3. En la página **Factura de ventas registrada** , elija la acción **Cancelar** .
 
-    Una nota de crédito de ventas se crea y se registra automáticamente para anular la factura de venta registrada inicial. El campo **Cancelado** en la factura de ventas registrada inicial se cambia a **Sí**.
+    Una nota de crédito de ventas se crea y se registra automáticamente para anular la factura de venta registrada inicial. El campo **Cancelado** en la factura de ventas registrada inicial se cambia a **Sí** .
 4. Elija la acción **Mostrar nota de crédito correctiva** para ver la nota de crédito de venta que anula la factura de venta registrada inicial.
 
 ### <a name="partial-invoice-posting-also-supported"></a>También se admite el registro parcial de facturas

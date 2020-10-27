@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 07/02/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3badffb854323a385123e86066f14de5a2b75b28
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d6644b7df13c70143d239de68ec419bdd196bfe3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783135"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926933"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Corregir o cancelar facturas de compra sin abonar
 
@@ -23,7 +23,7 @@ Puede corregir o cancelar una factura de compra registrada. Esto es útil si se 
 
 Si ya ha pagado productos en la factura de compra registrada, no puede corregirla o cancelarla desde la factura de compra registrada en sí. En su lugar, debe crear manualmente un abono de compra para revertir la compra, opcionalmente administrada con una orden de devolución de compra. Lo mismo se aplica si desea modificar una factura de compra registrada que se basó en recepciones de compra combinadas. Para obtener más información, vea [Procesar devoluciones de compra o cancelaciones](purchasing-how-process-purchase-returns-cancellations.md).
 
-En la página **Factura de compra registrada**, puede elegir el botón **Corregir** o **Cancelar**. Al corregir o cancelar una factura de compra registrada, la nota de crédito de compras de corrección se aplica a todos los movimientos contables y del inventario que se crearon cuando se registró la factura de compra inicial. De esta forma se invierte la factura de compra registrada en los registros financieros deja la nota de crédito de compras registrada de corrección para el seguimiento de auditoria. A continuación se describe el uso de **Corregir** y **Cancelar**.
+En la página **Factura de compra registrada** , puede elegir el botón **Corregir** o **Cancelar** . Al corregir o cancelar una factura de compra registrada, la nota de crédito de compras de corrección se aplica a todos los movimientos contables y del inventario que se crearon cuando se registró la factura de compra inicial. De esta forma se invierte la factura de compra registrada en los registros financieros deja la nota de crédito de compras registrada de corrección para el seguimiento de auditoria. A continuación se describe el uso de **Corregir** y **Cancelar** .
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
@@ -32,10 +32,10 @@ En la página **Factura de compra registrada**, puede elegir el botón **Corregi
 2. Seleccione la factura de compra registrada que desea corregir.  
 
     > [!NOTE]  
-    >   Si se selecciona la casilla **Cancelado**, no puede corregir la factura de compra registrada porque ya se ha corregido o cancelado.
-3. En la página **Factura de compra registrada**, elija **Corregir**.
+    >   Si se selecciona la casilla **Cancelado** , no puede corregir la factura de compra registrada porque ya se ha corregido o cancelado.
+3. En la página **Factura de compra registrada** , elija **Corregir** .
 
-    Una nueva factura de compra con la misma información se crea donde puede realizar la corrección. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md). El campo **Cancelado** en la factura de compra registrada inicial se cambia a **Sí**.
+    Una nueva factura de compra con la misma información se crea donde puede realizar la corrección. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md). El campo **Cancelado** en la factura de compra registrada inicial se cambia a **Sí** .
 
     Una nota de crédito de compras se crea y se registra automáticamente para anular la factura de compra registrada inicialmente.
 4. Elija **Mostrar nota de crédito correctiva** para ver la nota de crédito de compra registrada que anula la factura de compra registrada inicial.
@@ -45,10 +45,10 @@ En la página **Factura de compra registrada**, puede elegir el botón **Corregi
 2. Seleccione la factura de compra registrada que desea cancelar.
 
     > [!NOTE]  
-    >   Si se selecciona la casilla **Cancelado**, no puede cancelar la factura de compra registrada porque ya se ha cancelado o corregido.
-3. En la página **Factura de compra registrada**, elija **Cancelar**.
+    >   Si se selecciona la casilla **Cancelado** , no puede cancelar la factura de compra registrada porque ya se ha cancelado o corregido.
+3. En la página **Factura de compra registrada** , elija **Cancelar** .
 
-    Una nota de crédito de compras se crea y se registra automáticamente para anular la factura de compra registrada inicialmente. El campo **Cancelado** en la factura de compra registrada inicial se cambia a **Sí**.
+    Una nota de crédito de compras se crea y se registra automáticamente para anular la factura de compra registrada inicialmente. El campo **Cancelado** en la factura de compra registrada inicial se cambia a **Sí** .
 4. Elija **Mostrar nota de crédito correctiva** para ver la nota de crédito de compra registrada que anula la factura de compra registrada inicial.
 
 ### <a name="partial-invoice-posting-also-supported"></a>También se admite el registro parcial de facturas

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1083edff26c6f0cc896e2506b6b02512d72e2bff
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 104049b15cb379e65f84b9d1280ee52c4b2215f0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782735"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926383"
 ---
 # <a name="managing-receivables"></a>Administrar cobros
 
@@ -27,11 +27,11 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)], una de las formas más rápidas 
 
 Existen otras páginas donde puede liquidar pagos o conciliar cuentas bancarias:
 
-* La página **Conciliación banco**, donde concilia las cuentas bancarias haciendo coincidir las líneas de estado de cuenta bancario importado con los movimientos de cuenta bancaria del sistema. Aquí, también puede conciliar pagos por cheque. Para obtener más información, consulte [Conciliar bancos](bank-how-reconcile-bank-accounts-separately.md). Aquí, no puede liquidar los pagos.
-* La página **Registro de pagos**, donde puede liquidar manualmente los pagos recibidos como efectivo, cheque o transacción bancaria frente a una lista de documentos de ventas sin pagar. Tenga en cuenta que esta funcionalidad solo está disponible para documentos de ventas. Aquí, no puede liquidar pagos salientes, y no puede conciliar cuentas bancarias.
-* La página **Diario de recepción de efectivo**, donde puede registrar manualmente los albaranes en el libro mayor, cliente u otra cuenta pertinente introduciendo una línea de pago. Puede liquidar la recepción o el reembolso a uno o varios movimientos abiertos antes de registrar la recepción de efectivo o desde movimientos de cliente. Aquí, no puede conciliar cuentas bancarias.
+* La página **Conciliación banco** , donde concilia las cuentas bancarias haciendo coincidir las líneas de estado de cuenta bancario importado con los movimientos de cuenta bancaria del sistema. Aquí, también puede conciliar pagos por cheque. Para obtener más información, consulte [Conciliar bancos](bank-how-reconcile-bank-accounts-separately.md). Aquí, no puede liquidar los pagos.
+* La página **Registro de pagos** , donde puede liquidar manualmente los pagos recibidos como efectivo, cheque o transacción bancaria frente a una lista de documentos de ventas sin pagar. Tenga en cuenta que esta funcionalidad solo está disponible para documentos de ventas. Aquí, no puede liquidar pagos salientes, y no puede conciliar cuentas bancarias.
+* La página **Diario de recepción de efectivo** , donde puede registrar manualmente los albaranes en el libro mayor, cliente u otra cuenta pertinente introduciendo una línea de pago. Puede liquidar la recepción o el reembolso a uno o varios movimientos abiertos antes de registrar la recepción de efectivo o desde movimientos de cliente. Aquí, no puede conciliar cuentas bancarias.
 
-La página **Diario de conciliación de pagos** usa lógica de conciliación automática que puede configurar en la página **Reglas de liquidación de pago**. Para obtener más información, consulte [Configurar reglas para la liquidación automática de pagos](receivables-how-set-up-payment-application-rules.md).  
+La página **Diario de conciliación de pagos** usa lógica de conciliación automática que puede configurar en la página **Reglas de liquidación de pago** . Para obtener más información, consulte [Configurar reglas para la liquidación automática de pagos](receivables-how-set-up-payment-application-rules.md).  
 
 Otros aspectos de la gestión de los cobros incluyen el cobro de los saldos pendientes, incluidos los gastos financieros y los recordatorios, así como la apertura de cuentas bancarias para permitir que los pagos de los clientes se retiren automáticamente de su cuenta.
 
@@ -40,7 +40,7 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 | Para | Vea |
 | --- | --- |
 | Liquide pagos en los movimientos pendientes de cliente o proveedor en función de un archivo o una fuente de estado de cuenta bancario importado y concilie la cuenta bancaria una vez liquidados todos los pagos. |[Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-| Liquide los pagos para abrir los movimientos de un cliente según una lista de documentos de ventas pendientes de pago en la página **Registro de pagos**. |[Conciliar pagos de cliente desde una lista de documentos de venta sin abonar](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
+| Liquide los pagos para abrir los movimientos de un cliente según una lista de documentos de ventas pendientes de pago en la página **Registro de pagos** . |[Conciliar pagos de cliente desde una lista de documentos de venta sin abonar](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
 | Registre reembolsos o recepciones de efectivo de clientes en el diario de recepción de efectivo y aplíquelos a movimientos de cliente, ya sea desde el diario o desde movimientos registrados. |[Concilie los pagos de clientes con el diario de recepción de efectivo o de los movimientos de cliente.](receivables-how-apply-sales-transactions-manually.md) |
 | Recordar a los clientes los importes vencidos, calcular intereses y administrar los cobros. |[Cobrar saldos pendientes](receivables-collect-outstanding-balances.md) |
 |Con el consentimiento de sus clientes, los pagos se cobran directamente al banco del cliente, solo en euros.|[Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)|

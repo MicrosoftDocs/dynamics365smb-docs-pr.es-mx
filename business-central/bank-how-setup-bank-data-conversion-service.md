@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ffd2837365ec6cfb93528aa422603a68bc5d6788
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: af42c1b65480a1ae28387b7207eca09a79bfe75d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779797"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924464"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Configurar la extensión AMC Banking 365 Fundamentals
 Ya está configurado y listo para habilitar un proveedor global de servicios de conversión de información de pagos a cualquier formato de datos que requiera el banco en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Esto se menciona en [!INCLUDE[d365fin](includes/d365fin_md.md)] como la extensión AMC Banking 365 Fundamentals.
@@ -37,23 +37,23 @@ Para importar o exportar archivos bancarios, deberá configurar su propia cuenta
 
     > [!NOTE]  
     >   En la base de datos de demostración de CRONUS España S.A. se rellenan previamente los campos Nombre de usuario y Contraseña con información de conexión de demostración, los cuales se reemplazarán con la información real de su empresa al registrarse con la extensión AMC Banking 365 Fundamentals.
-3. En el campo **URL de registro**, seleccione el botón del explorador para abrir la página de inicio de sesión del proveedor de servicios.  
+3. En el campo **URL de registro** , seleccione el botón del explorador para abrir la página de inicio de sesión del proveedor de servicios.  
 4. En la página de registro del proveedor de servicios del banco, escriba el nombre de usuario y la contraseña correspondientes a la suscripción de su empresa al servicio y, a continuación, complete el proceso de registro tal como indica el proveedor de servicios.
 
     Su compañía ya está inscrita para la extensión AMC Banking 365 Fundamentals. Introduzca el nombre de usuario y la contraseña que especificó para el servicio en los campos de configuración relacionados en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-5. En la página **Configuración de servicio de conv. de datos del banco**, en el campo **Nombre**, introduzca el mismo valor que introdujo como nombre de inicio de sesión en la página del proveedor de servicios en el paso 4.
-6. En el campo **Contraseña**, introduzca el mismo valor que introdujo en el campo **Contraseña** en la página del proveedor de servicios en el paso 4.
+5. En la página **Configuración de servicio de conv. de datos del banco** , en el campo **Nombre** , introduzca el mismo valor que introdujo como nombre de inicio de sesión en la página del proveedor de servicios en el paso 4.
+6. En el campo **Contraseña** , introduzca el mismo valor que introdujo en el campo **Contraseña** en la página del proveedor de servicios en el paso 4.
 
 > [!NOTE]  
 > Los datos de inicio de sesión se cifran automáticamente.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Para ver o actualizar la lista de formatos de datos de banco actualmente compatibles
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de servicio de conv. de datos del banco** y luego elija el enlace relacionado.
-2. En la página **Configuración de servicio de conv. de datos del banco**, seleccione la acción **Nombre banco - Lista conversión de datos** para abrir la lista de nombres de banco que representan los datos de banco que admite el servicio de conversiones.
-3. En la página **Nombre banco - Lista conversión de datos**, seleccione la acción **Actualizar lista de nombres de banco**.
+2. En la página **Configuración de servicio de conv. de datos del banco** , seleccione la acción **Nombre banco - Lista conversión de datos** para abrir la lista de nombres de banco que representan los datos de banco que admite el servicio de conversiones.
+3. En la página **Nombre banco - Lista conversión de datos** , seleccione la acción **Actualizar lista de nombres de banco** .
 
-Ahora se actualizará la lista de formatos de datos bancarios compatibles con la extensión AMC Banking 365 Fundamentals. Esta es la lista de nombres de bancos filtrada por país o región y que se puede seleccionar en el campo **Nombre del banco - Conversión de datos** en la página **Ficha de cuenta bancaria**.
+Ahora se actualizará la lista de formatos de datos bancarios compatibles con la extensión AMC Banking 365 Fundamentals. Esta es la lista de nombres de bancos filtrada por país o región y que se puede seleccionar en el campo **Nombre del banco - Conversión de datos** en la página **Ficha de cuenta bancaria** .
 
 > [!NOTE]  
 >   La actualización de los formatos de datos bancarios se produce también cuando se selecciona o especifica un valor en el campo **Nombre del banco - Datos de conversión** en la cuenta bancaria.

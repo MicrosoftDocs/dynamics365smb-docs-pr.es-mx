@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 07/07/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 46c94de4b1852549aea9fb7d2279fe045e33df1f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5e12f68f56c5ffe06bf37c51b2e85ea1074a4c92
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789036"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926115"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrar precios y descuentos de ventas especiales
 
@@ -40,23 +40,23 @@ Dado que los descuentos de línea de venta y los precios de venta se basan en un
 ## <a name="to-set-up-a-sales-price-for-a-customer"></a>Para configurar un precio de venta para un cliente
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
-2. Abra la ficha de cliente correspondiente y, a continuación, elija la acción **Precios**.
+2. Abra la ficha de cliente correspondiente y, a continuación, elija la acción **Precios** .
 
-    En la página **Precios ventas**, el campo **Tipo venta** se rellena con **Cliente** y el campo **Código ventas** se rellena con el número de cliente.
+    En la página **Precios ventas** , el campo **Tipo venta** se rellena con **Cliente** y el campo **Código ventas** se rellena con el número de cliente.
 3. Rellene los campos de la línea como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Rellene una línea para cada combinación que aplicará un precio de venta especial al cliente.
 
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Para configurar un descuento de línea de venta para un cliente
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
-2. Abra la ficha de cliente correspondiente y, a continuación, elija la acción **Dto. línea**.
+2. Abra la ficha de cliente correspondiente y, a continuación, elija la acción **Dto. línea** .
 
-    En la página **Descuentos línea de ventas**, el campo **Tipo venta** se rellena con **Cliente** y el campo **Código ventas** se rellena con el número de cliente.
+    En la página **Descuentos línea de ventas** , el campo **Tipo venta** se rellena con **Cliente** y el campo **Código ventas** se rellena con el número de cliente.
 3. Rellene los campos de la línea como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Rellene una línea para cada combinación que aplicará un descuento de línea de venta al cliente.
 
 > [!Note]
-> Cuando abra las ventanas **Precios de venta** y **Descuentos de línea de ventas** de un cliente específico, los campos **Filtro de tipo de ventas** y **Filtro de código de ventas** se establecen para el cliente y no se pueden cambiar ni eliminar, lo que se indica mediante el valor atenuado en el campo **Filtro de código de ventas**.
+> Cuando abra las ventanas **Precios de venta** y **Descuentos de línea de ventas** de un cliente específico, los campos **Filtro de tipo de ventas** y **Filtro de código de ventas** se establecen para el cliente y no se pueden cambiar ni eliminar, lo que se indica mediante el valor atenuado en el campo **Filtro de código de ventas** .
 >
-> Para configurar precios o descuentos de línea para todos los clientes, un grupo de precios de clientes o una campaña, debe abrir las ventanas desde una tarjeta de producto. Alternativamente, para precios de venta, use la página **Hoja de trabajo de precio de venta**. Para obtener más información, vea [Para actualizar de forma masiva los precios de los productos](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
+> Para configurar precios o descuentos de línea para todos los clientes, un grupo de precios de clientes o una campaña, debe abrir las ventanas desde una tarjeta de producto. Alternativamente, para precios de venta, use la página **Hoja de trabajo de precio de venta** . Para obtener más información, vea [Para actualizar de forma masiva los precios de los productos](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Para configurar un descuento en factura para un cliente
 
@@ -64,17 +64,17 @@ Una vez que haya determinado los clientes que pueden obtener descuentos en factu
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
 2. Abra la ficha de un cliente que pueda obtener descuentos en factura.
-3. En el campo **Código descuento factura**, seleccione un código para los términos relevantes de la factura con descuentos que usará para calcular los descuentos en facturas para el cliente.
+3. En el campo **Código descuento factura** , seleccione un código para los términos relevantes de la factura con descuentos que usará para calcular los descuentos en facturas para el cliente.
 
 > [!NOTE]  
 > Los códigos de descuento en factura se representan por las fichas existentes del cliente. Lo que permite asignar rápidamente las condiciones de descuento en factura a clientes realizando el picking del nombre de otros clientes con los mismos términos.
 
 Configure de nuevo los términos de descuento en factura para ventas.
 
-1. En la página **Ficha de cliente**, seleccione la acción **Descuento factura**. Aparecerá la página **Dtos. factura cliente**.
-2. En el campo **Código divisa**, introduzca el código de una divisa que se aplique a los términos de descuento en factura en la línea. Deje el campo en blanco para establecer condiciones de descuento de factura en USD.
-3. En el campo **Importe mínimo**, escriba el importe mínimo que deba tener una factura para optar al descuento.
-4. En el campo **% descuento**, introduzca el descuento en la factura como un porcentaje del importe de la factura.
+1. En la página **Ficha de cliente** , seleccione la acción **Descuento factura** . Aparecerá la página **Dtos. factura cliente** .
+2. En el campo **Código divisa** , introduzca el código de una divisa que se aplique a los términos de descuento en factura en la línea. Deje el campo en blanco para establecer condiciones de descuento de factura en USD.
+3. En el campo **Importe mínimo** , escriba el importe mínimo que deba tener una factura para optar al descuento.
+4. En el campo **% descuento** , introduzca el descuento en la factura como un porcentaje del importe de la factura.
 5. Repita los pasos del 5 al 7 para cada divisa que el cliente reciba un descuento diferente de factura.
 
 El descuento en factura ahora está configurado y asignado al cliente en cuestión. Al seleccionar el código del cliente en el campo **Cód. dto. factura** en otras fichas de cliente, se asigna el mismo descuento en factura a estos clientes.
@@ -83,18 +83,18 @@ El descuento en factura ahora está configurado y asignado al cliente en cuesti�
 
 Al utilizar descuentos en factura, el importe de la factura determina el descuento aplicado.  
 
-En la página **Dtos. factura clientes**, también puede añadir un cargo por servicio a las facturas que superen un determinado importe.  
+En la página **Dtos. factura clientes** , también puede añadir un cargo por servicio a las facturas que superen un determinado importe.  
 
 Para poder aplicar descuentos en factura a las ventas, primero debe especificar determinados datos en la aplicación. Deberá determinar las siguientes cuestiones:  
 
 - a qué clientes se le concederá este tipo de descuento.  
 - qué porcentajes de descuento se va a aplicar.  
 
-Si factura descuentos para que se calculen automáticamente, puede especificarlo en la página **Configuración ventas y cobros**.  
+Si factura descuentos para que se calculen automáticamente, puede especificarlo en la página **Configuración ventas y cobros** .  
 
 Decida si va a conceder o no descuentos en factura a cada cliente que cumpla el requisito (es decir, que el importe de su factura supere una determinada cantidad). Defina los términos de los descuentos en factura en divisa local para los clientes nacionales y en otras divisas para los clientes de otros países.  
 
-Se relacionan los porcentajes de descuento a los importes de factura específicos en las páginas **Dtos. factura cliente**. Puede introducir un número ilimitado de porcentajes en cada página. Cada cliente puede tener su propia página o se pueden vincular varios clientes a la misma página.  
+Se relacionan los porcentajes de descuento a los importes de factura específicos en las páginas **Dtos. factura cliente** . Puede introducir un número ilimitado de porcentajes en cada página. Cada cliente puede tener su propia página o se pueden vincular varios clientes a la misma página.  
 
 Además de (o en lugar de) un porcentaje de descuento, puede vincular un importe de cargo por servicios a un importe facturado específico.  
 
@@ -128,32 +128,32 @@ Si no se puede calcular ningún precio especial para el producto de la línea, s
 
 ## <a name="to-copy-sales-prices"></a>Para copiar precios de venta
 
-Si desea copiar precios de venta, por ejemplo, los precios de venta de un cliente determinado a un grupo de precio de cliente, debe ejecutar el proceso **Sugerir precio venta en hoja**. proceso, que se ejecuta desde la página **Hoja precios venta**.  
+Si desea copiar precios de venta, por ejemplo, los precios de venta de un cliente determinado a un grupo de precio de cliente, debe ejecutar el proceso **Sugerir precio venta en hoja** . proceso, que se ejecuta desde la página **Hoja precios venta** .  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de precios de venta** y luego elija el enlace relacionado.  
-2. Elija **Sugerir precio venta en hoja**. .  
-3. En la ficha desplegable **Precios venta**, rellene los campos **Tipo venta** y **Código ventas** con los precios de venta originales que desea copiar.  
+2. Elija **Sugerir precio venta en hoja** . .  
+3. En la ficha desplegable **Precios venta** , rellene los campos **Tipo venta** y **Código ventas** con los precios de venta originales que desea copiar.  
 4. En la parte superior de la página de solicitud, rellene los campos **Tipo venta** y **Código ventas** con el tipo y el nombre al que desea copiar los precios de venta.  
-5. Si desea que el trabajo por lotes cree precios nuevos, seleccione la casilla **Crear precios nuevos**.  
+5. Si desea que el trabajo por lotes cree precios nuevos, seleccione la casilla **Crear precios nuevos** .  
 6. Elija el botón **Aceptar** para rellenar las líneas de la página **Hoja precios venta** con los nuevos precios propuestos, indicando que son válidos para el tipo de venta seleccionado.  
 
 > [!NOTE]  
-> El proceso sólo crea propuestas; no implementa los cambios propuestos. Si está satisfecho con las propuestas y desea implementarlas, es decir, insertarlas en la página **Precios de venta**, elija la acción **Implementar cambios de precios** en la página **Hoja precios ventas**.
+> El proceso sólo crea propuestas; no implementa los cambios propuestos. Si está satisfecho con las propuestas y desea implementarlas, es decir, insertarlas en la página **Precios de venta** , elija la acción **Implementar cambios de precios** en la página **Hoja precios ventas** .
 
 ## <a name="to-bulk-update-item-prices"></a>Para actualizar de forma masiva los precios de los artículos
 
-Si desea actualizar de forma masiva los precios de los artículos, como aumentar todos los precios de los artículos en algún porcentaje, debe ejecutar el proceso **Sugerir precio producto en hoja**. Trabajo por lotes . Puede encontrar un enlace al proceso en la página **Hoja precios venta**.  
+Si desea actualizar de forma masiva los precios de los artículos, como aumentar todos los precios de los artículos en algún porcentaje, debe ejecutar el proceso **Sugerir precio producto en hoja** . Trabajo por lotes . Puede encontrar un enlace al proceso en la página **Hoja precios venta** .  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de precios de venta** y luego elija el enlace relacionado.  
-2. Elija **Sugerir precio producto en hoja**. .  
-3. En la ficha desplegable **Artículo**, rellene los campos **N.º** o **Grupo de registro de inventario** u otros con los precios del artículo original que desea actualizar.  
+2. Elija **Sugerir precio producto en hoja** . .  
+3. En la ficha desplegable **Artículo** , rellene los campos **N.º** o **Grupo de registro de inventario** u otros con los precios del artículo original que desea actualizar.  
 4. En la parte superior de la página de solicitud, rellene el **Tipo venta** y **Código ventas** con el tipo y el nombre al que desea copiar los precios de venta.
-5. Si desea que el proceso ajuste automáticamente los precios de los artículos sugeridos, introduzca el ajuste en el campo **Factor de ajuste**. Por ejemplo, debe introducir 1,15 en **Factor de ajuste** para un aumento del 15% en el precio del artículo.  
-6. Si desea que el trabajo por lotes cree precios nuevos, seleccione el campo **Crear precios nuevos**.  
+5. Si desea que el proceso ajuste automáticamente los precios de los artículos sugeridos, introduzca el ajuste en el campo **Factor de ajuste** . Por ejemplo, debe introducir 1,15 en **Factor de ajuste** para un aumento del 15% en el precio del artículo.  
+6. Si desea que el trabajo por lotes cree precios nuevos, seleccione el campo **Crear precios nuevos** .  
 7. Elija el botón **Aceptar** para rellenar las líneas de la página **Hoja precios venta** con los nuevos precios propuestos, indicando que son válidos para el **Artículo** seleccionado.  
 
 > [!NOTE]
-> El proceso sólo crea propuestas; no implementa los cambios propuestos. Si está satisfecho con las propuestas y desea implantarlas, es decir, insertarlas en la tabla **Precios de venta**, puede utilizar el trabajo por lotes **Realizar cambio precio**, que se encuentra en la pestaña **Acciones**, en el grupo **Funciones**, en la página **Hoja precios venta**.
+> El proceso sólo crea propuestas; no implementa los cambios propuestos. Si está satisfecho con las propuestas y desea implantarlas, es decir, insertarlas en la tabla **Precios de venta** , puede utilizar el trabajo por lotes **Realizar cambio precio** , que se encuentra en la pestaña **Acciones** , en el grupo **Funciones** , en la página **Hoja precios venta** .
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 

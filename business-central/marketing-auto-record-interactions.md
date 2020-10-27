@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 3c860ac8fec0e9a3cdf697ee59789d55387e5dc1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 69f28abc7d44b1649fcc76140259fd359cd2df19
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181687"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922830"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Registrar interacciones con contactos automáticamente
 Puede configurar la aplicación para que registre automáticamente interacciones de ventas, compras y documentos de servicio, hojas de portada, correos electrónicos, llamadas telefónicas, como:
@@ -28,8 +28,8 @@ Puede configurar la aplicación para que registre automáticamente interacciones
 * Enviar correos electrónicos a sus contactos.
 * Llamar a sus contactos, si tiene un teléfono compatible TAPI y la instalación correcta.
 
-Para configurar los registros automáticos de estas interacciones, puede especificar plantillas de interacciones para estos documentos y acciones mediante la página **Configuración de plantilla de interacción**.  
-Para abrir la página **Configuración de plantilla de interacción**, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de plantilla de interacción** y luego elija el enlace relacionado.
+Para configurar los registros automáticos de estas interacciones, puede especificar plantillas de interacciones para estos documentos y acciones mediante la página **Configuración de plantilla de interacción** .  
+Para abrir la página **Configuración de plantilla de interacción** , elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de plantilla de interacción** y luego elija el enlace relacionado.
 
 ## <a name="see-also"></a>Consulte también
 [Registrar interacciones con contactos](marketing-interactions.md)  

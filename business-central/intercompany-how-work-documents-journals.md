@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: df4fc94bba7b0ffb6ba37363e953fc277c7b6e0a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 30c8eac184987e82b9bfb158a61efdbbc559207a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780146"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924064"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Usar documentos y diarios de empresas vinculadas
 Los documentos o diarios de empresas vinculadas sirven para registrar transacciones con empresas vinculadas asociadas. Al registrar un documento o una línea de diario de empresas vinculadas en su empresa, el programa crea un documento o una línea de diario correspondiente en la bandeja de salida entre empresas vinculadas, que puede transferir a su socio. Después, su socio podrá registrar la correspondiente transacción en su empresa, sin tener que volver a introducir los datos.
@@ -30,7 +30,7 @@ Puede enviar pedidos de venta y de compra y devoluciones antes de registrarlos. 
 El procedimiento siguiente describe cómo rellenar y enviar un pedido de venta de empresas vinculadas. Los mismos pasos se aplican a los pedidos de compras y devoluciones de empresas vinculadas, así como en facturas y abonos de venta registrados de empresas vinculadas.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
-2. Para crear un nuevo pedido de venta, elija **Nuevo**. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).  
+2. Para crear un nuevo pedido de venta, elija **Nuevo** . Para obtener más información, vea [Vender productos](sales-how-sell-products.md).  
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Asegúrese de que el cliente es socio de una empresa vinculada.
 5. Para enviar el pedido de venta antes de registrarlo, elija la acción **Envío ped. venta IC** .
@@ -44,11 +44,11 @@ Al registrar un documento o una línea de diario general en su empresa, el progr
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diarios generales de empresas vinculadas** y luego elija el enlace relacionado  
 2. Abra la sección del diario correspondiente. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
 3. Rellene los campos según sea necesario.
-4. En el campo **Nº cuenta IC asociada**, introduzca la cuenta de contabilidad IC de empresas vinculadas en la que se registrará el importe de la empresa de su socio.
+4. En el campo **Nº cuenta IC asociada** , introduzca la cuenta de contabilidad IC de empresas vinculadas en la que se registrará el importe de la empresa de su socio.
 
     > [!NOTE]
-    > Este campo debe rellenarse en una línea con una cuenta bancaria o de contabilidad en el campo **Nº cuenta** o en el campo **Cta. contrapartida**.  
-5. Seleccione la acción **Registrar**.
+    > Este campo debe rellenarse en una línea con una cuenta bancaria o de contabilidad en el campo **Nº cuenta** o en el campo **Cta. contrapartida** .  
+5. Seleccione la acción **Registrar** .
 
 Los movimientos correspondientes se registran en su empresa y se creará un diario con los movimientos correspondientes en la bandeja de salida de empresas vinculadas que puede enviar a su empresa asociada. Para obtener más información, consulte [Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas](intercompany-how-manage-intercompany-inbox.md).
 

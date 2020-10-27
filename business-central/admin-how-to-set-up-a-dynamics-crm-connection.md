@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 10a257b60aedfb22066148fd48145779cd6d4a62
-ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
+ms.openlocfilehash: 51f04f690483fd5b0c3f093ac5f8e2694ca3fdd9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3702003"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924639"
 ---
 # <a name="connect-to-common-data-service"></a>Conectar a Common Data Service
 
@@ -34,7 +34,7 @@ Hay algunos datos que debe tener listos para crear la conexión:
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Configurar una conexión a [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-En todos los tipos de autenticación distintos de la autenticación de Office 365, configure la conexión a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en la página **Configuración de la conexión de CDS**. Para la autenticación de Office 365, es recomendable que use la guía de configuración asistida **Configuración de conexión de Common Data Service**. La guía simplifica la configuración de la conexión y permite especificar características avanzadas, como el modelo de propiedad y la sincronización inicial.  
+En todos los tipos de autenticación distintos de la autenticación de Microsoft 365, configure la conexión a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en la página **Configuración de la conexión de CDS** . Para la autenticación de Microsoft 365, es recomendable que use la guía de configuración asistida **Configuración de conexión de Common Data Service** . La guía simplifica la configuración de la conexión y permite especificar características avanzadas, como el modelo de propiedad y la sincronización inicial.  
 
 > [!IMPORTANT]
 > Durante la configuración de la conexión a [!INCLUDE[cds_long_md](includes/cds_long_md.md)], se pedirá al administrador que otorgue los siguientes permisos a la aplicación de Azure registrada denominada Integración de [!INCLUDE[d365fin](includes/d365fin_md.md)] para [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:
@@ -53,7 +53,7 @@ En todos los tipos de autenticación distintos de la autenticación de Office 36
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Para crear o mantener la conexión manualmente
 
-El procedimiento siguiente describe cómo configurar la conexión manualmente en la página **Configuración de conexión de CDS**. También es la página donde administra los valores para la integración.
+El procedimiento siguiente describe cómo configurar la conexión manualmente en la página **Configuración de conexión de CDS** . También es la página donde administra los valores para la integración.
 
 1. Elija el icono de ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de conexión de CDS** y luego elija el enlace relacionado.
 2. Escriba la siguiente información para la conexión de [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
@@ -63,22 +63,22 @@ El procedimiento siguiente describe cómo configurar la conexión manualmente en
     |**URL de entorno**|Si posee entornos en [!INCLUDE[cds_long_md](includes/cds_long_md.md)], los encontraremos cuando ejecute la guía de configuración. Si desea conectarse a un entorno diferente en otro suscriptor, puede introducir las credenciales de administrador del entorno y lo descubriremos. |
     |**Habilitado**|Comience a usar la integración. Si no activa la conexión ahora, la configuración de la conexión se guardará pero los usuarios no podrán tener acceso a los datos de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] desde [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puede volver a esta página y activar la conexión más adelante.  |
 
-3. En el campo **Modelo de propiedad**, elija si desea una entidad de equipo en [!INCLUDE[cds_long_md](includes/cds_long_md.md)] para poseer nuevos registros o uno o más usuarios específicos. Si elige **Persona**, debe especificar cada usuario. Si elige **Equipo**, la unidad de negocio predeterminada BCI_Company se mostrará en el campo **Unidad de negocios emparejada**.
+3. En el campo **Modelo de propiedad** , elija si desea una entidad de equipo en [!INCLUDE[cds_long_md](includes/cds_long_md.md)] para poseer nuevos registros o uno o más usuarios específicos. Si elige **Persona** , debe especificar cada usuario. Si elige **Equipo** , la unidad de negocio predeterminada BCI_Company se mostrará en el campo **Unidad de negocios emparejada** .
 
     <!--Need to verify the details in this table, are these specific to Sales maybe?-->
     Introduzca los siguientes valores avanzados.
 
     |Campo|Description|
     |-----|-----|
-    |**Los usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] deben asignar a usuarios de CDS**|Si está utilizando el modelo de propiedad de la persona, especifique si las cuentas de usuario de [!INCLUDE[d365fin](includes/d365fin_md.md)] deben tener cuentas de usuario coincidentes en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. La **dirección de correo electrónico de autenticación de Office 365** del usuario de [!INCLUDE[d365fin](includes/d365fin_md.md)] debe coincidir con el **correo electrónico principal** del usuario de [!INCLUDE[crm_md](includes/crm_md.md)].<br /><br /> Si establece el valor en **Sí**, los usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] que no tienen una cuenta de usuario de [!INCLUDE[crm_md](includes/crm_md.md)] coincidente no tendrán capacidades de integración de [!INCLUDE[d365fin](includes/d365fin_md.md)] en la interfaz de usuario. El acceso a los datos de [!INCLUDE[crm_md](includes/crm_md.md)] directamente desde [!INCLUDE[d365fin](includes/d365fin_md.md)] se realiza en nombre de la cuenta de usuario de [!INCLUDE[crm_md](includes/crm_md.md)].<br /><br /> Si establece el valor en **No**, todos los usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] tendrán capacidades de integración de [!INCLUDE[crm_md](includes/crm_md.md)] en la interfaz de usuario. El acceso a los datos de [!INCLUDE[crm_md](includes/crm_md.md)] directamente se realiza en nombre de la cuenta de usuario de conexión (integración) de [!INCLUDE[crm_md](includes/crm_md.md)].|
+    |**Los usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] deben asignar a usuarios de CDS**|Si está utilizando el modelo de propiedad de la persona, especifique si las cuentas de usuario de [!INCLUDE[d365fin](includes/d365fin_md.md)] deben tener cuentas de usuario coincidentes en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. El **correo electrónico de autenticación de Microsoft 365** del usuario de [!INCLUDE[d365fin](includes/d365fin_md.md)] debe coincidir con el **correo electrónico principal** del usuario de [!INCLUDE[crm_md](includes/crm_md.md)].<br /><br /> Si establece el valor en **Sí** , los usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] que no tienen una cuenta de usuario de [!INCLUDE[crm_md](includes/crm_md.md)] coincidente no tendrán capacidades de integración de [!INCLUDE[d365fin](includes/d365fin_md.md)] en la interfaz de usuario. El acceso a los datos de [!INCLUDE[crm_md](includes/crm_md.md)] directamente desde [!INCLUDE[d365fin](includes/d365fin_md.md)] se realiza en nombre de la cuenta de usuario de [!INCLUDE[crm_md](includes/crm_md.md)].<br /><br /> Si establece el valor en **No** , todos los usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] tendrán capacidades de integración de [!INCLUDE[crm_md](includes/crm_md.md)] en la interfaz de usuario. El acceso a los datos de [!INCLUDE[crm_md](includes/crm_md.md)] directamente se realiza en nombre de la cuenta de usuario de conexión (integración) de [!INCLUDE[crm_md](includes/crm_md.md)].|
     |**El vendedor de Business Central actual está asignado a un usuario**|Indica si la cuenta de usuario está asignada a una cuenta en [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field-->|
 
-4. Para probar la configuración de conexión, elija **Conexión** y luego **Probar conexión**.  
+4. Para probar la configuración de conexión, elija **Conexión** y luego **Probar conexión** .  
 
     > [!NOTE]  
-    > Si el cifrado de datos no se ha habilitado en [!INCLUDE[d365fin](includes/d365fin_md.md)], se le preguntará si desea habilitarlo. Si desea habilitar el cifrado de datos, seleccione **Sí** y proporcione la información necesaria. Si no, elija **No**. Puede habilitar el cifrado de datos más adelante. Para obtener más información, consulte [Cifrado de datos en Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) en la ayuda para desarrolladores y administradores.  
+    > Si el cifrado de datos no se ha habilitado en [!INCLUDE[d365fin](includes/d365fin_md.md)], se le preguntará si desea habilitarlo. Si desea habilitar el cifrado de datos, seleccione **Sí** y proporcione la información necesaria. Si no, elija **No** . Puede habilitar el cifrado de datos más adelante. Para obtener más información, consulte [Cifrado de datos en Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) en la ayuda para desarrolladores y administradores.  
 
-5. Si aún no está configurada la sincronización de [!INCLUDE[cds_long_md](includes/cds_long_md.md)], se le preguntará si desea utilizar la configuración de sincronización predeterminada. Dependiendo de si desea mantener los registros alineados en [!INCLUDE[cds_long_md](includes/cds_long_md.md)] y [!INCLUDE[d365fin](includes/d365fin_md.md)], elija **Sí** o **No**.
+5. Si aún no está configurada la sincronización de [!INCLUDE[cds_long_md](includes/cds_long_md.md)], se le preguntará si desea utilizar la configuración de sincronización predeterminada. Dependiendo de si desea mantener los registros alineados en [!INCLUDE[cds_long_md](includes/cds_long_md.md)] y [!INCLUDE[d365fin](includes/d365fin_md.md)], elija **Sí** o **No** .
 
 ## <a name="show-me-the-process"></a>Mostrar el proceso
 
@@ -88,7 +88,7 @@ El siguiente video muestra los pasos para conectarse a [!INCLUDE[d365fin](includ
 
 ## <a name="connecting-on-premises-versions"></a>Conexión a las versiones locales
 
-Para conectar [!INCLUDE[d365fin](includes/d365fin_md.md)] local a [!INCLUDE[cds_long_md](includes/cds_long_md.md)], debe especificar alguna información en la página **Configuración de la conexión de Common Data Service**.
+Para conectar [!INCLUDE[d365fin](includes/d365fin_md.md)] local a [!INCLUDE[cds_long_md](includes/cds_long_md.md)], debe especificar alguna información en la página **Configuración de la conexión de Common Data Service** .
 
 Si quiere conectarte usando una cuenta de Azure Active Directory (Azure AD), debe registrar una solicitud en Azure AD, y proporcionar el identificador de la aplicación, el secreto de Key Vault y redirigir a la URL que se va a utilizar. La URL de redireccionamiento se rellena previamente y debería funcionar para la mayoría de las instalaciones. Debe configurar su instalación para usar HTTPS. Para más información, vea [Configuración SSL para proteger la conexión del cliente web de Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Si está configurando su servidor para tener una página de inicio diferente, siempre puede cambiar la dirección URL. El secreto del cliente se guardará como una cadena encriptada en su base de datos.  
 
@@ -96,20 +96,20 @@ Si quiere conectarte usando una cuenta de Azure Active Directory (Azure AD), deb
 
 Se parte de la base que para los siguientes pasos está usando Azure AD para gestionar identidades y accesos. Para obtener más información sobre cómo registrar una aplicación en Azure AD, vea [Inicio rápido: Registrar una aplicación con la plataforma de identidad de Microsoft](/azure/active-directory/develop/quickstart-register-app). Si no usa Azure AD, vea [Usar otro servicio de administración de identidades y accesos](admin-how-to-set-up-a-dynamics-crm-connection.md#using-another-identity-and-access-management-service).  
 
-1. En el Portal de Azure, en **Administrar** en el oanel de navegación, elija **Autenticación**.  
-2. En **Redirigir URL**, agregue la URL de redireccionamiento que se sugiere en la página **Configuración de la conexión de Common Data Service** en [!INCLUDE[d365fin](includes/d365fin_md.md)].
-3. En **Administrar**, elija **Permisos de API**.
-4. En **Permisos configurados**, elija **Agregar un permiso**, y luego agregue permisos delegados en la pestaña **API de Microsoft** de la siguiente manera:
-    * Para Business Central, agregue el permiso **Financials.ReadWrite.All**.
-    * Para Dynamics CRM, agregue el permiso **person_impersonation**.  
+1. En el Portal de Azure, en **Administrar** en el oanel de navegación, elija **Autenticación** .  
+2. En **Redirigir URL** , agregue la URL de redireccionamiento que se sugiere en la página **Configuración de la conexión de Common Data Service** en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+3. En **Administrar** , elija **Permisos de API** .
+4. En **Permisos configurados** , elija **Agregar un permiso** , y luego agregue permisos delegados en la pestaña **API de Microsoft** de la siguiente manera:
+    * Para Business Central, agregue el permiso **Financials.ReadWrite.All** .
+    * Para Dynamics CRM, agregue el permiso **person_impersonation** .  
 
     > [!NOTE]
     > El nombre de la API de Dynamics CRM puede cambiar.
 
-5. En **Administrar**, elija **Certificados y secretos** y, luego, cree un nuevo secreto para la aplicación. Usará el secreto en [!INCLUDE[d365fin](includes/d365fin_md.md)], en el campo **Secreto del cliente** en la página **Configuración de la conexión Common Data Service** o lo almacenará en un almacenamiento seguro y lo proporcionará en un suscriptor de eventos como se describe anteriormente en este tema.
-6. Elija **Panorama** y luego encuentre el valor **Id. de la aplicación (cliente)**. Este es el identificador de cliente de su aplicación. Debe especificarlo en la página **Configuración de la conexión de Common Data Service** en el campo **Id. del cliente** o almacenarlo en un almacenamiento seguro y proporcionarlo en un suscriptor de eventos.
-7. En [!INCLUDE[d365fin](includes/d365fin_md.md)], en la página **Configuración de la conexión de Common Data Service**, en el campo **URL del entorno**, especifique la URL para su entorno de [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
-8. Para habilitar la conexión a [!INCLUDE[cds_long_md](includes/cds_long_md.md)], active el control de alternancia a **Habilitada**.
+5. En **Administrar** , elija **Certificados y secretos** y, luego, cree un nuevo secreto para la aplicación. Usará el secreto en [!INCLUDE[d365fin](includes/d365fin_md.md)], en el campo **Secreto del cliente** en la página **Configuración de la conexión Common Data Service** o lo almacenará en un almacenamiento seguro y lo proporcionará en un suscriptor de eventos como se describe anteriormente en este tema.
+6. Elija **Panorama** y luego encuentre el valor **Id. de la aplicación (cliente)** . Este es el identificador de cliente de su aplicación. Debe especificarlo en la página **Configuración de la conexión de Common Data Service** en el campo **Id. del cliente** o almacenarlo en un almacenamiento seguro y proporcionarlo en un suscriptor de eventos.
+7. En [!INCLUDE[d365fin](includes/d365fin_md.md)], en la página **Configuración de la conexión de Common Data Service** , en el campo **URL del entorno** , especifique la URL para su entorno de [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+8. Para habilitar la conexión a [!INCLUDE[cds_long_md](includes/cds_long_md.md)], active el control de alternancia a **Habilitada** .
 9. Inicie sesión con su cuenta de administrador para Azure Active Directory (esta cuenta debe tener una licencia válida para [!INCLUDE[cds_long_md](includes/cds_long_md.md)] y ser administrador en su entorno de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]). Después de iniciar sesión, se le pedirá que permita que su aplicación registrada inicie sesión en [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en nombre de la organización. Debe dar su consentimiento para completar la configuración.
 
    > [!NOTE]
@@ -122,7 +122,7 @@ Si no estas usando Azure Active Directory para administrar las identidades y el 
 ### <a name="to-disconnect-from-cds_long_md"></a>Para desconectar de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 1. Elija el icono de ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de conexión de CDS** y luego elija el enlace relacionado.
-2. En la página **Configuración de conexión de CDS**, desactive **Habilitado**.  
+2. En la página **Configuración de conexión de CDS** , desactive **Habilitado** .  
 
 ## <a name="see-also"></a>Consulte también
 

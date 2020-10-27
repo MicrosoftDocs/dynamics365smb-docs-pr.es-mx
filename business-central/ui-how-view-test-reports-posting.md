@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: e91332cd90ded6560f34bc2378eaf6e286b2eb43
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a2c8071abc075caf359d942da5a3638ef811d126
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195518"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925632"
 ---
 # <a name="view-test-reports-before-posting"></a>Ver informes de prueba antes de realizar el registro
 Cuando esté listo para registrar un documento, como una orden, una factura o una nota de crédito, puede probar el documento para asegurarse de que no hay problemas que vayan a bloquear el registro.
@@ -27,7 +27,7 @@ Cuando esté listo para registrar un documento, como una orden, una factura o un
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Para imprimir un test antes de registrar una factura de compra
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego seleccione el enlace relacionado.
 2. Abra la factura de compra que desee evaluar.
-3. Elija la acción **Informe de prueba**.  
+3. Elija la acción **Informe de prueba** .  
 
 Todas las partes de la factura de compra se prueban y el resultado se presenta en un informe. Si el informe indica errores o falta información, deberá solucionar el problema antes de registrar la factura de compra.
 

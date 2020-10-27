@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 41e0c3e93a2a778745ad70d2a1711c76f28ec091
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 85e27db78481e3e3cd9f8e8ef34eb26eee8b08f0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788936"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925908"
 ---
 # <a name="create-special-orders"></a>Crear pedidos especiales
 Se puede crear un pedido especial para un determinado producto del catálogo que se vaya a enviar a un cliente en particular. El proveedor envía el producto al almacén de su empresa y de allí se envía a su cliente sólo o con otros productos de otro pedido.  
@@ -26,22 +26,22 @@ Para utilizar esta función, primero debe tener configuradas las fichas de clien
 
 ## <a name="to-create-a-special-order"></a>Para crear un pedido especial  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedido de venta** y luego elija el enlace relacionado.  
-2. Seleccione la acción **Nuevo**. Cree un  pedido de venta del producto y rellénelo. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
-3.  En la ficha desplegable **Líneas**, rellene la línea de venta. En el campo **Cód. compra**, seleccione un código de compra que tenga el campo **Pedido especial** seleccionado.
+2. Seleccione la acción **Nuevo** . Cree un  pedido de venta del producto y rellénelo. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
+3.  En la ficha desplegable **Líneas** , rellene la línea de venta. En el campo **Cód. compra** , seleccione un código de compra que tenga el campo **Pedido especial** seleccionado.
 
     A continuación, cree un pedido de compra desde una hoja de demanda.  
 4. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de demanda** y luego elija el enlace relacionado.  
-5. Elija la acción **Pedido especial** y, a continuación, **Tomar pedidoS venta**.  
-6.  En la página **Traer pedidos venta**, se muestran resultados en los que **Nº documento** hace referencia al número del pedido de venta. Elija el botón **Aceptar**. Se crea una línea en la hoja de demanda para el producto.  
-7.  En el campo **Mensaje acción** de la línea de la hoja de demanda, seleccione **Nuevo**.  
-8.  En la página **Hoja de demanda**, elija la acción **Ejecutar mensajes de acción**. La página **Ejecutar mensajes acción - Dem.** se abrirá. Elija el botón **Aceptar**.  
+5. Elija la acción **Pedido especial** y, a continuación, **Tomar pedidoS venta** .  
+6.  En la página **Traer pedidos venta** , se muestran resultados en los que **Nº documento** hace referencia al número del pedido de venta. Elija el botón **Aceptar** . Se crea una línea en la hoja de demanda para el producto.  
+7.  En el campo **Mensaje acción** de la línea de la hoja de demanda, seleccione **Nuevo** .  
+8.  En la página **Hoja de demanda** , elija la acción **Ejecutar mensajes de acción** . La página **Ejecutar mensajes acción - Dem.** se abrirá. Elija el botón **Aceptar** .  
 
-    Aparece un mensaje para indicarle que se han creado los pedidos de compra. Elija el botón **Aceptar**.  
+    Aparece un mensaje para indicarle que se han creado los pedidos de compra. Elija el botón **Aceptar** .  
 
 El sistema de planificación respeta un pedido de compra que se crea como un pedido especial para un pedido de venta a medida que hace un balance de la oferta y la demanda. Es decir, el pedido de compra (suministro) permanece asociado al pedido de venta (demanda), aunque el pedido de compra pueda cubrir otra demanda anterior. Para obtener más información, consulte [Detalles de diseño: políticas de reorden](design-details-reservation-order-tracking-and-action-messaging.md).  
 
 > [!NOTE]  
->  No puede utilizar la funcionalidad de pedido especial si el artículo ya está reservado. Por lo tanto, para los artículos que se venden en pedidos especiales, asegúrese de que el campo **Reservar** de la ficha de producto no se establezca en **Siempre**.  
+>  No puede utilizar la funcionalidad de pedido especial si el artículo ya está reservado. Por lo tanto, para los artículos que se venden en pedidos especiales, asegúrese de que el campo **Reservar** de la ficha de producto no se establezca en **Siempre** .  
 
 ## <a name="see-also"></a>Consulte también  
 [Trabajar con productos del catálogo](inventory-how-work-nonstock-items.md)  

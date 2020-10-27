@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: acd08841a8fe26be7fcc3442a8453af4e0108c36
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4da0f30f47827515f8591802ce2ca49c245009ab
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782104"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922905"
 ---
 # <a name="import-multiple-item-pictures"></a>Importar varias imágenes de producto
 Puede importar varias imágenes de productos de una sola vez. Simplemente asigne a sus archivos de imagen nombres que correspondan a sus números de producto, comprímalos en un archivo ZIP y, a continuación, utilice la página **Importar imágenes de producto** para administrar las imágenes de artículo que desea importar.
@@ -32,19 +32,19 @@ Se admiten todos los formatos de archivo habituales.
     |1001|1001.bmp|
     |1002|1002.bmp|
 
-2. Reúna todos los archivos en un archivo ZIP. Por ejemplo, en el Explorador de Windows, seleccione los archivos y, a continuación, seleccione **Enviar a**, **Carpeta comprimida (zip)**.     
+2. Reúna todos los archivos en un archivo ZIP. Por ejemplo, en el Explorador de Windows, seleccione los archivos y, a continuación, seleccione **Enviar a** , **Carpeta comprimida (zip)** .     
 
 ## <a name="to-import-item-pictures"></a>Para importar imágenes de producto
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. existencias** y luego elija el enlace relacionado.
-2. Seleccione la acción **Importar imágenes de producto**.
-3. En el campo **Seleccionar un archivo ZIP**, seleccione la carpeta ZIP correspondiente y, a continuación, seleccione el botón **Abrir**.
+2. Seleccione la acción **Importar imágenes de producto** .
+3. En el campo **Seleccionar un archivo ZIP** , seleccione la carpeta ZIP correspondiente y, a continuación, seleccione el botón **Abrir** .
 
-    Se crea una línea para cada producto e imagen en la página **Importar imágenes de producto**.
+    Se crea una línea para cada producto e imagen en la página **Importar imágenes de producto** .
 
     > [!NOTE]
-    > Para las fichas de productos que ya tienen una imagen, la casilla **Ya existe la imagen** está seleccionada. Si no desea que se reemplace ninguna imagen existente, desactive la casilla **Reemplazar imágenes**. Si no desea que se reemplacen las imágenes individuales existentes, elimine las líneas en cuestión.
+    > Para las fichas de productos que ya tienen una imagen, la casilla **Ya existe la imagen** está seleccionada. Si no desea que se reemplace ninguna imagen existente, desactive la casilla **Reemplazar imágenes** . Si no desea que se reemplacen las imágenes individuales existentes, elimine las líneas en cuestión.
 
-3. Seleccione la acción **Importar imágenes**.
+3. Seleccione la acción **Importar imágenes** .
 
 El campo **Estado de importación** se actualiza para mostrar si la importación de imágenes se ha omitido o completado.       
 

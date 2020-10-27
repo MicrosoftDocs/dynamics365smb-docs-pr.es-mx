@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 45916dc92513a223ca74cb3d76629fb36b8afa39
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9ea6568f858dd154b7126f6444b45e4e548c6d18
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189518"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923356"
 ---
 # <a name="manage-notifications"></a>Administrar notificaciones
 
@@ -32,9 +32,9 @@ Además, algunas notificaciones le permiten especificar las condiciones en las q
 
 La activación o la desactivación de las notificaciones, y la especificación de las condiciones, solo se aplican a su caso.  
 
-1. En la esquina superior derecha, elija el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el Área de tareas") y, a continuación, elija la acción **Mi configuración**.  
-2. En la página **Mi configuración**, en el campo **Notificaciones**, elija el vínculo *Cambiar cuándo recibo notificaciones* .  
-3. En la página que aparece, active o desactive una notificación activando o desactivando la casilla **Habilitado**.  
+1. En la esquina superior derecha, elija el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el Área de tareas") y, a continuación, elija la acción **Mi configuración** .  
+2. En la página **Mi configuración** , en el campo **Notificaciones** , elija el vínculo *Cambiar cuándo recibo notificaciones* .  
+3. En la página que aparece, active o desactive una notificación activando o desactivando la casilla **Habilitado** .  
 4. Para especificar las condiciones que activan una notificación, seleccione el vínculo **Ver detalles de filtro** y rellene los campos.  
 
 ## <a name="see-also"></a>Consulte también
