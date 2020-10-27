@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3e25756cff974e0db835f5e3ed3247dff6d7624a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 67bae862e702bb2c0ca4798d9d3699b8419f823f
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780895"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968449"
 ---
 # <a name="register-new-customers"></a>Permite registrar nuevos clientes
 
@@ -35,16 +35,16 @@ Para registrar un cliente nueve, debe rellenar una ficha cliente. Puede establec
 ### <a name="to-create-a-new-customer-card"></a>Para crear una nueva ficha cliente.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
-2. En la página **Clientes**, seleccione la acción **Nuevo**.
+2. En la página **Clientes** , seleccione la acción **Nuevo** .
 
     Si solo existe una plantilla de cliente, una nueva ficha de cliente se abre con algunos campos rellenados con la información de la plantilla.
 
     Si existe más de una plantilla de cliente, se abre una página desde la que puede seleccionar una plantilla de cliente. En ese caso, siga los dos pasos siguientes.
-3. En la página **Seleccionar una plantilla para un cliente nuevo**, seleccione la plantilla que quiere usar para la nueva ficha de cliente.
-4. Elija el botón **Aceptar**. Una nueva ficha de cliente se abre con algunos campos completados con la información de la plantilla.  
+3. En la página **Seleccionar una plantilla para un cliente nuevo** , seleccione la plantilla que quiere usar para la nueva ficha de cliente.
+4. Elija el botón **Aceptar** . Una nueva ficha de cliente se abre con algunos campos completados con la información de la plantilla.  
 5. Empiece a rellenar o cambiar campos en la ficha de cliente según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-En la ficha desplegable **Precios venta y descuentos línea ventas**, puede observar los precios especiales o los descuentos que concede al cliente si se cumplen determinados criterios, como, por ejemplo, el producto, la cantidad de orden mínima o la fecha final. Cada fila representa un precio especial o un descuento de línea. Cada columna representa un criterio aplicable para autorizar el precio especial que se introduzca en el campo **Precio unitario**, o el descuento de línea que se introduzca en el campo **% Descuento línea**. Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
+En la ficha desplegable **Precios venta y descuentos línea ventas** , puede observar los precios especiales o los descuentos que concede al cliente si se cumplen determinados criterios, como, por ejemplo, el producto, la cantidad de orden mínima o la fecha final. Cada fila representa un precio especial o un descuento de línea. Cada columna representa un criterio aplicable para autorizar el precio especial que se introduzca en el campo **Precio unitario** , o el descuento de línea que se introduzca en el campo **% Descuento línea** . Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
 
 El cliente estará registrado y la ficha de cliente está lista para usarse en los documentos de venta.
 
@@ -52,17 +52,17 @@ Si desea usar esta ficha de cliente como plantilla cuando cree nuevas fichas de 
 
 ### <a name="to-save-the-customer-card-as-a-template"></a>Para guardar la ficha de cliente como una plantilla
 
-1. En la página **Ficha cliente**, seleccione la acción **Guardar como plantilla**. La página **Plantilla cliente** se abre mostrando la ficha de cliente como plantilla.
+1. En la página **Ficha cliente** , seleccione la acción **Guardar como plantilla** . La página **Plantilla cliente** se abre mostrando la ficha de cliente como plantilla.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Para volver a usar dimensiones en las plantillas, seleccione la acción **Dimensiones**. La página **Plantilla de dimensiones** se abre mostrando los códigos de dimensión configurados para el cliente.
+3. Para volver a usar dimensiones en las plantillas, seleccione la acción **Dimensiones** . La página **Plantilla de dimensiones** se abre mostrando los códigos de dimensión configurados para el cliente.
 4. Modifique o introduzca los códigos de dimensión que se aplicarán a nuevas fichas de cliente creadas con la plantilla.  
-5. Cuando haya completado la nueva plantilla de cliente, seleccione el botón de **Aceptar**.
+5. Cuando haya completado la nueva plantilla de cliente, seleccione el botón de **Aceptar** .
 
 La plantilla de cliente se agrega a la lista de plantillas de cliente, de modo que puede usarla para crear nuevas fichas de cliente.
 
 ## <a name="deleting-customer-cards"></a>Eliminar fichas cliente
 
-Si ha publicado una transacción para un cliente, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la auditoría. Para eliminar fichas cliente con movimientos, póngase en contacto con el socio de Microsoft para hacerlo a través del código.  
+Si ha publicado una transacción para un cliente, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la auditoría. Para eliminar fichas de cliente con movimientos, póngase en contacto con su socio de Microsoft para hacerlo mediante código.  
 
 ## <a name="see-also"></a>Consulte también
 

@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 41281996dccf0c3ee142c063ad56c782dab49230
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: d040507dad53ad6e9ba5407dcf457e04afa751c7
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528749"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970450"
 ---
 # <a name="getting-started-with-d365fin_long"></a>Introducción a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Registrarse es muy fácil y puede migrar los datos de la empresa existentes desde su sistema de herencia.  
@@ -38,10 +38,10 @@ En la empresa de demostración, el administrador de negocio y las Áreas de tare
 
 Cuando esté preparado para empezar a trabajar y desee examinar algunos de los procesos empresariales que admite [!INCLUDE[d365fin](includes/d365fin_md.md)], vea [Funciones empresariales](across-business-functionality.md).
 
-Para poder empezar a utilizar la funcionalidad, se debe realizar cierta configuración. Para empezar, simplemente elija el icono ![Icono de rueda dentada para abrir el menú Configuración](media/ui-experience/settings_icon_small.png) y luego la acción **Configuración asistida**. Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Para poder empezar a utilizar la funcionalidad, se debe realizar cierta configuración. Para empezar, simplemente elija el icono ![Icono de rueda dentada para abrir el menú Configuración](media/ui-experience/settings_icon_small.png) y luego la acción **Configuración asistida** . Para obtener más información, consulte también [Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!TIP]
-> Algunos pasos de configuración se pueden realizar de forma semiautomática utilizando guías de configuración asistida. Otros requieren configuración manual y puede encontrar una lista en la página **Ajustes avanzados**.
+> Algunos pasos de configuración se pueden realizar de forma semiautomática utilizando guías de configuración asistida. Otros requieren configuración manual y puede encontrar una lista en la página **Ajustes avanzados** .
 
 <!--Some Role Center pages provide a **Setup and Extensions** button. Here you have access to a list of assisted setup guides that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
@@ -56,7 +56,7 @@ La página Área de tareas se basa un diseño basado en roles para ofrecerle acc
 ## <a name="trying-things-out-in-your-own-company"></a>Probar cosas en su empresa
 ¿Está pensando en suscribirse? Puede cambiar fácilmente de la empresa de demostración y crear y trabajar en una empresa que desee. Es una forma excelente de cambiar a una suscripción. Se proporcionan configuraciones para finanzas, solo necesita crear o importar clientes, proveedores y los productos o servicios que vende. Después, podrá registrar facturas y usar las herramientas de inteligencia empresarial para analizar la empresa. Puede usar su empresa gratis durante un periodo de prueba de 30 días. Si se suscribe a [!INCLUDE[d365fin](includes/d365fin_md.md)] durante a ese tiempo, ya estará preparado para empezar. Puede seguir con el trabajo que realizó durante la prueba.  
 
-Para crear una empresa para probar cosas, vaya al menú **Mi configuración** en la esquina superior derecha y cambie a **Mi empresa**. Cierre la sesión de [!INCLUDE[d365fin](includes/d365fin_md.md)] y vuelva a iniciarla para aplicar el cambio. Una guía de configuración asistida le ayudará a proporcionar información básica acerca de la empresa. Una vez haya terminado, explore el Área de tareas y busque la acción **Configuración asistida**.  
+Para crear una empresa para probar cosas, vaya al menú **Mi configuración** en la esquina superior derecha y cambie a **Mi empresa** . Cierre la sesión de [!INCLUDE[d365fin](includes/d365fin_md.md)] y vuelva a iniciarla para aplicar el cambio. Una guía de configuración asistida le ayudará a proporcionar información básica acerca de la empresa. Una vez haya terminado, explore el Área de tareas y busque la acción **Configuración asistida** .  
 
 También puede ponerse en contacto con un socio distribuidor de Dynamics 365. Para obtener más información, vea [¿Cómo encuentro un socio distribuidor?](across-faq.md#findpartner)  
 
@@ -64,7 +64,7 @@ También puede ponerse en contacto con un socio distribuidor de Dynamics 365. Pa
 
 Si no está seguro de cómo hacer algo en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede encontrar la respuesta leyendo la información sobre herramientas en el campo del que no está seguro o leyendo el contenido en el enlace *Más información* en la información sobre herramientas (use el método abreviado de teclado Ctrl+F1). También puede acceder a la documentación seleccionando el enlace relacionado en la [página Ayuda y soporte técnico](product-help-and-support.md).  
 
-Todos los campos en [!INCLUDE[d365fin](includes/d365fin_md.md)] se describen en la información sobre herramientas. Puede acceder a la información sobre herramientas eligiendo el nombre del campo. Por ejemplo, en una página como la **Tarjeta de cliente**, simplemente elija el nombre del campo para leer la información sobre herramientas. En una lista como la lista **Clientes**, o las líneas en un documento como un pedido de cliente, debe elegir el menú desplegable a la derecha del nombre de la columna y luego elegir la opción del menú **¿Qué es esto?**.  
+Todos los campos en [!INCLUDE[d365fin](includes/d365fin_md.md)] se describen en la información sobre herramientas. Puede acceder a la información sobre herramientas eligiendo el nombre del campo. Por ejemplo, en una página como la **Tarjeta de cliente** , simplemente elija el nombre del campo para leer la información sobre herramientas. En una lista como la lista **Clientes** , o las líneas en un documento como un pedido de cliente, debe elegir el menú desplegable a la derecha del nombre de la columna y luego elegir la opción del menú **¿Qué es esto?** .  
 
 Si tiene preguntas adicionales, le recomendamos que pregunte a la comunidad o contacte a su socio de reventa. Para obtener más información, consulte [¿Adónde me dirijo si tengo preguntas?](across-faq.md#where-do-i-go-if-i-have-questions).  
 
@@ -74,8 +74,6 @@ Cada vez que inicie sesión durante el periodo de prueba, una notificación en u
 
 ## <a name="other-dynamics-365-apps"></a>Más aplicaciones de Dynamics 365
 Navegue para obtener información sobre otras aplicaciones de Dynamics 365 en el vínculo [Dynamics 365](/dynamics365/) del anuncio de color negro que aparece en la parte superior de esta página. También puede obtener más información en el [sitio web de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/overview/).  
-
-<!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
 
