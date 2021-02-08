@@ -7,43 +7,43 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 544f62fc71bf5e17225ad4afd20ef557b2b39610
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3b2ebe6cec764e3ce0b430a2b2ca8cd66d5e05eb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919927"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747469"
 ---
-# <a name="mexico-local-functionality"></a><span data-ttu-id="2d781-103">Funcionalidad local de México</span><span class="sxs-lookup"><span data-stu-id="2d781-103">Mexico Local Functionality</span></span>
+# <a name="mexico-local-functionality"></a><span data-ttu-id="f8b19-103">Funcionalidad local de México</span><span class="sxs-lookup"><span data-stu-id="f8b19-103">Mexico Local Functionality</span></span>
 
-<span data-ttu-id="2d781-104">En los temas siguientes se describe la funcionalidad local que es exclusiva de la versión mexicana de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="2d781-104">The following topics describe local functionality that is unique to the Mexican version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span></span>  
+<span data-ttu-id="f8b19-104">En los temas siguientes se describe la funcionalidad local que es exclusiva de la versión mexicana de [!INCLUDE[prod_short](../../includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="f8b19-104">The following topics describe local functionality that is unique to the Mexican version of [!INCLUDE[prod_short](../../includes/prod_short.md)].</span></span>  
 
-## <a name="feature-availability"></a><span data-ttu-id="2d781-105">Disponibilidad de la característica</span><span class="sxs-lookup"><span data-stu-id="2d781-105">Feature Availability</span></span>  
+## <a name="feature-availability"></a><span data-ttu-id="f8b19-105">Disponibilidad de la característica</span><span class="sxs-lookup"><span data-stu-id="f8b19-105">Feature Availability</span></span>  
 
-* <span data-ttu-id="2d781-106">Tributos</span><span class="sxs-lookup"><span data-stu-id="2d781-106">Tax</span></span>
-    * <span data-ttu-id="2d781-107">[Configurar y generar informes DIOT](ui-extensions-setup-and-generate-diot-report-mx.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="2d781-107">[Set Up and Generate DIOT Reports](ui-extensions-setup-and-generate-diot-report-mx.md) **Available Now**</span></span>
-    * <span data-ttu-id="2d781-108">[Impuesto sobre las ventas en México](mexico-sales-tax.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="2d781-108">[Mexico Sales Tax](mexico-sales-tax.md) **Available Now**</span></span>
-    * <span data-ttu-id="2d781-109">[Configurar impuesto sobre servicios e impuesto a las compras](how-to-set-up-use-tax-and-purchase-tax.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="2d781-109">[Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md) **Available Now**</span></span>
-    * <span data-ttu-id="2d781-110">[Configurar el impuesto sobre las ventas no realizado y los descuentos por pago de ventas](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="2d781-110">[Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Available Now**</span></span>
-    * <span data-ttu-id="2d781-111">[Generación de informes de impuesto sobre las ventas en México](mexico-sales-tax.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="2d781-111">[Reporting Sales Tax in Mexico](mexico-sales-tax.md) **Available Now**</span></span>
-    * <span data-ttu-id="2d781-112">[Crear depósitos](how-to-create-deposits.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="2d781-112">[Create Deposits](how-to-create-deposits.md) **Available Now**</span></span>
-    * <span data-ttu-id="2d781-113">[Tipos identificación de impuestos para México](tax-identification-types-for-mexico.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="2d781-113">[Tax Identification Types for Mexico](tax-identification-types-for-mexico.md) **Available Now**</span></span>
-    * <span data-ttu-id="2d781-114">[Recálculo del IVA](vat-recalculation.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="2d781-114">[VAT Recalculation](vat-recalculation.md) **Available Now**</span></span>
+* <span data-ttu-id="f8b19-106">Tributos</span><span class="sxs-lookup"><span data-stu-id="f8b19-106">Tax</span></span>
+    * <span data-ttu-id="f8b19-107">[Configurar y generar informes DIOT](ui-extensions-setup-and-generate-diot-report-mx.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="f8b19-107">[Set Up and Generate DIOT Reports](ui-extensions-setup-and-generate-diot-report-mx.md) **Available Now**</span></span>
+    * <span data-ttu-id="f8b19-108">[Impuesto sobre las ventas en México](mexico-sales-tax.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="f8b19-108">[Mexico Sales Tax](mexico-sales-tax.md) **Available Now**</span></span>
+    * <span data-ttu-id="f8b19-109">[Configurar impuesto sobre servicios e impuesto a las compras](how-to-set-up-use-tax-and-purchase-tax.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="f8b19-109">[Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md) **Available Now**</span></span>
+    * <span data-ttu-id="f8b19-110">[Configurar el impuesto sobre las ventas no realizado y los descuentos por pago de ventas](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="f8b19-110">[Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Available Now**</span></span>
+    * <span data-ttu-id="f8b19-111">[Generación de informes de impuesto sobre las ventas en México](mexico-sales-tax.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="f8b19-111">[Reporting Sales Tax in Mexico](mexico-sales-tax.md) **Available Now**</span></span>
+    * <span data-ttu-id="f8b19-112">[Crear depósitos](how-to-create-deposits.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="f8b19-112">[Create Deposits](how-to-create-deposits.md) **Available Now**</span></span>
+    * <span data-ttu-id="f8b19-113">[Tipos identificación de impuestos para México](tax-identification-types-for-mexico.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="f8b19-113">[Tax Identification Types for Mexico](tax-identification-types-for-mexico.md) **Available Now**</span></span>
+    * <span data-ttu-id="f8b19-114">[Recálculo del IVA](vat-recalculation.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="f8b19-114">[VAT Recalculation](vat-recalculation.md) **Available Now**</span></span>
 
-* <span data-ttu-id="2d781-115">Factura electrónica</span><span class="sxs-lookup"><span data-stu-id="2d781-115">Electronic Invoicing</span></span>
-    * <span data-ttu-id="2d781-116">[Facturación electrónica](electronic-invoicing.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="2d781-116">[Electronic Invoicing](electronic-invoicing.md) **Available Now**</span></span>
-    * <span data-ttu-id="2d781-117">[Configurar la facturación electrónica](how-to-set-up-electronic-invoicing.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="2d781-117">[Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md) **Available Now**</span></span>
-    * <span data-ttu-id="2d781-118">[Generar facturas electrónicas](how-to-generate-electronic-invoices.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="2d781-118">[Generate Electronic Invoices](how-to-generate-electronic-invoices.md) **Available Now**</span></span>
-    * <span data-ttu-id="2d781-119">[Regulaciones de la contabilidad electrónica en México](electronic-accounting-regulations.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="2d781-119">[Electronic Accounting Regulations in Mexico](electronic-accounting-regulations.md) **Available Now**</span></span>
-    * <span data-ttu-id="2d781-120">[Realizar pagos electrónicos](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="2d781-120">[Make Electronic Payments](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file) **Available Now**</span></span>
+* <span data-ttu-id="f8b19-115">Factura electrónica</span><span class="sxs-lookup"><span data-stu-id="f8b19-115">Electronic Invoicing</span></span>
+    * <span data-ttu-id="f8b19-116">[Facturación electrónica](electronic-invoicing.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="f8b19-116">[Electronic Invoicing](electronic-invoicing.md) **Available Now**</span></span>
+    * <span data-ttu-id="f8b19-117">[Configurar la facturación electrónica](how-to-set-up-electronic-invoicing.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="f8b19-117">[Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md) **Available Now**</span></span>
+    * <span data-ttu-id="f8b19-118">[Generar facturas electrónicas](how-to-generate-electronic-invoices.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="f8b19-118">[Generate Electronic Invoices](how-to-generate-electronic-invoices.md) **Available Now**</span></span>
+    * <span data-ttu-id="f8b19-119">[Regulaciones de la contabilidad electrónica en México](electronic-accounting-regulations.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="f8b19-119">[Electronic Accounting Regulations in Mexico](electronic-accounting-regulations.md) **Available Now**</span></span>
+    * <span data-ttu-id="f8b19-120">[Realizar pagos electrónicos](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="f8b19-120">[Make Electronic Payments](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file) **Available Now**</span></span>
 
-* <span data-ttu-id="2d781-121">General</span><span class="sxs-lookup"><span data-stu-id="2d781-121">General</span></span>
-    * <span data-ttu-id="2d781-122">[Configurar servicios web PAC](how-to-set-up-pac-web-services.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="2d781-122">[Set Up PAC Web Services](how-to-set-up-pac-web-services.md) **Available Now**</span></span>
-    * <span data-ttu-id="2d781-123">[Imprimir informes de solución de problemas](how-to-print-troubleshooting-reports.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="2d781-123">[Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md) **Available Now**</span></span>
+* <span data-ttu-id="f8b19-121">General</span><span class="sxs-lookup"><span data-stu-id="f8b19-121">General</span></span>
+    * <span data-ttu-id="f8b19-122">[Configurar servicios web PAC](how-to-set-up-pac-web-services.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="f8b19-122">[Set Up PAC Web Services](how-to-set-up-pac-web-services.md) **Available Now**</span></span>
+    * <span data-ttu-id="f8b19-123">[Imprimir informes de solución de problemas](how-to-print-troubleshooting-reports.md) **Disponible ahora**</span><span class="sxs-lookup"><span data-stu-id="f8b19-123">[Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md) **Available Now**</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="2d781-124">Consulte también</span><span class="sxs-lookup"><span data-stu-id="2d781-124">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f8b19-124">Consulte también</span><span class="sxs-lookup"><span data-stu-id="f8b19-124">See Also</span></span>
 
-<span data-ttu-id="2d781-125">[Trabajar con [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2d781-125">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>  
-[<span data-ttu-id="2d781-126">Disponibilidad nacional/regional e idiomas admitidos</span><span class="sxs-lookup"><span data-stu-id="2d781-126">Country/regional availability and supported languages</span></span>](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+<span data-ttu-id="f8b19-125">[Trabajar con [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="f8b19-125">[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)</span></span>  
+[<span data-ttu-id="f8b19-126">Disponibilidad nacional/regional e idiomas admitidos</span><span class="sxs-lookup"><span data-stu-id="f8b19-126">Country/regional availability and supported languages</span></span>](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
