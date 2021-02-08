@@ -10,16 +10,16 @@ ms.workload: na
 ms. search.keywords: extension, diot, authorities, export, compliance
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 77ddb3548bb9955d76321f9e2daa0f4be186be36
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8f7d7c5a340a1a0026c172985886e233ca42392d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919923"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752493"
 ---
 # <a name="set-up-and-generate-diot-reports"></a>Configurar y generar informes DIOT
 
-Al ser una empresa en México, debe informar sobre el IVA de las compras de los proveedores a la autoridad del gobierno mexicano: SAT (Servicio de Administración Tributaria). Esto se puede hacer en [!INCLUDE[d365fin](../../includes/d365fin_md.md)] mediante la generación de un archivo que puede cargarse al SAT. En este tema se describe cómo instalar la funcionalidad y generar el informe. La funcionalidad de informe DIOT (Declaración Informativa de Operaciones con Terceros) se ha creado como una extensión (aplicación) para [!INCLUDE[d365fin](../../includes/d365fin_md.md)] y está preinstalada en la versión en línea, pero debe instalarse manualmente en la versión local de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+Al ser una empresa en México, debe informar sobre el IVA de las compras de los proveedores a la autoridad del gobierno mexicano: SAT (Servicio de Administración Tributaria). Esto se puede hacer en [!INCLUDE[prod_short](../../includes/prod_short.md)] mediante la generación de un archivo que puede cargarse al SAT. En este tema se describe cómo instalar la funcionalidad y generar el informe. La funcionalidad de informe DIOT (Declaración Informativa de Operaciones con Terceros) se ha creado como una extensión (aplicación) para [!INCLUDE[prod_short](../../includes/prod_short.md)] y está preinstalada en la versión en línea, pero debe instalarse manualmente en la versión local de [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 ## <a name="what-does-this-extensions-handle"></a>¿Qué es lo que manejan estas extensiones?
 La extensión proporciona las siguientes capacidades:
@@ -28,9 +28,9 @@ La extensión proporciona las siguientes capacidades:
 * Exportar el informe DIOT para que pueda ser cargado a las autoridades
 
 ## <a name="setup-of-the-mexican-diot-extension"></a>Configuración de la Extensión DIOT mexicana
-La extensión DIOT se configura a través de la función de Configuración Asistida, que proporciona una guía fácil, paso a paso, para empezar a utilizar las DIOT en [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. En caso sea necesario, puede ejecutar la guía varias veces hasta que se complete la configuración.
+La extensión DIOT se configura a través de la función de Configuración Asistida, que proporciona una guía fácil, paso a paso, para empezar a utilizar las DIOT en [!INCLUDE[prod_short](../../includes/prod_short.md)]. En caso sea necesario, puede ejecutar la guía varias veces hasta que se complete la configuración.
 
-1. En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración asistida** y luego elija el enlace relacionado.  
+1. En [!INCLUDE[prod_short](../../includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración asistida** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Configurar DIOT**.
 3. La primera página de la guía de configuración explica lo que está a punto de configurar. Elija el botón **Siguiente**.
 4. En el campo **Tipo de operación predeterminada de DIOT de proveedor**, seleccione la clase de operación por defecto que desea configurar en los proveedores del sistema.
@@ -53,7 +53,7 @@ La extensión DIOT se configura a través de la función de Configuración Asist
 9. Elija el botón **Terminar**.
 
 ## <a name="optional-setup-for-reporting-witholding-tax-with-the-diot-extension"></a>Configuración opcional para la generación de informes de retención de impuestos con la extensión de DIOT
-El informe de DIOT exporta datos que incluyen importes de retención de impuestos para transacciones de proveedores. El cálculo de la retención de impuestos no se admite actualmente en la versión mexicana de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Para evitarlo, se pueden contabilizar líneas adicionales en una cuenta mayor predefinida. La extensión de DIOT admite la generación de informes de datos de retención de impuestos de la siguiente manera:
+El informe de DIOT exporta datos que incluyen importes de retención de impuestos para transacciones de proveedores. El cálculo de la retención de impuestos no se admite actualmente en la versión mexicana de [!INCLUDE[prod_short](../../includes/prod_short.md)]. Para evitarlo, se pueden contabilizar líneas adicionales en una cuenta mayor predefinida. La extensión de DIOT admite la generación de informes de datos de retención de impuestos de la siguiente manera:
 
 La tabla **Configuración de la contabilización del IVA** tiene un nuevo campo **% DE RET. DE DIOT**. Al configurar este campo en un valor distinto de cero, usted indica que todas las entradas contabilizadas con esta configuración deben considerarse como si se hubieran contabilizado con ese importe de IVA retenido.
 
@@ -71,5 +71,5 @@ Este campo únicamente afectará a los cálculos del informe DIOT y no a la cont
 Cuando el informe se ejecute sin errores, se le pedirá que guarde el archivo **Diot.txt**, que luego puede enviar a las autoridades.
 
 ## <a name="see-also"></a>Consulte también
-[Personalizar [!INCLUDE[d365fin](../../includes/d365fin_md.md)] con extensiones](../../ui-extensions.md)  
+[Personalizar [!INCLUDE[prod_short](../../includes/prod_short.md)] con extensiones](../../ui-extensions.md)  
 [Introducción](../../product-get-started.md)
