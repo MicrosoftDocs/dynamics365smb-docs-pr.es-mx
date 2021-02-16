@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 20dd616b52c1d6752d8aeeeb7c95e9d4f814b9a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 51f60e938ddb8ffd53b37b5664cf6e1ba8ba396f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920958"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751791"
 ---
 # <a name="design-details-cost-adjustment"></a>Detalles de diseño: Ajuste de costo
 
@@ -27,7 +27,7 @@ A continuación, se indican los propósitos, o funciones, secundarios del ajuste
 
 * Facture las órdenes de producción terminadas:  
 
-  * Cambiar el estado de registros de valor de **Previsto** a **Real** .  
+  * Cambiar el estado de registros de valor de **Previsto** a **Real**.  
   * Borrar cuentas WIP. Para obtener más información, consulte [Detalles de diseño: Registro de órdenes de producción](design-details-production-order-posting.md).  
   * Registrar desviación. Para obtener más información, consulte [Detalles de diseño: Desviación](design-details-variance.md).  
   * Actualice el costo unitario que aparece en la ficha del producto.  
@@ -36,9 +36,9 @@ Los costes de inventario deben ajustarse antes de que los movimientos de valores
 
 ## <a name="detecting-the-adjustment"></a>Detección del ajuste
 
-La tarea de detectar si se debe producir un ajuste del costo la lleva a cabo principalmente la rutina Diario de productos - Línea de registro, mientras que la tarea de calcular y generar los movimientos de ajuste de costo la realiza el proceso **Valorar existencias - movs. producto** .  
+La tarea de detectar si se debe producir un ajuste del costo la lleva a cabo principalmente la rutina Diario de productos - Línea de registro, mientras que la tarea de calcular y generar los movimientos de ajuste de costo la realiza el proceso **Valorar existencias - movs. producto**.  
 
-Para poder desviar costes, el mecanismo de detección determina qué orígenes han cambiado en los costes y a qué destino se deben desviar dichos costes. Las tres funciones de detección siguientes existen en [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Para poder desviar costes, el mecanismo de detección determina qué orígenes han cambiado en los costes y a qué destino se deben desviar dichos costes. Las tres funciones de detección siguientes existen en [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 * Liq. mov. producto  
 * Punto de movimiento de ajuste de costo promedio  
@@ -49,7 +49,7 @@ Para poder desviar costes, el mecanismo de detección determina qué orígenes h
 Esta función de detección se usa para los productos que usan las valoraciones de existencias FIFO, LIFO, Estándar y Específica, y para los escenarios de liquidaciones fijas. La función funciona de la forma siguiente:  
 
 * El ajuste de costos se detecta al marcar los movimientos de producto de origen como *Mov. aplicado a ajustar* cada vez que se registra un movimiento de producto o de valor.  
-* El costo se desvía según los encadenamientos de costo registrados en la tabla **Liq. mov. producto** .  
+* El costo se desvía según los encadenamientos de costo registrados en la tabla **Liq. mov. producto**.  
 
 ### <a name="average-cost-adjustment-entry-point"></a>Punto de movimiento de ajuste de costo promedio
 
@@ -75,27 +75,27 @@ Para obtener más información, consulte [Detalles de diseño: Registro de pedid
 
 El ajuste del costo se puede realizar de dos formas:  
 
-* Esto se hace manualmente ejecutando el proceso **Valorar existencias - movs. producto** . Puede ejecutar este proceso para todos los productos o solo para determinados productos o categorías de productos. Este proceso ejecuta un ajuste de costo de los productos en inventario para los que se ha realizado una transacción de entrada, como una compra. En el caso de productos que utilizan el método de coste Promedio, el trabajo por lotes también hace un ajuste si se crean transacciones de salida.  
-* Automáticamente, ajustando los costes cada vez que se registra una transacción de inventario y cuando se termina una orden de producción. El ajuste de costo solo se ejecuta para el producto o productos específicos afectados por el registro. Se configura al seleccionar la casilla **Ajuste automático del costo** en la página **Configuración de inventario** .  
+* Esto se hace manualmente ejecutando el proceso **Valorar existencias - movs. producto**. Puede ejecutar este proceso para todos los productos o solo para determinados productos o categorías de productos. Este proceso ejecuta un ajuste de costo de los productos en inventario para los que se ha realizado una transacción de entrada, como una compra. En el caso de productos que utilizan el método de coste Promedio, el trabajo por lotes también hace un ajuste si se crean transacciones de salida.  
+* Automáticamente, ajustando los costes cada vez que se registra una transacción de inventario y cuando se termina una orden de producción. El ajuste de costo solo se ejecuta para el producto o productos específicos afectados por el registro. Se configura al seleccionar la casilla **Ajuste automático del costo** en la página **Configuración de inventario**.  
 
 Es buena práctica ejecutar el ajuste del costo automáticamente cuando se registra, ya que los costos unitarios se actualizan con más frecuencia y por tanto son más exactos. La desventaja es que se puede ver afectado el rendimiento de la base de datos al ejecutar el ajuste de costo con tanta frecuencia.  
 
 Dado que es importante mantener el costo unitario de un producto actualizado, se recomienda ejecutar el proceso **Valorar existencias - movs. producto** tan a menudo como sea posible, durante horas no laborables. También puede utilizar un ajuste automático del costo. De este modo se garantiza que el costo unitario se actualiza diariamente para los productos.  
 
-Independientemente de si ejecuta el ajuste de costos manual o automáticamente, el proceso de ajuste y sus consecuencias son los mismos. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula el valor de la transacción de entrada y desvía ese costo a cualquier transacción de salida, como ventas o consumos, que se hayan aplicado a la transacción de entrada. El ajuste de costo crea movimientos de valoración que contienen importes de ajuste e importes que compensan el redondeo.  
+Independientemente de si ejecuta el ajuste de costos manual o automáticamente, el proceso de ajuste y sus consecuencias son los mismos. [!INCLUDE[prod_short](includes/prod_short.md)] calcula el valor de la transacción de entrada y desvía ese costo a cualquier transacción de salida, como ventas o consumos, que se hayan aplicado a la transacción de entrada. El ajuste de costo crea movimientos de valoración que contienen importes de ajuste e importes que compensan el redondeo.  
 
-Los movimientos de nuevo ajuste y de valor de redondeo tienen la fecha de registro de la factura relacionada. Las excepciones son si los movimientos de valor entran en un periodo contable o un periodo de inventario cerrado o si la fecha de registro es anterior a la del campo **Permitir registro desde** en la página **Configuración de contabilidad** . Cuando esto se produce, el trabajo por lotes asigna la fecha de registro como la primera fecha del periodo abierto siguiente.  
+Los movimientos de nuevo ajuste y de valor de redondeo tienen la fecha de registro de la factura relacionada. Las excepciones son si los movimientos de valor entran en un periodo contable o un periodo de inventario cerrado o si la fecha de registro es anterior a la del campo **Permitir registro desde** en la página **Configuración de contabilidad**. Cuando esto se produce, el trabajo por lotes asigna la fecha de registro como la primera fecha del periodo abierto siguiente.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Proceso Valorar existencias - movs. producto
 
-Al ejecutar el proceso **Valorar existencias - movs. producto** , tiene la opción de ejecutar el proceso para todos los productos o solo para determinados productos o categorías.  
+Al ejecutar el proceso **Valorar existencias - movs. producto**, tiene la opción de ejecutar el proceso para todos los productos o solo para determinados productos o categorías.  
 
 > [!NOTE]  
 > Se recomienda ejecutar siempre el proceso para todos los productos y usar solo la opción de filtrado para reducir el tiempo de ejecución del proceso o para corregir el costo de un determinado artículo.  
 
 ### <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se muestra si registra un producto comprado como recibido y facturado en 01-01-20. Después, registra el producto vendido como enviado y facturado el 15-01-20. A continuación, ejecute los procesos **Valorar existencias - movs. producto** y **Reg. var. inventario en cont.** . Se crean los siguientes registros:  
+En el ejemplo siguiente se muestra si registra un producto comprado como recibido y facturado en 01-01-20. Después, registra el producto vendido como enviado y facturado el 15-01-20. A continuación, ejecute los procesos **Valorar existencias - movs. producto** y **Reg. var. inventario en cont.**. Se crean los siguientes registros:  
 
 #### <a name="value-entries-1"></a>Movimientos de valor (1) 
 
@@ -122,7 +122,7 @@ En el ejemplo siguiente se muestra si registra un producto comprado como recibid
 |15-01-20|[Cuenta de inventario]|2130|-10,00|3|  
 |15-01-20|[Cuenta de CV]|7290|10.00|4|  
 
-Más tarde, se registra un cargo de producto de compra de 2,00 $ facturado en 10-02-20. Ejecute el proceso **Valorar existencias - movs. producto** y, a continuación, **Reg. var. inventario en cont.** . El proceso de ajuste del costo ajusta el costo de la venta en 2,00 $ y el proceso **Reg. var. inventario en cont.** registra los nuevos movimientos de valoración en la contabilidad. El resultado es el siguiente.  
+Más tarde, se registra un cargo de producto de compra de 2,00 $ facturado en 10-02-20. Ejecute el proceso **Valorar existencias - movs. producto** y, a continuación, **Reg. var. inventario en cont.**. El proceso de ajuste del costo ajusta el costo de la venta en 2,00 $ y el proceso **Reg. var. inventario en cont.** registra los nuevos movimientos de valoración en la contabilidad. El resultado es el siguiente.  
 
 #### <a name="value-entries-2"></a>Movimientos de valor (2)  
 
@@ -151,7 +151,7 @@ Más tarde, se registra un cargo de producto de compra de 2,00 $ facturado en 10
 
 ## <a name="automatic-cost-adjustment"></a>Ajuste automático del costo
 
-Para configurar que el ajuste de costo se ejecute automáticamente al registrar una transacción de inventario, utilice el campo **Ajuste automático del costo** en la página **Configuración de inventario** . Este campo le permite seleccionar hasta qué punto en el pasado a partir de la fecha de trabajo actual desea que se realice el ajuste automático del costo. Las siguientes opciones están disponibles.  
+Para configurar que el ajuste de costo se ejecute automáticamente al registrar una transacción de inventario, utilice el campo **Ajuste automático del costo** en la página **Configuración de inventario**. Este campo le permite seleccionar hasta qué punto en el pasado a partir de la fecha de trabajo actual desea que se realice el ajuste automático del costo. Las siguientes opciones están disponibles.  
 
 |Opción|Descripción|
 |------|-----------|
@@ -163,7 +163,7 @@ Para configurar que el ajuste de costo se ejecute automáticamente al registrar 
 |Año|Los costes se ajustan si el registro se realiza en el plazo de un año a partir de la fecha de trabajo.|  
 |Siempre|Los costes siempre se ajustan al registrarlos, independientemente de la fecha de registro.|  
 
-La selección que elija en el campo **Ajuste automático de costo** es importante para el rendimiento y la exactitud de sus costos. Los periodos de tiempo más breves, como **Día** o **Semana** , afectan menos al rendimiento del sistema porque proporcionan un requisito más estricto de que solo los costes registrados en el último día o en la última semana se pueden ajustar automáticamente. Esto significa que el ajuste automático del costo no se ejecuta con tanta frecuencia y, por lo tanto, afecta menos al rendimiento del sistema. No obstante, esto significa también que los costos unitarios pueden ser menos exactos.  
+La selección que elija en el campo **Ajuste automático de costo** es importante para el rendimiento y la exactitud de sus costos. Los periodos de tiempo más breves, como **Día** o **Semana**, afectan menos al rendimiento del sistema porque proporcionan un requisito más estricto de que solo los costes registrados en el último día o en la última semana se pueden ajustar automáticamente. Esto significa que el ajuste automático del costo no se ejecuta con tanta frecuencia y, por lo tanto, afecta menos al rendimiento del sistema. No obstante, esto significa también que los costos unitarios pueden ser menos exactos.  
 
 ### <a name="example"></a>Ejemplo
 
@@ -175,7 +175,7 @@ En el ejemplo siguiente se muestra un escenario de ajuste automático del costo:
 
 Si ha configurado aplicar el ajuste automático del costo en los registros que se produzcan dentro de un mes o un trimestre a partir de la fecha de trabajo actual, el ajuste automático del costo ejecutará y desviará el costo de compra a la venta.  
 
-Si ha configurado aplicar el ajuste automático del costo en los registros que se produzcan dentro de un día o una semana a partir de la fecha de trabajo actual, el ajuste automático del costo no se ejecutará, y el costo de compra no se desviará a la venta hasta ejecutar el proceso **Valorar existencias - movs. producto** .  
+Si ha configurado aplicar el ajuste automático del costo en los registros que se produzcan dentro de un día o una semana a partir de la fecha de trabajo actual, el ajuste automático del costo no se ejecutará, y el costo de compra no se desviará a la venta hasta ejecutar el proceso **Valorar existencias - movs. producto**.  
 
 ## <a name="see-also"></a>Consulte también
 
@@ -188,4 +188,4 @@ Si ha configurado aplicar el ajuste automático del costo en los registros que s
 [Detalles de diseño: Registro de órdenes de producción](design-details-production-order-posting.md)  
 [Administración de costos de inventario](finance-manage-inventory-costs.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

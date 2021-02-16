@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 344aa53f965f832d8e7fb2abd3431a1853105c8c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e71ccc7961efdff4dcfc26660f48bafb3d5fd88f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917537"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751743"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Detalles de diseño: Cambiar la valoración de existencias para productos
 
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], no puede cambiar una valoración de existencias para un producto después de haber incluido el producto en una transacción. Por ejemplo, después de haber comprado o vendido el producto. Si se asignó una valoración de existencias incorrecta al producto o productos, es posible que no identifique el problema hasta que haga su informe financiero.
+En [!INCLUDE[prod_short](includes/prod_short.md)], no puede cambiar una valoración de existencias para un producto después de haber incluido el producto en una transacción. Por ejemplo, después de haber comprado o vendido el producto. Si se asignó una valoración de existencias incorrecta al producto o productos, es posible que no identifique el problema hasta que haga su informe financiero.
 
 Este tema describe cómo resolver esta situación. El enfoque recomendado es reemplazar el producto que tiene una valoración de existencias incorrecta con un producto nuevo, y usar un pedido de ensamblado para transferir el inventario del producto antiguo al nuevo.
 
@@ -35,7 +35,7 @@ Los métodos de valoración de existencias controlan los cálculos de costos cua
 
 *beneficio bruto* = *ingresos - CV*
 
-Cuando configura productos de inventario, debe asignar una valoración de existencias. La valoración puede variar de una empresa a otra y de un producto a otro, por lo que es importante elegir la correcta. [!INCLUDE[d365fin](includes/d365fin_md.md)] admite las siguientes valoraciones de existencias:
+Cuando configura productos de inventario, debe asignar una valoración de existencias. La valoración puede variar de una empresa a otra y de un producto a otro, por lo que es importante elegir la correcta. [!INCLUDE[prod_short](includes/prod_short.md)] admite las siguientes valoraciones de existencias:
 
 * Promedio
 * FIFO
@@ -60,7 +60,7 @@ Esta sección describe los siguientes pasos para cambiar la valoración de exist
 
 ### <a name="define-a-default-costing-method"></a>Definir una valoración de existencias predeterminada
 
-Para ayudar a evitar futuros errores, puede especificar una valoración de existencias predeterminada para nuevos artículos. Cada vez que alguien crea un nuevo producto, [!INCLUDE[d365fin](includes/d365fin_md.md)] sugerirá la valoración de existencias predeterminada. Usted especifica el método predeterminado en el campo **Método de costeo predeterminado** en la página **Configuración de inventario** . 
+Para ayudar a evitar futuros errores, puede especificar una valoración de existencias predeterminada para nuevos artículos. Cada vez que alguien crea un nuevo producto, [!INCLUDE[prod_short](includes/prod_short.md)] sugerirá la valoración de existencias predeterminada. Usted especifica el método predeterminado en el campo **Método de costeo predeterminado** en la página **Configuración de inventario**. 
 
 ### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Identificar los productos para los que cambiar la valoración de existencias y vuelva a numerarlos
 
@@ -68,7 +68,7 @@ Es posible que desee dar a sus nuevos productos los mismos números que los que 
 
 ### <a name="create-new-items-with-the-old-numbering-scheme-and-copy-the-master-data-in-a-batch"></a>Crear nuevos productos con el antiguo esquema de numeración y copiar los datos maestros en un lote
 
-Cree los nuevos productos usando el esquema de números actual. Con la excepción del campo **Valoración de existencias** , los nuevos productos deben contener los mismos datos maestros que los productos existentes. Para transferir los datos maestros del producto y los datos relacionados de otras funciones, use la acción **Copiar producto** en la página **Ficha de producto** . Para obtener más información, consulte [Copiar productos existentes para crear productos nuevos](inventory-how-copy-items.md).
+Cree los nuevos productos usando el esquema de números actual. Con la excepción del campo **Valoración de existencias**, los nuevos productos deben contener los mismos datos maestros que los productos existentes. Para transferir los datos maestros del producto y los datos relacionados de otras funciones, use la acción **Copiar producto** en la página **Ficha de producto**. Para obtener más información, consulte [Copiar productos existentes para crear productos nuevos](inventory-how-copy-items.md).
 
 Después de crear los nuevos elementos y transferir los datos maestros, asigne la valoración de existencias correcta.
 
@@ -79,20 +79,20 @@ Para que los nuevos productos sean completamente útiles, debe copiar manualment
 |Área  |Qué copiar  |Cómo copiarlo  |
 |---------|---------|---------|
 |Existencias     |Unidades de almacenamiento (SKU)         |Compruebe si se especifica una SKU para el producto original. Si se han introducido parámetros de planificación para cada tarjeta de SKU, debe crear manualmente el SKU para el nuevo producto. Si no se especifican los parámetros, puede usar el trabajo por lotes **Crear unidad de almacenamiento** en la página **Ficha de producto** para crear los datos.        |
-|     |Sustituciones de producto         |Compruebe si hay sustituciones de productos definidas para el producto original. Si las hay, transfiera esos datos al nuevo producto. Para ver elementos sustitutos, use la acción **Sustituciones** en la página **Ficha de producto** .         |
+|     |Sustituciones de producto         |Compruebe si hay sustituciones de productos definidas para el producto original. Si las hay, transfiera esos datos al nuevo producto. Para ver elementos sustitutos, use la acción **Sustituciones** en la página **Ficha de producto**.         |
 |     |Informes de análisis         |Revise los informes Análisis de productos, Análisis de ventas y Análisis de compras. Para aquellos que hacen referencia a los productos originales, puede crear un nuevo informe de análisis con una referencia al nuevo producto (manteniendo el informe de análisis original para usar como historial) o ajustar los informes para que hagan referencia al nuevo producto.         |
 |     |Diarios estándar         |Compruebe si los diarios estándar hacen referencia al producto original y transfiera esos datos al nuevo producto cuando sea necesario. Esta información se encuentra en los diarios estándar, que están disponibles en el diario de productos.          |
-|Ccial     |Porcentaje de anticipo de ventas         | Compruebe si los porcentajes de anticipo de ventas están definidos para el producto original y transfiera esos datos al nuevo producto. Para ver los porcentajes de anticipo, en la página **Ficha de producto** , elija **Ventas** y después, **Porcentajes de anticipo** .        |
-|Compra     |Porcentaje de anticipo de compra         |Compruebe si los porcentajes de anticipo de compras están definidos para el producto original y transfiera esos datos al nuevo producto. Para ver los porcentajes de anticipo, en la página **Ficha de producto** , elija **Compras** y después, **Porcentajes de anticipo** .                 |
-|Almacén     |Contenidos ubicación         |Revise el contenido de ubicación definido para el producto original. Si se han especificado de forma individual columnas como Cant. mín, Cant. máx., Predeterminado y Dedicado, debe crear manualmente el contenido del contenido de ubicación para el nuevo producto. Si no es así, no se requiere ninguna acción. [!INCLUDE[d365fin](includes/d365fin_md.md)] mantendrá los registros cuando registre documentos de almacén y diarios.|
-|Proyecto     |Precios del proyecto         |Compruebe si los precios del proyecto están definidos para el producto original y transfiera esos datos al nuevo producto. Esta información está disponible en la página **Ficha de producto** en a parte **Detalles proyecto - N.º precios** en el panel **Cuadro informativo** .         |
-|Servicio     |Capacidad de recursos de servicio         |Compruebe si las habilidades recurso de servicio están definidas para el producto original y transfiera esos datos al nuevo producto. Para ver las habilidades recurso, use la acción **Habilidades recurso** en la página **Ficha de producto** .          |
-|     |Componentes del producto de servicio         |Compruebe si los componentes están definidos para el producto de servicio original y transfiera esos datos al nuevo producto. Para ver los componentes del producto de servicio, en la página **Ficha de producto** , use la acción **Producto de servicio** para abrir la lista de productos de servicio relacionados y luego elija al acción **Componentes** .          |
-|Producción     |LM producción         |Compruebe si alguna L.M. de producción contiene el producto original y reemplácela con el nuevo producto. Para reemplazar el producto original, en la página **L.M. de producción** , elija la acción **Cambiar producto en L.M. producción** .         |
+|Ccial     |Porcentaje de anticipo de ventas         | Compruebe si los porcentajes de anticipo de ventas están definidos para el producto original y transfiera esos datos al nuevo producto. Para ver los porcentajes de anticipo, en la página **Ficha de producto**, elija **Ventas** y después, **Porcentajes de anticipo**.        |
+|Compra     |Porcentaje de anticipo de compra         |Compruebe si los porcentajes de anticipo de compras están definidos para el producto original y transfiera esos datos al nuevo producto. Para ver los porcentajes de anticipo, en la página **Ficha de producto**, elija **Compras** y después, **Porcentajes de anticipo**.                 |
+|Almacén     |Contenidos ubicación         |Revise el contenido de ubicación definido para el producto original. Si se han especificado de forma individual columnas como Cant. mín, Cant. máx., Predeterminado y Dedicado, debe crear manualmente el contenido del contenido de ubicación para el nuevo producto. Si no es así, no se requiere ninguna acción. [!INCLUDE[prod_short](includes/prod_short.md)] mantendrá los registros cuando registre documentos de almacén y diarios.|
+|Proyecto     |Precios del proyecto         |Compruebe si los precios del proyecto están definidos para el producto original y transfiera esos datos al nuevo producto. Esta información está disponible en la página **Ficha de producto** en a parte **Detalles proyecto - N.º precios** en el panel **Cuadro informativo**.         |
+|Servicio     |Capacidad de recursos de servicio         |Compruebe si las habilidades recurso de servicio están definidas para el producto original y transfiera esos datos al nuevo producto. Para ver las habilidades recurso, use la acción **Habilidades recurso** en la página **Ficha de producto**.          |
+|     |Componentes del producto de servicio         |Compruebe si los componentes están definidos para el producto de servicio original y transfiera esos datos al nuevo producto. Para ver los componentes del producto de servicio, en la página **Ficha de producto**, use la acción **Producto de servicio** para abrir la lista de productos de servicio relacionados y luego elija al acción **Componentes**.          |
+|Producción     |LM producción         |Compruebe si alguna L.M. de producción contiene el producto original y reemplácela con el nuevo producto. Para reemplazar el producto original, en la página **L.M. de producción**, elija la acción **Cambiar producto en L.M. producción**.         |
 |Ensamblado     |L.M. de ensamblado         |Compruebe si hay alguna L.M. de producción que contenga el producto original y reemplácela manualmente con el nuevo producto.         |
 
 > [!IMPORTANT]
-> Si el nuevo método de valuación de existencias es estándar, debe especificar un valor en el campo **Costo estándar** en la página **Ficha de producto** . Puede usar la página **Hoja trab. costo estándar** para establecer los costos compartidos en consecuencia. Para obtener más información, consulte [Actualizar costos estándar](finance-how-to-update-standard-costs.md).
+> Si el nuevo método de valuación de existencias es estándar, debe especificar un valor en el campo **Costo estándar** en la página **Ficha de producto**. Puede usar la página **Hoja trab. costo estándar** para establecer los costos compartidos en consecuencia. Para obtener más información, consulte [Actualizar costos estándar](finance-how-to-update-standard-costs.md).
 
 ### <a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a>Determine la cantidad de inventario para convertir desde el producto original al nuevo producto
 
@@ -117,7 +117,7 @@ Al crear pedidos de ensamblado, use la información del diario de inventario fí
 |Campo  |Valor a especificar  |
 |---------|---------|
 |Nº producto     |El número del producto nuevo.         |
-|Cantidad     |La cantidad en el diario de inventario físico.<br> **NOTA** : Las cantidades calculadas por los diarios de inventario físico no incluyen las cantidades que se encuentran en pedidos que aún no se han enviado.          |
+|Cantidad     |La cantidad en el diario de inventario físico.<br> **NOTA**: Las cantidades calculadas por los diarios de inventario físico no incluyen las cantidades que se encuentran en pedidos que aún no se han enviado.          |
 |Cód. variante     |Igual que en el diario de inventario físico.          |
 |Cód. almacén     |Igual que en el diario de inventario físico.         |
 |Código de unidad de medida     |Igual que en el diario de inventario físico.         |
@@ -138,7 +138,7 @@ Al crear pedidos de ensamblado, use la información del diario de inventario fí
 > Un pedido de ensamblado puede gestionar solo un SKU de un artículo a la vez. Debe crear un pedido de ensamblado para cada combinación de SKU que tenga una cantidad en el inventario.
 
 > [!NOTE]
-> Para una ubicación de almacén, es posible que deba crear selecciones antes de poder publicar el pedido de ensamblado. Para investigar eso, revise la configuración para el picking en la página **Ficha de almacén** . Para más información, vea [Configurar productos y almacenes para ubicaciones y picking directos](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md).
+> Para una ubicación de almacén, es posible que deba crear selecciones antes de poder publicar el pedido de ensamblado. Para investigar eso, revise la configuración para el picking en la página **Ficha de almacén**. Para más información, vea [Configurar productos y almacenes para ubicaciones y picking directos](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md).
 
 ### <a name="handle-inventory-quantities-that-are-allocated-to-demand"></a>Gestionar las cantidades de inventario que se asignan a la demanda
 
@@ -165,11 +165,11 @@ La siguiente tabla enumera áreas funcionales donde puede haber cantidades pendi
 
 ### <a name="block-the-original-item-from-further-use"></a>Bloquear el producto original para su uso posterior
 
-Cuando el inventario del producto original es cero, puede bloquear el producto para evitar que se use en nuevas transacciones. Para bloquear el producto, en la página **Ficha de producto** , active el control de alternancia a **Bloqueado** . Para más información, vea [Bloquear productos de ventas o compras](inventory-how-block-items.md).
+Cuando el inventario del producto original es cero, puede bloquear el producto para evitar que se use en nuevas transacciones. Para bloquear el producto, en la página **Ficha de producto**, active el control de alternancia a **Bloqueado**. Para más información, vea [Bloquear productos de ventas o compras](inventory-how-block-items.md).
 
 ## <a name="summary"></a>Resumen
 
-Cambiar el método valoración de existencias en productos que se han utilizado en transacciones es un proceso y no una acción estándar en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puede utilizar los pasos descritos en este tema como plantilla para el proceso.
+Cambiar el método valoración de existencias en productos que se han utilizado en transacciones es un proceso y no una acción estándar en [!INCLUDE[prod_short](includes/prod_short.md)]. Puede utilizar los pasos descritos en este tema como plantilla para el proceso.
 
 El proceso puede llevar mucho tiempo porque hay varios pasos manuales. Sin embargo, si se toma su tiempo para completarlo, minimizará el impacto de los errores en su contabilidad.
 

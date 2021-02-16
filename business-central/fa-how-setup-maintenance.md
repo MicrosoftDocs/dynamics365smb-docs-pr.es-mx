@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: repair, service
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 79f893007ab2c81140744a042fed24d1b932a4da
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 60080b0a8982420ff2f3a6654d496395733bc425
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917234"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749229"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Configure el mantenimiento de los activos fijos
 Para gestionar el mantenimiento de los activos fijos, primero debe configurar la información de mantenimiento en una cuenta de registro para los costos de mantenimiento y los códigos de mantenimiento para los tipos de trabajo, por ejemplo, Servicio de rutina o Reparación.
@@ -26,17 +26,17 @@ Para gestionar el mantenimiento de los activos fijos, primero debe configurar la
 Si configura los campos para el mantenimiento, puede registrar los gastos de mantenimiento en un diario de activos fijos.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Activos fijos** y luego elija el enlace relacionado.
-2. Seleccione el activo fijo del que definirá la cobertura de seguro y, a continuación, elija la acción **Editar** .
-3. En la ficha desplegable **Mantenimiento** , rellene los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Seleccione el activo fijo del que definirá la cobertura de seguro y, a continuación, elija la acción **Editar**.
+3. En la ficha desplegable **Mantenimiento**, rellene los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-maintenance-codes"></a>Para configurar los códigos de mantenimiento
 Al registrar costos de mantenimiento desde un diario general, puede rellenar el campo **Cód. mantenimiento** para registrar el tipo de mantenimiento efectuado, como un servicio rutinario o una reparación.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Mantenimiento** y luego elija el enlace relacionado.
-2. En la página **Mantenimiento** , configure los códigos para cada tipo de trabajo de mantenimiento.
+2. En la página **Mantenimiento**, configure los códigos para cada tipo de trabajo de mantenimiento.
 
 ## <a name="to-set-up-maintenance-expense-accounts"></a>Para configurar las cuentas de gastos de mantenimiento
-Para registrar los costos de mantenimiento, primero debe introducir un número de cuenta en la página **A/F Grupos contables** .
+Para registrar los costos de mantenimiento, primero debe introducir un número de cuenta en la página **A/F Grupos contables**.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos registro A/F** y luego elija el enlace relacionado.
 2. Rellene el campo **Cta. gastos mantenimiento** de cada grupo contable.
@@ -49,4 +49,4 @@ Para registrar los costos de mantenimiento, primero debe introducir un número d
 [Activos fijos](fa-manage.md)  
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

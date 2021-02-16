@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9d483d104b0dee148dfc4a15bea6737d505730cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d672b28dda7c586bd68412fbbb89fb8e33cba1b8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913874"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747327"
 ---
 # <a name="undo-assembly-posting"></a>Deshacer registro de ensamblado.
 Puede que, a veces, tenga que deshacer un pedido de ensamblado registrado, por ejemplo cuando se haya registrado con errores que deban corregirse, o porque no deban haberse registrado en el primer lugar y deban revertirse.
@@ -24,7 +24,7 @@ Cuando se deshace un pedido de ensamblado registrado, se crea un grupo de los mo
 
 Cuando se deshace totalmente un pedido de ensamblado registrado, puede elegir volver a crear el pedido de ensamblado en su estado original, por ejemplo para hacer las correcciones antes de volver a registrarlo. También puede decidir no volver a crearlo.  
 
-Cuando se deshace parcialmente un pedido de ensamblado registrado, todos los campos de cantidad afectados, por ejemplo **Cantidad ensamblada** , **Cantidad consumida** y **Cantidad pendiente** , se restablecen a los valores que tenían antes del registro en cuestión.  
+Cuando se deshace parcialmente un pedido de ensamblado registrado, todos los campos de cantidad afectados, por ejemplo **Cantidad ensamblada**, **Cantidad consumida** y **Cantidad pendiente**, se restablecen a los valores que tenían antes del registro en cuestión.  
 
 Para volver a crear o restaurar los pedidos de ensamblado, debe aplicar las condiciones siguientes al producto de ensamblado que se produjo en el registro original:  
 
@@ -43,12 +43,12 @@ El procedimiento siguiente describe cómo deshacer los pedidos de ensamblado reg
 1.  Para deshacer total o parcialmente el pedido de ensamblado registrado, seleccione el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de ensamblado registrados** y seleccione el enlace relacionado.  
 
     Se abrirá la página **Pedidos de ensamblado registrados** y mostrará uno o más pedidos de ensamblado registrado que se registren del pedido de ensamblado en cuestión. Cada registro parcial crea un pedido de ensamblado registrado diferente.  
-2.  Abra el pedido de ensamblado registrado que desea revertir y elija la acción **Deshacer ensamblado** .  
+2.  Abra el pedido de ensamblado registrado que desea revertir y elija la acción **Deshacer ensamblado**.  
 
     Si el pedido de ensamblado registrado que desea deshacer está relacionado con uno totalmente registrado que se ha eliminado, tiene la opción de reconstruirlo, normalmente porque desea volver a procesarlo.  
-3.  Si desea volver a crear el pedido de ensamblado, seleccione el botón de **Sí** . Para deshacer el registro sin la reconstrucción del pedido de ensamblado relacionado, seleccione el botón **No** .  
+3.  Si desea volver a crear el pedido de ensamblado, seleccione el botón de **Sí**. Para deshacer el registro sin la reconstrucción del pedido de ensamblado relacionado, seleccione el botón **No**.  
 
-El campo **Revertido** de la cabecera del pedido de ensamblado cambia a **Sí** . El registro de pedido de ensamblado ahora se revierte, y puede empezar a procesar el pedido de ensamblado completo si elige lo volver a crear o el pedido de ensamblado abierto que ha restablecido a su estado original.  
+El campo **Revertido** de la cabecera del pedido de ensamblado cambia a **Sí**. El registro de pedido de ensamblado ahora se revierte, y puede empezar a procesar el pedido de ensamblado completo si elige lo volver a crear o el pedido de ensamblado abierto que ha restablecido a su estado original.  
 
 > [!NOTE]  
 >  Para restaurar las cantidades de los registros parciales múltiples en un pedido de ensamblado, deberá deshacer todos los pedidos de ensamblado registrados en cuestión siguiendo los pasos 1 a 3 anterior para cada pedido de ensamblado registrado.  
@@ -60,4 +60,4 @@ El campo **Revertido** de la cabecera del pedido de ensamblado cambia a **Sí** 
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

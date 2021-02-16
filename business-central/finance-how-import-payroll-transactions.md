@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: Ceridian, Quickbooks, salary
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2fde597db9f5889678c5501bfdcc5f2412ec47cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca36be547224e0d401a05b63452420b88b0b7d1f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917012"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746977"
 ---
 # <a name="import-payroll-transactions"></a>Importar transacciones de nómina
-Para contabilizar los pagos de salario y transacciones relacionadas, deberá importar y registrar las transacciones financieras de salario creadas para el proveedor de nóminas al libro mayor. Para hacer esto, primero importe un archivo que recibirá del proveedor de nóminas en la página **Diario general** . A continuación asigne las cuentas externas del archivo de nóminas a las cuentas correspondientes. Por último, registre las transacciones de nómina según el mapeo de cuentas.
+Para contabilizar los pagos de salario y transacciones relacionadas, deberá importar y registrar las transacciones financieras de salario creadas para el proveedor de nóminas al libro mayor. Para hacer esto, primero importe un archivo que recibirá del proveedor de nóminas en la página **Diario general**. A continuación asigne las cuentas externas del archivo de nóminas a las cuentas correspondientes. Por último, registre las transacciones de nómina según el mapeo de cuentas.
 
 > [!NOTE]  
->   Para utilizar esta funcionalidad, se debe instalar y habilitar la extensión para importar nóminas. Las extensiones Nómina de Ceridian e Importación del archivo de nómina de QuickBooks están preinstaladas en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para obtener más información, consulte [Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] mediante extensiones](ui-extensions.md).
+>   Para utilizar esta funcionalidad, se debe instalar y habilitar la extensión para importar nóminas. Las extensiones Nómina de Ceridian e Importación del archivo de nómina de QuickBooks están preinstaladas en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] mediante extensiones](ui-extensions.md).
 
 ## <a name="to-import-a-payroll-file"></a>Para importar un archivo de nómina
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diarios generales** y luego elija el enlace relacionado.
-2. En la sección del diario general correspondiente, elija la acción **Importar transacciones de nómina** . Se abre una guía de configuración asistida.
-3. Realice los pasos de la página **Importar transacciones de nómina** .
+2. En la sección del diario general correspondiente, elija la acción **Importar transacciones de nómina**. Se abre una guía de configuración asistida.
+3. Realice los pasos de la página **Importar transacciones de nómina**.
 
     > [!TIP]  
     >   En el paso de la asignación de los registros de nóminas externos a sus cuentas de contabilidad, las asignaciones que cree se recordarán la próxima vez que importe los mismos registros. Esto le ahorrará tiempo al no tener que rellenar manualmente el campo **Número de cuenta** en el diario general cada vez que haya importado transacciones de nóminas periódicas.   
@@ -36,5 +36,5 @@ Para contabilizar los pagos de salario y transacciones relacionadas, deberá imp
 
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
+[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  

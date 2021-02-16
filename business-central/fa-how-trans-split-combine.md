@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f874548d0d84a3fbb215dfb8c81d4b7daeb5edfe
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b8bbaf958e749c5fb1598da181675b0eb33cb9f4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915646"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749204"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Permite transferir, dividir o combinar activos fijos
 
@@ -28,11 +28,11 @@ Puede que necesite transferir un activo fijo a un departamento diferente cuando,
 2. Asigne un libro de amortización de activo al nuevo activo fijo. Para obtener más información, vea [Adquirir activos fijos](fa-how-acquire.md).
 3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de reclasificación de activos fijos** y luego elija el enlace relacionado.
 4. Cree una línea de diario donde el campo **A/F N. º** contenga el activo original, y el campo **A/F N.º nuevo** los nuevos activos fijos que se moverán. Rellene el resto de los campos según corresponda.  
-5. Seleccione la acción **Reclasificación** .
+5. Seleccione la acción **Reclasificación**.
 
     Se han creado dos líneas en el diario de activos con la plantilla y sección que ha especificado en la página **Config. diario activos** para el libro de amortización especificado. Para obtener más información, consulte [Configurar amortización de activos fijos](fa-how-setup-depreciation.md).
 6. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios generales A/F** y luego elija el enlace relacionado.    
-7. En la página **A/F diario general** , seleccione la acción **Registrar** para registrar la reclasificación que se ha realizado en los pasos 4 y 5.
+7. En la página **A/F diario general**, seleccione la acción **Registrar** para registrar la reclasificación que se ha realizado en los pasos 4 y 5.
 
 Si registró el costo de adquisición de un activo, puede utilizar el diario de reclasificación de activos fijos para dividir el costo de adquisición entre varios activos.  
 
@@ -43,14 +43,14 @@ Puede dividir un activo fijo en varios activos fijos, por ejemplo, cuando necesi
 2. Asigne libros de amortización de activo a los nuevos activos fijos. Para obtener más información, vea [Adquirir activos fijos](fa-how-acquire.md).
 3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de reclasificación de activos fijos** y luego elija el enlace relacionado.
 4. Cree dos líneas del diario de reclasificación, una para cada activo fijo nuevo.
-5. En la primera línea, introduzca el segundo activo en el campo **A/F N. º nuevo** y 25 en el campo **% Costo reclasif** .
-6. En la segunda línea, introduzca el tercer activo en el campo **A/F N. º nuevo** y 40 en el campo **% Costo reclasif** .
+5. En la primera línea, introduzca el segundo activo en el campo **A/F N. º nuevo** y 25 en el campo **% Costo reclasif**.
+6. En la segunda línea, introduzca el tercer activo en el campo **A/F N. º nuevo** y 40 en el campo **% Costo reclasif**.
 7. En ambas líneas, seleccione las casillas **Costo reclasif.** y **Amortización reclasif.**  
-8. Seleccione la acción **Reclasificación** .  
+8. Seleccione la acción **Reclasificación**.  
 
     Se han creado dos líneas en el diario de activos con la plantilla y sección que ha especificado en la página **Config. diario activos** para el libro de amortización especificado. Para obtener más información, consulte [Configurar amortización de activos fijos](fa-how-setup-depreciation.md).    
 9. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios generales A/F** y luego elija el enlace relacionado.
-10. En la página **A/F diario general** , seleccione la acción **Registrar** para registrar la reclasificación que se ha realizado en los pasos del 4 al 8.
+10. En la página **A/F diario general**, seleccione la acción **Registrar** para registrar la reclasificación que se ha realizado en los pasos del 4 al 8.
 
 ## <a name="to-combine-two-fixed-assets-into-one"></a>Para combinar dos activos fijos en uno
 
@@ -60,17 +60,17 @@ Puede combinar varios activos en uno, por ejemplo, cuando mueve los activos fijo
 2. Cree un diario de reclasificación donde el campo **A/F N. º** contenga el activo que se moverá o combinará, y el campo **A/F N. º nuevo** el activo con el que se combinará.
 3. Deje el campo **% Costo reclasif.** vacío para mover o combinar el costo de adquisición completo.  
 4. Seleccione las casillas **Costo reclasif.** y **Amortización reclasif.**
-5. Seleccione la acción **Reclasificación** .
+5. Seleccione la acción **Reclasificación**.
 
     Se han creado dos líneas en el diario de activos con la plantilla y sección que ha especificado en la página **Configuración de diario de activos fijos** para el libro de amortización especificado. Para obtener más información, consulte [Configurar amortización de activos fijos](fa-how-setup-depreciation.md).   
 6. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios generales de activos fijos** y luego elija el enlace relacionado.
-7. En la página **A/F diario general** , seleccione la acción **Registrar** para registrar la reclasificación que se ha realizado en los pasos del 2 al 5.
+7. En la página **A/F diario general**, seleccione la acción **Registrar** para registrar la reclasificación que se ha realizado en los pasos del 2 al 5.
 
 ## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Para ver los cambios en los valores del libro de amortización debido a la reclasificación de activos fijos
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Valor contable de activo fijo 02** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario.
-3. Haga clic en el botón **Imprimir** o **Vista previa** .  
+3. Haga clic en el botón **Imprimir** o **Vista previa**.  
 
 ## <a name="see-also"></a>Consulte también
 
@@ -78,4 +78,4 @@ Puede combinar varios activos en uno, por ejemplo, cuando mueve los activos fijo
 [Configurar activos fijos](fa-setup.md)  
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

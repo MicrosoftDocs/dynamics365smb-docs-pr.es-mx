@@ -10,35 +10,35 @@ ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 97903c269856636cff618d5c91125ae9f1ace496
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6e389d31d6f9a28c9cff12950c37f01c1cf51004
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926483"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748579"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Asignar texto en pagos periódicos a cuentas para conciliación automática
-En la página **Asignación de texto a cuenta** , que se abre desde la página **Diario de conciliación de pagos** , puede configurar asignaciones entre el texto de los pagos y las cuentas de débito, crédito y saldo específicas para que los pagos se contabilicen en las cuentas específicas cuando contabilices el diario de conciliación de pagos.
+En la página **Asignación de texto a cuenta**, que se abre desde la página **Diario de conciliación de pagos**, puede configurar asignaciones entre el texto de los pagos y las cuentas de débito, crédito y saldo específicas para que los pagos se contabilicen en las cuentas específicas cuando contabilices el diario de conciliación de pagos.
 
 La funcionalidad similar existe para conciliar el exceso de importes en las líneas del diario de conciliación de pagos sobre una base ad hoc. Para obtener más información, vea [Conciliar pagos que no pueden liquidarse automáticamente](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
 Los pagos registrados según la mapeo de texto a cuenta no se aplican a movimientos pendientes, sino que simplemente se registran en las cuentas especificadas además de crear movimientos de bancos. Por consiguiente, la asignación de texto a cuenta es adecuada para recepciones de efectivo o gastos periódicos, como las compras frecuentes de combustible para vehículos o los honorarios bancarios e intereses que se producen normalmente en el estado de cuenta bancario y no necesitan un documento comercial relacionado. Para más información, consulte la sección "Ejemplo: Asignación de texto a cuenta para gasto de combustible" de este tema.
 
 > [!NOTE]  
->   Los pagos en las líneas de diario de conciliación solo están configuradas para el registro según el mapeo de texto a cuenta si la función de liquidación automática únicamente puede proporcionar una confianza de coincidencia de **Baja** o **Media** . Si la función de aplicación automática proporciona confianza de la correspondencia Alta, el pago se liquida automáticamente a uno o más movimientos pendientes y no se contabiliza en las cuentas especificadas en la página **Asignación de texto a cuenta** . En otras palabras, una confianza de coincidencia **Alta** invalida el mapeo de texto a cuenta.
+>   Los pagos en las líneas de diario de conciliación solo están configuradas para el registro según el mapeo de texto a cuenta si la función de liquidación automática únicamente puede proporcionar una confianza de coincidencia de **Baja** o **Media**. Si la función de aplicación automática proporciona confianza de la correspondencia Alta, el pago se liquida automáticamente a uno o más movimientos pendientes y no se contabiliza en las cuentas especificadas en la página **Asignación de texto a cuenta**. En otras palabras, una confianza de coincidencia **Alta** invalida el mapeo de texto a cuenta.
 
 En una línea del diario de conciliación de pagos en la que el pago se estableció en contabilizarse según la asignación de texto a cuenta, el campo **Confianza de la coincidencia** contiene **Alta: asignación de texto a cuentas** y los campos **Tipo de cuenta** y **N.º de cuenta** contienen las cuentas asociadas.
 
 ## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Para asignar texto en pagos periódicos a cuentas para conciliación automática
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diario de conciliación de pagos** y luego elija el enlace relacionado.
 2. Abra un diario de conciliación de pagos. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
-3. Seleccione la acción **Asociar texto a cuenta** . Se abre la página **Asignación de texto a cuenta** .
-4. En el campo **Texto de asignación** , introduzca cualquier texto de los pagos que quiera registrar en unas cuentas específicas sin aplicarlo a un movimiento pendiente. Puede escribir hasta 50 caracteres.
+3. Seleccione la acción **Asociar texto a cuenta**. Se abre la página **Asignación de texto a cuenta**.
+4. En el campo **Texto de asignación**, introduzca cualquier texto de los pagos que quiera registrar en unas cuentas específicas sin aplicarlo a un movimiento pendiente. Puede escribir hasta 50 caracteres.
 
     > [!NOTE]  
     >   Si no existen otros pagos con la asignación de texto en cuestión, la asignación tendrá lugar incluso cuando solo una parte del texto del pago exista como texto asignado.
-5. En el campo **Nº proveedor** , escriba el proveedor al que se enviarán los pagos.
-6. En el campo **Tipo origen contr.** , especifique si el pago se contabilizará en una cuenta contable o en una cuenta de cliente o proveedor.
+5. En el campo **Nº proveedor**, escriba el proveedor al que se enviarán los pagos.
+6. En el campo **Tipo origen contr.**, especifique si el pago se contabilizará en una cuenta contable o en una cuenta de cliente o proveedor.
 7. En el campo **N.º origen contr.** especifique la cuenta a la que se contabilizará el pago dependiendo de su elección en el campo **Tipo origen contr.**
 
     > [!NOTE]
@@ -46,7 +46,7 @@ En una línea del diario de conciliación de pagos en la que el pago se establec
 
 8. Repita los pasos del 3 al 7 para todo el texto de los pagos que desea asignar a las cuentas para el registro directo sin liquidación.
 
-La próxima vez que importe un archivo de un estado de cuenta bancario o seleccione la función **Liquidar automáticamente** de la página **Diario de conciliación de pagos** , las líneas de diario de los pagos que contienen el texto asignado especificado, incluirán las cuentas asignadas en los campos **Tipo de cuenta** y **N.º cuenta** . El campo **Confianza de la coincidencia** contendrá **Alta: asignación de texto a cuenta** . Esto es así siempre que la función de liquidación automática solo pueda proporcionar una confianza de correspondencia **Baja** o **Media** .
+La próxima vez que importe un archivo de un estado de cuenta bancario o seleccione la función **Liquidar automáticamente** de la página **Diario de conciliación de pagos**, las líneas de diario de los pagos que contienen el texto asignado especificado, incluirán las cuentas asignadas en los campos **Tipo de cuenta** y **N.º cuenta**. El campo **Confianza de la coincidencia** contendrá **Alta: asignación de texto a cuenta**. Esto es así siempre que la función de liquidación automática solo pueda proporcionar una confianza de correspondencia **Baja** o **Media**.
 
 ## <a name="example-text-to-account-mapping-for-bank-fees"></a>Ejemplo: Asignación de texto a cuenta para comisiones bancarias
 
@@ -61,5 +61,5 @@ Para registrar siempre los gastos relacionados con las tarifas de un banco espec
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  
 [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

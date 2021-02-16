@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: prepayment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7f8d0109b42eb75f022bac580c2bef006f311157
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 34e5d1e0f424097de259d01e438158f6a92390ae
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914250"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750441"
 ---
 # <a name="set-up-prepayments"></a>Configurar anticipos
 Si desea que sus clientes realicen el pago antes de enviarles un pedido o su proveedor le requiere que efectúe el pago antes de enviarle un pedido, puede utilizar la funcionalidad Anticipo. La funcionalidad le permite facturar y cobrar depósitos requeridos de los clientes o remitir depósitos a proveedores y asegurarse de que todos los pagos parciales se contabilicen con una factura. Para obtener más información, consulte [Crear facturas de anticipo](finance-how-to-create-prepayment-invoices.md).
@@ -33,26 +33,26 @@ Dado que el importe de anticipo pertenece al comprador hasta que haya recibido l
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Para agregar cuentas de anticipo a la configuración de grupos contables  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración grupos contables** y luego elija el enlace relacionado.
-2. En la página **Configuración grupos contables** , rellene los campos siguientes:  
+2. En la página **Configuración grupos contables**, rellene los campos siguientes:  
 
     - **Cuenta anticipos ventas**  
     - **Cuenta anticipos compras**  
 
 > [!TIP]
-> Si no puede ver los campos de la página **Configuración grupos contables** , utilice la barra de desplazamiento horizontal situada en la parte inferior de la página para desplazarse hacia la derecha.  
+> Si no puede ver los campos de la página **Configuración grupos contables**, utilice la barra de desplazamiento horizontal situada en la parte inferior de la página para desplazarse hacia la derecha.  
 
 Si todavía no ha configurado cuentas de contabilidad para anticipos, puede abrir la página **Lista de cuentas** desde el campo de cuenta relevante.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Configurar números de serie para documentos de anticipo  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.
-2. En la página **Conf. ventas y cobros** , rellene los campos siguientes:  
+2. En la página **Conf. ventas y cobros**, rellene los campos siguientes:  
 
    - **Nº fact. anticipo registrada**
    - **Nº nota crédito anticipo registrado**
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de compras y pagos** y luego elija el enlace relacionado.
-2. En la página **Conf. compras y pagos:** , rellene los campos siguientes:
+2. En la página **Conf. compras y pagos:**, rellene los campos siguientes:
 
     - **Nº fact. anticipo registrada**
     - **Nº nota crédito anticipo registrado**
@@ -64,14 +64,14 @@ Si todavía no ha configurado cuentas de contabilidad para anticipos, puede abri
 Puede definir un porcentaje de anticipo predeterminado de un producto para todos los clientes, un cliente determinado o un grupo de precios de cliente.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
-2. Seleccione un elemento y, a continuación, elija la acción **Porcentajes anticipo** .  
-3. En la página **Porcentajes anticipo ventas** , rellene los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Seleccione un elemento y, a continuación, elija la acción **Porcentajes anticipo**.  
+3. En la página **Porcentajes anticipo ventas**, rellene los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Puede definir un porcentaje de anticipo predeterminado para un cliente o proveedor en relación con todos los productos y todos los tipos de líneas de venta. Especifíquelo en la ficha de cliente o de proveedor.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
 2. Abrir la ficha para un cliente.
-3. Rellene el campo **% de anticipo** .
+3. Rellene el campo **% de anticipo**.
 4. Repita los pasos para otros clientes o proveedores.  
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Para determinar qué porcentaje de anticipo tiene prioridad  
@@ -93,4 +93,4 @@ Dicho de otro modo, el porcentaje de anticipo de la ficha del cliente sólo se a
 [Calcular el impuesto sobre bienes y servicios sobre los anticipos en Nueva Zelanda](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [Descripción de contabilidad y plan de cuentas](finance-general-ledger.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 571261190274fc74535e7b18b2c949d7f7714c1b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e9b54a28c960ccdaa41c16cce237266e8cb43a88
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917737"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745953"
 ---
 # <a name="set-up-company-configuration"></a>Establecer la configuración de una empresa
-El proceso de la implementación comienza con el socio de Microsoft. El socio es responsable de analizar los detalles de configuración y crear un paquete que un cliente podrá aplicar fácilmente. Antes de crear una nueva empresa, debe planificar su configuración. Debe tener en cuenta los datos de configuración básica y tipos de datos que necesitará la solución [!INCLUDE[d365fin](includes/d365fin_md.md)]. Toda esta información se agrupa en paquetes de configuración.
+El proceso de la implementación comienza con el socio de Microsoft. El socio es responsable de analizar los detalles de configuración y crear un paquete que un cliente podrá aplicar fácilmente. Antes de crear una nueva empresa, debe planificar su configuración. Debe tener en cuenta los datos de configuración básica y tipos de datos que necesitará la solución [!INCLUDE[prod_short](includes/prod_short.md)]. Toda esta información se agrupa en paquetes de configuración.
 
 RapidStart Services también le proporciona las herramientas que usará para migrar sus datos heredados, como clientes y proveedores.  
 
-Es recomendable crear paquetes de configuración con la mayoría de las tablas de configuración rellenadas, de modo que los clientes solo tengan que cambiar algunas opciones después de aplicar el paquete. Por ejemplo, cuando crea una nueva empresa, las tablas **Nº serie** y **Lín. nº serie** , este campo se rellenan con un conjunto de series numéricas y números de inicio. Los campos de **Serie numérica** correspondientes de las tablas de configuración también se rellenan automáticamente. No tiene que hacer el trabajo de introducir la serie numérica y otros datos básicos de configuración. También puede modificar manualmente todos los datos predeterminados que se use con RapidStart Services mediante la hoja de trabajo de configuración.  
+Es recomendable crear paquetes de configuración con la mayoría de las tablas de configuración rellenadas, de modo que los clientes solo tengan que cambiar algunas opciones después de aplicar el paquete. Por ejemplo, cuando crea una nueva empresa, las tablas **Nº serie** y **Lín. nº serie**, este campo se rellenan con un conjunto de series numéricas y números de inicio. Los campos de **Serie numérica** correspondientes de las tablas de configuración también se rellenan automáticamente. No tiene que hacer el trabajo de introducir la serie numérica y otros datos básicos de configuración. También puede modificar manualmente todos los datos predeterminados que se use con RapidStart Services mediante la hoja de trabajo de configuración.  
 
 Los paquetes de configuración se basan en una empresa preconfigurada. Después de configurar una empresa que satisfaga todas sus necesidades, puede crear un paquete de configuración que contenga los datos pertinentes para esta empresa. Luego podrá usarla al crear una nueva empresa que se deba configurar del mismo modo.  
 
-Para facilitar la importación de datos maestros, tal como información del cliente y del proveedor, puede usar plantillas de configuración. Las plantillas de configuración contienen un conjunto de opciones de configuración predeterminadas que se asignan automáticamente a los registros importados en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Para facilitar la importación de datos maestros, tal como información del cliente y del proveedor, puede usar plantillas de configuración. Las plantillas de configuración contienen un conjunto de opciones de configuración predeterminadas que se asignan automáticamente a los registros importados en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 En la tabla siguiente se muestra una secuencia de tareas con vínculos a los temas que las describen.
 

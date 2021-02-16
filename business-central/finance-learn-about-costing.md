@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 18fcc084b1ac15747fde64a2aa93e37591d7f95f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e15f8419c4b7fa10bcec0b672beb05d076d1bb3c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916912"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750588"
 ---
 # <a name="about-inventory-costing"></a>Acerca del contabilidad de valoración
 La administración de costos de inventario hace referencia al registro y la creación de informes sobre los costos de explotación de la empresa. Incluye la creación de informes de los costos de existencias y fabricación, es decir, el valor de los productos.  
@@ -33,11 +33,11 @@ La administración de costos de inventario hace referencia al registro y la crea
 |Distinguir el costo previsto (aún no facturado) del costo real y conocer cómo se administra en la contabilidad.|[Detalles de diseño: Registro de costo esperado](design-details-expected-cost-posting.md)|  
 |Conocer el mecanismo de ajuste de costo, que asegura que los costos se presentan aunque las transacciones de existencias tengan lugar de manera aleatoria.|[Detalles de diseño: Ajuste de costo](design-details-cost-adjustment.md)|  
 |Leer por qué los costos estándar los suelen utilizar las empresas de fabricación como base de valoración para los componentes y productos finales.|[Acerca del cálculo de costo estándar](finance-about-calculating-standard-cost.md)|  
-|Conocer cómo se refleja el valor de existencias en la contabilidad.|[Creación de informes de costos y conciliación con la contabilidad](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
+|Conocer cómo se refleja el valor de existencias en la contabilidad.|[Conciliar costos de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Aprender cómo los cargos de los productos, como flete y seguro, pueden asignar componentes de costo adicionales al costo unitario de un producto.|[Usar los cargos de producto para costos comerciales adicionales](payables-how-assign-item-charges.md)|  
 |Leer cómo los periodos de inventario ayudan a las empresas a controlar el valor de las existencias con el tiempo definiendo periodos más cortos que se pueden cerrar para registrar según avanza el ejercicio.|[Trabajar con periodos de inventario](finance-how-to-work-with-inventory-periods.md)|  
 |Comprender todos los mecanismos del motor de cálculo de costos, incluyendo lo que sucede cuando se registran las transacciones de montaje y producción.|[Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Consulte también
 [Administración de costos de inventario](finance-manage-inventory-costs.md)    
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc62673e83fa0a748164af57bf0a075ca325dde4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: feeb8913f54b003d003caf1363194cbcf1a7a2b8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925016"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749054"
 ---
 # <a name="about-production-orders"></a>Sobre los pedidos de producción
 Las órdenes de producción se usan para gestionar la conversión de los materiales adquiridos en productos manufacturados. Las órdenes de producción dirigen el trabajo por los distintos centros de trabajo o de máquina de la planta.  
@@ -38,7 +38,7 @@ Las órdenes de producción son los puntos de partida de:
 -   El seguimiento de la fabricación terminada  
 
 ## <a name="production-order-creation"></a>Creación de órdenes de producción  
-Las órdenes de producción se pueden crear una por una, manualmente, desde la página **Orden producción** , o se pueden generar desde las páginas **Planificación pedido venta** o **Planificación de pedidos** . Para crear varias órdenes se utiliza la página **Hoja planificación** .  
+Las órdenes de producción se pueden crear una por una, manualmente, desde la página **Orden producción**, o se pueden generar desde las páginas **Planificación pedido venta** o **Planificación de pedidos**. Para crear varias órdenes se utiliza la página **Hoja planificación**.  
 
 Las órdenes de producción se crean utilizando información sobre:  
 
@@ -61,7 +61,7 @@ Para obtener más información, vea [Seguimiento de relaciones entre demanda y s
 Las órdenes de producción creadas por otros métodos no se reservan automáticamente, ni se realiza su seguimiento.   
 
 ## <a name="production-order-status"></a>Estado de las órdenes de producción  
-El estado de una orden de producción controla su comportamiento en la aplicación. La forma y el contenido de una orden de producción se rigen por el estado de la misma. Las órdenes de producción se muestran en páginas diferentes según sus estados. El estado de una orden de producción no se puede cambiar manualmente, es necesario usar la función **Cambiar estado** .  
+El estado de una orden de producción controla su comportamiento en la aplicación. La forma y el contenido de una orden de producción se rigen por el estado de la misma. Las órdenes de producción se muestran en páginas diferentes según sus estados. El estado de una orden de producción no se puede cambiar manualmente, es necesario usar la función **Cambiar estado**.  
 
 ### <a name="simulated-production-order"></a>Orden de producción simulada  
 La orden de producción simulada es exclusiva porque tiene las características siguientes:  
@@ -128,7 +128,7 @@ El método de creación de informes anticipados presupone que la cantidad espera
 - Todos los productos de la lista de materiales de producción de nivel superior deben tener seleccionado el método de baja hacia adelante en la ficha de producto correspondiente.  
 - Se deben eliminar todos los códigos de conexión de ruta de la lista de materiales de producción.  
 
-El método de creación de informes retroactivos registra la cantidad real de todo el material preparado o consumido cuando el estado de una orden de producción se cambia a *Terminada* , salvo que se usen códigos de conexión de ruta. Si se usan códigos de conexión de ruta, el material se consume una vez que se ha registrado una cantidad del producto principal para el paso operativo en el Diario de salida.  
+El método de creación de informes retroactivos registra la cantidad real de todo el material preparado o consumido cuando el estado de una orden de producción se cambia a *Terminada*, salvo que se usen códigos de conexión de ruta. Si se usan códigos de conexión de ruta, el material se consume una vez que se ha registrado una cantidad del producto principal para el paso operativo en el Diario de salida.  
 
 Al actualizar la orden de producción, el método de baja se copia de la ficha del producto. Puesto que el método de baja de cada componente de la orden de producción controla cómo y cuándo se registra el consumo, es importante tener en cuenta que el método de baja de un producto concreto se puede cambiar directamente en la orden de producción.  
 
@@ -178,7 +178,7 @@ La cantidad de baja es la cantidad por montaje indicada en la lista de materiale
 #### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Registro automático - Baja hacia atrás de toda la orden  
 En este método no se tienen en cuenta los códigos de conexión de ruta.  
 
-No se selecciona ningún componente hasta que el estado de la orden de producción lanzada se cambia a *Terminada* . La cantidad de consumo es la cantidad por montaje indicada en la lista de materiales de producción, multiplicada por el número de productos principales que se han terminado y agregado a las existencias.  
+No se selecciona ningún componente hasta que el estado de la orden de producción lanzada se cambia a *Terminada*. La cantidad de consumo es la cantidad por montaje indicada en la lista de materiales de producción, multiplicada por el número de productos principales que se han terminado y agregado a las existencias.  
 
 Efectuar la baja retroactiva de toda la orden de producción requiere la misma configuración que la baja hacia adelante: el método de creación de informes se debe establecer en hacia atrás en la tarjeta de producto para todos los productos de la lista de materiales principal. Además, todos los códigos de conexión de ruta se deben eliminar de la lista de materiales de producción.  
 
@@ -200,7 +200,7 @@ El método retroactivo registra la salida esperada (y el tiempo), que se registr
 ### <a name="posting-consumption-and-output"></a>Registro del consumo y la salida  
 Puede utilizar cualquier combinación de consumo automático e información registrada manualmente, tanto para el consumo como para la salida. Por ejemplo, si lo desea puede realizar la baja automática hacia adelante de los componentes, pero utilizar el diario de consumo para registrar el rechazo. De igual forma, podría registrar automáticamente la salida y usar el diario de salida para registrar el rechazo del producto principal o el tiempo adicional invertido en la orden.  
 
-Por último, si introduce el consumo y la salida manualmente, debe determinar la secuencia en que va a registrar la información. Puede registrar el consumo en primer lugar y usar un método abreviado para introducir la información, que se basa en la cantidad de salida prevista. Pero, si lo prefiere, puede introducir primero la salida, mediante la función **Desplegar ruta** . A continuación, registraría el consumo en función de la cantidad de salida real.  
+Por último, si introduce el consumo y la salida manualmente, debe determinar la secuencia en que va a registrar la información. Puede registrar el consumo en primer lugar y usar un método abreviado para introducir la información, que se basa en la cantidad de salida prevista. Pero, si lo prefiere, puede introducir primero la salida, mediante la función **Desplegar ruta**. A continuación, registraría el consumo en función de la cantidad de salida real.  
 
 ### <a name="production-journal"></a>Diario de producción  
 El diario de producción combina las funciones del diario de consumo y de los diarios de salida en uno solo, al que se puede tener acceso directamente desde una orden de producción lanzada.  
@@ -234,4 +234,4 @@ En el diario de producción, las cantidades de consumo se registran como movimie
 [Planificación](production-planning.md)      
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

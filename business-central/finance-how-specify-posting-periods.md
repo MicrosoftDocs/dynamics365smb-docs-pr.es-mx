@@ -13,24 +13,24 @@ ms.workload: na
 ms.search.keywords: user setup
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 722a972de9a9cf38fb6a8d95436737c40f0906cf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c53898f55e5c6a3ea03f569273cc098615548fb7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920508"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750766"
 ---
 # <a name="specify-posting-periods"></a>Para especificar periodos de registro
 Utilice los periodos de registro para especificar cuándo los usuarios pueden registrar en el libro mayor.  
 
 ## <a name="to-specify-posting-periods"></a>Para especificar periodos de registro
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.  
-2. En la página **Configuración de contabilidad** , defina el periodo introduciendo las fechas en los campos **Permitir registro desde** y **Permitir registro hasta** .  
+2. En la página **Configuración de contabilidad**, defina el periodo introduciendo las fechas en los campos **Permitir registro desde** y **Permitir registro hasta**.  
 
 > [!NOTE]  
->   Estos periodos de registro se aplicarán a toda la empresa y todos los usuarios. Para permitir excepciones, puede definir periodos de registro diferentes para usuarios específicos en la página **Configuración usuarios** . Estos periodos de registro anulan los especificados en la página **Configuración de contabilidad** . Para obtener más información, vea [Para configurar restricciones de tiempo de usuarios](ui-define-granular-permissions.md#to-set-up-user-time-constraints).
+>   Estos periodos de registro se aplicarán a toda la empresa y todos los usuarios. Para permitir excepciones, puede definir periodos de registro diferentes para usuarios específicos en la página **Configuración usuarios**. Estos periodos de registro anulan los especificados en la página **Configuración de contabilidad**. Para obtener más información, vea [Para configurar restricciones de tiempo de usuarios](ui-define-granular-permissions.md#to-set-up-user-time-constraints).
 
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
 [Completar procesos de fin de periodo](year-how-complete-period-end-processes.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

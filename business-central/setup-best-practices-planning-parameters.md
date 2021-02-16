@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a1f6002f0c57530282b5688c0fe81c36a1d4e7e1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5b9a2064605d34e4c78bbd9cae5cddbaead70f29
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912932"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747879"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Procedimientos recomendados de configuración: parámetros de la planificación
 La ficha desplegable **Planificación** de la ficha de producto es el centro de la cadena de suministro de una empresa. La configuración de los parámetros correctos de planificación es muy importante para un control de inventario rentable y un servicio al cliente superior.  
 
- La tabla siguiente proporciona prácticas recomendadas sobre cómo configurar los campos de parámetros de planificación seleccionados. Para obtener más información acerca de un campo, elija el vínculo en la columna **Configurar el campo** .  
+ La tabla siguiente proporciona prácticas recomendadas sobre cómo configurar los campos de parámetros de planificación seleccionados. Para obtener más información acerca de un campo, elija el vínculo en la columna **Configurar el campo**.  
 
 |Configurar el campo|Procedimiento recomendado|Comentario|  
 |-----------------|-------------------|-------------|  
 |Directiva reaprov.||Para obtener más información, consulte [Procedimientos recomendados de configuración: políticas de reorden](setup-best-practices-reordering-policies.md).|  
 |Reservar|Seleccione **Nunca** cuando el producto se planifique con un punto de reorden.<br /><br /> En la fabricación, seleccione **Nunca** para que el sistema de planificación cubra todas las demandas.<br /><br /> Seleccione **Opcional** para los productos que puede ser interesante reservar para los clientes de máxima prioridad.<br /><br /> Seleccione **Siempre** para los productos que no sean únicos, como productos de distintos tipo que se reciben para satisfacer demandas concretas.|Las reservas contrarrestan normalmente el objetivo de la planificación, que es equilibrar la demanda y el suministro. Por lo tanto, los productos que se configuran para planificar, por lo general, no deben ser reservados.<br /><br /> Si el usuario reserva una cantidad del inventario para demanda futura, la base de la planificación se verá perturbada y es posible que el punto de reorden no funcione correctamente. Aunque el nivel de inventario estimado es aceptable en relación con el punto de reorden, las cantidades pueden no estar disponibles debido a la reserva.|  
-|Periodo de tolerancia|Establezca en relación con la flexibilidad del proveedor.<br /><br /> Un período más breve le permite reducir el capital de trabajo al evitar un stock excesivo, pero también provocará más acciones de reprogramación.|Si el proveedor acepta cambios de última hora en los pedidos, utilice un período más breve, pero esté preparado para más acciones de reprogramación. Si el proveedor requiere la planificación en firme, amplíe el periodo tanto como sea posible.<br /><br /> Para obtener información sobre el campo **Periodo de tolerancia** , consulte [Detalles diseño: Parámetros de planificación](design-details-planning-parameters.md).|  
+|Periodo de tolerancia|Establezca en relación con la flexibilidad del proveedor.<br /><br /> Un período más breve le permite reducir el capital de trabajo al evitar un stock excesivo, pero también provocará más acciones de reprogramación.|Si el proveedor acepta cambios de última hora en los pedidos, utilice un período más breve, pero esté preparado para más acciones de reprogramación. Si el proveedor requiere la planificación en firme, amplíe el periodo tanto como sea posible.<br /><br /> Para obtener información sobre el campo **Periodo de tolerancia**, consulte [Detalles diseño: Parámetros de planificación](design-details-planning-parameters.md).|  
 |Incluir inventario|Seleccione siempre cuando utiliza la política de reorden de lote a lote.|No seleccione solo en situaciones especiales, por ejemplo, cuando los productos del inventario no sean vendibles.|  
 |Plazo de seguridad|Establecer entre 1D y 6D.<br /><br /> Establezca un plazo de seguridad de al menos un día para asegurarse de que los suministros están disponibles el día antes de que se necesiten.<br /><br /> Si utiliza un proveedor nuevo, defina un tiempo superior hasta que se conozca su rendimiento de entrega.<br /><br /> Durante la fabricación, defina plazos de seguridad más largos para componentes críticos.|El suministro planeado por el sistema para evitar que se agoten las existencias llegará el mismo día que se agotan las existencias. Esto puede ocurrir varios horas tarde si, por ejemplo, la demanda se necesita por la mañana y el suministro llega por la tarde. **Nota:** El campo **Plazo de seguridad** utiliza el calendario base. Por tanto, 14D no son necesariamente dos semanas.|  
 |Inventario de seguridad|Utilice con productos con fluctuaciones grandes de demanda.<br /><br /> En la fabricación, utilice para los componentes críticos.<br /><br /> Utilice para productos que están sujetos a contratos de servicio.|Si el campo **Punto pedido** no se rellena, el inventario de seguridad también funciona como un punto de nuevo pedido.|  
@@ -38,11 +38,11 @@ La ficha desplegable **Planificación** de la ficha de producto es el centro de 
 > [!NOTE]  
 >  Las prácticas recomendadas para los parámetros de planificación en las fichas de producto también se aplican a los mismos campos de las fichas de UA.  
 >   
->  Si las empresas planean la demanda en distintos almacenes, es muy recomendable definir UA para cada almacén y que toda la demanda se cree con un valor en el campo **Cód. almacén** . Para obtener más información, consulte [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md).  
+>  Si las empresas planean la demanda en distintos almacenes, es muy recomendable definir UA para cada almacén y que toda la demanda se cree con un valor en el campo **Cód. almacén**. Para obtener más información, consulte [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md).  
 
 ## <a name="see-also"></a>Consulte también  
  [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)   
  [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)   
  [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
  [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

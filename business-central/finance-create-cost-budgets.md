@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9fceeeda18b846edd79b9fdc71ab1a22d80203bd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2a8b8e88e296f36b8f4eb9bb41b05d5fc529b23b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913357"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750966"
 ---
 # <a name="creating-cost-budgets"></a>Crear presupuesto costo
 El presupuesto en contabilidad de costos se parece al presupuesto de la contabilidad. Un presupuesto de costos se crea a partir de los tipos de costo del mismo modo como un presupuesto para la contabilidad se crea a partir de las cuentas de contabilidad.  
@@ -37,4 +37,4 @@ Utilice las siguientes páginas para crear y analizar presupuestos de costo. Eli
 [Crear presupuestos contables](finance-how-create-budgets.md)  
 [Terminología en contabilidad de costos](finance-terminology-in-cost-accounting.md)   
 [Definición y asignación de costos](finance-define-and-allocate-costs.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

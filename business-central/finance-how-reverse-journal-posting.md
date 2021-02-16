@@ -12,29 +12,29 @@ ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9a8a7967bdb0947fbfb0b86cc073fc4f96ea0595
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5e14b19b2e8be97a683dfbb9fb7a46e2c825b4e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920607"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750816"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Revertir los registros de diario y deshacer las recepciones/remisiones
 Para deshacer un registro erróneo del diario, seleccione un movimiento y cree un movimiento de reversión (movimientos idénticos al original, pero con el signo contrario en el campo de importe) con el mismo número de documento y la misma fecha de registro que el movimiento original. Después de revertir un movimiento, debe registrar el movimiento correcto.
 
 Solo se pueden revertir los movimientos que están registrados desde una línea del diario general. Un movimiento solo se puede revertir una vez.
 
-Para deshacer un registro de recepción o de remisión, antes de que se registre como facturado, puede usar la función **Deshacer** en el documento registrado. Puede deshacer cantidades de tipo **Artículo** y **Recurso** .
+Para deshacer un registro de recepción o de remisión, antes de que se registre como facturado, puede usar la función **Deshacer** en el documento registrado. Puede deshacer cantidades de tipo **Artículo** y **Recurso**.
 
 Si ha realizado un registro de una cantidad negativa errónea, como un pedido de compra con un número de productos erróneo y lo ha registrado como recibido, pero no facturado, puede deshacer el registro.
 
 Si ha realizado un registro de una cantidad positiva errónea, como una remisión de venta o un envío devolución compra con un número de productos erróneo y lo ha registrado como enviado, pero no facturado, puede deshacer el registro.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Para revertir el registro de diario de un movimiento de contabilidad
-Se pueden revertir movimientos desde todas las páginas **Movimientos** . El siguiente procedimiento se basa en la página **Movs. contabilidad** .
+Se pueden revertir movimientos desde todas las páginas **Movimientos**. El siguiente procedimiento se basa en la página **Movs. contabilidad**.
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Movs. contabilidad** y luego elija el enlace relacionado.
-2. Seleccione el movimiento que desea revertir y, después, seleccione **Revertir transacción** . Tenga en cuenta que debe proceder de un registro de diario.
-3. En la página **Revertir movs. trans.** , elija la acción **Revertir** .
+2. Seleccione el movimiento que desea revertir y, después, seleccione **Revertir transacción**. Tenga en cuenta que debe proceder de un registro de diario.
+3. En la página **Revertir movs. trans.**, elija la acción **Revertir**.
 4. Elija el botón **Sí** para en el mensaje de confirmación.
 
 > [!NOTE]
@@ -44,10 +44,10 @@ Se pueden revertir movimientos desde todas las páginas **Movimientos** . El sig
 Puede utilizar el campo **Corrección** para enviar un adeudo negativo en lugar de un abono, o registrar un crédito negativo en vez de un débito en una cuenta. Para cumplir los requisitos legales, este campo estará visible de forma predeterminada en todos los diarios. Los campos **Importe debe** e **Importe haber** incluyen tanto el movimiento original como el corregido. Estos campos no influyen en el saldo de la cuenta.  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diarios generales** y luego elija el enlace relacionado  
-2.  En el campo **Nombre sección** , seleccione el nombre de sección requerido.  
+2.  En el campo **Nombre sección**, seleccione el nombre de sección requerido.  
 3.  Escriba información en los campos relevantes.  
-4.  En la línea del diario que desea activar para los movimientos negativos, seleccione la casilla de activación **Corrección** .  
-5.  Para registrar el diario, elija la acción **Registrar** y el botón **Sí** .
+4.  En la línea del diario que desea activar para los movimientos negativos, seleccione la casilla de activación **Corrección**.  
+5.  Para registrar el diario, elija la acción **Registrar** y el botón **Sí**.
 
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Para deshacer la cantidad registrada en un albarán de compra registrado  
 A continuación se describe cómo deshacer un Histórico recepciones de artículos o recursos. Los pasos son parecidos para las remisiones registradas.
@@ -55,7 +55,7 @@ A continuación se describe cómo deshacer un Histórico recepciones de artícul
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Recepciones de compra registrados** y luego elija el enlace relacionado.  
 2.  Abra la recepción registrada que desea deshacer.  
 3.  Selecciones las líneas del diario que desea deshacer.  
-4.  Seleccione la acción **Deshacer albarán** .
+4.  Seleccione la acción **Deshacer albarán**.
 
 Una línea correctiva se inserta bajo la línea de recepción seleccionada. Si se recibe la cantidad en un Recepción de almacén, entonces se inserta una línea de corrección en la recepción de almacén registrado.  
 
@@ -68,15 +68,15 @@ A continuación se describe cómo deshacer un envío de devolución de artículo
 2.  Abra el envío devolución registrado que desea deshacer.
 3. Selecciones las líneas del diario que desea deshacer.  
 
-4.  Elija la acción **Deshacer envío dev.** .  
+4.  Elija la acción **Deshacer envío dev.**.  
 
     Se insertará una línea de corrección en el documento registrado y los campos **Cantidad dev. enviada** y **Dev. enviadas no facturadas** del pedido de devolución se establecerán en cero.  
 
     Ahora vuelva al pedido de devolución de compra para volver a realizar el registro.  
 
-5.  En la página **Histórico remisiones devolución** , tome una nota del número en el campo **Nº devolución** .  
+5.  En la página **Histórico remisiones devolución**, tome una nota del número en el campo **Nº devolución** .  
 6.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Devolución de pedidos** y luego elija el enlace relacionado.  
-7.  Abra el pedido de devolución en cuestión y, a continuación, elija la acción **Volver a abrir** .  
+7.  Abra el pedido de devolución en cuestión y, a continuación, elija la acción **Volver a abrir**.  
 8.  Corrija el movimiento en el campo **Cantidad** y vuelva a publicar la orden de devolución de la compra.  
 
 ## <a name="see-also"></a>Consulte también
@@ -84,4 +84,4 @@ A continuación se describe cómo deshacer un envío de devolución de artículo
 [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5c993027b54c624ea393c6bfc96554d02c0882ed
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fac8f33b973135cc9aceff649a9046153bd45253
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925808"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748115"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Configurar precios y costos adicionales de servicios
-Puede utilizar las funciones de precios de [!INCLUDE[d365fin](includes/d365fin_md.md)] para configurar y personalizar su aplicación de modo que aplique y ajuste precios sobre productos de servicio, reparaciones y pedidos. Estas decisiones de precios se transmiten con facilidad al proceso de facturación.  
+Puede utilizar las funciones de precios de [!INCLUDE[prod_short](includes/prod_short.md)] para configurar y personalizar su aplicación de modo que aplique y ajuste precios sobre productos de servicio, reparaciones y pedidos. Estas decisiones de precios se transmiten con facilidad al proceso de facturación.  
   
 Según requiera su implementación, puede configurar grupos de precios y asignarlos a periodos de tiempo, clientes o divisa específicos. Puede configurar precios fijos, mínimos o máximos, en función de los contratos de servicio que tenga con los clientes. Finalmente, al ajustar los precios, puede ver y aprobar los cambios antes de asignarlos en la contabilidad.  
 
@@ -27,26 +27,26 @@ Puede configurar grupos que contienen productos de servicio que desee que reciba
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos precio servicio** y luego elija el enlace relacionado.  
 2. Cree un grupo de precios de servicios nuevo.  
-3. Rellene los campos **Código** y **Descripción** .  
-4. Seleccione la acción **Configurar** .  
+3. Rellene los campos **Código** y **Descripción**.  
+4. Seleccione la acción **Configurar**.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
  > [!Tip]
- > El **Tipo de ajuste** y el campo **Importe** trabajan juntos para especificar si un ajuste afecta a un importe fijo o sólo se aplica cuando el precio total del servicio supera o es menor que el importe del campo **Importe** .  
+ > El **Tipo de ajuste** y el campo **Importe** trabajan juntos para especificar si un ajuste afecta a un importe fijo o sólo se aplica cuando el precio total del servicio supera o es menor que el importe del campo **Importe**.  
 
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Para configurar un grupo de ajuste de precios de servicio  
 Puede configurar grupos de ajuste de precios para ajustar los precios de servicio de los productos de servicio. Por ejemplo, puede configurar grupos de ajuste de precio que ajusten el precio del flete o de los componentes.  
   
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos de ajuste de precios de servicio** y luego elija el enlace relacionado.  
 2. Cree un grupo de ajuste de precios de servicio nuevo.  
-3. Rellene los campos **Código** y **Descripción** .  
-4. En el campo **Tipo** , especifique el tipo de entrada que desea ajustar.  
+3. Rellene los campos **Código** y **Descripción**.  
+4. En el campo **Tipo**, especifique el tipo de entrada que desea ajustar.  
   
-    * Para ajustar un movimiento específico, introduzca el número del movimiento en el campo **Nº** . Al dejar este campo en blanco, el grupo de ajuste ajustará todos los movimientos del tipo definido en el campo **Tipo** .  
-    * Para ajustar los precios de servicio correspondientes a un servicio específico, rellene el campo **Tipo trabajo** . Cuando deje este campo en blanco, será ignorado.  
+    * Para ajustar un movimiento específico, introduzca el número del movimiento en el campo **Nº** . Al dejar este campo en blanco, el grupo de ajuste ajustará todos los movimientos del tipo definido en el campo **Tipo**.  
+    * Para ajustar los precios de servicio correspondientes a un servicio específico, rellene el campo **Tipo trabajo**. Cuando deje este campo en blanco, será ignorado.  
   
-5. En el campo **Descripción** , introduzca una breve descripción del ajuste de precios de servicio.  
-6. Para ajustar los precios de servicio relacionados con un grupo contable de producto general específico, rellene el campo **Grupo contable producto** .
+5. En el campo **Descripción**, introduzca una breve descripción del ajuste de precios de servicio.  
+6. Para ajustar los precios de servicio relacionados con un grupo contable de producto general específico, rellene el campo **Grupo contable producto**.
 
 > [!Tip]
 > Puede elegir **Detalles** para agregar información adicional acerca del grupo de ajuste. Por ejemplo, puede especificar qué productos pertenecen al grupo de ajuste de precio de servicio y si se trata de un producto, un recurso, una familia de recursos o un cargo de servicio.  
@@ -60,7 +60,7 @@ Cuando trabaje con productos y pedidos de servicio, puede que tenga que registra
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Para especificar un costo predeterminado de los pedidos de servicio
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración del servicio** y luego elija el enlace relacionado. 
-2. En el campo **Cargo inicio ped. servicio** , seleccione el costo de servicio correspondiente.
+2. En el campo **Cargo inicio ped. servicio**, seleccione el costo de servicio correspondiente.
 
 ## <a name="see-also"></a>Consulte también
 [Configurar la gestión de servicios](service-setup-service.md)  

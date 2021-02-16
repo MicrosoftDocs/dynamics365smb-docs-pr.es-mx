@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5dda40147d86bbe67e3eb20860ffa4648e2e9918
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9165a7392f5c95b2ebb8a056f69be49d93476b66
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913924"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747377"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Vender productos de ensamblado para pedido y productos de inventario juntos
-Si el campo **Política de ensamblado** de la ficha de producto de un producto de ensamblado contiene **Ensamblar para existencias** , el proceso de pedido de venta predeterminado supone que el producto está ensamblado y se puede ya seleccionar del inventario, si está disponible. Por tanto, no se crea ni vincula ningún pedido de ensamblado automáticamente a la línea de pedido de venta. Sin embargo, si parte de la cantidad (o toda) no está disponible, tiene la flexibilidad de crear un pedido de ensamblado para la cantidad pendiente rellenando el campo **Cdad. al ensamblar para pedido** de la línea de pedido de venta. De esta forma, puede ensamblar el producto para pedido aunque esté configurado para ensamblarse para existencias de forma predeterminada.  
+Si el campo **Política de ensamblado** de la ficha de producto de un producto de ensamblado contiene **Ensamblar para existencias**, el proceso de pedido de venta predeterminado supone que el producto está ensamblado y se puede ya seleccionar del inventario, si está disponible. Por tanto, no se crea ni vincula ningún pedido de ensamblado automáticamente a la línea de pedido de venta. Sin embargo, si parte de la cantidad (o toda) no está disponible, tiene la flexibilidad de crear un pedido de ensamblado para la cantidad pendiente rellenando el campo **Cdad. al ensamblar para pedido** de la línea de pedido de venta. De esta forma, puede ensamblar el producto para pedido aunque esté configurado para ensamblarse para existencias de forma predeterminada.  
 
 La flexibilidad similar se da cuando se venden productos que se ensamblarán para el pedido y una parte de la cantidad está en el inventario, que desea descontar del pedido de ensamblado. Para obtener más información, consulte [Venta de productos de inventario en los flujos de ensamblar para pedido](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
@@ -31,7 +31,7 @@ La flexibilidad similar se da cuando se venden productos que se ensamblarán par
 ## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Para vender productos de ensamblado para pedido y productos de inventario juntos  
 1.  En una línea de pedido de venta de un producto configurado para ensamblarse para existencias, escriba una cantidad en el campo **Cantidad** que sea mayor que el inventario. La página **Comprobación disponibilidad** aparecerá. Para obtener más información, consulte [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md).
 2.  Anote el valor del campo **Cantidad total** (un valor negativo), que introducirá en el paso siguiente.  
-3.  En el campo **Cdad. al ensamblar para pedido** , introduzca el valor del paso anterior.  
+3.  En el campo **Cdad. al ensamblar para pedido**, introduzca el valor del paso anterior.  
 4.  Realice los cambios en los componentes de ensamblado. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
 5.  Continúe para lanzar el pedido de venta, para prepararlo para el picking de los productos de inventario y para el ensamblado de los productos no disponibles. Para obtener más información acerca de estos pasos habituales de ensamblado, consulte [Ensamblar productos](assembly-how-to-assemble-items.md).  
 
@@ -43,4 +43,4 @@ La flexibilidad similar se da cuando se venden productos que se ensamblarán par
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

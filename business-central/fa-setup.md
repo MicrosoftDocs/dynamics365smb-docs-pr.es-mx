@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4d92b4fc380dfaaf5b4fe2705367dff359eae6e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7a5230f26b3e0db8896125d1a8dbf2d8ff322777
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926983"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751166"
 ---
 # <a name="setting-up-fixed-assets"></a>Configurar activos fijos
 Antes de trabajar con activos fijos, debe definir algunos parámetros:  
@@ -27,9 +27,9 @@ Antes de trabajar con activos fijos, debe definir algunos parámetros:
 La siguiente tabla tiene vínculos a más información. Una vez configurados estos parámetros, pueda empezar las distintas actividades. Para obtener más información, vea [Activos fijos](fa-manage.md).  
 
 > [!NOTE]  
->   Puede registrar transacciones de activos en las páginas **A/F Diario general** o **Diario activos fijos** , dependiendo de si las transacciones son para la información financiera o la gestión interna. La ayuda para los activos fijos solo describe cómo utilizar la página **A/F Diario general** .  
+>   Puede registrar transacciones de activos en las páginas **A/F Diario general** o **Diario activos fijos**, dependiendo de si las transacciones son para la información financiera o la gestión interna. La ayuda para los activos fijos solo describe cómo utilizar la página **A/F Diario general**.  
 
-Cuando habilita una actividad de activo fijo en la sección **Integración contabilidad** de la página **Ficha libro amortización** , la página **A/F Diario general** se usa para registrar las transacciones de la actividad.
+Cuando habilita una actividad de activo fijo en la sección **Integración contabilidad** de la página **Ficha libro amortización**, la página **A/F Diario general** se usa para registrar las transacciones de la actividad.
 
 En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas que las describen.  
 
@@ -45,4 +45,4 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 [Activos fijos](fa-manage.md)  
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

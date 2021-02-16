@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/06/2020
+ms.date: 11/03/2020
 ms.author: edupont
-ms.openlocfilehash: 97904add0f97be5a93bec5e53b45179fadfddffb
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: cb9586e207f3eda516d11dd4f184351ff66ca4b2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968345"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749966"
 ---
 # <a name="work-with-responsibility-centers"></a>Trabajar con centros de responsabilidad
 
@@ -28,12 +28,12 @@ Con múltiples almacenes, las empresas pueden gestionar sus existencias en diver
 ## <a name="to-set-up-a-responsibility-center"></a>Para configurar un centro de responsabilidad
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Centros de responsabilidad** y luego elija el enlace relacionado.  
-2. Seleccione la acción **Nuevo** .  
+2. Seleccione la acción **Nuevo**.  
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Si utiliza centros de responsabilidad para administrar la empresa, puede resultar útil tener un centro de responsabilidad predeterminado en la empresa.
 4. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado.
-5. En el campo **Centro responsabilidades** , escriba un código de centro de responsabilidad.
+5. En el campo **Centro responsabilidades**, escriba un código de centro de responsabilidad.
 
 Este código se utilizará en todos los documentos de compras, ventas o servicio en caso de que el usuario, el cliente o el proveedor no tengan un centro de responsabilidad predeterminado. Puede introducir otro centro de responsabilidad distinto al predeterminado en todos los documentos de ventas, compra o servicio.
 
@@ -47,13 +47,13 @@ Puede establecer en la configuración de los usuarios que en sus rutinas diarias
 Para configurarlo, debe asignar centros de responsabilidad a los usuarios en tres áreas funcionales básicas: Compras, Ventas y Gestión de servicios.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de usuarios** y luego elija el enlace relacionado.  
-2. En la página **Config. usuario** , seleccione el usuario al que desea asignar un centro de responsabilidad. Si el usuario no está incluido en la lista, debe introducir un Id. de usuario en el campo **Id. usuario** .  
-3. En el campo **Filtro centro de responsabilidad de ventas** , introduzca el centro de responsabilidad donde el usuario asumirá tareas relacionadas con ventas.  
-4. En el campo **Filtro centro responsabilidad de compras** , introduzca el centro de responsabilidad donde el usuario asumirá tareas relacionadas con compras.  
-5. En el campo **Filtro centro responsabilidad de servicio** , introduzca el centro de responsabilidad donde el usuario asumirá tareas relacionadas con gestión de servicios.  
+2. En la página **Config. usuario**, seleccione el usuario al que desea asignar un centro de responsabilidad. Si el usuario no está incluido en la lista, debe introducir un Id. de usuario en el campo **Id. usuario**.  
+3. En el campo **Filtro centro de responsabilidad de ventas**, introduzca el centro de responsabilidad donde el usuario asumirá tareas relacionadas con ventas.  
+4. En el campo **Filtro centro responsabilidad de compras**, introduzca el centro de responsabilidad donde el usuario asumirá tareas relacionadas con compras.  
+5. En el campo **Filtro centro responsabilidad de servicio**, introduzca el centro de responsabilidad donde el usuario asumirá tareas relacionadas con gestión de servicios.  
 
 > [!NOTE]  
-> Los usuarios podrán ver todos los documentos y movimientos registrados y no únicamente los relacionados con su propio centro de responsabilidad.
+> Los usuarios pueden ver solo los documentos publicados relacionados con su propio centro de responsabilidad. Sin embargo, pueden ver todas las entradas del libro mayor y navegar a otros documentos registrados desde las entradas del libro mayor.
 
 ## <a name="see-also"></a>Consulte también
 
@@ -62,4 +62,4 @@ Para configurarlo, debe asignar centros de responsabilidad a los usuarios en tre
 [Inventario](inventory-manage-inventory.md)[Gestión de almacén](warehouse-manage-warehouse.md)  
 [Gestión almacén](warehouse-manage-warehouse.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

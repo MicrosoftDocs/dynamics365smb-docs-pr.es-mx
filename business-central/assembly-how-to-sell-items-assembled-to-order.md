@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4e7d6380465eed64a7086b9348e1a2261555a024
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 99111bce195e4436aac597cc4eb2e5f8f3ef77cd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913899"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747302"
 ---
 # <a name="sell-items-assembled-to-order"></a>Venta de artículos ensamblados para pedido
-Si el campo **Política de ensamblado** de la ficha de producto de un producto de ensamblado es **Ensamblar para pedido** , no se espera que el producto se encuentre en el inventario y el campo debe ensamblarse específicamente para un pedido de venta. Cuando especifique el producto en una línea de pedido de venta, automáticamente se creará un pedido de ensamblado y se vinculará al pedido de venta.  
+Si el campo **Política de ensamblado** de la ficha de producto de un producto de ensamblado es **Ensamblar para pedido**, no se espera que el producto se encuentre en el inventario y el campo debe ensamblarse específicamente para un pedido de venta. Cuando especifique el producto en una línea de pedido de venta, automáticamente se creará un pedido de ensamblado y se vinculará al pedido de venta.  
 
 > [!NOTE]  
 >  Si algunos productos de ensamblar para pedido ya se encuentran en el inventario, puede descontar esa cantidad de pedido de ensamblado y reservarla del inventario. Para obtener más información, consulte [Venta de productos de inventario en los flujos de ensamblar para pedido](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
@@ -31,29 +31,29 @@ En este procedimiento, procesa la venta de un producto que se ensamblará según
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Para vender un artículo que se ensamble para pedido  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2.  Cree un pedido de ventas. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).  
-3.  En el campo **N.º** , introduzca un producto configurado para ensamblarse para pedido.  
-4.  En el campo **Cód. almacén** , defina de qué almacén se venderá el producto. El proceso de ensamblado se producirá en ese almacén.  
-5.  En el campo **Cantidad** , especifique cuántas unidades vender.  
+3.  En el campo **N.º**, introduzca un producto configurado para ensamblarse para pedido.  
+4.  En el campo **Cód. almacén**, defina de qué almacén se venderá el producto. El proceso de ensamblado se producirá en ese almacén.  
+5.  En el campo **Cantidad**, especifique cuántas unidades vender.  
 
     > [!NOTE]  
     >  Si uno o más componentes de la cantidad solicitada del producto del ensamblado no están disponibles, se abrirá una página de advertencia de disponibilidad detallada. Para obtener más información, consulte Disponibilidad de ensamblado.  
 
     Entonces se creará un pedido de ensamblado y se vinculará a la línea de pedido de venta automáticamente. La fecha de vencimiento de este pedido de ensamblado está sincronizada con la fecha de envío de la línea de pedido de venta.  
 
-    La cantidad que vender se copia en el campo **Cdad. al ensamblar para pedido** , que indica que la configuración del producto espera que la cantidad total en la línea de venta se ensamble para el pedido. Puede reducir la cantidad que ensamblar para pedido, por ejemplo si sabe que algunos productos ya están disponibles. Para obtener más información, consulte [Venta de productos de inventario en los flujos de ensamblar para pedido](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
+    La cantidad que vender se copia en el campo **Cdad. al ensamblar para pedido**, que indica que la configuración del producto espera que la cantidad total en la línea de venta se ensamble para el pedido. Puede reducir la cantidad que ensamblar para pedido, por ejemplo si sabe que algunos productos ya están disponibles. Para obtener más información, consulte [Venta de productos de inventario en los flujos de ensamblar para pedido](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
-6.  Para reflejar que el cliente desea un artículo adicional en un kit, en la ficha desplegable **Líneas** , seleccione las acciones **Línea** , **Ensamblar para pedido** y, a continuación, **Ensamblar para líneas de pedido** para ver y modificar los componentes del ensamblado estándar. También puede elegir el campo **Cdad. al ensamblar para pedido** .  
-7.  En la página **Ensamblar para líneas de pedido** , cree una nueva línea del tipo **Producto** para el contenido del kit adicional solicitado. La línea representa un componente de ensamblado adicional.  
+6.  Para reflejar que el cliente desea un artículo adicional en un kit, en la ficha desplegable **Líneas**, seleccione las acciones **Línea**, **Ensamblar para pedido** y, a continuación, **Ensamblar para líneas de pedido** para ver y modificar los componentes del ensamblado estándar. También puede elegir el campo **Cdad. al ensamblar para pedido**.  
+7.  En la página **Ensamblar para líneas de pedido**, cree una nueva línea del tipo **Producto** para el contenido del kit adicional solicitado. La línea representa un componente de ensamblado adicional.  
 
     También puede personalizar el pedido incrementando la cantidad de un producto estándar del kit. Puede hacerlo incrementando el valor del campo **Cantidad por** en la línea específica de pedido de ensamblado.  
 
     > [!NOTE]  
-    >  La página **Ensamblar para líneas de pedido** contiene solo los campos básicos que se espera que un vendedor utilice para personalizar la lista de componentes, añadir los números de seguimiento de producto o resolver problemas de disponibilidad de componentes. Para ver más información del pedido de ensamblado, como la fecha inicial del pedido de ensamblado, elija la acción **Mostrar los documentos** . De esta manera, se abrirá una vista completa del pedido de ensamblado vinculado a la línea de pedido de venta. No puede modificar el contenido de la mayoría de los campos de la cabecera del pedido de ensamblado y no puede registrar la salida de ensamblado de él porque debe utilizar el registro de envío de la línea de pedido de venta.  
+    >  La página **Ensamblar para líneas de pedido** contiene solo los campos básicos que se espera que un vendedor utilice para personalizar la lista de componentes, añadir los números de seguimiento de producto o resolver problemas de disponibilidad de componentes. Para ver más información del pedido de ensamblado, como la fecha inicial del pedido de ensamblado, elija la acción **Mostrar los documentos**. De esta manera, se abrirá una vista completa del pedido de ensamblado vinculado a la línea de pedido de venta. No puede modificar el contenido de la mayoría de los campos de la cabecera del pedido de ensamblado y no puede registrar la salida de ensamblado de él porque debe utilizar el registro de envío de la línea de pedido de venta.  
     >   
     >  En la cabecera de pedidos de ensamblado vinculados, solo el campo **Fecha inicial** se puede cambiar para permitir a los empleados de ensamblado especificar una fecha que sea anterior a la fecha de vencimiento en la que comenzarán el proceso. Todos los campos de las líneas del pedido de ensamblado vinculado pueden cambiar de forma que los empleados del almacén puedan introducir las cifras de consumo durante el proceso.  
 
 8.  Revise o reaccione a incidencias de disponibilidad de componentes. Por ejemplo, seleccione un producto alternativo disponible o establezca una fecha de vencimiento posterior.  
-9. Cierre la página **Ensamblar para líneas de pedido** . El pedido de ensamblado vinculado ahora está preparado para comenzar a ensamblar los productos personalizados por fecha de vencimiento.  
+9. Cierre la página **Ensamblar para líneas de pedido**. El pedido de ensamblado vinculado ahora está preparado para comenzar a ensamblar los productos personalizados por fecha de vencimiento.  
 10. En el pedido de venta, seleccione la acción **Lanzar** para notificar al departamento de ensamblado que el proceso de ensamblado puede comenzar.  
 11. En el departamento de ensamblado, realice los pasos de ensamblado de los productos que se venden en este procedimiento. Para obtener más información, consulte [Ensamblar productos](assembly-how-to-assemble-items.md).  
 
@@ -62,4 +62,4 @@ En este procedimiento, procesa la venta de un producto que se ensamblará según
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

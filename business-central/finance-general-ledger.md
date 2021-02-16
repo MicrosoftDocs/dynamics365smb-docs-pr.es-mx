@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f370bf9bb7e6aa4571a88d4b868ff86376ecb605
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dbeb9f9cbe0eff61b28dc4d371a1f8d9031ea1b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917162"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747052"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Descripción de contabilidad y plan de cuentas
 
-La contabilidad almacena sus datos financieros y el catálogo de cuentas muestra las cuentas donde se registran todos los movimientos contables. [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un gráfico estándar de cuentas que está preparado para respaldar su negocio.
+La contabilidad almacena sus datos financieros y el catálogo de cuentas muestra las cuentas donde se registran todos los movimientos contables. [!INCLUDE[prod_short](includes/prod_short.md)] incluye un gráfico estándar de cuentas que está preparado para respaldar su negocio.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Configuración de contabilidad y grupos contables
 
@@ -31,7 +31,7 @@ En la página **Configuración contabilidad** especifique cómo gestionar determ
 * Formatos de dirección  
 * Informes financieros  
 
-De manera similar, en la página **Configuración grupos contables** , puede especificar cómo desea configurar las combinaciones generales del negocio y los grupos contables de producto. Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Rellene una línea por cada combinación de grupo contable de negocio y de producto. Para obtener más información, consulte [Configuraciones de grupos de registro](finance-posting-groups.md).  
+De manera similar, en la página **Configuración grupos contables**, puede especificar cómo desea configurar las combinaciones generales del negocio y los grupos contables de producto. Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Rellene una línea por cada combinación de grupo contable de negocio y de producto. Para obtener más información, consulte [Configuraciones de grupos de registro](finance-posting-groups.md).  
 
 > [!TIP]
 > La página **Configuración de contabilidad:** incluye campos genéricos y campos que son específicos de su país o región. Si no está seguro del significado de un campo, le sugerimos que trabaje con su contable para determinar si es relevante para su organización.  
@@ -54,7 +54,7 @@ Puede personalizar la estructura de los informes financieros con la asignación 
 
 La página **Categorías de cuenta** muestra las categorías y subcategorías, y las cuentas que asignó a cada categoría. Puede crear nuevas subcategorías y asignarlas a las cuentas existentes.  
 
-Puede crear un grupo de categorías marcando otras subcategorías debajo de una línea en la página **Categorías de cuenta** . Esto le facilita la obtención de una descripción general, porque cada agrupación muestra un balance total. Por ejemplo, puede crear las subcategorías para distintos tipos de activos y a continuación crear grupos de categorías para los activos fijos y los activos circulantes.  
+Puede crear un grupo de categorías marcando otras subcategorías debajo de una línea en la página **Categorías de cuenta**. Esto le facilita la obtención de una descripción general, porque cada agrupación muestra un balance total. Por ejemplo, puede crear las subcategorías para distintos tipos de activos y a continuación crear grupos de categorías para los activos fijos y los activos circulantes.  
 
 Puede especificar si las cuentas de cada categoría deben incluirse en los tipos específicos de informes. Las categorías de cuentas ayudan a definir el diseño de sus balances financieros.  
 
@@ -62,7 +62,7 @@ Por ejemplo, el estado de cuenta de saldo predeterminado tiene una subcategoría
 
 1. Agregar dos nuevas subcategorías. Una para el efectivo pequeño y otra para su cuenta corriente.  
 2. Especifique la definición de informe adicional **Cuentas de efectivo** de estas subcategorías.  
-3. Aplique sangría en la subcategoría **Efectivo** .  
+3. Aplique sangría en la subcategoría **Efectivo**.  
 
 La próxima vez que genere las estructuras de cuentas, su estado de cuenta de saldo mostrará un estado de cuenta total de efectivo y dos líneas con estados de cuenta para caja chica y cuenta corriente.  
 

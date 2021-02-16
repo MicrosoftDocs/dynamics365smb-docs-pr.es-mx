@@ -7,19 +7,19 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 524ed44ed305fc219ea15afc061994dbe3050503
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: edcaaaedde3bb42c0c0d69c3e71dd659f5475712
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910741"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750466"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Configuración de valuación de inventarios
 
 Para asegurarse de que los costos de inventario se registran correctamente, debe configurar varios campos y páginas antes de comenzar a realizar transacciones de elementos. Por lo general, las empresas eligen método de costo específico y la aplican a los productos del inventario, por ejemplo, para ayudarlas a seguir el valor de los productos en existencias.  
 
 > [!TIP]
-> Para obtener una introducción al cálculo de costos en [!INCLUDE [prodshort](includes/prodshort.md)], consulte [Acerca de la valoración de inventario](finance-learn-about-costing.md).
+> Para obtener una introducción al cálculo de costos en [!INCLUDE [prod_short](includes/prod_short.md)], consulte [Acerca de la valoración de inventario](finance-learn-about-costing.md).
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
@@ -27,8 +27,8 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |------------|-------------|
 |Especifique una valoración de existencias predeterminada para la empresa con el fin de determinar cómo se utiliza el costo entrante para evaluar el valor de inventario y el costo de las mercancías vendidas.|[Configurar información de inventario general](inventory-how-setup-general.md)|  
 |Especifique una valoración de existencias de productos individuales si requieren un método de valoración de existencias diferente.|[Registro de productos nuevos](inventory-how-register-new-items.md)|  
-|Asegurar que el costo se registra automáticamente en la contabilidad cada vez que se registra una transacción de inventario.|Campo **Registro de costos automático** de la página **Configuración de inventario** .|  
-|Asegurar que los costos esperados se registran en la contabilidad para ver a partir de las cuentas provisionales una estimación de los importes vencidos y el costo de los productos comercializados antes de que se facturen realmente.|**Regis. cto. previsto en contabilidad** de la ventana **Configuración de inventario** .|  
+|Asegurar que el costo se registra automáticamente en la contabilidad cada vez que se registra una transacción de inventario.|Campo **Registro de costos automático** de la página **Configuración de inventario**.|  
+|Asegurar que los costos esperados se registran en la contabilidad para ver a partir de las cuentas provisionales una estimación de los importes vencidos y el costo de los productos comercializados antes de que se facturen realmente.|**Regis. cto. previsto en contabilidad** de la ventana **Configuración de inventario**.|  
 |Configurar el sistema para ajustar los cambios de costo automáticamente cada vez que se registran transacciones de inventario.|[Ajustar precios de productos](inventory-how-adjust-item-costs.md)|  
 |Defina si el costo promedio debe calcularse por producto solamente o por producto para cada unidad de almacenamiento y para cada variante del producto.|Campo **Tipo cálculo costo promedio** en la página **Configuración de inventario**|  
 |Seleccionar el periodo de tiempo que desea que utilice la aplicación para calcular el costo promedio ponderado de los productos que utilizan la valoración de existencias media.|Campo **Periodo costo promedio** en la página **Configuración de inventario**|  

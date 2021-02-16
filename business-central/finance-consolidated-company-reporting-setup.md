@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7a5ad9eeb2dc42f1cb6fe7640bda721a6f511a75
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d733b8000d5ea476d32a96bcccdceebc32e0f43c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927790"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750991"
 ---
 # <a name="set-up-company-consolidation"></a>Configuración de la consolidación de empresas
 
@@ -33,11 +33,11 @@ En función de la complejidad de sus negocios, hay dos formas de configurar la c
 Si su consolidación es directa, por ejemplo, porque es propietario de la totalidad de las unidades de negocio a consolidar, la guía de configuración asistida **Consolidación de empresa** lo ayudará con los pasos siguientes:
 
 * Indique si crear una nueva empresa consolidada, o si consolidar los datos en una empresa que ya haya creado para la consolidación. La empresa no debe contener transacciones.
-* Previsualizar los resultados. [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba que los datos y las transacciones maestros se pueden transferir correctamente a la empresa consolidada.
+* Previsualizar los resultados. [!INCLUDE[prod_short](includes/prod_short.md)] comprueba que los datos y las transacciones maestros se pueden transferir correctamente a la empresa consolidada.
 
 Para usar la guía de configuración asistida, realice los pasos siguientes:
 
-1. En el área de tareas **Contador** , seleccione la acción **Configuración asistida** .
+1. En el área de tareas **Contador**, seleccione la acción **Configuración asistida**.
 2. Seleccione **Configurar informe de consolidación** y después complete cada paso en la guía de configuración asistida.
 
 ## <a name="advanced-consolidation-setup"></a>Configuración de consolidación avanzada
@@ -63,21 +63,21 @@ La siguiente lista ilustra los aspectos clave de la empresa consolidada.
     Para obtener más información, consulte la sección [Agregar unidades de negocio](#busunit).
 3. Puede especificar tipos de cambio si va a consolidar los resultados financieros de unidades de negocio si dichos resultados están en una divisa extranjera.
 
-    Los tres tipos de cambio que se usan son **Tipo de cambio medio (manual)** , **Tipo de cambio al cierre** y **Último cambio al cierre** . Para obtener más información, consulte la sección [Especificar tipos de cambio para consolidaciones](#exchrates).
+    Los tres tipos de cambio que se usan son **Tipo de cambio medio (manual)**, **Tipo de cambio al cierre** y **Último cambio al cierre**. Para obtener más información, consulte la sección [Especificar tipos de cambio para consolidaciones](#exchrates).
 4. Puede consolidar información sobre dimensiones y cuentas de contabilidad.
 
     Para obtener más información, consulte la sección [Incluir o excluir dimensiones](#dim).
 
 ### <a name="add-business-units"></a><a name="busunit"></a>Agregar unidades de negocio
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] le permite configurar una lista de unidades de negocio para consolidar, comprobar los datos contables antes de proceder a la consolidación, importar archivos y generar informes de consolidación.  
+[!INCLUDE[prod_short](includes/prod_short.md)] le permite configurar una lista de unidades de negocio para consolidar, comprobar los datos contables antes de proceder a la consolidación, importar archivos y generar informes de consolidación.  
 
 1. Inicie sesión en la empresa consolidada.
 2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Unidades de negocio** y luego elija el enlace relacionado.  
 3. Elija **Nuevo** y, a continuación, rellene los campos requeridos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
-    > Cuando rellene los campos **Fecha inicial** y **Fecha final** , asegúrese de cumplir con las reglas GAAP relacionadas con los periodos fiscales de la unidad de negocio y la empresa principal.
+    > Cuando rellene los campos **Fecha inicial** y **Fecha final**, asegúrese de cumplir con las reglas GAAP relacionadas con los periodos fiscales de la unidad de negocio y la empresa principal.
 4. Repita el paso 3 para cada unidad de negocio adicional.
 
 Si su empresa utiliza una divisa extranjera debe especificar el tipo de cambio que debe utilizarse en la consolidación. También debe introducir la información de consolidación en las cuentas de la empresa. Estos procesos se describen en las siguientes secciones.
@@ -88,12 +88,12 @@ El catálogo de cuentas de una empresa que se va consolidar debe especificar las
 
 Si el plan de cuentas de la unidad de negocio difiere de la empresa consolidada, debe preparar los libros contables para la consolidación. Puede especificar las cuentas para apuntar debe y haber y el método a utilizar para traducir las divisas en la empresa consolidada. Por ejemplo, esto es útil en caso de ejecutar con frecuencia el informe.
 
-1. En cada [!INCLUDE [prodshort](includes/prodshort.md)] de la unidad de negocio, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Catálogo de cuentas** y, luego, elija el vínculo relacionado.  
-2. Abra la ficha de la cuenta, y rellene los campos de la ficha desplegable **Consolidación** . [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+1. En cada [!INCLUDE [prod_short](includes/prod_short.md)] de la unidad de negocio, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Catálogo de cuentas** y, luego, elija el vínculo relacionado.  
+2. Abra la ficha de la cuenta, y rellene los campos de la ficha desplegable **Consolidación**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Especificar los tipos de cambio para consolidaciones
 
-Si una unidad de negocio utiliza una divisa diferente de la empresa consolidada, debe especificar los métodos del tipo de cambio para cada cuenta antes de que se consolide. Para cada cuenta, el contenido del campo **Método de traducción Consol.** determina el tipo de cambio. En la empresa consolidada, en cada ficha de unidad de negocio, en el campo **Tabla de tipo de cambio de divisa** debe especificar si la consolidación usará tipos de cambio de la empresa o de la empresa consolidada. Si utiliza tipos de cambio de la empresa consolidada, puede cambiar los tipos de cambios para una empresa. Para las unidades de negocio, el campo **Tabla de tipo de cambio de divisas** de la ficha de la unidad de negocio contiene **Local** , puede cambiar el tipo de cambio para la ficha de la unidad de negocio. Los tipos de cambio se copian desde la tabla **Tipo cambio divisa** , pero puede cambiarlos antes de la consolidación.
+Si una unidad de negocio utiliza una divisa diferente de la empresa consolidada, debe especificar los métodos del tipo de cambio para cada cuenta antes de que se consolide. Para cada cuenta, el contenido del campo **Método de traducción Consol.** determina el tipo de cambio. En la empresa consolidada, en cada ficha de unidad de negocio, en el campo **Tabla de tipo de cambio de divisa** debe especificar si la consolidación usará tipos de cambio de la empresa o de la empresa consolidada. Si utiliza tipos de cambio de la empresa consolidada, puede cambiar los tipos de cambios para una empresa. Para las unidades de negocio, el campo **Tabla de tipo de cambio de divisas** de la ficha de la unidad de negocio contiene **Local**, puede cambiar el tipo de cambio para la ficha de la unidad de negocio. Los tipos de cambio se copian desde la tabla **Tipo cambio divisa**, pero puede cambiarlos antes de la consolidación.
 
 En la tabla siguiente se describen los métodos del tipo de cambio que puede utilizar para las cuentas.
 
@@ -104,15 +104,15 @@ En la tabla siguiente se describen los métodos del tipo de cambio que puede uti
 |Último cambio al cierre | El tipo de cambio que era válido en el mercado de divisas en la fecha para la que se está preparando el balance o el balance de ingresos. Introduzca este tipo de cambio para cada unidad de negocio. Usado para cuentas del balance.|
 |Tipo de cambio histórico | El tipo de cambio que era válido cuando ocurrió la transacción.|
 |Tipo de cambio compuesto | Los importes del periodo actual se traducen con el tipo de cambio medio y se agregan al saldo anteriormente registrado en la empresa consolidada. Este método se utiliza por lo general para las cuentas de retención de beneficios porque incluyen importes de distintos periodos y son por tanto un compuesto de importes traducidos con distintos tipos de cambio.|
-|Tasa de participación | Esto es similar a **Compuesto** . Las diferencias se registran para separar libros de contabilidad.|
+|Tasa de participación | Esto es similar a **Compuesto**. Las diferencias se registran para separar libros de contabilidad.|
 
 Para especificar los tipos de cambio para las unidades de negocio, realice los pasos siguientes:
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Unidades de negocio** y luego elija el enlace relacionado.  
-2. En la página **Lista de unidades de negocio** , seleccione la unidad de negocio y, después, seleccione la acción **Tipo de cambio medio (manual)** .  
-3. En la página **Modificar tipo de cambio** , el contenido del campo **Tipo de cambio relacionado** se ha copiado de la tabla **Tipo de cambio de divisa** , pero se puede modificar. Cierre la página.  
-4. Seleccione la acción **Tipo de cambio al cierre** .  
-5. En el campo **Cantidad del tipo de cambio relacionado** , introduzca el tipo de cambio.
+2. En la página **Lista de unidades de negocio**, seleccione la unidad de negocio y, después, seleccione la acción **Tipo de cambio medio (manual)**.  
+3. En la página **Modificar tipo de cambio**, el contenido del campo **Tipo de cambio relacionado** se ha copiado de la tabla **Tipo de cambio de divisa**, pero se puede modificar. Cierre la página.  
+4. Seleccione la acción **Tipo de cambio al cierre**.  
+5. En el campo **Cantidad del tipo de cambio relacionado**, introduzca el tipo de cambio.
 
 ### <a name="include-or-exclude-dimensions"></a><a name="dim"></a>Incluir o excluir dimensiones
 
@@ -126,15 +126,15 @@ Puede consolidar información sobre dimensiones y cuentas de contabilidad.
 
 ### <a name="exclude-a-company-from-consolidation"></a><a name="exclude"></a>Excluir una empresa de la consolidación
 
-Si no desea incluir una unidad de negocio en la consolidación, puede excluirla. Para hacerlo, vaya a la ficha de unidad de negocio y borre la casilla de verificación **Consolidar** .
+Si no desea incluir una unidad de negocio en la consolidación, puede excluirla. Para hacerlo, vaya a la ficha de unidad de negocio y borre la casilla de verificación **Consolidar**.
 
 ### <a name="include-a-partially-owned-company-in-consolidation"></a><a name="include"></a>Incluir una empresa poseída parcialmente en la consolidación
 
-Si posee únicamente parte de una empresa, puede incluir un porcentaje de cada transacción que le corresponde al porcentaje de la empresa que le pertenece. Por ejemplo, si le pertenece el 70% de la empresa, la consolidación incluirá $70 de una factura de $100. Para especificar el porcentaje de la empresa que le pertenece, vaya a la ficha de la unidad de negocio e introduzca el porcentaje en el campo **Consolidación%** .  
+Si posee únicamente parte de una empresa, puede incluir un porcentaje de cada transacción que le corresponde al porcentaje de la empresa que le pertenece. Por ejemplo, si le pertenece el 70% de la empresa, la consolidación incluirá $70 de una factura de $100. Para especificar el porcentaje de la empresa que le pertenece, vaya a la ficha de la unidad de negocio e introduzca el porcentaje en el campo **Consolidación%**.  
 
 ## <a name="see-also"></a>Consulte también
 
 [Consolidar los datos financieros de varias empresas](finance-consolidated-company-reporting.md)  
 [Gestión de transacciones entre empresas vinculadas](intercompany-manage.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exportar los datos de negocio a Excel](about-export-data.md)

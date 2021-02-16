@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0144c5283d6c5b860cb14522c08acec2f769df8d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fbd27caed8be1e7231f98964890fafed66c7bbbb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910566"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748229"
 ---
 # <a name="set-up-shipping-agents"></a>Configurar transportistas
 Configure un código para cada uno de sus transportistas e introduzca información acerca de ellos.  
@@ -30,8 +30,8 @@ Una vez asignado un servicio de transportista a una línea de pedido de venta, e
 ## <a name="to-set-up-a-shipping-agent"></a>Para configurar un transportista  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Transportistas** y luego elija el enlace relacionado.  
 2.  Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
-3.  Elija la acción **Servicios transportista** .
-4. En **Servicios transportista** , rellene los campos según sea necesario.
+3.  Elija la acción **Servicios transportista**.
+4. En **Servicios transportista**, rellene los campos según sea necesario.
 
 > [!NOTE]  
 >  Si elimina el transportista de la línea de pedido, también se eliminará el código de servicio de transportista. Se volverá a calcular el contenido de los campos basados en parte en el servicio de transportista.  
@@ -44,4 +44,4 @@ Una vez asignado un servicio de transportista a una línea de pedido de venta, e
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

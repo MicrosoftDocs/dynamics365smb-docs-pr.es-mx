@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: direct posting, general ledger
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 84b6c80131662675df1117bcb771aaa0ee9553c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 72e2851ee60d6cb79f722d12e16ddcb30e95fdbe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914325"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746952"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Registrar transacciones directamente en la contabilidad
 
@@ -38,7 +38,7 @@ A diferencia de los movimientos que se registran con documentos, que requieren u
 4. Repita el paso 3 para todas las transacciones independientes que desee registrar.
 
     > [!TIP]  
-    > Si desea introducir varias líneas de transacción sobre una línea de cuenta de contrapartida, por ejemplo, de una cuenta bancaria, seleccione la casilla de verificación **Sugerir importe de compensación** en la línea de la sección en la página **Secciones diario general** . El campo **Importe** de la línea de la cuenta de contrapartida se rellena previamente de forma automática con el valor que se requiere para compensar las transacciones.
+    > Si desea introducir varias líneas de transacción sobre una línea de cuenta de contrapartida, por ejemplo, de una cuenta bancaria, seleccione la casilla de verificación **Sugerir importe de compensación** en la línea de la sección en la página **Secciones diario general**. El campo **Importe** de la línea de la cuenta de contrapartida se rellena previamente de forma automática con el valor que se requiere para compensar las transacciones.
 5. Seleccione la acción **Registrar** para registrar las transacciones en las cuentas contables especificadas.
 
 ## <a name="see-also"></a>Consulte también
@@ -47,4 +47,4 @@ A diferencia de los movimientos que se registran con documentos, que requieren u
 [Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)  
 [Revertir los registros de diario y deshacer las recepciones/remisiones](finance-how-reverse-journal-posting.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

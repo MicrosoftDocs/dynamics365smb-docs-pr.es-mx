@@ -10,33 +10,33 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 73fbf09cff59556c04b43383c507a01883bbb071
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e3ecf8d206e50244c19a820bdb67d2992cbefe36
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923756"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746377"
 ---
 # <a name="set-up-general-inventory-information"></a>Configurar información de inventario general
 
-Especifique la configuración del inventario en la página **Configuración de inventario** .
+Especifique la configuración del inventario en la página **Configuración de inventario**.
 
 ## <a name="to-set-up-general-inventory-information"></a>Para configurar la información de inventario general
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. existencias** y luego elija el enlace relacionado.
-2. En la página **Configuración de inventario** , rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. En la página **Configuración de inventario**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Para obtener información detallada sobre los campos de valoración, **Registro de costos automático** , **Regis. cto. Previsto en contabilidad** y **Valoración de existencias predeterminada** , consulte [Conciliar costos de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md), [Detalles de diseño: Costo de inventario](design-details-inventory-costing.md) y [Detalles de diseño: Registro de costo esperado](design-details-expected-cost-posting.md). Para obtener más información sobre el cálculo de costos en general, consulte [Administración de costos de inventario](finance-manage-inventory-costs.md).  
+Para obtener información detallada sobre los campos de valoración, **Registro de costos automático**, **Regis. cto. Previsto en contabilidad** y **Valoración de existencias predeterminada**, consulte [Conciliar costos de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md), [Detalles de diseño: Costo de inventario](design-details-inventory-costing.md) y [Detalles de diseño: Registro de costo esperado](design-details-expected-cost-posting.md). Para obtener más información sobre el cálculo de costos en general, consulte [Administración de costos de inventario](finance-manage-inventory-costs.md).  
 
 Si desea que el sistema incluya un tiempo de manipulación en almacén de entrada en el cálculo del compromiso de entrega del pedido en la línea de compra, configúrelo como un valor predeterminado para las existencias, en la página **Configuración inventario** y para su almacén. Para obtener más información, consulte [Calcular las fechas de compromiso de entrega de pedido](sales-how-to-calculate-order-promising-dates.md).  
 
 > [!NOTE]
-> El conmutador de alternancia **Ajuste automático de costos** está activado de forma predeterminada para garantizar que los valores de inventario sean siempre correctos en la contabilidad, lo que a su vez mantiene actualizadas sus estadísticas de ventas y ganancias. Los cambios de costos de los movimientos de entrada, como pueden ser aquellos relacionados con las compras o con la salida de producción, se asignan a los movimientos de salida relacionados, como son las ventas o las transferencias. Esto es útil para nuevos clientes y pequeñas empresas de [!INCLUDE[d365fin](includes/d365fin_md.md)] con niveles de transacciones de inventario relativamente bajos. Sin embargo, a medida que crece una empresa y aumentan los niveles de inventario, lo que puede ralentizar el rendimiento del sistema. Para minimizar el rendimiento reducido durante la publicación, seleccione una opción de tiempo para definir con cuanta antelación desde la fecha de trabajo puede ocurrir una transacción entrante para desencadenar potencialmente el ajuste de las entradas de valor saliente relacionadas. Como alternativa, puede ajustar manualmente los costos a intervalos regulares con el trabajo por lotes Ajustar costo - Movimientos de productos.
+> El conmutador de alternancia **Ajuste automático de costos** está activado de forma predeterminada para garantizar que los valores de inventario sean siempre correctos en la contabilidad, lo que a su vez mantiene actualizadas sus estadísticas de ventas y ganancias. Los cambios de costos de los movimientos de entrada, como pueden ser aquellos relacionados con las compras o con la salida de producción, se asignan a los movimientos de salida relacionados, como son las ventas o las transferencias. Esto es útil para nuevos clientes y pequeñas empresas de [!INCLUDE[prod_short](includes/prod_short.md)] con niveles de transacciones de inventario relativamente bajos. Sin embargo, a medida que crece una empresa y aumentan los niveles de inventario, lo que puede ralentizar el rendimiento del sistema. Para minimizar el rendimiento reducido durante la publicación, seleccione una opción de tiempo para definir con cuanta antelación desde la fecha de trabajo puede ocurrir una transacción entrante para desencadenar potencialmente el ajuste de las entradas de valor saliente relacionadas. Como alternativa, puede ajustar manualmente los costos a intervalos regulares con el trabajo por lotes Ajustar costo - Movimientos de productos.
 
 ## <a name="see-also"></a>Consulte también
 [Configuración de inventario](inventory-setup-inventory.md)  
 [Detalles de diseño: Métodos de costo](design-details-costing-methods.md)    
 [Gestionar inventario](inventory-manage-inventory.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)

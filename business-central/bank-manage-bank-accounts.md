@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: reconcile
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d5610e86ea06b6edd2ef0ae4cb7c1473dd096e9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7eb749c17ea9f17b3ef7c7c29c5dc9037fcbaf9c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924364"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752341"
 ---
 # <a name="reconciling-bank-accounts"></a>Conciliar bancos
 
@@ -24,16 +24,16 @@ Se debe completar una conciliación de banco a intervalos regulares para todos s
 Puede realizar la tarea por separado del proceso de pagos, en la página **Conciliación banco** donde hace corresponder (concilia) líneas del estado de cuenta en el panel izquierdo con los movimientos de banco interno en el panel derecho. Alternativamente, puede realizar esta tarea en la página **Diario de conciliación de pagos** como parte del procesamiento de pagos que están representados en un estado de cuenta. En ambas páginas, puede completar la información del estado de cuenta mediante la importación de un archivo o de una fuente y puede usar sugerencias de coincidencia automática.
 
 > [!NOTE]  
-> En las versiones de EE. UU., también puede realizar las conciliaciones bancarias en la página **Hoja de trabajo de conciliación bancaria** , que es más adecuada para cheques y depósitos, pero no ofrece importación de archivos de estado de cuenta bancario. Para usar esta página en lugar de la página **Conciliación banco** , anule la selección del campo **Reconocimiento banc con auto. coinc.** en la página **Configuración de contabilidad** . Para obtener más información, consulte la sección [Conciliar cuentas bancarias](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) en Funcionalidad local para Estados Unidos.
+> En las versiones de EE. UU., también puede realizar las conciliaciones bancarias en la página **Hoja de trabajo de conciliación bancaria**, que es más adecuada para cheques y depósitos, pero no ofrece importación de archivos de estado de cuenta bancario. Para usar esta página en lugar de la página **Conciliación banco**, anule la selección del campo **Reconocimiento banc con auto. coinc.** en la página **Configuración de contabilidad**. Para obtener más información, consulte la sección [Conciliar cuentas bancarias](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) en Funcionalidad local para Estados Unidos.
 
-Para poder gestionar sus bancos en [!INCLUDE[d365fin](includes/d365fin_md.md)], debe configurar cada banco como una ficha de banco. Además, debe configurar los servicios electrónicos que puede usar para importar estados de cuenta bancarios y exportar archivos de pagos. Para obtener más información, consulte [Configurar bancos](bank-setup-banking.md).
+Para poder gestionar sus bancos en [!INCLUDE[prod_short](includes/prod_short.md)], debe configurar cada banco como una ficha de banco. Además, debe configurar los servicios electrónicos que puede usar para importar estados de cuenta bancarios y exportar archivos de pagos. Para obtener más información, consulte [Configurar bancos](bank-setup-banking.md).
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
 | Para | Vea |
 | --- | --- |
-| Concilie los bancos como una tarea independiente en la página **Conciliación banco** . |[Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md) |
-| Concilie cuentas bancarias relacionadas en relación con el procesamiento de pagos en la página **Diario de conciliación de pagos** . |[Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
+| Concilie los bancos como una tarea independiente en la página **Conciliación banco**. |[Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md) |
+| Concilie cuentas bancarias relacionadas en relación con el procesamiento de pagos en la página **Diario de conciliación de pagos**. |[Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 
 > [!TIP]
 > Use la conciliación bancaria para ayudar a comprobar que sus libros estén actualizados y no publique la conciliación hasta que esté satisfecho con la conciliación.
@@ -48,5 +48,5 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Transferir fondos bancarios](bank-how-transfer-bank-funds.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Administrar pagos](payables-manage-payables.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)

@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dee2521faf6d76ffb36a426361b7f326073770cf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cde6af59068954f8404b18fbce5e4c388d3c7a2c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917262"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749329"
 ---
 # <a name="revalue-fixed-assets"></a>Revalorizar activos fijos
 La revalorización de activos fijos está formada por apreciaciones, depreciaciones o ajustes de valor general.
@@ -30,33 +30,33 @@ El ajuste de valores se utiliza para ajustar los diversos valores de los activos
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Para registrar una apreciación desde el diario general de activos fijos
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios generales A/F** y luego elija el enlace relacionado.  
 2. Cree una línea inicial de diario y rellene los campos según sea necesario.
-3. En el campo **A/F Tipo registro** , seleccione **Reevaluación** .
-4. Elija la acción **Introducir saldo AF** . Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de apreciaciones.
+3. En el campo **A/F Tipo registro**, seleccione **Reevaluación**.
+4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de apreciaciones.
 
     > [!NOTE]  
     >   El paso 4 solo funciona si ha configurado lo siguiente: en la página **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. apreciación** contiene la cuenta de cargo y el campo **Cta. contrap. apreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para apreciación. Para obtener más información, vea [Para configurar los grupos contables de activos fijos](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
-5. Seleccione la acción **Registrar** .
+5. Seleccione la acción **Registrar**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Para registrar una depreciación desde el diario general de activos fijos
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios generales A/F** y luego elija el enlace relacionado.  
 2. Cree una línea inicial de diario y rellene los campos según sea necesario.
-3. En el campo **A/F Tipo registro** , seleccione **Depreciación** .
-4. Elija la acción **Introducir saldo AF** . Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de depreciaciones.
+3. En el campo **A/F Tipo registro**, seleccione **Depreciación**.
+4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de depreciaciones.
 
     > [!NOTE]  
     >   El paso 4 solo funciona si ha configurado lo siguiente: en la página **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. depreciación** contiene la cuenta de abono y el campo **Cta. gastos depreciación** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para las depreciaciones. Para obtener más información, vea [Para configurar los grupos contables de activos fijos](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
-5. Seleccione la acción **Registrar** .
+5. Seleccione la acción **Registrar**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Para realizar una revalorización general de activos fijos
 El ajuste de valores se utiliza para ajustar los diversos valores de los activos fijos como, por ejemplo, los cambios generales de precio. El proceso **Ajustar valores activos** puede utilizarse para cambiar diversos importes como, por ejemplo, importes de apreciación y depreciación. La casilla **Permite ajuste valores** de la página **Libro amortización** debe estar seleccionada.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Indexar activos fijos** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
-3. Elija el botón **Aceptar** .
+3. Elija el botón **Aceptar**.
 
-    Las líneas de revalorización se crean según su configuración en el paso 2. Las líneas se crean en el diario de activos fijos o en el diario general de activos fijos dependiendo de su configuración de plantilla y sección en la página **Configuración del diario A/F** . Para obtener más información, consulte [Configurar información general del activo fijo](fa-how-setup-general.md).
+    Las líneas de revalorización se crean según su configuración en el paso 2. Las líneas se crean en el diario de activos fijos o en el diario general de activos fijos dependiendo de su configuración de plantilla y sección en la página **Configuración del diario A/F**. Para obtener más información, consulte [Configurar información general del activo fijo](fa-how-setup-general.md).
 4. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios generales A/F** y luego elija el enlace relacionado.  
-5. Seleccione el diario con los activos fijos que desea revalorizar y, a continuación, elija la acción **Movimientos** .  
+5. Seleccione el diario con los activos fijos que desea revalorizar y, a continuación, elija la acción **Movimientos**.  
 6. Compruebe los movimientos creados y, a continuación, seleccione la acción **Registrar** para registrarlos en el diario.
 
     > [!TIP]  
@@ -78,7 +78,7 @@ Recuerde activar la casilla **A/F Amort. hasta fecha reg.** en la factura, las l
 ### <a name="example---posting-additional-acquisition-costs"></a>Ejemplo: registro de costos adicionales
 Se compra una máquina el 1 de agosto de 2000. El costo de adquisición es de 4800. El método de amortización es lineal durante cuatro años.
 
-El 31 de agosto de 2000 se ejecuta el proceso **Calcular amortización** . La amortización se calcula como:
+El 31 de agosto de 2000 se ejecuta el proceso **Calcular amortización**. La amortización se calcula como:
 
 *valor neto x número de días de amortización / número total de días de amortización = 4800 x 30 / 1440 = 100*  
 
@@ -94,7 +94,7 @@ Si seleccionó la casilla **Depr. de costo de adquisición** en la factura antes
 
 *El coste adicional se amortiza en ((150 x 100) / 4800) / 100 x 480 = 15*
 
-La base de amortización es ahora *5280 = (4800 + 480)* y la amortización acumulada es *165 = (100 + 50 + 15)* , correspondiente a 45 días de amortización del costo de adquisición total. Esto significa que el activo se amortizará por completo en el tiempo estimado de cuatro años.  
+La base de amortización es ahora *5280 = (4800 + 480)* y la amortización acumulada es *165 = (100 + 50 + 15)*, correspondiente a 45 días de amortización del costo de adquisición total. Esto significa que el activo se amortizará por completo en el tiempo estimado de cuatro años.  
 
 Para ejecutar el proceso **Calcular amortización** sobre el 30/09/00 se realiza el siguiente cálculo:  
 
@@ -106,7 +106,7 @@ Para ejecutar el proceso **Calcular amortización** sobre el 30/09/00 se realiza
 
 *Total de amortización = 165 + 55 = 220*  
 
-Si no seleccionó la casilla **A/F Amort. hasta fecha reg.** , el activo perdería 15 días de amortización, ya que el proceso **Calcular amortización** efectuado el 30/09/00 calcularía la amortización del 15/09/00 al 30/09/00. Esto quiere decir que cuando se ejecuta el proceso **Calcular amortización** el 30/09/00, el cálculo es el siguiente:  
+Si no seleccionó la casilla **A/F Amort. hasta fecha reg.**, el activo perdería 15 días de amortización, ya que el proceso **Calcular amortización** efectuado el 30/09/00 calcularía la amortización del 15/09/00 al 30/09/00. Esto quiere decir que cuando se ejecuta el proceso **Calcular amortización** el 30/09/00, el cálculo es el siguiente:  
 
 *El tiempo de amortización restante es de 3 años, 10 meses y quince días = 1395 días*  
 
@@ -121,4 +121,4 @@ Si no seleccionó la casilla **A/F Amort. hasta fecha reg.** , el activo perder�
 [Configurar activos fijos](fa-setup.md)  
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

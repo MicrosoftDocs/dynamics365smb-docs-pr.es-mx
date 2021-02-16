@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: category, search, attribute, facet
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a5698746fe52ff7ff6ca38e1207f09ded0742c96
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3959392048f4c130e6564160f9b2c6f5956ece8c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914124"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746252"
 ---
 # <a name="categorize-items"></a>Clasificar productos
 
@@ -28,12 +28,12 @@ Para buscar productos por características, puede asignar los atributos de produ
 
 ## <a name="to-create-an-item-category"></a>Para crear una categoría de producto
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Categorías de producto** y luego elija el enlace relacionado.
-2. En la página **Categorías producto** , seleccione la acción **Nuevo** .
-3. En la ficha desplegable **General** de la página **Ficha de categoría de producto** , complete los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. En la ficha desplegable **Atributos** , especifique atributos de producto a la categoría. Para obtener más información, consulte la sección [Para asignar un atributo de producto a una categoría](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).
+2. En la página **Categorías producto**, seleccione la acción **Nuevo**.
+3. En la ficha desplegable **General** de la página **Ficha de categoría de producto**, complete los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. En la ficha desplegable **Atributos**, especifique atributos de producto a la categoría. Para obtener más información, consulte la sección [Para asignar un atributo de producto a una categoría](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).
 
 > [!NOTE]  
-> Si la categoría del producto tiene una categoría principal, como se indica en el campo **Categoría principal** , todos los atributos que se asignen a esa categoría principal se rellenan previamente en la ficha desplegable **Atributos** .
+> Si la categoría del producto tiene una categoría principal, como se indica en el campo **Categoría principal**, todos los atributos que se asignen a esa categoría principal se rellenan previamente en la ficha desplegable **Atributos**.
 
 > [!NOTE]  
 > Los atributos de producto que asigna a una categoría se aplicarán automáticamente al producto al que se le ha asignado la categoría.
@@ -55,4 +55,4 @@ Si cambia de opinión sobre una categoría de artículo, puede eliminarla. Sin e
 [Trabajar con atributos de producto](inventory-how-work-item-attributes.md)  
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Inventario](inventory-manage-inventory.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

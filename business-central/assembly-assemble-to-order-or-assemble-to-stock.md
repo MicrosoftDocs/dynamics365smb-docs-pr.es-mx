@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 746aa6c0146205cbc3f3ed1796b084825bbfdbdf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 89a2e2390950bbba0f5d0e93db5ed72359fd637f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915721"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747427"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Descripción de ensamblar para pedido y ensamblar para stock
 Los productos de ensamblado se pueden suministrar en los dos procesos siguientes:  
@@ -41,7 +41,7 @@ Cuando se introduce un artículo de ensamblar para pedido en una línea de venta
 > [!NOTE]  
 >  Aunque no es parte del proceso predeterminado, puede vender las cantidades del inventario con las de ensamblar para pedido. Para obtener más información, consulte [Venta de productos de inventario en los flujos de ensamblar para pedido](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
- Para activar este proceso, el campo de **Política de ensamblado** en la ficha del artículo debe ser **Ensamblar para pedido** .  
+ Para activar este proceso, el campo de **Política de ensamblado** en la ficha del artículo debe ser **Ensamblar para pedido**.  
 
 ## <a name="assemble-to-stock"></a>Ensamblar para existencias.  
  Se utiliza normalmente *Ensamblar para existencias* para los artículos que se desea ensamblar antes de la venta, como para prepararse para una campaña de equipo, y mantenerlo en existencias hasta que se soliciten. Estos artículos suelen ser estándar, como equipos embalados que no ofrecen personalización según las solicitudes de cliente.  
@@ -53,20 +53,20 @@ Cuando se introduce un artículo de ensamblar para pedido en una línea de venta
 > [!NOTE]  
 >  Aunque no forma parte del proceso, se puede ensamblar un artículo para pedido aunque esté configurado para ensamblarse para existencias. Para obtener más información, consulte [Venta de productos de ensamblado para pedido y productos de inventario juntos](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
 
- Para activar este proceso, el campo **Política de ensamblado** en la ficha del artículo debe ser **Ensamblar para existencias** .  
+ Para activar este proceso, el campo **Política de ensamblado** en la ficha del artículo debe ser **Ensamblar para existencias**.  
 
 ## <a name="combination-scenarios"></a>Escenarios de combinación  
  Un principio general de la administración de ensamblados es que cuando están agrupadas en una línea del pedido de venta, las cantidades de ensamblar para pedido se deben enviar antes de las del inventario.  
 
  Si un pedido de ensamblado está vinculado a una línea del pedido de venta, el valor del campo **Cdad. en ensamblar para pedido** en la línea del pedido de venta se copia al campo **Cantidad a ensamblar** mediante el campo **Cantidad** de la cabecera del pedido de ensamblado. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
 
- Además, el valor del campo **Cantidad a ensamblar** está relacionado con el campo **Cdad. a enviar** en la línea del pedido de venta, y esta relación se encarga del envío de las cantidades de ensamblar para pedido, parcial y completamente. Esto es válido tanto cuando se ensamble la cantidad completa de la línea de venta para el pedido y en los escenarios de combinación donde una parte de la cantidad de la línea de venta se ensambla para el pedido y otra parte se envía desde el inventario. Sin embargo, en el escenario de combinación, tendrá una flexibilidad adicional al enviar parcialmente en el sentido que podrá modificar el campo **Cantidad a ensamblar** , dentro de las reglas predefinidas, para especificar cuántas unidades deben enviarse parcialmente del inventario y cuántas parcialmente mediante ensamblado para pedido.  
+ Además, el valor del campo **Cantidad a ensamblar** está relacionado con el campo **Cdad. a enviar** en la línea del pedido de venta, y esta relación se encarga del envío de las cantidades de ensamblar para pedido, parcial y completamente. Esto es válido tanto cuando se ensamble la cantidad completa de la línea de venta para el pedido y en los escenarios de combinación donde una parte de la cantidad de la línea de venta se ensambla para el pedido y otra parte se envía desde el inventario. Sin embargo, en el escenario de combinación, tendrá una flexibilidad adicional al enviar parcialmente en el sentido que podrá modificar el campo **Cantidad a ensamblar**, dentro de las reglas predefinidas, para especificar cuántas unidades deben enviarse parcialmente del inventario y cuántas parcialmente mediante ensamblado para pedido.  
 
  Si toda la cantidad de la línea de venta se debe ensamblar para pedido y enviar, el valor en el campo **Cdad. a enviar** se copia al campo **Cantidad a ensamblar** en el pedido de ensamblado cuando cambie la cantidad para enviar. Esto garantiza que la cantidad que se enviará sea suministrada totalmente por la cantidad ensamblar para pedido.  
 
  Sin embargo, en los escenarios de combinación, el valor completo de **Cdad. a enviar** no se copia al campo **Cantidad a ensamblar** de la cabecera del pedido de ensamblado. Un su lugar, este valor predeterminado se inserta en el campo **Cantidad a ensamblar** calculado a partir de **Cdad. a enviar** según una regla predefinida que garantiza antes el envío de las cantidades ensamblar para pedido.  
 
- Si desea desviarse de este valor predeterminado, por ejemplo porque solo quiera ensamblar cantidades mayores o menores en el campo **Cdad. a enviar** , puede modificar el campo **Cantidad a ensamblar** , pero sólo dentro de las reglas predefinidas, tal como se muestra abajo.  
+ Si desea desviarse de este valor predeterminado, por ejemplo porque solo quiera ensamblar cantidades mayores o menores en el campo **Cdad. a enviar**, puede modificar el campo **Cantidad a ensamblar**, pero sólo dentro de las reglas predefinidas, tal como se muestra abajo.  
 
  Un ejemplo del motivo por el que querría modificar la cantidad para ensamblar es que desee registrar parcialmente la remisión de las cantidades del inventario antes de que la salida de ensamblado se pueda enviar.  
 
@@ -88,4 +88,4 @@ Cuando se introduce un artículo de ensamblar para pedido en una línea de venta
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
