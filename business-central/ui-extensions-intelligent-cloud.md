@@ -9,20 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2020
+ms.date: 12/04/2020
 ms.author: edupont
-ms.openlocfilehash: 2f16af0f87cae376fd1ed96b02cad3a64adc94cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c68596af28753cb9825d930e55beff4e3f72c2c6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915096"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757203"
 ---
-# <a name="intelligent-cloud-base-extension"></a><span data-ttu-id="602d0-103">Extensión de base de nube inteligente</span><span class="sxs-lookup"><span data-stu-id="602d0-103">Intelligent Cloud Base Extension</span></span>
+# <a name="intelligent-cloud-base-extension"></a><span data-ttu-id="33cd6-103">Extensión de base de nube inteligente</span><span class="sxs-lookup"><span data-stu-id="33cd6-103">Intelligent Cloud Base Extension</span></span>
 
-<span data-ttu-id="602d0-104">Esta extensión lo llevará a través del proceso para configurar y administrar su entorno de nube inteligente.</span><span class="sxs-lookup"><span data-stu-id="602d0-104">This extension will take you through the process to configure and manage your Intelligent Cloud environment.</span></span><span data-ttu-id="602d0-105">Una vez que su entorno de nube inteligente esté configurado, podrá administrar las replicaciones de datos de su solución local de [!INCLUDE[prodshort](includes/prodshort.md)] a su suscriptor de la nube.</span><span class="sxs-lookup"><span data-stu-id="602d0-105"> Once your Intelligent Cloud environment is configured, you will be able to manage data replications from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant.</span></span> <span data-ttu-id="602d0-106">Esta extensión funcionará junto con una extensión de replicación de datos disponible para su solución local específica.</span><span class="sxs-lookup"><span data-stu-id="602d0-106">This extension will work in conjunction with a data replication extension available for your specific on-premises solution.</span></span><span data-ttu-id="602d0-107"> Para obtener más información, consulte [Información inteligente](about-intelligent-cloud.md).</span><span class="sxs-lookup"><span data-stu-id="602d0-107"> For more information, see [Intelligent Insights](about-intelligent-cloud.md).</span></span>  
+<span data-ttu-id="33cd6-104">Esta extensión lo guiará a través del proceso para configurar una conexión entre su solución local y su entorno de [!INCLUDE [prod_short](includes/prod_short.md)] en línea, ya sea porque está migrando a la nube o porque se está conectando a la nube inteligente desde su solución local.</span><span class="sxs-lookup"><span data-stu-id="33cd6-104">This extension will take you through the process to configure a connection between your on-premises solution and your [!INCLUDE [prod_short](includes/prod_short.md)] online environment, either because you are migrating to the cloud, or because you're connecting to the Intelligent Cloud from your on-premises solution.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="602d0-108">Consulte también</span><span class="sxs-lookup"><span data-stu-id="602d0-108">See Also</span></span>
+<span data-ttu-id="33cd6-105">Una vez configurada la conexión, puede migrar datos o administrar replicaciones de datos desde su solución local a su inquilino de nube [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="33cd6-105">Once the connection is configured, you can migrate data or manage data replications from your on-premises solution to your [!INCLUDE[prod_short](includes/prod_short.md)] cloud tenant.</span></span> <span data-ttu-id="33cd6-106">Esta extensión funcionará junto con una extensión de replicación de datos disponible para su solución local específica.</span><span class="sxs-lookup"><span data-stu-id="33cd6-106">This extension will work in conjunction with a data replication extension available for your specific on-premises solution.</span></span> <span data-ttu-id="33cd6-107">Para más información, vea [Ejecución de la herramienta de migración a la nube](/dynamics365/business-central/dev-itpro/administration/migration-tool).</span><span class="sxs-lookup"><span data-stu-id="33cd6-107">For more information, see [Running the Cloud Migration Tool](/dynamics365/business-central/dev-itpro/administration/migration-tool).</span></span>  
 
-[<span data-ttu-id="602d0-109">Información inteligente</span><span class="sxs-lookup"><span data-stu-id="602d0-109">Intelligent Insights</span></span>](about-intelligent-cloud.md)  
-[<span data-ttu-id="602d0-110">Extensión de replicación de datos</span><span class="sxs-lookup"><span data-stu-id="602d0-110">Data Replication extension</span></span>](ui-extensions-data-replication.md)  
+## <a name="see-also"></a><span data-ttu-id="33cd6-108">Consulte también</span><span class="sxs-lookup"><span data-stu-id="33cd6-108">See Also</span></span>
+
+[<span data-ttu-id="33cd6-109">Información inteligente</span><span class="sxs-lookup"><span data-stu-id="33cd6-109">Intelligent Insights</span></span>](about-intelligent-cloud.md)  
+[<span data-ttu-id="33cd6-110">Ejecución de la herramienta de migración a la nube</span><span class="sxs-lookup"><span data-stu-id="33cd6-110">Running the Cloud Migration Tool</span></span>](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
+[<span data-ttu-id="33cd6-111">Extensiones inteligentes en la nube para la migración a la nube</span><span class="sxs-lookup"><span data-stu-id="33cd6-111">Intelligent Cloud Extensions for Cloud Migration</span></span>](ui-extensions-data-replication.md)  

@@ -11,24 +11,24 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: fa57a5ecce6553ce9315e4cd205f3367d9664bda
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 06e498444879a9b77b1418c44f4dd39395c8a4b5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910191"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756903"
 ---
-# <a name="preview-posting-results"></a><span data-ttu-id="a56ce-103">Vista previa de los resultados del registro</span><span class="sxs-lookup"><span data-stu-id="a56ce-103">Preview Posting Results</span></span>
-<span data-ttu-id="a56ce-104">En cada documento y diario que se pueda registrar, puede elegir el botón **Vista previa de registro** para revisar los diferentes tipos de entradas que se crearán cuando registre el documento o diario.</span><span class="sxs-lookup"><span data-stu-id="a56ce-104">On every document and journal that can be posted, you can choose the **Preview Posting** button to review the different types of entries that will be created when you post the document or journal.</span></span>
+# <a name="preview-posting-results"></a><span data-ttu-id="287f9-103">Vista previa de los resultados del registro</span><span class="sxs-lookup"><span data-stu-id="287f9-103">Preview Posting Results</span></span>
+<span data-ttu-id="287f9-104">En cada documento y diario que se pueda registrar, puede elegir el botón **Vista previa de registro** para revisar los diferentes tipos de entradas que se crearán cuando registre el documento o diario.</span><span class="sxs-lookup"><span data-stu-id="287f9-104">On every document and journal that can be posted, you can choose the **Preview Posting** button to review the different types of entries that will be created when you post the document or journal.</span></span>
 
-## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a><span data-ttu-id="a56ce-105">Para obtener una vista previa de los movimientos contables que resultarán de registrar una factura de compra</span><span class="sxs-lookup"><span data-stu-id="a56ce-105">To preview G/L entries that will result from posting a purchase invoice</span></span>
-1. <span data-ttu-id="a56ce-106">Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="a56ce-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices** , and then choose the related link.</span></span>
-2. <span data-ttu-id="a56ce-107">Permite crear una factura de compra.</span><span class="sxs-lookup"><span data-stu-id="a56ce-107">Create a purchase invoice.</span></span> <span data-ttu-id="a56ce-108">Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="a56ce-108">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>
-3. <span data-ttu-id="a56ce-109">Elija **Vista previa de registro** .</span><span class="sxs-lookup"><span data-stu-id="a56ce-109">Choose **Preview Posting** .</span></span>
-4. <span data-ttu-id="a56ce-110">En la página **Vista previa de registro** , seleccione **Mov. contabilidad** y, a continuación, elija **Mostrar movimientos relacionados** .</span><span class="sxs-lookup"><span data-stu-id="a56ce-110">On the **Posting Preview** page, select **G/L Entry** , and then choose **Show Related Entries** .</span></span>  
-   <span data-ttu-id="a56ce-111">La página **Vista previa de movs. contabilidad** muestra qué movimientos se crearán al registrar la factura de compra.</span><span class="sxs-lookup"><span data-stu-id="a56ce-111">The **G/L Entries Preview** page shows which entries will be created when you post the purchase invoice.</span></span>
+## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a><span data-ttu-id="287f9-105">Para obtener una vista previa de los movimientos contables que resultarán de registrar una factura de compra</span><span class="sxs-lookup"><span data-stu-id="287f9-105">To preview G/L entries that will result from posting a purchase invoice</span></span>
+1. <span data-ttu-id="287f9-106">Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="287f9-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.</span></span>
+2. <span data-ttu-id="287f9-107">Permite crear una factura de compra.</span><span class="sxs-lookup"><span data-stu-id="287f9-107">Create a purchase invoice.</span></span> <span data-ttu-id="287f9-108">Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="287f9-108">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>
+3. <span data-ttu-id="287f9-109">Elija **Vista previa de registro**.</span><span class="sxs-lookup"><span data-stu-id="287f9-109">Choose **Preview Posting**.</span></span>
+4. <span data-ttu-id="287f9-110">En la página **Vista previa de registro**, seleccione **Mov. contabilidad** y, a continuación, elija **Mostrar movimientos relacionados**.</span><span class="sxs-lookup"><span data-stu-id="287f9-110">On the **Posting Preview** page, select **G/L Entry**, and then choose **Show Related Entries**.</span></span>  
+   <span data-ttu-id="287f9-111">La página **Vista previa de movs. contabilidad** muestra qué movimientos se crearán al registrar la factura de compra.</span><span class="sxs-lookup"><span data-stu-id="287f9-111">The **G/L Entries Preview** page shows which entries will be created when you post the purchase invoice.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a56ce-112">Consulte también</span><span class="sxs-lookup"><span data-stu-id="a56ce-112">See Also</span></span>
-[<span data-ttu-id="a56ce-113">Registrar documentos y diarios</span><span class="sxs-lookup"><span data-stu-id="a56ce-113">Posting Documents and Journals</span></span>](ui-post-documents-journals.md)  
-<span data-ttu-id="a56ce-114">[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a56ce-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="a56ce-115">Funciones empresariales generales</span><span class="sxs-lookup"><span data-stu-id="a56ce-115">General Business Functionality</span></span>](ui-across-business-areas.md)
+## <a name="see-also"></a><span data-ttu-id="287f9-112">Consulte también</span><span class="sxs-lookup"><span data-stu-id="287f9-112">See Also</span></span>
+[<span data-ttu-id="287f9-113">Registrar documentos y diarios</span><span class="sxs-lookup"><span data-stu-id="287f9-113">Posting Documents and Journals</span></span>](ui-post-documents-journals.md)  
+<span data-ttu-id="287f9-114">[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="287f9-114">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="287f9-115">Funciones empresariales generales</span><span class="sxs-lookup"><span data-stu-id="287f9-115">General Business Functionality</span></span>](ui-across-business-areas.md)
