@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 47c7add8c281a28c1b9beaecc18d28f5e1041a3c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 23bfdd962bb2877d980c1dc6f0b4406ad3497c6c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912882"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757753"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Procedimientos recomendados de configuración: políticas de reorden
 El campo **Política reorden** en las fichas de producto ofrece cuatro métodos de planificación distintos que determinan la forma en que interactúan los parámetros individuales de planificación.  
@@ -28,7 +28,7 @@ Un procedimiento recomendado básico para seleccionar una política de reorden e
 |B|nº 20|nº 20|
 |P|60-70|10-30|
 
-La clasificación ABC indica que se puede ahorrar esfuerzo y dinero aplicando un control más ligero a los artículos de bajo valor-volumen bajo que a los artículos de alto valor-volumen. Las ilustración siguiente muestra qué política de reorden de [!INCLUDE[d365fin](includes/d365fin_md.md)] es más adecuada para los artículos A, B, y C respectivamente.
+La clasificación ABC indica que se puede ahorrar esfuerzo y dinero aplicando un control más ligero a los artículos de bajo valor-volumen bajo que a los artículos de alto valor-volumen. Las ilustración siguiente muestra qué política de reorden de [!INCLUDE[prod_short](includes/prod_short.md)] es más adecuada para los artículos A, B, y C respectivamente.
 
 ![Clasificación ABC](media/abc_classification.png "abc_classification")
 
@@ -39,10 +39,10 @@ La tabla siguiente proporciona los procedimientos recomendados para seleccionar 
 |**Pedido**|Utilice para productos A.<br /><br /> Utilice para productos de fabricación contra pedido.<br /><br /> En la fabricación, utilice para productos de nivel superior y para componentes y semiterminados caros.<br /><br /> Utilice para productos que se compran como envíos directos y pedidos especiales.<br /><br /> No utilice si no acepta la reserva automática.|Los productos A, como los sofás de piel en una tienda muebles, son productos de alto valor con una velocidad de pedido baja e irregular donde no se acepta el inventario o los atributos necesarios varían. La mejor política de reorden es, por tanto, aquella que planifica específicamente para cada demanda.|  
 |**Lote a lote**|Utilice para productos B.<br /><br /> En la fabricación, utilice para los componentes que se producen en varias listas de materiales. Esto garantiza que los pedidos de compra se combinen para el mismo proveedor, por lo que se pueden negociar mejores precios.<br /><br /> Utilice si no está seguro de la política de reorden que debe seleccionar.|Los productos B, como las sillas de comedor, tienen una velocidad de pedido regular y bastante alta, pero también costos de traslado elevados. La mejor política de reorden para los productos B es, por tanto, aquella que es económica y agrupa la demanda en el ciclo de reorden.<br /><br /> El 80 por ciento de los productos pueden utilizar esta política.<br /><br /> Se puede utilizar con éxito sin los parámetros de planificación.|  
 |**Cdad. fija reordenada**|Utilice para productos C.<br /><br /> Combine con parámetros de puntos de reorden.<br /><br /> En la fabricación, utilice para los componentes de nivel inferior.<br /><br /> No utilice si el producto suele ser reservado.|Los productos C, como las tazas de té, son productos de valor inferior con una velocidad de pedido alta y regular. La mejor política de reorden para productos C es, por tanto, aquella que garantiza la disponibilidad constante y permanece siempre por encima de un punto de reorden.<br /><br /> Si el usuario reserva una cantidad para alguna demanda distante, se afectará a la base de la planificación. Aunque el nivel de inventario estimado es aceptable en relación con el punto de reorden, las cantidades pueden no estar disponibles debido a la reserva.|  
-|**Cdad. máxima**|Utilice para productos C con altos costos de traslado o limitaciones de almacenamiento.<br /><br /> Combine con uno o más modificadores de pedidos (cantidad máxima o mínima de pedido o múltiplos de pedido).|Los productos C, como las tazas de té, son productos de valor inferior con una velocidad de pedido alta y regular. La mejor política de reorden para productos C es, por tanto, aquella que garantiza la disponibilidad constante y permanece siempre por encima de un punto de reorden, pero por debajo de un nivel de inventario máximo.<br /><br /> Para modificar el pedido propuesto, tal vez desee reducir la cantidad del pedido a una cantidad máxima especificada de pedido, aumentarla a una cantidad de pedido mínima especificada o redondearla para alcanzar un múltiplo de pedido especificado. **Nota** : Si se utiliza con un punto de reorden, el inventario permanecerá entre el punto de reorden y la cantidad máxima.|  
+|**Cdad. máxima**|Utilice para productos C con altos costos de traslado o limitaciones de almacenamiento.<br /><br /> Combine con uno o más modificadores de pedidos (cantidad máxima o mínima de pedido o múltiplos de pedido).|Los productos C, como las tazas de té, son productos de valor inferior con una velocidad de pedido alta y regular. La mejor política de reorden para productos C es, por tanto, aquella que garantiza la disponibilidad constante y permanece siempre por encima de un punto de reorden, pero por debajo de un nivel de inventario máximo.<br /><br /> Para modificar el pedido propuesto, tal vez desee reducir la cantidad del pedido a una cantidad máxima especificada de pedido, aumentarla a una cantidad de pedido mínima especificada o redondearla para alcanzar un múltiplo de pedido especificado. **Nota**: Si se utiliza con un punto de reorden, el inventario permanecerá entre el punto de reorden y la cantidad máxima.|  
 
 ## <a name="see-also"></a>Consulte también  
  [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)   
  [Detalles de diseño: Gestión de directivas de reorden](design-details-handling-reordering-policies.md)   
  [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

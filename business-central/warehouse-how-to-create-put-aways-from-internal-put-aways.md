@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 93e517c5fb3c9419b6505ccd3d6e56a325bdd43c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5095b4dde92b2d6982bfc8a984f10f5b62454800
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918374"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756253"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Realizar el picking y la ubicación sin un documento de origen
 Una vez ubicados los productos y antes de que se realice el picking de los mismos para cubrir las necesidades de una orden de producción o un envío, los productos se almacenan en el almacén como parte de las existencias disponibles.  
@@ -35,15 +35,15 @@ Los **Picking internos** le permiten realizar ubicaciones sin tener que hacer re
 
 ## <a name="to-create-an-internal-pick"></a>Para crear un picking interno  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Picking interno almacén** y luego elija el enlace relacionado.  
-2.  Rellene el campo **No.** . y **Hasta cód. ubicación** de la ficha desplegable **General** . El campo **Hasta cód. ubicación** especifica la ubicación desde la que desea tomar los productos. Para producción, esta ubicación sería la ubicación de producción de entrada o la ubicación de planta abierta. Para otros fines, seleccione un Hasta cód. ubicación de tipo ubicación que no se utilice para picking, probablemente una ubicación especial, de envío o intermedia.  
+2.  Rellene el campo **No.**. y **Hasta cód. ubicación** de la ficha desplegable **General**. El campo **Hasta cód. ubicación** especifica la ubicación desde la que desea tomar los productos. Para producción, esta ubicación sería la ubicación de producción de entrada o la ubicación de planta abierta. Para otros fines, seleccione un Hasta cód. ubicación de tipo ubicación que no se utilice para picking, probablemente una ubicación especial, de envío o intermedia.  
 3.  Seleccione un producto en el campo **Nº producto** y rellene las cantidades que desea realizar el picking.  
-4. Elija la acción **Crear picking** . Ahora está preparada una instrucción de picking de almacén para que un empelado la ejecute.  
+4. Elija la acción **Crear picking**. Ahora está preparada una instrucción de picking de almacén para que un empelado la ejecute.  
 
 ## <a name="to-create-an-internal-put-away"></a>Para crear un ubicación interna  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ubicación interna alm.** y luego elija el enlace relacionado.  
-2.  Rellene el campo **No.** . y **Desde cód. ubicación** de la ficha desplegable **General** . El campo **Desde cód. ubicación** especifica la ubicación donde se encuentran los productos devueltos al almacén, probablemente de producción.  
+2.  Rellene el campo **No.**. y **Desde cód. ubicación** de la ficha desplegable **General**. El campo **Desde cód. ubicación** especifica la ubicación donde se encuentran los productos devueltos al almacén, probablemente de producción.  
 3.  Rellene los números y las cantidades de productos de las líneas.  
-4.  Seleccione la acción **Crear ubicación** . Ahora está preparada una instrucción de ubicación de almacén para que un empelado la ejecute.  
+4.  Seleccione la acción **Crear ubicación**. Ahora está preparada una instrucción de ubicación de almacén para que un empelado la ejecute.  
 
 ## <a name="see-also"></a>Consulte también  
 [Gestión almacén](warehouse-manage-warehouse.md)  
@@ -51,4 +51,4 @@ Los **Picking internos** le permiten realizar ubicaciones sin tener que hacer re
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

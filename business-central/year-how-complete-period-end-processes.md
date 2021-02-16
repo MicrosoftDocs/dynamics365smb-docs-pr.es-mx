@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6526760c78cb11d8454b7f5390c6fefe713647d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 104f63e07e4bfd8945f73581a4fb7810f946304f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918249"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755578"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Resumen de tareas para cerrar periodos contables
-[!INCLUDE[d365fin](includes/d365fin_md.md)] no le fuerza a cerrar los períodos, pero numerosas actividades de fin de período (fin de mes) que puede realizar. Este tema proporciona una visión general de procesos y actividades opcionales para cerrar períodos.  
+[!INCLUDE[prod_short](includes/prod_short.md)] no le fuerza a cerrar los períodos, pero numerosas actividades de fin de período (fin de mes) que puede realizar. Este tema proporciona una visión general de procesos y actividades opcionales para cerrar períodos.  
 
 ## <a name="general-ledger"></a>Contabilidad
 * Especifique períodos de registro para todo el sistema y específicos para el usuario.  
@@ -30,21 +30,21 @@ ms.locfileid: "3918249"
 * Actualice y registre los Diarios periódicos.  
   <!--* Process Consolidations-->
 * Ejecute los esquemas de cuentas como se indica a continuación:  
-  * Abra la página **estructura cuentas** y, a continuación, seleccione la acción **Imprimir** .  
+  * Abra la página **estructura cuentas** y, a continuación, seleccione la acción **Imprimir**.  
 
 ## <a name="sales-and-receivables"></a>Ventas y cobros
 * Registre todas las órdenes, facturas, notas de crédito y devoluciones de ventas.  
 * Registre todo los diarios de recepciones de efectivo.  
 * Actualice y registre los diarios periódicos relativos a ventas y cobros.  
 * Concilie los cobros en el libro de contabilidad  
-* Ejecute el proceso **Eliminar peds. venta factdos** .  
+* Ejecute el proceso **Eliminar peds. venta factdos**.  
 
 ## <a name="purchases-and-payables"></a>Compras y pagos
 * Registre todas las órdenes, facturas, notas de crédito y devoluciones de compra.  
 * Registre todos los registros de pagos.  
 * Actualice y registre los diarios periódicos que son relativos a compras y pagos.  
 * Ejecute el informe **Antigüedad pagos** y concilie las cuentas por pagar en el libro de contabilidad.  
-* Ejecute el proceso **Eliminar peds. compra factdos** .  
+* Ejecute el proceso **Eliminar peds. compra factdos**.  
 
 Activos fijos
 * Todos los costos de mantenimiento se han registrado mediante los diarios periódicos de activos o facturas.
@@ -62,4 +62,4 @@ Intercompany
 ## <a name="see-also"></a>Consulte también
 [Cerrar años y periodos](year-close-years-periods.md)  
 [Cierre de libros](year-close-books.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

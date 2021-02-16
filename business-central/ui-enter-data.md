@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31432399981befb3b844c5d951b5b752e1152458
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5890fa0200a2661a68f6eae32246d562970e3c14
+ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912507"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4840264"
 ---
 # <a name="entering-data"></a>Introducción de datos
 
@@ -24,7 +24,7 @@ Hay muchas características generales que le ayudan a introducir datos de forma 
 Los ejemplos de este producto utilizan los datos de demostración.
 
 ## <a name="working-with-editable-fields"></a>Trabajo con campos editables
-Los campos en [!INCLUDE[d365fin](includes/d365fin_md.md)] puede contener diferentes datos editables, como texto o importe de divisas. Los campos editables suelen mostrar un cuadro de entrada donde puede escribir o elegir un valor. Los campos no editables generalmente se muestran con un fondo gris.   
+Los campos en [!INCLUDE[prod_short](includes/prod_short.md)] puede contener diferentes datos editables, como texto o importe de divisas. Los campos editables suelen mostrar un cuadro de entrada donde puede escribir o elegir un valor. Los campos no editables generalmente se muestran con un fondo gris.   
 
 Algunos campos editables proporcionan un selector para ayudarle a especificar un valor.  
 
@@ -33,7 +33,7 @@ Algunos campos editables proporcionan un selector para ayudarle a especificar un
 |------------------|------------------------------------|
 |Selector de fechas       |Este selector muestra un calendario basado en su configuración regional actual. Le ayuda a elegir una única fecha.|
 |Desplegable          |Los menús desplegables ofrecen una opción de valores fijos o registros de referencia de otra tabla|
-|Conmutador o casilla|Algunos campos ofrecen una elección sencilla de valores *Sí* o *No* . El conmutador se usa para especificar este valor y siempre se muestra como una casilla en listas|
+|Conmutador o casilla|Algunos campos ofrecen una elección sencilla de valores *Sí* o *No*. El conmutador se usa para especificar este valor y siempre se muestra como una casilla en listas|
 |Edición de asistencia       |Algunos campos proporcionan selectores personalizados adecuados para buscar y elegir el mejor valor para ese campo, como la ventana emergente.|
 
 
@@ -41,20 +41,20 @@ Algunos campos editables proporcionan un selector para ayudarle a especificar un
 
 Para modificar el valor de un campo, primero debe establecer el foco en ese campo. El foco se establece mediante las siguientes acciones:
 
-- Usando la tecla **Tab** . La acción selecciona todo el valor.
+- Usando la tecla **Tab**. La acción selecciona todo el valor.
 - Haciendo clic con el botón izquierdo del ratón o dispositivo de entrada similar. Esta acción solo seleccionará el valor del campo completo si el campo está en una lista.  
 
-Cuando interactúa con campos en la interfaz de usuario, [!INCLUDE[d365fin](includes/d365fin_md.md)] normalmente favorece la selección de todo el valor del campo para que le sea más fácil reemplazar ese valor.
+Cuando interactúa con campos en la interfaz de usuario, [!INCLUDE[prod_short](includes/prod_short.md)] normalmente favorece la selección de todo el valor del campo para que le sea más fácil reemplazar ese valor.
 
 Cuando se selecciona todo el valor del campo:
-- Reemplace el valor simplemente escribiendo para especificar un nuevo valor. Si el campo ofrece un selector, puede activarlo usando el método abreviado de teclado **Alt+flecha abajo** .
+- Reemplace el valor simplemente escribiendo para especificar un nuevo valor. Si el campo ofrece un selector, puede activarlo usando el método abreviado de teclado **Alt+flecha abajo**.
 - Utilice la tecla **Supr** o **Retroceso** para borrar el valor.
 
 Presione la tecla **F2** para alternar entre seleccionar todo el valor del campo o colocar el cursor después del valor del campo. Al colocar el cursor al final del valor se facilita la anexión al valor existente.
 
 Cuando el cursor se muestra al final del valor del campo:
 - Agregue al valor escribiendo.
-- Use las teclas **Inicio** , **Fin** , **Flecha izquierda** y **Flecha derecha** para mover el cursor dentro del valor. Si está editando un campo en una lista, presionar la tecla **Flecha izquierda** nuevamente cuando el cursor esté al comienzo del valor establecerá el foco en el campo anterior. Del mismo modo, al presionar la tecla **Flecha derecha** nuevamente cuando el cursor esté al final del valor establecerá el foco en el siguiente campo.
+- Use las teclas **Inicio**, **Fin**, **Flecha izquierda** y **Flecha derecha** para mover el cursor dentro del valor. Si está editando un campo en una lista, presionar la tecla **Flecha izquierda** nuevamente cuando el cursor esté al comienzo del valor establecerá el foco en el campo anterior. Del mismo modo, al presionar la tecla **Flecha derecha** nuevamente cuando el cursor esté al final del valor establecerá el foco en el siguiente campo.
 
 > [!NOTE]
 > Después de especificar un valor, Business Central solo comprobará que sea válido después de hacer clic fuera del campo o establecer el foco en otro elemento, como el siguiente campo.  
@@ -74,7 +74,7 @@ Puede usar tecla Tab para navegar desde un campo de una página al siguiente cam
 
 ### <a name="how-quick-entry-works"></a>Cómo funciona la entrada rápida
 
-Cada campo puede marcarse como *incluido en la entrada rápida* o como *excluido de la entrada rápida* . Los campos que se incluyen en la Entrada rápida se incluirán en la ruta cuando presione Entrar. Los campos que están excluidos de la Entrada rápida no lo harán.
+Cada campo puede marcarse como *incluido en la entrada rápida* o como *excluido de la entrada rápida*. Los campos que se incluyen en la Entrada rápida se incluirán en la ruta cuando presione Entrar. Los campos que están excluidos de la Entrada rápida no lo harán.
 
 Cuando haya finalizado de rellenar un campo, presione Entrar para confirmar los cambios e ir al siguiente campo. Si desea invertir la dirección y pasar al campo anterior, pulse Mayús+Entrar. Para obtener más información sobre estos métodos abreviados, consulte [Métodos abreviados de entrada rápida para campos](keyboard-shortcuts.md#QuickEntry).
 
@@ -85,7 +85,7 @@ La lista siguiente ofrece información útil sobre el uso de la entrada rápida.
 - Está disponible para cualquier campo editable.
 - También funciona en columnas y filas.
 - No impide el acceso a otros elementos de una página, como las acciones. Se puede seguir accediendo a estos elementos mediante Tab y Mayús+Tab.  
-- No es necesario que se expandan las fichas desplegables para que funcione la Entrada rápida. Si el siguiente campo de entrada rápida se encuentra en una ficha desplegable contraída, esa ficha desplegable se expandirá automáticamente y el foco estará en el campo elegido. [!INCLUDE[d365fin](includes/d365fin_md.md)] recordará que la ficha desplegable debe ampliarse la próxima vez que visite la página.  
+- No es necesario que se expandan las fichas desplegables para que funcione la Entrada rápida. Si el siguiente campo de entrada rápida se encuentra en una ficha desplegable contraída, esa ficha desplegable se expandirá automáticamente y el foco estará en el campo elegido. [!INCLUDE[prod_short](includes/prod_short.md)] recordará que la ficha desplegable debe ampliarse la próxima vez que visite la página.  
 - La entrada rápida funciona independientemente de si los campos son obligatorios. Por lo tanto, es buena idea asegurarse de que los campos obligatorios se incluyan en la entrada rápida.
 - De forma predeterminada, la mayoría de los campos se incluyen automáticamente en la entrada rápida. Por lo tanto, al principio, lo más probable es que su tarea sea excluir campos de la entrada rápida.
 
@@ -93,8 +93,8 @@ La lista siguiente ofrece información útil sobre el uso de la entrada rápida.
 
 Para configurar la Entrada rápida en campos, utilice la personalización.
 
-1. Comience la personalización seleccionando el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el Área de tareas") y luego la acción **Personalizar** .
-2. Seleccione el campo que desea cambiar. En listas, seleccione el encabezado de columna correspondiente. Luego, elija **Incluir en Entrada rápida** o **Excluir de Entrada rápida** .
+1. Comience la personalización seleccionando el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el Área de tareas") y luego la acción **Personalizar**.
+2. Seleccione el campo que desea cambiar. En listas, seleccione el encabezado de columna correspondiente. Luego, elija **Incluir en Entrada rápida** o **Excluir de Entrada rápida**.
 
 Para obtener más información sobre la personalización, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
@@ -120,7 +120,7 @@ Puede copiar una o más filas de una lista o un solo campo de una página. Luego
 
 En una lista, para copiar el campo en la misma columna de la fila anterior y pegarlo en la fila actual, pulse F8.
 
-Para obtener más información, consulte [Preguntas frecuentes sobre copiar y pegar](ui-copy-paste.md).
+Para obtener más información, consulte [Preguntas frecuentes sobre copiar y pegar](faq-copy-paste.yml).
 
 ## <a name="filtering-line-items"></a>Filtrado de los productos de línea
 
@@ -162,7 +162,7 @@ Para abrir la ficha o documento actual en una nueva ventana, elija ![Abrir nueva
 > Si trabaja en el explorador Safari, un bloqueador de ventanas emergentes puede provocar que no se abra la nueva ventana. Si este es el caso, especifique la URL del producto como un sitio web permitido. Para obtener información, consulte [Cambiar las preferencias en Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Lo mismo puede suceder en otros navegadores, como Firefox. Para obtener más información, consulte [Configuración del bloqueador de elementos emergentes en Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Otra forma de realizar múltiples tareas es abrir [!INCLUDE[d365fin](includes/d365fin_md.md)] en dos o más pestañas del navegador. Cuando lo haga de esta forma, debe crear una nueva pestaña y luego copiar/pegar la URL de la pestaña original en la nueva pestaña. De esta forma se crea una nueva sesión.   
+Otra forma de realizar múltiples tareas es abrir [!INCLUDE[prod_short](includes/prod_short.md)] en dos o más pestañas del navegador. Cuando lo haga de esta forma, debe crear una nueva pestaña y luego copiar/pegar la URL de la pestaña original en la nueva pestaña. De esta forma se crea una nueva sesión.   
 
 > [!NOTE]
 > No use la función **Duplicar** del navegador para crear la nueva pestaña, ya que esto puede hacer que las acciones de una pestaña bloqueen las acciones de otras pestañas porque son parte de la misma sesión.
@@ -192,14 +192,14 @@ Puede especificar números negativos de dos formas. El número -20,5 se puede es
 
  En ambos casos, el importe se registrará como -20,5.  
 
- Si el último carácter de la expresión es **+** o **-** , la expresión completa se registrará con ese signo. Ejemplo, **10-20+** dará como resultado 10 y no -10.  
+ Si el último carácter de la expresión es **+** o **-**, la expresión completa se registrará con ese signo. Ejemplo, **10-20+** dará como resultado 10 y no -10.  
 
 ## <a name="entering-dates-and-times"></a>Introducir fechas y horas
 
 Puede especificar fechas y horas en todos los campos diseñados para las fechas (campos de fecha). Las fechas pueden escribirse con o sin separadores.
 
 > [!NOTE]  
-> La forma de especificar las fechas y horas depende de los valores **Región** . Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).  
+> La forma de especificar las fechas y horas depende de los valores **Región**. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).  
 
 ### <a name="entering-dates"></a>Introducción de fechas
 
@@ -294,4 +294,4 @@ A continuación se muestran algunos ejemplos.
 
 ## <a name="see-also"></a>Consulte también  
  [Ordenar, buscar y filtrar listas](ui-enter-criteria-filters.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

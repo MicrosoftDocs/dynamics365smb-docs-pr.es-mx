@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c67f55e1de336e7a191b1d10affe0134110a70b5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 558b93677d4045f68bdc6fea0b68936658816b92
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923264"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759853"
 ---
 # <a name="cross-dock-items"></a>Productos de tránsito directo
 La funcionalidad de tránsito directo está disponible si ha configurado el almacén para requerir el proceso de recepción y ubicación.  
@@ -28,29 +28,29 @@ Si desea registrar los productos de tránsito directo directamente, para hacerlo
 
 En la instrucción de ubicación, puede aprovecharse de eliminar líneas de instrucción Traer y Colocar para cada línea de recepción que estén relacionadas con las recepciones que se van a ubicar completamente en el almacén. Posteriormente, estas líneas se pueden crear como líneas de ubicación desde la hoja de trabajo de ubicación o la recepción registrada. Cuando se eliminan, puede ubicar y registrar las líneas que están relacionadas con los productos en tránsito directo.  
 
-Si ha seleccionado el campo **Utiliza hoj. trab. ubicación** de la ficha de almacén y ha registrado la recepción con tránsitos directos calculados, todas las líneas de la recepción están disponibles en la hoja de trabajo. La información de tránsito directo se pierde y no puede volver a crearse. Por tanto, si desea utilizar la funcionalidad de tránsito directo, debe pasar las líneas a la hoja de trabajo de ubicación eliminando las instrucciones de ubicación en vez de utilizar la función de paso automático que proporciona el campo **Utiliza hoj. trab. ubicación** .  
+Si ha seleccionado el campo **Utiliza hoj. trab. ubicación** de la ficha de almacén y ha registrado la recepción con tránsitos directos calculados, todas las líneas de la recepción están disponibles en la hoja de trabajo. La información de tránsito directo se pierde y no puede volver a crearse. Por tanto, si desea utilizar la funcionalidad de tránsito directo, debe pasar las líneas a la hoja de trabajo de ubicación eliminando las instrucciones de ubicación en vez de utilizar la función de paso automático que proporciona el campo **Utiliza hoj. trab. ubicación**.  
 
-Si registra la recepción de almacén y no ha seleccionado el campo **Utiliza hoj. trab. ubicación** , los productos de los que se va a realizar el tránsito directo aparecen como líneas independientes en la instrucción de ubicación. El campo **Información tránsito directo** de cada línea de ubicación muestra si la línea contiene productos de tránsito directo, productos de la misma recepción que se tienen que almacenar o productos que se tienen que almacenar que provienen de una línea de recepción donde se va a realizar el tránsito directo de algunos productos. Con este campo, los empleados pueden ver fácilmente porqué no se ha colocado en el almacén toda la cantidad recibida.  
+Si registra la recepción de almacén y no ha seleccionado el campo **Utiliza hoj. trab. ubicación**, los productos de los que se va a realizar el tránsito directo aparecen como líneas independientes en la instrucción de ubicación. El campo **Información tránsito directo** de cada línea de ubicación muestra si la línea contiene productos de tránsito directo, productos de la misma recepción que se tienen que almacenar o productos que se tienen que almacenar que provienen de una línea de recepción donde se va a realizar el tránsito directo de algunos productos. Con este campo, los empleados pueden ver fácilmente porqué no se ha colocado en el almacén toda la cantidad recibida.  
 
 La aplicación no mantiene registros independientes de los productos de los que se ha realizado el tránsito directo, sino que los registra como instrucciones de ubicación normales.  
 
 ## <a name="to-set-up-the-warehouse-for-cross-docking"></a>Para configurar el almacén para tránsito directo  
 1.  Si utiliza ubicaciones configure al menos una ubicación de tránsito directo. Si utiliza ubicación y picking directos configure una zona de tránsito directo.  
 
-    Una ubicación de tránsito directo tiene el campo de **Ubicación tránsito directo** seleccionado y debe tener seleccionadas las ubicaciones **Recepción** y **Picking** . Para obtener más información, consulte [Crear ubicaciones](warehouse-how-to-create-individual-bins.md) y [Configurar tipos de ubicación](warehouse-how-to-set-up-bin-types.md).  
+    Una ubicación de tránsito directo tiene el campo de **Ubicación tránsito directo** seleccionado y debe tener seleccionadas las ubicaciones **Recepción** y **Picking**. Para obtener más información, consulte [Crear ubicaciones](warehouse-how-to-create-individual-bins.md) y [Configurar tipos de ubicación](warehouse-how-to-set-up-bin-types.md).  
 
-    Si utiliza zonas, cree una para sus ubicaciones de tránsito directo y seleccione el campo **Zona ubicac. tráns. directo** . Para obtener más información, consulte [Configure lugares para utilizar las ubicaciones](warehouse-how-to-set-up-locations-to-use-bins.md).  
+    Si utiliza zonas, cree una para sus ubicaciones de tránsito directo y seleccione el campo **Zona ubicac. tráns. directo**. Para obtener más información, consulte [Configure lugares para utilizar las ubicaciones](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
 2.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacén** y, a continuación, elija el enlace relacionado.  
-3.  En la página **Ubicación** , seleccione la ubicación cuyo tránsito directo del almacén desee configurar y, a continuación, elija la acción **Editar** .  
-4.  En la ficha desplegable **Almacén** , seleccione la casilla **Utilizar tránsito directo** y rellene al campo **Calcular fecha vto. tráns. directo** con el periodo de tiempo que el sistema anticipará la búsqueda de oportunidades de tránsito directo.
+3.  En la página **Ubicación**, seleccione la ubicación cuyo tránsito directo del almacén desee configurar y, a continuación, elija la acción **Editar**.  
+4.  En la ficha desplegable **Almacén**, seleccione la casilla **Utilizar tránsito directo** y rellene al campo **Calcular fecha vto. tráns. directo** con el periodo de tiempo que el sistema anticipará la búsqueda de oportunidades de tránsito directo.
 
-    La opción **Utiliza tránsito directo** sólo está disponible si ha seleccionado los campos **Recepción requerida** , **Envío requerido** , **Picking requerido** y **Ubicación requerida** .  
+    La opción **Utiliza tránsito directo** sólo está disponible si ha seleccionado los campos **Recepción requerida**, **Envío requerido**, **Picking requerido** y **Ubicación requerida**.  
 
-5.  Si utiliza ubicaciones, en la ficha desplegable **Zonas y Ubic.** , rellene el campo **Cód. ubicac. tránsito directo** con el código de la ubicación que desea utilizar como ubicación de tránsito directo genérica.  
+5.  Si utiliza ubicaciones, en la ficha desplegable **Zonas y Ubic.**, rellene el campo **Cód. ubicac. tránsito directo** con el código de la ubicación que desea utilizar como ubicación de tránsito directo genérica.  
 6.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Unidad de almacenam.** y seleccione el enlace relacionado.  
-7.  Para cada artículo o unidad de almacenamiento donde desea que se pueda realizar el tránsito directo, seleccione el artículo y, a continuación, elija la acción **Editar** .
-8. En la página **Ficha unidad de almacenam.** , active la casilla **Utilizar tránsito directo** .  
+7.  Para cada artículo o unidad de almacenamiento donde desea que se pueda realizar el tránsito directo, seleccione el artículo y, a continuación, elija la acción **Editar**.
+8. En la página **Ficha unidad de almacenam.**, active la casilla **Utilizar tránsito directo**.  
 
 > [!NOTE]  
 >  La funcionalidad de tránsito directo sólo es posible si el almacén está configurado para requerir los procesos de recepción y ubicación.  
@@ -58,9 +58,9 @@ La aplicación no mantiene registros independientes de los productos de los que 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Para realizar el tránsito directo de productos sin ver las oportunidades  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Recepciones almacén** y luego elija el enlace relacionado.  
 2.  Cree las recepciones de un almacén para un artículo que ha llegado y pueda probablemente tener tránsito directo. Para obtener más información, consulte [Recibir productos](warehouse-how-receive-items.md).  
-3.  Rellene el campo **Cdad. para recibir** y, a continuación, elija la acción **Calcular tránsito directo** .  
+3.  Rellene el campo **Cdad. para recibir** y, a continuación, elija la acción **Calcular tránsito directo**.  
 
-    Se identifican los documentos de origen de salida que solicitan los productos que están programados para salir del almacén en el periodo de tiempo de la fórmula de fecha.  [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula las cantidades para que pueda realizar el tránsito directo en cuanto sea posible y evitar tener que ubicar los productos sin que se amontonen demasiados en el área de tránsito directo. El valor del campo **Cdad. a tránsito directo** fes la suma de todas las líneas de salida que solicitan el producto en el periodo anticipado menos la cantidad de productos que ya se han colocado en el área de tránsito directo, o es el valor del campo **Cantidad a recibir** de la línea de la recepción, que siempre es menor. No puede realizar el tránsito directo de más productos de los que ha recibido.  
+    Se identifican los documentos de origen de salida que solicitan los productos que están programados para salir del almacén en el periodo de tiempo de la fórmula de fecha.  [!INCLUDE[prod_short](includes/prod_short.md)] calcula las cantidades para que pueda realizar el tránsito directo en cuanto sea posible y evitar tener que ubicar los productos sin que se amontonen demasiados en el área de tránsito directo. El valor del campo **Cdad. a tránsito directo** fes la suma de todas las líneas de salida que solicitan el producto en el periodo anticipado menos la cantidad de productos que ya se han colocado en el área de tránsito directo, o es el valor del campo **Cantidad a recibir** de la línea de la recepción, que siempre es menor. No puede realizar el tránsito directo de más productos de los que ha recibido.  
 
 4.  Si desea hacer el tránsito directo de la cantidad sugerida registre la recepción. También es posible que decida cambiar la cantidad de la que se va a hacer el tránsito directo y, a continuación, registrar la recepción.  
 
@@ -70,19 +70,19 @@ La aplicación no mantiene registros independientes de los productos de los que 
 
 5.  Elimine las líneas **Traer** y **Colocar** de los productos de los que no se va a realizar el tránsito directo.  
 6.  Imprima la instrucción de ubicación del resto de las líneas y coloque las cantidades de la recepción que se tienen que almacenar en las ubicaciones o el área de almacén adecuada. Coloque los productos de tránsito directo en el área o la ubicación diseñada para ellos en la política de almacén. A veces, es posible que la política de almacén le requiera dejarlos en el área de recepción.  
-7.  Para registrar los productos de tránsito directo que se van a ubicar y hacer disponible para picking, elija la acción **Registrar** .  
+7.  Para registrar los productos de tránsito directo que se van a ubicar y hacer disponible para picking, elija la acción **Registrar**.  
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Para realizar el tránsito directo de productos después de ver las oportunidades  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Recepciones almacén** y luego elija el enlace relacionado.  
 2.  Cree las recepciones de un almacén para un artículo que ha llegado y pueda probablemente tener tránsito directo. Para obtener más información, consulte [Recibir productos](warehouse-how-receive-items.md).  
 
     Debe ver las líneas del documento de origen que solicitan el artículo para poder registrar la recepción.  
-3.  Elija la acción **Calcular tránsito directo** .  
+3.  Elija la acción **Calcular tránsito directo**.  
 
     En la página **Oportunidad tráns.direc.** puede ver los detalles más importantes de las líneas que solicitan el producto, como el tipo de documento, la cantidad solicitada y la fecha de vencimiento. Esta información puede ayudarle a decidir la cantidad de producto de tránsito directo, dónde colocar los productos en el área de tránsito directo o cómo agruparlos.  
 
 4.  Elija la acción **Rellenar cdad. manipulada autom.** para ver cómo se calculan las cantidades en las líneas de la recepción. Cuando se modifica el número de artículos en el campo **Cdad. en tránsito directo** en cada línea, se actualiza el cálculo mientras se realizan los cambios. Esto no significa que la recepción o la orden de producción determinada reciban realmente los productos sugeridos para tránsito directo, porque estas manipulaciones sólo sirven como pruebas. No obstante, el proceso puede ser informativo si está implicada más de una unidad de medida.  
-5.  Si desea reservar una cantidad de producto para una línea de pedido determinada, coloque el cursor en esa línea y, a continuación, elija la acción **Reservar** . En la página **Reserva** , ahora puede reservar cualquier cantidad disponible del artículo para este pedido específico. Esta reserva es como cualquier otra, y no tiene mayor prioridad porque se haya creado junto con el tránsito directo. Para obtener más información, consulte [Reservar productos](inventory-how-to-reserve-items.md).   
+5.  Si desea reservar una cantidad de producto para una línea de pedido determinada, coloque el cursor en esa línea y, a continuación, elija la acción **Reservar**. En la página **Reserva**, ahora puede reservar cualquier cantidad disponible del artículo para este pedido específico. Esta reserva es como cualquier otra, y no tiene mayor prioridad porque se haya creado junto con el tránsito directo. Para obtener más información, consulte [Reservar productos](inventory-how-to-reserve-items.md).   
 6.  Al terminar el cálculo o la reserva, seleccione **Aceptar** para traer los cálculos según los ha revisado al campo **Cdad. a tránsito directo** de la línea de la recepción, o seleccione **Cancelar** si desea volver a la recepción de almacén, donde puede calcular de nuevo el tránsito directo.  
 7.  Ahora registre la recepción, y puede continuar en las instrucciones de ubicación tal como se describe en los pasos 3 a 7 en la sección “A los artículos de tránsito directo sin consultar la sección de las oportunidades”.  
 
@@ -104,4 +104,4 @@ Si no utiliza ubicaciones, recuerde comprobar el área de tránsito directo de v
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 12/03/2020
 ms.author: edupont
-ms.openlocfilehash: 5ca69a35aac0ba61591dfdfd71d739726e2fb62f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa2830aeb62fe6acea5f8e3879c678e9d8407fb4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910141"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760328"
 ---
 # <a name="posting-sales"></a>Registrar ventas
 
@@ -25,32 +25,33 @@ En el menú **Registro** en un documento de venta, puede elegir entre las funcio
 * **Registrar y nuevo**
 * **Registrar y enviar**
 * **Vista previa de registro**
-* **Borrador de factura**
-* **Factura proforma**
+* **Registrar por lotes**
 * **Informe de prueba**
+
+> [¡NOTA!] Para órdenes de cliente, también puede ver opciones relacionadas con la funcionalidad Anticipos. Para obtener más información, consulte [Facturar anticipos](finance-invoice-prepayments.md). 
 
 Una vez completadas todas las líneas e introducida toda la información en el pedido de venta, puede registrarlo. Esto crea una remisión y una factura.
 
 Cuando se registra una orden de venta, se actualiza la cuenta del cliente, la contabilidad y los movimientos de producto.
 
-Por cada orden de venta, se crea un movimiento de venta en la tabla **Mov. contabilidad** . Se crea también un movimiento en la cuenta de cliente de la tabla **Mov. cliente** y un movimiento de contabilidad en la cuenta de cliente correspondiente. Además, el registro de la orden puede dar como resultado un movimiento de IVA y uno de contabilidad para el importe de descuento. El registro de un movimiento para el descuento depende del contenido del campo **Registro dto.** de la página **Conf. ventas y cobros** .
+Por cada orden de venta, se crea un movimiento de venta en la tabla **Mov. contabilidad**. Se crea también un movimiento en la cuenta de cliente de la tabla **Mov. cliente** y un movimiento de contabilidad en la cuenta de cliente correspondiente. Además, el registro de la orden puede dar como resultado un movimiento de IVA y uno de contabilidad para el importe de descuento. El registro de un movimiento para el descuento depende del contenido del campo **Registro dto.** de la página **Conf. ventas y cobros**.
 
-Por cada línea de orden de venta, se creará un movimiento de producto en la tabla **Mov. producto** (si las líneas de venta contienen números de producto) o un movimiento de contabilidad en la tabla **Mov. contabilidad** (si las líneas de venta contienen una cuenta de contabilidad). Además, los pedidos de venta siempre se registran en las tablas **Histórico cab. remisión venta** y **Histórico cab. factura venta** .
+Por cada línea de orden de venta, se creará un movimiento de producto en la tabla **Mov. producto** (si las líneas de venta contienen números de producto) o un movimiento de contabilidad en la tabla **Mov. contabilidad** (si las líneas de venta contienen una cuenta de contabilidad). Además, los pedidos de venta siempre se registran en las tablas **Histórico cab. remisión venta** y **Histórico cab. factura venta**.
 
 > [!IMPORTANT]  
 > Cuando registre un pedido, puede crear una remisión de venta y una factura. Esto se puede realizar al mismo tiempo o de manera independiente. También puede crear una remisión y una factura parciales completando los campos **Cantidad a enviar** y **Cantidad a facturar** en las líneas individuales de la orden de venta antes de registrar. Tenga en cuenta que no puede crear una factura de algo no se ha enviado. Es decir, antes de poder facturar, tiene que haber registrado una remisión de venta o haber seleccionado, al mismo tiempo, entregar y facturar.
 
-Puede registrar o registrar y enviar. Si elige registrar y enviar, se genera un archivo PDF que luego podrá enviar. También puede elegir la función **Registrar por lotes** , que permite registrar varias órdenes a la vez. Para obtener más información, consulte [Registrar varios documentos al mismo tiempo](ui-batch-posting.md).
+Puede registrar o registrar y enviar. Si elige registrar y enviar, se genera un archivo PDF que luego podrá enviar. También puede elegir la función **Registrar por lotes**, que permite registrar varias órdenes a la vez. Para obtener más información, consulte [Registrar varios documentos al mismo tiempo](ui-batch-posting.md).
 
 ## <a name="viewing-ledger-entries"></a>Ver movimientos
 
-Una vez completado el registro, las líneas de venta registradas se quitan de la orden. Al terminar el registro aparece un mensaje de aviso. Después de esto, podrá ver los movimientos registrados en las diferentes páginas que los contienen, como **Movs. cliente** , **Movs. contabilidad** , **Movs. producto** , **Remisiones de venta registradas** y **Facturas de venta registradas** .  
+Una vez completado el registro, las líneas de venta registradas se quitan de la orden. Al terminar el registro aparece un mensaje de aviso. Después de esto, podrá ver los movimientos registrados en las diferentes páginas que los contienen, como **Movs. cliente**, **Movs. contabilidad**, **Movs. producto**, **Remisiones de venta registradas** y **Facturas de venta registradas**.  
 
-En la mayoría de los casos, puede abrir movimientos desde la tarjeta o documento afectado. Por ejemplo, en la página **Ficha cliente** , seleccione la acción **Movimientos** .
+En la mayoría de los casos, puede abrir movimientos desde la tarjeta o documento afectado. Por ejemplo, en la página **Ficha cliente**, seleccione la acción **Movimientos**.
 
 ## <a name="editing-ledger-entries"></a>Editar movimientos
 
-Puede editar determinados campos en documentos de compra registrados, como **Nº seguimiento bulto** . . Para obtener más información, vea [Editar documentos registrados](across-edit-posted-document.md). Para campos más críticos que afectan el registro de auditoría, debe revertir o deshacer la publicación. Para obtener más información, vea [Revertir los registros de diario y deshacer las recepciones/remisiones](finance-how-reverse-journal-posting.md).
+Puede editar determinados campos en documentos de compra registrados, como **Nº seguimiento bulto**. . Para obtener más información, vea [Editar documentos registrados](across-edit-posted-document.md). Para campos más críticos que afectan el registro de auditoría, debe revertir o deshacer la publicación. Para obtener más información, vea [Revertir los registros de diario y deshacer las recepciones/remisiones](finance-how-reverse-journal-posting.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/index)
 
@@ -62,4 +63,4 @@ Puede editar determinados campos en documentos de compra registrados, como **Nº
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Corregir o cancelar facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md)  
 [Búsqueda de páginas e información con Dígame](ui-search.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

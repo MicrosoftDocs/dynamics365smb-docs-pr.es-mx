@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5a062f9a18b6c0e965a06a7d4b18ff1e983f05db
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f2c6c8a8515192640625fff5cda58f62d19d4d37
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916054"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756953"
 ---
 # <a name="change-the-current-report-layout"></a>Cambiar el diseño de informe actual
 Un informe se puede configurar con varios diseños de informe, entre los que puede cambiar según sea necesario.
@@ -34,9 +34,9 @@ Cuando se definen diseños de informes personalizados, puede seleccionarlos de l
    La página **Selección de diseño de informes** muestra todos los informes disponibles en la empresa especificada en el campo **Empresa** en la parte superior de la página. El campo **Diseño seleccionado** especifica el diseño que actualmente se está usando en el informe.
 2. Establezca el campo **Empresa** en la parte superior de la página en la empresa que incluye el informe.
 3. Para cambiar el diseño que se usa en un informe, en la fila del informe, establezca el campo **Diseño seleccionado** en una de las opciones siguientes:
-   * **RDLC (integrado)** , usa el diseño de informe de RDLC integrado en el informe.
-   * **Word (integrado)** , usa el diseño de informe de Word integrado en el informe.
-   * **Personalizado** , usa un diseño personalizado en el informe.  
+   * **RDLC (integrado)**, usa el diseño de informe de RDLC integrado en el informe.
+   * **Word (integrado)**, usa el diseño de informe de Word integrado en el informe.
+   * **Personalizado**, usa un diseño personalizado en el informe.  
 
 > [!NOTE]
 > Si elige un diseño de informe de tipo **RDLC (integrado)** o **Word (integrado)** y recibe un mensaje de error en el que se indica que el informe no tiene un diseño del tipo especificado, debe elegir otra opción de diseño o crear un diseño de informe personalizado del tipo que desea usar. Vea el procedimiento siguiente.
@@ -46,10 +46,10 @@ Si ha seleccionado un diseño de informe de RDLC o de Word, no se requiere ningu
 ## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Para cambiar el diseño de informe personalizado para usar un diseño de informe
 También es posible que desee cambiar el diseño personalizado utilizado actualmente. Para obtener más información, vea [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md).
 
-Todos los diseños de informe personalizados que existen para los diseños de informe en una empresa se enumeran en la página **Diseños de informe personalizados** . En la página **Selección de diseño de informes** puede ver qué diseños personalizados estarán disponibles para cada informe en el cuadro informativo **Diseños personalizados** .
+Todos los diseños de informe personalizados que existen para los diseños de informe en una empresa se enumeran en la página **Diseños de informe personalizados**. En la página **Selección de diseño de informes** puede ver qué diseños personalizados estarán disponibles para cada informe en el cuadro informativo **Diseños personalizados**.
 
-1. En la página **Selección de diseño de informes** , en la línea del diseño de informe que desea cambiar, elija el botón de búsqueda en el campo **Descripción de diseño personalizado** .
-2. En la página **Diseños de informe personalizados** , seleccione la fila del diseño personalizado que desee usar y, después, seleccione el botón **Aceptar** .
+1. En la página **Selección de diseño de informes**, en la línea del diseño de informe que desea cambiar, elija el botón de búsqueda en el campo **Descripción de diseño personalizado**.
+2. En la página **Diseños de informe personalizados**, seleccione la fila del diseño personalizado que desee usar y, después, seleccione el botón **Aceptar**.
 
 El nombre del diseño personalizado seleccionado ahora se muestra en el campo **Descripción de diseño personalizado** y se usará la próxima vez que se obtenga una vista previa, imprima o envíe el informe o documento.
 
@@ -59,4 +59,4 @@ Ahora puede ir a sus fichas de cliente y proveedor para especificar cuál de los
 
 ## <a name="see-also"></a>Consulte también
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

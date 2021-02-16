@@ -11,26 +11,26 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f658764eafa6f9aa35e33cf8098ca77799fb1e0c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 853a45dc32907c2d9b69f7b2e592dc164c20a094
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912482"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757378"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Trabajar con fechas y horas del calendario
 
-[!INCLUDE[d365fin](includes/d365fin_long_md.md)] ofrece múltiples formas de introducir fechas y horas, además de potentes funciones que aceleran la entrada de datos o ayudan a escribir expresiones de calendario complejas. Hay varios lugares en la aplicación donde puede introducir fechas y horas en los campos. Por ejemplo, en un pedido de venta, puede establecer la fecha de remisión. Al filtrar listas o datos de informes, puede introducir fechas y horas para señalar solo los datos que le interesan.
+[!INCLUDE[prod_short](includes/prod_long.md)] ofrece múltiples formas de introducir fechas y horas, además de potentes funciones que aceleran la entrada de datos o ayudan a escribir expresiones de calendario complejas. Hay varios lugares en la aplicación donde puede introducir fechas y horas en los campos. Por ejemplo, en un pedido de venta, puede establecer la fecha de remisión. Al filtrar listas o datos de informes, puede introducir fechas y horas para señalar solo los datos que le interesan.
 
 ## <a name="check-your-region-and-language-settings"></a>Compruebe su región y la configuración de idioma
 La página **Mi configuración** especifica los valores de **Región** e **Idioma** que utiliza en la aplicación. Estos ajustes influyen en cómo se introducen las fechas y horas.
 
 -   El valor **Región** determina cómo se muestran o se forman las fechas, los tiempos, los números, y divisas.
 
--   Para los patrones de fecha que involucran palabras, el idioma de las palabras que usa debe corresponder a la configuración de **Idioma** .
+-   Para los patrones de fecha que involucran palabras, el idioma de las palabras que usa debe corresponder a la configuración de **Idioma**.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_long_md.md)] utiliza el sistema de calendario gregoriano.
+> [!INCLUDE[prod_short](includes/prod_long.md)] utiliza el sistema de calendario gregoriano.
 
 <!--
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
@@ -72,19 +72,19 @@ En un campo de fecha, puede introducir dos, cuatro, seis u ocho dígitos:
 
 ### <a name="today"></a>Hoy
 
-Introduzca la palabra para hoy, en el idioma establecido por la configuración de **Idioma** , que establecerá la fecha a la fecha actual. En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio, como h u hoy, siempre que no sea también el comienzo de otra palabra.
+Introduzca la palabra para hoy, en el idioma establecido por la configuración de **Idioma**, que establecerá la fecha a la fecha actual. En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio, como h u hoy, siempre que no sea también el comienzo de otra palabra.
 
 ### <a name="period"></a>Período
 
-Para filtrar un período contable específico, en un campo de fecha introduzca la letra p, o la palabra periodo, seguida de un número que identifique el período contable, como p2 o periodo4. El período contable es relativo al ejercicio de la fecha de trabajo actual que la establecida en su área de tareas. Por ejemplo, si la fecha de trabajo es **21/03/20** , con p1, o solo p, se filtra el primer periodo contable del ejercicio 2020 (por ejemplo, 01/01/20..31/01/20). p15 filtra el decimoquinto periodo contable desde el inicio del ejercicio 2020 (por ejemplo, 01/03/21..31/03/21).
+Para filtrar un período contable específico, en un campo de fecha introduzca la letra p, o la palabra periodo, seguida de un número que identifique el período contable, como p2 o periodo4. El período contable es relativo al ejercicio de la fecha de trabajo actual que la establecida en su área de tareas. Por ejemplo, si la fecha de trabajo es **21/03/20**, con p1, o solo p, se filtra el primer periodo contable del ejercicio 2020 (por ejemplo, 01/01/20..31/01/20). p15 filtra el decimoquinto periodo contable desde el inicio del ejercicio 2020 (por ejemplo, 01/03/21..31/03/21).
 
-Los periodos contables se definen en la página **Periodos contables** . Para ver o cambiar los períodos contables, abra la página [aquí](https://businesscentral.dynamics.com/?page=100).
+Los periodos contables se definen en la página **Periodos contables**. Para ver o cambiar los períodos contables, abra la página [aquí](https://businesscentral.dynamics.com/?page=100).
 
 ### <a name="current-work-date"></a>Fecha de trabajo actual
 
 La función de fecha de trabajo le permite grabar transacciones usando una fecha que es diferente de la fecha actual.
 
-La palabra para 'fecha de trabajo', en el idioma establecido por la configuración **Idioma** , establecerá la fecha en la fecha de trabajo establecida actualmente que se especifica en la página **Mis configuraciones** . En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio, como "t" o "trabajo".
+La palabra para 'fecha de trabajo', en el idioma establecido por la configuración **Idioma**, establecerá la fecha en la fecha de trabajo establecida actualmente que se especifica en la página **Mis configuraciones**. En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio, como "t" o "trabajo".
 
 Si no ha definido una fecha de trabajo, la fecha actual se usará como la fecha de trabajo. Una fecha de trabajo se puede usar si hay muchas operaciones con una fecha distinta a la activa.
 
@@ -98,7 +98,7 @@ Para especificar que es una fecha de cierre, coloque una C delante, como C123101
 
 ### <a name="examples"></a>Ejemplos
 
-La siguiente tabla contiene ejemplos de fechas en todos los formatos. Se supone que la configuración regional formatea las fechas de acuerdo con: **año.mes.día.** , una semana a partir del lunes y el idioma inglés.
+La siguiente tabla contiene ejemplos de fechas en todos los formatos. Se supone que la configuración regional formatea las fechas de acuerdo con: **año.mes.día.**, una semana a partir del lunes y el idioma inglés.
 
 |**Mov.**      |**Interpretación**      |
 |---------------|------------------------|
@@ -194,7 +194,7 @@ El ejemplo siguiente muestra cómo utilizar un signo menos para indicar una fech
 |-1A|Hace un año desde hoy|
 
 > [!IMPORTANT]
->  Si el almacén utiliza un calendario base, la fórmula de fecha que escriba en este campo, por ejemplo el campo **Tiempo envío** , se interpreta según los días laborables del calendario. Por ejemplo, 1S significa siete días laborables.
+>  Si el almacén utiliza un calendario base, la fórmula de fecha que escriba en este campo, por ejemplo el campo **Tiempo envío**, se interpreta según los días laborables del calendario. Por ejemplo, 1S significa siete días laborables.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -217,7 +217,7 @@ You can also combine the various format types.
 |12 15 16&#124;12 01 16..05 31 17 | Entries posted either on December 15 2016 or on dates between and including December 01 2016 and May 31 2017. |
 |..12 14 16&#124;12 30 16.. | Entries posted on December 14 or earlier, or entries posted on December 30 or later - that is, all entries except those posted on dates between and including December 15 and 29. |
 
-Note that we have used the US date format MMDDYY here. As [!INCLUDE[d365fin](includes/d365fin_md.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
+Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
 ## Using Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
@@ -312,7 +312,7 @@ Debe tener en cuenta que los milisegundos se interpretan como notación decimal.
 
 No puede utilizar 24:00 para referirse a la medianoche, ni usar un valor superior a 24:00.
 
-La palabra para "hora" en el idioma utilizado por [!INCLUDE[d365fin](includes/d365fin_long_md.md)] se evaluará hasta la hora actual de su ordenador o dispositivo móvil. Puede introducir cualquier parte de la palabra, comenzando desde el principio, como h u HOR.
+La palabra para "hora" en el idioma utilizado por [!INCLUDE[prod_short](includes/prod_long.md)] se evaluará hasta la hora actual de su ordenador o dispositivo móvil. Puede introducir cualquier parte de la palabra, comenzando desde el principio, como h u HOR.
 
 ## <a name="entering-combined-dates-and-times"></a>Introducir fechas y horas combinadas
 Cuando introduce fechas y horas, que son una fecha y una hora combinadas en un campo, debe introducir un espacio entre la fecha y la hora. La parte de la fecha solo puede contener espacios en la forma del separador de fecha oficial de la configuración de su región. El tiempo puede contener espacios alrededor del indicador AM/PM.
@@ -366,6 +366,6 @@ Para ver la unidad de medida que se va a usar en un campo Duración, introduzca 
 Por ejemplo, si la unidad de medida es horas, el número 5 se convierte a 5 hrs.
 
 ## <a name="see-also"></a>Consulte también
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Cálculo de la fecha de compras](purchasing-date-calculation-for-purchases.md)  
 [Introducir criterios en los filtros](ui-enter-criteria-filters.md)  

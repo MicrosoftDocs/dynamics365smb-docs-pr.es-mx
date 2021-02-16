@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2cf9c34434136578b6ab31841c5bb7f69f72ae18
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 49448cc56d76846c70471a53a257986b543f11b3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921478"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758828"
 ---
 # <a name="planning-with-or-without-locations"></a>Planificación con o sin almacenes
 En cuanto a la planificación con o sin códigos de almacén en las líneas de demanda, el sistema de planificación funciona directamente cuando:  
@@ -30,7 +30,7 @@ Cuando el sistema de planificación detecta demanda en un almacén (una línea c
 
 Durante la ejecución de la planificación, el sistema comprueba los tres valores de configuración por orden y genera la planificación en consecuencia:  
 
-1.  ¿Tiene una marca de verificación el campo **Almacén obligatorio** ?  
+1.  ¿Tiene una marca de verificación el campo **Almacén obligatorio**?  
 
     En caso afirmativo:  
 
@@ -50,7 +50,7 @@ Durante la ejecución de la planificación, el sistema comprueba los tres valore
 
     Si no es así:  
 
-    El producto se planifica según estos parámetros: Política reorden =  *Lote a lote* , Incluir existencias =  *Sí* , todos los demás parámetros de planificación = vacíos. (Los productos que utilizan la política de reorden  *Pedido* continúan utilizando  *Pedido* así como los demás ajustes.)  
+    El producto se planifica según estos parámetros: Política reorden =  *Lote a lote*, Incluir existencias =  *Sí*, todos los demás parámetros de planificación = vacíos. (Los productos que utilizan la política de reorden  *Pedido* continúan utilizando  *Pedido* así como los demás ajustes.)  
 
 > [!NOTE]  
 >  Esta alternativa mínima solo cubre la demanda exacta. Se omite cualquier otro parámetro de planificación definido.  
@@ -58,8 +58,8 @@ Durante la ejecución de la planificación, el sistema comprueba los tres valore
 Consulte las variaciones en los escenarios siguientes.  
 
 ## <a name="demand-at-blank-location"></a>Demanda en "Almacén en blanco"  
-Incluso aunque el cuadro de verificación **Almacén obligatorio** esté marcado, el sistema permitirá la creación de líneas de demanda sin código de almacén, lo que también se conoce como almacén *EN BLANCO* . Ésta es una desviación del sistema porque tiene diversos valores de configuración ajustados para tratar con los almacenes (consulte más arriba) y, como resultado, el motor de planificación no creará ninguna línea de planificación para dicha línea de demanda. Si no está marcado el campo **Almacén obligatorio** , pero existe cualquiera de los valores de configuración de almacén, la situación también se considera una desviación y el sistema de planificación reaccionará generando la "alternativa mínima":   
-El producto se planifica según esta lógica: Política reorden =  *Lote a lote* ( *Pedido* sigue siendo *Pedido)* , Incluir existencias =  *Sí* , todos los demás parámetros de planificación = vacíos.  
+Incluso aunque el cuadro de verificación **Almacén obligatorio** esté marcado, el sistema permitirá la creación de líneas de demanda sin código de almacén, lo que también se conoce como almacén *EN BLANCO*. Ésta es una desviación del sistema porque tiene diversos valores de configuración ajustados para tratar con los almacenes (consulte más arriba) y, como resultado, el motor de planificación no creará ninguna línea de planificación para dicha línea de demanda. Si no está marcado el campo **Almacén obligatorio**, pero existe cualquiera de los valores de configuración de almacén, la situación también se considera una desviación y el sistema de planificación reaccionará generando la "alternativa mínima":   
+El producto se planifica según esta lógica: Política reorden =  *Lote a lote* ( *Pedido* sigue siendo *Pedido)*, Incluir existencias =  *Sí*, todos los demás parámetros de planificación = vacíos.  
 
 Consulte las variaciones en la configuración de escenarios siguiente.  
 
@@ -79,7 +79,7 @@ El producto se planifica en función de los parámetros de planificación de la 
 
 #### <a name="case-13-demand-is-at--green-location"></a>Caso 1.3: La demanda está en un almacén  *VERDE*  
 
-El producto se planifica en función de los siguientes parámetros: Política reorden =  *Lote a lote* ( *Pedido* sigue siendo  *Pedido* ), Incluir existencias =  *Sí* , todos los demás parámetros de planificación = vacíos.  
+El producto se planifica en función de los siguientes parámetros: Política reorden =  *Lote a lote* ( *Pedido* sigue siendo  *Pedido*), Incluir existencias =  *Sí*, todos los demás parámetros de planificación = vacíos.  
 
 #### <a name="case-14-demand-is-at--blank-location"></a>Caso 1.4: La demanda está en un almacén  *EN BLANCO*  
 
@@ -93,7 +93,7 @@ El producto no se planifica porque no hay definido ningún almacén en la línea
 
 #### <a name="case-21-demand-is-at--red-location"></a>Caso 2.1: La demanda está en un almacén  *ROJO*  
 
-El producto se planifica en función de los siguientes parámetros: Política reorden =  *Lote a lote* ( *Pedido* sigue siendo  *Pedido* ), Incluir existencias =  *Sí* , todos los demás parámetros de planificación = vacíos.  
+El producto se planifica en función de los siguientes parámetros: Política reorden =  *Lote a lote* ( *Pedido* sigue siendo  *Pedido*), Incluir existencias =  *Sí*, todos los demás parámetros de planificación = vacíos.  
 
 #### <a name="case-22-demand-is-at--blue-location"></a>Caso 2.2: La demanda está en un almacén *AZUL*  
 
@@ -107,7 +107,7 @@ El producto se planifica en función de los parámetros de planificación de la 
 
 #### <a name="case-31-demand-is-at--red-location"></a>Caso 3.1: La demanda está en un almacén  *ROJO*  
 
-El producto se planifica en función de los siguientes parámetros: Política reorden =  *Lote a lote* ( *Pedido* sigue siendo  *Pedido* ), Incluir existencias =  *Sí* , todos los demás parámetros de planificación = vacíos.  
+El producto se planifica en función de los siguientes parámetros: Política reorden =  *Lote a lote* ( *Pedido* sigue siendo  *Pedido*), Incluir existencias =  *Sí*, todos los demás parámetros de planificación = vacíos.  
 
 #### <a name="case-32-demand-is-at--blue-location"></a>Caso 3.2: La demanda está en un almacén *AZUL*  
 
@@ -115,7 +115,7 @@ El producto se planifica en función de los parámetros de planificación de la 
 
 #### <a name="case-33-demand-is-at--blank-location"></a>Caso 3.3: La demanda está en un almacén  *EN BLANCO*  
 
-El producto se planifica en función de los siguientes parámetros: Política reorden =  *Lote a lote* ( *Pedido* sigue siendo  *Pedido* ), Incluir existencias =  *Sí* , todos los demás parámetros de planificación = vacíos.  
+El producto se planifica en función de los siguientes parámetros: Política reorden =  *Lote a lote* ( *Pedido* sigue siendo  *Pedido*), Incluir existencias =  *Sí*, todos los demás parámetros de planificación = vacíos.  
 
 ### <a name="setup-4"></a>Configuración 4:  
 
@@ -125,7 +125,7 @@ El producto se planifica en función de los siguientes parámetros: Política re
 
 #### <a name="case-41-demand-is-at--blue-location"></a>Caso 4.1: La demanda está en un almacén  *AZUL*  
 
-El producto se planifica en función de los siguientes parámetros: Política reorden =  *Lote a lote* ( *Pedido* sigue siendo  *Pedido* ), Incluir existencias =  *Sí* , todos los demás parámetros de planificación = vacíos.  
+El producto se planifica en función de los siguientes parámetros: Política reorden =  *Lote a lote* ( *Pedido* sigue siendo  *Pedido*), Incluir existencias =  *Sí*, todos los demás parámetros de planificación = vacíos.  
 
 #### <a name="case-42-demand-is-at--blank-location"></a>Caso 4.2: La demanda está en un almacén  *EN BLANCO*  
 
@@ -143,4 +143,4 @@ Por consiguiente, si normalmente planifica la demanda de los almacenes, es muy r
 [Compras](purchasing-manage-purchasing.md)  
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)   
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

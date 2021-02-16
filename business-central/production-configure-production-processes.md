@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6888c3cd599b9c85f67615e7f090d72e8cf5fa23
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 29bb70d54c4e5bb1dbc366a8f566e8247f4117ef
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915421"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759453"
 ---
 # <a name="setting-up-manufacturing"></a>Configuración de fabricación
 Para convertir material en artículos producidos finales, se deben configurar recursos de producción, como listas de materiales, ruta, operadores de máquina y maquinaria, en el sistema.
@@ -30,8 +30,8 @@ Cuando haya configurado la fabricación, puede planificar y ejecutar las órdene
 
 |**Para**|**Vea**|  
 |------------|-------------|  
-|Configurar las características de fabricación, como la definición de las horas laborales de la planta y la selección de parámetros de planificación.|La página **Configuración de fabricación** .|
-|En la pestaña **Planificación** de la página **Configuración de fabricación** , establezca los parámetros de planificación global que anulan los parámetros establecidos en las fichas de producto individuales.|[Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)|
+|Configurar las características de fabricación, como la definición de las horas laborales de la planta y la selección de parámetros de planificación.|La página **Configuración de fabricación**.|
+|En la pestaña **Planificación** de la página **Configuración de fabricación**, establezca los parámetros de planificación global que anulan los parámetros establecidos en las fichas de producto individuales.|[Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)|
 |Definir una semana laboral estándar, en el departamento de fabricación, en términos de horas de inicio y fin de cada día laboral y turno de trabajo relacionado.|[Crear calendarios de planta](production-how-to-create-work-center-calendars.md)|  
 |Organizar valores fijos y requisitos de un recursos de producción, como centros de trabajo o centros de máquinas, para controlar la salida de la producción efectuada.|[Configuración de centros de trabajo y centros de máquinas](production-how-to-set-up-work-and-machine-centers.md)|
 |Organizar las operaciones de producción en la orden requerida y asignarlas a los centros de trabajo o centros de máquinas con los horarios de trabajo necesarios.|[Creación de rutas](production-how-to-create-routings.md)|
@@ -46,4 +46,4 @@ Cuando haya configurado la fabricación, puede planificar y ejecutar las órdene
 [Planificación](production-planning.md)   
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

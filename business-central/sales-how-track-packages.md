@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: rfq
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6b0cf72609a180d271604dd276f840efbc6b1aa6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5136c675d50e4d9ac91f43755dfb44810701096d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910666"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758028"
 ---
 # <a name="track-packages"></a>Hacer un seguimiento de los paquetes
 
@@ -24,9 +24,9 @@ El siguiente procedimiento muestra cómo rastrear un paquete desde un remisiones
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Histórico remisiones venta** y luego elija el enlace relacionado.
 2. Abra el envío correspondiente.
-3. Seleccione la acción **Actualizar documento** .
+3. Seleccione la acción **Actualizar documento**.
 4. En el campo **Nº seguimiento bulto** especifique el número de paquete que le ha dado el transportista. Actualice **Transportista** si es necesario y cierre la página.
-5. Elija la acción **Seguimiento paquete** .
+5. Elija la acción **Seguimiento paquete**.
 
 Su explorador web predeterminado abre la página de seguimiento del transportista.
 
@@ -36,4 +36,4 @@ Su explorador web predeterminado abre la página de seguimiento del transportist
 [Ccial](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

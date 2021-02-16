@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50b2a25ca18773340e10b52529ba484843cad7f1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f978047720f6e67c58c7c845a15f957258aaca3c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910316"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757928"
 ---
 # <a name="set-up-service-contracts"></a>Configurar contratos de servicio
 Antes de que pueda trabajar con contratos, debe configurar las opciones siguientes: 
 
-* **Grupos Contrato de Servicio** , que reúne contratos de servicio relacionados.
-* Los **grupos de cuentas de contratos de servicio** , que se utilizan para agrupar las cuentas de contratos de servicio con las facturas de servicio creadas para los contratos de servicio. Asigne estos grupos a los contratos de servicio.  
+* **Grupos Contrato de Servicio**, que reúne contratos de servicio relacionados.
+* Los **grupos de cuentas de contratos de servicio**, que se utilizan para agrupar las cuentas de contratos de servicio con las facturas de servicio creadas para los contratos de servicio. Asigne estos grupos a los contratos de servicio.  
 * **Plantillas de contratos** que definen las disposiciones del contrato de contratos que incluyen los detalles del contrato de servicio más utilizados. Puede utilizar plantillas cuando cree cotizaciones de contrato de servicio. Al crear una cotización de contrato, los campos contienen automáticamente el contenido de los campos de la plantilla.
-* **Plantillas clientes** le permite crear cotizaciones para contactos o clientes potenciales que no están registrados como clientes en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+* **Plantillas clientes** le permite crear cotizaciones para contactos o clientes potenciales que no están registrados como clientes en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Para configurar un grupo de contratos de servicio  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos Contrato de Servicio** y luego elija el enlace relacionado.  
@@ -33,26 +33,26 @@ Antes de que pueda trabajar con contratos, debe configurar las opciones siguient
 ## <a name="to-set-up-a-service-contract-account-group"></a>Para configurar un grupo de cuentas de contratos de servicio  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos contables contr. serv.** y luego elija el enlace relacionado.  
 2. Cree un grupo de cuentas de contratos de servicio nuevo.   
-3. Rellene los campos **Código** y **Descripción** . Estos campos describen el grupo de cuentas de servicio.  
-4. Rellene el campo **Cuenta contratos sin anticipos** , elija el número de el registro línea de no anticipo.  
-5. En el campo **Cuenta contratos con anticipos** , elija el número de el registro línea de anticipo.  
+3. Rellene los campos **Código** y **Descripción**. Estos campos describen el grupo de cuentas de servicio.  
+4. Rellene el campo **Cuenta contratos sin anticipos**, elija el número de el registro línea de no anticipo.  
+5. En el campo **Cuenta contratos con anticipos**, elija el número de el registro línea de anticipo.  
 
 ## <a name="to-set-up-a-contract-template"></a>Para configurar una plantilla de contrato  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plantillas de contrato de servicio** y luego elija el enlace relacionado.  
 2. Cree una plantilla de contrato de servicio nueva.  
-3. En el campo **N.º** , introduzca un número para la plantilla de contrato.  
+3. En el campo **N.º**, introduzca un número para la plantilla de contrato.  
   
-     Si ha configurado series numéricas para plantillas de contrato en la página **Config. gestión servicio** , también puede presionar la tecla Enter para especificar el siguiente número de plantilla de contrato disponible. Rellene el resto de los campos en caso necesario.  
+     Si ha configurado series numéricas para plantillas de contrato en la página **Config. gestión servicio**, también puede presionar la tecla Enter para especificar el siguiente número de plantilla de contrato disponible. Rellene el resto de los campos en caso necesario.  
   
-4. En la ficha desplegable **Factura** , rellene el campo **Código de grupo de cuentas de contrato de servicio** , **Período de factura** , etc. Rellene el resto de los campos en caso necesario.  
+4. En la ficha desplegable **Factura**, rellene el campo **Código de grupo de cuentas de contrato de servicio**, **Período de factura**, etc. Rellene el resto de los campos en caso necesario.  
 5. Elija la acción **Descuentos servicio** para agregar descuentos de contrato.  
 
 ## <a name="to-set-up-a-customer-template"></a>Para configurar una plantilla de cliente  
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plantillas de cliente** y luego elija el enlace relacionado.  
 2. Cree una ficha de plantilla de cliente nueva.  
-3. En la ficha desplegable **General** , escriba un nombre y una descripción para la plantilla de cliente en los campos **Código** y **Descripción** respectivamente. 
-4. Para definir los criterios de búsqueda, rellene los otros campos, como **Cód. país/región** , **Cód. territorio** y **Cód. idioma** .  
-5. Rellene los campos **Grupo contable negocio** y **Grupo contable cliente** .  
+3. En la ficha desplegable **General**, escriba un nombre y una descripción para la plantilla de cliente en los campos **Código** y **Descripción** respectivamente. 
+4. Para definir los criterios de búsqueda, rellene los otros campos, como **Cód. país/región**, **Cód. territorio** y **Cód. idioma**.  
+5. Rellene los campos **Grupo contable negocio** y **Grupo contable cliente**.  
 
 ## <a name="see-also"></a>Consulte también
 [Configurar la gestión de servicios](service-setup-service.md)

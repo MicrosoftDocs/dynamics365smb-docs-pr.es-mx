@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c8cd73e1dd47549cab57e9fd44fe52232437175
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b2f31804dace5371da17a4c6e1eeaaac24815c6f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925308"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755943"
 ---
 # <a name="set-up-put-away-templates"></a>Configurar plantillas de ubicación
 
@@ -26,15 +26,15 @@ Puede configurar varias plantillas de ubicación y seleccionar una para controla
 ## <a name="to-set-up-put-away-templates"></a>Para configurar las plantillas de ubicación
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plantillas de ubicación** y luego elija el enlace relacionado.  
-2. Seleccione la acción **Nuevo** .  
+2. Seleccione la acción **Nuevo**.  
 3. Escriba un código que sea el identificador exclusivo de la plantilla que va a crear.  
 4. Introduzca una breve descripción, si lo desea.  
 5. Rellene la primera línea con los requisitos de la ubicación que desea que se rellenen en primer lugar cuando se sugiera una ubicación.
 
-    Por ejemplo, si desea que el método de almacenamiento predeterminado se base en ubicaciones fijas, elija el campo **Buscar ubicación fija** . [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+    Por ejemplo, si desea que el método de almacenamiento predeterminado se base en ubicaciones fijas, elija el campo **Buscar ubicación fija**. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 6. Rellene la segunda línea con los requisitos de ubicación que serán la segunda opción a seguir para utilizar esta ubicación. El programa sólo se utilizará si no encuentra una ubicación que cumpla los requisitos de la primera línea.  
 7. Continúe rellenando las líneas hasta que haya descrito todos los lugares de ubicación adecuados que desea utilizar en el proceso de ubicación.  
-8. En la última línea de la plantilla de ubicación, seleccione la casilla **Busca ubicación aleatoria** .  
+8. En la última línea de la plantilla de ubicación, seleccione la casilla **Busca ubicación aleatoria**.  
 
 Puede crear varias plantillas de ubicación y, a continuación, aplicarlas como necesite. Se utilizará primero la plantilla de ubicación que ha seleccionado para el producto o unidad de almacenamiento, si existe. Si estos campos no están rellenos, se utilizará la plantilla que ha seleccionado para el almacén en la ficha desplegable **Políticas ubic.** de la ficha de almacén.  
 
@@ -45,4 +45,4 @@ Puede crear varias plantillas de ubicación y, a continuación, aplicarlas como 
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

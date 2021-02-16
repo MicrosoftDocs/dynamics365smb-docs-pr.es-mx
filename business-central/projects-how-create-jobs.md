@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: project management, task
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d669df714e6fdba9f8faa8f3b2029f1988c8af5e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c109e9dca32e83ace97b773be97da8e463af5f0e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915371"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758778"
 ---
 # <a name="create-jobs"></a>Crear proyectos
 Cuando inicie un proyecto nuevo, debe crear una ficha de proyecto con tareas de proyecto integradas y líneas de planificación de proyecto, estructuradas en dos niveles.  
@@ -32,20 +32,20 @@ Cree una ficha de proyecto y, a continuación, cree las líneas de tarea de proy
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Para especificar el proyecto con la información sobre otros proyectos, elija la acción **Copiar proyecto** , rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar** .
+3. Para especificar el proyecto con la información sobre otros proyectos, elija la acción **Copiar proyecto**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**.
 
 > [!NOTE]  
 >   Si utiliza las hojas de horas con su proyecto, también debe designar una persona responsable. Esta persona puede aprobar las hojas de horas para las tareas de empleados asociadas con el proyecto. Para obtener más información, consulte [Configurar hojas de horas](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Para crear tareas para un proyecto
-Una parte clave de la creación de un proyecto es especificar las diversas tareas que conlleva. Para ello, debe agregar líneas nuevas en la ficha desplegable **Tareas** de la página **Ficha de proyecto** , con una tarea por línea. Cada proyecto debe tener al menos una tarea.
+Una parte clave de la creación de un proyecto es especificar las diversas tareas que conlleva. Para ello, debe agregar líneas nuevas en la ficha desplegable **Tareas** de la página **Ficha de proyecto**, con una tarea por línea. Cada proyecto debe tener al menos una tarea.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.
 2. Abra la ficha de un proyecto relevante.
-3. En la ficha desplegable **Tareas** , rellene los campos según sea necesario en una nueva línea.
-4. Para indentar las tareas y crear una jerarquía, elija la acción **Tareas** y, a continuación, elija la acción **Indentar tareas proyecto** .
+3. En la ficha desplegable **Tareas**, rellene los campos según sea necesario en una nueva línea.
+4. Para indentar las tareas y crear una jerarquía, elija la acción **Tareas** y, a continuación, elija la acción **Indentar tareas proyecto**.
 5. Repita los pasos 3 y 4 para todas las tareas que necesite para el proyecto.
-6. Para especificar las tareas de proyecto con la información sobre otras tareas de proyecto, elija la acción **Copiar tareas de proyecto desde** , rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar** .
+6. Para especificar las tareas de proyecto con la información sobre otras tareas de proyecto, elija la acción **Copiar tareas de proyecto desde**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**.
 
 ## <a name="to-create-planning-lines-for-a-job"></a>Para crear líneas de planificación de un proyecto
 Puede redefinir las nuevas tareas de proyecto como líneas de planificación de proyecto. Una línea de planificación puede utilizarse para capturar cualquier información de un proyecto que desee supervisar. Puede utilizar líneas de planificación para agregar información como qué recursos son necesarios o para capturar productos que sean necesarios para realizar el proyecto. Por ejemplo, si tiene una tarea para obtener la aprobación de clientes para un proyecto, puede asociar esa tarea con líneas de planificación para productos como reuniones con clientes y asignar un recurso.  
@@ -58,12 +58,12 @@ Una línea de planificación de un proyecto puede ser de uno de los siguientes t
 | **Facturable** |Proporciona una facturación estimada al cliente, habitualmente en un proyecto de precio fijo. |
 | **Presupuesto y facturable** |Proporciona el uso presupuestado igual a lo que se desea facturar. |
 
-**Nota** . A medida que especifique información en las líneas de planificación del proyecto, la información de costos se completará automáticamente. Por ejemplo, el costo, el precio y el descuento de los recursos y productos se basan inicialmente en la información que se haya definido en las ficha de recurso y la ficha de producto.
+**Nota**. A medida que especifique información en las líneas de planificación del proyecto, la información de costos se completará automáticamente. Por ejemplo, el costo, el precio y el descuento de los recursos y productos se basan inicialmente en la información que se haya definido en las ficha de recurso y la ficha de producto.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.
 2. Abra una ficha de un proyecto relevante.
-3. Seleccione una tarea de proyecto cuyos campo **Tipo tarea proyecto** contenga **Registrar** y seleccione la acción **Líneas planificación proyecto** .  
-4. En la página **Líneas planificación proyecto** , en una línea nueva, rellene los campos según sea necesario.
+3. Seleccione una tarea de proyecto cuyos campo **Tipo tarea proyecto** contenga **Registrar** y seleccione la acción **Líneas planificación proyecto**.  
+4. En la página **Líneas planificación proyecto**, en una línea nueva, rellene los campos según sea necesario.
 5. Repita los pasos 3 y 4 para todas líneas de planificación que necesita para la tarea de proyecto.
 
 ## <a name="see-also"></a>Consulte también
@@ -73,4 +73,4 @@ Una línea de planificación de un proyecto puede ser de uno de los siguientes t
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

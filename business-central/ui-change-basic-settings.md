@@ -10,47 +10,47 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f98cd6423b67fd9bbcc6081d06eca4cb21e81c7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: df3807f3d5d2baa7f50df4091a0d1f2622d09ff8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912682"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757653"
 ---
 # <a name="change-basic-settings"></a>Cambiar la configuración básica
 
-En la página **Mi configuración** , puede ver y cambiar la configuración básica de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Los cambios que realice sólo afectan a su área de trabajo; no a las áreas de trabajo de otros usuarios.  
+En la página **Mi configuración**, puede ver y cambiar la configuración básica de [!INCLUDE[prod_short](includes/prod_short.md)]. Los cambios que realice sólo afectan a su área de trabajo; no a las áreas de trabajo de otros usuarios.  
 
 ## <a name="role-center"></a><a name="role-center"></a> Área de tareas
 El Área de tareas representa la página Inicio, una pantalla de inicio que está designada para las necesidades específicas del trabajo en una empresa. Dependiendo de su función, el Área de tareas le brinda una descripción general del negocio, su departamento o sus tareas personales. También le ayuda a navegar por sus tareas diarias y encontrar el trabajo que le asignaron.
 
 -   En la parte superior, la navegación le permite cambiar entre clientes, proveedores, artículos y otras listas importantes de información. Del mismo modo, las acciones le permiten iniciar tareas, como crear una nueva factura de venta, directamente desde el Área de tareas.
 
--   En el centro, busque el área **Actividades** , que muestra los datos actuales y se puede hacer clic o tocar para ver información más detallada. Los indicadores de rendimiento clave (KPI) pueden configurarse para mostrar un gráfico seleccionado para una representación visual de, por ejemplo, el flujo de caja o ingresos y gastos. También puede crear una lista de clientes favoritos en el área de tareas para las cuentas empresariales con las que hace negocios a menudo o a las que necesita prestar especial atención.
+-   En el centro, busque el área **Actividades**, que muestra los datos actuales y se puede hacer clic o tocar para ver información más detallada. Los indicadores de rendimiento clave (KPI) pueden configurarse para mostrar un gráfico seleccionado para una representación visual de, por ejemplo, el flujo de caja o ingresos y gastos. También puede crear una lista de clientes favoritos en el área de tareas para las cuentas empresariales con las que hace negocios a menudo o a las que necesita prestar especial atención.
 
 ### <a name="to-change-the-role"></a>Para cambiar el rol
-El rol pedido es **Administrador de negocio** , pero puede seleccionar otro rol para usar un área de tareas que se adapte mejor a sus necesidades.
-1. En la esquina superior derecha, elija el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el Área de tareas") y, a continuación, elija la acción **Mi configuración** .
-2. En la página **Mi configuración** , en el campo **Rol** , seleccione el rol que desea usar de forma predeterminada. Por ejemplo, seleccione **Contable** .
-3. Elija el botón **Aceptar** .
+El rol pedido es **Administrador de negocio**, pero puede seleccionar otro rol para usar un área de tareas que se adapte mejor a sus necesidades.
+1. En la esquina superior derecha, elija el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el Área de tareas") y, a continuación, elija la acción **Mi configuración**.
+2. En la página **Mi configuración**, en el campo **Rol**, seleccione el rol que desea usar de forma predeterminada. Por ejemplo, seleccione **Contable**.
+3. Elija el botón **Aceptar**.
 
 ## <a name="company"></a><a name="company"></a>Compañía
-Una empresa funciona como un contenedor de datos en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Puede haber múltiples empresas en una base de datos, pero solo se puede seleccionar una a la vez.
+Una empresa funciona como un contenedor de datos en [!INCLUDE[prod_short](includes/prod_short.md)]. Puede haber múltiples empresas en una base de datos, pero solo se puede seleccionar una a la vez.
 
 La empresa predeterminada se llama CRONUS y solo contiene datos de demostración. Puede crear una nueva empresa con datos personalizados. Para obtener más información, consulte [Crear nuevas empresas](about-new-company.md).
 
 ## <a name="to-change-the-company-name"></a>Para cambiar el nombre de la empresa
-El nombre de la empresa siempre se muestra en la esquina superior izquierda y funciona como una acción que puede elegir para volver al área de tareas. Puede cambiar este nombre en la página **Información de empresa** .
+El nombre de la empresa siempre se muestra en la esquina superior izquierda y funciona como una acción que puede elegir para volver al área de tareas. Puede cambiar este nombre en la página **Información de empresa**.
 
-1. Elija el icono ![Icono de rueda dentada para abrir el menú Configuración](media/ui-experience/settings_icon_small.png) y luego elija la acción **Información de empresa** .
-2. En el campo **Nombre** , introduzca el nuevo nombre de empresa.
+1. Elija el icono ![Icono de rueda dentada para abrir el menú Configuración](media/ui-experience/settings_icon_small.png) y luego elija la acción **Información de empresa**.
+2. En el campo **Nombre**, introduzca el nuevo nombre de empresa.
 3. Salga de la página. El sistema se reinicia y muestra la nueva empresa en la esquina superior izquierda.
 
 ## <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a>Para mostrar un distintivo de empresa para acceder rápidamente a la información de la empresa  
 Puede agregar un distintivo personalizado en la esquina superior derecha, que puede elegir para ver rápidamente el nombre de la empresa y la información de suscriptor en un cuadro emergente.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado.
-2. En la ficha desplegable **Distintivo de la empresa** , rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+2. En la ficha desplegable **Distintivo de la empresa**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]
 > Si se define un distintivo de la empresa, no puede cambiar el nombre de la empresa como se describe en [Para cambiar el nombre de la empresa](ui-change-basic-settings.md#to-change-the-company-name)
@@ -59,7 +59,7 @@ Puede agregar un distintivo personalizado en la esquina superior derecha, que pu
 La fecha de trabajo más utilizada es la fecha actual. Es posible que tenga que cambiar temporalmente la fecha de trabajo para realizar tareas como la finalización de las transacciones de una fecha que no sea la fecha de hoy.
 
 > [!TIP]  
-> En todos los campos de fecha, escriba **h** para introducir rápidamente la fecha de hoy y escriba **t** para introducir rápidamente la fecha de trabajo, que es el valor en el campo **Fecha de trabajo** en la página **Mi configuración** .
+> En todos los campos de fecha, escriba **h** para introducir rápidamente la fecha de hoy y escriba **t** para introducir rápidamente la fecha de trabajo, que es el valor en el campo **Fecha de trabajo** en la página **Mi configuración**.
 
 > [!IMPORTANT]  
 >  Después de modificar la fecha de trabajo, si cierra la sesión o cambia a otra empresa, los datos de trabajo vuelven a la fecha de trabajo predeterminada. Por lo tanto, la próxima vez que inicie sesión o vuelva a cambiar a la empresa original, es posible que tenga que volver a establecer la fecha de trabajo.
@@ -80,9 +80,9 @@ El valor **Región** determina cómo se muestran o se forman las fechas, los tie
 ## <a name="language"></a><a name="language"></a> Idioma
 Cambia el idioma de la pantalla. Este campo aparece sólo cuando hay más de un idioma a elegir.
 
-El idioma inicial lo determina el administrador o la configuración de su navegador cuando inicia sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El idioma que establezca se usará en todos los dispositivos desde los que inicie sesión, como un teléfono o una tableta.
+El idioma inicial lo determina el administrador o la configuración de su navegador cuando inicia sesión en [!INCLUDE[prod_short](includes/prod_short.md)]. El idioma que establezca se usará en todos los dispositivos desde los que inicie sesión, como un teléfono o una tableta.
 
-Los idiomas adicionales para [!INCLUDE[prodshort](includes/prodshort.md)] se pueden instalar desde AppSource. Si bien todos los idiomas de visualización compatibles se muestran en la lista, el administrador debe instalar la aplicación de idioma pertinente para el suscriptor antes de que los usuarios puedan cambiar al nuevo idioma en [!INCLUDE[prodshort](includes/prodshort.md)].  
+Los idiomas adicionales para [!INCLUDE[prod_short](includes/prod_short.md)] se pueden instalar desde AppSource. Si bien todos los idiomas de visualización compatibles se muestran en la lista, el administrador debe instalar la aplicación de idioma pertinente para el suscriptor antes de que los usuarios puedan cambiar al nuevo idioma en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="changing-when-i-receive-notifications"></a>Cambio al recibir notificaciones
 Seleccione este vínculo para ver o cambiar las notificaciones que recibe sobre determinados eventos o cambios de estado, cuando va a facturar a un cliente que tiene un saldo vencido o cuando las existencias disponibles son inferiore a la cantidad que va a vender, por ejemplo. Para obtener más información, consulte [Administrar notificaciones](ui-smart-notifications.md).
@@ -91,5 +91,5 @@ Seleccione este vínculo para ver o cambiar las notificaciones que recibe sobre 
 
 ## <a name="see-also"></a>Consulte también
 [Crear nuevas en empresas](about-new-company.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  

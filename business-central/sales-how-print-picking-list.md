@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c89cb40559a570605401108d7560f6b989e06773
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 47ae132d862d2c05bef4ea0d0af26688bdd16588
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926158"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758228"
 ---
 # <a name="print-the-picking-list"></a>Imprimir la lista de picking
 Puede imprimir una lista de picking de inventario directamente desde un pedido de ventas, una factura de venta y otros documentos que inicien la remisión de los productos.
@@ -27,7 +27,7 @@ El procedimiento siguiente se basa en un pedido de venta. Los pasos son similare
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono de Buscar por página o informe"), introduzca **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2. Abra el pedido de venta para el que desea elegir productos.  
-3. Elija la acción **Informe** y luego elija la acción **Lista de selección por orden** .  
+3. Elija la acción **Informe** y luego elija la acción **Lista de selección por orden**.  
 4. Seleccione el botón de **Imprimir** para imprimir la lista de picking o elija el botón de **Vista previa** para verlo en la pantalla.
 
 También puede guardar la lista de picking como un documento, por ejemplo, para enviarla a alguien o para agregarla como un archivo adjunto al pedido de ventas. Para obtener información, consulte [Administrar archivos adjuntos, vínculos y notas en fichas y documentos](ui-how-add-link-to-record.md).
@@ -38,4 +38,4 @@ También puede guardar la lista de picking como un documento, por ejemplo, para 
 ## <a name="see-also"></a>Consulte también  
 [Inventario](inventory-manage-inventory.md)  
 [Elegir productos](warehouse-pick-items.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)   
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   

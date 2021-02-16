@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: a2c8071abc075caf359d942da5a3638ef811d126
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 28b796a001d1bd1d981ab84bc13607158733c502
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925632"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760478"
 ---
 # <a name="view-test-reports-before-posting"></a>Ver informes de prueba antes de realizar el registro
 Cuando esté listo para registrar un documento, como una orden, una factura o una nota de crédito, puede probar el documento para asegurarse de que no hay problemas que vayan a bloquear el registro.
@@ -27,10 +27,10 @@ Cuando esté listo para registrar un documento, como una orden, una factura o un
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Para imprimir un test antes de registrar una factura de compra
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego seleccione el enlace relacionado.
 2. Abra la factura de compra que desee evaluar.
-3. Elija la acción **Informe de prueba** .  
+3. Elija la acción **Informe de prueba**.  
 
 Todas las partes de la factura de compra se prueban y el resultado se presenta en un informe. Si el informe indica errores o falta información, deberá solucionar el problema antes de registrar la factura de compra.
 
 ## <a name="see-also"></a>Consulte también
 [Registrar documentos y diarios](ui-post-documents-journals.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

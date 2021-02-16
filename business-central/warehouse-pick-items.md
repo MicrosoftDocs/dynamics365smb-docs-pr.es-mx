@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef457ddf93e2634345c809b241e15acc94d0593e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b9e4bf86ec68ad06a22c0a9dcca37eecffb0316b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911732"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755803"
 ---
 # <a name="pick-items"></a>Elegir productos
 
@@ -24,7 +24,7 @@ La actividad de almacén consistente en realizar el picking de los productos ant
 Si decide organizar y registrar su actividad de picking con documentos de almacén, active el campo **Picking requerido** en la ficha de almacén. Esto indica que, cuando tenga que realizar el picking de productos para un documento de origen de salida, desea que el picking de estos productos se controle por el sistema. El documento de origen de salida puede ser un pedido de venta, una devolución de compras, un pedido de transferencia de salida, un pedido de servicio o una orden de producción de cuyos componentes debe realizarse el picking.
 
 > [!NOTE]
-> A pesar de que la configuración se denomina **Picking requerido** , todavía puede registrar envíos directamente desde el documento empresarial de origen en la ubicación donde selecciona esta casilla de verificación.
+> A pesar de que la configuración se denomina **Picking requerido**, todavía puede registrar envíos directamente desde el documento empresarial de origen en la ubicación donde selecciona esta casilla de verificación.
 
 Si el almacén está configurado para requerir el proceso de picking, pero no el proceso de remisión, utilice la página **Picking inventario** para organizar la información de picking, imprimirla, especificar el resultado del picking real y registrar la información de picking, que, a su vez, registra la remisión de los productos. En caso de realizar el picking de componentes para una orden de producción, el registro del picking también registra el consumo.
 
@@ -51,4 +51,4 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

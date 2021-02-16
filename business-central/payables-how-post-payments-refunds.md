@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 353b2074edf80ddba705004e62a86e47943a4366
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b45b4c109d33773ead4e920d5692a615faa7a366
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916787"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759603"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrar pagos y reembolsos en el diario de pagos
 
-En la página **Diario de pagos** , registre los pagos que realiza a los proveedores y los reembolsos que realiza a los clientes. Cuando publica una línea de diario de pagos, el importe pagado se registra en la cuenta bancaria del sistema especificada. A continuación, debe tomar medidas para realizar la transferencia de dinero real desde la cuenta bancaria relacionada.  
+En la página **Diario de pagos**, registre los pagos que realiza a los proveedores y los reembolsos que realiza a los clientes. Cuando publica una línea de diario de pagos, el importe pagado se registra en la cuenta bancaria del sistema especificada. A continuación, debe tomar medidas para realizar la transferencia de dinero real desde la cuenta bancaria relacionada.  
 
-El diario de pagos es un diario general que se optimiza para crear pagos. Puede agregar líneas rápidamente de forma manual, puede permitir que [!INCLUDE[d365fin](includes/d365fin_md.md)] sugiera pagos a proveedores y puede aplicar el pago a los documentos publicados. A pesar de que está haciendo pagos, debe introducir una cantidad positiva en el campo **Importe del documento** . Dependiendo del tipo de documento para la línea de diario, este importe se convierte a un importe negativo en las transacciones subyacentes. De esta manera, es más rápido agregar líneas de diario manualmente. Si prefiere introducir importes negativos, puede personalizar el diario de pagos para que muestre el campo **Importe** en su lugar.  
+El diario de pagos es un diario general que se optimiza para crear pagos. Puede agregar líneas rápidamente de forma manual, puede permitir que [!INCLUDE[prod_short](includes/prod_short.md)] sugiera pagos a proveedores y puede aplicar el pago a los documentos publicados. A pesar de que está haciendo pagos, debe introducir una cantidad positiva en el campo **Importe del documento**. Dependiendo del tipo de documento para la línea de diario, este importe se convierte a un importe negativo en las transacciones subyacentes. De esta manera, es más rápido agregar líneas de diario manualmente. Si prefiere introducir importes negativos, puede personalizar el diario de pagos para que muestre el campo **Importe** en su lugar.  
 
 - Aplicación de pagos a facturas o abonos
 
@@ -29,7 +29,7 @@ El diario de pagos es un diario general que se optimiza para crear pagos. Puede 
 
 - Obtener pagos sugeridos a proveedores o empleados
 
-    Las funciones **Proponer pagos a proveedores** y **Proponer pagos a empleados** pueden ayudarle a completar líneas de diario de pagos automáticamente de acuerdo con la priorización del proveedor y las fechas de vencimiento. Para obtener más información, vea [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md). Con esta función, se rellena siempre el campo **Liq. por nº documento** .  
+    Las funciones **Proponer pagos a proveedores** y **Proponer pagos a empleados** pueden ayudarle a completar líneas de diario de pagos automáticamente de acuerdo con la priorización del proveedor y las fechas de vencimiento. Para obtener más información, vea [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md). Con esta función, se rellena siempre el campo **Liq. por nº documento**.  
 
 - Imprimir cheques y enviar pagos electrónicamente a su banco
 
@@ -40,13 +40,13 @@ El diario de pagos es un diario general que se optimiza para crear pagos. Puede 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. Abra la sección de diario dedicada a los pagos.
 3. Si sabe a quién pagar o reembolsar, complete los campos manualmente. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Para aplicar también el pago a la factura o abono relacionado, seleccione el campo **Liq. por n.º documento** , en la página **Aplicar movs. proveedor** , seleccione la factura o abono relevante, y luego elija el botón **Aceptar** .
+4. Para aplicar también el pago a la factura o abono relacionado, seleccione el campo **Liq. por n.º documento**, en la página **Aplicar movs. proveedor**, seleccione la factura o abono relevante, y luego elija el botón **Aceptar**.
 
-    Muchos de los campos, como **Importe del documento** y **Fecha vencimiento** , ahora se rellenan con información del documento seleccionado.
-5. También puede usar la función **Proponer pagos a proveedores** . Toda la información aplicable y los importes también se ingresan en las líneas del diario. Para obtener más información, vea [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md).
+    Muchos de los campos, como **Importe del documento** y **Fecha vencimiento**, ahora se rellenan con información del documento seleccionado.
+5. También puede usar la función **Proponer pagos a proveedores**. Toda la información aplicable y los importes también se ingresan en las líneas del diario. Para obtener más información, vea [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md).
 
     Los mensajes le guiarán para completar correctamente los campos obligatorios.
-6.  Cuando se completen todas las líneas del diario de pagos, seleccione la acción **Registrar** .
+6.  Cuando se completen todas las líneas del diario de pagos, seleccione la acción **Registrar**.
 
 ## <a name="see-also"></a>Consulte también
 [Realizar pagos por cheque](payables-how-work-checks.md)  
@@ -56,4 +56,4 @@ El diario de pagos es un diario general que se optimiza para crear pagos. Puede 
 [Exportar un archivo de Positive Pay](finance-how-positive-pay.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Personalizar el área de trabajo](ui-personalization-user.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

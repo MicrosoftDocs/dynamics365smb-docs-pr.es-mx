@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3e79957c7e9106b4f67c3d4c7b6ac58703e8eb2f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2831471be76e776966a533c428a5698307826b1c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918274"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756103"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Ubicar productos con ubicación de inventario
 Cuando el almacén está configurado para requerir el proceso de ubicación, pero no el proceso de recepción, utilice el documento **Ubicac. inventario** para registrar la información de ubicación y recepción de sus documentos de origen. El documento de origen de entrada puede ser un pedido de compra, una devolución de ventas, un pedido de transferencia de salida o una orden de producción o ensamblado cuya salida está preparados para ubicarse.  
@@ -30,11 +30,11 @@ Puede crear una ubicación de inventario de tres formas:
 En el caso de pedidos de compra, pedidos de devolución de venta, pedidos de transferencia de entrada y pedidos de ensamblado, para crear la solicitud de almacén, lance el pedido. A continuación se describe cómo hacerlo des de un pedido de compra.  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.
-2. Seleccione el pedido de compra que desea lanzar, y después seleccione **Lanzar** .  
+2. Seleccione el pedido de compra que desea lanzar, y después seleccione **Lanzar**.  
 
     En el caso de los pedidos de producción, se crea la solicitud de almacén creando una solicitud de entrada a partir del pedido de producción lanzado.  
 3.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Órdenes producción lanzadas** y luego elija el enlace relacionado.  
-4. Seleccione la acción **Crear solicitud entrada almacén** .  
+4. Seleccione la acción **Crear solicitud entrada almacén**.  
 
 > [!NOTE]  
 >  También puede crear la solicitud de almacén de entrada seleccionando la casilla de verificación **Crear solicitud de entrada** cuando actualice el pedido de producción. Para obtener más información, vea [Actualizar o replanificar o actualizar las órdenes de producción](production-how-to-replan-refresh-production-orders.md).  
@@ -44,30 +44,30 @@ Cuando se crea la solicitud de almacén, un empleado de almacén asignado para r
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Para crear una ubicación de inventario según el documento de origen
 Ahora que se ha creado la solicitud, el empleado del almacén puede crear un nueva ubicación de inventario basado en el documento de origen lanzado.   
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ubicación existencias** y luego seleccione el enlace relacionado.  
-2. Seleccione la acción **Nuevo** .  
-3. En el campo **Documento origen** , seleccione el tipo de documento de origen que está ubicando.  
-4. En el campo **Cód. procedencia mov.** , seleccione el documento de origen.  
+2. Seleccione la acción **Nuevo**.  
+3. En el campo **Documento origen**, seleccione el tipo de documento de origen que está ubicando.  
+4. En el campo **Cód. procedencia mov.**, seleccione el documento de origen.  
 5. También, elija la acción **Tomar documento origen** para seleccionar un documento de una lista de documentos de origen de entrada que están preparados para la ubicación en el almacén.  
 6. Elija el botón **Aceptar** para rellenar las líneas de ubicación según el documento de origen seleccionado.  
 
 ## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>Para crear una ubicación de inventario desde el documento de origen  
-1.  En el documento de origen, que puede ser un pedido de compras, una devolución de ventas, un pedido de transferencia de entrada o una orden de producción, elija la acción **Crear ubicac./ pick. existencias** .  
-2. Active la casilla **Crear ubicación exist** .
-3. Elija el botón **Aceptar** . Se crea una ubicación de inventario nueva.
+1.  En el documento de origen, que puede ser un pedido de compras, una devolución de ventas, un pedido de transferencia de entrada o una orden de producción, elija la acción **Crear ubicac./ pick. existencias**.  
+2. Active la casilla **Crear ubicación exist**.
+3. Elija el botón **Aceptar**. Se crea una ubicación de inventario nueva.
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Para crear varias Ubicaciones de existencias con un proceso  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Crear ubicac./pick. exist.** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Solicitud almacén** de la página respectiva, utilice los campos **Documento origen** y **Cód. procedencia mov.** para filtrar determinados tipos de documentos o intervalos de números de documento.  
-3.  En la ficha desplegable **Opciones** , seleccione la casilla **Crear ubicación exist.**
-4.  Elija el botón **Aceptar** . Se crean las ubicaciones de inventario especificadas.
+3.  En la ficha desplegable **Opciones**, seleccione la casilla **Crear ubicación exist.**
+4.  Elija el botón **Aceptar**. Se crean las ubicaciones de inventario especificadas.
 
 ## <a name="to-record-the-inventory-put-away"></a>Para registrar las ubicaciones de inventario  
-1. Abra un documento de ubicación creado previamente seleccionando uno de la página **Ubicac. existencias** .  
-2. En las líneas de ubicación del campo **Cód. ubicación** , la ubicación en la cual se debe realizar la ubicación se sugiere como la ubicación predeterminada del artículo. Si es necesario puede cambiar la ubicación en esta página.  
-3. Realice la ubicación e introduzca la información de la cantidad de ubicación real en la ventana **Cdad. a manipular** .
+1. Abra un documento de ubicación creado previamente seleccionando uno de la página **Ubicac. existencias**.  
+2. En las líneas de ubicación del campo **Cód. ubicación**, la ubicación en la cual se debe realizar la ubicación se sugiere como la ubicación predeterminada del artículo. Si es necesario puede cambiar la ubicación en esta página.  
+3. Realice la ubicación e introduzca la información de la cantidad de ubicación real en la ventana **Cdad. a manipular**.
 
-    Si es necesario colocar los productos para otra línea en varias ubicaciones porque la ubicación designada está completa, por ejemplo, utilice la función **Dividir línea** en la ficha desplegable **Líneas** . Para obtener más información acerca de cómo dividir líneas, consulte[Dividir las líneas de actividad de almacén](warehouse-how-to-split-warehouse-activity-lines.md).  
-4. Cuando haya realizado la ubicación, elija la acción **Registrar** .  
+    Si es necesario colocar los productos para otra línea en varias ubicaciones porque la ubicación designada está completa, por ejemplo, utilice la función **Dividir línea** en la ficha desplegable **Líneas**. Para obtener más información acerca de cómo dividir líneas, consulte[Dividir las líneas de actividad de almacén](warehouse-how-to-split-warehouse-activity-lines.md).  
+4. Cuando haya realizado la ubicación, elija la acción **Registrar**.  
 
 El proceso de registro contabilizará la recepción, o para las órdenes de producción, la salida, de las líneas del documento de origen que se han ubicado y, si la ubicación utiliza ubicaciones, el registro también creará movimientos de almacén para registrar los cambios de cantidad en la ubicación.
 
@@ -77,4 +77,4 @@ El proceso de registro contabilizará la recepción, o para las órdenes de prod
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

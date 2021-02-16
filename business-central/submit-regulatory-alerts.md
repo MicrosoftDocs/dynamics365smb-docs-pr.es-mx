@@ -8,12 +8,12 @@ ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: da0469ddb00e0c29fc04dc421a21724dc247b80b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4176f79aabba652208f7c0aacb6a000924009451
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912807"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817267"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Enviar alertas sobre las características normativas específicas del país/región
 
@@ -48,10 +48,10 @@ Le invitamos a utilizar Microsoft Dynamics Lifecycle Services (LCS) para enviar 
 
         |Campo        |Description                               |
         |-------------|------------------------------------------|
-        |Título  | Introduzca un título descriptivo para identificar el área de impacto. Por ejemplo, *Cambios en el documento de la factura a partir del 1 de julio de 2019* . |
+        |Título  | Introduzca un título descriptivo para identificar el área de impacto. Por ejemplo, *Cambios en el documento de la factura a partir del 1 de julio de 2019*. |
         |Description  | Introduzca un breve resumen de la ley. La descripción debe centrarse en los problemas que son relevantes para la planificación de recursos empresariales (ERP), de modo que los usuarios puedan comprender los requisitos en su totalidad sin tener que leer la legislación primero.|
         |País  | Especifique el país o región al que se aplica la legislación.|
-        |Industria| Especifique la industria, si el requisito se aplica solo a industrias específicas. Por ejemplo, elija **Sector público** , **Mercadería** o **Fabricación** .|
+        |Industria| Especifique la industria, si el requisito se aplica solo a industrias específicas. Por ejemplo, elija **Sector público**, **Mercadería** o **Fabricación**.|
         |Referencia de la característica  | Esto no es relevante para Dynamics 365 Business Central pero, si conoce alguna, puede introducir una referencia de características. La lista de características para el país específico se puede encontrar en el [Portal de localización](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) en el sitio de CustomerSource. |
         |Fecha de la aplicación de la ley  | Especifique la fecha en que los clientes afectados deben comenzar a cumplir con la ley.|
         |Fecha de anuncio de las administraciones públicas  | Especifique la fecha en la que la autoridad anunció el cambio.|
@@ -60,7 +60,7 @@ Le invitamos a utilizar Microsoft Dynamics Lifecycle Services (LCS) para enviar 
         |Nombre de la empresa  | Introduzca el nombre de la empresa de la persona que envía la alerta.|
         |Nombre de contacto  | Introduzca el nombre de la persona que envía la alerta. |
         |Correo electrónico de contacto  | La dirección de correo electrónico de la persona que envía la alerta.|
-        |Proceso empresarial  | Los procesos empresariales que seleccionó a través del asistente de **Envío de alertas** .|
+        |Proceso empresarial  | Los procesos empresariales que seleccionó a través del asistente de **Envío de alertas**.|
         |Comentarios  | Escriba información adicional que pueda ayudar a los usuarios a entender o implementar el requisito. Haga clic en **Enviar** para guardar su comentario. Se pueden añadir varios comentarios y se deben enviar por separado. Los comentarios se guardan en el orden en el que se añaden. |
         |Deseo ver…  | Haga clic en el botón **Cargar** y luego navegue para seleccionar un archivo para añadir como archivo adjunto. Después de seleccionar el archivo, se carga y aparece como un archivo vinculado. Puede añadir hasta tres archivos que tengan un tamaño de 5 MB cada uno. Para eliminar archivos que se han adjuntado, haga clic en **Eliminar** debajo del título del archivo. Los archivos adjuntos deben ser materiales que estén disponibles públicamente. No pueden ser de propiedad o específicos del cliente o socio.|
 
@@ -74,9 +74,9 @@ Le invitamos a utilizar Microsoft Dynamics Lifecycle Services (LCS) para enviar 
 
 ## <a name="see-also"></a>Consulte también
 
-[Funcionalidad local en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](about-localization.md)  
+[Funcionalidad local en [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Cambiar idioma y región](about-locale-language.md)  
 [Introducción](product-get-started.md)  
 [Bienvenido a Business Central](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

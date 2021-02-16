@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: rfq
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5c4423dba57993c10276de8f20bb74f5ee45169a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cd674e3c5f64889cb77e000fb823bf63a800bdb2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926208"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758253"
 ---
 # <a name="make-sales-quotes"></a>Crear cotizaciones de ventas
 Puede crear una cotización venta para registrar la oferta realizada a un cliente para vender determinados productos según ciertos términos de entrega y pago. Puede enviar la cotización venta al cliente para comunicar la oferta. Puede enviar por correo electrónico el documento como un documento PDF anexo. También puede rellenar previamente el cuerpo del correo electrónico con un resumen de la cotización. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
@@ -27,53 +27,53 @@ Puede rellenar los campos de clientes en la cotización de venta de dos formas e
 
 ## <a name="to-create-a-sales-quote"></a>Para crear una cotización de venta
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cotizaciones venta** y luego elija el enlace relacionado.
-2. En el campo **Cliente** , escriba el nombre de un cliente existente.
+2. En el campo **Cliente**, escriba el nombre de un cliente existente.
 
    Otros campos de la página **Cotización de venta** contienen información estándar del cliente seleccionado. Si el cliente no está registrado, realice los pasos siguientes:
-3. En el campo **Cliente** , escriba el nombre del cliente nuevo.
-4. En el cuadro de diálogo de registro de nuevos clientes, haga clic en el botón **Sí** .
-5. En la página **Seleccionar una plantilla para un cliente nuevo** , seleccione una plantilla en la que se basará la nueva ficha de cliente y, a continuación, haga clic en el botón **Aceptar** .
+3. En el campo **Cliente**, escriba el nombre del cliente nuevo.
+4. En el cuadro de diálogo de registro de nuevos clientes, haga clic en el botón **Sí**.
+5. En la página **Seleccionar una plantilla para un cliente nuevo**, seleccione una plantilla en la que se basará la nueva ficha de cliente y, a continuación, haga clic en el botón **Aceptar**.
 6. Una nueva ficha de cliente muestra la información sobre la plantilla de cliente seleccionada. Rellene el resto de campos. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).  
-7. Cuando haya completado la ficha de cliente, haga clic en el botón **Aceptar** para volver a la página **Cotización venta** .
+7. Cuando haya completado la ficha de cliente, haga clic en el botón **Aceptar** para volver a la página **Cotización venta**.
 
    Muchos campos de la cotización venta se rellenan con la información especificada en la nueva ficha cliente.  
 8. Rellene los campos en la página **Cotización venta** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Ahora podrá rellenar las líneas de la factura de pedido de los productos que vende al cliente o para cualquier transacción con el cliente que desee registrar en una cuenta de contabilidad.   
 
-    Si ha configurado líneas de venta periódicas para el cliente, por ejemplo, una orden de reabastecimiento mensual, puede insertar estas líneas en la orden al elegir la acción **Obtener líneas de venta periódicas** .  
+    Si ha configurado líneas de venta periódicas para el cliente, por ejemplo, una orden de reabastecimiento mensual, puede insertar estas líneas en la orden al elegir la acción **Obtener líneas de venta periódicas**.  
 
-9. En la ficha desplegable **Líneas** del campo **Tipo** , seleccione qué tipo de producto, cargo o transacción registrará para el cliente en la línea de venta.
-10. En el campo **N.º** , seleccione un registro para registrar según el valor del campo **Tipo** .
+9. En la ficha desplegable **Líneas** del campo **Tipo**, seleccione qué tipo de producto, cargo o transacción registrará para el cliente en la línea de venta.
+10. En el campo **N.º**, seleccione un registro para registrar según el valor del campo **Tipo**.
 
     Deje el campo **N.º** vacío en los casos siguientes:
-    - Si la línea es de un comentario. Escriba el comentario en el campo **Descripción** .
-    - Si la línea es de un producto del catálogo. Elija la acción **Seleccionar artículos del catálogo** . Para obtener más información, consulte [Trabajar con productos del catálogo](inventory-how-work-nonstock-items.md).
+    - Si la línea es de un comentario. Escriba el comentario en el campo **Descripción**.
+    - Si la línea es de un producto del catálogo. Elija la acción **Seleccionar artículos del catálogo**. Para obtener más información, consulte [Trabajar con productos del catálogo](inventory-how-work-nonstock-items.md).
 
-11. En el campo **Cantidad** , especifique cuántas unidades de producto, cargo o transacción registrará la línea para el cliente.
+11. En el campo **Cantidad**, especifique cuántas unidades de producto, cargo o transacción registrará la línea para el cliente.
 
     > [!NOTE]  
-    >  Si el producto es de tipo **Servicio** o el campo **Tipo** contiene **Recurso** , la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea. Para obtener más información, vea [Configurar unidades de medida de producto](inventory-how-setup-units-of-measure.md)
+    >  Si el producto es de tipo **Servicio** o el campo **Tipo** contiene **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea. Para obtener más información, vea [Configurar unidades de medida de producto](inventory-how-setup-units-of-measure.md)
 
-    El valor del campo **Importe línea** se calculará como *Precio venta* x *Cantidad* .  
+    El valor del campo **Importe línea** se calculará como *Precio venta* x *Cantidad*.  
 
     El precio y el importe de las líneas tienen IVA o no, dependiendo de qué seleccione en el campo **Precios incluyendo IVA** en la ficha del cliente.  
-12. Si desea ofrecer un descuento, introduzca un porcentaje en el campo **% Descuento línea** . El valor del campo **Importe de línea** se actualiza según corresponde.  
+12. Si desea ofrecer un descuento, introduzca un porcentaje en el campo **% Descuento línea**. El valor del campo **Importe de línea** se actualiza según corresponde.  
 
     Si hay configurados precios de producto especiales en la ficha desplegable **Precios venta y descuentos línea ventas** en la ficha del producto o en la del cliente, el precio y el importe de la línea de venta se actualizan automáticamente si se cumplen los criterios acordados para el precio. Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).  
 13. Repita los pasos 9 a 12 para cada producto que desee ofertar al cliente.
 
     Los totales por debajo de las líneas se calculan automáticamente cuando se crean o modifican las líneas.  
-14. En el campo **Importe descuento factura** , especifique un importe que se debe descontar del valor que aparece en el campo **Total impuesto incl.** en la parte inferior de la factura.
+14. En el campo **Importe descuento factura**, especifique un importe que se debe descontar del valor que aparece en el campo **Total impuesto incl.** en la parte inferior de la factura.
 
     Si ha configurado descuentos en factura para el cliente, el valor porcentual especificado se inserta automáticamente en el campo **% descuento en factura** si se cumplen los criterios, y el importe relacionado se inserta en el campo **Descuento en factura excluyendo impuesto** . Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
 
     > [!TIP]
-    > Para que la **Cotización válida hasta fecha** se complete automáticamente con un número determinado de días después de la creación de la cotización, puede completar el campo **Cálculo de validez de la cotización** en la página **Ventas y cobros** .
+    > Para que la **Cotización válida hasta fecha** se complete automáticamente con un número determinado de días después de la creación de la cotización, puede completar el campo **Cálculo de validez de la cotización** en la página **Ventas y cobros**.
 
-15. Cuando las líneas de la oferta de venta ya estén completas, seleccione la acción **Enviar por correo electrónico** .
-16. En la página **Enviar correo electrónico** , rellene los campos restantes y revise la cotización de venta incluida. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
-17. Si el cliente acepta la cotización, seleccione la acción **Generar factura** o **Realizar orden** .
+15. Cuando las líneas de la oferta de venta ya estén completas, seleccione la acción **Enviar por correo electrónico**.
+16. En la página **Enviar correo electrónico**, rellene los campos restantes y revise la cotización de venta incluida. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
+17. Si el cliente acepta la cotización, seleccione la acción **Generar factura** o **Realizar orden**.
 
 La cotización venta se quita de la base de datos. Una factura de venta o una orden de venta se crea a partir de la información de la cotización venta en la que puede procesar la venta. En el campo **Nº cotización** de la factura de venta o pedido de venta, se muestra el número de la cotización de venta a partir de la que se creó. Para obtener más información, consulte [Facturar ventas](sales-how-invoice-sales.md) o [Vender productos](sales-how-sell-products.md).
 
@@ -81,4 +81,4 @@ La cotización venta se quita de la base de datos. Una factura de venta o una or
 [Ccial](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

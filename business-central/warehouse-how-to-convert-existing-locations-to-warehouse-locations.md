@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6f8b27c4b0abc4221bd081df8474876577e476e6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2a8bb0fe974ac13cdff2cd65fbd5b8428208e0bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911877"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756303"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Convertir los almacenes existentes en ubicaciones de almacén
 Puede activar una ubicación de inventario existente para utilizar zonas y ubicaciones, y para operar como ubicación de almacén.  
@@ -29,13 +29,13 @@ Puede crear zonas y ubicaciones antes o después de la conversión. La única ub
 
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Para activar una ubicación para que funcione como una ubicación de almacén  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Crear un almacén** y luego elija el enlace relacionado.  
-2.  En el campo de **Cód. almacén** , especifique la ubicación que desea activar para el procesamiento de almacén.  
-3.  En el campo de **Cód. ubicación ajuste** , especifique la ubicación en el lugar de almacenamiento en donde se almacenan los movimientos de almacén no sincronizados. Para obtener más información, consulte [Para sincronizar los movimientos ajustados de almacén con los correspondientes movimientos de producto](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
+2.  En el campo de **Cód. almacén**, especifique la ubicación que desea activar para el procesamiento de almacén.  
+3.  En el campo de **Cód. ubicación ajuste**, especifique la ubicación en el lugar de almacenamiento en donde se almacenan los movimientos de almacén no sincronizados. Para obtener más información, consulte [Para sincronizar los movimientos ajustados de almacén con los correspondientes movimientos de producto](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
 
     Mediante los movimientos de producto pendientes para el almacén especificado, se crean líneas de diario de almacén que suman las combinaciones de Nº producto, Cód. variante, Cód. unidad medida y, si es necesario, Nº lote y Nº serie en los movimientos del diario de productos. Entonces, se registrarán las líneas del diario de almacén. Este registro crea movimientos de almacén que colocan el inventario en la ubicación de ajuste de almacén. También se configura el **Cód. ubicación ajuste** en la ficha de almacén.  
 
-4.  Para ver los productos que se han añadido a la ubicación de ajuste durante el proceso, ejecute el informe **Ubic. ajuste alm** .  
-5.  Una vez que se ha completado el trabajo por lotes **Crear un almacén** , debe llevar a cabo y registrar el inventario físico del almacén. Para obtener más información, consulte [Recuento, ajuste y reclasificación de inventario mediante diarios](inventory-how-count-adjust-reclassify.md).  
+4.  Para ver los productos que se han añadido a la ubicación de ajuste durante el proceso, ejecute el informe **Ubic. ajuste alm**.  
+5.  Una vez que se ha completado el trabajo por lotes **Crear un almacén**, debe llevar a cabo y registrar el inventario físico del almacén. Para obtener más información, consulte [Recuento, ajuste y reclasificación de inventario mediante diarios](inventory-how-count-adjust-reclassify.md).  
 
 > [!NOTE]  
 >  Se recomienda que ejecute el proceso **Crear un almacén** en un momento en el que no tenga impacto en el trabajo diario del sistema. Esta tarea procesa todos los movimientos de la tabla **Mov. producto** y si hay un gran número de movimientos de productos, la tarea puede durar varias horas.  
@@ -48,4 +48,4 @@ Puede crear zonas y ubicaciones antes o después de la conversión. La única ub
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -1,21 +1,20 @@
 ---
-title: Trabajar con listas de materiales para administrar componentes | Documentos de Microsoft
+title: Trabajar con listas de materiales para administrar componentes
 description: Se crea una L.M. de ensamblado o una L.M. de producción para especificar los componentes o recursos necesarios para elaborar el producto al que representa la L.M.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: 4aa769c8a2b044f434a9643209eecb97f7f51f13
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5d372c72d70c72f9c809fe6b3a05ed5b5528a8f
+ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919399"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "4838468"
 ---
 # <a name="work-with-bills-of-material"></a>Trabajar con listas de materiales
 Utilice listas de materiales (L.M.) para estructurar los productos principales que se deben montar o producir por los recursos o centros de máquinas de componentes. Una L.M. de ensamblado también se puede utilizar para vender un producto principal como un kit formado por sus componentes.
@@ -40,7 +39,7 @@ Para definir un producto principal que conste de otros productos y, potencialmen
 
 Las L.M. de ensamblado normalmente contienen productos pero también pueden contener uno o varios recursos que son necesarios para combinar el ensamblado.
 
-Las L.M. de ensamblado pueden tener varios niveles, lo que significa que un componente de la L.M. de ensamblado puede ser un producto de ensamblado en sí. En ese caso, el campo **L.M. de ensamblado** en la línea de L.M. de producto contiene **Sí** .
+Las L.M. de ensamblado pueden tener varios niveles, lo que significa que un componente de la L.M. de ensamblado puede ser un producto de ensamblado en sí. En ese caso, el campo **L.M. de ensamblado** en la línea de L.M. de producto contiene **Sí**.
 
 Se aplican requisitos especiales a los productos de la L.M. de ensamblado en lo que respecta a la disponibilidad. Para obtener más información, vea [Para consultar la disponibilidad de un producto por su uso en las L.M. de ensamblado](inventory-how-availability-overview.md#to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms).
 
@@ -51,23 +50,23 @@ Existen dos partes para crear una L.M. de ensamblado:
 1. Configure un producto nuevo. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
     Continúe para introducir los componentes o recursos en la L.M. de ensamblado.  
-2. En la página **Ficha producto** de un producto de ensamblado, elija la acción **Ensamblado** y, a continuación, seleccione la acción **L.M. de ensamblado** .
-3. En la página **L.M. de ensamblado** , rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. En la página **Ficha producto** de un producto de ensamblado, elija la acción **Ensamblado** y, a continuación, seleccione la acción **L.M. de ensamblado**.
+3. En la página **L.M. de ensamblado**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-edit-assembly-boms"></a>Para editar listas de materiales de ensamblado
 Puede editar las líneas en una lista de materiales de ensamblado en cualquier momento. Pero tenga en cuenta que la lista de materiales puede estar en uso en ventas en curso o en ensamblados del elementos principal, que pueden verse afectados por el cambio. Elija la acción **Puntos-de-uso** para ver en qué productos se está utilizando y si los pedidos de venta o ensamblado pueden verse afectados.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
-2. Elija el valor **Sí** valor en la columna **L.M. de ensamblado** .
+2. Elija el valor **Sí** valor en la columna **L.M. de ensamblado**.
 3. En la página **L.M. de ensamblado** elija la acción **Editar lista** y luego cambie cualquier campo según sea necesario.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Para ver los componentes y recursos con sangría según la estructura de la L.M.
 En la página **L.M. de ensamblado** puede abrir una página independiente que muestre que los componentes y cualquier recurso con sangría de acuerdo con la posición de la L.M. debajo del producto de ensamblado.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
-2. Abra la ficha de un producto de ensamblado. (El campo **L.M. de ensamblado** de la página **Productos** contiene **Sí** ).
-3. En la página **Ficha producto** , elija la acción **Ensamblado** y, a continuación, seleccione la acción **L.M. de ensamblado** .
-4. En la página **L.M. de ensamblado** , elija la acción **Mostrar L.M.** .
+2. Abra la ficha de un producto de ensamblado. (El campo **L.M. de ensamblado** de la página **Productos** contiene **Sí**).
+3. En la página **Ficha producto**, elija la acción **Ensamblado** y, a continuación, seleccione la acción **L.M. de ensamblado**.
+4. En la página **L.M. de ensamblado**, elija la acción **Mostrar L.M.**.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Para sustituir el producto de ensamblado por sus componentes en líneas de documento
 Desde cualquier documento de venta y de compra que contenga el producto de ensamblado, puede utilizar una función especial para reemplazar la línea del producto de ensamblado con nuevas líneas para sus componentes. Esta función es útil, por ejemplo, si desea vender componentes como un kit que representa el producto de ensamblado.
@@ -75,7 +74,7 @@ Desde cualquier documento de venta y de compra que contenga el producto de ensam
 La función Desplegar L.M. también está disponible en la página **L.M. de ensamblado** como método para ver elementos secundarios en cualquier subensamblado de una L.M. de ensamblado.
 
 > [!CAUTION]  
->  Cuando haya utilizado la función **Desplegar L.M.** , no puede deshacerla fácilmente. Debe eliminar las líneas de pedido de venta que representan los componentes y después volver a introducir una línea de pedido de venta para el producto de ensamblado.
+>  Cuando haya utilizado la función **Desplegar L.M.**, no puede deshacerla fácilmente. Debe eliminar las líneas de pedido de venta que representan los componentes y después volver a introducir una línea de pedido de venta para el producto de ensamblado.
 
 El procedimiento siguiente se basa en una factura de ventas. Los mismos pasos se aplican a otros documentos de venta y a todos los documentos de compra.
 
@@ -83,23 +82,27 @@ El procedimiento siguiente se basa en una factura de ventas. Los mismos pasos se
 2. Abra una factura de venta que contenga una línea de producto de ensamblado.
 3. Seleccione la línea del producto de ensamblado y, después, la acción de línea **Desplegar L.M.** 
 
-Se vacían todos los campos de la línea de factura de ventas para el producto de ensamblado, salvo los campos **Producto** y **Descripción** . Se insertan las líneas completas de la factura de venta para los componentes y recursos posibles que componen el producto de ensamblado.
+Se vacían todos los campos de la línea de factura de ventas para el producto de ensamblado, salvo los campos **Producto** y **Descripción**. Se insertan las líneas completas de la factura de venta para los componentes y recursos posibles que componen el producto de ensamblado.
 
 > [!NOTE]
 > El informe **Lista de picking por orden** también se cambia para mostrar solo los componentes. Esto significa que un trabajador de almacén que selecciona el artículo principal, el producto de ensamblado, no lo verá en la lista de picking. Para más información, consulte [Imprimir la lista de selección](sales-how-print-picking-list.md).
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Para calcular el costo estándar de un producto de ensamblado
+
 Se calcula el costo unitario de un producto de ensamblado distribuyendo el costo unitario de cada componente y recurso de la L.M. de ensamblado del producto.
 
-También puede calcular y actualizar el costo estándar de uno o varios productos en la página **Hoja trab. costo estándar** . Para obtener más información, consulte [Actualizar costos estándar](finance-how-to-update-standard-costs.md).  
+También puede calcular y actualizar el costo estándar de uno o varios productos en la página **Hoja trab. costo estándar**. Para obtener más información, consulte [Actualizar costos estándar](finance-how-to-update-standard-costs.md).  
 
-El costo unitario de una L.M. de ensamblado equivale siempre al total de los costos unitarios de sus componentes, incluidas las L.M. de otros ensamblados y cualquier recurso.
+El costo unitario de una L.M. de ensamblado equivale siempre al total de los costos unitarios de sus componentes, incluidas las L.M. de otros ensamblados y cualquier recurso.  
 
-1. En la esquina superior derecha, seleccione el icono **Buscar página o informe** , escriba **Productos** y, a continuación, seleccione el enlace relacionado.
-2. Abra la ficha de un producto de ensamblado. (El campo **L.M. de ensamblado** de la página **Productos** contiene **Sí** ).
-3. En la página **Ficha producto** , elija la acción **Ensamblado** y, a continuación, seleccione la acción **L.M. de ensamblado** .
-4. En la página **L.M. de ensamblado** , seleccione la acción **Calc. Costo estándar** .
-5. Seleccione una de las siguientes opciones y haga clic en el botón **Aceptar** .
+> [!NOTE]
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)]
+
+1. En la esquina superior derecha, seleccione el icono **Buscar página o informe**, escriba **Productos** y, a continuación, seleccione el enlace relacionado.
+2. Abra la ficha de un producto de ensamblado. (El campo **L.M. de ensamblado** de la página **Productos** contiene **Sí**).
+3. En la página **Ficha producto**, elija la acción **Ensamblado** y, a continuación, seleccione la acción **L.M. de ensamblado**.
+4. En la página **L.M. de ensamblado**, seleccione la acción **Calc. Costo estándar**.
+5. Seleccione una de las siguientes opciones y haga clic en el botón **Aceptar**.
 
 |Opción |Descripción |
 |-------|------------|
@@ -114,4 +117,4 @@ Los costos de los productos que conforman la L.M. de ensamblado se copian de las
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)     
 [Inventario](inventory-manage-inventory.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
