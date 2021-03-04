@@ -38,3 +38,6 @@ La cotización de compra se quita de la base de datos. Se crea una factura o un 
 [Configurar compras](purchasing-setup-purchasing.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

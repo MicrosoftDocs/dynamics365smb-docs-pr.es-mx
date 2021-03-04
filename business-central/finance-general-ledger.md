@@ -71,3 +71,6 @@ La próxima vez que genere las estructuras de cuentas, su estado de cuenta de sa
 [Finanzas](finance.md)  
 [Configurar o cambiar el plan de cuentas](finance-setup-chart-accounts.md)  
 [Inteligencia empresarial](bi.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -39,3 +39,6 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Gestionar contactos](marketing-contacts.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

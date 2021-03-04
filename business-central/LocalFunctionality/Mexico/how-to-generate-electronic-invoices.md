@@ -38,3 +38,6 @@ En el procedimiento siguiente se describe cómo generar facturas electrónicas p
  [Configurar la facturación electrónica](how-to-set-up-electronic-invoicing.md)   
   [Facturación electrónica](electronic-invoicing.md)  
   [Funcionalidad local de México](mexico-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

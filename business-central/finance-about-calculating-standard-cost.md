@@ -105,3 +105,6 @@ El proceso de actualizar o calcular los costos estándar normalmente consiste en
  [Trabajar con listas de materiales](inventory-how-work-BOMs.md)   
  [Actualizar costos estándar](finance-how-to-update-standard-costs.md)   
  [Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

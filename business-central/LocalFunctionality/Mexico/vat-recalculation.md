@@ -35,3 +35,6 @@ A continuación, se muestra cómo crear un informe sobre importes de IVA no real
  [Crear informes de IVA para las autoridades fiscales](../../finance-how-report-vat.md)   
  [Configurar descuentos por pago de ventas e impuestos ventas no realizados](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
  [Funcionalidad local de México](mexico-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

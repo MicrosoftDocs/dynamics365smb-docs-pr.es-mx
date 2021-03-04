@@ -51,3 +51,6 @@ Este tema define los términos clave que se utilizan en contabilidad de costos.
  [Acerca de la contabilidad de costos](finance-about-cost-accounting.md)   
  [Contabilidad para costos](finance-manage-cost-accounting.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

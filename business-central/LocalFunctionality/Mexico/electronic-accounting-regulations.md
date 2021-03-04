@@ -45,3 +45,6 @@ Para el archivo que contiene transacciones de diario:
 
 ## <a name="see-also"></a>Consulte también
 [Funcionalidad local de México](mexico-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

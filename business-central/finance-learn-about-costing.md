@@ -41,3 +41,6 @@ La administración de costos de inventario hace referencia al registro y la crea
 ## <a name="see-also"></a>Consulte también
 [Administración de costos de inventario](finance-manage-inventory-costs.md)    
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

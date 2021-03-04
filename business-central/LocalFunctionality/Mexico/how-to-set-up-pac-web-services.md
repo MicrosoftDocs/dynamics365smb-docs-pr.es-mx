@@ -51,3 +51,6 @@ Si el PAC ofrece el servicio de cancelación de documentos firmados, debe especi
  [Facturación electrónica](electronic-invoicing.md)   
  [Configurar la facturación electrónica](how-to-set-up-electronic-invoicing.md)  
  [Funcionalidad local de México](mexico-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

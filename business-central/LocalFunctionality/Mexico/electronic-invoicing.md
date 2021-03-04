@@ -76,3 +76,6 @@ El PAC devuelve un documento XML que incluye la cadena original y, también, una
  [Configurar la facturación electrónica](how-to-set-up-electronic-invoicing.md)   
  [Configuración de servicios web PAC](how-to-set-up-pac-web-services.md)   
  [Generar facturas electrónicas](how-to-generate-electronic-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

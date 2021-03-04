@@ -36,3 +36,6 @@ La contabilidad de costos se utiliza para ayudarle a conocer los costos de la di
 [Finanzas](finance.md)  
 [Administración de costos de inventario](finance-manage-inventory-costs.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

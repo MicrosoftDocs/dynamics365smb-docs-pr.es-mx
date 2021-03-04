@@ -99,3 +99,6 @@ Un documento de nota de crédito de servicio se utiliza normalmente cuando un cl
 [Registrar facturas de servicio](service-how-to-post-service-orders.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Registro de servicio](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

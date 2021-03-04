@@ -59,3 +59,6 @@ La razón de esto es que el área de tareas o rol que está actualmente asociado
 [Personalizar páginas para perfiles](ui-personalization-manage.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

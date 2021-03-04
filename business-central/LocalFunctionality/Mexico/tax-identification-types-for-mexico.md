@@ -36,3 +36,6 @@ Al crear un cliente o un proveedor nuevo en [!INCLUDE[prod_short](../../includes
 
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local de México](mexico-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

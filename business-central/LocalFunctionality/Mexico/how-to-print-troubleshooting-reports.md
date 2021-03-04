@@ -26,3 +26,6 @@ ms.locfileid: "3931340"
 [Funcionalidad local de México](mexico-local-functionality.md)  
 [Finanzas](../../finance.md)  
 [Configurar las finanzas](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

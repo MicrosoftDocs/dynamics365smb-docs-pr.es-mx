@@ -46,3 +46,6 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 [Servicio de planificación](service-plan-service.md)  
 [Cumplimiento de contratos de servicio](service-fulfill-service-contracts.md)  
 [Administrar proyectos](projects-manage-projects.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

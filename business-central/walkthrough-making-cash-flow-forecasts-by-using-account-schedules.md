@@ -90,3 +90,6 @@ Ken ahora está preparado para asignar el diseño de columna al nombre de la est
  [Trabajar con estructuras de cuentas](bi-how-work-account-schedule.md)   
  [Tutorial de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

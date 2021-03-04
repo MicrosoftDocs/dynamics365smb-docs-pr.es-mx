@@ -38,3 +38,6 @@ La **Valoración de existencias** en la ficha de producto define cómo se regist
  [Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)   
  [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

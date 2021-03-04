@@ -65,3 +65,6 @@ Cuando trabaje con productos y pedidos de servicio, puede que tenga que registra
 ## <a name="see-also"></a>Consulte también
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Gestión de servicios](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

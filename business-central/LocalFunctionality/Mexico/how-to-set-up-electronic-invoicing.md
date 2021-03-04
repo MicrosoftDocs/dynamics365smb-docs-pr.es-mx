@@ -75,3 +75,6 @@ Finalmente, debe agregar la información sobre sus clientes y proveedores. En la
 [Facturación electrónica](electronic-invoicing.md)  
 [Generar facturas electrónicas](how-to-generate-electronic-invoices.md)  
 [Funcionalidad local de México](mexico-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

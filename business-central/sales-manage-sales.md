@@ -70,3 +70,6 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 [Funciones empresariales generales](ui-across-business-areas.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

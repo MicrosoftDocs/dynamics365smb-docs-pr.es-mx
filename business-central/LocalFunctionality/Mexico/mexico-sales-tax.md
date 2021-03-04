@@ -36,3 +36,6 @@ En México, cuando vende a un cliente en un lugar donde no tiene una *sede* (o u
 [Configurar las finanzas](../../finance.md)  
 [Configurar impuesto de ventas - Vea un video](https://www.youtube.com/watch?v=qMs4BoSytN8&index=13&list=PLcakwueIHoT8K1m148oMqo7amR2a7Bz-8)  
 [Trabajar con [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

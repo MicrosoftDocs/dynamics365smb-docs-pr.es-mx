@@ -27,3 +27,6 @@ ms.locfileid: "3931336"
 [Informes del impuesto sobre las ventas en México](mexico-sales-tax.md)  
 [Finanzas](../../finance.md)  
 [Configurar las finanzas](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

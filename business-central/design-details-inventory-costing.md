@@ -41,3 +41,6 @@ La valuación de inventarios, también conocida como "administración de costos"
 [Detalles de diseño: cuentas de contabilidad](design-details-accounts-in-the-general-ledger.md)  
 [Detalles de diseño: Valuación de Inventarios](design-details-inventory-valuation.md)  
 [Detalles de diseño: Revalorización](design-details-revaluation.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

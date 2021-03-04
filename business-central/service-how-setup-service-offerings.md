@@ -29,3 +29,5 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
   
 ## <a name="see-also"></a>Consulte también  
 [Configurar la gestión de servicios](service-setup-service.md)   
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

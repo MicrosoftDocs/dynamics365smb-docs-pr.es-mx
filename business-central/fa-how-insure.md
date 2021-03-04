@@ -119,3 +119,6 @@ El activo fijo se desvinculará de la póliza de seguros incorrecta, en la segun
 [Configurar activos fijos](fa-setup.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

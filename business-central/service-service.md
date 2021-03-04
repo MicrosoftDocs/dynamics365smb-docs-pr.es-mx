@@ -49,3 +49,6 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 [[!INCLUDE[prod_long](includes/prod_long.md)]](index.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

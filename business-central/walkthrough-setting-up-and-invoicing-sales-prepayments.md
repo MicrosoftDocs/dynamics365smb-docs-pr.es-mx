@@ -219,3 +219,6 @@ La función de anticipos en [!INCLUDE[prod_short](includes/prod_short.md)] facil
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Tutorial de procesos empresariales](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -44,3 +44,6 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 ## <a name="see-also"></a>Consulte también .
 [Gestión de servicios](service-service.md)  
 [Introducción](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Cuando el informe se ejecute sin errores, se le pedirá que guarde el archivo **
 ## <a name="see-also"></a>Consulte también
 [Personalizar [!INCLUDE[prod_short](../../includes/prod_short.md)] con extensiones](../../ui-extensions.md)  
 [Introducción](../../product-get-started.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 [Finanzas](finance.md)  
 [Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

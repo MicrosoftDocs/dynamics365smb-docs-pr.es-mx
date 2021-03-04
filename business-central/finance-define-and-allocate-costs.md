@@ -143,3 +143,6 @@ Este tema muestra un ejemplo de cómo definir asignaciones mediante el método d
  [Contabilidad para costos](finance-manage-cost-accounting.md)   
  [Terminología en contabilidad de costos](finance-terminology-in-cost-accounting.md)   
  [Acerca de la costos de inventario](finance-about-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
