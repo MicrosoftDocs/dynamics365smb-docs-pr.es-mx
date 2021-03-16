@@ -3,19 +3,19 @@ title: Cómo imprimir informes de solución de problemas [MX]
 description: Los informes de solución de problemas están disponibles para asistir a los Microsoft Certified Partners con problemas en la versión mexicana.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 677c55b70d73c0e552206c3faadcdf5227d2f7e1
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: d4276b1ec37665bda2e741e8b180623e3f5b9830
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931340"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382851"
 ---
 # <a name="print-troubleshooting-reports-in-the-mexican-version"></a>Cómo imprimir informes de solución de problemas en la versión mexicana
 

@@ -3,19 +3,19 @@ title: Procedimiento para generar facturas electrónicas
 description: En Business Central, después de registrar una factura de venta, debe generar una factura electrónica que se enviará al cliente. Asimismo, puede exportar dicha factura electrónica como un archivo XML, que puede guardar en una ubicación especificada.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 607dc47e5d0c101ef24e757bcfdc0286599addec
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e6d63f82e04eb7cb4d7a0fcd1545e3c2034243b5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752463"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382853"
 ---
 # <a name="generate-electronic-invoices"></a>Generar facturas electrónicas
 Después de registrar una factura de venta en [!INCLUDE[prod_short](../../includes/prod_short.md)], debe generar una factura electrónica que se enviará al cliente. Asimismo, puede exportar dicha factura electrónica como un archivo XML, que puede guardar en una ubicación especificada.  

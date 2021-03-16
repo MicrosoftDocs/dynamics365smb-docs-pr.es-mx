@@ -3,19 +3,19 @@ title: Procedimiento para configurar la facturación electrónica
 description: Para poder enviar documentos electrónicos, primero debe configurar Business Central para asegurarse de que el número de identificación fiscal (RFC), el número de identificación personal (CURP) y los identificadores de inscripción estatal estén disponibles para la empresa y para todos sus clientes y proveedores.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/06/2020
 ms.author: edupont
-ms.openlocfilehash: 2a8d995eb478de3243145d863b50a9db66d3932a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5827e332ce3683be7f9593fd49dae549f4f3c9c2
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747473"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382849"
 ---
 # <a name="set-up-electronic-invoicing"></a>Configurar la facturación electrónica
 

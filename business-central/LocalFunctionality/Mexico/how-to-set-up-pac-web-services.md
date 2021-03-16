@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1423f6e895986669452e9e96e530a6bb556de193
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d1943f364dff5de86331a977b478ad0e42aafc5a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747471"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382847"
 ---
 # <a name="set-up-pac-web-services"></a>Configuración de servicios web PAC
 Para enviar facturas y notas de crédito de forma electrónica, primero debe especificar uno o varios proveedores del sello electrónico que debe incluirse en las facturas de México.  

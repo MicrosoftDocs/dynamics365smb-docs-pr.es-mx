@@ -3,19 +3,19 @@ title: Factura electrónica
 description: Las empresas mexicanas deben tener la posibilidad de enviar facturas de forma electrónica como archivos de Comprobante Fiscal Digital por Internet (CFDI). Business Central admite CFDI para que pueda exportar facturas de ventas y servicios, y notas de crédito como documentos electrónicos que tienen la firma digital requerida.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 307544aa0e43d265911c31ebf3ce95730564eb7f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 54df27049d3b8e247cfe2b52749d6646c857b480
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747475"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382855"
 ---
 # <a name="electronic-invoicing"></a>Factura electrónica
 Las empresas mexicanas deben tener la posibilidad de enviar facturas de forma electrónica como archivos de Comprobante Fiscal Digital por Internet (CFDI). [!INCLUDE[prod_short](../../includes/prod_short.md)] admite CFDI para que pueda exportar facturas de ventas y servicios, así como notas de crédito con formato de documentos electrónicos que cuenten con la firma digital requerida.  
