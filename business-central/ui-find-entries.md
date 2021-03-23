@@ -3,19 +3,19 @@ title: Encontrar entradas | Microsoft Docs
 description: Este artículo describe cómo encontrar documentos y entradas que están relacionadas
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 870cd32dc2408236ed8997e1f939c00d1bf519e4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 437e0c076b664ad35d5819783e98d9e91abee982
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927792"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393985"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Búsqueda de entradas relacionadas para documentos registrados 
 
@@ -56,7 +56,7 @@ La página **Buscar entradas** incluye todos los documentos relacionados y las e
 
 ## <a name="search-for-entries"></a>Buscar entradas
 
-Puede buscar entradas basándose en información sobre el documento, el contacto comercial o la referencia del producto. Para cambiar la búsqueda, seleccione **Accione** , **Buscar por** y luego una de las siguientes acciones:
+Puede buscar entradas basándose en información sobre el documento, el contacto comercial o la referencia del producto. Para cambiar la búsqueda, seleccione **Accione**, **Buscar por** y luego una de las siguientes acciones:
 
 |Acción|Description|
 |------|-----------|
@@ -64,10 +64,10 @@ Puede buscar entradas basándose en información sobre el documento, el contacto
 |Contacto de negocio |Vea entradas basadas en un tipo de contacto específico, número de contacto, y/o n.º documento externo. Puede introducir información sobre el documento asignado por un proveedor o un cliente. Utilice los campos disponibles para buscar documentos de proveedor mediante el uso de los números que el proveedor ha asignado a los documentos.|
 |Referencia a producto|Ver entradas basadas en un número de serie o número de lote. Puede escribir el número de lote o número de serie, o filtrar en el número de lote o número de serie en el que quiera buscar. Esta acción resulta útil para ver dónde se uso un número de seguimiento de producto concreto, de qué proveedor se obtuvo o a qué cliente se vendió.|
 
-Después de hacer una selección, introduzca la información de búsqueda relevante en los campos de la parte superior. Utilice la información de los campos como ayuda. Cuando haya terminado, elija **Buscar** para iniciar la búsqueda. Si cambia cualquiera de los filtros, deberá volver a elegir **Buscar** .
+Después de hacer una selección, introduzca la información de búsqueda relevante en los campos de la parte superior. Utilice la información de los campos como ayuda. Cuando haya terminado, elija **Buscar** para iniciar la búsqueda. Si cambia cualquiera de los filtros, deberá volver a elegir **Buscar**.
 
 > [!TIP]
-> Para ver un par de ejemplos sobre el uso de **Buscar entradas** , consulte [Seguimiento de productos con seguimiento de productos](inventory-how-to-trace-item-tracked-items.md) y [Tutorial: seguimiento de números de lote de serie](walkthrough-tracing-serial-lot-numbers.md).
+> Para ver un par de ejemplos sobre el uso de **Buscar entradas**, consulte [Seguimiento de productos con seguimiento de productos](inventory-how-to-trace-item-tracked-items.md) y [Tutorial: seguimiento de números de lote de serie](walkthrough-tracing-serial-lot-numbers.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

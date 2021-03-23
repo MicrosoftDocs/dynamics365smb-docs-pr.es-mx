@@ -1,24 +1,24 @@
 ---
 title: Eliminar flujos de trabajo | Documentos de Microsoft
-description: Si está seguro que un flujo de trabajo ya no se utiliza más, puede eliminarlo. Todas las instancias de paso de flujo de trabajo definidas en el flujo de trabajo deben tener el estado **Completado** .
+description: Si está seguro que un flujo de trabajo ya no se utiliza más, puede eliminarlo. Todas las instancias de paso de flujo de trabajo definidas en el flujo de trabajo deben tener el estado **Completado**.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d9b1990e1379b958aaa3723b4e5a984d066d0b2e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e665eaa03f52083b8e68424ec64468194a10f2cf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915846"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384485"
 ---
 # <a name="delete-workflows"></a>Eliminar flujos de trabajo
-Si está seguro que un flujo de trabajo ya no se utiliza más, puede eliminarlo. Todas las instancias de paso de flujo de trabajo definidas en el flujo de trabajo deben tener el estado **Completado** .  
+Si está seguro que un flujo de trabajo ya no se utiliza más, puede eliminarlo. Todas las instancias de paso de flujo de trabajo definidas en el flujo de trabajo deben tener el estado **Completado**.  
 
 > [!CAUTION]  
 >  Cuando elimine un flujo de trabajo, toda la información del flujo de trabajo se perderá.  
@@ -28,9 +28,9 @@ Si está seguro que un flujo de trabajo ya no se utiliza más, puede eliminarlo.
 ## <a name="to-delete-a-workflow"></a>Para eliminar un flujo de trabajo  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
 2.  Seleccione el flujo de trabajo que desea borrar.  
-3.  Elija la acción **Eliminar** .  
+3.  Elija la acción **Eliminar**.  
 4.  También puede abrir el flujo de trabajo que desea borrar.  
-5.  En la página **Copiar flujo de trabajo** , elija la acción **Eliminar** .  
+5.  En la página **Copiar flujo de trabajo**, elija la acción **Eliminar**.  
 
 ## <a name="see-also"></a>Consulte también  
  [Crear flujos de trabajo](across-how-to-create-workflows.md)   

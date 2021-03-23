@@ -3,19 +3,19 @@ title: Cómo bloquear productos de venta o de compra
 description: Puede evitar que se use un artículo, por ejemplo, en documentos de compra o venta.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f958600a47daa12a665975d6c41e214fca7cf5ad
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87628f1983e0bafda9119ef3729dbb142c761b1a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914108"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393135"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Bloquear productos de venta o de compra
 Puede bloquear que un producto entre en líneas de documentos de compra y venta, y puede bloquearlo para que no se registre en ninguna transacción. Por ejemplo, esto es útil cuando un artículo tiene un defecto conocido. Si alguien elige un artículo bloqueado en un documento de compra o venta, un mensaje le informará de que el artículo está bloqueado.
@@ -35,15 +35,15 @@ Cuando usa la función **Copiar de documento** para crear nuevos documentos basa
 
 ## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>Para bloquear que un producto se introduzca en líneas de venta  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
-2.  Seleccione el producto que desea bloquear y, a continuación, marque la casilla **Venta bloqueada** .  
+2.  Seleccione el producto que desea bloquear y, a continuación, marque la casilla **Venta bloqueada**.  
 
 ## <a name="to-block-an-item-from-being-entered-on-purchase-lines"></a>Para bloquear que un producto se introduzca en líneas de compra  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
-2.  Seleccione el producto que desea bloquear y, a continuación, marque la casilla **Compra bloqueada** .  
+2.  Seleccione el producto que desea bloquear y, a continuación, marque la casilla **Compra bloqueada**.  
 
 ## <a name="to-block-an-item-from-being-posted"></a>Para bloquear que se registre un producto
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
-2. Seleccione el producto que desea bloquear y, a continuación, marque la casilla **Bloqueado** .
+2. Seleccione el producto que desea bloquear y, a continuación, marque la casilla **Bloqueado**.
 
 ## <a name="see-also"></a>Consulte también  
 [Registro de productos nuevos](inventory-how-register-new-items.md)  

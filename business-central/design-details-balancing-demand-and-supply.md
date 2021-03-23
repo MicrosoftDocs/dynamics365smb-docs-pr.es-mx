@@ -3,19 +3,19 @@ title: 'Detalles de diseño: Equilibrado de aprovisionamiento y demanda | Docume
 description: Para saber cómo funciona el sistema de planificación, es necesario conocer los objetivos con prioridad del sistema de planificación, los más importantes de los cuales son asegurarse de que las demandas se satisfagan con suficiente suministro y de que los suministros tengan un propósito.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 30c78ba04d58a2e2c2227ec638724c85cb1236c7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f8f09c843397c7b3fa0a24bc90f5799a157fa883
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917562"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388735"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Detalles de diseño: Equilibrio de aprovisionamiento y demanda
 Para saber cómo funciona el sistema de planificación, es necesario conocer los objetivos con prioridad del sistema de planificación, los más importantes de los cuales son asegurarse de que:  
@@ -99,7 +99,7 @@ Durante el proceso de equilibrado, el sistema de planificación tiene en cuenta 
 
 Otra razón por la que el aprovisionamiento de números de serie y de lote no es flexible es que los números de serie y de lote generalmente se asignan tan tarde en el proceso que resultaría confuso si se sugirieran cambios.  
 
-La contrapartida de números de serie o de lote no respeta la *zona congelada* . Si la demanda y el aprovisionamiento no se sincroniza, el sistema de planificación sugerirá cambios o sugerirá nuevos pedidos, independientemente de la fecha de inicio de la planificación.  
+La contrapartida de números de serie o de lote no respeta la *zona congelada*. Si la demanda y el aprovisionamiento no se sincroniza, el sistema de planificación sugerirá cambios o sugerirá nuevos pedidos, independientemente de la fecha de inicio de la planificación.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>Las conexiones de pedido contra pedido nunca se rompen  
 Al planificar un producto de pedido contra pedido, el suministro vinculado no se debe usar para ninguna otra demanda que para la que se ha pensado originalmente. La demanda vinculada no se debe cubrir con otro suministro aleatorio, incluso si, en la situación actual, está disponible en cuanto a tiempo y a cantidad. Por ejemplo, no se podrá utilizar para cubrir otra demanda un pedido de ensamblado vinculado a un pedido de venta en un caso de ensamblado para pedido.  
@@ -209,7 +209,7 @@ Si el usuario desea excluir una orden de suministro existente de las sugerencias
 
 En general, todo el aprovisionamiento tiene una flexibilidad de planificación limitada por las condiciones de cada una de las acciones sugeridas.  
 
--   **Reprogramar fuera** : fecha de una orden de suministro existente que se puede excluir de la programación para cumplir la fecha de vencimiento de demanda a menos que:  
+-   **Reprogramar fuera**: fecha de una orden de suministro existente que se puede excluir de la programación para cumplir la fecha de vencimiento de demanda a menos que:  
 
     -   Representa el inventario (siempre en el día cero).  
     -   Tiene una directiva pedido a pedido vinculada a otra demanda.  
@@ -219,7 +219,7 @@ En general, todo el aprovisionamiento tiene una flexibilidad de planificación l
     -   El orden de suministro ya se ha vinculado a otra demanda en una fecha anterior.  
     -   La reprogramación necesaria es tan mínima que el usuario la considera insignificante.  
 
--   **Reprogramar dentro** : fecha de una orden de suministro existente que se puede incluir en la programación, excepto con las condiciones siguientes:  
+-   **Reprogramar dentro**: fecha de una orden de suministro existente que se puede incluir en la programación, excepto con las condiciones siguientes:  
 
     -   Está vinculada directamente a otra demanda.  
     -   Se encuentra fuera de la página de reprogramación definida por el ciclo.  
@@ -227,18 +227,18 @@ En general, todo el aprovisionamiento tiene una flexibilidad de planificación l
 > [!NOTE]  
 >  Al planificar un producto con un punto de reorden, siempre se puede programar la orden de suministro si es necesario. Esto es habitual en las órdenes de suministro con programación anticipada que se activan mediante un punto de reorden.  
 
--   **Aumentar cantidad** : la cantidad de una orden de suministro existente se puede aumentar para satisfacer la demanda, a menos que las órdenes de suministro estén conectadas directamente con una demanda por un vínculo de orden a orden.  
+-   **Aumentar cantidad**: la cantidad de una orden de suministro existente se puede aumentar para satisfacer la demanda, a menos que las órdenes de suministro estén conectadas directamente con una demanda por un vínculo de orden a orden.  
 
 > [!NOTE]  
 >  Aunque es posible aumentar la orden de suministro, puede quedar limitado por una cantidad máxima de orden definida.  
 
--   **Disminución de cantidad** : las órdenes de suministro existentes con excedente en comparación con una demanda existente se pueden disminuir para satisfacer la demanda.  
+-   **Disminución de cantidad**: las órdenes de suministro existentes con excedente en comparación con una demanda existente se pueden disminuir para satisfacer la demanda.  
 
 > [!NOTE]  
 >  Aunque la cantidad se podría disminuir, pueden quedar excedentes en comparación con la demanda porque haya una cantidad mínima de pedido definida o un múltiplo de pedido.  
 
--   **Cancelar** : como incidente especial de la acción de disminución de cantidad, la orden de suministro podría cancelarse si se ha reducido a cero.  
--   **Nuevo** : si no existe ningún orden de suministro, o no se puede cambiar uno existente para satisfacer la cantidad necesaria en la fecha de vencimiento solicitada, se sugiere un nuevo orden de suministro.  
+-   **Cancelar**: como incidente especial de la acción de disminución de cantidad, la orden de suministro podría cancelarse si se ha reducido a cero.  
+-   **Nuevo**: si no existe ningún orden de suministro, o no se puede cambiar uno existente para satisfacer la cantidad necesaria en la fecha de vencimiento solicitada, se sugiere un nuevo orden de suministro.  
 
 ### <a name="determining-the-supply-quantity"></a>Configuración de la cantidad de aprovisionamiento  
 Los parámetros de planificación definidos por el usuario controlan la cantidad sugerida de cada orden de suministro.  

@@ -3,19 +3,19 @@ title: Configurar clientes de efectivo | Documentos de Microsoft
 description: En este tema se describen los pasos para configurar al cliente que paga en efectivo.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a4f73de177129f5bc33808e6acf74bd273ae0d33
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 385a4906f36354a1b8c82f8b0a4232e3a1d35208
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915571"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387310"
 ---
 # <a name="set-up-cash-customers"></a>Configurar clientes de efectivo
 No se puede crear una factura sin un número de cliente. Esto es válido, incluso si realiza una venta en efectivo y no tiene nada que registrar en una cuenta de cliente.  
@@ -23,9 +23,9 @@ No se puede crear una factura sin un número de cliente. Esto es válido, inclus
 ## <a name="to-set-up-a-cash-customer"></a>Para configurar un cliente de efectivo  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cliente** y luego elija el enlace relacionado.  
 2.  Cree una ficha **Cliente** nueva. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).
-3.  En el campo **N.º** , introduzca, por ejemplo, **Efectivo** .  
-4.  En el campo **Nombre** , escriba **Venta en efectivo** .  
-5.  En la ficha desplegable **Facturación** , rellene los campos **Grupo contable cliente** y **Grupo contable negocio** .  
+3.  En el campo **N.º**, introduzca, por ejemplo, **Efectivo**.  
+4.  En el campo **Nombre**, escriba **Venta en efectivo**.  
+5.  En la ficha desplegable **Facturación**, rellene los campos **Grupo contable cliente** y **Grupo contable negocio**.  
 
  Ya ha configurado un cliente que contiene suficiente información para facturarle.  
 

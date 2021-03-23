@@ -3,19 +3,19 @@ title: 'Detalles de diseño: Seguimiento de productos y reservas | Documentos de
 description: Este tema habla del seguimiento y reservas de producto y describe los conceptos detrás de ambos.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb79b0538f4f55b2841815c23c4446d7c6278fb1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2883ed1176f20cca289cb68d4f3839f8099c874f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922103"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380263"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Detalles de diseño: Seguimiento de productos y reservas
 
@@ -33,7 +33,7 @@ La reserva de números de seguimiento de productos se divide en dos categorías,
 |Reservas|Descripción|  
 |-----------------|---------------------------------------|  
 |Específico|Seleccione un determinado número de serie o de lote cuando reserve el producto de inventario de una demanda, como, por ejemplo, un pedido de venta.<br /><br /> Esta es una reserva habitual. Es un vínculo rígido entre aprovisionamiento y demanda, en el que ambos incluyen números de serie o de lote. **Nota:** La demanda incluye números de serie o de lote. <br /><br /> Por ejemplo, desea reservar una lata de pintura azul del lote A, porque el cliente así lo quiere. Se envía al cliente una lata de pintura azul del lote A.|  
-|No específico|No seleccione un determinado número de serie o de lote cuando reserve el producto de inventario de una demanda, como, por ejemplo, un pedido de venta.<br /><br /> Es un estado que se impone en un movimiento de reserva para los números de serie o de lote que no se han seleccionado específicamente. **Nota** : La demanda no incluye números de serie o de lote. <br /><br /> Por ejemplo, desea reservar una lata de pintura azul de cualquier lote para su pedido de venta. Se envía al cliente una lata de pintura azul de un número de serie o de lote aleatorio.|  
+|No específico|No seleccione un determinado número de serie o de lote cuando reserve el producto de inventario de una demanda, como, por ejemplo, un pedido de venta.<br /><br /> Es un estado que se impone en un movimiento de reserva para los números de serie o de lote que no se han seleccionado específicamente. **Nota**: La demanda no incluye números de serie o de lote. <br /><br /> Por ejemplo, desea reservar una lata de pintura azul de cualquier lote para su pedido de venta. Se envía al cliente una lata de pintura azul de un número de serie o de lote aleatorio.|  
   
 La diferencia principal entre reserva específica y no específica se define por la existencia de números de serie o de lote en la demanda, tal como se muestra en la tabla siguiente.  
 
@@ -45,12 +45,12 @@ La diferencia principal entre reserva específica y no específica se define por
 Cuando se reservan cantidades de inventario de una línea de documento de salida para un producto que tenga asignados números de seguimiento de producto y se haya configurado para el seguimiento de producto específico, la página **Reservas** le guiará por distintos flujos de trabajo según la necesidad de números de serie o de lote.  
   
 ## <a name="specific-reservation"></a>Reserva específica  
-Cuando elige **Reservar** en la línea de documento de salida, aparece un cuadro de diálogo en el que se le pregunta si desea reservar determinados números de serie o de lote. Si elige **Sí** , se muestra una lista con todos los números de serie o de lote asignados a la línea del documento. La página **Reservas** se abre después de seleccionar uno de los números de serie o de lote, y, a continuación, puede efectuar la reserva en los números de serie o de lote de la forma habitual.  
+Cuando elige **Reservar** en la línea de documento de salida, aparece un cuadro de diálogo en el que se le pregunta si desea reservar determinados números de serie o de lote. Si elige **Sí**, se muestra una lista con todos los números de serie o de lote asignados a la línea del documento. La página **Reservas** se abre después de seleccionar uno de los números de serie o de lote, y, a continuación, puede efectuar la reserva en los números de serie o de lote de la forma habitual.  
   
 Si algunos de los números específicos de seguimiento de productos que intenta reservar están en reservas no específicas, un mensaje en la parte inferior de la página **Reservas** le indicará qué parte de la cantidad reservada total está en reservas no específicas y si aún están disponibles.  
   
 ## <a name="nonspecific-reservation"></a>Reserva no específica  
-Si elige **Nº** en el cuadro de diálogo que aparece, se abre la página **Reservas** , donde podrá reservar entre todos los números de serie o de lote en el inventario.  
+Si elige **Nº** en el cuadro de diálogo que aparece, se abre la página **Reservas**, donde podrá reservar entre todos los números de serie o de lote en el inventario.  
   
 Dada la estructura del programa de reservas, cuando se coloca una reserva no específica en un producto con seguimiento, el sistema debe seleccionar movimientos de producto específicos con respecto a los cuales realizar la reserva. Dado que los movimientos de producto incluyen los números de seguimiento de producto, el proceso de reserva indirectamente números de serie o de lote específicos, aunque el usuario no lo quiera así específicamente. Para controlar esta situación, el sistema de reservas intenta reorganizar los movimientos de reserva no específicos antes del registro.  
   

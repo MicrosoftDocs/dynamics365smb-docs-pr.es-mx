@@ -3,19 +3,19 @@ title: 'Detalles de diseño: Estructura de registro de seguimiento de productos 
 description: Aprender a usar movimientos de productos como soporte principal de los números de seguimiento de producto.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 697b83fd7e6e2b220b2851d5a1770ed9f74a9bdd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 95e6c596e9a9782aa6f457164310b9d0942332d7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917387"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390910"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Detalles de diseño: Estructura de registro de seguimiento de productos
 Para establecer la correspondencia con la funcionalidad de valuación de inventarios y obtener una solución más simple y robusta, se usan los movimientos de producto como el soporte principal de los números de seguimiento de producto.  
@@ -25,12 +25,12 @@ Los números de seguimiento de producto en las entidades de la red de pedidos y 
 La página **Líns. seguim. prod.** recupera la información de T337 y de los movimientos de producto, y la muestra a través de la tabla temporal **Especificación seguimiento** (T336). T336 también contiene los datos temporales de la página **Líns. seguim. prod.** para las cantidades de seguimiento de producto que se deben facturar.  
   
 ## <a name="one-to-many-relation"></a>Relación de uno a varios  
-La tabla **Relación mov. producto** , que se usa para vincular una línea de documento registrado con sus movimientos de producto relacionados, consta de dos partes principales:  
+La tabla **Relación mov. producto**, que se usa para vincular una línea de documento registrado con sus movimientos de producto relacionados, consta de dos partes principales:  
   
-* Un puntero a la línea de documento registrado, el **Nº línea pedido** . .  
-* Un número de entrada que apunta a un movimiento de producto, el campo **Nº mov. producto** .  
+* Un puntero a la línea de documento registrado, el **Nº línea pedido**. .  
+* Un número de entrada que apunta a un movimiento de producto, el campo **Nº mov. producto**.  
   
-La funcionalidad del campo **Nº mov.** existente, que relaciona un movimiento de producto con una línea de documento registrado, controla la relación uno a uno habitual cuando no hay números de seguimiento de producto en la línea de documento registrada. Si hay números de seguimiento de productos, el campo **Nº mov.** se deja en blanco, y la relación de uno a muchos se gestiona a través de la tabla **Relación mov. producto** . Si la línea de documento registrada lleva números de seguimiento de productos pero hace referencia a un único movimiento de producto, el campo **Nº mov.** administrará la relación, y no se creará ningún registro en la tabla **Relación mov. producto** .  
+La funcionalidad del campo **Nº mov.** existente, que relaciona un movimiento de producto con una línea de documento registrado, controla la relación uno a uno habitual cuando no hay números de seguimiento de producto en la línea de documento registrada. Si hay números de seguimiento de productos, el campo **Nº mov.** se deja en blanco, y la relación de uno a muchos se gestiona a través de la tabla **Relación mov. producto**. Si la línea de documento registrada lleva números de seguimiento de productos pero hace referencia a un único movimiento de producto, el campo **Nº mov.** administrará la relación, y no se creará ningún registro en la tabla **Relación mov. producto**.  
   
 ## <a name="codeunits-80-and-90"></a>Codeunits 80 y 90  
 Para dividir los movimientos de producto durante el registro, el código de codeunit 80 y codeunit 90, se encuentra entre bucles que recorren las variables de registro temporales globales. Este código llama el codeunit 22 con una línea de diario de productos. Estas variables se inicializan cuando hay números de seguimiento de producto para la línea de documento. Para simplificar el código, siempre se usa esta estructura de bucle. Si no hay números de seguimiento para la línea del documento, se insertará un único registro y el bucle se ejecutará solo una vez.  

@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 854970fc2d47110375cf905236df19c90db27e33
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e6a5280cbefaee32d313c638b1a2d691487e4341
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914050"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392210"
 ---
 # <a name="record-interactions-with-contacts"></a>Registrar interacciones con contactos
 La configuración de su aplicación para registrar interacciones consta de tres pasos:
@@ -28,7 +28,7 @@ La configuración de su aplicación para registrar interacciones consta de tres 
 
 ##  <a name="setting-up-interaction-templates"></a>Configurar plantillas de interacción
 Antes de poder crear y registrar interacciones, debe configurar las plantillas de interacción. Al crear interacciones, debe especificar las plantillas en las que se basa. Una plantilla de interacción es un modelo que define las características básicas de una interacción.
-Puede configurar una plantilla de interacción en la página **Plantillas de interacción** .
+Puede configurar una plantilla de interacción en la página **Plantillas de interacción**.
 
 Después de especificar la información de la plantilla de interacción, puede crear un archivo adjunto, por ejemplo un documento de Microsoft Word. Repita estos pasos para configurar todas las plantillas de interacción que desee.  
 
@@ -39,9 +39,9 @@ Hay dos maneras de registrar interacciones:
 * Puede registrar automáticamente interacciones cuando realiza acciones en la aplicación, por ejemplo, cuando imprime una factura o una cotización. Para obtener más información, vea [Registro automático de interacciones con contactos](marketing-auto-record-interactions.md)
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Ver y administrar las interacciones registradas
-Puede ver todas las interacciones archivadas que no han sido borrados en la página **Movs. log. interacción** . Puede abrir esta página por:
+Puede ver todas las interacciones archivadas que no han sido borrados en la página **Movs. log. interacción**. Puede abrir esta página por:
 
-* Mediante el icono **Buscar por página o informe** para buscar en **Movs. log. interacción** .
+* Mediante el icono **Buscar por página o informe** para buscar en **Movs. log. interacción**.
 * Seleccionar la acción **Movs. log. interacción** en un contacto o segmento.
   La página **Movs. log. interacción** contiene las interacciones que ha creado manualmente y las interacciones que la aplicación ha registrado automáticamente.
 

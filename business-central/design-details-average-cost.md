@@ -3,19 +3,19 @@ title: 'Detalles de diseño: Costo promedio | Documentos de Microsoft'
 description: El costo promedio de un producto se calcula con una media ponderada periódica, en función del periodo de costo promedio que esté configurado en Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6a716b25f3dfb25d2011fd12ed388fed5e1e98f9
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 70b0f4c5a858b73cb0f872bb1bfb92ebc56ded42
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751841"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380717"
 ---
 # <a name="design-details-average-cost"></a>Detalles de diseño: Costo promedio
 El costo promedio de un producto se calcula con un promedio ponderado periódico, en función del periodo de costo promedio que esté configurado en [!INCLUDE[prod_short](includes/prod_short.md)].  

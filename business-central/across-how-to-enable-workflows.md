@@ -3,19 +3,19 @@ title: Habilitar flujos de trabajo | Documentos de Microsoft
 description: Una vez que haya creado un flujo de trabajo y esté seguro de que está preparado para empezar, debe activar el flujo de trabajo.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b04f9edd37c96efb9ee6b215d85335c743de6214
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 802cd2a07a45e459070d821e1a8aab2688d926f2
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916329"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384460"
 ---
 # <a name="enable-workflows"></a>Activar flujos de trabajo
 Una vez que haya creado un flujo de trabajo y esté seguro de que está preparado para empezar, debe activar el flujo de trabajo.  
@@ -25,7 +25,7 @@ Una vez que haya creado un flujo de trabajo y esté seguro de que está preparad
 ## <a name="to-enable-a-workflow"></a>Para activar un flujo de trabajo  
 1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
 2.  Abra el flujo de trabajo que quiera activar.  
-3.  En la página **Flujo de trabajo** , seleccione la casilla **Habilitado** .  
+3.  En la página **Flujo de trabajo**, seleccione la casilla **Habilitado**.  
 
 ## <a name="see-also"></a>Consulte también  
  [Crear flujos de trabajo](across-how-to-create-workflows.md)   
