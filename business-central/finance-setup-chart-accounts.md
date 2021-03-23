@@ -3,48 +3,51 @@ title: Configurar un Catálogo de cuentas
 description: Puede cambiar las cuentas predeterminadas en el catálogo de cuentas (COA) y puede agregar nuevas cuentas.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b20c4680393fa13b260beca366c7e4ba04abb291
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f14859a641ddf6368a213f396a111a3423f49c4a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750391"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377123"
 ---
-# <a name="setting-up-or-changing-the-chart-of-accounts"></a><span data-ttu-id="af5fd-103">Configurar o cambiar el catálogo de cuentas</span><span class="sxs-lookup"><span data-stu-id="af5fd-103">Setting Up or Changing the Chart of Accounts</span></span>
-<span data-ttu-id="af5fd-104">El catálogo de cuentas muestra las cuentas de contabilidad que almacenan sus datos financieros.</span><span class="sxs-lookup"><span data-stu-id="af5fd-104">The chart of accounts shows the ledger accounts that store your financial data.</span></span> [!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="af5fd-105">incluye un gráfico estándar de cuentas que está preparado para respaldar su negocio.</span><span class="sxs-lookup"><span data-stu-id="af5fd-105">includes a standard chart of accounts that is ready to support your business.</span></span>
-<span data-ttu-id="af5fd-106">Sin embargo, puede cambiar las cuentas predeterminadas y puede agregar nuevas cuentas.</span><span class="sxs-lookup"><span data-stu-id="af5fd-106">However, you can change the default accounts, and you can add new accounts.</span></span>
+# <a name="setting-up-or-changing-the-chart-of-accounts"></a><span data-ttu-id="efe3e-103">Configurar o cambiar el catálogo de cuentas</span><span class="sxs-lookup"><span data-stu-id="efe3e-103">Setting Up or Changing the Chart of Accounts</span></span>
+<span data-ttu-id="efe3e-104">El catálogo de cuentas muestra las cuentas de contabilidad que almacenan sus datos financieros.</span><span class="sxs-lookup"><span data-stu-id="efe3e-104">The chart of accounts shows the ledger accounts that store your financial data.</span></span> [!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="efe3e-105">incluye un gráfico estándar de cuentas que está preparado para respaldar su negocio.</span><span class="sxs-lookup"><span data-stu-id="efe3e-105">includes a standard chart of accounts that is ready to support your business.</span></span>
+<span data-ttu-id="efe3e-106">Sin embargo, puede cambiar las cuentas predeterminadas y puede agregar nuevas cuentas.</span><span class="sxs-lookup"><span data-stu-id="efe3e-106">However, you can change the default accounts, and you can add new accounts.</span></span>
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
 
-## <a name="adding-or-changing-accounts"></a><span data-ttu-id="af5fd-107">Agregar o cambiar cuentas</span><span class="sxs-lookup"><span data-stu-id="af5fd-107">Adding or Changing Accounts</span></span>
-<span data-ttu-id="af5fd-108">Desde el catálogo de cuentas, puede abrir cada cuenta de contabilidad y agregar o cambiar opciones.</span><span class="sxs-lookup"><span data-stu-id="af5fd-108">From the chart of accounts, you can open each G/L account and add or change settings.</span></span>
+## <a name="adding-or-changing-accounts"></a><span data-ttu-id="efe3e-107">Agregar o cambiar cuentas</span><span class="sxs-lookup"><span data-stu-id="efe3e-107">Adding or Changing Accounts</span></span>
+<span data-ttu-id="efe3e-108">Desde el catálogo de cuentas, puede abrir cada cuenta de contabilidad y agregar o cambiar opciones.</span><span class="sxs-lookup"><span data-stu-id="efe3e-108">From the chart of accounts, you can open each G/L account and add or change settings.</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="af5fd-109">Puede eliminar una cuenta contable.</span><span class="sxs-lookup"><span data-stu-id="af5fd-109">You can delete a general ledger account.</span></span> <span data-ttu-id="af5fd-110">Sin embargo, antes de eliminarla, deben cumplirse las condiciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="af5fd-110">However, before you delete it, the following must be true:</span></span>  
+>   <span data-ttu-id="efe3e-109">Puede eliminar una cuenta contable.</span><span class="sxs-lookup"><span data-stu-id="efe3e-109">You can delete a general ledger account.</span></span> <span data-ttu-id="efe3e-110">Sin embargo, antes de eliminarla, deben cumplirse las condiciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="efe3e-110">However, before you delete it, the following must be true:</span></span>  
 >  
->   * <span data-ttu-id="af5fd-111">El saldo de la cuenta debe ser cero.</span><span class="sxs-lookup"><span data-stu-id="af5fd-111">The balance on the account must be zero.</span></span>  
->   * <span data-ttu-id="af5fd-112">El campo **Permite borrar ctas. anteriores a** se debe configurar en la página **Configuración de contabilidad** y la cuenta no debe tener movimientos contables en o después de esa fecha.</span><span class="sxs-lookup"><span data-stu-id="af5fd-112">The **Allow G/L Acc. Deletion Before** field must be set on the **General Ledger Setup** page, and the account must not have ledger entries on or after that date.</span></span>  
->   * <span data-ttu-id="af5fd-113">Si se selecciona el campo **Chequear uso ctas. cont.** en la página **Configuración de contabilidad**, la cuenta no se debe usar en grupos contables ni en la configuración de grupos contables.</span><span class="sxs-lookup"><span data-stu-id="af5fd-113">If the **Check G/L Account Usage** field on the **General Ledger Setup** page is selected, then the account must not be used in any posting groups or posting setup.</span></span>  
+>   * <span data-ttu-id="efe3e-111">El saldo de la cuenta debe ser cero.</span><span class="sxs-lookup"><span data-stu-id="efe3e-111">The balance on the account must be zero.</span></span>  
+>   * <span data-ttu-id="efe3e-112">El campo **Permite borrar ctas. anteriores a** se debe configurar en la página **Configuración de contabilidad** y la cuenta no debe tener movimientos contables en o después de esa fecha.</span><span class="sxs-lookup"><span data-stu-id="efe3e-112">The **Allow G/L Acc. Deletion Before** field must be set on the **General Ledger Setup** page, and the account must not have ledger entries on or after that date.</span></span>  
+>   * <span data-ttu-id="efe3e-113">Si se selecciona el campo **Chequear uso ctas. cont.** en la página **Configuración de contabilidad**, la cuenta no se debe usar en grupos contables ni en la configuración de grupos contables.</span><span class="sxs-lookup"><span data-stu-id="efe3e-113">If the **Check G/L Account Usage** field on the **General Ledger Setup** page is selected, then the account must not be used in any posting groups or posting setup.</span></span>  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="af5fd-114">impedirá que elimine una cuenta de contabilidad que guarde los datos que se necesitan en el plan de cuentas.</span><span class="sxs-lookup"><span data-stu-id="af5fd-114">will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.</span></span>  
+[!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="efe3e-114">impedirá que elimine una cuenta de contabilidad que guarde los datos que se necesitan en el plan de cuentas.</span><span class="sxs-lookup"><span data-stu-id="efe3e-114">will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.</span></span>  
 
-## <a name="see-related-training-at-microsoft-learn"></a><span data-ttu-id="af5fd-115">Consulte Formación relacionada en [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)</span><span class="sxs-lookup"><span data-stu-id="af5fd-115">See Related Training at [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)</span></span>
+## <a name="see-related-training-at-microsoft-learn"></a><span data-ttu-id="efe3e-115">Consulte Formación relacionada en [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)</span><span class="sxs-lookup"><span data-stu-id="efe3e-115">See Related Training at [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="af5fd-116">Consulte también</span><span class="sxs-lookup"><span data-stu-id="af5fd-116">See Also</span></span>
-[<span data-ttu-id="af5fd-117">Libro mayor y plan de cuentas</span><span class="sxs-lookup"><span data-stu-id="af5fd-117">The General Ledger and the Chart of Accounts</span></span>](finance-general-ledger.md)  
-[<span data-ttu-id="af5fd-118">Conciliar bancos</span><span class="sxs-lookup"><span data-stu-id="af5fd-118">Reconciling Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
-[<span data-ttu-id="af5fd-119">Trabajar con dimensiones</span><span class="sxs-lookup"><span data-stu-id="af5fd-119">Working with Dimensions</span></span>](finance-dimensions.md)  
-[<span data-ttu-id="af5fd-120">Importar datos de otros sistemas financieros</span><span class="sxs-lookup"><span data-stu-id="af5fd-120">Importing Data from Other Finance Systems</span></span>](across-import-data-configuration-packages.md)  
-[<span data-ttu-id="af5fd-121">Trabajar con estructuras de cuentas</span><span class="sxs-lookup"><span data-stu-id="af5fd-121">Work with Account Schedules</span></span>](bi-how-work-account-schedule.md)  
-<span data-ttu-id="af5fd-122">[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="af5fd-122">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="efe3e-116">Consulte también</span><span class="sxs-lookup"><span data-stu-id="efe3e-116">See Also</span></span>
+[<span data-ttu-id="efe3e-117">Libro mayor y plan de cuentas</span><span class="sxs-lookup"><span data-stu-id="efe3e-117">The General Ledger and the Chart of Accounts</span></span>](finance-general-ledger.md)  
+[<span data-ttu-id="efe3e-118">Conciliar bancos</span><span class="sxs-lookup"><span data-stu-id="efe3e-118">Reconciling Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
+[<span data-ttu-id="efe3e-119">Trabajar con dimensiones</span><span class="sxs-lookup"><span data-stu-id="efe3e-119">Working with Dimensions</span></span>](finance-dimensions.md)  
+[<span data-ttu-id="efe3e-120">Importar datos de otros sistemas financieros</span><span class="sxs-lookup"><span data-stu-id="efe3e-120">Importing Data from Other Finance Systems</span></span>](across-import-data-configuration-packages.md)  
+[<span data-ttu-id="efe3e-121">Trabajar con estructuras de cuentas</span><span class="sxs-lookup"><span data-stu-id="efe3e-121">Work with Account Schedules</span></span>](bi-how-work-account-schedule.md)  
+<span data-ttu-id="efe3e-122">[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="efe3e-122">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

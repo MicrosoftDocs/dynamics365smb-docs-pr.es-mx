@@ -3,47 +3,50 @@ title: Cómo registrar por lotes el resultado y tiempos de ejecución de producc
 description: La cantidad de salida representa el trabajo en curso en términos de cantidad terminada.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 82e28246f1a1c65c7bd702023d9c68c614383cc2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 83354217bac3b27457303083163cf5eae4494e79
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759153"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380467"
 ---
-# <a name="batch-post-output-and-run-times"></a><span data-ttu-id="c3707-103">Registrar por lotes el resultado y los tiempos de ejecución</span><span class="sxs-lookup"><span data-stu-id="c3707-103">Batch Post Output and Run Times</span></span>
-<span data-ttu-id="c3707-104">La cantidad de salida representa el trabajo en curso en términos de cantidad terminada.</span><span class="sxs-lookup"><span data-stu-id="c3707-104">The output quantity represents the work progress in the form of the finished quantity.</span></span>  
+# <a name="batch-post-output-and-run-times"></a><span data-ttu-id="13450-103">Registrar por lotes el resultado y los tiempos de ejecución</span><span class="sxs-lookup"><span data-stu-id="13450-103">Batch Post Output and Run Times</span></span>
+<span data-ttu-id="13450-104">La cantidad de salida representa el trabajo en curso en términos de cantidad terminada.</span><span class="sxs-lookup"><span data-stu-id="13450-104">The output quantity represents the work progress in the form of the finished quantity.</span></span>  
 
 > [!NOTE]
-> <span data-ttu-id="c3707-105">Solo cuando registra la cantidad de salida en la última operación, las existencias se actualizan automáticamente.</span><span class="sxs-lookup"><span data-stu-id="c3707-105">Only when you post output quantity on the last operation, the inventory is updated automatically.</span></span>  
+> <span data-ttu-id="13450-105">Solo cuando registra la cantidad de salida en la última operación, las existencias se actualizan automáticamente.</span><span class="sxs-lookup"><span data-stu-id="13450-105">Only when you post output quantity on the last operation, the inventory is updated automatically.</span></span>  
 
-## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a><span data-ttu-id="c3707-106">Para registrar cantidades de salida en una o varias líneas de la orden de producción</span><span class="sxs-lookup"><span data-stu-id="c3707-106">To post output quantities for one or more production order lines</span></span>
-1. <span data-ttu-id="c3707-107">Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario salida** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="c3707-107">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="c3707-108">Rellene los campos con los datos de las órdenes de producción y los datos de salida.</span><span class="sxs-lookup"><span data-stu-id="c3707-108">Fill in the fields with the production order data and the output data.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. <span data-ttu-id="c3707-109">Si la operación se ha completado, seleccione el campo **Terminado**.</span><span class="sxs-lookup"><span data-stu-id="c3707-109">If the operation has been completed, select the **Finished** field.</span></span>  
+## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a><span data-ttu-id="13450-106">Para registrar cantidades de salida en una o varias líneas de la orden de producción</span><span class="sxs-lookup"><span data-stu-id="13450-106">To post output quantities for one or more production order lines</span></span>
+1. <span data-ttu-id="13450-107">Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario salida** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="13450-107">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="13450-108">Rellene los campos con los datos de las órdenes de producción y los datos de salida.</span><span class="sxs-lookup"><span data-stu-id="13450-108">Fill in the fields with the production order data and the output data.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="13450-109">Si la operación se ha completado, seleccione el campo **Terminado**.</span><span class="sxs-lookup"><span data-stu-id="13450-109">If the operation has been completed, select the **Finished** field.</span></span>  
 
-    <span data-ttu-id="c3707-110">Si el almacén donde se deben ubicar los componentes utiliza ubicaciones, pero no requiere el proceso de ubicación,  asigne un código de ubicación a la línea del diario para especificar dónde se deben colocar los productos en el almacén.</span><span class="sxs-lookup"><span data-stu-id="c3707-110">If the warehouse location where the items should be put away uses bins but does not require put-away processing,  assign a bin code to the journal line to specify where the items should be placed in the warehouse.</span></span> <span data-ttu-id="c3707-111">Para obtener más información, consulte [Sacar producción o salida de ensamblado](warehouse-how-to-put-away-production-output.md).</span><span class="sxs-lookup"><span data-stu-id="c3707-111">For more information, see [Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md).</span></span>  
+    <span data-ttu-id="13450-110">Si el almacén donde se deben ubicar los componentes utiliza ubicaciones, pero no requiere el proceso de ubicación,  asigne un código de ubicación a la línea del diario para especificar dónde se deben colocar los productos en el almacén.</span><span class="sxs-lookup"><span data-stu-id="13450-110">If the warehouse location where the items should be put away uses bins but does not require put-away processing,  assign a bin code to the journal line to specify where the items should be placed in the warehouse.</span></span> <span data-ttu-id="13450-111">Para obtener más información, consulte [Sacar producción o salida de ensamblado](warehouse-how-to-put-away-production-output.md).</span><span class="sxs-lookup"><span data-stu-id="13450-111">For more information, see [Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md).</span></span>  
 
-4. <span data-ttu-id="c3707-112">Para registrar las operaciones, elija la acción **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="c3707-112">Choose the **Post** acto post the operations.</span></span> <span data-ttu-id="c3707-113">Se registrará la cantidad de salida.</span><span class="sxs-lookup"><span data-stu-id="c3707-113">The output quantity will be posted.</span></span> <span data-ttu-id="c3707-114">El producto estará disponible para su envío.</span><span class="sxs-lookup"><span data-stu-id="c3707-114">The item is now available for shipping.</span></span>  
+4. <span data-ttu-id="13450-112">Para registrar las operaciones, elija la acción **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="13450-112">Choose the **Post** acto post the operations.</span></span> <span data-ttu-id="13450-113">Se registrará la cantidad de salida.</span><span class="sxs-lookup"><span data-stu-id="13450-113">The output quantity will be posted.</span></span> <span data-ttu-id="13450-114">El producto estará disponible para su envío.</span><span class="sxs-lookup"><span data-stu-id="13450-114">The item is now available for shipping.</span></span>  
 
-## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a><span data-ttu-id="c3707-115">Para registrar el tiempo de ejecución en una o varias líneas de la orden de producción</span><span class="sxs-lookup"><span data-stu-id="c3707-115">To post run times for one or more production order lines</span></span>
-<span data-ttu-id="c3707-116">El tiempo de ejecución representa el trabajo en curso en términos de tiempo de trabajo necesario.</span><span class="sxs-lookup"><span data-stu-id="c3707-116">The run time represents work progress in the form of the necessary working time.</span></span>    
+## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a><span data-ttu-id="13450-115">Para registrar el tiempo de ejecución en una o varias líneas de la orden de producción</span><span class="sxs-lookup"><span data-stu-id="13450-115">To post run times for one or more production order lines</span></span>
+<span data-ttu-id="13450-116">El tiempo de ejecución representa el trabajo en curso en términos de tiempo de trabajo necesario.</span><span class="sxs-lookup"><span data-stu-id="13450-116">The run time represents work progress in the form of the necessary working time.</span></span>    
 
-1.  <span data-ttu-id="c3707-117">Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario salida** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="c3707-117">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="c3707-118">Rellene los campos con los datos de las órdenes de producción y los datos de salida.</span><span class="sxs-lookup"><span data-stu-id="c3707-118">Fill in the fields with the production order data and the output data.</span></span>  
-3.  <span data-ttu-id="c3707-119">Si la operación se ha completado, seleccione el campo **Terminado**.</span><span class="sxs-lookup"><span data-stu-id="c3707-119">If the operation is completed, select the **Finished** field.</span></span>  
-4. <span data-ttu-id="c3707-120">Seleccione la acción **Registrar** para registrar el tiempo empleado por operación.</span><span class="sxs-lookup"><span data-stu-id="c3707-120">Choose the **Post** action to post the time spent per operation.</span></span> <span data-ttu-id="c3707-121">Los movimientos de capacidad se actualizan en los centros utilizados de trabajo o de máquina.</span><span class="sxs-lookup"><span data-stu-id="c3707-121">Capacity ledger entries are updated for the used work or machine centers.</span></span>
+1.  <span data-ttu-id="13450-117">Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario salida** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="13450-117">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="13450-118">Rellene los campos con los datos de las órdenes de producción y los datos de salida.</span><span class="sxs-lookup"><span data-stu-id="13450-118">Fill in the fields with the production order data and the output data.</span></span>  
+3.  <span data-ttu-id="13450-119">Si la operación se ha completado, seleccione el campo **Terminado**.</span><span class="sxs-lookup"><span data-stu-id="13450-119">If the operation is completed, select the **Finished** field.</span></span>  
+4. <span data-ttu-id="13450-120">Seleccione la acción **Registrar** para registrar el tiempo empleado por operación.</span><span class="sxs-lookup"><span data-stu-id="13450-120">Choose the **Post** action to post the time spent per operation.</span></span> <span data-ttu-id="13450-121">Los movimientos de capacidad se actualizan en los centros utilizados de trabajo o de máquina.</span><span class="sxs-lookup"><span data-stu-id="13450-121">Capacity ledger entries are updated for the used work or machine centers.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c3707-122">Consulte también</span><span class="sxs-lookup"><span data-stu-id="c3707-122">See Also</span></span>  
-<span data-ttu-id="c3707-123">[Fabricación](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="c3707-123">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
-[<span data-ttu-id="c3707-124">Configuración de fabricación</span><span class="sxs-lookup"><span data-stu-id="c3707-124">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-<span data-ttu-id="c3707-125">[Planificación](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="c3707-125">[Planning](production-planning.md)    </span></span>  
-[<span data-ttu-id="c3707-126">Inventario</span><span class="sxs-lookup"><span data-stu-id="c3707-126">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="c3707-127">Compras</span><span class="sxs-lookup"><span data-stu-id="c3707-127">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="c3707-128">[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c3707-128">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="13450-122">Consulte también</span><span class="sxs-lookup"><span data-stu-id="13450-122">See Also</span></span>  
+<span data-ttu-id="13450-123">[Fabricación](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="13450-123">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+[<span data-ttu-id="13450-124">Configuración de fabricación</span><span class="sxs-lookup"><span data-stu-id="13450-124">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+<span data-ttu-id="13450-125">[Planificación](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="13450-125">[Planning](production-planning.md)    </span></span>  
+[<span data-ttu-id="13450-126">Inventario</span><span class="sxs-lookup"><span data-stu-id="13450-126">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="13450-127">Compras</span><span class="sxs-lookup"><span data-stu-id="13450-127">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="13450-128">[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="13450-128">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

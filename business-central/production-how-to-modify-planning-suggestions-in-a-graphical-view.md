@@ -3,23 +3,23 @@ title: Cómo modificar las sugerencias de planificación en una vista gráfica |
 description: Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de cálculo de planificación para modificar las órdenes de suministro sugeridas para poder confirmarlos ejecutando la función Ejecutar mensajes acción. Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d00650a3490cd4995e4c531aca5346c8c0256179
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a17ce72c88ecb9df07169814a50701635239d725
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759278"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381326"
 ---
-# <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="744e4-104">Modificar las sugerencias de planificación en una vista gráfica</span><span class="sxs-lookup"><span data-stu-id="744e4-104">Modify Planning Suggestions in a Graphical View</span></span>
+# <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="da697-104">Modificar las sugerencias de planificación en una vista gráfica</span><span class="sxs-lookup"><span data-stu-id="da697-104">Modify Planning Suggestions in a Graphical View</span></span>
 
-<span data-ttu-id="744e4-105">Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de cálculo de planificación para modificar las órdenes de suministro sugeridas para poder confirmarlos ejecutando la función **Ejecutar mensajes acción**.</span><span class="sxs-lookup"><span data-stu-id="744e4-105">A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function.</span></span> <span data-ttu-id="744e4-106">Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica.</span><span class="sxs-lookup"><span data-stu-id="744e4-106">An alternative to doing this in the planning worksheet is to use a graphical view.</span></span> <span data-ttu-id="744e4-107">Sin embargo, esto no se admite actualmente en [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="744e4-107">However, this is currently not supported in [!INCLUDE[prod_short](includes/prod_short.md)].</span></span>  
+<span data-ttu-id="da697-105">Una actividad típica de planificación consiste en cambiar o añadir líneas de la hoja de cálculo de planificación para modificar las órdenes de suministro sugeridas para poder confirmarlos ejecutando la función **Ejecutar mensajes acción**.</span><span class="sxs-lookup"><span data-stu-id="da697-105">A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function.</span></span> <span data-ttu-id="da697-106">Una alternativa a hacerlo en la hoja de trabajo de planificación es utilizar una vista gráfica.</span><span class="sxs-lookup"><span data-stu-id="da697-106">An alternative to doing this in the planning worksheet is to use a graphical view.</span></span> <span data-ttu-id="da697-107">Sin embargo, esto no se admite actualmente en [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="da697-107">However, this is currently not supported in [!INCLUDE[prod_short](includes/prod_short.md)].</span></span>  
 
 <!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 
@@ -93,13 +93,16 @@ To implement the supply plan changes, you must follow the resulting action messa
  |While moving an element, press Esc.|Cancels the move. **Note:**  Does not work if you have released the mouse button.|
 -->
 
-## <a name="see-also"></a><span data-ttu-id="744e4-108">Consulte también</span><span class="sxs-lookup"><span data-stu-id="744e4-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="da697-108">Consulte también</span><span class="sxs-lookup"><span data-stu-id="da697-108">See Also</span></span>
 
-[<span data-ttu-id="744e4-109">Planificación</span><span class="sxs-lookup"><span data-stu-id="744e4-109">Planning</span></span>](production-planning.md)  
-[<span data-ttu-id="744e4-110">Configuración de fabricación</span><span class="sxs-lookup"><span data-stu-id="744e4-110">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-[<span data-ttu-id="744e4-111">Fabricación</span><span class="sxs-lookup"><span data-stu-id="744e4-111">Manufacturing</span></span>](production-manage-manufacturing.md)  
-[<span data-ttu-id="744e4-112">Grupos contables inventario</span><span class="sxs-lookup"><span data-stu-id="744e4-112">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="744e4-113">Compras</span><span class="sxs-lookup"><span data-stu-id="744e4-113">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-[<span data-ttu-id="744e4-114">Detalles de diseño: Planificación de aprovisionamiento</span><span class="sxs-lookup"><span data-stu-id="744e4-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)  
-[<span data-ttu-id="744e4-115">Procedimientos recomendados de configuración: planificación de suministros</span><span class="sxs-lookup"><span data-stu-id="744e4-115">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
-<span data-ttu-id="744e4-116">[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="744e4-116">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+[<span data-ttu-id="da697-109">Planificación</span><span class="sxs-lookup"><span data-stu-id="da697-109">Planning</span></span>](production-planning.md)  
+[<span data-ttu-id="da697-110">Configuración de fabricación</span><span class="sxs-lookup"><span data-stu-id="da697-110">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+[<span data-ttu-id="da697-111">Fabricación</span><span class="sxs-lookup"><span data-stu-id="da697-111">Manufacturing</span></span>](production-manage-manufacturing.md)  
+[<span data-ttu-id="da697-112">Grupos contables inventario</span><span class="sxs-lookup"><span data-stu-id="da697-112">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="da697-113">Compras</span><span class="sxs-lookup"><span data-stu-id="da697-113">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="da697-114">Detalles de diseño: Planificación de aprovisionamiento</span><span class="sxs-lookup"><span data-stu-id="da697-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)  
+[<span data-ttu-id="da697-115">Procedimientos recomendados de configuración: planificación de suministros</span><span class="sxs-lookup"><span data-stu-id="da697-115">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
+<span data-ttu-id="da697-116">[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="da697-116">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

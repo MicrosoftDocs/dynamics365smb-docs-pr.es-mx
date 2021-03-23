@@ -3,31 +3,34 @@ title: 'Detalles de diseño: Gestión de almacenes | Documentos de Microsoft'
 description: Este tema proporciona un resumen de los conceptos y los principios que se usan en las características de planificación de suministros en Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, supply, planning, reordering, replenishment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ed874c647dd5c3526df38a3c4d6ee43293737786
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 154714e5fff91e4287895b8b447a179063530c10
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751091"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388585"
 ---
-# <a name="design-details-supply-planning"></a><span data-ttu-id="015aa-103">Detalles de diseño: Planificación de aprovisionamiento</span><span class="sxs-lookup"><span data-stu-id="015aa-103">Design Details: Supply Planning</span></span>
-<span data-ttu-id="015aa-104">En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan en las características de planificación de suministros en [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="015aa-104">This documentation provides detailed technical insight to the concepts and principles that are used within the Supply Planning features in [!INCLUDE[prod_short](includes/prod_short.md)].</span></span>  
+# <a name="design-details-supply-planning"></a><span data-ttu-id="35132-103">Detalles de diseño: Planificación de aprovisionamiento</span><span class="sxs-lookup"><span data-stu-id="35132-103">Design Details: Supply Planning</span></span>
+<span data-ttu-id="35132-104">En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan en las características de planificación de suministros en [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="35132-104">This documentation provides detailed technical insight to the concepts and principles that are used within the Supply Planning features in [!INCLUDE[prod_short](includes/prod_short.md)].</span></span>  
 
-<span data-ttu-id="015aa-105">Explica cómo funciona el sistema de planificación y cómo ajustar los algoritmos para cumplir con los requisitos de planificación en distintos entornos.</span><span class="sxs-lookup"><span data-stu-id="015aa-105">It explains how the planning system works and how to adjust the algorithms to meet planning requirements in different environments.</span></span> <span data-ttu-id="015aa-106">Primero introduce los conceptos centrales de la solución y después describe la lógica del mecanismo principal, equilibrado del aprovisionamiento, antes de continuar explicando cómo se realiza la planificación del inventario con el uso de directivas de reorden.</span><span class="sxs-lookup"><span data-stu-id="015aa-106">It first introduces central solution concepts and then describes the logic of the central mechanism, supply balancing, before proceeding to explain how inventory planning is performed with the use of reordering policies.</span></span>  
+<span data-ttu-id="35132-105">Explica cómo funciona el sistema de planificación y cómo ajustar los algoritmos para cumplir con los requisitos de planificación en distintos entornos.</span><span class="sxs-lookup"><span data-stu-id="35132-105">It explains how the planning system works and how to adjust the algorithms to meet planning requirements in different environments.</span></span> <span data-ttu-id="35132-106">Primero introduce los conceptos centrales de la solución y después describe la lógica del mecanismo principal, equilibrado del aprovisionamiento, antes de continuar explicando cómo se realiza la planificación del inventario con el uso de directivas de reorden.</span><span class="sxs-lookup"><span data-stu-id="35132-106">It first introduces central solution concepts and then describes the logic of the central mechanism, supply balancing, before proceeding to explain how inventory planning is performed with the use of reordering policies.</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="015aa-107">En esta sección</span><span class="sxs-lookup"><span data-stu-id="015aa-107">In This Section</span></span>  
-[<span data-ttu-id="015aa-108">Detalles de diseño: Conceptos centrales del sistema de planificación</span><span class="sxs-lookup"><span data-stu-id="015aa-108">Design Details: Central Concepts of the Planning System</span></span>](design-details-central-concepts-of-the-planning-system.md)  
-[<span data-ttu-id="015aa-109">Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones</span><span class="sxs-lookup"><span data-stu-id="015aa-109">Design Details: Reservation, Order Tracking, and Action Messaging</span></span>](design-details-reservation-order-tracking-and-action-messaging.md)  
-[<span data-ttu-id="015aa-110">Detalles de diseño: Equilibrio de aprovisionamiento y demanda</span><span class="sxs-lookup"><span data-stu-id="015aa-110">Design Details: Balancing Demand and Supply</span></span>](design-details-balancing-demand-and-supply.md)  
-[<span data-ttu-id="015aa-111">Detalles de diseño: Gestión de directivas de reorden</span><span class="sxs-lookup"><span data-stu-id="015aa-111">Design Details: Handling Reordering Policies</span></span>](design-details-handling-reordering-policies.md)  
-[<span data-ttu-id="015aa-112">Detalles de diseño: Parámetros de la planificación</span><span class="sxs-lookup"><span data-stu-id="015aa-112">Design Details: Planning Parameters</span></span>](design-details-planning-parameters.md)  
-[<span data-ttu-id="015aa-113">Detalles de diseño: Tabla de asignación de planificación</span><span class="sxs-lookup"><span data-stu-id="015aa-113">Design Details: Planning Assignment Table</span></span>](design-details-planning-assignment-table.md)  
-[<span data-ttu-id="015aa-114">Detalles de diseño: Demanda en almacén vacío</span><span class="sxs-lookup"><span data-stu-id="015aa-114">Design Details: Demand at Blank Location</span></span>](design-details-demand-at-blank-location.md)  
-[<span data-ttu-id="015aa-115">Detalles de diseño: Transferencias en planificación</span><span class="sxs-lookup"><span data-stu-id="015aa-115">Design Details: Transfers in Planning</span></span>](design-details-transfers-in-planning.md)
+## <a name="in-this-section"></a><span data-ttu-id="35132-107">En esta sección</span><span class="sxs-lookup"><span data-stu-id="35132-107">In This Section</span></span>  
+[<span data-ttu-id="35132-108">Detalles de diseño: Conceptos centrales del sistema de planificación</span><span class="sxs-lookup"><span data-stu-id="35132-108">Design Details: Central Concepts of the Planning System</span></span>](design-details-central-concepts-of-the-planning-system.md)  
+[<span data-ttu-id="35132-109">Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones</span><span class="sxs-lookup"><span data-stu-id="35132-109">Design Details: Reservation, Order Tracking, and Action Messaging</span></span>](design-details-reservation-order-tracking-and-action-messaging.md)  
+[<span data-ttu-id="35132-110">Detalles de diseño: Equilibrio de aprovisionamiento y demanda</span><span class="sxs-lookup"><span data-stu-id="35132-110">Design Details: Balancing Demand and Supply</span></span>](design-details-balancing-demand-and-supply.md)  
+[<span data-ttu-id="35132-111">Detalles de diseño: Gestión de directivas de reorden</span><span class="sxs-lookup"><span data-stu-id="35132-111">Design Details: Handling Reordering Policies</span></span>](design-details-handling-reordering-policies.md)  
+[<span data-ttu-id="35132-112">Detalles de diseño: Parámetros de la planificación</span><span class="sxs-lookup"><span data-stu-id="35132-112">Design Details: Planning Parameters</span></span>](design-details-planning-parameters.md)  
+[<span data-ttu-id="35132-113">Detalles de diseño: Tabla de asignación de planificación</span><span class="sxs-lookup"><span data-stu-id="35132-113">Design Details: Planning Assignment Table</span></span>](design-details-planning-assignment-table.md)  
+[<span data-ttu-id="35132-114">Detalles de diseño: Demanda en almacén vacío</span><span class="sxs-lookup"><span data-stu-id="35132-114">Design Details: Demand at Blank Location</span></span>](design-details-demand-at-blank-location.md)  
+[<span data-ttu-id="35132-115">Detalles de diseño: Transferencias en planificación</span><span class="sxs-lookup"><span data-stu-id="35132-115">Design Details: Transfers in Planning</span></span>](design-details-transfers-in-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

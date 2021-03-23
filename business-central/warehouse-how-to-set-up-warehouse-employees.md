@@ -3,35 +3,38 @@ title: Configurar empleados almacén | Documentos de Microsoft
 description: Cada usuario que desarrolla actividades en el almacén debe estar configurado como empleado de almacén asignado a una ubicación predeterminada y otras ubicaciones potenciales no predeterminadas.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7ebb81abd7e16e0c4aaa3f7cd52ab1b6f1a664c3
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a64aad29b9b4214a737cbda81b040b8df66b67d3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755946"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382290"
 ---
-# <a name="set-up-warehouse-employees"></a><span data-ttu-id="b8eaf-103">Configurar los empleados de almacén</span><span class="sxs-lookup"><span data-stu-id="b8eaf-103">Set Up Warehouse Employees</span></span>
-<span data-ttu-id="b8eaf-104">Cada usuario que desarrolla actividades en el almacén debe estar configurado como empleado de almacén asignado a una ubicación predeterminada y otras ubicaciones potenciales no predeterminadas.</span><span class="sxs-lookup"><span data-stu-id="b8eaf-104">Each user who performs warehouse activities must be set up as a warehouse employee assigned to one default location and potentially more non-default locations.</span></span> <span data-ttu-id="b8eaf-105">Esta configuración de usuario filtra todas las actividades del almacén de la base de datos hasta la ubicación del empleado, de modo que éste sólo puede realizar las actividades de almacén de la ubicación predeterminada.</span><span class="sxs-lookup"><span data-stu-id="b8eaf-105">This user setup filters all warehouse activities across the database to the employee's location so that the employee can only perform the warehouse activities at the default location.</span></span> <span data-ttu-id="b8eaf-106">Se puede asignar un usuario a otras ubicaciones no predeterminadas para las que el empleado podrá ver las líneas de la actividad, pero no realizar las actividades.</span><span class="sxs-lookup"><span data-stu-id="b8eaf-106">A user can be assigned to additional non-default locations for which the employee can view activity lines but not perform the activities.</span></span>
+# <a name="set-up-warehouse-employees"></a><span data-ttu-id="6abcd-103">Configurar los empleados de almacén</span><span class="sxs-lookup"><span data-stu-id="6abcd-103">Set Up Warehouse Employees</span></span>
+<span data-ttu-id="6abcd-104">Cada usuario que desarrolla actividades en el almacén debe estar configurado como empleado de almacén asignado a una ubicación predeterminada y otras ubicaciones potenciales no predeterminadas.</span><span class="sxs-lookup"><span data-stu-id="6abcd-104">Each user who performs warehouse activities must be set up as a warehouse employee assigned to one default location and potentially more non-default locations.</span></span> <span data-ttu-id="6abcd-105">Esta configuración de usuario filtra todas las actividades del almacén de la base de datos hasta la ubicación del empleado, de modo que éste sólo puede realizar las actividades de almacén de la ubicación predeterminada.</span><span class="sxs-lookup"><span data-stu-id="6abcd-105">This user setup filters all warehouse activities across the database to the employee's location so that the employee can only perform the warehouse activities at the default location.</span></span> <span data-ttu-id="6abcd-106">Se puede asignar un usuario a otras ubicaciones no predeterminadas para las que el empleado podrá ver las líneas de la actividad, pero no realizar las actividades.</span><span class="sxs-lookup"><span data-stu-id="6abcd-106">A user can be assigned to additional non-default locations for which the employee can view activity lines but not perform the activities.</span></span>
 
-## <a name="to-set-up-warehouse-employees"></a><span data-ttu-id="b8eaf-107">Para configurar los empleados de almacén</span><span class="sxs-lookup"><span data-stu-id="b8eaf-107">To set up warehouse employees</span></span>  
-1.  <span data-ttu-id="b8eaf-108">Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="b8eaf-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="b8eaf-109">Seleccione la acción **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="b8eaf-109">Choose the **New** action.</span></span>  
-3. <span data-ttu-id="b8eaf-110">Seleccione el campo **Id. usuario**, y seleccione al usuario que se desea agregar como empleado de almacén.</span><span class="sxs-lookup"><span data-stu-id="b8eaf-110">Select the **User ID** field, and then select the user to be added as a warehouse employee.</span></span> <span data-ttu-id="b8eaf-111">Elija el botón **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="b8eaf-111">Choose the **OK** button.</span></span>  
-6.  <span data-ttu-id="b8eaf-112">En el campo **Cód. almacén**, especifique el código de la ubicación en la que trabajará el usuario.</span><span class="sxs-lookup"><span data-stu-id="b8eaf-112">In the **Location Code** field, enter the code of the location where the user will be working.</span></span>  
-7.  <span data-ttu-id="b8eaf-113">Seleccione la casilla de verificación **Predeterminada** para definir la ubicación como la única en la que el empleado puede realizar actividades de almacén.</span><span class="sxs-lookup"><span data-stu-id="b8eaf-113">Select the **Default** check box to define the location as the only location where the employee can perform warehouse activities.</span></span>  
-8.  <span data-ttu-id="b8eaf-114">Repita estos pasos para asignar otros empleados a ubicaciones o para asignar ubicaciones no predeterminadas a empleados de almacén existentes.</span><span class="sxs-lookup"><span data-stu-id="b8eaf-114">Repeat these steps to assign other employees to locations or assign non-default locations to existing warehouse employees.</span></span>  
+## <a name="to-set-up-warehouse-employees"></a><span data-ttu-id="6abcd-107">Para configurar los empleados de almacén</span><span class="sxs-lookup"><span data-stu-id="6abcd-107">To set up warehouse employees</span></span>  
+1.  <span data-ttu-id="6abcd-108">Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="6abcd-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="6abcd-109">Seleccione la acción **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="6abcd-109">Choose the **New** action.</span></span>  
+3. <span data-ttu-id="6abcd-110">Seleccione el campo **Id. usuario**, y seleccione al usuario que se desea agregar como empleado de almacén.</span><span class="sxs-lookup"><span data-stu-id="6abcd-110">Select the **User ID** field, and then select the user to be added as a warehouse employee.</span></span> <span data-ttu-id="6abcd-111">Elija el botón **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6abcd-111">Choose the **OK** button.</span></span>  
+6.  <span data-ttu-id="6abcd-112">En el campo **Cód. almacén**, especifique el código de la ubicación en la que trabajará el usuario.</span><span class="sxs-lookup"><span data-stu-id="6abcd-112">In the **Location Code** field, enter the code of the location where the user will be working.</span></span>  
+7.  <span data-ttu-id="6abcd-113">Seleccione la casilla de verificación **Predeterminada** para definir la ubicación como la única en la que el empleado puede realizar actividades de almacén.</span><span class="sxs-lookup"><span data-stu-id="6abcd-113">Select the **Default** check box to define the location as the only location where the employee can perform warehouse activities.</span></span>  
+8.  <span data-ttu-id="6abcd-114">Repita estos pasos para asignar otros empleados a ubicaciones o para asignar ubicaciones no predeterminadas a empleados de almacén existentes.</span><span class="sxs-lookup"><span data-stu-id="6abcd-114">Repeat these steps to assign other employees to locations or assign non-default locations to existing warehouse employees.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="b8eaf-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="b8eaf-115">See Also</span></span>  
-[<span data-ttu-id="b8eaf-116">Gestión almacén</span><span class="sxs-lookup"><span data-stu-id="b8eaf-116">Warehouse Management</span></span>](warehouse-manage-warehouse.md)  
-[<span data-ttu-id="b8eaf-117">Grupos contables inventario</span><span class="sxs-lookup"><span data-stu-id="b8eaf-117">Inventory</span></span>](inventory-manage-inventory.md)  
-<span data-ttu-id="b8eaf-118">[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)   </span><span class="sxs-lookup"><span data-stu-id="b8eaf-118">[Setting Up Warehouse Management](warehouse-setup-warehouse.md)   </span></span>  
-<span data-ttu-id="b8eaf-119">[Gestión de ensamblaje](assembly-assemble-items.md)  </span><span class="sxs-lookup"><span data-stu-id="b8eaf-119">[Assembly Management](assembly-assemble-items.md)  </span></span>  
-[<span data-ttu-id="b8eaf-120">Detalles de diseño: Gestión de almacén</span><span class="sxs-lookup"><span data-stu-id="b8eaf-120">Design Details: Warehouse Management</span></span>](design-details-warehouse-management.md)  
-<span data-ttu-id="b8eaf-121">[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b8eaf-121">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="6abcd-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="6abcd-115">See Also</span></span>  
+[<span data-ttu-id="6abcd-116">Gestión almacén</span><span class="sxs-lookup"><span data-stu-id="6abcd-116">Warehouse Management</span></span>](warehouse-manage-warehouse.md)  
+[<span data-ttu-id="6abcd-117">Grupos contables inventario</span><span class="sxs-lookup"><span data-stu-id="6abcd-117">Inventory</span></span>](inventory-manage-inventory.md)  
+<span data-ttu-id="6abcd-118">[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)   </span><span class="sxs-lookup"><span data-stu-id="6abcd-118">[Setting Up Warehouse Management](warehouse-setup-warehouse.md)   </span></span>  
+<span data-ttu-id="6abcd-119">[Gestión de ensamblaje](assembly-assemble-items.md)  </span><span class="sxs-lookup"><span data-stu-id="6abcd-119">[Assembly Management](assembly-assemble-items.md)  </span></span>  
+[<span data-ttu-id="6abcd-120">Detalles de diseño: Gestión de almacén</span><span class="sxs-lookup"><span data-stu-id="6abcd-120">Design Details: Warehouse Management</span></span>](design-details-warehouse-management.md)  
+<span data-ttu-id="6abcd-121">[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="6abcd-121">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

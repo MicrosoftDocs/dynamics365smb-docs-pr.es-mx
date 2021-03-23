@@ -1,42 +1,45 @@
 ---
 title: Eliminar flujos de trabajo | Documentos de Microsoft
-description: Si está seguro que un flujo de trabajo ya no se utiliza más, puede eliminarlo. Todas las instancias de paso de flujo de trabajo definidas en el flujo de trabajo deben tener el estado **Completado** .
+description: Si está seguro que un flujo de trabajo ya no se utiliza más, puede eliminarlo. Todas las instancias de paso de flujo de trabajo definidas en el flujo de trabajo deben tener el estado **Completado**.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d9b1990e1379b958aaa3723b4e5a984d066d0b2e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e665eaa03f52083b8e68424ec64468194a10f2cf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915846"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384485"
 ---
-# <a name="delete-workflows"></a><span data-ttu-id="c5bc6-104">Eliminar flujos de trabajo</span><span class="sxs-lookup"><span data-stu-id="c5bc6-104">Delete Workflows</span></span>
-<span data-ttu-id="c5bc6-105">Si está seguro que un flujo de trabajo ya no se utiliza más, puede eliminarlo.</span><span class="sxs-lookup"><span data-stu-id="c5bc6-105">If you are certain that a workflow is no longer being used, you can delete it.</span></span> <span data-ttu-id="c5bc6-106">Todas las instancias de paso de flujo de trabajo definidas en el flujo de trabajo deben tener el estado **Completado** .</span><span class="sxs-lookup"><span data-stu-id="c5bc6-106">All workflow step instances that are defined in the workflow must have status **Completed** .</span></span>  
+# <a name="delete-workflows"></a><span data-ttu-id="8ac99-104">Eliminar flujos de trabajo</span><span class="sxs-lookup"><span data-stu-id="8ac99-104">Delete Workflows</span></span>
+<span data-ttu-id="8ac99-105">Si está seguro que un flujo de trabajo ya no se utiliza más, puede eliminarlo.</span><span class="sxs-lookup"><span data-stu-id="8ac99-105">If you are certain that a workflow is no longer being used, you can delete it.</span></span> <span data-ttu-id="8ac99-106">Todas las instancias de paso de flujo de trabajo definidas en el flujo de trabajo deben tener el estado **Completado**.</span><span class="sxs-lookup"><span data-stu-id="8ac99-106">All workflow step instances that are defined in the workflow must have status **Completed**.</span></span>  
 
 > [!CAUTION]  
->  <span data-ttu-id="c5bc6-107">Cuando elimine un flujo de trabajo, toda la información del flujo de trabajo se perderá.</span><span class="sxs-lookup"><span data-stu-id="c5bc6-107">When you delete a workflow, all information in the workflow will be lost.</span></span>  
+>  <span data-ttu-id="8ac99-107">Cuando elimine un flujo de trabajo, toda la información del flujo de trabajo se perderá.</span><span class="sxs-lookup"><span data-stu-id="8ac99-107">When you delete a workflow, all information in the workflow will be lost.</span></span>  
 
- <span data-ttu-id="c5bc6-108">En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una lista de los pasos utilizados en las líneas.</span><span class="sxs-lookup"><span data-stu-id="c5bc6-108">On the **Workflow** page, you create a workflow by listing the involved steps on the lines.</span></span> <span data-ttu-id="c5bc6-109">Cada paso consta de un evento del flujo de trabajo, moderado por condiciones de evento, y una respuesta de flujo de trabajo, moderada por las opciones de respuesta.</span><span class="sxs-lookup"><span data-stu-id="c5bc6-109">Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options.</span></span> <span data-ttu-id="c5bc6-110">Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación.</span><span class="sxs-lookup"><span data-stu-id="c5bc6-110">You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.</span></span> <span data-ttu-id="c5bc6-111">Para obtener más información, consulte [Crear flujos de trabajo](across-how-to-create-workflows.md).</span><span class="sxs-lookup"><span data-stu-id="c5bc6-111">For more information, see [Create Workflows](across-how-to-create-workflows.md).</span></span>  
+ <span data-ttu-id="8ac99-108">En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una lista de los pasos utilizados en las líneas.</span><span class="sxs-lookup"><span data-stu-id="8ac99-108">On the **Workflow** page, you create a workflow by listing the involved steps on the lines.</span></span> <span data-ttu-id="8ac99-109">Cada paso consta de un evento del flujo de trabajo, moderado por condiciones de evento, y una respuesta de flujo de trabajo, moderada por las opciones de respuesta.</span><span class="sxs-lookup"><span data-stu-id="8ac99-109">Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options.</span></span> <span data-ttu-id="8ac99-110">Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación.</span><span class="sxs-lookup"><span data-stu-id="8ac99-110">You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.</span></span> <span data-ttu-id="8ac99-111">Para obtener más información, consulte [Crear flujos de trabajo](across-how-to-create-workflows.md).</span><span class="sxs-lookup"><span data-stu-id="8ac99-111">For more information, see [Create Workflows](across-how-to-create-workflows.md).</span></span>  
 
-## <a name="to-delete-a-workflow"></a><span data-ttu-id="c5bc6-112">Para eliminar un flujo de trabajo</span><span class="sxs-lookup"><span data-stu-id="c5bc6-112">To delete a workflow</span></span>  
-1.  <span data-ttu-id="c5bc6-113">Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="c5bc6-113">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows** , and then choose the related link.</span></span>  
-2.  <span data-ttu-id="c5bc6-114">Seleccione el flujo de trabajo que desea borrar.</span><span class="sxs-lookup"><span data-stu-id="c5bc6-114">Select the workflow that you want to delete.</span></span>  
-3.  <span data-ttu-id="c5bc6-115">Elija la acción **Eliminar** .</span><span class="sxs-lookup"><span data-stu-id="c5bc6-115">Choose the **Delete** action.</span></span>  
-4.  <span data-ttu-id="c5bc6-116">También puede abrir el flujo de trabajo que desea borrar.</span><span class="sxs-lookup"><span data-stu-id="c5bc6-116">Alternatively, open the workflow that you want to delete.</span></span>  
-5.  <span data-ttu-id="c5bc6-117">En la página **Copiar flujo de trabajo** , elija la acción **Eliminar** .</span><span class="sxs-lookup"><span data-stu-id="c5bc6-117">On the **Workflow** page, choose the **Delete** action.</span></span>  
+## <a name="to-delete-a-workflow"></a><span data-ttu-id="8ac99-112">Para eliminar un flujo de trabajo</span><span class="sxs-lookup"><span data-stu-id="8ac99-112">To delete a workflow</span></span>  
+1.  <span data-ttu-id="8ac99-113">Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.</span><span class="sxs-lookup"><span data-stu-id="8ac99-113">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="8ac99-114">Seleccione el flujo de trabajo que desea borrar.</span><span class="sxs-lookup"><span data-stu-id="8ac99-114">Select the workflow that you want to delete.</span></span>  
+3.  <span data-ttu-id="8ac99-115">Elija la acción **Eliminar**.</span><span class="sxs-lookup"><span data-stu-id="8ac99-115">Choose the **Delete** action.</span></span>  
+4.  <span data-ttu-id="8ac99-116">También puede abrir el flujo de trabajo que desea borrar.</span><span class="sxs-lookup"><span data-stu-id="8ac99-116">Alternatively, open the workflow that you want to delete.</span></span>  
+5.  <span data-ttu-id="8ac99-117">En la página **Copiar flujo de trabajo**, elija la acción **Eliminar**.</span><span class="sxs-lookup"><span data-stu-id="8ac99-117">On the **Workflow** page, choose the **Delete** action.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="c5bc6-118">Consulte también</span><span class="sxs-lookup"><span data-stu-id="c5bc6-118">See Also</span></span>  
- <span data-ttu-id="c5bc6-119">[Crear flujos de trabajo](across-how-to-create-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="c5bc6-119">[Create Workflows](across-how-to-create-workflows.md) </span></span>  
- <span data-ttu-id="c5bc6-120">[Activar flujos de trabajo](across-how-to-enable-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="c5bc6-120">[Enable Workflows](across-how-to-enable-workflows.md) </span></span>  
- <span data-ttu-id="c5bc6-121">[Ver instancias de paso de flujo de trabajo archivadas](across-how-to-view-archived-workflow-step-instances.md) </span><span class="sxs-lookup"><span data-stu-id="c5bc6-121">[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) </span></span>  
- <span data-ttu-id="c5bc6-122">[Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span><span class="sxs-lookup"><span data-stu-id="c5bc6-122">[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span></span>  
- <span data-ttu-id="c5bc6-123">[Configuración de flujos de trabajo](across-set-up-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="c5bc6-123">[Setting Up Workflows](across-set-up-workflows.md) </span></span>  
- <span data-ttu-id="c5bc6-124">[Uso de flujos de trabajo](across-use-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="c5bc6-124">[Using Workflows](across-use-workflows.md) </span></span>  
- [<span data-ttu-id="c5bc6-125">Flujo de trabajo</span><span class="sxs-lookup"><span data-stu-id="c5bc6-125">Workflow</span></span>](across-workflow.md)   
+## <a name="see-also"></a><span data-ttu-id="8ac99-118">Consulte también</span><span class="sxs-lookup"><span data-stu-id="8ac99-118">See Also</span></span>  
+ <span data-ttu-id="8ac99-119">[Crear flujos de trabajo](across-how-to-create-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="8ac99-119">[Create Workflows](across-how-to-create-workflows.md) </span></span>  
+ <span data-ttu-id="8ac99-120">[Activar flujos de trabajo](across-how-to-enable-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="8ac99-120">[Enable Workflows](across-how-to-enable-workflows.md) </span></span>  
+ <span data-ttu-id="8ac99-121">[Ver instancias de paso de flujo de trabajo archivadas](across-how-to-view-archived-workflow-step-instances.md) </span><span class="sxs-lookup"><span data-stu-id="8ac99-121">[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) </span></span>  
+ <span data-ttu-id="8ac99-122">[Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span><span class="sxs-lookup"><span data-stu-id="8ac99-122">[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span></span>  
+ <span data-ttu-id="8ac99-123">[Configuración de flujos de trabajo](across-set-up-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="8ac99-123">[Setting Up Workflows](across-set-up-workflows.md) </span></span>  
+ <span data-ttu-id="8ac99-124">[Uso de flujos de trabajo](across-use-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="8ac99-124">[Using Workflows](across-use-workflows.md) </span></span>  
+ [<span data-ttu-id="8ac99-125">Flujo de trabajo</span><span class="sxs-lookup"><span data-stu-id="8ac99-125">Workflow</span></span>](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
