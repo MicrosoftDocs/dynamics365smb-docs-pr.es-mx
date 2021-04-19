@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d4276b1ec37665bda2e741e8b180623e3f5b9830
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f53cb3f23aa64026504a6f9713d2dfd13df9c782
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382851"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771420"
 ---
 # <a name="print-troubleshooting-reports-in-the-mexican-version"></a>Cómo imprimir informes de solución de problemas en la versión mexicana
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 53264b0347a9c06f391a8a708a3a738c5070ece2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b43c2a0a25f742bbbc19f8540a9732d00598367c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382841"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771407"
 ---
 # <a name="set-up-use-tax-and-purchase-tax-in-the-mexican-version"></a>Cómo configurar el impuesto sobre servicios e impuesto a las compras en la versión mexicana
 

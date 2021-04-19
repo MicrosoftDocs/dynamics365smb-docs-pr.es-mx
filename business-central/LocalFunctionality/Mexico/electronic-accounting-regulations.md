@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 90ab827d8a0ad8204cc821754633044ffe05f085
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8aee782e9f14e6ec3b097c86692dba8810683c82
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382857"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771421"
 ---
 # <a name="complying-with-electronic-accounting-regulations-in-mexico"></a>Cumplimiento con las regulaciones electrónicas de la contabilidad en México
 En México, los individuos y las empresas deben hacer su contabilidad electrónicamente y enviar sus resultados mensuales al Servicio de Administración Tributaria de México (SAT) como archivos XML separados al final de cada mes. Los archivos XML deben contener lo siguiente:

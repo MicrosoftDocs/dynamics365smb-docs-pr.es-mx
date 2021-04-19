@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, diot, authorities, export, compliance
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 691ec0e1c247426a0754564c731e225cd0bebee8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3d86382beb70f763fea8f1c0188aa92dee70ca32
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382839"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771404"
 ---
 # <a name="set-up-and-generate-diot-reports"></a>Configurar y generar informes DIOT
 
@@ -72,7 +72,7 @@ Cuando el informe se ejecute sin errores, se le pedirá que guarde el archivo **
 
 ## <a name="see-also"></a>Consulte también
 [Personalizar [!INCLUDE[prod_short](../../includes/prod_short.md)] con extensiones](../../ui-extensions.md)  
-[Introducción](../../product-get-started.md)
+[Preparación para hacer negocios](../../ui-get-ready-business.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

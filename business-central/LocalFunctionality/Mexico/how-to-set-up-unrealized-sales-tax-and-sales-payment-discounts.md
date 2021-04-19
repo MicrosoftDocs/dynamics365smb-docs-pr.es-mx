@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 10777d5e24d85de364d4d907ec53b83b9cf684e2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 56da6f535966c5ddb20268c2dc3ff3a3c476b558
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382845"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780144"
 ---
 # <a name="set-up-unrealized-sales-tax-and-sales-payment-discounts-in-the-mexican-version"></a>Cómo configurar descuentos por pago de ventas e impuestos ventas no realizados en la versión mexicana
 
