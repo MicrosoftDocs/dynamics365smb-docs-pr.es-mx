@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 3685a2145186d3e26da7ba0ad6ace0af0b8c0dd7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 918a450ea40676447f872ba95eb489c7cc210211
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786793"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215114"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Detalles de diseño: Fecha registro en el movimiento de valor de ajuste
 Este artículo proporciona una guía para los usuarios de la funcionalidad Coste de inventario en [!INCLUDE[prod_short](includes/prod_short.md)]. El artículo específico proporciona una guía de cómo el proceso **Valorar existencias - movs. producto** identifica y asigna una fecha de registro a los movimientos de valor que creará.  
 
-Primero se revisa el concepto del proceso, cómo el proceso identifica y asigna una fecha de registro a los movimientos de valor que se crearán. A continuación, se comparten algunos ejemplos que encontramos en el equipo de soporte de vez en cuando y, finalmente, hay un resumen de los conceptos utilizados a partir de la versión 3.0.  
+Primero se revisa el concepto del proceso, cómo el proceso identifica y asigna una fecha de registro a los movimientos de valor que se crearán. A continuación, se comparten algunos ejemplos que encontramos en el equipo de soporte de vez en cuando y, finalmente, hay un resumen de los conceptos utilizados.  
 
 ## <a name="the-concept"></a>El concepto  
-Desde la versión 5.0, el proceso **Valorar existencias - movs. producto** asigna una fecha de registro al movimiento de valor que creará en los pasos siguientes:  
+El trabajo por lotes **Valorar stock - movs. producto** asigna una fecha de registro al movimiento de valor que creará en los pasos siguientes:  
 
 1.  Inicialmente, la fecha de registro del movimiento que se creará es la misma que la del movimiento que ajusta.  
 
@@ -67,7 +67,7 @@ El proceso **Valorar existencias - movs. producto** determina si la fecha inicia
 
  Paso 3: Asignación de una fecha de registro permitida;  
 
- La fecha de registro asignada inicial era el 6 de septiembre como se muestra en el paso 1. Sin embargo, en el segundo paso del proceso Valorar existencias - movs. producto se identifica que la primera fecha de registro permitida es el 10 de septiembre y, por lo tanto, la asigna en el movimiento de valor de ajuste siguiente.  
+ La fecha de registro asignada inicial era el 6 de septiembre como se muestra en el paso 1. Sin embargo, en el segundo paso el trabajo por lotes Valorar stock - movs. producto identifica que la primera fecha de registro permitida es el 10 de septiembre y, por lo tanto, la asigna al movimiento de valor de ajuste siguiente.  
 
  ![Estado de los movimientos de valores en el escenario 2](media/helene/TechArticleAdjustcost5.png "Estado de los movimientos de valores en el escenario 2")
 
@@ -92,7 +92,7 @@ El proceso **Valorar existencias - movs. producto** determina si la fecha inicia
 
 ![Descripción general de la configuración de la fecha de registro involucrada](media/helene/TechArticleAdjustcost8.png "Descripción general de la configuración de la fecha de registro involucrada")
 
- El artículo [952996](https://mbs2.microsoft.com/Knowledgebase/kbdisplay.aspx?WTNTZSMNWUKNTMMYXUPYZQPOUXNXSPSYOQQYYMLUQLOYYMWP) de la Knowledge Base discute ejemplos adicionales relacionados con el mensaje de error mencionado.  
+ El artículo [952996](https://mbs2.microsoft.com/Knowledgebase/kbdisplay.aspx?WTNTZSMNWUKNTMMYXUPYZQPOUXNXSPSYOQQYYMLUQLOYYMWP) de la Knowledge Base describe más ejemplos relacionados con el mensaje de error mencionado.  
 
 ### <a name="scenario-ii-posting-date-on-adjustment-value-entry-versus-posting-date-on-entry-causing-the-adjustment-such-as-revaluation-or-item-charge"></a>Ejemplo II: La fecha de registro en el movimiento de valor de ajuste frente a la fecha de registro en el movimiento que causa el ajuste, como la revaluación o el cargo de producto.  
 
@@ -179,7 +179,7 @@ El proceso **Valorar existencias - movs. producto** determina si la fecha inicia
 
  El proceso Valorar existencias - movs. producto ha reconocido un cambio de costos y ha ajustado los ajustes negativos.  
 
- **Revisión de las fechas de registro en los movimientos de valor de ajuste creados:** la primera fecha de registro permitida con la que el proceso Valorar existencias - movs. producto tiene que estar relacionado es el 1 de enero de 2014 tal como se indica en Configuración de contabilidad.  
+ **Revisión de las fechas de registro en los movimientos de valor de ajuste creados:** la primera fecha de registro permitida con la que el trabajo por lotes Valorar stock - movs. producto tiene que estar relacionado es el 1 de enero de 2014, tal como se indica en Configuración de contabilidad.  
 
  **Ajuste negativo en el paso 3:** la fecha de registro asignada es el 1 de enero, proporcionada por la Configuración de contabilidad. La fecha de registro del movimiento del valor para afrontar es el 20 de diciembre de 2013. Según la configuración de contabilidad, la fecha no se encuentra dentro del rango de fechas permitidas. Por lo tanto, la fecha de registro indicada en el campo Permitir registro desde en la Configuración de contabilidad se asigna al movimiento del valor de ajuste.  
 
@@ -191,7 +191,7 @@ El proceso **Valorar existencias - movs. producto** determina si la fecha inicia
 
  **Conclusión:**  
 
- Con las experiencias de este ejemplo y si se tiene en cuenta la configuración más adecuada del rango de fechas de registro permitido para una empresa, la siguiente información puede ser útil: siempre que los cambios en el valor de inventario se puedan publicar en un período, en este caso en diciembre, la configuración que usa la empresa para los rangos de fechas de registro permitido debe estar alineada con esta decisión. El campo Permitir registro desde de la Configuración de contabilidad, que comienza el 1 de diciembre, permitirá que la revaluación realizada en diciembre se envíe a los movimientos salientes afectados en el mismo período.  
+ Con las experiencias de este ejemplo, y si se tiene en cuenta la configuración más adecuada del intervalo de fechas de registro permitido para una empresa, la siguiente información le puede resultar útil: siempre que permita realizar cambios en el valor de inventario que se van publicar en un período (en este caso, diciembre), la configuración que usa la empresa para los intervalos de fechas de registro permitidos debe estar alineada con dicha decisión. El campo Permitir registro desde de la Configuración de contabilidad, que comienza el 1 de diciembre, permitirá que la revaluación realizada en diciembre se envíe a los movimientos salientes afectados en el mismo período.  
 
  Los grupos de usuarios a los que no se les permite publicar en diciembre pero sí en enero, que probablemente estaban destinados a estar limitados por la Configuración de contabilidad de este ejemplo, deberían repararse a través de la Configuración del usuario.  
 
@@ -316,7 +316,7 @@ El proceso **Valorar existencias - movs. producto** determina si la fecha inicia
 
    ![Descripción general de los movimientos de productos y valores resultantes 4](media/helene/TechArticleAdjustcost12.png "Descripción general de los movimientos de productos y valores resultantes 4")
 
- El informe de Valuación de Inventarios se imprime a partir de la fecha 31 de diciembre de 2013  
+ El informe Valuación de inventarios se imprime a partir dela 31 de diciembre de 2013  
 
 ![Contenido del informe de valuación de inventarios](media/helene/TechArticleAdjustcost13.png "Contenido del informe de valuación de inventarios")
 
@@ -333,31 +333,17 @@ El proceso **Valorar existencias - movs. producto** determina si la fecha inicia
  En este ejemplo, una opción podría ser tener en la Configuración de contabilidad, en el campo Permitir registro desde, una fecha indicada en diciembre por un par de días más y posponer el registro del cargo por primer producto para permitir todos los costos del periodo o año fiscal anterior para que el periodo al que pertenecen primero los pueda reconocer, mientras se ejecuta el proceso Valorar existencias - movs. producto y luego mover la fecha de registro permitida al nuevo periodo\/año fiscal. El primer cargo de producto con fecha de registro el 2 de enero podría registrarse.  
 
 ## <a name="history-of-adjust-cost--item-entries-batch-job"></a>Historial del proceso Valorar existencias - movs. producto  
- A continuación, se incluye un resumen del concepto que asigna fechas de registro a los movimientos de valor de ajuste por proceso Valorar existencias - movs. producto desde la versión 3.0.  
+ A continuación, se incluye un resumen del concepto que asigna fechas de registro a los movimientos de valor de ajuste mediante el trabajo por lotes Valorar stock - movs. producto.  
 
-### <a name="from-version-30370a"></a>Desde la versión 3.0..3.70.A  
- En el formulario de solicitud del proceso Valorar existencias - movs. producto, el usuario debe introducir una fecha de registro. El proceso ejecuta todos los cambios necesarios y crea movimientos de valor con la fecha de registro en el formulario de solicitud. La fecha de registro sugerida es la fecha de hoy.  
-
-### <a name="version-370b40"></a>Versión 3.70.B..4.0  
- En el formulario de solicitud del proceso Valorar existencias - movs. producto, el usuario debe introducir una fecha de registro de movimiento de periodo cerrado. La tarea por lotes ejecuta todos los cambios necesarios y crea movimientos de valor con la fecha de registro del movimiento del producto contable principal (fecha de remisión de la venta en la dirección de ajuste). Si la fecha de registro del movimiento del producto principal no se encuentra dentro del rango de fechas de registro permitidas, la fecha de registro de movimiento de período cerrado se asignará al movimiento de valor de ajuste. Se considera que una fecha se encuentra en un período cerrado cuando es anterior a la fecha del campo Permitir registro desde de la Configuración de contabilidad.  
-
-### <a name="from-version-50"></a>Desde la versión 5.0:  
+### <a name="about-the-request-form-posting-date"></a>Acerca de la fecha de registro del formulario de solicitud:  
  Ya no debe introducirse una fecha de registro en el formulario de solicitud del proceso Valorar existencias - movs. producto. El proceso ejecuta todos los cambios necesarios y crea movimientos de valor con la fecha de registro del movimiento de valor que ajusta. Si la fecha de registro no se encuentra dentro del rango de fechas permitidas, la fecha del campo Permitir registrar desde en Configuración contabilidad, o si se usan Periodos de inventario, se deberá usar la más reciente de las dos. Vea el concepto descrito anteriormente.  
 
 ## <a name="history-of-post-inventory-cost-to-gl-batch-job"></a>Historial del proceso Reg. var. existencias en cont.  
  El proceso Reg. var. existencias en cont. está estrechamente relacionado con Valorar existencias - movs. producto, ya que su historial también se resume y comparte aquí.  
-
-### <a name="from-version-30370a"></a>Desde la versión 3.0..3.70.A  
- En el formulario de solicitud del proceso Reg. var. existencias en cont., el usuario debe introducir una fecha de registro. El proceso ejecuta todos los movimientos de valor del filtro, si los hay, y crea movimientos de contabilidad con la fecha de registro en el formulario de solicitud.  
-
-### <a name="version-370b40"></a>Versión 3.70.B..4.0  
- En el formulario de solicitud del proceso Reg. var. existencias en cont., está disponible el campo fecha de registro de movimiento de periodo cerrado. La aplicación usa la fecha especificada en este campo como la fecha de registro de los movimientos de contabilidad que crea para los movimientos de valor cuyas fechas de registro están en periodos contables cerrados. De lo contrario, los movimientos de contabilidad tendrán la misma fecha de registro que los movimientos de valor originales. Se considera que una fecha se encuentra en un período cerrado cuando es anterior a la fecha del campo Permitir registro desde de la Configuración de contabilidad. Si registran en contabilidad por grupo contable, los movimientos de contabilidad generales tendrán la fecha de registro que se especifica en el campo Fecha registro del formulario de solicitud.  
-
- En la versión 3 y 4 el proceso busca todos los movimientos de valor para averiguar si hay alguno donde el Importe de costo (Real) sea diferente del Costo registrado en contabilidad. Si hay una diferencia, el importe diferente se registrará en un movimiento de contabilidad. Si se utiliza el registro de costos esperado, los campos correspondientes se procesarán del mismo modo.  
-
+ 
 ![Costo real frente a costo esperado](media/helene/TechArticleAdjustcost14.png "Costo real frente a costo esperado")
 
-### <a name="from-version-50"></a>Desde la versión 5.0:  
+### <a name="about-the-posting-date"></a>Acerca de la fecha de registro
  Ya no debe introducirse una fecha de registro en el formulario de solicitud del proceso Reg. var. existencias en cont. El movimiento de contabilidad se crea con la misma fecha de registro que los movimientos de valor relacionados. Para completar el proceso, el rango de fechas de registro permitidas debe permitir la Fecha de registro del movimiento de contabilidad creado. De lo contrario, el rango de fechas de registro permitidas debe volver a abrirse temporalmente cambiando o eliminando las fechas en los campos Permitir registro desde y en la Configuración de contabilidad. Para evitar errores de conciliación es necesario que fecha de registro del movimiento de contabilidad se corresponda con la fecha de registro del movimiento de valor.  
 
  El proceso escanea la Tabla 5811 - Registrar movimiento valor en C/G para identificar los movimientos de valor en el ámbito para registrar en la Contabilidad. Después de una ejecución correcta, la tabla se vacía.
