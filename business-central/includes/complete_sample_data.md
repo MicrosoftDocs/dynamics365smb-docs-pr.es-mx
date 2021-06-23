@@ -4,12 +4,13 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4e5c282f18074117f9c9e1c8d3f7ccccd40c5bd5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8c96f671b99c0c915e942a64ce56cf654ca07781
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771940"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216266"
 ---
 > [!NOTE]
-> <span data-ttu-id="798a1-101">Este tutorial requiere datos de muestra que no están disponibles en la empresa de demostración predeterminada en [!INCLUDE[prod_short](prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="798a1-101">This walkthrough requires sample data that is not available in the default demonstration company in [!INCLUDE[prod_short](prod_short.md)].</span></span> <span data-ttu-id="798a1-102">Para obtener más información, vea [Crear una empresa con datos de muestra completos en un entorno aislado](../across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).</span><span class="sxs-lookup"><span data-stu-id="798a1-102">For more information, see [To create a company with complete sample data in a sandbox](../across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).</span></span>  
+> <span data-ttu-id="aed5d-101">Este tutorial requiere datos de muestra que no están disponibles en la empresa de demostración predeterminada en [!INCLUDE[prod_short](prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="aed5d-101">This walkthrough requires sample data that is not available in the default demonstration company in [!INCLUDE[prod_short](prod_short.md)].</span></span> <!--For more information, see [To create a company with complete sample data in a sandbox](../across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).  
+ -->
