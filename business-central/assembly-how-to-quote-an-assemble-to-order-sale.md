@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 817699281ce0f3b7d057bb2e9ce4d85f97d67b48
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cd85a880bada8cc9e3ee2ce924919f06f0c5109c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772965"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435455"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Cotizar una venta de ensamblar contra pedido
 Puede utilizar la administración de ensamblados para personalizar un producto de ensamblado a la solicitud de un cliente durante el proceso de venta. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -26,7 +26,7 @@ Como cuando se vende cualquier otro tipo de producto, también puede crear una c
 >  Como todos los tipos de cotización, las cantidades en cotizaciones de ensamblado no se utilizan en la disponibilidad, la planificación o las reservas.  
 
 ## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Para crear una cotización de venta de productos ensamblar para pedido  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cotización de venta** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cotización de venta** y, luego, elija el vínculo relacionado.  
 2.  Cree una línea de cotización de venta con una línea para un producto de ensamblado. Para obtener más información, consulte [Crear cotizaciones de ventas](sales-how-make-offers.md).  
 3.  En el campo **Cdad. al ensamblar para pedido**, introduzca la cantidad total.
 

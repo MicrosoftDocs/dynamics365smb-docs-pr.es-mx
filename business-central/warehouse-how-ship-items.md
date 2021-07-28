@@ -1,6 +1,6 @@
 ---
-title: Cómo enviar productos | Documentos de Microsoft
-description: Dependiendo de la configuración de su almacén, puede registrar el envío en el documento empresarial de salida relacionado, como un pedido de venta, directamente, o puede utilizar documentos de envío de almacén que respeten un flujo de trabajo e integren diversas actividades del almacén.
+title: Cómo enviar productos
+description: En este tema se describe cómo enviar productos desde su almacén según la configuración del almacén para el procesamiento de envíos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 22404e97c578f6bcaaa5f74ec40408beca7fe3c8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 60274947bb0f38ed6e116767ac5c74357482298c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782770"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435945"
 ---
 # <a name="ship-items"></a>Enviar productos
 
 Cuando envíe artículos de un almacén que no está configurado para el procesamiento de envío de almacén, simplemente registre el envío en el documento de negocio relacionado, como un pedido de cliente, un pedido de servicio, un pedido de devolución de compra o un pedido de transferencia de salida.
 
-Cuando envía productos de un almacén que está configurado para realizar el proceso de envío de almacén, puede enviar productos solo basándose en los documentos de origen que otras unidades de la empresa han enviado al almacén para realizar una acción.
+Cuando envía productos de un almacén que está configurado para realizar el procesamiento de envíos de almacén, solo puede enviar productos en función de los documentos de origen que otras unidades de la empresa han enviado al almacén para realizar una acción.
 
 > [!NOTE]
 > Si el almacén utiliza tránsito directo y ubicaciones, para cada línea, puede ver la cantidad de productos que se han colocado en las ubicaciones de tránsito directo. La aplicación calcula estas cantidades automáticamente cada vez que se actualicen los campos en la remisión. Si son los productos que se incluyen en el envío que está preparando, puede crear un picking de todas las líneas y, a continuación, completar el envío. Para obtener más información, consulte [Productos de tránsito directo](warehouse-how-to-cross-dock-items.md).
@@ -30,7 +30,7 @@ Cuando envía productos de un almacén que está configurado para realizar el pr
 
 A continuación se describe cómo enviar productos de un pedido de venta. Los pasos son iguales para las órdenes de devolución de compra, las órdenes de servicio y las órdenes de transferencia de salida.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.
 2. Abra un pedido de venta existente o cree uno nuevo. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
 3. Escriba la cantidad enviada en el campo **Cantidad a enviar**.
 
@@ -48,7 +48,7 @@ Primero cree un documento de envío de un documento de origen de negocio. A cont
 
 Normalmente, el empleado que es responsable de los envíos crea una remisión de almacén. El siguiente procedimiento describe cómo crear la remisión manualmente en la versión predeterminada de [!INCLUDE[prod_short](includes/prod_short.md)], pero su organización podría haber automatizado parte del proceso, como el uso de escáneres portátiles o montados que son compatibles con proveedores externos.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Remisiones de almacén** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Envíos de almacén** y, luego, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.  
 
     Rellene los campos en la ficha desplegable **General**. Al recuperar las líneas del documento de origen, se copia parte de la información en cada línea.  
@@ -83,12 +83,12 @@ Cuando tenga las líneas que desea enviar, puede iniciar el proceso que envía l
 
 Normalmente, un empleado de almacén responsable del picking crea un documento de picking, o bien abre un documento ya creado de picking.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Remisiones de almacén** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Envíos de almacén** y, luego, elija el vínculo relacionado.
 2. Seleccione el envío de almacén para el que desea realizar el picking, y después seleccione la acción **Crear picking**.
 3. Rellene los campos en la página de solicitud y, a continuación, elija el botón **Aceptar**. Se crea el documento de picking de almacén especificado.
 
     Alternativamente, abra un picking de almacén existente.
-4. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Picking** y luego elija el enlace relacionado. Seleccione el picking de almacén con el que desea trabajar.
+4. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Picking** y luego elija el enlace relacionado. Seleccione el picking de almacén con el que desea trabajar.
 
     Si el almacén está configurado para utilizar ubicaciones, las líneas de picking se han convertido a líneas de acción Traer y Colocar.
 

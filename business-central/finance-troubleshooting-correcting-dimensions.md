@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: dimension, correction, correct, business intelligence
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 018e0ebdb96e155959fc0042e4c2a9b778ecffb0
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 0475e814807c2218b2dcc72f3c07359b80546cc3
+ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947500"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373249"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Resolución de problemas y corrección de dimensiones
 Las vistas de análisis e informes financieros a menudo se basan en datos de dimensiones. A pesar de las salvaguardas disponibles, a veces ocurre un error que puede dar lugar a inexactitudes. Este tema describe algunos de los errores típicos y explica cómo corregir las asignaciones de dimensión en las transacciones registradas para que los informes financieros sean precisos.
@@ -109,3 +109,17 @@ Si una corrección no se completa, aparecerá una advertencia en la ficha de cor
 
 ### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Usar la contabilidad de costos con movimientos de contabilidad general corregidos
 Después de corregir las dimensiones, los datos de la contabilidad de costos no estarán sincronizados. La contabilidad de costos usa dimensiones para agregar importes para centros de costo y objetos de costo, así como para ejecutar asignaciones de costos. Cambiar las dimensiones para movimientos de contabilidad general probablemente signifique volver a ejecutar sus modelos de contabilidad de costos. En función de los datos que se hayan actualizado y de cómo estén configuradas las funcionalidades de contabilidad de costos, tendrá que eliminar algunos registros de costos y volver a ejecutar las asignaciones, o bien eliminar todo y volver a ejecutar todos sus modelos. Identificar dónde afectarán las correcciones de dimensión a la contabilidad de costos y dónde se necesitan actualizaciones es un proceso manual. [!INCLUDE[prod_short](includes/prod_short.md)] no ofrece actualmente una forma automatizada de hacerlo.
+
+## <a name="correcting-number-assignments-for-global-dimensions"></a>Corrección de asignaciones de números para dimensiones globales
+En la tabla Mov. grupo dimensiones se asignan las dimensiones globales **0** en el campo N.º dim. acceso directo y a las dimensiones de acceso directo se les asigna su número de dimensión de acceso directo, que puede ser de 1 a 8. Algunos informes utilizan estas asignaciones de números para determinar los valores que se utilizarán en los cálculos.
+
+Cuando los valores de dimensión se importan mediante el uso de paquetes de configuración que se crearon sin ejecutar desencadenadores de validación, o mediante el uso de código personalizado para llamar a los métodos Insertar o Modificar sin ejecutar los desencadenadores de validación OnInsert u OnModify, a veces a las dimensiones de acceso directo se les asigna un número que no es 0. Cuando esto ocurre, los cálculos serán incorrectos para las dimensiones en los diarios generales periódicos que utilizan los métodos periódicos Saldo de BD por cuenta o Saldo de BD por dimensiones. 
+
+Si se asigna un número incorrecto, cuando intenta publicar o obtener una vista previa de los diarios en la página **Diarios generales periódicos**, aparecerá la página **Mensajes de error**. Desde la página de Mensajes de error, puede elegir el enlace en el campo **Origen** para ejecutar un informe que corrija las asignaciones de números de dimensión de acceso directo en la tabla Entrada de conjunto de dimensiones. Alternativamente, también puede buscar **Actualizar N.º dimensión de acceso directo para Movimientos de grupo de dimensiones** para ejecutar el informe.
+
+Después de ejecutar el informe, en la página **Cambiar entradas de registro** puede revisar los cambios realizados en el número en el campo N.º dimensión global . [!INCLUDE[prod_short](includes/prod_short.md)] siempre registra los valores nuevos y anteriores. 
+
+## <a name="see-also"></a>Consulte también
+[Descripción general de Movimientos de grupo de dimensiones](design-details-dimension-set-entries-overview.md)
+[Trabajar con dimensiones](finance-dimensions.md)
+[Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)
