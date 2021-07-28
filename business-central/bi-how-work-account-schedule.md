@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f1e29820a3bb8254368e14ba1fa8b7dba17ed661
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f180efb198fce757af263710fab2561323fd69b4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786598"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437037"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparar informes financieros con estructuras de cuentas y categorías de cuentas
 
@@ -54,7 +54,7 @@ Las estructuras de cuentas en la versión estándar de [!INCLUDE[prod_short](inc
 
 La página **Panorama estr. cuentas** es donde puede obtener una vista previa del informe financiero que define la estructura de cuentas. A continuación, es importante comprender que lo que se configura como filas y columnas de la estructura de cuentas solo se puede ver y validar en la página **Panorama estr. cuentas**, que se abre desde una estructura de cuentas seleccionando la acción **Panorama**. La página **estructura cuentas** en sí misma es solo un área de configuración.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Estructuras de cuentas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Estructuras de cuentas** y, luego, elija el vínculo relacionado.  
 2. En la página **estructuras de cuentas**, elija la acción **Nuevo** para crear un nuevo nombre de estructura de cuenta.
 3. También puede elegir la acción **Copiar estructura de cuentas**, rellenar los dos campos y, a continuación, elegir el botón **Aceptar**.
 4. Rellene los campos según sea necesario. En el campo **Plantilla columna genér.**, seleccione una disposición existente. Puede cambiarla más adelante si lo desea.
@@ -88,7 +88,7 @@ Utilice las plantillas de columnas para determinar qué columnas va a incluir en
 
 En ocasiones, podría desear incluir una columna en una estructura de cuentas para calcular los porcentajes de un total. Por ejemplo, si tiene una serie de filas que detallan las ventas por dimensión, podría desear crear una columna para indicar el porcentaje de las ventas totales que representa cada fila.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Estructuras de cuentas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Estructuras de cuentas** y, luego, elija el vínculo relacionado.
 2. En la página **Nombres estructuras de cuentas**, seleccione una estructura de cuenta.  
 3. Elija la acción **Editar esquema cuentas** para configurar una fila del esquema de cuentas para calcular el total en el que se basarán los porcentajes.  
 4. Inserta una línea justo encima de la primera fila para la que desea que se muestre un porcentaje.  
@@ -101,7 +101,7 @@ En ocasiones, podría desear incluir una columna en una estructura de cuentas pa
 
 Puede usar un estructura de cuentas para crear un estado de cuenta que compare las cifras de contabilidad con las cifras presupuestadas.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Estructuras de cuentas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Estructuras de cuentas** y, luego, elija el vínculo relacionado.
 2. En la página **Nombres estructuras de cuentas**, seleccione una estructura de cuenta.  
 3. Elija la acción **Editar esquema cuentas**  
 4. En la ventana **estructura cuentas**, en el campo **Nombre**, seleccione el nombre de la estructura de cuentas predeterminada.

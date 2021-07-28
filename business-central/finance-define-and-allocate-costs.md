@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f892333d08036efe751cbcabf49945377990807
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1543627340cb4947eafafffc362acddacb52ceb6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770874"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436209"
 ---
 # <a name="defining-and-allocating-costs"></a>Definición y asignación de costos
 Las asignaciones de costos mueven los costos e ingresos entre tipos de costo, centros de costo y objetos de costo. Puede definir tantas asignaciones como necesite. Cada asignación consta de:  
@@ -38,7 +38,7 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 Cada asignación está formada por un origen de asignación y uno o varios destinos de asignación. El origen de asignación define qué costos se asignarán. Los destinos de asignación determinan dónde se deben asignar los costos.  
 
 ### <a name="to-set-up-cost-allocations"></a>Para configurar asignaciones de costo  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Asignación de costos** y, a continuación, elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Asignación de costos** y, luego, elija el vínculo relacionado.  
 2.  En la página **Asignación costos**, elija la acción **Editar**.  
 3.  Especifique un identificador para el origen de asignación en el campo **ID**.  
 4.  Defina un nivel como un número entre 1 y 99 en el campo **Nivel**. El registro de la asignación seguirá el orden de los niveles.  
@@ -82,7 +82,7 @@ Este tema describe cómo definir tres nuevos objetos de costo de destino de asig
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Para definir el centro de costo PROD de origen de asignación en la ficha desplegable General  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Asignación de costos** y, a continuación, elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Asignación de costos** y, luego, elija el vínculo relacionado.  
 2.  En la página **Asignación costos**, elija la acción **Nuevo**.  
 3.  En el campo **ID**, presione Entrar o escriba un Id.  
 4.  En el campo **Nivel**, introduzca **1**.  
@@ -119,7 +119,7 @@ Este tema muestra un ejemplo de cómo definir asignaciones mediante el método d
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Para definir las asignaciones dinámicas basándose en los productos vendidos el año anterior  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Asignaciones de costos** y, a continuación, elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Asignación de costos** y, luego, elija el vínculo relacionado.  
 2.  En la página **Asignación costos**, elija la acción **Nuevo**.  
 3.  En el campo **ID**, presione Entrar o escriba un Id.  
 4.  En el campo **Nivel**, introduzca **1**.  
