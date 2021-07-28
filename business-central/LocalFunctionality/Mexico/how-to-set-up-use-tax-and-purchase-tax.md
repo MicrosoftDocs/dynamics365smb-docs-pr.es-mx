@@ -1,6 +1,6 @@
 ---
-title: Cómo configurar el impuesto sobre servicios e impuesto a las compras [MX]
-description: La definición de impuesto sobre las ventas comprende los impuestos que pagan las empresas por usar productos en la versión mexicana
+title: Configurar el impuesto de importación y el impuesto sobre las compras [MX]
+description: En este tema se explica el procedimiento para configurar y usar el impuestos sobre las ventas y el impuesto sobre las compras que las empresas pagan en la versión de México.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b43c2a0a25f742bbbc19f8540a9732d00598367c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5abe624dbf00c01205108eeaf5589795174e4c19
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771407"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320704"
 ---
 # <a name="set-up-use-tax-and-purchase-tax-in-the-mexican-version"></a>Cómo configurar el impuesto sobre servicios e impuesto a las compras en la versión mexicana
 

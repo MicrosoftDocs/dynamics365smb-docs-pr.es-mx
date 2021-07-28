@@ -1,6 +1,6 @@
 ---
-title: Administración de costos de inventario | Documentos de Microsoft
-description: La gestión de costos, también conocida como "valoración de existencias", se refiere al registro y la creación de informes sobre los costos operativos de la empresa. Incluye la creación de informes de los costos de existencias y fabricación, es decir, el valor de los productos.
+title: Gestión de costos de inventario
+description: La gestión de costos se refiere al registro y la creación de reportes sobre los costos de explotación de la empresa e incluye la creación de reportes de los costos de fabricación e inventario.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c1dc6cade08a3aab9c5d1cda4b6a2c64995988df
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a0b466979f749e2d42afac06899a9c079f23ff56
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780843"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321898"
 ---
-# <a name="managing-inventory-costs"></a>Administración de costos de inventario
+# <a name="managing-inventory-costs"></a>Gestión de costos de inventario
 La gestión de costos, también conocida como "valoración de existencias", se refiere al registro y la creación de informes sobre los costos operativos de la empresa. Incluye la creación de informes de los costos de existencias y fabricación, es decir, el valor de los productos.   
 
 Es preciso entender los principios básicos, es decir, que los métodos de valoración definen cómo se valoran los productos cuando salen del inventario, que el ajuste de costos actualiza el costo de las mercancías vendidas con los costos de compra asociados registrados tras su venta y que los valores de existencias deben registrarse en cuentas contables exclusivas periódicamente.

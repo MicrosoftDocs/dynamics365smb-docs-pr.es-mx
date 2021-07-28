@@ -1,6 +1,6 @@
 ---
-title: Factura electrónica
-description: Las empresas mexicanas deben tener la posibilidad de enviar facturas de forma electrónica como archivos de Comprobante Fiscal Digital por Internet (CFDI). Business Central admite CFDI para que pueda exportar facturas de ventas y servicios, y notas de crédito como documentos electrónicos que tienen la firma digital requerida.
+title: Facturación electrónica [MX]
+description: Business Central admite CFDI para que pueda exportar facturas de ventas y servicios, y notas de crédito como documentos electrónicos con la firma digital requerida.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: a13ec64d2a3715823ad7895b560d04b7feec9cf3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c0651c4a088b463c46e91f199337e5588a7fcb04
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780150"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322599"
 ---
-# <a name="electronic-invoicing"></a>Factura electrónica
+# <a name="electronic-invoicing-in-the-mexican-version"></a>Facturación electrónica en la versión para México
 Las empresas mexicanas deben tener la posibilidad de enviar facturas de forma electrónica como archivos de Comprobante Fiscal Digital por Internet (CFDI). [!INCLUDE[prod_short](../../includes/prod_short.md)] admite CFDI para que pueda exportar facturas de ventas y servicios, así como notas de crédito con formato de documentos electrónicos que cuenten con la firma digital requerida.  
 
 El archivo de CFDI es un archivo XML que incluye lo siguiente:  

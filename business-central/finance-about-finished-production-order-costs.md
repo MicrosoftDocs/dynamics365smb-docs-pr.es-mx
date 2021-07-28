@@ -1,18 +1,18 @@
 ---
-title: Sobre los costos de la orden de producción terminada | Documentos de Microsoft
-description: La finalización de la orden de producción es una tarea importante para terminar el ciclo de costos del producto que se está fabricando. Los costos finales, incluidas las variaciones en un entorno de costos estándar, los costos reales en un entorno de costos FIFO, promedio o LIFO, se calculan mediante el trabajo por lotes Valorar existencias - movs. producto.
+title: Sobre los costos del orden de producción terminada
+description: Terminar la orden de producción es clave para completar el ciclo de vida de costes de un artículo de producción. Los costos finales se calculan en la tarea por lotes Ajustar costos - movs. producto.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b250a495504272b93565752043c23e1988ca1dab
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9168ea7644390446f4e7a2cd8950d483d43e1013
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781072"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324060"
 ---
 # <a name="about-finished-production-order-costs"></a>Sobre los costos del orden de producción terminada
 La finalización de la orden de producción es una tarea importante para terminar el ciclo de costos del producto que se está fabricando. Los costos finales, entre los que se incluyen las desviaciones en un entorno de costos estándar y los costos reales en un entorno de costos FIFO, promedio o LIFO, se calculan mediante el proceso **Valorar existencias - movs. producto**, que permite realizar la conciliación financiera de los costos de la fabricación de productos. Para que una orden de producción se tenga en cuenta en el ajuste de costos, el estado debe ser **Terminada**. Por ello, es esencial que, al terminarla, el estado de una orden de producción se cambie a **Terminada**.  

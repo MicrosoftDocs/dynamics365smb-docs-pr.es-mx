@@ -1,6 +1,6 @@
 ---
-title: Configurar grupos de impuestos, áreas y jurisdicción en México
-description: Obtenga información sobre se configura el impuesto sobre las ventas y cómo funcionan los grupos, las áreas (estados, condados, municipios/ciudades y localidades) y las jurisdicciones fiscales, y los detalles de los impuestos.
+title: Reportes de impuesto sobre las ventas en México
+description: Obtenga información sobre cómo se configura el impuesto sobre las ventas y cómo funcionan los grupos, las áreas (estados, condados, municipios/ciudades y localidades) y las jurisdicciones fiscales, y los detalles de los impuestos en México..
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: local
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 64d78cfb156b80725efe82b548da27f5432187e6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 76a4b45bfbf7cbf8cd8a7976428dd2d1c9dd4be0
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771410"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320700"
 ---
 # <a name="reporting-sales-tax-in-the-mexico"></a>Informes del impuesto de venta en México
 Cuando empieza por primera vez a usa [!INCLUDE[prod_short](../../includes/prod_short.md)], puede ejecutar una guía asistida de instalación para configurar rápida y fácilmente la información de los impuestos de venta para su empresa, clientes y proveedores. En cuestión de minutos puede empezar a crear documentos de compra y venta con los impuestos calculados correctamente. Si cambia a la opción vacía Mi empresa, recomendamos que empiece usando todas las guías asistidas de instalación incluyendo la de los impuestos de venta. Si prefiere configurar los impuestos sin asistente, este artículo explica qué debe tener en cuenta.  
