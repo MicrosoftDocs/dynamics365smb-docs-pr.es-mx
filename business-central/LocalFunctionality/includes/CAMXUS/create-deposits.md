@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 28ef50ac5e297a81bd51f17cd36f8125c99751ee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 442c1b2fd54c1dd24a42b5cf7e120c71fb85a0ad
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771424"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441385"
 ---
 Puede crear depósitos para llevar un registro de las transacciones que incluya información que pueda aplicarse a facturas y notas de crédito pendientes.  
 
@@ -22,7 +22,7 @@ Las líneas de depósito contienen información sobre los elementos individuales
 Una vez rellenada la información del depósito y las líneas de depósito asociadas, deberá registrarlas para actualizar los movimientos banco, la contabilidad, los movimientos cliente y cualquier otros tipos de movimientos pertinentes. Los depósitos contabilizados se almacenan para su futura referencia y pueden verse en la página **Depósitos contabilizados**.
 
 ## <a name="to-create-a-deposit"></a>Para crear un depósito  
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Depósitos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Depósitos** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  En la ficha desplegable **General**, rellene los campos necesarios tal como se describe en la tabla siguiente.  
 

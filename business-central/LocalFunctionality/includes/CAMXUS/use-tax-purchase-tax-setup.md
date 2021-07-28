@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 652c57d5bc7393c0b3769c1a56587ad2587d74a6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cb954947a9c7b5223c2758d05f037d28a3545dfe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771413"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441365"
 ---
 La definición de impuesto de las ventas comprende los impuestos que pagan las empresas por usar productos:  
 
@@ -17,7 +17,7 @@ La definición de impuesto de las ventas comprende los impuestos que pagan las e
 - Impuesto a las compras (Canadá): el impuesto a las compras es un impuesto de las ventas de Canadá que debe pagar una empresa sobre los productos que compra a los proveedores. Cuando una empresa compra productos que usará para sí misma, el proveedor cobra el impuesto de las ventas apropiado correspondiente a los productos.  
 
 ## <a name="to-set-up-use-tax-for-a-purchase-order"></a>Para configurar el impuesto sobre servicios para un pedido de compra  
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Órdenes de compra** y, a continuación, elija el vínculo relacionado.  
 2.  En la página **Órdenes de compra**, seleccione la acción **Nueva**.  
 3.  En la ficha desplegable **Líneas**, rellene los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](../../../includes/tooltip-inline-tip_md.md)]  
 4.  En la ficha desplegable **Facturación**, llene los campos como se describe en la tabla siguiente.  
@@ -31,7 +31,7 @@ La definición de impuesto de las ventas comprende los impuestos que pagan las e
 5.  Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-use-tax-details"></a>Para configurar detalles del impuesto sobre servicios  
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Detalles de impuestos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Detalles de impuestos** y, a continuación, elija el vínculo relacionado.  
 2.  En la página **Detalles discales**, seleccione la acción **Nuevo**.  
 3.  En la página **Nuevos - Detalles de impuesto**, rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -43,7 +43,7 @@ La definición de impuesto de las ventas comprende los impuestos que pagan las e
 4.  Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-purchase-tax-for-a-company"></a>Para configurar el impuesto a las compras para una empresa  
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información de empresa** y, a continuación, elija el vínculo relacionado.  
 2.  En la página **Información de la empresa**, en la ficha desplegable **Impuesto**, rellene los campos tal y como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
@@ -54,7 +54,7 @@ La definición de impuesto de las ventas comprende los impuestos que pagan las e
 3.  Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-purchase-tax-for-a-location"></a>Para configurar el impuesto a las compras para un almacén  
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacenes** y, a continuación, elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y, a continuación, elija el vínculo relacionado.  
 2.  En la página **Ubicaciones**, seleccione la ubicación requerida y, a continuación, elija la acción **Editar**.  
 3.  En la ficha desplegable **General**, llene los campos como se describe en la tabla siguiente.  
 
@@ -67,8 +67,8 @@ La definición de impuesto de las ventas comprende los impuestos que pagan las e
 4.  Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-purchase-tax-for-non-recoverable-tax"></a>Para configurar el impuesto a las compras para impuestos irrecuperables  
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Detalles de impuestos** y luego elija el enlace relacionado.  
-2.  En la página **Detalles discales**, seleccione la acción **Nuevo**.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Detalles de impuestos** y, a continuación, elija el vínculo relacionado.  
+2.  En la página **Detalles de impuestos**, seleccione la acción **Nuevo**.  
 3.  Active la casilla de verificación **Gastar/Capitalizar**.  
 
     > [!NOTE]  
