@@ -1,6 +1,6 @@
 ---
-title: Configurar una declaración de IVA | Documentos de Microsoft
-description: Configurar una nueva declaración de IVA
+title: Configurar una nueva declaración de IVA
+description: En este tema se explica cómo configurar una plantilla de declaración de IVA y nombres de declaración de IVA para cumplir los cambiantes requisitos de la autoridad fiscal.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8a7373a22cff16a32fe92bf2f2d9064d2f12e950
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 322a501a4b1d404ef39523e93b45409eb60d7c4b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775462"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444398"
 ---
 # <a name="set-up-a-vat-statement"></a>Configurar una nueva declaración de IVA
 
@@ -25,7 +25,7 @@ Las autoridades fiscales pueden modificar, y lo hacen, sus requisitos para regis
 ## <a name="to-define-a-vat-statements"></a>Para definir una declaración de IVA
 Las declaraciones de IVA le permiten calcular el importe de liquidación de IVA de un determinado periodo, por ejemplo, un trimestre.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Declaraciones de IVA** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Declaraciones de IVA** y, luego, elija el vínculo relacionado.  
 2. Elija el campo **Nombre** y después **Nuevo** en la página **Nombres de declaración de IVA**.
 3. Rellene los campos requeridos. Por lo general, desea tener una configuración para cada combinación de grupo de registro de IVA de negocio/grupo de registro IVA de producto. Para los números de fila tiene sentido usar números o códigos equivalentes como en su declaración de IVA oficial [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 

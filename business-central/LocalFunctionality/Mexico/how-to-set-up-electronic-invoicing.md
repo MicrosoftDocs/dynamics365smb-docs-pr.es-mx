@@ -1,6 +1,6 @@
 ---
-title: Procedimiento para configurar la facturación electrónica
-description: Para poder enviar documentos electrónicos, primero debe configurar Business Central para asegurarse de que el número de identificación fiscal (RFC), el número de identificación personal (CURP) y los identificadores de inscripción estatal estén disponibles para la empresa y para todos sus clientes y proveedores.
+title: Procedimiento para configurar la facturación electrónica [MX]
+description: Si desea enviar documentos electrónicos, primero debe configurar Business Central para asegurarse de que se hayan establecido los números de identificación necesarios.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 176552f90768bd29ab653092d9f26ba101137f35
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 04b6f5ff26e33b31f2c5e0ba03f6b9c3b287f912
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780146"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442905"
 ---
-# <a name="set-up-electronic-invoicing"></a>Configurar la facturación electrónica
+# <a name="set-up-electronic-invoicing-in-the-mexican-version"></a>Configurar la facturación electrónica en la versión para México
 
 Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[prod_short](../../includes/prod_short.md)] para asegurarse de que el número de identificación fiscal (RFC), el número de identificación personal (CURP) y los identificadores de inscripción estatal estén disponibles para la empresa y para todos sus clientes y proveedores. Además, debe configurar los parámetros necesarios para el envío de facturas electrónicas a clientes y proveedores. Tales parámetros incluyen la huella digital del certificado, es decir, el certificado que recibe de la autoridad fiscal mexicana (SAT).  
 
@@ -28,7 +28,7 @@ Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[pr
 
 ## <a name="to-set-up-company-information"></a>Para configurar la información de la empresa  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame, escriba Configuración asistida.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información de empresa** y, a continuación, elija el vínculo relacionado.  
 2. En la página **Información de la empresa**, en la ficha desplegable **Impuesto**, rellene los campos tal y como se describe en la tabla siguiente.  
 
     |Campo|Description|  
@@ -40,7 +40,7 @@ Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[pr
 
 ## <a name="to-set-up-general-ledger-information"></a>Para configurar la información contable  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad** y, a continuación, elija el vínculo relacionado.  
 2. En la página **Configuración contabilidad**, en la ficha desplegable **Factura electrónica**, llene los campos como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
@@ -56,7 +56,7 @@ Como alternativa, puede solicitar a su Microsoft Certified Partner que modifique
 
 Finalmente, debe agregar la información sobre sus clientes y proveedores. En la siguiente sección se describe cómo especificar esta información a los clientes, pero se deben especificar los mismos campos para los proveedores.
 
-1. Elija el ícono ![Una tercera bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), ingrese **Tarjeta de cliente**, y luego elija el enlace relacionado.
+1. Elija el icono ![Tercera bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ficha de cliente** y, a continuación, elija el vínculo relacionado.
 2. En la ventana **Tarjeta del cliente**, en la ficha desplegable **Facturación**, llene los campos como se describe en la tabla siguiente.
 
     |Campo|Description|

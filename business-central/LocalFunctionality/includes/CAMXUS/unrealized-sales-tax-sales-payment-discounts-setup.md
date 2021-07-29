@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a5c15b1f1542bb442c76d4da230a7f655bb6fc92
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 35d7ee3f999cf67c8a22240cd65a3ec63ea4480c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773271"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442919"
 ---
 Puede utilizar la página **Configuración de contabilidad** para configurar el impuesto a las ventas. También puede configurar importes máximos de corrección para limitar los importes de corrección de impuestos que se introducen en concepto de ventas y compras. Esto le permite sobrescribir el impuesto calculado cuando existen diferencias de redondeo entre lo calculado en la orden de compra y lo calculado en la factura de compra del proveedor.  
 
@@ -17,7 +17,7 @@ Puede utilizar la página **Configuración de contabilidad** para configurar el 
 > Si trabaja con impuestos especiales, el sistema no le permite cambiar el campo **Importe fiscal** en la página **Estadísticas** por una factura, por ejemplo para ajustar el redondeo. Por lo tanto, si ha establecido un impuesto especial con más de dos decimales y experimenta una diferencia de redondeo en comparación con las facturas de su proveedor, entonces debe manejar la diferencia de redondeo contabilizando una entrada de libro mayor adicional para que el total coincida con el importe del documento. Esta contabilización podría hacerse en una cuenta de gastos dedicada al redondeo de la cantidad.
 
 ## <a name="to-set-up-unrealized-sales-tax"></a>Para configurar impuestos a las ventas no realizados  
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad** y, a continuación, elija el vínculo relacionado.  
 2.  En la página **Configuración de contabilidad**, en la ficha desplegable **General**, llene los campos como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
@@ -28,7 +28,7 @@ Puede utilizar la página **Configuración de contabilidad** para configurar el 
 3.  Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-unrealized-tax-for-jurisdictions"></a>Para configurar impuestos no realizados para jurisdicciones  
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Jurisdicción de impuestos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Jurisdicciones impuesto** y, a continuación, elija el vínculo relacionado.  
 2.  En la página **Jurisdicciones de impuesto**, seleccione la acción **Editar lista**.  
 3.  Rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -41,7 +41,7 @@ Puede utilizar la página **Configuración de contabilidad** para configurar el 
 4.  Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-adjustments-for-payment-discounts-in-a-tax-posting-group"></a>Para configurar ajustes para descuentos de pagos en un grupo contable de impuestos  
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración contable de impuestos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de registro de impuestos** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la acción **Editar**.  
 3.  En la página **Tarjeta de config. grupos registro IVA**, active la casilla de verificación **Ajuste para dto. p. p**.  
 
@@ -50,13 +50,13 @@ Puede utilizar la página **Configuración de contabilidad** para configurar el 
 4.  Elija el botón **Aceptar**.  
 
 ## <a name="to-set-up-maximum-tax-correction-amounts"></a>Para configurar los importes máximos de corrección de impuestos  
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de ventas y cobros** y, a continuación, elija el vínculo relacionado.  
 2.  En la página **Configuración cobros ventas**, en la ficha desplegable **General**, active la casilla de verificación **Permitir diferencia impto**.  
 3.  Elija el botón **Aceptar**.  
-4.  Elija el icono ![Bombilla que abre la función Dígame](../../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de compras y pagos** y luego elija el enlace relacionado.  
+4.  Elija el icono ![Bombilla que abre la función Dígame.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de compras y pagos** y, a continuación, elija el vínculo relacionado.  
 5.  En la página **Configuración compras y pagos**, en la ficha desplegable **General**, active la casilla de verificación **Permitir diferencia impto**.  
 6.  Elija el botón **Aceptar**.  
-7.  Elija el icono ![Bombilla que abre la función Dígame](../../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.  
+7.  Elija el icono ![Bombilla que abre la función Dígame.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad** y, a continuación, elija el vínculo relacionado.  
 8.  En la página **Dif. impto. máx. permitida**, en el campo **Configuración de contabilidad**, indique el importe máximo de corrección de impuesto permitido para la divisa local.  
 
     > [!NOTE]  
