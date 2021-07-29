@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 877aec31b99fe23be648ec1f443c600ef9b557b4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 36bc1ac794b47315cc6c33308d2c71ba4b4c4f4b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771406"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446512"
 ---
 # <a name="set-up-pac-web-services"></a>Configuración de servicios web PAC
 Para enviar facturas y notas de crédito de forma electrónica, primero debe especificar uno o varios proveedores del sello electrónico que debe incluirse en las facturas de México.  
@@ -30,7 +30,7 @@ Si el PAC ofrece el servicio de cancelación de documentos firmados, debe especi
 
 ## <a name="to-set-up-a-pac-web-service"></a>Para configurar el servicio web del PAC  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Servicios web PAC** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame, escriba Configuración asistida.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Servicios web de PAC** y, a continuación, elija el vínculo relacionado.  
 2.  Rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
