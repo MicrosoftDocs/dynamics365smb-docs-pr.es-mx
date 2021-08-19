@@ -236,7 +236,6 @@
 #### [Recopilación de datos de configuración de cliente](admin-gather-customer-setup-values.md)
 #### [Prepararse para migrar datos del cliente con plantillas](admin-use-templates-to-prepare-customer-data-for-migration.md)
 #### [Migrar datos del cliente](admin-migrate-customer-data.md)
-#### [Crear paquetes de configuración de empresa personalizados](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Sugerencias y trucos: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Configuración del correo electrónico
 #### [Configurar correo electrónico](admin-how-setup-email.md)
@@ -534,7 +533,11 @@
 #### [Actualizar costos estándar](finance-how-to-update-standard-costs.md)
 #### [Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### [Conciliar costos de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+#### Creación de informes de costos y conciliación con la contabilidad
+##### [Creación de informes de costos](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Conciliar costos de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+##### [Supervisar el progreso y el rendimiento del trabajo](projects-how-monitor-progress-performance.md)
+#### [Ajustar y conciliar el costo de inventario con la contabilidad general con cola de proyectos](finance-adjust-reconcile-inventory-cost-job-queue.md)
 
 ### Gestión del flujo de caja
 #### [Descripción del flujo de caja](finance-cash-flow-overview.md)
@@ -722,6 +725,8 @@
 ### [Ejecutar la planificación completa, MPS o MRP](production-how-to-run-mps-and-mrp.md)
 ### [Replanificar o actualizar órdenes de producción directamente](production-how-to-replan-refresh-production-orders.md)
 ### [Realizar un seguimiento de las relaciones entre demanda y suministro](production-how-track-demand-supply.md)
+### [Hoja de demanda](production-about-planning-functionality.md#requisition-worksheet)
+### [Mensajes de acción](production-how-to-run-mps-and-mrp.md#action-messages)
 <!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
 <!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
@@ -1604,9 +1609,9 @@
 ### [Inspección de páginas](across-inspect-page.md)
 ### [Ver bloqueos de base de datos](admin-view-database-locks.md)
 ### [Visualización de información de tabla](admin-view-table-information.md)
-### [Crear un entorno aislado](across-how-create-sandbox-environment.md)
 ### [Habilitación de nuevas características de antemano](admin-feature-management.md)
 ### [Incorporación de usuarios con listas de comprobación](admin-checklist.md)
+### [Ambientes de espacio aislado](across-how-create-sandbox-environment.md)
 ## Personalizar Business Central
 ### [Resumen de personalización](ui-customizing-overview.md)
 ### [Personalizar páginas para perfiles](ui-personalization-manage.md)

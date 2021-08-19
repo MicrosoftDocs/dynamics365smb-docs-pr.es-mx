@@ -1,6 +1,6 @@
 ---
 title: Registrar varios documentos al mismo tiempo
-description: En lugar de registrar documentos individuales uno por uno, puede seleccionar varios documentos no registrados en una lista para su registro inmediato o programado por lotes.
+description: Aprenda a seleccionar varios documentos no publicados en una lista para la publicación por lotes inmediata o programada en Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4920e363af9b35afb4369682ca0310f095b02bb0
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446058"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649698"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Registrar varios documentos al mismo tiempo
 
@@ -78,7 +78,7 @@ Si la cola de proyectos no puede registrar el pedido de venta, cambie el estado 
 1. Desde el documento que ha intentado registrar con el registro en segundo plano, seleccione el campo **Estado de la cola de proyectos**, que contendrá **Error**.
 2. Revise el mensaje de error y corrija el problema.
 
-Alternativamente, puede revisar si el pedido de ventas se publicó correctamente en la página **Movs. registro cola proyecto**. Para obtener más información, consulte [Para ver el estado o los errores en la cola de proyectos](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
+Alternativamente, puede revisar si el pedido de ventas se publicó correctamente en la página **Movs. registro cola proyecto**. Para obtener más información, consulte la sección [Supervisar la cola de proyectos](#monitor-the-job-queue).
 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Para crear un movimiento de la cola de proyectos para el registro por lotes de pedidos de ventas
 
@@ -117,6 +117,11 @@ El siguiente procedimiento muestra cómo configurar el informe **Reg. lotes pedi
 
 Los pedidos de venta que estén en filtros definidos ahora se registrarán cada día de la semana a las 4:00.
 
+## <a name="monitor-the-job-queue"></a>Supervisar la cola de proyectos
+
+Si configura la publicación en segundo plano con colas de proyectos, conviértalo en una tarea periódica para supervisar la cola de proyectos para detectar cualquier problema. Puede hacer un seguimiento del estado en la página **Movimientos de cola de proyectos**. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).  
+
+Como administrador, puede utilizar [Application Insights](/azure/azure-monitor/app/app-insights-overview) para recopilar y analizar la telemetría que puede utilizar para identificar problemas. Para obtener más información, consulte [Supervisión y análisis de la telemetría](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) en el contenido de desarrolladores y administración.  
 
 ## <a name="see-also"></a>Consulte también
 
