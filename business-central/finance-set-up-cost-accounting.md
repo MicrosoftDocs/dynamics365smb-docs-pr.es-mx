@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0ed9b58b9ceec962d7f55ef5687ac36e11fbd681
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7f6f79ba1f8005363204f48c5ea9b91073b517f7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446376"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588687"
 ---
 # <a name="setting-up-cost-accounting"></a>Configuración de contabilidad de costos
 Antes de empezar a trabajar con la contabilidad de costos, debe realizar tareas de configuración.
@@ -36,7 +36,7 @@ El plan de tipos de costo es similar al catálogo de cuentas de la contabilidad 
 -   Cree el nuevo plan de tipos de costo o agregue nuevos tipos de costo al plan existente de tipos de costo. Debe crear cada tipo de costo nuevo por separado.  
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Para transferir el Catálogo de cuentas de contabilidad al plan de tipos de costo  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de tipos de costo** y, luego, elija el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de tipos de costo** y, luego, elija el vínculo relacionado.  
 2.  Elija la acción **Tomar tipos costo de catálogo ctas**. En el cuadro de diálogo, seleccione el botón **Sí** para confirmar la transferencia. La función utiliza el Catálogo de cuentas para crear un plan de tipos de costo.  
 
     El plan de tipos de costo contendrá todas las cuentas de ingresos en la contabilidad e incluye títulos y subtotales. Puede cambiar el plan de tipos de costo, según sea necesario. Por ejemplo, puede eliminar los tipos de costo existentes duplicados.  
@@ -80,8 +80,8 @@ Existe una relación n:1 entre las cuentas de contabilidad y los tipos de costo 
 |------------------|------------------------------------------------|-------------------------------------------|  
 |Una cuenta de contabilidad para cada tipo de costo|Cuentas contables|Un tipo de costo|  
 |Varias cuentas de contabilidad para un tipo de costo|Intervalo de cuenta de contabilidad, por ejemplo, 7110..7193 para cada cuenta de contabilidad|Para cada cuenta de contabilidad del intervalo, existe únicamente un tipo de costo|  
-|Tipos de costo sin las cuentas de contabilidad correspondientes|<Empty>||  
-|Cuentas de contabilidad cuyos movimientos no se transferirán||<Empty>|  
+|Tipos de costo sin las cuentas de contabilidad correspondientes|\<Empty\>||  
+|Cuentas de contabilidad cuyos movimientos no se transferirán||\<Empty\>|  
 
 ### <a name="cost-types-without-a-relationship-to-the-general-ledger"></a>Tipos de costo sin una relación con la contabilidad  
 Un tipo de costo puede no tener una relación con las cuentas contables si una de las siguientes condiciones es verdadera:  
@@ -98,7 +98,7 @@ Los centros de costo son departamentos que son responsables de los costos y de l
 
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Para transferir los valores de dimensión en la contabilidad al plan de centros de costo  
 1.  Configure una dimensión para que sea la dimensión del centro de costo en la página **Actualizar dimensiones contabilidad costos**. Sólo los valores de esta dimensión se transfieren.  
-2.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de centros de costo** y, luego, elija el vínculo relacionado.  
+2.  Elija el icono ![Bombilla que abre la función Dígame 2.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de centros de costo** y, luego, elija el vínculo relacionado.  
 3.  En la pestaña **Acciones**, en el grupo **Funciones**, seleccione **Tomar centros de costo de dimensión** para transferir los valores de dimensión al plan de centros de costo. La función transfiere los valores de dimensión que definió en el paso 1.  
 
     > [!NOTE]  
@@ -131,7 +131,7 @@ Los objetos de costo son proyectos, productos o servicios de una empresa. El pla
 
 ### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Para transferir valores de dimensión de la contabilidad al plan de objetos de costo  
 1.  Configurar una dimensión para que sea la dimensión del objeto de costo en la página **Actualizar dimensiones CA**. Sólo los valores de esta dimensión se transfieren.  
-2.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de objetos de costo** y, luego, elija el vínculo relacionado.  
+2.  Elija el icono ![Bombilla que abre la función Dígame 3.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de objetos de costo** y, luego, elija el vínculo relacionado.  
 3.  Elija la acción **Tomar objetos costo de dimensión** para transferir los valores de dimensión al plan de objetos de costo. La función transfiere los valores de dimensión que definió en el paso 1.  
 
     > [!NOTE]  

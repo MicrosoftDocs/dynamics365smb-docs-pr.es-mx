@@ -1,7 +1,7 @@
 ---
 title: Conciliar cuentas bancarias
-description: Explica cómo realizar la conciliación bancaria con la página **Conciliación banco**; cómo se concilia el valor de su inventario con el libro mayor.
-author: SorenGP
+description: En este tema se describe cómo conciliar las transacciones en sus cuentas bancarias internas con las transacciones de los estados de cuenta de su banco.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: c87836658bfdf1dc8497e4d8771d77b315733913
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.author: bholtorf
+ms.openlocfilehash: faf13d81c24c2b7ea566f90411b302579c4003ee
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435431"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587820"
 ---
 # <a name="reconcile-bank-accounts"></a>Conciliar cuentas bancarias
 
@@ -27,7 +27,7 @@ A continuación se describe cómo realizar la conciliación bancaria con la pág
 > También puede conciliar bancos en la página **Diario de conciliación de pagos** al procesar los pagos. Todos los movimientos de banco pendientes relacionados con los movimientos de cliente o proveedor se cerrarán cuando seleccione la acción **Registrar pagos y conciliar banco**. Eso concilia automáticamente la cuenta bancaria para los pagos que registró mediante el diario. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]  
-> En las versiones de EE. UU., también puede realizar este trabajo en la página **Hoja de trabajo de conciliación bancaria**, que es más adecuada para cheques y depósitos, pero no ofrece importación de archivos de estado de cuenta bancario. Para usar esta página en lugar de la página **Conciliación banco**, anule la selección del campo **Reconocimiento banc con auto. coinc.** en la página **Configuración de contabilidad**. Para obtener más información, consulte la sección [Conciliar cuentas bancarias](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) en Funcionalidad local para Estados Unidos.
+> En las versiones de EE. UU., también puede realizar este trabajo en la página **Hoja de trabajo de conciliación bancaria**, que es más adecuada para cheques y depósitos, pero no ofrece importación de archivos de estado de cuenta bancario. Para usar esta página en lugar de la página **Conciliación banco**, elimine la selección del campo **Reconocimiento banc con auto. coinc.** en la página **Configuración de contabilidad**. Para obtener más información, consulte la sección [Conciliar cuentas bancarias](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) en Funcionalidad local para Estados Unidos.
 
 Las líneas de la página **Conciliación banco** se dividen en dos paneles. El panel de **Líneas de estado de cuenta bancario** muestra tanto las transacciones bancarias como los movimientos con pagos pendientes. El panel **Movimientos bancarios** muestra los movimientos del banco interno.
 
@@ -42,7 +42,7 @@ Cualquier línea que no pueda coincidir, indicada por un valor en el campo **Dif
 
 | Diferencia | Motivo | Resolución |
 |------------|--------|------------|
-| Una transacción en el banco interno no figura en el estado de cuenta. | La transacción bancaria no se realizó aunque se realizó un registro en [!INCLUDE[prod_short](includes/prod_short.md)]. | Realice la transacción de dinero que falta (o solicite a un deudor que la haga) y luego vuelva a importar el archivo de estado de cuenta o introduzca la transacción manualmente. |
+| Una transacción en el banco interno no figura en el estado de cuenta. | La transacción bancaria no se realizó aunque se realizó un registro en [!INCLUDE[prod_short](includes/prod_short.md)]. | Realice la transacción de dinero que falta (o solicite a un deudor que la haga) y, luego, vuelva a importar el archivo de estado de cuenta de banco o indique la transacción manualmente. |
 | Una transacción en el estado de cuenta no existe como documento o línea de diario en [!INCLUDE[prod_short](includes/prod_short.md)]. | Se realizó una transacción bancaria sin un registro correspondiente en [!INCLUDE[prod_short](includes/prod_short.md)], por ejemplo, un registro de línea de diario para un gasto. | Crea y registra el movimiento que falta. Para obtener información sobre una forma rápida de iniciar esto, consulte [Para crear movimientos faltantes para que coincidan con las transacciones bancarias con](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with). |
 | Una transacción en el banco interno corresponde a una transacción bancaria, pero cierta información es demasiado diferente para dar una coincidencia. | La información, como el importe o el nombre del cliente, se ingresó de manera diferente en relación con la transacción bancaria o el registro interno. | Revise la información y luego haga coincidir manualmente las dos. De manera opcional, corrija la falta de coincidencia de información. |
 
@@ -77,31 +77,44 @@ El panel de las **Líneas del estado de cuenta** se completará de acuerdo con l
 1. En la página **Conciliación banco** seleccione la acción **Proponer líneas**.
 2. En el campo **Fecha inicial** escriba la fecha de registro más antigua para la conciliación de los movimientos.
 3. En el campo **Fecha final**, escriba la fecha de registro que se usó por última vez para la conciliación de los movimientos.
-4. Seleccione la casilla de verificación **Incluir cheques** para proponer movimientos de cheques en lugar de los movimientos correspondientes de la cuenta.
-5. Elija el botón **Aceptar**.
+
+> [!NOTE]
+> Normalmente, la fecha de finalización coincidirá con la fecha especificada en el campo **Fecha estado de cuenta banco**. Sin embargo, si desea conciliar transacciones solo para una parte de un periodo, puede introducir una fecha de finalización diferente. 
+
+1. Seleccione la casilla de verificación **Incluir cheques** para proponer movimientos de cheques en lugar de los movimientos correspondientes de la cuenta.
+1. Elija el botón **Aceptar**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Para conciliar automáticamente líneas de estado de cuenta bancario con movimientos de banco
 
 La página **Conciliación banco** ofrece una funcionalidad de coincidente automática basada en una coincidencia de texto en una línea del estado de cuenta (panel izquierdo) con texto en uno o más movimientos de contabilidad (panel derecho). Tenga en cuenta que puede sobrescribir coincidentes automáticas sugeridas y puede optar por no utilizar coincidente automática. Para obtener más información, consulte [Procedimiento: conciliar las líneas de estado de cuenta con los movimientos de banco manualmente](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
+La conciliación automática combina las movimientos según un conjunto de reglas de aplicación de pagos. Para obtener más información, consulte [Configurar reglas para la liquidación automática de pagos](receivables-how-set-up-payment-application-rules.md). Puede investigar la base de las coincidencias utilizando la acción **Detalles de correspondencia**. Por ejemplo, los detalles incluirán los nombres de los campos que contenían valores coincidentes.  
+
 1. En la página **Conciliación banco** seleccione la acción **Conciliar automáticamente**. La página **Conciliar movimientos** se abre.
 2. En el campo **Tolerancia de datos de transacción (días)**, especifique el intervalo de días antes y después de la fecha de registro del movimiento del banco dentro de la cual la función buscará las fechas de transacciones coincidentes en el estado de cuenta bancario.
 
-    Si especifica cero o deja el campo en blanco la función **Conciliar automáticamente** buscará solo por las fechas de transacción coincidentes en la fecha de registro de movimientos de la cuenta.
+    Si especifica cero o deja el campo en blanco la acción **Conciliar automáticamente** buscará solo por las fechas de transacción coincidentes en la fecha de registro de movimientos de la cuenta.
 3. Elija el botón **Aceptar**.
 
     Todas las líneas del estado de cuenta bancario y los movimientos de banco que pueden conciliarse cambian a fuente verde y la casilla **Liquidado** queda activada.
 4. Para eliminar un coincidencia, seleccione la línea de estado de cuenta bancaria y, a continuación, seleccione la acción **Eliminar conciliación**.
 
-## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Para conciliar manualmente líneas de estado de cuenta bancario con movimientos de banco
+> [!TIP]
+> Puede utilizar una combinación de conciliación manual y automática. Si ha conciliado movimientos manualmente, la conciliación automática no sobrescribirá sus selecciones. 
 
+## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Para conciliar manualmente líneas de estado de cuenta bancario con movimientos de banco
 1. En la página **Conciliar banco** seleccione una línea no conciliada en el panel **Líneas de estado de cuenta bancario**.
 2. En el panel **Movs. bancos**, seleccione uno o varios movimientos de banco que pueden conciliarse con la línea del estado de cuenta bancario seleccionada. Para elegir varias líneas, mantenga presionada la tecla CTRL.
+
+   > [!TIP]
+   > También puede conciliar manualmente varias líneas de estado de cuenta de banco con un asiento de cuenta bancaria. Por ejemplo, esto podría ser útil si su depósito bancario contenía varios métodos de pago, como tarjetas de crédito de diferentes emisores, y su banco los enumera como líneas separadas. 
 3. Seleccione la acción **Conciliar manualmente**.
 
     La línea del estado de cuenta bancario seleccionada y los movimientos de banco seleccionados cambian a fuente verde, y la casilla **Conciliado** en el panel derecho está seleccionado.
 4. Repita los pasos 1 a 3 para todas las líneas del estado de cuenta bancario que no coinciden.
-5. Para eliminar un coincidencia, seleccione la línea de estado de cuenta bancaria y, a continuación, seleccione la acción **Eliminar conciliación**.
+
+> [!TIP]
+> Para eliminar un coincidencia, seleccione la línea de estado de cuenta bancaria y, a continuación, seleccione la acción **Eliminar conciliación**. Si ha conciliado varias líneas de estado de cuenta de banco con un asiento y necesita eliminar una o más de las líneas conciliadas, todas las conciliaciones manuales se eliminan para el asiento cuando elige **Eliminar conciliación**. 
 
 ## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines-with"></a>Para crear movimientos no existentes para coincidir con las líneas del estado de cuenta
 
