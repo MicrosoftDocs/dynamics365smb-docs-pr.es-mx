@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 06/18/2021
+ms.date: 10/14/2021
 ms.author: edupont
-ms.openlocfilehash: c5d81f147fd71ecaf4ea6012f49fdb645e1cef77
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0093becd7fc9d66fcf1fe19d0fef8e96032cf456
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320702"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643907"
 ---
 # <a name="mexico-local-functionality"></a>Funcionalidad local de México
 
@@ -22,11 +22,6 @@ En los temas siguientes se describe la funcionalidad local que es exclusiva de l
 
 * Tributos
     * [Configurar y generar informes DIOT](ui-extensions-setup-and-generate-diot-report-mx.md) **Disponible ahora**
-    * [Impuesto sobre las ventas en México](mexico-sales-tax.md) **Disponible ahora**
-    * [Configurar impuesto sobre servicios e impuesto a las compras](how-to-set-up-use-tax-and-purchase-tax.md) **Disponible ahora**
-    * [Configurar el impuesto sobre las ventas no realizado y los descuentos por pago de ventas](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Disponible ahora**
-    * [Generación de informes de impuesto sobre las ventas en México](mexico-sales-tax.md) **Disponible ahora**
-    * [Crear depósitos](how-to-create-deposits.md) **Disponible ahora**
     * [Tipos identificación de impuestos para México](tax-identification-types-for-mexico.md) **Disponible ahora**
     * [Recálculo del IVA](vat-recalculation.md) **Disponible ahora**
 
@@ -40,6 +35,7 @@ En los temas siguientes se describe la funcionalidad local que es exclusiva de l
 * General
     * [Configurar servicios web PAC](how-to-set-up-pac-web-services.md) **Disponible ahora**
     * [Imprimir informes de solución de problemas](how-to-print-troubleshooting-reports.md) **Disponible ahora**
+    * [Crear depósitos](how-to-create-deposits.md) **Disponible ahora**
 
 ## <a name="see-also"></a>Consulte también
 
