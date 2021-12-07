@@ -24,27 +24,13 @@
 
 ### Detalles de diseño
 #### [Información general de detalles de diseño de aplicaciones](design-details-application-design.md)
-#### Detalles de diseño: Planificación de aprovisionamiento
-##### [Información general de planificación de suministro](design-details-supply-planning.md)
-##### [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)  
-##### [Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)  
-##### [Detalles de diseño: Gestión de directivas de reorden](design-details-handling-reordering-policies.md)  
-##### [Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)  
-##### [Detalles de diseño: Tabla de asignación de planificación](design-details-planning-assignment-table.md)  
-##### [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md)  
-##### [Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md)
 #### Detalles de diseño: Coste de inventario
-##### [Resumen de costos](design-details-inventory-costing.md)
+##### [Detalles de diseño de coste de inventario](design-details-inventory-costing.md)
 ##### [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  
 ##### [Detalles de diseño: Cambiar la valoración de existencias para artículos](design-details-changing-costing-methods.md)
 ##### [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
 ##### [Detalles de diseño: Problema de liquidación de producto conocido](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Detalles de diseño: Ajuste de costo](design-details-cost-adjustment.md)  
-##### Detalles de diseño: Fecha registro en el movimiento de valor de ajuste
-###### [Detalles de diseño: Fecha registro en el movimiento de valor de ajuste](design-details-inventory-adjustment-value-entry-posting-date.md)  
-###### [Mensaje de error: "La fecha de registro no está comprendida en su periodo de fechas de registro permitidas"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-###### [Fecha de registro en el movimiento de valor de ajuste en comparación con el movimiento de origen](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Detalles de diseño: Registro de costo esperado](design-details-expected-cost-posting.md)  
 ##### [Detalles de diseño: Costo promedio](design-details-average-cost.md)  
 ##### [Detalles de diseño: Desviación](design-details-variance.md)  
@@ -58,8 +44,26 @@
 ##### [Detalles de diseño: cuentas de contabilidad](design-details-accounts-in-the-general-ledger.md)
 ##### [Detalles de diseño: Valuación de Inventarios](design-details-inventory-valuation.md)  
 ##### [Detalles de diseño: Revalorización](design-details-revaluation.md)
+#### Detalles de diseño: Fecha registro en el movimiento de valor de ajuste
+##### [Resumen de fecha registro en el movimiento de valor de ajuste](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Mensaje de error: "La fecha de registro no está comprendida en su periodo de fechas de registro permitidas"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Fecha de registro en el movimiento de valor de ajuste en comparación con el movimiento de origen](design-details-inventory-adjustment-value-entry-source-entry.md)
+#### Detalles de diseño: Movimientos de grupo de dimensiones
+##### [Detalles de diseño: Resumen de Movimientos de grupo de dimensiones](design-details-dimension-set-entries-overview.md)
+##### [Detalles de diseño: Búsqueda de combinaciones de dimensiones](design-details-searching-for-dimension-combinations.md)
+##### [Detalles de diseño: Estructura de tablas](design-details-table-structure.md)
+#### Detalles de diseño: Planificación de aprovisionamiento
+##### [Detalles de diseño de Planificación de aprovisionamiento](design-details-supply-planning.md)
+##### [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)  
+##### [Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones](design-details-reservation-order-tracking-and-action-messaging.md)  
+##### [Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)  
+##### [Detalles de diseño: Gestión de directivas de reorden](design-details-handling-reordering-policies.md)  
+##### [Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)  
+##### [Detalles de diseño: Tabla de asignación de planificación](design-details-planning-assignment-table.md)  
+##### [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md)  
+##### [Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md)
 #### Detalles de diseño: Gestión de almacén
-##### [Información general de la gestión de almacenes](design-details-warehouse-management.md)
+##### [Detalles de diseño de Warehouse Management](design-details-warehouse-management.md)
 ##### [Detalles de diseño: Resumen de almacén](design-details-warehouse-overview.md)  
 ##### [Detalles de diseño: Configuración de almacén](design-details-warehouse-setup.md)  
 ##### [Detalles de diseño: Flujo de entrada en almacén](design-details-inbound-warehouse-flow.md)  
@@ -68,7 +72,7 @@
 ##### [Detalles de diseño: Flujo de salida del almacén](design-details-outbound-warehouse-flow.md)  
 ##### [Detalles de diseño: Integración con inventario](design-details-integration-with-inventory.md)
 #### Detalles de diseño: Seguimiento de productos
-##### [Información general de seguimiento de producto](design-details-item-tracking.md)
+##### [Detalles de diseño de Seguimiento de productos](design-details-item-tracking.md)
 ##### [Detalles de diseño: Diseño de seguimiento de productos](design-details-item-tracking-design.md)  
 ##### [Detalles de diseño: Estructura de registro de seguimiento de productos](design-details-item-tracking-posting-structure.md)  
 ##### [Detalles de diseño: registros de seguimiento de productos históricos frente a activos](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -78,14 +82,10 @@
 ##### [Detalles de diseño: Seguimiento de productos y reservas](design-details-item-tracking-and-reservations.md)  
 ##### [Detalles de diseño: Seguimiento de productos en el almacén](design-details-item-tracking-in-the-warehouse.md)
 #### Detalles de diseño: línea de registro en diario general
-##### [Línea de registro en diario general](design-details-general-journal-post-line.md)
+##### [Detalles de diseño de línea de registro en diario general](design-details-general-journal-post-line.md)
 ##### [Descripción de la línea de registro en diario general](design-details-general-journal-post-line-overview.md)  
 ##### [Detalles de diseño: estructura de interfaz de registro](design-details-posting-interface-structure.md)  
 ##### [Detalles de diseño: estructura de motor de registro](design-details-posting-engine-structure.md)  
-#### Detalles de diseño: Movimientos de grupo de dimensiones
-##### [Detalles de diseño: Resumen de Movimientos de grupo de dimensiones](design-details-dimension-set-entries-overview.md)  
-##### [Detalles de diseño: Búsqueda de combinaciones de dimensiones](design-details-searching-for-dimension-combinations.md)  
-##### [Detalles de diseño: Estructura de tablas](design-details-table-structure.md)  
 
 ## Intentarlo
 ### [Versiones de prueba y suscripciones](across-preview.md)
@@ -659,7 +659,7 @@
 ### [Introducir números de documento externo](across-enter-external-document-numbers.md)
 
 
-## Existencias
+## Inventario
 ### [Información general de inventario](inventory-manage-inventory.md)
 ### [Informes de inventario y almacén](inventory-WMS-reports.md)
 ### [Registro de productos nuevos](inventory-how-register-new-items.md)
@@ -703,6 +703,7 @@
 ### [Depreciar o amortizar activos fijos](fa-how-depreciate-amortize.md)
 ### [Cancelar o retirar activos fijos](fa-how-dispose-retire.md)
 ### [Gestionar presupuestos de los activos fijos](fa-how-manage-budgets.md)
+### [Solución de problemas de Movs. activos](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Gestión de relaciones
 ### [Información general de Gestión relaciones](marketing-relationship-management.md)
@@ -983,7 +984,7 @@
 ##### [Pagos y cobros](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
 ##### [Localización de compensaciones para checo (extensión)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
-#### Existencias
+#### Inventario
 ##### [Inventario](LocalFunctionality/Czech/inventory.md)
 #### General
 ##### [Control de usuario extendido](LocalFunctionality/Czech/general.md)
@@ -1241,7 +1242,7 @@
 ##### [Cerrar un ejercicio](LocalFunctionality/Italy/how-to-close-a-fiscal-year.md)
 ##### [Definir importes del debe y el haber](LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts.md)
 ##### [Contraasiento de movimientos de diario](LocalFunctionality/Italy/reversing-journal-entries.md)
-#### Existencias
+#### Inventario
 ##### [Configurar costos iniciales de producto](LocalFunctionality/Italy/how-to-set-up-initial-item-costs.md)
 ##### [Valuación de inventario fiscal](LocalFunctionality/Italy/fiscal-inventory-valuation.MD)
 ##### [Configurar la valuación de inventario fiscal](LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation.md)
@@ -1264,13 +1265,14 @@
 ##### [Tipos de identificación fiscal para México](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Recálculo de IVA](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Facturación electrónica
-##### [Facturación electrónica](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [Configurar la facturación electrónica](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Generar facturas electrónicas](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Facturación electrónica (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
+##### [Configurar servicios web PAC](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
+##### [Configurar la facturación electrónica (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Generar facturas electrónicas (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Carta de Porte albaranes y órdenes de transferencia (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
+#### General
 ##### [Normativa contable electrónica en México](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Realizar pagos electrónicos](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### General
-##### [Configurar servicios web PAC](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Imprimir informes de solución de problemas](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 ##### [Crear depósitos](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
@@ -1451,9 +1453,9 @@
 ##### [Informes estatutarios](LocalFunctionality/Russia/Statutory-Reports.md)
 #### Banca
 ##### [Gestión bancaria](LocalFunctionality/Russia/bank-management.md)
-#### Existencias
+#### Inventario
 ##### [Inventario en la versión rusa](LocalFunctionality/Russia/Inventory.md)
-##### [Config. existencias](LocalFunctionality/Russia/Inventory-Setup.md)
+##### [Configuración de inventario](LocalFunctionality/Russia/Inventory-Setup.md)
 ##### [Documentos de productos](LocalFunctionality/Russia/Item-Documents.md)
 ##### [Actos obligatorios de producto](LocalFunctionality/Russia/Item-Obligatory-Acts.md)
 ##### [Ley de inventario de cobros y pagos INV-17](LocalFunctionality/Russia/Inventory-Act-of-Receivables-And-Payables-INV-17.md)
@@ -1560,7 +1562,7 @@
 ##### [Emitir recordatorios de entrega](LocalFunctionality/Switzerland/how-to-issue-delivery-reminders.md)
 ##### [Generar recordatorios de entrega](LocalFunctionality/Switzerland/how-to-generate-delivery-reminders.md)
 ##### [Imprimir informes de prueba para recordatorios de entrega](LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders.md)
-#### Existencias
+#### Inventario
 ##### [Administración de inventario de Suiza](LocalFunctionality/Switzerland/swiss-inventory-management.md)
 ##### [Imprimir una lista de picking de inventario a partir de un pedido de venta](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
 #### General
