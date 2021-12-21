@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
+ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 2d5f6a7b39ccc5c77ee68d7a62e33bd166551095
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: f1000be46bebe766e8f3dd060f44b98a775c1356
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701576"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889847"
 ---
 # <a name="create-prepayment-invoices"></a>Crear facturas de anticipo
 
@@ -47,6 +47,9 @@ El procedimiento siguiente describe cómo facturar un anticipo de la orden de ve
 
     Si ha especificado un porcentaje de anticipo predeterminado para el cliente o en la pestaña desplegalbe **Anticipo** en este documento, este valor se copia en cada línea. Puede cambiar el contenido del campo **% de anticipo** de la línea.  
 
+    > [!TIP]
+    > Si no aparece el campo **% anticipo**, puede agregarlo a través de la personalización.  Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
+
 4. Para ver el importe de anticipo total, elija la acción **Estadísticas**.
 
     Si desea ajustar el importe de anticipo total para el pedido, puede cambiar los contenidos del campo **Importe anticipo** en la página **Estad. pedido ventas**.  
@@ -72,7 +75,8 @@ Puede emitir facturas de anticipo adicionales para el pedido. Para ello, aumente
 [Facturación de anticipos](finance-invoice-prepayments.md)  
 [Tutorial: Configuración y facturación de anticipos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Personalizar el área de trabajo](ui-personalization-user.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

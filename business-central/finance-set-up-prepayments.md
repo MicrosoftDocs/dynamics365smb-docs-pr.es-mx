@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.search.keyword: prepayment
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 517d815e323f2b1d0e3c120808a5543bff462ff3
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: a09f0cd35c62b65bf690fd785c0fc9a4b4b178d7
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701526"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889831"
 ---
 # <a name="set-up-prepayments"></a>Configurar anticipos
+
 Si desea que sus clientes realicen el pago antes de enviarles un pedido o su proveedor le requiere que efectúe el pago antes de enviarle un pedido, puede utilizar la funcionalidad Anticipo. La funcionalidad Anticipos le permite facturar y cobrar depósitos requeridos de los clientes o remitir depósitos a proveedores y asegurarse de que todos los pagos parciales se contabilicen con una factura. Para obtener más información, consulte [Crear facturas de anticipo](finance-how-to-create-prepayment-invoices.md).
 
 Para poder registrar facturas de anticipo, debe configurar las cuentas auxiliares en la contabilidad y configurar series numéricas para documentos de anticipo. Debe especificar una cuenta para los anticipos relacionados con las ventas y otra cuenta para los anticipos relacionados con las compras. Puede especificar las mismas cuentas auxiliares que se utilizarán para todos los anticipos relacionados con todos los grupos contables empresariales generales o grupos contables de productos generales, o puede especificar cuentas específicas para grupos contables específicos de ventas y compras, respectivamente. Esto depende de los requisitos de su empresa para el seguimiento de los anticipos.  
@@ -23,6 +24,7 @@ Puede definir el porcentaje del importe de línea que se va a facturar para el a
 
 > [!NOTE]
 > Le recomendamos que no utilice un porcentaje de anticipo del 100 % en los siguientes casos:
+>
 > * Si se encuentra en América del Norte. Debido a cómo se calculan los impuestos, un porcentaje de anticipo del 100 % puede generar problemas con las facturas de anticipo.
 > * En todas las regiones, si deduce manualmente un descuento por pago de la factura. Un porcentaje de anticipo del 100 % no dejará automáticamente un monto del cual deducir el descuento. 
 
@@ -33,10 +35,10 @@ Dado que el importe de anticipo pertenece al comprador hasta que haya recibido l
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Para agregar cuentas de anticipo a la configuración de grupos contables  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración grupos contables** y luego elija el enlace relacionado.
-2. En la página **Configuración grupos contables**, rellene los campos siguientes:  
+2. En la página **Configuración grupos contables**, rellene los campos siguientes para las líneas relevantes:  
 
-    - **Cuenta anticipos ventas**  
-    - **Cuenta anticipos compras**  
+    * **Cuenta anticipos ventas**  
+    * **Cuenta anticipos compras**  
 
 > [!TIP]
 > Si no puede ver los campos de la página **Configuración grupos contables**, utilice la barra de desplazamiento horizontal situada en la parte inferior de la página para desplazarse hacia la derecha.  
@@ -46,16 +48,16 @@ Si todavía no ha configurado cuentas de contabilidad para anticipos, puede abri
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Configurar números de serie para documentos de anticipo  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.
-2. En la página **Conf. ventas y cobros**, rellene los campos siguientes:  
+2. En la página **Configuración de ventas y cobros**, en la ficha desplegable **Serie numérica**, complete los siguientes campos:  
 
-   - **Nº fact. anticipo registrada**
-   - **Nº nota crédito anticipo registrado**
+   * **Nº fact. anticipo registrada**
+   * **Nº nota crédito anticipo registrado**
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de compras y pagos** y luego elija el enlace relacionado.
-2. En la página **Conf. compras y pagos:**, rellene los campos siguientes:
+3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de compras y pagos** y luego elija el enlace relacionado.
+4. En la página **Configuración de compras y pagos**, en la ficha desplegable **Serie numérica**, complete los siguientes campos:
 
-    - **Nº fact. anticipo registrada**
-    - **Nº nota crédito anticipo registrado**
+    * **Nº fact. anticipo registrada**
+    * **Nº nota crédito anticipo registrado**
 
 > [!NOTE]  
 > Puede utilizar la misma numeración de serie para las facturas de anticipo y las facturas normales, o bien utilizar numeraciones de serie distintas. Si utiliza series distintas, éstas no deben solaparse, ya que no debe haber ningún número que se repita en ambas series.  
@@ -74,6 +76,9 @@ Puede definir un porcentaje de anticipo predeterminado para un cliente o proveed
 2. Abrir la ficha para un cliente.
 3. Rellene el campo **% de anticipo**.
 4. Repita los pasos para otros clientes o proveedores.  
+
+> [!TIP]
+> También puede acceder a la página **Porcentajes anticipo ventas** desde la ficha de cliente o proveedor.
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Para determinar qué porcentaje de anticipo tiene prioridad  
 
