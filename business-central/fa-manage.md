@@ -1,5 +1,5 @@
 ---
-title: Administrar activos fijos
+title: Administrar activos fijos (contiene video)
 description: Obtenga información sobre la funcionalidad de activos fijos y obtenga un resumen de cómo trabajar con activos fijos ya administrarlos.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 6d6cf9a0efeca2c484d0fd2e1ce06db63f2ac91f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0022ae0c13009108064d758fdd0d6f4894b12bad
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323238"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940587"
 ---
 # <a name="managing-fixed-assets"></a>Administración de activos fijos
 La funcionalidad Activos fijos de [!INCLUDE[prod_short](includes/prod_short.md)] proporciona un resumen de sus activos y asegura una correcta amortización periódica. También le permite realizar un seguimiento de los costos de mantenimiento, gestionar las pólizas de seguros, registrar transacciones de activos fijos y generar diversos informes y estadísticas.

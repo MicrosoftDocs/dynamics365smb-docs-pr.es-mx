@@ -1,8 +1,6 @@
 ---
 title: Configuración de grupos contables | Documentos de Microsoft
 description: Resumen de los grupos contables que puede utilizar para ahorrar tiempo y evitar errores al registrar transacciones.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 04/01/2021
+ms.date: 12/17/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: ed369b94948846ca380a3480e79660a6aafe292a
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588818"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940762"
 ---
 # <a name="setting-up-posting-groups"></a>Configurar los grupos contables
 Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Ahorran tiempo y ayudan a evitar errores al registrar las transacciones. Los valores de transacción se envían a las cuentas especificadas en el grupo contable de dicha entidad. El único requisito es que tenga un catálogo de cuentas. Para obtener más información, vea [Configuración del plan de cuentas](finance-setup-chart-accounts.md).  
@@ -38,9 +36,9 @@ Las tablas siguientes describen los grupos contables con cada división.
 
 | Grupos contables concretos | Descripción |
 | --- | --- |
-| Grupos registro cliente |Defina las cuentas que usará al enviar transacciones de cobros. Si usa existencias y cobros, el grupo contable de negocio general asignado al cliente y el grupo contable de producto general asignado al producto de existencias determinan las cuentas en las que se registran las líneas de pedido de ventas. Consulte "Grupos contables negocio" y "Grupos contables de producto general" en el campo superior **Grupos contables**. Configúrelos en la página **Grupos contables clientes**. |
+| Grupos registro cliente |Defina las cuentas que usará al enviar transacciones de cobros. Si usa un inventario con cobros, el grupo de registro de inventario de negocio general asignado al cliente y el grupo de registro de inventario de producto general asignado al producto del inventario determinan las cuentas en las que se registran las líneas de la orden de venta. Consulte "Grupos contables negocio" y "Grupos contables de producto general" en el campo superior **Grupos contables**. Configúrelos en la página **Grupos contables clientes**. |
 | Grupos registro proveedor |Defina dónde registrar las transacciones de las cuentas de pagos, las cuentas de servicios y las cuentas de descuentos. Esto es similar a los grupos contables de cliente. Configúrelos en la página **Grupos contables proveedores**. |
-| Grupos registro inventario |Defina los grupos de registro de inventario que luego asignará a las cuentas de productos relevantes en la página **Config. registro inventario**. De este modo, al registrar movimientos relativos a un producto, el sistema registrará en la cuenta configurada para la combinación de grupo contable de existencias y almacén asociada al producto. Además, los grupos contables de existencias constituyen una forma ideal de organizar las existencias,de modo que al generar informes, puede dividir los productos por grupo contable. Configúrelos en la página **Grupos contables inventarios**. |
+| Grupos registro inventario |Defina los grupos de registro de inventario que luego asignará a las cuentas de productos relevantes en la página **Config. registro inventario**. De este modo, al registrar movimientos relativos a un producto, el sistema registrará en la cuenta de contabilidad general que se ha configurado para la combinación de grupo de registro de inventario y almacén asociada al producto. Además, los grupos de registro de inventario constituyen una forma ideal de organizar el inventario, de modo que al generar reportes, puede dividir los productos por grupo de registro. Configúrelos en la página **Grupos contables inventarios**. |
 | Grupos registro cuenta bancaria |Defina las cuentas de las cuentas bancarias. Por ejemplo, esto puede simplificar los procesos de seguimiento de las transacciones y de conciliación de cuentas bancarias. Configúrelos en la página **Grupos contables bancos**. |
 | Grupos contables de activos fijos |Defina las cuentas para diferentes tipos de gastos y costos, como los costos de adquisición, los importes de amortización acumulados, los costos de adquisición en venta/baja, la amortización acumulada en baja, la ganancia en venta/baja, la pérdida en venta/baja, los gastos de mantenimiento y los gastos de amortización. Configúrelos en la página **Grupos registro A/F**. |
 
@@ -67,13 +65,24 @@ Al crear un documento de ventas, el encabezado de ventas usa la información de 
 
 * El registro de ingresos (resultado) se determina mediante la combinación del grupo contable de negocio general y el grupo contable de producto general.  
 * El registro de cobros (balance) se determina mediante el grupo contable de cliente.  
-* El registro de existencias (balance) se determina mediante el grupo contable de existencias.  
+* El registro de inventario (balance) se determina mediante el grupo de registro de inventario.  
 * El registro del costo de productos vendidos (resultado) se determina mediante la combinación del grupo contable de negocio general y el grupo contable de producto.  
 
-La configuración determina cuándo se realiza el registro. Por ejemplo, el tiempo se ve afectado por el momento en que realiza actividades periódicas, como registrar el costo de las existencias o ajustar los movimientos de producto de costo.
+La configuración determina cuándo se realiza el registro. Por ejemplo, el tiempo se ve afectado por el momento en que realiza actividades periódicas, como registrar el costo de inventario o ajustar los movimientos de elementos de costo.
 
 ## <a name="copying-posting-setup-lines"></a>Copiar líneas de configuración de grupos contables
 Cuantos más grupos contables de producto y de negocio tenga, más líneas habrá en la página Configuración grupos contables. Ello podría conllevar la introducción de muchos datos para configurar los grupos contables de la empresa. Si bien puede haber muchas combinaciones distintas de grupos contables de negocio y de producto, las distintas combinaciones podrían crear registros en las mismas cuentas de contabilidad. Para limitar la introducción manual de los datos, copie las cuentas de contabilidad de una línea existente en la página **Configuración grupos contables**.
+
+## <a name="set-up-posting-groups-on-the-go"></a>Configurar grupos contables sobre la marcha
+
+Para que los usuarios comiencen más rápido, [!INCLUDE[prod_short](includes/prod_short.md)] ofrece asistencia a través de notificaciones de cuentas de contabilidad general que falten en varias configuraciones de grupos contables en documentos. Para recibir estas notificaciones, asegúrese de que la notificación **Cuenta C/G que falta en grupo de registro o configuración** esté seleccionada en la página **Mis notificaciones**, a la que puede acceder desde el campo **Cambiar cuándo recibo notificaciones** en la página **Mi configuración**.  
+
+De esta manera, cuando trabaje en un documento que usa un grupo de registro o una configuración a la que le falta una cuenta de contabilidad general requerida, recibirá una notificación. Elija el vínculo en la notificación para abrir una página donde puede realizar los cambios relevantes, siempre que tenga permiso para hacerlo.  
+
+> [!NOTE]
+> Para llevarlo directamente al grupo contable o configuración al que le falta una cuenta de contabilidad general, [!INCLUDE[prod_short](includes/prod_short.md)] creará una configuración o grupo contable que servirá como marcador. Los grupos contables y las configuraciones son una forma para que el contable controle cómo se registran los movimientos en la contabilidad general, por lo que es posible que la creación al momento de grupos contables y configuraciones no esté permitida en su organización.  
+> 
+> En ese caso, desactive la notificación **Cuenta C/G que falta en grupo de registro o configuración** y, a continuación, trabaje con su contable para realizar los cambios relevantes en el grupo contable, la configuración o su documento. Este es un paso importante, porque una vez que se contabilizan los documentos, los grupos contables o configuraciones incorrectamente utilizados no se pueden eliminar porque se han creado movimientos de contabilidad general para ellos. 
 
 ## <a name="troubleshooting-posting-group-errors"></a>Solución de problemas de errores de grupos de publicación
 Los grupos de publicación son uno de los conceptos más avanzados para configurar en [!INCLUDE[prod_short](includes/prod_short.md)]. Si no están configurados correctamente, pueden ocurrir errores al registrar documentos o líneas de diario. Por ejemplo, estos errores generalmente se deben a un error en cómo se asignan las cuentas de contabilidad o en cómo se combinan los grupos de registro.

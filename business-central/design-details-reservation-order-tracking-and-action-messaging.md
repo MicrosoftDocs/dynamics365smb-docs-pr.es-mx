@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: f814157dc11737074b1a4b1a83545615c2f4c64d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4671954cd059360e4f16db5cb4a4faf3ce01aff4
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442321"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949081"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones
 El sistema de reservas es completo e incluye las características correlacionadas y paralelas de seguimiento de pedidos y mensajes de acción.  
@@ -48,7 +48,7 @@ El sistema de reservas es completo e incluye las características correlacionada
 
 ||Campo en T27|Tabla de origen|Filtro de tabla|Campo de origen|  
 |-|------------------|------------------|------------------|------------------|  
-|**Existencias**|Existencias|Mov. producto|N/D|Cantidad|  
+|**Inventario**|Inventario|Mov. producto|N/D|Cantidad|  
 |**Recep. previstas**|Recep. (cdad.) O.P. p.f.|Lín. orden prod.|= Planif. en firme|Cdad. pendiente (base)|  
 |**Recep. previstas**|Recep. (cdad.) O.P. lanz.|Lín. orden prod.|= Lanzados|Cdad. pendiente (base)|  
 |**Recep. previstas**|Cdad. en pedido de ensamblado|Encabezado de ensamblado|= Pedido|Cdad. pendiente (base)|  
@@ -104,7 +104,7 @@ El sistema de reservas es completo e incluye las características correlacionada
 >  El sistema de seguimiento de pedidos compensa las existencias disponibles a medida que los pedidos entran en la red de pedidos. Esto implica que el sistema no priorice dé prioridad a los pedidos que puedan ser más urgentes en cuanto a la fecha de vencimiento. Por lo tanto, depende de la lógica del sistema de planificación o del conocimiento del planificador cambiar dichas prioridades de una forma significativa.  
 
 > [!NOTE]  
->  La directiva de seguimiento de pedidos y la función Tomar mensajes acción no están integradas con los trabajos. Esto significa que no se hace seguimiento automático de la demanda relacionada con un trabajo. Al no hacerse un seguimiento, podría hacer que se hiciera un seguimiento de un reabastecimiento existente con información de trabajo hacia otra demanda, por ejemplo, un pedido de venta. Por tanto, puede darse el caso de que haya información no sincronizada sobre las existencias disponibles.  
+>  La directiva de seguimiento de pedidos y la función Tomar mensajes acción no están integradas con los trabajos. Esto significa que no se hace seguimiento automático de la demanda relacionada con un trabajo. Al no hacerse un seguimiento, podría hacer que se hiciera un seguimiento de un reabastecimiento existente con información de trabajo hacia otra demanda, por ejemplo, un pedido de venta. Por tanto, puede darse el caso de que haya información no sincronizada sobre el inventario disponible.  
 
 ### <a name="the-order-network"></a>Red de pedidos  
  El sistema de seguimiento de pedidos se basa en el principio de que la red de pedidos debe estar siempre en un estado de equilibrio, en el que cada demanda que entre en el sistema se compense con un suministro correspondiente y viceversa. El programa lo proporciona mediante la identificación de los vínculos lógicos entre todos los movimientos de demanda y de suministro en la red de pedidos.  

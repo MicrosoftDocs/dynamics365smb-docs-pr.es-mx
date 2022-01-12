@@ -1,5 +1,5 @@
 ---
-title: Asignar cargos de producto a ventas y compras
+title: Asignar cargos de producto a ventas y compras (contiene vídeo)
 description: Asigne cargos de productos cuando necesite que sus productos de inventario carguen costos adicionales, tales como fletes y manipulación física en los que incurra al comprar o vender artículos.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 9ef440a79cec7c59fe6aa7c6cfe34c441817bad5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f44b2133aca930f0009f7cb6efa25b89a89764ec
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436912"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940387"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Usar los cargos de producto para costos comerciales adicionales
 Para asegurarse de la valoración correcta, sus productos de inventario deben cargar costes adicionales, tales como fletes, manipulación física, seguros y transporte en los que incurra al comprar o vender artículos. En el caso de las compras, el costo de descarga de un producto comprado se compone del precio de compra del proveedor más todos los cargos directos de producto adicionales que se pueden asignar a recepciones o envíos de devolución individuales. En el caso de las ventas, conocer el costo de envío de los productos vendidos es tan importante para la empresa como conocer el costo de los productos comprados.
@@ -38,7 +38,7 @@ Para los documentos de compra y de venta, puede asignar un coste de producto de 
 >   Puede asignar cargos de artículos a pedidos, facturas y abonos para ventas y compras. Los procedimientos siguientes describen cómo gestionar los cargos de producto en una factura de compra. Los pasos son parecidos a los de los documentos de compra y venta.
 
 ## <a name="example"></a>Ejemplo:
-Este vídeo muestra cómo gestionar un costo de remisión adicional como parte de la valoración de existencias.
+En este video se muestra cómo gestionar un costo de envío adicional como parte de la valoración de inventario.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 

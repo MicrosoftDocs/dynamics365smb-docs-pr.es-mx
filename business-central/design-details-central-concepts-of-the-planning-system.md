@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: ddf848c3fb4845f802276843dfa6521eca20f896
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3c459ab6c4056b40c5e83db70a0cafab48359a1
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442496"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949105"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Detalles de diseño: Conceptos centrales del sistema de planificación
 
@@ -27,7 +27,7 @@ Se supone que el planificador de una empresa, como un comprador o un planificado
 
 El sistema de planificación se basa en la demanda de cliente anticipada y real, como los pedidos previstos y de venta. Si se ejecuta el cálculo de la planificación, la aplicación sugerirá acciones concretas al usuario en relación con un posible aprovisionamiento desde los proveedores, departamentos de producción o de ensamblado o transferencias desde otros almacenes. Estas acciones sugeridas podrían ser crear nuevas órdenes de suministro, como órdenes de compra u órdenes de producción. Si ya hay órdenes de suministro, las acciones sugeridas pueden ser aumentar o acelerar las órdenes para satisfacer los cambios de la demanda.  
 
-Otro objetivo del sistema de planificación es el de garantizar que las existencias no aumentan innecesariamente. En el caso de un descenso de la demanda, el programa de planificación sugerirá al usuario que se pospongan o cancelen algunos de las órdenes de suministro existentes, o que se reduzcan sus cantidades.  
+Otro objetivo del sistema de planeación es el de garantizar que el inventario no aumente innecesariamente. En el caso de un descenso de la demanda, el programa de planificación sugerirá al usuario que se pospongan o cancelen algunos de las órdenes de suministro existentes, o que se reduzcan sus cantidades.  
 
 MRP y MPS, Calc. plan. saldo periodo y Calc. planif. regenerativa son funciones dentro de una codeunit que contiene la lógica de planificación. No obstante, el cálculo del plan de aprovisionamiento implica a distintos subsistemas.  
 
@@ -87,7 +87,7 @@ Para obtener más información, consulte [Conexiones de seguimiento de pedidos d
 
 Al establecer un plan, es importante la secuencia de los cálculos para que el trabajo se realice en un intervalo de tiempo razonable. Además, la priorización de los requisitos y los recursos desempeña una importante función a la hora de obtener los mejores resultados.  
 
-El sistema de planificación en [!INCLUDE[prod_short](includes/prod_short.md)] se basa en la demanda. Los productos de primer nivel se deben planificar antes que los productos de nivel inferior, ya que el plan para productos de primer nivel puede generar una demanda adicional para los productos de nivel inferior. Esto significa, por ejemplo, que las ubicaciones minoristas deben planificarse antes de que se planifiquen los centros de distribución, porque el plan de una ubicación minorista puede incluir demanda adicional del centro de distribución. En un nivel de contrapartida detallado, también significa que una orden de venta no debe desencadenar una nueva orden de suministro si una orden de suministro ya lanzada puede cubrir la orden de venta. Del mismo modo, no se debe asignar un suministro que incluya un número de lote específico para cubrir una demanda genérica si otra demanda requiere este lote concreto.  
+El sistema de planificación en [!INCLUDE[prod_short](includes/prod_short.md)] se basa en la demanda. Los productos de primer nivel se deben planificar antes que los productos de nivel inferior, ya que el plan para productos de primer nivel puede generar una demanda adicional para los productos de nivel inferior. Esto significa, por ejemplo, que las ubicaciones minoristas deben planificarse antes de que se planifiquen los centros de distribución, porque el plan de una ubicación minorista puede incluir demanda adicional del centro de distribución. En un nivel de contrapartida detallado, también significa que una orden de venta no debe desencadenar una nueva orden de suministro si una orden de suministro ya liberada puede cubrir la orden de venta. Del mismo modo, no se debe asignar un suministro que incluya un número de lote específico para cubrir una demanda genérica si otra demanda requiere este lote concreto.  
 
 ### <a name="item-priority--low-level-code"></a>Prioridad de producto / Cód. nivel más bajo
 
@@ -163,7 +163,7 @@ Para obtener más información sobre los procedimientos de planificación autom�
 
 La demanda y el aprovisionamiento pueden llevar códigos de variante y códigos de almacén que se deben respetar cuando el sistema de planificación salde la demanda y el aprovisionamiento.  
 
-El sistema trata los códigos de variante y de ubicación como dimensiones de producto en una línea de pedido de venta, un movimiento de contabilidad, etc. Por consiguiente, se calcula un plan para cada combinación de variante y almacén, como si la combinación fuera un número de producto aparte.  
+El sistema trata los códigos de variante y de almacén como dimensiones de producto en una línea de la orden de venta, un movimiento contable de inventario, etc. Por consiguiente, se calcula un plan para cada combinación de variante y almacén, como si la combinación fuera un número de producto aparte.  
 
 En lugar de calcular cualquier combinación teórica de variante y ubicación, la aplicación solo calcula las combinaciones que existen realmente en la base de datos.  
 
@@ -261,7 +261,7 @@ Se mostrará la advertencia de excepción si el inventario disponible previsto c
 
 Infringir el nivel de inventario de seguridad está considerado una excepción debido a que no debería ocurrir si se configura correctamente el punto de reorden. Para obtener más información, consulte [Función del punto de reorden](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
-En general, las propuestas de pedido excepcionales garantizan que las existencias disponibles proyectadas nunca será menor que el nivel de inventario de seguridad. Esto significa que la cantidad propuesta es justo suficiente como para cubrir las existencias de seguridad, sin tener en cuenta los parámetros de planificación. Sin embargo, en algunos ejemplos, se considerarán modificadores de pedido.  
+En general, las propuestas de órdenes excepcionales garantizan que el inventario disponible proyectado nunca será menor que el nivel de inventario de seguridad. Esto significa que la cantidad propuesta es justo suficiente como para cubrir las existencias de seguridad, sin tener en cuenta los parámetros de planificación. Sin embargo, en algunos ejemplos, se considerarán modificadores de pedido.  
 
 > [!NOTE]  
 >  El sistema de planificación puede haber consumido el stock de seguridad intencionadamente y, a continuación, lo repondrá de forma inmediata. Para obtener más información, consulte [El stock de seguridad se puede consumir](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).

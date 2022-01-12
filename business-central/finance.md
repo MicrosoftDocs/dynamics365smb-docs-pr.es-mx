@@ -1,5 +1,5 @@
 ---
-title: Gestión financiera
+title: Administración financiera (contiene vídeo)
 description: Obtenga información sobre cómo Business Central satisface sus necesidades de gestión financiera, contabilidad, auditoría y teneduría de libros.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 842c2723fb62775e35673614c609257fe9439115
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: fd83ef3f2930900aae70fafa9489bb8f7c01f713
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326899"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7939864"
 ---
 # <a name="financial-management"></a>Gestión financiera
 
@@ -33,7 +33,7 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 | Concilie cuentas bancarias y transfiera fondos entre cuentas bancarias. |[Conciliar bancos](bank-manage-bank-accounts.md) |
 |Configurar los socios de empresas vinculadas y procesar transacciones, manual o automáticamente, entre las entidades jurídicas dentro de la misma empresa.|[Gestión de transacciones entre empresas vinculadas](intercompany-manage.md)|
 |Analice los costos de administrar su empresa asignando costos reales y presupuestados de operaciones, departamentos, productos y proyectos a los centros de costos.|[Contabilidad para costos](finance-manage-cost-accounting.md)|
-|Administrar variaciones de existencias y costos de fabricación, crear informes de costos y conciliar costos con la contabilidad.|[Administración de costos de inventario](finance-manage-inventory-costs.md)|
+|Administrar costos de inventario y fabricación, crear reportes de costos y conciliar costos con la contabilidad general.|[Administración de costos de inventario](finance-manage-inventory-costs.md)|
 | Obtenga información sobre el libro mayor y el plan de cuentas. |[Descripción de contabilidad y plan de cuentas](finance-general-ledger.md) |
 |Combine movimientos de contabilidad de varias empresas en una empresa consolidada virtual para el análisis financiero.|[Consolidar los datos financieros de varias empresas](finance-consolidated-company-reporting.md)|
 | Agregue dimensiones para la inteligencia empresarial más completa. |[Trabajar con dimensiones](finance-dimensions.md) |
