@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 10140, 10141, 10143,10144,10146,10147,10148,36646
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 12ba55b056bbd5e8d0e15229391d9ffaad0e56b9
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: bd4fe53a2121f4f57612f40ab05998573d98b431
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325527"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947242"
 ---
 # <a name="create-deposits-in-the-mexican-version"></a>Cómo crear depósitos en la versión mexicana
 
