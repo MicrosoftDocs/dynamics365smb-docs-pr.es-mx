@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 10458, 10459, 27001, 27002,27010,27011,27011, 27012, 27013,27014,27015
+ms.search.form: 10458, 10459, 27001, 27002, 27003, 27010,27011, 27011, 27012, 27013,27014,27015, 27016, 27017, 27018, 27040, 27041, 27042, 27043, 27044
 ms.date: 11/25/2021
 ms.author: edupont
-ms.openlocfilehash: 542b1edc80c76f8a2ba6bd6736e0148bcea93ea5
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 4e961b6b3ad09a2b5eb773888df56609258d6c29
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947114"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029214"
 ---
 # <a name="electronic-invoicing-in-the-mexican-version"></a>Facturación electrónica en la versión para México
 

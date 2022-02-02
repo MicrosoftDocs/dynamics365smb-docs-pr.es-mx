@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 132
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 9707daddaad95bda2a3d3d754c9c9cc2bf1adf0a
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: a71b42458aed2c35d63db5c7aa50f3f7c8436ae4
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865332"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029187"
 ---
 # <a name="generate-electronic-invoices-in-the-mexican-version"></a>Generar facturas electrónicas en la versión para México
 
@@ -30,7 +30,7 @@ En el procedimiento siguiente se describe cómo generar facturas electrónicas p
 3. Elija la acción **Enviar documento electrónico**. De este modo, se enviará un correo electrónico al cliente con la factura electrónica adjuntada como archivo XML. Si seleccionó el campo **Enviar informe PDF** de la página **Configuración de contabilidad**, también se incluirá un documento PDF con el archivo XML.  
 4. Como alternativa, elija la acción **Exportar documento electrónico como XML**. Seleccione la ubicación donde desea guardar la factura electrónica como archivo XML.  
 
-    Para comprobar la actividad de facturas electrónicas, en la página **Factura venta reg.**, en la ficha desplegable **Facturación**, se actualizarán los campos **Documento electrónico enviado** y **N°. de envíos de documentos electrónicos**.  
+Para comprobar la actividad de facturas electrónicas, en la página **Factura venta reg.**, en la ficha desplegable **Facturación**, se actualizarán los campos **Documento electrónico enviado** y **N°. de envíos de documentos electrónicos**.  
 
 > [!NOTE]  
 > [!INCLUDE[bp_refimplementation](../../includes/bp_refimplementation.md)]  
