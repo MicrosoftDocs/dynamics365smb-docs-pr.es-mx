@@ -1,21 +1,15 @@
 ---
 title: Configurar redondeo de factura
-description: Si necesita redondear importes de facturas cuando se crean, puede utilizar la función de redondeo automático que se explica aquí.
+description: 'Si necesita redondear importes de facturas cuando se crean, puede utilizar la función de redondeo automático que se explica aquí.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '5, 16, 118, 459, 460, 495'
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8220e0927dd6f22139164ff66dc6876a594b87be
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446351"
 ---
 # <a name="set-up-invoice-rounding"></a>Configurar redondeo de factura
 Si necesita redondear importes de facturas cuando se crean, puede utilizar la función de redondeo automático. Cuando se redondea una factura, se añade una línea adicional en el importe redondeado y se registra con las demás líneas de la factura.

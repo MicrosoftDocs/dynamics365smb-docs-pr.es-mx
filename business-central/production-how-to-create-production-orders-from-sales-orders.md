@@ -7,15 +7,9 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '99000883, 99000884'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: a432b8f00a24771578716a1b51678904d2e29ec5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438638"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Crear órdenes de producción desde pedidos de venta
 Puede crear órdenes de producción para artículos producidos directamente desde los pedidos de venta.  

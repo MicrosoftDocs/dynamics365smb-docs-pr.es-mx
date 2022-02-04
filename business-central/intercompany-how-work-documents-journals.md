@@ -7,15 +7,10 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
+ms.search.form: 610
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d6b2c7e9d60745c5344a4f0e6edf3f03eef8b778
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441254"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Usar documentos y diarios de empresas vinculadas
 Los documentos o diarios de empresas vinculadas sirven para registrar transacciones con empresas vinculadas asociadas. Al registrar un documento o una línea de diario de empresas vinculadas en su empresa, el programa crea un documento o una línea de diario correspondiente en la bandeja de salida entre empresas vinculadas, que puede transferir a su socio. Después, su socio podrá registrar la correspondiente transacción en su empresa, sin tener que volver a introducir los datos.

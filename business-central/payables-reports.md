@@ -5,14 +5,9 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: 347
 ms.date: 07/13/2021
 ms.author: edupont
-ms.openlocfilehash: 774fd24bc15cb4cefb56991289d9c72c0909a319
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543401"
 ---
 # <a name="accounts-payable-reports-and-analytics-in-business-central"></a>Informes y análisis de cuentas por pagar en Business Central
 

@@ -1,22 +1,15 @@
 ---
-title: Revalorizar activos fijos | Documentos de Microsoft
-description: Obtenga información sobre cómo ajustar el valor de los activos fijos, registrar nuevos importes como amortización o apreciación, y registrar costes de adquisición adicionales.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Revalorizar activos fijos
+description: 'Obtenga información sobre cómo ajustar el valor de los activos fijos, registrar nuevos importes como amortización o apreciación, y registrar costes de adquisición adicionales.'
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 5628
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e178778e51d63c3398fd4a870bf41fa8b1a086f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442221"
 ---
 # <a name="revalue-fixed-assets"></a>Revalorizar activos fijos
 La revalorización de activos fijos está formada por apreciaciones, depreciaciones o ajustes de valor general.

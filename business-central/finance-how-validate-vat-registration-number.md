@@ -1,20 +1,16 @@
 ---
 title: Validar un CIF/NIF
-description: Permita que Business Central valide los números de registro de IVA para sus contactos, clientes y proveedores, de acuerdo con el servicio de validación de números de IVA VIES de la UE.
+description: 'Permita que Business Central valide los números de registro de IVA para sus contactos, clientes y proveedores, de acuerdo con el servicio de validación de números de IVA VIES de la UE.'
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
-ms.search.keywords: VAT, posting, tax, value-added tax
+ms.search.keywords: 'VAT, posting, tax, value-added tax'
+ms.search.form: '249, 575, 1279'
 ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 093fec7b7d456f4145e8450d06f17f1aa78ad4c1
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543233"
 ---
+
 # <a name="validate-vat-registration-numbers"></a>Validar un CIF/NIF
 
 Es importante que los CIF/NIF que tiene para clientes, proveedores y contactos sean válidos, si utiliza [!INCLUDE [prod_short](includes/prod_short.md)] en un país que utilice IVA. Por ejemplo, las empresas cambian a veces el estado de la deuda tributaria, y en algunos países o regiones las autoridades fiscales podrían solicitar informes, como, por ejemplo, el informe de **lista de venta de CE**, que enumera los CIF/NIF que utiliza cuando realiza operaciones comerciales.

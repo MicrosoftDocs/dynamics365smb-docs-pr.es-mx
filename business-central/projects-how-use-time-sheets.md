@@ -1,22 +1,16 @@
 ---
 title: Usar hojas de horas
-description: Describe cómo crear una hoja de horas, definir los tipos de trabajo, rellenar la hoja de horas y enviarla para su aprobación.
+description: 'Describe cómo crear una hoja de horas, definir los tipos de trabajo, rellenar la hoja de horas y enviarla para su aprobación.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.search.form: 973
+ms.search.keywords: 'project management, capacity, staff, resource, time sheets'
+ms.search.form: '950, 951, 973'
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: a5fdd86d63fa19a0a7f473d58abf34242e4e5cd5
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920914"
 ---
 # <a name="use-time-sheets"></a>Usar hojas de horas
 
@@ -36,7 +30,7 @@ Para poder utilizar las hojas de horas, debe configurar la información general 
 Puede usar el proceso **Crear hojas de horas** para configurar hojas de horas de un número determinado de periodos o semanas. Después, el propietario de la hoja de horas puede abrirla y registrar el tiempo dedicado en una tarea.  
 
 > [!IMPORTANT]
-> Debe disponer de permisos para poder crear las hojas de horas.
+> Debe disponer de permisos para poder crear las hojas de horas. Para obtener más información, consulte [Configurar hojas de horas](projects-how-setup-time-sheets.md).
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hojas de horas** y luego elija el enlace relacionado.
 2. En la página **Hojas de horas**, seleccione la acción **Crear hojas de horas**.

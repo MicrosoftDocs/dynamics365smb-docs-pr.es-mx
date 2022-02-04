@@ -1,21 +1,16 @@
 ---
 title: Administrar cuentas bancarias
 description: Debe reconciliar regularmente los movimientos de banco con las transacciones bancarias relacionadas en sus cuentas bancarias.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
+ms.search.form: '377, 378, 165, 1284'
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 0e98609dfe176a685d46112a233d3394eb312eaf
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323779"
 ---
 # <a name="manage-and-reconcile-your-bank-accounts"></a>Administre y concilie sus cuentas bancarias
 

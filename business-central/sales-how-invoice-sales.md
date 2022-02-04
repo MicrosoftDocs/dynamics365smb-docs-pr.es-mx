@@ -1,22 +1,16 @@
 ---
 title: Facturar ventas
-description: Describe cómo crear un recibo, o una factura o un pedido de venta, para registrar el acuerdo con un cliente para vender productos con condiciones específicas.
+description: 'Describe cómo crear un recibo, o una factura o un pedido de venta, para registrar el acuerdo con un cliente para vender productos con condiciones específicas.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bill, sale, invoice, order
-ms.search.form: 42, 43, 48, 9301, 9305
+ms.search.keywords: 'bill, sale, invoice, order'
+ms.search.form: '42, 43, 48, 9301, 9305'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 125d28f1621e23f14cda9ce57a935a7da71e43cb
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752479"
 ---
 # <a name="invoice-sales"></a>Facturar ventas
 
@@ -28,7 +22,7 @@ Hay un par de escenarios en los que debe usar un pedido de venta en lugar de una
 * Si envía productos después de contabilizar las facturas de venta correspondientes.
 * Si vende productos que el proveedor entrega directamente al cliente, lo que se denomina envío directo. Para obtener más información, vea [Realizar envíos directos](sales-how-drop-shipment.md).  
 
-En todos los demás aspectos, los pedidos de venta y las facturas de venta funcionan de la misma forma. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
+En todos los demás aspectos, los pedidos de venta y las facturas de venta funcionan de la misma forma. Para obtener más información sobre cómo usar los pedidos de ventas, consulte [Vender productos](sales-how-sell-products.md).
 
 Puede negocias con el cliente creando primero creando una cotización de venta, que puede convertir en una factura de venta cuando acuerde la venta. Para obtener más información, consulte [Crear cotizaciones de ventas](sales-how-make-offers.md).
 

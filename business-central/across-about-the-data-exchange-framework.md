@@ -7,15 +7,10 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file, OCR
+ms.search.keywords: 'Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file, OCR'
+ms.search.form: '189,'
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 77f76b156870ecbc8cd93274dec1212f859a2351
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589118"
 ---
 # <a name="about-the-data-exchange-framework"></a>Acerca del marco de intercambio de datos
 

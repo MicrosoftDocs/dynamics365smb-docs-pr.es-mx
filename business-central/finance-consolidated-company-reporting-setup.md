@@ -7,16 +7,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: consolidation, subsidiaries, consolidate
+ms.search.keywords: 'consolidation, subsidiaries, consolidate'
+ms.search.form: '1826, 1827'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 861893c2784bc5eed837c26d070fb98c2826772b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439471"
 ---
+
 # <a name="set-up-company-consolidation"></a>Configuración de la consolidación de empresas
 
 Para poder consolidar los movimientos de contabilidad de dos o más empresas separadas (subsidiarias) en una empresa consolidada, debe preparar los planes de cuentas y la empresa de consolidación.  

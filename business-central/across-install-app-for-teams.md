@@ -1,5 +1,5 @@
 ---
-title: Instalación de la aplicación Business Central en Microsoft Teams | Microsoft Docs
+title: Instalar la aplicación Business Central en Microsoft Teams
 description: Cómo instalar la aplicación Business Central para Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -7,21 +7,16 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 420a94c3996840c2d75687f533e06625258ca0f7
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588187"
 ---
+
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Instale la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-En este artículo, aprenderá a instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). La aplicación está disponible en el mercado de Teams y puede usarla con la aplicación web, de escritorio o móvil de Teams.
+En este artículo, aprenderá a instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para [Microsoft Teams](https://www.microsoft.com/microsoft-teams/). La aplicación está disponible en el mercado de Teams y puede usarla con la aplicación web, de escritorio o móvil de Teams.
 
 > [!NOTE]
 > Es posible que su administrador haya configurado las cosas para que la aplicación se instale automáticamente. Para verificar si la aplicación está instalada, abra Teams, luego elija **Aplicaciones**. Busque **Business Central**, luego selecciónelo cuando lo encuentre. Si ve **Abierta** en la página **Business Central**, la aplicación ya está instalada.  

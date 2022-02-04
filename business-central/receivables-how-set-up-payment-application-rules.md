@@ -7,23 +7,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
+ms.search.keywords: 'payment process, direct payment posting, reconcile payment, expenses, cash receipts'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5205f5ed9e8f668a6705d2edfe0e07d328869b16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435070"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Configurar reglas para la liquidación automática de los pagos
 
-En la página **Reglas de liquidación de pagos**, se establecen reglas para regular el modo en que el texto de pago (en una operación bancaria) se ajusta automáticamente al texto de los movimientos pendientes en los dos procesos siguientes:
-
-- Liquidar automáticamente los pagos de sus facturas pendientes (no pagadas), Notas de crédito u otros movimientos relacionados cuando utilice la función **Liquidar automáticamente** en la página **Diario de conciliación de pagos**. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
-
-- Conciliar automáticamente las transacciones bancarias con sus movimientos internos de banco relacionados cuando se selecciona la acción **Conciliar automáticamente** en la página **Conciliación banco**. Para obtener más información, consulte [Conciliar bancos](bank-how-reconcile-bank-accounts-separately.md).
+En la página **Reglas de liquidación de pago**, se establecen reglas para determinar cómo el texto de pago (de una transacción bancaria) se enlaza automáticamente con el texto de facturas relacionadas abiertas (sin pagar), notas de crédito u otros movimientos cuando se usa la función **Liquidar automáticamente** en la página **Diario de conciliación de pagos**. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 
 Las reglas de liquidación de pagos nuevas se configuran eligiendo qué tipos de datos en una línea de diario de conciliación de pago deben corresponder con datos en uno o varios movimientos pendientes antes de que el pago relacionado se liquide automáticamente en los movimientos pendientes. La calidad de cada liquidación automática se muestra como un valor de **Bajo** a **Alto** en el campo **Confianza de la correspondencia** en la página **Diario de conciliación de pagos**, según la regla de liquidación de pago que se haya utilizado.
 

@@ -4,20 +4,14 @@ description: La información general sobre la funcionalidad de Business Central 
 author: sorenfriisalexandersen
 documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 10585896eadc9cbd9eec6f451d734b98b37b0133
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318923"
 ---
 # <a name="compliance-overview"></a>Información general sobre cumplimiento
 

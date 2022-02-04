@@ -7,15 +7,9 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '42, 50, 9305, 9307'
 ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: f1000be46bebe766e8f3dd060f44b98a775c1356
-ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7889847"
 ---
 # <a name="create-prepayment-invoices"></a>Crear facturas de anticipo
 

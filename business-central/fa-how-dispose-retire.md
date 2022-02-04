@@ -1,6 +1,6 @@
 ---
 title: Cancelar o retirar activos fijos
-description: En el momento de vender o dar de baja un activo fijo, el valor de venta o baja debe registrarse para calcular y anotar las ganancias o las pérdidas.
+description: 'En el momento de vender o dar de baja un activo fijo, el valor de venta o baja debe registrarse para calcular y anotar las ganancias o las pérdidas.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
+ms.search.form: '5628, 5610, 5611'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2b3f12dd385a40510cf01c214ac0893b6357207c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441733"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Cancelar o retirar activos fijos
 

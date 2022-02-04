@@ -1,21 +1,16 @@
 ---
 title: Descripción de contabilidad y plan de cuentas
-description: Describe la contabilidad general, el catálogo de cuentas y las categorías de cuentas. Utilice la página Configuración contabilidad para especificar la gestión de asuntos de contabilidad en su empresa.
+description: 'Describe la contabilidad general, el catálogo de cuentas y las categorías de cuentas. Utilice la página Configuración contabilidad para especificar la gestión de asuntos de contabilidad en su empresa.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: analysis, history, track
+ms.search.keywords: 'analysis, history, track'
+ms.search.form: '18, 20, 37, 65, 99, 312, 313, 395, 552, 569, 570, 634, 790, 791, 1158'
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2af34c84c7b359d2cae64d19a9aec151e0d9a3bb
-ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928833"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Descripción de contabilidad general y catálogo de cuentas
 
@@ -75,6 +70,7 @@ Por ejemplo, el estado de cuenta de saldo predeterminado tiene una subcategoría
 La próxima vez que genere las estructuras de cuentas, su estado de cuenta de saldo mostrará un estado de cuenta total de efectivo y dos líneas con estado de cuentas para caja chica y cuenta corriente.  
 
 ## <a name="getting-a-quick-overview"></a>Obtener una descripción general rápida
+
 La página Catálogo de cuentas muestra las cuentas en una lista jerárquica que ofrece acceso rápido a la información clave de cada cuenta. Sin embargo, la lista es estática y, si tiene muchas cuentas, es posible que deba desplazarse un poco para ver la información de diferentes cuentas. Si solo desea una descripción general rápida de los conceptos básicos, como cambios netos y saldos, la página **Introducción al catálogo de cuentas** es una alternativa útil. El diseño de las columnas en la página ahora es el mismo que encontrará en la página Catálogo de cuentas (solo hay menos), por lo que no tendrá que reorientarse y puede expandir o contraer los niveles jerárquicos para condensar la vista. Para facilitar el cambio entre páginas, la página **Introducción al catálogo de cuentas** está disponible en la página del Catálogo de cuentas.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Acceso para crear y editar cuentas y categorías de cuentas

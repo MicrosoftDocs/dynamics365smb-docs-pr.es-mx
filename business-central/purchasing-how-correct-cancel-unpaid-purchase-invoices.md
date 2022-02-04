@@ -1,21 +1,16 @@
 ---
-title: Modificar o cancelar facturas de compra sin abonar (contiene vídeo) | Documentos de Microsoft
-description: Explica cómo corregir, cancelar o deshacer una factura de compra registrada y crear automáticamente una nota de crédito de compra.
+title: Modificar o cancelar facturas de compra sin abonar (contiene vídeo)
+description: 'Explica cómo corregir, cancelar o deshacer una factura de compra registrada y crear automáticamente una nota de crédito de compra.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: undo, credit memo, return
+ms.search.keywords: 'undo, credit memo, return'
+ms.search.form: '138, 140, 146'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5d82bb88d47d6fd6d85b62e7692a07350b43518a
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940537"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Corregir o cancelar facturas de compra sin abonar
 

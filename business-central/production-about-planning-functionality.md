@@ -1,21 +1,15 @@
 ---
 title: Sobre la funcionalidad de la planificación
-description: El programa de planificación en Dynamics 365 Business Central tiene en cuenta todos los datos del aprovisionamiento y la demanda, cuadra el resultado y genera sugerencias para hacer que el aprovisionamiento satisfaga la demanda.
+description: 'El programa de planificación en Dynamics 365 Business Central tiene en cuenta todos los datos del aprovisionamiento y la demanda, cuadra el resultado y genera sugerencias para hacer que el aprovisionamiento satisfaga la demanda.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5430
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: e06bf94575c55d6e26fbe62c0b6cff06dd4fac70
-ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "6636027"
 ---
 # <a name="about-planning-functionality"></a>Sobre la funcionalidad de la planificación
 
@@ -30,14 +24,14 @@ Para obtener información detallada, consulte [Detalles de diseño: Planificaci�
 
 La planificación tiene dos elementos: demanda y aprovisionamiento. Dichos elementos se deben equilibrar para garantizar que la demanda se satisface de manera puntual y rentable.  
 
-- Demanda es el término habitual usado para todo tipo de necesidades brutas: pedido de venta, pedido de servicio, necesidad de componentes de órdenes de producción, pedidos de ensamblado, transferencia de salida, pedido abierto o previsión. Además de todos ellos, la aplicación admite algunos otros tipos técnicos de demanda, por ejemplo una orden de producción o un pedido de compra negativos, existencias negativas y devoluciones de compras.  
+- Demanda es el término habitual usado para todo tipo de necesidades brutas: pedido de venta, pedido de servicio, necesidad de componentes de órdenes de producción, pedidos de ensamblado, transferencia de salida, pedido abierto o previsión. Además de todos ellos, la aplicación admite algunos otros tipos técnicos de demanda; por ejemplo, una orden de producción o una orden de compra negativas, inventario negativo y devoluciones de compras.  
 - Aprovisionamiento es el término habitual utilizado para todo tipo de reposición: inventario, pedido de compra, pedido de ensamblado, orden de producción o transferencia de entrada. En correspondencia, puede haber un pedido de venta o de servicio negativo, una necesidad de componente negativa o una devolución de ventas; todos ellos, de alguna forma, representan también un aprovisionamiento.  
 
-Otro objetivo del sistema de planificación es el de garantizar que las existencias no aumentan innecesariamente. En el caso de un descenso de la demanda, el sistema de planificación sugerirá que se pospongan o cancelen algunos de los pedidos de reposición existentes, o que se reduzca sus cantidades.  
+Otro objetivo del sistema de planeación es el de garantizar que el inventario no aumente innecesariamente. En el caso de un descenso de la demanda, el sistema de planificación sugerirá que se pospongan o cancelen algunos de los pedidos de reposición existentes, o que se reduzca sus cantidades.  
 
 ## <a name="planning-calculation"></a>Cálculo de la planificación
 
-El sistema de planificación está controlado por la demanda, estimada y real, de los clientes, además de los parámetros de reorden de existencias. Si se ejecuta el cálculo de la planificación, la aplicación sugerirá acciones concretas ([Mensajes de acción](production-how-to-run-mps-and-mrp.md#action-messages)) que se deben emprender en relación con una posible reposición de los proveedores, transferencias entre almacenes, o producción. Si ya hay pedidos de reposición, las acciones sugeridas pueden ser aumentar o acelerar los pedidos para satisfacer los cambios de la demanda.  
+El sistema de planeación se controlado por la demanda, estimada y real, de los clientes, además de los parámetros de reorden de inventario. Si se ejecuta el cálculo de la planificación, la aplicación sugerirá acciones concretas ([Mensajes de acción](production-how-to-run-mps-and-mrp.md#action-messages)) que se deben emprender en relación con una posible reposición de los proveedores, transferencias entre almacenes, o producción. Si ya hay pedidos de reposición, las acciones sugeridas pueden ser aumentar o acelerar los pedidos para satisfacer los cambios de la demanda.  
 
 La base de la rutina de planificación es el cálculo bruto-neto. Las necesidades netas controlan la emisión de pedidos planificados, que se programan en función de la información sobre rutas (productos fabricados) o el plazo de seguridad de la ficha de producto (productos comprados). Las cantidades de los pedidos planificados se basan en el cálculo de la planificación y se ven afectadas por los parámetros definidos en cada una de las fichas de producto.  
 
@@ -48,7 +42,7 @@ La base de la rutina de planificación es el cálculo bruto-neto. Las necesidade
 
 Como se puede ver en el campo **Sistema reposición** de una ficha de unidad de almacenamiento, el sistema de planificación se puede configurar para que cree pedidos de transferencia que equilibren el suministro y la demanda entre los distintos almacenes.  
 
-Además de dichos pedidos de transferencia automáticos, puede que a veces sea necesario realizar un traslado general de cantidades en existencia a otro almacén, independientemente de la demanda existente. Para ello debería crear manualmente un pedido de transferencia con la cantidad que trasladar. Para garantizar que el sistema de planificación no intenta manipular este pedido de transferencia manual, debe establecer el campo **Flexibilidad de planificación** de las líneas de transferencia en Ninguna.  
+Además de dichas órdenes de transferencia automáticas, puede que a veces sea necesario realizar un traslado general de cantidades en inventario a otro almacén, independientemente de la demanda existente. Para ello debería crear manualmente un pedido de transferencia con la cantidad que trasladar. Para garantizar que el sistema de planificación no intenta manipular este pedido de transferencia manual, debe establecer el campo **Flexibilidad de planificación** de las líneas de transferencia en Ninguna.  
 
 Por el contrario, si desea que el sistema de planificación ajuste las cantidades del pedido de transferencia y las fechas para la demanda existente, debe establecer el campo **Flexibilidad de planificación** en el valor predeterminado, Ilimitada.
 

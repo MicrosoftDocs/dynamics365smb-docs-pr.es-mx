@@ -1,23 +1,16 @@
 ---
 title: Configuración del análisis de flujo de efectivo (contiene video)
-description: Utilice los gráficos de área de tareas de cuentas para analizar el flujo de dinero de su empresa, incluidos los gastos e ingresos, la liquidez y las recepciones de efectivo menos los pagos en efectivo.
-services: project-madeira
-documentationcenter: ''
+description: 'Utilice los gráficos de área de tareas de cuentas para analizar el flujo de dinero de su empresa, incluidos los gastos e ingresos, la liquidez y las recepciones de efectivo menos los pagos en efectivo.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
+ms.search.keywords: 'money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds'
+ms.search.form: '846, 847, 849, 855, 862, 869, 1818'
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 718aed64e13b28972210918c8171956f79485006
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940412"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuración del análisis de flujo de caja
 Si desea ayuda para decidir qué debe hacer con el efectivo, eche un vistazo a los gráficos del Área de tareas Contable:  
@@ -129,6 +122,7 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
+
 [Analizar el flujo de caja de la empresa](finance-analyze-cash-flow.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

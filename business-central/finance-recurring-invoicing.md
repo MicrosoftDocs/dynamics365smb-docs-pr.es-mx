@@ -1,5 +1,5 @@
 ---
-title: Trabajar con ingresos recurrentes | Documentos de Microsoft
+title: Trabajar con ingresos recurrentes
 description: Conozca las opciones disponibles para automatizar el envío de facturas de suscripción a sus clientes y registre ingresos recurrentes.
 author: AndreiPanko
 ms.service: dynamics365-business-central
@@ -7,16 +7,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: recurring, invoicing, subscription, billing
+ms.search.keywords: 'recurring, invoicing, subscription, billing'
+ms.search.form: 283
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: e61f4406e754a2cf02aafcda21eec86b55eff053
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780811"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Trabajar con ingresos recurrentes en [!INCLUDE[prod_short](includes/prod_short.md)]
 

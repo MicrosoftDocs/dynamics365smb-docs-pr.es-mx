@@ -5,18 +5,12 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2dda99dcab416465b6abc68af32b6bf99e83f56a
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325949"
 ---
 # <a name="posting-documents-and-journals"></a>Registrar documentos y diarios
 Registrar representa la acción contable de registrar transacciones empresariales en extractos de varias empresas.

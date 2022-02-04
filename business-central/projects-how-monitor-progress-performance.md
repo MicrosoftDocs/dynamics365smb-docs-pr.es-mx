@@ -1,5 +1,5 @@
 ---
-title: Definir un método WIP y supervisar el progreso del proyecto | Documentos de Microsoft
+title: Supervisar el progreso y el rendimiento del trabajo
 description: Describe cómo puede crear un método de trabajo en curso (WIP) y calcular el WIP para estimar el valor financiero de los trabajos mientras están en progreso.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,10 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, KPI, work in process, work in progress
+ms.search.keywords: 'project management, KPI, work in process, work in progress'
+ms.search.form: '89, 92, 1010'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 052a0ecbe3b5435a2d73f377bb4ac0f4c4373f58
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443829"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Supervisar el progreso y el rendimiento del trabajo
 A medida que progresa un proyecto, se van consumiendo materiales, recursos y otros gastos, que se deben registrar en el proyecto. Trabajo en curso (WIP) es una función que permite estimar el valor financiero de los proyectos en la contabilidad mientras progresa el proyecto. En muchos casos, puede registrar gastos para un proyecto antes de facturarlo. Si solamente se registran gastos, el estado de cuenta financiero no será exacto. Para obtener más información, consulte [Comprensión de los métodos WIP](projects-understanding-wip.md).

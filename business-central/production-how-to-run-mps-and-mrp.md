@@ -1,23 +1,18 @@
 ---
-title: Cómo ejecutar la planificación completa, MPS y MRP
-description: El programa de planificación puede calcular tanto el Programa de planificación principal (MPS) como la Planificación de necesidades de material (MRP) cuando se solicite, o ambas cosas a la vez.
+title: 'Ejecutar la planificación completa, MPS o MRP'
+description: 'El programa de planificación puede calcular tanto el Programa de planificación principal (MPS) como la Planificación de necesidades de material (MRP) cuando se solicite, o ambas cosas a la vez.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '99000852, 99000860'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 73b40d3174497c05446d5b6ae6465f23a420f308
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440339"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Ejecutar la planificación completa, MPS o MRP
+
 Los términos "ejecutar la hoja de planificación" o "ejecutar MRP" hacen referencia al cálculo del programa de producción principal y a las necesidades de material, en función de la demanda real y prevista. El sistema de planificación puede calcular tanto el Programa de planificación principal (MPS) como la Planificación de necesidades de material (MRP) cuando se solicite, o calcular ambas cosas a la vez.  
 
 -   MPS se refiere al cálculo de un programa de producción principal basado en la demanda real y en la previsión de demanda. El cálculo de MPS se utiliza para productos finales que tengan una previsión o una línea de pedido de venta. Estos productos se denominan "productos de MPS" y se identifican dinámicamente al iniciarse el cálculo.  
@@ -33,7 +28,7 @@ Para obtener buenos resultados en la planificación, se deben haber configurado 
 
 -   **Calc. planif. regenerativa**: esta función procesa o vuelve a generar el plan de materiales. El proceso comienza con la eliminación de todas las órdenes de suministro cargadas actualmente. Se vuelven a planificar todos los productos de la base de datos.  
 -   **Calc. plan. cambio periodo**: esta función procesa un plan de cambio neto. Los productos se tienen en cuenta en una planificación de cambio neto de dos tipos de cambios:  
-    - **Cambios de demanda y suministro:** son las modificaciones de las cantidades en los pedidos de venta, las previsiones de demanda, los pedidos de ensamblado, las órdenes de producción o los pedidos de compra. También se considera como cambio de cantidad un cambio en el nivel de existencias no planificado.  
+    - **Cambios de demanda y suministro:** son las modificaciones de las cantidades en los pedidos de venta, las previsiones de demanda, los pedidos de ensamblado, las órdenes de producción o los pedidos de compra. Un cambio en el nivel de inventario no planeado también se considera como cambio de cantidad.  
     - **Cambios de parámetros de planificación:** son cambios en el inventario de seguridad, el punto de reorden, la ruta, la lista de materiales, y cambios en el cálculo de ciclo o plazo de entrega.  
 -   **Tomar mensajes acción:** esta función sirve como herramienta de planificación a corto plazo, ya que emite mensajes de acción para alertar al usuario sobre las modificaciones realizadas desde la última vez que se calculó el plan regenerativo o de cambio neto.  
 
@@ -53,7 +48,7 @@ Con cada método previsto, [!INCLUDE[prod_short](includes/prod_short.md)] genera
     |---------------------------------|---------------------------------------|  
     |**MPS**|Seleccione para iniciar el cálculo de un programa de producción maestro. En la ejecución se tienen en cuenta los productos con pedidos de venta abiertos o previsiones de demanda.|  
     |**MRP**|Seleccione para iniciar el cálculo de la planificación de requisitos de material. En esta ejecución se tienen en cuenta los productos con necesidades dependientes. Normalmente, MPS y MRP se ejecutan al mismo tiempo. Para ejecutar MPS y MRP al mismo tiempo, el campo de **Cálculo agrupado MPS/MRP** debe estar seleccionado en la ficha desplegable **Planificación** en la página **Configuración fabricación**.|  
-    |**Fecha inicial**|Esta fecha se utiliza para evaluar la disponibilidad de existencias. Si la cantidad física de un producto está por debajo del punto de reorden, el sistema crea un pedido de reposición en el futuro, a partir de esta fecha. Si un producto está por debajo de las existencias de seguridad (a la fecha inicial), el sistema programa un pedido de reposición para la fecha inicial de planificación.|  
+    |**Fecha inicial**|Esta fecha se utiliza para evaluar la disponibilidad del inventario. Si la cantidad física de un producto está por debajo del punto de reorden, el sistema crea un pedido de reposición en el futuro, a partir de esta fecha. Si un producto está por debajo de las existencias de seguridad (a la fecha inicial), el sistema programa un pedido de reposición para la fecha inicial de planificación.|  
     |**Fecha final**|Es la fecha final del horizonte de la planificación. Con posterioridad a esta fecha no se tienen en cuenta ni la demanda ni el aprovisionamiento. Si el ciclo de reorden de un producto va más allá de la fecha final, el horizonte de planificación efectivo equivale a fecha pedido + ciclo reorden.<br /><br /> El horizonte de planificación se refiere a la duración del plan. Si el horizonte es demasiado breve, los productos con un plazo más largo no se piden a tiempo. Si es demasiado largo, se invierte demasiado tiempo en revisar y procesar la información y es probable que cambie antes de lo necesario. Se puede definir un horizonte de planificación para la producción y otro más largo para las compras, pero no es obligatorio. Se debe definir un horizonte de planificación para compras y producción que cubra el plazo acumulado de los componentes.|  
     |**Parar y mostrar primer error**|Seleccione si desea que se detenga la ejecución de la planificación tan pronto como encuentre un error. Además, se mostrará un mensaje con información sobre el primer error. Si existe un error, sólo las líneas de planificación hechas correctamente antes de encontrar el error serán presentadas en la planificación del trabajo. Si no selecciona este campo, el trabajo por lotes **Calcular plan** continuará hasta finalizar, es decir, los errores no lo detendrán. Si hay uno o más errores, se mostrará un mensaje al finalizar el proceso donde se informa el número de productos afectados. A continuación, se abrirá la página **Registro error planificación**, con más información sobre el error y vínculos a las fichas de los productos afectados.|  
     |**Previsión de uso**|Seleccione la previsión que se debe incluir como demanda cuando ejecute el trabajo por lotes de planificación. La previsión predeterminada se configura en la ficha desplegable **Planificación** de la página **Configuración fabricación**.|  

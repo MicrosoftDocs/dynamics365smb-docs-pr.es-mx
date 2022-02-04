@@ -1,23 +1,18 @@
 ---
 title: Ejecutar producción
-description: Cuando se ha planificado un pedido y se han emitido los materiales de acuerdo con la L.M. de producción, entonces, pueden iniciarse las operaciones de producción y se pueden ejecutar en la secuencia definida por la ruta de órdenes de producción.
+description: 'Cuando se ha planificado un pedido y se han emitido los materiales de acuerdo con la L.M. de producción, entonces, pueden iniciarse las operaciones de producción y se pueden ejecutar en la secuencia definida por la ruta de órdenes de producción.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 99000784, 99000785'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cc8eb04682492b3e3cd7906c12cf73d3974cf79a
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321202"
 ---
 # <a name="manufacturing"></a>Fabricación
+
 > [!NOTE]
 > La funcionalidad descrita en este tema y los subtemas solo están visibles en la interfaz de usuario si tiene la experiencia **Premium**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
@@ -29,7 +24,7 @@ Como alternativa al diario de lotes para el registro de salida de varias órdene
 
 Antes de que pueda comenzar a producir elementos, debe realizar varias configuraciones, como centros de trabajo, rutas y listas de materiales de producción. Para obtener más información, vea [Configurar fabricación](production-configure-production-processes.md).
 
-En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas que las describen.   
+En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas que las describen.  
 
 |**Para**|**Vea**|  
 |------------|-------------|  
@@ -41,13 +36,14 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 |Registre el número de productos terminados y el tiempo empleado por operación en un diario que pueda procesar múltiples órdenes de producción lanzadas.|[Registrar por lotes el resultado y los tiempos de ejecución](production-how-to-post-output-quantity.md)|
 |Deshacer la salida, por ejemplo, porque se ha producido un error en la entrada de datos y el importe es incorrecto.  |[Revertir el registro de la salida](production-how-to-reverse-output-posting.md)|  
 |Contabilizar el número de artículos producido en cada operación terminada que no se cualifican como salida terminada, sino como material rechazado.|[Registrar material de rechazo](production-how-to-post-scrap.md)|
-|Ver la carga de planta como resultado de órdenes de producción planificadas y lanzadas.|[Visualizar la carga en centros de trabajo y de máquina](production-how-to-view-the-load-on-work-centers.md)|      
+|Ver la carga de planta como resultado de órdenes de producción planificadas y lanzadas.|[Visualizar la carga en centros de trabajo y de máquina](production-how-to-view-the-load-on-work-centers.md)|  
 |Utilizar la página **Diario de capacidad** para registrar capacidades consumidas que no están asignadas a una orden de producción, como el trabajo de mantenimiento.|[Registrar capacidades](production-how-to-post-capacities.md)|  
 |Calcular y ajustar el costo de artículos de producción terminados y componentes consumidos para la reconciliación financiera.|[Sobre los costos del orden de producción terminada](finance-about-finished-production-order-costs.md)|  
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-also"></a>Consulte también
+
 [Configuración de fabricación](production-configure-production-processes.md)  
-[Planificación](production-planning.md)      
+[Planificación](production-planning.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

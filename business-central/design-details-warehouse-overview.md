@@ -1,21 +1,15 @@
 ---
 title: 'Detalles de diseño: Resumen de almacén'
-description: Para respaldar la manipulación física de los productos en el nivel de zona y de ubicación, se debe realizar el seguimiento de toda la información por cada transacción o movimiento que se produzca en el almacén.
+description: 'Para respaldar la manipulación física de los productos en el nivel de zona y de ubicación, se debe realizar el seguimiento de toda la información por cada transacción o movimiento que se produzca en el almacén.'
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 586fdc74b174ae24dea6354953899370f076a2da
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439546"
 ---
 # <a name="design-details-warehouse-overview"></a>Detalles de diseño: Resumen de almacén
 Para respaldar la manipulación física de los productos en el nivel de zona y de ubicación, se debe realizar el seguimiento de toda la información por cada transacción o movimiento que se produzca en el almacén. Se administra en la tabla **Movimiento almacén**. Cada transacción se almacena en un registro de almacén.  
@@ -42,7 +36,7 @@ La funcionalidad de almacén en [!INCLUDE[prod_short](includes/prod_short.md)] s
 
 ## <a name="basic-ui-documents"></a>Documentos básicos de la IU  
 
--   **Ubicación existencias**  
+-   **Ubicación de inventario**  
 -   **Picking inventario**  
 -   **Movimiento inventario**  
 -   **Diario productos**  

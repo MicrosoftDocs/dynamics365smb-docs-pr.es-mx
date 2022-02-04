@@ -1,21 +1,16 @@
 ---
-title: Resumen de las tareas para cerrar los libros | Documentos de Microsoft
-description: Obtenga información sobre el proceso de cerrar los libros de un ejercicio o periodo, y qué sucede después de cerrar al final de un ejercicio.
+title: Resumen de las tareas para cerrar los libros
+description: 'Obtenga información sobre el proceso de cerrar los libros de un ejercicio o periodo, y qué sucede después de cerrar al final de un ejercicio.'
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
+m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e9cf8a89599c3fa73801bca40720221f05ffaf11
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776628"
 ---
 # <a name="closing-the-books"></a>Cerrar los libros
 Una vez que se haya asegurado de que todas sus cuentas estén actualizadas, y que asigne costos e ingresos, puede cerrar los libros para un ejercicio o periodo.

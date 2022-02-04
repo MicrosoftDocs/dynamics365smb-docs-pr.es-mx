@@ -3,16 +3,11 @@ title: Trabajar con resúmenes financieros en Excel
 description: Obtenga más información sobre cómo abrir los informes de resultados financieros en Microsoft Excel desde Business Central para un mejor análisis.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.search.keywords: accountant, accounting, financial report
+ms.topic: overview
+ms.search.keywords: 'accountant, accounting, financial report'
+ms.search.form: 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69aaeb21bec95d41aab338caa3013a0947de9ef9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780893"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Análisis de resultados financieros en Microsoft Excel
 

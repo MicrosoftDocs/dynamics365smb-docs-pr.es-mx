@@ -1,23 +1,16 @@
 ---
-title: Configurar el mantenimiento de activos fijos | Documentos de Microsoft
-description: Para administrar las reparaciones y el servicio de los activos fijos, puede especificar información de mantenimiento general, códigos para el tipo de trabajo y una cuenta auxiliar para los costos.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Configurar el mantenimiento de activos fijos
+description: 'Para administrar las reparaciones y el servicio de los activos fijos, puede especificar información de mantenimiento general, códigos para el tipo de trabajo y una cuenta auxiliar para los costos.'
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: repair, service
+ms.search.keywords: 'repair, service'
+ms.search.form: '5600, 5642'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 515774bca47a7e9877f2ac10a3a4536f29b59834
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440635"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Configure el mantenimiento de los activos fijos
 Para gestionar el mantenimiento de los activos fijos, primero debe configurar la información de mantenimiento en una cuenta de registro para los costos de mantenimiento y los códigos de mantenimiento para los tipos de trabajo, por ejemplo, Servicio de rutina o Reparación.

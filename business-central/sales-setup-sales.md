@@ -1,22 +1,16 @@
 ---
 title: Resumen de tareas para configurar los procesos de venta
-description: Descripción general de las tareas necesarias para configurar reglas y valores que definen sus políticas y procesos de ventas, incluida la configuración general y la configuración de ventas relacionada con las finanzas.
+description: 'Descripción general de las tareas necesarias para configurar reglas y valores que definen sus políticas y procesos de ventas, incluida la configuración general y la configuración de ventas relacionada con las finanzas.'
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, sell, configure
-ms.search.form: 170, 172, 300, 301, 428, 459, 1401
+ms.search.keywords: 'trade, sell, configure'
+ms.search.form: '170, 172, 300, 301, 428, 459, 1401'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 7ec2741e9ff0a5c8ccd00fb8df31cda0a5bfcec6
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752327"
 ---
 # <a name="setting-up-sales"></a>Configuración de ventas
 Para poder administrar procesos de venta, debe configurar las reglas y valores que definen las políticas de venta de la empresa.

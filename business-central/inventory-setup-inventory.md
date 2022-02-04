@@ -1,28 +1,21 @@
 ---
-title: Configurar inventario | Documentos de Microsoft
-description: Describe cómo configurar los procesos de existencias e inventario, incluidas las rutas de transferencia y las ubicaciones, como los almacenes.
-services: project-madeira
-documentationcenter: ''
+title: Configurar inventario
+description: 'Describe cómo configurar los procesos de existencias e inventario, incluidas las rutas de transferencia y las ubicaciones, como los almacenes.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
+ms.search.keywords: 'warehouse, stock'
+ms.search.form: 30
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2798031fcb9796d14daa94d6614bd5da1081d32e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785584"
 ---
 # <a name="setting-up-inventory"></a>Configurar inventario
 Para poder administrar la actividad de un almacén y los costos de inventario, debe configurar las reglas y los valores que definen las políticas de inventario de la empresa.
 
-Puede obtener un mejor servicio al cliente y optimizar la cadena de suministro si organiza las existencias en varias direcciones. Puede comprar, almacenar o vender productos en distintos almacenes y transferir inventarios entre ellos.
+Puede obtener un mejor servicio al cliente y optimizar la cadena de suministro si organiza el inventario en varias direcciones. Puede comprar, almacenar o vender productos en distintos almacenes y transferir inventarios entre ellos.
 
 Cuando haya configurado su inventario, puede gestionar varios procesos relacionados con transacciones de productos. Para obtener más información, vea [Gestión de inventario](inventory-manage-inventory.md) y [Gestión de almacén](warehouse-manage-warehouse.md).
 

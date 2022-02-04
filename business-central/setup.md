@@ -1,21 +1,15 @@
 ---
 title: Resumen de tareas para configurar Business Central
-description: Lea una descripción general de las tareas para preparar, inicializar y configurar Business Central según sus necesidades.
+description: 'Lea una descripción general de las tareas para preparar, inicializar y configurar Business Central según sus necesidades.'
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: configure, initialize
+ms.search.keywords: 'configure, initialize'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 5cbd8a674945fa5c33d502cffb865677c66bce39
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588487"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Resumen de tareas para configurar [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -43,7 +37,7 @@ Alguna funcionalidad, general o de procesos empresariales específicos, se puede
 |Definir las reglas y los valores generales para los procesos de almacén y la manipulación específica de cada ubicación.|[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)|
 |Preparar las L.M. y las rutas de producción para definir cómo se producen los productos finales y preparar centros de máquina o de trabajo para realizar las operaciones necesarias.|[Configuración de fabricación](production-configure-production-processes.md)|
 |Establezca servicios estándar, síntomas y códigos de errores y configure los elementos de servicio, los recursos y la documentación necesarios para brindar servicio a sus clientes.|[Configurar la gestión de servicios](service-setup-service.md)|
-|Lea las prácticas recomendadas para configurar los artículos para la valoración de existencias y la planificación de suministros.|[Configuración de áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)|
+|Lea las prácticas recomendadas para configurar los artículos para la administración de costos de inventario y la planeación de suministros.|[Configuración de áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)|
 |Mejore la calidad de la implementación y reduzca el tiempo de implementación mediante el uso de un conjunto de herramientas para configurar una nueva empresa mediante asistentes, plantillas, hojas de trabajo y cuestionarios para clientes.|[Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
 |Transfiera clientes, proveedores, inventario e información de cuentas bancarias de otro sistema a [!INCLUDE[prod_short](includes/prod_short.md)]|[Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md).|
 |Use los complementos de Outlook de Business Central para ver los datos financieros relativos a los clientes y los proveedores o para crear y enviar documentos financieros, como por ejemplo cotizaciones y facturas.|[Usar Business Central como su bandeja de entrada de empresa en Outlook](admin-outlook.md)|

@@ -1,21 +1,17 @@
 ---
 title: Administración de cambios del tipo de IVA
-description: aprenda a utilizar la herramienta de cambio del tipo de IVA para Dynamics 365 Business Central para cambiar los tipos de IVA según la legislación local.
+description: Aprenda a utilizar la herramienta de cambio del tipo de IVA para Dynamics 365 Business Central para cambiar los tipos de IVA según la legislación local.
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
-ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
+ms.search.keywords: 'VAT, VAT rate, posting, tax, value-added tax'
+ms.search.form: '550,'
 ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 9d90364691e393ddb376b0446d298ba96a92b383
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437402"
 ---
+
 # <a name="managing-vat-rate-changes"></a>Administración de cambios del tipo de IVA
 
 Los tipos de IVA pueden cambiar según la legislación local. Cualquier cambio en el IVA afecta a sus datos en [!INCLUDE[prod_short](includes/prod_short.md)] si el tipo de IVA baja, aumenta o se elimina. El IVA está conectado a muchas entidades en [!INCLUDE[prod_short](includes/prod_short.md)], como clientes, proveedores, productos, recursos, cargos de producto y cuentas de contabilidad. Los cambios en los tipos de IVA generalmente ocurren en una fecha específica, a partir de la cual deberá haber cambiado la configuración del IVA, los grupos contables, etc. para asegurarse de que se creen nuevos pedidos de ventas y de compras con el nuevo tipo de IVA.

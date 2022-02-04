@@ -1,6 +1,6 @@
 ---
 title: Crear una ficha de proveedor para registrar un proveedor nuevo (contiene vídeo)
-description: En este tema, aprenda a crear una ficha de proveedor para registrar un nuevo proveedor y guardar fichas de proveedor como plantilla.
+description: 'En este tema, aprenda a crear una ficha de proveedor para registrar un nuevo proveedor y guardar fichas de proveedor como plantilla.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
+ms.search.form: '26, 27, 34, 786, 1379, 1385, 1386, 1628'
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 85842f5883b17d7386f65367efec4aa6dfea2b11
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7939912"
 ---
 # <a name="register-new-vendors"></a>Permite registrar nuevos proveedores
 

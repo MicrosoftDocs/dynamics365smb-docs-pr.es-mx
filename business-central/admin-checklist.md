@@ -4,15 +4,10 @@ description: Aprenda a configurar listas de comprobación que ayuden a los usuar
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: setup, wizard, checklist
+ms.search.keywords: 'setup, wizard, checklist'
+ms.search.form: '1992, 1993, 1994, 1995, 1990, 1997, 1801'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 48a293f0cfedc257f8efcae6b4e8ea958e975ca6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443979"
 ---
 # <a name="onboard-users-with-checklists"></a>Incorporación de usuarios con listas de comprobación
 

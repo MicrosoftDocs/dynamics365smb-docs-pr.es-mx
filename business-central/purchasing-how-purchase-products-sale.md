@@ -1,23 +1,19 @@
 ---
-title: Compra de artículos para una venta mediante la creación de facturas de compra | Documentos de Microsoft
-description: A partir de una factura de venta, para comprar productos, puede crear una factura de compra de un proveedor.
+title: Comprar productos para una venta
+description: 'A partir de una factura de venta, para comprar productos, puede crear una factura de compra de un proveedor.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: supply planning, sales demand, replenish
+ms.search.keywords: 'supply planning, sales demand, replenish'
+ms.search.form: '50, 51, 56, 9308'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 157be841019a9b1a44f45f19fc0708ce7645d716
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440510"
 ---
-# <a name="purchase-items-for-a-sale"></a>Comprar productos para una venta
+# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Compra de artículos para una venta mediante la creación de facturas de compra
+
 A partir de pedidos y facturas de venta, puede utilizar funciones para crear rápidamente los documentos de compra de las cantidades de productos que faltan que sean necesarias para la venta. Puede utilizar dos funciones distintas dependiendo del tipo de documento.
 
 > [!Note]

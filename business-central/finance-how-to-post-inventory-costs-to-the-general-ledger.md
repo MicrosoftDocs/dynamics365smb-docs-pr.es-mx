@@ -1,31 +1,27 @@
 ---
-title: Procedimiento para registrar costos de inventario en la contabilidad general
-description: Al finalizar el período contable, se llevan a cabo una serie de tareas de control y auditoría de costos con el fin de generar reportes correctos y compensados del valor de inventario.
-documentationcenter: ''
+title: Conciliar costos de inventario con la contabilidad general
+description: 'Al finalizar el período contable, se llevan a cabo una serie de tareas de control y auditoría de costos con el fin de generar reportes correctos y compensados del valor de inventario.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
+ms.search.keywords: 'warehouse, stock'
+ms.search.form: 9297
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 74a2e257df3306a76d777559a5a157aa2b9ddec9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442146"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Conciliar costos de inventario con la contabilidad general
+
 Cuando registra transacciones del inventario, como los envíos de ventas, los albaranes de compra o los ajustes de inventario, los costes de producto cambiados se registran en movimientos de valor de productos. Para reflejar este cambio de valor de inventario en sus libros de finanzas, los costes de inventario se registran automáticamente en las cuentas de inventario relacionadas del libro mayor. Para cada una de las transacciones de inventario que registre, los valores apropiados se contabilizan en la cuenta de inventario, en la cuenta de ajuste y en la cuenta de CV en el módulo de contabilidad.
 
-La contabilización automática de costos se define en el campo **Contabilización automática de costos** en la página **Configuración existencias**.
+El registro automático de costos se define en el campo **Registro automático de costos** de la página **Configuración de inventario**.
 
 Aunque se hayan registrado los costes de inventario automáticamente en el libro mayor, seguirá siendo necesario asegurarse de que los costes de los bienes se dirigen a las transacciones de venta de salida relacionadas, especialmente en situaciones donde la venta de bienes se factura antes de la compra de estos bienes. Esto se denomina ajuste de costos. Los costes de los productos se ajustan automáticamente cada vez que registra transacciones de producto, pero también puede ajustar los costes de producto manualmente. Para obtener más información, consulte [Ajustar precios de productos](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>Para registrar los costos de inventario de forma manual
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Registro de costos de inventario en contabilidad** y, luego, elija el vínculo relacionado.
 2. Puede registrar manualmente los costos de inventario en el módulo de contabilidad, si ejecuta el trabajo por lotes. Cuando lo ejecute, se crearán los movimientos de contabilidad según los movimientos de valoración. Es posible registrar los movimientos de forma que estén agrupados por grupos contables.
 
@@ -78,7 +74,7 @@ La siguiente tabla los describe.
 |------------|-------------|  
 |Ver el valor de existencias de los productos seleccionados, incluida información acerca de las cantidades y valores de aumentos y disminuciones en inventario a lo largo de un periodo seleccionado.|Informe **Valuación de inventarios**|  
 |Ver el valor de existencias de órdenes de producción en el inventario WIP (productos semiterminados), como cantidades y valores de consumo, uso de capacidad y salida en órdenes de producción en curso.|Informe **Valuación de inventarios - WIP**|  
-|Ver el valor de existencias de los productos seleccionados, incluido su costo real y esperado en la fecha especificada.|Informe **Valorac. exist.-especif. costo**|  
+|Ver el valor de inventario de los productos seleccionados, incluido su costo real y esperado en la fecha especificada.|Informe **Valorac. exist.-especif. costo**|  
 |Usar un informe para analizar los motivos de las variaciones del costo o conocer las partes de costos de los productos vendidos (CV).|Informe **Análisis partes costos**|  
 
 ## <a name="see-also"></a>Consulte también  

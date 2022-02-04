@@ -1,18 +1,12 @@
 ---
 title: Liquidar facturas de compra inmediatamente
-description: Si necesita pagar al proveedor en efectivo o con cheque, puede hacer que se realice el registro correspondiente cuando se registra la factura.
+description: 'Si necesita pagar al proveedor en efectivo o con cheque, puede hacer que se realice el registro correspondiente cuando se registra la factura.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.form: '51, 9308'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 76dff6fb1977ea4333e326f8a3456aeb5530cfd8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439496"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Liquidar facturas de compra inmediatamente
 

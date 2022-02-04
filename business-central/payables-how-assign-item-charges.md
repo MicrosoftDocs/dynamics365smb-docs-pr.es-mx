@@ -1,23 +1,16 @@
 ---
 title: Asignar cargos de producto a ventas y compras (contiene vídeo)
-description: Asigne cargos de productos cuando necesite que sus productos de inventario carguen costos adicionales, tales como fletes y manipulación física en los que incurra al comprar o vender artículos.
-services: project-madeira
-documentationcenter: ''
+description: 'Asigne cargos de productos cuando necesite que sus productos de inventario carguen costos adicionales, tales como fletes y manipulación física en los que incurra al comprar o vender artículos.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: transportation, added cost, landed cost
+ms.search.keywords: 'transportation, added cost, landed cost'
+ms.search.form: '5709, 5800, 5805, 5814'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: f44b2133aca930f0009f7cb6efa25b89a89764ec
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940387"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Usar los cargos de producto para costos comerciales adicionales
 Para asegurarse de la valoración correcta, sus productos de inventario deben cargar costes adicionales, tales como fletes, manipulación física, seguros y transporte en los que incurra al comprar o vender artículos. En el caso de las compras, el costo de descarga de un producto comprado se compone del precio de compra del proveedor más todos los cargos directos de producto adicionales que se pueden asignar a recepciones o envíos de devolución individuales. En el caso de las ventas, conocer el costo de envío de los productos vendidos es tan importante para la empresa como conocer el costo de los productos comprados.

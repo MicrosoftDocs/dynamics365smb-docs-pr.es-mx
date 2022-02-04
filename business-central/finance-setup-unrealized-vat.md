@@ -1,29 +1,28 @@
 ---
-title: Configuración el impuesto sobre el valor añadido no realizado | Documentos de Microsoft
-description: Si utiliza contabilidad basada en efectivo, puede especificar cómo gestionar el IVA no realizado para venta y compras.
+title: Configuración del impuesto sobre el valor añadido no realizado
+description: 'Si utiliza contabilidad basada en efectivo, puede especificar cómo gestionar el IVA no realizado para venta y compras.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: cash, VAT, unrealized, cash-based
+ms.search.keywords: 'cash, VAT, unrealized, cash-based'
+ms.search.form: '118, 472, 473'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca04192ef31e281e7d3e07e2f1823079e1f89151
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446201"
 ---
+
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Configurar el IVA no realizado para la contabilidad basada en efectivo
+
 Si utiliza métodos de contabilidad basada en efectivo, puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para gestionar el IVA no realizado.
 
 ## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Usar las cuentas de contabilidad para el IVA no realizado
+
 Puede elegir que los importes de IVA se calculen y registren en una cuenta temporal al registrar una factura y que, a continuación, se registren en la cuenta correcta y se incluyan en las declaraciones de IVA cuando se registre el pago real de la factura. Antes de poder hacerlo, deberá configurar los grupos de registro de IVA.
 
 Para utilizar cuentas para IVA no realizado, realice los pasos siguientes:
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") y entre en **Configuración de contabilidad**.
 2. En la página **Configuración de contabilidad**, active la casilla **IVA no realizado**.
 3. Elija el icono **Buscar por página o informe** ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") y escriba **Config. tipo reg. IVA**.

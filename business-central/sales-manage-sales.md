@@ -1,21 +1,15 @@
 ---
 title: Resumen de tareas para administrar las ventas
-description: Lea todo sobre cómo utilizar los servicios de Business Central para administrar las actividades de ventas con sus clientes con facturas de ventas, órdenes, cotizaciones y más.
+description: 'Lea todo sobre cómo utilizar los servicios de Business Central para administrar las actividades de ventas con sus clientes con facturas de ventas, órdenes, cotizaciones y más.'
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, sell
+ms.search.keywords: 'trade, sell'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 376e2af791a8e9e37b72b27d7f4fcfbe8d9a654b
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322002"
 ---
 # <a name="sales"></a>Ccial
 Puede crear una factura o una orden de venta para registrar el contrato con un cliente para vender determinados productos según términos de entrega y pago determinados.

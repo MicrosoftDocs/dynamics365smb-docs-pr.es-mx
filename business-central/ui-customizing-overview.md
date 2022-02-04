@@ -4,19 +4,13 @@ description: Lea acerca de las diferentes formas de personalizar Business Centra
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: personalize, add-in, extend, customize
+ms.search.keywords: 'personalize, add-in, extend, customize'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: c5060e9982131f23f3a91e07af52aad4e74b48aa
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319867"
 ---
 # <a name="customize-business-central"></a>Personalizar Business Central
 Existen diferentes formas de personalizar la aplicación para tener acceso a las funciones, la funcionalidad y los datos que más necesitan, de la manera que mejor se adapte a su trabajo diario. Aquellos que vean los cambios dependerán de lo que haga, como se describe en esta tabla.

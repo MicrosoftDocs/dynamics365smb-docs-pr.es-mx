@@ -1,5 +1,5 @@
 ---
-title: Cómo corregir anticipos
+title: Corregir anticipos
 description: Puede realizar una corrección en una orden después de haber registrado una factura de anticipo para la orden y agregar nuevas líneas a una orden después de emitir un anticipo.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,9 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '44, 48, 42, 50, 52, 9305, 9307'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c5163602f3a311598e992b24a55b7a5542bcaad2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442246"
 ---
 # <a name="correct-prepayments"></a>Corregir anticipos
 

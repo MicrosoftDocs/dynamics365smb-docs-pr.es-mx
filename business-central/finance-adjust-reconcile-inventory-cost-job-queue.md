@@ -1,6 +1,6 @@
 ---
 title: Programar tareas para ajustar y conciliar el costo de inventario
-description: Obtenga información sobre cómo puede usar la cola de proyectos para mover las tareas para ajustar el costo de inventario o conciliarlo con la contabilidad en segundo plano. Por ejemplo, si su empresa ejecuta muchas tareas o procesa muchas transacciones.
+description: 'Obtenga información sobre cómo puede usar la cola de proyectos para mover las tareas para ajustar el costo de inventario o conciliarlo con la contabilidad en segundo plano. Por ejemplo, si su empresa ejecuta muchas tareas o procesa muchas transacciones.'
 author: AndreiPanko
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
+ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: andreipa
-ms.openlocfilehash: 7ba496cecd6eb473dbffde03598c49c15c2ebc3a
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589043"
 ---
 # <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Programar tareas para ajustar y conciliar el costo de inventario con la contabilidad
 
@@ -25,7 +20,7 @@ Para optimizar la experiencia, el ajuste automático de costos y el registro en 
 
 Crear los movimientos de cola de proyectos puede ser complicado, incluso para un consultor experimentado, por lo que contamos con una guía de configuración asistida para facilitar el proceso de ajuste de los costos de los productos.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. existencias** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de inventario** y, luego, elija el enlace relacionado.  
 2. En la página **Configuración de inventario**, active o desactive el campo **Registro automático de costos** o especifique **Nunca** en el campo **Ajuste automático del costo**.  
 3. En la notificación que ahora se muestra en la parte superior de la página, elija el enlace **Programar movimiento en cola de proyectos**. Esto abre la guía de configuración asistida **Ajuste de costo de previsión y registro**.  
 4. Especifique la tarea que desea programar.  

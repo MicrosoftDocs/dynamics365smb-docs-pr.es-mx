@@ -1,21 +1,16 @@
 ---
-title: Cómo combinar albaranes | Documentos de Microsoft
-description: Si desea facturar varias recepciones de compra a la vez, puede utilizar la función Combinar recepciones.
+title: Agrupar albaranes en una factura única
+description: 'Si desea facturar varias recepciones de compra a la vez, puede utilizar la función Combinar recepciones.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
+ms.search.form: '136, 145, 146'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 83b2e9c488a429603158d800e9c7e7b96be3bd8b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435120"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Agrupar albaranes en una factura única
 

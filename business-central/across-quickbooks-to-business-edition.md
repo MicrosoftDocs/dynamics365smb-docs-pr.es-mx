@@ -1,23 +1,19 @@
 ---
-title: Transferir datos desde una aplicación de QuickBooks | Documentos de Microsoft
-description: Puede migrar datos como clientes, proveedores, productos de inventario y cuentas de las aplicaciones de QuickBooks a Business Central.
-documentationcenter: ''
+title: Transferir datos desde una aplicación de QuickBooks
+description: 'Puede migrar datos como clientes, proveedores, productos de inventario y cuentas de las aplicaciones de QuickBooks a Business Central.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
+ms.search.keywords: 'app, import, migrate, data, transfer, QuickBooks, customize'
+ms.search.form: 1808
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 12ac21b237188b391dac943dd1f0352cddb82602
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440785"
 ---
+
+
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Cambiar de una aplicación de QuickBooks a Dynamics 365 Business Central
 Cada vez más empresas en crecimiento están cambiando de aplicaciones de finanzas como QuickBooks Desktop y QuickBooks Online, que están diseñadas para empresas emergentes y otras pequeñas empresas, a [!INCLUDE[prod_short](includes/prod_short.md)], que también admite organizaciones más grandes y complejas. 
 

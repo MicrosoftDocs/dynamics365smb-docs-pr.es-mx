@@ -1,19 +1,14 @@
 ---
-title: Configurar proyectos, precios y grupos contables de proyectos
-description: Describe cómo configurar la configuración general de los proyectos y configurar los precios de los productos de proyecto, los recursos, las cuentas contables y los grupos contables de proyectos.
+title: 'Configurar proyectos, precios y grupos contables de proyectos'
+description: 'Describe cómo configurar la configuración general de los proyectos y configurar los precios de los productos de proyecto, los recursos, las cuentas contables y los grupos contables de proyectos.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
+ms.search.form: '211, 463, 1012'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cff8ae1b376079aa1b9162cade59e88da985e263
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436159"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Configurar proyectos, precios y grupos contables de proyectos
 

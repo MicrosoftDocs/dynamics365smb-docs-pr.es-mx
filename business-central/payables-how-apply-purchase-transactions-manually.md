@@ -1,21 +1,16 @@
 ---
 title: Conciliar las recepciones o los reembolsos de pagos de proveedores en el diario de pagos
-description: Para procesar, hacer coincidir o conciliar pagos o reembolsos de proveedor manualmente, liquide el importe con uno o varios movimientos de proveedores abiertos.
+description: 'Para procesar, hacer coincidir o conciliar pagos o reembolsos de proveedor manualmente, liquide el importe con uno o varios movimientos de proveedores abiertos.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment application, payment processing, match payments
+ms.search.keywords: 'payment application, payment processing, match payments'
+ms.search.form: '62, 233, 522, 623'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 017f88741ee0ccc2977f2173fbd984e5ebf6b36f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437252"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Conciliar pagos a proveedores con el diario de pagos o desde los movimientos de proveedor
 Cuando envía un pago o recibe un reembolso de un proveedor, debe decidir si va a liquidar uno o varios movimientos pendientes con el pago o el reembolso. Puede especificar el importe exacto que desea liquidar con la recepción de pago o el reembolso, y liquidar sólo parcialmente movimientos del proveedor. Debe liquidar todos los movimientos de proveedores para obtener estadísticas e informes correctos de los estados de cuenta y los intereses.

@@ -1,23 +1,16 @@
 ---
-title: Asignar un nivel de prioridad a un proveedor (contiene vídeo) | Documentos de Microsoft
+title: Asignar un nivel de prioridad a un proveedor (contiene vídeo)
 description: Puede asignar números a los proveedores para darles prioridad y facilitar las sugerencias de pago en Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: supplier, payment priority
+ms.search.keywords: 'supplier, payment priority'
+ms.search.form: '26, 27'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7e68c56422f4f3de33006297ec396fdd34169e8d
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940062"
 ---
 # <a name="prioritize-vendors"></a>De prioridad a los proveedores
 [!INCLUDE[prod_short](includes/prod_short.md)] puede proponer diversos pagos a proveedores, como los pagos que están próximos a vencer o los pagos en los que se pueden realizar descuentos. Para obtener más información, vea [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md).

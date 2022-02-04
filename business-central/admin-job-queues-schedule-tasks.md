@@ -7,15 +7,9 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '672, 673, 674, 671'
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: fdacd0fcfd681d641f7c81249632662e90707951
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588893"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Uso de colas de proyectos para programar tareas
 
@@ -71,6 +65,7 @@ Por ejemplo, si la empresa actual se encuentra en un entorno que es una copia de
 > Los administradores y usuarios internos pueden programar tareas para que se ejecuten. Los administradores delegados no pueden.
 
 ## <a name="the-my-job-queue-part"></a>El apartado de Mi cola proyecto
+
 El apartado **Mi cola proyecto** del Área de tareas muestra los movimientos de colas de proyectos que se han iniciado, pero que aún no han finalizado. Por defecto, el apartado no puede verse, por lo que tiene que agregarlo en el área de tareas. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).  
 
 Este apartado muestra los documentos con su ID en el campo **Id. usuario asignado** que se están procesando o están en cola, incluidos los relacionados con el registro en segundo plano. La parte puede indicar en un vistazo si se produjo error en el registro de un documento o si hay errores en un movimiento de cola de proyectos. El apartado también le permite cancelar un registro de documento si no se está ejecutando.

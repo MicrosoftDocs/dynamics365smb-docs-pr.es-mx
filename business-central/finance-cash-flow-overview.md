@@ -3,21 +3,16 @@ title: Descripción del flujo de caja
 description: Una descripción general de los flujos de entrada y salida de efectivo para ayudar a pronosticar los importes que se recibirán y que se pagarán.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
+ms.search.keywords: 'cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments'
+ms.search.form: '841, 849, 1818'
 ms.date: 12/20/2021
 ms.author: edupont
-ms.reviewer: edupont
-ms.openlocfilehash: c7b75e75d86d18f686b89576ee9560b9246b3eee
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940212"
 ---
+
 # <a name="cash-flow-overview"></a>Descripción del flujo de caja
 
 Conocer las entradas y salidas de efectivo es la clave para una empresa exitosa. Puede utilizar el flujo de caja para crear fácilmente una previsión a corto plazo que prevea cómo y cuándo se espera que su empresa reciba y pague dinero. Es importante que sepa que su empresa tendrá efectivo suficiente para pagar a los acreedores y cubrir los gastos cuando sean sus vencimientos.
@@ -49,9 +44,9 @@ El siguiente ejemplo muestra una descripción global de cómo puede trabajar con
 
 En función de las líneas registradas de la hoja de trabajo, puede generar una previsión de flujo de caja periódicamente. El siguiente diseño es un diseño que se utiliza con frecuencia para una previsión del flujo de caja. El diseño tiene tres secciones:
 
-  - Recepciones de efectivo  
-  - Desembolso de efectivo  
-  - Flujo de caja o efectivo-en-mano neto  
+- Recepciones de efectivo  
+- Desembolso de efectivo  
+- Flujo de caja o efectivo-en-mano neto  
 
 Las recepciones de efectivo proporcionan detalles de los ingresos que el negocio recibe.
 

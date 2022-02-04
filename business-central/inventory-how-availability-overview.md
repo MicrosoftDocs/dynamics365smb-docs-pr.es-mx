@@ -1,22 +1,16 @@
 ---
 title: Obtener un resumen de disponibilidad
-description: Puede obtener información sobre la disponibilidad de los productos o existencias en distintos almacenes, por eventos de venta o de compra, por período de tiempo, etc.
+description: 'Puede obtener información sobre la disponibilidad de los productos o existencias en distintos almacenes, por eventos de venta o de compra, por período de tiempo, etc.'
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1f5913dd06e56e4a49169827a90b96405b294b5e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441204"
 ---
 # <a name="view-the-availability-of-items"></a>Consultar la disponibilidad de los productos
 En el contexto de una tarea de negocio, puede obtener la información avanzada acerca de cuándo y dónde está disponible un producto, por ejemplo, al hablar con un cliente sobre una fecha de entrega.
@@ -46,7 +40,7 @@ Puede ver la disponibilidad de un producto según las transacciones de producto 
 2. Abra la ficha de un producto del que quiera ver su disponibilidad.
 3. Elija la acción **Disponibilidad prod. por** y, a continuación, elija la acción **Evento**.
 
-    La página **Disponibilidad prod. por evento** muestra cómo la cantidad de existencias del producto se desarrollará con el tiempo según los eventos programados de remisión y recepción. La página proporciona una vista condensada que muestra una línea de información acumulada por el intervalo de tiempo en el que cambian las cantidades de inventario. Los intervalos de tiempo en que no se ha producido ningún evento no se muestran. Puede expandir cada línea para consultar información acerca del evento o los eventos que causaron la cantidad acumulada en la línea.
+    La página **Disponibilidad prod. por evento** muestra cómo la cantidad de inventario del producto se desarrollará con el tiempo según los eventos programados de envío y recepción. La página proporciona una vista condensada que muestra una línea de información acumulada por el intervalo de tiempo en el que cambian las cantidades de inventario. Los intervalos de tiempo en que no se ha producido ningún evento no se muestran. Puede expandir cada línea para consultar información acerca del evento o los eventos que causaron la cantidad acumulada en la línea.
 4. Elija el valor en el campo **Saldo disponible estimado** para ver los movimientos de productos o documentos abiertos que constituyen el valor.
 
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Para consultar la disponibilidad de un producto en distintos periodos
@@ -56,7 +50,7 @@ Puede ver la disponibilidad de un producto a lo largo del tiempo para periodos d
 2. Abra la ficha de un producto del que quiera ver su disponibilidad.
 3. Elija la acción **Disponibilidad prod. por** y, a continuación, elija la acción **Periodo**.
 
-    La página **Existencias producto** muestra cómo la cantidad de existencias del producto se desarrollarán a lo largo del tiempo, lo que se muestra para un periodo seleccionado, por ejemplo día, semana o trimestre.
+    La página **Disponibilidad prod. por período** muestra cómo la cantidad de inventario del producto se desarrollará a lo largo del tiempo, lo que se muestra para un período seleccionado (por ejemplo, día, semana o trimestre).
 4. Elija el valor en el campo **Saldo disponible estimado** para ver los movimientos de productos o documentos abiertos que constituyen el valor.
 
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Para consultar la disponibilidad de un producto en las ubicaciones donde se almacena
@@ -66,7 +60,7 @@ Puede ver la disponibilidad de un producto en distintos sitios donde se almacena
 2. Abra la ficha de un producto del que quiera ver su disponibilidad.
 3. Elija la acción **Disponibilidad prod. por** y, a continuación, elija la acción **Almacén**.
 
-    La página **Disponib. prod. por almacén** muestra cómo la cantidad de existencias del producto se desarrollará en el futuro, mostrando cada almacén donde se almacena.
+    La página **Disponib. prod. por almacén** muestra cómo la cantidad de inventario del producto se desarrollará en el futuro, para cada almacén donde se almacena.
 4. Elija el valor en el campo **Cantidad física disponible** para ver los movimientos de productos que constituyen el valor.
 5. Elija el valor en el campo **Saldo disponible estimado** para ver los movimientos de productos o documentos abiertos que constituyen el valor.
 

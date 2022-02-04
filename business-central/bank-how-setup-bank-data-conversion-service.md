@@ -1,21 +1,16 @@
 ---
-title: Configurar la conversión de datos bancarios | Documentos de Microsoft
-description: Puede configurar cuentas bancarias para realizar un seguimiento de las transacciones e importar o exportar fuentes de bancos, como Yodlee.
+title: Configurar la conversión de datos bancarios
+description: 'Puede configurar cuentas bancarias para realizar un seguimiento de las transacciones e importar o exportar fuentes de bancos, como Yodlee.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
+ms.search.keywords: 'Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer'
+ms.search.form: '304, 20106, 20105, 20100, 20101, 20107, 20109'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c9f74c300bfeec6f58e691509d54dfc5134391c7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442861"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Configurar la extensión AMC Banking 365 Fundamentals
 Ya está configurado y listo para habilitar un proveedor global de servicios de conversión de información de pagos a cualquier formato de datos que requiera el banco en [!INCLUDE[prod_short](includes/prod_short.md)]. Esto se menciona en [!INCLUDE[prod_short](includes/prod_short.md)] como la extensión AMC Banking 365 Fundamentals.

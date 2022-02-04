@@ -1,6 +1,6 @@
 ---
 title: Depreciar o amortizar activos fijos
-description: Debe definir cómo amortizará o depreciará cada uno de sus activos fijos, como maquinaria y equipo, durante su vida depreciable.
+description: 'Debe definir cómo amortizará o depreciará cada uno de sus activos fijos, como maquinaria y equipo, durante su vida depreciable.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
+ms.search.form: '5610, 5611, 5659, 5660, 5663, 5619, 5666'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 3d1372425b15ee8b7b63efd64513c131cb1f1f9b
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588312"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Depreciar o amortizar activos fijos
 La amortización se utiliza para distribuir el costo de activos, como maquinaria y equipos, a lo largo de su vida amortizable. Debe definir cómo se amortizará cada activo fijo.  

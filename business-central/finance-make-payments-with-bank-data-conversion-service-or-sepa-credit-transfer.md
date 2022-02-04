@@ -1,5 +1,5 @@
 ---
-title: Realizar pagos con la extensión AMC Banking (EE. UU.) o transferencia de crédito SEPA (UE)
+title: "Realizar pagos con la extensión AMC Banking (EE.\_UU.) o transferencia de crédito SEPA (UE)"
 description: Procese pagos a sus proveedores exportando un archivo (EFT) junto con la información de pago desde las líneas de diario.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -7,15 +7,10 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
+ms.search.form: '256, 1205, 1206, 1209, 10810, 10811'
 ms.date: 07/06/2021
 ms.author: bholtorf
-ms.openlocfilehash: f54abce68049db1a6ff9330eb5569f2c26cf12ed
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437427"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Efectúe pagos con la extensión AMC Banking 365 Fundamentals o transferencia de crédito SEPA
 
@@ -67,7 +62,7 @@ Para poder procesar el pago electrónicamente exportando los archivos de pago en
 3. En ficha desplegable **Pago**, en el campo **Código método pago**, seleccione **BANCO**.  
 4. En el campo **Cuenta bancaria preferida**, seleccione el banco al que se transferirá el dinero cuando se procese por banco electrónico.  
 
-     Si aún no ha creado un banco para este proveedor, puede hacerlo ahora. Para obtener más información, consulte [Para configurar cuentas bancarias de proveedor para exportar archivos bancarios](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). El valor del campo **Cuenta bancaria preferida** se copia en el campo **Cta. bancaria destinatario** en la página **Diario de pagos**.  
+    Si aún no ha creado un banco para este proveedor, puede hacerlo ahora. Para obtener más información, consulte [Para configurar cuentas bancarias de proveedor para exportar archivos bancarios](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). El valor del campo **Cuenta bancaria preferida** se copia en el campo **Cta. bancaria destinatario** en la página **Diario de pagos**.  
 
 ### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Para configurar el diario de pagos para exportar archivos de pagos
 

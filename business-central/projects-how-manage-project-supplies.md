@@ -7,15 +7,10 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, material, purchase
+ms.search.keywords: 'project management, material, purchase'
+ms.search.form: '98, 1020'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b2c2bfa376290439394debcf9b57da5bedaca8bd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443854"
 ---
 # <a name="manage-job-supplies"></a>Administración de suministros de proyecto
 La administración de los suministros de los productos, servicios y gastos de un proyecto es un aspecto clave y fundamental de la ejecución de todos los proyectos. Puede utilizar las cantidades de inventario o realizar compras de proyecto mediante pedidos de compra o facturas de compra. Por ejemplo, un proyecto de servicio en un equipo precisa un disco nuevo. Debe crear una factura de compra para comprar un disco nuevo y registrar el proyecto en el que se va a usar.

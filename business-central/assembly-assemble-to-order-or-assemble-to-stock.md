@@ -7,15 +7,9 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: kit, kitting
+ms.search.keywords: 'kit, kitting'
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: deaefbebf1520bc936c078ff7f74b18c34de4d89
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326349"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Descripción de ensamblar para pedido y ensamblar para stock
 Los productos de ensamblado se pueden suministrar en los dos procesos siguientes:  
@@ -70,20 +64,29 @@ Cuando se introduce un artículo de ensamblar para pedido en una línea de venta
 
  Un ejemplo del motivo por el que querría modificar la cantidad para ensamblar es que desee registrar parcialmente la remisión de las cantidades del inventario antes de que la salida de ensamblado se pueda enviar.  
 
- En la siguiente tabla, se explican las reglas que definen los valores mínimo y máximo que se pueden introducir manualmente en el campo **Cantidad a ensamblar** para desviarse del valor predeterminado en un escenario de combinación. La tabla muestra un escenario de combinación cuyo campo **Cdad. a enviar** en la línea vinculada del pedido de venta se cambia del 7 al 4, y **Cdad. a ensamblar** se establece de forma predeterminada en 4.  
+ En las siguiente tablas, se explican las reglas que definen los valores mínimo y máximo que se pueden introducir manualmente en el campo **Cantidad a ensamblar** para desviarse del valor predeterminado en un escenario de combinación. La tabla muestra un escenario de combinación cuyo campo **Cdad. a enviar** en la línea vinculada del pedido de venta se cambia del 7 al 4, y **Cdad. a ensamblar** se establece de forma predeterminada en 4.  
 
-|-|Línea de pedido de venta|Cabecera de pedido de ensamblado|||||||  
-|-|----------------------|---------------------------|-|-|-|-|-|-|  
-||**Cantidad**|**Cantidad a enviar**|**Cdad. en ensamblar para pedido**|**Cantidad enviada**|**Cantidad**|**Cantidad a ensamblar**|**Cantidad ensamblada**|**Cantidad pendiente**|  
-|Inicial|10|7|7|0|7|7|0|7|  
-|Cambiar||4||||4 (insertado de forma predeterminada)|||  
+- Línea de pedido de venta
 
- En función de la situación anterior, sólo se puede modificar el campo **Cantidad a ensamblar** de la siguiente forma:  
+    |                | **Cantidad** | **Cantidad a enviar** | **Cdad. en ensamblar para pedido** | **Cantidad enviada** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Valor inicial**| 10          | 7                | 7                             | 0                    |
+    |**Cambio**      |              | 4                |                               |                      |
 
--   La cantidad mínima que puede introducir es 1. Esto se debe a que debe ensamblar al menos una unidad para poder vender las cuatro unidades, si se asume que las tres restantes están disponibles en el inventario.  
--   La cantidad máxima que puede introducir es 4. Así se garantiza que no ensamble más de este artículo de ensamblar para pedido de lo que se necesita en la venta.  
+- Cabecera de pedido de ensamblado
 
-## <a name="see-also"></a>Consulte también  
+    |                | **Cantidad** | **Cantidad a enviar** | **Cdad. en ensamblar para pedido** | **Cantidad enviada** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Valor inicial**| 7           | 7                | 0                             | 7                    |
+    |**Cambio**      |              | 4 (insertado de forma predeterminada)|                         |                      |
+
+En función de este ejemplo, sólo se puede modificar el campo **Cantidad a ensamblar** de la siguiente forma:  
+
+- La cantidad mínima que puede introducir es 1. Esto se debe a que debe ensamblar al menos una unidad para poder vender las cuatro unidades, si se asume que las tres restantes están disponibles en el inventario.  
+- La cantidad máxima que puede introducir es 4. Así se garantiza que no ensamble más de este artículo de ensamblar para pedido de lo que se necesita en la venta.  
+
+## <a name="see-also"></a>Consulte también
+
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  

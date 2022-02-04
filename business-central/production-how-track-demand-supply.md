@@ -1,23 +1,18 @@
 ---
 title: Realizar un seguimiento de las relaciones entre demanda y suministro
-description: Este tema explica las diferentes formas de realizar un seguimiento de las relaciones entre la oferta y la demanda, como el seguimiento de elementos vinculados y el tratamiento de elementos de planificación sin seguimiento.
+description: 'Este tema explica las diferentes formas de realizar un seguimiento de las relaciones entre la oferta y la demanda, como el seguimiento de elementos vinculados y el tratamiento de elementos de planificación sin seguimiento.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '5830, 9101, 99000822, 99000855'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ccf2b753e11d0f6a23235125e99f58a011606788
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435305"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Realizar un seguimiento de las relaciones entre demanda y suministro
+
 Desde cualquier documento de suministro o demanda de la llamada red de pedidos, puede efectuar el seguimiento de la demanda de pedido (cantidad seguida), previsión, pedido de ventas abierto o parámetro de planificación (cantidad no seguida) que ha dado lugar a la línea de planificación en cuestión.
 
 Las hojas de planificación también presentan información de planificación complementaria, acerca de entidades sin pedidos para ayudar al planificador a elaborar un plan de suministro óptimo. Para obtener más información, consulte [Elementos de planificación sin seguimiento](production-how-track-demand-supply.md#untracked-planning-elements).
@@ -45,7 +40,7 @@ La página contiene entradas que contabilizan la cantidad de excedentes sin segu
 - Pedidos abiertos
 - Existencias de seguridad
 - Punto de pedido
-- Existencias máximas
+- Inventario máximo
 - Cantidad a solicitar
 - Cantidad máxima pedido
 - Cantidad mínima pedido

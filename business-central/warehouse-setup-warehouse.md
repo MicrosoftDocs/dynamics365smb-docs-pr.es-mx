@@ -1,26 +1,21 @@
 ---
 title: Configurar procesos de almacén
-description: La estrategia de distribución de una empresa se refleja en la configuración de sus procesos de almacén, por ejempo, las ubicaciones de almacén.
+description: 'La estrategia de distribución de una empresa se refleja en la configuración de sus procesos de almacén, por ejempo, las ubicaciones de almacén.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b4578a02405b2aa972dac81a1d8d8e30ad713f3c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324725"
 ---
 # <a name="setting-up-warehouse-management"></a>Configuración de la gestión del almacén
+
 La estrategia de distribución de una empresa se refleja en la configuración de sus procesos de almacén. Esto incluye definir el tratamiento de los distintos productos en ubicaciones distintas del almacén, como el nivel de control de ubicación y el alcance del flujo de trabajo necesario entre las actividades de almacén.  
 
- En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas que las describen.   
+En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas que las describen.  
 
 |**Para**|**Vea**|  
 |------------|-------------|  
@@ -42,11 +37,12 @@ La estrategia de distribución de una empresa se refleja en la configuración de
 |Integrar los lectores de códigos de barras a su solución de gestión de almacenes. Solo para la implementación local.|[Utilice el sistema de captura de datos automatizado (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos.|[Selección de informes en Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-also"></a>Consulte también
+
 [Gestión almacén](warehouse-manage-warehouse.md)  
 [Inventario](inventory-manage-inventory.md)  
-[Gestión de ensamblaje](assembly-assemble-items.md)    
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Administración de ensamblados](assembly-assemble-items.md)
+[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

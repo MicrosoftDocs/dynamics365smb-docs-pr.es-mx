@@ -4,14 +4,9 @@ description: Aprenda a lidiar con la acumulación de documentos históricos (y r
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
+ms.search.form: '107, 9040'
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 5263d4ba06cc7b2dc497efb6842a927704c31f35
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724723"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Administrar el almacenamiento eliminando documentos o comprimiendo datos
 
@@ -24,7 +19,7 @@ Un rol central, como el administrador de aplicaciones, debe eliminar o compactar
 
 En algunos casos, es posible que necesite eliminar pedidos de compra facturados que no se hayan eliminado. [!INCLUDE[prod_short](includes/prod_short.md)] comprueba que se hayan facturado totalmente los pedidos de compra eliminados. No puede eliminar pedidos que no haya facturado y recibido en su totalidad.  
 
-Los pedidos de devolución generalmente se eliminan después de facturados. Cuando registra una factura, ésta se transfiere a la página **Notas de crédito de compras registradas**. Si ha activado la casilla **Remisión dev. en nota de crédito** en la página **Conf. compras y pagos**, la factura se transfiere a la página **Histórico remisión devolución**. Puede eliminar los documentos con el proceso **Borrar ped. dev. compras fact**. Antes de eliminar, el trabajo por lotes comprueba si los pedidos devueltos de compra han sido enviados y facturados totalmente.  
+Los pedidos de devolución generalmente se eliminan después de facturados. Cuando registra una factura, esta se transfiere a la página **Nota de crédito de compra registrada**. Si ha activado la casilla **Remisión dev. en nota de crédito** en la página **Conf. compras y pagos**, la factura se transfiere a la página **Histórico remisión devolución**. Puede eliminar los documentos con el proceso **Borrar ped. dev. compras fact**. Antes de eliminar, el trabajo por lotes comprueba si los pedidos devueltos de compra han sido enviados y facturados totalmente.  
 
 Los pedidos abiertos de compra no se eliminan una vez que se han procesado y facturado todos los pedidos de compra relacionados. Para eliminar pedidos abiertos de compra, puede utilizar el trabajo por lotes **Eliminar pedidos abiertos compra facturados**.  
 

@@ -1,23 +1,18 @@
 ---
 title: Configure sus indicadores de colores personalizados para una actividad de Cue
-description: Como administrador, puede configurar pilas para que aparezcan en las áreas de trabajo de los usuarios a fin de que incluyan un indicador que cambia de color según los valores de datos de las pilas.
+description: 'Como administrador, puede configurar pilas para que aparezcan en las áreas de trabajo de los usuarios a fin de que incluyan un indicador que cambia de color según los valores de datos de las pilas.'
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '9701, 9702'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7390fd047080fe5282cc949ec81e58ccb5f2e9cf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443879"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Configurar un indicador de color en pilas para la empresa o usuarios individuales
+
 Como administrador, puede configurar pilas para que aparezcan en las áreas de trabajo de los usuarios a fin de que incluyan un indicador que cambia de color según los valores de datos de las pilas.  
 
 El indicador se muestra como una barra de color a lo largo del borde superior del mosaico de la pila. Proporciona una guía visual del estado de la actividad de la pila, que puede indicar condiciones favorables o desfavorables para que el usuario actúe en consecuencia. Por ejemplo, si una pila muestra las facturas de venta en curso, puede configurar que el indicador aparezca de color verde (favorable) si el número total de facturas de venta en curso es inferior a 10 y que aparezca de color rojo (desfavorable) si el total es mayor que 20.  

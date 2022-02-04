@@ -1,21 +1,15 @@
 ---
 title: Rastrear líneas de pedido a documentos relacionados
-description: Consulte documentos relacionados con líneas de las órdenes de compra y venta, como cotizaciones, envíos, recepciones y órdenes abiertas, para identificar los documentos que se utilizan para procesar órdenes.
+description: 'Consulte documentos relacionados con líneas de las órdenes de compra y venta, como cotizaciones, envíos, recepciones y órdenes abiertas, para identificar los documentos que se utilizan para procesar órdenes.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '6560, 42, 50, 507, 509'
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 4c469d3f521e526f3c121da5bf8265fc92f01289
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439906"
 ---
 # <a name="track-document-lines"></a>Seguimiento de líneas de documentos
 Puede ver documentos relacionados con líneas de orden de venta y líneas de orden de compra, incluso desde líneas de pedido archivadas. Los documentos relacionados que puede rastrear incluyen cotizaciones, remisiones, recibos y órdenes abiertas. Esto le permite identificar los documentos que se usan para procesar pedidos.  

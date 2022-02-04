@@ -7,17 +7,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: f2ecf59472adb8b153b2b6feeea62591e0565085
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441558"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrar el consumo y la salida de una línea de orden de producción lanzada
+
 Esta tarea de ejecución se realiza en la página **Diario de producción**. El diario combina las funciones del diario de consumo y de los diarios de salida en un único diario, al que se tiene acceso directamente desde una orden de producción lanzada. La finalidad principal de este diario es registrar manualmente el consumo de componentes, la cantidad de los productos finales fabricados y el tiempo empleado en las operaciones. Su finalidad principal es registrar manualmente el consumo de componentes, la cantidad de productos finales fabricados y el tiempo dedicado a las operaciones. Los valores se registran en los movimientos de contabilidad bajo la orden de producción lanzada. Las cantidades de consumo se registran como movimientos de producto negativos, las cantidades de salida se registran como movimientos positivos y los tiempos invertidos se registran como movimientos de capacidad. Estos valores registrados se pueden consultar también en la parte inferior del diario como cantidades reales.  
 
 > [!NOTE]  

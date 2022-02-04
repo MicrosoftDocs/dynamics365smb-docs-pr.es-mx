@@ -5,14 +5,9 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keyword: prepayment
+ms.search.form: '314, 459, 460, 664'
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: a09f0cd35c62b65bf690fd785c0fc9a4b4b178d7
-ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7889831"
 ---
 # <a name="set-up-prepayments"></a>Configurar anticipos
 

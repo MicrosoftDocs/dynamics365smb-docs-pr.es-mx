@@ -1,20 +1,15 @@
 ---
-title: Reclasificar activos fijos | Documentos de Microsoft
-description: Un activo fijo se reclasifica para transferirlo a otro departamento, dividirlo o combinarlo con otros activos fijos.
+title: Reclasificar activos fijos
+description: 'Un activo fijo se reclasifica para transferirlo a otro departamento, dividirlo o combinarlo con otros activos fijos.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: '5638, 5636, 5640, 5637'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 74013be6664db6ea62c2da66fb38b076c08ffea2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440585"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Permite transferir, dividir o combinar activos fijos
 

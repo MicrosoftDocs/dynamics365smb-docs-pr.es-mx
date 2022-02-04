@@ -1,29 +1,23 @@
 ---
 title: 'Configurar procedimientos recomendados: valoración de existencias'
 description: La Valoración de existencias en la ficha de producto define cómo se registra el flujo de costo del producto y si un el valor real o presupuestado se capitaliza y utiliza en el cálculo del costo.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '30, 42, 43'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 87c3616a4d680f94a0997d503aa1569fd871bc9f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778083"
 ---
 # <a name="setup-best-practices-costing-method"></a>Procedimientos recomendados de configuración: valuación de inventarios
 
 La **Valoración de existencias** en la ficha de producto define cómo se registra el flujo de costo del producto y si un el valor real o presupuestado se capitaliza y utiliza en el cálculo del costo.  
 
- La configuración de la valuación de inventarios correcta según el tipo de producto y el entorno de negocio es importante para garantizar inventarios económicos.  
+La configuración de la valuación de inventarios correcta según el tipo de producto y el entorno de negocio es importante para garantizar inventarios económicos.  
 
- En la tabla siguiente se proporcionan prácticas recomendadas sobre cómo configurar el campo **Método registro**. Para obtener más información, consulte [Detalles de diseño: Métodos de coste](design-details-costing-methods.md).  
+En la tabla siguiente se proporcionan prácticas recomendadas sobre cómo configurar el campo **Método registro**. Para obtener más información, consulte [Detalles de diseño: Métodos de coste](design-details-costing-methods.md).  
 
 |Opción de configuración|Procedimiento recomendado|Comentario|  
 |------------------|-------------------|-------------|  
@@ -33,11 +27,12 @@ La **Valoración de existencias** en la ficha de producto define cómo se regist
 |Específico|Utilice esto en la producción o el comercio de productos fácilmente identificables con costos unitarios relativamente elevados.<br /><br /> Utilice para productos que están sujetos normativas.<br /><br /> Utilice esto para los productos con números de serie.|El costo unitario de un producto es el costo exacto en el que la unidad determinada fue recibida.|
 |Estándar|Utilice esto donde el control del costo es crítico.<br /><br /> Utilice esto en la fabricación repetitiva para establecer el valor de los costos de material directo, mano de obra directa y gastos de fabricación.<br /><br /> Utilice esto cuando hay disciplina y personal para mantener los estándares.|El costo unitario de un producto se preestablece basándose en una estimación.<br /><br /> Cuando el costo real se realiza posteriormente, el costo estándar se debe ajustar al costo real a través de valores de varianza.|  
 
-## <a name="see-also"></a>Consulte también  
- [Detalles de diseño: Métodos de costo](design-details-costing-methods.md)   
- [Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)   
- [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
- [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="see-also"></a>Consulte también
+
+[Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  
+[Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  
+[Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

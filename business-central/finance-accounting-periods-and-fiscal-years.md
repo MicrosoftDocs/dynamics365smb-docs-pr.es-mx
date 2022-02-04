@@ -1,5 +1,5 @@
 ---
-title: Trabajar con periodos contables y ejercicios | Documentos de Microsoft
+title: Trabajar con periodos contables y ejercicios
 description: Obtenga información sobre cómo trabajar con períodos contables para definir cuándo empresa elabora los informes de rendimiento financiero.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -7,15 +7,9 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 100
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e348ce883493ec621b6dbe4bc5855e0c8318178b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442836"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Trabajar con periodos contables y ejercicios
 

@@ -1,21 +1,16 @@
 ---
-title: Exportar los datos de Business Central a Excel | Documentos de Microsoft
-description: Puede exportar los informes financieros y los datos de inteligencia empresarial desde Business Central a Excel, o abrir los datos en Excel.
+title: Exportar los datos de Business Central a Excel
+description: 'Puede exportar los informes financieros y los datos de inteligencia empresarial desde Business Central a Excel, o abrir los datos en Excel.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
+ms.search.keywords: 'analysis, reporting, financial report, business intelligence, BI, Excel'
+ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4a6bfb8d20c13019807b2308737380c4fd31dcc6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776508"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportar los datos de negocio a Excel
 Si desea trabajar con sus datos de [!INCLUDE[prod_short](includes/prod_short.md)] en Excel, puede abrir todas las listas en Excel y trabajar con ellos. De igual forma, si desea cancelar la suscripción de [!INCLUDE[prod_short](includes/prod_short.md)], puede exportar los datos a Excel de forma que pueda llevárselos.

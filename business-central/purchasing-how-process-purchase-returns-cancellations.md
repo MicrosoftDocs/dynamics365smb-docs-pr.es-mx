@@ -1,5 +1,5 @@
 ---
-title: Proceso de devoluciones o cancelaciones | Documentos de Microsoft
+title: Procesamiento de devoluciones o cancelaciones
 description: Explica cómo crear y registrar una nota de crédito de compra cuando se desean devolver productos a un proveedor o cancelar servicios comprados.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,10 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: cancel, undo, correct
+ms.search.keywords: 'cancel, undo, correct'
+ms.search.form: '6640, 6643'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e43f5c5dd2a785a0268b9cf61794de1f8fa73a9a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445562"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Procesamiento de devoluciones de compra o cancelaciones
 
@@ -67,7 +62,7 @@ Para obtener más información, consulte [Detalles de diseño: valoración de in
 
 Las facturas de compra registradas a las que se aplica la nota de crédito ahora están revertidas. Si ya ha pagado la factura original, el proveedor ahora deberá reembolsarle el pago a usted. Si la nota de crédito es solo para parte del producto en la factura original, puede pagar solo el importe pendiente en la factura de compra original para cerrarla.
 
-La nota de crédito de compra se ha eliminado y remplazado por un nuevo documento en la lista de notas de crédito compras registradas.
+La nota de crédito de compra se ha eliminado y remplazado por un nuevo documento en la lista de notas de crédito de compra registradas.
 
 ## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Crear un nuevo abono de compra copiando una factura de compra registrada.
 
@@ -126,7 +121,7 @@ La nota de crédito de compra se ha eliminado y remplazado por un nuevo document
     > [!NOTE]  
     >  Si ya se ha revertido, vendido o consumido parte de la cantidad de la línea del documento registrado, se crea una línea sólo para la cantidad que queda en inventario o que no se ha devuelto. Si ya se ha revertido toda la cantidad de la línea del documento registrado, no se crea una nueva línea de documento.  
     >
-    >  Si el flujo de los artículos en el documento registrado coincide con el del nuevo documento, se crea una copia de la línea del documento registrado original en el nuevo documento. El campo **Liq. movimiento prod.** no se rellenó porque, en este caso, la reversión de costo exacto no es posible. Por ejemplo, si utiliza la función **Revertir líneas documentos registrados** para obtener una línea de una nota de crédito de compras registrada para un nueva nota de crédito de compras, solo se copia la línea del Nota crédito regis original en el nuevo abono.  
+    >  Si el flujo de los artículos en el documento registrado coincide con el del nuevo documento, se crea una copia de la línea del documento registrado original en el nuevo documento. El campo **Liq. movimiento prod.** no se rellenó porque, en este caso, la reversión de costo exacto no es posible. Por ejemplo, si utiliza la función **Revertir líneas documentos registrados** para obtener una línea de una nota de crédito de compra registrada para un nueva nota de crédito de compra, solo se copia la línea de la nota crédito registrada original en la nueva nota de crédito.  
 
 10. En la página **Pedido dev. compra**, en el campo **Cód. auditoría dev.** de cada línea, seleccione el motivo de la devolución.
 11. Seleccione la acción **Registrar**.
@@ -167,7 +162,7 @@ Cuando envíe los productos, registre los pedidos de devolución de compras rela
 
 Cuando vaya a facturar estos productos, en lugar de facturar cada pedido de devolución de compra por separado, cree una nota de crédito de compras y copie automáticamente las líneas de envío de devolución de compra registradas en este documento. Luego registre la nota de crédito de compra y facture con comodidad todos los pedidos de devolución de compra pendientes al mismo tiempo.  
 
-Cuando se combinan envíos devueltos en una nota de crédito y se registran, se crea una nota de crédito de compras registrada para las líneas facturadas. El campo **Cantidad facturada** del pedido de devolución de compra de origen se actualiza en función de la cantidad facturada. Sin embargo, este pedido de devolución de compra original no se elimina, aunque se haya recibido y facturado por completo, por lo que debe eliminar el pedido de devolución de compra manualmente.
+Cuando se combinan envíos de devolución en una misma nota de crédito y se registran, se crea una nota de crédito de compra registrada para las líneas facturadas. El campo **Cantidad facturada** del pedido de devolución de compra de origen se actualiza en función de la cantidad facturada. Sin embargo, este pedido de devolución de compra original no se elimina, aunque se haya recibido y facturado por completo, por lo que debe eliminar el pedido de devolución de compra manualmente.
 
 > [!NOTE]  
 > El procedimiento siguiente supone que hay varios pedidos de devolución de compra para el proveedor y que están registrados como enviados.     

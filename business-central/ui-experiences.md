@@ -1,22 +1,16 @@
 ---
-title: Elegir la experiencia de usuario para mostrar u ocultar características avanzadas | Documentos de Microsoft
-description: Obtenga información sobre lo que significan las capas de experiencia de usuario Esencial y Premium para la interfaz de usuario, las áreas de aplicación y su empresa.
-documentationcenter: ''
+title: Cambiar las funciones que se muestran
+description: 'Obtenga información sobre lo que significan las capas de experiencia de usuario Esencial y Premium para la interfaz de usuario, las áreas de aplicación y su empresa.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: essential, basic, user interface, application area, experience
+ms.search.keywords: 'essential, basic, user interface, application area, experience'
+ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d56c8d6be69e12ced2dc83b884650360e95c0ab2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443629"
 ---
 # <a name="change-which-features-are-displayed"></a>Cambiar las funciones que se muestran
 [!INCLUDE[prod_short](includes/prod_short.md)] está diseñado para ayudarlo a administrar su empresa, independientemente del tamaño y la complejidad. En el núcleo del producto, encontrará características esenciales, como informes financieros, ventas, compras y administración de inventario. A medida que aumenta la complejidad empresarial, puede activar la funcionalidad para la fabricación y la administración de servicios, por ejemplo.

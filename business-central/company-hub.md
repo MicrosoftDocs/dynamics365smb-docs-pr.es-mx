@@ -4,16 +4,12 @@ description: Más información sobre el hub de empresas de Dynamics 365 Business
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: accountant, accounting, financial report
+ms.search.keywords: 'accountant, accounting, financial report'
+ms.search.form: '1151, 1154, 1165, 1166'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1757f1c02bb6623f59996d372f544f224b94237e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445737"
 ---
+
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Administrar el trabajo de varias empresas en el hub de empresas
 
 Algunas personas trabajan en varias empresas en [!INCLUDE [prod_short](includes/prod_short.md)], y algunos también trabajan en más de una organización, como contables externos o empleados y gerentes de corporaciones con múltiples subsidiarias. Para estos usuarios y muchos otros, el hub de empresas sirve como página de aterrizaje para administrar el trabajo en los diversos entornos en los que trabajan, en empresas, entornos y regiones.  

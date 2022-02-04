@@ -1,21 +1,15 @@
 ---
-title: Cómo recibir productos
-description: En este tema se ofrece una descripción general de las diferentes formas de recibir productos en un almacén, por ejemplo, productos con una orden de compra o productos con una recepción de almacén.
+title: Recibir productos
+description: 'En este tema se ofrece una descripción general de las diferentes formas de recibir productos en un almacén, por ejemplo, productos con una orden de compra o productos con una recepción de almacén.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510'
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: f71e348a5f6b8a232d05c8729a03a7f41534caa8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445137"
 ---
 # <a name="receive-items"></a>Recibir productos
 
@@ -77,7 +71,7 @@ A continuación se describe cómo recibir productos con un pedido de compra. Los
 
 5. Registre la recepción de almacén. Los campos de cantidad se actualizan en el documento de origen y se registran los productos como parte del inventario de la empresa.  
 
-Si utiliza ubicación y picking directos, las líneas de recepción se envían a la función de ubicación de almacén. No es posible hacer picking de los productos, aunque se hayan recibido, hasta que se ubiquen. Los productos recibidos se identifican como existencias disponibles sólo cuando se haya registrado la ubicación.  
+Si utiliza ubicación y picking directos, las líneas de recepción se envían a la función de ubicación de almacén. No es posible hacer picking de los productos, aunque se hayan recibido, hasta que se ubiquen. Los productos recibidos se identifican como existencias disponibles solo cuando se haya registrado la ubicación.  
 
 Si no utiliza ubicación de almacén, pero sí utiliza ubicaciones, se registra la ubicación de los productos en la ubicación especificada en la línea del documento de origen.  
 

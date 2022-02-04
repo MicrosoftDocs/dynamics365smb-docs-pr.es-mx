@@ -1,23 +1,20 @@
 ---
-title: Enviar informes de IVA a las autoridades fiscales | Documentos de Microsoft
-description: Obtenga más información sobre cómo preparar informes que registren el IVA de ventas durante un periodo, o durante vendas y compras, y enviarlo a las autoridades fiscales.
+title: Enviar informes de IVA a las autoridades fiscales
+description: 'Obtenga más información sobre cómo preparar informes que registren el IVA de ventas durante un periodo, o durante vendas y compras, y enviarlo a las autoridades fiscales.'
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, tax, report, EC sales list, statement
+ms.search.keywords: 'VAT, tax, report, EC sales list, statement'
+ms.search.form: '321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0342f6009f91140cea9695caca1517a920ac6613
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444498"
 ---
+
 # <a name="report-vat-to-tax-authorities"></a>Crear informes de IVA para las autoridades fiscales
+
 En este tema se describen los informes de [!INCLUDE[prod_short](includes/prod_short.md)] que puede utilizar para enviar información sobre importes del IVA (IVA) para ventas y compras a las autoridades fiscales de su región. 
 
 Utilice los siguientes informes:
@@ -93,7 +90,7 @@ Si utiliza otro método para enviar el informe, por ejemplo, exportar el XML y c
 ## <a name="vat-settlement"></a>Liquidación IVA
 Periódicamente, debe remitir el saldo del IVA a las autoridades fiscales. Si tiene que liquidar el IVA con frecuencia, puede ejecutar el trabajo por lotes **Calc. y registrar liq. IVA** para cerrar los movimientos de IVA abiertos y transferir los importes del IVA de ventas y compras a la cuenta de liquidación del IVA.
 
-Al transferir importes de IVA a la cuenta de liquidación, la cuenta de IVA soportado se contabiliza en el Haber y la cuenta de IVA repercutido se contabiliza en el Deber con los importes calculados en el periodo. El importe neto se contabiliza en el Haber, o en el Debe, si el importe de IVA soportado es superior, en la cuenta de liquidación del IVA. Puede registrar la liquidación inmediatamente o imprimir primero un informe.  
+Al transferir montos de IVA a la cuenta de liquidación, la cuenta de IVA soportado se acredita y la cuenta de IVA diferido se debita con los montos calculados en el período. El monto neto se acredita o debita si el monto de IVA de compra es superior, en la cuenta de liquidación del IVA. Puede registrar la liquidación inmediatamente o imprimir primero un informe.  
 
 > [!Note]
 > Cuando se utiliza el trabajo por lotes **Calc. y registrar liq. IVA**, si no especifica un **Grupo registro IVA neg.** y un **Grupo registro IVA prod.**, se incluirán los movimientos con todos los códigos de los grupos contables de negocio y los de grupos contables de producto.

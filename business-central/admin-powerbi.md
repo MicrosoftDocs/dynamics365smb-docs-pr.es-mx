@@ -1,22 +1,17 @@
 ---
-title: Introducción a Business Central y Power BI | Documentos de Microsoft
-description: Obtener una visión general del uso de Power BI para conseguir información, inteligencia empresarial y KPI a partir de los datos de Business Central.
+title: Introducción a Business Central y Power BI
+description: 'Obtener una visión general del uso de Power BI para conseguir información, inteligencia empresarial y KPI a partir de los datos de Business Central.'
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
+ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
+ms.search.form: '6316, 6317'
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 3c8ad52667ad8ff0a2cb399ac6354012d7ef9275
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437923"
 ---
 # <a name="prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)] y Power BI
 

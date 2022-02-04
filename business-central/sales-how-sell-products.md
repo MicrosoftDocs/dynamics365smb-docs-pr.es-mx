@@ -7,16 +7,10 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, partial deliveries, customer sales order
-ms.search.form: 42, 48, 9305
-ms.date: 09/24/2021
+ms.search.keywords: 'trade, partial deliveries, customer sales order'
+ms.search.form: '42, 48, 9305'
+ms.date: 01/19/2022
 ms.author: edupont
-ms.openlocfilehash: 543a334e087db85b15b5237a37702d410254f266
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752353"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Vender productos con un pedido de venta de cliente  
 
@@ -84,6 +78,8 @@ Incluso puede crear pedidos pagados directamente para clientes no registrados co
 12. Para enviar únicamente una parte de la cantidad de la orden, escriba dicha cantidad en el campo **Cantidad a enviar**. El calor se copia en el campo **Cantidad a facturar**.
 13. Para facturar únicamente una parte de la cantidad enviada, escriba dicha cantidad en el campo **Cantidad a facturar**. La cantidad debe ser inferior al valor del campo **Cantidad a enviar**.  
 14. Cuando las líneas dela orden de venta ya estén completas, seleccione la acción **Registrar y enviar**.
+
+[!INCLUDE [order-ship-invoice](includes/order-ship-invoice.md)]
 
 El cuadro de diálogo **Registrar y enviar confirmación** muestra el método preferido del cliente para recibir documentos. Puede cambiar el método de envío seleccionando el botón de búsqueda en el campo **Enviar documento a**. Para obtener más información, vea [Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).
 

@@ -1,25 +1,19 @@
 ---
-title: Configurar costos, precios y capacidad de recursos | Documentos de Microsoft
-description: Para utilizar recursos y facilitar la administración de proyectos, especifique costes y precios para recursos individuales o grupos de recursos, y configure la capacidad de recursos.
-services: project-madeira
-documentationcenter: ''
+title: 'Configurar costos, precios y capacidad de recursos del proyecto'
+description: 'Para utilizar recursos y facilitar la administración de proyectos, especifique costes y precios para recursos individuales o grupos de recursos, y configure la capacidad de recursos.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, capacity, staff
+ms.search.keywords: 'project management, capacity, staff'
+ms.search.form: '72, 76, 77, 203, 204'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eb0d6f0ebe08abfb4b6f769f1bdbff1f02bc677f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439806"
 ---
-# <a name="set-up-resources"></a>Configurar recursos
+# <a name="set-up-resources-for-projects"></a>Configurar recursos para proyectos
+
 Para administrar correctamente las actividades de recursos, debe configurar los recursos, y los costos y los precios relacionados. Las reglas de precios, descuentos y factores de costo relacionadas con el proyecto se configuran en la tarjeta respectiva. Puede especificar los costos y los precios de recursos individuales, de grupos de recursos o de todos los recursos disponibles de la empresa.
 
 Si se utilizan o venden recursos en un proyecto, los precios y costes asociados con ellos se recuperan de la información que haya configurado.

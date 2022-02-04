@@ -1,21 +1,16 @@
 ---
 title: Configurar banca
-description: Utilice fichas de banco para realizar un seguimiento de sus cuentas bancarias y configurar las fuentes de bancos, como Yodlee, para intercambiar datos.
+description: 'Utilice fichas de banco para realizar un seguimiento de sus cuentas bancarias y configurar las fuentes de bancos, como Yodlee, para intercambiar datos.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
+ms.search.keywords: 'Yodlee, feed, stream, data exchange, AMC, link'
+ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 43a9291fb346596b46d3871a1da7eb84fae3a758
-ms.sourcegitcommit: cde0d97840c8b83cae45afc4a6c65725ffdad56a
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6248900"
 ---
 # <a name="setting-up-banking"></a>Configurar banca
 

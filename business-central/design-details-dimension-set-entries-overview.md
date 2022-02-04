@@ -3,19 +3,13 @@ title: Información general de los movimientos del grupo dimensiones
 description: Este artículo le ofrece una descripción general de cómo se almacenan los movimientos de grupo de dimensiones como movimientos de grupo de dimensiones y cómo se registran.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f5765b82e3fde5ba35d3c0be9fc6383c9ddb5bf7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442421"
 ---
 # <a name="dimension-set-entries-overview"></a>Información general de los movimientos del grupo dimensiones
 Este tema describe cómo se almacenan y se registran los movimientos de grupo de dimensiones en [!INCLUDE[prod_short](includes/prod_short.md)].  

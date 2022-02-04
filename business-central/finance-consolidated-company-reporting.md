@@ -7,16 +7,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: consolidation, subsidiaries, consolidate
+ms.search.keywords: 'consolidation, subsidiaries, consolidate'
+ms.search.form: '1826, 1827'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 24b9dd8d332091508a21620c3ac1d32fd7be8d55
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436259"
 ---
+
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidar los datos financieros de varias empresas
 
 Algunas organizaciones utilizan [!INCLUDE [prod_short](includes/prod_short.md)] en varias unidades de negocio o entidades legales. Otros usan [!INCLUDE [prod_short](includes/prod_short.md)] en subsidiarias que deben reportar a organizaciones matrices. En ambos casos, los contables utilizan herramientas integradas para ayudar a consolidar los datos financieros.  

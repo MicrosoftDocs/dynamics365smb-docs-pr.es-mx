@@ -1,21 +1,16 @@
 ---
-title: Cerrar ejercicios y periodos contables | Documentos de Microsoft
-description: Describe las tareas para cerrar un ejercicio o periodo contable, por ejemplo, asegurarse de que se ha registrado los documentos y los diarios, y comprobar los saldos bancarios.
+title: Cerrar periodos contables y ejercicios
+description: 'Describe las tareas para cerrar un ejercicio o periodo contable, por ejemplo, asegurarse de que se ha registrado los documentos y los diarios, y comprobar los saldos bancarios.'
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
+ms.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 3dba46a74fb5f0f6f13c4a6f0fa2c93f5d2ba372
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773322"
 ---
 # <a name="closing-years-and-periods"></a>Cerrar años y periodos
 

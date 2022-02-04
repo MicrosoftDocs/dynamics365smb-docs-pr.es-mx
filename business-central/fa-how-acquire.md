@@ -1,23 +1,16 @@
 ---
-title: Adquirir activos fijos | Documentos de Microsoft
-description: Puede configurar un activo fijo, asignar un libro de amortización y registrar el costo de adquisición del activo fijo.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Activos fijos adquiridos
+description: 'Puede configurar un activo fijo, asignar un libro de amortización y registrar el costo de adquisición del activo fijo.'
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
+ms.search.form: '5605, 5551, 5600, 5628, 5629'
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 997e9e9d26ccb2beaafcb9e3e6cdf8fb467652ef
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920966"
 ---
 # <a name="acquire-fixed-assets"></a>Activos fijos adquiridos
 Deberá configurar una ficha con la información de cada activo fijo. Puede configurar los edificios o los bienes de producción como activos principales con una lista de componentes y puede agruparlos de diferentes maneras como, por ejemplo, por clase, departamento o ubicación. Un libro de amortización debe estar configurado y asignado a cada activo fijo antes de que pueda adquirirlo.

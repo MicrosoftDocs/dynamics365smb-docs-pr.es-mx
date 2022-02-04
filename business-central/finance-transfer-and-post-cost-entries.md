@@ -1,49 +1,44 @@
 ---
 title: Transferencia y registro de movimientos de costo
-description: Antes de definir asignaciones de costo, debe entender los distintos orígenes de dónde provienen los movimientos de costo.
+description: 'Antes de definir asignaciones de costo, debe entender los distintos orígenes de dónde provienen los movimientos de costo.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: '1100, 1103, 1104, 1113'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ea072af165ba95ce8a166bd174b4f826d7933d8c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435833"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Transferencia y registro de movimientos de costo
+
 Antes de definir asignaciones de costo, debe entender cómo provienen los movimientos de costo de los orígenes siguientes:  
 
--   Transferencia automática de movimientos de contabilidad.  
--   Registro de costo manual de los movimientos de costo puros, gastos internos y asignaciones manuales.  
--   Registros automáticas de asignación de costos reales.  
--   Transferencia de los movimientos de presupuesto a real.
+- Transferencia automática de movimientos de contabilidad.  
+- Registro de costo manual de los movimientos de costo puros, gastos internos y asignaciones manuales.  
+- Registros automáticas de asignación de costos reales.  
+- Transferencia de los movimientos de presupuesto a real.
 
 ## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Criterios para la transferencia de movimientos de contabilidad a movimientos de costo
 Es importante entender los criterios para la transferencia de movimientos de contabilidad a movimientos de costo. Durante la transferencia, el proceso de **Transferir movs. contabilidad a costes** utiliza el siguiente criterio para determinar si y cómo se transfieren los movimientos de contabilidad.  
 
 Se transfieren los movimientos de contabilidad si:  
 
--   Los movimientos tienen valores de dimensión correspondientes a un centro o un objeto de costo.  
--   Los movimientos tienen valores de dimensión que corresponden a un centro de costo y a un objeto de costo. Para estos movimientos, el centro de costo tiene preferencia. Esto ayuda a evitar una situación en la que un tipo de costo aparece en un objeto de costo y un centro de costo y por lo tanto se cuenta dos veces en estadísticas.  
--   El número de documento de los movimientos está vacío, por lo que aparecerá con un número de documento de 0000 en los movimientos de costo.  
--   Los movimientos se transfieren a un tipo de costo que permite los movimientos agrupados y estos movimientos se transfieren como un movimiento combinado mensual o diariamente.  
+- Los movimientos tienen valores de dimensión correspondientes a un centro o un objeto de costo.  
+- Los movimientos tienen valores de dimensión que corresponden a un centro de costo y a un objeto de costo. Para estos movimientos, el centro de costo tiene preferencia. Esto ayuda a evitar una situación en la que un tipo de costo aparece en un objeto de costo y un centro de costo y por lo tanto se cuenta dos veces en estadísticas.  
+- El número de documento de los movimientos está vacío, por lo que aparecerá con un número de documento de 0000 en los movimientos de costo.  
+- Los movimientos se transfieren a un tipo de costo que permite los movimientos agrupados y estos movimientos se transfieren como un movimiento combinado mensual o diariamente.  
 
 No se transfieren los movimientos de contabilidad si:  
 
--   Los movimientos tienen valores de dimensión que no corresponden a un centro de costo ni a un objeto de costo.  
--   Los movimientos tienen un importe de cero.  
--   Los movimientos tienen una cuenta de contabilidad que se ha eliminado.  
--   Los movimientos tienen una cuenta de contabilidad que no es de tipo **Ingresos y gastos**.  
--   Los movimientos tienen una cuenta de contabilidad que no tiene un tipo de costo asignado.  
--   Los movimientos tienen una fecha de registro antes de **Fecha inicio para transferencia C/G**.  
--   Los movimientos se registraron con una fecha de cierre. Éstos son normalmente movimientos que restablecen el saldo de regularización al final del año.
+- Los movimientos tienen valores de dimensión que no corresponden a un centro de costo ni a un objeto de costo.  
+- Los movimientos tienen un importe de cero.  
+- Los movimientos tienen una cuenta de contabilidad que se ha eliminado.  
+- Los movimientos tienen una cuenta de contabilidad que no es de tipo **Ingresos y gastos**.  
+- Los movimientos tienen una cuenta de contabilidad que no tiene un tipo de costo asignado.  
+- Los movimientos tienen una fecha de registro antes de **Fecha inicio para transferencia C/G**.  
+- Los movimientos se registraron con una fecha de cierre. Éstos son normalmente movimientos que restablecen el saldo de regularización al final del año.
 
 ## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Transferencia de movimientos de contabilidad a movimientos de costo
 Puede transferir movimientos de contabilidad a movimientos de costo.  
@@ -64,7 +59,7 @@ Antes de ejecutar el proceso para transferir movimientos de contabilidad a movim
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Transferir movimientos de contabilidad a costes** y luego elija el enlace relacionado.  
 2.  Para iniciar la transferencia, elija el botón **Sí**. El proceso transfiere todos los movimientos de contabilidad que no se han transferido ya.  
 
-    Durante la transferencia, el proceso crea conexiones en las entradas en la tabla **Mov. costo** y la tabla **Registro costos**. Esto permite realizar un seguimiento del origen de los movimientos de costo.
+Durante la transferencia, el proceso crea conexiones en las entradas en la tabla **Mov. costo** y la tabla **Registro costos**. Esto permite realizar un seguimiento del origen de los movimientos de costo.
 
 ## <a name="automatic-transfer-and-combined-entries"></a>Transferencia automática y movimientos combinados
 En contabilidad de costos, puede transferir los movimientos de contabilidad a un tipo de costo mediante un registro combinado. Puede especificar si un tipo de costo recibe las movimientos agrupados en el campo **Combinar movimientos** en la definición del tipo de costo. La siguiente tabla describe las distintas opciones.  

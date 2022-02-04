@@ -7,15 +7,9 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.for: '291, 292, 293, 295, 517, 9010, 9038'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 63e20afbfeda9450c4b636a660549c822cc0e5da
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115501"
 ---
 # <a name="planning"></a>Planificación
 
@@ -43,7 +37,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Iniciar o actualizar una orden de producción como operaciones programadas a grosso modo en el programa de producción maestro.|[Replanificar o actualizar órdenes de producción directamente](production-how-to-replan-refresh-production-orders.md)|
 |Recalcular los calendarios de centro de trabajo o de máquina debido a cambios de planificación.|[Para calcular un calendario de centro de trabajo](production-how-to-create-work-center-calendars.md#to-calculate-a-work-center-calendar)|
 |Efectuar el seguimiento de la demanda de pedido (cantidad seguida), previsión, pedido de ventas abierto o parámetro de planificación (cantidad no seguida) que ha dado lugar a la línea de planificación en cuestión.|[Realizar un seguimiento de las relaciones entre demanda y suministro](production-how-track-demand-supply.md)|
-|Vea las existencias disponibles proyectadas de un producto con diferentes visualizaciones y vea qué necesidades brutas, recepciones de orden planificadas y otros influyen en él con el paso del tiempo.|[Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)|  
+|Vea el inventario disponible proyectado de un producto con diferentes visualizaciones y vea qué necesidades brutas, recepciones de órdenes planeadas y otros eventos influyen en él con el paso del tiempo.|[Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)|  
 <!--|Realizar actividades de planificación seleccionadas, como modificar o agregar líneas de la hoja de planificación, en una visión gráfica del plan de suministros.|[Modificar las sugerencias de planificación en una vista gráfica](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
 ## <a name="see-also"></a>Consulte también

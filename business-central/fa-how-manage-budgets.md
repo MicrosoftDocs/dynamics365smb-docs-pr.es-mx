@@ -1,23 +1,16 @@
 ---
-title: Administrar presupuestos de activos fijos | Documentos de Microsoft
-description: Puede configurar la información sobre inversiones, ventas/bajas y amortizaciones futuras de activos fijos como ayuda para preparar presupuestos y previsiones.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Gestionar presupuestos de activos fijos
+description: 'Puede configurar la información sobre inversiones, ventas/bajas y amortizaciones futuras de activos fijos como ayuda para preparar presupuestos y previsiones.'
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
+ms.search.form: '5610, 5611'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f3654610847a4110517e88f98205da780bafdf21
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441658"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Gestionar presupuestos de los activos fijos
 Puede configurar activos fijos presupuestados. Por ejemplo, esto le permite incluir adquisiciones y ventas anticipadas en los informes.  

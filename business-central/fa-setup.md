@@ -1,22 +1,16 @@
 ---
-title: Configurar activos fijos | Documentos de Microsoft
-description: Obtenga información sobre la secuencia de tareas que debe realizar para configurar activos fijos, como maquinaria o edificios.
-documentationcenter: ''
-author: SorenGP
+title: Configuración de activos fijos
+description: 'Obtenga información sobre la secuencia de tareas que debe realizar para configurar activos fijos, como maquinaria o edificios.'
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: machinery, buildings
+ms.search.keywords: 'machinery, buildings'
+ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 54ade14f58d9be5957c77a768096b5f475db5798
-ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6343560"
 ---
 # <a name="setting-up-fixed-assets"></a>Configurar activos fijos
 Antes de trabajar con activos fijos, debe definir algunos parámetros:  

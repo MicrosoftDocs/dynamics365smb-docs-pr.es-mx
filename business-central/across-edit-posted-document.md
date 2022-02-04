@@ -8,15 +8,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
+ms.search.keywords: 'Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document'
+ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 6a2be703bfc58fbac85dd4776e5256b614eb46cc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437813"
 ---
 # <a name="edit-posted-documents"></a>Editar documentos registrados
 
@@ -33,9 +28,9 @@ La funcionalidad está disponible para los siguientes documentos en todos los me
 
 Los siguientes documentos adicionales se pueden editar en los países o regiones especificados:
 
-- ES: factura de venta registrada, notas de crédito ventas registradas, notas de crédito compras registradas
-- APAC: notas de crédito ventas registradas, notas de crédito compras registradas
-- RU: notas de crédito ventas registradas
+- ES: factura de venta registrada, nota de crédito de venta registrada, nota de crédito de compra registrada
+- APAC: nota de crédito de venta registrada, nota de crédito de compra registrada
+- RU: nota de crédito de venta registrada
 - IT: Envío transferencia registrada, entrega de servicio registrada
 
 ## <a name="to-edit-a-posted-sales-shipment"></a>Para editar una remisión de venta registrada

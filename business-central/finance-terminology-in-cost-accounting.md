@@ -1,26 +1,22 @@
 ---
 title: Terminología en contabilidad de costos
-description: En este tema se definen los términos clave que se utilizan en la contabilidad de costos, como la clave de asignación y el origen de asignación.
+description: 'En este tema se definen los términos clave que se utilizan en la contabilidad de costos, como la clave de asignación y el origen de asignación.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 02afd4709ef950a621043ed6955c79bf71dac6fd
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326974"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminología en contabilidad de costos
+
 Este tema define los términos clave que se utilizan en contabilidad de costos.  
 
-## <a name="key-terms"></a>Términos clave  
+## <a name="key-terms"></a>Términos clave
+
  La siguiente tabla muestra las definiciones de los términos clave de contabilidad de costos.  
 
 |**Periodo**|**Definición**|  

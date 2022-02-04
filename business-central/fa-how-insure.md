@@ -1,23 +1,16 @@
 ---
 title: Aseguramiento de activos fijos
 description: Puede asignar uno o varios activos fijos a una póliza de seguros mediante el registro de los movimientos de cobertura del seguro desde la página **Diario de seguros**.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: policy, coverage
+ms.search.keywords: 'policy, coverage'
+ms.search.form: '5647, 5644, 5653, 5651, 5655, 5652, 5645, 5656, 5646, 5648, 9275'
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 89db12527ae6e2656f29277d9bb63c3dd258fb1f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441708"
 ---
 # <a name="insure-fixed-assets"></a>Aseguramiento de activos fijos
 Una póliza de seguro para un activo fijo se representa con una ficha de seguro. Puede asignar uno o varios activos fijos a una póliza de seguro.

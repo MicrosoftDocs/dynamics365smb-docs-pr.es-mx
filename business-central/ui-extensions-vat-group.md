@@ -1,5 +1,5 @@
 ---
-title: Extensión Gestión de grupo de IVA | Microsoft Docs
+title: Extensión Gestión de grupo de IVA
 description: Puede interactuar con otras empresas para formar un grupo de IVA y actuar como miembro o representante del grupo al declarar el IVA.
 author: bholtorf
 manager: annbe
@@ -8,16 +8,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: VAT, value added tax, report
+ms. search.keywords: 'VAT, value added tax, report'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 093b361bf2d3f02d08dc6b8d53ad4b58a086f88b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771298"
 ---
+
 # <a name="the-vat-group-management-extension"></a>Extensión Gestión de grupo de IVA
 
 Puede unirse a una o más empresas de su país para consolidar la declaración de IVA bajo un único número de registro. Este tipo de disposición se conoce como *Grupo de IVA*. Puede interactuar con el grupo como miembro o representante del grupo.
@@ -116,8 +111,12 @@ Cuando la declaración de IVA del representante del grupo de IVA se haya present
 > La funcionalidad del grupo de IVA solo se admite en aquellos mercados en los que [!INCLUDE[prod_short](includes/prod_short.md)] utiliza un marco de IVA que consta de declaraciones de IVA y períodos de devolución de IVA. No puede utilizar grupos de IVA en otros mercados que tengan otras implementaciones de informes de IVA locales, como Austria, Alemania, Italia, España y Suiza. 
 
 ## <a name="see-also"></a>Consulte también
+
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
-[Configurar el impuesto sobre el valor añadido](finance-setup-vat.md)
+[Configurar el impuesto sobre el valor añadido](finance-setup-vat.md)  
+[Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
+[Crear impuestos digitales en el Reino Unido](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
+[Declaración de IVA noruego en la versión noruega](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

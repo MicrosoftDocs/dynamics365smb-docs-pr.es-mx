@@ -1,25 +1,20 @@
 ---
-title: Configurar plantillas de API | Documentos de Microsoft
+title: Configuración de plantillas API
 description: Describa los pasos que debe seguir para configurar las plantillas API para Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: API templates, configuring templates
+ms.search.keywords: 'API templates, configuring templates'
+ms.search.form: 5469
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: fef3b56de7724745dcf8385c0e4665e3e2d4743d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444004"
 ---
+
 # <a name="configuring-api-templates"></a>Configuración de plantillas API
+
 La biblioteca API para [!INCLUDE[prod_short_md](includes/prod_short.md)] proporciona una representación simplificada de las entidades subyacentes. Todas las propiedades de la aplicación no están expuestas a través de la API asociada. La página **Configuración de API** le permite definir plantillas que se utilizan para llenar propiedades vacías en una entidad cuando crea una acción POST a través de la API. 
 
 Por ejemplo, si se define una plantilla de configuración para la entidad del elemento, cuando se crea un nuevo registro del elemento a través de la API de elementos, las propiedades del nuevo elemento que no están definidas en la API se rellenarán a partir de la plantilla seleccionada. Si, por ejemplo, no se define ningún valor para el campo **Grupo contable producto** a través de la API, pero se define un valor en la plantilla seleccionada, el valor del grupo definido en la plantilla se liquidará al nuevo elemento. 

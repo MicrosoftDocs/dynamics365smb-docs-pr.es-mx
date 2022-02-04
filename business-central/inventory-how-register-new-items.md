@@ -1,21 +1,16 @@
 ---
 title: Crear fichas de producto para bienes o servicios (contiene vídeo)
-description: Puede crear fichas de producto para servicios que venda como horas y para productos físicos, como productos de ensamblado, productos terminados, que venda del inventario.
+description: 'Puede crear fichas de producto para servicios que venda como horas y para productos físicos, como productos de ensamblado, productos terminados, que venda del inventario.'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
+ms.search.keywords: 'item, finished good, component, raw material, assembly item, item substitution'
+ms.search.form: 30
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8768b1fc213b423b627dcbcc995be4bbcaf09d00
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940337"
 ---
 # <a name="register-new-items"></a>Registro de productos nuevos
 

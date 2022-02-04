@@ -1,5 +1,5 @@
 ---
-title: Cómo crear saldos iniciales del diario
+title: Crear saldos iniciales del diario
 description: Los trabajos por lotes se proporcionen para ayudar en la transferencia de saldos de cuenta heredados a una empresa recién configurada. Puede transferir fácilmente estos datos con registros en los diarios.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,9 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.search.keywords: null
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: ac7fea479237d985204820d54953689566f5c2ac
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319549"
 ---
 # <a name="create-journal-opening-balances"></a>Crear saldos iniciales del diario
 
@@ -45,6 +39,9 @@ Antes de comenzar, asegúrese de estar en la página área de tareas de la admin
 
 > [!TIP]
 > Puede usar los mismos trabajos por lotes para agregar saldos iniciales siempre que registre un nuevo cliente o proveedor con el que haya hecho negocios antes pero que no se haya registrado en [!INCLUDE [prod_short](includes/prod_short.md)]. Simplemente busque la tarea pertinente y luego elija el enlace correspondiente.
+
+> [!IMPORTANT]
+> Específicamente para abrir saldos para cuentas bancarias, no siga los pasos de este artículo para contabilizar directamente en las cuentas de mayor que están asociadas con las cuentas bancarias relevantes. Para obtener más información, consulte [Configurar cuentas bancarias](bank-how-setup-bank-accounts.md).  
 
 ## <a name="see-also"></a>Consulte también
 
