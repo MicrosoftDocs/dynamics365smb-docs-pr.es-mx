@@ -1,15 +1,21 @@
 ---
 title: Transferencia y registro de movimientos de costo
-description: 'Antes de definir asignaciones de costo, debe entender los distintos orígenes de dónde provienen los movimientos de costo.'
+description: Antes de definir asignaciones de costo, debe entender los distintos orígenes de dónde provienen los movimientos de costo.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: '1100, 1103, 1104, 1113'
+ms.search.form: 1100, 1103, 1104, 1108, 1113, 1135
 ms.date: 06/16/2021
 ms.author: edupont
+ms.openlocfilehash: a8470005ae732c1691983fd36c19c5f90724ba18
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100936"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Transferencia y registro de movimientos de costo
 

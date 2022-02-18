@@ -7,9 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: '30, 42, 43'
+ms.search.form: 30, 31, 8645
 ms.date: 06/14/2021
 ms.author: bholtorf
+ms.openlocfilehash: 8c05c009cddcb957cc55b6ee5c384747033b9971
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115169"
 ---
 # <a name="design-details-costing-methods"></a>Detalles de diseño: Métodos de costo
 

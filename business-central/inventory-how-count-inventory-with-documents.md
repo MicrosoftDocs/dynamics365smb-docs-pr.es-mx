@@ -1,6 +1,6 @@
 ---
 title: Recuento y ajuste de inventario
-description: Describe cómo realizar el recuento de inventario físico mediante las páginas Órdenes de inventario físico y Registro de inventario físico, y cómo realizar ajustes negativos o positivos con los documentos de inventario.
+description: Describe cómo contar el inventario físico y usar documentos de inventario para ajustar el inventario disponible.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
+ms.search.forms: 5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 5880, 5893, 5897, 5882, 5881, 5899, 5875, 5878, 5877, 5876, 5896, 6567, 6568, 6569, 6570, 6571, 6572, 5883, 5886, 884, 5898, 5885, 5890, 5888, 5889, 5887, 5894, 6774, 6775, 6776, 6780, 6781, 6782, 6783
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fccbb5d15c73a2ab74d6b14e54be1fa098dc3a12
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 45001f05d2ddedcd254fafbd78f38e03cd87b93c
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435683"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115295"
 ---
 # <a name="count-and-adjust-inventory-using-documents"></a>Recuento y ajuste de inventario mediante documentos
 
@@ -61,7 +62,7 @@ Por cada pedido de inventario físico, puede crear uno o varios documentos de re
 
 De forma predeterminada, un registro se crea para todas las líneas del pedido de inventario físico relacionadas. Para evitar que dos empleados cuenten los mismos productos en caso de recuento distribuido, se recomienda rellenar gradualmente el pedido de inventario físico definiendo filtros en el proceso **Calcular líneas** (consulte la sección "Para crear un pedido de inventario físico) y después cree el registro de inventario físico a la vez que selecciona la casilla **Solo líneas que no estén en registros**. Estos valores garantizan que cada registro nuevo que cree solo contenga productos diferentes a los que están en otros registros.
 
-En caso de recuento manual, puede imprimir una lista, el informe **Registro inv. fís.**, que tiene una columna en blanco para escribir las cantidades contadas en él. Una vez finalizado el recuento, introduzca las cantidades registradas en las líneas relacionadas de la página **Registro inv. fís.**. Por último, transfiera las cantidades registradas al pedido de inventario físico relacionado definiendo el estado **Terminada**.
+En caso de recuento manual, puede imprimir una lista, el informe **Registro inv. fís.**, que tiene una columna en blanco para escribir las cantidades contadas en él. Una vez finalizado el recuento, indique las cantidades registradas en las líneas relacionadas de la página **Registro de inventario físico**. Por último, transfiera las cantidades registradas al pedido de inventario físico relacionado definiendo el estado **Terminada**.
 
 1. En la página **Pedido de inventario físico** que contiene líneas de los productos que se contarán en un registro, elija la acción **Crear registro nuevo**.
 2. Seleccione opciones y establezca filtros según sea necesario.
@@ -71,7 +72,7 @@ En caso de recuento manual, puede imprimir una lista, el informe **Registro inv.
 
 4. Para cada grupo de productos que se contarán, cárguelos en el pedido de inventario físico relacionado y repita los pasos 1 a 3 con la casilla de verificación **Solo líneas que no están en registros** seleccionada.
 
-5. Seleccione la acción **Registros** para abrir la página **Lista de registros invent. fís.**
+5. Seleccione la acción **Registros** para abrir la página **Lista de registros de inventario físico**.
 6. Abra el registro que corresponda.
 7. En la ficha desplegable **General**, rellene los campos como sea necesario.
 8. Para aquellos productos que utilizan seguimiento, cree una línea adicional para cada código de número de lote o de serie eligiendo la acción **Funciones** y, después, la acción **Copiar línea**. Para obtener más información, vea la sección [Control del seguimiento de productos durante el recuento de inventario](#handling-item-tracking-when-counting-inventory).  

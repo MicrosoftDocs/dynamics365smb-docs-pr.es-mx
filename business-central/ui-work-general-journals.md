@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
+ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 349dd312ae709c29138555ba6e8554a4f5e18122
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 92535c17570f8204214018377b738cd15f05d9c8
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445487"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100875"
 ---
 # <a name="working-with-general-journals"></a>Trabajar con diarios generales
 
@@ -68,7 +69,7 @@ Estas acciones le permiten crear una copia de una línea de diario general o un 
 Para permitir que los diarios se copien en revistas generales publicadas, en la página **Libros diarios generales**, elija la casilla **Copiar a líneas de diario contabilizadas**. Después de permitir que las personas copien los diarios generales contabilizados, si es necesario, puede desactivar la copia para lotes específicos.
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Descripción de las cuentas principales y las cuentas de contrapartida
-Si ha configurado cuentas de contrapartida predeterminadas para las secciones del diario en la página **Diarios generales**, la cuenta de contrapartida se rellenará automáticamente cuando rellene el campo **Nº cuenta**. En caso contrario, deberá rellenar manualmente tanto el campo **Nº cuenta** como el campo **Cta. contrapartida**. Un importe positivo en el campo **Importe** se adeuda en la cuenta principal y se carga en la cuenta de contrapartida. Un importe negativo se carga en la cuenta principal y se adeuda en la cuenta de contrapartida.
+Si ha configurado cuentas de contrapartida predeterminadas para las secciones del diario en la página **Diarios generales**, la cuenta de contrapartida se rellenará automáticamente cuando rellene el campo **Nº cuenta**. En caso contrario, deberá rellenar manualmente tanto el campo **Nº cuenta** como el campo **Cta. contrapartida**. Un importe positivo en el campo **Importe** se debita de la cuenta principal y se acredita en la cuenta de contrapartida. Un importe negativo se acredita en la cuenta principal y se debita de la cuenta de contrapartida.
 
 > [!NOTE]  
 > El IVA se calcula de manera independiente para la cuenta principal y la cuenta de contrapartida, para que puedan utilizar diferentes tipos porcentuales de IVA.

@@ -1,19 +1,25 @@
 ---
 title: Importación de muchas imágenes de productos desde un archivo ZIP
-description: 'Para importar imágenes de varios elementos, asigne a los archivos de imágenes nombres correspondientes a los números de los productos, comprímalos en un archivo ZIP y utilice la página Importar imágenes de producto.'
+description: Para importar imágenes de varios elementos, asigne a los archivos de imágenes nombres correspondientes a los números de los productos, comprímalos en un archivo ZIP y utilice la página Importar imágenes de producto.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'product, image'
-ms.search.form: '30, 461'
+ms.search.keywords: product, image
+ms.search.form: 30, 461
 ms.date: 06/16/2021
 ms.author: edupont
+ms.openlocfilehash: 5a43d696eab27a72c9f9b3c224d08feb9e99ccf4
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059685"
 ---
 # <a name="import-multiple-item-pictures"></a>Importar varias imágenes de producto
- Puede importar varias imágenes de productos de una sola vez. Simplemente asigne a sus archivos de imagen nombres que correspondan a sus números de producto, comprímalos en un archivo zip y, a continuación, utilice la página Importar imágenes de producto para administrar las imágenes de artículo que desea importar.
+Puede importar varias imágenes de productos de una sola vez. Simplemente asigne a sus archivos de imagen nombres que correspondan a sus números de producto, comprímalos en un archivo zip y, a continuación, utilice la página Importar imágenes de producto para administrar las imágenes de artículo que desea importar.
 
 Se admiten todos los formatos de archivo habituales.
 

@@ -7,9 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: '30, 42, 43'
+ms.search.form: 30, 31
 ms.date: 04/01/2021
 ms.author: edupont
+ms.openlocfilehash: 7ba4b5547bd12a1c1db0e0920cc973098bcedf20
+ms.sourcegitcommit: 9244ec802d68a7d90b13678ec3dfab5abb79c734
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8051014"
 ---
 # <a name="setup-best-practices-costing-method"></a>Procedimientos recomendados de configuración: valuación de inventarios
 

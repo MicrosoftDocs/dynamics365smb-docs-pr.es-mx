@@ -7,10 +7,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
-ms.search.form: '431, 432, 478'
-ms.date: 04/01/2021
+ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
+ms.search.form: 431, 432, 436, 478
+ms.date: 02/09/2022
 ms.author: edupont
+ms.openlocfilehash: caa31498ac63d376d4fb13f83c66664a1cf78bcd
+ms.sourcegitcommit: 8a968e9176a913635e47e5170c66962e485e6689
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "8105785"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Configurar términos y niveles de recordatorios.
 
@@ -96,6 +102,7 @@ Una vez configurados los términos de recordatorio, con niveles y texto adiciona
 ## <a name="see-also"></a>Consulte también .
 
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
+[Enviar recordatorios de saldos pendientes](receivables-send-reminders.md)  
 [Configurar términos interés](finance-setup-finance-charges.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 

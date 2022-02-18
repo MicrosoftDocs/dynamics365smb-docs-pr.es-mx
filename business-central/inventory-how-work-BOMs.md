@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2f23357fde2dc86e0be0ee09099d57623056365c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d058b15ad55713a22ee70862f666301d36d53e0a
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444931"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060049"
 ---
 # <a name="work-with-bills-of-material"></a>Trabajar con listas de materiales
 Utilice listas de materiales (L.M.) para estructurar los productos principales que se deben montar o producir por los recursos o centros de máquinas de componentes. Una L.M. de ensamblado también se puede utilizar para vender un producto principal como un kit formado por sus componentes.
@@ -71,7 +72,7 @@ En la página **L.M. de ensamblado** puede abrir una página independiente que m
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Para sustituir el producto de ensamblado por sus componentes en líneas de documento
 Desde cualquier documento de venta y de compra que contenga el producto de ensamblado, puede utilizar una función especial para reemplazar la línea del producto de ensamblado con nuevas líneas para sus componentes. Esta función es útil, por ejemplo, si desea vender componentes como un kit que representa el producto de ensamblado.
 
-La función Desplegar L.M. también está disponible en la página **L.M. de ensamblado** como método para ver elementos secundarios en cualquier subensamblado de una L.M. de ensamblado.
+La acción **Desplegar L.M.** también está disponible en la página **L.M. de ensamblado** como método para ver elementos de subensamblado de una L.M. de ensamblado.
 
 > [!CAUTION]  
 >  Cuando haya utilizado la función **Desplegar L.M.**, no puede deshacerla fácilmente. Debe eliminar las líneas de pedido de venta que representan los componentes y después volver a introducir una línea de pedido de venta para el producto de ensamblado.

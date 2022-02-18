@@ -7,10 +7,16 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
+ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
+ms.openlocfilehash: 6260edff16c0d9123d389f59f0d035b2e87766b4
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049522"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Componente de integración de Power BI e información general de la arquitectura para [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -42,7 +48,9 @@ La siguiente tabla describe las características disponibles.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] se integra con Power BI a través de un conector que utiliza OData. La fuente de datos para los informes de Power BI se exponen como páginas API y servicios web de OData.
 
-![Arquitectura de Power BI para la integración con Business Central.](./media/power-bi-architecture.png)
+:::image type="content" source="./media/power-bi-architecture.png" alt-text="Texto alternativo de la imagen." lightbox="./media/power-bi-architecture.png":::
+
+A partir de febrero de 2022, los informes de Power BI para [!INCLUDE[prod_short](includes/prod_short.md)] en línea provienen de una réplica secundaria de la base de datos de solo lectura. La réplica de la base de datos es parte de la capacidad de [escalado de lectura](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) de [!INCLUDE[prod_short](includes/prod_short.md)] en línea. Esta configuración libera la base de datos principal para transacciones, lo que mejora el rendimiento del sistema. La conexión a la réplica de la base de datos de solo lectura es una parte integral del conector Business Central Online y no requiere ninguna configuración adicional de su parte. Todos los informes nuevos se conectarán a la réplica de la base de datos de solo lectura de forma predeterminada. Los informes antiguos seguirán utilizando la base de datos principal. Para más información, consulte [Plan del segundo lanzamiento de versiones de Business Central 2021](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
 ## <a name="general-flow"></a>Flujo general
 

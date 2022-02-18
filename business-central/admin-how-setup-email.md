@@ -7,10 +7,16 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'SMTP, email, Office 365, connector'
-ms.search.form: 1805
+ms.search.keywords: SMTP, email, Office 365, connector
+ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.openlocfilehash: 7e71694e59dcd17072bb7616324953ca02117a89
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115077"
 ---
 # <a name="set-up-email"></a>Configurar correo electrónico
 Las personas en las empresas envían información y documentos, como órdenes de compra y venta y facturas, por correo electrónico todos los días. Los administradores pueden facilitarlo conectando una o más cuentas de correo electrónico a [!INCLUDE[prod_short](includes/prod_short.md)], para que pueda enviar documentos sin tener que abrir una aplicación de correo electrónico. Puede redactar cada mensaje individualmente con herramientas de formato básicas, como fuentes, estilos, colores, etc., y agregar archivos adjuntos de hasta 100 MB. Los administradores también pueden configurar diseños de informes que incluyan solo la información clave de los documentos. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).

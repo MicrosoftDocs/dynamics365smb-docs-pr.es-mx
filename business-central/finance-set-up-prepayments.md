@@ -5,9 +5,15 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keyword: prepayment
-ms.search.form: '314, 459, 460, 664'
+ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
+ms.openlocfilehash: 9d9decead1e6207915fd3a162cadae0354f0f257
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100914"
 ---
 # <a name="set-up-prepayments"></a>Configurar anticipos
 
@@ -18,10 +24,12 @@ Para poder registrar facturas de anticipo, debe configurar las cuentas auxiliare
 Puede definir el porcentaje del importe de línea que se va a facturar para el anticipo, para un cliente o proveedor, para todos los productos o para algunos. Una vez que finalice la configuración, puede generar facturas de anticipo a partir de pedidos de compra y venta. Puede usar los porcentajes predeterminados para cada línea de compra o venta o cambiar los importes en la factura según sea necesario. Por ejemplo, puede especificar un importe total para todo el pedido.  
 
 > [!NOTE]
-> Le recomendamos que no utilice un porcentaje de anticipo del 100 % en los siguientes casos:
+> Recomendamos no utilizar un porcentaje de anticipo de 100 en los siguientes casos:
 >
-> * Si se encuentra en América del Norte. Debido a cómo se calculan los impuestos, un porcentaje de anticipo del 100 % puede generar problemas con las facturas de anticipo.
-> * En todas las regiones, si deduce manualmente un descuento por pago de la factura. Un porcentaje de anticipo del 100 % no dejará automáticamente un monto del cual deducir el descuento. 
+> * Si se encuentra en América del Norte. Debido a cómo se calculan los impuestos, un porcentaje de anticipo de 100 puede generar problemas con las facturas de anticipo.
+> * En todas las regiones, si deduce manualmente un descuento por pago de la factura. Un porcentaje de anticipo de 100 no dejará automáticamente un importe del que deducir el descuento.
+>
+> Además, cuando utiliza un porcentaje de anticipo de 100, [!INCLUDE[prod_short](includes/prod_short.md)] podría necesitar crear movimientos de redondeo de compensación. Cuando eso suceda, deberá elegir una cuenta de en el campo **Cuenta de redondeo de facturas** en la página **Grupos contables de clientes**. Esto es cierto incluso si no ha activado el conmutador **Redondeo de facturas** en la página **Configuración de ventas y clientes**. Si no especifica una cuenta, no podrá contabilizar facturas de anticipo. 
 
 Dado que el importe de anticipo pertenece al comprador hasta que haya recibido los productos o los servicios, debe definir las cuentas de contabilidad para que retengan los importes de anticipo hasta que se registre la factura final. Los anticipos de ventas deben registrarse en una cuenta de pasivos hasta que se envíen los productos. Los anticipos de compras deben registrarse en una cuenta de activos hasta que se reciban los productos. Además, debe configurar distintas cuentas contables generales para cada identificador del IVA.  
 

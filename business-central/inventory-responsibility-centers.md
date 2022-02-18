@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 5714, 5715
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 62cfc68f8c5cfca3a152aa1de7054f872c47f911
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e966e5050cf16ce60e07983f129be318706fbbf3
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439396"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059345"
 ---
 # <a name="work-with-responsibility-centers"></a>Trabajar con centros de responsabilidad
 
@@ -23,7 +24,7 @@ Los centros de responsabilidad proporcionan la capacidad de controlar los centro
 
 El uso de varios almacenes y centros de responsabilidad ofrece la posibilidad de gestionar sus operaciones comerciales de la forma más flexible y óptima.
 
-Con múltiples almacenes, las empresas pueden gestionar sus existencias en diversos almacenes utilizando una sola base de datos. Los elementos clave de este módulo son dos conceptos: almacenes y unidades de almacenamiento. Un almacén se define como el lugar donde se gestionan la ubicación física y las cantidades de los productos. El concepto es lo suficientemente amplio para incluir ubicaciones tales como plantas o instalaciones de producción, así como centros de distribución, almacenes, salas de exposiciones y vehículos de servicios. Una unidad de almacenamiento se define como un producto en una ubicación específica y/o como variante. Al utilizar unidades de almacenamiento, las empresas con diversos almacenes pueden agregar información de reposición, direcciones y determinada información de registro financiero para el almacén. Como resultado, pueden reponer variantes de un mismo producto para cada almacén, así como solicitar productos para los almacenes basándose en la información de reposición específica de cada uno.  
+Con la opción Múltiples almacenes, las empresas pueden gestionar el inventario de diversos almacenes mediante una sola base de datos. Los elementos clave de este módulo son dos conceptos: almacenes y unidades de almacenamiento. Un almacén se define como el lugar donde se gestionan la ubicación física y las cantidades de los productos. El concepto es lo suficientemente amplio para incluir ubicaciones tales como plantas o instalaciones de producción, así como centros de distribución, almacenes, salas de exposiciones y vehículos de servicios. Una unidad de almacenamiento se define como un producto en una ubicación específica y/o como variante. Al utilizar unidades de almacenamiento, las empresas con diversos almacenes pueden agregar información de reposición, direcciones y determinada información de registro financiero para el almacén. Como resultado, pueden reponer variantes de un mismo producto para cada almacén, así como solicitar productos para los almacenes basándose en la información de reposición específica de cada uno.  
 
 ## <a name="to-set-up-a-responsibility-center"></a>Para configurar un centro de responsabilidad
 

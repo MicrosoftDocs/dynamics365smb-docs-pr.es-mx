@@ -1,14 +1,20 @@
 ---
 title: Crear una ficha de proyecto para un proyecto y especificar las tareas
-description: 'Para un proyecto nuevo, cree una ficha de proyecto que contenga tareas y líneas de planificación, como ayuda para administrar el progreso y los presupuestos.'
+description: Para un proyecto nuevo, cree una ficha de proyecto que contenga tareas y líneas de planificación, como ayuda para administrar el progreso y los presupuestos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: 'project management, task'
-ms.search.form: '88, 1001, 1002, 1003, 1004, 1005, 1006, 1007'
+ms.search.keywords: project management, task
+ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
+ms.openlocfilehash: e47aeba75459a7360ff3de87df3582b0cc0a4c17
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101254"
 ---
 # <a name="create-jobs"></a>Crear proyectos
 Cuando inicie un proyecto nuevo, debe crear una ficha de proyecto con tareas de proyecto integradas y líneas de planificación de proyecto, estructuradas en dos niveles.  

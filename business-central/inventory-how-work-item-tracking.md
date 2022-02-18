@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 6505, 6508, 9126, 6526, 6516, 6511, 6504, 6509, 163, 6550,
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: d9197f158423fa969dd6270c20dd43c26ae75b99
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 77f8634de4d35c2b8a1d3df240dfc850c25546ec
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482258"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060234"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Seguimiento de productos con números de serie, de lote y de paquete
 
@@ -152,7 +153,7 @@ Cuando se registra el documento, los movimientos de seguimiento de producto se l
 
 ### <a name="assign-tracking-numbers-on-source-documents"></a>Asignar números de seguimiento en documentos de origen
 
-En las situaciones especiales de inventario de números de serie o de lote, los números específicos se definen en el documento de origen, como un pedido de venta, que el trabajador de almacén debe respetar durante el control del almacén de salida. Esto puede ser porque el cliente ha solicitado un lote interno específico durante el proceso del pedido. Cuando se crea el picking de existencias o documento de picking de almacén a partir de un documento de origen de salida en donde ya están definidos los números de serie o de lote, todos los campos de la página **Líns. seguim. prod.** en el picking de existencias están bloqueados para escritura, excepto el **Cdad. a manipular**. En ese caso, Las líneas de picking de inventario especifican los números de seguimiento de producto en las líneas de colocar y recoger individuales. La cantidad ya está dividida en combinaciones de números de serie o lote exclusivos porque el pedido de venta especifica los números de seguimiento de producto que se van a enviar.
+En las situaciones especiales de inventario de números de serie o de lote, los números específicos se definen en el documento de origen, como un pedido de venta, que el trabajador de almacén debe respetar durante el control del almacén de salida. Esto puede ser porque el cliente ha solicitado un lote interno específico durante el proceso del pedido. Cuando se crea el picking de inventario o el documento de picking de almacén a partir de un documento de origen de salida en el que ya están definidos los números de serie o de lote, todos los campos de la página **Líneas de seguimiento de productos** en el picking de inventario están bloqueados para escritura, excepto el campo **Cantidad que manipular**. En ese caso, Las líneas de picking de inventario especifican los números de seguimiento de producto en las líneas de colocar y recoger individuales. La cantidad ya está dividida en combinaciones de números de serie o lote exclusivos porque el pedido de venta especifica los números de seguimiento de producto que se van a enviar.
 
 ## <a name="to-handle-serial-and-lot-numbers-on-transfer-orders"></a>Para controlar números de serie y lote en los pedidos de transferencia
 

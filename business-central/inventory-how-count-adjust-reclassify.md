@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
+ms.search.forms: 1327, 393, 392, 390, 7381, 7380, 7319, 7324, 7326, 7365
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 3c975a6d851693cef2b139d2493f825299770fac
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5d8625434a661beb126ca234ea760038a6b75506
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440466"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059711"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Recuento, ajuste y reclasificación de inventario con diarios
 Como mínimo una vez cada año fiscal, debe realizar un inventario físico (es decir, contar todos los productos del inventario) para ver si la cantidad registrada en la base de datos es la misma que la cantidad física real en los almacenes. Una vez se sepa la cantidad física, debe registrarse en la contabilidad como parte de la evaluación del inventario de final de periodo.
@@ -55,7 +56,7 @@ Puede realizar el inventario físico en cualquiera de las siguientes formas en f
 5. Elija el botón **Aceptar**.
 
 > [!NOTE]  
->   Se procesan los movimientos de producto según los datos especificados y se crean las líneas en el diario de inventario físico. Observe que el campo **Cdad. (existencias físicas)** se rellena automáticamente con la misma cantidad que figura en el campo **Existencias calculadas**. Con esta función, no hace falta que especifique el recuento de existencias disponibles para productos cuya cantidad coincida con el inventario calculado. Sin embargo, si la cantidad contada difiere de lo que se especifica en el campo **Stock calculado**, debe sobregrabarlo con la cantidad contada realmente.
+>   Se procesan los movimientos de producto según los datos especificados y se crean las líneas en el diario de inventario físico. Observe que el campo **Cantidad (inventario físico)** se rellena automáticamente con la misma cantidad que figura en el campo **Cantidad (calculada)**. Con esta función, no hace falta que especifique el recuento de existencias disponibles para productos cuya cantidad coincida con el inventario calculado. Sin embargo, si la cantidad contada difiere de lo que se especifica en el campo **Stock calculado**, debe sobregrabarlo con la cantidad contada realmente.
 
 ### <a name="to-print-the-report-to-be-used-when-counting"></a>Para imprimir el informe que va utilizar para el recuento
 1. En la página **Diario inventario físico** que contiene el inventario previsto calculado, elija la acción **Imprimir**.
@@ -87,7 +88,7 @@ Los empleados pueden ahora proceder a contar el inventario y registrar las discr
 Sincronice el diario de productos el almacén antes de realizar el inventario físico de almacén, de lo contrario, el resultado de registrar el diario del inventario físico y del diario de productos de la parte final del proceso será el resultado del inventario físico combinado con otros ajustes de almacén para los productos que se han contado. Para más información, ver [sincronizar cantidades en el libro mayor de artículos y el almacén](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries)
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario inv. físico alm.** y elija el enlace relacionado.  
-2. Elija la acción **Calcular inventario**. Se abrirá la página de solicitud del trabajo por lotes **Calcular existencias alm.**  
+2. Elija la acción **Calcular inventario**. Se abrirá la página de solicitud de trabajo por lotes **Calcular inventario de almacén**.  
 3. Defina los filtros para limitar los productos que se contarán en el diario y, a continuación, seleccione **Aceptar**.
 
     La aplicación crea una línea para cada ubicación que cumpla los requisitos del filtro. En este momento puede eliminar algunas líneas, pero si desea registrar el resultado como un inventario físico, debe contar el producto en todas las ubicaciones.    
@@ -200,7 +201,7 @@ En los intervalos adecuados definidos por la política de la empresa, debe regis
 3.  Elija la acción **Calcular ajuste almacén**, y rellene los filtros como corresponda en la página de la solicitud del trabajo por lotes. Los ajustes se calculan sólo para las entradas en la ubicación de ajuste que cumplen unos requisitos de filtro.  
 4.  En la pestaña desplegable **Opciones**, rellene el campo **Nº documento** con un número que introduzca manualmente. Ya que no se han configurado números de serie para este proceso, utilice el esquema de números que ha configurado para el almacén o introduzca la fecha seguida de sus iniciales.  
 5.  Elija el botón **Aceptar**. Los ajustes positivos y negativos se totalizan para cada artículo y las líneas se crean en el diario del artículo para cualquier artículo donde la suma sea una cantidad positiva o negativa.  
-6.  Registre las líneas del diario para especificar las diferencias de cantidades en el diario de productos. Las existencias en las ubicaciones de almacén se corresponden ahora exactamente con las existencias en el diario de productos.  
+6.  Registre las líneas del diario para especificar las diferencias de cantidades en el diario de productos. El inventario de las ubicaciones de almacén se corresponden ahora exactamente con el inventario en el diario de productos.  
 
 ## <a name="to-reclassify-an-items-lot-number"></a>Reclasificar el número de lote de un producto
 Si necesita cambiar los atributos de las entradas de contabilidad de los productos, puede usar el diario de reclasificación de productos. Los atributos típicos para reclasificar incluyen dimensiones y códigos de campaña, aunque también realiza el "transferencias del sistema" mediante la reclasificación de códigos de ubicación y de almacén.

@@ -1,16 +1,22 @@
 ---
 title: Configurar inventario
-description: 'Describe cómo configurar los procesos de existencias e inventario, incluidas las rutas de transferencia y las ubicaciones, como los almacenes.'
+description: Describe cómo configurar los procesos de existencias e inventario, incluidas las rutas de transferencia y las ubicaciones, como los almacenes.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'warehouse, stock'
-ms.search.form: 30
+ms.search.keywords: warehouse, stock
+ms.search.form: 30, 461
 ms.date: 04/01/2021
 ms.author: edupont
+ms.openlocfilehash: 870bcf2e7980ccf5717cbb93ada44087afe95c4d
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059468"
 ---
 # <a name="setting-up-inventory"></a>Configurar inventario
 Para poder administrar la actividad de un almacén y los costos de inventario, debe configurar las reglas y los valores que definen las políticas de inventario de la empresa.

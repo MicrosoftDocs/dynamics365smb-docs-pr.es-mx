@@ -1,7 +1,6 @@
 ---
 title: Crear nuevos movimientos de valor para los productos del inventario | Documentos de Microsoft
 description: Describe cómo apreciar o amortizar los movimientos de valor de uno o varios productos del inventario enviando el valor calculado actual.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
+ms.search.forms: 5803,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 01710b23c56634b91b86f3f1c6e6c87415a787c6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b07aba72be831dd68eea3475f3ee591a7c319051
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435608"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059607"
 ---
 # <a name="revalue-inventory"></a>Revaluar inventario
 Si desea apreciar o depreciar un producto o el movimiento de un determinado producto, utilice el diario de revalorización.
@@ -29,7 +29,7 @@ Si desea apreciar o depreciar un producto o el movimiento de un determinado prod
 4. Elija el botón **Aceptar**.
 5. En cada línea de la página **Diario de revalorización**, en el campo **Prec. costo (revaluado)**, especifique el nuevo costo unitario. También puede especificar el nuevo importe total en el campo **Valor inventario (revalorado)**.
 
-    Los campos correspondientes se actualizan de forma automática. Observe que el campo **Importe** muestra el cambio real ocurrido en el valor de existencias del movimiento de producto seleccionado. Muestra la diferencia entre el valor del campo **Valor existencias (calculado)** y el del campo **Valor inventario (revaluado)**.
+    Los campos correspondientes se actualizan de forma automática. Tenga en cuenta que el campo **Importe** muestra el cambio real ocurrido en el valor de inventario del movimiento contable del producto seleccionado. Muestra la diferencia entre el valor del campo **Valor existencias (calculado)** y el del campo **Valor inventario (revaluado)**.
 6. Una vez completadas todas las líneas en el diario de revalorización, elija la acción **Registrar**.
 
 Las nuevas entradas de valor ahora se crean de modo que reflejan las revalorizaciones que ha registrado. Puede ver los nuevos valores en las respectivas tarjetas de producto.

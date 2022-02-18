@@ -1,5 +1,5 @@
 ---
-title: Configurar atributos de producto y asignarlos a productos | Documentos de Microsoft
+title: Configurar atributos de producto y asignarlos a los productos
 description: Describe cómo configurar los valores de atributo de producto, por ejemplo, que pueden utilizarse como palabras de búsqueda, y asignarlos a productos y categorías de productos.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
+ms.search.forms: 7507, 7509, 7506, 7505, 7503, 7502, 7510, 7504, 7501, 7500, 9110, 5734, 7508
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4ec2ab337c56b9110162b198c1cb656e605ebc8c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d2c8eec702840e6046eab362a867317091a9c3aa
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444906"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059371"
 ---
 # <a name="work-with-item-attributes"></a>Trabajar con atributos de producto
 Cuando los clientes hacen consultas sobre un producto, ya sea por correspondencia o en una tienda en línea integrada, pueden preguntar por las características como la altura y el año del modelo. Para proporcionar este servicio al cliente, puede asignar valores de atributo de producto de diferentes tipos a sus productos, que podrán usarse posteriormente en la búsqueda de productos.
