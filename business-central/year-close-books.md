@@ -1,16 +1,23 @@
 ---
-title: Resumen de las tareas para cerrar los libros
-description: 'Obtenga información sobre el proceso de cerrar los libros de un ejercicio o periodo, y qué sucede después de cerrar al final de un ejercicio.'
+title: Resumen de las tareas para cerrar los libros | Documentos de Microsoft
+description: Obtenga información sobre el proceso de cerrar los libros de un ejercicio o periodo, y qué sucede después de cerrar al final de un ejercicio.
+services: project-madeira
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
-m.search.form: 100
-ms.date: 04/01/2021
+ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.date: 10/01/2019
 ms.author: jswymer
+ms.openlocfilehash: db4ec1033a830cb72b602691797d2b1ff637c2e7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310119"
 ---
 # <a name="closing-the-books"></a>Cerrar los libros
 Una vez que se haya asegurado de que todas sus cuentas estén actualizadas, y que asigne costos e ingresos, puede cerrar los libros para un ejercicio o periodo.
@@ -47,9 +54,5 @@ El sistema genera un movimiento de cierre, pero no lo registra automáticamente.
 Puede realizar registros en un ejercicio anterior, después de se hayan cerrado las cuentas de resultados, si vuelve a ejecutar el proceso Asiento regularización.
 
 ## <a name="see-also"></a>Consulte también
-
-[Trabajar con periodos contables y ejercicios](finance-accounting-periods-and-fiscal-years.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Abrir un nuevo ejercicio](finance-how-open-new-fiscal-year.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

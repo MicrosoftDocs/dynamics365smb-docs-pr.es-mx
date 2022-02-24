@@ -1,22 +1,26 @@
 ---
-title: Terminología en contabilidad de costos
-description: 'En este tema se definen los términos clave que se utilizan en la contabilidad de costos, como la clave de asignación y el origen de asignación.'
+title: Terminología en contabilidad de costos | Documentos de Microsoft
+description: Este tema define los términos clave que se utilizan en contabilidad de costos.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: null
-ms.date: 06/16/2021
-ms.author: edupont
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 12d6f671843fe82cb83fa3128ae1cb8908d98bf4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182695"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminología en contabilidad de costos
-
 Este tema define los términos clave que se utilizan en contabilidad de costos.  
 
-## <a name="key-terms"></a>Términos clave
-
+## <a name="key-terms"></a>Términos clave  
  La siguiente tabla muestra las definiciones de los términos clave de contabilidad de costos.  
 
 |**Periodo**|**Definición**|  
@@ -46,7 +50,4 @@ Este tema define los términos clave que se utilizan en contabilidad de costos.
 ## <a name="see-also"></a>Consulte también  
  [Acerca de la contabilidad de costos](finance-about-cost-accounting.md)   
  [Contabilidad para costos](finance-manage-cost-accounting.md)  
- [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

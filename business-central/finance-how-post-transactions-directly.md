@@ -1,16 +1,21 @@
 ---
-title: Registrar gastos o ingresos directamente en contabilidad
-description: Para las actividades empresariales que no está representadas por un documento puede crear las transacciones relacionadas registrando líneas de diario en la página Diario general.
+title: Registrar gastos o ingresos directamente en contabilidad | Documentos de Microsoft
+description: Para las actividades empresariales que no está representadas por un documento, como los gastos o recepción de efectivo más pequeños, puede crear las transacciones relacionadas registrando líneas de diario en la página Diario general.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'direct posting, general ledger'
-ms.search.form: '39, 251'
-ms.date: 06/16/2021
-ms.author: edupont
+ms.search.keywords: direct posting, general ledger
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: f0c1efcee7db0239efa739dd0ea8d8ce45e2dbd7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183967"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Registrar transacciones directamente en la contabilidad
 
@@ -24,7 +29,7 @@ A diferencia de los movimientos que se registran con documentos, que requieren u
 
 ## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Para registrar una transacción directamente en una cuenta contable
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales**, y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diarios generales** y luego elija el enlace relacionado.
 2. Abra la sección del diario general correspondiente. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
 3. En una línea nueva de diario, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 
@@ -42,7 +47,4 @@ A diferencia de los movimientos que se registran con documentos, que requieren u
 [Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)  
 [Revertir los registros de diario y deshacer las recepciones/remisiones](finance-how-reverse-journal-posting.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

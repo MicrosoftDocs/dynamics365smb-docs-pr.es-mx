@@ -1,27 +1,32 @@
 ---
 title: Funcionalidad local de México
-description: En los temas siguientes se describe la funcionalidad local de la versión de Business Central para México.
+description: Los temas siguientes describen la funcionalidad local en la versión mexicana de Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: ''
-ms.date: 10/14/2021
-ms.author: edupont
-ms.openlocfilehash: 0093becd7fc9d66fcf1fe19d0fef8e96032cf456
-ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
+ms.date: 06/09/2020
+ms.author: sgroespe
+ms.openlocfilehash: e82e0ed833abf89b991c5f494ce1dd77b651ade4
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7643907"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454349"
 ---
 # <a name="mexico-local-functionality"></a>Funcionalidad local de México
 
-En los temas siguientes se describe la funcionalidad local que es exclusiva de la versión mexicana de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+En los temas siguientes se describe la funcionalidad local que es exclusiva de la versión mexicana de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Disponibilidad de la característica  
 
 * Tributos
     * [Configurar y generar informes DIOT](ui-extensions-setup-and-generate-diot-report-mx.md) **Disponible ahora**
+    * [Impuesto sobre las ventas en México](mexico-sales-tax.md) **Disponible ahora**
+    * [Configurar impuesto sobre servicios e impuesto a las compras](how-to-set-up-use-tax-and-purchase-tax.md) **Disponible ahora**
+    * [Configurar el impuesto sobre las ventas no realizado y los descuentos por pago de ventas](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Disponible ahora**
+    * [Generación de informes de impuesto sobre las ventas en México](mexico-sales-tax.md) **Disponible ahora**
+    * [Crear depósitos](how-to-create-deposits.md) **Disponible ahora**
     * [Tipos identificación de impuestos para México](tax-identification-types-for-mexico.md) **Disponible ahora**
     * [Recálculo del IVA](vat-recalculation.md) **Disponible ahora**
 
@@ -35,14 +40,10 @@ En los temas siguientes se describe la funcionalidad local que es exclusiva de l
 * General
     * [Configurar servicios web PAC](how-to-set-up-pac-web-services.md) **Disponible ahora**
     * [Imprimir informes de solución de problemas](how-to-print-troubleshooting-reports.md) **Disponible ahora**
-    * [Crear depósitos](how-to-create-deposits.md) **Disponible ahora**
 
 ## <a name="see-also"></a>Consulte también
 
-[Trabajar con [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 [Disponibilidad nacional/regional e idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]

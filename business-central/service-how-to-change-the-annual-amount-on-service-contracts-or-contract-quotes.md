@@ -1,28 +1,28 @@
 ---
-title: Cambiar el importe anual de los contratos de servicio o las cotizaciones de contrato
+title: Cómo cambiar el importe anual de los contratos de servicio o las cotizaciones de contrato | Documentos de Microsoft
 description: Puede cambiar el importe que se facturará anualmente en los contratos de servicio o las cotizaciones de contrato de servicio.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bb4fa7b9d75afa49846247b1fdce3fa25f19334a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ad5193621f0f581e5b2cdec305e08b20ca80ef4e
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436462"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402577"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Cambiar el importe anual de los contratos de servicio o las cotizaciones de contrato
 Puede cambiar el importe anual del contrato de servicio o la cotización de contrato para corregir el importe que se facturará anualmente.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Para cambiar el importe anual del contrato de servicio o la cotización de contrato  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , especifique **Contratos de servicio** o **Cotizaciones de contratos de servicio** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Contratos de Servicio** u **Cotizaciones Contrato de Servicio** y, a continuación, elija el vínculo relacionado.  
 2. Elija el contrato o la cotización de contrato.  
 3. Elija la acción **Abrir contrato** para abrir el contrato o la cotización de contrato para su modificación.  
 4. Seleccione la casilla **Permite importes sin saldar** si desea cambiar el importe anual y distribuir la diferencia del importe anual manualmente en la líneas de contrato. En caso contrario, desactive la casilla para distribuir automáticamente la diferencia de importe anual automáticamente en las líneas de contrato después de cambiar el importe anual.  
@@ -150,6 +150,3 @@ Finalmente, las líneas del contrato tendrán los siguientes datos:
 ## <a name="see-also"></a>Consulte también  
 [Crear contratos de servicio y cotizaciones de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

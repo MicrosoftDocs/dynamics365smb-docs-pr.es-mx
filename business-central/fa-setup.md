@@ -1,16 +1,22 @@
 ---
-title: Configuración de activos fijos
-description: 'Obtenga información sobre la secuencia de tareas que debe realizar para configurar activos fijos, como maquinaria o edificios.'
-author: edupont04
+title: Configurar activos fijos | Documentos de Microsoft
+description: Obtenga información sobre la secuencia de tareas que debe realizar para configurar activos fijos, como maquinaria o edificios.
+documentationcenter: ''
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'machinery, buildings'
-ms.search.form: 5607
-ms.date: 04/01/2021
-ms.author: edupont
+ms.search.keywords: machinery, buildings
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: be5e86776d440763d069cecb9f45d0e6daeaeede
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184183"
 ---
 # <a name="setting-up-fixed-assets"></a>Configurar activos fijos
 Antes de trabajar con activos fijos, debe definir algunos parámetros:  
@@ -34,14 +40,9 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 | Activar el seguro de activos fijos, configurar la información del seguro, una ficha de seguro por póliza y preparar los diarios para registrar los costos de seguro. |[Configure el seguro de los activos fijos](fa-how-setup-insurance.md) |
 | Activar el mantenimiento de activos fijos, configurar la información general de mantenimiento, configurar el mantenimiento de las cuentas de registro y definir los tipos de trabajo de mantenimiento. |[Configure el mantenimiento de los activos fijos](fa-how-setup-maintenance.md) |
 | Conocer varios métodos de amortización de activos fijos. |[Métodos de amortización](fa-depreciation-methods.md) |
-| Obtenga información sobre cómo aplicar métodos de amortización definidos por el usuario. |[Configurar métodos de amortización definidos por usuario](fa-how-setup-user-defined-depreciation-method.md) |
-
 
 ## <a name="see-also"></a>Consulte también
 [Activos fijos](fa-manage.md)  
 [Finanzas](finance.md)  
-[Preparación para hacer negocios](ui-get-ready-business.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Introducción](product-get-started.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

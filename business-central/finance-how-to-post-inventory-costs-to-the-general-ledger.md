@@ -1,28 +1,32 @@
 ---
-title: Conciliar costos de inventario con la contabilidad general
-description: 'Al finalizar el período contable, se llevan a cabo una serie de tareas de control y auditoría de costos con el fin de generar reportes correctos y compensados del valor de inventario.'
+title: 'Procedimiento: Registrar costos de inventario en la contabilidad general | Documentos de Microsoft'
+description: Describe cómo administrar los productos físicos que comercializa, por ejemplo, manipulación de las existencias en el almacén.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'warehouse, stock'
-ms.search.form: 9297
-ms.date: 06/16/2021
-ms.author: edupont
+ms.search.keywords: warehouse, stock
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: ce4b573500967e6981fa2cba9b306324f2f43339
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183367"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Conciliar costos de inventario con la contabilidad general
-
 Cuando registra transacciones del inventario, como los envíos de ventas, los albaranes de compra o los ajustes de inventario, los costes de producto cambiados se registran en movimientos de valor de productos. Para reflejar este cambio de valor de inventario en sus libros de finanzas, los costes de inventario se registran automáticamente en las cuentas de inventario relacionadas del libro mayor. Para cada una de las transacciones de inventario que registre, los valores apropiados se contabilizan en la cuenta de inventario, en la cuenta de ajuste y en la cuenta de CV en el módulo de contabilidad.
 
-El registro automático de costos se define en el campo **Registro automático de costos** de la página **Configuración de inventario**.
+La contabilización automática de costos se define en el campo **Contabilización automática de costos** en la página **Configuración existencias**.
 
 Aunque se hayan registrado los costes de inventario automáticamente en el libro mayor, seguirá siendo necesario asegurarse de que los costes de los bienes se dirigen a las transacciones de venta de salida relacionadas, especialmente en situaciones donde la venta de bienes se factura antes de la compra de estos bienes. Esto se denomina ajuste de costos. Los costes de los productos se ajustan automáticamente cada vez que registra transacciones de producto, pero también puede ajustar los costes de producto manualmente. Para obtener más información, consulte [Ajustar precios de productos](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>Para registrar los costos de inventario de forma manual
-
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Registro de costos de inventario en contabilidad** y, luego, elija el vínculo relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Registrar costo de inventario en contabilidad** y luego elija el enlace relacionado.
 2. Puede registrar manualmente los costos de inventario en el módulo de contabilidad, si ejecuta el trabajo por lotes. Cuando lo ejecute, se crearán los movimientos de contabilidad según los movimientos de valoración. Es posible registrar los movimientos de forma que estén agrupados por grupos contables.
 
 > [!NOTE]  
@@ -65,24 +69,9 @@ Las columnas siguientes muestran los totales para los mismos tipos de cuenta que
 
 Elija el importe que se encuentra en cualquiera de los campos de totalización para ver los movimientos de informe del inventario que se utilizaron para calcular los totales. Para los totales del inventario, los movimientos de informe del inventario se corresponden con las sumas de los movimientos de valoración para los productos. En el caso de los totales de contabilidad, los movimientos de informe del inventario se corresponden con las sumas de los movimientos.
 
-## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Creación de informes de costos y conciliación con la contabilidad
-Otros informes, funciones de seguimiento y una herramienta de conciliación especial están disponibles para el auditor o controlador responsable de informar un valor de inventario correcto y equilibrado al departamento de finanzas.
-
-La siguiente tabla los describe.    
-
-|**Para**|**Vea**|  
-|------------|-------------|  
-|Ver el valor de existencias de los productos seleccionados, incluida información acerca de las cantidades y valores de aumentos y disminuciones en inventario a lo largo de un periodo seleccionado.|Informe **Valuación de inventarios**|  
-|Ver el valor de existencias de órdenes de producción en el inventario WIP (productos semiterminados), como cantidades y valores de consumo, uso de capacidad y salida en órdenes de producción en curso.|Informe **Valuación de inventarios - WIP**|  
-|Ver el valor de inventario de los productos seleccionados, incluido su costo real y esperado en la fecha especificada.|Informe **Valorac. exist.-especif. costo**|  
-|Usar un informe para analizar los motivos de las variaciones del costo o conocer las partes de costos de los productos vendidos (CV).|Informe **Análisis partes costos**|  
-
 ## <a name="see-also"></a>Consulte también  
 [Administración de costos de inventario](finance-manage-inventory-costs.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Ventas](sales-manage-sales.md)    
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

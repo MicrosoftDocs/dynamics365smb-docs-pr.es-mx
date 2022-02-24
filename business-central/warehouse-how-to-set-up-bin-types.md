@@ -1,15 +1,21 @@
 ---
-title: Configurar tipos de ubicación
-description: 'Asigne tipos y actividades de flujo básicas a ubicaciones y, al hacerlo, defina la forma en que se utilizan las ubicaciones para determinadas actividades de almacén.'
+title: Configurar tipos de ubicaciones | Documentos de Microsoft
+description: Puede dirigir el flujo de productos por las ubicaciones que ha definido para las actividades de un almacén determinado. Indique las actividades de flujo básicas para cada ubicación y defina la forma en que se utilizará la ubicación, asignándola a un tipo de ubicación.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7367
-ms.date: 06/25/2021
-ms.author: edupont
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: f5a5903e3485e4db67b1f169d8c9a0c969058fa1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191798"
 ---
 # <a name="set-up-bin-types"></a>Configurar tipos de ubicación
 Puede dirigir el flujo de productos por las ubicaciones que ha definido para las actividades de un almacén determinado. Indique las actividades de flujo básicas para cada ubicación y defina la forma en que se utilizará la ubicación, asignándola a un tipo de ubicación.  
@@ -17,7 +23,7 @@ Puede dirigir el flujo de productos por las ubicaciones que ha definido para las
 Existen seis tipos. Puede trabajar en el almacén con seis tipos de ubicaciones posibles, o puede trabajar con sólo los tipos de ubicaciones RECIBIR, COLOCARPICKING, ENVIAR y QC. Estos cuatro tipos permiten realizar sugerencias para admitir el flujo de productos y registrar las diferencias de inventario.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Para configurar los tipos de ubicaciones que desea utilizar  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tipos de ubicación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Tipos de ubicación** y luego elija el enlace relacionado.  
 2.  En la página **Tipos ubicación**, cree un código d e10 caracteres para el tipo de ubicación.  
 3.  Seleccione las actividades que se pueden realizar con cada tipo de ubicación.  
 
@@ -43,7 +49,4 @@ A continuación, se muestran los tipos de ubicaciones que puede crear.
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
