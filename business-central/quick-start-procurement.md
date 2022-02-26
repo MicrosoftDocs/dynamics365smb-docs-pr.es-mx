@@ -8,11 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.search.form: '26, 27, 50, 56'
+ms.search.form: 26, 27, 50, 56
 ms.date: 09/29/2021
 ms.author: edupont
+ms.openlocfilehash: 58476145830438b85e70c03958b2bf997640e2c7
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953120"
 ---
-
 # <a name="procurement-quick-start"></a>Inicio rápido de adquisiciones
 
 Para poder comprar productos y servicios, primero debe configurar proveedores. Una vez hecho esto, puede comenzar a registrar órdenes de compra y recibir facturas.  

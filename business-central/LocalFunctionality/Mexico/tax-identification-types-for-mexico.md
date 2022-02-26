@@ -1,23 +1,23 @@
 ---
 title: Tipos identificación impuestos para México
-description: Todos los clientes y proveedores deben tener un número de identificación fiscal federal. El tipo de identificación que se usa para un cliente o un proveedor depende de que esté clasificado como persona jurídica o persona física.
+description: Todos los clientes y proveedores deben tener un número de identificación fiscal federal. En este tema se describen los tipos de identificación fiscal disponibles en la versión para México.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 59157c53176f0e7eacb4be71f4f87eed6cdea07c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/18/2021
+ms.author: edupont
+ms.openlocfilehash: c2e49838532a74415a392ec2ca97aa75ef5dd016
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181101"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320698"
 ---
 # <a name="tax-identification-types-for-mexico"></a>Tipos identificación impuestos para México
 Todos los clientes y proveedores deben tener un número de identificación fiscal federal. El tipo de identificación que se usa para un cliente o un proveedor depende de que esté clasificado como persona jurídica o persona física.  
@@ -32,7 +32,10 @@ Este tipo de identificación fiscal se puede aplicar a empresas y a personas. El
 ### <a name="cdula-de-identification-fiscal-con-clave-nica-de-registro-de-poblacin-curp"></a>Cédula de identification fiscal con clave única de registro de población (CURP)  
 Este tipo de identificación fiscal sólo se puede aplicar a personas. Un número de CURP incluye 18 caracteres.  
 
-Al crear un cliente o un proveedor nuevo en [!INCLUDE[d365fin](../../includes/d365fin_md.md)], debe especificar si se trata de una empresa o de una persona y, posteriormente, debe especificar el tipo de identificación fiscal. Este tipo de identificación y el número de identificación fiscal se incluyen en cualquier tipo de informe que haga referencia a los datos fiscales de un cliente o un proveedor.  
+Al crear un cliente o un proveedor nuevo en [!INCLUDE[prod_short](../../includes/prod_short.md)], debe especificar si se trata de una empresa o de una persona y, posteriormente, debe especificar el tipo de identificación fiscal. Este tipo de identificación y el número de identificación fiscal se incluyen en cualquier tipo de informe que haga referencia a los datos fiscales de un cliente o un proveedor.  
 
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local de México](mexico-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

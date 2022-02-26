@@ -7,12 +7,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'dimension, correction, correct, business intelligence'
-ms.search.form: '116, 540, 2588'
+ms.search.keywords: dimension, correction, correct, business intelligence
+ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
+ms.openlocfilehash: aaa9bff8f4221d6a0a237b3a781da88c574cb7b4
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971873"
 ---
-
 # <a name="troubleshooting-and-correcting-dimensions"></a>Resolución de problemas y corrección de dimensiones
 
 Las vistas de análisis e informes financieros a menudo se basan en datos de dimensiones. A pesar de las salvaguardas disponibles, a veces ocurre un error que puede dar lugar a inexactitudes. Este tema describe algunos de los errores típicos y explica cómo corregir las asignaciones de dimensión en las transacciones registradas para que los informes financieros sean precisos.

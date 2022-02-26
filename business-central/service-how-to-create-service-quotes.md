@@ -1,21 +1,21 @@
 ---
-title: Cómo crear cotizaciones de servicio | Documentos de Microsoft
-description: Puede utilizar la página **Cotización servicio** para crear documentos en los que se introduce información acerca de un servicio, como reparación y mantenimiento, de productos de servicio a solicitud del cliente. Puede utilizar una cotización de servicio como borrador de un pedido de servicio y, más adelante, convertir la cotización en un pedido de servicio.
+title: Procedimiento para crear cotizaciones de servicio
+description: Aprenda a utilizar una cotización de servicio como borrador de una orden de servicio y, más adelante, convertir la cotización en una orden de servicio.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 4e04c2dc74ab1ecc0c0041258ca1824f872caac8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 3a28ee7522faa1e08608deb00718bf955e0e4984
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877242"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441921"
 ---
 # <a name="create-service-quotes"></a>Crear cotizaciones de servicio
 Puede pensar en cotizaciones de servicio como base para las órdenes de servicio. De hecho, son casi idénticos. Ambos contienen información como quién es el cliente, el tipo de pedido, el producto que requiera servicio, información sobre facturación y sobre el envío, e información acerca del proyecto de servicio real.
@@ -23,7 +23,7 @@ Puede pensar en cotizaciones de servicio como base para las órdenes de servicio
 Puede utilizar una cotización de servicio como borrador de un pedido de servicio y, más adelante, convertir la cotización en un pedido de servicio.  
   
 ## <a name="to-create-a-service-quote"></a>Para crear una cotización de servicio  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cotizaciones servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cotizaciones de servicio** y, luego, elija el vínculo relacionado.  
 2. Cree una cotización de servicio nueva.  
 3. En el campo **N.º**, introduzca un número para la cotización de servicio. Si ha configurado números de serie para cotizaciones de servicio en la página **Config. gestión servicio**, también puede presionar Enter para seleccionar el siguiente número de cotización de servicio disponible.  
 4. En el campo **Nº cliente**,  seleccione el cliente pertinente de la lista.  
@@ -40,3 +40,5 @@ Puede utilizar una cotización de servicio como borrador de un pedido de servici
 [Trabajar en tareas de servicio](service-how-to-work-on-service-tasks.md)  
 
  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

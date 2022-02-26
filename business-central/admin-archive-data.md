@@ -10,8 +10,13 @@ ms.workload: na
 ms.search.form: 630
 ms.date: 06/14/2021
 ms.author: bholtorf
+ms.openlocfilehash: 4070ff5658ad4aa976c181a3df377155080f1e3b
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012088"
 ---
-
 # <a name="the-data-archive-extension"></a>La extensión Archivo de datos
 Con el tiempo, su empresa acumulará una cantidad sustancial de datos y, como administrador, probablemente sea una buena idea tener una estrategia para archivar datos. Tener muchos datos puede ralentizar las cosas, por ejemplo, puede llevar un poco más de tiempo generar informes o incluso bloquear registros. Además, grandes cantidades de datos pueden generar mayores costos de almacenamiento.
 

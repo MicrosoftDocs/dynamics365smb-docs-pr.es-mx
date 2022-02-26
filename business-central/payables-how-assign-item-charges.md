@@ -1,23 +1,22 @@
 ---
-title: Asignar cargos de producto a ventas y compras | Documentos de Microsoft
-description: Si desea que sus productos de inventario carguen costes adicionales, tales como fletes, manipulación física, seguros y transporte en los que incurra al comprar o vender artículos, puede usar la función Gastos de productos.
-services: project-madeira
-documentationcenter: ''
+title: Asignar cargos de producto a ventas y compras (contiene vídeo)
+description: Asigne cargos de productos cuando necesite que sus productos de inventario carguen costos adicionales, tales como fletes y manipulación física en los que incurra al comprar o vender artículos.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: a113573ca1732472f5ec926f78273cdb4b94f989
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 5709, 5800, 5805, 5814
+ms.date: 06/22/2021
+ms.author: edupont
+ms.openlocfilehash: c49b529bcb93544aef8393a5440b142e722efd1c
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878149"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953245"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Usar los cargos de producto para costos comerciales adicionales
 Para asegurarse de la valoración correcta, sus productos de inventario deben cargar costes adicionales, tales como fletes, manipulación física, seguros y transporte en los que incurra al comprar o vender artículos. En el caso de las compras, el costo de descarga de un producto comprado se compone del precio de compra del proveedor más todos los cargos directos de producto adicionales que se pueden asignar a recepciones o envíos de devolución individuales. En el caso de las ventas, conocer el costo de envío de los productos vendidos es tan importante para la empresa como conocer el costo de los productos comprados.
@@ -26,7 +25,7 @@ Además de registrar el costo agregado en el valor de inventario, puede usar la 
 
 - Identificar el costo de descarga de un producto para tomar decisiones más precisas sobre cómo optimizar la red de distribución.
 - Desglosar el costo unitario o el precio unitario de un producto con fines de análisis.
-- incluir las deducciones de compras en el costo unitario y las deducciones de ventas en el precio unitario.
+- Incluya las deducciones de compras en el costo unitario y las deducciones de ventas en el precio unitario.
 
 Antes de poder asignar cargos por productos, debe configurar los números de cargos de productos para los diferentes tipos de cargos de productos, incluyendo los costes de cuentas de contables relacionados con ventas, compras y ajustes de inventario. Un número de cargo de producto contiene una combinación de grupo contable de producto, código de grupo de impuesto, grupo de registro IVA producto y cargos de producto. Al introducir el número de coste de producto en un documento de compra o de venta, se obtendrá una cuenta según la configuración del número de coste de producto y la información almacenada en el documento.
 
@@ -38,21 +37,21 @@ Para los documentos de compra y de venta, puede asignar un coste de producto de 
 >   Puede asignar cargos de artículos a pedidos, facturas y abonos para ventas y compras. Los procedimientos siguientes describen cómo gestionar los cargos de producto en una factura de compra. Los pasos son parecidos a los de los documentos de compra y venta.
 
 ## <a name="example"></a>Ejemplo:
-Este vídeo muestra cómo gestionar un costo de remisión adicional como parte de la valoración de existencias.
+En este video se muestra cómo gestionar un costo de envío adicional como parte de la valoración de inventario.
 <br><br>  
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
 ## <a name="to-set-up-item-charge-numbers"></a>Configurar números de coste de producto
 Los números de cargo de producto sirven para diferenciar los distintos tipos de cargos que se utilizan en la empresa.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cargos de producto** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cargos de producto**, y luego elija el enlace relacionado.
 2. En la página **Cargos producto**, seleccione la acción **Nuevo** para crear una línea nueva.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Asignar un coste de producto directamente en la factura de compra del producto
 Si conoce el coste de un producto en el momento en que registra la factura de compra, siga este procedimiento.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.
 2. Crea una nueva factura de compra. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 3. Asegúrese de que la factura de compra tiene una o más líneas del tipo Producto.
 4. En una línea nueva, en el campo **Tipo**, seleccione **Cargo (prod.)**.
@@ -85,4 +84,7 @@ El cargo de producto de la factura de compra independiente se asigna al producto
 [Administrar pagos](payables-manage-payables.md)  
 [Registrar compras](purchasing-how-record-purchases.md)  
 [Facturar ventas](sales-how-invoice-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

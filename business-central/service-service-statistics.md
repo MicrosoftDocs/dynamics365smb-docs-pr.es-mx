@@ -1,21 +1,21 @@
 ---
-title: Estadísticas de servicio | Documentos de Microsoft
-description: Obtenga una visión general del contenido de los documentos de servicio, como órdenes, cotizaciones, facturas o notas de crédito, los detalles sobre las líneas de servicio específicas y los productos de servicio.
+title: Estadísticas servicio
+description: Obtenga una visión general del contenido y las estadísticas de los documentos de servicio, como órdenes, cotizaciones, facturas, notas de crédito, líneas de servicio, etc.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0e1c6fe7b5a830e17d693bcd4d48921947b0509d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192398"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438268"
 ---
 # <a name="viewing-service-statistics"></a>Visualización de estadísticas de servicio
 Puede utilizar estadísticas para analizar los documentos de servicio y determinar el cómo de bien está gestionando sus procesos de servicio. Puede analizar los contratos de servicio, los productos, las cotizaciones, las órdenes, las facturas y las notas de crédito si elige la acción **Estadísticas**. Para los productos y los contratos de servicios, también puede usar **Análisis prod. servicio** o **Análisis contrato** para ver un resumen de los movimientos de servicio para un producto de servicio determinado.   
@@ -84,7 +84,7 @@ Los movimientos de beneficios o pérdidas de contrato se generan cuando se convi
 |**Pérd./gan. contrato (Razones)**|Para ver las pérdidas y ganancias de contrato por código de razón.|  
 |**Pérd./gan. contr. (Cen. resp.)**|Para ver las pérdidas y ganancias de contrato por centro de responsabilidad.|  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba el nombre de la página a mostrar y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , ingrese el nombre de la página que se mostrará y luego elija el enlace relacionado.  
 2. Rellene los criterios del filtro que desea aplicar. Por ejemplo, en la página **Pérdidas/ganancias en contrato (Razones)**, seleccione un valor para **Filtro código razón**.  
 3. Elija la acción **Mostrar matriz**.
 
@@ -112,3 +112,6 @@ Puede utilizar la página **Estadísticas de nota de crédito de servicios** par
 [Crear pedidos de servicio ](service-how-to-create-service-orders.md)   
 [Crear productos de servicio](service-how-to-create-service-items.md)   
 [Servicio de planificación](service-plan-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

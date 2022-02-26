@@ -1,27 +1,30 @@
 ---
-title: Agregar líneas adicionales para definir descripciones ampliadas de producto | Documentos de Microsoft
-description: Puede agregar líneas adicionales para ampliar el texto estándar que describe un producto.
-services: project-madeira
-documentationcenter: ''
+title: Agregar textos adicionales
+description: Puede agregar líneas adicionales para ampliar el texto estándar que describe un producto, una cuenta y otros datos.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c50e37b450718c749ef04add823d7012899a7d81
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 391, 30
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 0a9a56e44ecf9e832da99f60a6256aa93240e524
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311007"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101202"
 ---
-# <a name="add-extended-item-text"></a>Añadir textos ampliados del producto
-Puede ampliar un concepto estándar para productos agregando líneas adicionales y puede configurar condiciones para el uso de las líneas adicionales. Puede realizar esta tarea en las fichas de productos.
+# <a name="add-extended-text"></a>Agregar textos adicionales
 
-## <a name="to-define-extended-text-for-an-item-description"></a>Para definir el texto adicional de una descripción de producto
+Puede ampliar la descripción para productos, unidades de almacenamiento, cuentas de contabilidad y recursos agregando líneas adicionales como texto adicional. También puede configurar condiciones para el uso de líneas adicionales.  
+
+La siguiente sección describe cómo agregar texto adicional a una descripción de un producto. Pero los mismos pasos se aplican a las unidades de almacenamiento, las cuentas de contabilidad y los recursos.  
+
+## <a name="to-define-extended-text-for-an-description"></a>Para definir el texto adicional de una descripción
+
 1. Abra la ficha de un producto al que desee agregar texto adicional y, a continuación, elija la acción **Textos adicionales**.
 2. Rellene los campos **Código** y **Descripción**.
 3. Seleccione **Nuevo**.
@@ -31,10 +34,17 @@ Puede ampliar un concepto estándar para productos agregando líneas adicionales
 7. Seleccione las casillas de verificación correspondientes para los tipos de documento donde desee imprimir el texto adicional.
 8. Cierre la página.
 
+Ahora puede agregar este texto adicional a los documentos. El siguiente procedimiento explica cómo agregar texto adicional a un pedido de ventas, pero los mismos pasos se aplican a cualquier otro documento que haya especificado para el texto adicional.  
+
 ## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Para agregar un texto de producto adicional en un pedido de venta línea
+
 1. Abra un pedido de venta con la línea de venta para un producto que tenga texto adicional definido. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
 2. Seleccione la línea en cuestión y, a continuación, la acción **Insertar textos adicionales**.
 
 ## <a name="see-also"></a>Consulte también
+
 [Configurar inventario](inventory-setup-inventory.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

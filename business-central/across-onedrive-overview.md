@@ -1,15 +1,20 @@
 ---
 title: Integración de Business Central y OneDrive para la Empresa
-description: 'Puedes usar OneDrive para la Empresa para almacenar, administrar y compartir archivos, como informes o archivos adjuntos.'
+description: Puedes usar OneDrive para la Empresa para almacenar, administrar y compartir archivos, como informes o archivos adjuntos.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: overview
 ms.workload: na
-ms.search.keywords: null
+ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
+ms.openlocfilehash: 8965fe1c0f04c3b12fef984e71b7f2643f7f11c2
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012586"
 ---
-
 # <a name="business-central-and-onedrive-for-business-integration"></a>Integración de Business Central y OneDrive para la Empresa
 OneDrive para la Empresa es un servicio de almacenamiento en la nube que se incluye en Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] facilita almacenar, administrar y compartir archivos con otras personas a través de OneDrive. Cuando un archivo está en su OneDrive puede disfrutar de las ricas experiencias de colaboración de las versiones en línea de los productos de Microsoft, como Word, Excel y PowerPoint. Por ejemplo, puede compartir un documento de Word y luego usted y sus colegas pueden editarlo juntos en tiempo real. OneDrive también le permite abrir otros tipos de archivos, como PDF. 
 

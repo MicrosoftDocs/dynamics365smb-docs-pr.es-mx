@@ -5,9 +5,15 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: null
+ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
+ms.openlocfilehash: 310ff52463a34e9c63ee20b52eaccdefdf1dd471
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011450"
 ---
 # <a name="opening-business-central-files-in-onedrive"></a>Abrir archivos de Business Central en OneDrive
 [!INCLUDE[prod_short](includes/prod_short.md)] facilita almacenar, administrar y compartir archivos con otras personas a través de OneDrive para la Emprea. En la mayoría de las páginas donde hay archivos disponibles, como la Bandeja de entrada de informes o los archivos adjuntos a los registros, encontrará una acción **Abrir en OneDrive**.

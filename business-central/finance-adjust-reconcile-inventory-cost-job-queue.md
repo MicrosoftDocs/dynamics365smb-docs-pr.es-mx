@@ -1,6 +1,6 @@
 ---
 title: Programar tareas para ajustar y conciliar el costo de inventario
-description: 'Obtenga información sobre cómo puede usar la cola de proyectos para mover las tareas para ajustar el costo de inventario o conciliarlo con la contabilidad en segundo plano. Por ejemplo, si su empresa ejecuta muchas tareas o procesa muchas transacciones.'
+description: Obtenga información sobre cómo puede usar la cola de proyectos para mover las tareas para ajustar el costo de inventario o conciliarlo con la contabilidad en segundo plano. Por ejemplo, si su empresa ejecuta muchas tareas o procesa muchas transacciones.
 author: AndreiPanko
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,6 +11,12 @@ ms.reviewer: edupont
 ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: andreipa
+ms.openlocfilehash: 85fec80ca9b7f2184e67da58f9d05a86534e90ac
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973555"
 ---
 # <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Programar tareas para ajustar y conciliar el costo de inventario con la contabilidad
 

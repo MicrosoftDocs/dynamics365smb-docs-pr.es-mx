@@ -7,12 +7,17 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 'cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments'
-ms.search.form: '841, 849, 1818'
+ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
+ms.search.form: 841, 849, 1818
 ms.date: 12/20/2021
 ms.author: edupont
+ms.openlocfilehash: e5ce39c435c236719e6ee564217a0b1f7e338cf2
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.translationtype: HT
+ms.contentlocale: es-MX
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011107"
 ---
-
 # <a name="cash-flow-overview"></a>Descripción del flujo de caja
 
 Conocer las entradas y salidas de efectivo es la clave para una empresa exitosa. Puede utilizar el flujo de caja para crear fácilmente una previsión a corto plazo que prevea cómo y cuándo se espera que su empresa reciba y pague dinero. Es importante que sepa que su empresa tendrá efectivo suficiente para pagar a los acreedores y cubrir los gastos cuando sean sus vencimientos.

@@ -3,23 +3,23 @@ title: Configurar y generar informes DIOT | Microsoft Docs
 description: Utilice esta extensión para configurar y generar declaraciones DIOT en Business Central para las autoridades mexicanas.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, diot, authorities, export, compliance
-ms.date: 04/01/2020
+ms.date: 06/24/2021
 ms.author: soalex
-ms.openlocfilehash: d844564e4516914b17a44c6a5892c5971a4127a2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1beb0b77e1870fbf930659fb6a0d2b114454d248
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181100"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446510"
 ---
 # <a name="set-up-and-generate-diot-reports"></a>Configurar y generar informes DIOT
 
-Al ser una empresa en México, debe informar sobre el IVA de las compras de los proveedores a la autoridad del gobierno mexicano: SAT (Servicio de Administración Tributaria). Esto se puede hacer en [!INCLUDE[d365fin](../../includes/d365fin_md.md)] mediante la generación de un archivo que puede cargarse al SAT. En este tema se describe cómo instalar la funcionalidad y generar el informe. La funcionalidad de informe DIOT (Declaración Informativa de Operaciones con Terceros) se ha creado como una extensión (aplicación) para [!INCLUDE[d365fin](../../includes/d365fin_md.md)] y está preinstalada en la versión en línea, pero debe instalarse manualmente en la versión local de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+Al ser una empresa en México, debe informar sobre el IVA de las compras de los proveedores a la autoridad del gobierno mexicano: SAT (Servicio de Administración Tributaria). Esto se puede hacer en [!INCLUDE[prod_short](../../includes/prod_short.md)] mediante la generación de un archivo que puede cargarse al SAT. En este tema se describe cómo instalar la funcionalidad y generar el informe. La funcionalidad de informe DIOT (Declaración Informativa de Operaciones con Terceros) se ha creado como una extensión (aplicación) para [!INCLUDE[prod_short](../../includes/prod_short.md)] y está preinstalada en la versión en línea, pero debe instalarse manualmente en la versión local de [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 ## <a name="what-does-this-extensions-handle"></a>¿Qué es lo que manejan estas extensiones?
 La extensión proporciona las siguientes capacidades:
@@ -28,9 +28,9 @@ La extensión proporciona las siguientes capacidades:
 * Exportar el informe DIOT para que pueda ser cargado a las autoridades
 
 ## <a name="setup-of-the-mexican-diot-extension"></a>Configuración de la Extensión DIOT mexicana
-La extensión DIOT se configura a través de la función de Configuración Asistida, que proporciona una guía fácil, paso a paso, para empezar a utilizar las DIOT en [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. En caso sea necesario, puede ejecutar la guía varias veces hasta que se complete la configuración.
+La extensión DIOT se configura a través de la función de Configuración Asistida, que proporciona una guía fácil, paso a paso, para empezar a utilizar las DIOT en [!INCLUDE[prod_short](../../includes/prod_short.md)]. En caso sea necesario, puede ejecutar la guía varias veces hasta que se complete la configuración.
 
-1. En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración asistida** y luego elija el enlace relacionado.  
+1. En [!INCLUDE[prod_short](../../includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Configurar DIOT**.
 3. La primera página de la guía de configuración explica lo que está a punto de configurar. Elija el botón **Siguiente**.
 4. En el campo **Tipo de operación predeterminada de DIOT de proveedor**, seleccione la clase de operación por defecto que desea configurar en los proveedores del sistema.
@@ -52,8 +52,11 @@ La extensión DIOT se configura a través de la función de Configuración Asist
     La configuración de DIOT ha terminado.
 9. Elija el botón **Terminar**.
 
+> [!Note]
+> Tenga en cuenta que para el reporte de DIOT, el tipo de operación del proveedor se usará para todas las operaciones que se realicen con ese proveedor a menos que se modifique específicamente el valor de **Tipo de operación de DIOT** en el documento antes de registrarlo. El tipo de operación de DIOT para el proveedor no se aplica automáticamente a los documentos de compra. Si desea usar un tipo diferente del que se ha especificado para el proveedor, modifique el campo en el documento de compra de forma manual.
+
 ## <a name="optional-setup-for-reporting-witholding-tax-with-the-diot-extension"></a>Configuración opcional para la generación de informes de retención de impuestos con la extensión de DIOT
-El informe de DIOT exporta datos que incluyen importes de retención de impuestos para transacciones de proveedores. El cálculo de la retención de impuestos no se admite actualmente en la versión mexicana de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Para evitarlo, se pueden contabilizar líneas adicionales en una cuenta mayor predefinida. La extensión de DIOT admite la generación de informes de datos de retención de impuestos de la siguiente manera:
+El informe de DIOT exporta datos que incluyen importes de retención de impuestos para transacciones de proveedores. El cálculo de la retención de impuestos no se admite actualmente en la versión mexicana de [!INCLUDE[prod_short](../../includes/prod_short.md)]. Para evitarlo, se pueden contabilizar líneas adicionales en una cuenta mayor predefinida. La extensión de DIOT admite la generación de informes de datos de retención de impuestos de la siguiente manera:
 
 La tabla **Configuración de la contabilización del IVA** tiene un nuevo campo **% DE RET. DE DIOT**. Al configurar este campo en un valor distinto de cero, usted indica que todas las entradas contabilizadas con esta configuración deben considerarse como si se hubieran contabilizado con ese importe de IVA retenido.
 
@@ -62,7 +65,7 @@ Por ejemplo, si tiene transacciones que se supone que involucran un 10% de IVA y
 Este campo únicamente afectará a los cálculos del informe DIOT y no a la contabilización real de las líneas/entradas/documentos, por lo que debe continuar con la solución alternativa existente que puede tener para el cálculo de la retención de impuestos, independientemente de la configuración de la extensión del informe DIOT.
 
 ### <a name="to-create-an-export-of-diot-report-files"></a>Para crear una exportación de archivos de informe DIOT  
-1. Elija el icono ![bombilla que abre la función Dígame](../../media/ui-search/search_small.png) "Dígame que desea hacer"), escriba **Crear informe DIOT** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png) "Dígame qué desea hacer"), escriba **Crear reporte de DIOT** y, luego, elija el vínculo relacionado.  
 2. En la página de solicitud **Crear informe DIOT**, establezca los campos **Fecha de inicio** y **Fecha de finalización** para representar el período del que desea informar.
 3. Elija el botón **Aceptar**.
 
@@ -71,5 +74,8 @@ Este campo únicamente afectará a los cálculos del informe DIOT y no a la cont
 Cuando el informe se ejecute sin errores, se le pedirá que guarde el archivo **Diot.txt**, que luego puede enviar a las autoridades.
 
 ## <a name="see-also"></a>Consulte también
-[Personalizar [!INCLUDE[d365fin](../../includes/d365fin_md.md)] con extensiones](../../ui-extensions.md)  
-[Introducción](../../product-get-started.md)
+[Personalizar [!INCLUDE[prod_short](../../includes/prod_short.md)] con extensiones](../../ui-extensions.md)  
+[Preparación para hacer negocios](../../ui-get-ready-business.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
