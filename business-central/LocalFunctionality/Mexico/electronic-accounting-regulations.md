@@ -2,7 +2,6 @@
 title: Regulaciones electrónicas de la contabilidad en México
 description: En este tema puede conocer cómo Business Central lo ayuda a cumplir con los requisitos de contabilidad electrónica en México.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6c5f30bb1b4c28b75bdc9c87942409240913b396
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 85103a453fcfdc34fe35a8fcb44672b2306654de
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445764"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145095"
 ---
 # <a name="complying-with-electronic-accounting-regulations-in-mexico"></a>Cumplimiento con las regulaciones electrónicas de la contabilidad en México
 En México, los individuos y las empresas deben hacer su contabilidad electrónicamente y enviar sus resultados mensuales al Servicio de Administración Tributaria de México (SAT) como archivos XML separados al final de cada mes. Los archivos XML deben contener lo siguiente:

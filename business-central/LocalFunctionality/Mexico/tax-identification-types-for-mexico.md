@@ -4,7 +4,6 @@ description: Todos los clientes y proveedores deben tener un número de identifi
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: c2e49838532a74415a392ec2ca97aa75ef5dd016
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 9ed242f26a34a3633820ec1000ae1f70f1b0bcd7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320698"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145088"
 ---
 # <a name="tax-identification-types-for-mexico"></a>Tipos identificación impuestos para México
 Todos los clientes y proveedores deben tener un número de identificación fiscal federal. El tipo de identificación que se usa para un cliente o un proveedor depende de que esté clasificado como persona jurídica o persona física.  

@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/27/2021
 ms.author: edupont
-ms.openlocfilehash: 9af782d2a8e23759b5e99b3c2adfc73f7644ebe3
-ms.sourcegitcommit: 8746f93c5a11f218d22f95ea06de9c8ec8f8d3f2
+ms.openlocfilehash: 38e5b84c7bd48ed6f092eccd8b4bcb1234fe7774
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "6238729"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129281"
 ---
 Cuando empieza a usar [!INCLUDE[prod_short](../../../includes/prod_short.md)], puede ejecutar una guía de configuración asistida para establecer rápida y fácilmente la información de impuestos sobre las venta para su empresa y sus clientes y proveedores. En cuestión de minutos puede empezar a crear documentos de compra y venta con los impuestos calculados correctamente. Simplemente busque la guía de configuración asistida **Configurar el impuesto sobre las ventas** y, a continuación, siga los pasos de dicha guía. Se incluyen los pasos para definir las cuentas que desea usar para el impuesto sobre las ventas de ventas y compras.  
 
