@@ -2,7 +2,6 @@
 title: Facturación electrónica [MX]
 description: Business Central admite CFDI para que pueda exportar facturas de ventas y servicios, y notas de crédito como documentos electrónicos con la firma digital requerida.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 10458, 10459, 27001, 27002, 27003, 27010,27011, 27011, 27012, 27013,27014,27015, 27016, 27017, 27018, 27040, 27041, 27042, 27043, 27044
 ms.date: 11/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4e961b6b3ad09a2b5eb773888df56609258d6c29
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: bdcbaba2ac607076d9d0710020338b27b4740673
+ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029214"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311308"
 ---
 # <a name="electronic-invoicing-in-the-mexican-version"></a>Facturación electrónica en la versión para México
 
@@ -38,7 +37,7 @@ El archivo de CFDI es un archivo XML que incluye lo siguiente:
 - Sello digital de un proveedor de servicios autorizado (PAC), que usted elija.  
 
 > [!IMPORTANT]  
-> Deberá enviar las facturas electrónicas a un PAC, que es un proveedor de servicios autorizado designado por las autoridades fiscales de México (SAT).  
+> Deberá enviar las facturas electrónicas a un PAC, que es un proveedor de servicios autorizado designado por las autoridades fiscales de México (SAT). Tenga en cuenta que SAT ha certificado a varios PAC en México, por lo que deberá obtener la información pertinente para comunicarse con el PAC que elija. De manera predeterminada, [!INCLUDE [prod_short](../../includes/prod_short.md)] admite la integración con [Interfactura](https://interfactura.com/), pero puede utilizar otro PAC de su elección.  
 
 ## <a name="getting-started"></a>Introducción
 
