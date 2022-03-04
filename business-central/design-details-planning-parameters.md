@@ -2,7 +2,6 @@
 title: 'Detalles de diseño: Parámetros de la planificación'
 description: Este tema describe los diferentes parámetros de planificación que puede utilizar y cómo afectan al sistema de planificación.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: planning, design
 ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: d6598583ad118961fc15c7257e5207c3024e20e7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649823"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131988"
 ---
 # <a name="design-details-planning-parameters"></a>Detalles de diseño: Parámetros de la planificación
 En este tema se describen los distintos parámetros de planificación que puede usar en [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -52,9 +51,9 @@ Si el sistema de planificación detecta necesidad de reorden, la directiva de re
 Independiente de la directiva de reorden, el sistema de planificación sigue normalmente esta lógica:  
 
 1. La cantidad de la propuesta de pedido se calcula para cubrir el nivel de inventario mínimo especificado del producto, normalmente el inventario de seguridad. Si no se especifica nada, el nivel de inventario mínimo es cero.  
-2. Si las existencias disponibles proyectadas se encuentran por debajo de la cantidad de inventario de seguridad, se sugiere un pedido de aprovisionamiento con programación retroactiva. La cantidad de pedido al menos llenará el inventario de seguridad, y se puede aumentar mediante la demanda bruta dentro del ciclo, mediante la directiva de reorden y los modificadores de pedido.  
+2. Si el inventario disponible proyectada se encuentra por debajo de la cantidad de inventario de seguridad, se sugiere una orden de aprovisionamiento con programación retroactiva. La cantidad de pedido al menos llenará el inventario de seguridad, y se puede aumentar mediante la demanda bruta dentro del ciclo, mediante la directiva de reorden y los modificadores de pedido.  
 3. Si el inventario proyectado se encuentra por debajo del punto de reorden o lo ha alcanzado (calculado a partir de cambios agregados dentro del ciclo) y por encima del inventario de seguridad, se sugiere un pedido de excepción con programación anticipada. Tanto la demanda bruta que debe satisfacerse como la directiva de reorden determinarán la cantidad del pedido. Como mínimo, la cantidad del pedido coincidirá con el punto de reorden.  
-4. Si hay más demanda bruta que vence antes de la fecha de fin de la propuesta de pedido anticipado y esta demanda lleva a las existencias disponibles proyectadas actualmente calculadas por debajo de la cantidad de inventario de seguridad, la cantidad del pedido se aumenta para suplir el déficit. El pedido de suministro sugerido se programa hacia atrás a partir de la fecha de vencimiento de la demanda bruta que habría infringido el inventario de seguridad.  
+4. Si hay más demanda bruta que vence antes de la fecha final de la propuesta de orden anticipada y esta demanda lleva el inventario disponible proyectado actualmente calculado por debajo de la cantidad de inventario de seguridad, la cantidad de la orden se incrementa para suplir el déficit. El pedido de suministro sugerido se programa hacia atrás a partir de la fecha de vencimiento de la demanda bruta que habría infringido el inventario de seguridad.  
 5. Si el campo **Ciclo** no está relleno, solo se agregará la demanda bruta en la misma fecha de vencimiento.  
 
      Los siguientes campos de periodo de reorden también desempeñan un rol en la definición de la cantidad de reorden: **Periodo de reprogramación**, **Periodo de acumulación de lotes** y **Periodo de tolerancia**. Para obtener más información, vea [Optimizar cuando se produzca el reorden y según la cantidad de reorden](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  

@@ -1,8 +1,7 @@
 ---
 title: 'Detalles de diseño: Redondeo'
-description: Los redondeos residuales se pueden producir cuando se valora el costo de una salida de existencias que se mide en una cantidad distinta a la de la entrada de existencias correspondiente.
+description: Los redondeos residuales se pueden producir cuando se valora el costo de una salida de inventario que se mide en una cantidad distinta a la de la entrada de inventario correspondiente.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,19 +9,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 518433903f06c255c80dbba6d7e2982974a325a1
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: e3d8620c3691ec6fbf6929862a63f79eb46b5477
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318445"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139688"
 ---
 # <a name="design-details-rounding"></a>Detalles de diseño: Redondeo
 Los redondeos residuales se pueden producir cuando se valora el costo de una salida de inventario que se mide en una cantidad distinta a la de la entrada de inventario correspondiente. Cuando se ejecuta el proceso **Valorar existencias - movs. producto**, se calculan los redondeos residuales para todas las valoraciones de existencias.  
 
  Cuando se usa la valoración de existencias media, el redondeo residual se calcula y registra de forma acumulada y movimiento a movimiento.  
 
- Cuando se usa una valuación de inventarios distinta de Media, el redondeo residual se calcula cuando se ha aplicado completamente la entrada de inventario, lo que sucede cuando la cantidad restante de la entrada de inventario es igual a cero. A continuación se crea una entrada independiente para la redondeo residual, y la fecha de registro en esta entrada de redondeo es la fecha de registro de la entrada del último valor facturado de la entrada de existencias.  
+ Cuando se usa una valuación de inventarios distinta de Media, el redondeo residual se calcula cuando se ha aplicado completamente la entrada de inventario, lo que sucede cuando la cantidad restante de la entrada de inventario es igual a cero. A continuación, se crea una entrada independiente para la redondeo residual, y la fecha de registro en este movimiento de redondeo es la fecha de registro del movimiento del último valor facturado de la entrada de inventario.  
 
 ## <a name="example"></a>Ejemplo  
  En el ejemplo siguiente se ilustra cómo se tratan diferentes redondeos residuales para la valoración de existencias Media y de otro tipo, respectivamente. En ambos casos, se ha ejecutado el proceso **Valorar existencias - movs. producto**.  

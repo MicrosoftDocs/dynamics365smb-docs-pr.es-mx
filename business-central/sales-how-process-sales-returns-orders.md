@@ -2,7 +2,6 @@
 title: Procesar devoluciones ventas
 description: Describe cómo crear un pedido de devolución de venta para procesar una devolución, una cancelación o un reembolso de productos o servicios de los que ha recibido el pago.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: undo, credit memo, return, order
 ms.search.form: 44, 134, 144, 9302
 ms.date: 09/08/2021
 ms.author: edupont
-ms.openlocfilehash: 5461790c834a8809dc2f51dbd4f745da223b5c0c
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: 8a82b9116984f8b824375238fd1e6e4eb73930a3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752277"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137066"
 ---
 # <a name="process-sales-return-orders"></a>Procesar devoluciones ventas  
 
@@ -69,7 +68,7 @@ Además de la factura de venta registrada original, puede liquidar la nota de cr
      > [!NOTE]  
      >  Si ya se ha revertido, vendido o consumido parte de la cantidad de la línea del documento registrado, se crea una línea sólo para la cantidad que queda en inventario o que no se ha devuelto. Si ya se ha revertido toda la cantidad de la línea del documento registrado, no se crea una nueva línea de documento.  
      >   
-     >  Si el flujo de los artículos en el documento registrado coincide con el del nuevo documento, se crea una copia de la línea del documento registrado original en el nuevo documento. El campo **Liq. movimiento prod.** no se rellenó porque, en este caso, la reversión de costo exacto no es posible. Por ejemplo, si utiliza la función **Revertir líneas documentos registrados** para obtener una línea de una nota de crédito de ventas registrada para un nuevo nota de crédito de ventas , sólo se copia la línea de la nota de crédito registrada original en la nota de crédito nueva.  
+     >  Si el flujo de los artículos en el documento registrado coincide con el del nuevo documento, se crea una copia de la línea del documento registrado original en el nuevo documento. El campo **Liq. movimiento prod.** no se rellenó porque, en este caso, la reversión de costo exacto no es posible. Por ejemplo, si utiliza la función **Revertir líneas de documentos registrados** para obtener una línea de una nota de crédito de venta registrada para una nueva nota de crédito de venta , solo se copia la línea de la nota de crédito registrada original en la nota de crédito nueva.  
 
 10. En la página **Pedido dev. venta**, en el campo **Cód. auditoría dev.** de cada línea, seleccione el motivo de la devolución.
 11. Seleccione la acción **Registrar**.

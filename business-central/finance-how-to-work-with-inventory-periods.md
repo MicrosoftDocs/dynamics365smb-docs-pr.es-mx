@@ -2,7 +2,6 @@
 title: Trabajar con periodos de inventario
 description: Usted puede controlar el periodo en el que la gente puede registrar cambios en el inventario mediante la definición de periodos de inventario.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: inventory, periods
 ms.search.form: 5828
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d41936ece0911f726a72476716b148bede71a25b
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 9812d6f5b58839d1374f443497553734b46865e6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970633"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136047"
 ---
 # <a name="work-with-inventory-periods"></a>Trabajar con periodos de inventario
 
@@ -32,7 +31,7 @@ En el siguiente apartado se explica cómo:
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Periodos inventario** y, a continuación, elija el vínculo relacionado.  
 2. Cree una línea nueva.  
-3. En el campo **Fecha final**, introduzca la última fecha del periodo que desee definir. Cuando se cierre el periodo del inventario, ya no podrá registrar cambios en el inventario antes de dicha fecha.  
+3. En el campo **Fecha final**, introduzca la última fecha del periodo de inventario que desee definir. Cuando se cierre el periodo del inventario, ya no podrá registrar cambios en el inventario antes de dicha fecha.  
 4. Introduzca un nombre descriptivo en el campo **Nombre**. Elija el botón **Aceptar**.  
 
 ## <a name="closing-inventory-periods"></a>Cerrar periodos del inventario

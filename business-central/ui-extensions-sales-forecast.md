@@ -2,7 +2,6 @@
 title: Usar la extensión de previsión de ventas e inventario para administrar el inventario | Documentos de Microsoft
 description: Esta extensión lo ayuda a prever ventas, obtener un resumen claro de la falta de stock prevista e, incluso, lo ayuda a crear solicitudes de reposición para proveedores.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 12/20/2021
 ms.author: edupont
-ms.openlocfilehash: 615212ee648993136aaa75c7cb1ab798615899ab
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 4341abd51fa87e36394109dd71452b38df5062e1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940162"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140382"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Extensión de previsión de ventas e inventario
 La gestión del inventario es un equilibrio entre el servicio al cliente y la administración del costo. Por un lado, un inventario bajo requiere menos capital de trabajo, pero, por otro lado, la falta de existencias puede llevar potencialmente a la pérdida de ventas. La extensión Previsión de inventario y ventas pronostica ventas potenciales con datos históricos y ofrece una visión general clara de la falta de existencias prevista. Según la previsión, la extensión ayuda a crear solicitudes de reposición a los proveedores y le ahorra tiempo.  

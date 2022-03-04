@@ -2,7 +2,6 @@
 title: Bajar componentes según la salida de la operación
 description: Este tema describe cómo bajar componentes de acuerdo con el resultado de la operación, así como otros métodos de baja involucrados.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: f774c3e626ae7db282d87797a59f0f0aaf89d599
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 375c333bf6fc56d4dac5a59be0dbf905c8339ec5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439104"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137586"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Bajar componentes según la salida de la operación
 Puede definir diferentes estrategias de baja para automatizar el registro de consumo de componentes. 
@@ -25,7 +24,7 @@ Esta funcionalidad se útil por los motivos siguientes:
 - **Valuación de inventarios**
 
     Los movimientos de valores para la salida y el consumo se crean en paralelo según progresa la orden de producción. Sin los códigos de vínculo de ruta, el valor de inventario aumentará mientras se registra salida y después disminuirá en un momento posterior cuando el valor del consumo de componentes se registra con la orden de producción terminada.  
-- **Disponibilidad existencias**
+- **Disponibilidad de inventario**
 
     Con el registro gradual del consumo, la disponibilidad de productos de componentes está más actualizado, que es importante para mantener los saldos internos entre la demanda y el suministro. Sin los códigos de vínculo de ruta, otras demandas para el componente pueden creer que está disponible mientras se encuentre pendiente un registro retrasado del consumo.  
 - **A tiempo**
@@ -46,10 +45,10 @@ Esta funcionalidad se útil por los motivos siguientes:
 ### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Registro automático - Baja hacia adelante de toda la orden  
 Si realiza la baja hacia adelante de la orden de producción al comienzo del proyecto, el comportamiento de la aplicación es muy parecido al del consumo manual. La diferencia principal es que el consumo tiene lugar automáticamente.  
 
-- Todo el contenido de la lista de materiales de producción se consume y deduce de las existencias en el momento en que se actualiza la orden de producción lanzada.  
+- Todo el contenido de la lista de materiales de producción se consume y deduce del inventario en el momento en que se actualiza la orden de producción liberada.  
 - La cantidad de consumo es la cantidad por montaje indicada en la lista de materiales de producción, multiplicada por el número de productos principales que se esté produciendo.  
 - No es necesario registrar ninguna información en el diario de consumo si se va a llevar a cabo la baja de todos los productos.  
-- Al consumir los productos desde las existencias, no importa en qué momento se realizan los movimientos del diario de salida, ya que este diario no tiene efecto alguno en esto modo de registro del consumo.  
+- Al consumir los productos del inventario, no importa en qué momento se realizan los movimientos del diario de salida, ya que este diario no tiene efecto alguno en este modo de registro del consumo.  
 - No se pueden definir códigos de conexión de ruta.  
 
 La baja hacia adelante de toda la orden está indicada en entornos de producción con:  
@@ -59,7 +58,7 @@ La baja hacia adelante de toda la orden está indicada en entornos de producció
 -   Un alto consumo de componentes en las operaciones iniciales  
 
 ### <a name="automatic-reporting---forward-flushing-by-operation"></a>Registro automático - Baja hacia adelante por operación  
-El consumo por operación le permite realizar deducciones en las existencias durante una operación concreta de la ruta del producto principal. El material se enlaza a la ruta mediante códigos de conexión de ruta, que se corresponden con los códigos de conexión de ruta aplicados a los componentes en la lista de materiales de producción.  
+El consumo por operación le permite realizar deducciones en el inventario durante una operación concreta de la ruta del producto principal. El material se enlaza a la ruta mediante códigos de conexión de ruta, que se corresponden con los códigos de conexión de ruta aplicados a los componentes en la lista de materiales de producción.  
 
 El consumo tiene lugar cuando se inicia la operación con el mismo código de conexión de ruta. Se entiende que se ha iniciado cuando se registra alguna actividad en el diario de salida relativa a la operación. La actividad podría ser simplemente la introducción de un tiempo de preparación.  
 
@@ -81,7 +80,7 @@ La cantidad de baja es la cantidad por montaje indicada en la lista de materiale
 ### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Registro automático - Baja hacia atrás de toda la orden  
 En este método no se tienen en cuenta los códigos de conexión de ruta.  
 
-No se selecciona ningún componente hasta que el estado de la orden de producción lanzada se cambia a *Terminada*. La cantidad de consumo es la cantidad por montaje indicada en la lista de materiales de producción, multiplicada por el número de productos principales que se han terminado y agregado a las existencias.  
+No se selecciona ningún componente hasta que el estado de la orden de producción lanzada se cambia a *Terminada*. La cantidad de consumo es la cantidad por ensamblado indicada en la lista de materiales de producción, multiplicada por el número de productos principales que se han terminado y agregado al inventario.  
 
 Efectuar la baja retroactiva de toda la orden de producción requiere la misma configuración que la baja hacia adelante: el método de creación de informes se debe establecer en hacia atrás en la tarjeta de producto para todos los productos de la lista de materiales principal. Además, todos los códigos de conexión de ruta se deben eliminar de la lista de materiales de producción. 
 

@@ -2,7 +2,6 @@
 title: 'Detalles de diseño: Registro inventario | Documentos de Microsoft'
 description: Cada transacción de inventario, como una remisión de compra o una remisión de venta, registra dos movimientos de distintos tipos.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: d97b0fe65a610c4b0a9dab694678afdf4631a514
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: edff39ccb01cc7da7e8a0387a4737088b0be231d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436937"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138659"
 ---
 # <a name="design-details-inventory-posting"></a>Detalles de diseño: Registro de inventario
 
@@ -23,10 +22,10 @@ Cada transacción de inventario, como una remisión de compra o una remisión de
 
 |Tipo movimiento|Descripción|  
 |----------|-----------|  
-|Cantidad|Refleja el cambio de la cantidad de existencias. Esta información se almacena en los movimientos de producto.<br /><br /> Acompañado por entradas de solicitud de productos.|  
+|Cantidad|Refleja el cambio de la cantidad de inventario. Esta información se almacena en los movimientos de producto.<br /><br /> Acompañado por entradas de solicitud de productos.|  
 |Valor|Refleja el cambio del valor de inventario. Esta información se almacena en los movimientos de valoración.<br /><br /> Puede haber uno o más movimientos de valor por cada movimiento de producto o cada movimiento de capacidad.<br /><br /> Para obtener información acerca de los movimientos de valores de capacidad relacionados con el uso de los recursos de producción o de ensamblado, consulte [Detalles de diseño: Registro de órdenes de producción](design-details-production-order-posting.md).|  
 
- En relación con registros de cantidad, hay movimientos de liquidación de productos para vincular la entrada de existencias con la salida de existencias. Esto permite el motor de valoración desvíe los costos de las entradas a las salidas relacionadas, y viceversa. Para obtener más información, consulte [Detalles de diseño: Liquidación de productos](design-details-item-application.md).  
+ En relación con los registros de cantidad, hay movimientos de liquidación de productos para vincular la entrada de inventario con la salida de inventario. Esto permite el motor de valoración desvíe los costos de las entradas a las salidas relacionadas, y viceversa. Para obtener más información, consulte [Detalles de diseño: Liquidación de productos](design-details-item-application.md).  
 
  Los movimientos de producto, los movimientos de valoración y los movimientos de liquidación de producto se crean como resultado del registro de una línea del diario de productos, ya sea indirectamente mediante el registro de una línea de pedido o directamente en la página Diario productos.  
 

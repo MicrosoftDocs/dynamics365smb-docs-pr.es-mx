@@ -2,7 +2,6 @@
 title: Cómo planificar los movimientos de almacén en la hoja de trabajo | Documentos de Microsoft
 description: Planifique los movimientos en la hoja de trabajo con una función de reposición de ubicación o manualmente mediante la planificación de las líneas que desea crear como instrucciones de movimiento.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e779bb1d2916c031dea66a52ed7b3b9ccc006aee
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 59b81f7cc357c46f0b929dbdde4bf45c230975f7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438168"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139116"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planificar movimientos de almacén en hojas de trabajo
 Planifique los movimientos en la hoja de trabajo con una función de reposición de ubicación o manualmente mediante la planificación de las líneas que desea crear como instrucciones de movimiento.  
@@ -49,7 +48,7 @@ También puede utilizar la hoja de trabajo de movimiento para planificar otros m
 3.  Rellene los campos correspondientes de la página de solicitud del proceso. Por ejemplo, si desea ver el contenido de todas las ubicaciones en una determinada zona del almacén, rellene el campo **Cód. zona**. Si desea recuperar líneas de cada ubicación que contenga un producto determinado, rellene el campo **Nº producto**.  
 
     > [!NOTE]  
-    >  No puede mover manualmente productos dentro o fuera de una ubicación de tipo RECEPCIÓN, porque los productos que están en una ubicación de tipo RECEPCIÓN deben ubicarse antes de que formen parte de las existencias disponibles.  
+    >  No puede mover manualmente productos dentro o fuera de una ubicación de tipo RECEPCIÓN, porque los productos que están en una ubicación de tipo RECEPCIÓN deben almacenarse antes de que formen parte del inventario disponible.  
 
 4.  Si recupera muchas líneas, seleccione **Ordenar** para seleccionar un método de ordenación que determine el orden en el que aparecerán las líneas en la hoja de trabajo y, a continuación, haga clic en **Aceptar**.  
 
