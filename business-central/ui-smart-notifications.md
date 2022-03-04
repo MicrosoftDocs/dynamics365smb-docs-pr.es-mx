@@ -1,24 +1,24 @@
 ---
-title: Trabajo con notificaciones inteligentes y especificar cuándo aparecen | Documentos de Microsoft
+title: Trabajo con notificaciones inteligentes y especificar cuándo aparecen
 description: Puede recibir notificaciones que le informen sobre los cambios de estado o los eventos, por ejemplo, un saldo pendiente o inventario bajo.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.author: bholtorf
-ms.openlocfilehash: 3fbf2905f20f1f19fc3bd6fb315e63f9944528b9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 53a1852ca3c957b4b2cf0a2c23652b616bd383cb
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439988"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334634"
 ---
 # <a name="manage-notifications"></a>Administrar notificaciones
 
-[!INCLUDE[prod_short](includes/prod_short.md)] le puede ayudar a trabajar de una forma más inteligente con las notificaciones que le envía sobre determinados eventos o cambios de estado, cuando va a facturar a un cliente que tiene un saldo vencido o cuando las existencias disponibles son inferiores a la cantidad que va a vender, por ejemplo. Estas notificaciones se muestran como sugerencias discretas en el contexto de la tarea que está llevando acabo, y puede elegir si las ignora o lee más detalles acerca del problema.  
+[!INCLUDE[prod_short](includes/prod_short.md)] puede ayudarlo a trabajar de una forma más inteligente con las notificaciones que le envía sobre determinados eventos o cambios de estado, cuando va a facturar a un cliente que tiene un saldo vencido o cuando el inventario disponible es inferior a la cantidad que va a vender, por ejemplo. Estas notificaciones se muestran como sugerencias discretas en el contexto de la tarea que está llevando acabo, y puede elegir si las ignora o lee más detalles acerca del problema.  
 
 Si elige ver los detalles de una notificación, puede intentar resolver el problema como, por ejemplo, poniéndose en contacto con el cliente, comprando más artículos para el inventario, etc. Puede decidir qué hacer y [!INCLUDE[prod_short](includes/prod_short.md)] le proporciona consejos y recomendaciones.  
 

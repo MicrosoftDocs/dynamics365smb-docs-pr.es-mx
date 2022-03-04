@@ -2,7 +2,6 @@
 title: Mover componentes a un área de operaciones en configuraciones básicas de almacén
 description: Si el artículo que procesa las operaciones tiene lugar en su ubicación de almacén, puede tener que mover los artículos entre las ubicaciones internas para responder a los documentos de origen interno.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e8ccd03e24c80e1cd7ac2fe39d272599af7f72fe
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1059e6c5bf0a308382951fd19606dbaf0ef14425
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444166"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141962"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Mover componentes a un área de operaciones en configuraciones básicas de almacén
 Si el artículo que procesa las operaciones tiene lugar en su ubicación de almacén, puede tener que mover los artículos entre las ubicaciones internas para responder a los documentos de origen interno, como producción, ensamblado o pedidos de servicio en la ubicación.  
@@ -28,7 +27,7 @@ En configuraciones avanzadas de almacén, que son los almacenes que utilizan el 
 En configuraciones de almacén básico, es decir en ubicaciones que utilizan el campo de instalación **Ubicac. obligatoria** y posiblemente los campos de configuración **Picking requerido**, puede registrar los movimientos de los artículos para áreas de operación internas basándose en documentos de origen de las siguientes formas:  
 
 -   Con la página **Movimiento inventario**.  
--   Con la página **Picking existencias**.  
+-   Con la página **Picking de inventario**.  
 
 > [!NOTE]  
 >  Los picking de inventario también registran los movimientos de producto negativos como consumo y sólo se utilizan para los componentes de producción. Para obtener más información, consulte la página Picking inventario.  

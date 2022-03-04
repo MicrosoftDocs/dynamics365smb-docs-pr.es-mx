@@ -2,7 +2,6 @@
 title: 'Detalles de diseño: Registro de órdenes de producción | Documentos de Microsoft'
 description: Al igual que el registro de pedido de ensamblado, se convierten los componentes consumidos y el tiempo de máquina usado, y se envían como el producto fabricado cuando finaliza la orden de producción.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 21dfc90e25c33c26bc739ff32274d0a5088a6e2f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442371"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146577"
 ---
 # <a name="design-details-production-order-posting"></a>Detalles de diseño: Registro de órdenes de producción
 Al igual que el registro de pedido de ensamblado, se convierten los componentes consumidos y el tiempo de máquina usado, y se envían como el producto fabricado cuando finaliza la orden de producción. Para obtener más información, consulte [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md). No obstante, el flujo del costo para los pedidos de ensamblado es menos complejo, especialmente porque el registro de costo de ensamblado solo se produce una vez, y por tanto que no genera un inventario de trabajo en curso.
@@ -33,7 +32,7 @@ Por lo tanto, aparte de las cuentas de inventario normales, una empresa de fabri
 |Cta. inventario|Descripción|  
 |-----------------------|---------------------------------------|  
 |**Cuenta de materias primas**|Incluye el costo de materias primas compradas pero aún no transferidas a producción. El saldo de la cuenta de materias primas indica el costo de las materias primas disponibles.<br /><br /> Cuando las materias primas se trasladan al departamento de producción, el costo de los materiales se transfiere de la cuenta de materias primas a la cuenta de trabajo en curso.|  
-|**Cuenta de trabajo en curso (WIP)**|Acumula los costes que se contraen durante la producción en el periodo contable. En la cuenta de trabajo en curso se adeuda el costo de las materias primas que se transfieren desde el almacén de materias primas, el costo de la mano de obra directa y los costos generales de fabricación que se deriven.<br /><br /> En la cuenta del trabajo en curso se carga el costo de fabricación total de las unidades que se han completado en la fábrica y se han transferido al almacén de productos terminados.|  
+|**Cuenta de trabajo en curso (WIP)**|Acumula los costes que se contraen durante la producción en el periodo contable. En la cuenta de trabajo en curso se adeuda el costo de las materias primas que se transfieren desde el almacén de materias primas, el costo de la mano de obra directa y los costos generales de fabricación que se deriven.<br /><br /> En la cuenta del trabajo en curso se acredita el costo de fabricación total de las unidades que se han completado en la fábrica y se han transferido al almacén de productos terminados.|  
 |**Cuenta de productos terminados**|Esta cuenta incluye el costo total de fabricación de las unidades que están completadas pero aún no se han vendido. En el momento de la venta, el costo de las unidades vendidas se transfiere de la cuenta Costo de productos vendidos.|  
 
 El valor de inventario se calcula mediante el seguimiento de los costos de todas las entradas y salidas, tal como se expresa mediante la ecuación siguiente:  
@@ -49,7 +48,7 @@ Dependiendo del tipo de inventario, los aumentos y las disminuciones se represen
 |**Inventario de productos terminados**|Salida de productos finales (costo de los productos fabricados)|-   Ventas (costo de productos vendidos)<br />-   Salida negativa|  
 |**Inventario de materias primas**|-   Compras netas de material<br />-   Salida de subensamblados<br />-   Consumo negativo|Consumo de material|  
 
-Los valores de entradas y salidas de existencias se registran en los distintos tipos de inventario fabricado de la misma forma que para el inventario comprado. Cada vez que se produzca una entrada o una salida de existencias se crea un movimiento de producto y un movimiento de contabilidad correspondiente para el importe. Para obtener más información, consulte [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md).  
+Los valores de entradas y salidas de existencias se registran en los distintos tipos de inventario fabricado de la misma forma que para el inventario comprado. Cada vez que se produzca una entrada o una salida de inventario se crea un movimiento contable de producto y un movimiento de contabilidad correspondiente para el importe. Para obtener más información, consulte [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md).  
 
 Aunque los valores de las transacciones relacionadas con productos comprados se registren solo como movimientos de producto con las entradas de los valores relacionados, las transacciones relacionadas con los productos fabricados se registran como movimientos de capacidad con las entradas de los valores relacionados, además de en los movimientos de producto.  
 
@@ -77,7 +76,7 @@ Se puede asociar una entrada de valor que describa el valor de inventario WIP co
 Para obtener más información acerca de cómo se registran costos de producción y ensamblado en la contabilidad, consulte [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md).  
 
 ## <a name="capacity-posting"></a>Registro de capacidad  
-El registro de la salida de la última la línea de ruta de la orden de producción da como resultado un movimiento de capacidad para el producto final, además de su entrada de existencias.  
+El registro de la salida de la última la línea de ruta de la orden de producción da como resultado un movimiento contable de capacidad para el producto final, además de su entrada de inventario.  
 
  El movimiento de capacidad es un registro de tiempo que se ha dedicado para producir el producto. El movimiento de valoración relacionado describe el aumento del valor de inventario del trabajo en curso, que es el valor del costo de conversión. Para obtener más información, consulte "Desde los movimientos de capacidad” en [Detalles de diseño: cuentas de contabilidad](design-details-accounts-in-the-general-ledger.md)”.  
 

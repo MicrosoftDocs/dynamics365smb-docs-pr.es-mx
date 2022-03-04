@@ -2,7 +2,6 @@
 title: P+F de Teams
 description: Obtenga respuestas a algunas preguntas típicas sobre cómo trabajar con Teams y Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: cd53825ced18cafab27571671a203cda82d3dcc9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 34c669f955bebf84149959182bb1ce8bdeb139a0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587876"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147503"
 ---
 # <a name="teams-faq"></a>P+F de Teams
 
@@ -188,7 +187,7 @@ En la ventana de detalles de un contacto, busque la acción **Crear interacción
 
 ### <a name="can-i-call-a-contact-from-the-prod_shortmd-app-for-teams"></a>¿Puedo llamar a un contacto desde la aplicación de [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams?
 
-[!INCLUDE [prod_short.md](includes/prod_short.md)] tiene una integración limitada con las capacidades de llamada de Teams. No es posible iniciar instantáneamente una llamada VOIP desde la ficha de contacto o la ventana de detalles de contacto. Sin embargo, cuando ve los detalles de contacto en la aplicación de escritorio de Teams, puede seleccionar el campo de número de teléfono para marcar ese número si Teams está configurado como su aplicación de marcación predeterminada en su dispositivo. Para marcar números de teléfonos fijos o celulares mediante PSTN, el sistema telefónico tradicional, Teams requiere que tenga la aplicación Microsoft 365 Business Voice. Para obtener más información, consulte [¿Qué es Microsoft 365 Business Voice?](/MicrosoftTeams/business-voice/whats-business-voice).
+[!INCLUDE [prod_short.md](includes/prod_short.md)] tiene una integración limitada con las capacidades de llamada de Teams. No es posible iniciar instantáneamente una llamada VOIP desde la ficha de contacto o la ventana de detalles de contacto. Sin embargo, cuando ve los detalles de contacto en la aplicación de escritorio de Teams, puede seleccionar el campo de número de teléfono para marcar ese número si Teams está configurado como su aplicación de marcación predeterminada en su dispositivo. Para marcar números de teléfonos fijos o móviles mediante PSTN, el sistema telefónico tradicional, Teams requiere que tenga la aplicación Microsoft 365 Business Voice. Para obtener más información, consulte [¿Qué es Microsoft 365 Business Voice?](/MicrosoftTeams/business-voice/whats-business-voice).
 
 ### <a name="how-do-i-view-recent-documents-for-a-customer-or-vendor"></a>¿Cómo veo los documentos recientes de un cliente o proveedor?
 

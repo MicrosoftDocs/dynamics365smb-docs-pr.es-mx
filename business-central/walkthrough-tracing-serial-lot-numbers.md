@@ -2,7 +2,6 @@
 title: 'Tutorial: seguimiento de números de serie/lote'
 description: Este tema describe las acciones necesarias para evitar la venta de un producto defectuoso y también cómo rastrear y recuperar productos cuando sea necesario.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: eff79c853e5976ce85705b790542854e0e2a6ebc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: aff1012c0a1b8ec409c14e0481c73c4fb51fde18
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445112"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144500"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Tutorial: seguimiento de números de serie/lote
 
@@ -277,7 +276,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     El controlador de calidad informa inmediatamente al departamento de ventas para que pueda iniciar la retirada de la bicicleta de carreras defectuosa al cliente, GDE Distribución S.A.  
 
-    Al mismo tiempo, puede ver a partir de las tres últimas líneas de seguimiento que otros dos productos, SN3 y SN4, se han producido basándose en cuadros de bicicletas de LOT1. Toma medidas para bloquear los productos finales en existencias.  
+    Al mismo tiempo, puede ver a partir de las tres últimas líneas de seguimiento que otros dos productos, SN3 y SN4, se han producido basándose en cuadros de bicicletas de LOT1. Toma medidas para bloquear los productos finales en inventario.  
 
     De este modo finaliza la segunda tarea de gestión de defectos mediante la página **Seguimiento productos**. Dado que la página **Seguimiento de productos** se basa únicamente en los movimientos registrados, el controlador de calidad debe continuar hasta la página **Buscar movimientos** para asegurarse de que LOT1 no se utiliza en documentos no registrados.  
 

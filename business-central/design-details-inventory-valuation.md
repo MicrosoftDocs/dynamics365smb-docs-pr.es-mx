@@ -2,7 +2,6 @@
 title: 'Detalles de diseño: Valuación de Inventarios | Documentos de Microsoft'
 description: La valuación de inventarios es la determinación del costo de un artículo de inventario.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 8d68b2c5f0a1026daeca4f872551cbddcd95b047
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a4877cf45e4cbf035e2914b72e10f4d7a4102e59
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215064"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145873"
 ---
 # <a name="design-details-inventory-valuation"></a>Detalles de diseño: Valuación de Inventarios
 La valuación de inventarios es la determinación del costo que se asigna a un producto de inventario, tal como expresa la ecuación siguiente.  
@@ -24,10 +23,10 @@ Inventario final = inventario inicial + compras netas – costo de bienes vendid
 
 El cálculo de valuación de inventarios usa el campo **Importe costo (real)** de los movimientos de valuación del producto. Los movimientos se clasifican según el tipo de movimiento correspondiente a los componentes de costo, el costo directo, el costo indirecto, la desviación, la revalorización y el redondeo. Para obtener más información, consulte [Detalles de diseño: Componentes de costo](design-details-cost-components.md).  
 
-Las entradas se aplican una respecto a otra, por liquidación fija o según el supuesto de flujo de costo general definido por el método de costo. Se puede aplicar un movimiento de salida de existencias a varios movimientos de entrada con distintas fechas de registro y, posiblemente, distintos costos. Para obtener más información, consulte [Detalles de diseño: Liquidación de productos](design-details-item-application.md). Por lo tanto, el cálculo del valor de inventario para una fecha determinada se basa en la suma de movimientos de valoración positivos y negativos.  
+Las entradas se aplican una respecto a otra, por liquidación fija o según el supuesto de flujo de costo general definido por el método de costo. Se puede aplicar un movimiento de salida de inventario a varios movimientos de entrada con distintas fechas de registro y, posiblemente, distintos costos. Para obtener más información, consulte [Detalles de diseño: Liquidación de productos](design-details-item-application.md). Por lo tanto, el cálculo del valor de inventario para una fecha determinada se basa en la suma de movimientos de valoración positivos y negativos.  
 
 ## <a name="inventory-valuation-report"></a>Informe de valuación de inventarios  
-Para calcular el valor de inventario en el informe **Valuación de Inventarios**, se comienza con el cálculo del valor del inventario del producto en una fecha inicial determinada. Después agrega valor de las entradas de existencias y resta el valor de las salidas de existencias hasta una fecha final determinada. El resultado final es el valor de inventario en la fecha final. El informe calcula estos valores mediante la suma de los valores del campo **Importe costo (real)** en los movimientos de valoración, usando las fechas de registro como filtros.  
+Para calcular el valor de inventario en el informe **Valuación de Inventarios**, se comienza con el cálculo del valor del inventario del producto en una fecha inicial determinada. Después suma el valor de las entradas de inventario y resta el valor de las salidas de inventario hasta una fecha final determinada. El resultado final es el valor de inventario en la fecha final. El informe calcula estos valores mediante la suma de los valores del campo **Importe costo (real)** en los movimientos de valoración, usando las fechas de registro como filtros.  
 
 El informe impreso siempre muestra los importes reales, es decir, el costo de los movimientos que se han registrado como facturados. Si activa el campo Incluir costo esperado de la ficha desplegable Opciones, el informe impreso también incluirá el costo esperado de los movimientos que se hayan registrado como recibidos o enviados.  
 

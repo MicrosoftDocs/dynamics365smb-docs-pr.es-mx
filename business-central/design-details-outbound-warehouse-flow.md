@@ -2,7 +2,6 @@
 title: 'Detalles de diseño: Flujo de salida del almacén'
 description: Este tema trata sobre la secuencia del flujo de almacén de salida desde los documentos de origen liberados hasta los artículos listos para enviar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 985ef683426c2de2e917b3c3f8d860115d462d83
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 282c6533d7ac8b769c1ec74c42d4808ebc5da380
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442396"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139714"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Detalles de diseño: Flujo de salida del almacén
 
@@ -73,7 +72,7 @@ Además, existen los siguientes documentos de origen internos que funcionan como
 
 ### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Registrar selección de inventario o Registrar movimiento de inventario
 
- En cada línea de los productos en los que se ha realizado el picking o se han trasladado, parcial o totalmente, el empleado del almacén rellena el campo **Cantidad** y, a continuación, registra el picking de existencias o el movimiento de inventario. Los documentos de origen relacionados con el picking de existencias se registran como enviados o consumidos. No se registran los documentos de origen relacionados con los movimientos de inventario.  
+ En cada línea de los productos en los que se ha realizado el picking o se han trasladado, parcial o totalmente, el empleado del almacén rellena el campo **Cantidad** y, a continuación, registra el picking de existencias o el movimiento de inventario. Los documentos de origen relacionados con el picking de inventario se registran como enviados o consumidos. No se registran los documentos de origen relacionados con los movimientos de inventario.  
 
  En el caso de selecciones de inventario, se crean movimientos de producto negativos y movimientos de almacén, así como se elimina la solicitud de selección si se ha gestionado íntegramente. Por ejemplo, se actualiza el campo **Cantidad enviada** en la línea de salida del documento de origen. Se crea un documento de envío registrado que refleja el pedido de venta, por ejemplo, y los productos enviados.  
 

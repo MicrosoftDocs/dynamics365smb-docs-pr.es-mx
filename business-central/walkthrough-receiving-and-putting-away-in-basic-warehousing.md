@@ -2,7 +2,6 @@
 title: 'Tutorial: recepción y ubicación en la configuración del almacenamiento básico'
 description: En Business Central, los procesos de entrada para la recepción y la ubicación se pueden realizar de cuatro maneras, en función del nivel de complejidad del almacén.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c5d3ce9b7bb02c12da8d62413c6c5722c59ee1d8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cca66a1e693e63b1d83b6d37d3f8c2957b3edf46
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439321"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144526"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Tutorial: recepción y ubicación en la configuración del almacenamiento básico
 
@@ -35,7 +34,7 @@ Para obtener más información, consulte [Detalles de diseño: Flujo de entrada 
 En el siguiente tutorial se demuestra el método B de la tabla anterior.  
 
 ## <a name="about-this-walkthrough"></a>Acerca de este tutorial  
-En la configuración básica de almacén, donde el almacén está configurado para requerir proceso de ubicación, pero no de recepción, utiliza la página **Ubicación existencias** para registrar la información de ubicación y recepción de los documentos de origen entrantes. El documento de origen de entrada puede ser un pedido de compra, una devolución de ventas, un pedido de transferencia de entrada o una orden de producción con salida que está preparada para ubicarse.
+En la configuración básica de almacén, donde el almacén está configurado para requerir el procesamiento de almacenamiento, pero no de recepción, se utiliza la página **Almacenamiento de inventario** para registrar la información de almacenamiento y recepción de los documentos de origen entrantes. El documento de origen de entrada puede ser un pedido de compra, una devolución de ventas, un pedido de transferencia de entrada o una orden de producción con salida que está preparada para ubicarse.
 
 > [!NOTE]
 > A pesar de que las configuraciones se denominan **Picking requerido** y **Ubicación requerida**, todavía puede registrar recepciones y envíos directamente desde los documentos empresariales de origen en las ubicaciones donde selecciona estas casillas de verificación.  
@@ -120,7 +119,7 @@ Los pedidos de compra son el tipo más común de documento de origen de entrada.
     La entrega de los altavoces del proveedor 10000 ha llegado al almacén PLATA y Juan comienza a guardarlos en su ubicación.  
 
 ## <a name="receiving-and-putting-the-items-away"></a>Recepción y ubicación de productos  
-En la página **Ubicación existencias**, puede administrar todas las actividades de almacén de entrada para un documento de origen determinado, como un pedido de compra.  
+En la página **Almacenamiento de inventario**, puede administrar todas las actividades de almacén de entrada para un documento de origen determinado, como una orden de compra.  
 
 ### <a name="to-receive-and-put-the-items-away"></a>Recibir y establecer la ubicación de los productos  
 
@@ -133,7 +132,7 @@ En la página **Ubicación existencias**, puede administrar todas las actividade
 
 5.  Seleccione la acción **Autorrellenar el campo Cdad. para manipular**.  
 
-    También, en el campo **Cdad. a manipular**, introduzca 10 y 30 respectivamente en las dos líneas de ubicación de existencias.  
+    Como alternativa, en el campo **Cdad. a manipular**, indique 10 y 30 respectivamente en las dos líneas de almacenamiento de inventario.  
 
 6.  Seleccione la acción **Registrar**, elija la acción **Recibir** y seleccione el botón **Aceptar**.  
 

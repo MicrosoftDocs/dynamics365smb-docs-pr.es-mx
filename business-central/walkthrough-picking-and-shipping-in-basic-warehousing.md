@@ -2,7 +2,6 @@
 title: Picking y envío en la configuración del almacenamiento básico
 description: En Business Central, los procesos de salida para el picking y el envío se pueden realizar de las cuatro maneras siguientes según el nivel de complejidad del almacén.
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3eefe17d0ebe89d006c5904cb73a75975b6c38f2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 99271ea5f97bed9faca795f19a863977f8b0e6e4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439079"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148107"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Tutorial: picking y envío en la configuración del almacenamiento básico
 
@@ -139,7 +138,7 @@ En la página **Picking inventario**, puede administrar todas las actividades de
     De forma alternativa, seleccione la acción **Tomar documento origen** y, a continuación, seleccione la orden de venta.  
 5. Seleccione la acción **Autorrellenar el campo Cdad. para manipular**.  
 
-    También, en el campo **Cdad. a manipular**, introduzca 10 y 20 respectivamente en las dos líneas del picking de existencias.  
+    Como alternativa, en el campo **Cdad. a manipular**, indique 10 y 20 respectivamente en las dos líneas del picking de inventario.  
 6. Seleccione la acción **Registrar**, seleccione **Enviar** y, a continuación, el botón **Aceptar**.  
 
     Los 30 lámparas Ámsterdam ahora se registran como preparadas desde las ubicaciones S-01-0001 y S-01-0002, y se crea un movimiento contable de producto negativo para reflejar la remisión de venta registrada.  

@@ -2,7 +2,6 @@
 title: Procesamiento de devoluciones de ventas o cancelaciones
 description: Describe cómo crear una nota de crédito de venta para procesar una devolución, una cancelación o un reembolso de productos o servicios de los que ha recibido el pago.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: undo, credit memo, return
 ms.search.form: 44, 134, 143, 9302
 ms.date: 09/27/2021
 ms.author: edupont
-ms.openlocfilehash: 1f346acbfc39eeece4ef5d1eb66c3e81432e3335
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: de67c2dd217c50d4c8109c286940e76056df19c9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752490"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137118"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Procesamiento de devoluciones de ventas o cancelaciones
 
@@ -124,7 +123,7 @@ Puede agrupar recepciones de devolución de forma automática y registrar los ab
 
 Al facturar recepciones de devolución de esta forma, los pedidos de devolución a partir de los cuales se registraron las recepciones de devolución siguen existiendo, aunque se hayan recibido y facturado por completo.  
 
-Cuando las recepciones de devolución se agrupan en una nota de crédito y se registran, se crea una nota de crédito de ventas registrada para las líneas acreditadas. El campo **Cantidad facturada** de la devolución de venta de origen se actualiza en función de la cantidad facturada.  
+Cuando las recepciones de devolución se agrupan en una nota de crédito y se registran, se crea una nota de crédito de venta registrada para las líneas acreditadas. El campo **Cantidad facturada** de la devolución de venta de origen se actualiza en función de la cantidad facturada.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Eliminar pedidos de devolución de venta facturados** y, a continuación, elija el enlace relacionado.  
 2. Especifique en el campo de filtro **Nº.** que pedidos de devolución desea eliminar.  

@@ -1,23 +1,21 @@
 ---
 title: Inteligencia empresarial
 description: Business Central contiene una serie de funciones que le ayudan a recopilar, analizar y compartir datos valiosos de la empresa para la inteligencia empresarial y la toma de decisiones.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
+ms.search.form: 103, 198, 490
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 866cfa9c35e7af7abb17ba9c9171244e2107de4d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 994ae303d46e2e3d290ca297038a3bca6fc21d44
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323754"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335460"
 ---
 # <a name="business-intelligence"></a>Inteligencia empresarial
 Las empresas capturan una ingente cantidad de información con su actividad diaria. Esta información, que refleja aspectos como las cifras de ventas, las compras, los gastos operativos, los salarios de los empleados o los presupuestos de la organización, y que se conoce como inteligencia empresarial, resulta muy valiosa para los responsables de la toma de decisiones. [!INCLUDE[prod_short](includes/prod_short.md)] contiene numerosas funciones que le ayudan a recopilar, analizar y compartir la información de su empresa.
@@ -35,7 +33,7 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 |Crear nuevos esquemas de cuentas para definir los balances financieros para elaborar informes o para mostrar como gráficos.|[Preparar informes financieros con estructuras de cuentas y categorías de cuentas](bi-how-work-account-schedule.md)|
 |Analice el rendimiento financiero configurando KPI basados en estructuras de cuenta, que después publica como servicios web. Los KPI de esquema de cuentas publicados se pueden ver en un sitio Web o importar a Microsoft Excel usando los servicios Web de OData.|[Configurar y publicar servicios web de KPI basados en estructuras de cuentas](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
 |Configurar vistas de análisis para analizar datos usando dimensiones.|[Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)|
-|Crear nuevos informes de análisis para ventas, compras y existencias, así como configurar plantillas de análisis.|[Crear informes de análisis](bi-how-create-analysis-views-reports.md)|
+|Crear nuevos informes de análisis para ventas, compras e inventario, así como configurar plantillas de análisis.|[Crear informes de análisis](bi-how-create-analysis-views-reports.md)|
 |Habilite la información financiera global por medio de las organizaciones internacionales de contabilidad con el idioma estándar para informes de negocio extensible.|[Crear informes con XBRL](bi-create-reports-with-xbrl.md)|
 |Cambie la intención de acceso a la base de datos en informes, páginas de tipo API y consultas para reducir la carga y mejorar el rendimiento.|[Gestionar la intención de acceso a la base de datos](admin-data-access-intent.md)|
 

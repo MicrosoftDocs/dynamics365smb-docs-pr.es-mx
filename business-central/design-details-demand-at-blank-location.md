@@ -2,7 +2,6 @@
 title: 'Detalles de diseño: Aprovisionamiento y demanda | Documentos de Microsoft'
 description: Este tema introduce el concepto de demanda, que es el término común usado para todo tipo de demanda bruta, como un pedido de venta o una necesidad de componente de una orden de producción.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, demand, supply, inventory, planning
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 62abcd0e37a9871efd6158a898538b7c18b6b47f
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3b5f390343f74bc559cce48b2037edd125f829ca
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215339"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143645"
 ---
 # <a name="design-details-demand-at-blank-location"></a>Detalles de diseño: Demanda en almacén vacío
 Cuando un usuario crea un evento de demanda, como una línea de pedido de venta, unas veces el programa permite que especifique un código de almacén y otras no, es decir, usa un almacén en blanco.
@@ -50,7 +49,7 @@ Cuando el sistema de planificación detecta demanda en un almacén (una línea c
 
   Si no es así:
 
-  El producto se planifica según estos parámetros: Política reorden = Lote por lote, Incluir existencias = Sí, todos los demás parámetros de planificación = vacíos, productos que utilizan la política de reaprovisionamiento = La orden continúa utilizando la orden, así como los demás ajustes.
+  El producto se planifica según estos parámetros: Política reorden = Lote por lote, Incluir inventario = Sí, todos los demás parámetros de planificación = vacíos, productos que utilizan la política de reaprovisionamiento = La orden continúa utilizando la orden, así como los demás ajustes.
 
 > [!NOTE]
 > La configuración de planificación excepcional que se envía como la última reacción en el paso 3 anterior se denomina en adelante "alternativa mínima". Esta configuración de planificación solo cubre la demanda exacta y se omite todos los demás parámetros de planificación.
@@ -76,10 +75,10 @@ Componentes en almacén = AZUL
 El producto se planifica en función de los parámetros de planificación de la ficha de la unidad de almacenamiento.
 
 #### <a name="case-12-demand-is-at-blue-location"></a>Caso 1.2: La demanda está en el almacén AZUL
-El producto se planifica en función de los siguientes parámetros: Política reorden = Lote por lote (la orden sigue siendo orden), Incluir existencias = Sí, todos los demás parámetros de planificación = vacíos.
+El producto se planifica en función de los siguientes parámetros: Política reorden = Lote por lote (la orden sigue siendo orden), Incluir inventario = Sí, todos los demás parámetros de planificación = vacíos.
 
 #### <a name="case-13-demand-is-at-green-location"></a>Caso 1.3: La demanda está en el almacén VERDE
-El producto se planifica en función de los siguientes parámetros: Política reorden = Lote por lote (la orden sigue siendo orden), Incluir existencias = Sí, todos los demás parámetros de planificación = vacíos.
+El producto se planifica en función de los siguientes parámetros: Política reorden = Lote por lote (la orden sigue siendo orden), Incluir inventario = Sí, todos los demás parámetros de planificación = vacíos.
 
 #### <a name="case-14-demand-is-at-blank-location"></a>Caso 1.4: La demanda está en el almacén EN BLANCO
 El producto no se planifica porque no hay definido ningún almacén en la línea de demanda.
@@ -92,7 +91,7 @@ No existe unidad de almacenamiento
 Componentes en almacén = AZUL
 
 #### <a name="case-21-demand-is-at-red-location"></a>Caso 2.1: La demanda está en el almacén ROJO
-El producto se planifica en función de los siguientes parámetros: Política reorden = Lote por lote (la orden sigue siendo orden), Incluir existencias = Sí, todos los demás parámetros de planificación = vacíos.
+El producto se planifica en función de los siguientes parámetros: Política reorden = Lote por lote (la orden sigue siendo orden), Incluir inventario = Sí, todos los demás parámetros de planificación = vacíos.
 
 #### <a name="case-22-demand-is-at-blue-location"></a>Caso 2.2: La demanda está en el almacén AZUL
 El producto se planifica en función de los parámetros de planificación de la ficha del producto.
@@ -105,13 +104,13 @@ No existe unidad de almacenamiento
 Componentes en almacén = AZUL
 
 #### <a name="case-31-demand-is-at-red-location"></a>Caso 3.1: La demanda está en el almacén ROJO
-El producto se planifica en función de los siguientes parámetros: Política reorden = Lote por lote (la orden sigue siendo orden), Incluir existencias = Sí, todos los demás parámetros de planificación = vacíos.
+El producto se planifica en función de los siguientes parámetros: Política reorden = Lote por lote (la orden sigue siendo orden), Incluir inventario = Sí, todos los demás parámetros de planificación = vacíos.
 
 #### <a name="case-32-demand-is-at-blue-location"></a>Caso 3.2: La demanda está en el almacén AZUL
 El producto se planifica en función de los parámetros de planificación de la ficha del producto.
 
 #### <a name="case-33-demand-is-at-blank-location"></a>Caso 3.3: La demanda está en el almacén EN BLANCO
-El producto se planifica en función de los siguientes parámetros: Política reorden = Lote por lote (la orden sigue siendo orden), Incluir existencias = Sí, todos los demás parámetros de planificación = vacíos.
+El producto se planifica en función de los siguientes parámetros: Política reorden = Lote por lote (la orden sigue siendo orden), Incluir inventario = Sí, todos los demás parámetros de planificación = vacíos.
 
 ### <a name="setup-4"></a>Configuración 4:
 Almacén obligatorio = No
@@ -121,7 +120,7 @@ No existe unidad de almacenamiento
 Componentes en almacén = EN BLANCO
 
 #### <a name="case-41-demand-is-at-blue-location"></a>Caso 4.1: La demanda está en el almacén AZUL
-El producto se planifica en función de los siguientes parámetros: Política reorden = Lote por lote (la orden sigue siendo orden), Incluir existencias = Sí, todos los demás parámetros de planificación = vacíos.
+El producto se planifica en función de los siguientes parámetros: Política reorden = Lote por lote (la orden sigue siendo orden), Incluir inventario = Sí, todos los demás parámetros de planificación = vacíos.
 
 #### <a name="case-42-demand-is-at-blank-location"></a>Caso 4.2: La demanda está en el almacén EN BLANCO
 El producto se planifica en función de los parámetros de planificación de la ficha del producto.

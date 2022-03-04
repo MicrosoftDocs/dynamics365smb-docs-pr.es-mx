@@ -2,20 +2,20 @@
 title: Funciones empresariales que admite Business Central
 description: Proporciona una visión general de las funciones y los departamentos empresariales que son compatibles con las áreas de aplicación, como finanzas, inventario y administración de proyectos.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8b60f8df6d40ceaf6c2c62397cb4d21f848d9aee
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: f25e6f2afbcb6f249bf3e04f35172d6678cbd113
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588362"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323121"
 ---
 # <a name="business-functionality"></a>Funciones empresariales
 
@@ -29,7 +29,7 @@ ms.locfileid: "7588362"
 |Obtengan información sobre el rendimiento de sus actividades empresariales mediante presupuestos, estructuras de cuentas y vistas de análisis.|[Inteligencia empresarial](bi.md)|
 |Administrar los procesos y la información de venta, como ofertas, pedidos, devoluciones y cuentas de cliente, y crear envíos directos.|[Ventas](sales-manage-sales.md)|
 |Administrar los procesos y la información de compra, como facturas, pedidos, devoluciones y cuentas de proveedor, y comprar productos de documentos de venta. |[Compras](purchasing-manage-purchasing.md)|
-|Registrar nuevas existencias o productos de tipo servicio, clasificar productos para facilitar la búsqueda, ajustar los niveles de existencias y llevar a cabo tareas comunes de valoración de existencias.|[Grupos contables inventario](inventory-manage-inventory.md)|
+|Registrar nuevos productos de tipo servicio o inventario, clasificar productos para facilitar la búsqueda, ajustar los niveles de inventario y llevar a cabo tareas comunes de valuación de inventario.|[Grupos contables inventario](inventory-manage-inventory.md)|
 |Crear proyectos y programar recursos para el proyecto, administrar presupuestos de proyecto, supervisar el progreso y realizar el seguimiento de las horas de máquinas y de empleados.|[Administración de proyectos](projects-manage-projects.md)|
 |Organice los activos fijos, garantice una correcta amortización periódica y realice un seguimiento de los costos de mantenimiento.|[Activos fijos](fa-manage.md)|
 |Administrar y respaldar las acciones de venta y enfocar las interacciones en clientes y contactos preferidos.|[Gestión de relaciones](marketing-relationship-management.md)|

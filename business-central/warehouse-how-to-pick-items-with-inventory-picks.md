@@ -2,7 +2,6 @@
 title: Cómo realizar picking de productos con picking de inventario
 description: Si la configuración de un almacén requiere proceso de picking pero no de envío, utilice documentos de picking de inventario para registrar la información de picking y de envío para documentos de origen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 05bd840f0e4db2f383544b99d3edc26a443f423b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b0f0bf09670620a36ee696fdc9d1483a2c33f77b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438218"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144344"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Realizar el picking de productos con picking inventario
 
@@ -57,7 +56,7 @@ Ahora que se ha creado la solicitud, el empleado del almacén puede crear un nue
 
 ## <a name="to-create-an-inventory-pick-from-the-source-document"></a>Para crear un picking de inventario desde el documento de origen
 
-1. En el documento de origen, que puede ser un pedido de ventas, una devolución de compras, un pedido de transferencia de salida o una orden de producción, elija la acción **Crear ubicac./ pick. existencias**.
+1. En el documento de origen, que puede ser una orden de venta, una orden de devolución de compra, una orden de transferencia de salida o una orden de producción, elija la acción **Crear almacenamiento/picking de inventario**.
 2. Active la casilla **Crear pick exist.**.  
 3. Elija el botón **Aceptar**. Se creará un nuevo picking de inventario.
 

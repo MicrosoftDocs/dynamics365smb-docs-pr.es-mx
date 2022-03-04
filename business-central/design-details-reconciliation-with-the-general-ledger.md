@@ -2,7 +2,6 @@
 title: 'Detalles de diseño: Conciliación con contabilidad | Documentos de Microsoft'
 description: En este tema se describe la conciliación con la contabilidad cuando registra transacciones de inventario, como pueden ser remisiones de venta, salida de producción o ajustes negativos.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: eafc3f6ac86584cbf2bab6e5a5a82639ea718fc5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f3781169dcf91eacaa8c0988a49d908f7f947f02
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442346"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145847"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Detalles de diseño: Conciliación con contabilidad
 Cuando registra transacciones del inventario, como envíos de ventas, salida de producción o ajustes negativos, se registran los cambios realizados en la cantidad y en los valores del inventario en los movimientos de contabilidad y en los movimientos de valores, respectivamente. El siguiente paso en el proceso será registrar los valores de existencias en las cuentas del inventario del módulo de contabilidad.  
@@ -30,7 +29,7 @@ Cuando ejecute el proceso **Reg. var. inventario en cont.**, se crearán los mov
 
 Las fechas de registro de los movimientos de contabilidad se establecerán en la fecha de registro del movimiento de valoración correspondiente, excepto si el movimiento de valoración se encuentra en un periodo contable cerrado. En este caso, se omite el movimiento de valoración y se debe cambiar la configuración de contabilidad o del usuario para activar el registro dentro del rango de fechas.  
 
-Cuando ejecute el proceso **Reg. var. inventario en cont.**, es posible que se produzcan errores porque falta la configuración o porque la configuración de dimensión no es compatible. Si el proceso encuentra errores relacionados con la configuración de dimensión, omitirá dichos errores y utilizará las dimensiones del movimiento de valor. Para otros errores, el trabajo por lotes no registra los movimientos de valores y muestra una lista de ellos al final del informe, en una sección llamada **Movimientos omitidos**. Para registrar dichos movimientos, deberá primeramente arreglar las causas de los errores. Para ver una lista con los errores antes de ejecutar el proceso, puede ejecutar el informe **Reg. var. ex. en cont. - Test**. Este informe muestra un listado con todos los errores encontrados durante un proceso de registro de prueba. Puede solucionar dichos errores y después ejecutar el proceso de registro de costos sin que se omita ningún movimiento.  
+Cuando ejecute el proceso **Reg. var. inventario en cont.**, es posible que se produzcan errores porque falta la configuración o porque la configuración de dimensión no es compatible. Si el proceso encuentra errores relacionados con la configuración de dimensión, omitirá dichos errores y utilizará las dimensiones del movimiento de valor. Para otros errores, el trabajo por lotes no registra los movimientos de valores y muestra una lista de ellos al final del informe, en una sección llamada **Movimientos omitidos**. Para registrar dichos movimientos, deberá primeramente arreglar las causas de los errores. Para ver una lista con los errores antes de ejecutar el proceso, puede ejecutar el informe **Reg. var. ex. en cont. - Test**. Este informe muestra un listado con todos los errores encontrados durante un proceso de registro de prueba. Puede solucionar dichos errores y después ejecutar el trabajo por lotes de registro de costos de inventario sin que se omita ningún movimiento.  
 
 ## <a name="automatic-cost-posting"></a>Variación existencias automát.  
 Para configurar que el registro de costos en contabilidad se ejecute automáticamente al registrar una transacción de inventario, seleccione la casilla **Variación existencias automát.** en la página **Configuración de inventario**. La fecha de registro del movimiento de contabilidad es la misma que la fecha de registro del movimiento de producto.  
@@ -38,7 +37,7 @@ Para configurar que el registro de costos en contabilidad se ejecute automática
 ## <a name="account-types"></a>Tipos de cuenta  
 Durante la conciliación, los valores de inventario se registran en la cuenta de inventario en la hoja de balance. El mismo importe, pero con el signo contrario, se registra en la cuenta de contrapartida correspondiente. Normalmente, la cuenta de contrapartida es una cuenta de ganancias y pérdidas. No obstante, cuando se registra un costo directo relacionado con un consumo o una salida, la cuenta de contrapartida es una cuenta de balance. El tipo del movimiento de producto y del movimiento de valoración determina en qué cuenta de contabilidad se realizará el registro.  
 
-El tipo de movimiento indica en qué cuenta de contabilidad se registrará. Se determina mediante el signo de la cantidad en el movimiento de producto o la cantidad valuada del movimiento de valoración, ya que las cantidades siempre tienen el mismo signo. Por ejemplo, un movimiento de venta con una cantidad positiva describe una salida de existencias fruto de una venta, y un movimiento de venta con una cantidad negativa describe una entrada de existencias fruto de una devolución de venta.  
+El tipo de movimiento indica en qué cuenta de contabilidad se registrará. Se determina mediante el signo de la cantidad en el movimiento de producto o la cantidad valuada del movimiento de valoración, ya que las cantidades siempre tienen el mismo signo. Por ejemplo, un movimiento de venta con una cantidad positiva describe una salida de inventario fruto de una venta, y un movimiento de venta con una cantidad negativa describe una entrada de inventario fruto de una devolución de venta.  
 
 ### <a name="example"></a>Ejemplo  
 En el ejemplo siguiente se muestra una cadena de bicicleta que se ha fabricado con eslabones comprados. En este ejemplo se muestra cómo se usan los diferentes tipos de cuenta contable en un escenario típico.  

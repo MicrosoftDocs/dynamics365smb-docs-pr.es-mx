@@ -2,7 +2,6 @@
 title: Movimientos contables pendientes de productos con inventario cero
 description: En este artículo se aborda un problema donde el nivel de inventario es cero aunque existen movimientos contables de producto pendientes.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 75cf8f2ccbf7738c753a25c98ea9c79e13b9d53d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 702fab8c5bca4cd4985e2fdd87a972e57e6169f7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445006"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143593"
 ---
 # <a name="design-details-known-item-application-issue"></a>Detalles de diseño: Problema de liquidación de producto conocido
 Este artículo aborda un problema donde el nivel de inventario es cero aunque existen movimientos de producto pendientes en [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -102,7 +101,7 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de costo.
 
  Para el ejemplo 1, identifique el problema de la siguiente forma:  
 
--   En las páginas **Notas de crédito ventas registradas** o **Histórico recep. devolución**, busque el campo **Liquid.\-de mov. prod.** para ver si se rellena el campo y en ese caso a qué movimiento del producto del artículo se liquida el albarán de devolución.  
+-   En las páginas **Nota de crédito de venta registrada** o **Recepción de devolución registrada**, busque el campo **Liquid.\-de mov. prod.** para ver si se rellena el campo y, en ese caso, a qué movimiento de producto se aplica el costo de la recepción de devolución.  
 
  Para el ejemplo 2, identifique el problema de una de las siguientes formas:  
 

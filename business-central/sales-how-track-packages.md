@@ -1,24 +1,23 @@
 ---
-title: Cómo hacer el seguimiento de los paquetes
+title: Hacer un seguimiento de los paquetes
 description: Utilice el servicio de rastreo de transportistas en Internet para rastrear paquetes y seguir el progreso de una entrega.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.search.form: 103, 142, 800, 806
+ms.search.form: 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8c05c4a86e0bf9ace996dfc879b719324dc99593
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: b5a819c1aeea44b39f7c8497420e08af3c0ae2ab
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752377"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334497"
 ---
 # <a name="track-packages"></a>Hacer un seguimiento de los paquetes
 La mayoría de los agentes de envío brindan un servicio web que le permite rastrear el estado de sus paquetes mientras están en ruta. Esa información puede ser útil en muchos procesos comerciales, por ejemplo, al ofrecer servicio al cliente. Si utiliza uno o más de estos transportistas, puede introducir cierta información básica sobre ellos y utilizar su servicio de seguimiento directamente desde las páginas Remisiones de venta registradas, Facturas de venta registradas, Notas de crédito de venta registradas y Recepción de devolución registrada. Para obtener más información, vea [Configurar transportistas](sales-how-to-set-up-shipping-agents.md). 
 
-El siguiente procedimiento muestra cómo rastrear un paquete desde un remisiones de venta registradas, pero se aplican los mismos pasos para habilitar el seguimiento del paquete desde las páginas Factura de ventas registradas, Nota de crédito de venta registrado y Recepción de devolución registrada.  
+El siguiente procedimiento muestra cómo realizar el seguimiento de un paquete desde una remisión de venta registrada, pero se aplican los mismos pasos para habilitar el seguimiento del paquete desde las páginas Factura de venta registrada, Nota de crédito de venta registrada y Recepción de devolución registrada.  
 
 ## <a name="to-track-a-package"></a>Para hacer el seguimiento de un paquete
 

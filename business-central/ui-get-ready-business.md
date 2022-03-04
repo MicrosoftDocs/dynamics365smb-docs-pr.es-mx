@@ -2,7 +2,6 @@
 title: Preparación para hacer negocios
 description: Describe las guías de configuración asistida, los vídeos, los temas de ayuda y las páginas que se usan para empezar a realizar operaciones empresariales en Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: ba9039d637dcdee7f42302d1f1260b1224414677
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: b75381cd5153294ec65878c3e6726b9a3e4821de
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589143"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335043"
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparación para hacer negocios
 
@@ -72,7 +71,7 @@ En **Configuración de la empresa** puede ver y editar información de configura
 
 Si necesita agregar más usuarios, se realiza de centro de administración de Microsoft 365. Para obtener más información, vea [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md).
 
-Cuando los usuarios se crean en Microsoft 365, se pueden importar en la página **Usuarios** mediante la acción **Obtener actualizaciones de Office 365**. Después podrá continuar con la asignación de permisos a usuarios y la organización en grupos de usuarios. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).  
+Cuando se crean usuarios en Microsoft 365, se pueden importar en la página **Usuarios** mediante la acción **Obtener actualizaciones de Office 365**. Después podrá continuar con la asignación de permisos a usuarios y la organización en grupos de usuarios. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).  
 
 ## <a name="product-help"></a>Ayuda de productos
 
@@ -94,6 +93,7 @@ Según sus datos migrados, ahora puede empezar a crear nuevos documentos de comp
 [Buscar en el panel de ayuda](product-help-and-support.md#search-in-the-help-pane)  
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
 [Sitio de Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Migrar datos](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

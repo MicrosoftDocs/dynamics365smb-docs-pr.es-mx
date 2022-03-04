@@ -2,7 +2,6 @@
 title: Recibir productos
 description: En este tema se ofrece una descripción general de las diferentes formas de recibir productos en un almacén, por ejemplo, productos con una orden de compra o productos con una recepción de almacén.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 577bbd63a24ba50844c6e76a3b64845f4fefc62a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 2c5a0ebaad14e33ec15df9f6483a397715a167a4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973269"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144448"
 ---
 # <a name="receive-items"></a>Recibir productos
 
@@ -77,7 +76,7 @@ A continuación se describe cómo recibir productos con un pedido de compra. Los
 
 5. Registre la recepción de almacén. Los campos de cantidad se actualizan en el documento de origen y se registran los productos como parte del inventario de la empresa.  
 
-Si utiliza ubicación y picking directos, las líneas de recepción se envían a la función de ubicación de almacén. No es posible hacer picking de los productos, aunque se hayan recibido, hasta que se ubiquen. Los productos recibidos se identifican como existencias disponibles solo cuando se haya registrado la ubicación.  
+Si utiliza ubicación y picking directos, las líneas de recepción se envían a la función de ubicación de almacén. No es posible hacer picking de los productos, aunque se hayan recibido, hasta que se ubiquen. Los productos recibidos se identifican como inventario disponible solo cuando se haya registrado el almacenamiento.  
 
 Si no utiliza ubicación de almacén, pero sí utiliza ubicaciones, se registra la ubicación de los productos en la ubicación especificada en la línea del documento de origen.  
 

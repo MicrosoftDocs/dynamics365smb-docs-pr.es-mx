@@ -2,7 +2,6 @@
 title: Administrar activos fijos (contiene video)
 description: Obtenga información sobre la funcionalidad de activos fijos y obtenga un resumen de cómo trabajar con activos fijos ya administrarlos.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5634, 5649, 5622, 5650
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: e7b40c1d4809193a22367157fd69cacbd9b27105
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 9159e6036da04001b28c261783c92103204907f9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029390"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145769"
 ---
 # <a name="managing-fixed-assets"></a>Administración de activos fijos
 
