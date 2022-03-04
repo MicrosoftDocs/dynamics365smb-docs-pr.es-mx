@@ -2,7 +2,6 @@
 title: 'Detalles de diseño: gestión de políticas de reorden'
 description: Este artículo ofrece una descripción general de las tareas que forman parte de la gestión de las políticas de reorden y la definición de la política de reorden en la planificación de suministros.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2bc1a4406b82e34db8ecbfa491341606a99dbee7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 705948d59e5ecf724f0dcaa1546485914c16fe23
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441807"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142456"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Detalles de diseño: Gestión de directivas de reorden
 Para que un producto participe en la planificación de aprovisionamiento es necesario definir una directiva de reorden. Existen las cuatro directivas de reorden siguientes:  
@@ -34,23 +33,23 @@ Un punto de reorden representa la demanda durante un plazo de entrega. Cuando el
 
 Por consiguiente, el sistema de planificación sugerirá una orden de suministros de programación anticipada en el momento en el que el inventario proyectado quede por debajo del punto de reorden.  
 
-El punto de reorden refleja un determinado nivel de inventario. No obstante, los niveles de inventario pueden variar significativamente durante el ciclo y, por tanto, el sistema de planificación debe supervisar constantemente las existencias disponibles proyectadas.
+El punto de reorden refleja un determinado nivel de inventario. No obstante, los niveles de inventario pueden variar significativamente durante el ciclo y, por tanto, el sistema de planificación debe supervisar constantemente el inventario disponible proyectado.
 
 ## <a name="monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Supervisión del nivel de inventario proyectado y el punto de reorden
 El inventario es un tipo de aprovisionamiento, pero para planificación del inventario, el sistema de planificación diferencia entre dos niveles de inventario:  
 
 * Inventario proyectado  
-* Existencias disponibles proyectadas  
+* Inventario disponible proyectado  
 
 ### <a name="projected-inventory"></a>Inventario proyectado  
 Inicialmente, el inventario proyectado es la cantidad de inventario bruto, incluidos aprovisionamientos y demandas en el pasado a pesar de no estar registrados, al iniciar el proceso de planificación. En el futuro, este se convertirá en un nivel inventario proyectado desplazado que se mantiene a través de cantidades en bruto del aprovisionamiento y la demanda futuros, porque se introducen a lo largo de la línea de tiempo (tanto reservados como asignados de otra forma).  
 
 El sistema de planificación usa el inventario proyectado para supervisar el punto de reorden y para determinar la cantidad de reorden al usar la directiva de reorden de cantidad máxima.  
 
-### <a name="projected-available-inventory"></a>Existencias disponibles proyectadas  
-Las existencias disponibles proyectadas es la parte del inventario proyectado que en un momento determinado está disponible para satisfacer la demanda. El motor de planificación usa las existencias disponibles proyectadas al supervisar el nivel de inventario de seguridad.  
+### <a name="projected-available-inventory"></a>Inventario disponible proyectado  
+El inventario disponible proyectado es la parte del inventario proyectado que en un momento determinado está disponible para satisfacer la demanda. El motor de planificación usa el inventario disponible proyectado cuando supervisa el nivel de inventario de seguridad.  
 
-El sistema de planificación usa las existencias disponibles proyectadas para supervisar el nivel del inventario de seguridad, ya que el inventario de seguridad siempre debe estar disponible para atender la demanda inesperada.  
+El sistema de planificación usa el inventario disponible proyectado para supervisar el nivel del inventario de seguridad, ya que el inventario de seguridad siempre debe estar disponible para atender la demanda inesperada.  
 
 ### <a name="time-buckets"></a>Ciclos  
 Tener un estrecho control del inventario proyectado es crucial para detectar cuándo se está alcanzando o cruzando el punto de pedido y calcular la cantidad correcta del pedido cuando se utiliza la Política reorden de cantidad máxima.  
@@ -187,13 +186,13 @@ En este ejemplo, un cliente cambia un pedido de venta de 70 a 40 piezas entre do
 ## <a name="handling-projected-negative-inventory"></a>Gestión de inventario negativo proyectado
 El punto de reorden expresa la demanda prevista durante el plazo del producto. Cuando se supera el punto de reorden, ha llegado el momento de pedir más. Pero el inventario proyectado debe ser lo suficientemente grande como para satisfacer la demanda hasta que se reciba el nuevo pedido. Mientras tanto, el stock de seguridad debe satisfacer las fluctuaciones en la demanda hasta un nivel de servicio objetivo.  
 
- Por tanto, el sistema de planificación considera una emergencia el que una demanda futura no se pueda atender desde el inventario proyectado, o dicho de otro modo, que el inventario proyectado quede en negativo. El sistema se ocupa de dicha excepción mediante la sugerencia de un nuevo orden de suministro para satisfacer la parte de la demanda que no se puede satisfacer mediante las existencias u otro suministro. El tamaño de pedido de reorden de suministro no tendrá en cuenta el inventario máximo o la cantidad de reorden Tampoco tendrá en cuenta los modificadores Cantidad máxima pedido, Cantidad mínima pedido y Múltiplos de pedido. En su lugar, reflejará la deficiencia exacta.  
+ Por tanto, el sistema de planificación considera una emergencia el que una demanda futura no se pueda atender desde el inventario proyectado, o dicho de otro modo, que el inventario proyectado quede en negativo. El sistema se ocupa de dicha excepción mediante la sugerencia de una nueva orden de suministro para satisfacer la parte de la demanda que no se puede satisfacer mediante el inventario u otro suministro. El tamaño de pedido de reorden de suministro no tendrá en cuenta el inventario máximo o la cantidad de reorden Tampoco tendrá en cuenta los modificadores Cantidad máxima pedido, Cantidad mínima pedido y Múltiplos de pedido. En su lugar, reflejará la deficiencia exacta.  
 
  La línea de planificación para este tipo orden de suministro mostrará un icono de advertencia de emergencia y, tras la búsqueda, se proporcionará información adicional para comunicar al usuario la situación.  
 
  En la ilustración siguiente, el aprovisionamiento D representa un pedido de emergencia que ajustar para inventario negativo.  
 
- ![Sugerencia de planificación de emergencia para evitar un inventario negativo.](media/nav_app_supply_planning_2_negative_inventory.png "Sugerencia de planificación de emergencia para evitar existencias negativas")  
+ ![Sugerencia de planificación de emergencia para evitar un inventario negativo.](media/nav_app_supply_planning_2_negative_inventory.png "Sugerencia de planificación de emergencia para evitar un inventario negativo")  
 
 1.  El suministro **A**, inventario proyectado inicial, está por debajo del punto de reorden.  
 2.  Se ha creado un nuevo aprovisionamiento programación de forma anticipada (**C**).  

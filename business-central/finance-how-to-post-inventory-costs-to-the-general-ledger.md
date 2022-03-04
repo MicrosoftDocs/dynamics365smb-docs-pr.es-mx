@@ -2,7 +2,6 @@
 title: Conciliar costos de inventario con la contabilidad general
 description: Al finalizar el período contable, se llevan a cabo una serie de tareas de control y auditoría de costos con el fin de generar reportes correctos y compensados del valor de inventario.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.form: 9297
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e59328df68eb4d936ea472c55a160be5fe13ecd6
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 35b9753a1d21ebfbd2970699c720b0e97ed5bcb4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971641"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142170"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Conciliar costos de inventario con la contabilidad general
 
@@ -34,12 +33,12 @@ Aunque se hayan registrado los costes de inventario automáticamente en el libro
 > [!NOTE]  
 > Cuando lo ejecute, es posible que encuentre errores porque faltan datos en la configuración o porque la configuración de dimensión no es compatible. Si el proceso encuentra errores relacionados con la configuración de dimensión, omitirá dichos errores y utilizará las dimensiones del movimiento de valor. Para el resto de errores, el proceso omitirá registrar los movimientos de valores y mostrará una lista de ellos al final del informe, en una sección llamada "Movimientos omitidos". Para registrar dichos movimientos, deberá primeramente arreglar las causas de los errores.
 
-Para ver una lista con los errores antes de ejecutar el proceso de registro, puede ejecutar el informe **Reg. var. ex. en cont. - Test**. El informe de test muestra un listado con todos los errores encontrados durante un proceso de registro de prueba. A continuación, puede solucionar dichos errores y ejecutar el proceso de registro de costos sin que se omita ningún movimiento.
+Para ver una lista con los errores antes de ejecutar el proceso de registro, puede ejecutar el informe **Reg. var. ex. en cont. - Test**. El informe de test muestra un listado con todos los errores encontrados durante un proceso de registro de prueba. A continuación, puede solucionar dichos errores y ejecutar el trabajo por lotes de registro de costos de inventario sin que se omita ningún movimiento.
 
 Si simplemente desea obtener una visión general acerca de qué valores se podrán registrar en el módulo de contabilidad sin que realmente se registren, puede ejecutar el proceso **Regis. variación inventario en Cont.** sin que se registren los valores en el módulo de contabilidad. Para ello, deberá quitar la marca de verificación del campo **Registrar** en la página de solicitud. De esta forma, cuando ejecute el trabajo por lotes, se genera un informe que muestra los valores que están preparados para ser registrados en el módulo de contabilidad, pero no se registran.
 
 ## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>Auditar la reconciliación entre la contabilidad de inventario y la contabilidad general
-La página **Invent. - Conciliación cont.** proporciona lo siguiente:
+En la página **Invent. - Conciliación cont.**, se proporciona lo siguiente:
 
 - Muestra las diferencias de conciliación al comparar los movimientos registrados en la contabilidad general y los movimientos de inventario (movimientos de valoración).
 - Muestra los importes de costos no conciliados en los movimientos de valoración del inventario como si estuvieran asignados a cuentas relacionadas con el inventario correspondiente de la contabilidad y los compara con los totales registrados en las mismas cuentas de contabilidad.
@@ -59,7 +58,7 @@ La columna **Total C/G** muestra los importes (en negrita) de cada tipo de cuent
 
 La columna **Diferencia** representa la diferencia entre el valor de los campos **Total C/G** y **Total**.
 
-En la parte superior de la página **Invent. - Conciliación cont.**, puede introducir filtros para limitar, por ejemplo, el periodo de tiempo durante el que desea visualizar la información.
+En la parte superior de la página **Invent. - Conciliación cont.**, puede indicar filtros para limitar, por ejemplo, el periodo de tiempo durante el que desea visualizar la información.
 
 Si selecciona la casilla de verificación **Mostrar advertencia**, y existen discrepancias entre los totales del inventario y los totales de contabilidad, la aplicación mostrará mensajes en el campo **Advertencia** de la matriz en los que se explican dichas discrepancias. Si selecciona el campo advertencia, la aplicación mostrará más información acerca del significado de las advertencias.
 
