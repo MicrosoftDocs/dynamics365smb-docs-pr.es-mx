@@ -1,21 +1,21 @@
 ---
-title: Preguntas frecuentes sobre Dígame
+title: Preguntas más frecuentes acerca de la opción Dígame | Documentos de Microsoft
 description: Este artículo proporciona respuestas a las preguntas que nuestros socios y clientes suelen hacer sobre la función Dígame.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/24/2021
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 13605b6188f9aa2c30a82cbb8216d8419a711d31
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 85b1f4f0b677baa5ca8a522acb1b383689f72e9e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334724"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783220"
 ---
 # <a name="tell-me-faq"></a>FAQ acerca de la función Dígame
 Este tema responde las preguntas que nuestros usuarios avanzados suelen hacer sobre la función Dígame.

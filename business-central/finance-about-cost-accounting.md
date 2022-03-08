@@ -1,20 +1,21 @@
 ---
-title: Acerca de la contabilidad de costos
-description: La contabilidad de costos puede ayudarle a conocer los costos de la dirección de una empresa. La información de contabilidad de costos se ha diseñado para analizar distintos problemas.
+title: Acerca de la contabilidad de costos | Documentos de Microsoft
+description: La contabilidad de costos puede ayudarle a conocer los costos de la dirección de una empresa.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124
-ms.date: 06/16/2021
+ms.search.keywords: ''
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 52138687b0959c80711495e4c1a8b608184ba211
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7ba956c883c567e7acc2cd625d8d5e51d94ee753
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145749"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784926"
 ---
 # <a name="about-cost-accounting"></a>Acerca de la contabilidad de costos
 La contabilidad de costos puede ayudarle a conocer los costos de la dirección de una empresa. La información de contabilidad de costos se ha diseñado para analizar:  
@@ -36,7 +37,7 @@ Contabilidad de costos tiene los siguientes componentes principales:
 
 El diagrama siguiente muestra el flujo de trabajo en contabilidad de costos.  
 
-![Resumen de la contabilidad de costos.](media/costaccountingoverview.png "CostAccountingOverview")  
+![Resumen de la contabilidad de costos](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Tipos de costo, centros de costo y objetos de costos  
 Define los tipos de costo, los centros de costo y los objetos de costo para analizar cuáles son los costos, de dónde provienen y quién debe asumirlos.  

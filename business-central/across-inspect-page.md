@@ -5,22 +5,21 @@ ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: conceptual
+ms.topic: article
+ms.service: dynamics365-business-central
 author: jswymer
 ms.author: jswymer
-ms.date: 04/01/2021
-ms.openlocfilehash: d30b93942292e2f6a5a52831725ec06aed32820c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2020
+ms.openlocfilehash: d80baed51b646b389f9dd86540cc993c212be09b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136515"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754403"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspección de páginas en Business Central
 
 La función de inspección de páginas le permite obtener detalles sobre una página, lo que le permite conocer el diseño de la página, los diferentes elementos que la componen y el origen de los datos que muestra. La inspección de páginas está especialmente diseñada para administradores, usuarios avanzados, personal de soporte y desarrolladores. Es ideal para aprender el modelo de datos detrás de una página y la resolución de problemas. Por ejemplo, si tiene un problema con una página, puede utilizar la inspección de páginas para obtener información que puede transmitir al administrador del sistema o al personal de soporte.
-
-[!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
 ## <a name="working-with-page-inspection"></a>Trabajar con la inspección de páginas
 
@@ -28,7 +27,7 @@ Puede empezar con la inspección de páginas des de la página **Ayuda y soporte
 
 El panel **Inspección de la página** se abre en el lateral. La siguiente figura ilustra el panel **Inspección de la página** en la página **Pedido de venta**.
 
-![Inspección de la página.](media/page-inspection-example.png)
+![Inspección de la página](media/page-inspection-example.png)
 
 Cuando el panel **Inspección de la página** se abre por primera vez, muestra información que pertenece al objeto de la página principal.
 
@@ -47,6 +46,3 @@ Los usuarios a los que no se les conceden permisos sobre el **objeto de sistema 
 ## <a name="see-also"></a>Consulte también
 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

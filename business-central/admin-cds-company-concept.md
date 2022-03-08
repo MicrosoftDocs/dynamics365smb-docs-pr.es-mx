@@ -2,6 +2,7 @@
 title: Asignación de empresas y unidades de negocio | Microsoft Docs
 description: Las empresas son construcciones legales y comerciales, y se utilizan para proteger y visualizar datos comerciales.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +10,15 @@ ms.workload: na
 ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c1af1f571170a167d59b20d85010fdd8d70d07cd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a99ddb6153c65ab16be53b7027833de14dc4884d
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134003"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482206"
 ---
 # <a name="data-ownership-models"></a>Modelos de propiedad de datos
-
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] requiere que especifique un propietario para los datos que almacena. Para más información, consulte [Tipos de tablas](/powerapps/maker/data-platform/types-of-entities) en la documentación de Power Apps. Cuando configura la integración entre [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[prod_short](includes/prod_short.md)], debe elegir la propiedad **Usuario o equipo** para los registros que están sincronizados. Las acciones que se pueden realizar en estos registros se pueden controlar a nivel de usuario. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 

@@ -2,15 +2,15 @@
 title: Catálogo de aprendizaje de usuarios empresariales
 description: Encuentra todo el aprendizaje disponible para Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2021
-ms.topic: conceptual
-ms.author: margoc
-ms.openlocfilehash: fd0b839e402ff59ec5fb875d026eb5fe2202850e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 04/01/2020
+ms.topic: article
+ms.author: v-lshann
+ms.openlocfilehash: c169bde62c9ff2bf32160801d258d034d0187371
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772440"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190862"
 ---
 # <a name="business-users-learning-catalog"></a>Catálogo de aprendizaje de usuarios empresariales
 
@@ -33,7 +33,7 @@ El siguiente catálogo está organizado desde el conocimiento básico hasta domi
 | [Usar la contabilidad de costos en Microsoft Dynamics 365 Business Central](/learn/paths/use-cost-accounting-dynamics-365-business-central/)                                     | ¿Necesita utilizar la contabilidad de costos en su empresa? Esta ruta de aprendizaje puede ayudarlo a comenzar con la contabilidad de costos en Business Central. Explica la configuración de la contabilidad de costos, cómo crear datos maestros para la contabilidad de costos, cómo transferir transacciones y asignar costos a un grupo de cuentas.   | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 3 horas 16 minutos |
 | [Usar diarios en Microsoft Dynamics 365 Business Central](/learn/paths/use-journals-dynamics-365-business-central/)                                                   | ¿Necesita crear y publicar entradas de diario en Business Central? Esta ruta es para usted. La configuración de libros diario general, la creación de transacciones de diario, incluidas las transacciones periódicas, y la contabilización de transacciones se analizan en los módulos de esta ruta de aprendizaje.                  | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 2 horas 1 minuto   |
 | [Conciliar bancos en Microsoft Dynamics 365 Business Central](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)                             | ¿Desea saber cómo conciliar bancos en Business Central? La función de conciliación de banco y los diarios de conciliación se analizan en esta ruta de aprendizaje.                                                                                                                           | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 1 hora 3 minutos   |
-| [Usar varias divisas en Microsoft Dynamics 365 Business Central](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | ¿Trabaja con varias divisas? Si lo hace, esta ruta lo ayudará a comprender los pasos que debe completar para configurar y usar múltiples divisas, procesar pagos y facturas en diferentes divisas, y ajustar los tipos de cambio cuando sea necesario.                                             | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 3 horas 4 minutos  |
+| [Usar varias divisas en Microsoft Dynamics 365 Business Central](https://docs.microsoft.com/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | ¿Trabaja con varias divisas? Si lo hace, esta ruta lo ayudará a comprender los pasos que debe completar para configurar y usar múltiples divisas, procesar pagos y facturas en diferentes divisas, y ajustar los tipos de cambio cuando sea necesario.                                             | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 3 horas 4 minutos  |
 | [Crear informes financieros en Microsoft Dynamics 365 Business Central](/learn/paths/create-financial-reports-dynamics-365-business-central/)                           | ¿Es responsable de generar informes financieros desde Business Central? Esta ruta de aprendizaje analiza la creación de presupuestos y el uso de estructuras de cuentas, dimensiones y lenguaje ampliado para informes comerciales (XBRL) para generar los informes financieros que generalmente se necesitan para la mayoría de las empresas. | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 3 horas 44 minutos |
 | [Procesar actividades periódicas financieras en Microsoft Dynamics 365 Business Central](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/) | ¿Es responsable de los procesos de cierre de período y fin de año? Complete este módulo, que explica cómo enviar recordatorios y documentos de interés a los clientes. También analiza el procesamiento y la generación de informes de Intrastat y el cierre de un ejercicio.                                                     | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 3 horas 3 minutos  |
 ## <a name="trade"></a>Comercio<a name="trade"></a>
@@ -48,6 +48,3 @@ El siguiente catálogo está organizado desde el conocimiento básico hasta domi
 | [Devolver productos en Microsoft Dynamics 365 Business Central](/learn/paths/return-items-dynamics-365-business-central/)                                                   | ¿Necesita devolver productos a los proveedores y aceptar devoluciones de los clientes? Esta ruta lo ayudará a aprender cómo procesar las devoluciones.                                                                                                                                                                         | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 1 hora 25 minutos  |
 | [Reponer productos en Microsoft Dynamics 365 Business Central](/learn/paths/replenish-items-dynamics-365-business-central/)                                             | ¿Necesita reponer productos de inventario en su empresa? Esta ruta de aprendizaje le mostrará las opciones que puede usar para reponer productos de manera eficiente en Business Central.                                                                                                                                     | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 1 hora 46 minutos  |
 | [Ensamblar productos en Microsoft Dynamics 365 Business Central](/learn/paths/assemble-items-dynamics-365-business-central/)                                               | ¿Vende productos ensamblados? Esta ruta de aprendizaje proporciona la información que necesita para la administración de ensamblados y productos. También proporciona los pasos para producir productos ensamblados para almacenarlos u ordenarlos.                                                                                                                | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 2 horas 26 minutos |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

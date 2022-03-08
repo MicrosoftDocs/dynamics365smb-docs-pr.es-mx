@@ -1,26 +1,40 @@
 ---
 title: Informes y análisis financieros
-description: Consulte qué informes y análisis financieros están disponibles en la versión estándar de Business Central para que pueda realizar un seguimiento de su negocio. Utilice el informe 38 para los informes de pérdidas y ganancias (P&L).
+description: Consulte qué informes y análisis financieros están disponibles en la versión estándar de Business Central para que pueda realizar un seguimiento de su negocio.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: c31914e1c251f4cf04cd3b990c2570b51e1717f5
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: 26dbb93fe003caf140caaad07d31b85be508085b
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311220"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543156"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Informes y análisis financieros en Business Central
 
 Informes financieros en [!INCLUDE [prod_short](includes/prod_short.md)] permite a los profesionales financieros y empresariales crear, mantener, implementar y ver estados de cuenta financieros. Va más allá de las restricciones tradicionales de los informes, para ayudarle a diseñar diversos tipos de informes. [!INCLUDE [prod_short](includes/prod_short.md)] incluye diversos informes, funciones de seguimiento y herramientas que ayudan a los auditores o controladores que son responsables de informar al departamento de finanzas. Los informes financieros incluyen soporte para dimensiones, por lo que los segmentos o dimensiones de la cuenta están disponibles de inmediato. No se requieren otras herramientas ni pasos de configuración.  
 
-[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
-
 ## <a name="reports"></a>Informes
-[!INCLUDE [finance_reports](includes/finance-reports-include.md)]
+
+La siguiente tabla describe algunos de los informes clave en los informes financieros.
+
+| Informe | Id. de objeto | Description |
+|--|--|--|
+| **Balance de comprobación** | 6 | Muestra el catálogo de cuentas con los saldos y los cambios netos. Puede optar por ver un balance de comprobación de las dimensiones seleccionadas. Puede usar el informe al cierre de un periodo contable o ejercicio. |
+| **Bal. comprobación/periodo** | 38 | Muestra el saldo inicial de cada cuenta de contabilidad, los movimientos producidos durante el periodo seleccionado de mes, trimestre o año, y el saldo de cierre resultante. |
+| **Balance sumas y saldos/Ppto.** | 9 | Muestra un balance de comprobación en comparación con un presupuesto. Puede optar por ver un balance de comprobación de las dimensiones seleccionadas. Puede usar el informe al cierre de un periodo contable o ejercicio. |
+| **Balance de comprobación detallado** | 4 | Muestra un balance de comprobación detallado de las cuentas de contabilidad seleccionadas. Puede usar el informe al cierre de un periodo contable o ejercicio. Puede definir las cuentas que se van a incluir en el informe configurando filtros. |
+| **Balance de comprobación/año anterior** | 7 | Muestra un balance de comprobación con respecto a las cifras del año anterior. Puede optar por ver un balance de comprobación de las dimensiones seleccionadas. Puede usar el informe al cierre de un periodo contable o ejercicio. *Año anterior* significa el mismo periodo del año anterior. |
+| **Estructura cuentas** | 25 | Las estructuras de cuentas se pueden utilizar para ver las cuentas de contabilidad general de una manera diferente a la del catálogo de cuentas. Por ejemplo, las estructuras de cuentas se pueden utilizar para informes sobre cifras clave. |
+<!-- | **Balance** (Acc.Schedule o Excel) o **Balance de comprobación** |  |  |
+| **Estado de cuenta de flujo de caja** (estructura de cuentas) |  |  |
+| **Resumen/detalles de balance de comprobación** |  |  |
+| **Balance de ingresos** (estructura de cuentas o Excel) |  |  |
+| **Ppto** |  |  | -->
 
 ## <a name="tasks"></a>Tareas
 

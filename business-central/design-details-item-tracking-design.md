@@ -2,19 +2,20 @@
 title: 'Detalles de diseño: Diseño de seguimiento de productos'
 description: En este tema se describe el diseño detrás del seguimiento de productos en Business Central a medida que madura a través de las versiones del producto.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 06/08/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 626d22b4a45035698862c727547b332c898508af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c41b131c538337db81b30956a7871040d11f9ce3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141344"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780968"
 ---
 # <a name="design-details-item-tracking-design"></a>Detalles de diseño: Diseño de seguimiento de productos
 
@@ -26,7 +27,7 @@ Con la adición de los números de serie, de lote y de paquete, el sistema de re
 
 En el diagrama siguiente se describe el diseño de la funcionalidad de seguimiento de productos en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-![Ejemplo de flujo de seguimiento de artículos.](media/design_details_item_tracking_design.png "Ejemplo de flujo de seguimiento de artículos")  
+![Ejemplo de flujo de seguimiento de artículos](media/design_details_item_tracking_design.png "Ejemplo de flujo de seguimiento de artículos")  
 
 El objeto de registro central se ha rediseñado para controlar la subclasificación única de una línea de documento con el formato de números de serie o de lote, y se han agregado tablas de relación especiales para crear relaciones de uno a varios entre los documentos registrados y sus movimientos de producto y de valoración divididos.  
 

@@ -1,44 +1,44 @@
 ---
-title: Cómo bloquear ventas a clientes
-description: Si es necesario, puede bloquear la inclusión de un cliente en documentos de ventas y otras transacciones de ventas.
+title: Cómo bloquear ventas a productos de clientes desde el apartado de Ventas o Compras
+description: En Business Central, un producto se puede marcar como bloqueado para ventas, bloqueado para compras o bloqueado para todos los propósitos.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: fb69308a913f12a1433d2b37680f0ece1e93d3b9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: c2b0d5b15571b7e8af1ed1dbee22859f4c131aa3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140694"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316631"
 ---
 # <a name="block-customers"></a>Bloquear clientes
 Puede bloquear a un cliente, por ejemplo, por insolvencia, para que el no pueda añadirse a los documentos de ventas o para que no se puedan registrar transacciones para el cliente.
 
 Además de bloquear a un cliente, puede configurar las transacciones por cobrar para que el cliente esté en espera en conexión con los recordatorios. Para obtener más información, vea [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md).   
 
-La siguiente tabla describe las distintas opciones de bloqueo de clientes.  
+La siguiente tabla describe las distintas opciones de bloqueo.  
 
-|Opción|Description|  
+|Opción|Descripción|  
 |--------------------|------------|  
 |**En blanco**|Se permiten las transacciones de este cliente.|
 |**Envío**|No se pueden crear pedidos y envíos nuevos para este cliente. Los envíos existentes no facturados aún se pueden facturar.|  
-|**Factura**|No se pueden crear facturas, pedidos ni remisiones nuevas para este cliente. Los envíos existentes no facturados aún no se pueden facturar. Aún puede enviar recordatorios y documentos de interés al cliente.|  
-|**Todo**|No se permite ninguna transacción para este cliente, incluidos los pagos.|  
+|**Factura**|No se pueden crear facturas, pedidos ni remisiones nuevas para este cliente. Los envíos existentes no facturados aún no se pueden facturar.|  
+|**Todos**|No se permite ninguna transacción para este cliente, incluidos los pagos.|  
 
 ## <a name="to-block-a-customer"></a>Para bloquear a un cliente  
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
 2. Seleccione un cliente y, a continuación, elija la acción **Editar**.
-3. En el campo **Bloqueado**, elija qué bloquear, como se describe en la tabla anterior.
+3. Rellene el campo **Bloqueado** con una de las opciones descritas anteriormente.
 
 ## <a name="see-also"></a>Consulte también  
 [Permite registrar nuevos clientes](sales-how-register-new-customers.md)  
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

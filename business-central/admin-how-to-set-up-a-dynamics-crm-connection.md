@@ -1,23 +1,25 @@
 ---
-title: Conectar a Microsoft Dataverse (contiene vídeo)
+title: Conectar a Microsoft Dataverse
 description: Configuración de una conexión entre Business Central y Dataverse Las empresas suelen crear la conexión para integrar datos con otra aplicación empresarial de Dynamics 365.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.forms: 7200, 7201
-ms.date: 09/30/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8b5a393356f4028de8278bad3177592c8d26fe40
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a29fb1e0a8e10e91a811914a9188548149d5125a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130759"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441354"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Conectar a Microsoft Dataverse
 
-
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 Este tema describe cómo configurar una conexión entre [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Por lo general, las empresas crean la conexión para integrar y sincronizar datos con otra aplicación empresarial de Dynamics 365, como [!INCLUDE[crm_md](includes/crm_md.md)].  
 
@@ -89,7 +91,7 @@ El procedimiento siguiente describe cómo configurar la conexión manualmente en
     <!-- |Field|Description|
     |-----|-----|
     |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
-    |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field|-->
+    |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field-->|
 4. Para probar la configuración de conexión, elija **Conexión** y luego **Probar conexión**.  
 
     > [!NOTE]  
@@ -105,81 +107,19 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
-## <a name="customize-the-match-based-coupling"></a>Personalizar el emparejamiento basado en coincidencias
-
-A partir del lanzamiento de versiones 2 de 2021, puede emparejar registros en [!INCLUDE [prod_short](includes/prod_short.md)] y [!INCLUDE [cds_long_md](includes/cds_long_md.md)] basándose en los criterios de coincidencia definidos por el administrador.  
-
-El algoritmo para registros coincidentes se puede iniciar desde los siguientes lugares en [!INCLUDE [prod_short](includes/prod_short.md)]:
-
-* Lista de páginas que muestran registros sincronizados con [!INCLUDE [cds_long_md](includes/cds_long_md.md)], como las páginas Clientes y Productos.  
-
-    Seleccione varios registros y luego elija la acción **Relacionado**, elija **Dataverse**, elija **Emparejamiento** y luego **Emparejamiento basado en coincidencias**.
-
-    Cuando el proceso de emparejamiento basado en coincidencias se inicia desde una lista de datos maestros, se programará un trabajo de emparejamiento directamente después de que haya seleccionado los criterios de emparejamiento.  
-* La página **Revisión sincronización completa de Dataverse**.  
-
-    Cuando el proceso de sincronización completo detecta que tiene registros desemparejados tanto en [!INCLUDE [prod_short](includes/prod_short.md)] como en [!INCLUDE [cds_long_md](includes/cds_long_md.md)], aparece un enlace **Seleccionar criterios de emparejamiento** para la tabla de integración correspondiente.  
-
-    Puede iniciar el proceso **Ejecutar sincronización completa** desde las páginas **Configuración de conexión de Dataverse** y **Configuración de conexión de Dynamics 365**, y se puede iniciar como un paso en la guía de configuración asistida **Configurar una conexión a Dataverse** cuando elige completar la configuración y ejecutar la sincronización completa al final.  
-
-    Cuando el proceso de emparejamiento basado en coincidencias se inicia desde una página **Revisión de sincronización completa de Dataverse**, se programará una tarea de emparejamiento directamente después de que haya completado la configuración.  
-* La lista **Asignaciones de tablas de integración**.  
-
-    Seleccione una asignación, elija la acción **Emparejamiento** y luego elija **Emparejamiento basado en coincidencias**.
-
-    Cuando el proceso de emparejamiento basado en coincidencias se inicia desde una asignación de tablas de integración, se ejecutará un trabajo de emparejamiento para todos los registros desemparejados en esa asignación. Si se ejecutó para un conjunto de registros seleccionados de la lista, se ejecutará solo para los registros desemparejados seleccionados.
-
-En los tres casos, la página **Seleccionar criterios de emparejamiento** se abre para que pueda definir los criterios de emparejamiento relevantes. En esta página, personalice el emparejamiento con las siguientes tareas:
-
-* Elija qué campos desea emparejar por registros de [!INCLUDE [prod_short](includes/prod_short.md)] y entidades de [!INCLUDE [cds_long_md](includes/cds_long_md.md)], y elija también si el emparejamiento en ese campo tendrá en cuenta mayúsculas y minúsculas.  
-
-* Especifique si se debe ejecutar una sincronización después de emparejar registros y, si el registro utiliza una asignación bidireccional, elija también qué sucede si los conflictos se enumeran en la página **Resolver conflictos de actualizaciones**.  
-
-* Priorice el orden en el que se buscan los registros especificando un *prioridad de coincidencia* para los campos de asignación relevantes. Las prioridades de coincidencia hacen que el algoritmo busque una coincidencia en una serie de iteraciones según lo definido por los valores del campo **Prioridad de coincidencia** en orden ascendente. Un valor en blanco en el campo **Prioridad de coincidencia** se interpreta como prioridad 0, por lo que los campos con este relleno de valor se considerarán primero.  
-
-* Especifique si desea crear una nueva instancia de entidad en [!INCLUDE [cds_long_md](includes/cds_long_md.md)] en caso de que no se pueda encontrar ninguna coincidencia desemparejada única utilizando los criterios de coincidencia. Para activar esta capacidad, elija la acción **Crear nuevo si no se encuentra una coincidencia**.  
-
-### <a name="view-the-results-of-the-coupling-job"></a>Ver los resultados del trabajo de emparejamiento
-
-Para ver los resultados del trabajo de emparejamiento, abra la página **Asignaciones de tablas de integración**, seleccione la asignación relevante, elija la acción **Emparejamiento** y luego elija la acción **Registro de trabajo de emparejamiento de integración**.  
-
-Si hay registros que no se emparejaron, puede profundizar en el valor de la columna Error, que abrirá una lista de errores que especifica por qué los registros no se emparejaron.  
-
-El emparejamiento fallido se produce en los siguientes casos:
-
-* No se definieron criterios de coincidencia
-
-    En este caso, vuelva a ejecutar el emparejamiento basado en coincidencias, pero recuerde definir los criterios de acoplamiento.
-
-* No se encontró ninguna coincidencia para varios registros, según los campos coincidentes elegidos
-
-    En este caso, repita el emparejamiento con otros campos coincidentes.
-
-* Se encontraron varias coincidencias para varios registros, según los campos coincidentes elegidos  
-
-    En este caso, repita el emparejamiento con otros campos coincidentes.
-
-* Se encontró una única coincidencia, pero el registro coincidente ya está emparejado a otro registro en [!INCLUDE [prod_short](includes/prod_short.md)]  
-
-    En este caso, repita el emparejamiento con otros campos coincidentes o investigue por qué esa entidad [!INCLUDE [cds_long_md](includes/cds_long_md.md)] está emparejada a ese otro registro en [!INCLUDE [prod_short](includes/prod_short.md)].
-
-> [!TIP]
-> Para ayudarlo a obtener una descripción general del progreso de emparejamiento, el campo **Emparejado con Dataverse** muestra si un registro específico está emparejado con una entidad de [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Puede filtrar la lista de registros que se sincronizan con [!INCLUDE [cds_long_md](includes/cds_long_md.md)] por este campo.
-
 ## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Actualice las conexiones de Business Central Online para usar autenticación basada en certificados
 > [!NOTE]
-> Esta sección es relevante solo para los inquilinos de [!INCLUDE[prod_short](includes/prod_short.md)] en línea hospedados por Microsoft. Los inquilinos online hospedados por ISV y las instalaciones locales no se ven afectados.
+> Esta sección es relevante solo para los inquilinos de Business Central online hospedados por Microsoft. Los inquilinos online hospedados por ISV y las instalaciones locales no se ven afectados.
 
-En abril de 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] está abandonando el tipo de autenticación de Office365 (nombre de usuario/contraseña). Para más información, vea [Cese en el uso del tipo de autenticación de Office365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Además, en marzo de 2022, [!INCLUDE[prod_short](includes/prod_short.md)] está abandonando el uso de la autenticación de servicio a servicio basada en secreto del cliente para inquilinos en línea, y requerirá el uso de autenticación de servicio a servicio basada en certificados para las conexiones a [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Los inquilinos de [!INCLUDE[prod_short](includes/prod_short.md)] Online hospedados por ISV y las instalaciones locales pueden seguir utilizando la autenticación secreta del cliente para conectarse a [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+En abril de 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] está abandonando el tipo de autenticación de Office365 (nombre de usuario/contraseña). Para más información, vea [Cese en el uso del tipo de autenticación de Office365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Además, en marzo de 2022, [!INCLUDE[prod_short](includes/prod_short.md)] está abandonando el uso de la autenticación de servicio a servicio basada en secreto del cliente para inquilinos en línea, y requerirá el uso de autenticación de servicio a servicio basada en certificados para las conexiones a [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Los inquilinos [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en línea hospedados por ISV y las instalaciones locales pueden seguir usando la autenticación de Office365 configurada por su socio de Microsoft.
 
 Para evitar interrumpir las integraciones, _debe actualizar_ la conexión para utilizar autenticación basada en certificados. Aunque el cambio está programado para marzo de 2022, le recomendamos encarecidamente que actualice lo antes posible. Los siguientes pasos describen cómo actualizar a la autenticación basada en certificados. 
 
 ### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Para actualizar la conexión de Business Central Online para usar autenticación basada en certificados
-
 > [!NOTE]
 > La autenticación basada en certificados está disponible en Business Central 2021 lanzamiento de versiones 1 y posteriores. Si está utilizando una versión anterior, debe programar una actualización a Business Central 2021 lanzamiento de versiones 1 antes de marzo de 2022. Para más información, consulte [Programación de actualizaciones](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Si tiene problemas, comuníquese con su socio o soporte.
 
-1. En el [Centro de administración de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), verifique que está utilizando el lanzamiento de versiones 1 de Business Central 2021 o versiones posteriores (versión 18 o posteriores).
+1. En el [Centro de administración de Business Central]/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), verifique que está utilizando Business Central 2021 lanzamiento de versiones 1 o posterior (versión 18 o posterior).
 2. Dependiendo de si se integra con Dynamics 365 Sales, realice una de las siguientes acciones:
    * Si lo hace, abra la página **Configuración de la conexión de Microsoft Dynamics 365**.
    * Si no lo hace, abra la página **Configuración de la conexión de Dataverse**.

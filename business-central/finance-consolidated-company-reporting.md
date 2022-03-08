@@ -2,20 +2,20 @@
 title: Consolidar los datos de varias empresas
 description: Este tema explica cómo puede consolidar los movimientos de contabilidad de dos o más empresas independientes (subsidiarias) en una sola empresa consolidada.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c1873d8b5b4da7958fdab052bc587d004b06c7c6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 24b9dd8d332091508a21620c3ac1d32fd7be8d55
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136125"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436259"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidar los datos financieros de varias empresas
 

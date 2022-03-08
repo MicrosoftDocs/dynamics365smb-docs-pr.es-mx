@@ -2,6 +2,7 @@
 title: Gestión de costos de inventario
 description: La gestión de costos se refiere al registro y la creación de reportes sobre los costos de explotación de la empresa e incluye la creación de reportes de los costos de fabricación e inventario.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 79498fe0e29a633f7d17a7940148728f544cb2d0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 561401c985fc0e2f25c4f6e719252d19e76e7fe8
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138529"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688354"
 ---
 # <a name="managing-inventory-costs"></a>Gestión de costos de inventario
-La gestión de costos, también conocida como "valoración de existencias", se refiere al registro y la creación de informes sobre los costos operativos de la empresa. Incluye la creación de informes de los costos de fabricación y de inventario, es decir, el valor de los productos.   
+La gestión de costos, también conocida como "valoración de existencias", se refiere al registro y la creación de informes sobre los costos operativos de la empresa. Incluye la creación de informes de los costos de existencias y fabricación, es decir, el valor de los productos.   
 
 Es preciso entender los principios básicos, es decir, que los métodos de valoración definen cómo se valoran los productos cuando salen del inventario, que el ajuste de costos actualiza el costo de las mercancías vendidas con los costos de compra asociados registrados tras su venta y que los valores de existencias deben registrarse en cuentas contables exclusivas periódicamente.
 
@@ -25,7 +26,7 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 
 |**Para**|**Vea**|  
 |------------|-------------|  
-|Consulte la información conceptual para conocer los principios y las definiciones que rigen la función de contabilidad de administración de costos de inventario en [!INCLUDE[prod_short](includes/prod_short.md)].|[Acerca del contabilidad de inventario](finance-learn-about-costing.md)|  
+|Leer información conceptual para conocer los principios y definiciones que rigen la función de contabilidad de valoración de existencias en [!INCLUDE[prod_short](includes/prod_short.md)].|[Acerca del contabilidad de inventario](finance-learn-about-costing.md)|  
 |Asegúrese de conocer el costo de los productos enviados. Para ello, asigne los costos de producto adicionales, tales como fletes, manipulación física, seguros y transporte, en los que incurra después de la venta.|[Usar los cargos de producto a cuenta para los costos comerciales adicionales](payables-how-assign-item-charges.md)|
 |Información sobre todos los mecanismos en el sistema de costes.|[Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)|
 |Leer cómo los periodos de inventario ayudan a las empresas a controlar el valor de las existencias con el tiempo definiendo periodos más cortos que se pueden cerrar para registrar según avanza el ejercicio.|[Trabajar con periodos de inventario](finance-how-to-work-with-inventory-periods.md)|

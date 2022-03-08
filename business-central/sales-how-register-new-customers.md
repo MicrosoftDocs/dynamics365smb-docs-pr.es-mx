@@ -1,21 +1,21 @@
 ---
-title: Registrar a nuevos clientes creando una ficha cliente (contiene vídeo)
+title: Registrar a nuevos clientes creando una ficha cliente
 description: Describe cómo crear una ficha de cliente para registrar información acerca de cada cliente nuevo o existente a los que venda productos.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
-ms.date: 09/24/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f1b37df909e482f9f4102eab70ce82cdef999a12
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 37ed53ba578a9c08d82a447d3f9dc970fe558a63
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137014"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440377"
 ---
 # <a name="register-new-customers"></a>Permite registrar nuevos clientes
 
@@ -26,16 +26,23 @@ Antes de que pueda registrar nuevos clientes, debe configurar varios códigos de
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Agregar nuevos clientes
-Puede agregar nuevos clientes manualmente, completando los campos en la página **Ficha de cliente**, o puede utilizar plantillas que contienen información predefinida. Por ejemplo, puede crear plantillas para diferentes tipos de perfiles de clientes. El uso de plantillas ahorra tiempo al agregar nuevos clientes y ayuda a garantizar que la información sea correcta en todo momento. Si crea plantillas para más de un tipo de cliente, puede elegir la plantilla que utilizará cuando agregue un cliente. Si crea solo una plantilla, se utilizará para todos los clientes nuevos. Después de crear una plantilla, puede usar la acción **Aplicar plantilla** para aplicarla a uno o más clientes seleccionados. Para crear una plantilla, complete la información que desea reutilizar en la página Ficha de cliente y luego guárdela como una plantilla. Para obtener más información, consulte la sección [Para guardar la ficha de cliente como una plantilla](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template).
 
-> [!TIP]
-> Puede resultar útil personalizar la página **Ficha de cliente** cuando crea una plantilla. Por ejemplo, es posible que desee agregar el campo **Límite de crédito** a una plantilla. Para obtener más información, consulte [Personalizar el área de trabajo](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+Para registrar un cliente nueve, debe rellenar una ficha cliente. Puede establecer plantillas para diferentes perfiles de clientes, o puede agregar clientes sin plantillas. También puede crear un cliente a partir de un contacto. Para obtener más información, consulte [Para crear un contacto como proveedor, empleado o banco de un contacto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
-También puede crear un cliente a partir de un contacto. Para obtener más información, consulte [Para crear un contacto como proveedor, empleado o banco de un contacto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!NOTE]  
+> Si existen plantillas de cliente para distintos tipos de cliente, una página aparece automáticamente cuando se crea una nueva ficha de cliente en la que puede seleccionar una plantilla de cliente correspondiente. Si solo existe una plantilla de cliente, las nuevas fichas de cliente utilizan siempre esa plantilla.  
 
 ### <a name="to-create-a-new-customer-card"></a>Para crear una nueva ficha cliente.
 
-[!INCLUDE[create_new_customer](includes/create_new_customer.md)]
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.  
+2. En la página **Clientes**, seleccione la acción **Nuevo**.
+
+    Si solo existe una plantilla de cliente, una nueva ficha de cliente se abre con algunos campos rellenados con la información de la plantilla.
+
+    Si existe más de una plantilla de cliente, se abre una página desde la que puede seleccionar una plantilla de cliente. En ese caso, siga los dos pasos siguientes.
+3. En la página **Seleccionar una plantilla para un cliente nuevo**, seleccione la plantilla que quiere usar para la nueva ficha de cliente.
+4. Elija el botón **Aceptar**. Una nueva ficha de cliente se abre con algunos campos completados con la información de la plantilla.  
+5. Empiece a rellenar o cambiar campos en la ficha de cliente según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 La acción **Precios y descuentos** proporciona opciones para administrar precios especiales o descuentos para el cliente cuando un pedido cumple con ciertos criterios. Por ejemplo, los criterios pueden ser cuándo compran un artículo determinado, solicitan una cantidad mínima o compran antes de una fecha, como, por ejemplo, cuando finaliza una campaña. Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
 

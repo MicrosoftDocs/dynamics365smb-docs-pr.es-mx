@@ -2,6 +2,7 @@
 title: Introducción a Business Central y Power BI
 description: Obtener una visión general del uso de Power BI para conseguir información, inteligencia empresarial y KPI a partir de los datos de Business Central.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +12,12 @@ ms.search.form: 6316, 6317
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 74d51603f7675e7c4ba27bb78b6237a9241cb36e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d4414e8ada47667d85e250689654552ea426c551
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129180"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011635"
 ---
 # <a name="prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)] y Power BI
 

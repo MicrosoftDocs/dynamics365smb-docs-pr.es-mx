@@ -2,23 +2,24 @@
 title: 'Tutorial: recepción y ubicación en la configuración del almacenamiento básico'
 description: En Business Central, los procesos de entrada para la recepción y la ubicación se pueden realizar de cuatro maneras, en función del nivel de complejidad del almacén.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cca66a1e693e63b1d83b6d37d3f8c2957b3edf46
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 88916553b39b6420e7d56c8c5ce0ec25682c466a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144526"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391660"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Tutorial: recepción y ubicación en la configuración del almacenamiento básico
 
-<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], los procesos de entrada para la recepción y la ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
 
@@ -34,7 +35,7 @@ Para obtener más información, consulte [Detalles de diseño: Flujo de entrada 
 En el siguiente tutorial se demuestra el método B de la tabla anterior.  
 
 ## <a name="about-this-walkthrough"></a>Acerca de este tutorial  
-En la configuración básica de almacén, donde el almacén está configurado para requerir el procesamiento de almacenamiento, pero no de recepción, se utiliza la página **Almacenamiento de inventario** para registrar la información de almacenamiento y recepción de los documentos de origen entrantes. El documento de origen de entrada puede ser un pedido de compra, una devolución de ventas, un pedido de transferencia de entrada o una orden de producción con salida que está preparada para ubicarse.
+En la configuración básica de almacén, donde el almacén está configurado para requerir proceso de ubicación, pero no de recepción, utiliza la página **Ubicación existencias** para registrar la información de ubicación y recepción de los documentos de origen entrantes. El documento de origen de entrada puede ser un pedido de compra, una devolución de ventas, un pedido de transferencia de entrada o una orden de producción con salida que está preparada para ubicarse.
 
 > [!NOTE]
 > A pesar de que las configuraciones se denominan **Picking requerido** y **Ubicación requerida**, todavía puede registrar recepciones y envíos directamente desde los documentos empresariales de origen en las ubicaciones donde selecciona estas casillas de verificación.  
@@ -67,7 +68,7 @@ Para completar este tutorial, necesitará:
 -   CRONUS España S.A. instalado.  
 -   Para convertirse en un empleado de almacén en el almacén PLATA, realice los pasos siguientes:  
 
-    1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Empleados de almacén** y luego elija el enlace relacionado.  
+    1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
     2.  Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la página **Usuarios**.  
     3.  En el campo **Cód. almacén**, especifique PLATA.  
     4.  Seleccione el campo de **Predeterminado**.  
@@ -80,7 +81,7 @@ Ellen, administradora del almacén en CRONUS España S.A., crea un pedido de com
 
 ### <a name="to-set-up-the-location"></a>Configurar el almacén  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacenes** y, a continuación, elija el enlace relacionado.  
 2.  Abra la ficha de almacén PLATA.  
 3.  Active la casilla **Ubicación requerida**.  
 
@@ -100,7 +101,7 @@ Los pedidos de compra son el tipo más común de documento de origen de entrada.
 
 ### <a name="to-create-the-purchase-order"></a>Crear el pedido de compra  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  Cree un pedido de compra para el proveedor 10000 en la fecha de trabajo (23 de enero) con las líneas de pedido de compra siguientes.  
 
@@ -119,11 +120,11 @@ Los pedidos de compra son el tipo más común de documento de origen de entrada.
     La entrega de los altavoces del proveedor 10000 ha llegado al almacén PLATA y Juan comienza a guardarlos en su ubicación.  
 
 ## <a name="receiving-and-putting-the-items-away"></a>Recepción y ubicación de productos  
-En la página **Almacenamiento de inventario**, puede administrar todas las actividades de almacén de entrada para un documento de origen determinado, como una orden de compra.  
+En la página **Ubicación existencias**, puede administrar todas las actividades de almacén de entrada para un documento de origen determinado, como un pedido de compra.  
 
 ### <a name="to-receive-and-put-the-items-away"></a>Recibir y establecer la ubicación de los productos  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones de inventario** y, luego, elija el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ubicaciones de existencias** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  Seleccione el campo **Documento origen** y luego **Pedido compra**.  
 4.  Seleccione el campo **Nº origen**, seleccione la línea para la compra del proveedor 10000 y, a continuación, seleccione el botón **Aceptar**.  
@@ -132,7 +133,7 @@ En la página **Almacenamiento de inventario**, puede administrar todas las acti
 
 5.  Seleccione la acción **Autorrellenar el campo Cdad. para manipular**.  
 
-    Como alternativa, en el campo **Cdad. a manipular**, indique 10 y 30 respectivamente en las dos líneas de almacenamiento de inventario.  
+    También, en el campo **Cdad. a manipular**, introduzca 10 y 30 respectivamente en las dos líneas de ubicación de existencias.  
 
 6.  Seleccione la acción **Registrar**, elija la acción **Recibir** y seleccione el botón **Aceptar**.  
 

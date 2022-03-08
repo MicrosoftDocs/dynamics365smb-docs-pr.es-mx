@@ -1,22 +1,23 @@
 ---
-title: Crear interacciones en contactos y segmentos
+title: Crear interacciones en contactos y segmentos | Documentos de Microsoft
 description: Describe cómo crear interacciones para las comunicaciones que mantenga con sus contactos y segmentos en Business Central, por ejemplo, con el correo directo.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5077, 5078, 5074, 5076, 5186, 5075, 5079
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 273df19ec77f54e923b552b75986237635c40600
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5536671877c2fa766f953fe6bc9a5af5d2861b3e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131468"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387960"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Crear interacciones en contactos y segmentos
 Puede crear interacciones para registrar todas las interacciones y comunicaciones que mantenga con sus contactos y segmentos, por ejemplo, con el correo directo.
@@ -37,7 +38,7 @@ Antes de crear interacciones, debe configurar las plantillas de interacción. Pa
 3. Seleccione la interacción que desea terminar y, a continuación, seleccione la acción **Reanudar**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Para crear una interacción en un segmento
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Segmentos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Segmentos** y luego elija el enlace relacionado.
 2. En la página **Segmento**, en la sección **Interacción**, rellene los campos para especificar qué interacción quiere asignar al segmento.
 
     Después de asignar una interacción al segmento puede personalizar la interacción para cada contacto particular dentro del segmento, por ejemplo seleccionando otra plantilla de interacción en las líneas de la página **Segmento**.  

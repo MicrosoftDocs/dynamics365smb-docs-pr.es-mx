@@ -1,28 +1,29 @@
 ---
 title: Resumen de tareas para configurar Business Central
-description: Lea una descripción general de las tareas para preparar, inicializar y configurar Business Central según sus necesidades.
+description: Describe las tareas para preparar, inicializar y configurar Business Central según sus necesidades.
 author: edupont04
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 06/23/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 38aaf6b77defd6afcc9cbe2bda7b56d71c139699
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128664"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781467"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Resumen de tareas para configurar [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] incluye configuraciones estándar de la mayoría de procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de su organización. Los artículos de [Inicio rápido de Business Central](quick-start-business-central.md) pueden ayudarle a dar los primeros pasos para hacer [!INCLUDE [prod_short](includes/prod_short.md)] por su cuenta. Este artículo proporciona una descripción general de cómo puede configurar [!INCLUDE [prod_short](includes/prod_short.md)] para su organización.  
+[!INCLUDE[prod_short](includes/prod_short.md)] incluye configuraciones estándar de la mayoría de procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de su organización.  
 
 Por ejemplo, su catálogo de cuentas se rellena previamente con varias cuentas de registro listas para usar. Por supuesto, puede cambiar el catálogo de cuentas para satisfacer sus necesidades. Para obtener más información, consulte [Finanzas](finance.md).
 
-En el menú ![icono de rueda dentada para abrir el menú Configuración.](media/ui-experience/settings_icon_small.png) , puede acceder a guías de configuración asistida que le ayudarán a configurar varios escenarios y añadir funciones a [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener información acerca de cómo acceder a todas las páginas de configuración manual y asistida, consulte [Preparación para hacer negocios](ui-get-ready-business.md).  
+Desde el ![icono de rueda dentada para abrir el menú Configuración](media/ui-experience/settings_icon_small.png), puede acceder a guías de configuración asistida que ayudan a configurar ciertos escenarios y agregar funciones a [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener información acerca de cómo acceder a todas las páginas de configuración manual y asistida, consulte [Preparación para hacer negocios](ui-get-ready-business.md).  
 
 > [!NOTE]
 > [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
@@ -42,7 +43,7 @@ Alguna funcionalidad, general o de procesos empresariales específicos, se puede
 |Definir las reglas y los valores generales para los procesos de almacén y la manipulación específica de cada ubicación.|[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)|
 |Preparar las L.M. y las rutas de producción para definir cómo se producen los productos finales y preparar centros de máquina o de trabajo para realizar las operaciones necesarias.|[Configuración de fabricación](production-configure-production-processes.md)|
 |Establezca servicios estándar, síntomas y códigos de errores y configure los elementos de servicio, los recursos y la documentación necesarios para brindar servicio a sus clientes.|[Configurar la gestión de servicios](service-setup-service.md)|
-|Lea las prácticas recomendadas para configurar los artículos para la administración de costos de inventario y la planeación de suministros.|[Configuración de áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)|
+|Lea las prácticas recomendadas para configurar los artículos para la valoración de existencias y la planificación de suministros.|[Configuración de áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)|
 |Mejore la calidad de la implementación y reduzca el tiempo de implementación mediante el uso de un conjunto de herramientas para configurar una nueva empresa mediante asistentes, plantillas, hojas de trabajo y cuestionarios para clientes.|[Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
 |Transfiera clientes, proveedores, inventario e información de cuentas bancarias de otro sistema a [!INCLUDE[prod_short](includes/prod_short.md)]|[Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md).|
 |Use los complementos de Outlook de Business Central para ver los datos financieros relativos a los clientes y los proveedores o para crear y enviar documentos financieros, como por ejemplo cotizaciones y facturas.|[Usar Business Central como su bandeja de entrada de empresa en Outlook](admin-outlook.md)|
@@ -76,7 +77,6 @@ Algunas regiones requieren que sea el administrador en su suscripción [!INCLUDE
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Crear nuevas en empresas en [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
-[Inicio rápido de Business Central](quick-start-business-central.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

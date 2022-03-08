@@ -1,23 +1,23 @@
 ---
-title: Administración financiera (contiene vídeo)
-description: Obtenga información sobre cómo Business Central satisface sus necesidades de gestión financiera, contabilidad, auditoría y teneduría de libros.
+title: Gestión financiera
+description: Obtenga información sobre cómo Business Central satisface sus necesidades de gestión financiera, contabilidad, auditoría o teneduría de libros.
 author: edupont04
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44c7475921c679cc03ee25e8c05ffa78d04592f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 27ced3ad13d0469fd06825aa981a7f5969e04fbd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135969"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750291"
 ---
-# <a name="financial-management"></a>Gestión financiera
+# <a name="finance"></a>Finanzas
 
 [!INCLUDE[prod_short](includes/prod_short.md)] incluye una configuración estándar de muchos procesos financieros, pero puede cambiar la configuración para que se adapte a su empresa. Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).
 
@@ -33,7 +33,7 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 | Concilie cuentas bancarias y transfiera fondos entre cuentas bancarias. |[Conciliar bancos](bank-manage-bank-accounts.md) |
 |Configurar los socios de empresas vinculadas y procesar transacciones, manual o automáticamente, entre las entidades jurídicas dentro de la misma empresa.|[Gestión de transacciones entre empresas vinculadas](intercompany-manage.md)|
 |Analice los costos de administrar su empresa asignando costos reales y presupuestados de operaciones, departamentos, productos y proyectos a los centros de costos.|[Contabilidad para costos](finance-manage-cost-accounting.md)|
-|Administrar costos de inventario y fabricación, crear reportes de costos y conciliar costos con la contabilidad general.|[Administración de costos de inventario](finance-manage-inventory-costs.md)|
+|Administrar variaciones de existencias y costos de fabricación, crear informes de costos y conciliar costos con la contabilidad.|[Administración de costos de inventario](finance-manage-inventory-costs.md)|
 | Obtenga información sobre el libro mayor y el plan de cuentas. |[Descripción de contabilidad y plan de cuentas](finance-general-ledger.md) |
 |Combine movimientos de contabilidad de varias empresas en una empresa consolidada virtual para el análisis financiero.|[Consolidar los datos financieros de varias empresas](finance-consolidated-company-reporting.md)|
 | Agregue dimensiones para la inteligencia empresarial más completa. |[Trabajar con dimensiones](finance-dimensions.md) |
@@ -44,14 +44,14 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 | Asigne costos adicionales, como flete y manipulación física que se producen durante las operaciones comerciales, a los productos relacionados para que el costo se refleje en la valuación de inventario. |[Usar los cargos de producto para costos comerciales adicionales](payables-how-assign-item-charges.md) |
 |Registre los gastos personales de los empleados por las actividades comerciales y reembólselos mediante el pago a su cuenta bancaria.|[Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)|
 | Reconozca ingresos y gastos en periodos distintos de cuando se registraron las transacciones. |[Fraccionar ingresos y gastos](finance-how-defer-revenue-expenses.md)|
-| Conozca las opciones disponibles para automatizar el envío de facturas de suscripción a sus clientes y registre ingresos recurrentes. |[Trabajar con ingresos recurrentes](finance-recurring-invoicing.md)|
+| Conozca las opciones disponibles para automatizar el envío de facturas de suscripción a sus clientes y registre ingresos recurrentes. |[Ingresos recurrentes (suscripción)](finance-recurring-invoicing.md)|
 |Información sobre utilizar divisas adicionales y actualizar los tipos de cambio automáticamente. |[Actualizar tipos cambio divisa](finance-how-update-currencies.md)|
 | Importe transacciones de salario del proveedor de nóminas en el libro mayor. |[Importar transacciones de nómina](finance-how-import-payroll-transactions.md)|
 |Use las funciones para calcular el impuesto sobre el valor añadido (IVA) en las transacciones de ventas y compras para que pueda informar de los importes a las autoridades fiscales.|[Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)|
 |Preparar un informe que registre el IVA de ventas y enviarlo a las autoridades de la UE. | [Crear informes de IVA para las autoridades fiscales](finance-how-report-vat.md)|
 |Convierta manualmente los contratos de servicio para cambiar el tipo de IVA.|[Convertir contratos de servicio que incluyen importes de IVA](service-how-to-convert-service-contracts.md)|
 | Supervise el flujo de efectivo de entrada y salida de su empresa. |[Analizar los flujos de caja de la empresa](finance-analyze-cash-flow.md) |
-|Siga el procedimiento completo sobre el uso de las estructuras de cuentas para hacer pronósticos de flujo de caja.|[Tutorial: elaboración de previsiones del flujo de caja con estructuras de cuentas](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+|Siga el procedimiento de extremo a extremo sobre el uso de los estructuras de cuentas para hacer pronósticos de flujo de caja.|[Tutorial: elaboración de previsiones del flujo de caja con estructuras de cuentas](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Trabajar con balances financieros y resúmenes en Excel. |[Análisis de estados financieros en Excel](finance-analyze-excel.md) |
 |Aprenda a usar el Área de tareas Contador, invitar a un contador externo y utilizar el hub de empresas para administrar las cuentas de varios clientes.|[Experiencias contables en Business Central](finance-accounting.md)|  
 
@@ -73,6 +73,3 @@ El siguiente video presenta algunas de las capacidades clave para administrar la
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

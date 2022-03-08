@@ -2,6 +2,7 @@
 title: Configurar usuarios de flujo de trabajo
 description: Para poder crear flujos de trabajo debe configurar los usuarios que participan en ellos en la página Grupo de usuarios de flujo de trabajo.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a650f2e756f8b2be6008c7f7abc7c62290023bb4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2a6ee1b7fd7a65dba36bae95c8981657b6307bfb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134263"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439931"
 ---
 # <a name="set-up-workflow-users"></a>Configurar usuarios de flujo de trabajo
 

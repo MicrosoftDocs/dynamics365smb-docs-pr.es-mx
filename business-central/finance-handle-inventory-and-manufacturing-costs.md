@@ -1,20 +1,21 @@
 ---
-title: Administrar costos de fabricación e inventario
-description: Descubra cómo una serie de campos, páginas y reportes están dirigidos a usuarios que administran directa o indirectamente el costo de los productos u operaciones.
+title: Administrar costos de inventario y de fabricación | Documentos de Microsoft
+description: Aunque la mayoría de las funciones de contabilidad de costos se llevan a cabo mediante procesos subyacentes que no requieren la interacción del usuario, tales como la liquidación de movimientos y el ajuste automático de costos, existen varios campos, páginas e informes destinados a los usuarios que administran directa o indirectamente el costo de los productos o las operaciones.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9203aa99271bc5fba840b3d568adc098686ef961
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ce9829f5eee70f9cfcae5ab62f40215f21c38a3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136106"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781667"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Administración de costos de inventario y de fabricación
 Aunque la mayoría de las funciones de contabilidad de costos se llevan a cabo mediante procesos subyacentes que no requieren la interacción del usuario, tales como la liquidación de movimientos y el ajuste automático de costos, existen varios campos, páginas e informes destinados a los usuarios que administran directa o indirectamente el costo de los productos o las operaciones.  
@@ -30,7 +31,7 @@ Aunque la mayoría de las funciones de contabilidad de costos se llevan a cabo m
 |Crear un costo estándar del producto de fabricación introduciendo los tres elementos de costo: costo de material, costo de capacidad y costo de subcontratista.|[Acerca del cálculo de costo estándar](finance-about-calculating-standard-cost.md)|  
 |Calcular el costo unitario de un producto de L.M. basándose en los costos unitarios de sus componentes subyacentes.|[Trabajar con listas de materiales](inventory-how-work-BOMs.md)|  
 |Completar el ciclo de vida de la valoración de un producto fabricado ajustando los costos y conciliando los movimientos con la contabilidad.|[Sobre los costos del orden de producción terminada](finance-about-finished-production-order-costs.md)|  
-|Cambie el valor de un producto en inventario o el valor de un movimiento de producto, como una transacción de compra.|[Revaluar inventario](inventory-how-revalue-inventory.md)|
+|Cambiar el valor de un producto en existencias o el valor de un movimiento de producto, como una transacción de compra.|[Revaluar inventario](inventory-how-revalue-inventory.md)|
 |Deshacer manualmente una liquidación de producto o liquidar de nuevo movimientos de productos creados por la aplicación.|[Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Utilice el campo **Liquidar por mov.** en el diario de productos para crear manualmente una liquidación fija entre una transacción de entrada y la transacción de salida original.|[Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 

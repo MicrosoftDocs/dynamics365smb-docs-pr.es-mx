@@ -1,21 +1,21 @@
 ---
-title: Resumen de tareas para administrar los pagos
+title: Resumen de tareas para administrar las cuentas por pagar | Documentos de Microsoft
 description: Describe las tareas para administrar los pagos, por ejemplo, los pagos a acreedores o la liquidación de pagos salientes en movimientos para cerrar facturas o abonos.
 author: edupont04
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.search.form: 161, 254, 256, 347, 574, 599, 9002
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef7b8fafd5949d9a3595a003c4840994e2319d54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1248a4932194de68c05ca4343836d345b5284b16
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137742"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190196"
 ---
 # <a name="managing-payables"></a>Administración de pagos
 
@@ -42,9 +42,6 @@ En la tabla siguiente se muestra una secuencia de tareas de cuentas por pagar, c
 [Administrar cobros](receivables-manage-receivables.md)  
 [Usar los cargos de producto a cuenta para los costos comerciales adicionales](payables-how-assign-item-charges.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

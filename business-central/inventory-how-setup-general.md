@@ -1,50 +1,39 @@
 ---
-title: Configurar información de inventario general
-description: Describe cómo definir la configuración de inventario general para que pueda administrar el almacén y las existencias.
-author: bholtorf
-ms.topic: conceptual
+title: Definir la configuración de inventario general | Documentos de Microsoft
+description: Describe cómo definir la configuración de inventario general, como los números de serie y las ubicaciones, para poder, por ejemplo, administrar el almacén y las existencias.
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.search.form: 30, 456, 461
-ms.date: 07/28/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2013c378c3b95947e0615371bcb1fb5100df78aa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9ca38111f2a5f61bd9a815d7b37dd8696b85a7d0
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135891"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785682"
 ---
 # <a name="set-up-general-inventory-information"></a>Configurar información de inventario general
-
 Especifique la configuración del inventario en la página **Configuración de inventario**.
 
 ## <a name="to-set-up-general-inventory-information"></a>Para configurar la información de inventario general
-
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de inventario** y, luego, elija el vínculo relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. existencias** y luego elija el enlace relacionado.
 2. En la página **Configuración de inventario**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Para obtener información detallada sobre los campos de valoración, **Registro de costos automático**, **Regis. cto. Previsto en contabilidad** y **Valoración de existencias predeterminada**, consulte [Conciliar costos de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md), [Detalles de diseño: Costo de inventario](design-details-inventory-costing.md) y [Detalles de diseño: Registro de costo esperado](design-details-expected-cost-posting.md). Para obtener más información sobre el cálculo de costos en general, consulte [Administración de costos de inventario](finance-manage-inventory-costs.md).  
+Para obtener información detallada sobre los campos de costos, **Variación existencias automát.** y **Registro de costo esperado en contabilidad**, vea [Conciliar costos de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md) y [Detalles de diseño: Registro de costo esperado](design-details-expected-cost-posting.md).
 
 Si desea que el sistema incluya un tiempo de manipulación en almacén de entrada en el cálculo del compromiso de entrega del pedido en la línea de compra, configúrelo como un valor predeterminado para las existencias, en la página **Configuración inventario** y para su almacén. Para obtener más información, consulte [Calcular las fechas de compromiso de entrega de pedido](sales-how-to-calculate-order-promising-dates.md).  
 
-> [!NOTE]
-> El campo **Ajuste automático del costo** está establecido en *Siempre* de forma predeterminada para garantizar que los valores de inventario sean siempre correctos en contabilidad general, lo que a su vez mantiene actualizadas sus estadísticas de ventas y ganancias. Los cambios de costos de los movimientos de entrada, como pueden ser aquellos relacionados con las compras o con la salida de producción, se asignan a los movimientos de salida relacionados, como son las ventas o las transferencias. Esto es útil para nuevos clientes y pequeñas empresas de [!INCLUDE[prod_short](includes/prod_short.md)] con niveles de transacciones de inventario relativamente bajos.
->
-> Sin embargo, a medida que crece una empresa y aumentan los niveles de inventario, lo que puede ralentizar el rendimiento del sistema. Para minimizar el rendimiento reducido durante la publicación, seleccione una opción de tiempo para definir con cuanta antelación desde la fecha de trabajo puede ocurrir una transacción entrante para desencadenar potencialmente el ajuste de las entradas de valor saliente relacionadas.
->
-> Como alternativa, puede ajustar manualmente los costos a intervalos regulares con el trabajo por lotes Ajustar costo - Movimientos de productos. También puede desactivar el registro automático de costos o establecer el campo **Ajuste automático del costo** en *Nunca*. En ambos casos, se muestra una notificación desde la cual puede iniciar una guía de configuración asistida para ayudarlo a programar tareas para la cola de proyectos. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
 ## <a name="see-also"></a>Consulte también
-
 [Configuración de inventario](inventory-setup-inventory.md)  
-[Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  
+[Detalles de diseño: Métodos de costo](design-details-costing-methods.md)    
 [Gestionar inventario](inventory-manage-inventory.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
-[Funciones empresariales generales](ui-across-business-areas.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Funciones empresariales generales](ui-across-business-areas.md)

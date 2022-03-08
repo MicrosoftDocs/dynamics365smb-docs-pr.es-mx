@@ -2,19 +2,20 @@
 title: Remisiones y órdenes de transferencia de Carta de Porte [MX]
 description: Business Central admite CFDI para que pueda imprimir remisiones y órdenes de transferencia con la firma digital requerida y utilizar estos documentos como Carta de Porte.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/20/2021
+ms.date: 11/25/2021
 ms.author: edupont
-ms.openlocfilehash: f553348f5668f675f7a8b50502b2e42922655d55
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: 443b6b36dddb57ae297f02cbe5b93c60e8685011
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311161"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865612"
 ---
 # <a name="carta-de-porte-packing-slips-and-transfer-orders-in-the-mexican-version"></a>Remisiones y órdenes de transferencia de Carta de Porte en la versión para México
 
@@ -22,8 +23,6 @@ Las empresas mexicanas deben tener la posibilidad de imprimir electrónicamente 
 
 > [!IMPORTANT]
 > Los documentos deben incluir una firma digital, lo que requiere una conexión a un PAC, que es un proveedor de servicios autorizado designado por las autoridades fiscales de México (SAT). Para obtener más información, consulte [Configurar servicios web de PAC](how-to-set-up-pac-web-services.md).  
->
-> Además. a partir de enero de 2022, debe actualizar los catálogos de Carta de Porte que definen los diversos códigos. Microsoft ofrece un paquete que se puede descargar desde [esta ubicación](https://microsoft.com) e importar con RapidStart Services. Para obtener más información, consulte [Importar datos empresariales desde otros sistemas financieros](../../across-import-data-configuration-packages.md). Como alternativa, si solo usa muy pocos códigos, puede actualizar los catálogos actuales manualmente.
 
 ## <a name="get-started"></a>Introducción
 
@@ -42,14 +41,6 @@ Debe agregar la información sobre los permisos de la Secretaría de Comunicacio
 2. En la página **Información de la empresa**, en la ficha desplegable **Envío** del campo **Tipo de permiso de la SCT**, elija el tipo de transporte motorizado pertinente que usa la empresa para trasladar los productos o las mercancías. La Secretaría de Comunicaciones y Transportes define tales tipos.  
 3. En el campo **N.º de permiso de la SCT** , especifique el número de permiso correspondiente emitido por la Secretaría de Comunicaciones y Transportes.  
 
-### <a name="to-set-up-locations-for-carta-de-porte"></a>Para configurar las ubicaciones de Carta de Porte
-
-1. Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
-2. En la página **Ubicaciones**, elija la ubicación que desea actualizar y, luego, en la página **Ficha almacén**, rellene los campos de la ficha desplegable **Documento electrónico**. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
-
-    Por ejemplo, el campo **Id. de ubicación** especifica un código de seis dígitos que es único para esta ubicación específica. A continuación, cuando registre un envío que incluya esta ubicación, se agregará el prefijo *OR* al código si la ubicación es el punto de partida del transporte. Si la ubicación es el punto de destino, sea agregará el prefijo *DE* al código de manera automática.
-3. Repita el paso 2 para las demás ubicaciones que desee configurar para Carta de Porte.
-
 ### <a name="to-set-up-vehicles-for-transportation"></a>Para configurar los vehículos que realizarán el transporte
 
 1. Elija el icono ![Segunda bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Activos fijos** y, a continuación, elija el vínculo relacionado.  
@@ -67,11 +58,9 @@ Debe agregar la información sobre los permisos de la Secretaría de Comunicacio
     - **Material peligroso del SAT**  
     - **Tipo de empaquetado del SAT**  
 
-## <a name="create-sales-documents-and-generate-packing-slips-and-transfer-orders-with-carta-de-porte"></a>Creación de documentos de venta y generación de remisiones con Carta de Porte
+## <a name="generate-packing-slips-and-transfer-orders-with-carta-de-porte"></a>Generación de remisiones y órdenes de transferencia con Carta de Porte
 
-Cuando crea un documento, como una orden de venta, debe completar los campos de la ficha desplegable **Documento electrónico**, incluida la información sobre su compañía de seguro. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]  
-
-Para cada línea del documento, también debe especificar el campo **Número de tránsito en aduana**. En este campo se indica el número de la petición que protege la importación de productos en el siguiente formato:  
+Cuando crea un documento, como una orden de venta, debe completar los campos de la ficha desplegable **Documento electrónico**. Para cada línea del documento, también debe especificar el campo **Número de tránsito en aduana**. En este campo se indica el número de la petición que protege la importación de productos en el siguiente formato:  
 
 - Los dos últimos dígitos del año de validación seguidos de dos espacios  
 - Dos dígitos de la oficina de aduanas seguidos de dos espacios  

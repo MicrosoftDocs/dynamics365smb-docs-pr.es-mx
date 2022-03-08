@@ -1,20 +1,21 @@
 ---
-title: 'Detalles de diseño: Equilibrio de aprovisionamiento y demanda'
-description: Para saber cómo funciona el sistema de planificación, es necesario conocer los objetivos con prioridad del sistema de planificación que consigue equilibrando la oferta con la demanda.
+title: 'Detalles de diseño: Equilibrado de aprovisionamiento y demanda | Documentos de Microsoft'
+description: Para saber cómo funciona el sistema de planificación, es necesario conocer los objetivos con prioridad del sistema de planificación, los más importantes de los cuales son asegurarse de que las demandas se satisfagan con suficiente suministro y de que los suministros tengan un propósito.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: b0ddc9e4a3fbfd4f26633f82f022aa73ba93ada8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139844"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185719"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Detalles de diseño: Equilibrio de aprovisionamiento y demanda
 Para saber cómo funciona el sistema de planificación, es necesario conocer los objetivos con prioridad del sistema de planificación, los más importantes de los cuales son asegurarse de que:  
@@ -42,7 +43,7 @@ Para saber cómo funciona el sistema de planificación, es necesario conocer los
 
    El objetivo del mecanismo de planificación es contrarrestar la demanda y el suministro de un producto para garantizar que el suministro corresponderá a la demanda de una forma factible, según lo definido por los parámetros y las reglas de planificación.  
 
-   ![Resumen del equilibrio entre la oferta y la demanda.](media/nav_app_supply_planning_2_balancing.png "Resumen del equilibrio entre la oferta y la demanda")
+   ![Resumen del equilibrio entre la oferta y la demanda](media/nav_app_supply_planning_2_balancing.png "Resumen del equilibrio entre la oferta y la demanda")
 
 ## <a name="dealing-with-orders-before-the-planning-starting-date"></a>Gestión de pedidos antes de la fecha de inicio de planificación
 Para evitar que un plan de suministro muestre sugerencias imposibles y, por tanto, de poca utilidad, el sistema de planificación considera el periodo hasta la fecha inicial como una zona congelada donde no hay nada planificado. La regla siguiente se aplica a la zona congelada:  
@@ -53,11 +54,11 @@ Por consiguiente, el sistema de planificación, salvo algunas excepciones, no su
 
 Las excepciones a esta regla son las siguientes:  
 
-   * Si el inventario disponible proyectado, incluida la suma de aprovisionamiento y la demanda en la zona congelada, es menor que cero.  
+   * Si las existencias disponibles proyectadas, incluida la suma de aprovisionamiento y la demanda en la zona congelada, es menor que cero.  
    * Si hacen falta números de serie o lote en los pedidos con fecha anterior.  
    * Si el conjunto de aprovisionamiento y demanda se vincula por una directiva de pedido a pedido.  
 
-Si el inventario disponible inicial es menores que cero, el sistema de planificación sugiere una orden de suministro de emergencia el día antes del periodo de planificación para cubrir la cantidad que falta. Por tanto, el valor del inventario proyectado y disponible será siempre al menos de cero cuando empiece la planificación para el período futuro. La línea de planificación de esta orden de suministro mostrará un icono de advertencia de emergencia y, tras la búsqueda, se proporciona información adicional.  
+Si las existencias disponibles iniciales son menores que cero, el sistema de planificación sugiere una orden de suministro de emergencia el día antes del periodo de planificación para cubrir la cantidad que falta. Por tanto, el inventario proyectado y disponible será siempre al menos cero cuando empiece la planificación para el periodo futuro. La línea de planificación de esta orden de suministro mostrará un icono de advertencia de emergencia y, tras la búsqueda, se proporciona información adicional.  
 
 ### <a name="seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone"></a>Los números de serie y de lote y las conexiones de pedido contra pedido están exentos de la zona congelada  
    Si se requieren números de serie y de lote o si hay un vínculo de pedido a pedido, el sistema de planificación no tendrá en cuenta la zona congelada e incorporará estas cantidades con fecha anterior a partir de la fecha de inicio y potencialmente propondrá acciones correctivas si la demanda y el aprovisionamiento no están sincronizados. El motivo empresarial de este principio es que dichos conjuntos de demanda-suministro específicos deben coincidir para garantizar que se cumple esta demanda específica.
@@ -290,6 +291,3 @@ De este modo concluyen las descripciones de cómo el sistema de planificación c
  [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)   
  [Detalles de diseño: Gestión de directivas de reorden](design-details-handling-reordering-policies.md)   
  [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

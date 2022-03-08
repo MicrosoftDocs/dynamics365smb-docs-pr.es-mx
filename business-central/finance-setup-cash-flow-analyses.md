@@ -1,21 +1,23 @@
 ---
-title: Configuración del análisis de flujo de efectivo (contiene video)
-description: Utilice los gráficos de área de tareas de cuentas para analizar el flujo de dinero de su empresa, incluidos los gastos e ingresos, la liquidez y las recepciones de efectivo menos los pagos en efectivo.
+title: Configuración del análisis de flujo de caja | Documentos de Microsoft
+description: Configure los gráficos en el área de tareas Cuentas como ayuda para analizar el flujo de dinero de su empresa, incluyendo gastos e ingresos, liquidez y recepciones de efectivo menos los pagos en efectivo.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.search.form: 846, 847, 849, 855, 862, 869, 1818
-ms.date: 06/16/2021
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: ca4f088156313ec9cf3796abab642b7d319327bb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8fc2bd353a80bf72f8bb9a0d282bec7c216fc0fa
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143515"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953718"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuración del análisis de flujo de caja
 Si desea ayuda para decidir qué debe hacer con el efectivo, eche un vistazo a los gráficos del Área de tareas Contable:  
@@ -28,7 +30,7 @@ Si desea ayuda para decidir qué debe hacer con el efectivo, eche un vistazo a l
 En este tema se describe de dónde proceden los datos de los gráficos y, si es necesario, qué hacer para empezar a usar los gráficos.  
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc?rel=0]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc]
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Gráficos Ciclo de efectivo e Ingresos y gastos
 Los gráficos **Ciclo de efectivo** e **Ingresos y gastos** están preparados para usarse, en función del plan de cuentas y los esquemas de cuentas. Los efectos son de donde proceden los datos y los esquemas de cuentas calculan la relación entre ventas y cobros. Se proporcionan algunas cuentas y esquemas de cuentas. Puede usarlos tal como están, modificarlos y agregar nuevos. Si se agrega cuentas al plan de cuentas, por ejemplo, importándolas de QuickBooks, deberá asignarlas a las cuentas de la página **Esquemas de cuentas** de los siguientes nombres del esquema de cuentas:  
@@ -59,7 +61,7 @@ Para configurarla, busque **cuentas de flujo de efectivo**, elija el vínculo y 
 ## <a name="set-up-cash-flow-forecasts"></a>Configurar previsiones de flujo de caja
 El gráfico **Previsión de flujo de efectivo** utiliza cuentas de flujo de efectivo, configuraciones de flujo de efectivo y previsiones de flujo de efectivo. Se proporcionan algunas, pero configurar las suyas propias usando una guía de configuración asistida. Esta guía le ayuda a especificar aspectos como la frecuencia con que se actualizará la previsión, las cuentas en las que se basará, la información acerca de cuándo se pagan impuestos y si activar [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
-Las previsiones de flujo de caja pueden usar la Azure AI para predecir documentos futuros. El resultado es una previsión más completa. La conexión a Azure AI ya está configurada automáticamente. Solo necesita activarla. Al iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)], se muestra una notificación en una barra azul y proporciona un vínculo a la configuración de flujo de caja predeterminada. La notificación solo se muestra una vez. Si la cierra pero decide activar Azure AI, puede utilizar la guía de configuración asistida o un proceso manual.  
+Las previsiones de flujo de caja pueden usar Azure AI para incluir documentos cuya fecha de vencimiento sea en el futuro. El resultado es una predicción más completa. La conexión a Azure AI ya está configurada automáticamente. Solo necesita activarla. Al iniciar sesión en [!INCLUDE[d365fin](includes/d365fin_md.md)], se muestra una notificación en una barra azul y proporciona un vínculo a la configuración de flujo de caja predeterminada. La notificación solo se muestra una vez. Si la cierra pero decide activar Azure AI, puede utilizar la guía de configuración asistida o un proceso manual.  
 
 > [!NOTE]  
 >   También puede usar su propio servicio web de predicción. Para obtener más información, vea [Crear y usar su propio servicio web predictivo para las previsiones de flujo de efectivo](#AnchorText).  
@@ -68,50 +70,18 @@ Para usar la guía de configuración asistida:
 
 1. En el área de trabajo Contable, en el gráfico **Previsión de flujo de efectivo**, elija la acción **Abrir configuración asistida**.  
 2. Rellene los campos en cada paso de la guía.  
-3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pronóstico de flujo de caja** y, luego, elija el vínculo relacionado.
+3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Previsión de flujo de caja** y luego elija el enlace relacionado.
 4. En la página **Previsión de flujo de caja**, seleccione la acción **Recalcular previsión**.  
 
 Para usar un proceso manual:  
 
 1. En el área de tareas Contable, busque **Configuración de flujo de caja** y, a continuación, elija el vínculo relacionado.  
 2. Expanda la ficha desplegable **Azure AI** y active la casilla **Azure AI habilitado**.  
-3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pronóstico de flujo de caja** y, luego, elija el vínculo relacionado.
+3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Previsión de flujo de caja** y luego elija el enlace relacionado.
 4. En la página **Previsión de flujo de caja**, seleccione la acción **Recalcular previsión**.  
 
 > [!TIP]  
 >   Considere la duración de los periodos que el servicio usará en los cálculos. Cuantos más datos proporcione, más precisas serán las predicciones. Asimismo, controle las variaciones grandes en los periodos. También afectarán a las predicciones. Si Azure AI no encuentra suficientes datos, o los datos varían mucho, el servicio no creará ninguna predicción.  
-
-## <a name="design-details"></a>Detalles de diseño
-Las suscripciones para [!INCLUDE[prod_short](includes/prod_short.md)] vienen con acceso a varios servicios web predictivos en todas las regiones donde [!INCLUDE[prod_short](includes/prod_short.md)] está disponible. Para obtener más información, consulte la Guía de licencias de Microsoft Dynamics 365 Business Central. La guía está disponible para descargar en el sitio web de [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/). 
-
-Estos servicios web no tienen estado, lo que significa que usan datos solo para calcular predicciones bajo demanda. No almacenan datos.
-
-> [!NOTE]  
->   Puede usar su propio servicio web de predicción en lugar del nuestro. Para obtener más información, vea [Crear y usar su propio servicio web predictivo para las previsiones de flujo de efectivo](#AnchorText). 
-
-### <a name="data-required-for-forecast"></a>Datos requeridos para la previsión
-Para hacer predicciones sobre futuros ingresos y gastos, los servicios web requieren datos históricos de cuentas por cobrar, cuentas por pagar e impuestos.
-
-#### <a name="receivables"></a>Cobros:
-Campos **Fecha de vencimiento**, **Importe ($)** de la página **Movimientos de cliente**, donde:
-- El tipo de documento es Factura o Nota de crédito.
-- La fecha de vencimiento es entre la fecha que se calcula en función de los valores en los campos **Periodos históricos** y **Tipo de periodo** en la página **Configuración de flujo de caja** y la fecha de trabajo.
-
-Antes de usar el servicio web predictivo [!INCLUDE[prod_short](includes/prod_short.md)] comprime las transacciones por **Fecha de vencimiento** según el valor del campo **Tipo de periodo** de la página **Configuración de flujo de caja**.
-
-#### <a name="payables"></a>Pagos:
-Campos **Fecha de vencimiento**, **Importe ($)** de la página **Movimientos de proveedor**, donde:
-- El tipo de documento es "Factura" o "Nota de crédito".
-- La fecha de vencimiento es entre la fecha que se calcula en función de los valores en los campos **Periodos históricos** y **Tipo de periodo** en la página **Configuración de flujo de caja** y la fecha de trabajo.
-
-Antes de usar el servicio web predictivo [!INCLUDE[prod_short](includes/prod_short.md)] comprime las transacciones por **Fecha de vencimiento** según el valor del campo **Tipo de periodo** de la página **Configuración de flujo de caja**.
-
-#### <a name="tax"></a>Tributos:
-Campos **Fecha de documento**, **Monto** de la página **Movs. IVA**, donde:
-- El tipo de documento es "ventas".
-- La fecha de documento es entre la fecha que se calcula en función de los valores en los campos **Periodos históricos** y **Tipo de periodo** en la página **Configuración de flujo de caja** y la fecha de trabajo.
-
-Antes de usar el servicio web predictivo [!INCLUDE[prod_short](includes/prod_short.md)] comprime las transacciones por **Fecha de documento** según el valor del campo **Tipo de periodo** de la página **Configuración de flujo de caja**.
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"> </a>Crear y usar su propio servicio web predictivo para las previsiones de flujo de efectivo
 También puede crear su propio servicio web predictivo basado en un modelo público denominado **Modelo de previsión para Microsoft Business Central**. Este modelo predictivo está disponible en línea en la galería de Azure AI. Para usar el modelo, siga estos pasos:  
@@ -121,16 +91,12 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 3. Use su cuenta de Microsoft para iniciar sesión en un espacio de trabajo y, a continuación, copie el modelo.  
 4. Ejecute el modelo y como publíquelo como un servicio web.  
 5. Anote la URL de API y la clave de API. Usará estas credenciales para una configuración de flujo de caja.  
-6. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de flujo de caja** y, luego, elija el vínculo relacionado.  
+6. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración flujos efectivo** y luego elija el enlace relacionado.  
 7. Expanda la ficha desplegable **Azure AI** y rellene los campos.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
-
 [Analizar el flujo de caja de la empresa](finance-analyze-cash-flow.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -2,20 +2,20 @@
 title: Registro de documentos de ventas
 description: Obtenga información sobre las diferentes funciones de registro para registrar documentos de ventas y cómo puede actualizar los documentos registrados.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.form: 130, 142, 1350, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 34995eab966a65561c18de8d0e32204ca8bb79cb
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: e59c48c31e897d235c7920f4231313a2332fdf06
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335564"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783270"
 ---
 # <a name="posting-sales"></a>Registrar ventas
 
@@ -39,7 +39,8 @@ Por cada orden de venta, se crea un movimiento de venta en la tabla **Mov. conta
 
 Por cada línea de orden de venta, se creará un movimiento de producto en la tabla **Mov. producto** (si las líneas de venta contienen números de producto) o un movimiento de contabilidad en la tabla **Mov. contabilidad** (si las líneas de venta contienen una cuenta de contabilidad). Además, los pedidos de venta siempre se registran en las tablas **Histórico cab. remisión venta** y **Histórico cab. factura venta**.
 
-[!INCLUDE [order-ship-invoice](includes/order-ship-invoice.md)]
+> [!IMPORTANT]  
+> Cuando registre un pedido, puede crear una remisión de venta y una factura. Esto se puede realizar al mismo tiempo o de manera independiente. También puede crear una remisión y una factura parciales completando los campos **Cantidad a enviar** y **Cantidad a facturar** en las líneas individuales de la orden de venta antes de registrar. Tenga en cuenta que no puede crear una factura de algo no se ha enviado. Es decir, antes de poder facturar, tiene que haber registrado una remisión de venta o haber seleccionado, al mismo tiempo, entregar y facturar.
 
 Puede registrar o registrar y enviar. Si elige registrar y enviar, se genera un archivo PDF que luego podrá enviar. También puede elegir la función **Registrar por lotes**, que permite registrar varias órdenes a la vez. Para obtener más información, consulte [Registrar varios documentos al mismo tiempo](ui-batch-posting.md).
 

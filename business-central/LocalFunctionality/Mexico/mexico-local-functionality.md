@@ -2,16 +2,17 @@
 title: Funcionalidad local de México
 description: En los temas siguientes se describe la funcionalidad local de la versión de Business Central para México.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 10/14/2021
 ms.author: edupont
-ms.openlocfilehash: a23c1b93f01ec61db0d9d70235d0af098a6af5ca
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0093becd7fc9d66fcf1fe19d0fef8e96032cf456
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148925"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643907"
 ---
 # <a name="mexico-local-functionality"></a>Funcionalidad local de México
 

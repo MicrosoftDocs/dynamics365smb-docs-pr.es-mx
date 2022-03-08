@@ -1,20 +1,23 @@
 ---
-title: Estadísticas servicio
-description: Obtenga una visión general del contenido y las estadísticas de los documentos de servicio, como órdenes, cotizaciones, facturas, notas de crédito, líneas de servicio, etc.
+title: Estadísticas de servicio | Documentos de Microsoft
+description: Obtenga una visión general del contenido de los documentos de servicio, como órdenes, cotizaciones, facturas o notas de crédito, los detalles sobre las líneas de servicio específicas y los productos de servicio.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 2d6d9cfd03971a7adec509babff9ad8cd90af4cb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 16b3a3be096bc8d5391b7a14b56524191663ff56
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142943"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315887"
 ---
 # <a name="viewing-service-statistics"></a>Visualización de estadísticas de servicio
 Puede utilizar estadísticas para analizar los documentos de servicio y determinar el cómo de bien está gestionando sus procesos de servicio. Puede analizar los contratos de servicio, los productos, las cotizaciones, las órdenes, las facturas y las notas de crédito si elige la acción **Estadísticas**. Para los productos y los contratos de servicios, también puede usar **Análisis prod. servicio** o **Análisis contrato** para ver un resumen de los movimientos de servicio para un producto de servicio determinado.   
@@ -83,14 +86,14 @@ Los movimientos de beneficios o pérdidas de contrato se generan cuando se convi
 |**Pérd./gan. contrato (Razones)**|Para ver las pérdidas y ganancias de contrato por código de razón.|  
 |**Pérd./gan. contr. (Cen. resp.)**|Para ver las pérdidas y ganancias de contrato por centro de responsabilidad.|  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , ingrese el nombre de la página que se mostrará y luego elija el enlace relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba el nombre de la página a mostrar y, a continuación, elija el vínculo relacionado.  
 2. Rellene los criterios del filtro que desea aplicar. Por ejemplo, en la página **Pérdidas/ganancias en contrato (Razones)**, seleccione un valor para **Filtro código razón**.  
 3. Elija la acción **Mostrar matriz**.
 
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Visualización de estadísticas de documentos de servicio registrados
 La función de estadísticas de servicio permite obtener un resumen estadístico del contenido de los documentos de servicio registrados, como envío registrado, factura registrada y nota de crédito registrada.  
 
-La información estadística se muestra en la página de estadísticas del documento de servicio registrado correspondiente. Puede abrir la página de estadísticas correspondiente desde la entrega de servicio registrado, la factura de servicio registrada o los documentos de nota de crédito de servicio registrados. Para cada uno de estos tipos de documento, elija la acción **Estadística**. Por ejemplo, en la página **Facturas servicios reg.**, elija la acción **Estadística**.  
+La información estadística se muestra en la página de estadísticas del documento de servicio registrado correspondiente. Puede abrir la página de estadísticas correspondiente desde la entrega de servicio registrado, la factura de servicio registrada o los documentos de nota de crédito de servicio registrados. Para cada uno de esos tipos de documento, en la pestaña **Inicio**, en el grupo **Proceso**, seleccione **Estadísticas**. Por ejemplo, desde la página **Facturas servicios reg.**, en la pestaña **Inicio**, en el grupo **Proceso**, seleccione **Estadísticas**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Estadísticas de entregas de servicios registradas  
 La página **Estadísticas entrega de servicio** proporciona un resumen de un entrega de servicio registrado. Esto incluye información sobre el contenido físico del envío, como la cantidad de productos enviados, las horas o los costos de los recursos y el peso y el volumen de los productos enviados.  
@@ -111,6 +114,3 @@ Puede utilizar la página **Estadísticas de nota de crédito de servicios** par
 [Crear pedidos de servicio ](service-how-to-create-service-orders.md)   
 [Crear productos de servicio](service-how-to-create-service-items.md)   
 [Servicio de planificación](service-plan-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

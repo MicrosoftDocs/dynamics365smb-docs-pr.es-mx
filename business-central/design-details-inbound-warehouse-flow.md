@@ -1,20 +1,21 @@
 ---
-title: 'Detalles de diseño: Flujo de entrada en almacén'
-description: El flujo de entrada en almacén comienza cuando los artículos llegan a la ubicación de la empresa de almacén. Los productos se registran y finalmente se comparan con los documentos de origen entrantes.
+title: 'Detalles de diseño: Flujo de entrada en almacén | Documentos de Microsoft'
+description: El flujo de entrada de un almacén comienza cuando los productos llegan al almacén de la ubicación de empresa, recibidos de orígenes externos o de otra ubicación de empresa. Un empleado registra los productos normalmente mediante el escaneo de un código de barras. Desde la dársena de recepción, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para introducir los productos en el área de almacén.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: de7a468377f454c01d45742f4510cb9978340ae6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 8c7dd9f8ed55465a45ef843ebf2a996b79b454f3
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132014"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880455"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Detalles de diseño: Flujo de entrada en almacén
 El flujo de entrada de un almacén comienza cuando los productos llegan al almacén de la ubicación de empresa, recibidos de orígenes externos o de otra ubicación de empresa. Un empleado registra los productos normalmente mediante el escaneo de un código de barras. Desde la dársena de recepción, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para introducir los productos en el área de almacén.  
@@ -34,7 +35,7 @@ Los dos últimos representan los flujos de entrada al almacén desde las áreas 
 
 Los procesos y los documentos de interfaz de usuario en los flujos de almacén de entrada varían según el la configuración básica y avanzada de almacén. La diferencia principal es que las actividades se realizan pedido a pedido en la configuración básica de almacén y se consolidan para varios pedidos en la configuración avanzada. Para obtener más información acerca de los diferentes niveles de complejidad de almacenes, consulte [Detalles de diseño: Resumen de almacén](design-details-warehouse-setup.md).  
 
-En [!INCLUDE[prod_short](includes/prod_short.md)], los procesos de entrada para recepción y ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
+En [!INCLUDE[d365fin](includes/d365fin_md.md)], los procesos de entrada para recepción y ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
 
 |Método|Proceso de salida|Ubicaciones|Recepciones|Ubicaciones|Nivel de complejidad (consulte [Detalles de diseño: configuración de almacén](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -45,12 +46,12 @@ En [!INCLUDE[prod_short](includes/prod_short.md)], los procesos de entrada para 
 
 La selección de un planteamiento depende de las prácticas aceptadas de la empresa y del nivel de su complejidad organizativa. En un entorno de almacén de pedido por pedido, donde la mayoría del personal de almacén trabaja directamente con documentos de pedido, una empresa puede decidir utilizar el método A. Un almacén de pedido por pedido que tenga procesos de colocación más complejos, o donde haya personal de almacén dedicado para realizar funciones de almacenamiento, se puede decidir separar las funciones de ubicación del documento de pedido, el método B. Además, las empresas que necesitan planificar la gestión de varios pedidos pueden encontrar útil usar documentos de recepción de almacén, los métodos C y D.  
 
-En los métodos A, B y C, las acciones de recepción y ubicación se agrupan en un paso al registrar los documentos correspondientes como recibidos. En el método D, se registra primero la recepción para reconocer la entrada de inventario y que hay productos disponibles para su venta. A continuación, el empleado de almacén registra la ubicación a fin de que los productos estén disponibles para picking.  
+En los métodos A, B y C, las acciones de recepción y ubicación se agrupan en un paso al registrar los documentos correspondientes como recibidos. En el método D, se registra primero la recepción para reconocer la entrada de existencias y que hay productos disponibles para su venta. A continuación, el empleado de almacén registra la ubicación a fin de que los productos estén disponibles para picking.  
 
 ## <a name="basic-warehouse-configurations"></a>Configuración básica de almacén  
 En el diagrama siguiente se ilustran los flujos de almacén de entrada por tipo de documento en la configuración básica de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
-![Flujo de entrada en las configuraciones básicas de almacén.](media/design_details_warehouse_management_inbound_basic_flow.png "Flujo de entrada en las configuraciones básicas de almacén")  
+![Flujo de entrada en las configuraciones básicas de almacén](media/design_details_warehouse_management_inbound_basic_flow.png "Flujo de entrada en las configuraciones básicas de almacén")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Lanzar documento de origen/Crear ubicación de inventario  
 Cuando se reciben productos en el almacén, el usuario responsable de la recepción libera el documento de origen, como, por ejemplo, un pedido de compra o un pedido de transferencia interna, para señalizar a los empleados de almacén que los productos recibidos se pueden guardar en el inventario. El usuario también puede crear mediante envío documentos de ubicación de inventario para líneas de pedido particulares, en función de las ubicaciones especificadas y de las cantidades que gestionar.  
@@ -69,7 +70,7 @@ Se crean movimientos de producto positivos, se crean movimientos de almacén y s
 ## <a name="advanced-warehouse-configurations"></a>Configuración avanzada de almacén  
 En el diagrama siguiente se ilustran los flujos de almacén de entrada por tipo de documento en la configuración avanzada de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
-![Flujo de entrada en las configuraciones avanzadas de almacén.](media/design_details_warehouse_management_inbound_advanced_flow.png "Flujo de entrada en las configuraciones avanzadas de almacén")  
+![Flujo de entrada en las configuraciones avanzadas de almacén](media/design_details_warehouse_management_inbound_advanced_flow.png "Flujo de entrada en las configuraciones avanzadas de almacén")  
 
 ### <a name="1-release-source-document"></a>1: Lanzar documento de origen  
 Cuando se reciben productos en el almacén, el usuario responsable de la recepción libera el documento de origen, como, por ejemplo, un pedido de compra o un pedido de transferencia interna, para señalizar a los empleados de almacén que los productos recibidos se pueden guardar en el inventario.  
@@ -109,6 +110,3 @@ Se crean movimientos de almacén y se eliminan las líneas de ubicación de alma
 
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

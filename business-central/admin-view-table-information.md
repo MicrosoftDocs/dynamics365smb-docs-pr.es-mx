@@ -1,20 +1,19 @@
 ---
 title: Ver información de tabla
-description: Descubra cómo puede ver información sobre las tablas de bases de datos directamente desde la interfaz del cliente en Business Central.
 author: jswymer
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 8700
-ms.date: 06/14/2021
+ms.date: 04/20/2020
 ms.author: jswymer
-ms.openlocfilehash: db1a5ef84d4174b960de6f3e20f7d4e29c8c44c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: de93063a60e6b64405b1491a67489c8bfa4657ad
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133107"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275329"
 ---
 # <a name="viewing-table-information"></a>Visualización de información de tabla
 
@@ -24,7 +23,7 @@ Esta información es útil para solucionar problemas de rendimiento, porque le p
 
 ## <a name="viewing-table-information"></a>Visualización de información de tabla
 
-Para abrir esta página, seleccione el icono ![Buscar página o informe.](media/ui-search/search_small.png "Icono de Buscar por página o informe") , escriba **Información de tabla** y luego elija el enlace relacionado.
+Para abrir esta página, seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono de Buscar por página o informe"), introduzca **Información de tabla** y, a continuación, seleccione el vínculo relacionado.
 
 La siguiente tabla describe la información proporcionada para cada tabla:
 
@@ -40,6 +39,3 @@ La siguiente tabla describe la información proporcionada para cada tabla:
 
 [Inspección de páginas](across-inspect-page.md)  
 [Artículos de rendimiento para desarrolladores](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

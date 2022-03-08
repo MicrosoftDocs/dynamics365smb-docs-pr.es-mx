@@ -2,19 +2,19 @@
 title: Habilitar las próximas funciones de antemano
 description: Aprenda a habilitar funciones opcionales seleccionadas antes de que sean obligatorias.
 author: mikebcMSFT
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
-ms.search.form: 2610
-ms.date: 06/14/2021
+ms.date: 10/01/2020
 ms.author: mikebc
-ms.openlocfilehash: a3cc650067c18da1594e2381413f8dd76966ab3a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5e09c2a07a3259cd44d13b58765f1d522c46d409
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141396"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754019"
 ---
-# <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Habilitar las nuevas y próximas funciones de antemano
+# <a name="enabling-upcoming-features-ahead-of-time"></a>Habilitar las próximas funciones de antemano
 
 Algunas funciones nuevas se pueden habilitar con anticipación, lo que le permite aprovecharlas lo antes posible. La habilitación de funciones pronto le proporciona el tiempo para probar y preparar a su organización para el cambio.
 
@@ -24,7 +24,4 @@ Más información acerca de la [Administración de características](/dynamics36
 
 ## <a name="see-also"></a>Consulte también .
 
-[Características nuevas y planificadas](/dynamics365-release-plan/2021wave1/)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Características nuevas y planificadas](https://aka.ms/Dynamics365ReleasePlan)  

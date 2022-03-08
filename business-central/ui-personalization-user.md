@@ -1,21 +1,21 @@
 ---
-title: Personalizar páginas (contiene vídeo)
-description: Aprenda a personalizar la interfaz de usuario y personalizar el área de trabajo para que se adapte a su forma de trabajar y preferencias personales en Business Central.
+title: Personalización de páginas | Documentos de Microsoft
+description: Aprenda a personalizar la interfaz de usuario para que se adapte a su forma de trabajar en Business Central.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 95ed69baac51d4c343c639e8ddcea2db29520340
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.date: 02/07/2020
+ms.author: sgroespe
+ms.openlocfilehash: 8a0814c8fc275e4324195cddadddafe1683d809f
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334686"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071993"
 ---
 # <a name="personalize-your-workspace"></a>Personalice su área de trabajo
 Puede personalizar su área de trabajo para que se adapte a su trabajo y preferencias cambiando las páginas de modo que muestren únicamente la información que necesite y donde la necesite. Los cambios de personalización que realice solo afectarán a su visualización y no a la de otros usuarios.
@@ -28,11 +28,6 @@ Dependiendo del tipo de página y qué incluye, puede realizar varios cambios, c
 > Los administradores pueden realizar los mismos cambios de diseño que los usuarios al personalizar el espacio de trabajo para un perfil que se asigna a múltiples usuarios. Para obtener más información, consulte [Personalizar las páginas para los roles](ui-personalization-manage.md).<br /><br />
 Los administradores también pueden anular o deshabilitar la personalización de los usuarios y pueden definir qué características están incluso disponibles para que los usuarios las vean en todas las empresas o en empresas específicas. Para obtener más información, consulte [Personalizar Business Central](ui-customizing-overview.md).
 
-## <a name="video-overview"></a>Resumen en vídeo
-El siguiente video muestra algunas de las formas en que puede personalizar su área de tareas.
-
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
-
 ## <a name="to-change-the-width-of-a-column"></a>Para cambiar el ancho de una columna
 Puede cambiar fácilmente el tamaño de las columnas en cualquier lista arrastrando el límite entre dos columnas hacia la izquierda o hacia la derecha.
 1. En la cabecera de una lista, seleccione y arrastre el límite entre dos columnas.
@@ -40,9 +35,9 @@ Puede cambiar fácilmente el tamaño de las columnas en cualquier lista arrastra
 
 En cuanto a otra personalización, los cambios que efectúe en el ancho de columna se almacenan en su cuenta y le siguen sin importar en qué dispositivo inicie sesión.
 
-## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Para empezar a personalizar una página a través del banner **Personalización**
+## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Para personalizar una página a través del banner **Personalización**
 1. Abra cualquier página que quiera personalizar.
-2. En la esquina superior derecha, seleccione el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el Área de tareas") , y luego elija la acción **Personalizar**.
+2. En la esquina superior derecha, seleccione el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el Área de tareas") y, a continuación, elija la acción **Personalizar**.
 
     El banner **Personalización** aparece en la parte superior para indicar que puede empezar a realizar cambios.
 
@@ -65,17 +60,16 @@ En cuanto a otra personalización, los cambios que efectúe en el ancho de colum
 |Ocultar algo, un campo, una columna de la lista, un icono, una acción o una pieza.|Elija la punta de flecha y elija <b>Ocultar</b>.|El elemento aparece en gris cuando está en modo de personalización. Si el campo que oculta también se muestra en el encabezado de la ficha desplegable cuando está contraída, el campo ya no aparecerá allí.|
 |Mostrar acciones y partes ocultas.|Para un elemento atenuado (oculto), elija la punta de flecha y luego elija <b>Mostrar</b>.|El elemento oculto vuelve a estar visible.|
 |Agregar un campo o columna.|En el banner <b>Personalización</b>, elija la acción <b>+ Campo</b>.<br /></br>El panel <b>Agregar campo a página</b> se abre a la derecha. Muestra los campos que se pueden agregar a la página.<br /><br />Para agregar un campo, arrástrelo de panel a la posición que desee. La posición se indica con una fina línea vertical u horizontal.|Cada página incluye un conjunto predefinido de campos que puede mostrar. Siga este procedimiento para agregar campos o columnas que no se han mostrado anteriormente o para mostrar los campos que ha ocultado.|
-|Muestre un campo de la cabecera de una ficha desplegable cuando está contraída.|Elija la punta de flecha y, a continuación, seleccione <b>Mostrar cuando se contrae</b>. <br /> <br />Si no hace ve esta opción, significa que ya está establecida. En este caso, para dejar de mostrar el campo del encabezado de la ficha desplegable, elija <b>Mostrar siempre</b>.|*Ficha desplegable* es el término que se utiliza para un grupo de campos que aparecerán bajo un encabezado común. Utilice la opción <b>Mostrar cuando se contrae</b> para mostrar los campos más importantes. Si selecciona un campo del encabezado, se abrirá la ficha desplegable y con el enfoque en el campo seleccionado.<br /><br />Esta opción solo es aplicable si una página tiene una más de una ficha desplegable. Si hay solo una ficha desplegable, no se puede contraer, por lo que la opción <b>Mostrar cuando se contrae</b> no está disponible.|
+|Mostrar un campo de la cabecera de una ficha desplegable cuando está contraída.|Elija la punta de flecha y, a continuación, seleccione <b>Mostrar cuando se contrae</b>. <br /> <br />Si no hace ve esta opción, significa que ya está establecida. En este caso, para dejar de mostrar el campo del encabezado de la ficha desplegable, elija <b>Mostrar siempre</b>.|*Ficha desplegable* es el término que se utiliza para un grupo de campos que aparecerán bajo un encabezado común. Utilice la opción <b>Mostrar cuando se contrae</b> para mostrar los campos más importantes. Si selecciona un campo del encabezado, se abrirá la ficha desplegable y con el enfoque en el campo seleccionado.<br /><br />Esta opción solo es aplicable si una página tiene una más de una ficha desplegable. Si hay solo una ficha desplegable, no se puede contraer, por lo que la opción <b>Mostrar cuando se contrae</b> no está disponible.|
 |Hacer que un campo se muestre solo cuando seleccione **Mostrar más**.|Elija la punta de flecha y, a continuación, seleccione <b>Mostrar en "Mostrar más"</b>. <br /> <br />Si no ve la opción <b>Mostrar en "Mostrar más"</b>, significa que ya está establecida. En este caso, para que un campo se muestre siempre, no solo al seleccionar **Mostrar más**, elija <b>Mostrar siempre</b>.||
 |Cambiar la inmovilización de panel de una lista a otra columna. |Elija la punta de la flecha de la columna que desee establecer como la última de la inmovilización de panel y, a continuación, elija <b>Establecer inmovilización de panel</b>.<br /><br/>Si desea volver a configurar la inmovilización de panel en su posición original diseñada, elija la punta de flecha para la columna actual y elija <b>Borrar inmovilización de panel</b>. Nota: No puede eliminar la inmovilización de panel.|La inmovilización de panel especifica las columnas que siempre aparecen a la izquierda, incluso durante el desplazamiento horizontal.|  
 |Saltar un campo al presionar Entrar.|Elija la punta de flecha junto al campo, o la cabecera de columna en una lista y seleccione **Excluir de entrada rápida**. <br /><br /> Si no ve esta opción, significa que el campo ya está establecido para saltarlo. En este caso, para dejar de omitir el campo, elija **Incluir en entrada rápida**. |Consulte [Acelerar la entrada de datos con la entrada rápida](ui-enter-data.md#QuickEntry)|
 |Reordenar y eliminar vistas que representan listas filtradas.|Elija la punta de flecha situada junto a una vista y luego elija **Mover**, **Eliminar** u **Ocultar**.|Consulte [Guardar y personalizar vistas de lista](ui-views.md)|  
 |Agregue una nueva acción a una página o informe en su área de tareas.|Desde la página de destino, la página de solicitud de informe o la ventana Avisarme, elija el icono de marcador.|Consulte [Marcar una página o informe en su área de tareas](ui-bookmarks.md)|
-|Siempre empiece una lista como expandida o contraída|Elija el botón Expandir todo o Contraer todo en la esquina superior izquierda de la lista, o elija la acción Expandir todo o Contraer todo en el menú de la primera columna. |Se aplica a las listas jerárquicas contraíbles.|
 
 ## <a name="personalizing-actions"></a><a name="Actions"></a>Personalización de acciones
 
-La personalización le permite decidir qué acciones se mostrarán en las barras de navegación y acciones, así como en las áreas de tareas y dónde se mostrarán. Puede mostrar, ocultar o mover acciones individuales o grupos de acciones. La personalización de las barras de navegación y acciones se hace básicamente de la misma forma que con otros elementos de la interfaz de usuario. Sin embargo, lo que puede realizar con una acción o un grupo depende de dónde se encuentre la acción o el grupo. La mejor forma de averiguarlo es cambiar al modo de personalización y dejar que le guíen las puntas de flecha.
+La personalización le permite decidir qué acciones se mostrarán en la barra de acciones y en las áreas de tareas y dónde se mostrarán. Puede mostrar, ocultar o mover acciones individuales o grupos de acciones. La personalización de la barra de acciones se hace básicamente de la misma forma que con otros elementos de la interfaz de usuario. Sin embargo, lo que puede realizar con una acción o un grupo depende de dónde se encuentre la acción o el grupo. La mejor forma de averiguarlo es cambiar al modo de personalización y dejar que le guíen las puntas de flecha.
 
 Hay un par de términos con los que debería estar familiarizado para entender mejor la personalización de las acciones: *grupo de acciones* y *categoría promocionada*.  
 
@@ -93,9 +87,9 @@ Cuando desee mostrar u ocultar una acción, las opciones situadas debajo de la p
 
 |Opción|Lo que hace|
 |------|------------
-|**Eliminar**|Esta opción aparece si la acción seleccionada también se muestra en otro lugar de la barra de navegación o barra de acciones. Al seleccionar esta opción se elimina la acción de la ubicación seleccionada para que ya no aparezca. La acción o grupo de acciones permanecerá en otros lugares. |
-|**Ocultar**|Esta opción aparece si la acción o el grupo de acciones no se encuentra en otro lugar de la barra de navegación o barra de acciones. Como **Eliminar**, al elegir esta opción se provocará que la acción o el grupo de acciones desaparezca de la barra de navegación o barra de acciones. No obstante, en el modo de personalización, aún se mostrará la acción o el grupo de acciones en la posición actual, excepto que aparece atenuada.|
-|**Mostrar**|Esta opción aparece si la acción o grupo de acciones ha sido previamente ocultada (atenuada). Al elegir esta opción se provocará que la acción o el grupo de acciones aparezca en la barra de navegación o barra de acciones.|
+|**Eliminar**|Esta opción aparece si la acción seleccionada también se muestra en otro lugar de la barra de acciones. Al seleccionar esta opción se elimina la acción de la ubicación seleccionada para que ya no aparezca. La acción o grupo de acciones permanecerá en otros lugares. |
+|**Ocultar**|Esta opción aparece si la acción o el grupo de acciones no se encuentra en otro lugar de la barra de acciones. Como **Eliminar**, al elegir esta opción se provocará que la acción o el grupo de acciones desaparezca de la barra de acciones. No obstante, en el modo de personalización, aún se mostrará la acción o el grupo de acciones en la posición actual, excepto que aparece atenuada.|
+|**Mostrar**|Esta opción aparece si la acción o grupo de acciones ha sido previamente ocultada (atenuada). Al elegir esta opción se provocará que la acción o el grupo de acciones aparezca en la barra de acciones.|
 
 ### <a name="to-move-actions-and-action-groups"></a>Para mover acciones y grupos de acciones
 El lugar donde se pueden soltar acciones o grupos de acciones se indica mediante una línea horizontal entre dos acciones o un borde alrededor de un grupo de acciones. Existen las siguientes limitaciones:
@@ -106,18 +100,6 @@ El lugar donde se pueden soltar acciones o grupos de acciones se indica mediante
 1. Para mover una acción o grupo de acciones, arrástrelo y suéltelo en la posición deseada, igual que hace con los campos y columnas.
 2. Para mover una acción o un grupo de acciones a otro grupo de acciones que está vacío, arrastre la acción o el grupo de acciones al nuevo grupo y colóquelo en el cuadro **Colocar aquí una acción** .
 
-
-## <a name="personalizing-parts"></a><a name="Parts"></a>Personalizar partes
-
-Las partes son áreas de una página que generalmente se componen de múltiples campos, gráficos u otro contenido, y se pueden identificar mediante un borde de color al establecer el foco en la parte. Por ejemplo, una pantalla de inicio del área de tareas tiene varias partes. Debido a su límite bien definido, puede personalizar toda la parte, así como su contenido.
-
-- Para mover una parte, arrástrela y suéltela en la posición deseada. Una línea de color indica las posiciones válidas en la pantalla. Por ejemplo, los cuadros informativos solo se pueden mover junto a otros cuadros informativos en el panel Cuadro informativo.
-- Puede ocultar una parte eligiendo la opción **Ocultar** bajo la punta de flecha.
-- Cuando comience a personalizar o navegue a una nueva página, cualquier parte que esté actualmente oculta aparecerá en la página con imágenes distintivas para indicar que están ocultas. Puede mostrar la parte eligiendo la opción **Mostrar** bajo la punta de flecha.
-
-Puede borrar todos los cambios de personalización que haya realizado en una sola parte seleccionando la opción **Borrar personalización** bajo la punta de flecha de la parte. Borrar la personalización de una parte solo afecta a los cambios en el contenido de la parte, no a la ubicación ni a la visibilidad de la parte en la página.  
-
-
 ## <a name="to-clear-personalization"></a>Para borrar la personalización
 En algún momento, es posible que desee borrar algunos o todos los cambios de personalización que hizo en esta página a lo largo del tiempo.
 
@@ -127,9 +109,9 @@ En algún momento, es posible que desee borrar algunos o todos los cambios de pe
 |Opción|Lo que hace|
 |------|------------
 |**Solo menú de navegación**|Borra cualquier cambio de personalización que haya realizado en el menú de navegación que se comparte en el área de tareas y otras páginas. Esto incluye cualquier acción nueva que se haya agregado como marcador y cualquier cambio en los enlaces y grupos en el menú.|  
-|**Solo acciones**|Borra todos los cambios de personalización que haya realizado en las barras de navegación o acciones en la página.|
-|**Solo campos, columnas y partes**|Borra todos los cambios de personalización que haya realizado en la página excepto los de la barra de navegación o de acciones. Esto incluye cambios en los campos, columnas, piezas e iconos. |
-|**Todo**|Borra todos los cambios de personalización que haya realizado para que se parezca a la original. Esto incluye cambios en las barras de navegación y de acciones, campos, columnas, partes e iconos.|
+|**Solo acciones**|Borra todos los cambios de personalización que haya realizado en la barra de acciones en la página.|
+|**Solo campos, columnas y partes**|Borra todos los cambios de personalización que haya realizado en la página excepto los de la barra de acciones. Esto incluye cambios en los campos, columnas, piezas e iconos. |
+|**Todo**|Borra todos los cambios de personalización que haya realizado para que se parezca a la original. Esto incluye cambios en la barra de acciones, campos, columnas, piezas e iconos.|
 
 ## <a name="additional-points-of-interest"></a>Puntos de interés adicionales
 Para ayudarle a comprender mejor la personalización, le presentamos algunos consejos.
@@ -143,9 +125,6 @@ Para ayudarle a comprender mejor la personalización, le presentamos algunos con
 
 ## <a name="see-also"></a>Consulte también
 [Personalizar páginas para perfiles](ui-personalization-manage.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

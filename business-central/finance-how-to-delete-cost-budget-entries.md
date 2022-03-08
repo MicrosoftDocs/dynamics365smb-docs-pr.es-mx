@@ -1,44 +1,40 @@
 ---
-title: Eliminar movs. ppto. costos
+title: Procedimiento para eliminar movimientos de presupuestos de costos | Documentos de Microsoft
 description: Utilice el proceso Eliminar movs. ppto. costos para anular los movimientos de presupuesto de costos del registro de presupuestos de costos.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1115
-ms.date: 04/01/2021
+ms.search.keywords: ''
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1d6d920e4259752a25dd73c4b10a84e09334f78e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d26bba0cf0bd273d981e7bc83f06a7bd53216637
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138028"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784193"
 ---
 # <a name="delete-cost-budget-entries"></a>Eliminar movs. ppto. costos
-
 Utilice el proceso **Eliminar movs. ppto. costos** para anular los movimientos de presupuesto de costos del registro de presupuestos de costos.  
 
 Para evitar cualquier discontinuidad en movimientos de presupuesto de costos y movimientos de registro de costos, no puede eliminar un único movimiento o sección de movimientos del centro de la lista de los movimientos de registro.  
 
-## <a name="to-delete-a-cost-budget-entry"></a>Para eliminar movimientos de presupuesto de costos  
+### <a name="to-delete-a-cost-budget-entry"></a>Para eliminar movimientos de presupuesto de costos  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Eliminar movs. ppto. costos** y, luego, elija el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Eliminar movs. ppto. costos** y luego elija el enlace relacionado.  
 
     El campo **Hasta nº registro** contiene siempre el último número de movimiento de registro, que no se puede cambiar.  
 
     Puede usar el campo **Desde nº registro** para seleccionar un número de movimiento de registro del que debe iniciar la eliminación.  
-2. Elija el botón **ACEPTAR** para eliminar los movimientos de presupuestos de costos seleccionados.  
+2.  Elija el botón **ACEPTAR** para eliminar los movimientos de presupuestos de costos seleccionados.  
 
 > [!NOTE]  
-> Para evitar una eliminación accidental de los movimientos de presupuesto de costo, puede cerrar movimientos de registro marcando las líneas como **Cerrado** en el campo **Cerrado** en la página **Registro de presupuesto de costos**.  
+>  Para evitar una eliminación accidental de los movimientos de presupuesto de costo, puede cerrar movimientos de registro marcando las líneas como **Cerrado** en el campo **Cerrado** en la página **Registro de presupuesto de costos**.  
 
-## <a name="see-also"></a>Consulte también
-
+## <a name="see-also"></a>Consulte también  
 [Contabilidad para costos](finance-manage-cost-accounting.md)
 [Crear presupuesto costo](finance-create-cost-budgets.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

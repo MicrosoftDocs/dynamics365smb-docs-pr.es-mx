@@ -1,21 +1,22 @@
 ---
-title: Transferir datos desde una aplicación de QuickBooks
+title: Transferir datos desde una aplicación de QuickBooks | Documentos de Microsoft
 description: Puede migrar datos como clientes, proveedores, productos de inventario y cuentas de las aplicaciones de QuickBooks a Business Central.
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
-ms.search.form: 1808
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9e8f24712efe1c6902d83e3c454d5c90209629c3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8d680d80dca8fae08ef4ecf5d88c97f983b47167
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134072"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754278"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Cambiar de una aplicación de QuickBooks a Dynamics 365 Business Central
 Cada vez más empresas en crecimiento están cambiando de aplicaciones de finanzas como QuickBooks Desktop y QuickBooks Online, que están diseñadas para empresas emergentes y otras pequeñas empresas, a [!INCLUDE[prod_short](includes/prod_short.md)], que también admite organizaciones más grandes y complejas. 
@@ -31,11 +32,8 @@ Para obtener más información, consulte sobre la extensión que se adapta a la 
 * [Extensión de migración de datos de QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
 
 ## <a name="ready-now"></a>¿Listo ahora?
-Si está listo para comenzar ahora, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida** y luego elija el enlace relacionado. Seleccione **Migrar los datos empresariales** y, a continuación, siga los pasos en la guía.
+Si está preparado para empezar ahora, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), ingrese la **Configuración asistida** y, a continuación, haga clic en el vínculo relacionado. Seleccione **Migrar los datos empresariales** y, a continuación, siga los pasos en la guía.
 
 ## <a name="see-also"></a>Consulte también
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Personalizar Business Central con extensiones](ui-extensions.md)   
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

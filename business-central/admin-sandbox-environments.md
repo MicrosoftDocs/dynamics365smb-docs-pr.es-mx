@@ -2,27 +2,25 @@
 title: Ambientes de espacio aislado
 description: Obtenga información sobre cómo un ambiente dedicado puede ayudarle a explorar, aprender, hacer demostraciones, desarrollar, solucionar problemas y probar Business Central de forma segura.
 author: SusanneWindfeldPedersen
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 12/20/2021
+ms.date: 07/27/2021
 ms.author: solsen
-ms.openlocfilehash: 1a80e5ba3fb54d618334f65de452984dc3c1c356
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: db390d1f4ee690b9e461bfccd77155ec0b66a2b6
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142482"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589620"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Ambientes de espacio aislado en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Con [!INCLUDE[prod_short](includes/prod_short.md)] en línea, puede obtener fácilmente un entorno seguro donde puede probar, formar o solucionar problemas sin alterar los procesos de trabajo o los datos de negocio de su empresa. Tal entorno de no producción se llama *entorno aislado*. Aislado de la producción, un entorno aislado es el lugar para explorar, aprender, demostrar, desarrollar y probar el servicio de forma segura sin el riesgo de afectar los datos y la configuración de su entorno de producción.  
-
-> [!TIP]
-> ¿Llegó a este artículo después de elegir el nombre de su entorno de [!INCLUDE [prod_short](includes/prod_short.md)] en la barra superior? Actualmente, no puede cambiar el nombre o el entorno de esa manera. En su lugar, debe pedirle a su administrador que cambie el nombre o pedirle que comparta el vínculo a otro entorno.
 
 Su administrador gestiona los ambientes de espacio aislado en el [centro de administracion](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json).  
 

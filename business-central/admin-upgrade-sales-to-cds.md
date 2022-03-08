@@ -1,48 +1,41 @@
 ---
-title: Actualización de una integración con Dynamics 365 Sales
-description: Este tema explica cómo mover su integración de Dynamics 365 Business Central con Dynamics 365 Sales a la última versión.
+title: Actualización de una integración con Dynamics 365 Sales | Microsoft Docs
+description: Obtenga información sobre cómo preparar Dynamics 365 Business Central para integrarse con Dynamics 365 Sales.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 06/14/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 977238383e7f4e4745e48a1966fe7714125406eb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 95098397bd9554be6c993b6107963eba9a99c067
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148809"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196928"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Actualización de una integración con Dynamics 365 Sales
-[!INCLUDE[prod_short](includes/prod_short.md)] se integra con [!INCLUDE[prod_short](includes/cds_long_md.md)], lo que facilita la conexión y sincronización de datos con otras aplicaciones de Dynamics 365, como [!INCLUDE[crm_md](includes/crm_md.md)], o incluso aplicaciones que crea usted mismo. Si está integrando por primera vez, le recomendamos que lo haga a través de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Para obtener más información, vea [Integración con Dataverse](admin-common-data-service.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] también se integra con [!INCLUDE[d365fin](includes/cds_long_md.md)], lo que facilita la conexión y sincronización de datos con otras aplicaciones de Dynamics 365, como [!INCLUDE[crm_md](includes/crm_md.md)], o incluso aplicaciones que crea usted mismo. Si está integrando por primera vez, le recomendamos que lo haga a través de [!INCLUDE[d365fin](includes/cds_long_md.md)]. Para obtener más información, vea [Integración con Common Data Service](admin-common-data-service.md).
 
-Si ya ha integrado [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[prod_short](includes/prod_short.md)], puede continuar sincronizando datos utilizando su configuración. Sin embargo, si actualiza [!INCLUDE[prod_short](includes/prod_short.md)] o desactiva la integración de [!INCLUDE[crm_md](includes/crm_md.md)], para activarla de nuevo debe conectarse a través de [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
+Si ya ha integrado [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[d365fin](includes/d365fin_md.md)], puede continuar sincronizando datos utilizando su configuración. Sin embargo, si actualiza [!INCLUDE[d365fin](includes/d365fin_md.md)] o desactiva la integración de [!INCLUDE[crm_md](includes/crm_md.md)], para activarla de nuevo debe conectarse a través de [!INCLUDE[d365fin](includes/cds_long_md.md)]. 
 
 > [!NOTE]
-> La reconexión a través de [!INCLUDE[prod_short](includes/cds_long_md.md)] aplicará la configuración de sincronización predeterminada y sobrescribirá cualquier configuración que tenga. Por ejemplo, se aplicarán las asignaciones de tabla predeterminadas.
+> La reconexión a través de [!INCLUDE[d365fin](includes/cds_long_md.md)] aplicará la configuración de sincronización predeterminada y sobrescribirá cualquier configuración que tenga. Por ejemplo, se aplicarán las asignaciones de tabla predeterminadas.
 
-## <a name="to-upgrade-your-connection-to-use-dataverse"></a>Para actualizar su conexión para usar Dataverse
-1. Abra la página **Configuración de conexión de Microsoft Dynamics 365** y desactive **Habilitado**. Luego cierre la página para desconectarse de [!INCLUDE[crm_md](includes/crm_md.md)].
-2. Abre la página **Configuración de conexión de Dataverse** y en el campo **Modelo de propiedad**, elija **Persona**. Luego elija el botón de alternancia **Habilitado** para activar la conexión con [!INCLUDE[prod_short](includes/cds_long_md.md)].
-  
-   > [!NOTE]
-   > Después de habilitar la conexión, la solución de integración base de Business Central se implementa en Dataverse.
-4. En la página **Configuración de conexión de Microsoft Dynamics 365**, elija **Volver a implementar la solución de integración** para volver a instalar la solución de integración de Business Central.
-5. Active el botón de alternancia **Habilitado** para volver a conectarse a [!INCLUDE[crm_md](includes/crm_md.md)].
-  
-   > [!NOTE]
-   > Después de habilitar la conexión, la solución de integración base de Business Central se implementa en [!INCLUDE[prod_short](includes/prod_short.md)]. Esto permite la integración con tablas que son específicas de [!INCLUDE[crm_md](includes/crm_md.md)], como órdenes de venta, cotizaciones y facturas.
+## <a name="to-upgrade-your-connection-to-use-common-data-service"></a>Para actualizar su conexión para usar Common Data Service
+1. Abra la página **Configuración de conexión de Microsoft Dynamics 365** y elija **Habilitar** para desactivar la conexión existente con [!INCLUDE[crm_md](includes/crm_md.md)].
+2. Abra la página **Configuración de conexión de Common Data Service** y elija **Habilitar** para activar la conexión.
+3. Después de habilitar la conexión CDS, la solución de integración base de CDS de Business Central se implementa en Common Data Service.
+4. En la página Configuración de conexión de Microsoft Dynamics 365, elija Habilitar para activar la conexión a [!INCLUDE[crm_md](includes/crm_md.md)].
+5. Después de habilitar la conexión a Sales, la solución de integración de Business Central se implementa en Sales. Esto permite la integración con entidades que son específicas de [!INCLUDE[crm_md](includes/crm_md.md)], como órdenes de venta, cotizaciones y facturas.
 6. En la página **Configuración de conexión de Sales**, elija **Usar configuración de sincronización predeterminada** para inicializar las asignaciones de tablas de integración para [!INCLUDE[crm_md](includes/crm_md.md)].
-
-   > [!IMPORTANT]
-   > El uso de la acción **Usar la configuración de sincronización predeterminada** aplicará las asignaciones predeterminadas de la tabla de integración. Se sobrescribirán todas las asignaciones personalizadas. Si tiene asignaciones personalizadas que desea conservar, le recomendamos que las exporte a Excel o hable con su socio de Microsoft sobre otras formas de mantener sus asignaciones personalizadas.    
+7. Ahora elija **Volver a implementar la solución de integración** para instalar y configurar la Solución de integración de Business Central actualizada.
 
 ## <a name="see-also"></a>Consulte también
 [Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-[Integración con Microsoft Dataverse](admin-common-data-service.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Integración con Common Data Service](admin-common-data-service.md)

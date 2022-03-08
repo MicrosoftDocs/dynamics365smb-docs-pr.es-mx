@@ -2,19 +2,20 @@
 title: Inicio rápido de Business Central
 description: Empiece a utilizar Business Central con consejos de los artículos de Inicio rápido que lo ayudarán a rellenar los primeros campos críticos.
 author: jill-kotel-andersson
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
-ms.author: edupont
-ms.openlocfilehash: ee2f9f6989e2f2c5142397a171b0709fb2e9b087
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.author: a-jillk
+ms.openlocfilehash: 810888552252f06ab4b05931b408b4489409a80b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147529"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589618"
 ---
 # <a name="business-central-quick-starts"></a>Inicio rápido de Business Central
 
@@ -29,14 +30,14 @@ El primer paso es proporcionar la información básica sobre su empresa. Esto in
 <!--
 ## Financial Basics
 
-Financial Information  
+[Financial Information](quick-start-financial-information.md)  
 (chart of accounts, but explained for non-accountants)
 -->
 
 <!--
 ## Basic Reports and Output Documents
 
-Reports and Documents  
+[Reports and Documents](quick-start-reports-and-documents.md)  
 (final reports, but also documents - how do I style invoices to work better for me?)
 -->
 
@@ -59,7 +60,7 @@ Para saber cómo comprar productos y servicios, consulte el artículo [Inicio r�
 <!--
 ## Understand Your Business with Business Intelligence
 
-Business Intelligence  
+[Business Intelligence](quick-start-business-intelligence.md)  
 (reports)
 -->
 

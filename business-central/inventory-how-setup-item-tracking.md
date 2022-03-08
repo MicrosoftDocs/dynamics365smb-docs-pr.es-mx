@@ -2,6 +2,7 @@
 title: Configurar el seguimiento de productos con números de serie, de lote y de paquete
 description: Configurar el seguimiento de productos con números de serie, de lote y de paquete
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: ae490b4694aaa852962968cb80fef9f770767a57
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c6bfeeadda01ee82981f40eb49431fc6d40aebbc
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141058"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482528"
 ---
 # <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Configurar el seguimiento de productos con números de serie, de lote y de paquete
 
@@ -43,7 +44,7 @@ Un código de seguimiento de producto refleja las distintas consideraciones que 
 > [!NOTE]  
 > Si desea rastrear elementos específicos o lotes específicos a lo largo de su vida útil, debe elegir los campos **Seguim. NS específ.** y **Seguim. lote específ.**, respectivamente. Como resultado, al manejar una unidad de salida de un artículo con este código de seguimiento de artículos, siempre debe especificar qué número de serie existente o qué número de lote existente debe gestionar. Esto significa que al vender una unidad del producto, debe aplicarse con un grupo específico de números de serie o de lote en inventario. Es decir, un número de serie o de lote asignado al producto cuando entra en el inventario debe seguir hasta que sale del mismo.
 
-Ya que este campo cubre todas las transacciones posibles con el producto, los campos de entrada y salida individuales también estarán seleccionados. No obstante, no hay que hacer nada con los campos de entrada y salida individuales en el inventario, ya que solo definen el flujo de trabajo de su empresa cuando se asignan números de seguimiento de producto.  
+Ya que este campo cubre todas las transacciones posibles con el producto, los campos de entrada y salida individuales también estarán seleccionados. No obstante, no hay que hacer nada con los campos de entrada y salida individuales en las existencias, ya que sólo definen el flujo de trabajo de su empresa cuando se asignan números de seguimiento de producto.  
 
 > [!NOTE]  
 >  Para asignar números de seguimiento de producto en las actividades de almacén, los campos de verificación **Seguim. nº serie almacén** y **Control lote almacén** se deben seleccionar en la ficha del código del seguimiento del producto.  

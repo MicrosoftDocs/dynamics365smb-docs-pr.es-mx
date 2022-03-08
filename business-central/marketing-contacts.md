@@ -1,27 +1,28 @@
 ---
-title: Crear y gestionar contactos de empresas
+title: Crear y administrar contactos de empresa | Documentos de Microsoft
 description: Puede configurar todas las entidades externas con las que mantenga una relación de negocio (por ejemplo clientes potenciales, clientes, proveedores y consultores) como contactos.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 815b4c406b203e32a0d424a2ecf76f7aa0564662
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 05/02/2019
+ms.author: sgroespe
+ms.openlocfilehash: 407470afdca7a4e8b0e3cb2d2095903353e5d5b9
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131494"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446956"
 ---
 # <a name="managing-contacts"></a>Gestionar contactos
+Cada grupo de su empresa mantiene relaciones de negocio con diferentes empresas. Por ejemplo, un vendedor podría visitar regularmente a clientes potenciales y registrar los resultados de estas visitas al finalizar la semana.
 
-Los empleados de su empresa se reúnen periódicamente con posibles relaciones de negocio que pueden convertirse en relaciones formales. Todos estos contactos externos y su información detallada deben registrarse en el sistema para que la comunicación sea más satisfactoria y puedan convertirse fácilmente en relaciones formales con clientes, proveedores o bancos.
-
-Utilice la lista **Contactos** para administrar sus contactos. A partir de ahí, puede crear oportunidades y administrar otras interacciones con contactos individuales. También puede ver estadísticas sobre un contacto y puede acceder a diversos informes. Para obtener información sobre cómo encontrar el contacto correcto en la lista, consulte [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md).  
+Debe registrar como contactos todas las entidades externas con las que mantenga relaciones de negocio (por ejemplo, clientes, clientes potenciales, proveedores, abogados y consultores). De este modo, al registrar los datos en una ubicación central, se asegura de que todos los grupos de su empresa puedan ver y utilizar esta información de forma eficaz. La comunicación con sus contactos será más satisfactoria si todos los detalles están fácilmente accesibles. Por ejemplo, podría ocurrir que una persona del departamento de marketing quiera saber qué otros productos ha adquirido un determinado cliente antes de proporcionarle información sobre un nuevo producto.
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
@@ -33,10 +34,5 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Resolver la confusión cuando existen dos o más registros para el mismo contacto.|[Combinar registros duplicados](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Consulte también
-
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
-[Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)  
 [Trabajar con Business Central](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

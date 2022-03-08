@@ -2,19 +2,20 @@
 title: Exportar e importar flujos de trabajo | Documentos de Microsoft
 description: Para transferir flujos de trabajo a otras bases de datos de Business Central, por ejemplo, para ahorrar tiempo al crear nuevos flujos de trabajo, puede exportar e importar flujos de trabajo.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 70a39d8d80ff5ca36953bea3923e4adbcbbca0d3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4d11bc57066c0124bcb004894ed6b2c9dc4b812e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136541"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754778"
 ---
 # <a name="export-and-import-workflows"></a>Importar y exportar flujos de trabajo
 Para transferir flujos de trabajo a otras bases de datos de [!INCLUDE[prod_short](includes/prod_short.md)], por ejemplo, para ahorrar tiempo al crear nuevos flujos de trabajo, puede exportar e importar flujos de trabajo.  
@@ -24,13 +25,13 @@ Para transferir flujos de trabajo a otras bases de datos de [!INCLUDE[prod_short
  En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una lista de los pasos utilizados en las líneas. Cada paso consta de un evento del flujo de trabajo, moderado por condiciones de evento, y una respuesta de flujo de trabajo, moderada por las opciones de respuesta. Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación. Para obtener más información, consulte [Crear flujos de trabajo](across-how-to-create-workflows.md).  
 
 ## <a name="to-export-a-workflow"></a>Para exportar un flujo de trabajo  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
 2.  Seleccione un flujo de trabajo y, a continuación, la acción **Exportar a archivo**.  
 3.  En la página **Exportar archivo**, elija el botón **Guardar**.  
 4.  En la página **Exportar**, seleccione una ubicación de archivo y elija el botón **Guardar**.  
 
 ## <a name="to-import-a-workflow"></a>Para importar un flujo de trabajo  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
 2.  Elija la acción **Importar desde archivo**.  
 3.  En la página **Importar**, seleccione el archivo XML que contiene el flujo de trabajo y elija el botón **Abrir**.  
 
@@ -46,6 +47,3 @@ Para transferir flujos de trabajo a otras bases de datos de [!INCLUDE[prod_short
  [Configuración de flujos de trabajo](across-set-up-workflows.md)   
  [Uso de flujos de trabajo](across-use-workflows.md)   
  [Flujo de trabajo](across-workflow.md)   
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

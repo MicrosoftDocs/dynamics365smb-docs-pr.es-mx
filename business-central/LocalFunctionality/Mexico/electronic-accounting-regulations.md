@@ -1,20 +1,23 @@
 ---
 title: Regulaciones electrónicas de la contabilidad en México
-description: En este tema puede conocer cómo Business Central lo ayuda a cumplir con los requisitos de contabilidad electrónica en México.
+description: Conozca cómo Business Central lo ayuda a cumplir con los requisitos de contabilidad electrónica en México.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/18/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 85103a453fcfdc34fe35a8fcb44672b2306654de
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3356a2e0ce77e74655bb905127392715ab69aab7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145095"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301289"
 ---
 # <a name="complying-with-electronic-accounting-regulations-in-mexico"></a>Cumplimiento con las regulaciones electrónicas de la contabilidad en México
 En México, los individuos y las empresas deben hacer su contabilidad electrónicamente y enviar sus resultados mensuales al Servicio de Administración Tributaria de México (SAT) como archivos XML separados al final de cada mes. Los archivos XML deben contener lo siguiente:
@@ -39,11 +42,8 @@ Para el archivo que contiene transacciones de diario:
 * En la página **Método de pago**, en el campo **Método de pago SAT** debe especificar cómo se realizó el pago.
 
 ## <a name="to-generate-the-xml-files"></a>Para generar los archivos XML
-1. Elija el icono ![Bombilla que abre la función Dígame, escriba Configuración asistida.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Exportar contabilidad electr.** y, a continuación, elija el vínculo relacionado.
+1. Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Exportar contabilidad eléct.** y, a continuación, seleccione el vínculo relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Consulte también
 [Funcionalidad local de México](mexico-local-functionality.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

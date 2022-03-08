@@ -1,19 +1,21 @@
 ---
-title: Acerca del cálculo de costo estándar
-description: Un sistema de costos estándar determina el costo unitario del inventario en función de costos históricos o esperados razonables.
+title: Acerca de Calcular el costo estándar para más detalles | Documentos de Microsoft
+description: Un sistema de costos estándar determina el costo unitario del inventario en función de ciertos costos históricos o esperados razonables. Los estudios sobre costos anteriores y sobre costos futuros previstos pueden ofrecer una base para calcular costos estándar.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5841
-ms.author: edupont
-ms.openlocfilehash: cdb1ff4581e8e2b79f9e2dd015426ee9719e38e6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 22036b98d787a8515ddf147a0006af1b35d814a4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149164"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306495"
 ---
 # <a name="about-calculating-standard-cost"></a>Acerca del cálculo de costo estándar
 Muchas empresas de fabricación eligen una base de valuación de costo estándar. Esto también se aplica a las empresas que llevan a cabo la fabricación ligera, como ensamblado y kitting. Un sistema de costos estándar determina el costo unitario del inventario en función de ciertos costos históricos o esperados razonables. Los estudios sobre costos anteriores y sobre costos futuros previstos pueden ofrecer una base para calcular costos estándar. Dichos costos quedan fijos hasta que se tome la decisión de cambiarlos. El costo real para fabricar un producto puede ser diferente de los costos estándar calculados. Para controlar la gestión, el costo real se compara con el costo estándar de un producto en particular, y se identifican y analizan las diferencias o *variaciones*.  
@@ -31,23 +33,22 @@ Dado que el costo estándar de un producto fabricado o ensamblado puede incluir 
 
 La tarea contable que debe llevar a cabo una empresa de producción que utilice un sistema de costos estándar es:  
 
-- Calcular un costo estándar del producto acabado y configurarlo en la ficha respectiva.  
-- Registrar y asignar el costo real de los elementos de costo clave y considerar las variaciones.  
+-   Calcular un costo estándar del producto acabado y configurarlo en la ficha respectiva.  
+-   Registrar y asignar el costo real de los elementos de costo clave y considerar las variaciones.  
 
 Para determinar el costo directo de un producto acabado, es necesario totalizar los costos de todos los componentes. Un producto ensamblado o fabricado puede incluir subensamblados, que también constan de varios componentes.  
 
 Los elementos de costo claves siguientes conforman el costo directo total de un producto procesado acabado:  
 
-- Costos de materiales.  
-- Costos de capacidad.  
-- Costos de subcontratistas para los productos fabricados solo.  
+-   Costos de materiales.  
+-   Costos de capacidad.  
+-   Costos de subcontratistas para los productos fabricados solo.  
 
-### <a name="material-costs"></a>Costos de materiales
+### <a name="material-costs"></a>Costos de materiales  
+ Los costos de materiales son aquellos que se asocian con productos semiterminados y materias prima que se hayan comprado. El costo unitario del material puede estar compuesto por elementos de costo directos e indirectos.  
 
-Los costos de materiales son aquellos que se asocian con productos semiterminados y materias prima que se hayan comprado. El costo unitario del material puede estar compuesto por elementos de costo directos e indirectos.  
-
-- El costo directo del material representa la cantidad facturada por las materias primas que se hayan comprado o por el costo de procesamiento de un producto semiterminado.  
-- El costo indirecto del material, o *costos generales*, puede representar elementos tales como costos de merma de inventario del producto acabado después de producido.  
+-   El costo directo del material representa la cantidad facturada por las materias primas que se hayan comprado o por el costo de procesamiento de un producto semiterminado.  
+-   El costo indirecto del material, o *costos generales*, puede representar elementos tales como costos de merma de inventario del producto acabado después de producido.  
 
 La configuración del costo de materiales para los productos comprados que afectan los costos directos e indirectos depende del método de valoración que haya seleccionado para el producto en cuestión. Puede configurar la información relativa al costo para cualquiera de los métodos en la ficha de producto. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
@@ -65,13 +66,13 @@ Los costos de capacidad son aquellos que están asociados con la mano de obra in
 
 En la configuración de los costos de capacidad de los productos ensamblados, están implicados los siguientes elementos:  
 
-- Costo unitario directo e indirecto del recurso.  
-- Tipo fijo o directo de utilización de recursos.  
+-   Costo unitario directo e indirecto del recurso.  
+-   Tipo fijo o directo de utilización de recursos.  
 
 En la configuración de los costos de capacidad de los productos fabricados, están implicados los siguientes elementos:  
 
-- Costo unitario directo e indirecto del centro de trabajo o de máquina.  
-- La configuración del tiempo y del tamaño del lote.  
+-   Costo unitario directo e indirecto del centro de trabajo o de máquina.  
+-   La configuración del tiempo y del tamaño del lote.  
 
 Para calcular el costo de capacidad estándar, deberá establecer cuáles son las tiempos estándar requeridos para llevar a cabo las operaciones con las máquinas y los trabajos en los centros. Normalmente, el tiempo total necesario para completar una operación consta del tiempo de preparación, de ejecución, y de espera y traslado.  
 
@@ -96,7 +97,7 @@ El proceso de actualizar o calcular los costos estándar normalmente consiste en
 
 1.  Actualización de los costos a nivel de los componentes y de la capacidad. Para obtener más información, consulte los procesos **Sugerir costo estándar prod.** y **Sugerir costo estándar capacidad**.  
 2.  Consolidación y distribución de los costos de componentes y de capacidad para calcular el costo total de fabricación o montaje de los productos. Para obtener más información, consulte la sección [Para calcular el costo estándar de un producto de ensamblado](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
-3.  La implementación de los costos estándar que se introducen al ejecutar los procesos por lotes anteriores. Los costos estándar no tienen efecto hasta que se implementan. Use la tarea por lotes **Implementar cambios de costo estándar** que actualiza los cambios de costo estándar en los artículos con aquellos incluidos en la tabla Hoja de trabajo de costo estándar.  
+3.  La implementación de los costos estándar que se introducen al ejecutar los procesos por lotes anteriores. Los costos estándar no tienen efecto hasta que se implementan. Para obtener más información, consulte el proceso **Implementar cambios de costo estándar**.  
 4.  Implementación de los cambios para actualizar el campo **Costo unitario** en la ficha del producto y realizar una revaluación de inventario. Para obtener más información, vea [Revaluación de inventario](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Consulte también  
@@ -104,6 +105,3 @@ El proceso de actualizar o calcular los costos estándar normalmente consiste en
  [Trabajar con listas de materiales](inventory-how-work-BOMs.md)   
  [Actualizar costos estándar](finance-how-to-update-standard-costs.md)   
  [Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

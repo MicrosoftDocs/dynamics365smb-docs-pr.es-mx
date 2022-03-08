@@ -2,19 +2,20 @@
 title: Resumen de informes para preparar los extractos de cierre | Documentos de Microsoft
 description: Proporciona un resumen de los informes que puede utilizar para recopilar la información necesaria para preparar los extractos de cierre de su empresa cuando cierre el ejercicio.
 author: jswymer
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: e9eb5243541cdd365aa6a92b1278f38da531ed54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 319ab4ec1f56be84bf3045567f4ca1cfe280c1d5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141832"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391885"
 ---
 # <a name="preparing-closing-statements"></a>Preparación de extractos de cierre
 Existen numerosos informes estándar que puede utilizar para recopilar la información necesaria para preparar las declaraciones de cierre de su empresa.
@@ -31,7 +32,7 @@ La tabla siguiente describe diversos informes que pueden ayudar en este proceso.
 | Imprimir una estructura de cuentas para analizar cifras en cuentas de contabilidad o comparar los movimientos de contabilidad reales con los presupuestados. |**Estructura cuentas** |
 | Comprobar si los movimientos de clientes y proveedores cuadran con los movimientos correspondientes de la contabilidad. |**Reconc. ctas. client./prov.** |
 
-Para ver un informe, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba el nombre tal como aparece en la tabla y luego elija el enlace relacionado.
+Para ver informe, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba el nombre como aparece en la tabla y, a continuación, elija el vínculo relacionado.
 
 ## <a name="see-also"></a>Consulte también
 [Cerrar años y periodos](year-close-years-periods.md)  
