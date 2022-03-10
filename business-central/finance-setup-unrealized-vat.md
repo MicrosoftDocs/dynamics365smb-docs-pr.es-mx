@@ -1,32 +1,35 @@
 ---
-title: Configuración el impuesto sobre el valor añadido no realizado | Documentos de Microsoft
+title: Configuración del impuesto sobre el valor añadido no realizado
 description: Si utiliza contabilidad basada en efectivo, puede especificar cómo gestionar el IVA no realizado para venta y compras.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.date: 10/01/2019
+ms.search.form: 118, 472, 473
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1a2d0fa994638fed9c0b46508e80c3b0443a9c58
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2f57799d0c0bf8f238745107cccd6c9694c7ea16
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301671"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137976"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Configurar el IVA no realizado para la contabilidad basada en efectivo
-Si utiliza métodos de contabilidad basada en efectivo, puede configurar [!INCLUDE[d365fin](includes/d365fin_md.md)] para gestionar el IVA no realizado.
+
+Si utiliza métodos de contabilidad basada en efectivo, puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para gestionar el IVA no realizado.
 
 ## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Usar las cuentas de contabilidad para el IVA no realizado
+
 Puede elegir que los importes de IVA se calculen y registren en una cuenta temporal al registrar una factura y que, a continuación, se registren en la cuenta correcta y se incluyan en las declaraciones de IVA cuando se registre el pago real de la factura. Antes de poder hacerlo, deberá configurar los grupos de registro de IVA.
 
 Para utilizar cuentas para IVA no realizado, realice los pasos siguientes:
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") y escriba **Configuración de contabilidad**.
+
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") y entre en **Configuración de contabilidad**.
 2. En la página **Configuración de contabilidad**, active la casilla **IVA no realizado**.
-3. Elija el icono **Buscar por página o informe** ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer") y escriba **Config. tipo reg. IVA**.
+3. Elija el icono **Buscar por página o informe** ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") y escriba **Config. tipo reg. IVA**.
 4. En la página **Config. grupos registro IVA**, seleccione el grupo de registro de IVA y después seleccione la acción **Editar**.
 5. En el campo **Tipo IVA no realizado** elija una opción para especificar cómo se asignan los pagos al importe de la factura (excluyendo el IVA) y el importe del mismo IVA y cómo transferir los importes del IVA desde la cuenta del IVA no realizado a la cuenta de realizado. La siguiente tabla describe las opciones.
 
@@ -49,4 +52,6 @@ Para utilizar cuentas para IVA no realizado, realice los pasos siguientes:
 > El importe de IVA se registrará en esta cuenta y permanecerá hasta que se registre el pago del cliente. A continuación, el importe se transfiere a la cuenta para el IVA soportado.
 
 ## <a name="see-also"></a>Consulte también
-[Configuración del impuesto sobre el valor añadido](finance-setup-vat.md)
+[Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

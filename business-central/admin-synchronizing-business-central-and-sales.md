@@ -2,23 +2,22 @@
 title: Sincronización e integración de datos | Documentos de Microsoft
 description: La sincronización copia los datos entre las tablas de Microsoft Dataverse y los registros de Business Central, y mantiene actualizados los datos de ambos sistemas.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 83de0f6eb46921afdb4e69fbbe5260670a7fdbbc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ceef56f1b951b5c9f1621d463276ec1d22c44da4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755120"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148835"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Sincronización de datos en Business Central con Microsoft Dataverse
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Cuando integra [!INCLUDE[prod_short](includes/cds_long_md.md)] con [!INCLUDE[prod_short](includes/prod_short.md)], puede decidir si desea sincronizar los datos de campos seleccionados de [!INCLUDE[prod_short](includes/prod_short.md)] (como clientes, contactos y personal de ventas) con las filas equivalentes en [!INCLUDE[prod_short](includes/cds_long_md.md)] (como cuentas, contactos y usuarios). Dependiendo del tipo de fila, puede sincronizar datos de [!INCLUDE[prod_short](includes/cds_long_md.md)] a [!INCLUDE[prod_short](includes/prod_short.md)], o viceversa. Para obtener más información, vea [Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
@@ -39,6 +38,10 @@ Cuando la sincronización está configurada, puede emparejar filas de [!INCLUDE[
 ||Sincronización completa de todos los datos para todas las asignaciones de tablas.<br /><br /> Puede sincronizar todos los datos de las tablas de [!INCLUDE[prod_short](includes/prod_short.md)] y tablas de [!INCLUDE[prod_short](includes/cds_long_md.md)] asignadas y crear nuevos registros en la solución de destino para los registros o filas desemparejados en la solución de origen.<br /><br /> La sincronización completa sincroniza todos los datos y omite el emparejamiento. Normalmente, se realiza una sincronización completa cuando se configura la integración y solo una de las soluciones contiene datos. Una sincronización completa también puede ser útil en un entorno de demostración.|[Ejecutar una sincronización completa](admin-manual-synchronization-of-table-mappings.md#run-a-full-synchronization)|  
 |Sincronización programada|Sincronizar todos los cambios en datos para todas las asignaciones de tablas.<br /><br /> Puede sincronizar [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[prod_short](includes/cds_long_md.md)] en intervalos programados configurando proyectos en la cola de proyectos.|[Programar una sincronización](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
 
+> [!NOTE]
+> La sincronización entre [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[prod_short](includes/prod_short.md)] se basa en la ejecución programada de las entradas de la cola de trabajos y no garantiza la coherencia de los datos en tiempo real entre dos servicios. Para obtener coherencia de datos en tiempo real, debe explorar [Mesas virtuales de Business Central](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) o API de Business Central.   
+
+
 ## <a name="standard-table-mapping-for-synchronization"></a>Asignación de tablas estándar para la sincronización
 Las tablas en [!INCLUDE[prod_short](includes/cds_long_md.md)], como las cuentas, se integran con tipos equivalentes de tablas en [!INCLUDE[prod_short](includes/prod_short.md)], como los clientes. Para trabajar con datos de [!INCLUDE[prod_short](includes/cds_long_md.md)] se establecen vínculos, llamados emparejamientos, entre tablas en [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
@@ -52,9 +55,11 @@ La siguiente tabla enumera la asignación estándar entre tablas en [!INCLUDE[pr
 | Vendedor/Comprador | Usuario | [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtro de contacto de [!INCLUDE[prod_short](includes/cds_long_md.md)]: **Estado** es **No**, **Usuario con licencia** es **Sí**, Modo de integración de usuario es **No** |
 | Cliente | Cuenta | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtro de cuenta de [!INCLUDE[prod_short](includes/cds_long_md.md)]: el **Tipo de relación** es **Cliente** y el **Estado** es **Activo**. Filtro de [!INCLUDE[prod_short](includes/prod_short.md)]: **Bloqueado** está vacío (Cliente no está bloqueado). |
 | Proveedor | Cuenta | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtro de cuenta de [!INCLUDE[prod_short](includes/cds_long_md.md)]: el **Tipo de relación** es **Proveedor** y el **Estado** es **Activo**. Filtro de [!INCLUDE[prod_short](includes/prod_short.md)]: **Bloqueado** está vacío (Proveedor no está bloqueado). |
-| Contacto | Contacto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtro de contacto de [!INCLUDE[prod_short](includes/prod_short.md)]: el **tipo** es **Persona** y el contacto se asigna una empresa. Filtro de contacto de [!INCLUDE[prod_short](includes/cds_long_md.md)]: el contacto se asigna a una empresa y el tipo de cliente principal es **Cuenta** |
+| Contacto | Contacto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtro de contacto de [!INCLUDE[prod_short](includes/prod_short.md)]: el **tipo** es **Persona** y el contacto se asigna una empresa. Filtro de contacto de [!INCLUDE[prod_short](includes/cds_long_md.md)]: el contacto se asigna a una empresa y el tipo de cliente principal es **Cliente**. |
 | Divisa | Divisa de la transacción | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] |  |
 
+> [!NOTE]
+> Las acciones de **Dataverse** no estarán disponibles en páginas, por ejemplo, la página Ficha de cliente, para registros que no respetan el filtro de tabla en la asignación de la tabla de integración.
 
 ### <a name="tip-for-admins-viewing-table-mappings"></a>Consejo para administradores: visualización de asignaciones de tabla
 Puede ver la asignación entre las tablas en [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[prod_short](includes/prod_short.md)] en la página **Lista de asignaciones de tablas de integración**, donde también puede aplicar filtros. La asignación entre los campos de las tablas de [!INCLUDE[prod_short](includes/prod_short.md)] y las columnas de las tablas de [!INCLUDE[prod_short](includes/cds_long_md.md)] se define en la página **Lista de asignaciones de campos de integración**, donde se puede añadir lógica de asignación adicional. Por ejemplo, esto puede ser útil si necesita solucionar problemas de sincronización.
@@ -63,3 +68,6 @@ Puede ver la asignación entre las tablas en [!INCLUDE[prod_short](includes/cds_
 [Emparejar y sincronizar registros manualmente](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Programar una sincronización](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,20 +2,19 @@
 title: Cotización de una venta de ensamblar para pedido | Documentos de Microsoft
 description: Puede utilizar la administración de ensamblados para personalizar un producto de ensamblado a la solicitud de un cliente durante el proceso de venta.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 807c924e64764e7ac1932321603a415101e3bbf3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 86cc9dcb66377deabdae9cc3d44c0c090fccc9f9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386660"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133081"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Cotizar una venta de ensamblar contra pedido
 Puede utilizar la administración de ensamblados para personalizar un producto de ensamblado a la solicitud de un cliente durante el proceso de venta. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -26,7 +25,7 @@ Como cuando se vende cualquier otro tipo de producto, también puede crear una c
 >  Como todos los tipos de cotización, las cantidades en cotizaciones de ensamblado no se utilizan en la disponibilidad, la planificación o las reservas.  
 
 ## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Para crear una cotización de venta de productos ensamblar para pedido  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cotización de venta** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cotización de venta** y, luego, elija el vínculo relacionado.  
 2.  Cree una línea de cotización de venta con una línea para un producto de ensamblado. Para obtener más información, consulte [Crear cotizaciones de ventas](sales-how-make-offers.md).  
 3.  En el campo **Cdad. al ensamblar para pedido**, introduzca la cantidad total.
 

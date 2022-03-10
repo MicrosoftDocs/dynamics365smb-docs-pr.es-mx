@@ -1,21 +1,20 @@
 ---
-title: Preparar migración de datos de cliente con plantillas | Microsoft Docs
-description: Aprenda a usar las plantillas de configuración para estructurar los datos existentes del cliente antes de migrar los datos a la nueva empresa en Business Central.
+title: Prepararse migración de datos del cliente con plantillas
+description: Aprenda a usar las plantillas de configuración para estructurar los datos existentes del cliente antes de migrar los datos maestros a la nueva empresa en Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 8b45c9095674b6bb633717f3985557ef7e6a681b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f0d8430be917981f84eb2841c0840a5b36a8d678
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4745927"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143801"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Prepararse para migrar datos del cliente con plantillas
 
@@ -47,7 +46,7 @@ Al seleccionar una plantilla existente de datos maestros, debe evaluar si las pl
 > [!TIP]  
 > También puede usar plantillas de datos para crear nuevos registros de forma rápida. Utilícelas para una creación de datos más rápida y más exacta. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plantillas de configuración** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plantillas de configuración**, y luego elija el enlace relacionado.  
 2. En la página **Plantillas de configuración**, seleccione una plantilla de datos de lista y después seleccione **Editar**.  
 
 Si las plantillas predeterminadas no satisfacen sus necesidades, puede crear nuevas plantillas o agregar campos a una plantilla existente. Si las plantillas predeterminadas son suficientes, puede utilizarlas para crear registros basados en las plantillas de datos principales.
@@ -100,7 +99,7 @@ El identificador de tabla, el nombre de tabla y las líneas de la plantilla de d
 
 Puede crear rápidamente un libro de Excel para que sirva como plantilla basada en la estructura de una tabla de base de datos existente. A continuación, puede usar la plantilla para recopilar todos los datos de cliente en un formato coherente para su importación posterior en [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja de configuración** y luego elija el enlace relacionado.
 2. Agregue una tabla a la lista o seleccione una tabla existente. Para obtener más información, vea [Gestionar la configuración de la empresa en una hoja de trabajo](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Elija la acción **Mostrar campos** acción para definir los campos de la tabla que desea incluir en la plantilla.
 4. Seleccione la acción **Exportar a plantilla**.
@@ -124,19 +123,29 @@ Los registros cuyos datos se apliquen de esta forma se habrán completado, ya qu
 > [!NOTE]
 > Si los datos en las tablas del paquete de configuración contienen fechas, por ejemplo, fechas de registro en facturas, las fechas se consideran en la zona horaria especificada en [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
+
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Para crear un registro desde una plantilla de configuración
 
 Puede utilizar la estructura de datos que se incluye en las plantillas de datos para convertir la información en registros de la base de datos, uno a uno. Para ello, utilice la función **Crear instancia**. Se trata de una versión en miniatura del proceso de migración de datos y puede ser útil para la creación de un prototipo o el tratamiento de tareas más pequeñas de creación de datos.  
 
 Los pasos siguientes ilustran cómo crear una ficha de producto de una plantilla de datos de producto. Puede crear un registro de cualquier plantilla de datos mediante el mismo procedimiento.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plantillas de configuración** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plantillas de configuración**, y luego elija el enlace relacionado.  
 2. Seleccione la plantilla **Artículo** y, a continuación, elija la acción **Editar**. Para obtener más información, consulte [Para crear una plantilla de datos](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Seleccione la acción **Crear instancia**. Se creará una ficha de producto.  
 4. Elija el botón **Aceptar**.  
-5. Para revisar la nueva ficha de producto, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
+5. Para revisar la nueva ficha de artículo, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
 6. Abra la ficha de producto nueva.  
 7. Expanda diferentes fichas desplegables y verifique que la información fue creada correctamente en ellas.  
+
+## <a name="to-use-conversion-templates"></a>Para utilizar plantillas de conversión
+
+Puede convertir contactos en clientes, proveedores y empleados. 
+
+### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>Para convertir un contacto en un cliente, proveedor o empleado
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") icono, introduzca **Contactos** y después seleccione el contacto correcto. 
+2. En la tarjeta de contacto, seleccione **Acciones**, **Funciones** y después seleccione **Crear como cliente, proveedor, banco o empleado**.
+
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Procedimiento para usar una plantilla de configuración en un registro
 
@@ -153,8 +162,14 @@ El procedimiento siguiente se basa en una nueva ficha cliente.
 
 Los valores predeterminados de la plantilla de cliente seleccionada se introducen en la ficha de cliente.
 
+> [!NOTE]
+> No puede utilizar Aplicar plantilla para dejar en blanco los campos de clientes, proveedores y similares. En su lugar, debe utilizar la funcionalidad **Editar en Excel**. Para obtener más información, consulte [Editar en Excel](across-work-with-excel.md#edit-in-excel).
+
 ## <a name="see-also"></a>Consulte también
 
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)  
 [Permite registrar nuevos clientes](sales-how-register-new-customers.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Cómo combinar albaranes | Documentos de Microsoft
+title: Agrupar albaranes en una factura única
 description: Si desea facturar varias recepciones de compra a la vez, puede utilizar la función Combinar recepciones.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 136, 145, 146
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 991c244d9e9233067903cfe21fbabcb732293490
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fa038043a1a9451f3f74c0ab72f8c9a2b8033cf0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387710"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137274"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Agrupar albaranes en una factura única
 
@@ -30,7 +30,7 @@ Cuando se combinan varias recepciones de compra en una factura y se registran, s
 
 ## <a name="to-combine-receipts"></a>Para combinar recepciones
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).  
 3. En la ficha desplegable Líneas, haga clic en **Acciones**, y elija la acción **Tomar líneas de envío**.  
 4. Seleccione las distintas líneas de recepción que desee incluir en la factura.  
@@ -40,7 +40,7 @@ Cuando se combinan varias recepciones de compra en una factura y se registran, s
 
 ## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Procedimiento para eliminar pedidos de compra abiertos después del registro de recepción combinada
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Eliminar de pedidos de compra facturados** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Eliminar peds. compra factdos** y seleccione el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 3. Elija el botón **Aceptar**.  
 

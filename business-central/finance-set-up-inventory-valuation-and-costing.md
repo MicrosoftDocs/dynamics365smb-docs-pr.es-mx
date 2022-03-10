@@ -1,25 +1,24 @@
 ---
-title: Configuración de valuación de inventarios | Documentos de Microsoft
-description: En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas que las describen.
+title: Configuración de valuación de inventarios y costos
+description: Para asegurarse de que los costos de inventario se registran correctamente, debe configurar varios campos y páginas antes de comenzar a realizar transacciones de elementos.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 524ed44ed305fc219ea15afc061994dbe3050503
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8dd8b86e7ff07b9500c094bd2e570dbb6a371754
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910741"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142092"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Configuración de valuación de inventarios
 
 Para asegurarse de que los costos de inventario se registran correctamente, debe configurar varios campos y páginas antes de comenzar a realizar transacciones de elementos. Por lo general, las empresas eligen método de costo específico y la aplican a los productos del inventario, por ejemplo, para ayudarlas a seguir el valor de los productos en existencias.  
 
 > [!TIP]
-> Para obtener una introducción al cálculo de costos en [!INCLUDE [prodshort](includes/prodshort.md)], consulte [Acerca de la valoración de inventario](finance-learn-about-costing.md).
+> Para obtener una introducción al cálculo de costos en [!INCLUDE [prod_short](includes/prod_short.md)], consulte [Acerca de la valoración de inventario](finance-learn-about-costing.md).
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
@@ -47,3 +46,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Detalles de diseño: Cambiar la valoración de existencias para artículos](design-details-changing-costing-methods.md)  
 [Trabajar con Business Central](ui-work-product.md)  
 [Finanzas](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

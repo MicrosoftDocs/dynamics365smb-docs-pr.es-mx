@@ -1,23 +1,24 @@
 ---
-title: Compra de artículos para una venta mediante la creación de facturas de compra | Documentos de Microsoft
+title: Comprar productos para una venta
 description: A partir de una factura de venta, para comprar productos, puede crear una factura de compra de un proveedor.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.date: 04/01/2020
+ms.search.form: 50, 51, 56, 9308
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 07047274c424e4cd09c0d184603c1db0cef588ba
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f77234135fe1b7b0b3120c9b839c1873bdcb8b09
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783035"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131217"
 ---
-# <a name="purchase-items-for-a-sale"></a>Comprar productos para una venta
+# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Compra de artículos para una venta mediante la creación de facturas de compra
+
 A partir de pedidos y facturas de venta, puede utilizar funciones para crear rápidamente los documentos de compra de las cantidades de productos que faltan que sean necesarias para la venta. Puede utilizar dos funciones distintas dependiendo del tipo de documento.
 
 > [!Note]
@@ -31,7 +32,7 @@ A partir de pedidos y facturas de venta, puede utilizar funciones para crear rá
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Para crear uno o más pedidos de compra a partir de un pedido de venta
 Para crear un pedido de compra para cada cantidad de producto no disponible en el pedido de venta, utilice la función **Crear pedidos de compra**.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.
 2. Abra un pedido de venta para el que desea comprar productos.
 3. Elija la acción **Crear pedidos de compra**.
 
@@ -54,7 +55,7 @@ Para crear una sola factura de compra para una o varias líneas de un documento 
 > [!NOTE]  
 >   Esta función crea una factura de compra para la cantidad exacta de productos en el documento de venta seleccionado. Para cambiar la cantidad de compra, debe modificar la factura de compra después de que se cree.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.
 2. Abra una factura de venta para la que desea comprar productos.
 3. Seleccione una o varias líneas de factura de venta que desee usar en la factura de compra. Para usar todas las líneas de factura de venta, selecciónelas todas o no seleccione ninguna.
 4. Elija la acción **Crear factura de compra**.
@@ -69,4 +70,7 @@ Para crear una sola factura de compra para una o varias líneas de un documento 
 [Registrar compras](purchasing-how-record-purchases.md)  
 [Facturar ventas](sales-how-invoice-sales.md)  
 [Permite registrar nuevos proveedores](purchasing-how-register-new-vendors.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

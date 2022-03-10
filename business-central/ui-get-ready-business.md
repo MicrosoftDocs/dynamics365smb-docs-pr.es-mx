@@ -2,20 +2,19 @@
 title: Preparación para hacer negocios
 description: Describe las guías de configuración asistida, los vídeos, los temas de ayuda y las páginas que se usan para empezar a realizar operaciones empresariales en Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: b75381cd5153294ec65878c3e6726b9a3e4821de
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074673"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335043"
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparación para hacer negocios
 
@@ -23,27 +22,27 @@ Enhorabuena, acaba de iniciar su primera empresa en [!INCLUDE[prod_short](includ
 
 Para ayudarle a empezar a hacer negocios, puede visitar la página **Configuración asistida** donde puede iniciar guías de configuración asistida, vídeos o temas de ayuda para determinadas tareas de configuración. Para acceder a la página, simplemente elija [este enlace](https://businesscentral.dynamics.com/?page=1801).  
 
-Opcionalmente, elija el icono ![Icono de rueda dentada para abrir el menú Configuración](media/ui-experience/settings_icon_small.png) y luego la acción **Configuración asistida**.
+Alternativamente, elija el ![icono de rueda dentada para abrir el menú Configuración.](media/ui-experience/settings_icon_small.png) , y luego la acción **Configuración asistida**.
 
-También puede encontrar la lista de guías de configuración asistida, si elije el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración asistida** y luego elija el enlace relacionado.  
+También puede encontrar la lista de guías de configuración asistida si elige el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida** y luego elija el enlace relacionado.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
 ## <a name="get-started"></a>Introducción
 
-A partir del lanzamiento de versiones 1 de 2021, cuando inicie sesión por primera vez o inicie una nueva empresa, la lista de comprobación **Introducción** lo llevará por los pasos para prepararse para trabajar. Los pasos varían según su país y cualquier funcionalidad específica del sector que haya agregado a su [!INCLUDE [prod_short](includes/prod_short.md)].  
+Cuando inicia sesión por primera vez o lanza una nueva empresa, la lista de comprobación **Introducción** lo lleva por los pasos para prepararse para la actividad comercial. Los pasos varían según su país y cualquier funcionalidad específica del sector que haya agregado a su [!INCLUDE [prod_short](includes/prod_short.md)]. A partir del lanzamiento de versiones 2 de 2021, cuando inicie sesión por primera vez en la empresa de demostración CRONUS, su página de inicio está optimizada para sus primeras experiencias. Si prefiere ver más vínculos a más páginas, simplemente cambie al rol de administrador de negocio. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).  
 
 Una vez haya migrado los datos, como los proveedores, clientes o productos de su sistema financiero existente, está listo para empezar. Pero en función de sus necesidades, considere si las otras guías de configuración asistida pueden ayudarle.
 
-Si un área no está cubierta por una configuración asistida, elija el icono ![Icono de rueda dentada para abrir el menú Configuración](media/ui-experience/settings_icon_small.png) y luego la acción **Configuración avanzada**. En **Configuración avanzada**, la sección **Configuración manual** proporciona acceso a las páginas de configuración donde puede completar los campos de configuración para todas las áreas manualmente. Para obtener más información, consulte también [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+Si un área no está cubierta por una configuración asistida, elija el icono ![Icono de rueda dentada para abrir el menú Configuración.](media/ui-experience/settings_icon_small.png) , y luego la acción **Configuración avanzada**. En **Configuración avanzada**, la sección **Configuración manual** proporciona acceso a las páginas de configuración donde puede completar los campos de configuración para todas las áreas manualmente. Para obtener más información, consulte también [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 > [!NOTE]  
 > La lista de guías de configuración asistida, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Esencial** ofrece menos acceso que la experiencia **Premium**.
 >
 > La primera vez que inicie sesión, use la experiencia **Esencial**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
-Cuando ha ejecutado una guía de configuración asistida, se marca como **Completado**. <!--VERIFY-->  
+Cuando ha ejecutado una guía de configuración asistida, se marca como **Completado**.  
 
 ## <a name="teaching-tips-and-tours"></a>Consejos didácticos y recorridos
 
@@ -72,7 +71,7 @@ En **Configuración de la empresa** puede ver y editar información de configura
 
 Si necesita agregar más usuarios, se realiza de centro de administración de Microsoft 365. Para obtener más información, vea [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md).
 
-Cuando los usuarios se crean en Microsoft 365, se pueden importar en la página **Usuarios** mediante la acción **Obtener actualizaciones de Office 365**. Después podrá continuar con la asignación de permisos a usuarios y la organización en grupos de usuarios. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).  
+Cuando se crean usuarios en Microsoft 365, se pueden importar en la página **Usuarios** mediante la acción **Obtener actualizaciones de Office 365**. Después podrá continuar con la asignación de permisos a usuarios y la organización en grupos de usuarios. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).  
 
 ## <a name="product-help"></a>Ayuda de productos
 
@@ -80,15 +79,21 @@ Cuando los usuarios se crean en Microsoft 365, se pueden importar en la página 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Según sus datos migrados, ahora puede empezar a crear nuevos documentos de compra o venta. Use la sección **Acciones** de la página de inicio para crear rápidamente una nueva cotización de venta, factura de venta, orden de venta, factura de compra o registro de venta.
+Según sus datos migrados, ahora puede empezar a crear nuevos documentos de compra o venta. Use la sección **Acciones** de la página de inicio para crear rápidamente una nueva cotización de venta, factura de venta, orden de venta, factura de compra o registro de venta. Eche un vistazo a los artículos de [inicio rápido](quick-start-business-central.md) que le ayudarán a dar los primeros pasos.  
 
 ## <a name="see-also"></a>Consulte también .
 
+[Inicio rápido de Business Central](quick-start-business-central.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Cambiar la configuración básica](ui-change-basic-settings.md)  
+[Accesibilidad y métodos abreviados de teclado](ui-accessibility.md)  
+[Versiones de prueba y suscripciones](across-preview.md)  
+[Funciones empresariales](across-business-functionality.md)  
 [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  
-[Versiones de prueba y suscripciones de [!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md)  
+[Buscar en el panel de ayuda](product-help-and-support.md#search-in-the-help-pane)  
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
 [Sitio de Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Migrar datos](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

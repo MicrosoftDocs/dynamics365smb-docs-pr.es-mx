@@ -1,21 +1,21 @@
 ---
-title: Resumen de tareas para configurar las compras | Documentos de Microsoft
+title: Resumen de tareas para configurar las compras
 description: Describe las tareas para definir las directivas de aprovisionamiento de su empresa y configurar sus procesos de compra.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
+ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 81bbb013cba1039bfe6bb76e8489d5b8ed7c9831
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 395af6b23c85c3f78eb970b9e2d9603bf336d34d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772515"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146213"
 ---
 # <a name="setting-up-purchasing"></a>Configurar compras
 Para poder administrar procesos de compra, debe configurar las reglas y valores que definen las políticas de compra de la empresa.
@@ -36,6 +36,10 @@ La configuración de compra relacionada con las finanzas, como las formas de pag
 
 > [!TIP]
 > Según su ubicación geográfica, algunas páginas pueden contener campos que no se describen en los productos que se enumeran aquí, porque se aplican a funciones o personalizaciones locales. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+## <a name="external-document-number"></a>Número de documento externo
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 

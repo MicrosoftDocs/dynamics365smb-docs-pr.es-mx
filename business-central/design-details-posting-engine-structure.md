@@ -1,21 +1,20 @@
 ---
-title: 'Detalles de diseño: Estructura de motor de registro | Documentos de Microsoft'
-description: La interfaz de registro y otras funciones en la codeunit 12 utilizan funciones de motor de registro para preparar e insertar movimientos de contabilidad y registros de movimientos de IVA. El motor de registro también es responsable de la creación del registro de contabilidad.
+title: 'Detalles de diseño: estructura de motor de registro'
+description: La interfaz de registro utiliza funciones de motor de registro para preparar e insertar movimientos de contabilidad y registros de movimientos de IVA.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: d256a3c752b8f236d1cdb67292ca73dcefb7ab05
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ff1b8330bf804fa89bafa18bf5a3c30471d94afe
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787407"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131962"
 ---
 # <a name="design-details-posting-engine-structure"></a>Detalles de diseño: estructura de motor de registro
 La interfaz de registro y otras funciones en la codeunit 12 utilizan funciones de motor de registro para preparar e insertar movimientos de contabilidad y registros de movimientos de IVA. El motor de registro también es responsable de la creación del registro de contabilidad.  
@@ -39,3 +38,5 @@ La interfaz de registro y otras funciones en la codeunit 12 utilizan funciones d
   
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: estructura de interfaz de registro](design-details-posting-interface-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

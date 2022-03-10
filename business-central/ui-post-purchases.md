@@ -1,21 +1,21 @@
 ---
-title: Descripción de cómo registrar documentos de compra | Documentos de Microsoft
-description: Obtenga información sobre las diferentes funciones de registro para registrar documentos de compra y cómo puede actualizar los documentos registrados.
+title: Registrar documentos de compras
+description: Obtenga información sobre las diferentes funciones de registro para registrar documentos de compra y cómo actualizar los documentos registrados.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5d17cc4e9b27e5f2a20fd9543aec3e9f8bbe32a0
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 27cefa04aef99b548a40afdfabbbb1c1ceffb234
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392510"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334887"
 ---
 # <a name="posting-purchases"></a>Registrar compras
 En un documento de compra, puede elegir entre las acciones de registro siguientes:

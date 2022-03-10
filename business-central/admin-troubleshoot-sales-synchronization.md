@@ -1,46 +1,49 @@
 ---
-title: Solución de problemas de errores de sincronización | Documentos de Microsoft
-description: Proporciona orientación para identificar y resolver los errores de sincronización.
-services: project-madeira
-documentationcenter: ''
+title: Solución de problemas de errores de sincronización
+description: Este tema proporciona orientación para identificar, solucionar problemas y resolver errores de sincronización.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2019
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: bb6d0837f91240eb31abc7c02895cf2da420bf7d
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: 0c2252c194b611753e3a84cec42d685a3c561a68
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726801"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143827"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Solución de problemas de errores de sincronización
-Hay muchos factores involucrados en la integración de [!INCLUDE[d365fin](includes/d365fin_md.md)] con [!INCLUDE[crm_md](includes/crm_md.md)], y a veces las cosas salen mal. Este tema señala algunos de los errores típicos que se producen y ofrece algunos consejos para corregirlos.
 
-A menudo se producen errores, ya sea por algo que un usuario ha hecho a los registros emparejados o por algo que no funciona en la configuración de la integración. En el caso de los errores relacionados con los registros emparejados, los usuarios pueden resolverlos por sí mismos. Estos errores se deben a acciones tales como eliminar un registro en una aplicación empresarial, pero no en las dos, y después realizar la sincronización. Para obtener más información, consulte [Ver el estado de una sincronización](admin-how-to-view-synchronization-status.md).
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
+Hay muchos factores involucrados en la integración de [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[prod_short](includes/cds_long_md.md)], y a veces las cosas salen mal. Este tema señala algunos de los errores típicos que se producen y ofrece algunos consejos para corregirlos.
 
-Los errores relacionados con la configuración de la integración suelen requerir la atención de un administrador. Puede ver estos errores en la página **Errores de sincronización de integración**. Algunos ejemplos de problemas típicos son:  
-  
-* Los permisos y los roles asignados a los usuarios no son correctos.  
-* La cuenta de administrador se especificó como el usuario de integración.  
-* La contraseña del usuario de integración está configurada para requerir un cambio cuando el usuario inicia sesión.  
-* Los tipos de cambio de las divisas no se especifican en una u otra aplicación.  
-  
-Debe resolver manualmente los errores, pero hay algunas maneras en las que la página le ayuda. Por ejemplo:  
+A menudo se producen errores, ya sea por algo que un usuario ha hecho a los registros emparejados o por algo que no funciona en la configuración de la integración. En el caso de los errores relacionados con los registros emparejados, los usuarios pueden resolverlos por sí mismos. Estos errores se deben a acciones tales como eliminar datos en una aplicación empresarial, pero no en las dos, y después realizar la sincronización. Para obtener más información, consulte [Ver el estado de una sincronización](admin-how-to-view-synchronization-status.md).
 
-* Los campos **Origen** y **Destino** pueden contener vínculos al registro donde se encontró el error. Haga clic en el vínculo para abrir el registro e investigar el error.  
+Los errores relacionados con la configuración de la integración suelen requerir la atención de un administrador. Puede ver estos errores en la página **Errores de sincronización de integración**. 
+
+La siguiente tabla proporciona ejemplos de problemas típicos:  
+
+|Problema  |Resolución  |
+|---------|---------|
+|Los permisos y los roles asignados al usuario de integración no son correctos. | Este error proviene de [!INCLUDE[prod_short](includes/cds_long_md.md)] y suele incluir el siguiente texto "Usuario principal (Id=\<user id>, type=8) is missing \<privilegeName> privilege". Este error ocurre porque al usuario de integración le falta un privilegio que le permite acceder a una entidad. Normalmente, este error ocurre si está sincronizando entidades personalizadas o si tiene una aplicación instalada en [!INCLUDE[prod_short](includes/cds_long_md.md)] que requiere permiso para acceder a otras entidaedes [!INCLUDE[prod_short](includes/cds_long_md.md)]. Para resolver este error, asigne el permiso al usuario de integración en [!INCLUDE[prod_short](includes/cds_long_md.md)].<br><br> Puede encontrar el nombre de usuario de integración en la página **Configuración de la conexión de Dataverse** página. El mensaje de error proporcionará el nombre del permiso, que puede ayudarlo a identificar la entidad para la que necesita permiso. Para agregar el privilegio faltante, inicie sesión en [!INCLUDE[prod_short](includes/cds_long_md.md)] con una cuenta de administrador y edite el rol de seguridad asignado al usuario de integración. Para obtener más información, consulte [Crear o editar un rol de seguridad para administrar acceso](/power-platform/admin/create-edit-security-role). |
+|Está acoplando un registro que usa otro registro que no está acoplado. Por ejemplo, un cliente cuya moneda no está acoplada o un artículo para el que la unidad de medida no está acoplada. | Primero debe emparejar el registro dependiente, por ejemplo, una divisa o unidad de medida y luego volver a intentar el emparejamiento. |
+
+Las siguientes son algunas herramientas en la página Errores de sincronización de integración que pueden ayudarlo a resolver estos problemas manualmente.  
+
+* Los campos **Origen** y **Destino** pueden contener vínculos a la fila donde se encontró el error. Haga clic en el enlace para investigar el error.  
 * Las acciones **Eliminar movs. anteriores a 7 días** y **Eliminar todos los movs.** limpiarán la lista. Normalmente, estas acciones se utilizan después de haber resuelto la causa de un error que afecta a muchos registros. Sin embargo, preste atención. Estas acciones pueden eliminar errores que todavía son relevantes.
+* La acción **Mostrar error de pila de llamadas** muestra información que puede ayudar a identificar la causa del error. Si no puede resolver el error usted mismo y decide enviar una solicitud de soporte, incluya la información en la solicitud de soporte.
 
 ## <a name="see-also"></a>Consulte también
-[Integración con [!INCLUDE[crm_md](includes/crm_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-[Configuración de cuentas de usuario para la integración con [!INCLUDE[crm_md](includes/crm_md.md)]](admin-setting-up-integration-with-dynamics-sales.md)  
-[Configurar una conexión a [!INCLUDE[crm_md](includes/crm_md.md)]](admin-how-to-set-up-a-dynamics-crm-connection.md)  
+[Integración con Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+[Configuración de cuentas de usuario para la integración con Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  
+[Configurar una conexión a Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Emparejar y sincronizar registros manualmente](admin-how-to-couple-and-synchronize-records-manually.md)  
 [Ver el estado de una sincronización](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

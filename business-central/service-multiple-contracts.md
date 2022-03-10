@@ -2,20 +2,19 @@
 title: Contratos múltiples | Documentos de Microsoft
 description: Dependiendo de los acuerdos de nivel de servicio con un cliente, es posible que tenga que gestionar un producto de servicio en más de un contrato de servicio.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: ba14e98e8387981d108b4a8440419f617fa3b3d8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 7cbff4ae7060a591cdba5ddf51f7a56dfb20aab7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877194"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142995"
 ---
 # <a name="multiple-contracts"></a>Contratos múltiples
 Dependiendo de los acuerdos de nivel de servicio con un cliente, es posible que tenga que gestionar un producto de servicio en más de un contrato de servicio.  
@@ -38,7 +37,7 @@ Puede crear manualmente un contrato de servicio o una cotización de contrato pa
 Cuando se agrega un producto de servicio a una línea de contrato que ya está registrado en otro contrato de servicio o cotización de contrato, se muestra un mensaje de advertencia que indica que el producto de servicio ya pertenece a uno o varios contratos de servicio u cotizaciones de contrato. Si confirma este mensaje, toda la información pertinente del producto de servicio se copiará en la línea de contrato recién creada.  
   
 ## <a name="copying-documents"></a>Copiar documentos  
-Puede crear automáticamente un contrato de servicio o una cotización de contrato para productos de servicio ya registrados en otros contratos de servicio o cotizaciones de contratos mediante la acción **Copiar documento**.  
+Puede crear automáticamente un contrato de servicio o cotización de contrato para productos de servicio ya registrados en otros contratos de servicio o cotizaciones de contratos mediante la acción **Copiar de documento**.  
   
 ## <a name="creating-service-orders-for-multiple-contracts"></a>Crear pedidos de servicios para múltiples contratos  
 Puede crear un pedido de servicio manualmente para un producto de servicio que esté registrado en múltiples contratos activos. Un contrato de servicio está activo cuando está firmado y no ha caducado.  
@@ -46,3 +45,6 @@ Puede crear un pedido de servicio manualmente para un producto de servicio que e
 ## <a name="see-also"></a>Consulte también  
 [Cumplimiento de contratos de servicio](service-fulfill-service-contracts.md)  
 [Crear pedidos de servicio](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

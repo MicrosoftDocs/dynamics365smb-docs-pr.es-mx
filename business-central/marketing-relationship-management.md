@@ -1,28 +1,27 @@
 ---
-title: Gestión de relaciones | Documentos de Microsoft
-description: Las características de gestión relaciones en Business Central admiten las acciones de ventas y le permiten acceder a la información sobre contactos y clientes potenciales para que pueda atender a los clientes de forma eficaz.
-services: project-madeira
+title: Gestión de relaciones
+description: Las características de gestión relaciones admiten las acciones de ventas y le permiten acceder a la información sobre contactos y clientes potenciales para atender a los clientes de forma eficaz.
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 05/02/2019
-ms.author: sgroespe
-ms.openlocfilehash: 39e8a4bce8174116bbe7b63908007aa7873acc02
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.search.forms: 9076, 9026
+ms.date: 06/22/2021
+ms.author: edupont
+ms.openlocfilehash: 3dec95b484bce34c2eff2cbc49510e54f871f4ef
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446749"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137872"
 ---
 # <a name="managing-relationships"></a>Gestionar las relaciones
-Las funciones de gestión de relaciones de [!INCLUDE[d365fin](includes/d365fin_md.md)] le ayudan a gestionar y proporcionar soporte a sus esfuerzos de ventas. Con estas funciones, tiene acceso a información completa y precisa, de modo que las interacciones se pueden centrar en los segmentos de cliente o contacto preferidos.
+Las funciones de gestión de relaciones de [!INCLUDE[prod_short](includes/prod_short.md)] le ayudan a gestionar y proporcionar soporte a sus esfuerzos de ventas. Con estas funciones, tiene acceso a información completa y precisa, de modo que las interacciones se pueden centrar en los segmentos de cliente o contacto preferidos.
 
-Las buenas prácticas de ventas y marketing consisten en tomar las mejores decisiones en los momentos adecuados. [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona un resumen preciso y puntual sobre la información de contacto para que pueda servir a sus clientes potenciales con más eficacia y aumentar la satisfacción de sus clientes.
+Las buenas prácticas de ventas y marketing consisten en tomar las mejores decisiones en los momentos adecuados. [!INCLUDE[prod_short](includes/prod_short.md)] proporciona un resumen preciso y puntual sobre la información de contacto para que pueda servir a sus clientes potenciales con más eficacia y aumentar la satisfacción de sus clientes.
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
 
@@ -34,4 +33,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Defina segmentos para seleccionar un grupo de contactos según criterios específicos, como el sector al que pertenecen los contactos.|[Administrar segmentos](marketing-segments.md)|
 |Procese los clientes potenciales entrantes con la creación de oportunidades y asócielos a vendedores para poder hacer un seguimiento de las ventas potenciales.|[Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)|
 |Cree los planes de marketing para identificar, atraer y conservar a los clientes.|[Administrar campañas de marketing](marketing-campaigns.md)|
-|Utilice Dynamics 365 for Sales for Customer Engagement y disfrute de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de Business Central para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas.|[Integración con Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
+|Utilice Dynamics 365 Sales para la interacción con el cliente y disfrute de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de Business Central para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas.|[Integración con Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

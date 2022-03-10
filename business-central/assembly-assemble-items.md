@@ -1,24 +1,23 @@
 ---
-title: Gestión de ensamblado | Documentos de Microsoft
-description: Apoyar a las empresas que suministran los productos a sus clientes agrupando los componentes en procesos sencillos sin necesidad de la funcionalidad de fabricación pero con características para ensamblar artículos que se integran con las existentes, como son planificación, reservas y almacén.
+title: Gestión de ensamblaje
+description: Apoyar a las empresas que suministran productos a sus clientes mediante la combinación de componentes en procesos simples sin necesidad de funcionalidad de fabricación.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 4d8ce273a2db6c682a205c767e28aee3792ea14b
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: d1b879eeabfb42298bb1bf8a10d3b53870da3aa7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968317"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130655"
 ---
 # <a name="assembly-management"></a>Gestión de ensamblaje
-Para apoyar a las empresas que suministran los productos a sus clientes agrupando los componentes en procesos sencillos sin necesidad de la funcionalidad de fabricación, [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye las características para ensamblar artículos que se integran con las existentes, como son planificación, reservas y almacén.  
+Para apoyar a las empresas que suministran los productos a sus clientes agrupando los componentes en procesos sencillos sin necesidad de la funcionalidad de fabricación, [!INCLUDE[prod_short](includes/prod_short.md)] incluye las características para ensamblar artículos que se integran con las existentes, como son planificación, reservas y almacén.  
 
  Un producto de ensamblado se define como uno sellable que contenga un L.M. de ensamblado. Para obtener más información, consulte [Trabajar con listas de materiales](inventory-how-work-BOMs.md).
 
@@ -54,8 +53,11 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)  
-[Tutorial: planificación manual de suministros](walkthrough-planning-supplies-manually.md)  
-[Tutorial: vender, ensamblar y enviar kits](walkthrough-selling-assembling-and-shipping-kits.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
+<!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

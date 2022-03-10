@@ -4,7 +4,6 @@ description: Puede ajustar manualmente la valuación de inventarios de un produc
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,17 +11,17 @@ ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7ed2e9ebad96d29c9fc2d73e426b6e37f577f9b9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2d499d22a51b3bea0367acaee0c650fe4dc67ad5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441229"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131650"
 ---
 # <a name="adjust-item-costs"></a>Ajustar precios de productos
 El precio de un producto (valor de inventario) que compre y más tarde venda puede cambiar durante su vida útil, por ejemplo, debido a que se agregue un costo de flete a su precio de compra después de que haya vendido el producto. El ajuste de costo es muy relevante en aquellas situaciones en las que se venden bienes antes de generar la factura de compra para dichos bienes. Para conocer siempre el valor de inventario correcto, los costos de productos se deben ajustar con frecuencia. Esto garantiza que las estadísticas relativas a ventas y beneficios estén actualizadas y que los KPI financieros sean correctos. Para obtener más información, consulte [Detalles de diseño: Ajuste de costo](design-details-cost-adjustment.md).
 
-Como norma general, el valor del campo **Costo unitario** de la ficha de producto se basa en el costo estándar de los productos que utilizan el método de costos estándar. Para los productos que utilizan los demás métodos de costo, este valor se basa en el cálculo de las existencias disponibles (costos facturados y esperados) dividido por la cantidad física disponible. Para obtener más información, consulte [Comprender el cálculo del costo unitario](inventory-how-adjust-item-costs.md#understanding-unit-cost-calculation).
+Como norma general, el valor del campo **Costo unitario** de la ficha de producto se basa en el costo estándar de los productos que utilizan el método de costos estándar. Para los productos que utilizan los demás métodos de costo, este valor se basa en el cálculo del inventario disponible (costos facturados y previstos) dividido por la cantidad física disponible. Para obtener más información, consulte [Comprender el cálculo del costo unitario](inventory-how-adjust-item-costs.md#understanding-unit-cost-calculation).
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], los costos de producto se actualizan automáticamente cada vez que aparece una transacción de inventario, como al registrar una factura de compra para un producto.
 
@@ -53,7 +52,7 @@ Si desea cambiar el precio de compra de varios productos, puede utilizar el proc
 5. Elija el botón **Aceptar**.  
 
 ## <a name="understanding-unit-cost-calculation"></a>Comprender el cálculo del costo unitario
-Como norma general, el valor del campo **Costo unitario** de la ficha de producto se basa en el costo estándar de los productos que utilizan el método de costos estándar. Para los productos que utilizan los demás métodos de costo, este valor se basa en el cálculo de las existencias disponibles (costos facturados y esperados) dividido por la cantidad física disponible.  
+Como norma general, el valor del campo **Costo unitario** de la ficha de producto se basa en el costo estándar de los productos que utilizan el método de costos estándar. Para los productos que utilizan los demás métodos de costo, este valor se basa en el cálculo del inventario disponible (costos facturados y previstos) dividido por la cantidad física disponible.  
 
  En las siguientes secciones, se describe con más detalle la influencia del campo **Valoración existencias** en el cálculo del precio de costo de compras y de ventas.  
 

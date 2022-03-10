@@ -2,7 +2,6 @@
 title: Configurar una empresa con RapidStart Services
 description: Puede configurar una nueva empresa en Business Central con RapidStart Services para mejorar la productividad al automatizar y simplificar las tareas recurrentes.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 46ce62b98e02f934b859dc7191d7fea69ae44af0
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: c5e47b4e866ce25a0a2cac84e00630b371f6e2b2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325438"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147071"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Configurar una empresa con RapidStart Services
 Puede configurar una nueva empresa en [!INCLUDE[prod_short](includes/prod_short.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas.  
@@ -39,10 +38,10 @@ Puede utilizar los componentes siguientes para agilizar la configuración de su 
 |------------|-------------|  
 |Cree una nueva empresa e importe plantillas y datos de configuración básicos.|[Establecer la configuración de una empresa](admin-set-up-company-configuration.md)|  
 |Implementar el paquete configurado a su cliente por la implementación.|[Aplicar la configuración a nuevas empresas](admin-apply-configuration-to-new-companies.md)|
-|Definir y validar los valores de configuración de su cliente para todas las áreas centrales, como la información de la empresa, la contabilidad, el inventario, las ventas o la fabricación.|[Recopilación de valores de configuración de cliente](admin-gather-customer-setup-values.md)|  
+|Defina y valide los valores de configuración de su cliente para todas las áreas centrales, como la información de la empresa, la contabilidad general, el inventario, las ventas o la fabricación.|[Recopilación de valores de configuración de cliente](admin-gather-customer-setup-values.md)|  
 |Configure registros de datos maestros básicos mediante plantillas para prepararse para migrar los datos existentes de clientes.|[Preparar migración de datos de cliente](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Defina las tablas y campos, valide los datos existentes de clientes y migre los datos en la base de datos de [!INCLUDE[prod_short](includes/prod_short.md)].|[Migrar datos del cliente](admin-migrate-customer-data.md)|
-|Prepárese para reutilizar las configuraciones de la empresa en otras empresas.|[Crear paquetes de configuración de empresa personalizados](admin-how-to-create-custom-company-configuration-packages.md)|
+|Prepárese para reutilizar las configuraciones de la empresa en otras empresas (en el contenido de desarrollador y administración).|[Crear paquetes de configuración de empresa personalizados](/dynamics-365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)|
 |Busque soluciones para problemas conocidos en el kit de herramientas de RapidStart Services.|[Sugerencias y trucos: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Consulte también  

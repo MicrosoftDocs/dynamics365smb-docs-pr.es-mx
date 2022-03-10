@@ -1,50 +1,66 @@
 ---
-title: Usar referencias cruzadas de producto
-description: Configure referencias entre las descripciones que usted y su proveedor usan para un producto para que pueda insertar la descripción del artículo del proveedor en los documentos de compra.
+title: Usar referencias de producto
+description: Configure referencias entre las descripciones, la unidad de medida y las variantes que usted y su proveedor o cliente utilizan para un artículo.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
-ms.date: 01/12/2021
+ms.search.forms: 5737, 5735, 5736
+ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 7d670f6553a1bd70dcc3d97f90436f36c6627c56
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: a53ce228f1edc337b8f3fb004984f80f6db5dec8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013803"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135326"
 ---
-# <a name="use-item-cross-references"></a>Usar referencias cruzadas de producto
-Si configura una referencia cruzada entre la descripción del producto que usa para un producto y la descripción que utiliza el proveedor de ese producto, la descripción del producto del proveedor se inserta automáticamente en los documentos de compra del proveedor cuando complete el campo **Nº referencia cruzada**. . Se aplica la misma funcionalidad para los números de producto del cliente en los documentos de venta.
+# <a name="use-item-references"></a>Usar referencias de producto
 
-Los procedimientos siguientes describen cómo utilizar referencias cruzadas de producto en la compra. Los pasos son parecidos para la venta.
+Si compra o vende artículos para los que usted y su proveedor o cliente usan términos diferentes, puede establecer una referencia entre sus términos para los artículos y los términos que usa el cliente o el proveedor de ese artículo. De esta manera, la descripción del artículo del proveedor o del cliente, la unidad de medida o el código de variante se insertan automáticamente en los documentos relevantes cuando se completa el **No. de referencia del artículo** .  
 
 > [!NOTE]
-> Es cada vez más común que los identificadores de productos, como GTIN o GUID, contengan 30 o más caracteres, que es más de lo que la función actual para referencias cruzadas de productos puede manejar. Si necesita utilizar referencias que contengan más de 30 caracteres, su administrador puede activar la característica **Escribir referencias de productos más largas** en la página [Gestión de funciones](https://businesscentral.dynamics.com/?page=2610) (el vínculo requiere que tenga un suscriptor [!INCLUDE[prod_short](includes/prod_short.md)]). La forma en que usa las referencias no cambia, pero los nombres de cosas como páginas y botones sí. Por ejemplo, la página **Entradas de referencias cruzadas de productos** se convertirá en la página **Entradas de referencia de artículo**.
+> [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
+>
+> No todas las empresas utilizan referencias de artículos. Para minimizar el desorden en las páginas, hemos ocultado los campos y acciones relacionados de forma predeterminada. Si decide utilizarlos, puede seleccionar el campo **Usar referencias de producto** en la página **Configuración de inventario**. Después de habilitar las referencias de productos, los campos y las acciones están disponibles en las páginas Ficha de producto, Ficha de proveedor y Ficha de cliente y en los documentos de compra y venta.
+>
+> En versiones anteriores al lanzamiento de versiones 2 de 2021, su administrador puede activar la característica *Escribir referencias de productos más largas* en la página [Gestión de funciones](https://businesscentral.dynamics.com/?page=2610) (el vínculo requiere que tenga un suscriptor [!INCLUDE [prod_short](includes/prod_short.md)]). La forma en que usa las referencias no cambia, pero los nombres de cosas como páginas y botones sí. Por ejemplo, la página **Entradas de referencias cruzadas de productos** se convertirá en la página **Entradas de referencia de artículo**.
 
-## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Para configurar una referencia cruzada de producto en la descripción del producto de un proveedor
+## <a name="to-start-using-item-references"></a>Para comenzar a usar referencias de productos
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
-2. Abra la ficha de un producto para el que desea crear una referencia cruzada a la descripción del producto que el proveedor utiliza para dicho producto.
-3. Seleccione la acción **Referencias cruzadas**.
+[!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
-     Si no puede encontrar la acción **Referencias cruzadas**, elija ver más opciones y luego búsquela en **Relacionado** > **Producto**.
+1. Elija el icono :::image type="icon" source="media/ui-search/search_small.png" border="false":::, escriba **Configuración de inventario** y, luego, elija el vínculo relacionado.
+2. Seleccione el campo **Usar referencias de artículos** campo.
+
+## <a name="to-set-up-an-item-reference"></a>Para configurar una referencia de artículo
+
+1. Elija el icono :::image type="icon" source="media/ui-search/search_small.png" border="false":::, escriba **Productos** y luego elija el enlace relacionado.
+2. Abra la ficha de un producto del que quiera crear una referencia.
+3. Elija la acción **Referencias de producto**.
+
+     Si no puede encontrar la acción **Referencias de producto**, elija ver más opciones y luego búsquela en **Relacionado** > **Producto**.
   
-4. En una línea nueva en la página **Movimientos de referencia cruzada de producto**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+4. En una línea nueva en la página **Movimientos de referencia de producto**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
-## <a name="to-enter-a-vendors-item-description-on-a-purchase-order"></a>Para introducir la descripción del producto de un proveedor en un pedido de compra
+Los procedimientos siguientes describen cómo especificar la referencia del artículo en un pedido de compra. Pasos similares se aplican a documentos de venta y otros documentos de compra.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.
-2. Cree un pedido de compra para el proveedor para el que configuró una referencia cruzada del producto en el procedimiento anterior.
-3. Cree una línea de compra para el producto para el que configuró una referencia cruzada del producto en el procedimiento anterior.
-4. En el campo **Nº tipo referencia cruzada** seleccione la referencia cruzada de producto que ha creado y después seleccione el botón **Aceptar**.
+## <a name="to-enter-a-vendors-item-description-on-a-document"></a>Para introducir la descripción del producto de un proveedor en un documento
 
-El campo **Descripción** de la línea se sobrescribe con la descripción del producto del proveedor, tal como está configurado en la entrada de referencia cruzada del producto.
+1. Elija el icono :::image type="icon" source="media/ui-search/search_small.png" border="false":::, escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.
+2. Cree un pedido de compra para el proveedor para el que configuró una referencia del producto en el procedimiento anterior.
+3. Cree una línea de compra para el producto para el que configuró una referencia del producto en el procedimiento anterior.
+4. En el campo **N.º de referencia producto** seleccione la referencia de producto relevante y después seleccione el botón **Aceptar**.
+
+El campo **Descripción** de la línea se sobrescribe con la descripción del producto del proveedor, tal como está configurado en la entrada de referencia del producto. Si la referencia de artículo incluye un código de variante o una unidad de medida, estos valores también se copian en el documento.  
 
 ## <a name="see-also"></a>Consulte también
+
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

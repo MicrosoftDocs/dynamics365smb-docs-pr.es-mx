@@ -2,20 +2,19 @@
 title: Extensión de experiencia básica | Microsoft Docs
 description: Esta extensión es una alternativa modernizada a Microsoft Dynamics C5.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: C5, financials, extension
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 58c8a66e9fbe1609dc2e65c764dd3c4f60b4bc54
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b423ce61a5bc8a7f5c580d0b4f3348792c4b02ab
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757353"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132484"
 ---
 # <a name="the-basic-experience-extension"></a>Extensión de la experiencia básica
 Si ha estado usando Microsoft Dynamics C5, los socios de Microsoft pueden ayudarle a realizar la transición a una solución más moderna basada en [!INCLUDE[prod_short](includes/prod_short.md)], para que pueda seguir disfrutando de las mismas capacidades optimizadas que con Dynamics C5.
@@ -34,7 +33,7 @@ La siguiente tabla describe las capacidades que están disponibles si instala la
 |**Cuenta de cobros/ventas** |Cuentas de cobros básicas, facturación de ventas, descuentos de ventas, precios, impuestos sobre las ventas, gestión de contactos |
 |**Cuentas de pagos/compras** |Cuentas de pagos básicas, facturación de compras |
 |**Administración de proyectos** |Trabajos, precios de trabajos, hojas de horas, asignaciones, tareas, recursos |
-|**Existencias** |Inventario básico, sustituciones de productos, referencia cruzada de productos |
+|**Inventario** |Inventario básico, sustituciones de productos, referencia cruzada de productos |
 
 ## <a name="getting-started"></a>Introducción
 Esta extensión es un poco diferente a la mayoría, y necesitará la ayuda de un socio de Microsoft para instalarla y configurarla. Para que sepa qué puede esperar, aquí tiene una vista de alto nivel de lo que hará el socio de Microsoft.
@@ -51,3 +50,5 @@ Lleve consigo sus datos de Dynamics C5. Después de que su socio de Microsoft in
 
 ## <a name="see-also"></a>Consulte también
 [Extensión de migración de datos de C5](ui-extensions-c5-data-migration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

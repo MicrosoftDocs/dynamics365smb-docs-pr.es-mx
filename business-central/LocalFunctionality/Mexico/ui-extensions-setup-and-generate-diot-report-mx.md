@@ -2,20 +2,19 @@
 title: Configurar y generar informes DIOT | Microsoft Docs
 description: Utilice esta extensión para configurar y generar declaraciones DIOT en Business Central para las autoridades mexicanas.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, diot, authorities, export, compliance
-ms.date: 10/01/2020
+ms.date: 06/24/2021
 ms.author: soalex
-ms.openlocfilehash: 8f7d7c5a340a1a0026c172985886e233ca42392d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 48dc2fac2756694aeada0a3603c15a59cb17ed06
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752493"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135525"
 ---
 # <a name="set-up-and-generate-diot-reports"></a>Configurar y generar informes DIOT
 
@@ -30,7 +29,7 @@ La extensión proporciona las siguientes capacidades:
 ## <a name="setup-of-the-mexican-diot-extension"></a>Configuración de la Extensión DIOT mexicana
 La extensión DIOT se configura a través de la función de Configuración Asistida, que proporciona una guía fácil, paso a paso, para empezar a utilizar las DIOT en [!INCLUDE[prod_short](../../includes/prod_short.md)]. En caso sea necesario, puede ejecutar la guía varias veces hasta que se complete la configuración.
 
-1. En [!INCLUDE[prod_short](../../includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración asistida** y luego elija el enlace relacionado.  
+1. En [!INCLUDE[prod_short](../../includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Configurar DIOT**.
 3. La primera página de la guía de configuración explica lo que está a punto de configurar. Elija el botón **Siguiente**.
 4. En el campo **Tipo de operación predeterminada de DIOT de proveedor**, seleccione la clase de operación por defecto que desea configurar en los proveedores del sistema.
@@ -52,6 +51,9 @@ La extensión DIOT se configura a través de la función de Configuración Asist
     La configuración de DIOT ha terminado.
 9. Elija el botón **Terminar**.
 
+> [!Note]
+> Tenga en cuenta que para el reporte de DIOT, el tipo de operación del proveedor se usará para todas las operaciones que se realicen con ese proveedor a menos que se modifique específicamente el valor de **Tipo de operación de DIOT** en el documento antes de registrarlo. El tipo de operación de DIOT para el proveedor no se aplica automáticamente a los documentos de compra. Si desea usar un tipo diferente del que se ha especificado para el proveedor, modifique el campo en el documento de compra de forma manual.
+
 ## <a name="optional-setup-for-reporting-witholding-tax-with-the-diot-extension"></a>Configuración opcional para la generación de informes de retención de impuestos con la extensión de DIOT
 El informe de DIOT exporta datos que incluyen importes de retención de impuestos para transacciones de proveedores. El cálculo de la retención de impuestos no se admite actualmente en la versión mexicana de [!INCLUDE[prod_short](../../includes/prod_short.md)]. Para evitarlo, se pueden contabilizar líneas adicionales en una cuenta mayor predefinida. La extensión de DIOT admite la generación de informes de datos de retención de impuestos de la siguiente manera:
 
@@ -62,7 +64,7 @@ Por ejemplo, si tiene transacciones que se supone que involucran un 10% de IVA y
 Este campo únicamente afectará a los cálculos del informe DIOT y no a la contabilización real de las líneas/entradas/documentos, por lo que debe continuar con la solución alternativa existente que puede tener para el cálculo de la retención de impuestos, independientemente de la configuración de la extensión del informe DIOT.
 
 ### <a name="to-create-an-export-of-diot-report-files"></a>Para crear una exportación de archivos de informe DIOT  
-1. Elija el icono ![bombilla que abre la función Dígame](../../media/ui-search/search_small.png) "Dígame que desea hacer"), escriba **Crear informe DIOT** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png) "Dígame qué desea hacer"), escriba **Crear reporte de DIOT** y, luego, elija el vínculo relacionado.  
 2. En la página de solicitud **Crear informe DIOT**, establezca los campos **Fecha de inicio** y **Fecha de finalización** para representar el período del que desea informar.
 3. Elija el botón **Aceptar**.
 
@@ -72,4 +74,7 @@ Cuando el informe se ejecute sin errores, se le pedirá que guarde el archivo **
 
 ## <a name="see-also"></a>Consulte también
 [Personalizar [!INCLUDE[prod_short](../../includes/prod_short.md)] con extensiones](../../ui-extensions.md)  
-[Introducción](../../product-get-started.md)
+[Preparación para hacer negocios](../../ui-get-ready-business.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

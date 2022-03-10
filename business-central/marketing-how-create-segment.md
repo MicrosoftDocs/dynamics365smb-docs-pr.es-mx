@@ -4,26 +4,25 @@ description: Describe cómo crear un segmento para un grupo de contactos en Busi
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b857e2da860a677af9a4dc20072f921d8406898d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a6aaabb50d3bb24036d7f94c413103348134f9a4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238438"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131445"
 ---
 # <a name="create-segments"></a>Crear segmentos
 Puede crear segmentos para poder seleccionar un grupo de contactos, por ejemplo, si desea crear una interacción que implique a varios contactos, como en un envío de correo directo.
 
 ## <a name="to-create-a-segment"></a>Para crear segmentos
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Segmentos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Segmentos** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En la sección **General**, en el campo **N.º**, introduzca un número para el segmento.
 
@@ -35,4 +34,7 @@ Ahora puede agregar contactos al segmento. Para obtener más información, vea [
 ## <a name="see-also"></a>Consulte también
 [Administrar segmentos](marketing-segments.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

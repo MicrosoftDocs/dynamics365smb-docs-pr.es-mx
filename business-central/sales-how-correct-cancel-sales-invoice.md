@@ -1,21 +1,20 @@
 ---
 title: Corregir o cancelar una factura de venta registrada
-description: Describe cómo, corregir deshacer o cancelar una factura de venta registrada y aplicar una nota de crédito de venta.
+description: En este tema se describe cómo corregir, deshacer o cancelar una factura de venta registrada y aplicar una nota de crédito de venta.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 0d6e05a52cb4028087e4c52c56fb9d2f5ab78795
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d36ca3a4f20e509a18f19f9fec6a3444040de9df
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778883"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137144"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Corregir o cancelar facturas de venta sin abonar
 
@@ -31,14 +30,14 @@ La diferencia entre cancelar o corregir una factura de venta registrada que no s
 | **Cancelar** |La factura de venta registrada está cancelada. Una nota de crédito de ventas de corrección se crea y se registra automáticamente para anular la factura de venta registrada inicial. En la factura de venta registrada inicial, están marcadas las casillas **Cancelado** y **Pagado**. |
 | **Corregir** |La factura de venta registrada está cancelada. Se crea una nueva factura de venta con la misma información, a menos que la orden de venta registrada se haya registrado desde una orden de venta. En ese caso, le sugerimos que cancele la factura de venta registrada y luego haga la corrección y continúe el proceso de venta desde el pedido de venta original. <br/><br/>La nueva factura de venta tiene un número diferente que la factura de venta inicial. Una nota de crédito de ventas de corrección se crea y se registra automáticamente para anular la factura de venta registrada inicial. En la factura de venta registrada inicial, están marcadas las casillas **Cancelado** y **Pagado**. |
 
-Al corregir o cancelar una factura de ventas registrada, la nota de crédito de ventas de corrección se aplica a todos los movimientos contables y del inventario que se crearon cuando se registró la factura de venta inicial. De esta forma se invierte la factura de venta registrada en los registros financieros deja la nota de crédito de ventas registrada de corrección para el seguimiento de auditoria.  
+Al corregir o cancelar una factura de ventas registrada, la nota de crédito de ventas de corrección se aplica a todos los movimientos contables y del inventario que se crearon cuando se registró la factura de venta inicial. De esta forma se invierte la factura de venta registrada en los registros financieros y se deja la nota de crédito de venta registrada de corrección para el seguimiento de auditoria.  
 
 > [!TIP]
 > Si ha publicado una factura de anticipo para una factura de ventas que luego corrige o cancela, también debe corregir o cancelar el anticipo. Para obtener más información, consulte [Corregir anticipos](finance-how-to-correct-prepayments.md).
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>Cancelar una factura de venta registrada
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Histórico facturas venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas venta** y luego elija el enlace relacionado.  
 2. Seleccione la factura de venta registrada que desea cancelar.
 
     > [!NOTE]  
@@ -54,7 +53,7 @@ Si la cancelación está relacionada con un registro parcial de la factura, la l
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>Corregir una factura de venta registrada
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Histórico facturas venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas venta** y luego elija el enlace relacionado.  
 2. Seleccione la factura de venta registrada que desea corregir.
 
     > [!NOTE]  

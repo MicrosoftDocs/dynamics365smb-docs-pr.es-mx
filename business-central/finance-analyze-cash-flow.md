@@ -1,23 +1,21 @@
 ---
-title: Análisis de los flujos de efectivo | Documentos de Microsoft
+title: Análisis de los flujos de caja
 description: Describe cómo usar los gráficos Ciclo de efectivo, Ingresos y gastos, Flujo de efectivo y Previsión de flujo de efectivo para analizar el flujo de dinero de entrada y salida pasado y futuro de su empresa.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 04/01/2020
+ms.search.form: 762, 840, 841, 847, 848, 849, 850, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818
+ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: 09bf4d364afdff27dc97396a2d88ea0a934379fb
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.openlocfilehash: 41dc7aba46960197a6b77ad13f98b4194fd589d2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542703"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145717"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analizar el flujo de caja de la empresa
 Los gráficos del Área de tareas contable proporcionan información que le puede ayudar a tomar decisiones sólidas sobre qué debe hacer con el efectivo.  
@@ -45,6 +43,7 @@ Si desea examinar la previsión, además de los movimientos de previsión, tambi
 * Omite los pedidos de venta y de compra duplicados.  
 
 ## <a name="to-view-a-cash-flow-worksheet"></a>Para ver la hoja de flujo de caja
+
 1. Busque **Previsiones de flujo de efectivo** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione una previsión de flujo de efectivo y, a continuación, seleccione la acción **Hoja flujos efectivo**.  
 3. En la página **Hoja flujos efectivo**, elija la acción **Proponer líneas de hoja de trabajo**.  
@@ -52,6 +51,11 @@ Si desea examinar la previsión, además de los movimientos de previsión, tambi
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
+
 [Configurar las finanzas](finance-setup-finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Configuración del análisis de flujo de caja](finance-setup-cash-flow-analyses.md)  
+[Prever el flujo de efectivo en Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Configurar previsiones de flujo de efectivo con Azure AI en Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

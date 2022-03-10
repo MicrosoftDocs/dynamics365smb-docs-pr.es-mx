@@ -2,7 +2,6 @@
 title: 'Detalles de diseño: Búsqueda de combinaciones de dimensiones | Documentos de Microsoft'
 description: Cuando se cierra una página después de editar un grupo de dimensiones, Business Central evalúa si existe el grupo de dimensiones editado. Si no existe el grupo, se crea uno nuevo y se devuelve el identificador de la combinación de dimensiones.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 544cb3a1844aaf85ab937031a23d6d00506ffa74
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 67aa9c5a7b56b00e49573b5232045f032db178c3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215764"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145821"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Detalles de diseño: Búsqueda de combinaciones de dimensiones
 Cuando se cierra una página después de editar un grupo de dimensiones, [!INCLUDE[prod_short](includes/prod_short.md)] evalúa si existe el grupo de dimensiones editado. Si no existe el grupo, se crea uno nuevo y se devuelve el identificador de la combinación de dimensiones.  
@@ -26,7 +25,7 @@ Cuando se cierra una página después de editar un grupo de dimensiones, [!INCLU
 ### <a name="example-1"></a>Ejemplo 1  
  En el diagrama siguiente se representa un árbol de búsqueda con seis grupos de dimensiones. En el diagrama solo se muestra el movimiento de grupo de dimensiones de diferenciación.  
 
- ![Ejemplo de estructura de árbol de dimensiones](media/nav2013_dimension_tree.png "Ejemplo de estructura de árbol de dimensiones")  
+ ![Ejemplo de estructura de árbol de dimensiones.](media/nav2013_dimension_tree.png "Ejemplo de estructura de árbol de dimensiones")  
 
  En la tabla siguiente se describe una lista completa de los movimientos de grupo de dimensiones que componen cada grupo de dimensiones.  
 
@@ -45,7 +44,7 @@ Cuando se cierra una página después de editar un grupo de dimensiones, [!INCLU
 
  Primero, [!INCLUDE[prod_short](includes/prod_short.md)] también actualiza la tabla **Nodo árbol grupo dimensiones** para garantizar que el árbol de búsqueda obedezca al diagrama siguiente. Por lo tanto, el grupo de dimensiones 7 se convierte en un elemento secundario del grupo de dimensiones 5.  
 
- ![Ejemplo de estructura de árbol de dimensiones en NAV 2013](media/nav2013_dimension_tree_example2.png "Ejemplo de estructura de árbol de dimensiones en NAV 2013")  
+ ![Ejemplo de estructura de árbol de dimensiones en NAV 2013.](media/nav2013_dimension_tree_example2.png "Ejemplo de estructura de árbol de dimensiones en NAV 2013")  
 
 ### <a name="finding-dimension-set-id"></a>Búsqueda del identificador de grupo dimensiones  
  En el nivel conceptual, **Id. principal**, **Dimensión** y **Valor dimensión** en el árbol de búsqueda se agrupan y se utilizan como la clave principal porque [!INCLUDE[prod_short](includes/prod_short.md)] atraviesa el árbol en el mismo orden que los movimientos de dimensiones. La función GET (registro) se usa para buscar el identificador del grupo de dimensiones. En el ejemplo de código siguiente se muestra cómo encontrar el identificador del grupo de dimensiones cuando hay tres valores de dimensión.  

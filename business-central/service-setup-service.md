@@ -2,23 +2,22 @@
 title: Configurar la gestión de servicio | Documentos de Microsoft
 description: Descripción general de las tareas para configurar la Gestión de servicios para adaptarla a la forma en que sus organizaciones gestionan sus servicios.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 05501ac6a2ea3856c9bcfb3dc001d3120546dad9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 062e74b422f2190feb15d54cea47af90db468d3b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789486"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140564"
 ---
 # <a name="setting-up-service-management"></a>Configurar la gestión de servicios
-Para poder utilizar las funciones de la gestión de servicios en [!INCLUDE[d365fin](includes/d365fin_md.md)], hay algunos parámetros que debe configurar. Por ejemplo, puede establecer códigos para servicios estándar, síntomas y códigos de defectos, y los productos de servicio y tipos de productos de servicio que requieran las necesidades de servicio al cliente de su empresa.  
+Para poder utilizar las funciones de la gestión de servicios en [!INCLUDE[prod_short](includes/prod_short.md)], hay algunos parámetros que debe configurar. Por ejemplo, puede establecer códigos para servicios estándar, síntomas y códigos de defectos, y los productos de servicio y tipos de productos de servicio que requieran las necesidades de servicio al cliente de su empresa.  
 
 Cuando configure la gestión de servicios, debe decidir qué servicios desea ofrecer a los clientes y la previsión de dichos servicios. Un servicio es un tipo de trabajo realizado por uno o varios recursos y proporcionado a un cliente. Por ejemplo, un servicio podría ser un tipo de reparación de equipo. Un producto de servicio es el equipo o producto que necesita servicios, como el equipo que necesita reparación, instalado en un cliente determinado. Puede configurar servicios como parte de un grupo de productos relacionados de reparación o mantenimiento.  
   
@@ -43,4 +42,7 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 
 ## <a name="see-also"></a>Consulte también .
 [Gestión de servicios](service-service.md)  
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

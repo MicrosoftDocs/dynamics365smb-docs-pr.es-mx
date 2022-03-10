@@ -1,22 +1,20 @@
 ---
-title: Revisar un informe de prueba antes de registrar un documento de venta o de compra | Documentos de Microsoft
+title: Ver un informe de prueba antes de registrar un documento de venta o de compra
 description: Antes de registrar un documento (por ejemplo, una orden o una nota de crédito), puede probarlo y revisarlo para comprobar si hay errores que puedan bloquear el registro.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 9c2d32fd87112b839e6f60362fbd929870d47138
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f7154c438437aacb3788c91ad9c17bba8673477
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774472"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335355"
 ---
 # <a name="view-test-reports-before-posting"></a>Ver informes de prueba antes de realizar el registro
 Cuando esté listo para registrar un documento, como una orden, una factura o una nota de crédito, puede probar el documento para asegurarse de que no hay problemas que vayan a bloquear el registro.
@@ -25,7 +23,7 @@ Cuando esté listo para registrar un documento, como una orden, una factura o un
 >   Con el siguiente procedimiento se realiza una prueba antes de registrar un documento de compra. La funcionalidad funciona de la misma forma que para los documentos de venta.
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Para imprimir un test antes de registrar una factura de compra
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego seleccione el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y, a continuación, elija el vínculo relacionado.
 2. Abra la factura de compra que desee evaluar.
 3. Elija la acción **Informe de prueba**.  
 

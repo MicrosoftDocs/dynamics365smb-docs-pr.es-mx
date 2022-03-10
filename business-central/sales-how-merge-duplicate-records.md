@@ -1,23 +1,20 @@
 ---
-title: Combinar registros duplicados de clientes o proveedores | Documentos de Microsoft
-description: Describe cómo crear una ficha de cliente para registrar información acerca de cada cliente nuevo o existente a los que venda productos.
-services: project-madeira
-documentationcenter: ''
+title: Combinar registros duplicados de clientes o proveedores
+description: Describe cómo consolidar información sobre clientes o proveedores cuando tiene entradas duplicadas sobre algunos de ellos.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c73fd564211dd93a7c6f668e1753227811544074
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: bc68aba329f391333dfddc9e6ba5ce8c59212c74
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193646"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130135"
 ---
 # <a name="merge-duplicate-records"></a>Combinar registros duplicados
 A medida que diferentes usuarios crean nuevas fichas de cliente, proveedor o contacto a lo largo del tiempo, o que los nuevos registros se crean automáticamente durante la migración, un cliente, proveedor o contacto puede estar representado en el sistema con más de un registro. En este caso, puede utilizar la página **Combinar duplicados** de la ficha del registro que desea conservar. La página le ofrece una visión general de los valores de campo duplicado y le ofrece funciones para seleccionar los valores que desea conservar o descartar al combinar dos registros en uno.
@@ -30,7 +27,7 @@ A medida que diferentes usuarios crean nuevas fichas de cliente, proveedor o con
 
 El procedimiento siguiente se basa en una ficha de cliente. Los pasos son parecidos para una ficha de proveedor y de contacto.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
 2. Seleccione el cliente del que sabe o sospecha que existe un registro duplicado y, a continuación, seleccione la acción **Editar**.
 3. En la página **Ficha de cliente**, seleccione la acción **Combinar con**.
 4. En la página **Combinar duplicado**, en el campo **Combinar con**, seleccione el cliente que cree que es un duplicado del que ha abierto, indicado en el campo **Actual**.
@@ -67,4 +64,7 @@ El procedimiento siguiente se basa en una ficha de cliente. Los pasos son pareci
 ## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  
 [Configuración de contactos](marketing-setup-contacts.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,19 +1,19 @@
 ---
 title: Validar un CIF/NIF
-description: Permita que Business Central valide los CIF/NIF y otra información de la empresa para sus contactos, clientes y proveedores, según el servicio de validación de números de IVA VIES de la Unión Europea.
+description: Permita que Business Central valide los números de registro de IVA para sus contactos, clientes y proveedores, de acuerdo con el servicio de validación de números de IVA VIES de la UE.
 author: andregu
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.search.form: 249, 575, 1279
+ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 9e7c60e884ad65e209a2513d63c9434a90d9b449
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fce9a7d934012f3dbd65ee323f881767aeeadd8d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770302"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142144"
 ---
 # <a name="validate-vat-registration-numbers"></a>Validar un CIF/NIF
 
@@ -43,8 +43,6 @@ Hay un par de cosas a recordar sobre el servicio de validación de IVA VIES:
 > Es su responsabilidad comprobar que los datos sean válidos. En ocasiones, los datos con errores son devueltos por el servicio de Validación de número de IVA VIES. Si la validación falla, valide los números de registro de IVA en el [sitio web](https://ec.europa.eu/taxation_customs/vies/), imprima el resultado o guárdelo en una ubicación compartida y luego agregue el enlace al registro de su cliente, proveedor o contacto. Para obtener información, consulte [Administrar archivos adjuntos, vínculos y notas en fichas y documentos](ui-how-add-link-to-record.md).
 
 ## <a name="validation-templates"></a>Plantillas de validación
-
-[!INCLUDE [2020rw_online_only](includes/2020rw_online_only.md)]
 
 Puede utilizar el servicio VIES para comprobar también otra información de la empresa, como la dirección, además del CIF/NIF. En la página **Plantillas de validación de CIF/NIF**, cree una entrada para cada país o región para el que desea obtener una validación adicional y, luego, especifique la información que desea que se valide automáticamente.  
 

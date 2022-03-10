@@ -1,21 +1,20 @@
 ---
-title: 'Procedimiento: realice un picking de los artículos para el envío de almacén | Documentos de Microsoft'
-description: Cuando el almacén está configurado para requerir los procesos de picking y envío, utilice documentos de picking de almacén para crear y procesar la información de picking anterior al registro del envío de almacén.
+title: Realizar picking de artículos para envío de almacén
+description: Aprenda a utilizar los documentos de picking de almacén para crear y procesar información de picking antes de registrar el envío del almacén.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dc955230953738f36bf26ec2e8b78f59325a38f9
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7335c388efc48f3c9a04238e7727817f28a7757f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386135"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128541"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Realizar picking de artículos para envío de almacén
 Cuando el almacén está configurado para requerir los procesos de picking y envío, utilice documentos de picking de almacén para crear y procesar la información de picking anterior al registro del envío de almacén.  
@@ -38,7 +37,7 @@ También puede crear los documentos de picking de almacén en forma de empuje de
 >  Para obtener información acerca de la realización de picking de componentes para pedidos de ensamblado en general, incluidas las situaciones en las que no caduca el producto de ensamblado en una remisión de ventas, consulte [Realizar picking para producción o ensamblado](warehouse-how-to-pick-for-production.md).  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Para realizar un picking de los artículos para el envío de almacén  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Picking** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Picking** y luego elija el enlace relacionado.  
 
     Si tiene que trabajar con un picking determinado, seleccione el picking de la lista o filtre la lista para encontrar los pickings que se le han asignado específicamente. Abra la ficha de la tarjeta.  
 2.  Si el campo **Id. usuario asignado** está vacío, escriba el id. para identificarse si es necesario.  

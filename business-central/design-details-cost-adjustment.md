@@ -1,21 +1,20 @@
 ---
-title: 'Detalles de diseño: Ajuste de costo | Documentos de Microsoft'
-description: El propósito principal del ajuste de costo es desviar los cambios de costo de los orígenes de costo a los destinatarios de costo, según la valuación de inventarios de un producto, para proporcionar la valuación de inventarios correcta.
+title: 'Detalles de diseño: ajuste de costos'
+description: El ajuste de costo desvía los cambios de costo de los orígenes de costo a los destinatarios de costo, según el método de costo de un producto, para proporcionar la valuación de inventarios correcta.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/19/2020
-ms.author: sgroespe
-ms.openlocfilehash: 686aa7b0e6bae7fa5fbc639f03ef3ac34237d9e8
-ms.sourcegitcommit: ec3034640ed10e0fd028568ec45f21c84498d3de
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 5783647c4e70debce32bbb0ca3976efea78ec065
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3486432"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143723"
 ---
 # <a name="design-details-cost-adjustment"></a>Detalles de diseño: Ajuste de costo
 
@@ -38,7 +37,7 @@ Los costes de inventario deben ajustarse antes de que los movimientos de valores
 
 La tarea de detectar si se debe producir un ajuste del costo la lleva a cabo principalmente la rutina Diario de productos - Línea de registro, mientras que la tarea de calcular y generar los movimientos de ajuste de costo la realiza el proceso **Valorar existencias - movs. producto**.  
 
-Para poder desviar costes, el mecanismo de detección determina qué orígenes han cambiado en los costes y a qué destino se deben desviar dichos costes. Las tres funciones de detección siguientes existen en [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Para poder desviar costes, el mecanismo de detección determina qué orígenes han cambiado en los costes y a qué destino se deben desviar dichos costes. Las tres funciones de detección siguientes existen en [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 * Liq. mov. producto  
 * Punto de movimiento de ajuste de costo promedio  
@@ -67,7 +66,7 @@ Esta función de detección se usa en escenarios de conversión, producción y e
 
 La función de nivel de pedido se usa para detectar los ajustes en el registro de ensamblado. En el gráfico siguiente se muestra la estructura del movimiento de ajuste:  
 
-![Flujo de entradas en ajuste de costos](media/design_details_assembly_posting_3.png "Flujo de entradas en ajuste de costos")  
+![Flujo de entradas en ajuste de costos.](media/design_details_assembly_posting_3.png "Flujo de entradas en ajuste de costos")  
 
 Para obtener más información, consulte [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md).  
 
@@ -82,7 +81,7 @@ Es buena práctica ejecutar el ajuste del costo automáticamente cuando se regis
 
 Dado que es importante mantener el costo unitario de un producto actualizado, se recomienda ejecutar el proceso **Valorar existencias - movs. producto** tan a menudo como sea posible, durante horas no laborables. También puede utilizar un ajuste automático del costo. De este modo se garantiza que el costo unitario se actualiza diariamente para los productos.  
 
-Independientemente de si ejecuta el ajuste de costos manual o automáticamente, el proceso de ajuste y sus consecuencias son los mismos. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula el valor de la transacción de entrada y desvía ese costo a cualquier transacción de salida, como ventas o consumos, que se hayan aplicado a la transacción de entrada. El ajuste de costo crea movimientos de valoración que contienen importes de ajuste e importes que compensan el redondeo.  
+Independientemente de si ejecuta el ajuste de costos manual o automáticamente, el proceso de ajuste y sus consecuencias son los mismos. [!INCLUDE[prod_short](includes/prod_short.md)] calcula el valor de la transacción de entrada y desvía ese costo a cualquier transacción de salida, como ventas o consumos, que se hayan aplicado a la transacción de entrada. El ajuste de costo crea movimientos de valoración que contienen importes de ajuste e importes que compensan el redondeo.  
 
 Los movimientos de nuevo ajuste y de valor de redondeo tienen la fecha de registro de la factura relacionada. Las excepciones son si los movimientos de valor entran en un periodo contable o un periodo de inventario cerrado o si la fecha de registro es anterior a la del campo **Permitir registro desde** en la página **Configuración de contabilidad**. Cuando esto se produce, el trabajo por lotes asigna la fecha de registro como la primera fecha del periodo abierto siguiente.  
 
@@ -188,4 +187,7 @@ Si ha configurado aplicar el ajuste automático del costo en los registros que s
 [Detalles de diseño: Registro de órdenes de producción](design-details-production-order-posting.md)  
 [Administración de costos de inventario](finance-manage-inventory-costs.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

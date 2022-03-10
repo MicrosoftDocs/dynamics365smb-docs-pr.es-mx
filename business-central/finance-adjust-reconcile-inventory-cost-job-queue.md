@@ -1,42 +1,43 @@
 ---
-title: Ajustar el costo de conciliación con la contabilidad mediante la cola de proyectos
+title: Programar tareas para ajustar y conciliar el costo de inventario
 description: Obtenga información sobre cómo puede usar la cola de proyectos para mover las tareas para ajustar el costo de inventario o conciliarlo con la contabilidad en segundo plano. Por ejemplo, si su empresa ejecuta muchas tareas o procesa muchas transacciones.
 author: AndreiPanko
-ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 07/28/2021
+ms.search.form: 461
+ms.date: 09/23/2021
 ms.author: andreipa
-ms.openlocfilehash: e44936d9d9ec39d9232285d7293c152c57ab0a56
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
+ms.openlocfilehash: 40642b524e44234cda8ef0bd468ff8eb47decb69
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688474"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142274"
 ---
-# <a name="adjust-and-reconcile-inventory-cost-with-general-ledger-with-job-queue"></a>Ajustar y conciliar el costo de inventario con la contabilidad general con cola de proyectos
+# <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Programar tareas para ajustar y conciliar el costo de inventario con la contabilidad
 
 Para optimizar la experiencia, el ajuste automático de costos y el registro en la contabilidad general están activados de forma predeterminada. Sin embargo, a medida que los datos se acumulan con el tiempo, eso podría afectar el rendimiento. Para reducir la carga en la aplicación, a menudo es útil usar entradas de la cola de proyectos para mover las tareas y ejecutarlas en segundo plano.
 
 ## <a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup"></a>Mover la tarea de ajuste de costos de los productos a un segundo plano con la ayuda de la configuración asistida
 
-Crear los movimientos de cola de proyectos puede ser complicado, incluso para un consultor experimentado, por lo que contamos con una guía de configuración asistida para facilitar el proceso de ajuste de los costos de los productos. 
+Crear los movimientos de cola de proyectos puede ser complicado, incluso para un consultor experimentado, por lo que contamos con una guía de configuración asistida para facilitar el proceso de ajuste de los costos de los productos.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. existencias** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de inventario** y, luego, elija el enlace relacionado.  
 2. En la página **Configuración de inventario**, active o desactive el campo **Registro automático de costos** o especifique **Nunca** en el campo **Ajuste automático del costo**.  
-3. En la notificación que ahora se muestra en la parte superior de la página, elija el enlace **Programar movimiento en cola de proyectos**.
+3. En la notificación que ahora se muestra en la parte superior de la página, elija el enlace **Programar movimiento en cola de proyectos**. Esto abre la guía de configuración asistida **Ajuste de costo de previsión y registro**.  
 4. Especifique la tarea que desea programar.  
 
   > [!NOTE]
-  > No puede crear un nuevo movimiento de cola de proyectos si ya existe un movimiento de cola de proyectos para la tarea especificada. 
+  > No puede crear un nuevo movimiento de cola de proyectos si ya existe un movimiento de cola de proyectos para la tarea especificada.
+
 5. Seleccione el campo **Ver los movimiento de la cola de proyectos al finalizar** para revisar y ajustar la configuración. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).  
 
 ## <a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a>Para crear un movimiento de cola de proyectos para ajustar y conciliar el costo de inventario manualmente
 
-Alternativamente, puede crear movimientos de cola de proyectos manualmente. El siguiente procedimiento muestra cómo configurar el trabajo por lotes **Ajustar costo: movimientos de producto** para que se ejecute automáticamente a diario, pero los mismos pasos se aplican al trabajo por lotes **Registrar costo de inventario en contabilidad**. 
+Alternativamente, puede crear movimientos de cola de proyectos manualmente. El siguiente procedimiento muestra cómo configurar el trabajo por lotes **Ajustar costo: movimientos de producto** para que se ejecute automáticamente a diario, pero los mismos pasos se aplican al trabajo por lotes **Registrar costo de inventario en contabilidad**.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Movs. cola proyecto** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -50,9 +51,8 @@ Ahora, el costo del inventario se actualizará todas las noches.
 
 Para programar una tarea para conciliar el inventario con la contabilidad general, seleccione la codeunit 2846 **Registrar costo de inventario en contabilidad**.
 
-
-> [!NOTE]
-> Para evitar el bloqueo, no programe tareas para el trabajo por lotes **Ajustar costo: movimientos de producto**, la codeunit **Registrar costo de inventario en contabilidad** ni tareas para registrar transacciones de venta o compra al mismo tiempo y asegúrese de que utilicen la misma categoría de cola de proyectos.
+> [!TIP]
+> Para evitar el bloqueo, no programe tareas para la tarea por lotes **Ajustar costo: movs. producto**, la codeunit **Reg. var. inventario en contabilidad** ni las tareas para registrar transacciones de venta o compra al mismo tiempo. Además, asegúrese de que utilicen la misma categoría de cola de trabajos.
 
 ## <a name="see-also"></a>Consulte también
 

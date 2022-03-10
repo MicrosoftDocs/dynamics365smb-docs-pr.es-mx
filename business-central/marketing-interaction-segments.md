@@ -1,23 +1,22 @@
 ---
-title: Realizar un seguimiento de los segmentos y las interacciones relacionadas | Documentos de Microsoft
+title: Realizar un seguimiento de los segmentos y las interacciones relacionadas
 description: Obtenga información sobre cómo crear segmentos para definir grupos de contactos y especificar interacciones para los segmentos.
-services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.search.forms: 5139,
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: aeed39953f6b5219dcc290a3416a9dd7e2e69d89
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 792b2172a96287732e9ae81c8af5fd6ba5aeccf7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446772"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131416"
 ---
 # <a name="manage-interactions-for-segments"></a>Administrar interacciones para segmentos
 La página **Segmento** es un tipo de hoja de cálculo con la que puede:
@@ -52,3 +51,6 @@ En la página **Segmentos archivados**, puede decidir crear un segmento de segui
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Creación y administración de contactos](marketing-contacts.md)  
 [Trabajar con Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
