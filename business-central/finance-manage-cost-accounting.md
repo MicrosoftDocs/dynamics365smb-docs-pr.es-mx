@@ -1,20 +1,21 @@
 ---
-title: Contabilidad para costos | Documentos de Microsoft
-description: La contabilidad de costos se utiliza para ayudarle a conocer los costos de la dirección de una empresa. Para iniciarse en la contabilidad de costos, vea los temas siguientes.
+title: Información general de contabilidad de costos
+description: La contabilidad de costos puede ayudarlo a conocer los costos operativos de una empresa. Este artículo proporciona enlaces a otros artículos con más información.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 1123
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c22248b9f81837cfaf52717314d7981a64ede8c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5add5fb45af8e12b86dbe72e12d0e38649b31464
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148647"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366813"
 ---
 # <a name="accounting-for-costs"></a>Contabilidad para costos
 La contabilidad de costos se utiliza para ayudarle a conocer los costos de la dirección de una empresa. Para iniciarse en la contabilidad de costos, vea los temas siguientes.  

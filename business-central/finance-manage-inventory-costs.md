@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 79498fe0e29a633f7d17a7940148728f544cb2d0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1b3e724a3dd0f6f8dadd0e6c233fd41795bcbfd9
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138529"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366299"
 ---
 # <a name="managing-inventory-costs"></a>Gestión de costos de inventario
 La gestión de costos, también conocida como "valoración de existencias", se refiere al registro y la creación de informes sobre los costos operativos de la empresa. Incluye la creación de informes de los costos de fabricación y de inventario, es decir, el valor de los productos.   
@@ -36,7 +36,7 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 |Utilice funciones especiales de cálculo de costes para las transacciones de artículos diarios en las operaciones del elemento.|[Administración de costos de inventario y de fabricación](finance-handle-inventory-and-manufacturing-costs.md)|  
 |Actualice periódicamente los costos estándar de los componentes, en L.M. de ensamblados o de producción, y distribuya los nuevos costos al producto principal.|[Actualizar costos estándar](finance-how-to-update-standard-costs.md)|
 |Consulte y modifique manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.|[Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)|
-|Realice tareas de control y reportes de final de período, como calcular el valor del inventario y registrar costos en la contabilidad general.|[Creación de informes de costos y conciliación con la contabilidad](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
+|Realice tareas de control y reportes de final de período, como calcular el valor del inventario y registrar costos en la contabilidad general.|[Creación de informes de costos y conciliación con la contabilidad](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Obtenga información sobre cómo puede usar la cola de proyectos para mover las tareas para ajustar el costo de inventario o conciliarlo con la contabilidad en segundo plano.|[Ajustar y conciliar el costo de inventario con la contabilidad general con cola de proyectos](finance-manage-inventory-costs.md)|
 
 ## <a name="see-also"></a>Consulte también  

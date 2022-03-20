@@ -88,13 +88,15 @@
 ##### [Detalles de diseño: estructura de motor de registro](design-details-posting-engine-structure.md)  
 
 ## Intentarlo
+### [Regístrese para obtener una versión de prueba gratuita de Dynamics 365 Business Central](trial-signup.md)
+### [Preguntas más frecuentes de la prueba de Dynamics 365 Business Central](trial-faq.md)
 ### [Versiones de prueba y suscripciones](across-preview.md)
 ### [Preparación para hacer negocios](ui-get-ready-business.md)
 ### [Solución de problemas en el registro de autoservicio](ui-troubleshoot-self-signup.md)
 ### [Extensión de la versión de prueba](admin-extend-trial.md)
 ### [Cancelar la suscripción o quitar Business Central](admin-cancel.md)
 ## Comprar
-### [Introducción a una suscripción](across-preview.md#getting-started-with-a-subscription)
+### [Introducción a una suscripción](across-preview.md#get-started-with-a-subscription)
 ### [Preparación para hacer negocios](ui-get-ready-business.md)
 
 ## Inicio rápido
@@ -557,7 +559,7 @@
 #### [Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Creación de informes de costos y conciliación con la contabilidad
-##### [Creación de informes de costos](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Creación de informes de costos](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)
 ##### [Conciliar costos de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Supervisar el progreso y el rendimiento del trabajo](projects-how-monitor-progress-performance.md)
 #### [Ajustar y conciliar el costo de inventario con la contabilidad general con cola de proyectos](finance-adjust-reconcile-inventory-cost-job-queue.md)

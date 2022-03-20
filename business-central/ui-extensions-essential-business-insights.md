@@ -2,7 +2,7 @@
 title: Mostrar información útil en las áreas de tareas
 description: Conozca cómo la extensión Información de la empresa esencial rota una serie de ideas comerciales en las áreas de tareas.
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 75081547af3c98233870d0cbe68860ab52d8c38d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3980b900a1fe261ae45c2eb1dc6e5395a01cb02d
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134780"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384031"
 ---
 # <a name="the-essential-business-insights-extension"></a>La extensión Información de la empresa esencial
 La extensión Información comercial esencial encuentra hechos comerciales interesantes en los datos de su empresa y los muestra como titulares de periódicos en las Áreas de tareas. En función de lo que encuentre la extensión en los datos, la información será de la última semana, mes o tres meses desde la fecha actual. La información se actualiza cada 10 minutos.  

@@ -10,16 +10,16 @@ ms.search.keywords: feature overview
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f25e6f2afbcb6f249bf3e04f35172d6678cbd113
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: b88082cb1cf211f8ce6ab4e377c166a62372d530
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323121"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367051"
 ---
 # <a name="business-functionality"></a>Funciones empresariales
 
-[!INCLUDE[prod_short](includes/prod_short.md)] proporciona funciones para procesos empresariales comunes de las pequeñas y medianas empresas, principalmente de los servicios mayoristas y profesionales. Sin embargo, también se admiten procesos más complejos, por ejemplo, montaje, fabricación, servicio, y administración dirigida de almacén.
+[!INCLUDE[prod_short](includes/prod_short.md)] proporciona funciones para procesos empresariales comunes de las pequeñas y medianas empresas, principalmente de los servicios mayoristas y profesionales. Sin embargo, también se admiten procesos más complejos, por ejemplo, montaje, fabricación, servicio, y administración dirigida de almacén. [Aprenda cómo obtener una prueba gratuita aquí](trial-signup.md).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] incluye configuraciones estándar de muchos procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de su empresa. Desde el Área de tareas, puede acceder a guías de configuración asistida que le ayudarán a configurar varios escenarios y añadir funciones a [!INCLUDE[prod_short](includes/prod_short.md)]. Varias áreas de las funciones empresariales se deben configurar manualmente. Los artículos de [Inicio rápido de Business Central](quick-start-business-central.md) pueden ayudarle a dar los primeros pasos para hacer [!INCLUDE [prod_short](includes/prod_short.md)] por su cuenta. Para obtener más información, consulte [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
