@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/16/2022
+ms.date: 03/23/2022
 ms.author: edupont
-ms.openlocfilehash: b9790c6dc22fd944e273c450e119d8175d7761b5
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: f4d185e5aa549bc3be453c2356a9c4c28f951c27
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311322"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516497"
 ---
 # <a name="set-up-electronic-invoicing-in-the-mexican-version"></a>Configurar la facturación electrónica en la versión para México
 
@@ -32,7 +32,12 @@ Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[pr
 
     > [!NOTE]
     > Debe rellenar el campo **Código postal del SAT**. Si no puede ver el campo en la ficha desplegable **General**, elija la acción **Más** para que se muestren más campos.
-3. En la ficha desplegable **Impuestos**, rellene los campos tal como se describe en la tabla siguiente.  
+3. Abra la ficha desplegable **Envío** y rellene los campos. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] En la siguiente tabla se describen algunos de los campos complejos relacionados con CFDI.  
+
+    |Campo|Description|  
+    |------------------------------------|---------------------------------------|
+    |**Tipo de permiso de la SCT** y **Nombre de permiso de la SCT**|En estos campos se especifica un permiso otorgado por la Secretaría de Comunicaciones y Transportes. El permiso debe corresponderse con el tipo de transporte motorizado que usa la empresa para trasladar los productos o las mercancías en caso de que dicho transporte se realice en el territorio nacional.|
+4. Rellene los campos de la ficha desplegable **Impuesto**. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] En la siguiente tabla se describen algunos de los campos complejos relacionados con CFDI.  
 
     |Campo|Description|  
     |------------------------------------|---------------------------------------|
@@ -41,9 +46,6 @@ Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[pr
     |**N° RFC**|Ingrese el número de registro federal de los contribuyentes. El tipo de identificación fiscal Registro Federal de Contribuyentes (RFC) se puede aplicar a empresas y a personas. El número de RFC de una empresa incluye 12 caracteres, mientras que el número de RFC de una persona incluye 13 caracteres. Sin embargo, dado que [!INCLUDE [prod_short](../../includes/prod_short.md)] se destina a las empresas, solo se admiten números de RFC de 12 dígitos.|
     |**N° CURP**|Ingrese el número de identificación de la tarjeta fiscal única. El tipo de identificación fiscal Cédula de identification fiscal con clave única de registro de población (CURP) solo puede aplicarse a personas. Un número de CURP incluye 18 caracteres.|
     |**Inscripción estatal**|Ingrese el número de identificación fiscal que asignan las autoridades fiscales del estado a toda persona o empresa.|
-    |**Tipo de permiso de la SCT** y **Nombre de permiso de la SCT**|En estos campos se especifica un permiso otorgado por la Secretaría de Comunicaciones y Transportes. El permiso debe corresponderse con el tipo de transporte motorizado que usa la empresa para trasladar los productos o las mercancías en caso de que dicho transporte se realice en el territorio nacional.|
-
-    Rellene el resto de campos. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-general-ledger-information"></a>Para configurar la información contable  
 
@@ -54,7 +56,7 @@ Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[pr
     |------------------------------------|---------------------------------------|
     |**Habilitado**|Seleccione este campo para usar documentos con firma digital y, luego, complete los demás campos de esta ficha desplegable.|
     |**Certificado SAT**|Especifique el certificado del SAT. Para obtener más información, consulte la sección [Para agregar los certificados](how-to-set-up-pac-web-services.md#to-add-the-certificates).|
-    |**Enviar informe PDF**|Seleccione esta opción para incluir un archivo PDF al enviar facturas electrónicas por correo electrónica a los clientes y los proveedores. Las facturas electrónicas siempre se envían como archivo XML. Esta opción permite incluir un documento PDF junto con dicho archivo XML.|  
+    |**Enviar informe PDF**|Elija este campo para incluir un archivo PDF al enviar facturas electrónicas por correo electrónico a los clientes y los proveedores. Las facturas electrónicas siempre se envían como archivo XML. Esta opción permite incluir un documento PDF junto con dicho archivo XML.|  
     |**Cód. PAC**|Especifique el proveedor de servicios autorizado (PAC) cuyos sellos digitales quiere aplicar a las facturas electrónicas. Para obtener más información, consulte [Configurar servicios web de PAC](how-to-set-up-pac-web-services.md).|
     |**Entorno PAC**|Especifique si la empresa usa los servicios web del proveedor de servicios autorizado (PAC) en un entorno de prueba o de producción.|
 
@@ -62,10 +64,21 @@ Como alternativa, puede solicitar a su Microsoft Certified Partner que modifique
 
 ## <a name="to-set-up-customer-and-vendor-information"></a>Para configurar la información del cliente y el proveedor
 
-Finalmente, debe agregar la información sobre sus clientes y proveedores. En la siguiente sección se describe cómo especificar esta información a los clientes, pero se deben especificar los mismos campos para los proveedores.
+Además, debe agregar la información sobre sus clientes y proveedores. En la siguiente sección se describe cómo especificar esta información para los clientes y los proveedores.
 
-1. Elija el icono ![Tercera bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ficha de cliente** y, a continuación, elija el vínculo relacionado.
-2. En la ventana **Tarjeta del cliente**, en la ficha desplegable **Facturación**, llene los campos como se describe en la tabla siguiente.
+### <a name="set-up-customer-information"></a>Configurar información de cliente
+
+1. Elija el icono ![Tercera bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.  
+2. Para cada cliente de la lista **Clientes**, abra la ficha del cliente y rellene los campos de la ficha desplegable **General**. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] En la siguiente tabla se describen algunos de los campos complejos relacionados con CFDI.  
+
+    |Campo|Description|
+    |------------------------------------|---------------------------------------|
+    |**Propósito de CFDI**|Especifique el propósito de CFDI necesario para informar a las autoridades fiscales mexicanas (SAT).|
+    |**Relación de CFDI**|Especifique la relación del documento de CFDI.|
+    |**Código de exportación de CFDI**|Especifique un código para indicar si el cliente se usa normalmente para exportaciones a otros países o regiones.|
+    |**Clasificación de régimen fiscal de SAT**|Especifique el esquema fiscal necesario para informar a las autoridades fiscales mexicanas (SAT).|
+
+3. Rellene los campos de la ficha desplegable **Facturación**. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] En la siguiente tabla se describen algunos de los campos complejos relacionados con CFDI.  
 
     |Campo|Description|
     |------------------------------------|---------------------------------------|
@@ -76,7 +89,37 @@ Finalmente, debe agregar la información sobre sus clientes y proveedores. En la
     > [!NOTE]
     > Si selecciona el campo **Precios incluido IVA** para un cliente, los documentos electrónicos incluirán el IVA en todas las cantidades, incluidos los precios unitarios. Los documentos electrónicos también contendrán un elemento separado para el IVA. Si quiere evitar cualquier posible confusión sobre las cantidades que incluyen el IVA, puede elegir no seleccionar el campo **Precios incluido IVA**.
 
-3. En la ficha rápida **Pagos**, en el campo **Código del método de pago**, especifique la forma de pago que desea utilizar para este cliente.
+4. En la ficha rápida **Pagos**, en el campo **Código del método de pago**, especifique la forma de pago que desea utilizar para este cliente.  
+5. Repita los pasos 2 a 4 para los demás clientes.  
+
+### <a name="set-up-vendor-information"></a>Configurar información de proveedor
+
+1. Elija el icono ![Tercera bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
+2. Para cada proveedor de la lista **Proveedores**, abra la ficha del proveedor y rellene los campos de la ficha desplegable **General**. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]  
+3. Rellene los campos de la ficha desplegable **Pagos**. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] En la siguiente tabla se describen algunos de los campos complejos relacionados con CFDI.  
+
+    |Campo|Description|
+    |------------------------------------|---------------------------------------|
+    |**N° RFC**|Indique el número de registro federal de los contribuyentes. El número RFC debe contener 12 dígitos.|
+    |**N° CURP**|Ingrese el número de identificación de la tarjeta fiscal única. El número CURP debe contener 18 dígitos.|
+    |**Inscripción estatal**|Ingrese el número de identificación fiscal que asignan las autoridades fiscales del estado a toda persona o empresa.|
+4. Repita los pasos 2 a 3 para los demás proveedores.  
+
+## <a name="to-set-up-location-information"></a>Configurar información de almacén
+
+Por último, debe agregar la información sobre los almacenes que usa. En la siguiente sección se describe cómo especificar esta información para los almacenes.
+
+1. Elija el icono ![Tercera bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.
+2. Para cada almacén de la lista **Almacenes**, abra la ficha del almacén y rellene los campos de la ficha desplegable **Dirección y contacto**. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] En la siguiente tabla se describen algunos de los campos complejos relacionados con CFDI.  
+
+    |Campo|Description|
+    |------------------------------------|---------------------------------------|
+    |**Código de estado de SAT**|Especifique el estado, la entidad, la región, la comunidad o definiciones similares donde se encuentra el domicilio de origen o destino de los productos o las mercancías que se trasladan en los diferentes medios de transporte.|
+    |**Código de municipalidad del SAT**|Especifique la municipalidad, la delegación o la intendencia, la colonia o el municipio, o definiciones similares donde se encuentra el domicilio de origen o destino de los productos o las mercancías que se trasladan en los diferentes medios de transporte.|
+    |**Código de localidad del SAT**|Especifique la ciudad, el poblado, el distrito o una definición similar donde se encuentra el domicilio de origen o destino de los productos o las mercancías que se trasladan en los diferentes medios de transporte.|
+    |**Código de suburbio del SAT**|Especifique el código de suburbio del SAT en el que se encuentra el domicilio de origen o destino de los productos o las mercancías que se trasladan en los diferentes medios de transporte.|
+    |**Código postal del SAT**|Especifique el código postal del SAT en el que se encuentra el domicilio de origen o destino de los productos o las mercancías que se trasladan en los diferentes medios de transporte.|
+3. Repita el paso 2 para los demás almacenes.  
 
 ## <a name="to-map-key-data-to-the-cfdi-fields"></a>Para asignar datos clave a los campos de CFDI
 

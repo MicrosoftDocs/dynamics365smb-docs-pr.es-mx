@@ -3,22 +3,26 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 75205f4c9fd94cd499b1f1c017a8bfc396465ae7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6db94363d0633ec815a09190269610dbc50cbdcd
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146018"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511879"
 ---
-Puede crear depósitos para llevar un registro de las transacciones que incluya información que pueda aplicarse a facturas y notas de crédito pendientes.  
+> [!NOTE]
+> Hay nuevas funcionalidades para crear depósitos bancarios disponibles en Business Central 2022 lanzamiento de versiones 1 para las versiones de un gran número de países. Si utilizaba Business Central en Canadá, México o Estados Unidos antes de esa versión, es probable que esté utilizando las funcionalidades anteriores. Puede continuar, pero las nuevas funcionalidades sustituirán a las anteriores en una versión futura. Para comenzar a utilizar las nuevas funcionalidades de inmediato, el administrador puede ir a la página **Administración de características** y activar la opción **Actualización de características: conciliación y depósitos bancarios estandarizados**. Para obtener más información, consulte [Crear depósitos bancarios](../../../bank-create-bank-deposits.md).
 
-La página **Depósito** especifica la información de los depósitos bancarios. La información incluye el número de cuenta bancaria, el importe total del depósito, las líneas del depósito, la fecha de contabilización, la fecha del documento, el código de departamento, el código de moneda y las notas de depósito. Puede utilizar la página para crear nuevos depósitos, contabilizarlos, imprimirlos, ver los comentarios de los depósitos o consultar un informe que muestre el importe del depósito a reconciliar.
 
-El informe **Depósito** muestra los depósitos de clientes y proveedores con el importe del depósito original, el importe del depósito que permanece abierto y el importe aplicado. El informe también muestra el total del importe de depósito contabilizado que debe conciliarse.
+Puede crear depósitos bancarios para llevar un registro de las transacciones que incluya información que pueda aplicarse a facturas y notas de crédito pendientes.  
 
-Las líneas de depósito contienen información sobre los elementos individuales del depósito, como los cheques de los clientes. Esta información incluye la fecha y el número del documento, el tipo y el número de cuenta, y el importe. El total de los importes de las líneas debe ser igual al importe total del depósito indicado en la cabecera del depósito.
+La página **Depósitos** especifica información sobre los depósitos bancarios, como el número de cuenta bancaria, el importe total de depósito, las líneas de depósito, la fecha de registro, la fecha del documento, el código de departamento, el código de moneda y las notas de depósito bancario. Puede utilizar la página para crear nuevos depósitos bancarios, registrarlos, imprimirlos, ver los comentarios de los depósitos o consultar un informe que muestre el importe de los depósitos que se deben conciliar.
 
-Una vez rellenada la información del depósito y las líneas de depósito asociadas, deberá registrarlas para actualizar los movimientos banco, la contabilidad, los movimientos cliente y cualquier otros tipos de movimientos pertinentes. Los depósitos contabilizados se almacenan para su futura referencia y pueden verse en la página **Depósitos contabilizados**.
+El informe **Depósito** muestra los depósitos de clientes y proveedores con el importe del depósito original, el importe del depósito que permanece abierto y el importe aplicado. El informe también muestra el importe total de los depósitos registrados que deben conciliarse.
+
+Las líneas de depósito bancario contienen información sobre los elementos individuales de depositados, como los cheques de los clientes. Esta información incluye la fecha y el número del documento, el tipo y el número de cuenta, y el importe. El total de los importes de las líneas debe ser igual al importe total del depósito.
+
+Una vez rellenada la información y las líneas de depósito, deberá registrarlo para actualizar los movimientos correspondientes, como los movimientos de banco, la contabilidad general o los movimientos de cliente. Los depósitos contabilizados se almacenan para su futura referencia y pueden verse en la página **Depósitos contabilizados**.
 
 ## <a name="to-create-a-deposit"></a>Para crear un depósito  
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Depósitos** y, a continuación, elija el vínculo relacionado.  
@@ -44,10 +48,13 @@ Una vez rellenada la información del depósito y las líneas de depósito asoci
     |**Nº documento**|El número de documento del movimiento de la línea del diario.|  
     |**Importe haber**|El importe total de crédito que figura en la línea del diario.|  
 
-5.  Opcionalmente, elegir la acción de **Dimensiones** y luego, agregar las dimensiones relevantes en la página **Entradas del conjunto de dimensiones**.  
+5. Opcionalmente, elija la acción de **Dimensiones** y, luego, agregue las dimensiones en la página **Movimientos de grupo de dimensiones**.  
 6. Seleccione la acción **Registrar**.  
 
+    > [!TIP]
+    > Para registrar un depósito bancario como un único movimiento de cuenta bancaria con la suma total de los importes de las líneas de depósito bancario, active el botón de alternancia **Registrar como suma total** en el depósito bancario. Para registrar como suma total de nuevos depósitos bancarios de manera predeterminada, en la página **Configuración de ventas y cobros** active el botón de alternancia **Registrar depósitos bancarios como suma total**.
+
     > [!NOTE]  
-    >  Puede registrar un depósito solo si el importe que se muestra en el campo **Líneas total dep.** coincide con el importe del campo **Total imp. depósito**.  
+    > Puede registrar un depósito solo si los importes que se muestran en los campos **Total líneas depósito** y **Total importe depósito** coinciden.  
 
 A continuación, puede usar los informes **Prueba de depósito** y **Depósito** para reconciliar los depósitos contabilizados con las facturas y notas de crédito pendientes.  

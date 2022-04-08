@@ -8,18 +8,21 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.search.form: 10458, 10459, 27001, 27002, 27003, 27010,27011, 27011, 27012, 27013,27014,27015, 27016, 27017, 27018, 27040, 27041, 27042, 27043, 27044
-ms.date: 11/25/2021
+ms.date: 03/23/2022
 ms.author: edupont
-ms.openlocfilehash: bdcbaba2ac607076d9d0710020338b27b4740673
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: d11404142123f96d32cca0f96af23696eded7cd8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311308"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513227"
 ---
 # <a name="electronic-invoicing-in-the-mexican-version"></a>Facturación electrónica en la versión para México
 
-Las empresas mexicanas deben tener la posibilidad de enviar facturas de forma electrónica como archivos de Comprobante Fiscal Digital por Internet (CFDI). [!INCLUDE[prod_short](../../includes/prod_short.md)] admite CFDI para que pueda exportar facturas de ventas y servicios, así como notas de crédito con formato de documentos electrónicos que cuenten con la firma digital requerida.  
+Las empresas mexicanas deben tener la posibilidad de enviar facturas de forma electrónica como archivos de Comprobante Fiscal Digital por Internet (CFDI). [!INCLUDE[prod_short](../../includes/prod_short.md)] admite CFDI para que pueda exportar facturas de ventas y servicios, así como notas de crédito con formato de documentos electrónicos que cuenten con la firma digital requerida.
+
+> [!NOTE]
+> La autoridad fiscal (Servicio de Administración Tributaria) anunció una versión 4.0 del sistema de comprobante fiscal digital por internet (CFDI). Tras la fecha de vencimiento, solo se podrán emitir comprobantes en la versión 4.0. Por consiguiente, [!INCLUDE[prod_short](../../includes/prod_short.md)] actualizó la característica CFDI para respetar las nuevas disposiciones.  
 
 El archivo de CFDI es un archivo XML que incluye lo siguiente:  
 
@@ -50,6 +53,8 @@ Además, debe especificar los servicios web que utilizará para comunicarse con 
 
 > [!IMPORTANT]  
 > Tenga en cuenta que SAT ha certificado a varios PAC en México, por lo que deberá obtener la información pertinente para comunicarse con el PAC que elija.  
+
+También debe especificar información sobre su empresa y cada uno de sus clientes y proveedores. Para obtener más información, vea [Configurar la facturación electrónica](how-to-set-up-electronic-invoicing.md).  
 
 ## <a name="sending-electronic-invoices"></a>Envío de facturas electrónicas
 

@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 10/14/2021
 ms.author: edupont
-ms.openlocfilehash: a23c1b93f01ec61db0d9d70235d0af098a6af5ca
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 003649bb8457c9f01a3587f76546265024aefe06
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148925"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512566"
 ---
 # <a name="mexico-local-functionality"></a>Funcionalidad local de México
 
@@ -24,7 +24,7 @@ En los temas siguientes se describe la funcionalidad local que es exclusiva de l
     * [Tipos identificación de impuestos para México](tax-identification-types-for-mexico.md) **Disponible ahora**
     * [Recálculo del IVA](vat-recalculation.md) **Disponible ahora**
 
-* Factura electrónica
+* Facturación electrónica (actualizado a CFDI 4.0)
     * [Facturación electrónica](electronic-invoicing.md) **Disponible ahora**
     * [Configurar la facturación electrónica](how-to-set-up-electronic-invoicing.md) **Disponible ahora**
     * [Generar facturas electrónicas](how-to-generate-electronic-invoices.md) **Disponible ahora**
