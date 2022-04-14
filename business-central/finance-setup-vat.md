@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.author: bholtorf
-ms.openlocfilehash: 80264ff085ab9d88a2d6a32d8f0f1189b3622832
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383682"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519236"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido
 
@@ -31,7 +31,7 @@ Puede configurar los cálculos de IVA de forma manual, pero puede ser difícil y
 > [!NOTE]  
 > Puede usar la guía únicamente si ha creado una mi empresa, y no haya registrado transacciones que incluyen IVA. De lo contrario, sería muy sencillo usar tasas de IVA distintas por error, y crear informes relacionados con IVA inexactos.  
 
-Si desea configurar cálculos del IVA, o solo desea obtener información acerca de cada paso, este tema contiene descripciones de cada paso.  
+Si desea configurar cálculos del IVA, o solo desea obtener información acerca de cada paso, este artículo contiene descripciones de cada paso.  
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
@@ -44,6 +44,14 @@ Para iniciar la guía de configuración asistida, realice los pasos siguientes:
 1. Elija el icono ![Bombilla que abre la función Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida**.  
 2. Escoger **Configurar IVA** y completa los pasos.
 3. Cuando haya completado la configuración asistida, visite la página **Configuración de registro de IVA** y compruebe si debe completar campos adicionales de acuerdo con los requisitos locales de su versión de [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Funciones locales en Business Central](about-localization.md)  
+
+### <a name="check-the-vat-posting-setup"></a>Comprobar la configuración de registro de IVA
+
+Para ayudarle a empezar rápido, [!INCLUDE [prod_short](includes/prod_short.md)] le mostrará notificaciones si le faltan cuentas de contabilidad general (CG) en grupos contables o configuraciones de registro, como la página **Configuración de registro de IVA**. Puede activar o desactivar este tipo de notificación utilizando la notificación *Cuentas contables que faltan en grupo de registro o configuración* en la página **Mis notificaciones**. Solo tiene que ir a la página **Mi configuración** y luego elegir *Cambiar cuándo recibo notificaciones.* .  
+
+Si elige esta notificación, [!INCLUDE [prod_short](includes/prod_short.md)] crea automáticamente esas configuraciones de registro en función de los grupos de registro en el documento o diario en el que esté trabajando actualmente.  
+
+En este punto, puede completar las cuentas de contabilidad general que falten. Más adelante, cuando redefina aún más la configuración, es posible que se dé cuenta de que esta configuración era errónea. [!INCLUDE [prod_short](includes/prod_short.md)] no permite la eliminación de la configuración de registro de IVA y la configuración de registro general cuando se crean entradas basadas en dichas configuraciones. A partir del primer lanzamiento de versiones de 2022, puede usar el campo **Bloqueado** en la página **Configuración de registro de IVA** para evitar que los usuarios utilicen por error una configuración que ya no es pertinente para los nuevos registros.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Configurar números CIF/NIF para su país o región
 
@@ -94,7 +102,7 @@ Configure tambas combinaciones como necesite. Si desea agrupar las combinaciones
 Para combinar las configuraciones de registro de IVA, realice los pasos siguientes:
 
 1. Elija el icono ![Bombilla que abre la función Dígame 5.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. grupos registro IVA** y luego elija el enlace relacionado.
-2. Rellene los campos según sea necesario.
+2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Asignar los grupos de registro de IVA de forma predeterminada a varias entidades
 

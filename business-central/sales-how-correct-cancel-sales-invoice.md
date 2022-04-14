@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d36ca3a4f20e509a18f19f9fec6a3444040de9df
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 59fd78c106f6a5b7d44aa3b2c84232c6441d0d31
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137144"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517275"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Corregir o cancelar facturas de venta sin abonar
 
@@ -30,7 +30,7 @@ La diferencia entre cancelar o corregir una factura de venta registrada que no s
 | **Cancelar** |La factura de venta registrada está cancelada. Una nota de crédito de ventas de corrección se crea y se registra automáticamente para anular la factura de venta registrada inicial. En la factura de venta registrada inicial, están marcadas las casillas **Cancelado** y **Pagado**. |
 | **Corregir** |La factura de venta registrada está cancelada. Se crea una nueva factura de venta con la misma información, a menos que la orden de venta registrada se haya registrado desde una orden de venta. En ese caso, le sugerimos que cancele la factura de venta registrada y luego haga la corrección y continúe el proceso de venta desde el pedido de venta original. <br/><br/>La nueva factura de venta tiene un número diferente que la factura de venta inicial. Una nota de crédito de ventas de corrección se crea y se registra automáticamente para anular la factura de venta registrada inicial. En la factura de venta registrada inicial, están marcadas las casillas **Cancelado** y **Pagado**. |
 
-Al corregir o cancelar una factura de ventas registrada, la nota de crédito de ventas de corrección se aplica a todos los movimientos contables y del inventario que se crearon cuando se registró la factura de venta inicial. De esta forma se invierte la factura de venta registrada en los registros financieros y se deja la nota de crédito de venta registrada de corrección para el seguimiento de auditoria.  
+Al corregir o cancelar una factura de ventas registrada, la nota de crédito de ventas de corrección se aplica a todos los movimientos contables y del inventario que se crearon cuando se registró la factura de venta inicial. De esta forma, se revierte la factura de venta registrada en los registros financieros y se deja la nota de crédito de venta registrada correctiva para el seguimiento de auditoría.  
 
 > [!TIP]
 > Si ha publicado una factura de anticipo para una factura de ventas que luego corrige o cancela, también debe corregir o cancelar el anticipo. Para obtener más información, consulte [Corregir anticipos](finance-how-to-correct-prepayments.md).

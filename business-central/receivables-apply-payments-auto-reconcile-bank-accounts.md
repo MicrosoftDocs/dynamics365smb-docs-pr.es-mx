@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 1290, 1291, 1293, 1294
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9eb37571da51c0bab1fed0f6f62170208e7ee8c6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f19f2a449e90476ed77d144c1faf715f21777f5e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146187"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522705"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Liquidación de pagos automáticamente y conciliación de cuentas bancarias
 Debe conciliar con frecuencia los bancos y las cuentas de cobros y de pagos liquidando pagos registrados en el banco en sus facturas abiertas (sin abonar) relacionadas, Notas de crédito y otros movimientos pendientes en [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -31,9 +31,9 @@ Para importar extractos bancarios como fuente de banco, primero debe configurar 
 > [!TIP]
 > También puede importar archivos de estado de cuentas de banco con formato delimitado por coma o punto y coma (.CSV). Use la configuración asistida **Configurar formato de importación de archivo de estado de cuenta de banco** para definir formatos de importación de estado de cuentas de banco y adjuntar el formato a una cuenta bancaria. A continuación, puede usar estos formatos cuando importe estados de cuenta de banco en la página **Conciliación de cuentas bancarias**.
 
-De forma alternativa, puede usar la extensión AMC Banking 365 Fundamentals para convertir un archivo de Estado de cuenta de cuenta, en cualquier formato, a una secuencia de datos que pueda importar en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, vea [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
+De forma alternativa, puede usar la extensión AMC Banking 365 Fundamentals para convertir un archivo de Estado de cuenta de cuenta, en cualquier formato, a una secuencia de datos que pueda importar en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
-En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
+En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas que las describen.  
 
 | Para | Vea |
 | --- | --- |

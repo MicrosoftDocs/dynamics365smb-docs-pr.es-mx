@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: c88081d9489e66979e4cfc757a9f5ed317a85b8e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 37bd1ae61aae45a988ab38f1e25be3f870814f77
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382674"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512899"
 ---
 # <a name="viewing-service-statistics"></a>Visualización de estadísticas de servicio
 Puede utilizar estadísticas para analizar los documentos de servicio y determinar el cómo de bien está gestionando sus procesos de servicio. Puede analizar los contratos de servicio, los productos, las cotizaciones, las órdenes, las facturas y las notas de crédito si elige la acción **Estadísticas**. Para los productos y los contratos de servicios, también puede usar **Análisis prod. servicio** o **Análisis contrato** para ver un resumen de los movimientos de servicio para un producto de servicio determinado.   
@@ -62,7 +62,7 @@ Para cada tipo de movimiento, puede ver el importe facturado, la utilización (i
 
 * (Importe de la factura - Utilización (costo)) x 100/Importe de la factura  
 
-## <a name="using-trendscapes"></a>Mediante Trendscapes
+## <a name="use-trendscapes"></a>Usar Trendscapes
 Para productos de servicio y contratos de servicio, las páginas **Análisis producto de servicio** o **Análisis contrato de servicio** proporciona un resumen desplazable de movimientos de servicio de un periodo de tiempo para un producto o un contrato de servicio determinado. Para ver el análisis, abra el producto de servicio o el contrato de servicio, elija la acción **Estadísticas** y después seleccione **Análisis**.
 
 Al desplazarse en la lista, los importes se calculan en la divisa loca según el intervalo de tiempo especificado. Se calculan todos los importes procedentes de los movimientos de servicio, los cuales son movimientos creados al registrar pedidos de servicio o facturas de servicio.

@@ -1,113 +1,35 @@
 ---
 title: Actualizar los tipos de cambio de divisa (contiene vídeo)
-description: Realice un seguimiento de los importes en diferentes divisas utilizando códigos de divisa y deje que Business Central le ayude a ajustar los tipos de cambio FX de los movimientos registrados con un servicio externo.
-author: SorenGP
+description: Si realiza un seguimiento de los importes en diferentes divisas, puede dejar que Business Central le ayude a ajustar los tipos de cambio FX de los movimientos registrados con un servicio externo.
+author: edupont04
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 02/17/2022
+ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 04f96b269b842045c1a804f976ffddfd5348befc
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 45926cc094234a6b75f3e8a1ca997fc89506ef28
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323277"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523486"
 ---
 # <a name="update-currency-exchange-rates"></a>Actualizar tipos cambio divisa
 
-Las empresas trabajan en más países o regiones, por lo que es vital que puedan intercambiar y generar información financiera en más de una divisa. La divisa local ($) se define en la página **Configuración de contabilidad** como se describe en el artículo [Configurar las finanzas](finance-setup-finance.md). Una vez que se ha definido la divisa local ($), se representará como una divisa en blanco, por lo que cuando el campo **Divisa** está vacío, significa que la divisa es $.  
-
-A continuación, debe configurar códigos de divisa para cada divisa que utilice si compra o vende en divisas diferentes a su divisa local ($). También se pueden crear cuentas bancarias utilizando divisas. Es posible registrar transacciones de contabilidad general en diferentes divisas; sin embargo, la transacción de contabilidad general siempre se contabilizará en la divisa local ($).
-
-> [!Important]
-> No cree el código de divisa local en las páginas **Configuración contabilidad** ni **Divisas**. Esto creará confusión entre la divisa en blanco y el código $ en la tabla de divisas, y es posible que se creen accidentalmente cuentas bancarias, clientes o proveedores, algunos con la divisa en blanco y otros con el código $.
-
-La contabilidad general se configura con la divisa local ($), pero también se puede configurar para usarla en otra divisa con el tipo de cambio que se asigne. Mediante la designación de una segunda divisa como la denominada divisa de informes adicional, [!INCLUDE[prod_short](includes/prod_short.md)] registrará automáticamente los importes tanto en $ como en la divisa adicional en todos los movimientos de contabilidad y en otros movimientos, por ejemplo los del IVA. Para obtener más información, vea [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md). La moneda de informes adicional se utiliza con mayor frecuencia para facilitar la presentación de informes financieros a los propietarios que residen en países o regiones que utilizan divisas diferentes a la divisa local ($).  
-
-> [!IMPORTANT]
-> Si desea utilizar una divisa de informes adicional para informes financieros, asegúrese de comprender las limitaciones. Para obtener más información, vea [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md).
-
-> [!NOTE]  
-> Cuando registra en la contabilidad general con un código de moneda, como registrar un gasto en un diario general usando un código de moneda, la transacción se convierte a $ mediante el tipo de cambio de moneda de la fecha de registro. La entrada de contabilidad general no contendrá información de qué moneda se usó, solo su valor en $. Si desea realizar un seguimiento de la moneda original, por ejemplo, para una factura, debe usar los documentos de compra y venta, así como las cuentas bancarias que almacenan la información del código de moneda para las entradas.
+Puede definir diferentes divisas en [!INCLUDE [prod_short](includes/prod_short.md)], por ejemplo, si opera con divisas distintas a su divisa local. Después, para ayudarle a realizar un seguimiento de los cambios en las tasas de cambio de divisa, puede administrar las divisas manualmente o configurar un servicio de tasa de cambio de diviso.
 
 ## <a name="currencies"></a>Divisas
 
-> [!NOTE]  
+> [!TIP]  
 > Si está buscando información en tiempo real sobre tipos de cambio (FX) o tipos de cambio históricos, en [!INCLUDE[prod_short](includes/prod_short.md)] la encontrará como divisa. Además de este artículo, consulte también [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md).
 
-Especifique los códigos de moneda en **Divisas**, incluida la información adicional y los ajustes necesarios para cada código de divisa.
+[!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
-> [!TIP]
-> Cree las divisas con el código ISO internacional como código para simplificar el trabajo con la divisa en el futuro.
-
-|Campo|Description|  
-|---------------------------------|---------------------------------------|  
-|**Código**|El identificador de la divisa.|
-|**Descripción**|Una descripción en texto libre de la divisa.|
-|**Cód. ISO**|El código internacional de tres letras para la divisa definida en ISO 4217.|
-|**Código numérico ISO**|La referencia numérica internacional para la divisa definida en ISO 4217.|
-|**Fecha de tipo cambio**|La última fecha del tipo de cambio real.|
-|**Divisa UME**|Especifica si la moneda es una moneda de la UEM (Unión Económica y Monetaria), como el EUR.|
-|**Cta. dif. pos. realizadas**|La cuenta donde se contabilizará la ganancia real cuando reciba pagos por cuentas por cobrar o registre el tipo de cambio real en los pagos a cuentas por pagar. Para ver un ejemplo de una transacción de divisa por cobrar, vea el ejemplo debajo de esta tabla. |
-|**Cta. dif. pos. realizadas**|La cuenta donde se contabilizará la pérdida real cuando reciba pagos por cuentas por cobrar o registre el tipo de cambio real en los pagos a cuentas por pagar. Para ver un ejemplo de una transacción de divisa por cobrar, vea el ejemplo debajo de esta tabla. |
-|**Cta. aj. pos. CG no realizados**|La cuenta donde se contabilizará la ganancia teórica cuando realice un ajuste de divisa.|
-|**Cta. dif. pos. no realizadas**|La cuenta donde se contabilizará las pérdidas teóricas cuando realice un ajuste de divisa.|
-|**Prec. redondeo importe**|Algunas divisas tienen otros formatos para los importes de las facturas que se definen en la página **Configuración de contabilidad**. Si cambia la precisión del redondeo de importes para una divisa, todos los importes de las facturas en esa divisa se redondearán con la precisión actualizada.|
-|**N.º decimales para importes**|Algunas divisas tienen otros formatos para los importes de las facturas que se definen en la página **Configuración de contabilidad**. Si cambia los puestos decimales del importe para una divisa, todos los importes de las facturas en esa divisa se redondearán con los decimales actualizados.|
-|**Tipo redondeo factura**|Especifica el método a utilizar si los importes deben redondearse. Las opciones son **Más cercano**, **Hacia arriba**, y **Hacia abajo**.|
-|**Precisión de redondeo de precio unitario**|Algunas divisas tienen otros formatos para los importes unitarios que se definen en la página **Configuración de contabilidad**. Si cambia la precisión del redondeo de importes de la unidad, todos los importes de la unidad en la divisa se redondearán con la precisión actualizada.|
-|**N.º de decimales para precio unitario**|Algunas divisas tienen otros formatos para los importes unitarios que se definen en la página **Configuración de contabilidad**. Si cambia los puestos decimales del importe de la unidad todos los importes de la unidad en esa divisa se redondearán con los decimales actualizados.|
-|**Precisión redondeo liquidación**|Especifica el tamaño del intervalo que se permite como diferencia de redondeo cuando se liquiden movimientos entre sí en distintas divisas.|
-|**Conversión redondeo $. Cuenta de débito**|Especifica la información de conversión que debe contener también una cuenta de débito si desea insertar líneas de corrección para las diferencias de redondeo en los diarios generales mediante la acción **Insertar lín. conv. redon. $**.|
-|**Conversión redondeo $. Cuenta de crédito**|Especifica la información de conversión que debe contener también una cuenta de crédito si desea insertar líneas de corrección para las diferencias de redondeo en los diarios generales mediante la acción **Insertar lín. conv. redon. $**.|
-|**Fecha últ. ajuste divisas**|La fecha del último ajuste de la divisa.|
-|**Fecha últ. modificación**|La fecha del cambio en la configuración de la divisa.|
-|**% tolerancia pago**|El porcentaje máximo de tolerancia de pago % establecido para esta divisa. Para obtener más información, consulte [Tolerancia de pago y tolerancia de descuento por pronto pago](finance-payment-tolerance-and-payment-discount-tolerance.md). |
-|**Máx. importe tolerancia pago**|El importe máximo de tolerancia de pago % establecido para esta divisa. Para obtener más información, consulte [Tolerancia de pago y tolerancia de descuento por pronto pago](finance-payment-tolerance-and-payment-discount-tolerance.md). |
-|**Factor divisa**|Especifica la relación entre la divisa y la divisa local utilizando el tipo de cambio real.|
-|**Cta. aj. pos. C/G realizados**|Especifica la cuenta de contabilidad general que se utiliza para registrar ganancias del tipo de cambio para los ajustes de divisa entre la divisa local ($) y la divisa adicional para informes. Los beneficios del tipo de cambio se calculan cuando se ejecuta el trabajo por lotes Ajustar tipos de cambio para ajustar las cuentas de contabilidad. Es posible que este campo no esté visible de forma predeterminada. Se puede recuperar personalizando la página.|
-|**Cta. aj. neg. C/G realizados**|Especifica la cuenta de contabilidad general que se utiliza para registrar pérdidas del tipo de cambio para los ajustes de divisa entre la divisa local ($) y la divisa adicional para informes. Los beneficios del tipo de cambio se calculan cuando se ejecuta el trabajo por lotes Ajustar tipos de cambio para ajustar las cuentas de contabilidad. Es posible que este campo no esté visible de forma predeterminada. Se puede recuperar personalizando la página.|
-|**Cta. aj. residual pos.**|Especifica la cuenta que se utiliza para registrar importes de ganancias residuales (diferencias de redondeo) cuando se utiliza una divisa de informe adicional en el área de aplicación de la contabilidad. Es posible que este campo no esté visible de forma predeterminada. Se puede recuperar personalizando la página.|
-|**Cta. aj. residual neg.**|Especifica la cuenta que se utiliza para registrar importes de pérdidas residuales (diferencias de redondeo) cuando se utiliza una divisa de informe adicional en el área de aplicación de la contabilidad. Es posible que este campo no esté visible de forma predeterminada. Se puede recuperar personalizando la página.|
-|**Máx. diferencia IVA permitida**|El importe máximo permitido por diferencias de IVA en esta divisa. Para obtener más información, consulte [Corrección manual de los importes del IVA en los documentos de ventas y compras](finance-work-with-vat.md#correcting-vat-amounts-manually-in-sales-and-purchase-documents). Es posible que este campo no esté visible de forma predeterminada. Se puede recuperar personalizando la página.|
-|**Tipo redondeo IVA**|Especifica el método de redondeo para corregir los importes de IVA manualmente en los documentos de compra y venta. Es posible que este campo no esté visible de forma predeterminada. Se puede recuperar personalizando la página.|
+Especifique los códigos de moneda en la lista **Divisas**, incluida la información adicional y los ajustes necesarios para cada código de divisa. Para obtener más información, consulte [Divisas](finance-set-up-currencies.md#curr)
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Ejemplo de una transacción de divisa por cobrar
 
-Cuando recibe una factura de una empresa en divisa extranjera, es bastante fácil calcular el valor en moneda local ($) de la factura en función del tipo de cambio actual. Sin embargo, la factura a menudo incluye condiciones de pago para que pueda retrasar el pago a una fecha posterior, lo que implica una tasa de cambio potencialmente diferente. Este problema, en combinación con el hecho de que los tipos de cambio bancarios siempre difieren de los tipos de cambio oficiales, hace imposible anticipar el monto exacto en moneda local ($) que se requiere para cubrir la factura. Si la fecha de vencimiento de la factura se extiende al mes siguiente, es posible que también deba reevaluar el monto en moneda local ($) al final del mes. El ajuste de moneda es necesario porque el nuevo valor de $ que se requiere para cubrir el monto de la factura puede ser diferente y la deuda de la empresa con el proveedor ha cambiado potencialmente. El nuevo monto en $ puede ser mayor o menor que el monto anterior y, por tanto, representará una ganancia o una pérdida. Sin embargo, dado que la factura aún no se ha pagado, la ganancia o pérdida se considera *no realizada*. Posteriormente, se paga la factura y el banco regresa con el tipo de cambio real para el pago. No es hasta ahora cuando se calacula la ganancia o la pérdida *realizada*. Esta ganancia o pérdida no realizada se revierte y, en su lugar, se contabiliza la ganancia o pérdida realizada.
-
-En el siguiente ejemplo, se recibe una factura el 1 de enero con el importe en la divisa de 1000. En ese momento, el tipo de cambio es 1,123.
-
-|Fecha|Acción|Importe divisa|Tipo del documento|Importe en $ del documento|Tipo de ajuste|Importe de ventas no realizadas|Tipo del pago|Importe de pérdidas realizadas|  
-|-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
-|1/1|**Factura**|1000|1,123|1123|||||
-|1/31|**Ajuste**|1000||1125|1,125|2|||
-|2/15|**Reversión de ajuste en el pago**|1000||||-2|||
-|2/15|**Pago**|1000||1120|||1,120|-3|
-
-Al final del mes, se realiza un ajuste de la divisa cuando el tipo de la divisa de ajuste se ha establecido en 1,125, lo que genera una ganancia no realizada de 2.
-
-En el momento del pago, el tipo de cambio real registrado en la transacción bancaria muestra un tipo de cambio de 1,120.
-
-Aquí hay una transacción no realizada y, por lo tanto, se revertirá junto con el pago.
-
-Finalmente, se registra el pago y la pérdida real se contabiliza en la cuenta de pérdidas realizadas.
-
-## <a name="available-currency-functions"></a>Funciones de divisa disponibles
-
-La siguiente tabla describe las acciones clave en la página **Divisas**. Algunas de las acciones se explican en las siguientes secciones.  
-
-|Menú|Acción|Description|
-|-------------|--------------|------------------------------|
-|**Procesar**|**Sugerir cuentas**|Utilice cuentas de las otras divisas. Se insertarán las cuentas más utilizadas.|
-||Cambiar tolerancia pagos|Cambia la tolerancia de pago máxima o el porcentaje de tolerancia de pago o ambos y filtra por divisa. Para obtener más información, consulte [Tolerancia de pago y tolerancia de descuento por pronto pago](finance-payment-tolerance-and-payment-discount-tolerance.md).|
-||**Tipos de cambio**|Permite ver los tipos de cambio actualizados de las divisas que se utilizan.|
-||**Ajustar tipos de cambio**|Ajusta los movimientos de contabilidad general, clientes, proveedores y bancos para que reflejen un saldo más actualizado si el tipo de cambio ha variado desde que se registraron los movimientos.|
-||**Registro ajuste tipo cambio**|Ver los resultados de haber ejecutado el trabajo por lotes **Ajustar tipos de cambio**. Se crea una línea para cada divisa de cada combinación de grupo contable y divisa que se incluya en el ajuste.|
-|**Servicio de tipo de cambio**|**Servicio de tipo de cambio**|Permite ver o editar la configuración de los servicios configurados para recuperar los tipos de cambio actualizados cuando se elige la acción **Actualizar tipos de cambio**.|
-||**Actualizar tipos de cambio**|Permite obtener los tipos de cambio de divisa más recientes de un proveedor de servicios.|
-|**Informes**|**Saldo divisas extranjeras**|Ver los saldos de todos los clientes y los proveedores en divisa extranjera y en la moneda local ($). El informe muestra dos saldos en $. Uno es el saldo de divisa extranjera convertido a $ utilizando el tipo de cambio en el momento de la transacción. El otro es el saldo de divisa extranjera convertido a $ utilizando el tipo de cambio del día.|
+[!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
 ## <a name="exchange-rates"></a>Tipos de cambio
 
@@ -203,6 +125,9 @@ El valor del campo **Tipo cambio** en la página **Divisas** se actualiza con el
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Consulte también
+
+[Divisas en Business Central](finance-currencies.md)  
+[Configuración de divisas](finance-set-up-currencies.md)  
 [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md)  
 [Cerrar años y periodos](year-close-years-periods.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

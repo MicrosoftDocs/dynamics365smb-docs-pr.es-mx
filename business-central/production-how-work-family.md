@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000790, 99000791, 99000792, 99000793
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d786da721738c6c8907232d510954d2dcba224e4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9732817de350d4fe709802b9726a3ad8d364ec5e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135014"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521921"
 ---
 # <a name="work-with-production-families"></a>Trabajar con familias de producción
 
@@ -33,7 +33,7 @@ La formación de familias de productos reduce la cantidad de rechazo que normalm
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Familias** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-produce-based-on-a-production-family"></a>Para producir basándose en una familily producción
+## <a name="to-produce-based-on-a-production-family"></a>Para producir basándose en una familia de producción
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **O.P. Planificadas en firme** y, a continuación, elija el vínculo relacionado.
 2. Crear una nueva orden de producción. Para obtener más información, consulte [Crear órdenes de producción](production-how-to-create-production-orders.md).

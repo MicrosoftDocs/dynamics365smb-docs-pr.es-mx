@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.search.form: 17, 18, 20, 21, 37, 65, 99, 118, 312, 313, 314, 395, 552, 569, 570, 634, 790, 791, 1158
-ms.date: 12/03/2021
+ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
+ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 5f168132dc747e76c514ae1bd78e8d2f86a7b609
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 1834cfe7bbbc933a1aebddbc94ea6dfe09523605
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366761"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510883"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Descripción de contabilidad general y catálogo de cuentas
 
@@ -23,21 +23,28 @@ La contabilidad almacena sus datos financieros y el catálogo de cuentas muestra
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Configuración de contabilidad y grupos contables
 
-La configuración de la contabilidad es en la base de los procesos financieros porque define cómo se registran los datos.  
+La configuración de la contabilidad es en la base de los procesos financieros porque define cómo se registran los datos. Dos páginas desempeñan un papel importante en la configuración de sus procesos financieros:  
 
-En la página **Configuración contabilidad** especifique cómo gestionar determinados asuntos de contabilidad en su empresa, como:  
+* La página **Configuración contabilidad**
 
-* Detalles de redondeo de factura  
-* Formatos de dirección  
-* Informes financieros  
+    En la página **Configuración contabilidad** especifique cómo gestionar determinados asuntos de contabilidad en su empresa, como:  
 
-> [!TIP]
-> La página **Configuración de contabilidad:** incluye campos genéricos y campos que son específicos de su país o región. Si no está seguro del significado de un campo, le sugerimos que trabaje con su contable para determinar si es relevante para su organización.  
+    * Detalles de redondeo de factura  
+    * Formatos de dirección  
+    * Informes financieros  
 
-De manera similar, en la página **Configuración grupos contables**, puede especificar cómo desea configurar las combinaciones generales del negocio y los grupos contables de producto. Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Rellene una línea por cada combinación de grupo contable de negocio y de producto. Pero también puede abrir cada línea en su propia tarjeta de configuración de registro. Para obtener más información, consulte [Configuraciones de grupos de registro](finance-posting-groups.md).  
+    > [!TIP]
+    > La página **Configuración de contabilidad:** incluye campos genéricos y campos que son específicos de su país o región. Si no está seguro del significado de un campo, le sugerimos que trabaje con su contable para determinar si es relevante para su organización. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-> [!TIP]
-> Si no puede ver los campos que está buscando en la página **Configuración grupos contables**, utilice la barra de desplazamiento horizontal situada en la parte inferior de la página para desplazarse hacia la derecha.  
+    Abra la página [aquí](https://businesscentral.dynamics.com/?page=118)
+* La página **Configuración grupos contables**
+
+    De manera similar, en la página **Configuración grupos contables**, puede especificar cómo desea configurar las combinaciones generales del negocio y los grupos contables de producto. Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Rellene una línea por cada combinación de grupo contable de negocio y de producto. Pero también puede abrir cada línea en su propia tarjeta de configuración de registro. Para obtener más información, consulte [Configuraciones de grupos de registro](finance-posting-groups.md).  
+
+    > [!TIP]
+    > Si no puede ver los campos que está buscando en la página **Configuración grupos contables**, utilice la barra de desplazamiento horizontal situada en la parte inferior de la página para desplazarse hacia la derecha.  
+
+    Abra la página [aquí](https://businesscentral.dynamics.com/?page=314)
 
 ## <a name="the-chart-of-accounts"></a>Catálogo de cuentas
 
@@ -49,7 +56,7 @@ El catálogo de cuentas muestra todas las cuentas de contabilidad. Desde el cat�
 * Ver una lista de grupos contables que registran en dicha cuenta.
 * Para ver los saldos del Debe y el Haber de una sola cuenta  
 
-Puede agregar, cambiar o eliminar cuentas de contabilidad. Sin embargo, para evitar discrepancias, no puede eliminar una cuenta de contabilidad si sus datos se utilizan en el catálogo de cuentas.  
+Puede agregar, cambiar o eliminar cuentas de contabilidad. Sin embargo, para evitar discrepancias, no puede eliminar una cuenta de contabilidad si sus datos se utilizan en el catálogo de cuentas. Además, a partir del lanzamiento de versiones 2 de 2022, también puede bloquear la eliminación accidental de cuentas en períodos sensibles. Para obtener más información, consulte [Eliminar cuentas](finance-setup-chart-accounts.md#delete-accounts).  
 
 ## <a name="account-categories"></a>Categorías de cuenta
 
@@ -69,14 +76,14 @@ Por ejemplo, el estado de cuenta de saldo predeterminado tiene una subcategoría
 
     * Una para el efectivo pequeño  
     * Una para su cuenta corriente  
-2. Especifique la definición de informe adicional **Cuentas de efectivo** de estas subcategorías.  
+2. Especifique otra definición de informe **Cuentas de efectivo** de estas subcategorías.  
 3. Aplique sangría en la subcategoría **Efectivo**.  
 
 La próxima vez que genere las estructuras de cuentas, su estado de cuenta de saldo mostrará un estado de cuenta total de efectivo y dos líneas con estado de cuentas para caja chica y cuenta corriente.  
 
-## <a name="getting-a-quick-overview"></a>Obtener una descripción general rápida
+## <a name="get-a-quick-overview"></a>Obtener una descripción general rápida
 
-La página Catálogo de cuentas muestra las cuentas en una lista jerárquica que ofrece acceso rápido a la información clave de cada cuenta. Sin embargo, la lista es estática y, si tiene muchas cuentas, es posible que deba desplazarse un poco para ver la información de diferentes cuentas. Si solo desea una descripción general rápida de los conceptos básicos, como cambios netos y saldos, la página **Introducción al catálogo de cuentas** es una alternativa útil. El diseño de las columnas en la página ahora es el mismo que encontrará en la página Catálogo de cuentas (solo hay menos), por lo que no tendrá que reorientarse y puede expandir o contraer los niveles jerárquicos para condensar la vista. Para facilitar el cambio entre páginas, la página **Introducción al catálogo de cuentas** está disponible en la página del Catálogo de cuentas.
+La página **Catálogo de cuentas** muestra las cuentas en una lista jerárquica que ofrece acceso rápido a la información clave de cada cuenta. Sin embargo, la lista es estática y, si tiene muchas cuentas, es posible que deba desplazarse un poco para ver la información de diferentes cuentas. Si solo desea una descripción general rápida de los conceptos básicos, como cambios netos y saldos, la página **Introducción al catálogo de cuentas** es una alternativa útil. El diseño de las columnas de la página ahora es el mismo que encontrará en la página de **Catálogo de cuentas** (solo hay menos), por lo que no tendrá que reorientarse y puede expandir o contraer los niveles jerárquicos para condensar la vista. Para facilitar el cambio entre las páginas, la página **Introducción al catálogo de cuentas** está disponible en la página de **Catálogo de cuentas**.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Acceso para crear y editar cuentas y categorías de cuentas
 
@@ -85,7 +92,7 @@ En una organización pequeña, como la empresa de demostración CRONUS, la mayor
 ## <a name="see-also"></a>Consulte también
 
 [Finanzas](finance.md)  
-[Configurar o cambiar el plan de cuentas](finance-setup-chart-accounts.md)  
+[Configurar o cambiar el catálogo de cuentas](finance-setup-chart-accounts.md)  
 [Inteligencia empresarial](bi.md)  
 [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  
 

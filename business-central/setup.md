@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 38aaf6b77defd6afcc9cbe2bda7b56d71c139699
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 10b9483d46caa9fff156a80f5301521ae9c36d63
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128664"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510776"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Resumen de tareas para configurar [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -63,6 +63,7 @@ Algunas regiones requieren que sea el administrador en su suscripción [!INCLUDE
 
 ## <a name="see-also"></a>Consulte también
 
+[Resumen de la información de la empresa](admin-company-information.md)  
 [Administración](admin-setup-and-administration.md)  
 [Finanzas](finance.md)  
 [Ccial](sales-manage-sales.md)  

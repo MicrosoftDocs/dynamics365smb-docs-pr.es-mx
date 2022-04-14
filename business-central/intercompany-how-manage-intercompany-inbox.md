@@ -8,17 +8,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
 ms.search.form: 600, 605, 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
-ms.date: 04/01/2021
+ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: d0f52d1debe40eb57ac0deb914d0e6bc32f0a5a1
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 868f07b2b56ccaefb4c56e26be72c27b941d950c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366386"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522129"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas
 Todas las transacciones de empresas vinculadas que se reciben electrónicamente aparecen en la bandeja de entrada de empresas vinculadas.  
+
+Sin embargo, dependiendo de cómo se configuren las empresas vinculadas para su empresa, algunas transacciones se replican automáticamente a los socios de empresas vinculadas pertinentes. A partir del primer lanzamiento de versiones de 2022, puede configurar la empresa para la creación automática de transacciones recibidas entre empresas vinculadas de socios de empresas vinculadas, registradas a través del diario general entre empresas vinculadas. Para obtener más información, consulte [Para rellenar y registrar un diario de empresas vinculadas](intercompany-how-work-documents-journals.md#to-fill-in-and-post-an-intercompany-journal).  
 
 ## <a name="organizing-the-inbox"></a>Organizar la bandeja de entrada  
  Para determinar qué transacciones se mostrarán en la página de bandeja de entrada, puede utilizar los campos de filtro de la parte superior de la página. Por ejemplo, si únicamente desea ver transacciones creadas por una empresa asociada determinada, puede definir los filtros **Origen de la transacción** y **Código socio empresa vinculada**.  
@@ -51,14 +53,16 @@ Puede utilizar el campo **Mostrar origen de transacción** para filtrar la pági
  > Si los socios de empresas vinculadas se encuentran en la misma base de datos, las transacciones se transfieren sin necesidad de un archivo o correo electrónico. Consulte el campo **Tipo transferencia** de la página **Socio empresa vinculada**. <br /><br />
 En ese caso, puede configurar el sistema para que evite las bandeja de entrada y de salida seleccionando la opción **Aceptar auto. transacciones** en la página **Socio empresa vinculada** y en la ventana **Enviar auto. transacciones** en la página **Config. empr. vincul.**, respectivamente. Las transacciones entrantes entre empresas vinculadas se pueden aceptar automáticamente solo si el programador de tareas está habilitado. Para obtener más información, consulte [Configuración de Business Central Server - Configuración del programador de tareas](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
 
-## <a name="to-import-intercompany-transactions-from-a-file"></a>Importar transacciones entre empresas vinculadas desde un archivo  
+## <a name="to-import-intercompany-transactions-from-a-file"></a>Importar transacciones entre empresas vinculadas desde un archivo
+
+[!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
+
 Si tiene alguna empresa vinculada asociada que no está incluida en la misma base de datos que su empresa, puede recibir transacciones entre empresas vinculadas de ese socio en un archivo .xml. Después, deberá importar las transacciones en su bandeja de entrada.  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información empresa** y luego elija el enlace relacionado.
-2. Guarde el archivo en la ubicación que especificó en el campo **Detalles buzón empresa vinculada** en la página **Información empresa**.  
-3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Transacciones de bandeja de entrada entre empresas vinculadas** y luego elija el enlace relacionado.
-4. En la página **Transacciones de bandeja de entrada entre empresas vinculadas**, seleccione la acción **Importar archivo transacción**.  
-5. En la página que aparece, seleccione el archivo .xml que contiene las transacciones y seleccione el botón **Abrir**.  
+1. Guarde el archivo en la ubicación que especificó en el campo **Detalles de bandeja de entrada de las empresas vinculadas** cuando configure empresas vinculadas.  
+2. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Transacciones de bandeja de entrada entre empresas vinculadas** y luego elija el enlace relacionado.
+3. En la página **Transacciones de bandeja de entrada entre empresas vinculadas**, seleccione la acción **Importar archivo transacción**.  
+4. En la página que aparece, seleccione el archivo .xml que contiene las transacciones y seleccione el botón **Abrir**.  
 
 Las transacciones se importan en la bandeja de entrada y quedan listas para ser procesadas.
 

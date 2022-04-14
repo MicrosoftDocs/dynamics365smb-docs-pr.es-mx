@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8961e3a29664932d67c8670e1b2d42ecbee228c0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 521cf2700c16bab71d13ea1282fbf4b09164b004
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145020"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513976"
 ---
 # <a name="about-inventory-costing"></a>Acerca de la administración de costos de inventario
 La administración de costos de inventario hace referencia al registro y la creación de informes sobre los costos de explotación de la empresa. Incluye la creación de informes de los costos de fabricación y de inventario, es decir, el valor de los productos.  
@@ -35,7 +35,7 @@ La administración de costos de inventario hace referencia al registro y la crea
 |Conocer cómo se refleja el valor de inventario en la contabilidad.|[Conciliar costos de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Aprender cómo los cargos de los productos, como flete y seguro, pueden asignar componentes de costo adicionales al costo unitario de un producto.|[Usar los cargos de producto para costos comerciales adicionales](payables-how-assign-item-charges.md)|  
 |Leer cómo los periodos de inventario ayudan a las empresas a controlar el valor de las existencias con el tiempo definiendo periodos más cortos que se pueden cerrar para registrar según avanza el ejercicio.|[Trabajar con periodos de inventario](finance-how-to-work-with-inventory-periods.md)|  
-|Comprender todos los mecanismos del motor de cálculo de costos, incluyendo lo que sucede cuando se registran las transacciones de montaje y producción.|[Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)|  
+|Comprender todos los mecanismos del motor de cálculo de costos, incluyendo lo que sucede cuando se registran las transacciones de montaje y producción.|[Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Consulte también
 [Administración de costos de inventario](finance-manage-inventory-costs.md)    

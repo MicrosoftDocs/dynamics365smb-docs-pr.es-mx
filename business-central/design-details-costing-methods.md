@@ -1,20 +1,20 @@
 ---
 title: 'Detalles de diseño: Métodos de coste'
 description: En este tema se describe cómo afecta el método de costo si los valores reales y presupuestados se capitalizan y utilizan en el cálculo de costos.
-author: brentholtorf
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 30, 31, 8645
-ms.date: 06/14/2021
+ms.search.keywords: ''
+ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: c7c8106ff5e38efd35b361fcccc8ebd88602a475
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2bf45ab89aaeb9aa9560fd1e1d9ff94bf47cc453
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383358"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519815"
 ---
 # <a name="design-details-costing-methods"></a>Detalles de diseño: Métodos de costo
 
@@ -35,7 +35,7 @@ En [!INCLUDE[prod_short](includes/prod_short.md)] se admiten las siguientes valo
 
 En la imagen siguiente se muestra cómo fluyen los costos a través del inventario por cada valuación de inventarios.  
 
- ![Valoraciones de existencias.](media/design_details_inventory_costing_7_costing_methods.png "Valoraciones de existencias")  
+![Métodos de valoración de existencias visualizados.](media/design_details_inventory_costing_7_costing_methods.png "Métodos de valoración de existencias visualizados")  
 
 Los métodos de costo varían en cuanto a la forma en que el inventario disminuye y si se utiliza el costo real o el costo estándar como base de valuación. En la tabla siguiente se explican las diferentes características. (Se excluye el método LIFO por ser muy parecido al método FIFO).  
 
@@ -64,31 +64,17 @@ En la tabla siguiente se muestran las entradas y las salidas de inventario en la
 > [!NOTE]  
 > La cantidad resultante en el inventario es cero. Por tanto, el valor de inventario debe ser cero, independientemente del método de costo.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Efecto de los métodos de costo en la valoración de entrada de inventario
+### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Efecto de los métodos de costo en la valoración de entrada de inventario  
 
-- **FIFO**/**LIFO**/**Promedio**/**Específico**  
-
-    En el caso de productos con métodos de costo que utilizan el costo actual como base de valuación (**FIFO**, **LIFO**, **Promedio** o **Específico**), las entradas de inventario se calculan según el costo de compra del producto.  
-
-    En la tabla siguiente se muestra cómo se valoran las entradas de inventario para todas las valoraciones de inventario excepto **Estándar**.  
-
-    |Fecha registro|Cantidad|Importe costo (Real)|Nº mov.|  
-    |------------------|--------------|----------------------------|---------------|  
-    |01-01-20|1|10.00|1|  
-    |01-01-20|1|20,00|2|  
-    |01-01-20|1|30,00|3|  
+En el caso de productos con métodos de costo que utilizan el costo actual como base de valuación (**FIFO**, **LIFO**, **Promedio** o **Específico**), las entradas de inventario se calculan según el costo de compra del producto.  
 
 - **Estándar**  
 
     En el caso de productos donde se use el método de costos **Estándar**, las entradas de inventario se calculan según el costo estándar actual.  
 
-    En la tabla siguiente se muestra cómo se valoran las entradas de inventario para la valuación de inventarios **Estándar**.  
+#### <a name="standard"></a>Estándar  
 
-    |Fecha registro|Cantidad|Importe costo (Real)|Nº mov.|  
-    |------------------|--------------|----------------------------|---------------|  
-    |01-01-20|1|15.00|1|  
-    |01-01-20|1|15.00|2|  
-    |01-01-20|1|15.00|3|  
+En el caso de productos donde se use el método de costos **Estándar**, las entradas de inventario se calculan según el costo estándar actual.  
 
 ### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Efecto de los métodos de costo en la valoración de salidas de inventario
 
@@ -96,9 +82,9 @@ En la tabla siguiente se muestran las entradas y las salidas de inventario en la
 
     En el caso de productos con método de costo **FIFO**, los productos que se compraron primero se venden siempre primero (números de movimiento 3, 2 y 1 en este ejemplo). Así pues, las salidas de inventario se calculan tomando el valor de la primera entrada de inventario.  
 
-    El CV se calcula a partir del valor de la primera adquisición del inventario.  
+     El CV se calcula a partir del valor de la primera adquisición del inventario.  
 
-    En la tabla siguiente se muestra cómo se valoran las salidas de inventario para la valuación de inventarios **FIFO**.  
+     En la tabla siguiente se muestra cómo se valoran las salidas de inventario para la valuación de inventarios **FIFO**.  
 
     |Fecha registro|Cantidad|Importe costo (Real)|Nº mov.|  
     |------------------|--------------|----------------------------|---------------|  
@@ -110,12 +96,12 @@ En la tabla siguiente se muestran las entradas y las salidas de inventario en la
 
     En el caso de productos con método de costo **LIFO**, los productos que se compraron más recientemente se venden siempre primero (números de movimiento 3, 2 y 1 en este ejemplo). Así pues, las salidas de inventario se calculan tomando el valor de la última entrada de inventario.  
 
-    El CV se calcula a partir del valor de las adquisiciones más recientes del inventario.  
+     El CV se calcula a partir del valor de las adquisiciones más recientes del inventario.  
 
-    En la tabla siguiente se muestra cómo se valoran las salidas de inventario para la valuación de inventarios **LIFO**.  
+     En la tabla siguiente se muestra cómo se valoran las salidas de inventario para la valuación de inventarios **LIFO**.  
 
     |Fecha registro|Cantidad|Importe costo (Real)|Nº mov.|  
-    |------------------|--------------|----------------------------|---------------|  
+    |------------|--------|--------------------|---------|  
     |01-02-20|-1|-30,00|4|  
     |01-03-20|-1|-20,00|5|  
     |01-04-20|-1|-10,00|6|  
@@ -124,13 +110,13 @@ En la tabla siguiente se muestran las entradas y las salidas de inventario en la
 
     En el caso de productos que usen el método de costo **Promedio**, las salidas de inventario se valoran calculando un promedio ponderado del inventario que queda en el último día del periodo de costo promedio en el cual se ha registrado una salida de inventario. Para obtener más información, consulte [Detalles de diseño: Costo promedio](design-details-average-cost.md).  
 
-    En la tabla siguiente se muestra cómo se valoran las salidas de inventario para la valuación de inventarios **Media**.  
+     En la tabla siguiente se muestra cómo se valoran las salidas de inventario para la valuación de inventarios **Media**.  
 
-    |Fecha registro|Cantidad|Importe costo (Real)|Nº mov.|  
-    |------------------|--------------|----------------------------|---------------|  
-    |01-02-20|-1|-20,00|4|  
-    |01-03-20|-1|-20,00|5|  
-    |01-04-20|-1|-20,00|6|  
+    | Fecha registro | Cantidad | Importe costo (Real) | Nº mov. |
+    |--|--|--|--|
+    | 01-02-20 | -1 | -20,00 | 4 |
+    | 01-03-20 | -1 | -20,00 | 5 |
+    | 01-04-20 | -1 | -20,00 | 6 |
 
 - **Estándar**  
 
@@ -160,13 +146,13 @@ En la tabla siguiente se muestran las entradas y las salidas de inventario en la
 
 ## <a name="see-also"></a>Consulte también
 
-[Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)   
-[Detalles de diseño: Desviación](design-details-variance.md)   
-[Detalles de diseño: Costo promedio](design-details-average-cost.md)   
-[Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
-[Administración de costos de inventario](finance-manage-inventory-costs.md)  
-[Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)   
+ [Detalles de diseño: Desviación](design-details-variance.md)   
+ [Detalles de diseño: Costo promedio](design-details-average-cost.md)   
+ [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
+ [Administración de costos de inventario](finance-manage-inventory-costs.md)  
+ [Finanzas](finance.md)  
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
