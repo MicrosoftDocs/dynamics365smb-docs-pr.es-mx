@@ -3,15 +3,15 @@ title: Resumen de la información de la empresa
 description: La página Información empresa especifica la información básica de una entidad comerciales, como el nombre, las direcciones y la información de envío.
 author: edupont04
 ms.topic: conceptual
-ms.search.form: 1,
-ms.date: 03/14/2022
+ms.search.form: 1
+ms.date: 04/20/2022
 ms.author: edupont
-ms.openlocfilehash: d9f8c6e831cae4efd53df435ffda0c6a96b0bc49
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
+ms.openlocfilehash: 1adf94a191b2e0514f7a7435ac1807ca19498b14
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417831"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626250"
 ---
 # <a name="company-information-overview"></a>Resumen de la información de la empresa
 
@@ -21,14 +21,24 @@ Si el almacén de inventario de la empresa se encuentra ubicado en una direcció
 
 Para cada empresa que configure, debe completar la página **Información empresa**, junto con la página **Configuración de contabilidad**. También debe configurar cada área en [!INCLUDE [prod_short](includes/prod_short.md)], como la página **Configuración de ventas y cobros**, para cada empresa. Para obtener más información, consulte [Resumen de tareas para configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-La página **Información empresa** contiene diferentes campos y fichas desplegables, según su país o región. En la siguiente tabla se describen las fichas desplegables más utilizadas.
+La página **Información empresa** contiene diferentes campos y fichas desplegables, según su país o región. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] En la siguiente tabla se describen las fichas desplegables más utilizadas.
 
 [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
 Una vez que haya terminado de rellenar la información, puede cerrar la página.  
+
+## <a name="work-with-multiple-companies"></a>Trabajar con varias empresas
+
+Si su [!INCLUDE [prod_short](includes/prod_short.md)] incluye varias empresas, es posible que sus usuarios deseen utilizar *insignias de la empresa* para realizar un seguimiento de la empresa en la que están trabajando actualmente. Para obtener más información, vea [Mostrar un distintivo de empresa para acceder rápidamente a la información de la empresa](ui-change-basic-settings.md#badge).  
+
+## <a name="experience"></a>Experiencia
+
+La experiencia de usuario predeterminada en una prueba de [!INCLUDE [prod_short](includes/prod_short.md)] no revela todas las capacidades. Puede activar la experiencia completa en la página **Información de la empresa**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).  
 
 ## <a name="see-also"></a>Consulte también
 
 [Resumen de tareas para configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Inicio rápido Información empresa](quick-start-company-information.md)  
 [Configurar la información de la empresa en Italia](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
+[Cambiar la configuración básica](ui-change-basic-settings.md)  
+[Cambiar las funciones que se muestran](ui-experiences.md)  
