@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/23/2022
+ms.date: 05/19/2022
 ms.author: edupont
-ms.openlocfilehash: f4d185e5aa549bc3be453c2356a9c4c28f951c27
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b086da66b55ffddd691cab43c46b52bbd4b5ddac
+ms.sourcegitcommit: e86f0bd15604c2fb327e3182929c44a4172790c7
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516497"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786220"
 ---
 # <a name="set-up-electronic-invoicing-in-the-mexican-version"></a>Configurar la facturación electrónica en la versión para México
 
@@ -82,7 +82,7 @@ Además, debe agregar la información sobre sus clientes y proveedores. En la si
 
     |Campo|Description|
     |------------------------------------|---------------------------------------|
-    |**N° RFC**|Ingrese el número de registro federal de los contribuyentes. El número RFC debe contener 12 dígitos.|
+    |**N° RFC**|Indique el número de registro federal de los contribuyentes. El número RFC debe contener 12 dígitos.|
     |**N° CURP**|Ingrese el número de identificación de la tarjeta fiscal única. El número CURP debe contener 18 dígitos.|
     |**Inscripción estatal**|Ingrese el número de identificación fiscal que asignan las autoridades fiscales del estado a toda persona o empresa.|
 
@@ -123,8 +123,51 @@ Por último, debe agregar la información sobre los almacenes que usa. En la sig
 
 ## <a name="to-map-key-data-to-the-cfdi-fields"></a>Para asignar datos clave a los campos de CFDI
 
+Puede permitir que [!INCLUDE [prod_short](../../includes/prod_short.md)] asigne los campos correspondientes a la estructura de datos requerida por el CFDI mediante la guía de configuración asistida **Configurar información de CFDI de México** o puede asignar los campos manualmente.  
+
+### <a name="assisted-setup"></a>Configuración asistida
+
 1. Elija el icono ![Cuarta bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información de CFDI de México** y, luego, elija el enlace relacionado.
 2. Siga los pasos que se describen en la guía de configuración asistida **Configurar información de CFDI de México** para asignar información acerca de su empresa y cómo se utiliza [!INCLUDE [prod_short](../../includes/prod_short.md)] en los distintos campos de los archivos de CFDI.
+
+### <a name="manual-setup"></a>Configuración manual
+
+Si prefiere asignar los campos usted mismo, debe actualizar las siguientes páginas:
+
+- **Países/regiones**  
+- **Unidades de medida**  
+- **Esquemas fiscales de SAT**  
+- **Formas de pago**  
+- **Términos de pago**  
+
+#### <a name="to-map-your-country-codes-to-the-values-that-sat-requires"></a>Para asignar los códigos de su país o región a los valores requeridos por SAT
+
+1. Elija el icono ![Quinta bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Países/regiones** y, luego, elija el vínculo relacionado.
+2. En el campo **Código de país de SAT**, especifique el código de país o región necesario para reportar a las autoridades fiscales mexicanas (SAT).
+3. Repita los pasos de 1 a 2 para todos los códigos de país o región.
+
+#### <a name="to-map-your-units-of-measure-to-the-values-that-sat-requires"></a>Para asignar sus unidades de medida a los valores requeridos por SAT
+
+1. Elija el icono ![Sexta bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Unidades de medida** y luego elija el enlace relacionado.
+2. En el campo **Clasificación de unidad de medida de SAT**, especifique la unidad de medida necesaria para reportar a las autoridades fiscales mexicanas (SAT).
+3. Repita los pasos de 1 a 2 para todas las unidades de medida.
+
+#### <a name="to-configure-sat-tax-regime-classification"></a>Para configurar la Clasificación de régimen fiscal de SAT
+
+1. Elija el icono ![Séptima bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Esquemas fiscales de SAT** y, luego, elija el vínculo relacionado.
+2. Rellene los campos según corresponda. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
+
+#### <a name="to-map-your-payment-methods-to-the-values-that-sat-requires"></a>Para asignar sus formas de pago a los valores requeridos por SAT
+
+1. Elija el icono ![Octava bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Métodos de pago** y luego elija el enlace relacionado.
+2. En el campo **Forma de pago de SAT**, especifique la forma de pago para pagar a las autoridades fiscales mexicanas (SAT).
+3. Repita los pasos de 1 a 2 para todas las formas de pago.
+
+#### <a name="to-map-your-payment-terms-to-the-values-that-sat-requires"></a>Para asignar sus términos de pago a los valores requeridos por SAT
+
+1. Elija el icono ![Novena bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Términos de pago** y luego elija el enlace relacionado.
+2. En el campo **Formulario de pago de SAT**, especifique el número del formulario de pago de las autoridades fiscales mexicanas (SAT).
+3. Repita los pasos de 1 a 2 para todos los términos de pago.
 
 ## <a name="see-also"></a>Consulte también
 
