@@ -9,25 +9,34 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.search.form: 132, 25
-ms.date: 05/19/2022
+ms.date: 06/01/2022
 ms.author: edupont
-ms.openlocfilehash: c7dc373aef202b0813f42fc8fd48dd8b370066a6
-ms.sourcegitcommit: e86f0bd15604c2fb327e3182929c44a4172790c7
+ms.openlocfilehash: 021fa7e84a20f41de65ffb7e03a5cccef459369e
+ms.sourcegitcommit: 7a6efcbae293c024ca4f6622c82886decf86c176
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786186"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "8841940"
 ---
 # <a name="generate-electronic-invoices-in-the-mexican-version"></a>Generar facturas electrónicas en la versión para México
 
 Después de registrar una factura de venta en [!INCLUDE[prod_short](../../includes/prod_short.md)], debe generar una factura electrónica que se enviará al cliente. Asimismo, puede exportar dicha factura electrónica como un archivo XML, que puede guardar en una ubicación especificada.  
 
-En el procedimiento siguiente se describe cómo generar facturas electrónicas para facturas de venta, aunque los mismos pasos también se aplican a facturas y notas de crédito de servicios.  
+En el procedimiento siguiente se describe cómo generar facturas electrónicas para facturas de venta, aunque los mismos pasos también se aplican a los siguientes documentos:
+
+* Abonos de venta  
+* Remisiones de venta  
+* Envíos de transferencia  
+* Facturas servicios  
+* Notas de crédito de servicio  
 
 ## <a name="to-generate-electronic-invoices-for-sales-invoices"></a>Para generar facturas electrónicas de facturas de ventas  
 
 1. Elija el icono ![Bombilla que abre la función Dígame, escriba Configuración asistida.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Factura venta reg.** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la factura registrada.  
+
+    > [!NOTE]
+    > Si está cancelando el documento registrado, debe especificar la razón de la cancelación en el campo **Razón de cancelación de CFDI**, y debe especificar qué documeno sustituye el documento cancelado en el campo **N.º doc. de sustitución**. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 3. Elija la acción **Enviar documento electrónico** y, luego, especifique si desea solicitar también un sello digital para el documento.  
 
     Si elige **Solicitar sello**, su PAC firmará digitalmente la factura registrada y, luego, podrá enviarla más adelante. Si elige **Solicitar sello y enviar**, la factura registrada se firmará digitalmente y se enviará, todo en un solo paso.

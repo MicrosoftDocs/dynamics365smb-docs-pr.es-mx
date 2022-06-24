@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.search.form: 10458, 10459, 27001, 27002, 27003, 27010,27011, 27011, 27012, 27013,27014,27015, 27016, 27017, 27018, 27040, 27041, 27042, 27043, 27044
-ms.date: 03/23/2022
+ms.date: 06/01/2022
 ms.author: edupont
-ms.openlocfilehash: d11404142123f96d32cca0f96af23696eded7cd8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5a0976e1636c5b5fab6dccd6e56913e80d51ca43
+ms.sourcegitcommit: 7a6efcbae293c024ca4f6622c82886decf86c176
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513227"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "8841912"
 ---
 # <a name="electronic-invoicing-in-the-mexican-version"></a>Facturación electrónica en la versión para México
 
@@ -42,7 +42,7 @@ El archivo de CFDI es un archivo XML que incluye lo siguiente:
 > [!IMPORTANT]  
 > Deberá enviar las facturas electrónicas a un PAC, que es un proveedor de servicios autorizado designado por las autoridades fiscales de México (SAT). Tenga en cuenta que SAT ha certificado a varios PAC en México, por lo que deberá obtener la información pertinente para comunicarse con el PAC que elija. De manera predeterminada, [!INCLUDE [prod_short](../../includes/prod_short.md)] admite la integración con [Interfactura](https://interfactura.com/), pero puede utilizar otro PAC de su elección.  
 
-## <a name="getting-started"></a>Introducción
+## <a name="get-started"></a>Comenzar
 
 Antes de poder usar [!INCLUDE[prod_short](../../includes/prod_short.md)] para la facturación electrónica, debe obtener la certificación apropiada, el sello digital y números de control de las autoridades fiscales. Debe instalar el certificado en el equipo en el que se generarán los archivos CFDI. Para obtener más información, vea [Configurar la facturación electrónica](how-to-set-up-electronic-invoicing.md). Para obtener información sobre los certificados y las claves de SAT, consulte el sitio web del [Servicio de Administración Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772).  
 
@@ -56,7 +56,7 @@ Además, debe especificar los servicios web que utilizará para comunicarse con 
 
 También debe especificar información sobre su empresa y cada uno de sus clientes y proveedores. Para obtener más información, vea [Configurar la facturación electrónica](how-to-set-up-electronic-invoicing.md).  
 
-## <a name="sending-electronic-invoices"></a>Envío de facturas electrónicas
+## <a name="send-electronic-documents"></a>Enviar documentos electrónicos
 
 Una vez que haya registrado una factura o una nota de crédito, podrá enviarla al cliente. Pero antes debe obtener el sello digital de un PAC. [!INCLUDE[prod_short](../../includes/prod_short.md)] se comunica con el PAC a través de servicios web para solicitar un sello y, de este modo, su empresa y el PAC firman digitalmente el documento de forma automática.  
 
@@ -69,7 +69,24 @@ Asimismo, si desea imprimir los documentos, estos incluirán un código de barra
 
 Para obtener más información, consulte [Generar facturas electrónicas](how-to-generate-electronic-invoices.md).  
 
-## <a name="communication-component"></a>Componentes de comunicación
+## <a name="cancel-documents"></a>Cancelar documentos
+
+En ocasiones, debe revertir una transacción, por ejemplo si el almacén de un envío se debe cambiar por alguna razón. Estas cancelaciones también se deben enviar como documentos electrónicos.  
+
+Cuando envíe una cancelación, debe especificar una razón de cancelación y debe especificar qué documentos sustituyen el documento cancelado.  
+
+La siguiente tabla proporciona una descripción general de las opciones del campo **Razón de cancelación de CFDI** a partir de febrero de 2022:
+
+|Opción  |Descripción  |
+|---------|---------|
+|01     |Se emitió el comprobante con errores en la relación.|
+|02     |Se emitió el comprobante sin errores relacionados.|
+|03     |No se realizó la operación.|
+|04     |Operación nominativa relacionada en una factura global.|
+
+Si elige el código *01*, también debe especificar el documento que sustituye el documento cancelado en el campo **N.º doc. de sustitución**.  
+
+## <a name="communication-component"></a>Componente de comunicación
 
 Técnicamente, el componente [!INCLUDE[prod_short](../../includes/prod_short.md)] para facturación electrónica se implementa en un ensamblado de biblioteca (Microsoft.Dynamics.NAV.MX.dll), que se incluye automáticamente con [!INCLUDE[prod_short](../../includes/prod_short.md)]. El componente gestiona la comunicación con los servicios web del PAC y también genera los códigos QR que se incluyen en los documentos impresos.  
 

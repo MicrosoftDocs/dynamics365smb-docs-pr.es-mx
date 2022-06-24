@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.search.form: 5469
-ms.date: 04/01/2021
+ms.date: 06/07/2022
 ms.author: solsen
-ms.openlocfilehash: f5c91eb303d26f88af56613790ce0d5aa5d7854a
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: e38c8143cfad1fc4b0c7bbc4bd2995e0e48d264f
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740268"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950419"
 ---
 # <a name="configure-api-templates"></a>Configurar plantillas API
 
@@ -30,6 +30,9 @@ Para usar plantillas con la biblioteca API, primero debe configurar y definir pr
 ## <a name="assign-the-template-to-an-api"></a>Asigne la plantilla a una API
 
 Para asignar una plantilla a una API, debe seguir los siguientes pasos.
+
+> [!NOTE]  
+> Las plantillas de API solo se pueden configurar con las siguientes páginas de API: contactos, countriesRegions, divisas, clientes, empleados, itemCategories, paymentMethods, paymentTerms, shipmentMethods, unitsOfMeasure, y proveedores.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de API** y luego elija el enlace relacionado.
 2. Seleccione **Nuevo** y el valor **Orden** para el registro.  

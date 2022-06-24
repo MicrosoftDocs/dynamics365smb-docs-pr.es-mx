@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: c2bfe2f10440921c95a7d20f3c601389030813e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1b771425c2a70f62dcfebeb4619c0f2f5445de3
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516224"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799623"
 ---
 # <a name="set-up-prepayments"></a>Configurar anticipos
 
@@ -92,6 +92,19 @@ Un pedido puede tener un porcentaje de anticipo en la cabecera de venta y otro p
 4. El porcentaje de anticipo en la cabecera de ventas o de compra.  
 
 Dicho de otro modo, el porcentaje de anticipo de la ficha del cliente sólo se aplicará si no hay definido un porcentaje de anticipo para el producto. Sin embargo, si modifica el contenido del campo **Porcentaje anticipo** en la cabecera de venta o compra después de crear las líneas, se actualizará el porcentaje de anticipo en todas las líneas. Esto facilita la creación de un pedido con un porcentaje de anticipo fijo, independientemente del porcentaje definido para los productos.
+
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Para liberar automáticamente pedidos de venta cuando se aplican anticipos
+
+Puede ahorrar tiempo configurando una entrada en la cola de trabajos que liberará automáticamente pedidos de venta que requieren anticipo después de que se apliquen los pagos. Automatizar el proceso le ahorra el paso de lanzar el pedido de venta.
+
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.
+2. En el campo **Frecuencia de actualización automática prepago**, especifique con qué frecuencia desea que se ejecute la entrada de la cola de trabajos.
+
+> [!TIP]
+> Mientras esté aquí, considere agregar una protección contra el envío o la facturación de pedidos de venta que tengan importes de prepago sin abonar. Si activa el botón de alternancia **Comprobar anticipo al registrar**, [!INCLUDE[prod_short](includes/prod_short.md)] evitará que las personas publiquen pedidos con importes de anticipo sin abonar.
+
+3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimientos de cola de proyectos** y luego elija el enlace relacionado.
+4. Configure la entrada de la cola de trabajos **Actualización pendiente prepago ventas**, por ejemplo, utilizando la configuración en la ficha desplegable **Periodicidad** para programar la frecuencia con la que desea que se ejecute. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
 ## <a name="see-also"></a>Consulte también  
 
