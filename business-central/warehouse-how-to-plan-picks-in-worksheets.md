@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: 09b9f0d4d707da3872ae4b085f1405a99f69a9bc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 24e19eb56bf28b7871ec18f254dc5dbbaa0b290a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515210"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078347"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planificar los picking en la hoja de trabajo
 
@@ -33,6 +33,7 @@ En la página **Elija hojas de trabajo**, puede configurar listas de recolecció
 > Para obtener información acerca de la realización de picking de componentes para pedidos de ensamblado en general, incluidas las situaciones en las que no caduca el producto de ensamblado en una remisión de ventas, consulte [Realizar picking para ensamblado o producción en una configuración avanzada de almacén](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## <a name="sorting-lines-on-a-pick-worksheet"></a>Ordenar líneas en una hoja de trabajo de selección
+
 Puede ordenar las líneas por artículo, número de estante, documento de origen, fecha de vencimiento o destino. A continuación se incluye algunos ejemplos de cómo la ordenación puede ser útil.
 
 * Si ordena por fecha de vencimiento, puede eliminar todas las líneas excepto las que necesiten atención inmediata. Las líneas menos urgentes no se eliminan, sólo se devuelven a la hoja de trabajo de **Selección de picking**. Al crear el picking, las líneas ya se han ordenado por fecha de vencimiento y puede elegir asignar el picking a un empleado.
@@ -52,10 +53,12 @@ Puede ordenar las líneas por artículo, número de estante, documento de origen
 8. Elija la acción **Imprimir** para que se impriman las instrucciones de picking.  
 9. Una vez completada selección, elija la acción **Registrar**.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Gestión almacén](warehouse-manage-warehouse.md)  
-[Inventario](inventory-manage-inventory.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  

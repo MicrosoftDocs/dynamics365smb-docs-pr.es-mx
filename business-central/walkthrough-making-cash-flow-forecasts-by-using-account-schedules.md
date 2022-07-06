@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: be9ddda098391cad347948993c2038de7efc8fc9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 242c3e65401f188068c6e1fbea20212d4a3a7653
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521453"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076160"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Tutorial: elaboración de previsiones del flujo de caja con estructuras de cuentas
 
@@ -142,7 +142,9 @@ Ken ahora está preparado para asignar el diseño de columna al nombre de la est
 2. En la página **Panorama estr. cuentas**, puede seleccionar un importe y después ver los movimientos de la previsión del flujo de caja que conforman el importe. Además, puede ver la fórmula que se utiliza para calcular el importe. También puede filtrar los importes por fecha y dimensión.  
 3. Elija la acción **Imprimir** para que se imprima la previsión de flujo de caja.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Trabajar con estructuras de cuentas](bi-how-work-account-schedule.md)  
 [Analizar el flujo de efectivo de la empresa](finance-analyze-cash-flow.md)  

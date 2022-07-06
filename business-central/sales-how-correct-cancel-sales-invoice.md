@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 59fd78c106f6a5b7d44aa3b2c84232c6441d0d31
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 00be9cdf2e76df93f144662e70bb8558e9b12a2e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517275"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076940"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Corregir o cancelar facturas de venta sin abonar
 
@@ -67,9 +67,11 @@ Si la cancelación está relacionada con un registro parcial de la factura, la l
     Una nota de crédito de ventas se crea y se registra automáticamente para anular la factura de venta registrada inicial.
 5. Elija la acción **Mostrar nota de crédito correctiva** para ver la nota de crédito de venta que anula la factura de venta registrada inicial.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/)
 
-[Ccial](sales-manage-sales.md)  
+## <a name="see-also"></a>Consulte también .
+
+[Ventas](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

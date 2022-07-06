@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7328, 7348
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7c04e2e81876628a8b6fe9534bb7ecdbb960bcc8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f0018b5ad58644783b24d2c3b3fd82ae83d132fb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511328"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075172"
 ---
 # <a name="set-up-warehouse-employees"></a>Configurar los empleados de almacén
 
@@ -29,13 +29,15 @@ Cada usuario que desarrolla actividades en el almacén debe estar configurado co
 5. Seleccione la casilla de verificación **Predeterminada** para definir la ubicación como la única en la que el empleado puede realizar actividades de almacén.  
 6. Repita estos pasos para asignar otros empleados a ubicaciones o para asignar ubicaciones no predeterminadas a empleados de almacén existentes.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/get-started-warehouse-management/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Gestión almacén](warehouse-manage-warehouse.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
-[Configuración de Warehouse Management](warehouse-setup-warehouse.md) 
-[Administración de ensamblados](assembly-assemble-items.md)
-[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
+[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  
+[Gestión de ensamblaje](assembly-assemble-items.md)  
+[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5638, 5636, 5640, 5637
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 48f2735c39c3630611abcb785efc67cfd9473671
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2a6841bf7ad0adb7f63f1bdfc7cde97023e69bc5
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511140"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078189"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Permite transferir, dividir o combinar activos fijos
 
@@ -72,7 +72,9 @@ Puede combinar varios activos en uno, por ejemplo, cuando mueve los activos fijo
 2. Rellene los campos según sea necesario.
 3. Haga clic en el botón **Imprimir** o **Vista previa**.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/reclassify-fixed-assets/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Activos fijos](fa-manage.md)  
 [Configurar activos fijos](fa-setup.md)  

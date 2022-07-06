@@ -10,12 +10,12 @@ ms.search.keywords: scrap
 ms.search.form: 5628, 5610, 5611, 5629, 5633
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 210cfc51b9a9ffc68166636a2ff2d0e33edcbb62
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dd8e374a0f7124084d789858767d08c4935d1631
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523590"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077330"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Cancelar o retirar activos fijos
 
@@ -40,6 +40,7 @@ Los siguientes pasos suponen que ya ha configurado los grupos contables relevant
 Si vende o dispone de parte de un activo fijo, debe dividir el activo antes de poder grabar la transacción de venta/baja. Para obtener más información, consulte [Transferir, dividir o combinar activos fijos](fa-how-trans-split-combine.md).  
 
 ## <a name="to-view-disposal-ledger-entries"></a>Para ver movimientos venta/baja
+
 En el momento de vender o dar de baja un activo fijo, el valor de venta o baja se registra en el libro mayor donde puede ver el resultado.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Activos fijos** y, a continuación, elija el vínculo relacionado.  
@@ -50,7 +51,9 @@ En el momento de vender o dar de baja un activo fijo, el valor de venta o baja s
 
 La página **Movs. contabilidad** se abre y puede ver los movimientos que se produjeron al registrar la venta/baja.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/dispose-fixed-assets/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Activos fijos](fa-manage.md)  
 [Configurar activos fijos](fa-setup.md)  

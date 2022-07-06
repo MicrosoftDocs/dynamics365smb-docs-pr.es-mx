@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5430
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 693e7a3a5970e681840332f7b6899f1867e36bd1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 51f1e2ff31e819c8aa571335b25dc51ec61d6d30
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512267"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077219"
 ---
 # <a name="about-planning-functionality"></a>Sobre la funcionalidad de la planificación
 
@@ -117,7 +117,7 @@ La advertencia de emergencia se muestra en dos situaciones:
 
 Si el inventario de un producto es negativo en la fecha de inicio de la planeación, el sistema de planeación le sugiere una orden de suministro de emergencia para la cantidad negativa que llegue en la fecha de inicio de la planeación. El texto de advertencia informa de tal fecha y de la cantidad del pedido de emergencia.
 
-Todas las líneas de documento con fecha de vencimiento antes de la fecha de inicio de la planificación se consolidan en una orden de demanda de emergencia para que el elemento llegue en la fecha de inicio de la planificación.
+Todas las líneas de documento con fecha de vencimiento antes de la fecha de inicio de la planificación se consolidan en un pedido de demanda de emergencia para que el elemento llegue en la fecha de inicio de la planificación.
 
 ### <a name="exception"></a>Excepción
 
@@ -150,7 +150,7 @@ La página **Hoja demanda** incluye una lista de productos que desea solicitar. 
 
 - Introduzca los productos manualmente en la hoja y rellene los campos pertinentes.
 
-- Use el trabajo por lotes **Calcular plan**. De este modo, se calculará un plan de reposición para los productos y las unidades de almacenamiento que se han configurado con un sistema de reposición de **Compra** o **Transferencia**. Cuando utilice este proceso, el programa rellenará automáticamente el campo **Mensaje acción** con una acción recomendada que puede realizar para reponer el producto. Esta acción podría, por ejemplo, aumentar la cantidad del producto en un pedido existente o crear un nuevo pedido.
+- Use el trabajo por lotes **Calcular plan**. De este modo, se calculará un plan de reposición para los productos y las unidades de almacenamiento que se han configurado con un sistema de reposición de **Compra** o **Transferencia**. Cuando utilice este proceso, el programa rellenará automáticamente el campo **Mensaje acción** con una acción recomendada que puede realizar para reponer el producto. Por ejemplo, podría ser: aumentar la cantidad de producto en un pedido existente o crear un nuevo pedido.
 
 - Si ha utilizado el proceso **Calcular plan** desde la página **Hoja planificación** para calcular un plan de reposición, puede aplicar el proceso **Ejecutar mensajes acción** para copiar las propuestas de pedido de compra y transferencia de la hoja de planificación a la hoja de demanda. Esto es práctico si separa los usuarios responsables de la gestión de órdenes de producción de los responsables de pedidos de compra y transferencia.
 
@@ -158,11 +158,13 @@ La página **Hoja demanda** incluye una lista de productos que desea solicitar. 
 
 - Puede utilizar la acción **Pedido especial** para rellenar las líneas de la hoja de demanda. Esta acción utiliza el proceso **Tomar órdenes de venta** para determinar las líneas de la orden de venta que desea asignar a una orden especial.
 
-Las líneas de la hoja de demanda contienen información detallada sobre los productos que es necesario reaprovisionar. Puede editar y eliminar líneas para ajustar su plan de reposición y, más tarde, procesar las líneas con el proceso **Ejecutar mensajes acción**.
+Las líneas de la hoja de demanda contienen información detallada sobre los productos que es necesario reordenar. Puede editar y eliminar líneas para ajustar su plan de reposición y, más tarde, procesar las líneas con el proceso **Ejecutar mensajes acción**.
 
 Para obtener detalles sobre la planificación con ubicaciones y transferencias, consulte [Planificación con o sin ubicaciones](production-planning-with-without-locations.md).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/plan-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)  
 [Planificación](production-planning.md)  
