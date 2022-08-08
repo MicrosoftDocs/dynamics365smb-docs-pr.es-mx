@@ -109,7 +109,7 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de costo.
 
 |N.º de movimiento|Fecha reg.|Tipo mov.|Tipo de documento|N.º documento|Nº producto|Código de ubicación|Cantidad|Importe costo (real)|Cantidad facturada|Cantidad pendiente|Abierta|Corrección|  
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
-|333|28/01/2018|Venta|Remisión venta|102043|EXAMINAR|AZUL|-1|-10|-1|-1|Sí|N.º|  
+|333|28/01/2018|Venta|Remisión venta|102043|EXAMINAR|AZUL|-1|-10|-1|-1|Sí|No|  
 |334|28/01/2018|Venta|Remisión venta|102043|EXAMINAR|AZUL|1|10|1|1|Sí|**Sí**|  
 
 -   En la página **Histórico de remisión de venta**, busque el campo **Liquid. mov. prod.** para ver si se rellena el campo y en ese caso a qué movimiento del producto del artículo se liquida el albarán de devolución.  

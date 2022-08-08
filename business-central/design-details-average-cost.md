@@ -71,8 +71,8 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 | **Nº producto** | **Cód. variante** | **Cód. almacén** | **Fecha valoración** | **Costo ajustado** |
 |--|--|--|--|--|
-| PROD1 |  | AZUL | 01-01-20 | N.º |
-| PROD1 |  | AZUL | 01-02-20 | N.º |
+| PROD1 |  | AZUL | 01-01-20 | No |
+| PROD1 |  | AZUL | 01-02-20 | No |
 | PROD1 |  | AZUL | 02-02-20 | No |
 | PROD1 |  | AZUL | 03-02-20 | No |
 
@@ -138,7 +138,7 @@ El costo promedio de un producto se calcula con un promedio ponderado periódico
 
 |Caso|Fecha reg.|Cdad. valuada|Reevaluación|Fecha valoración|  
 |--------------|-------------------------------------|-----------------------------------------|-----------------|-----------------------------------------|  
-|1||Positivo|N.º|Fecha de registro del movimiento de producto|  
+|1||Positivo|No|Fecha de registro del movimiento de producto|  
 |2|Posterior a la última fecha de valuación de los movimientos de valuación aplicados|Negativo|No|Fecha de registro del movimiento de producto|  
 |3|Anterior a la última fecha de valuación de los movimientos de valuación aplicados|Positivo|No|Última fecha de valuación de los movimientos de valuación aplicados|  
 |4||Negativo|Sí|Fecha de registro del movimiento de valoración de revalorización|  
