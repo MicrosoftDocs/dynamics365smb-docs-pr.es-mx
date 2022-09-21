@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
-ms.date: 03/24/2022
+ms.date: 08/26/2022
 ms.author: bholtorf
-ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: e3cb6fd841dc4d6e0f9b00d2966ca00bab577b15
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076576"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460790"
 ---
 # <a name="set-up-posting-groups"></a>Configurar los grupos contables de activos
 
@@ -59,9 +59,11 @@ La siguiente tabla describe los grupos contables que son específicos de tipos d
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Permitir grupos de registro de clientes o proveedores sustitutos en documentos
 
+[!INCLUDE [preview](includes/preview.md)]
+
 Puede permitir que las personas elijan grupos contables de clientes y proveedores diferentes a los predeterminados cuando trabajan con documentos y diarios de compras o ventas.
 
-Para permitir cambios en los grupos contables de clientes, seleccione **Permitir la alteración del grupo contable** en las páginas **Configuración de ventas y cobros** y **Config. gestión servicio**, y la página **Configuración de compras y pagos** para cambios de grupos contables de proveedores.
+Para permitir cambios en los grupos contables de clientes, seleccione **Permitir varios grupos contables** en las páginas **Configuración de ventas y cobros** y **Config. gestión servicio**, y la página **Configuración de compras y pagos** para cambios de grupos contables de proveedores.
 
 En las páginas **Grupos registro cliente** o **Grupos registro proveedor**, puede especificar los grupos contables que se permitirán como sustitutos eligiendo **Sustituciones**. Los grupos contables sustitutos pueden reemplazar los grupos contables predeterminados de clientes o proveedores especificados para un cliente o proveedor.
 
@@ -102,7 +104,7 @@ Al crear un documento de ventas, el encabezado de ventas usa la información de 
 * El registro de inventario (balance) se determina mediante el grupo de registro de inventario.  
 * El registro del costo de productos vendidos (resultado) se determina mediante la combinación del grupo contable de negocio general y el grupo contable de producto.  
 
-La configuración determina cuándo se realiza el registro. Por ejemplo, el tiempo se ve afectado por el momento en que realiza actividades periódicas, como registrar el costo de inventario o ajustar los movimientos de elementos de costo.
+La configuración determina cuándo se realiza el registro. Por ejemplo, el tiempo se ve afectado por el momento en que realiza actividades periódicas, como registrar el costo del inventario o ajustar los movimientos de producto de costo.
 
 ## <a name="copying-posting-setup-lines"></a>Copiar líneas de configuración de grupos contables
 
