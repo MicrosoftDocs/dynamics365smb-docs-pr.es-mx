@@ -10,12 +10,12 @@ ms.reviewer: edupont
 ms.search.form: 130, 142, 1350
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 47c390cfbd9827d539fa99046c1ad82ba739bac3
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 91744dd58d68c6b732c9abe794f33b0c9a11211a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655629"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535699"
 ---
 # <a name="posting-sales"></a>Registrar ventas
 
@@ -53,11 +53,11 @@ En la mayoría de los casos, puede abrir movimientos desde la tarjeta o document
 
 Puede editar determinados campos en documentos de compra registrados, como **Nº seguimiento bulto**. . Para obtener más información, vea [Editar documentos registrados](across-edit-posted-document.md). Para campos más críticos que afectan el registro de auditoría, debe revertir o deshacer la publicación. Para obtener más información, vea [Revertir los registros de diario y deshacer las recepciones/remisiones](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Registrar varios documentos al mismo tiempo](ui-batch-posting.md)  
 [Editar documentos registrados](across-edit-posted-document.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  

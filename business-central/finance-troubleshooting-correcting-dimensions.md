@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 82f71f3fafb0b977dde28033443f4585aeaced52
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 2f9662df035851c1700a3b5ca01b71a418832dbf
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075432"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532847"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Resolución de problemas y corrección de dimensiones
 
@@ -122,7 +122,7 @@ Si una corrección no se completa, aparecerá una advertencia en la ficha de cor
 
 Después de corregir las dimensiones, los datos de la contabilidad de costos no estarán sincronizados. La contabilidad de costos usa dimensiones para agregar importes para centros de costo y objetos de costo, así como para ejecutar asignaciones de costos. Cambiar las dimensiones para movimientos de contabilidad general probablemente signifique volver a ejecutar sus modelos de contabilidad de costos. En función de los datos que se hayan actualizado y de cómo estén configuradas las funcionalidades de contabilidad de costos, tendrá que eliminar algunos registros de costos y volver a ejecutar las asignaciones, o bien eliminar todo y volver a ejecutar todos sus modelos. Debe identificar manualmente dónde afectarán las correcciones de dimensión a la contabilidad de costos y dónde se necesitan actualizaciones. [!INCLUDE[prod_short](includes/prod_short.md)] no ofrece actualmente una forma automatizada de hacerlo.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/dimensions-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

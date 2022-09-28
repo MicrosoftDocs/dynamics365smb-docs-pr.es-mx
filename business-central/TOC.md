@@ -5,7 +5,7 @@
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
 ## Obtener información
 ### [Catálogo de aprendizaje de Business Central](readiness/readiness-learning-catalog.md)
-### [Business Central en Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Formación de Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Tutoriales de procesos empresariales
 #### [Tutoriales disponibles](walkthrough-business-process-walkthroughs.md)
 #### [Tutorial: realización de una campaña de ventas](walkthrough-conducting-a-sales-campaign.md)
