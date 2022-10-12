@@ -1,20 +1,20 @@
 ---
 title: Sobre la funcionalidad de la planificación
-description: El programa de planificación en Dynamics 365 Business Central tiene en cuenta todos los datos del aprovisionamiento y la demanda, cuadra el resultado y genera sugerencias para hacer que el aprovisionamiento satisfaga la demanda.
-author: SorenGP
+description: La planificación tiene en cuenta todos los datos del aprovisionamiento y la demanda, cuadra el resultado y genera sugerencias para hacer que el aprovisionamiento satisfaga la demanda.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5430
-ms.date: 07/16/2021
-ms.author: edupont
-ms.openlocfilehash: 029666cdfd0ad75d62eb21f6e719295c67d88ed1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 08/30/2022
+ms.author: bholtorf
+ms.openlocfilehash: df67568094e76dccbc62b9dbf6d78dc9c0e58caf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535435"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606976"
 ---
 # <a name="about-planning-functionality"></a>Sobre la funcionalidad de la planificación
 
@@ -30,7 +30,7 @@ Para obtener información detallada, consulte [Detalles de diseño: Planificaci�
 La planificación tiene dos elementos: demanda y aprovisionamiento. Dichos elementos se deben equilibrar para garantizar que la demanda se satisface de manera puntual y rentable.  
 
 - Demanda es el término habitual usado para todo tipo de necesidades brutas: pedido de venta, pedido de servicio, necesidad de componentes de órdenes de producción, pedidos de ensamblado, transferencia de salida, pedido abierto o previsión. Además de todos ellos, la aplicación admite algunos otros tipos técnicos de demanda; por ejemplo, una orden de producción o una orden de compra negativas, inventario negativo y devoluciones de compras.  
-- Aprovisionamiento es el término habitual utilizado para todo tipo de reposición: inventario, pedido de compra, pedido de ensamblado, orden de producción o transferencia de entrada. En correspondencia, puede haber un pedido de venta o de servicio negativo, una necesidad de componente negativa o una devolución de ventas; todos ellos, de alguna forma, representan también un aprovisionamiento.  
+- Aprovisionamiento se refiere a todo tipo de reposición: inventarios, orden de compra, orden de ensamblado, orden de producción o transferencia de entrada. A la inversa, puede haber un pedido de venta o de servicio negativo, una necesidad de componente negativo o una devolución de ventas que representen también un aprovisionamiento.  
 
 Otro objetivo del sistema de planeación es el de garantizar que el inventario no aumente innecesariamente. En el caso de un descenso de la demanda, el sistema de planificación sugerirá que se pospongan o cancelen algunos de los pedidos de reposición existentes, o que se reduzca sus cantidades.  
 
@@ -47,7 +47,7 @@ La base de la rutina de planificación es el cálculo bruto-neto. Las necesidade
 
 Como se puede ver en el campo **Sistema reposición** de una ficha de unidad de almacenamiento, el sistema de planificación se puede configurar para que cree pedidos de transferencia que equilibren el suministro y la demanda entre los distintos almacenes.  
 
-Además de dichas órdenes de transferencia automáticas, puede que a veces sea necesario realizar un traslado general de cantidades en inventario a otro almacén, independientemente de la demanda existente. Para ello debería crear manualmente un pedido de transferencia con la cantidad que trasladar. Para garantizar que el sistema de planificación no intenta manipular este pedido de transferencia manual, debe establecer el campo **Flexibilidad de planificación** de las líneas de transferencia en Ninguna.  
+Además de dichas órdenes de transferencia automáticos, puede que a veces sea necesario realizar un traslado general de cantidades de inventario a otro almacén, independientemente de la demanda existente. Para ello debería crear manualmente un pedido de transferencia con la cantidad que trasladar. Para garantizar que el sistema de planificación no intenta manipular este pedido de transferencia manual, debe establecer el campo **Flexibilidad de planificación** de las líneas de transferencia en Ninguna.  
 
 Por el contrario, si desea que el sistema de planificación ajuste las cantidades del pedido de transferencia y las fechas para la demanda existente, debe establecer el campo **Flexibilidad de planificación** en el valor predeterminado, Ilimitada.
 
@@ -158,9 +158,12 @@ La página **Hoja demanda** incluye una lista de productos que desea solicitar. 
 
 - Puede utilizar la acción **Pedido especial** para rellenar las líneas de la hoja de demanda. Esta acción utiliza el proceso **Tomar órdenes de venta** para determinar las líneas de la orden de venta que desea asignar a una orden especial.
 
-Las líneas de la hoja de demanda contienen información detallada sobre los productos que es necesario reordenar. Puede editar y eliminar líneas para ajustar su plan de reposición y, más tarde, procesar las líneas con el proceso **Ejecutar mensajes acción**.
+Las líneas de la hoja de demanda contienen información detallada sobre los productos que es necesario reordenar. Puede editar y eliminar líneas para ajustar su plan de reposición y, más tarde, procesar las líneas con el proceso **Ejecutar mensajes acción**. 
 
 Para obtener detalles sobre la planificación con ubicaciones y transferencias, consulte [Planificación con o sin ubicaciones](production-planning-with-without-locations.md).
+
+> [!TIP]
+> Cuando trabaje en las páginas **Hoja de demanda** u **Hoja de planificación**, puede organizar las líneas ordenándolas por nombre de columna. Esto es especialmente útil en la página Hoja de planificación porque se puede usar para órdenes de producción de varios niveles. De forma predeterminada, las líneas se ordenan por el campo **N.º producto**. Para agrupar líneas de un pedido de varios niveles, ordene según el **Nº orden ref.** . También los campos **Orden MPS** y **Nivel de planificación** pueden ayudar a mostrar la jerarquía de las líneas.
 
 ## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/plan-items-dynamics-365-business-central/) relacionada
 

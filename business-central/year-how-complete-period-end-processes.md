@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 04/01/2021
+ms.date: 08/29/2022
 ms.author: jswymer
-ms.openlocfilehash: bb39763e80acc25604f3a1528f5c6db286a5c1dc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: ace24899aa3c872cd5ac0609dfc3ecbf63608330
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-MX
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535501"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607673"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Resumen de tareas para cerrar periodos contables
 
@@ -24,18 +24,18 @@ ms.locfileid: "9535501"
 
 * Especifique períodos de registro para todo el sistema y específicos para el usuario.  
 
-    Esto especifica las fechas entre las cuales puede efectuar registros. En función de su empresa, puede permitir el registro al inicio del periodo o hacia el final. Para obtener más información, vea [Especificar periodos de registro](finance-how-specify-posting-periods.md).  
-* Lleve a cabo todos los ajustes de contabilidad necesarios  
+    Esto especifica las fechas entre las cuales puede efectuar registros. En función de su empresa, puede permitir el registro al inicio del periodo o hacia el final. Obtenga más información en [Especificar períodos contables](finance-how-specify-posting-periods.md).  
+* Lleve a cabo todos los ajustes de contabilidad necesarios.  
 * Actualice y registre los Diarios periódicos.  
   <!--* Process Consolidations-->
-* Ejecute los esquemas de cuentas como se indica a continuación:  
-  * Abra la página **estructura cuentas** y, a continuación, seleccione la acción **Imprimir**.  
+* Ejecute los informes financieros de la siguiente manera:  
+  * Abra la página **Informes financieros** y, a continuación, seleccione la acción **Imprimir**.  
 
 ## <a name="sales-and-receivables"></a>Ventas y cobros
 
 * Registre todas las órdenes, facturas, notas de crédito y devoluciones de ventas.  
 * Registre todo los diarios de recepciones de efectivo.  
-* Actualice y registre los diarios periódicos relativos a ventas y cobros.  
+* Actualice y registre los Diarios periódicos relativos a Ventas y cobros.  
 * Concilie los cobros en el libro de contabilidad  
 * Ejecute el proceso **Eliminar peds. venta factdos**.  
 
@@ -43,13 +43,13 @@ ms.locfileid: "9535501"
 
 * Registre todas las órdenes, facturas, notas de crédito y devoluciones de compra.  
 * Registre todos los registros de pagos.  
-* Actualice y registre los diarios periódicos que son relativos a compras y pagos.  
+* Actualice y registre los Diarios periódicos relativos a Compras y pagos  
 * Ejecute el informe **Antigüedad pagos** y concilie las cuentas por pagar en el libro de contabilidad.  
 * Ejecute el proceso **Eliminar peds. compra factdos**.  
 
 ## <a name="fixed-assets"></a>Activos fijos
 
-* Todos los costos de mantenimiento se han registrado mediante los diarios periódicos de activos o facturas.
+* Todos los costos de mantenimiento se han registrado mediante los diarios de activos o las facturas.
 * Registrar ajustes.
 * Registrar apreciación.
 * Registrar depreciación.
@@ -61,7 +61,7 @@ ms.locfileid: "9535501"
 
 ## <a name="calculate-and-process-sales-tax"></a>Calcular y procesar los impuestos de venta
 
-* Realice los extractos de impuesto.  
+* Complete las declaraciones de impuestos.  
 
 ## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/) relacionada
 
@@ -70,6 +70,5 @@ ms.locfileid: "9535501"
 [Cerrar años y periodos](year-close-years-periods.md)  
 [Cierre de libros](year-close-books.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
