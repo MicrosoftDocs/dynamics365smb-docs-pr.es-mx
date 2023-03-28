@@ -106,8 +106,15 @@
 ### [Solución de problemas en el registro de autoservicio](ui-troubleshoot-self-signup.md)
 ### [Ampliar la versión de prueba](admin-extend-trial.md)
 ### [Cancelar la suscripción o eliminar Business Central](admin-cancel.md)
-## Compra
-### [Comenzar a usar una suscripción](trial-signup.md#get-started-with-a-subscription)
+### Texto de marketing de productos impulsado por IA con Copilot
+#### [Información general](ai-overview.md)
+#### [Obtener versión preliminar: edición Copilot](ai-preview-getstarted.md)
+#### [Configurar texto de marketing de productos impulsado por IA](enable-ai.md)
+#### [Crear texto de marketing de productos impulsado por IA](item-marketing-text.md)
+#### [Preguntas frecuentes](ai-faq.md)
+
+## Comprar
+### [Comenzar con una suscripción](trial-signup.md#get-started-with-a-subscription)
 ### [Prepararse para hacer negocios](ui-get-ready-business.md)
 
 ## Artículos de inicio rápido
@@ -489,11 +496,12 @@
 ### [Registro de productos nuevos](inventory-how-register-new-items.md)
 ### [Trabajar con listas de materiales](inventory-how-work-BOMs.md)
 ### [Clasificar productos](inventory-how-categorize-items.md)
-### [Administrar variantes de productos](inventory-item-variants.md)  
+### [Administrar variantes del producto](inventory-item-variants.md)  
 ### [Trabajar con atributos de producto](inventory-how-work-item-attributes.md)
 ### [Trabajar con productos del catálogo](inventory-how-work-nonstock-items.md)
+### [Agregar texto de marketing para productos](item-marketing-text.md)
 ### [Recontar y ajustar inventario mediante documentos](inventory-how-count-inventory-with-documents.md)
-### [Recontar, ajustar y reclasificar inventario con diarios](inventory-how-count-adjust-reclassify.md)
+### [Contar, ajustar y reclasificar diarios de uso de inventario](inventory-how-count-adjust-reclassify.md)
 ### [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)
 ### [Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)
 ### [Reservar artículos](inventory-how-to-reserve-items.md)
@@ -1523,8 +1531,9 @@
 #### [Configurar unidades de almacenamiento](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Clasificar productos](inventory-how-categorize-items.md)
 #### [Importar varias imágenes de producto](inventory-how-import-item-pictures.md)
-### Configurar administración de proyectos
-#### [Configurar programas](projects-setup-projects.md)
+#### [Configurar texto de marketing de productos impulsado por IA con Copilot](enable-ai.md)
+### Configurar gestión del proyecto
+#### [Configurar proyectos](projects-setup-projects.md)
 #### [Configurar recursos](projects-how-setup-resources.md)
 #### [Configurar partes de horas](projects-how-setup-time-sheets.md)
 #### [Configurar proyectos](projects-how-setup-jobs.md)
@@ -1592,8 +1601,9 @@
 #### [Configurar correo electrónico](admin-how-setup-email.md)
 #### Configurar la bandeja de entrada en Microsoft Outlook
 ##### [Obtener el complemento de Business Central para Outlook](admin-outlook.md)
-##### [Usar Business Central como bandeja de entrada de empresa en Outlook](work-outlook-addin.md)
-##### [Sincronizar con Contactos en Outlook](admin-synchronize-outlook-contacts.md)
+##### [Usar Business Central como su bandeja de entrada de empresa en Outlook](work-outlook-addin.md)
+##### [Sincronizar con contactos en Outlook](admin-synchronize-outlook-contacts.md)
+###### [Configurar sincronización de contactos para entornos locales](admin-contact-sync-setup-onprem.md)
 ##### [Optimizar Outlook](admin-outlook-optimize.md)
 ##### [Usar Business Central sin Outlook](admin-no-outlook.md)
 ##### [Preguntas frecuentes](ui-outlook-addin-faq.yml)
@@ -1612,11 +1622,12 @@
 <!--Connectors-->
 ### Configurar conexiones
 #### [Obtener el complemento de Business Central para Excel](admin-deploy-excel-addin.md)
-#### Usar Business Central como bandeja de entrada de empresa en Outlook 
+#### Usar Business Central como su bandeja de entrada de empresa en Outlook 
 ##### [Información general](admin-outlook.md)
-##### [Sincronizar con Contactos en Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Sincronizar con contactos en Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+###### [Configurar sincronización de contactos para entornos locales](admin-contact-sync-setup-onprem.md)
 ##### [Usar Business Central sin Outlook](admin-no-outlook.md)
-#### Usar Microsoft Teams con Business Central
+#### Uso de Microsoft Teams con Business Central
 ##### [Información general](across-teams-overview.md)
 ##### [Administrar la integración de Teams](admin-teams-integration.md)
 ##### [Instalar la aplicación Business Central para Teams](across-install-app-for-teams.md)
