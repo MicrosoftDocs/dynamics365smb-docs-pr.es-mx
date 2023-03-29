@@ -1,32 +1,25 @@
 ---
 title: Crear facturas de anticipo
 description: Gestione situaciones en las que usted o su proveedor requieran un anticipo. Utilice los porcentajes predeterminados de cada línea de venta o de compra o ajuste el importe según sea necesario.
-author: edupont04
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 42, 50, 9305, 9307
-ms.date: 12/02/2021
-ms.author: edupont
-ms.openlocfilehash: ffb2adb5a0ec43da14ee7fd9126c3293ea73ab22
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534924"
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bhielse
+ms.topic: how-to
+ms.date: 02/02/2023
+ms.custom: bap-template
+ms.search.form: '42, 50, 9305, 9307'
 ---
-# <a name="create-prepayment-invoices"></a>Crear facturas de anticipo
+# Crear facturas de anticipo
 
 Si requiere que sus clientes paguen antes de enviarles la orden, puede usar las características de anticipo. Lo mismo se aplica si su proveedor requiere que pague antes de enviarle un pedido.  
 
-Puede iniciar el proceso de anticipo cuando cree una orden de venta o de compra. Si tiene un porcentaje de anticipo predeterminado para un artículo de la orden o para el cliente o el proveedor, se incluirá automáticamente el porcentaje en la factura de anticipo resultante. También puede especificar un porcentaje de anticipo para todo el documento.
+Puede iniciar el proceso de anticipo cuando cree una orden de venta o de compra. El porcentaje de anticipo predeterminado para un producto del pedido o para el cliente o proveedor, se incluirá en la factura de anticipo. También puede especificar un porcentaje de anticipo para todo el documento.
 
 Después de crear una orden de venta o de compra, puede crear una factura de anticipo para dicha orden. Utilice los porcentajes predeterminados de cada línea de venta o de compra o ajuste el importe. Por ejemplo, podría especificar un importe total para todo el pedido.  
 
 El procedimiento siguiente describe cómo facturar un anticipo de la orden de venta. Los pasos son parecidos para pedidos de compra.  
 
-## <a name="to-create-a-prepayment-invoice"></a>Para crear una factura de anticipo
+## Para crear una factura de anticipo
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2. Cree un pedido de venta nuevo para un cliente relevante. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).  
@@ -41,6 +34,14 @@ El procedimiento siguiente describe cómo facturar un anticipo de la orden de ve
     Si desea especificar una factura de anticipo con una línea para cada línea de orden de venta que tenga un porcentaje de anticipo, después, no elija el campo **Compresión anticipo**.  
 
     La fecha de vencimiento del anticipo se calcula automáticamente en función del valor de **Código de términos de anticipo**.
+
+    > [!NOTE]
+    > Cuando algunas líneas de una factura requieren un anticipo del 100 % y otras líneas no, y hay IVA en la cuenta de anticipo, el monto redondeado puede generar un error al crear una factura de anticipo. El error se produce porque el importe de la factura de anticipo es superior a los importes de las líneas del documento. Para solucionar el problema, cambie los montos en una o todas las líneas que requieren el 100% de anticipo. El cambio volverá a calcular el redondeo del importe del IVA y utilizará la diferencia de redondeo acumulada en la última línea modificada.
+    >
+    > Dos formas más de solucionar el problema son:
+    >
+    > * Cree un grupo contable de productos con IVA independiente y una configuración de tipo de registro de IVA con un identificador de IVA independiente y utilícelos para los productos o líneas que requieran un anticipo del 100 %. El redondeo se realiza para cada identificador de IVA, por lo que se realizará un redondeo por separado para los productos que se asignan al grupo contable de productos con IVA.
+    > * Use una factura independiente para los productos o líneas que requieren y no requieren pagos anticipados del 100 %.
 
 3. Rellene las líneas de venta.  
 
@@ -69,13 +70,13 @@ Puede emitir otras facturas de anticipo adicionales para la orden. Para emitir o
 
  Cuando esté listo para registrar el resto de la factura, hágalo del mismo modo que lo haría con cualquier otra factura; la cantidad de anticipo se descontará automáticamente del importe adeudado.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Actualizar el estado de los pedidos y facturas prepago automáticamente
+## Actualizar el estado de los pedidos y facturas prepago automáticamente
 
 Puede acelerar el procesamiento de pedidos y facturas configurando entradas de cola de trabajos que actualizan automáticamente el estado de esos documentos. Cuando se paga una factura de anticipo, las entradas de la cola de proyecto pueden cambiar automáticamente el estado del documento de **Anticipo pendiente** a **Liberado**. Cuando configure las entradas de la cola de trabajos, las unidades de código que necesitará usar son **383 actualizado Pendiente Prepago Ventas** y **383 actualizado Pendiente Prepago Compra**. Le recomendamos que programe las entradas para que se ejecuten con frecuencia, por ejemplo, cada minuto. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Facturación de anticipos](finance-invoice-prepayments.md)  
 [Tutorial: Configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

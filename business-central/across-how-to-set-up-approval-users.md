@@ -1,6 +1,6 @@
 ---
 title: Configurar usuarios de aprobación
-description: Antes de que puedas crear flujos de trabajo que impliquen pasos de aprobación, tienes que configurar los usuarios del flujo de trabajo implicados en los procesos de aprobación en la página Configuración de usuario de aprobación.
+description: 'Antes de que puedas crear flujos de trabajo que impliquen pasos de aprobación, tienes que configurar los usuarios del flujo de trabajo implicados en los procesos de aprobación en la página Configuración de usuario de aprobación.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: 2654dcb68b579d90fe3218bcd0bba3bde4cb5036
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585849"
 ---
-# <a name="set-up-approval-users"></a>Configurar usuarios de aprobación
+# Configurar usuarios de aprobación
 
 Antes de que puedas crear flujos de trabajo que impliquen pasos de aprobación, tienes que configurar los usuarios del flujo de trabajo implicados en los procesos de aprobación. En la página **Config. usuario aprobación**, también se pueden establecer los límites del importe de tipos específicos de solicitudes y definir aprobadores sustitutos a los que delegar las solicitudes de aprobación cuando el aprobador original está ausente.  
 
@@ -28,7 +22,7 @@ Una vez configurados los usuarios de aprobación, puede crear las respuestas de 
 > [!NOTE]  
 > Para definir una solicitud de aprobación como no aprobada hasta que varios usuarios la hayan aprobado, establezca los aprobadores en una jerarquía. Para el tipo de aprobador **Aprobador**, configura los aprobadores en la página **Config. usuario aprobación**. Para el tipo de aprobador **Grupo de usuarios del grupo de trabajo**, configure los aprobadores en la página **Grupos de usuarios de flujo de trabajo** y define la jerarquía asignando números incrementales a cada aprobador en el campo **Nº secuencia** . Obtenga más información a continuación y en [Configurar usuarios de flujo de trabajo](across-how-to-set-up-workflow-users.md).  
 
-## <a name="to-set-up-an-approval-user"></a>Para configurar a un usuario de aprobación
+## Para configurar a un usuario de aprobación
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. usuario aprobación** y luego elija el vínculo relacionado.  
 2. Cree una nueva línea en la página **Config. usuario aprobación** y después rellena los campos tal y como se describe en la tabla siguiente.  
@@ -54,9 +48,9 @@ Una vez configurados los usuarios de aprobación, puede crear las respuestas de 
 3. Para probar la configuración de usuario de aprobación, elija la opción **Prueba configuración usuario aprobación**.  
 4. Repita los pasos 2 y 3 para cada persona que desee configurar como usuario de aprobación.  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configurar usuarios de flujo de trabajo](across-how-to-set-up-workflow-users.md)  
 [Configuración de notificaciones de flujos de trabajo](across-setting-up-workflow-notifications.md)  

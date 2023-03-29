@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 3833dd04063b815f56b3715a9fa547557a97f802
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419651"
 ---
 Cuando recibe una factura de una empresa en divisa extranjera, es bastante fácil calcular el valor en moneda local ($) de la factura en función del tipo de cambio actual. Sin embargo, la factura a menudo incluye condiciones de pago para que pueda retrasar el pago a una fecha posterior, lo que implica una tasa de cambio potencialmente diferente. Este problema, en combinación con el hecho de que los tipos de cambio bancarios siempre difieren de los tipos de cambio oficiales, hace imposible anticipar el monto exacto en moneda local ($) que se requiere para cubrir la factura. Si la fecha de vencimiento de la factura se extiende al mes siguiente, es posible que también deba reevaluar el monto en moneda local ($) al final del mes. El ajuste de moneda es necesario porque el nuevo valor de $ que se requiere para cubrir el monto de la factura puede ser diferente y la deuda de la empresa con el proveedor ha cambiado potencialmente. El nuevo monto en $ puede ser mayor o menor que el monto anterior y, por tanto, representará una ganancia o una pérdida. Sin embargo, dado que la factura aún no se ha pagado, la ganancia o pérdida se considera *no realizada*. Posteriormente, se paga la factura y el banco regresa con el tipo de cambio real para el pago. No es hasta ahora cuando se calacula la ganancia o la pérdida *realizada*. Esta ganancia o pérdida no realizada se revierte y, en su lugar, se contabiliza la ganancia o pérdida realizada.
 

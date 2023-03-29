@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: remove, delete
+ms.search.keywords: 'remove, delete'
 ms.date: 06/08/2022
 ms.author: edupont
-ms.openlocfilehash: 929993c80c52857dd01e978552654c7f5a42e496
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950130"
 ---
-# <a name="unsubscribe-or-remove-prod_short"></a>Cancelar la suscripción o quitar [!INCLUDE[prod_short](includes/prod_short.md)]
+# Cancelar la suscripción o quitar [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Si desea dejar de usar [!INCLUDE[prod_short](includes/prod_short.md)], puede cerrar su cuenta o eliminar la licencia. Los pasos para seguir son diferentes si actualmente usa la versión de prueba gratuita o si tiene una suscripción.  
 
@@ -29,11 +23,11 @@ Si desea finalizar una suscripción, su administrador debe eliminar la suscripci
 
 Puede leer acerca de cómo exportar datos a Excel en [Exportación de datos a otros sistemas financieros](about-export-data.md#exporting-data-to-other-finance-systems). Si prefiere exportar todos los datos a un contenedor de almacenamiento de Azure, su administrador de Microsoft 365 puede hacerlo en el centro de administración. Para más información, vea [Exportación de bases de datos en el Centro de administración](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).  
 
-## <a name="removing-prod_short-from-your-app-launcher"></a>Eliminar [!INCLUDE[prod_short](includes/prod_short.md)] de su lanzador de aplicaciones
+## Eliminar [!INCLUDE[prod_short](includes/prod_short.md)] de su lanzador de aplicaciones
 
 Si desea ocultar [!INCLUDE[prod_short](includes/prod_short.md)] de su lanzador de aplicaciones, puede desanclarlo. No se pierden datos y el paso no cancela su suscripción.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Preguntas más frecuentes de la prueba de Business Central](trial-faq.md)  
 [Versiones de prueba y suscripciones (para administradores)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

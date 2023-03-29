@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: fa49d48d4af1efe40cda6579ff15f703ef5ad426
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523086"
 ---
-# <a name="design-details-cost-components"></a>Detalles de diseño: Componentes de costo
+# Detalles de diseño: Componentes de costo
 Los componentes del costo son distintos tipos de costos que conforman el valor de una entrada o una salida de inventario.  
 
  En la tabla siguiente se muestran los distintos componentes de costo y los componentes de costo subordinados de los que constan.  
@@ -39,7 +33,7 @@ Los componentes del costo son distintos tipos de costos que conforman el valor d
 > [!NOTE]  
 >  Los costos de flete y de seguro son cargos de producto que se pueden agregar a un costo de producto en cualquier momento. Al ejecutar el proceso **Valorar existencias - movs. producto**, el valor de cualquier disminución de inventario relacionada se actualiza según corresponda.  
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
  [Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)   
  [Detalles de diseño: Desviación](design-details-variance.md) [Administración de costos de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  

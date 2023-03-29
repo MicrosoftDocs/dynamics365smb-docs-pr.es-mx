@@ -1,27 +1,21 @@
 ---
 title: Terminología en contabilidad de costos
-description: En este tema se definen los términos clave que se utilizan en la contabilidad de costos, como la clave de asignación y el origen de asignación.
+description: 'En este tema se definen los términos clave que se utilizan en la contabilidad de costos, como la clave de asignación y el origen de asignación.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: cee2ced8b51de66de847c0132e8ce35a08b7b229
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532172"
 ---
-# <a name="terminology-in-cost-accounting"></a>Terminología en contabilidad de costos
+# Terminología en contabilidad de costos
 
 Este tema define los términos clave que se utilizan en contabilidad de costos.  
 
-## <a name="key-terms"></a>Términos clave
+## Términos clave
 
  La siguiente tabla muestra las definiciones de los términos clave de contabilidad de costos.  
 
@@ -49,9 +43,9 @@ Este tema define los términos clave que se utilizan en contabilidad de costos.
 |Costo variable|Los costos variables son los gastos que cambian en proporción a la actividad de una empresa. Los costos variables son la suma de costos marginales en todas las unidades producidas. Los costos fijos y los costos variables componen los dos componentes de costos totales.|  
 |Variante|Una variante se utiliza como etiqueta definida por el usuario opcional para las asignaciones. El objetivo de la etiqueta es filtrar grupos de asignación.|  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
  [Acerca de la contabilidad de costos](finance-about-cost-accounting.md)  
  [Contabilidad para costos](finance-manage-cost-accounting.md)  

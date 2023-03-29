@@ -1,19 +1,13 @@
 ---
 title: Configuración de valuación de inventarios y costos
-description: Para asegurarse de que los costos de inventario se registran correctamente, debe configurar varios campos y páginas antes de comenzar a realizar transacciones de elementos.
+description: 'Para asegurarse de que los costos de inventario se registran correctamente, debe configurar varios campos y páginas antes de comenzar a realizar transacciones de elementos.'
 author: SorenGP
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6b7289aff7d111804806bb1afbdfb822c9922492
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520319"
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Configuración de valuación de inventarios
+# Configuración de valuación de inventarios
 
 Para asegurarse de que los costos de inventario se registran correctamente, debe configurar varios campos y páginas antes de comenzar a realizar transacciones de elementos. Por lo general, las empresas eligen método de costo específico y la aplican a los productos del inventario, por ejemplo, para ayudarlas a seguir el valor de los productos en existencias.  
 
@@ -36,7 +30,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Asegurar que las devoluciones de compras se liquidan con la transacción de entrada original para conservar el valor del inventario.|Campo **Reversión de costo exacto obligatoria** en la página **Compras y pagos**|
 |Configurar las reglas de redondeo que hay que aplicar al ajustar o sugerir precios de productos y al ajustar o sugerir costos estándar.|Página **Método de redondeo**|  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Administración de costos de inventario](finance-manage-inventory-costs.md)  
 [Configurar información de inventario general](inventory-how-setup-general.md)  

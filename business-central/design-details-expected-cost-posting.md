@@ -1,22 +1,16 @@
 ---
 title: 'Detalles de diseño: registro de costos previstos'
-description: Los costos esperados representan la estimación, por ejemplo, del costo de un producto comprado registrado antes de recibir la factura de este producto.
+description: 'Los costos esperados representan la estimación, por ejemplo, del costo de un producto comprado registrado antes de recibir la factura de este producto.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 07/20/2021
 ms.author: edupont
-ms.openlocfilehash: c2c3e7cd0e9f5ae88e63bd305927a20341e7559b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513107"
 ---
-# <a name="design-details-expected-cost-posting"></a>Detalles de diseño: Registro de costo esperado
+# Detalles de diseño: Registro de costo esperado
 Los costos esperados representan la estimación, por ejemplo, del costo de un producto comprado registrado antes de recibir la factura de este producto.  
 
  Puede registrar el costo esperado en el inventario y en la contabilidad. Cuando se registra una cantidad que solo se ha recibido o enviado, pero no se ha facturado, se crea un movimiento de valoración con el costo esperado. Este costo esperado afecta al valor de inventario, pero no se registra en la contabilidad a no ser que se haya configurado el sistema para tal fin.  
@@ -28,7 +22,7 @@ Los costos esperados representan la estimación, por ejemplo, del costo de un pr
 
  Para respaldar el trabajo de conciliación y trazabilidad, el movimiento de valoración facturado muestra el importe del costo esperado que se ha registrado para cuadrar las cuentas provisionales.  
 
-## <a name="prerequisites-for-posting-expected-costs"></a>Requisitos previos para registrar los costos previstos
+## Requisitos previos para registrar los costos previstos
 
 Para que sea posible registrar los costos previstos, debe hacer lo siguiente:
 1. En la página **Configuración de inventario**, seleccione la casilla **Registro automático de costos** y la casilla **Registro de costo previsto en contabilidad**.
@@ -38,7 +32,7 @@ Para que sea posible registrar los costos previstos, debe hacer lo siguiente:
 3. En la página **Config. grupo contable general**, verifique el campo **Cuenta de ajuste de inventario (provisional)** para el **Grupo contable empresarial general** y el **Grupo contable de producción general** que va a usar.
 4. Cuando crea una orden de compra, el valor predeterminado es que se requiere el **Número de factura del proveedor**. Debe desactivarlo en la página **Configuración de compras y pagos**, anulando la selección del campo **Número de documento ext. obligatorio**.
 
-## <a name="example"></a>Ejemplo:  
+## Ejemplo:  
 
 > [!NOTE]  
 > Los números de cuenta que se utilizan en este ejemplo son solo de referencia y serán diferentes en su sistema. Configúrelos como se indica en los Requisitos previos anteriores.
@@ -91,7 +85,7 @@ Registra un pedido de compra como recibido. El costo esperado es de 95,00 $.
 |15-01-20|Cuenta aplic. costo directo|7291|-100|6|  
 |15-01-20|Cta. inventario|2130|100|5|  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
  [Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)   
  [Detalles de diseño: Ajuste de costo](design-details-cost-adjustment.md)   
  [Detalles de diseño: Conciliación con contabilidad](design-details-reconciliation-with-the-general-ledger.md)   

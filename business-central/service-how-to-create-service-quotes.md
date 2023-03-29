@@ -1,30 +1,24 @@
 ---
 title: Procedimiento para crear cotizaciones de servicio
-description: Aprenda a utilizar una cotización de servicio como borrador de una orden de servicio y, más adelante, convertir la cotización en una orden de servicio.
+description: 'Aprenda a utilizar una cotización de servicio como borrador de una orden de servicio y, más adelante, convertir la cotización en una orden de servicio.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: eb96cbfee145b418334f49121acfaa5f867ee042
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143047"
 ---
-# <a name="create-service-quotes"></a>Crear cotizaciones de servicio
+# Crear cotizaciones de servicio
 Puede pensar en cotizaciones de servicio como base para las órdenes de servicio. De hecho, son casi idénticos. Ambos contienen información como quién es el cliente, el tipo de pedido, el producto que requiera servicio, información sobre facturación y sobre el envío, e información acerca del proyecto de servicio real.
  
 Puede utilizar una cotización de servicio como borrador de un pedido de servicio y, más adelante, convertir la cotización en un pedido de servicio.  
   
-## <a name="to-create-a-service-quote"></a>Para crear una cotización de servicio  
+## Para crear una cotización de servicio  
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cotizaciones de servicio** y, luego, elija el vínculo relacionado.  
 2. Cree una cotización de servicio nueva.  
-3. En el campo **N.º**, introduzca un número para la cotización de servicio. Si ha configurado números de serie para cotizaciones de servicio en la página **Config. gestión servicio**, también puede presionar Enter para seleccionar el siguiente número de cotización de servicio disponible.  
+3. En el campo **N.º**, introduzca un número para la cotización de servicio. Si ha configurado números de serie para Cotizaciones de servicio en la página **Config. gestión servicio**, también puede seleccionar <kbd>Entrar</kbd> para seleccionar el siguiente número de cotización de servicio disponible.  
 4. En el campo **Nº cliente**,  seleccione el cliente pertinente de la lista.  
 
   > [!Note]  
@@ -34,7 +28,7 @@ Puede utilizar una cotización de servicio como borrador de un pedido de servici
 6. Rellene las líneas de producto de servicio.  
 7. Registre los costos previstos en las líneas de servicio.  
   
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
 [Crear pedidos de servicio](service-how-to-create-service-orders.md)  
 [Trabajar en tareas de servicio](service-how-to-work-on-service-tasks.md)  
 

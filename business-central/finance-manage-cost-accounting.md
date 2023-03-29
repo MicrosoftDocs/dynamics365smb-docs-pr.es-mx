@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ccce829d284379ab307c141d4076ad30bfbaa018
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535248"
 ---
-# <a name="accounting-for-costs"></a>Contabilidad para costos
+# Contabilidad para costos
 La contabilidad de costos se utiliza para ayudarle a conocer los costos de la dirección de una empresa. Para iniciarse en la contabilidad de costos, vea los temas siguientes.  
 
 |Para|Vea|  
@@ -30,9 +24,9 @@ La contabilidad de costos se utiliza para ayudarle a conocer los costos de la di
 |Conocer los procesos de creación de presupuestos de costos.|[Crear presupuesto costo](finance-create-cost-budgets.md)|
 |Cancelar movimientos de presupuesto de costos en el registro de presupuestos de costos.|[Eliminar movs. ppto. costos](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
 [Finanzas](finance.md)  
 [Administración de costos de inventario](finance-manage-inventory-costs.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
