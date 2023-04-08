@@ -1,27 +1,21 @@
 ---
-title: Configurar proyectos, precios y grupos contables de proyectos
-description: Describe cómo configurar la configuración general de los proyectos y configurar los precios de los productos de proyecto, los recursos, las cuentas contables y los grupos contables de proyectos.
+title: 'Configurar proyectos, precios y grupos contables de proyectos'
+description: 'Describe cómo configurar la configuración general de los proyectos y configurar los precios de los productos de proyecto, los recursos, las cuentas contables y los grupos contables de proyectos.'
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
-ms.search.form: 211, 463, 1012
+ms.search.form: '211, 463, 1012'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4e768b9cdcf4b6a7e32ee26a74a876604bad614f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535642"
 ---
-# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Configurar proyectos, precios y grupos contables de proyectos
+# Configurar proyectos, precios y grupos contables de proyectos
 
 Como director de proyectos, puede configurar proyectos que definan cada uno de los proyectos que administra en [!INCLUDE[prod_short](includes/prod_short.md)]. En la página **Configuración de proyectos**, debe especificar cómo desea utilizar determinadas características del proyecto.
 
 Para cada proyecto, especifique fichas de proyecto individuales con información sobre los precios de los productos del proyecto, los recursos del proyecto y las cuentas de proyecto, y debe configurar los grupos contables de proyectos.
 
-## <a name="to-set-general-information-for-jobs"></a>Para configurar la información general de los proyectos
+## Para configurar la información general de los proyectos
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de proyectos** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -29,7 +23,7 @@ Para cada proyecto, especifique fichas de proyecto individuales con información
 > [!NOTE]
 > El campo **Aplicar enlace de uso de forma predeterminada** indica si las entradas del libro mayor de proyectos están vinculadas a las líneas de planificación de proyecto de forma predeterminada. Elija el campo si desea aplicar esta configuración a todos los nuevos proyectos que cree. Puede habilitar o deshabilitar el seguimiento del uso del proyecto para un proyecto específico cambiando el valor del campo **Aplicar enlace de uso** en la tarjeta de trabajo individual. Las consecuencias se explican en la siguiente sección.
 
-### <a name="to-set-up-job-usage-tracking"></a>Para configurar el seguimiento de uso de proyecto
+### Para configurar el seguimiento de uso de proyecto
 
 Cuando está trbajando en un proyecto, es posible que desee saber cómo va el seguimiento en comparación con el plan. A hacerlo fácilmente, cree un vínculo entre las líneas de planificación de proyecto y la utilización real. Esto le permite seguir los costos y ver fácilmente cuánto trabajo queda por realizar. De forma predeterminada, el tipo de línea de planificación de proyecto es *Presupuesto*, pero utilizar el tipo de línea **Presupuesto y facturable** tiene efectos similares.
 
@@ -49,14 +43,14 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 -->
 
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Para establecer los precios de recursos, productos y cuentas de contabilidad para trabajos
+## Para establecer los precios de recursos, productos y cuentas de contabilidad para trabajos
 
 > [!NOTE]
 > En el segundo lanzamiento de versiones de 2020, lanzamos nuevos procesos optimizados para configurar y administrar precios y descuentos. Si es un cliente nuevo, está usando la nueva experiencia. Si es un cliente existente, si está utilizando o no la nueva experiencia depende de si su administrador ha habilitado la actualización de funciones **Nueva experiencia de precios de venta** en **Administración de características**. Para más información, consulte [Habilitación de las próximas funciones antes de tiempo](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Puede establecer los precios de los productos, recursos, productos y cuentas de contabilidad relacionadas con un trabajo. 
 
-#### <a name="current-experience"></a>[Experiencia actual](#tab/current-experience)
+#### [Experiencia actual](#tab/current-experience)
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione la tarea y, a continuación, elija la acción **Recurso**, **Elemento** o **Cuenta P/G**.
@@ -70,14 +64,14 @@ La siguiente tabla muestra cómo se utilizará la información de los campos opc
 |**Elementos de trabajo**|Los campos **N.º de tarea de proyecto**, **Códido de divisa** y **% de Descuento de línea**. El valor del campo **Precio de venta** correspondiente al artículo se usará en las líneas de planificación del proyecto y en los diarios de proyectos cuando se introduzca este producto. tenga en cuenta que este precio siempre anulará el precio regular del cliente (mecanismo de “mejor precio”) de los productos. Si desea usar los mecanismos de precio regular del cliente, no debe crear ningún precio de producto para el proyecto.|
 |**Cuentas de contabilidad**|La información de los campos **N.º tarea de proyecto**, **Código de divisa**, **% de descuento de línea**, **Factor de costo unitario** y **Costo unitario** se usará en las líneas de planificación de proyecto y los diarios de proyectos cuando se especifica esta cuenta contable y se agrega a un proyecto. El valor del campo **Precio de venta** del gasto de proyecto de contabilidad se usará en las líneas de planificación de proyecto y en los diarios de proyectos cuando se introduzca esta cuenta.|
 
-#### <a name="new-experience"></a>[Nueva experiencia](#tab/new-experience)
+#### [Nueva experiencia](#tab/new-experience)
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione el proyecto correspondiente y, a continuación, elija la acción **Listas de precios de venta**.
 
 ---
 
-## <a name="to-set-up-job-posting-groups"></a>Para configurar grupos contables del proyecto
+## Para configurar grupos contables del proyecto
 
 Un aspecto de los proyectos de planificación es decidir qué cuentas de registro se deben utilizar para la valoración de proyectos. Para poder registrar proyectos, debe configurar cuentas de registro para cada grupo contable del proyecto. Un grupo contable representa un vínculo entre el proyecto y cómo debe ser tratado en la contabilidad general. Al crear un proyecto, se especifica un grupo contable y, de forma predeterminada, todas las tareas que crea para el proyecto están asociadas con ese grupo contable. Sin embargo, al crear las tareas, puede sustituir el predeterminado y seleccionar a un grupo contable que sea más adecuado.  
 
@@ -105,9 +99,9 @@ Un aspecto de los proyectos de planificación es decidir qué cuentas de registr
 | **Cuenta costes reconocidos** |Es la cuenta de gastos que contiene los costos reconocidos del proyecto. Normalmente, es una cuenta de cargo. |
 | **Cuenta ventas reconocidas** |Es la cuenta de ingresos que contiene los ingresos reconocidos del proyecto. Normalmente, es una cuenta de ingresos. |
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/set-up-jobs-resources/) relacionada
+## Consultar la [formación de Microsoft](/training/paths/set-up-jobs-resources/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configuración de la administración de proyectos](projects-setup-projects.md)  
 [Vídeo: Cómo crear un proyecto en Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

@@ -24,7 +24,7 @@ La diferencia entre cancelar o corregir una factura de venta registrada que no s
 | **Cancelar** |La factura de venta registrada está cancelada. Una nota de crédito de ventas de corrección se crea y se registra automáticamente para anular la factura de venta registrada inicial. En la factura de venta registrada inicial, están marcadas las casillas **Cancelado** y **Pagado**. |
 | **Corregir** |La factura de venta registrada está cancelada. Se crea una nueva factura de venta con la misma información, a menos que la orden de venta registrada se haya registrado desde una orden de venta. En ese caso, le sugerimos que cancele la factura de venta registrada y luego haga la corrección y continúe el proceso de venta desde el pedido de venta original. <br/><br/>La nueva factura de venta tiene un número diferente que la factura de venta inicial. Una nota de crédito de ventas de corrección se crea y se registra automáticamente para anular la factura de venta registrada inicial. En la factura de venta registrada inicial, están marcadas las casillas **Cancelado** y **Pagado**. |
 
-Al corregir o cancelar una factura de ventas registrada, la nota de crédito de ventas de corrección se aplica a todos los movimientos contables y del inventario que se crearon cuando se registró la factura de venta inicial. De esta forma, se revierte la factura de venta registrada en los registros financieros y se dejan las notas de crédito de venta registrada correctivas para el seguimiento de auditoría.  
+Al corregir o cancelar una factura de ventas registrada, la nota de crédito de ventas de corrección se aplica a todos los movimientos contables y del inventario que se crearon cuando se registró la factura de venta inicial. De esta forma, se revierte la factura de venta registrada en los registros financieros y se deja la nota de crédito de venta registrada correctiva para el seguimiento de auditoría.  
 
 > [!TIP]
 > Si ha publicado una factura de anticipo para una factura de ventas que luego corrige o cancela, también debe corregir o cancelar el anticipo. Para obtener más información, consulte [Corregir anticipos](finance-how-to-correct-prepayments.md).
@@ -59,7 +59,7 @@ Si la cancelación está relacionada con un registro parcial de la factura, la l
 4. Una nueva factura de venta con la misma información se crea donde puede realizar la corrección. El campo **Cancelado** en la factura de ventas registrada inicial se cambia a **Sí**.
 
     Una nota de crédito de ventas se crea y se registra automáticamente para anular la factura de venta registrada inicial.
-5. Elija la acción **Mostrar nota de crédito correctiva** para ver las notas de crédito de venta registrada que anula la factura de venta registrada inicial.
+5. Elija la acción **Mostrar nota de crédito correctiva** para ver la nota de crédito de venta que anula la factura de venta registrada inicial.
 
 ## Consultar la [formación de Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/) relacionada
 

@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: kit, kitting
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.search.keywords: 'kit, kitting'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 41e682a54861857ce0ee36bbbf34924c5795b11b
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605473"
 ---
-# <a name="create-blanket-assembly-orders"></a>Crear pedidos abiertos ensamblados
+# Crear pedidos abiertos ensamblados
 
 Puede utilizar la administración de ensamblados para personalizar un producto de ensamblado para la solicitud de un cliente durante el proceso de venta. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -26,7 +20,7 @@ Puede utilizar la administración de ensamblados para personalizar un producto d
 > [!NOTE]  
 >  Al igual que todos los pedidos abiertos, las cantidades de los pedidos abiertos de ensamblado solo son previsiones y no están operativas hasta que se convierten en pedidos de ensamblado reales. Por tanto, la funcionalidad del pedido, como el cálculo de disponibilidad, la reserva y el seguimiento de artículos no están activos en los pedidos de ensamblado abiertos.  
 
-## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Crear un pedido de ensamblado abierto para un artículo de ensamblado para pedido  
+## Crear un pedido de ensamblado abierto para un artículo de ensamblado para pedido  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos abiertos de ventas** y, a continuación, elija el vínculo relacionado.  
 2. Cree un nuevo pedido de ventas abierto con una línea para un producto de ensamblado. Consulte [Crear pedidos abiertos de venta](sales-how-to-create-blanket-sales-orders.md) para obtener más información.  
@@ -42,13 +36,13 @@ Puede utilizar la administración de ensamblados para personalizar un producto d
 
 El pedido de ensamblado abierto vinculado y las personalizaciones se vinculan a ese nuevo pedido de ventas para preparar el ensamblado de los artículos que se van a vender.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Crear pedidos abiertos de ventas](sales-how-to-create-blanket-sales-orders.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Inventario](inventory-manage-inventory.md)  
+[Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

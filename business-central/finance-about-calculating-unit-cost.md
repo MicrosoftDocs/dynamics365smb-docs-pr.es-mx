@@ -65,7 +65,7 @@ Al registrar, el programa copia el costo unitario en el movimiento del producto 
 
 [Administración de costos de inventario](finance-manage-inventory-costs.md)  
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
-[Acerca del contabilidad de valoración](finance-learn-about-costing.md)  
+[Acerca de la administración de costos de inventario](finance-learn-about-costing.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Ventas](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  

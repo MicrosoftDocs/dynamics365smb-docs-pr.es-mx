@@ -52,7 +52,7 @@ La columna **Total C/G** muestra los importes (en negrita) de cada tipo de cuent
 
 La columna **Diferencia** representa la diferencia entre el valor de los campos **Total C/G** y **Total**.
 
-En la parte superior de la página **Invent. - Conciliación cont.**, puede indicar filtros para limitar, por ejemplo, el periodo de tiempo durante el que desea visualizar la información.
+En la parte superior de la página **Invent. - Conciliación cont.**, puede indicar filtros para limitar, por ejemplo, el período de tiempo durante el que desea visualizar la información.
 
 Si selecciona la casilla de verificación **Mostrar advertencia**, y existen discrepancias entre los totales del inventario y los totales de contabilidad, la aplicación mostrará mensajes en el campo **Advertencia** de la matriz en los que se explican dichas discrepancias. Si selecciona el campo advertencia, la aplicación mostrará más información acerca del significado de las advertencias.
 

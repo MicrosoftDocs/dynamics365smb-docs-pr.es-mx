@@ -6,16 +6,12 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 12/20/2022
+ms.date: 03/08/2023
 ms.custom: bap-template
 ---
 # Registrar el consumo o uso para proyectos
 
 Desde la página **Ficha de proyecto**, puede abrir la página **Líneas planificación proyecto** para revisar y registrar el uso en varias partes del proyecto. Esta información se actualiza automáticamente cuando modifica y transfiere información entre trabajos y diarios de trabajo o facturas de trabajo. Para ello es necesario que active el conmutador **Aplicar vínculo uso de forma pred.** en la página **Config. proyecto**. Obtenga más información en [Configurar proyectos](projects-how-setup-jobs.md).  
-
-<!-- Not really sure what this paragraph is saying, or why we start with it. Why do you transfer information between jobs and job journals or job invoices? I get the use of resources and items, but what about G/L account and Text?
-
-On the Jobs Setup page there's an Apply Usage Link by Default toggle. Guessing that's what we're referring to -->
 
 Por ejemplo, para las líneas de planificación del tipo **Presupuesto**, puede especificar la cantidad de un recurso y luego especificar la cantidad a transferir al diario de proyectos. Si el tipo de la línea de planificación es **Facturable**, puede especificar la cantidad del recurso y luego especificar la cantidad a transferir a una factura. Para obtener más información sobre cómo facturar al cliente, consulte [Proyectos de factura](projects-how-invoice-jobs.md). Al comparar la cantidad original, la cantidad restante o la cantidad registrada, puede revisar rápidamente la información de uso. Para obtener más información acerca de cómo estimar los valores presupuestados durante la planificación, vaya a [Administración de presupuestos de proyecto](projects-how-manage-budgets.md).  
 
@@ -28,11 +24,11 @@ En los procedimientos siguientes se describe cómo registrar cantidades y costos
 3. Seleccione una línea planificación de proyecto del tipo **Presupuesto** o **Presupuesto y Facturable** para la que desea registrar la utilización.   
 
     > [!NOTE]
-    > También puede registrar el uso para una línea de planificación de proyecto de tipo **Facturable**. Normalmente, usa estas líneas para crear facturas, pero también puede transferir la información a un diario. Obtenga más información en [Facturar proyectos](projects-how-invoice-jobs.md). <!--However, when you do that, a job planning line of type **Budget** is created to match the billable line. For more information, see [Manage Job Budgets](projects-how-manage-budgets.md).-->
+    > También puede registrar el uso para una línea de planificación de proyecto de tipo **Facturable**. Normalmente, usa estas líneas para crear facturas, pero también puede transferir la información a un diario. Obtenga más información en [Facturar proyectos](projects-how-invoice-jobs.md). 
 
 4. En el campo **Cdad. a transferir al diario**, introduzca la cantidad que desea transferir. La cantidad predeterminada es el valor que introduzca en el campo **Cantidad**.
 
-    El campo **Cantidad pendiente** muestra la cantidad que queda para completar el proyecto y transferir al diario. <!--Should we mention that this field is not shown by default, and that if they want to use it they must add it?--> 
+    El campo **Cantidad pendiente** muestra la cantidad que queda para completar el proyecto y transferir al diario.
 5. Elija la acción **Crear líneas de diario de proyectos**.
 
     > [!TIP]
@@ -40,6 +36,9 @@ En los procedimientos siguientes se describe cómo registrar cantidades y costos
 6. En la página **Línea planificación proyecto transf. proy.**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Seleccione la acción **Diario de proyectos pendientes**.  
 8. En la página **Diario de proyectos**, seleccione la línea relevante y, a continuación, elija la acción **Registrar**.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 9. En la página **Líneas planificación proyecto**, revise el uso registrado mediante la consulta de los campos **Cantidad**, **Cantidad pendiente** y **Cdad. a transferir al diario**.  
 10. Repita los pasos del 3 al 8 para registrar la utilización adicional.  
 
@@ -49,6 +48,8 @@ En los procedimientos siguientes se describe cómo registrar cantidades y costos
 2. En el campo **Nombre sección**, seleccione una sección de diario de proyectos relevante.  
 3. En una nueva línea, introduzca el número de documento, el número de proyecto, el número de la tarea del proyecto, el tipo y la cantidad del tipo que se consume.  
 4. Cuando las líneas del diario de proyectos están completas, seleccione la acción **Registrar**.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Para ver el uso estimado del proyecto y registrar las actualizaciones
 

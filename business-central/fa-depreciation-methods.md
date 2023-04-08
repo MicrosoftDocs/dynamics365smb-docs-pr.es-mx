@@ -86,7 +86,7 @@ Este método de amortización acelerado asigna la mayor parte del costo de un ac
 
 La fórmula siguiente calcula los importes de amortización:  
 
-*Importe amortización = (% Regresivo x Nº días amortización x Base amortizable / (100 x 360)*  
+*Importe amortización = (% Regresivo x Nº días amortización x Base amortizable) / (100 x 360)*  
 
 La base amortizable se calcula como el valor neto menos la amortización desde la fecha inicial del ejercicio actual.  
 
