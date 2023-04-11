@@ -21,21 +21,28 @@
 #### [Tutorial: Picking y envío en las configuraciones del almacenamiento básico](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Tutorial: elaboración de previsiones de flujo de caja mediante informes financieros](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-#### [Tutorial: Configurar y usar Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
+#### [Tutorial: Configurar y usar el conector de Shopify](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
-### Datos de demostración de Contoso Coffee para fabricación
+### Datos de demostración de Contoso Coffee
 #### [Introducción a datos de demostración de Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
-#### [Crear una nueva L.M. de producción y una versión de L.M.](contoso-coffee/create-new-production-bom-version.md)
-#### [Crear una nueva ruta](contoso-coffee/create-new-routing.md)
-#### [Crear una nueva orden de producción planificada en firme y cambiarla](contoso-coffee/create-firm-planned-production-order-change.md)
-#### [Combinar la baja automática y manual](contoso-coffee/combine-automatic-manual-flushing.md)
-#### [Usar la planificación de pedidos para crear y reservar suministros](contoso-coffee/order-planning-create-reserve-supply.md)
-#### [Configurar y procesar una operación de subcontratación](contoso-coffee/set-up-process-subcontracting-operation.md)
-#### [Configurar nueva capacidad](contoso-coffee/set-up-new-capacity.md)
-#### [Variantes](contoso-coffee/variants.md)
+#### Fabricación
+##### [Introducción a los procesos de fabricación de Contoso Coffee](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
+##### [Crear una nueva L.M. de producción y una versión de L.M.](contoso-coffee/manufacturing/create-new-production-bom-version.md)
+##### [Crear una nueva ruta](contoso-coffee/manufacturing/create-new-routing.md)
+##### [Crear una nueva orden de producción planificada en firme y cambiarla](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
+##### [Combinar la baja automática y manual](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
+##### [Usar la planificación de pedidos para crear y reservar suministros](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
+##### [Configurar y procesar una operación de subcontratación](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
+##### [Configurar nueva capacidad](contoso-coffee/manufacturing/set-up-new-capacity.md)
+##### [Variantes](contoso-coffee/manufacturing/variants.md)
+#### Gestión de almacén
+##### [Introducción a los procesos de almacén de Contoso Coffee](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
+##### [Tutorial sobre el flujo entrante y saliente en configuraciones del almacenamiento básico](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
+##### [Tutorial sobre el flujo entrante y saliente en configuraciones del almacenamiento mixto](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
+##### [Tutorial sobre el flujo entrante y saliente en una configuración de almacén avanzada con almacenamiento y picking dirigidos](contoso-coffee/warehousing/warehouse-directed-flow.md)
 
 ### Detalles de diseño
-#### [Información general de los detalles del diseño de las aplicaciones](design-details-application-design.md)
+#### [Información general de los detalles de diseño de las aplicaciones](design-details-application-design.md)
 #### Detalles de diseño: coste de inventario
 ##### [Detalles de diseño del coste de inventario](design-details-inventory-costing.md)
 ##### [Detalles de diseño: métodos de coste](design-details-costing-methods.md)  
@@ -108,7 +115,7 @@
 ### [Cancelar la suscripción o eliminar Business Central](admin-cancel.md)
 ### Texto de marketing de productos impulsado por IA con Copilot
 #### [Información general](ai-overview.md)
-#### [Obtener versión preliminar: edición Copilot](ai-preview-getstarted.md)
+#### [Obtener la versión preliminar](ai-preview-getstarted.md)
 #### [Configurar texto de marketing de productos impulsado por IA](enable-ai.md)
 #### [Crear texto de marketing de productos impulsado por IA](item-marketing-text.md)
 #### [Preguntas frecuentes](ai-faq.md)
@@ -409,8 +416,12 @@
 ### Consolidar los datos financieros de varias empresas
 #### [Consolidación de empresa](finance-consolidated-company-reporting.md)
 #### [Configurar la consolidación de empresa](finance-consolidated-company-reporting-setup.md)
+
+### Trabajar con el catálogo de cuentas y la contabilidad general
+#### [Comprender la contabilidad general y el catálogo de cuentas](finance-general-ledger.md)
+#### [Consultar cuentas](finance-review-accounts.md)
+
 ### [Consolidar saldos para una empresa que es un cliente y un proveedor](finance-consolidate-customer-vendor-balances.md)
-### [Comprender la contabilidad general y el plan de cuentas](finance-general-ledger.md)
 ### [Trabajar con dimensiones](finance-dimensions.md)
 ### [Solucionar problemas y corregir dimensiones](finance-troubleshooting-correcting-dimensions.md)
 ### [Divisas en Business Central](finance-currencies.md)
@@ -436,6 +447,7 @@
 ## Inteligencia empresarial e informes financieros
 ### [Información general de la inteligencia empresarial y los informes financieros](bi.md)
 ### [Informes financieros](finance-reports.md)
+### [Analizar datos con cuentas estadísticas](bi-use-statistical-accounts.md)
 ### [Analizar importes reales frente a importes presupuestados](bi-how-analyze-actual-versus-budget.md)
 ### [Preparar Financial Reporting con categorías de cuentas y datos financieros](bi-how-work-account-schedule.md)
 ### [Configurar y publicar un servicio web KPI basado en informes financieros](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -1511,6 +1523,7 @@
 #### [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)
 #### [Configurar métodos de envío](sales-how-set-up-shipment-methods.md)
 #### [Configurar transportistas](sales-how-to-set-up-shipping-agents.md)
+#### [Definir una directiva de registro de facturas para los usuarios](admin-setup-invoice-posting-policy.md)
 ### Configurar compra
 #### [Configurar compra](purchasing-setup-purchasing.md)
 #### [Registrar un nuevo proveedor](purchasing-how-register-new-vendors.md)
@@ -1519,6 +1532,7 @@
 #### [Configurar compradores](purchasing-how-setup-purchasers.md)
 #### [Configurar precios y descuentos](across-prices-and-discounts.md)
 #### [Registrar precios y descuentos de compra especiales](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Definir una directiva de registro de facturas para los usuarios](admin-setup-invoice-posting-policy.md)
 ### Configurar inventario
 #### [Configurar inventario](inventory-setup-inventory.md)
 #### [Configurar información de inventario general](inventory-how-setup-general.md)
@@ -1631,6 +1645,7 @@
 ##### [Información general](across-teams-overview.md)
 ##### [Administrar la integración de Teams](admin-teams-integration.md)
 ##### [Instalar la aplicación Business Central para Teams](across-install-app-for-teams.md)
+##### [Acceder a datos en Teams sin licencia de Business Central](teams-access-with-m365-license.md)
 ##### [Buscar clientes, proveedores y contactos](across-search-contacts-teams.md)
 ##### [Agregar una pestaña de Business Central al canal o chat](across-teams-tab.md)
 ##### [Compartir registros y vínculos de página en Teams](across-working-with-teams.md)
@@ -1755,6 +1770,7 @@
 ### [Preguntas frecuentes sobre búsqueda y filtrado](ui-search-filter-faq.yml)
 ### [Analizar datos de página en Excel](across-work-with-excel.md)
 ### [Analizar datos de informes con Excel](report-analyze-excel.md)
+### [Analizar datos de lista con el modo de análisis](analysis-mode.md)
 ### [Inteligencia empresarial financiera](bi.md)
 
 ## Análisis integrados 
@@ -1884,8 +1900,11 @@
 ### [Programar una sincronización](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Solucionar errores de sincronización](admin-troubleshoot-sales-synchronization.md)
 ### [Utilizar un flujo de Power Automate para alertas de cambios de entidad de Dataverse](admin-power-automate-flow-dataverse.md)
+## Sincronizar datos maestros entre empresas
+### [Prepararse para sincronizar datos maestros](admin-set-up-data-sync.md)
+### [Administrar la sincronización de datos maestros](admin-sync-master-data.md)
 ## Detalles de diseño
-### [Información general de los detalles del diseño de las aplicaciones](design-details-application-design.md)
+### [Información general de los detalles de diseño de las aplicaciones](design-details-application-design.md)
 ### Detalles de diseño: planificación de suministro
 #### [Información general de la planificación de suministro](design-details-supply-planning.md)
 #### [Detalles de diseño: conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)  
