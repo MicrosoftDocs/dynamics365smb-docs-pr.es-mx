@@ -2,13 +2,13 @@
 title: Administrar la integración de Microsoft Teams con Business Central | Microsoft Docs
 description: Administrar la integración de Business Central con Microsoft Teams.
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: overview
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
-ms.date: 11/03/2022
+ms.date: 02/03/2023
 ms.author: jswymer
+ms.reviewer: jswymer
+ms.custom: bap-template
+ms.service: dynamics365-business-central
 ---
 
 # Gestionar la integración de Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
@@ -91,10 +91,10 @@ El centro de administración de Microsoft Teams es donde se configuran las polí
     4. Elija **Agregar**.
 
        Business Central debería aparecer ahora bajo **Aplicaciones instaladas** para la directiva.
-    5. Configure ajustes adicionales y, a continuación, elija **Guardar**.
+    5. Configure ajustes adicionales según necesite y, a continuación, elija **Guardar**.
 
     Para obtener más información sobre las directivas de configuración en Teams, consulte [Administrar directivas de configuración de aplicaciones en Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) en la documentación de Teams.
-4. Vuelva a **Implementación centralizada de aplicaciones de Teams** en Business Central y seleccione **Hecho**.
+4. Vuelva a **Implementación centralizada de aplicaciones de Teams** en Business Central y seleccione **Listo**.
 
 > [!IMPORTANT]
 > La directiva de configuración de aplicaciones y la implementación de la aplicación para los usuarios pueden tardar hasta 24 horas.
@@ -126,10 +126,30 @@ Las características de búsqueda de contenido y cumplimiento de eDiscovery del 
 
 Dado que los datos de la tarjeta en Teams son una copia de los datos en [!INCLUDE [prod_short](includes/prod_short.md)], también puede usar las características de [!INCLUDE [prod_short](includes/prod_short.md)] para exportar los datos de un cliente si se solicita. Para obtener más información sobre la privacidad en [!INCLUDE [prod_short](includes/prod_short.md)], vea [Preguntas frecuentes sobre privacidad para clientes de Business Central](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
+## Mostrar u ocultar datos de registro en tarjetas
+
+Cuando se comparte un registro con otras personas en un chat o canal de Teams, se muestra una tarjeta con campos que contienen datos sobre el registro. Todos los destinatarios pueden ver estos datos (o resumen de registros) de forma predeterminada, independientemente de su licencia o permisos en Business Central. Si es administrador, puede usar la guía de configuración asistida **Configuración de la tarjeta** para ocultar el resumen del registro, para que no aparezca en las tarjetas en Teams. Ocultar el resumen del registro elimina todos los campos e imágenes, pero sigue mostrando el botón **Detalles** y otra información que no pertenece al registro en la tarjeta.
+
+|Resumen de registro activado|Resumen de registro desactivado|
+|-|-|
+|![Imagen que muestra una tarjeta en Teams cuando el resumen de registros está activado.](media/card-settings-example-on.png)|![Imagen que muestra una tarjeta en Teams cuando el resumen de registros está desactivado.](media/card-settings-example-off.png)|
+
+Usted configura la configuración por entorno. Por lo tanto, cuando active o desactive el resumen de registros, afectará a todas las empresas del entorno.
+
+1. En Business Central, abra el entorno que desea modificar.
+
+   > [!TIP]
+   > Para cambiar el entorno, seleccione <kbd>Ctrl</kbd>+<kbd>O</kbd>.
+2. Elija el icono ![Lupa que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de tarjeta** y luego elija el vínculo relacionado. <!--Or, select [here](https://businesscentral.dynamics.com/?page=1833) to open the page directly.-->
+3. Lea la información de **Configuración de tarjeta** y luego seleccione **Siguiente** cuando esté listo.
+4. En la página **Visibilidad de datos**, active el conmutador **Mostrar resumen de registro** para mostrar los datos de las tarjetas o desactive para ocultar los datos.
+5. Seleccione **Siguiente** y siga las instrucciones para completar la guía de configuración.
+
 ## Consulte también
+
 [Información general sobre [!INCLUDE [prod_short](includes/prod_short.md)] y la integración de Microsoft Teams](across-teams-overview.md)  
 [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md)  
-[P+F de Teams](teams-faq.md)  
+[Preguntas frecuentes sobre Teams](teams-faq.md)  
 [Consejos para la solución de problemas de Teams](admin-teams-troubleshooting.md)  
 [Desarrollo para la integración de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

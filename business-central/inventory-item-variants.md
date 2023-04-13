@@ -14,7 +14,7 @@ ms.author: edupont
 Las variantes de productos son una excelente manera de mantener su lista de productos bajo control. Por ejemplo, si tiene un gran número de productos que son casi idénticos y que se diferencian solo por el color. Puede definir cada variante como un producto independiente. Pero elige configurar un producto y especificar los distintos colores como variantes de dicho producto.  
 
 > [!TIP]
-> Para una introducción práctica al uso de variantes en la producción, consulte [Tutorial: variantes](contoso-coffee/variants.md) para los datos de demostración de Contoso Coffee.  
+> Para una introducción práctica al uso de variantes en la producción, consulte [Tutorial: variantes](contoso-coffee/manufacturing/variants.md) para los datos de demostración de Contoso Coffee.  
 
 ## Agregar variantes a un producto
 
@@ -57,4 +57,4 @@ Si la capacidad está activada, los usuarios no pueden registrar movimientos si 
 
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Configurar información de inventario general](inventory-how-setup-general.md)  
-[Tutorial: variantes](contoso-coffee/variants.md)  
+[Tutorial: variantes](contoso-coffee/manufacturing/variants.md)  

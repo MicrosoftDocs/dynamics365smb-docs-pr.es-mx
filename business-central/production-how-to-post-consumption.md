@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000846, 99000850'
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Registrar consumibles de producción por lotes
 
-Si el método de baja es **Manual**, debe registrar los componentes manualmente con un diario de consumo.  
+Si el método de baja es **Manual**, use un diario de consumo para contabilizar los componentes manualmente.  
 
->[!NOTE]
+> [!NOTE]
 > Si ha activado el campo **Picking requerido** en la ficha de ubicación para indicar que la ubicación requiere el procesamiento de picking de inventarios, no necesita usar este trabajo por lotes. [!INCLUDE[prod_short](includes/prod_short.md)] se ocupará del consumo cuando registre el picking de inventario. Para obtener más información, consulte [Recoger para producción en configuraciones básicas de almacén](warehouse-how-to-pick-for-production.md).  
 
 También puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para que registre (*vaciar*) automáticamente los componentes cuando inicia o finaliza órdenes de producción. Para obtener más información, consulte [Procedimiento: Habilitar el vaciado de componentes según la producción de la operación](production-how-to-flush-components-according-to-operation-output.md).
@@ -30,6 +30,8 @@ También puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para qu
     > Si configuró la ficha de almacén para requerir el proceso de picking y envío, en el campo **Cantidad** de la página **Diario de consumo** solo se pueden introducir cantidades que ya se han seleccionado a través de un actividad de almacén , no una cantidad calculada. Para obtener más información, consulte [Realizar picking para ensamblado o producción en una configuración avanzada de almacén](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 3. Para registrar el consumo, elija la acción **Registrar**. Los inventarios relacionados se reducen.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Consulte también
 

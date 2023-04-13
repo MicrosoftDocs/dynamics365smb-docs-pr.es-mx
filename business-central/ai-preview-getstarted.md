@@ -1,5 +1,5 @@
 ---
-title: 'Obtener acceso a Business Central (versión preliminar): edición Copilot'
+title: Introducción a la versión preliminar de Business Central para Copilot
 description: Explica cómo obtener un entorno de Business Central con la nueva funcionalidad de IA para generar sugerencias de texto para descripciones de artículos/productos.
 author: jswymer
 ms.author: jswymer
@@ -9,38 +9,35 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# Introducción a la versión preliminar de Business Central: edición Copilot
+# Introducción a la versión preliminar de Business Central para Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
-Puede probar el texto de marketing de artículos impulsado por IA con Copilot, ya sea un cliente existente de Business Central o un cliente potencial, es decir, alguien que solo está interesado en explorar Business Central y probar la nueva capacidad. Para comenzar, deberá obtener acceso a una versión preliminar de Business Central que admita la nueva funcionalidad. Complete la sección a continuación que se aplica a usted.
+Puede probar el texto de marketing de artículos impulsado por IA con Copilot, ya sea un cliente existente de Business Central o un cliente potencial, es decir, alguien que solo está interesado en explorar Business Central y probar la nueva capacidad. Para comenzar, deberá obtener acceso a una versión de Business Central Online que admita la nueva funcionalidad. Complete la sección a continuación que se aplica a usted.
 
 ## Su organización ya usa Business Central
 
-Como cliente o partner existente, necesitará un administrador con acceso al centro de administración de Business Central para configurar un entorno de *espacio aislado* que ejecuta la versión preliminar que incluye Copilot. Una vez que el entorno de espacio aislado está en funcionamiento, los usuarios pueden probar la nueva característica.
+Como cliente o partner existente, necesitará un administrador con acceso al Centro de administración de Business Central para configurar un entorno de espacio aislado que ejecute la versión preliminar que incluye Copilot. Una vez que el entorno está en funcionamiento, los usuarios pueden probar la nueva característica.
 
 Si es un administrador de entorno, complete los siguientes pasos:
 
 1. Inicie sesión en el centro de administración de Business Central.
 2. Seleccione **Entornos** > **Nuevo**.
 3. En el panel **Crear entorno**, especifique un nombre para el nuevo entorno en el campo **Nombre del entorno**.
-4. Establezca el **Tipo de entorno** en **Espacio aislado**.
-5. Establezca **País** en **EE. UU**.
+4. Establezca el **Tipo de entorno** en **Espacio aislado** o **Producción**.
+5. Establezca **País** en cualquier país/región de la lista, pero tenga en cuenta que en la versión preliminar el texto de marketing generado por IA de Copilot solo está en inglés.
+6. En el cuadro de diálogo **Versión**, elija una versión 22 o posterior de la lista.
 
+   <!--
    > [!IMPORTANT]
-   > La versión preliminar solo está disponible para EE. UU. Las organizaciones de cualquier otro país o región aún pueden crear una versión preliminar de la zona de pruebas de EE. UU. para experimentar con Copilot.
-
-6. En el cuadro de diálogo **Versión**, elija una versión **22.0.54157.54311 (versión preliminar: edición Copilot)**.
-
-   > [!IMPORTANT]
-   > Debe usar **22.0.54157.54311 (versión preliminar: edición Copilot)** para experimentar con Copilot.
-
+   > You must use **22.0.54157.54311 (Preview - Copilot edition)** to experience Copilot.
+   -->
 7. Seleccione **Crear**.  
 
-Para obtener más información sobre cómo crear entornos de espacio aislado, vaya a [Crear un entorno](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
+Para obtener más información sobre cómo crear entornos, vaya a [Crear un entorno](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
 
 > [!IMPORTANT]
-> Los espacios aislados de versión preliminar solo están disponibles hasta el 1 de mayo de 2023. Después de esta fecha, deberá aprovisionar un nuevo entorno o actualizar cualquiera de sus otros entornos a la versión 22.0 o posterior para continuar probando la versión preliminar del texto de marketing de artículos con tecnología de IA.
+> Si tiene entornos aislados de versión preliminar que se ejecutan en **22.0.54157.54311 (Versión preliminar: edición Copilot)**, tenga en cuenta que estos entornos solo están disponibles hasta el 1 de mayo de 2023. Después de esta fecha, deberá aprovisionar un nuevo entorno o actualizar cualquiera de sus otros entornos a la versión 22.0 o posterior para continuar probando la versión preliminar del texto de marketing de artículos con tecnología de IA.
 
 ## Su organización no usa Business Central
 
@@ -49,13 +46,12 @@ Si no es cliente de Business Central, regístrese para una prueba gratuita para 
 1. Vaya a [este sitio de prueba](https://go.microsoft.com/fwlink/?linkid=2227167) para comenzar con el proceso de registro.
 2. Siga las instrucciones que aparecen en la pantalla.
 
-   Se le pide que proporcione información como su dirección de correo electrónico, nombre y número de teléfono. La experiencia exacta puede variar, según la información que proporcione. Pero aquí hay un par de puntos importantes que debe tener en cuenta a medida que avanza en el proceso de registro:
-
-   - Use su dirección de correo electrónico de trabajo o educativa como dirección de correo electrónico. Estableceremos su prueba en la cuenta de su organización. No puede utilizar direcciones de correo electrónico proporcionadas por servicios de correo electrónico para consumidores o proveedores de telecomunicaciones, como outlook.com, hotmail.com, gmail.com, y otros.
-   - Cuando llegue a la opción **País o región**, asegúrese de elegir **Estados Unidos**.
+   Se le pide que proporcione información como su dirección de correo electrónico, nombre y número de teléfono. La experiencia exacta puede variar, según la información que proporcione. <!--But here are a couple important points to be aware of as you run through the sign-up process:--> Use su dirección de correo electrónico de trabajo o educativa como dirección de correo electrónico. Estableceremos su prueba en la cuenta de su organización. No puede utilizar direcciones de correo electrónico proporcionadas por servicios de correo electrónico para consumidores o proveedores de telecomunicaciones, como outlook.com, hotmail.com, gmail.com, y otros.
+   
+   <!-- When you get to the option for **Country or region** be sure to set this **United States**.
 
       > [!IMPORTANT]
-      > Debe establecer **País o región** en **Estados Unidos**; de lo contrario, el texto de marketing de artículos impulsado por IA con Copilot no estará disponible en Business Central.  
+      > You must set **Country or region** to **United States**; otherwise the AI-powered item marketing text with Copilot won't be available in Business Central.  -->
 3. Cuando llegue al paso **Detalles de confirmación**, estará listo para comenzar la prueba.
 
    - Para ir directamente a Business Central, seleccione **Omitir e ir a Dynamics 365 Business Central** > **Comenzar**.

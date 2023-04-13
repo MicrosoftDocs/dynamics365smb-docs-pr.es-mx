@@ -1,15 +1,12 @@
 ---
 title: Deshacer un registro registrando el movimiento de reversión
-description: 'Si ha realizado un registro erróneo en el diario general, puede utilizar la función Revertir transacción para deshacer el registro con un seguimiento de auditoria correcto.'
+description: 'Si encuentra un error en un diario general contabilizado, puede utilizar la acción Revertir transacción para deshacer el registro con una prueba de auditoria correcta.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: reimbursement
-ms.search.form: '20, 25, 29, 38, 202, 5912,'
-ms.date: 07/22/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 03/28/2023
+ms.custom: bap-template
 ---
 # Revertir los registros de diario y deshacer las recepciones/remisiones
 
@@ -93,6 +90,5 @@ Los pasos son parecidos para las recepciones de devolución registradas.
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
