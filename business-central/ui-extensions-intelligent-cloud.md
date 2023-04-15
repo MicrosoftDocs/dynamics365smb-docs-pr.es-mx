@@ -2,7 +2,6 @@
 title: Extensión de base de migración a la nube
 description: Use la extensión de Base de migración a la nube para conectar su solución local con Business Central Online.
 author: edupont04
-manager: edupont
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
