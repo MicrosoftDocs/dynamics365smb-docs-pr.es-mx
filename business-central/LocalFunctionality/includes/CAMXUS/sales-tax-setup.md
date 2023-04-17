@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/27/2021
 ms.author: edupont
-ms.openlocfilehash: 38e5b84c7bd48ed6f092eccd8b4bcb1234fe7774
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129281"
 ---
 Cuando empieza a usar [!INCLUDE[prod_short](../../../includes/prod_short.md)], puede ejecutar una guía de configuración asistida para establecer rápida y fácilmente la información de impuestos sobre las venta para su empresa y sus clientes y proveedores. En cuestión de minutos puede empezar a crear documentos de compra y venta con los impuestos calculados correctamente. Simplemente busque la guía de configuración asistida **Configurar el impuesto sobre las ventas** y, a continuación, siga los pasos de dicha guía. Se incluyen los pasos para definir las cuentas que desea usar para el impuesto sobre las ventas de ventas y compras.  
 
@@ -18,7 +12,7 @@ A quienes asigne los códigos de área de impuestos determinará los impuestos q
 
 Si cambia a la opción vacía *Mi empresa*, recomendamos que empiece a usar todas las guías de configuración asistida, incluida la del impuesto sobre las ventas. Si prefiere configurar los impuestos sin asistente, este artículo explica qué debe tener en cuenta. No obstante, le recomendamos que trabaje en colaboración con su asesor tributario.  
 
-## <a name="tax-groups-tax-areas-and-tax-jurisdictions"></a>Grupos de impuesto, áreas de impuesto y jurisdicciones fiscales
+## Grupos de impuesto, áreas de impuesto y jurisdicciones fiscales
 
 En [!INCLUDE[prod_short](../../../includes/prod_short.md)], un grupo de impuestos representa un grupo de productos de inventario o de recursos que están sujetos a las mismas condiciones tributarias. Por ejemplo, puede configurar un grupo de impuesto para los productos imponibles y otro para productos no imponibles. Deberá asignar códigos de grupo de impuestos a los productos de inventario y en las cuentas de contabilidad. De manera similar, deberá asignar códigos de área de impuesto a los clientes, las ubicaciones, y a su propia configuración de la empresa. La guía asistida de configuración le ayuda a realizar este proceso.  
 

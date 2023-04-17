@@ -3,21 +3,15 @@ title: Funcionalidad local de México
 description: En los temas siguientes se describe la funcionalidad local de la versión de Business Central para México.
 author: SorenGP
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 10/14/2021
 ms.author: edupont
-ms.openlocfilehash: 003649bb8457c9f01a3587f76546265024aefe06
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512566"
 ---
-# <a name="mexico-local-functionality"></a>Funcionalidad local de México
+# Funcionalidad local de México
 
 En los temas siguientes se describe la funcionalidad local que es exclusiva de la versión mexicana de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Disponibilidad de la característica  
+## Disponibilidad de la característica  
 
 * Tributos
     * [Configurar y generar informes DIOT](ui-extensions-setup-and-generate-diot-report-mx.md) **Disponible ahora**
@@ -36,10 +30,15 @@ En los temas siguientes se describe la funcionalidad local que es exclusiva de l
     * [Imprimir informes de solución de problemas](how-to-print-troubleshooting-reports.md) **Disponible ahora**
     * [Crear depósitos](how-to-create-deposits.md) **Disponible ahora**
 
-## <a name="see-also"></a>Consulte también
+## Requisitos de legislación futura actualmente en investigación
+
+Por el momento, no hay características ni requisitos reglamentarios futuros. Si está al tanto de cualquier característica reglamentaria futura, envíe una [Alerta de característica reglamentaria](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
+## Consulte también
 
 [Trabajar con [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilidad nacional/regional e idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
 

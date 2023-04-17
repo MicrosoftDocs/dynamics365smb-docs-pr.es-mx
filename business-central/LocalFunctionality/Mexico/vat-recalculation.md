@@ -1,6 +1,6 @@
 ---
 title: Nuevo cálculo de IVA
-description: Cuando un cliente efectúa un pago en divisa extranjera, se debe volver a calcular el IVA con el tipo de cambio vigente al momento del pago de la factura.
+description: 'Cuando un cliente efectúa un pago en divisa extranjera, se debe volver a calcular el IVA con el tipo de cambio vigente al momento del pago de la factura.'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -8,17 +8,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d1d006ef0b97152971937888ff246f7c81cc46b3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-MX
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131074"
 ---
-# <a name="vat-recalculation"></a>Nuevo cálculo de IVA
+# Nuevo cálculo de IVA
 Cuando un cliente efectúa un pago en divisa extranjera, se debe volver a calcular el IVA con el tipo de cambio vigente al momento del pago de la factura.  
 
 Una empresa confecciona una factura en divisa extranjera cuando un cliente extranjero compra bienes o servicios sujetos a impuestos. La factura incluye el IVA. Cuando el cliente posteriormente realiza el pago, se vuelve a calcular el IVA en función del importe de venta original y se ajusta según el tipo de cambio actual.  
@@ -30,7 +24,7 @@ A continuación, se muestra cómo crear un informe sobre importes de IVA no real
 - Ajuste los movimientos del diario correspondientes a la realización de los impuestos de IVA para reconocer las diferencias de tipo de cambio.  
 - Cree una declaración de IVA que muestre los importes de IVA no realizados.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Crear informes de IVA para las autoridades fiscales](../../finance-how-report-vat.md)   
 [Funcionalidad local de México](mexico-local-functionality.md)
