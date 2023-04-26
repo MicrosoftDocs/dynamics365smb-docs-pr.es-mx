@@ -809,11 +809,12 @@
 ##### [Números de empresa y números de sucursal](LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md)
 ##### [Limitar el período de registro](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Establecer la fecha de trabajo como la fecha de registro](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
-##### [Hacer obligatorias los libros de diario](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Hacer obligatorios los libros de diario](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Aplazamientos en informes de contabilidad de compras y ventas](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
 ### Canadá
 #### [Funcionalidad local en la versión canadiense](LocalFunctionality/Canada/canada-local-functionality.md)
-#### Impuestos
+#### Tributos
 ##### [Informar sobre el impuesto sobre bienes y servicios y el impuesto de ventas en Canadá](LocalFunctionality/Canada/sales-tax-goods-services.md)
 ##### [Informar del impuesto de ventas en Canadá](LocalFunctionality/Canada/ca-sales-tax.md)
 ##### [Configurar descuentos de impuesto de venta y de pago de venta no realizados](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
