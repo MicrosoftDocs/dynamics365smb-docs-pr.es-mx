@@ -1,6 +1,6 @@
 ---
 title: Información general sobre el texto de marketing de productos impulsado por IA (versión preliminar) con Copilot
-description: Obtener información general de las funcionalidades de generación de contenido de IA en Business Central
+description: Obtenga información general de las capacidades de generación de contenido de IA en Business Central.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -16,9 +16,9 @@ Este artículo ofrece una descripción general de la capacidad impulsada por IA 
 
 ## ¿Qué es el texto de marketing de productos impulsado por IA con Copilot?
 
-Copilot proporciona asistencia de escritura impulsada por IA para los usuarios de Business Central responsables de la creación de textos de marketing (descripciones de productos) en artículos vendidos en tiendas en línea, como Shopify. Con el clic de un botón, Copilot genera texto que es atractivo, creativo y destaca los atributos clave del elemento específico. Con un poco de revisión y edición, está listo para publicarse.
+Copilot proporciona asistencia de escritura impulsada por IA para los usuarios de Business Central responsables de la creación de textos de marketing (descripciones de productos) en artículos vendidos en tiendas en línea, como Shopify. Con el clic de un botón, Copilot genera texto que es atractivo y creativo y destaca los atributos clave del elemento específico. Con un poco de revisión y edición, está listo para publicarse.
 
-Copilot usa [Servicio Azure OpenAI de Microsoft](/azure/cognitive-services/openai/overview) para acceder a modelos de lenguaje que reconocen, predicen y generan texto basado en conjuntos de datos entrenados.
+Copilot usa el [Servicio Microsoft Azure OpenAI](/azure/cognitive-services/openai/overview) para acceder a modelos de lenguaje que reconocen, predicen y generan texto basado en conjuntos de datos entrenados.
 
 <br><br>  
 
@@ -32,23 +32,23 @@ Copilot está disponible en tarjetas de artículos en Business Central. En Busin
 
 Si Business Central está configurado para conectarse a su tienda en línea en Shopify, puede llevar este texto aún más lejos al publicarlo con el artículo directamente en su tienda seleccionando **Agregar a Shopify**.
 
-## Por qué usarlo y cómo
+## Por qué y cómo usarlo
 
 El texto generado por IA puede ayudarle a acelerar el tiempo de comercialización de los productos en las tiendas en línea, al limitar el tiempo utilizado en la redacción de textos publicitarios. Algunas principales ventajas son:
 
-- Ayuda a los usuarios a superar el bloqueo del escritor al comenzar con un borrador inteligente
-- Desbloquea la creatividad para proporcionar descripciones de productos más atractivas
-- Mejora la consistencia del contenido de marketing para las líneas de productos
+- Ayuda a los usuarios a superar el bloqueo del escritor al comenzar con un borrador inteligente.
+- Desbloquea la creatividad para proporcionar descripciones de productos más atractivas.
+- Mejora la consistencia del contenido de marketing para las líneas de productos.
 
 Debe pensar en el texto generado por IA solo como una **sugerencia**. Las sugerencias pueden, en algunos casos, contener errores e incluso texto inapropiado, por lo que se requiere supervisión y revisión humana. Antes de poner el texto a disposición del público, debe revisarlo para comprobar su precisión y realizar los cambios apropiados.
 
-## ¿Cuáles son las limitaciones actuales?
+## Limitaciones actuales
 
 Esta sección explica las limitaciones actuales de la capacidad de texto generado por IA proporcionada por Copilot.
 
 - Las sugerencias de texto generadas por IA solo están en inglés.
 - Pueden surgir sugerencias deficientes cuando se usan nombres de productos vagos o genéricos y faltan detalles sobre un artículo, como atributos clave o una categoría.
-- Copilot solo es compatible con Business Central Online; no con entornos de nube privada ni entornos locales de Business Central.
+- Copilot solo es compatible con Business Central Online, no con entornos de nube privada ni entornos locales de Business Central.
 - Copilot no es compatible a través de conexiones a su propio recurso de Azure OpenAI Service en su suscripción de Azure.
 - No se admite la extensibilidad de partners de la capacidad de IA mediante el uso de código AL.
 
@@ -57,7 +57,7 @@ Esta sección explica las limitaciones actuales de la capacidad de texto generad
 Para comenzar, necesitará un entorno de Business Central, versión 22, que esté habilitado con Copilot.
 
 - Si ya es cliente de Business Central, su administrador de Business Central tendrá que configurar un entorno de la versión 22 para usted.
-- Si no es cliente de Business Central, pero desea probarlo, puede registrarse para obtener una prueba gratuita.
+- Si no es cliente de Business Central pero desea probarlo, puede registrarse para obtener una prueba gratuita.
 
 Para obtener más información, vaya a [Obtener la versión preliminar de Business Central](ai-preview-getstarted.md).  
 
