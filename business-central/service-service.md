@@ -39,7 +39,7 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 ## Consulte también  
 [Administrar cobros](receivables-manage-receivables.md)   
 [Proyectos](projects-how-create-jobs.md)   
-[[!INCLUDE[prod_long](includes/prod_long.md)]](index.md)
+[[!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

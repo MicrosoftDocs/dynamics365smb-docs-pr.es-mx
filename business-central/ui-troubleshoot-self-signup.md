@@ -15,7 +15,7 @@ Registrarse en [!INCLUDE[prod_short](includes/prod_short.md)] es muy fácil y se
 ## ¿Qué dirección de correo electrónico puedo usar en Business Central?
 Para iniciar sesión, [!INCLUDE[prod_short](includes/prod_short.md)] requiere una dirección de correo electrónico del trabajo o la escuela. [!INCLUDE[prod_short](includes/prod_short.md)] no admite direcciones de correo electrónico proporcionadas por servicios de correo electrónico del consumidor ni por proveedores de la telecomunicación. Esto incluye outlook.com, hotmail.com, gmail.com y otros.
 
-Si intenta iniciar sesión con una dirección de correo personal, recibirá un mensaje indicando que use una dirección laboral o educativa.
+Si intenta iniciar sesión con una dirección de correo personal, recibirá un mensaje indicando que use una dirección de correo electrónico laboral o educativa.
 
 ## Solución de problemas
 En muchas ocasiones, el registro para [!INCLUDE[prod_short](includes/prod_short.md)] se puede conseguir siguiendo el proceso de registro. Sin embargo, existen varias razones por las que puede no completar su registro de autoservicio. La tabla siguiente resume algunas de las razones más comunes por las que no le es posible completar el registro y las formas con las que puede solucionar estos problemas.
@@ -39,7 +39,7 @@ Para obtener una descripción general de los mercados que se admiten actualmente
 
 [Regístrese para obtener una versión de prueba gratuita de Dynamics 365 Business Central](trial-signup.md)  
 [Preguntas más frecuentes de la prueba de Dynamics 365 Business Central](trial-faq.md)  
-[[!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
+[[!INCLUDE[prod_short](includes/prod_long.md)]](welcome.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funcionalidad local](about-localization.md)  
 [Disponibilidad nacional/regional y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

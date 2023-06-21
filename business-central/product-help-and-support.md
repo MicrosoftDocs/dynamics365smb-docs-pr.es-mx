@@ -78,7 +78,7 @@ La sección **Buscarlo** incluye dos vínculos a la ayuda del producto:
 
 - Ayuda sobre la página que acaba de ver en [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Este vínculo se genera automáticamente. Si [!INCLUDE[prod_short](includes/prod_short.md)] no puede encontrar el vínculo correspondiente, se muestra la [página de destino en Microsoft Learn](index.md) de la versión predeterminada de [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, si la página formaba parte de una aplicación que no agregaba mapeo de ayuda sensible al contexto a [!INCLUDE[prod_short](includes/prod_short.md)], los valores predeterminados *Vínculo de aprendizaje* a la página de destino.  
+  Este vínculo se genera automáticamente. Si [!INCLUDE[prod_short](includes/prod_short.md)] no puede encontrar el vínculo correspondiente, se muestra la [página de destino en Microsoft Learn](index.yml) de la versión predeterminada de [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, si la página formaba parte de una aplicación que no agregaba mapeo de ayuda sensible al contexto a [!INCLUDE[prod_short](includes/prod_short.md)], los valores predeterminados *Vínculo de aprendizaje* a la página de destino.  
   
 - Página de destino de ayuda para [!INCLUDE[prod_short](includes/prod_short.md)]  
 
@@ -96,7 +96,7 @@ Hablamos de nuevas capacidades en [el blog de Dynamics 365](https://cloudblogs.m
 
 #### Futuras funcionalidades
 
-[!INCLUDE[prod_short](includes/prod_short.md)] se actualiza con actualizaciones de las principales características cada seis meses, y con actualizaciones mensuales del servicio. Elija el vínculo para ver el último plan de la versión. También puede obtener una descripción general de las próximas funcionalidades las publicadas recientemente en [los planes de la versión de Dynamics 365](/dynamics365/release-plans/).  
+[!INCLUDE[prod_short](includes/prod_short.md)] se actualiza con actualizaciones de las principales características cada seis meses, y con actualizaciones mensuales del servicio. Elija el vínculo para ver el último plan de la versión. También puede obtener una descripción general de las próximas funcionalidades publicadas recientemente en [los planes de la versión de Dynamics 365](/dynamics365/release-plans/).  
 
 Para una visión general a más largo plazo, la [página de la guía básica](https://dynamics.microsoft.com/roadmap/business-central/) de [!INCLUDE[prod_short](includes/prod_short.md)] muestra las prioridades generales para [!INCLUDE[prod_short](includes/prod_short.md)] en los próximos años.  
 
@@ -152,9 +152,9 @@ Para alertar a su socio de un problema, elija el vínculo para enviar un correo 
 
 ## Obtener más información utilizando la documentación del producto
 
-La versión base de [!INCLUDE [prod_short](includes/prod_short.md)] ha sido ampliada y personalizada por una gran comunidad de socios. Cada socio y muchos clientes implementan su propia ayuda en su propio sitio web. Pero siempre puede ir al sitio de la [documentación de Dynamics 365 Business Central](index.md) para obtener más información. El sitio aloja diferentes tipos de contenido, como los siguientes:
+La versión base de [!INCLUDE [prod_short](includes/prod_short.md)] ha sido ampliada y personalizada por una gran comunidad de socios. Cada socio y muchos clientes implementan su propia ayuda en su propio sitio web. Pero siempre puede ir al sitio de la [documentación de Dynamics 365 Business Central](index.yml) para obtener más información. El sitio aloja diferentes tipos de contenido, como los siguientes:
 
-- [Contenido conceptual sobre la funcionalidad empresarial](index.md)  
+- [Contenido conceptual sobre la funcionalidad empresarial](welcome.md)  
 - [Documentación para desarrolladores](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
 - [Rutas de aprendizaje y módulos de aprendizaje electrónico gratuitos en varios perfiles de usuario](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
@@ -164,7 +164,7 @@ En esta sección, puede obtener información sobre cómo navegar por el contenid
 
 ### Contenido en el sitio
 
-[Esta sección](index.md) de Microsoft Learn aloja contenido de Microsoft que representa el pilar *Más información* en el modelo de asistencia al usuario. En parte, el contenido *Más información* tiene la intención de responder aquellas preguntas que la interfaz de usuario no puede responder, como las siguientes:
+[Esta sección](welcome.md) de Microsoft Learn aloja contenido de Microsoft que representa el pilar *Más información* en el modelo de asistencia al usuario. En parte, el contenido *Más información* tiene la intención de responder aquellas preguntas que la interfaz de usuario no puede responder, como las siguientes:
 
 - ¿Dónde encaja esta página en el flujo de trabajo más grande?  
 - ¿Que viene después?  
@@ -176,7 +176,7 @@ El panel de navegación a la izquierda, la tabla de contenido, agrupa los artíc
 
 La tabla de contenido incluye un grupo de contenido que describe la [funcionalidad local](about-localization.md) para los países que admite Microsoft. Si no ve su país en la lista, probablemente sea porque su país está localizado por un socio. Para más información, vea [Disponibilidad nacional y regional e idiomas compatibles](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
-El contenido de funcionalidad local describe las funcionalidades en [!INCLUDE [prod_short](includes/prod_short.md)] que pueden ayudarlo a cumplir la normativa en los mercados admitidos, como declaraciones de impuestos y otros informes. En algunos casos, la diferencia entre la versión predeterminada y la versión específica del país es invisible para los usuarios. En otros casos, los usuarios deben configurar la generación de informes o la facturación electrónica de una manera específica. Si no puede encontrar una descripción de un determinado botón o acción en la sección general, podrá encontrarlo seguramente en la sección *Funcionalidad local*.  
+El contenido de funcionalidad local describe las funcionalidades en [!INCLUDE [prod_short](includes/prod_short.md)] que pueden ayudarle a cumplir la normativa en los mercados admitidos, como declaraciones de impuestos y otros informes. En algunos casos, la diferencia entre la versión predeterminada y la versión específica del país es invisible para los usuarios. En otros casos, los usuarios deben configurar la generación de informes o la facturación electrónica de una manera específica. Si no puede encontrar una descripción de un determinado botón o acción en la sección general, podrá encontrarlo seguramente en la sección *Funcionalidad local*.  
 
 > [!TIP]
 > En el sitio learn.microsoft.com, así como en el campo de búsqueda del producto y en el panel de Ayuda, los resultados de la búsqueda muestran algo de contexto para el artículo de destino. El contexto incluye el enlace que puede mostrar el nombre de un país o una breve descripción que menciona una determinada capacidad o un país, por ejemplo.
