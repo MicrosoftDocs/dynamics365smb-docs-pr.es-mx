@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Detalles de diseño: Integración con inventario
+# <a name="design-details-integration-with-inventory" />Detalles de diseño: Integración con inventario
 Las áreas de aplicación de Gestión de almacén e Inventario interactúan entre sí en el inventario físico y en el ajuste de inventario o de almacén.  
   
-## Inventario físico  
+## <a name="physical-inventory" />Inventario físico
  La página **Diario de inventario físico de almacén** se usa en la página **Diario inventario físico** para todas las ubicaciones de almacén avanzadas. Se calcula el inventario en el nivel de ubicación y se proporciona una lista impresa al empleado del almacén. La lista muestra los productos en los que se deben contar las ubicaciones.  
   
  El empleado de almacén introduce la cantidad contada en la página **Diario de inventario físico de almacén** y, a continuación, registra el diario.  
@@ -26,7 +26,7 @@ Las áreas de aplicación de Gestión de almacén e Inventario interactúan entr
   
  Cuando se registra el diario de inventario físico, se actualizan el inventario y la ubicación de ajuste predeterminada.  
   
-## Ajustes de almacén en los movimientos de productos  
+## <a name="warehouse-adjustments-to-the-item-ledger" />Ajustes de almacén en los movimientos de productos
  Use la página **Diario de producto** y la función **Calcular ajuste almacén** para ajustar el inventario en el movimiento de producto según un ajuste que se ha realizado en la cantidad de producto en una ubicación de almacén. Para crear un vínculo entre el inventario y el almacén, debe definir una ubicación de ajuste predeterminado por ubicación.  
   
  La ubicación de ajuste predeterminado registra los productos en el almacén al registrar una entrada de inventario. No obstante, si se registra una disminución, la cantidad en la ubicación predeterminada también disminuye. En ambos casos, se crean movimientos de producto y movimientos de almacén.  
@@ -38,7 +38,7 @@ Las áreas de aplicación de Gestión de almacén e Inventario interactúan entr
   
  Si introduce una cantidad positiva y registra la línea, el inventario almacenado en la ubicación se incrementará, y la cantidad de la ubicación de ajuste predeterminada se reducirá en consecuencia.  
   
-## Consulte también  
+## <a name="see-also" />Consulte también
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Detalles de diseño: disponibilidad en el almacén](design-details-availability-in-the-warehouse.md)
 

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: bholtorf
 ---
-# Cumplimiento con las regulaciones electrónicas de la contabilidad en México
+# <a name="complying-with-electronic-accounting-regulations-in-mexico" />Cumplimiento con las regulaciones electrónicas de la contabilidad en México
 En México, los individuos y las empresas deben hacer su contabilidad electrónicamente y enviar sus resultados mensuales al Servicio de Administración Tributaria de México (SAT) como archivos XML separados al final de cada mes. Los archivos XML deben contener lo siguiente:
 
 * El catálogo de cuentas. Este archivo debe enviarse cada vez que se modifique el catálogo de cuentas.  
@@ -19,7 +19,7 @@ En México, los individuos y las empresas deben hacer su contabilidad electróni
 
 Para obtener más información sobre la estructura de estos archivos (también conocidos como Anexo 24), consulte el sitio web de la Secretaría de Gobernación. La funcionalidad **Exportar contabilidad eléct.** ha sido desarrollada para cumplir con este requisito regulatorio.
 
-## Configurar los datos necesarios para exportar correctamente
+## <a name="setup-data-required-to-export-successfully" />Configurar los datos necesarios para exportar correctamente
 Para exportar con éxito la información del saldo del libro mayor, primero debe configurar ciertos datos. Los datos faltantes darán como resultado un mensaje de advertencia de que algunos campos obligatorios están en blanco, pero la exportación no se cancelará. En caso de duda, puede enviar el archivo a las autoridades para obtener más detalles sobre los valores faltantes. A continuación se describen los campos que se deben completar antes de exportar los archivos XML.
 
 Para los archivos que contienen el catálogo de cuentas y el saldo de prueba:
@@ -32,11 +32,11 @@ Para el archivo que contiene transacciones de diario:
 * El campo **Número de factura fiscal PAC** en todos los documentos de compra se utiliza para registrar el UUID de una factura electrónica. Puede importar facturas electrónicas (respuesta) cuando cree una factura de compra, pedido o nota de crédito. Solo se importa el UUID, pero esta funcionalidad se puede ampliar fácilmente. Después de que se importan los datos, aparecen en la factura después de la publicación.
 * En la página **Método de pago**, en el campo **Método de pago SAT** debe especificar cómo se realizó el pago.
 
-## Para generar los archivos XML
+## <a name="to-generate-the-xml-files" />Para generar los archivos XML
 1. Elija el icono ![Bombilla que abre la función Dígame, escriba Configuración asistida.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Exportar contabilidad electr.** y, a continuación, elija el vínculo relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
-## Consulte también
+## <a name="see-also" />Consulte también
 [Funcionalidad local de México](mexico-local-functionality.md)
 
 

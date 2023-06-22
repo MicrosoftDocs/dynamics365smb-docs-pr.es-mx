@@ -11,7 +11,7 @@ ms.date: 05/19/2022
 ms.author: edupont
 ---
 
-# Configurar la facturación electrónica (México)
+# <a name="set-up-electronic-invoicing---mexico" />Configurar la facturación electrónica (México)
 
 Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[prod_short](../../includes/prod_short.md)] para asegurarse de que el número de identificación fiscal (RFC), el número de identificación personal (CURP) y los identificadores de inscripción estatal estén disponibles para la empresa y para todos sus clientes y proveedores. Además, debe configurar los parámetros necesarios para el envío de facturas electrónicas a clientes y proveedores. Tales parámetros incluyen la huella digital del certificado, es decir, el certificado que recibe de la autoridad fiscal mexicana (SAT).  
 
@@ -20,7 +20,7 @@ Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[pr
 >
 > Asimismo, la empresa debe tener configurado el correo SMTP para el envío de facturas electrónicas. En función de la configuración de la empresa, quizá sea necesario conceder permisos explícitos de SMTP a cada usuario y equipo correspondiente. Los documentos se enviarán desde la dirección especificada en la página **Información de empresa**.  
 
-## Configurar la información de la empresa  
+## <a name="set-up-company-information" />Configurar la información de la empresa
 
 1. Elija el icono ![Bombilla que abre la función Dígame, escriba Configuración asistida.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información empresa** y luego elija el enlace relacionado.  
 2. En la página **Información de la empresa**, rellene los campos correspondientes. Para obtener más información, consulte [Inicio rápido Información empresa](../../quick-start-company-information.md).
@@ -42,7 +42,7 @@ Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[pr
     |**N° CURP**|Ingrese el número de identificación de la tarjeta fiscal única. El tipo de identificación fiscal Cédula de identification fiscal con clave única de registro de población (CURP) solo puede aplicarse a personas. Un número de CURP incluye 18 caracteres.|
     |**Inscripción estatal**|Ingrese el número de identificación fiscal que asignan las autoridades fiscales del estado a toda persona o empresa.|
 
-## Configurar la información de contabilidad general  
+## <a name="set-up-general-ledger-information" />Configurar la información de contabilidad general
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad** y, a continuación, elija el vínculo relacionado.  
 2. En la página **Configuración contabilidad**, en la ficha desplegable **Factura electrónica**, llene los campos como se describe en la tabla siguiente.  
@@ -57,11 +57,11 @@ Para poder enviar documentos electrónicos, primero debe configurar [!INCLUDE[pr
 
 Como alternativa, puede solicitar a su Microsoft Certified Partner que modifique el texto que se incluye en el correo electrónico que se usa al enviar facturas electrónicas. El texto se almacena como variables de texto en la codeunit 10145, que [un desarrollador puede extender](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview).  
 
-## Configurar la información de clientes y proveedores
+## <a name="set-up-customer-and-vendor-information" />Configurar la información de clientes y proveedores
 
 Además, debe agregar la información sobre sus clientes y proveedores. En la siguiente sección se describe cómo especificar esta información para los clientes y los proveedores.
 
-### Configurar información de cliente
+### <a name="set-up-customer-information" />Configurar información de cliente
 
 1. Elija el icono ![Tercera bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.  
 2. Para cada cliente de la lista **Clientes**, abra la ficha del cliente y rellene los campos de la ficha desplegable **General**. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] En la siguiente tabla se describen algunos de los campos complejos relacionados con CFDI.  
@@ -87,7 +87,7 @@ Además, debe agregar la información sobre sus clientes y proveedores. En la si
 4. En la ficha rápida **Pagos**, en el campo **Código del método de pago**, especifique la forma de pago que desea utilizar para este cliente.  
 5. Repita los pasos 2 a 4 para los demás clientes.  
 
-### Configurar información de proveedor
+### <a name="set-up-vendor-information" />Configurar información de proveedor
 
 1. Elija el icono ![Tercera bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
 2. Para cada proveedor de la lista **Proveedores**, abra la ficha del proveedor y rellene los campos de la ficha desplegable **General**. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]  
@@ -100,7 +100,7 @@ Además, debe agregar la información sobre sus clientes y proveedores. En la si
     |**Inscripción estatal**|Ingrese el número de identificación fiscal que asignan las autoridades fiscales del estado a toda persona o empresa.|
 4. Repita los pasos 2 a 3 para los demás proveedores.  
 
-## Configurar la información de almacén
+## <a name="set-up-location-information" />Configurar la información de almacén
 
 Por último, debe agregar la información sobre los almacenes que usa. En la siguiente sección se describe cómo especificar esta información para los almacenes.
 
@@ -116,7 +116,7 @@ Por último, debe agregar la información sobre los almacenes que usa. En la sig
     |**Código postal del SAT**|Especifique el código postal del SAT en el que se encuentra el domicilio de origen o destino de los productos o las mercancías que se trasladan en los diferentes medios de transporte.|
 3. Repita el paso 2 para los demás almacenes.  
 
-## Configurar las razones de cancelación
+## <a name="set-up-cancellation-reasons" />Configurar las razones de cancelación
 
 1. Seleccione el icono ![Tercera bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Razones de cancelación de CFDI** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione **Nuevo** para crear una nueva razón de cancelación o seleccione **Editar** para modificar una existente.
@@ -125,16 +125,16 @@ Por último, debe agregar la información sobre los almacenes que usa. En la sig
 5. En el campo **N.º sustitución requerido**, indique si se necesita un número de sustitución para el movimiento según la definición de razón de cancelación del SAT. Si elige el código 01, también debe especificar el documento que sustituye el documento cancelado en el campo **N.º doc. de sustitución**.
 6. Cierre la página.
 
-## Asignar datos clave a los campos de CFDI
+## <a name="map-key-data-to-the-cfdi-fields" />Asignar datos clave a los campos de CFDI
 
 Puede permitir que [!INCLUDE [prod_short](../../includes/prod_short.md)] asigne los campos correspondientes a la estructura de datos requerida por el CFDI mediante la guía de configuración asistida **Configurar información de CFDI de México** o puede asignar los campos manualmente.  
 
-### Configuración asistida
+### <a name="assisted-setup" />Configuración asistida
 
 1. Elija el icono ![Cuarta bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información de CFDI de México** y, luego, elija el enlace relacionado.
 2. Siga los pasos que se describen en la guía de configuración asistida **Configurar información de CFDI de México** para asignar información acerca de su empresa y cómo se utiliza [!INCLUDE [prod_short](../../includes/prod_short.md)] en los distintos campos de los archivos de CFDI.
 
-### Configuración manual
+### <a name="manual-setup" />Configuración manual
 
 Si prefiere asignar los campos usted mismo, debe actualizar las siguientes páginas:
 
@@ -144,36 +144,36 @@ Si prefiere asignar los campos usted mismo, debe actualizar las siguientes pági
 - **Formas de pago**  
 - **Términos de pago**  
 
-#### Asignar los códigos de su país o región a los valores requeridos por el SAT
+#### <a name="map-your-country-codes-to-the-values-that-sat-requires" />Asignar los códigos de su país o región a los valores requeridos por el SAT
 
 1. Elija el icono ![Quinta bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Países/regiones** y, luego, elija el vínculo relacionado.
 2. En el campo **Código de país de SAT**, especifique el código de país o región necesario para reportar a las autoridades fiscales mexicanas (SAT).
 3. Repita los pasos de 1 a 2 para todos los códigos de país o región.
 
-#### Asignar sus unidades de medida a los valores requeridos por el SAT
+#### <a name="map-your-units-of-measure-to-the-values-that-sat-requires" />Asignar sus unidades de medida a los valores requeridos por el SAT
 
 1. Elija el icono ![Sexta bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Unidades de medida** y luego elija el enlace relacionado.
 2. En el campo **Clasificación de unidad de medida de SAT**, especifique la unidad de medida necesaria para reportar a las autoridades fiscales mexicanas (SAT).
 3. Repita los pasos de 1 a 2 para todas las unidades de medida.
 
-#### Configurar la clasificación de régimen fiscal del SAT
+#### <a name="configure-sat-tax-regime-classification" />Configurar la clasificación de régimen fiscal del SAT
 
 1. Elija el icono ![Séptima bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Esquemas fiscales de SAT** y, luego, elija el vínculo relacionado.
 2. Rellene los campos según corresponda. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
-#### Asignar sus formas de pago a los valores requeridos por el SAT
+#### <a name="map-your-payment-methods-to-the-values-that-sat-requires" />Asignar sus formas de pago a los valores requeridos por el SAT
 
 1. Elija el icono ![Octava bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Métodos de pago** y luego elija el enlace relacionado.
 2. En el campo **Forma de pago de SAT**, especifique la forma de pago para pagar a las autoridades fiscales mexicanas (SAT).
 3. Repita los pasos de 1 a 2 para todas las formas de pago.
 
-#### Asignar sus términos de pago a los valores requeridos por el SAT
+#### <a name="map-your-payment-terms-to-the-values-that-sat-requires" />Asignar sus términos de pago a los valores requeridos por el SAT
 
 1. Elija el icono ![Novena bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Términos de pago** y luego elija el enlace relacionado.
 2. En el campo **Formulario de pago de SAT**, especifique el número del formulario de pago de las autoridades fiscales mexicanas (SAT).
 3. Repita los pasos de 1 a 2 para todos los términos de pago.
 
-## Consulte también
+## <a name="see-also" />Consulte también
 
 [Facturación electrónica](electronic-invoicing.md)  
 [Generar facturas electrónicas](how-to-generate-electronic-invoices.md)  
