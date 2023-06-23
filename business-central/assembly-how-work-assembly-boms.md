@@ -106,7 +106,7 @@ El costo unitario de una L.M. de ensamblado equivale siempre al total de los cos
 
 Los costos de los productos que conforman la L.M. de ensamblado se copian de las fichas de productos componente. El costo de cada producto se multiplica por la cantidad, y el costo total se muestra en el campo **Costo unitario** en la ficha producto de ensamblado.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-assembly-items-dynamics--business-central" />Consulte la [formación de Microsoft](/training/modules/set-up-assembly-items-dynamics-365-business-central/) relacionada.
+## <a name="see-related-microsoft-trainingtrainingmodulesset-up-assembly-items-dynamics-365-business-central" />Consulte la [formación de Microsoft](/training/modules/set-up-assembly-items-dynamics-365-business-central/) relacionada.
 
 ## <a name="see-also" />Consulte también .
 

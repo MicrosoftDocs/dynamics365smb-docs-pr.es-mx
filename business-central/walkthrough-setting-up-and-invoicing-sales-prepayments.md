@@ -235,7 +235,7 @@ También ha registrado una factura de anticipo, ha creado una segunda factura de
 
 Las funcionalidades de anticipo facilitan la configuración y la aplicación de reglas de anticipo para clientes y artículos. También le permiten registrar cada pago contra una factura.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

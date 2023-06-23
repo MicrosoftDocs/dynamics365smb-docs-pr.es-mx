@@ -153,7 +153,7 @@ Los campos de la ficha desplegable **Avanzado** establecen limitaciones en el in
 > [!NOTE]
 > Los valores máximos pueden ser diferentes para [!INCLUDE[prod_short](includes/prod_short.md)] local y un administrador puede cambiarlos. Más información en la sección [Configuración de Business Central Server: informes](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Para obtener una descripción general de las limitaciones de informe en [!INCLUDE[prod_short](includes/prod_short.md)] en línea, consulte [Límites operativos](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics--business-central" />Consulte la [formación de Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) relacionada.
+## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Consulte la [formación de Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) relacionada.
 
 ## <a name="see-also" />Consulte también .
 

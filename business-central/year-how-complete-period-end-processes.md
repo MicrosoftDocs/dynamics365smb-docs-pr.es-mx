@@ -57,7 +57,7 @@ ms.author: jswymer
 
 * Complete las declaraciones de impuestos.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

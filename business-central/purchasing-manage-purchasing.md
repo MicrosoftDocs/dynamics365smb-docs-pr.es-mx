@@ -43,7 +43,7 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics--business-central" />Consultar la [formación de Microsoft](/training/paths/purchase-items-services-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/purchase-items-services-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

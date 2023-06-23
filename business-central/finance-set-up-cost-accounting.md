@@ -189,7 +189,7 @@ Para cada cuenta de contabilidad, puede definir valores de dimensión predetermi
 > [!NOTE]  
 >  Para garantizar que el centro de costo y el objeto de costo predefinidos que configuró en la contabilidad sean transportados automáticamente a la contabilidad de costos, seleccione la casilla **Comprobar registros C/G** en la página Configuración contabilidad costos.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/cost-accounting-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/cost-accounting-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 
