@@ -117,7 +117,7 @@ Si una corrección no se completa, aparecerá una advertencia en la ficha de cor
 
 Después de corregir las dimensiones, los datos de la contabilidad de costos no estarán sincronizados. La contabilidad de costos usa dimensiones para agregar importes para centros de costo y objetos de costo, así como para ejecutar asignaciones de costos. Cambiar las dimensiones para movimientos de contabilidad general probablemente signifique volver a ejecutar sus modelos de contabilidad de costos. En función de los datos que se hayan actualizado y de cómo estén configuradas las funcionalidades de contabilidad de costos, tendrá que eliminar algunos registros de costos y volver a ejecutar las asignaciones, o bien eliminar todo y volver a ejecutar todos sus modelos. Debe identificar manualmente dónde afectarán las correcciones de dimensión a la contabilidad de costos y dónde se necesitan actualizaciones. [!INCLUDE[prod_short](includes/prod_short.md)] no ofrece actualmente una forma automatizada de hacerlo.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/dimensions-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/dimensions-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

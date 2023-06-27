@@ -36,6 +36,6 @@ También puede querer explorar el sitio [Capacidades de Dynamics 365 Business Ce
 [Precio de Business Central](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Comunidad de Dynamics 365 Business Central](https://community.dynamics.com/business/)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

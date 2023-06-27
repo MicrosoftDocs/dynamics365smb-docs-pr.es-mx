@@ -95,7 +95,7 @@ Registre este precio aumentado como un cargo de producto en una nota de crédito
 
 Cuando registre el pedido de devolución de ventas, se añadirá el cargo de reaprovisionamiento al importe del movimiento de ventas correspondiente. De este modo podrá mantener la precisión de la valuación de inventarios.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/return-items-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/return-items-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también
 

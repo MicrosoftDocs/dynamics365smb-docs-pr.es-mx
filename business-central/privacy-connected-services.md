@@ -32,6 +32,6 @@ La siguiente tabla indica las conexiones a los servicios de Microsoft que se hab
 
 Su privacidad es importante para nosotros. Para obtener información sobre cómo Microsoft procesa sus datos, consulte la [Declaración de privacidad de Microsoft](https://go.microsoft.com/fwlink/?linkid=521839).
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

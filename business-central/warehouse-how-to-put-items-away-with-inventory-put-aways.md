@@ -81,7 +81,7 @@ Un empleado del almacén puede crear un nuevo almacenamiento de inventario basad
     * Registrar la recepción de las líneas del documento de origen que se han guardado
     * Si el almacén utiliza ubicaciones, el registro también creará movimientos de almacén para registrar los cambios de cantidad en la ubicación.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Consultar la [formación de Microsoft](/training/modules/receive-put-away-items/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/receive-put-away-items/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

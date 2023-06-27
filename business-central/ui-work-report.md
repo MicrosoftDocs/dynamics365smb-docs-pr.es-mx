@@ -21,7 +21,7 @@ Puede buscar informes en el menú **Informes** de páginas seleccionadas, listas
 
 Cuando elige un informe, normalmente se le presenta una página de solicitud&mdash;con el título del nombre del informe&mdash;donde se establecen varias opciones y filtros que determinan qué datos se deben incluir. Las siguientes secciones explican cómo utilizar la página de solicitud para crear, obtener una vista previa e imprimir un informe.
 
-## <a name="a-namesavedsettingsausing-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Uso de valores predeterminados&mdash;configuración predefinida
+## <a name="using-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Uso de valores predeterminados&mdash;configuración predefinida
 
 La mayoría de las páginas de solicitud del informe incluyen el campo **Usar valores predeterminados de**. Con este campo puede seleccionar configuraciones predefinidas para el informe, que configuran automáticamente opciones y filtros. Seleccione una entrada de la lista desplegable y verá que las opciones y los filtros en la página de solicitud del informe cambian en consecuencia.
 
@@ -80,7 +80,7 @@ Si su organización ha configurado OneDrive para las funciones del sistema, en l
 >
 > También puede usar **Documento de Microsoft Excel (solo datos)** para crear nuevos diseños de Excel para un informe determinado. Más información en [Trabajar con diseños de Excel](ui-excel-report-layouts.md).  
 
-## <a name="a-nameschedulereporta-scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a> Programar un informe para que se ejecute más tarde o periódicamente
+## <a name="scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a> Programar un informe para que se ejecute más tarde o periódicamente
 
 Puede programar un informe único o periódico para ejecutarlo en una fecha y hora específicos. Los informes programados se introducen en la cola de proyectos y se procesan en el momento programado, de manera similar a con otros proyectos. Elija la opción **Programa** tras seleccionar **Enviar a** y, a continuación, introduzca información como la impresora, la hora y la fecha. El informe se agrega a la cola de proyectos y se ejecuta en el momento especificado. Cuando se procese el informe, el elemento se eliminará de la cola de proyectos. Obtenga más información en [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).  
 
@@ -103,13 +103,13 @@ Después de editar las opciones del informe, repita los primeros dos pasos y lue
 
 Obtenga más información sobre la gestión de colas de trabajos en [Utilice las colas de trabajos para programar tareas](admin-job-queues-schedule-tasks.md).  
 
-## <a name="a-nameprintreportaprinting-a-report" /><a name="PrintReport"></a>Imprimir un informe
+## <a name="printing-a-report" /><a name="PrintReport"></a>Imprimir un informe
 
 Para imprimir un informe, elija **Imprimir** en el informe de solicitud o en la barra de menú de la página **Vista previa**.
 
 Cuando un informe use un diseño de Excel, no verá el campo **Impresora**, o los botones **Imprimir** o **Vista previa**. En su lugar, hay una opción de **Descargar**. Para imprimir, seleccione **Descargar** y, a continuación, abra el archivo descargado en Excel e imprima desde allí.
 
-### <a name="a-nameprinteraprinter" /><a name="Printer"></a>Impresora
+### <a name="printer" /><a name="Printer"></a>Impresora
 
 El campo **Impresora** de la página de solicitud muestra el nombre de la impresora a la que se enviará el informe. Para cambiar una impresora, simplemente seleccione la impresora de la lista.
 
@@ -153,7 +153,7 @@ Los campos de la ficha desplegable **Avanzado** establecen limitaciones en el in
 > [!NOTE]
 > Los valores máximos pueden ser diferentes para [!INCLUDE[prod_short](includes/prod_short.md)] local y un administrador puede cambiarlos. Más información en la sección [Configuración de Business Central Server: informes](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Para obtener una descripción general de las limitaciones de informe en [!INCLUDE[prod_short](includes/prod_short.md)] en línea, consulte [Límites operativos](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Consulte la [formación de Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) relacionada.
+## <a name="see-related-microsoft-training" />Consulte la [formación de Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) relacionada.
 
 ## <a name="see-also" />Consulte también .
 

@@ -158,7 +158,7 @@ Para configurar que el ajuste de costo se ejecute automáticamente al registrar 
 
 La selección que elija en el campo **Ajuste automático de costo** es importante para el rendimiento y la exactitud de sus costos. Los periodos de tiempo más breves, como **Día** o **Semana**, afectan menos al rendimiento del sistema porque proporcionan un requisito más estricto de que solo los costes registrados en el último día o en la última semana se pueden ajustar automáticamente. Esto significa que el ajuste automático del costo no se ejecuta con tanta frecuencia y, por lo tanto, afecta menos al rendimiento del sistema. No obstante, esto significa también que los costos unitarios pueden ser menos exactos.  
 
-### <a name="example" />Ejemplo
+### <a name="example-1" />Ejemplo
 
 En el ejemplo siguiente se muestra un escenario de ajuste automático del costo:  
 

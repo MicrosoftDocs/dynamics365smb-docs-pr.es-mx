@@ -135,7 +135,7 @@ En la página **Picking inventario**, puede administrar todas las actividades de
 
     Los 30 lámparas Ámsterdam ahora se registran como preparadas desde las ubicaciones S-01-0001 y S-01-0002, y se crea un movimiento contable de producto negativo para reflejar la remisión de venta registrada.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Consultar la [formación de Microsoft](/training/paths/pick-ship-items-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/pick-ship-items-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 
