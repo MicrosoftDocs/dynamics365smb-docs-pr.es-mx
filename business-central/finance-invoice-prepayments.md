@@ -10,7 +10,7 @@ ms.search.form: '42, 42, 48, 50, 52, 9305, 9307'
 ms.date: 12/03/2021
 ms.author: edupont
 ---
-# <a name="invoicing-prepayments" />Facturación de anticipos
+# <a name="invoicing-prepayments"></a>Facturación de anticipos
 
 [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -29,9 +29,9 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 |Crear un pedido, ajustar los importes de anticipo y emitir una factura para los importes de anticipo.|[Crear facturas de anticipo](finance-how-to-create-prepayment-invoices.md)|  
 |Emitir una factura de anticipo adicional, bien para productos adicionales o para un depósito adicional en el pedido original, o emitir una nota de crédito de anticipo.|[Corregir anticipos](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also" />Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Tutorial: Configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanzas](finance.md)  

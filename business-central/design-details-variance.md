@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-variance" />Detalles de diseño: Desviación
+# <a name="design-details-variance"></a>Detalles de diseño: Desviación
 La desviación se define como la diferencia entre el costo real y el costo estándar, tal como se describe en la fórmula siguiente.  
 
  costo real – costo estándar = desviación  
@@ -20,7 +20,7 @@ La desviación se define como la diferencia entre el costo real y el costo está
 > [!NOTE]  
 >  La revalorización no afecta al cálculo de desviación, porque la revalorización solo modifica el valor de inventario.  
 
-## <a name="example" />Ejemplo
+## <a name="example"></a>Ejemplo
  En el ejemplo siguiente se ilustra cómo se calcula la desviación de los productos comprados. Se basa en el siguiente caso:  
 
 1.  El usuario compra un producto por $ 90,00, pero el costo estándar es de 100,00 $. Por consiguiente, la desviación de compra es 10,00 $.  
@@ -33,7 +33,7 @@ La desviación se define como la diferencia entre el costo real y el costo está
 
  ![Cálculo de desviación de compras.](media/design_details_inventory_costing_11_purchase_variance.png "Cálculo de desviación de compras")  
 
-## <a name="determining-the-standard-cost" />Determinación del costo estándar
+## <a name="determining-the-standard-cost"></a>Determinación del costo estándar
  El costo estándar se usa al calcular la desviación y el importe para capitalizar. Como el costo estándar puede cambiarse con el tiempo debido al cálculo de actualización manual, para el cálculo de desviación necesita un punto en el tiempo en el que el costo estándar sea fijo. Este momento se produce cuando se factura la entrada de inventario. En el caso de productos fabricados o ensamblados, el punto en el que se determina el costo estándar es cuando se ajusta el costo.  
 
  En la tabla siguiente se muestra cómo se calculan diferentes partes de costo para productos fabricados y ensamblados al usar la función Calcular costo estándar.  
@@ -52,7 +52,7 @@ La desviación se define como la diferencia entre el costo real y el costo está
 |**Costo gen. capacidad distribuida**|No aplicable|![Ecuación 8.](media/design_details_inventory_costing_11_equation_8.png "Ecuación 8")|  
 |**Costos gen. fabr. distrib.**|No aplicable|![Ecuación 9.](media/design_details_inventory_costing_11_equation_9.png "Ecuación 9")|  
 
-## <a name="see-also" />Consulte también
+## <a name="see-also"></a>Consulte también
  [Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)   
  [Detalles de diseño: Valoraciones existencias](design-details-costing-methods.md) [Administración de costos de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
