@@ -11,7 +11,7 @@ ms.search.form: '41, 9300'
 ms.date: 07/12/2021
 ms.author: edupont
 ---
-# <a name="make-sales-quotes"></a>Crear cotizaciones de ventas
+# <a name="make-sales-quotes"></a><a name="make-sales-quotes"></a>Crear cotizaciones de ventas
 
 Puede crear una cotización de venta para registrar su oferta a un cliente o cliente potencial para vender determinados productos en función de ciertos términos de entrega y pago. Puede enviar la cotización venta al cliente para comunicar la oferta. Puede enviar por correo electrónico el documento como un documento PDF anexo. También puede rellenar previamente el cuerpo del correo electrónico con un resumen de la cotización. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
 
@@ -19,7 +19,7 @@ Mientras negocia con el cliente o cliente potencial, puede cambiar y reenviar la
 
 En la mayoría de los casos, usted envía cotizaciones de venta a clientes potenciales. A menudo tiene una persona de contacto con la que negocia. Si aceptan su cotización, usted convierte la cotización de venta en una orden y registra al cliente potencial como cliente en [!INCLUDE [prod_short](includes/prod_short.md)]. En el siguiente procedimiento, nos centramos en contactos, pero también puede enviar cotizaciones a clientes existentes.  
 
-## <a name="to-create-a-sales-quote"></a>Para crear una cotización de venta
+## <a name="to-create-a-sales-quote"></a><a name="to-create-a-sales-quote"></a>Para crear una cotización de venta
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cotizaciones de venta** y, luego, elija el vínculo relacionado.
 2. Especifique el contacto o cliente al que desea enviar la cotización de venta.
@@ -88,13 +88,13 @@ En la mayoría de los casos, usted envía cotizaciones de venta a clientes poten
 
 La conversión elimina la cotización de venta de la base de datos. Una factura de venta o una orden de venta se crea a partir de la información de la cotización venta para poder procesar la venta. En el campo **Nº cotización** de la factura de venta o pedido de venta, se muestra el número de la cotización de venta a partir de la que se creó. Para obtener más información, consulte [Facturar ventas](sales-how-invoice-sales.md) o [Vender productos](sales-how-sell-products.md).  
 
-## <a name="external-document-number"></a>Número de documento externo
+## <a name="external-document-number"></a><a name="external-document-number"></a>Número de documento externo
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Ventas](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  

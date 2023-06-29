@@ -10,12 +10,12 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-known-item-application-issue"></a>Detalles de diseño: Problema de liquidación de producto conocido
+# <a name="design-details-known-item-application-issue"></a><a name="design-details-known-item-application-issue"></a>Detalles de diseño: Problema de liquidación de producto conocido
 Este artículo aborda un problema donde el nivel de inventario es cero aunque existen movimientos de producto pendientes en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 El artículo comienza enumerando los síntomas típicos del problema, seguido de los conceptos básicos de la liquidación de producto para respaldar las razones descritas para este problema. Al final del artículo hay una solución para abordar los movimientos de producto pendientes.  
 
-## <a name="symptoms-of-the-issue"></a>Síntomas del problema
+## <a name="symptoms-of-the-issue"></a><a name="symptoms-of-the-issue"></a>Síntomas del problema
  Los síntomas habituales del problema con el inventario cero, aunque existen movimientos de producto pendientes, son los siguientes:  
 
 -   El siguiente mensaje cuando intenta cerrar un período de inventario: "El inventario no se puede cerrar porque hay un inventario negativo para uno o más artículos".  
@@ -29,7 +29,7 @@ El artículo comienza enumerando los síntomas típicos del problema, seguido de
      |333|28/01/2018|Venta|Remisión venta|102043|EXAMINAR|AZUL|-1|-10|-1|-1|Sí|  
      |334|28/01/2018|Venta|Remisión venta|102043|EXAMINAR|AZUL|1|10|1|1|Sí|  
 
-## <a name="basics-of-item-application"></a>Conceptos básicos de la liquidación de producto
+## <a name="basics-of-item-application"></a><a name="basics-of-item-application"></a>Conceptos básicos de la liquidación de producto
  Se crea un movimiento de liquidación de producto para cada transacción de inventario para conectar al destinatario del costo con el origen del costo, de modo que el costo pueda desviarse de acuerdo con el método de costo. Para obtener más información, consulte [Detalles de diseño: Liquidación de productos](design-details-item-application.md).  
 
 -   Para un movimiento de producto de entrada, el movimiento de producto se crea cuando se crea el movimiento de producto de entrada.  
@@ -42,7 +42,7 @@ El artículo comienza enumerando los síntomas típicos del problema, seguido de
 
 -   Costo liquidación  
 
-### <a name="quantity-application"></a>Liquidación de cantidad
+### <a name="quantity-application"></a><a name="quantity-application"></a>Liquidación de cantidad
  Las liquidaciones de cantidad se realizan para todas las transacciones de inventario y se crean automáticamente o manualmente en procesos especiales. Cuando se realizan manualmente, las liquidaciones de cantidad se denominan liquidaciones fijas.  
 
  El diagrama siguiente muestra cómo se crean las liquidaciones de cantidad.  
@@ -54,7 +54,7 @@ El artículo comienza enumerando los síntomas típicos del problema, seguido de
 > [!NOTE]  
 >  Si el movimiento de producto de salida es valuado mediante el costo promedio, el movimiento de producto de entrada liquidado no es el origen exclusivo del costo. Simplemente juega un papel en el cálculo del costo promedio del periodo.  
 
-### <a name="cost-application"></a>Costo liquidación
+### <a name="cost-application"></a><a name="cost-application"></a>Costo liquidación
 Las liquidaciones del costo solo se crean para transacciones de entrada cuando el campo **Liq. mov. prod.** se rellena para proporcionar una liquidación fija. Esto suele ocurrir en relación con una nota de crédito de venta o un escenario que requiere deshacer remisiones. La liquidación de costo asegura que el producto vuelva a ingresar al inventario con el mismo costo que cuando se envió.  
 
 El diagrama siguiente muestra cómo se crean las liquidaciones de costo.  
@@ -66,7 +66,7 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de costo.
 
  Tenga en cuenta que el movimiento de producto de entrada 3 (Devolución venta) es un destinatario del costo del movimiento de producto de salida 2 (Venta).  
 
-## <a name="illustration-of-a-basic-cost-flow"></a>Ejemplo de un flujo de costos básico
+## <a name="illustration-of-a-basic-cost-flow"></a><a name="illustration-of-a-basic-cost-flow"></a>Ejemplo de un flujo de costos básico
  Supongamos que un flujo de costos completo donde se recibe un producto, se envía y se factura, se devuelve con una reversión de costo exacto\-y se envía de nuevo.  
 
  El diagrama siguiente ilustra el flujo de costos.  
@@ -75,7 +75,7 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de costo.
 
  Tenga en cuenta que el costo se envía al movimiento de producto 2 (Venta), a continuación al movimiento de producto 3 (Devolución venta) y finalmente al movimiento de producto 4 (Venta 2).  
 
-## <a name="reasons-for-the-issue"></a>Causas del problema
+## <a name="reasons-for-the-issue"></a><a name="reasons-for-the-issue"></a>Causas del problema
  El problema con el inventario cero, aunque existen movimientos de producto pendientes, lo puede causar los ejemplos siguientes:  
 
 -   Escenario 1: Se registra una remisión y una factura aunque el producto no esté disponible. A continuación, el registro revierte el costo exacto con una nota de crédito de ventas.  
@@ -90,7 +90,7 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de costo.
 
  El movimiento de producto 2 (Devolución ventas) no puede ser un destinatario de costo del movimiento de producto original y, al mismo tiempo, ser un proveedor de productos y su origen de costos. Por lo tanto, el movimiento original del producto 1 (Venta 1) permanece pendiente hasta que se produzca un origen válido.  
 
-## <a name="identifying-the-issue"></a>Identificación del problema
+## <a name="identifying-the-issue"></a><a name="identifying-the-issue"></a>Identificación del problema
  Para saber si se han creado los movimientos de producto abiertos, haga lo siguiente para el ejemplo respectivo:  
 
  Para el ejemplo 1, identifique el problema de la siguiente forma:  
@@ -130,7 +130,7 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de costo.
 
  Tenga en cuenta que el movimiento de producto de entrada 334 es liquidado en costo contra el movimiento de producto de salida 333.  
 
-## <a name="workaround-for-the-issue"></a>Solución del problema
+## <a name="workaround-for-the-issue"></a><a name="workaround-for-the-issue"></a>Solución del problema
  En la página **Diario de producto**, registre las siguientes líneas para el producto en cuestión:  
 
 -   Un ajuste positivo para cerrar el movimiento de producto de salida abierto.  
@@ -141,7 +141,7 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de costo.
 
  El resultado es que el inventario es cero y se cierran todos los movimientos de producto.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a>Consulte también
 [Detalles de diseño: Liquidación de productos](design-details-item-application.md)   
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  
 

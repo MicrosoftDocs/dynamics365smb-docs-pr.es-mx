@@ -11,11 +11,11 @@ ms.search.form: '10140, 10141, 10143,10144,10146,10147,10148,36646'
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# <a name="create-deposits-in-the-mexican-version"></a>Cómo crear depósitos en la versión mexicana
+# <a name="create-deposits-in-the-mexican-version"></a><a name="create-deposits-in-the-mexican-version"></a>Cómo crear depósitos en la versión mexicana
 
 [!INCLUDE [create-deposits](../includes/CAMXUS/create-deposits.md)]
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Funcionalidad local de México](mexico-local-functionality.md)  
 [Finanzas](../../finance.md)  
