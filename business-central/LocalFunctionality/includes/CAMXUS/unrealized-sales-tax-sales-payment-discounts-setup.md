@@ -9,7 +9,7 @@ Puede utilizar la página **Configuración de contabilidad** para configurar el 
 > [!NOTE]
 > Si trabaja con impuestos especiales, el sistema no le permite cambiar el campo **Importe fiscal** en la página **Estadísticas** por una factura, por ejemplo para ajustar el redondeo. Por lo tanto, si ha establecido un impuesto especial con más de dos decimales y experimenta una diferencia de redondeo en comparación con las facturas de su proveedor, entonces debe manejar la diferencia de redondeo contabilizando una entrada de libro mayor adicional para que el total coincida con el importe del documento. Esta contabilización podría hacerse en una cuenta de gastos dedicada al redondeo de la cantidad.
 
-## <a name="to-set-up-unrealized-sales-tax"></a><a name="to-set-up-unrealized-sales-tax"></a><a name="to-set-up-unrealized-sales-tax"></a>Para configurar impuestos a las ventas no realizados
+## <a name="to-set-up-unrealized-sales-tax"></a>Para configurar impuestos a las ventas no realizados
 1.  Elija el icono ![Bombilla que abre la función Dígame 1.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad**, y luego elija el enlace relacionado.  
 2.  En la página **Configuración de contabilidad**, en la ficha desplegable **General**, llene los campos como se describe en la tabla siguiente.  
 
@@ -20,7 +20,7 @@ Puede utilizar la página **Configuración de contabilidad** para configurar el 
     |**IVA no realizado**|Seleccione este campo si alguna de las jurisdicciones del impuesto de las ventas le permite pagar el impuesto después de recibir el pago. Si no activa esta casilla, esta función estará bloqueada para todas las jurisdicciones de impuesto sobre las ventas.|  
 3.  Elija el botón **Aceptar**.  
 
-## <a name="to-set-up-unrealized-tax-for-jurisdictions"></a><a name="to-set-up-unrealized-tax-for-jurisdictions"></a><a name="to-set-up-unrealized-tax-for-jurisdictions"></a>Para configurar impuestos no realizados para jurisdicciones
+## <a name="to-set-up-unrealized-tax-for-jurisdictions"></a>Para configurar impuestos no realizados para jurisdicciones
 1.  Elija el icono ![Bombilla que abre la función Dígame 2.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Jurisdicciones impuesto** y, a continuación, elija el vínculo relacionado.  
 2.  En la página **Jurisdicciones de impuesto**, seleccione la acción **Editar lista**.  
 3.  Rellene los campos tal como se describe en la tabla siguiente.  
@@ -33,7 +33,7 @@ Puede utilizar la página **Configuración de contabilidad** para configurar el 
     |**Cta. rever. no real. (comp.)**|La cuenta de contabilidad que desea usar para registrar el impuesto de reversión no realizado calculado sobre asientos de compras. **Importante:** Este campo está disponible en la página **Jurisdicción de impuesto**, pero no se muestra de forma predeterminada. Para seleccionar este campo, primero debe agregar la columna que lo muestra. [!INCLUDE[bp_customize](../../../includes/bp_customize_md.md)]|  
 4.  Elija el botón **Aceptar**.  
 
-## <a name="to-set-up-adjustments-for-payment-discounts-in-a-tax-posting-group"></a><a name="to-set-up-adjustments-for-payment-discounts-in-a-tax-posting-group"></a><a name="to-set-up-adjustments-for-payment-discounts-in-a-tax-posting-group"></a>Para configurar ajustes para descuentos de pagos en un grupo contable de impuestos
+## <a name="to-set-up-adjustments-for-payment-discounts-in-a-tax-posting-group"></a>Para configurar ajustes para descuentos de pagos en un grupo contable de impuestos
 1.  Elija el icono ![Bombilla que abre la función Dígame 3.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de registro de impuestos** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la acción **Editar**.  
 3.  En la página **Tarjeta de config. grupos registro IVA**, active la casilla de verificación **Ajuste para dto. p. p**.  
@@ -42,7 +42,7 @@ Puede utilizar la página **Configuración de contabilidad** para configurar el 
     >  Este campo está disponible en la página **Config. registro IVA**, pero no se muestra de forma predeterminada.
 4.  Elija el botón **Aceptar**.  
 
-## <a name="to-set-up-maximum-tax-correction-amounts"></a><a name="to-set-up-maximum-tax-correction-amounts"></a><a name="to-set-up-maximum-tax-correction-amounts"></a>Para configurar los importes máximos de corrección de impuestos
+## <a name="to-set-up-maximum-tax-correction-amounts"></a>Para configurar los importes máximos de corrección de impuestos
 1.  Elija el icono ![Bombilla que abre la función Dígame 4.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.  
 2.  En la página **Configuración cobros ventas**, en la ficha desplegable **General**, active la casilla de verificación **Permitir diferencia impto**.  
 3.  Elija el botón **Aceptar**.  
