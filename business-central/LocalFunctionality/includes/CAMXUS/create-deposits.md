@@ -5,7 +5,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ---
 > [!NOTE]
-> Hay nuevas funcionalidades para crear depósitos bancarios disponibles en Business Central 2022 lanzamiento de versiones 1 para las versiones de un gran número de países. Si utilizaba Business Central en los Estados Unidos, Canadá o México antes de ese lanzamiento, es posible que esté usando las capacidades anteriores. Puede continuar, pero las nuevas funcionalidades sustituirán a las anteriores en una versión futura. Para comenzar a utilizar las nuevas funcionalidades de inmediato, el administrador puede ir a la página **Administración de características** y activar la opción **Actualización de características: conciliación y depósitos bancarios estandarizados**. Para obtener más información, consulte [Crear depósitos bancarios](../../../bank-create-bank-deposits.md).
+> Hay nuevas funcionalidades para crear depósitos bancarios disponibles en la Business Central 2022 lanzamiento de versiones 1 para las versiones de un gran número de países o regiones. Si utilizaba Business Central en los Estados Unidos, Canadá o México antes de ese lanzamiento, es posible que esté usando las capacidades anteriores. Puede continuar, pero las nuevas funcionalidades sustituirán a las anteriores en una versión futura. Para comenzar a utilizar las nuevas funcionalidades de inmediato, el administrador puede ir a la página **Administración de características** y activar la opción **Actualización de características: conciliación y depósitos bancarios estandarizados**. Para obtener más información, consulte [Crear depósitos bancarios](../../../bank-create-bank-deposits.md).
 
 
 Puede crear depósitos bancarios para llevar un registro de las transacciones que incluya información que pueda aplicarse a facturas y notas de crédito pendientes.  
@@ -18,7 +18,7 @@ Las líneas de depósito bancario contienen información sobre los elementos ind
 
 Una vez rellenada la información y las líneas de depósito, deberá registrarlo para actualizar los movimientos correspondientes, como los movimientos de banco, la contabilidad general o los movimientos de cliente. Los depósitos contabilizados se almacenan para su futura referencia y pueden verse en la página **Depósitos contabilizados**.
 
-## <a name="to-create-a-deposit"></a>Para crear un depósito
+## Para crear un depósito  
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Depósitos** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  En la ficha desplegable **General**, rellene los campos necesarios tal como se describe en la tabla siguiente.  

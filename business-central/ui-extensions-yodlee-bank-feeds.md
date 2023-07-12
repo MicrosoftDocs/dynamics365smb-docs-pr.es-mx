@@ -11,7 +11,7 @@ ms.search.form: '1450, 1451, 1452, 1453, 1454, 1458, 1460,'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Extensión Envestnet Yodlee Bank Feeds
+# Extensión Envestnet Yodlee Bank Feeds
 
 Para conciliar pagos realizados en sus bancos rápidamente, el servicio Envestnet Yodlee Bank Feeds permite vincular su cuenta bancaria del sistema a su cuenta bancaria en línea. Esto significa que el último estado de cuenta bancario se introduce manual o automáticamente en el diario de conciliación de pagos, lo que garantiza que siempre procesará sus últimos pagos con el mínimo de errores.
 
@@ -20,7 +20,7 @@ El servicio Envestnet Yodlee Bank Feeds solo se admite en Estados Unidos y Canad
 > [!NOTE]
 > El servicio Envestnet Yodlee Bank Feeds solo se admite en la versión en línea de Business Central. Para utilizar esta funcionalidad local, debe obtener una cuenta de cobrand de Envestnet Yodlee.<br /><br />
 > El servicio Envestnet Yodlee Bank Feeds solo se admite en Estados Unidos y Canadá.
-> Solo se admiten los bancos que residan en estos países, aunque los bancos de otros países puedan aparecer en la ventana de selección de banco de Envestnet Yodlee Bank Feeds en [!INCLUDE[prod_short](includes/prod_short.md)].
+> Solo se admiten los bancos que residan en estos países o regiones, aunque los bancos de otros países o regiones puedan aparecer en la ventana de selección de banco de Envestnet Yodlee Bank Feeds en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]
 > Debido a la nueva directiva sobre servicios de pago en Europa (PSD2), después del 14 de septiembre de 2019 ya no podrá importar automáticamente estados de cuenta bancarios del Reino Unido a [!INCLUDE[prod_short](includes/prod_short.md)]. Estamos analizando la posibilidad de ofrecer esta función nuevamente en el futuro.
@@ -34,13 +34,13 @@ El servicio Envestnet Yodlee Bank Feeds proporciona las siguientes ventajas:
 * Admite fuentes de banco manuales o automáticas.
 * Habilita la externalización de la conciliación de pagos a un contable proporcionando acceso a los extractos bancarios.
 
-## <a name="available-bank-feeds"></a>Fuentes de banco disponibles
+## Fuentes de banco disponibles
 
 Puede comprobar si un banco es compatible configurando y conectándose al servicio Envestnet Yodlee Bank Feeds. El banco aparecerá en la lista si es compatible con Envestnet Yodlee.
 
 Para obtener más información, vea [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] usando extensiones](ui-extensions.md)  
 [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
