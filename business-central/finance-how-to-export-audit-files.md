@@ -14,16 +14,16 @@ ms.author: altotovi
 ms.reviewer: kfend
 ---
 
-# <a name="audit-file-export"></a>Exportación de archivo de auditoría
+# Exportación de archivo de auditoría
 
 La exportación de información contable del sistema es una solicitud común de algunas autoridades locales o auditores. Las exportaciones de formatos y la información requerida pueden diferir. Los asientos para la exportación suelen ser asientos del libro mayor (G/L) o asientos del impuesto al valor agregado (IVA). Sin embargo, a veces se requiere otra información.
 
 **Exportación de archivos de auditoría** es una extensión preinstalada que le permite exportar diferentes entradas, según los requisitos del auditor o de la autoridad. Independientemente del tipo de formato o las entradas, puede usar la funcionalidad de la extensión para controlar el proceso de exportación de datos. La funcionalidad no tiene un formato de archivo preinstalado para la exportación. Por lo tanto, debe instalar una aplicación que tenga un formato específico (por ejemplo, SIE, SAF-T o FAC) o desarrollar una propia.
 
 > [!NOTE]
-> Actualmente, puede seleccionar el formato SIE o SAF-T como una aplicación adicional. Los socios también pueden desarrollar un formato personalizado. El número de formatos disponibles aumentará con el tiempo.
+> Actualmente, puede seleccionar el formato SIE (Suecia), FEC (Francia) o SAF-T como una aplicación adicional. Los socios también pueden desarrollar un formato personalizado. El número de formatos disponibles aumentará con el tiempo.
 
-## <a name="set-up-audit-file-export"></a>Configurar la exportación de archivos de auditoría
+## Configurar la exportación de archivos de auditoría
 
 1. Seleccione el botón de búsqueda ![Botón de lupa que abre la función Tell Me.](media/ui-search/search_small.png "Dígame qué desea hacer"), ingrese **Configuración de exportación de archivo de auditoría** y luego seleccione el enlace relacionado.
 2. En la página **Configuración de exportación de archivo de auditoría**, siga estos pasos:
@@ -44,7 +44,7 @@ La exportación de información contable del sistema es una solicitud común de 
     2. En el campo **Nombre del archivo de auditoría**, especifique el nombre de archivo predeterminado o la plantilla de nombre de archivo para el archivo de auditoría que desea exportar.
     3. Seleccione la casilla de verificación **Archivar en Zip** para comprimir automáticamente los archivos exportados.
 
-## <a name="provide-the-gl-account-mapping-for-audit-file-export"></a>Proporcionar el mapeo de cuentas de contabilidad general para la exportación de archivos de auditoría
+## Proporcionar el mapeo de cuentas de contabilidad general para la exportación de archivos de auditoría
 
 La mayoría de los formatos requeridos por las autoridades para las cuentas de contabilidad general requieren un catálogo de cuentas estándar específico. Por lo tanto, después de configurar sus cuentas de mayor, su archivo exportado se basará en las asignaciones. Puede utilizar más asignaciones en su sistema.
 
@@ -66,10 +66,10 @@ Siga estos pasos para proporcionar el mapeo de cuentas de contabilidad general p
 10. Selecciona la casilla **Incluir saldo entrante** para considerar el saldo entrante de la cuenta de mayor del tipo **Balance de cuenta** para el mapeo en lugar del cambio neto del período de informe.
 11. Para iniciar la asignación, siga estos pasos:
 
-    1. Para generar líneas en la página **Mapeo de cuentas C/G**, en función de un catálogo de cuentas existente, seleccione **Inicializar origen para asignación**. Para copiar el mapeo de cuentas de contabilidad general de algún otro código de mapeo, seleccione **Copiar desde otro mapeo**. Cuando haya terminado de crear líneas, todas las cuentas de mayor que hayan registrado asientos se marcarán en verde.
+    1. Para generar líneas en la página **Mapeo de cuentas de C/G**, en función de un catálogo de cuentas existente, seleccione **Inicializar origen para asignación**. Para copiar el mapeo de cuentas de contabilidad general de algún otro código de mapeo, seleccione **Copiar desde otro mapeo**. Cuando haya terminado de crear líneas, todas las cuentas de mayor que hayan registrado asientos se marcarán en verde.
     2. Para marcar solo las cuentas de mayor que tienen entradas, seleccione **Actualizar disponibilidad de entrada de L/M**. Si **Incluir saldo entrante** está activado, todas las entradas del L/M contabilizadas se tienen en cuenta para el cálculo. De lo contrario, solo se consideran las entradas del L/M del período de informe.
 
-## <a name="export-the-audit-file"></a>Exportar el archivo auditoría
+## Exportar el archivo auditoría
 
 1. Seleccione el botón de búsqueda ![Botón de lupa que abre la función Tell Me.](media/ui-search/search_small.png "Dígame qué desea hacer"), ingrese **Documentos de exportación de archivo de auditoría** y luego seleccione el enlace relacionado.
 2. Sobre la página **Documentos de exportación de archivos de auditoría**, seleccione **Nuevo**.
@@ -97,7 +97,7 @@ Siga estos pasos para proporcionar el mapeo de cuentas de contabilidad general p
 > [!IMPORTANT]
 > Si tiene varias entradas para exportar, no le recomendamos que las exporte en la sesión actual, debido a posibles problemas de rendimiento. En su lugar, le recomendamos que utilice el procesamiento paralelo durante los días o las horas no laborables.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 [Gestión financiera](finance.md)  
 [Descripción de contabilidad y catálogo de cuentas](finance-general-ledger.md)  
 [Trabajar con dimensiones](finance-dimensions.md)  
