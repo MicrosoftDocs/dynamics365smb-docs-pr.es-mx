@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
 ---
-# Acerca del cálculo de costo estándar
+# <a name="about-calculating-standard-cost"></a>Acerca del cálculo de costo estándar
 
 Muchas empresas de fabricación eligen una base de valuación de costo estándar. Esto también se aplica a las empresas que llevan a cabo la fabricación ligera, como ensamblado y kitting. Un sistema de costos estándar determina el costo unitario del inventario en función de ciertos costos históricos o esperados razonables. Los estudios sobre costos anteriores y sobre costos futuros previstos pueden ofrecer una base para calcular costos estándar. Dichos costos quedan fijos hasta que se tome la decisión de cambiarlos. El costo real para fabricar un producto puede ser diferente de los costos estándar calculados. Para controlar la gestión, el costo real se compara con el costo estándar de un producto en particular, y se identifican y analizan las diferencias o *variaciones*.  
 
@@ -21,7 +21,7 @@ Los costos estándar se pueden mantener para los productos que se rellenan con l
 |**Ensamblado**|Costo directo del material, costo directo o de mano de obra fija y costo general.|  
 |**Ord. prod.**|Costo directo del material, costo de mano de obra, costo de subcontratista y costo general.|  
 
-## Configuración de los costos estándar
+## <a name="setting-up-standard-costs"></a>Configuración de los costos estándar
 
 Dado que el costo estándar de un producto fabricado o ensamblado puede incluir diversos elementos de costo, entre ellos, costos de materiales, de capacidad (mano de obra) y de subcontratistas, ya sean directos o generales, deben establecerse los costos estándar para cada uno de estos elementos.  
 
@@ -38,7 +38,7 @@ Los elementos de costo claves siguientes conforman el costo directo total de un 
 - Costos de capacidad.  
 - Costos de subcontratistas para los productos fabricados solo.  
 
-### Costos de materiales
+### <a name="material-costs"></a>Costos de materiales
 
 Los costos de materiales son aquellos que se asocian con productos semiterminados y materias prima que se hayan comprado. El costo unitario del material puede estar compuesto por elementos de costo directos e indirectos.  
 
@@ -56,7 +56,7 @@ El costo de materiales de un producto fabricado se puede representar de dos form
 |Un nivel|El producto fabricado es igual al costo total de todos los productos comprados o subensamblados en la L.M. de producción de dicho producto.|  
 |Nivel o multinivel distribuido|El producto fabricado representa la suma del costo de materiales de todos los productos semiterminados en la L.M. de ese producto y el costo de todos los productos comprados en la L.M. de producción de ese producto.|  
 
-### Costos de capacidad
+### <a name="capacity-costs"></a>Costos de capacidad
 
 Los costos de capacidad son aquellos que están asociados con la mano de obra interna y con los costos de maquinaria. Debe configurar estos costos para cada recurso (en la administración de ensamblados) y trabajo o centro de máquina en la ruta (en la producción). Al igual que con los materiales, puede identificar los elementos directos e indirectos de los costos de capacidad. Por ejemplo, el costo directo para un centro de trabajo podría ser la tasa de planta establecida para llevar a cabo una función específica. El costo indirecto para un centro de trabajo puede representar ciertos gastos de la fábrica, como iluminación, calefacción, etc. Al igual que los costos de materiales, puede expresar el costo general de capacidad como un porcentaje de costo indirecto o como una tasa general fija.  
 
@@ -81,13 +81,13 @@ Para especificar el tiempo de preparación en la ruta por motivos de planificaci
 
 En el caso de un solo nivel, se trata del costo de mano de obra requerido para fabricar el producto final y se especifica en la ruta de producción del producto. En el caso de varios niveles, se trata del costo de capacidad que se especifica para cada producto que se fabrica individualmente que se incluye en la L.M. del producto principal.  
 
-### Costos de los subcontratistas
+### <a name="subcontractor-costs"></a>Costos de los subcontratistas
 
 Los costos de subcontratistas son aquellos asociados con los servicios que ofrecen los fabricantes o los subcontratistas externos de una empresa. De forma similar a los materiales y a la capacidad, los costos de subcontratistas pueden estar compuestos por cantidades directas y generales. Los costos directos de subcontratistas representan el cargo efectivo por cada unidad de servicio prestado. Por ejemplo, los costos generales de subcontratistas pueden representar costos de transporte y manipulación en los que incurre la empresa con un pedido que se ha subcontratado.  
 
 Dado que la subcontratación es una capacidad externalizada, puede configurar el costo de los servicios subcontratados tanto directos como indirectos en la ficha del centro de trabajo que representa la operación de subcontratación.  
 
-## Actualización de los costos estándar
+## <a name="updating-standard-costs"></a>Actualización de los costos estándar
 
 Para actualizar o calcular el costo estándar de productos de ensamblado, use la función de la ficha de producto.  
 
@@ -98,7 +98,7 @@ El proceso de actualizar o calcular los costos estándar normalmente consiste en
 3.  La implementación de los costos estándar que se introducen al ejecutar los procesos por lotes anteriores. Los costos estándar no tienen efecto hasta que se implementan. Use la tarea por lotes **Implementar cambios de costo estándar** que actualiza los cambios de costo estándar en los artículos con aquellos incluidos en la tabla Hoja de trabajo de costo estándar.  
 4.  Implementación de los cambios para actualizar el campo **Costo unitario** en la ficha del producto y realizar una revaluación de inventario. Para obtener más información, vea [Revaluación de inventario](inventory-how-revalue-inventory.md).
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Detalles de diseño: Métodos de costo](design-details-costing-methods.md)  
 [Actualizar costos estándar](finance-how-to-update-standard-costs.md)  

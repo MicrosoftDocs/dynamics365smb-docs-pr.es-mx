@@ -8,12 +8,12 @@ ms.search.form: '142, 800, 806'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Hacer un seguimiento de los paquetes
+# <a name="track-packages"></a>Hacer un seguimiento de los paquetes
 La mayoría de los agentes de envío brindan un servicio web que le permite rastrear el estado de sus paquetes mientras están en ruta. Esa información puede ser útil en muchos procesos comerciales, por ejemplo, al ofrecer servicio al cliente. Si utiliza uno o más de estos transportistas, puede introducir cierta información básica sobre ellos y utilizar su servicio de seguimiento directamente desde las páginas Remisiones de venta registradas, Facturas de venta registradas, Notas de crédito de venta registradas y Recepción de devolución registrada. Para obtener más información, vea [Configurar transportistas](sales-how-to-set-up-shipping-agents.md). 
 
 El siguiente procedimiento muestra cómo realizar el seguimiento de un paquete desde una remisión de venta registrada, pero se aplican los mismos pasos para habilitar el seguimiento del paquete desde las páginas Factura de venta registrada, Nota de crédito de venta registrada y Recepción de devolución registrada.  
 
-## Para hacer el seguimiento de un paquete
+## <a name="to-track-a-package"></a>Para hacer el seguimiento de un paquete
 
 > [!NOTE]
 > El siguiente procedimiento utiliza la página Remisión de venta registrada como ejemplo. Los pasos para realizar el seguimiento de un paquete son los mismos en las páginas Facturas de venta registradas, Notas de crédito de venta registradas y Recepción de devolución registrada.
@@ -24,7 +24,7 @@ El siguiente procedimiento muestra cómo realizar el seguimiento de un paquete d
 4. Asegúrese de que el agente de envío correcto y el nivel de servicio sean los correctos y luego cierre la página.
 5. Elija la acción **Seguir envío** para abrir el servicio de seguimiento del paquete del transportista.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Configurar transportistas](sales-how-to-set-up-shipping-agents.md)  
 [Ccial](sales-manage-sales.md)  

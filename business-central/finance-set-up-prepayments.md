@@ -8,7 +8,7 @@ ms.search.form: '314, 459, 460, 664'
 ms.date: 10/27/2021
 ms.author: edupont
 ---
-# Configurar anticipos
+# <a name="set-up-prepayments"></a>Configurar anticipos
 
 Si desea que sus clientes realicen el pago antes de enviarles un pedido o su proveedor le requiere que efectúe el pago antes de enviarle un pedido, puede utilizar la funcionalidad Anticipo. La funcionalidad Anticipos le permite facturar y cobrar depósitos requeridos de los clientes o remitir depósitos a proveedores y asegurarse de que todos los pagos parciales se contabilicen con una factura. Para obtener más información, consulte [Crear facturas de anticipo](finance-how-to-create-prepayment-invoices.md).
 
@@ -28,7 +28,7 @@ Dado que el importe de anticipo pertenece al comprador hasta que haya recibido l
 
 [!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
-## Para agregar cuentas de anticipo a la configuración de grupos contables  
+## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Para agregar cuentas de anticipo a la configuración de grupos contables
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración grupos contables** y luego elija el enlace relacionado.
 2. En la página **Configuración grupos contables**, rellene los campos siguientes para las líneas relevantes:  
@@ -41,7 +41,7 @@ Dado que el importe de anticipo pertenece al comprador hasta que haya recibido l
 
 Si todavía no ha configurado cuentas de contabilidad para anticipos, puede abrir la página **Lista de cuentas** desde el campo de cuenta relevante.  
 
-## Configurar números de serie para documentos de anticipo  
+## <a name="to-set-up-number-series-for-prepayment-documents"></a>Configurar números de serie para documentos de anticipo
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.
 2. En la página **Configuración de ventas y cobros**, en la ficha desplegable **Serie numérica**, complete los siguientes campos:  
@@ -58,7 +58,7 @@ Si todavía no ha configurado cuentas de contabilidad para anticipos, puede abri
 > [!NOTE]  
 > Puede utilizar la misma numeración de serie para las facturas de anticipo y las facturas normales, o bien utilizar numeraciones de serie distintas. Si utiliza series distintas, éstas no deben solaparse, ya que no debe haber ningún número que se repita en ambas series.  
 
-## Definir porcentajes de anticipo para productos, clientes y vendedores
+## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Definir porcentajes de anticipo para productos, clientes y vendedores
 
 Puede definir un porcentaje de anticipo predeterminado de un producto para todos los clientes, un cliente determinado o un grupo de precios de cliente. Si no desea aplicar el mismo porcentaje de anticipo a todos los clientes, debe especificar a qué clientes o a qué grupos de precios de clientes se aplica el porcentaje de anticipo.
 
@@ -76,7 +76,7 @@ Puede definir un porcentaje de anticipo predeterminado para un cliente o proveed
 > [!TIP]
 > También puede acceder a la página **Porcentajes anticipo ventas** desde la ficha de cliente o proveedor.
 
-### Para determinar qué porcentaje de anticipo tiene prioridad  
+### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Para determinar qué porcentaje de anticipo tiene prioridad
 
 Un pedido puede tener un porcentaje de anticipo en la cabecera de venta y otro porcentaje distinto para los productos en las líneas. Para determinar qué porcentaje de anticipo se aplica a cada línea de venta, el sistema busca el porcentaje de anticipo en el siguiente pedido y aplicará el primer valor predeterminado que encuentre:  
 
@@ -87,7 +87,7 @@ Un pedido puede tener un porcentaje de anticipo en la cabecera de venta y otro p
 
 Dicho de otro modo, el porcentaje de anticipo de la ficha del cliente sólo se aplicará si no hay definido un porcentaje de anticipo para el producto. Sin embargo, si modifica el contenido del campo **Porcentaje anticipo** en la cabecera de venta o compra después de crear las líneas, se actualizará el porcentaje de anticipo en todas las líneas. Esto facilita la creación de un pedido con un porcentaje de anticipo fijo, independientemente del porcentaje definido para los productos.
 
-## Para liberar automáticamente pedidos de venta cuando se aplican anticipos
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Para liberar automáticamente pedidos de venta cuando se aplican anticipos
 
 Puede ahorrar tiempo configurando una entrada en la cola de trabajos que liberará automáticamente pedidos de venta que requieren anticipo después de que se apliquen los pagos. Automatizar el proceso le ahorra el paso de lanzar el pedido de venta.
 
@@ -100,9 +100,9 @@ Puede ahorrar tiempo configurando una entrada en la cola de trabajos que liberar
 3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimientos de cola de proyectos** y luego elija el enlace relacionado.
 4. Configure la entrada de la cola de trabajos **Actualización pendiente prepago ventas**, por ejemplo, utilizando la configuración en la ficha desplegable **Periodicidad** para programar la frecuencia con la que desea que se ejecute. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
-## Consultar la [formación de Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) relacionada
 
-## Consulte también .  
+## <a name="see-also"></a>Consulte también .
 
 [Facturación de anticipos](finance-invoice-prepayments.md)  
 [Tutorial: Configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
