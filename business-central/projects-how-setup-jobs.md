@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ---
-# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Configurar proyectos, precios y grupos contables de proyectos
+# Configurar proyectos, precios y grupos contables de proyectos
 
 Como director de proyectos, puede configurar proyectos que definan cada uno de los proyectos que administra en [!INCLUDE[prod_short](includes/prod_short.md)]. Use la página **Configuración de trabajos** para definir cómo usará las características del trabajo.
 
@@ -21,7 +21,7 @@ Para cada trabajo, especifique información diversa:
 * Cuentas de proyecto
 * Grupos contables de proyecto (necesario)
 
-## <a name="to-set-general-information-for-jobs"></a>Para configurar la información general de los proyectos
+## Para configurar la información general de los proyectos
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de proyectos** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -29,7 +29,7 @@ Para cada trabajo, especifique información diversa:
 > [!NOTE]
 > El control de alternancia **Aplicar enlace de uso de forma predeterminada** de la página **Configuración de proyectos** indica si las entradas del libro mayor de proyectos están vinculadas a las líneas de planificación de proyecto de forma predeterminada. Active el control de alternancia para aplicar esta configuración a todos los trabajos nuevos. Puede habilitar o deshabilitar el seguimiento del uso del proyecto para un proyecto específico activando o desactivando el control de alternancia **Aplicar enlace de uso** en la página **Ficha de proyecto**.
 
-### <a name="to-set-up-job-usage-tracking"></a>Para configurar el seguimiento de uso de proyecto
+### Para configurar el seguimiento de uso de proyecto
 
 Cuando está trbajando en un proyecto, es posible que desee saber cómo va el seguimiento en comparación con el plan. Para explorar el uso, puede crear un vínculo entre las líneas de planificación de proyecto y la utilización real. El vínculo le permite realizar un seguimiento de sus costos y comprender cuánto trabajo queda. De forma predeterminada, el tipo de línea de planificación de proyecto es **Presupuesto**, pero utilizar el tipo de línea **Presupuesto y facturable** tiene efectos similares.
 
@@ -43,7 +43,7 @@ Después de haber establecido el seguimiento de uso activando el control de alte
 > [!IMPORTANT]
 > Si no especifica un valor en el campo **Tipo de línea** de la línea del diario de proyecto o la línea de compra, no se crean líneas de planificación de proyecto cuando se registra el diario de trabajo o el documento de compra.
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Para establecer los precios de recursos, productos y cuentas de contabilidad para trabajos
+## Para establecer los precios de recursos, productos y cuentas de contabilidad para trabajos
 
 > [!NOTE]
 > En el segundo lanzamiento de versiones de 2020, lanzamos nuevos procesos optimizados para configurar y administrar precios y descuentos. Si es un cliente nuevo, está usando la nueva experiencia. Si es un cliente existente, si está utilizando o no la nueva experiencia depende de si su administrador ha habilitado la actualización de funciones **Nueva experiencia de precios de venta** en **Administración de características**. Para más información, consulte [Habilitación de las próximas funciones antes de tiempo](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -71,7 +71,7 @@ Cuando elige una cuenta de recurso, producto o de contabilidad para un trabajo, 
 
 ---
 
-## <a name="to-set-up-job-posting-groups"></a>Para configurar grupos contables del proyecto
+## Para configurar grupos contables del proyecto
 
 Un aspecto de los proyectos de planificación es decidir qué cuentas de registro se deben utilizar para la valoración de proyectos. Para poder registrar proyectos, debe configurar cuentas de registro para cada grupo contable del proyecto. Un grupo contable representa un vínculo entre el proyecto y cómo debe ser tratado en la contabilidad general. Al crear un proyecto, se especifica un grupo contable y, de forma predeterminada, todas las tareas que crea para el proyecto están asociadas con ese grupo contable. Sin embargo, al crear las tareas, puede sustituir el predeterminado y seleccionar a un grupo contable que sea más adecuado.  
 
@@ -81,27 +81,27 @@ Un aspecto de los proyectos de planificación es decidir qué cuentas de registr
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos contables de proyectos**, y luego elija el enlace relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos tal como se describe en la tabla siguiente.  
 
-| Campo Cuenta | Descripción |
-| --- | --- |
-| **Código** |Un identificador para el grupo contable. Puede escribir hasta 10 caracteres, incluso espacios. |
-| **Cuenta costes WIP** |Es la cuenta de trabajo en curso para el costo calculado de WIP del proyecto, y es una cuenta de activos de capital de balance. |
-| **Cta. costes acumulados trabajo en curso** |Una cuenta para el método Valor costo o Costo de ventas del cálculo de WIP. Esta cuenta es para pasivo de gastos acumulados en la hoja de balance. Cuando un ajuste de WIP requiere aumentar los costos de uso que se registran en el resultado, se registran en esta cuenta. |
-| **Cta. aplicada costes proyecto** |Es una cuenta de contrapartida de la cuenta de costos de trabajo en curso, que es complementaria de una cuenta de gastos negativa. |
-| **Cta. de costes liq. productos** |Es una cuenta de contrapartida de la cuenta de costos de trabajo en curso, que es complementaria de una cuenta de gastos negativa. |
-| **Cta. de costes liq. recursos** |Es una cuenta de contrapartida de la cuenta de costos de trabajo en curso, que es complementaria de una cuenta de gastos negativa. |
-| **Cta. de costes liq.** |Es una cuenta de contrapartida de la cuenta de costos de trabajo en curso, que es complementaria de una cuenta de gastos negativa. |
-| **Cta. ajuste costes proyecto** |Es la cuenta de contrapartida de la cuenta de costos de trabajo en curso, que es una cuenta de gastos. |
-| **Cta. gastos C/G (presupuesto)** |La cuenta de ventas que se utilizará con este grupo contable para los gastos de contabilidad de las tareas del proyecto. Si se deja en blanco, se usa la cuenta introducida en la línea de planificación del proyecto. |
-| **Cta. ventas acumuladas WIP** |Es la cuenta de trabajo en curso para el valor de ventas calculado de este trabajo, que es una cuenta de activos de capital del balance. Cuando un ajuste del trabajo en curso le exige un aumento de los ingresos reconocidos, se registran en esta cuenta. |
-| **Cta. ventas facturadas WIP** |Es la cuenta del valor de las ventas facturadas del trabajo en curso que no se puede reconocer. Es una cuenta de ingresos anticipados de balance. |
-| **Cuenta liq. ventas proy.** |Es la cuenta de contrapartida de la cuenta de ventas facturadas del trabajo en curso, que es una cuenta complementaria de ingresos. |
-| **Cuenta ajuste ventas proy.** |Es la cuenta de contrapartida de la cuenta de ventas del proyecto del trabajo en curso, que es una cuenta de ingresos. |
-| **Cuenta costes reconocidos** |Es la cuenta de gastos que contiene los costos reconocidos del proyecto. Normalmente, es una cuenta de cargo. |
-| **Cuenta ventas reconocidas** |Es la cuenta de ingresos que contiene los ingresos reconocidos del proyecto. Normalmente, es una cuenta de ingresos. |
+| Campo Cuenta | Descripción | Utilizado en tipo WIP |
+| --- | --- |  --- |
+| **Código** |Un identificador para el grupo contable. Puede escribir hasta 10 caracteres, incluso espacios. | |
+| **Cuenta costes WIP** |Es la cuenta de trabajo en curso para el costo calculado de WIP del proyecto, y es una cuenta de activos de capital de balance. | Costo aplicado, Costos reconocidos|
+| **Cta. costes acumulados trabajo en curso** |Una cuenta para el método Valor costo o Costo de ventas del cálculo de WIP. Esta cuenta es para pasivo de gastos acumulados en la hoja de balance. Cuando un ajuste de WIP requiere aumentar los costos de uso que se registran en el resultado, se registran en esta cuenta. | Costos acumulados|
+| **Cta. aplicada costes proyecto** |Es una cuenta de contrapartida de la cuenta de costos de trabajo en curso, que es complementaria de una cuenta de gastos negativa. Se utiliza cuando **Método registro WIP usado** se establece en *Proyecto*. | Costos aplicados, Costos reconocidos|
+| **Cta. de costes liq. productos** |Igual que **Cta. aplicada costos proyecto**, pero se usa cuando **Método registro WIP usado** se establece en *Mov. proyecto*.| |
+| **Cta. de costes liq. recursos** |Igual que **Cta. aplicada costos proyecto**, pero se usa cuando **Método registro WIP usado** se establece en *Mov. proyecto*.| |
+| **Cta. de costos liq. contab.** |Igual que **Cta. aplicada costos proyecto**, pero se usa cuando **Método registro WIP usado** se establece en *Mov. proyecto*.| |
+| **Cta. ajuste costes proyecto** |Es la cuenta de contrapartida de la cuenta de costos de trabajo en curso, que es una cuenta de gastos. | Costos acumulados|
+| **Cta. gastos C/G (presupuesto)** |La cuenta de ventas que se utilizará con este grupo contable para los gastos de contabilidad de las tareas del proyecto. Si se deja en blanco, se usa la cuenta introducida en la línea de planificación del proyecto. | |
+| **Cta. ventas acumuladas WIP** |Es la cuenta de trabajo en curso para el valor de ventas calculado de este trabajo, que es una cuenta de activos de capital del balance. Cuando un ajuste del trabajo en curso le exige un aumento de los ingresos reconocidos, se registran en esta cuenta. | Ventas acumuladas, Ventas reconocidas|
+| **Cta. ventas facturadas WIP** |Es la cuenta del valor de las ventas facturadas del trabajo en curso que no se puede reconocer. Es una cuenta de ingresos anticipados de balance. | Ventas reconocidas, Ventas aplicadas|
+| **Cuenta liq. ventas proy.** |Es la cuenta de contrapartida de la cuenta de ventas facturadas del trabajo en curso, que es una cuenta complementaria de ingresos. | Ventas aplicadas, Ventas reconocidas|
+| **Cuenta ajuste ventas proy.** |Es la cuenta de contrapartida de la cuenta de ventas del proyecto del trabajo en curso, que es una cuenta de ingresos. | Ventas acumuladas|
+| **Cuenta costes reconocidos** |Es la cuenta de gastos que contiene los costos reconocidos del proyecto. Normalmente, es una cuenta de cargo. | Costos reconocidos|
+| **Cuenta ventas reconocidas** |Es la cuenta de ingresos que contiene los ingresos reconocidos del proyecto. Normalmente, es una cuenta de ingresos. | Ventas reconocidas|
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/set-up-jobs-resources/) relacionada
+## Consultar la [formación de Microsoft](/training/paths/set-up-jobs-resources/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configuración de la administración de proyectos](projects-setup-projects.md)  
 [Vídeo: Cómo crear un proyecto en Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

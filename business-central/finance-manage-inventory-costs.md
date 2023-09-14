@@ -1,16 +1,16 @@
 ---
 title: Gestión de costos de inventario
 description: La gestión de costos se refiere al registro y la creación de reportes sobre los costos de explotación de la empresa e incluye la creación de reportes de los costos de fabricación e inventario.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="managing-inventory-costs"></a>Gestión de costos de inventario
+# Gestión de costos de inventario
 La gestión de costos, también conocida como "valoración de existencias", se refiere al registro y la creación de informes sobre los costos operativos de la empresa. Incluye la creación de informes de los costos de fabricación y de inventario, es decir, el valor de los productos.   
 
 Es preciso entender los principios básicos, es decir, que los métodos de valoración definen cómo se valoran los productos cuando salen del inventario, que el ajuste de costos actualiza el costo de las mercancías vendidas con los costos de compra asociados registrados tras su venta y que los valores de existencias deben registrarse en cuentas contables exclusivas periódicamente.
@@ -33,7 +33,7 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 |Realice tareas de control y reportes de final de período, como calcular el valor del inventario y registrar costos en la contabilidad general.|[Creación de informes de costos y conciliación con la contabilidad](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Obtenga información sobre cómo puede usar la cola de proyectos para mover las tareas para ajustar el costo de inventario o conciliarlo con la contabilidad en segundo plano.|[Ajustar y conciliar el costo de inventario con la contabilidad general con cola de proyectos](finance-manage-inventory-costs.md)|
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
  [Finanzas](finance.md)  
  [Inventario](inventory-manage-inventory.md)   
  [Ccial](sales-manage-sales.md)   
