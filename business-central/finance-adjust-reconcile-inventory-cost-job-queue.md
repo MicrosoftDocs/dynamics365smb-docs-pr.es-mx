@@ -11,11 +11,11 @@ ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: bholtorf
 ---
-# Programar tareas para ajustar y conciliar el costo de inventario con la contabilidad
+# <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Programar tareas para ajustar y conciliar el costo de inventario con la contabilidad
 
 Para optimizar la experiencia, el ajuste automático de costos y el registro en la contabilidad general están activados de forma predeterminada. Sin embargo, a medida que los datos se acumulan con el tiempo, eso podría afectar el rendimiento. Para reducir la carga en la aplicación, a menudo es útil usar entradas de la cola de proyectos para mover las tareas y ejecutarlas en segundo plano.
 
-## Mover la tarea de ajuste de costos de los productos a un segundo plano con la ayuda de la configuración asistida
+## <a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup"></a>Mover la tarea de ajuste de costos de los productos a un segundo plano con la ayuda de la configuración asistida
 
 Crear los movimientos de cola de proyectos puede ser complicado, incluso para un consultor experimentado, por lo que contamos con una guía de configuración asistida para facilitar el proceso de ajuste de los costos de los productos.  
 
@@ -29,7 +29,7 @@ Crear los movimientos de cola de proyectos puede ser complicado, incluso para un
 
 5. Seleccione el campo **Ver los movimiento de la cola de proyectos al finalizar** para revisar y ajustar la configuración. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).  
 
-## Para crear un movimiento de cola de proyectos para ajustar y conciliar el costo de inventario manualmente
+## <a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a>Para crear un movimiento de cola de proyectos para ajustar y conciliar el costo de inventario manualmente
 
 Alternativamente, puede crear movimientos de cola de proyectos manualmente. El siguiente procedimiento muestra cómo configurar el trabajo por lotes **Ajustar costo: movimientos de producto** para que se ejecute automáticamente a diario, pero los mismos pasos se aplican al trabajo por lotes **Registrar costo de inventario en contabilidad**.  
 
@@ -48,7 +48,7 @@ Para programar una tarea para conciliar el inventario con la contabilidad genera
 > [!TIP]
 > Para evitar el bloqueo, no programe tareas para la tarea por lotes **Ajustar costo: movs. producto**, la codeunit **Reg. var. inventario en contabilidad** ni las tareas para registrar transacciones de venta o compra al mismo tiempo. Además, asegúrese de que utilicen la misma categoría de cola de trabajos.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Ajustar precios de productos](inventory-how-adjust-item-costs.md)  
 [Conciliar costos de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
