@@ -9,7 +9,7 @@ ms.date: 02/02/2023
 ms.custom: bap-template
 ms.search.form: '42, 50, 9305, 9307'
 ---
-# Crear facturas de anticipo
+# <a name="create-prepayment-invoices"></a>Crear facturas de anticipo
 
 Si requiere que sus clientes paguen antes de enviarles la orden, puede usar las características de anticipo. Lo mismo se aplica si su proveedor requiere que pague antes de enviarle un pedido.  
 
@@ -19,7 +19,7 @@ Después de crear una orden de venta o de compra, puede crear una factura de ant
 
 El procedimiento siguiente describe cómo facturar un anticipo de la orden de venta. Los pasos son parecidos para pedidos de compra.  
 
-## Para crear una factura de anticipo
+## <a name="to-create-a-prepayment-invoice"></a>Para crear una factura de anticipo
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2. Cree un pedido de venta nuevo para un cliente relevante. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).  
@@ -70,11 +70,11 @@ Puede emitir otras facturas de anticipo adicionales para la orden. Para emitir o
 
  Cuando esté listo para registrar el resto de la factura, hágalo del mismo modo que lo haría con cualquier otra factura; la cantidad de anticipo se descontará automáticamente del importe adeudado.  
 
-## Actualizar el estado de los pedidos y facturas prepago automáticamente
+## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Actualizar el estado de los pedidos y facturas prepago automáticamente
 
 Puede acelerar el procesamiento de pedidos y facturas configurando entradas de cola de trabajos que actualizan automáticamente el estado de esos documentos. Cuando se paga una factura de anticipo, las entradas de la cola de proyecto pueden cambiar automáticamente el estado del documento de **Anticipo pendiente** a **Liberado**. Cuando configure las entradas de la cola de trabajos, las unidades de código que necesitará usar son **383 actualizado Pendiente Prepago Ventas** y **383 actualizado Pendiente Prepago Compra**. Le recomendamos que programe las entradas para que se ejecuten con frecuencia, por ejemplo, cada minuto. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Facturación de anticipos](finance-invoice-prepayments.md)  
 [Tutorial: Configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
