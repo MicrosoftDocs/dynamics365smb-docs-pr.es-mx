@@ -22,9 +22,7 @@ La contabilidad de costos se utiliza para ayudarle a conocer los costos de la di
 |Transferir movimientos de contabilidad a movimientos de costo.|[Transferencia y registro de movimientos de costo](finance-transfer-and-post-cost-entries.md)|  
 |Asignar costos.|[Definición y asignación de costos](finance-define-and-allocate-costs.md)|  
 |Conocer los procesos de creación de presupuestos de costos.|[Crear presupuesto costo](finance-create-cost-budgets.md)|
-|Cancelar movimientos de presupuesto de costos en el registro de presupuestos de costos.|[Eliminar movs. ppto. costos](finance-how-to-delete-cost-budget-entries.md)|
-
-## Consultar la [formación de Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) relacionada
+|Cancelar movimientos de presupuesto de costos en el registro de presupuestos de costos.|[Eliminar movimientos de presupuesto de costos](finance-how-to-delete-cost-budget-entries.md)|
 
 ## Consulte también  
 [Finanzas](finance.md)  

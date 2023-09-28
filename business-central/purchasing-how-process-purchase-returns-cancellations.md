@@ -61,7 +61,7 @@ Para obtener más información, consulte [Detalles de diseño: valoración de in
 
 Las facturas de compra registradas a las que se aplica la nota de crédito ahora están revertidas. Si ya ha pagado la factura original, el proveedor ahora deberá reembolsarle el pago a usted. Si la nota de crédito es solo para parte del producto en la factura original, puede pagar solo el importe pendiente en la factura de compra original para cerrarla.
 
-La nota de crédito de compra se ha eliminado y remplazado por un nuevo documento en la lista de notas de crédito de compra registradas.
+La nota de crédito de compra se elimina y se reemplaza por un nuevo documento en la lista de notas de crédito de compra registradas.
 
 ## Crear un nuevo abono de compra copiando una factura de compra registrada.
 
@@ -180,8 +180,6 @@ Cuando se combinan envíos de devolución en una misma nota de crédito y se reg
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Eliminar pedidos de devolución de compra facturados** y, a continuación, elija el enlace relacionado.  
 2. Rellene los campos según sea necesario y, a continuación, haga clic en el botón **Aceptar**.  
 3. También puede eliminar los pedidos de devolución de compra individuales manualmente.
-
-## Consultar la [formación de Microsoft](/training/paths/return-items-dynamics-365-business-central/) relacionada
 
 ## Consulte también
 [Compras](purchasing-manage-purchasing.md)  

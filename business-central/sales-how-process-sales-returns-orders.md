@@ -62,7 +62,7 @@ Además de la factura de venta registrada original, puede liquidar la nota de cr
      > [!NOTE]  
      >  Si ya se ha revertido, vendido o consumido parte de la cantidad de la línea del documento registrado, se crea una línea sólo para la cantidad que queda en inventario o que no se ha devuelto. Si ya se ha revertido toda la cantidad de la línea del documento registrado, no se crea una nueva línea de documento.  
      >   
-     >  Si el flujo de los artículos en el documento registrado coincide con el del nuevo documento, se crea una copia de la línea del documento registrado original en el nuevo documento. El campo **Liq. movimiento prod.** no se rellenó porque, en este caso, la reversión de costo exacto no es posible. Por ejemplo, si utiliza la función **Revertir líneas de documentos registrados** para obtener una línea de una nota de crédito de venta registrada para una nueva nota de crédito de venta , solo se copia la línea de la nota de crédito registrada original en la nota de crédito nueva.  
+     >  Si el flujo de los artículos en el documento registrado coincide con el del nuevo documento, se crea una copia de la línea del documento registrado original en el nuevo documento. El campo **Liq. movimiento prod.** no se rellenó porque, en este caso, la reversión de costo exacto no es posible. Por ejemplo, si utiliza la función **Revertir líneas de documentos registrados** para obtener una línea de una nota de crédito de venta registrada para una nueva nota de crédito de venta, solo se copia la línea de la nota de crédito registrada original en la nota de crédito nueva.  
 
 10. En la página **Pedido dev. venta**, en el campo **Cód. auditoría dev.** de cada línea, seleccione el motivo de la devolución.
 11. Seleccione la acción **Registrar**.
@@ -94,8 +94,6 @@ Registre este precio aumentado como un cargo de producto en una nota de crédito
 3. Rellene los campos según la líneas del coste de producto. Para obtener más información, consulte [Usar los cargos de producto para costos comerciales adicionales](payables-how-assign-item-charges.md).  
 
 Cuando registre el pedido de devolución de ventas, se añadirá el cargo de reaprovisionamiento al importe del movimiento de ventas correspondiente. De este modo podrá mantener la precisión de la valuación de inventarios.  
-
-## Consultar la [formación de Microsoft](/training/paths/return-items-dynamics-365-business-central/) relacionada
 
 ## Consulte también
 

@@ -167,11 +167,9 @@ En la ilustración siguiente se muestra cuando se rellena el campo **Cód. ubica
 
 :::image type="content" source="media/binflow.png" alt-text="Descripción general de cuándo y cómo se rellena el campo Código de ubicación.":::
 
-## Consultar la [formación de Microsoft](/training/paths/pick-ship-items-business-central/) relacionada
-
 ## Consulte también .
 
-[Inventario](inventory-manage-inventory.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)

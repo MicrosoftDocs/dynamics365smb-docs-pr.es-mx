@@ -59,9 +59,7 @@ Si la cancelación está relacionada con un registro parcial de la factura, la l
 4. Una nueva factura de venta con la misma información se crea donde puede realizar la corrección. El campo **Cancelado** en la factura de ventas registrada inicial se cambia a **Sí**.
 
     Una nota de crédito de ventas se crea y se registra automáticamente para anular la factura de venta registrada inicial.
-5. Elija la acción **Mostrar nota de crédito correctiva** para ver la nota de crédito de venta que anula la factura de venta registrada inicial.
-
-## Consultar la [formación de Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/) relacionada
+5. Elija la acción **Mostrar nota de crédito correctiva** para ver la nota de crédito de venta registrada que anula la factura de venta registrada inicial.
 
 ## Consulte también .
 

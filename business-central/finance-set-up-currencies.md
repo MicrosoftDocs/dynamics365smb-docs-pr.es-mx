@@ -111,8 +111,6 @@ Puede especificar un código de divisa en un registro línea y registrar dicha l
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Consultar la [formación de Microsoft](/training/modules/currencies-exchange-rates-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Actualizar tipos cambio divisa](finance-how-update-currencies.md)  

@@ -61,7 +61,7 @@ Puede usar las acciones **Mostrar líneas con problemas** y **Mostrar todas las 
 
 ## Descripción de las cuentas principales y las cuentas de contrapartida
 
-Si ha configurado cuentas de contrapartida predeterminadas para las secciones del diario en la página **Diarios generales**, la cuenta de contrapartida se rellenará automáticamente cuando rellene el campo **Nº cuenta**. En caso contrario, deberá rellenar manualmente los campos **Nº cuenta** y **Cta. contrapartida**. Un importe positivo en el campo **Importe** se debita de la cuenta principal y se acredita en la cuenta de contrapartida. Un importe negativo se acredita en la cuenta principal y se adeuda en la cuenta de contrapartida.
+Si ha configurado cuentas de contrapartida predeterminadas para las secciones del diario en la página **Diarios generales**, la cuenta de contrapartida se rellenará automáticamente cuando rellene el campo **Nº cuenta**. En caso contrario, deberá rellenar manualmente los campos **Nº cuenta** y **Cta. contrapartida**. Un importe positivo en el campo **Importe** se debita de la cuenta principal y se acredita en la cuenta de contrapartida. Un importe negativo se acredita en la cuenta principal y se debita de la cuenta de contrapartida.
 
 > [!NOTE]  
 > El IVA se calcula de manera independiente para la cuenta principal y la cuenta de contrapartida, para que puedan utilizar diferentes tipos porcentuales de IVA.
@@ -224,11 +224,9 @@ El procedimiento siguiente se basa en la página **Diario general**, pero se apl
 
 Cuando sea necesario, los valores del campo **Nº documento** se cambian para que el número de documento en las líneas de diario individuales o agrupadas estén en orden secuencial. Después de que se vuelven a numerar documentos, podrá registrar el diario.
 
-## Consultar la [formación de Microsoft](/training/paths/use-journals-dynamics-365-business-central/) relacionada
-
 ## Consulte también
 
-[Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)  
+[Registrar transacciones directamente en la contabilidad general](finance-how-post-transactions-directly.md)  
 [Revertir los registros de diario y deshacer las recepciones/remisiones](finance-how-reverse-journal-posting.md)  
 [Asignar costes e ingresos](year-allocate-costs-income.md)  
 [Finanzas](finance.md)  

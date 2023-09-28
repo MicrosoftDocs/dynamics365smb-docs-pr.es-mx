@@ -35,11 +35,9 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 |Obtener información sobre el modo de reorganizar ubicaciones o zonas para lograr mayor eficiencia en las actividades del almacén.|[Reestructurar almacenes](warehouse-how-to-restructure-warehouses.md)|
 |Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos.|[Selección de informes en Business Central](across-report-selections.md)|
 
-## Consultar la [formación de Microsoft](/training/paths/set-up-warehouse-management/) relacionada
-
 ## Consulte también .
 
-[Inventario](inventory-manage-inventory.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

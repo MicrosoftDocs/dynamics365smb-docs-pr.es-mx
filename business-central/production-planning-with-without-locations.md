@@ -139,8 +139,6 @@ Como se puede ver en el último escenario, la única manera de conseguir un resu
 
 Por tanto, si suele planificar la demanda en diferentes almacenes, le recomendamos que use la funcionalidad Unidades de almacenamiento.
 
-## Consulte la formación relacionada en [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
-
 ## Consulte también .
 
 [Planificación](production-planning.md)  

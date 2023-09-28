@@ -66,8 +66,6 @@ Puede combinar varios activos en uno, por ejemplo, cuando mueve los activos fijo
 2. Rellene los campos según sea necesario.
 3. Haga clic en el botón **Imprimir** o **Vista previa**.  
 
-## Consultar la [formación de Microsoft](/training/paths/reclassify-fixed-assets/) relacionada
-
 ## Consulte también .
 
 [Activos fijos](fa-manage.md)  

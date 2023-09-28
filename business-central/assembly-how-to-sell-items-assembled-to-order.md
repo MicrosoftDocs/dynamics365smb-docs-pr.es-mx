@@ -3,7 +3,7 @@ title: Venta de artículos ensamblados para pedido
 description: Vea cómo vender un artículo que se ensamble para pedido.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
@@ -59,8 +59,6 @@ En este procedimiento, procesa la venta de un producto que se ensamblará según
 
 > [!NOTE]  
 > Las sustituciones de productos no reemplazan un producto automáticamente por otro producto, por ejemplo, al crear un pedido de cliente o en una lista de materiales. En cambio, se le alertará sobre el hecho de que hay una sustitución disponible.
-
-## Consultar la [formación de Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) relacionada
 
 ## Consulte también .
 

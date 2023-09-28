@@ -92,8 +92,6 @@ La conversión elimina la cotización de venta de la base de datos. Una factura 
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Ventas](sales-manage-sales.md)  

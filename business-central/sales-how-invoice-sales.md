@@ -119,8 +119,6 @@ Incluso puede crear facturas pagadas directamente para clientes no registrados c
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Consultar la [formación de Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/index) relacionada.
-
 ## Consulte también .
 
 [Ventas](sales-manage-sales.md)  

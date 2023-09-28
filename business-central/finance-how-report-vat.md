@@ -126,7 +126,7 @@ Si utiliza otro método para enviar el informe, por ejemplo, exportar el XML y c
 ## Liquidación IVA
 Periódicamente, debe remitir el saldo del IVA a las autoridades fiscales. Si tiene que liquidar el IVA con frecuencia, puede ejecutar el trabajo por lotes **Calc. y registrar liq. IVA** para cerrar los movimientos de IVA abiertos y transferir los importes del IVA de ventas y compras a la cuenta de liquidación del IVA.
 
-Al transferir importes de IVA a la cuenta de liquidación, la cuenta de IVA soportado se contabiliza en el Haber y la cuenta de IVA repercutido se contabiliza en el Deber con los importes calculados en el periodo. El importe neto se contabiliza en el Haber, o en el Debe, si el importe de IVA soportado es superior, en la cuenta de liquidación del IVA. Puede registrar la liquidación inmediatamente o imprimir primero un informe.  
+Al transferir importes de IVA a la cuenta de liquidación, los importes calculados en el período se acreditan en cuenta de IVA de compras y se debitan de la cuenta de IVA de ventas. El importe neto se acredita o debita si el importe de IVA de compra es superior, en la cuenta de liquidación de IVA. Puede registrar la liquidación inmediatamente o imprimir primero un informe.  
 
 > [!Note]
 > Cuando se utiliza el trabajo por lotes **Calc. y registrar liq. IVA**, si no especifica un **Grupo registro IVA neg.** y un **Grupo registro IVA prod.**, se incluirán los movimientos con todos los códigos de los grupos contables de negocio y los de grupos contables de producto.
@@ -147,8 +147,6 @@ En la tabla siguiente se describen las codeunits que debe crear para el informe.
 
 > [!Note]
 > Cuando cree las unidades de código para el informe, ponga atención al valor del campo **Versión de informe de IVA**. Este campo debe reflejar la versión del informe que la autoridad tributaria requiere. Por ejemplo, puede introducir **2021** en el campo para indicar que el informe cumple con los requisitos que estaban en vigor ese año. Para buscar la versión actual, póngase en contacto con su autoridad fiscal.  
-
-## Consultar la [formación de Microsoft](/training/paths/process-vat-dynamics-365-business-central/) relacionada
 
 ## Consulte también .
 

@@ -60,8 +60,6 @@ Puede crear una factura a partir de las líneas de planificación de proyecto e 
 > [!NOTE]  
 >   El procedimiento descrito anteriormente es similar para crear, revisar y registrar una nota de crédito de venta relacionada con la tarea.
 
-## Consultar la [formación de Microsoft](/training/paths/post-job-usage-sales/) relacionada
-
 ## Consulte también .
 
 [Administrar proyectos](projects-manage-projects.md)  

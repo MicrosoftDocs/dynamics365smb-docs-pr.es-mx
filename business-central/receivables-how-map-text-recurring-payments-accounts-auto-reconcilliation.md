@@ -50,9 +50,7 @@ Para registrar siempre los gastos relacionados con las tarifas de un banco espec
 
 | Asignación de texto | N.º cta. débito | N.º cta. crédito | Tipo origen contr. | N.º origen contr. |
 | --- | --- | --- | --- | --- |
-| MyBank |EN BLANCO |60400|Cuenta |EN BLANCO |
-
-## Consultar la [formación de Microsoft](/training/modules/use-journals-dynamics-365-business-central/) relacionada
+| MyBank |EN BLANCO |60400|Cuenta C/G |EN BLANCO |
 
 ## Consulte también .
 

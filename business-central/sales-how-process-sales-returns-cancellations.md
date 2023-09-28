@@ -140,8 +140,6 @@ Para asignar manualmente la reversión del costo exacto, debe elegir el campo **
 
 Para obtener más información, consulte [Detalles de diseño: valoración de inventario](design-details-inventory-costing.md).
 
-## Consultar la [formación de Microsoft](/training/paths/return-items-dynamics-365-business-central/) relacionada
-
 ## Consulte también
 
 [Ventas](sales-manage-sales.md)  

@@ -41,7 +41,7 @@ La base de la rutina de planificación es el cálculo bruto-neto. Las necesidade
 
 Como se puede ver en el campo **Sistema reposición** de una ficha de unidad de almacenamiento, el sistema de planificación se puede configurar para que cree pedidos de transferencia que equilibren el suministro y la demanda entre los distintos almacenes.  
 
-Además de dichas órdenes de transferencia automáticos, puede que a veces sea necesario realizar un traslado general de cantidades de inventario a otro almacén, independientemente de la demanda existente. Para ello debería crear manualmente un pedido de transferencia con la cantidad que trasladar. Para garantizar que el sistema de planificación no intenta manipular este pedido de transferencia manual, debe establecer el campo **Flexibilidad de planificación** de las líneas de transferencia en Ninguna.  
+Además de dichas órdenes de transferencia automáticas, puede que a veces sea necesario realizar un traslado general de cantidades de inventario a otro almacén, independientemente de la demanda existente. Para ello debería crear manualmente un pedido de transferencia con la cantidad que trasladar. Para garantizar que el sistema de planificación no intenta manipular este pedido de transferencia manual, debe establecer el campo **Flexibilidad de planificación** de las líneas de transferencia en Ninguna.  
 
 Por el contrario, si desea que el sistema de planificación ajuste las cantidades del pedido de transferencia y las fechas para la demanda existente, debe establecer el campo **Flexibilidad de planificación** en el valor predeterminado, Ilimitada.
 
@@ -144,7 +144,7 @@ La página **Hoja demanda** incluye una lista de productos que desea solicitar. 
 
 - Introduzca los productos manualmente en la hoja y rellene los campos pertinentes.
 
-- Use el trabajo por lotes **Calcular plan**. De este modo, se calculará un plan de reposición para los productos y las unidades de almacenamiento que se han configurado con un sistema de reposición de **Compra** o **Transferencia**. Cuando utilice este proceso, el programa rellenará automáticamente el campo **Mensaje acción** con una acción recomendada que puede realizar para reponer el producto. Por ejemplo, podría ser: aumentar la cantidad de producto en un pedido existente o crear un nuevo pedido.
+- Use el trabajo por lotes **Calcular plan**. De este modo, se calculará un plan de reposición para los productos y las unidades de almacenamiento que se han configurado con un sistema de reposición de **Compra** o **Transferencia**. Al utilizar este proceso, el sistema rellena automáticamente el campo **Mensaje acción** con una sugerencia acerca de la acción que debe llevar a cabo para reponer el producto. Por ejemplo, podría ser: aumentar la cantidad de producto en un pedido existente o crear un nuevo pedido.
 
 - Si ha utilizado el proceso **Calcular plan** desde la página **Hoja planificación** para calcular un plan de reposición, puede aplicar el proceso **Ejecutar mensajes acción** para copiar las propuestas de pedido de compra y transferencia de la hoja de planificación a la hoja de demanda. Esto es práctico si separa los usuarios responsables de la gestión de órdenes de producción de los responsables de pedidos de compra y transferencia.
 
@@ -159,11 +159,9 @@ Para obtener detalles sobre la planificación con ubicaciones y transferencias, 
 > [!TIP]
 > Cuando trabaje en las páginas **Hoja de demanda** u **Hoja de planificación**, puede organizar las líneas ordenándolas por nombre de columna. Esto es especialmente útil en la página Hoja de planificación porque se puede usar para órdenes de producción de varios niveles. De forma predeterminada, las líneas se ordenan por el campo **N.º producto**. Para agrupar líneas de un pedido de varios niveles, ordene según el **Nº orden ref.** . También los campos **Orden MPS** y **Nivel de planificación** pueden ayudar a mostrar la jerarquía de las líneas.
 
-## Consultar la [formación de Microsoft](/training/modules/plan-items-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
-[Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)  
+[Detalles de diseño: planificación de suministro](design-details-supply-planning.md)  
 [Planificación](production-planning.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)  

@@ -3,7 +3,7 @@ title: 'Configurar proyectos, precios y grupos contables de proyectos'
 description: Describe cómo configurar información general sobre trabajos.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/25/2023
 ms.custom: bap-template
@@ -98,8 +98,6 @@ Un aspecto de los proyectos de planificación es decidir qué cuentas de registr
 | **Cuenta ajuste ventas proy.** |Es la cuenta de contrapartida de la cuenta de ventas del proyecto del trabajo en curso, que es una cuenta de ingresos. | Ventas acumuladas|
 | **Cuenta costes reconocidos** |Es la cuenta de gastos que contiene los costos reconocidos del proyecto. Normalmente, es una cuenta de cargo. | Costos reconocidos|
 | **Cuenta ventas reconocidas** |Es la cuenta de ingresos que contiene los ingresos reconocidos del proyecto. Normalmente, es una cuenta de ingresos. | Ventas reconocidas|
-
-## Consultar la [formación de Microsoft](/training/paths/set-up-jobs-resources/) relacionada
 
 ## Consulte también .
 

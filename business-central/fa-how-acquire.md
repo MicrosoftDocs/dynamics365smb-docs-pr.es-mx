@@ -19,7 +19,7 @@ Cuando se ha configurado un activo fijo y se le ha asignado un libro de amortiza
 
 El valor residual es el valor restante de un activo fijo cuando ya no se puede utilizar. Puede registrar el valor residual en el momento de registrar el costo de adquisición. Para obtener más información, consulte [Depreciar o amortizar activos fijos](fa-how-depreciate-amortize.md).
 
-El ajuste de valores se utiliza para ajustar los valores a los cambios de niveles generales de precio. El proceso **Ajustar valores fijos** puede utilizarse para calcular los costos de adquisición como de sustitución.
+El ajuste de valores se utiliza para ajustar los valores a los cambios de niveles generales de precio. El proceso **Ajustar valores activos fijos** puede utilizarse para calcular los costos de adquisición como de sustitución.
 
 ## Para crear un activo fijo y adquirirlo automáticamente
 
@@ -98,8 +98,6 @@ Puede registrar el valor residual junto con el costo a partir del diario de acti
 
 > [!NOTE]
 > Si existe un valor residual para un activo fijo, ese valor se utilizará en el registro de amortización en lugar del valor del campo **Valor contable final** en la página **Libros amortización A/F**. Para obtener más información, consulte [Para administrar el valor contable final](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
-
-## Consultar la [formación de Microsoft](/training/modules/purchase-fixed-assets/) relacionada
 
 ## Consulte también .
 

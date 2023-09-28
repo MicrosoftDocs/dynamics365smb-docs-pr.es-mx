@@ -22,7 +22,7 @@ ms.author: bholtorf
 Si escribe una fecha de entrega requerida en la línea de pedido de venta, dicha fecha se convertirá en el punto inicial para los cálculos siguientes.
 
 - *fecha de entrega requerida - hora de envío = fecha de envío planificada*
-- *fecha de envío planificada - tiempo de manip. alm. salida = fecha de envíon*
+- *Fecha envío planeada - Tiempo manip. alm. salida = Fecha envío*
 
 Si los productos están disponibles para el picking en la fecha de remisión, el proceso de venta puede continuar. De lo contrario, se muestra una advertencia de falta de stock.
 
@@ -34,14 +34,12 @@ Si los productos están disponibles para el picking en la fecha de remisión, el
 Si no especifica una fecha de entrega requerida en la línea del pedido de venta, o si la fecha de entrega requerida no se puede cumplir, se calculará la fecha de disponibilidad de los productos más cercana. A continuación, se insertará dicha fecha en la línea del campo **Fecha de envío** y con las siguientes fórmulas calculará la fecha prevista para el envío de los productos y la fecha de su entrega al cliente:
 
 - *fecha de envío + tiempo de manip. alm. salida = fecha de envío planificada*
-- *fecha de envío planificada + hora de envío = fecha de entrega planificada*
-
-## Consulte la [formación de Microsoft](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/) relacionada.
+- *Fecha envío planeada + Hora envío = Fecha entrega planeada*
 
 ## Consulte también .
 
 [Cálculo de la fecha de compras](purchasing-date-calculation-for-purchases.md)  
-[Calcular fechas de compromiso de entrega de pedido](sales-how-to-calculate-order-promising-dates.md)  
+[Calcular fechas de compromiso de pedido](sales-how-to-calculate-order-promising-dates.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -34,13 +34,11 @@ Como cuando se vende cualquier otro tipo de producto, también puede crear una c
 6.  Cuando se hayan ajustado las líneas del pedido de ensamblado a la cotización, cierre la página **Ensamblar para líneas de pedido** para volver a la página **Cotización venta**.  
 7.  Si el cliente acepta la cotización, cree un pedido de venta para el producto de ensamblado cotizado. Para obtener más información, consulte [Crear cotizaciones de ventas](sales-how-make-offers.md). La cotización de ensamblado vinculada y cualquier personalización se asocian a ese nuevo pedido de venta para preparar el ensamblado del producto o los productos que se van a vender.  
 
-## Consultar la [formación de Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)  
-[Inventario](inventory-manage-inventory.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

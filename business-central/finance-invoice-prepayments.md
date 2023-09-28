@@ -29,8 +29,6 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 |Crear un pedido, ajustar los importes de anticipo y emitir una factura para los importes de anticipo.|[Crear facturas de anticipo](finance-how-to-create-prepayment-invoices.md)|  
 |Emitir una factura de anticipo adicional, bien para productos adicionales o para un depósito adicional en el pedido original, o emitir una nota de crédito de anticipo.|[Corregir anticipos](finance-how-to-correct-prepayments.md)|  
 
-## Consultar la [formación de Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/index) relacionada
-
 ## Consulte también
 
 [Tutorial: Configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

@@ -1,7 +1,7 @@
 ---
 title: Modificar o cancelar facturas de compra sin abonar (contiene vídeo)
 description: 'Explica cómo corregir, cancelar o deshacer una factura de compra registrada y crear automáticamente una nota de crédito de compra.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: 'undo, credit memo, return'
 ms.search.form: '138, 140, 146'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 # Corregir o cancelar facturas de compra sin abonar
 
@@ -50,8 +50,6 @@ En la página **Factura de compra registrada**, puede elegir el botón **Corregi
 ### También se admite el registro parcial de facturas
 
 Si la cancelación está relacionada con un registro parcial de la factura, la línea de pedido de compra original se actualiza para reflejar la cantidad facturada cancelada. Los campos **Cant. a facturar** y **Cant. facturada** en la línea de pedido de compra relacionada se restablecen a los valores previos del registro parcial.
-
-## Consultar la [formación de Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/) relacionada
 
 ## Consulte también .
 

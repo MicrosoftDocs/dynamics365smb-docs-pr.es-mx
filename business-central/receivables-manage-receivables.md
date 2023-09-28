@@ -39,9 +39,7 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 |Con el consentimiento de sus clientes, los pagos se cobran directamente al banco del cliente, solo en euros.|[Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)|
 |Bloquear a un cliente para que no pueda entrar en documentos o publicaciones, por ejemplo porque es insolvente.|[Bloquear clientes](receivables-how-block-customers.md)|
 |Configure una tolerancia por la que el sistema cierre una factura aunque el pago, incluido el descuento, no cubra totalmente el importe de la factura.|[Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-| Predecir cuando los pagos se realizarán tarde para los documentos de ventas. | [Extensión de Predicción de pagos atrasados](ui-extensions-late-payment-prediction.md) |
-
-## Consultar la [formación de Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) relacionada
+| Predecir cuando los pagos se realizarán tarde para los documentos de ventas. | [Extensión de predicción de pagos atrasados](ui-extensions-late-payment-prediction.md) |
 
 ## Consulte también
 [Ventas](sales-manage-sales.md)  

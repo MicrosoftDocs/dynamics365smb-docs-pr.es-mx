@@ -43,8 +43,6 @@ Este tema define los términos clave que se utilizan en contabilidad de costos.
 |Costo variable|Los costos variables son los gastos que cambian en proporción a la actividad de una empresa. Los costos variables son la suma de costos marginales en todas las unidades producidas. Los costos fijos y los costos variables componen los dos componentes de costos totales.|  
 |Variante|Una variante se utiliza como etiqueta definida por el usuario opcional para las asignaciones. El objetivo de la etiqueta es filtrar grupos de asignación.|  
 
-## Consultar la [formación de Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
  [Acerca de la contabilidad de costos](finance-about-cost-accounting.md)  

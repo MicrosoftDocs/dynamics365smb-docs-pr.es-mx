@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.search.form: '130, 142, 1350'
 ms.date: 04/01/2021
 ms.author: bholtorf
@@ -46,8 +46,6 @@ En la mayoría de los casos, puede abrir movimientos desde la tarjeta o document
 ## Editar movimientos
 
 Puede editar determinados campos en documentos de compra registrados, como **Nº seguimiento bulto**. . Para obtener más información, vea [Editar documentos registrados](across-edit-posted-document.md). Para campos más críticos que afectan el registro de auditoría, debe revertir o deshacer la publicación. Para obtener más información, vea [Revertir los registros de diario y deshacer las recepciones/remisiones](finance-how-reverse-journal-posting.md).
-
-## Consultar la [formación de Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/index) relacionada
 
 ## Consulte también
 

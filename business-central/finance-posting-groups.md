@@ -95,7 +95,7 @@ Al crear un documento de ventas, el encabezado de ventas usa la información de 
 
 * El registro de ingresos (resultado) se determina mediante la combinación del grupo contable de negocio general y el grupo contable de producto general.  
 * El registro de cobros (balance) se determina mediante el grupo contable de cliente.  
-* El registro de inventario (balance) se determina mediante el grupo contable de inventario.  
+* El registro de inventario (balance) se determina mediante el grupo de registro de inventario.  
 * El registro del costo de productos vendidos (resultado) se determina mediante la combinación del grupo contable de negocio general y el grupo contable de producto.  
 
 La configuración determina cuándo se realiza el registro. Por ejemplo, el tiempo se ve afectado por el momento en que realiza actividades periódicas, como registrar el costo del inventario o ajustar los movimientos de producto de costo.
@@ -125,8 +125,6 @@ Cuando algo anda mal, [!INCLUDE[prod_short](includes/prod_short.md)] mostrará l
 
 > [!NOTE]
 > El manejo de errores descrito anteriormente no está disponible en diarios de artículos, recursos, empleados y activos fijos, ni para cuentas de contabilidad general agregadas en versiones locales de grupos de registro.
-
-## Consultar la [formación de Microsoft](/training/modules/posting-groups-dynamics-365-business-central/) relacionada
 
 ## Consulte también .
 

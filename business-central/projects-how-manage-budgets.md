@@ -43,8 +43,6 @@ En la página **Ficha proyecto**, puede ver un resumen del total de costos presu
 
 Para obtener información acerca del registro de precios y costos de proyecto presupuestados frente a reales, vea [Registrar el uso para proyectos](projects-how-record-job-usage.md).
 
-## Consultar la [formación de Microsoft](/training/modules/set-up-job-planning-lines/) relacionada
-
 ## Consulte también .
 
 [Administración de proyectos](projects-manage-projects.md)  

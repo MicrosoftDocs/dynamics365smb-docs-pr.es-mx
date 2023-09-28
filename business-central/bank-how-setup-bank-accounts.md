@@ -229,8 +229,6 @@ Después de crear la nueva cuenta bancaria, también debe crear un nuevo grupo c
 
 Para obtener una vista más condensada de sus cuentas de caja en los informes financieros, utilice las cuentas **Principio-Total** y **Fin-Total** en su catálogo de cuentas, las filas **Sumatorio** en informes financieros o las categorías de cuentas de contabilidad general. Más información en [Inteligencia empresarial y Financial Reporting](bi.md).
 
-## Consultar la [formación de Microsoft](/training/modules/cash-management-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Configurar banca](bank-setup-banking.md)  
