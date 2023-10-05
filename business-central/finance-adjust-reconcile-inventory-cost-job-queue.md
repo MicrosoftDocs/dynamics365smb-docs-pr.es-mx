@@ -11,7 +11,7 @@ ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: bholtorf
 ---
-# <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Programar tareas para ajustar y conciliar el costo de inventario con la contabilidad
+# <a name="schedule-jobs-to-adjust-and-reconcile-inventory-cost"></a>Programar tareas para ajustar y conciliar el costo de inventario con la contabilidad
 
 Para optimizar la experiencia, el ajuste automático de costos y el registro en la contabilidad general están activados de forma predeterminada. Sin embargo, a medida que los datos se acumulan con el tiempo, eso podría afectar el rendimiento. Para reducir la carga en la aplicación, a menudo es útil usar entradas de la cola de proyectos para mover las tareas y ejecutarlas en segundo plano.
 

@@ -44,7 +44,7 @@ El siguiente es el orden recomendado de los pasos que un administrador utiliza p
 > [!NOTE]
 > Para conectarse con el representante del grupo de IVA, los miembros del grupo deben tener una cuenta de usuario con acceso al [!INCLUDE[prod_short](includes/prod_short.md)] del representante del grupo de IVA. El representante del grupo de IVA debe crear al menos un usuario para esto. Sin embargo, por razones de seguridad, les recomendamos que creen un usuario para cada miembro del grupo de IVA, que puede ser una cuenta de usuario del sistema que no esté relacionada con una persona real. Asegúrese de distribuir las credenciales de usuario a los miembros del grupo de IVA de forma segura.
 
-### <a name="azure-active-directory-setup-for-group-members"></a>Configuración de Azure Active Directory para miembros del grupo
+### <a name="microsoft-entra-id-setup-for-group-members"></a>Configuración de Azure Active Directory para miembros del grupo
 
 Cuando el representante del grupo de IVA utiliza [!INCLUDE[prod_short](includes/prod_short.md)] en línea o local, los miembros del grupo de IVA deben utilizar Azure Active Directory para autenticar usuarios cuando envíen declaraciones de IVA al representante del grupo de IVA. Para [!INCLUDE[prod_short](includes/prod_short.md)] local, los miembros deben configurar el inicio de sesión único. Obtenga más información en [Configurar Autenticación con servicios web de Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory?tabs=singletenant%2Cadmintool).
 

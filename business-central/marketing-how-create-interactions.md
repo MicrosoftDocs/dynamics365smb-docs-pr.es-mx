@@ -17,7 +17,7 @@ Puede crear interacciones para registrar todas las interacciones y comunicacione
 
 Antes de crear interacciones, debe configurar las plantillas de interacción. Para obtener más información, vea [Configurar plantillas de interacción](marketing-interactions.md).
 
-## <a name="to-create-an-interaction"></a>Para crear interacciones
+## <a name="to-create-an-interaction-with-a-contact"></a>Para crear interacciones
 1. Abra el contacto, el vendedor o el movimiento de registro de interacción.
 2. Seleccione la acción **Crear interacción**.
 3. Rellene los campos y, a continuación, elija el botón **Aceptar**.
@@ -25,12 +25,12 @@ Antes de crear interacciones, debe configurar las plantillas de interacción. Pa
 > [!NOTE]  
 >   Si tiene que ejecutar otra tarea antes de finalizar la interacción, puede seleccionar **Cancelar** y, a continuación, finalizar la interacción más adelante. Esto hace que se aplace la interacción.
 
-## <a name="to-finish-and-delete-postponed-interactions"></a>Para finalizar y eliminar interacciones aplazadas
+## <a name="to-create-an-interaction-on-a-segment"></a>Para finalizar y eliminar interacciones aplazadas
 1. Abra el contacto, el vendedor o el movimiento de registro de interacción.
 2. Seleccione **Interacciones aplazadas**.
 3. Seleccione la interacción que desea terminar y, a continuación, seleccione la acción **Reanudar**.
 
-## <a name="to-create-an-interaction-on-a-segment"></a>Para crear una interacción en un segmento
+## <a name="to-finish-setting-up-a-postponed-interaction"></a>Para crear una interacción en un segmento
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Segmentos** y luego elija el enlace relacionado.
 2. En la página **Segmento**, en la sección **Interacción**, rellene los campos para especificar qué interacción quiere asignar al segmento.
 

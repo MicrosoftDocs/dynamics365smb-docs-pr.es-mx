@@ -19,19 +19,19 @@ La configuración de su aplicación para registrar interacciones consta de tres 
 * Crear interacciones en contactos o segmentos  
 * Ver y gestionar las interacciones registradas  
 
-## <a name="setting-up-interaction-templates"></a>Configurar plantillas de interacción
+## <a name="set-up-interaction-templates"></a>Configurar plantillas de interacción
 Antes de poder crear y registrar interacciones, debe configurar las plantillas de interacción. Al crear interacciones, debe especificar las plantillas en las que se basa. Una plantilla de interacción es un modelo que define las características básicas de una interacción.
 Puede configurar una plantilla de interacción en la página **Plantillas de interacción**.
 
 Después de especificar la información de la plantilla de interacción, puede crear un archivo adjunto, por ejemplo un documento de Microsoft Word. Repita estos pasos para configurar todas las plantillas de interacción que desee.  
 
-## <a name="creating-interactions"></a>Crear interacciones
+## <a name="create-interactions"></a>Crear interacciones
 Hay dos maneras de registrar interacciones:
 
 * puede crear de forma manual las interacciones relacionadas con un único contacto o un segmento. Para obtener más información, vea [Crear interacciones en contactos y segmentos](marketing-how-create-interactions.md)  
 * Puede registrar automáticamente interacciones cuando realiza acciones en la aplicación, por ejemplo, cuando imprime una factura o una cotización. Para obtener más información, vea [Registro automático de interacciones con contactos](marketing-auto-record-interactions.md)
 
-## <a name="viewing-and-managing-recorded-interactions"></a>Ver y administrar las interacciones registradas
+## <a name="view-and-manage-recorded-interactions"></a>Ver y administrar las interacciones registradas
 Puede ver todas las interacciones archivadas que no han sido borrados en la página **Movs. log. interacción**. Puede abrir esta página por:
 
 * Mediante el icono **Buscar por página o informe** para buscar en **Movs. log. interacción**.

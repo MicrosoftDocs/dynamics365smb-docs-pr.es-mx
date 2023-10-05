@@ -110,7 +110,7 @@ También debe usar **OAuth2** como **Tipo de autenticación**. También debe reg
 
 Debe configurar su instalación para usar HTTPS. Para más información, vea [Configuración SSL para proteger la conexión del cliente web de Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Si está configurando su servidor para tener una página de inicio diferente, puede cambiar la dirección URL. El secreto del cliente se guardará como una cadena encriptada en su base de datos.
 
-### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a>Para registrar una solicitud en Azure AD para conectarse desde Business Central a Exchange Online
+### <a name="to-register-an-application-in-microsoft-entra-id-for-connecting-from-business-central-to-exchange-online"></a>Para registrar una solicitud en Azure AD para conectarse desde Business Central a Exchange Online
 
 Se parte de la base que para los siguientes pasos está usando Azure Active Directory para gestionar identidades y accesos. Para obtener más información, consulte [Inicio rápido: registrar una aplicación con la plataforma de identidad de Microsoft](/azure/active-directory/develop/quickstart-register-app). 
 

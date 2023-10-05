@@ -26,7 +26,7 @@ Ahora, cuando se active la acción de sincronización, la tarea se ejecutará en
 
 Si falla una tarea de sincronización, puede activar el conmutador de alternancia **Habilitado registro** en la página **Tarjeta de tienda de Shopify** para activar el registro. Luego puede desencadenar manualmente la tarea de sincronización y revise los registros.
 
-### <a name="to-enable-logging"></a>Para habilitar el registro
+### <a name="manage-log-entry-data"></a>Para habilitar el registro
 
 1. Elija el icono ![Bombilla que abre la función Dígame 1.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tienda de Shopify** y luego elija el vínculo relacionado.
 2. Seleccione la tienda para la que desea solucionar problemas para abrir la página **Tarjeta de tienda de Shopify**.

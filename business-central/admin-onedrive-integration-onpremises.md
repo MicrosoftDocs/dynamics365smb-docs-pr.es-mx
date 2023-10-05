@@ -22,7 +22,7 @@ Hay dos tareas que deben realizarse para configurar la integración de OneDrive.
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] local solo se puede conectar a OneDrive alojado por Microsoft en la nube. No se admite la conexión de [!INCLUDE[prod_short](includes/prod_short.md)] local al repositorio Mis sitios de SharePoint Server.
 
-## <a name="register-an-app-in-azure-ad-for-onedrive-integration"></a><a name="registerapp"></a>Registrar una aplicación en Azure AD para la integración de OneDrive
+## <a name="register-an-app-in-microsoft-entra-id-for-onedrive-integration"></a><a name="registerapp"></a>Registrar una aplicación en Azure AD para la integración de OneDrive
 
 En esta tarea, agregará una aplicación registrada para Business Central en el inquilino de Azure AD de su plan Microsoft 365. Como otros servicios de Azure que funcionan con Business Central, OneDrive requiere una aplicación registrada en Azure Active Directory (Azure AD). La aplicación registrada proporciona servicios de autenticación y autorización entre Business Central y SharePoint, que utiliza OneDrive.
 

@@ -88,7 +88,7 @@ El cuadro de diálogo **Registrar y enviar confirmación** muestra el método pr
 
 El producto relacionado y los movimientos de cliente se han creado ahora en su sistema y la factura de venta se genera como un documento PDF. La factura de venta se elimina de la lista de facturas de venta y se reemplaza con un nuevo documento de la lista de facturas de venta registradas.  
 
-### <a name="calculating-invoice-discounts-on-sales"></a>Calcular descuentos en factura para ventas
+### <a name="calculate-invoice-discounts-on-sales"></a>Calcular descuentos en factura para ventas
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
@@ -100,7 +100,7 @@ Puede corregir o cancelar fácilmente una factura de venta registrada antes de q
 
 [Abra la lista **Histórico facturas venta**](https://businesscentral.dynamics.com/?page=143) en [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="registering-payments"></a>Registro de pagos
+## <a name="register-payments"></a>Registro de pagos
 
 En función de sus necesidades comerciales, puede recibir un pago y registrarlo de diferentes maneras: de forma manual, automática y mediante servicios de pago.  
 

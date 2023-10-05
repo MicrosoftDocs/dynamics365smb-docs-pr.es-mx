@@ -11,7 +11,7 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ---
 
-# <a name="troubleshooting-microsoft-teams-integration-with-"></a>Solución de problemas de integración de Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="troubleshoot-microsoft-teams-integration-with-"></a>Solución de problemas de integración de Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -147,7 +147,7 @@ Como administrador, quién tiene permisos de administrador de Azure Active Direc
 
 Cuando pega texto en el cuadro de mensaje en la ventana **Compartir con Teams**, el texto se duplica. Microsoft conoce este problema y se solucionará en una actualización posterior. 
 
-## <a name="unable-to-sign-into-the-share-to-teams-window"></a>No se puede iniciar sesión en la ventana Compartir con Teams
+## <a name="unable-to-sign-in-to-the-share-to-teams-window"></a>No se puede iniciar sesión en la ventana Compartir con Teams
 
 Este problema puede deberse a varias razones. Por ejemplo, la identidad que está utilizando para iniciar sesión debe tener acceso a Microsoft Teams, como a través de una suscripción a Microsoft 365.
 
@@ -167,7 +167,7 @@ Existen dos motivos para este problema.
 
 Este problema se debe a que no tiene instalada la aplicación BC para Teams. Solo aquellos que tengan la aplicación instalada verán las pestañas de Business Central.
 
-## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Otros ven una ordenación o disposición de columnas diferente a la que ve el autor de la pestaña
+## <a name="others-see-a-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Otros ven una ordenación o disposición de columnas diferente a la que ve el autor de la pestaña
 
 Es probable que este problema se deba a que compartió una vista de lista que es una vista personal. En este caso, colabore con su administrador para crear vistas de lista específicas para roles, que cubran los diferentes roles en el canal o chat, o cree esta vista para toda la organización, de modo que todos puedan obtener una vista uniforme.
 

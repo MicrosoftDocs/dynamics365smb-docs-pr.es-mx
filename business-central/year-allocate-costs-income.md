@@ -10,7 +10,7 @@ ms.search.form: '283, 5629'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="allocate-costs-and-income"></a>Asignar costos e ingresos
+# <a name="allocate-recurring-costs-and-income"></a>Asignar costos e ingresos
 
 Puede asignar un movimiento en un diario general a varias cuentas diferentes al registrar el diario. La asignación se puede realizar según tres métodos distintos:
 

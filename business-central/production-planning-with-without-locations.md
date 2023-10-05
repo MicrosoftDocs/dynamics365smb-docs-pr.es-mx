@@ -81,7 +81,7 @@ El producto se planifica en función de los parámetros de planificación de la 
 
 El producto se planifica en función de los parámetros de planificación de la ficha del producto.
 
-#### <a name="case-13-demand-is-at-north-location"></a>Caso 1.3: La demanda está en un almacén *NORTH*
+#### <a name="case-13-demand-is-at-main-location"></a>Caso 1.3: La demanda está en un almacén *NORTH*
 
 El producto se planifica en función de los siguientes parámetros: Política de reorden = *Lote a lote* (*Orden* sigue siendo *Orden*), Incluir inventario = *Sí*, todos los demás parámetros de planificación = vacíos.
 
