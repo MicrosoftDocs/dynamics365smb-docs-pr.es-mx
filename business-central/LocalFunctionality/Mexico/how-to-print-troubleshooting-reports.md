@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="print-troubleshooting-reports-in-the-mexican-version"></a>Cómo imprimir informes de solución de problemas en la versión mexicana
+# Cómo imprimir informes de solución de problemas en la versión mexicana
 
 [!INCLUDE [print-troubleshooting-reports](../includes/CAMXUS/print-troubleshooting-reports.md)]
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Funcionalidad local de México](mexico-local-functionality.md)  
 [Finanzas](../../finance.md)  
