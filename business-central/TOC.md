@@ -348,6 +348,11 @@
 #### [Trabajar con tolerancias de pago y tolerancias de descuentos de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Extensión de predicción de pagos atrasados](ui-extensions-late-payment-prediction.md)
 
+### Administrar documentos electrónicos
+#### [Configurar documentos electrónicos](finance-how-setup-edocuments.md)
+#### [Usar documentos electrónicos en ventas y compras](finance-how-use-edocuments.md)
+#### [Ampliar la funcionalidad de documentos electrónicos](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### Administrar IVA
 #### [Información general de la administración de IVA](finance-manage-vat.md)
 #### [Transacciones de compra de la UE a terceros](finance-how-to-eu3party-trade-purchase.md)
