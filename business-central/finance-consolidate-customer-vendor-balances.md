@@ -26,7 +26,7 @@ Antes de consolidar saldos, especifique algunas configuraciones en la página **
 * En la ficha desplegable **Interacciones**, debe especificar los códigos de relaciones de negocio en los campos **Clientes** y **Proveedores**. [!INCLUDE[prod_short](includes/prod_short.md)] utiliza esta información para determinar el tipo de relación que se mostrará para los contactos. 
 * Opcional: En la ficha desplegable **Duplicados**, active o desactive la búsqueda de duplicados. De forma predeterminada, la búsqueda de duplicados está activada. Para obtener más información, consulte [Gestión de duplicados](#handling-duplicates). 
 
-## <a name="link-an-existing-customer-and-vendor-company-thorough-a-contact"></a>Vincular una empresa de cliente y proveedor existente a través de un contacto
+## <a name="link-an-existing-customer-and-vendor-company-through-a-contact"></a>Vincular una empresa de cliente y proveedor existente a través de un contacto
 En los siguientes pasos se describe cómo vincular un cliente y un proveedor a través de un contacto.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cliente** o **Proveedor** y luego elija el enlace relacionado.
