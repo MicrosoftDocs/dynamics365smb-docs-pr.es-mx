@@ -59,8 +59,6 @@ Estas funciones pueden ser especialmente útiles en controles de calidad en los 
 3. En la ficha desplegable **N.º de serie** y **N.º de lote**, introduzca los números de seguimiento de productos de los que desea realizar un seguimiento.  
 4. Elija la acción **Buscar** para buscar todos los casos números de serie o de lote en la base de datos.  
 
-## Consultar la [formación de Microsoft](/training/modules/prepare-item-tracking/) relacionada
-
 ## Consulte también .
 
 [Grupos contables inventario](inventory-manage-inventory.md)  
