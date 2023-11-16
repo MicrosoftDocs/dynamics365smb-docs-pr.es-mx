@@ -11,7 +11,7 @@ ms.search.form: 1123
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Contabilidad para costos
+# <a name="accounting-for-costs"></a>Contabilidad para costos
 La contabilidad de costos se utiliza para ayudarle a conocer los costos de la dirección de una empresa. Para iniciarse en la contabilidad de costos, vea los temas siguientes.  
 
 |Para|Vea|  
@@ -24,7 +24,7 @@ La contabilidad de costos se utiliza para ayudarle a conocer los costos de la di
 |Conocer los procesos de creación de presupuestos de costos.|[Crear presupuesto costo](finance-create-cost-budgets.md)|
 |Cancelar movimientos de presupuesto de costos en el registro de presupuestos de costos.|[Eliminar movimientos de presupuesto de costos](finance-how-to-delete-cost-budget-entries.md)|
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
 [Administración de costos de inventario](finance-manage-inventory-costs.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
