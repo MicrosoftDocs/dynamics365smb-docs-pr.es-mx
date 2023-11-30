@@ -5,9 +5,8 @@
 # Introducción
 ## [Información general de las funciones empresariales](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
-## Aprender
+## Obtener información
 ### [Recursos para usuarios](resources-for-users.md)
-### [Catálogo de aprendizaje de Business Central](readiness/readiness-learning-catalog.md)
 ### [Formación de Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Tutoriales de procesos de negocio
 #### [Tutoriales disponibles](walkthrough-business-process-walkthroughs.md)
@@ -116,13 +115,6 @@
 ### [Solución de problemas en el registro de autoservicio](ui-troubleshoot-self-signup.md)
 ### [Ampliar la versión de prueba](admin-extend-trial.md)
 ### [Cancelar la suscripción o eliminar Business Central](admin-cancel.md)
-### Texto de marketing de productos impulsado por IA con Copilot
-#### [Información general](ai-overview.md)
-#### [Obtener la versión preliminar](ai-preview-getstarted.md)
-#### [Configurar texto de marketing de productos impulsado por IA](enable-ai.md)
-#### [Crear texto de marketing de productos impulsado por IA](item-marketing-text.md)
-#### [Preguntas frecuentes](ai-faq.md)
-
 ## Comprar
 ### [Comenzar con una suscripción](trial-signup.md#get-started-with-a-subscription)
 ### [Prepararse para hacer negocios](ui-get-ready-business.md)
@@ -216,19 +208,6 @@
 ### [Visite nuestra biblioteca de vídeos](across-videos.md)
 ### [Obtener soporte técnico](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
-<!--## Microsoft Learn training
-### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
-### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
-### Resources for a Business Decision Maker
-#### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Business User
-#### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Developer
-#### [Learning catalog](readiness/readiness-learning-developers.md)
-#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
 # Funciones empresariales
 ## [Información general de las funciones empresariales](across-business-functionality.md)
 <!--general-->
@@ -251,6 +230,7 @@
 ### [Usar colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)
 ### [Dejar que Business Central sugiera valores](ui-let-system-suggest-values.md)
 ### [Usar mapas en línea para buscar ubicaciones e indicaciones](across-online-maps.md)
+### [Configurar comprobantes digitales](across-how-setup-digital-vouchers.md)
 
 ### Documentos entrantes
 #### [Información general de los documentos entrantes](across-income-documents.md)
@@ -379,6 +359,7 @@
 ### Conciliar cuentas bancarias
 #### [Información general de conciliación bancaria](bank-manage-bank-accounts.md)
 #### [Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md)
+#### [Conciliar cuentas bancarias con Copilot (versión preliminar)](bank-reconciliation-with-copilot.md)
 #### [Liquidar pagos automáticamente y conciliar cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ### Administrar transacciones entre empresas vinculadas
@@ -888,10 +869,12 @@
 
 ### Dinamarca
 #### [Funcionalidad local en la versión danesa](LocalFunctionality/Denmark/denmark-local-functionality.md)
+#### [Notificación y registro en el NemHandelsregisteret de Dinamarca](localfunctionality/denmark/how-to-nemhandel-register.md)
 #### IVA
 ##### [Imprimir informes de conciliación de IVA](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [Informes IVA-VIES](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [Configuración del CIF/NIF para Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
+##### [Presentar devoluciones de IVA electrónicamente](localfunctionality/denmark/how-to-evat-statement-dk.md)
 #### Banca y pagos
 ##### [Detalles de FIK en el diario de conciliación de pagos](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [Extensión de pagos y conciliaciones (DK)](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -903,6 +886,8 @@
 ##### [Crear documentos electrónicos en formato OIOUBL](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
 #### Nómina
 ##### [Definiciones de datos de nóminas (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
+#### Comprobantes digitales
+##### [Configurar comprobantes digitales en Dinamarca](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finlandia
 #### [Funcionalidad local en la versión finlandesa](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -1577,7 +1562,6 @@
 #### [Configurar unidades de almacenamiento](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Clasificar productos](inventory-how-categorize-items.md)
 #### [Importar varias imágenes de producto](inventory-how-import-item-pictures.md)
-#### [Configurar texto de marketing de productos impulsado por IA con Copilot](enable-ai.md)
 ### Configurar gestión del proyecto
 #### [Configurar proyectos](projects-setup-projects.md)
 #### [Configurar recursos](projects-how-setup-resources.md)
@@ -1841,6 +1825,18 @@
 #### [Guía de desarrollo de informes](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Guía de ajuste del rendimiento de los informes](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
+# Copilot y capacidades de IA
+## Administrar Copilot y capacidades de IA
+### [Configurar Copilot y capacidades de IA](enable-ai.md)
+### [Movimiento de datos de Copilot entre zonas geográficas](ai-copilot-data-movement.md)
+### [Solucionar problemas de Copilot y capacidades de IA](ai-copilot-troubleshooting.md)
+## Asistencia de conciliación de cuentas bancarias (versión preliminar)
+### [Conciliar cuentas bancarias con Copilot](bank-reconciliation-with-copilot.md)
+### [Preguntas frecuentes para la asistencia de conciliación bancaria](faqs-bank-reconciliation.md)
+## Sugerencias de texto de marketing
+### [Resumen de sugerencias de texto de marketing](ai-overview.md)
+### [Crear texto de marketing con Copilot](item-marketing-text.md)
+### [Preguntas frecuentes para sugerencias de texto de marketing](faqs-marketing-text.md)
 
 # Seguridad, cumplimiento y privacidad
 ## Seguridad y protección
@@ -1894,6 +1890,7 @@
 ### [Habilitar nuevas características de antemano](admin-feature-management.md)
 ### [Incorporar usuarios con listas de comprobación](admin-checklist.md)
 ### [Entornos de espacio aislado](admin-sandbox-environments.md)
+## [Copilot y capacidades de IA](enable-ai.md)
 ## Personalizar Business Central
 ### [Información general de personalización](ui-customizing-overview.md)
 ### [Personalizar páginas para perfiles](ui-personalization-manage.md)
@@ -1926,19 +1923,19 @@
 #### [US/CA/UK/AU/NZ/ZA: Enviar aviso de remesa](ui-extensions-send-remittance-advice.md)
 #### [Servicio WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [Extensiones de Business Central de otros proveedores](ui-extensions-other.md)
-## Integrar con Dynamics 365 Sales
-### [Integrar con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## Integrar con otras aplicaciones de Dynamics 365
+### [Integrar con Dynamics 365 Sales mediante sincronización de datos](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ## Integrar con Microsoft Dataverse
-### [Integrar con Microsoft Dataverse](admin-common-data-service.md)
-### [Modelos de propiedad de datos](admin-cds-company-concept.md)
-### [Configurar cuentas de usuario para la integración con Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
-### [Conectar con Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Integrar con Dataverse mediante la sincronización de datos](admin-common-data-service.md)
+### [Modelos de propiedad de datos para la sincronización.](admin-cds-company-concept.md)
+### [Configurar cuentas de usuario para la integración con Dataverse mediante la sincronización de datos](admin-setting-up-integration-with-dynamics-sales.md)
+### [Conectar a Dataverse para sincronización de datos](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Sincronizar Business Central y Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Asignar tablas y campos para sincronizar](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Sincronizar manualmente las asignaciones de tablas](admin-manual-synchronization-of-table-mappings.md)
 ### [Programar una sincronización](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Solucionar errores de sincronización](admin-troubleshoot-sales-synchronization.md)
-### [Utilizar un flujo de Power Automate para alertas de cambios de entidad de Dataverse](admin-power-automate-flow-dataverse.md)
+### [Utilizar un flujo de Power Automate para sincronizar a tiempo cambios de entidad de Dataverse](admin-power-automate-flow-dataverse.md)
 ## Sincronizar datos maestros entre empresas
 ### [Prepararse para sincronizar datos maestros](admin-set-up-data-sync.md)
 ### [Administrar la sincronización de datos maestros](admin-sync-master-data.md)
@@ -2019,3 +2016,7 @@
 ## [Seguridad y protección](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Rendimiento](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Características quitadas o en desuso](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# IA responsable
+## [Información general](responsible-ai-overview.md)
+## [Preguntas frecuentes para la asistencia de conciliación bancaria (versión preliminar)](faqs-bank-reconciliation.md)
+## [Preguntas frecuentes para sugerencias de texto de marketing](faqs-marketing-text.md)
