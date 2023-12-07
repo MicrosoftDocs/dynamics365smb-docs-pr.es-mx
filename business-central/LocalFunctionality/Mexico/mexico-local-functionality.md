@@ -7,11 +7,11 @@ ms.search.keywords: null
 ms.date: 10/14/2021
 ms.author: bholtorf
 ---
-# Funcionalidad local de México
+# <a name="mexico-local-functionality"></a>Funcionalidad local de México
 
 En los temas siguientes se describe la funcionalidad local que es exclusiva de la versión mexicana de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Disponibilidad de la característica  
+## <a name="feature-availability"></a>Disponibilidad de la característica
 
 * Tributos
     * [Configurar y generar informes DIOT](ui-extensions-setup-and-generate-diot-report-mx.md) **Disponible ahora**
@@ -30,13 +30,13 @@ En los temas siguientes se describe la funcionalidad local que es exclusiva de l
     * [Imprimir informes de solución de problemas](how-to-print-troubleshooting-reports.md) **Disponible ahora**
     * [Crear depósitos](how-to-create-deposits.md) **Disponible ahora**
 
-## Requisitos de legislación futura actualmente en investigación
+## <a name="future-legislation-requirements-being-investigated"></a>Requisitos de legislación futura actualmente en investigación
 
 * Actualización del complemento Carta de porte 3.0 **Planificada para el 23.4**  
 
 Si tiene constancia de próximas características regulatorias, envíe una [alerta de característica regulatoria](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Trabajar con [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilidad nacional/regional e idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
