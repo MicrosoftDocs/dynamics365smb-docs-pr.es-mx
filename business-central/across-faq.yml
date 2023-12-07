@@ -65,7 +65,7 @@ sections:
       - question: |
           ¿Dónde encuentro ese número de línea?
         answer: |
-          Los documentos, como los pedidos de venta o las facturas de compra, constan de encabezados y líneas. Cada línea tiene un número que [!INCLUDE [prod_short](includes/prod_short.md)] utiliza para identificar esta línea en particular. Como resultado, es posible que vea una advertencia o un mensaje de error de que algo anda mal en la línea número 1000, por ejemplo. En la versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)], los números de línea están ocultos. Si desea ver los números de línea, debe personalizar la página actual y agregar el **número de línea**. . Obtenga más información en [Personalizar el área de trabajo](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
+          Los documentos, como los pedidos de venta o las facturas de compra, constan de encabezados y líneas. Cada línea tiene un número que [!INCLUDE [prod_short](includes/prod_short.md)] utiliza para identificar esta línea en particular. Como resultado, es posible que vea una advertencia o un mensaje de error de que algo anda mal en la línea número 1000, por ejemplo. En la versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)], los números de línea están ocultos. Si desea ver los números de línea, debe personalizar la página actual y agregar el campo **número de línea** . Obtenga más información en [Personalizar el área de trabajo](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
       - question: |
           ¿Por qué la Ayuda describe una funcionalidad a la que no puedo acceder?
         answer: |
