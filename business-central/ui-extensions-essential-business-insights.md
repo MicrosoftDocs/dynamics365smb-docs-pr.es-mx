@@ -13,7 +13,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ---
 
-# La extensión Información de la empresa esencial
+# <a name="the-essential-business-insights-extension"></a>La extensión Información de la empresa esencial
 
 La extensión Información comercial esencial encuentra hechos comerciales interesantes en los datos de su empresa y los muestra como titulares de periódicos en las Áreas de tareas. En función de lo que encuentre la extensión en los datos, la información será de la última semana, mes o tres meses desde la fecha actual. La información se actualiza cada 10 minutos.  
 
@@ -32,7 +32,7 @@ En la tabla siguiente se describe la información que esta extensión proporcion
 |Director de proyectos| Mostrará un saludo y el vínculo a la información del producto.|
 |Administrador| Mostrará un saludo y el vínculo a la información del producto.|
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] usando extensiones](ui-extensions.md)
 

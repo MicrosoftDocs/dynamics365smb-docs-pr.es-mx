@@ -10,13 +10,13 @@ ms.search.form: 1115
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Eliminar movs. ppto. costos
+# <a name="delete-cost-budget-entries"></a>Eliminar movs. ppto. costos
 
 Utilice el proceso **Eliminar movs. ppto. costos** para anular los movimientos de presupuesto de costos del registro de presupuestos de costos.  
 
 Para evitar cualquier discontinuidad en movimientos de presupuesto de costos y movimientos de registro de costos, no puede eliminar un único movimiento o sección de movimientos del centro de la lista de los movimientos de registro.  
 
-## Para eliminar movimientos de presupuesto de costos  
+## <a name="to-delete-a-cost-budget-entry"></a>Para eliminar movimientos de presupuesto de costos
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Eliminar movs. ppto. costos** y, luego, elija el vínculo relacionado.  
 
@@ -28,7 +28,7 @@ Para evitar cualquier discontinuidad en movimientos de presupuesto de costos y m
 > [!NOTE]  
 > Para evitar una eliminación accidental de los movimientos de presupuesto de costo, puede cerrar movimientos de registro marcando las líneas como **Cerrado** en el campo **Cerrado** en la página **Registro de presupuesto de costos**.  
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Contabilidad para costos](finance-manage-cost-accounting.md)
 [Crear presupuesto costo](finance-create-cost-budgets.md)  
