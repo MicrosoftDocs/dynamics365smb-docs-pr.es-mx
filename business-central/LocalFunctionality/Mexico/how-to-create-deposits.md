@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.search.form: '10140, 10141, 10143,10144,10146,10147,10148,36646'
-ms.date: 06/18/2021
+ms.date: 11/27/2023
 ms.author: bholtorf
 ---
-# <a name="create-deposits-in-the-mexican-version"></a>Cómo crear depósitos en la versión mexicana
+# Cómo crear depósitos en la versión para México
 
 [!INCLUDE [create-deposits](../includes/CAMXUS/create-deposits.md)]
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Funcionalidad local de México](mexico-local-functionality.md)  
 [Finanzas](../../finance.md)  
