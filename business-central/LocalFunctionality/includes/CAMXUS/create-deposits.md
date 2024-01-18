@@ -18,7 +18,7 @@ Las líneas de depósito bancario contienen información sobre los elementos ind
 
 Una vez rellenada la información y las líneas de depósito, deberá registrarlo para actualizar los movimientos correspondientes, como los movimientos de banco, la contabilidad general o los movimientos de cliente. Los depósitos contabilizados se almacenan para su futura referencia y pueden verse en la página **Depósitos contabilizados**.
 
-## Para crear un depósito  
+## <a name="to-create-a-deposit"></a>Para crear un depósito
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Depósitos** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  En la ficha desplegable **General**, rellene los campos necesarios tal como se describe en la tabla siguiente.  
