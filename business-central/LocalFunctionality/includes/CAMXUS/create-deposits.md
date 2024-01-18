@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 11/29/2023
 ms.author: bholtorf
 ---
 > [!NOTE]
@@ -14,11 +14,11 @@ La página **Depósitos** especifica información sobre los depósitos bancarios
 
 El informe **Depósito** muestra los depósitos de clientes y proveedores con el importe del depósito original, el importe del depósito que permanece abierto y el importe aplicado. El informe también muestra el importe total de los depósitos registrados que deben conciliarse.
 
-Las líneas de depósito bancario contienen información sobre los elementos individuales de depositados, como los cheques de los clientes. Esta información incluye la fecha y el número del documento, el tipo y el número de cuenta, y el importe. El total de los importes de las líneas debe ser igual al importe total del depósito.
+Las líneas de depósito bancario contienen información sobre los elementos individuales de depositados, como los cheques de los clientes. Esta información incluye la fecha y el número del documento, el tipo y el número de cuenta, y el importe. El total de los importes de las líneas debe sumar el importe total del depósito.
 
 Una vez rellenada la información y las líneas de depósito, deberá registrarlo para actualizar los movimientos correspondientes, como los movimientos de banco, la contabilidad general o los movimientos de cliente. Los depósitos contabilizados se almacenan para su futura referencia y pueden verse en la página **Depósitos contabilizados**.
 
-## <a name="to-create-a-deposit"></a>Para crear un depósito
+## Para crear un depósito  
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Depósitos** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  En la ficha desplegable **General**, rellene los campos necesarios tal como se describe en la tabla siguiente.  
@@ -35,7 +35,7 @@ Una vez rellenada la información y las líneas de depósito, deberá registrarl
     |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Tipo mov.**|El tipo de cuenta.|  
-    |**Nº cuenta**|El número de cuenta de identificación único asociado al tipo de cuenta seleccionado, en el que se va a registrar el movimiento.|  
+    |**Nº cuenta**|El número de cuenta de identificación único asociado al tipo de cuenta seleccionado, en el que se registra el movimiento.|  
     |**Descripción**|La descripción del movimiento de la línea del diario.|  
     |**Fecha emisión documento**|La fecha de documento del movimiento de la línea del diario.|  
     |**Tipo documento**|El tipo de documento del movimiento de la línea del diario.|  
