@@ -3,15 +3,14 @@ title: Visite nuestra biblioteca de vídeos
 description: 'Visite nuestra biblioteca de vídeos para obtener ayuda, desde vídeos de introducción que ilustran tareas comunes de "cómo hacer" hasta vídeos de productos temáticos.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'video, library, how to'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 06/11/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="visit-our-video-library"></a>Visite nuestra biblioteca de vídeos
+# Visite nuestra biblioteca de vídeos
 
 Ha encontrado nuestra documentación. Pero algunas personas prefieren ver contenido en lugar de leerlo. Con ese fin, creamos vídeos cortos y fáciles de digerir. La mayoría de los vídeos complementan nuestra asistencia al usuario y algunos de ellos se pueden ver solos.  
 
@@ -24,7 +23,7 @@ También puede ver nuestros "tutoriales", además de muchos otros contenidos, en
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Canal de Dynamics 365 en YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  

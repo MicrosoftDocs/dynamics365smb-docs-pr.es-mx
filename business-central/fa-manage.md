@@ -3,15 +3,14 @@ title: Administrar activos fijos (contiene video)
 description: Obtenga información sobre la funcionalidad de activos fijos y obtenga un resumen de cómo trabajar con activos fijos ya administrarlos.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'machinery, buildings'
 ms.search.form: '5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650'
 ms.date: 06/15/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="managing-fixed-assets"></a>Administración de activos fijos
+# Administración de activos fijos
 
 La funcionalidad Activos fijos de [!INCLUDE[prod_short](includes/prod_short.md)] proporciona un resumen de sus activos y asegura una correcta amortización periódica. También le permite realizar un seguimiento de los costos de mantenimiento, gestionar las pólizas de seguros, registrar transacciones de activos fijos y generar diversos informes y estadísticas.
 
@@ -41,13 +40,13 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 | Registrar transacciones de venta/baja, ver movimientos de venta/baja y registrar ventas/bajas parciales. |[Cancelar o retirar activos fijos](fa-how-dispose-retire.md) |
 | Gestionar presupuestos de activos fijos, presupuestar costos de adquisición, presupuestar ventas/bajas de activos fijos y presupuestar amortización. |[Gestionar presupuestos de los activos fijos](fa-how-manage-budgets.md) |
 
-## <a name="video-overview"></a>Resumen en vídeo
+## Resumen en vídeo
 
 El siguiente video cubre los conceptos básicos de los activos fijos.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configurar activos fijos](fa-setup.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  

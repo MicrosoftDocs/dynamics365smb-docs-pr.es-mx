@@ -3,15 +3,14 @@ title: Cotizar una venta de ensamblar contra pedido
 description: Puede utilizar la administración de ensamblados para personalizar un producto de ensamblado para la solicitud de un cliente durante el proceso de venta.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="quote-an-assemble-to-order-sale"></a>Cotizar una venta de ensamblar contra pedido
+# Cotizar una venta de ensamblar contra pedido
 
 Puede utilizar la administración de ensamblados para personalizar un producto de ensamblado para la solicitud de un cliente durante el proceso de venta. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -20,7 +19,7 @@ Como cuando se vende cualquier otro tipo de producto, también puede crear una c
 > [!NOTE]  
 >  Como todos los tipos de cotización, las cantidades en cotizaciones de ensamblado no se utilizan en la disponibilidad, la planificación o las reservas.  
 
-## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Para crear una cotización de venta de productos ensamblar para pedido
+## Para crear una cotización de venta de productos ensamblar para pedido
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cotización de venta** y, luego, elija el vínculo relacionado.  
 2.  Cree una línea de cotización de venta con una línea para un producto de ensamblado. Para obtener más información, consulte [Crear cotizaciones de ventas](sales-how-make-offers.md).  
@@ -34,7 +33,7 @@ Como cuando se vende cualquier otro tipo de producto, también puede crear una c
 6.  Cuando se hayan ajustado las líneas del pedido de ensamblado a la cotización, cierre la página **Ensamblar para líneas de pedido** para volver a la página **Cotización venta**.  
 7.  Si el cliente acepta la cotización, cree un pedido de venta para el producto de ensamblado cotizado. Para obtener más información, consulte [Crear cotizaciones de ventas](sales-how-make-offers.md). La cotización de ensamblado vinculada y cualquier personalización se asocian a ese nuevo pedido de venta para preparar el ensamblado del producto o los productos que se van a vender.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)  

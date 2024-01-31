@@ -10,8 +10,9 @@ ms.search.keywords: 'year closing, close accounting period, close fiscal year, b
 ms.search.form: 100
 ms.date: 08/18/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="closing-years-and-periods"></a>Cerrar años y periodos
+# Cerrar años y periodos
 
 Al final de un año fiscal, existen distintas tareas administrativas que debe realizar, como asegurarse de que se han publicado todos los documentos y diarios, asegurarse de que se han actualizado los datos de las divisas, cerrar los libros, etc. Las tareas reales dependerán de su empresa.
 
@@ -29,7 +30,7 @@ La tabla siguiente proporciona un resumen de las tareas que realiza, por lo gene
 | Cierre períodos contables y ejercicios fiscales, transfiera saldos de cuentas de balance de ingresos a cuentas de balance y registre el movimiento de cierre de fin de año. |[Cierre de libros](year-close-books.md) |
 | Imprimir informes que le ayuden a crear resultados financieros. |[Preparación de extractos de cierre](year-prepare-close-statement.md) |
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Trabajar con periodos contables y años fiscales](finance-accounting-periods-and-fiscal-years.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
