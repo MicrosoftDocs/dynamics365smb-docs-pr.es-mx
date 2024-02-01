@@ -3,9 +3,7 @@ title: Configurar y administrar un presupuesto para un proyecto
 description: Describe cómo planificar los recursos y prever y controlar los costes de un proyecto mediante la configuración de un presupuesto para cada proyecto.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'project budget, forecast'
 ms.search.form: '1002, 1007'
 ms.date: 04/01/2021

@@ -3,9 +3,7 @@ title: Añadir información a sus registros para usted mismo | Documentos de Mic
 description: 'Adjunte una nota a cualquier registro de la aplicación. Por ejemplo, si tiene información adicional sobre un pedido de venta que no se ajusta a ninguno de los campos del pedido de venta, puede escribir una nota.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ROBOTS: 'NOINDEX,NOFOLLOW'
 ms.date: 04/01/2021

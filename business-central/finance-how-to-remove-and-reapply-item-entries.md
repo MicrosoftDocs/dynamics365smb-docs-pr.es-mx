@@ -3,9 +3,7 @@ title: Eliminar y liquidar de nuevo los movimientos de producto
 description: Puede ver y modificar manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '506, 521, 9125'
 ms.date: 04/01/2021
 ms.author: bholtorf

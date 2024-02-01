@@ -3,9 +3,7 @@ title: 'Detalles de diseño: Tabla de asignación de planificación'
 description: Este tema proporciona información sobre lo que sucede cuando un cambio en los patrones de oferta o demanda requiere que calcule cómo planifica un artículo.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf

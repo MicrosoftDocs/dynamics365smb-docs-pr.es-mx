@@ -3,9 +3,7 @@ title: Microsoft Pay estándar
 description: La extensión de Microsoft Pay agrega un vínculo de Microsoft Pay a los documentos de venta para que los clientes pueden pagar fácilmente mediante Microsoft Pay.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '1080, 1081, 1083, 1085, 1087, 1089'
 ms.date: 12/12/2023
 ms.author: bholtorf

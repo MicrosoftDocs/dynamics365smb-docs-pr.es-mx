@@ -3,9 +3,7 @@ title: Crear y modificar diseños personalizados para informes y documentos
 description: 'Obtenga información sobre cómo crear sus propios diseños personalizados para personalizar el aspecto de un informe cuando se vea, se imprima o se guarde.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'customized report, document layout, logo, personalize'
 ms.search.form: '9650, 9652'
 ms.date: 03/06/2022

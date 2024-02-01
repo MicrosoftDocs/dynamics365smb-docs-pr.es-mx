@@ -3,9 +3,7 @@ title: Programar tareas para ajustar y conciliar el costo de inventario
 description: 'Obtenga información sobre cómo puede usar la cola de proyectos para mover las tareas para ajustar el costo de inventario o conciliarlo con la contabilidad en segundo plano. Por ejemplo, si su empresa ejecuta muchas tareas o procesa muchas transacciones.'
 author: brentholtorf
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.form: 461
 ms.date: 09/19/2023

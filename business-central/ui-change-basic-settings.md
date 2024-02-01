@@ -3,9 +3,7 @@ title: Cambiar la configuración básica del usuario actual
 description: 'Aprenda a cambiar algunas configuraciones básicas en Business Central, por ejemplo, su rol y área de tareas, empresa, fecha de trabajo y zonas horarias.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'change Role Center, notification, change company, change work date, decimal separator'
 ms.search.form: '9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 08/31/2022

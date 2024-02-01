@@ -3,9 +3,7 @@ title: Configurar un vendedor (contiene vídeo) | Documentos de Microsoft
 description: 'Puede configurar un identificador para cada uno de sus vendedores, de modo que pueda hacer un seguimiento del rendimiento de una persona o asignar un vendedor a un contacto.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: bholtorf

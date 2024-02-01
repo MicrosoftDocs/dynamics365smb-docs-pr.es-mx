@@ -3,19 +3,18 @@ title: Trabajar con listas de materiales
 description: Se crea una L.M. de ensamblado o una L.M. de producción para especificar los componentes o recursos necesarios para elaborar el producto al que representa la L.M.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'bills of material, assembly BOM, production BOM,'
 ms.search.form: null
 ms.date: 09/26/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-bills-of-material"></a>Trabajar con listas de materiales
+# Trabajar con listas de materiales
 
 Utilice listas de materiales (L.M.) para estructurar los productos principales que se deben montar a partir de otros productos o producir a través de centros de recursos o máquinas de componentes.
 
-## <a name="assembly-boms-or-production-boms"></a>L.M. de ensamblado o L.M. de producción
+## L.M. de ensamblado o L.M. de producción
 
 [!INCLUDE[prod_short](includes/prod_short.md)] admite dos tipos diferentes de listas de materiales:
 
@@ -36,7 +35,7 @@ El concepto de recursos de producción es mucho más avanzado que en administrac
 
 Los pedidos de ensamblado y las órdenes de producción se pueden relacionar directamente a los pedidos de venta. Sin embargo, solo podrá los pedidos de ensamblado para personalizar el producto final directamente para una solicitud de cliente con el pedido de venta.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)  
 [Crear LM de producción](production-how-to-create-production-boms.md)  

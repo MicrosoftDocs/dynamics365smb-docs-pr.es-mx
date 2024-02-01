@@ -3,9 +3,7 @@ title: Configurar el mantenimiento de activos fijos
 description: 'Para administrar las reparaciones y el servicio de los activos fijos, puede especificar información de mantenimiento general, códigos para el tipo de trabajo y una cuenta auxiliar para los costos.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'repair, service'
 ms.search.form: '5600, 5642'
 ms.date: 04/01/2021

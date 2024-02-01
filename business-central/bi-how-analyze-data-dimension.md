@@ -3,9 +3,7 @@ title: Analizar datos por dimensiones
 description: Este artículo describe cómo puede analizar los datos comerciales por dimensiones para obtener una mayor comprensión de su negocio.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '545, 555, 556, 557, 558, 9372, 9370, 9371'
 ms.date: 09/22/2022

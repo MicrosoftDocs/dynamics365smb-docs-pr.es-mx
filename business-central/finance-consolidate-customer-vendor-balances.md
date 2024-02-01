@@ -3,9 +3,7 @@ title: Consolidar saldos para una empresa que es un cliente y un proveedor
 description: Describe cómo consolidar saldos para un cliente que también es un proveedor.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment process, cash receipt'
 ms.search.form: '5052, 21, 5050'
 ms.date: 10/11/2023

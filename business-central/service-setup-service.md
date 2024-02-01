@@ -3,9 +3,7 @@ title: Configurar la gestión de servicio | Documentos de Microsoft
 description: Descripción general de las tareas para configurar la Gestión de servicios para adaptarla a la forma en que sus organizaciones gestionan sus servicios.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'service, service items, repairs, maintenance, fix'
 ms.date: 04/01/2021
 ms.author: bholtorf

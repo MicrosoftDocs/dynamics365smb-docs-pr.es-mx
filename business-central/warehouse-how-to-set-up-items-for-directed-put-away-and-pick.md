@@ -3,9 +3,7 @@ title: Configurar ubicación y picking directos
 description: 'Si utiliza almacenamiento y picking dirigidos, tendrá la funcionalidad de ejecutar el almacén eficientemente.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 11/07/2022

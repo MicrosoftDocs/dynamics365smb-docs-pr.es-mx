@@ -3,9 +3,7 @@ title: Líneas de venta periódicas estándar
 description: Configure líneas de ventas que realice con frecuencia para insertarlas en documentos de venta y rellenar rápidamente las líneas con información estándar.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'trade, sell, replenishment'
 ms.search.form: 172
 ms.date: 07/06/2022

@@ -3,9 +3,7 @@ title: Administrar la integración de OneDrive con Business Central
 description: Obtenga información sobre lo que puede hacer para administrar una integración entre Business Central y OneDrive para la Empresa.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'OneDrive, share, browser'
 ms.date: 02/28/2022
 ms.author: jswymer

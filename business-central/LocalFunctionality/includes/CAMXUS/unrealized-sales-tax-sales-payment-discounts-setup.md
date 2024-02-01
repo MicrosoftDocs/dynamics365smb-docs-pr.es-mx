@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 12/11/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Puede utilizar la página **Configuración de contabilidad** para configurar el impuesto a las ventas. También puede configurar importes máximos de corrección para limitar los importes de corrección de impuestos que se introducen en concepto de ventas y compras. Esto le permite sobrescribir el impuesto calculado cuando existen diferencias de redondeo entre lo calculado en la orden de compra y lo calculado en la factura de compra del proveedor.  
 

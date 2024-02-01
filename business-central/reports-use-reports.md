@@ -3,9 +3,7 @@ title: Usar informes en el trabajo diario
 description: Proporciona una descripción general de todas las características de Inteligencia empresarial e informes que admite el producto Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.date: 09/22/2022
 ms.author: bholtorf

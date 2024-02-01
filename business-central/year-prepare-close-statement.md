@@ -3,9 +3,7 @@ title: Resumen de informes para preparar los extractos de cierre | Documentos de
 description: Proporciona un resumen de los informes que puede utilizar para recopilar la información necesaria para preparar los extractos de cierre de su empresa cuando cierre el ejercicio.
 author: jswymer
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI'
 ms.date: 04/01/2021
 ms.author: jswymer

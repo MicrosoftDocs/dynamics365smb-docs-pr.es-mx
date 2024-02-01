@@ -3,9 +3,7 @@ title: Trabajar con periodos de inventario
 description: Usted puede controlar el periodo en el que la gente puede registrar cambios en el inventario mediante la definición de periodos de inventario.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'inventory, periods'
 ms.search.form: 5828
 ms.date: 04/01/2021

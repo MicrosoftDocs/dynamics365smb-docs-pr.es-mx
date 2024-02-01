@@ -3,12 +3,11 @@ title: 'Tutorial: planificación automática de suministros'
 description: 'En este tutorial, se demuestra el modo de utilizar el sistema de planificación del suministro para planificar automáticamente los pedidos de compra y órdenes de producción en diferentes pedidos de venta.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/06/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Tutorial: planificación automática de suministros
 

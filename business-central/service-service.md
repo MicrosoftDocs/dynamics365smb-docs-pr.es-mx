@@ -3,9 +3,7 @@ title: Gestión de servicios
 description: Aprenda a utilizar las funciones de Business Central diseñadas para administrar y realizar un seguimiento de los servicios para respaldar las operaciones del taller de reparaciones y del servicio de campo.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

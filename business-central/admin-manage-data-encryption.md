@@ -3,12 +3,11 @@ title: Administrar el cifrado de datos | Microsoft Docs
 description: Puede cifrar datos en Business Central Server generando claves de cifrado nuevas o importando claves existentes que se activarán en el servidor.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Administrar el cifrado de datos
 Puede cifrar datos en el servidor de [!INCLUDE[prod_short](includes/prod_short.md)] generando claves de cifrado nuevas o importando claves existentes que se activarán en la instancia del servidor de [!INCLUDE[prod_short](includes/prod_short.md)] que conecta con la base de datos.

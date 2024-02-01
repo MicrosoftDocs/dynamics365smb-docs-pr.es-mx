@@ -3,9 +3,7 @@ title: Cerrar periodos contables y ejercicios
 description: 'Describe las tareas para cerrar un ejercicio o un periodo contable, por ejemplo, asegurarse de que se ha registrado los documentos y los diarios, y comprobar los saldos bancarios.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: 100
 ms.date: 08/18/2022

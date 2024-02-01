@@ -3,12 +3,11 @@ title: 'Remisiones y órdenes de transferencia de Carta de Porte [MX]'
 description: Business Central admite CFDI para que pueda imprimir remisiones y órdenes de transferencia con la firma digital requerida y utilizar estos documentos como Carta de Porte.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/06/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Remisiones y órdenes de transferencia de Carta de Porte en la versión para México
 

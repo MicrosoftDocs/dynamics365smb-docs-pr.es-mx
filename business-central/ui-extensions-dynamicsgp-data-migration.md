@@ -3,9 +3,7 @@ title: Migrar datos desde Dynamics GP antes de 15.3
 description: 'Antes de la actualización 15.3, podía utilizar la extensión de migración de datos de Dynamics GP para migrar clientes, proveedores, etc. desde Dynamics GP a Business Central.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms. search.keywords: 'app, add-in, manifest, customize, import, implement'
 ms.date: 06/23/2021
 ms.author: bholtorf

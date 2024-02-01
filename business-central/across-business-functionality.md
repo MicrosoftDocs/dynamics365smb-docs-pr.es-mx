@@ -3,9 +3,7 @@ title: Funciones empresariales que admite Business Central
 description: 'Proporciona una visión general de las funciones y los departamentos empresariales que son compatibles con las áreas de aplicación, como finanzas, inventario y administración de proyectos.'
 author: brentholtorf
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 11/01/2023

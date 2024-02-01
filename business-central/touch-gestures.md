@@ -3,15 +3,14 @@ title: Gestos táctiles y con lápiz
 description: Obtenga información sobre los gestos táctiles y del lápiz que le ayudan a trabajar de manera eficiente con sus datos de tabletas y teléfonos.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'accessibility, shortcuts, charts, tiles'
 ms.date: 04/29/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Gestos táctiles y con lápiz para tabletas y teléfonos
+# Gestos táctiles y con lápiz para tabletas y teléfonos 
 
 Este artículo proporciona algunos de los gestos especiales que puede utilizar al trabajar con [!INCLUDE[prod_short](includes/prod_short.md)] desde una tableta o teléfono.
 
@@ -30,7 +29,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Referencia rápida de teclado: solo PC](keyboard-shortcuts-cheatsheet.md)  
 [Características de asistencia](ui-accessibility.md)  

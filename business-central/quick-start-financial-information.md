@@ -3,9 +3,7 @@ title: Inicio rápido de información financiera
 description: Prepare su empresa para hacer negocios configurando la información financiera en Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: null
 ms.date: 08/25/2022

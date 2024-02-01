@@ -3,12 +3,11 @@ title: Uso de la extensión Formatos de archivo de impuestos (DK)
 description: La extensión de formatos de archivo de impuestos facilita la exportación de archivos con formato predefinido para cumplir con los requisitos del banco para envíos electrónicos.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms. search.keywords: 'extension, bank, formats'
 ms.date: 11/28/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # La extensión de formatos de archivo de impuestos (DK)

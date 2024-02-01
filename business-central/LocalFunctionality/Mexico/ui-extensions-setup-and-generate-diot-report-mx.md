@@ -3,9 +3,7 @@ title: Configurar y generar informes DIOT | Microsoft Docs
 description: Utilice esta extensión para configurar y generar declaraciones DIOT en Business Central para las autoridades mexicanas.
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'extension, diot, authorities, export, compliance'
 ms.search.form: '27030, 27031, 27032, 27033, 27034'
 ms.date: 06/24/2021

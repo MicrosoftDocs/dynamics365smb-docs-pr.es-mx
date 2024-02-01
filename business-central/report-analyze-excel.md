@@ -3,9 +3,7 @@ title: Análisis de datos de informes con Excel y XML
 description: Aprenda a usar Excel y XML para analizar un conjunto de datos de informe.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, Word, dataset'
 ms.date: 03/16/2022
 ms.author: jswymer

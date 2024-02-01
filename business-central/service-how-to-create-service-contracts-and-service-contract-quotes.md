@@ -3,9 +3,7 @@ title: Trabajar con contratos o cotizaciones de servicio | Documentos de Microso
 description: 'Puede crear un contrato de servicio de forma manual o desde una cotización de contrato de servicio. Puede crear un contrato basado en una cotización de contrato de servicio:'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf

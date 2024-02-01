@@ -3,9 +3,7 @@ title: Configurar procesos de gestión de servicio | Documentos de Microsoft
 description: Aprenda a configurar procesos que ayuden a asegurar que sus clientes estén completamente satisfechos con su atención al cliente.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'service, number sequences, setup, warnings, fee, contracts, warranties'
 ms.date: 04/01/2021
 ms.author: bholtorf

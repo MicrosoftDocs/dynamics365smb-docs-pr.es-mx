@@ -3,9 +3,7 @@ title: Configuración y uso de un flujo de trabajo de aprobación de compra
 description: Este tutorial lo lleva a través de todas las etapas involucradas en la configuración y el uso de un flujo de trabajo de aprobación de compras en Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: bholtorf

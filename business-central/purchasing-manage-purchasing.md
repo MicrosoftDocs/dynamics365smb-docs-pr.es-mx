@@ -3,15 +3,14 @@ title: Descripción general de las tareas para gestionar las compras
 description: 'Describe las tareas para administrar sus procesos de compra o aprovisionamiento, incluido el modo en que funcionan las facturas de compra y los pedidos de compra.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'procurement, supply, vendor order'
 ms.search.form: '460, 9307'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="purchasing"></a>Compra
+# Compra
 
 Cree una factura o una orden de compra para registrar el costo de las compras y para realizar el seguimiento de los pagos. Si necesita controlar un inventario, las facturas de compra también se utilizan para actualizar dinámicamente los niveles de inventario para que pueda minimizar sus costos de inventario y proporcionar un mejor servicio al cliente. Los costos de compra, incluidos los gastos del servicio, y los valores de inventario resultantes del registro de las facturas de compra contribuyen a las cifras de ganancias y otros KPI financieros en el área de tareas.
 
@@ -39,11 +38,11 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 |Resolver la confusión cuando existen dos o más registros para el mismo proveedor.|[Combinar registros duplicados](sales-how-merge-duplicate-records.md)|
 |Administrar el compromiso a un proveedor para comprar grandes cantidades entregadas en varios envíos a lo largo del tiempo.|[Trabajar con pedidos de compra abiertos](sales-how-to-create-blanket-sales-orders.md)|
 
-## <a name="external-document-numbers"></a>Números de documento externo
+## Números de documento externo
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configurar compras](purchasing-setup-purchasing.md)  
 [Registrar un nuevo proveedor](purchasing-how-register-new-vendors.md)  

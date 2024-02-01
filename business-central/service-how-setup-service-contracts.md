@@ -3,12 +3,11 @@ title: Configurar contratos de servicio
 description: 'Aprenda a configurar contratos de servicio con los requisitos previos necesarios, incluidos los grupos de contratos de servicio, las plantillas de contratos y las plantillas de clientes.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'service, cost, service order'
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Configurar contratos de servicio

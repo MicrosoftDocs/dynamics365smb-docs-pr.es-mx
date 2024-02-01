@@ -3,9 +3,7 @@ title: Configurar información para contactos | Documentos de Microsoft
 description: 'Describe las tareas para especificar información y códigos, por ejemplo, sobre grupos de industria y relaciones de negocio, antes de configurar los contactos.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.date: 04/01/2021
 ms.author: bholtorf

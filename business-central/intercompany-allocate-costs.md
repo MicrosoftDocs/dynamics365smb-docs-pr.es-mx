@@ -3,9 +3,7 @@ title: Asignar costos a socios entre empresas | Documentos de Microsoft
 description: Descubra cómo la configuración de IVA para clientes y proveedores controla si se calcula el IVA y cómo.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf

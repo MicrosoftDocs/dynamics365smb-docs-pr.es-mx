@@ -3,9 +3,7 @@ title: Ampliar su versión de prueba de Business Central
 description: 'Si necesita más tiempo para decidir si desea suscribirse en Dynamics 365 Business Central, puede ampliar su versión de prueba una vez. Conozca sus opciones.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf

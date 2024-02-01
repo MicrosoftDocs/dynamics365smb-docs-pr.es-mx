@@ -3,9 +3,7 @@ title: Eliminar movs. ppto. costos
 description: Utilice el proceso Eliminar movs. ppto. costos para anular los movimientos de presupuesto de costos del registro de presupuestos de costos.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 1115
 ms.date: 04/01/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Personalizar Business Central
 description: Lea acerca de las diferentes formas de personalizar Business Central para mejorar el acceso a las funciones y características que más necesita según se adapte a su trabajo diario.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'personalize, add-in, extend, customize'
 ms.search.form: '2500, 2502'
 ms.date: 06/23/2021

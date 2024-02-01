@@ -3,9 +3,7 @@ title: Obtener el complemento de Business Central para Outlook
 description: Obtenga información sobre cómo instalar el complemento Business Central para Outlook para su organización o para su propio uso.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'SMTP, mail, Microsoft 365, Outlook'
 ms.search.form: '1831, 1832'
 ms.date: 04/27/2022

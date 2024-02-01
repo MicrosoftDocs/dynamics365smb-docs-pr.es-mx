@@ -3,9 +3,7 @@ title: Información general de la administración de IVA
 description: Aprenda a administrar el IVA con la información y los recursos enumerados.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: VAT
 ms.search.form: '118, 472, 737, 743'
 ms.date: 01/31/2023

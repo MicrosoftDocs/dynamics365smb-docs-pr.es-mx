@@ -3,9 +3,7 @@ title: Exploración y navegación de páginas por rol
 description: Puede obtener una descripción general de todas las funciones empresariales que están disponibles para su rol y para otros roles con Explorador de roles.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'role explorer, find features, navigate'
 ms.search.form: 'RoleExplorer, 9020, 9022, 9027, 9024'
 ms.date: 08/01/2021

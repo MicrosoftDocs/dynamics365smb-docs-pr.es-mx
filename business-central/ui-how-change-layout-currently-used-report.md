@@ -3,9 +3,7 @@ title: Cambiar el aspecto de un informe seleccionando otro diseño
 description: Puede utilizar diseños distintos para un informe y cambiar de un diseño a otro para cambiar el aspecto de un informe.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'customized report, document layout, logo, personalize'
 ms.search.form: '9652, 9650'
 ms.date: 03/07/2022

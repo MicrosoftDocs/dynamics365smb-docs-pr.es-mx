@@ -3,9 +3,7 @@ title: Preguntas más frecuentes de Power BI
 description: Obtenga respuestas a algunas preguntas típicas sobre cómo trabajar con Power BI y Business Central.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Power BI, reports, faq, errors'
 ms.date: 04/22/2021
 ms.author: jswymer

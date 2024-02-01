@@ -3,9 +3,7 @@ title: 'Procedimientos recomendados de configuración: parámetros de la planifi
 description: Este tema describe las mejores prácticas sobre cómo configurar campos de parámetros de planificación seleccionados con la ficha desplegable Planificación en la ficha del artículo.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

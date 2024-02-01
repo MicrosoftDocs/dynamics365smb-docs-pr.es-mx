@@ -3,9 +3,7 @@ title: Resumen de los informes previos al cierre para la precisión de las cuent
 description: Proporciona un resume de los informes que puede usar para verificar la exactitud de las cuentas antes de cerrar los libros al final de un año o periodo.
 author: jswymer
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '1393, 1394'
 ms.date: 04/01/2021
 ms.author: jswymer

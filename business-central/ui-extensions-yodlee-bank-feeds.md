@@ -3,9 +3,7 @@ title: Conciliación de pagos con la extensión Envestnet Yodlee Bank Feeds
 description: 'Describe la extensión Envestnet Yodlee Bank Feeds, que se vincula a las cuentas bancarias para que pueda conciliar pagos rápidamente.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'app, add-in, manifest, customize, stream, bank account link'
 ms.search.form: '1450, 1451, 1452, 1453, 1454, 1458, 1460,'
 ms.date: 04/01/2021
