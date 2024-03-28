@@ -9,7 +9,7 @@ ms.date: 12/03/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Tutorial: Configuración y facturación de anticipos de ventas
+# Tutorial: Configuración y facturación de anticipos de ventas
 
 Este tutorial le permite recorrer el proceso de configuración y uso de anticipos en [!INCLUDE [prod_short](includes/prod_short.md)]. [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -17,7 +17,7 @@ Este tutorial le permite recorrer el proceso de configuración y uso de anticipo
 
 Por ejemplo, puede enviar más facturas de anticipo si es necesario agregar más productos a la orden.  
 
-## <a name="about-this-walkthrough"></a>Acerca de este tutorial
+## Acerca de este tutorial  
 
 En este tutorial aparecen los siguientes ejemplos:  
 
@@ -28,7 +28,7 @@ En este tutorial aparecen los siguientes ejemplos:
 - Aplicación de anticipos a un pedido  
 - Facturación del importe final en un pedido con anticipo  
 
-### <a name="roles"></a>Roles
+### Roles
 
 En este tutorial se incluyen tareas para las siguientes funciones:  
 
@@ -36,7 +36,7 @@ En este tutorial se incluyen tareas para las siguientes funciones:
 - Procesadora de pedidos (Susana)  
 - Administrador Cobros (Andrés)  
 
-## <a name="story"></a>Historia
+## Historia
 
  Phyllis es administradora de contabilidad y toma decisiones sobre qué clientes deben abonar un depósito antes de que se fabriquen o envíen los productos. Felisa configura [!INCLUDE[prod_short](includes/prod_short.md)] para calcular automáticamente los anticipos.  
 
@@ -52,7 +52,7 @@ En este tutorial se incluyen tareas para las siguientes funciones:
 
  Andrés registra el pago del cliente y lo aplica a las facturas; a continuación, envía la factura final.  
 
-## <a name="set-up-prepayments"></a>Configurar anticipos
+## Configurar anticipos
 
 Felisa configura el sistema para gestionar los anticipos de los clientes.  
 
@@ -62,13 +62,13 @@ Felisa configura el sistema para gestionar los anticipos de los clientes.
 
 En los siguientes procedimientos, se describe cómo realizar las tareas de Felisa:  
 
-### <a name="to-set-up-number-series-for-prepayments"></a>Para configurar series numéricas para anticipos
+### Para configurar series numéricas para anticipos
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.  
 2. En la página **Conf. ventas y cobros**, amplíe la ficha desplegable **Numeración**.  
 3. Verifique que la serie numérica de las facturas de anticipo registradas en el campo **Nº fact. anticipo registrada** sea la misma que para las facturas de venta registradas (**Nº serie fact. registrada**) y que la serie numérica para notas de crédito de anticipo registradas (**Nº nota de crédito anticipo registrada**) sea la misma que para las notas de crédito registradas (**Nº serie nota de crédito registrada**).  
 
-### <a name="to-block-shipments-for-unpaid-prepayment"></a>Para bloquear envíos por anticipos sin abonar
+### Para bloquear envíos por anticipos sin abonar
 
 1. En la página **Conf. ventas y cobros**, en la ficha desplegable **General**, seleccione la casilla **Comprobar anticipo al registrar**.
 
@@ -78,7 +78,7 @@ Felisa exige que al cliente 20000 se le facture un prepago del 30% en todos los 
 
 Felisa requiere que a todos los clientes se les facture un depósito del 20 % para el producto 1896-S. El cliente 20000 tiene un deficiente historial de pagos, por lo que Phyllis requiere un anticipo del 40 % para el cliente 20000, para el producto 1896-S. En el procedimiento siguiente se ilustra el modo de configurar los porcentajes de anticipo predeterminados.  
 
-### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Para asignar porcentajes de anticipo predeterminados a clientes y productos
+### Para asignar porcentajes de anticipo predeterminados a clientes y productos
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.  
 2. Abra la ventana de la ficha del cliente 20000 (Trey Research).
@@ -96,7 +96,7 @@ Felisa requiere que a todos los clientes se les facture un depósito del 20 % p
 
 6. Cierre todas las páginas.  
 
-### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Para especificar una cuenta para los anticipos de ventas en la configuración del registro general
+### Para especificar una cuenta para los anticipos de ventas en la configuración del registro general
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración grupos contables** y luego elija el enlace relacionado.  
 2. Seleccione la línea donde el campo de **General neg. grupo contable** se establece en **NAC**, y el campo **General producción. grupo contable** se establece en **MERCADERÍA**.  
@@ -105,7 +105,7 @@ Felisa requiere que a todos los clientes se les facture un depósito del 20 % p
 > [!TIP]
 > Si no puede ver el campo de la página **Configuración grupos contables**, utilice la barra de desplazamiento horizontal situada en la parte inferior de la página para desplazarse hacia la derecha.  
 
-## <a name="create-an-order-that-requires-a-prepayment"></a>Crear una orden que requiera un anticipo
+## Crear una orden que requiera un anticipo
 
  En el siguiente ejemplo, Susana, la procesadora de pedidos, crea un pedido cuando habla con un cliente. Los artículos que el cliente está solicitando requieren un anticipo. Además, el cliente ha realizado algunos pagos atrasados en el pasado. Se ha indicado a Susana para requerir un importe fijo de **800** como anticipo en la orden.  
 
@@ -113,7 +113,7 @@ El cliente solicita que le permitan pagar el 35 %, lo que Susana acepta, y cambi
 
 Susana crea la factura de anticipo y la envía al cliente.  
 
-### <a name="to-create-a-sales-order-with-a-prepayment"></a>Para crear un pedido de venta con anticipo
+### Para crear un pedido de venta con anticipo
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -150,11 +150,11 @@ Susana crea la factura de anticipo y la envía al cliente.
 12. En la advertencia que aparece, seleccione el botón de **Sí**. Un índice del 35% será aplicado como el porcentaje de pago para todo el pedido.  
 13. Verifique que se han actualizado las líneas correctamente.  
 
-## <a name="create-a-prepayment-invoice"></a>Crear una factura de anticipo
+## Crear una factura de anticipo
 
 Después de escribir los valores de anticipo correctos en el pedido, Susana crea la factura de anticipo y la envía al cliente.  
 
-### <a name="to-create-a-prepayment-invoice"></a>Para crear una factura de anticipo
+### Para crear una factura de anticipo
 
 1. En la página **Orden de venta**, elija **Acciones**, en el grupo **Registro**, elija **Anticipo** y, a continuación, seleccione **Registrar e imprimir factura de anticipo**.
 2. Para registrar la factura, elija el botón **Sí**.  
@@ -162,11 +162,11 @@ Después de escribir los valores de anticipo correctos en el pedido, Susana crea
 > [!NOTE]  
 > Susan ahora enviaría la factura al cliente.  
 
-## <a name="create-an-additional-prepayment-invoice"></a>Crear una factura de anticipo adicional
+## Crear una factura de anticipo adicional
 
 Al día siguiente, el cliente llama a Susana y realiza cambios en el pedido. El cliente desea dos unidades del producto 1896-S. Susan vuelve a abrir la orden y la actualiza, y, a continuación, crea una segunda factura de anticipo de la orden y la envía al cliente.  
 
-### <a name="to-create-an-additional-prepayment-invoice"></a>Para crear una factura de anticipo adicional
+### Para crear una factura de anticipo adicional
 
 1. En la página **Pedido venta**, seleccione la acción **Liberar** y, después, **Reabrir**.  
 2. En la línea del producto **1896-S**, en el campo **Cantidad**, escriba **2**.  
@@ -175,11 +175,11 @@ Al día siguiente, el cliente llama a Susana y realiza cambios en el pedido. El 
 3. Para registrar una factura para el importe de anticipo extra, elija **Acciones**, **Registro**, **Anticipo** y seleccione **Registrar e imprimir factura de anticipo**.
 4. Para registrar la factura, elija el botón **Sí**.  
 
-## <a name="apply-the-prepayments"></a>Aplicar los anticipos
+## Aplicar los anticipos
 
 El cliente paga el importe del anticipo. Arnie, del Departamento de Contabilidad, registra el pago y lo aplica a las facturas de anticipo.  
 
-### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Para aplicar un pago a las facturas de anticipo
+### Para aplicar un pago a las facturas de anticipo
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de recepciones de efectivo** y, luego, elija el vínculo relacionado.  
 2. Rellene una línea de diario con la siguiente información.  
@@ -199,11 +199,11 @@ El cliente paga el importe del anticipo. Arnie, del Departamento de Contabilidad
 7. Para publicar el diario, elija la acción **Registrar e imprimir**, luego seleccione **Publicar**.
 8. Elija el botón **Sí**.
 
-## <a name="invoice-the-remaining-amount"></a>Facturar el importe restante
+## Facturar el importe restante
 
 Se ha notificado a Andrés que los productos del pedido se han enviado y que el pedido está listo para su facturación. Andrés crea la factura para el pedido.  
 
-### <a name="to-invoice-the-remaining-amount"></a>Para facturar el importe restante
+### Para facturar el importe restante
 
 1. Abra el pedido de venta.
 2. Elija la acción **Registrar**, después **Registrar**.
@@ -217,11 +217,11 @@ Se ha notificado a Andrés que los productos del pedido se han enviado y que el 
 
 5. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas venta** y luego elija el enlace relacionado.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Actualizar el estado de los pedidos y facturas prepago automáticamente
+## Actualizar el estado de los pedidos y facturas prepago automáticamente
 
 Puede acelerar el procesamiento de pedidos y facturas configurando entradas de cola de trabajos que actualizan automáticamente el estado de esos documentos. Cuando se paga una factura de anticipo, las entradas de la cola de proyecto pueden cambiar automáticamente el estado del documento de **Anticipo pendiente** a **Liberado**. Cuando configure las entradas de la cola de trabajos, las unidades de código que necesitará usar son **383 actualizado Pendiente Prepago Ventas** y **383 actualizado Pendiente Prepago Compra**. Le recomendamos que programe las entradas para que se ejecuten con frecuencia, por ejemplo, cada minuto. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
-## <a name="next-steps"></a>Pasos siguientes
+## Pasos siguientes
 
 En este tutorial se han tratado los pasos siguientes para configurar [!INCLUDE[prod_short](includes/prod_short.md)] para gestionar anticipos. 
 
@@ -234,7 +234,7 @@ También ha registrado una factura de anticipo, ha creado una segunda factura de
 
 Las funcionalidades de anticipo facilitan la configuración y la aplicación de reglas de anticipo para clientes y artículos. También le permiten registrar cada pago contra una factura.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Facturación de anticipos](finance-invoice-prepayments.md)  
 [Finanzas](finance.md)  
