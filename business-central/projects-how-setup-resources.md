@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Configurar recursos para proyectos
+# <a name="set-up-resources-for-projects"></a>Configurar recursos para proyectos
 
 Para administrar correctamente las actividades de recursos, debe configurar los recursos, y los costos y los precios relacionados. Las reglas de precios, descuentos y factores de costo relacionadas con el proyecto se configuran en la tarjeta respectiva. Puede especificar los costos y los precios de recursos individuales, de grupos de recursos o de todos los recursos disponibles de la empresa.
 
@@ -24,7 +24,7 @@ Debe especificar el importe predeterminado por hora cuando se crea el recurso. P
 >  
 > Si está registrando transacciones de empresas vinculadas, aunque puede asignar un recurso a una línea en un pedido de ventas, si convierte el pedido de ventas en un pedido de compra en el lado receptor, el recurso no se incluirá. Para usar recursos en transacciones de empresas vinculadas, use el campo **Compra de IC. cuenta del L/M No.** en la tarjeta de recursos para especificar la cuenta en la que contabilizar los gastos.
 
-## Para configurar un recurso
+## <a name="to-set-up-a-resource"></a>Para configurar un recurso
 
 Cree una ficha por cada recurso que desee utilizar en los proyectos.
 
@@ -32,7 +32,7 @@ Cree una ficha por cada recurso que desee utilizar en los proyectos.
 2. Seleccione la acción **Nuevo**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Para configurar una familia de recursos
+## <a name="to-set-up-a-resource-group"></a>Para configurar una familia de recursos
 
 En una familia de recursos se pueden combinar varios recursos. En ellas se agrupan todas las capacidades y presupuestos cada uno de los recursos. Las capacidades de las familias de recursos pueden introducirse también independientemente de los valores acumulados o bien sumándolas a estos.
 
@@ -40,7 +40,7 @@ En una familia de recursos se pueden combinar varios recursos. En ellas se agrup
 2. Seleccione la acción **Nuevo**.
 3. Rellene los campos según sea necesario.
 
-## Para configurar la capacidad de un recurso
+## <a name="to-set-capacity-for-a-resource"></a>Para configurar la capacidad de un recurso
 
 Para calcular cuánto tiempo puede dedicar un recurso a los trabajos, su capacidad debe definirse primero como tiempo disponible por periodo en el calendario de trabajo. Utilice esta configuración para rellenar las líneas de planificación del proyecto que contienen el recurso. Para obtener más información, vea [Crear proyectos](projects-how-create-jobs.md).
 
@@ -53,7 +53,7 @@ Para calcular cuánto tiempo puede dedicar un recurso a los trabajos, su capacid
 7. Elija la acción **Actualizar capacidad**. La página **Capacidad recurso** se actualiza con la capacidad introducida.
 8. Cierre la página.
 
-## Para configurar precio costos recursos alternativos
+## <a name="to-set-up-alternate-resource-costs"></a>Para configurar precio costos recursos alternativos
 
 Además del costo especificado en la ficha de recurso, puede configurar costos alternativos para cada recurso. Por ejemplo, si paga a un empleado un sueldo por horas superior por el trabajo en horas extraordinarias, puede configurar un precio costos recursos para el sueldo por horas extraordinarias. El costo alternativo que configuró para el recurso anulará el costo que consta en la ficha de recurso cuando use el recurso en el diario de recursos.
 
@@ -64,7 +64,7 @@ Además del costo especificado en la ficha de recurso, puede configurar costos a
 
 **Nota**. Para configurar precios de costo de recursos aplicables a todos los recursos y familias de recursos, abra la página **Precio costos recursos** y rellene los campos.
 
-## Para configurar precios de recursos alternativos
+## <a name="to-set-up-alternate-resource-prices"></a>Para configurar precios de recursos alternativos
 
 Además del precio especificado en la tarjeta de recurso, puede configurar precios alternativos para cada recurso. Estos precios alternativos pueden ser condicionales. Pueden depender de si el recurso se consume con un proyecto o tipo de trabajo determinado.
 
@@ -73,7 +73,7 @@ Además del precio especificado en la tarjeta de recurso, puede configurar preci
 3. En la página **Precio de venta del recurso**, rellene los campos en una línea según sea necesario.
 4. Repita el paso 3 para cada precio de venta de recurso alternativo que desee configurar.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Configurar la administración de proyectos](projects-setup-projects.md)  
 [Administración de proyectos](projects-manage-projects.md)  
