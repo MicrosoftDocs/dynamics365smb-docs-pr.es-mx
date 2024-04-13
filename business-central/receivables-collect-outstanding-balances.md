@@ -2,25 +2,29 @@
 title: Cobrar saldos pendientes
 description: 'Aprenda cómo recordar a sus clientes los pagos pendientes. Envíe un estado de cuenta de cliente, emita un recordatorio o envíe una nota de cargo financiero.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '6, 25, 440, 443, 448, 452'
-ms.date: 02/09/2022
-ms.author: bholtorf
+ms.date: 03/13/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="collect-outstanding-balances"></a>Cobrar saldos pendientes
+# Cobrar saldos pendientes
 
 Gestionar cobros incluye comprobar si los importes vencidos se pagan puntualmente. Si los clientes tienen pagos vencidos, puede empezar enviando el informe de **Estado de cuenta de cliente** como recordatorio. También puede emitir recordatorios.
 
-Puede usar recordatorios para recordar a los clientes que tienen importes vencidos. También puede usar recordatorios para calcular intereses o comisiones e incluirlos en el recordatorio. Utilice documentos de interés si desea cargar a los clientes intereses o comisiones sin recordarles que tienen importes vencidos.
+Usar recordatorios para avisar a los clientes que tienen importes vencidos. También puede usar recordatorios para calcular intereses o comisiones e incluirlos en el recordatorio. Utilice documentos de interés si desea cargar a los clientes intereses o comisiones sin recordarles que tienen importes vencidos.
 
-## <a name="statements"></a>Estados de cuenta
+## Estados de cuenta
 
-En la tarjeta del cliente, puede crear un estado de cuenta con las transacciones de ese cliente con usted. Luego, envíe al cliente el archivo PDF generado. Alternativamente, use el informe **Estado de cuenta de cliente** para enviar a sus clientes un resumen de sus negocios con usted. El estado de cuenta del cliente se puede enviar a Excel para su posterior procesamiento.  
+Desde la tarjeta del cliente, puede crear un estado de cuenta con las transacciones de ese cliente con usted. Luego, puede generar un archivo PDF y enviarlo al cliente. Alternativamente, use el informe **Estado de cuenta de cliente** para enviar a sus clientes un resumen de sus negocios con usted. 
 
-### <a name="to-send-the-customer-statement-report"></a>Para enviar el informe Estado de cuenta de cliente
+> [!TIP]
+> Si es necesario, puede enviar el estado de cuenta a Excel para realizar cambios.  
+
+### Para enviar el informe Estado de cuenta de cliente
 
 1. Elija el icono ![Bombilla que abre la función Dígame 10.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Estado de cuenta de cliente** y, luego, elija el vínculo relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -29,11 +33,11 @@ En la tarjeta del cliente, puede crear un estado de cuenta con las transacciones
 > [!NOTE]
 > Si usa varias divisas, el informe Estado de cuenta de cliente siempre se imprime en la divisa del cliente. La última fecha de un periodo de estado de cuenta se utiliza también como fecha del estado de cuenta y fecha de vencimiento, si se incluye el vencimiento.
 
-## <a name="reminders"></a>Recordatorios
+## Recordatorios
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="finance-charges"></a>Intereses
+## Cargos financieros
 
 Si un cliente no paga en la fecha de vencimiento, puede calcular automáticamente intereses y añadirlos a los importes vencidos en la cuenta del cliente. Puede informar a los clientes de los cargos añadidos enviando documentos de interés.  
 
@@ -48,7 +52,7 @@ Tras crear notas de cobro de finanzas, puede modificarlas. El texto que aparecen
 
 Después de crear documentos de interés y de realizar las modificaciones necesarias, puede imprimir informes de test o emitir los documentos de interés, normalmente por correo electrónico.
 
-### <a name="to-create-a-finance-charge-memo-manually"></a>Para crear un documento de interés manualmente
+### Para crear un documento de interés manualmente
 
 Los documentos de interés son parecidos a las facturas. Puede rellenar la cabecera manualmente y que el sistema rellene las líneas, o bien crear los documentos de interés para todos los clientes de forma automática.
 
@@ -59,9 +63,10 @@ Los documentos de interés son parecidos a las facturas. Puede rellenar la cabec
 
     > [!NOTE]
     > Aunque están en la lista, seleccionando **Pago** y **Nota de crédito** como **Tipo de Documento** los filtros no tendrán ningún efecto porque la función **Sugerir líneas de documento de interés** solo maneja cantidades positivas.
-5.  Elija el botón **Aceptar** para iniciar el trabajo por lotes.  
+5. Elija el botón **Aceptar** para iniciar el trabajo por lotes.  
 
-### <a name="to-update-finance-charge-memo-texts"></a>Para actualizar los textos en documentos de interés
+### Para actualizar los textos en documentos de interés
+
 En algunos casos, quizás le interese modificar el texto de comienzo y fin configurado para los recordatorios de interés. Si no hace esto en el momento de crear los documentos de interés aún sin emitir, puede actualizar los documentos con el texto modificado.
 
 1. Elija el icono ![Bombilla que abre la función Dígame 3.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Documento interés**, y luego elija el enlace relacionado.  
@@ -69,10 +74,11 @@ En algunos casos, quizás le interese modificar el texto de comienzo y fin confi
 3. En la página **Actualizar texto interés**, puede definir un filtro si desea actualizar varios documentos de interés.
 4. Elija el botón **Aceptar** para actualizar los textos de comienzo y fin.  
 
-### <a name="to-issue-finance-charge-memos"></a>Emitir documentos de interés
+### Emitir documentos de interés
+
 Después de crear documentos de interés y de realizar las modificaciones necesarias, puede imprimir informes de test o emitir los documentos de interés.
 
-Cuando se emite un recordatorio, los movimientos se registran según las especificaciones de la página **Términos interés**. Esta especificación determina si se registra un interés y/o recargos fijos a la cuenta del cliente y a la contabilidad. La configuración de la página **Grupo contable cliente** determina qué cuentas se registran.
+Cuando emite un recordatorio, los movimientos se registran según las especificaciones de la página **Términos interés**. Esta especificación determina si se registra un interés y/o recargos fijos a la cuenta del cliente y a la contabilidad. La configuración en la página **Grupos de publicación de clientes** determina las cuentas en las que se contabilizan los intereses o tarifas.
 
 Por cada movimiento de cliente del documento de interés, se crea un movimiento en la página **Movs. recordatorio/interés**.
 
@@ -82,7 +88,7 @@ Si las casillas **Registrar interés** o **Registrar recargo fijo** de la págin
 - Un movimiento de cobros en la cuenta correspondiente
 - Un movimiento de interés o uno de recargo fijo en la cuenta correspondiente
 
-Por otra parte, la emisión del documento de interés puede afectar a los movimientos de IVA.
+Además, la emisión del documento de interés puede afectar a los movimientos de IVA.
 
 1. Elija el icono ![Bombilla que abre la función Dígame 4.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Emitir docs. interés**, y luego elija el enlace relacionado.
 2. Seleccione el documento correspondiente y, a continuación, elija la acción **Emitir**.
@@ -91,28 +97,31 @@ Por otra parte, la emisión del documento de interés puede afectar a los movimi
 
 El documento de interés está impreso para enviarlo a un correo electrónico específico como un archivo PDF adjunto.
 
-### <a name="to-cancel-an-issued-finance-charge-memo"></a>Para cancelar un documento de interés emitido
+### Para cancelar un documento de interés emitido
+
 Si se han emitido documentos de interés por error, puede cancelarlos antes de enviarlos. Puede hacerlo uno por uno o en lote.
+
 1. En la página **Docs. de interés emitidos**, seleccione una o más líneas de los documentos de interés emitidos que desea cancelar y, a continuación, elija la acción **Cancelar**.
 2. En la página **Cancelar docs. de interés emitidos**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**.
 
-### <a name="to-view-reminder-and-finance-charge-entries"></a>Para ver los movimientos de recordatorio y de interés
-Cuando se emite un recordatorio, se crea un movimiento de recordatorio en la página **Movs. recordatorio/interés** para cada línea de recordatorio que contenga un movimiento de cliente. Se puede obtener un resumen de los movimientos de recordatorio creados para un cliente específico.    
+### Para ver los movimientos de recordatorio y de interés  
+
+Cuando se emite un recordatorio, se crea un movimiento de recordatorio en la página **Movs. recordatorio/interés** para cada línea de recordatorio que contenga un movimiento de cliente. Se puede obtener un resumen de los movimientos de recordatorio creados para un cliente específico.
+
 1. Elija el icono ![Bombilla que abre la función Dígame 5.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.  
 2. Abra la ficha de cliente correspondiente y, a continuación, elija la acción **Movimientos**.
 3. En la página **Movs. cliente**, seleccione la línea que contenga el movimiento cuyos movimientos de recordatorio desea ver y, a continuación, elija la acción **Movs. recordatorio/interés.**
 
-## <a name="multiple-interest-rates"></a>Tipos múltiples de interés
+## Tipos múltiples de interés
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Para obtener más información, vea [Configurar tipos múltiples de interés](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también .
 
 [Configurar términos, niveles y textos de recordatorios.](finance-setup-reminders.md)  
 [Configurar términos de interés](finance-setup-finance-charges.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

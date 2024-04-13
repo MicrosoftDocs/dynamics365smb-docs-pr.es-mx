@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="service-management"></a>Gestión de servicios
+# Gestión de servicios
 > [!NOTE]
 > La funcionalidad descrita en este tema y los subtemas solo están visibles en la interfaz de usuario si tiene la experiencia **Premium**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
@@ -24,7 +24,7 @@ Proporcionar un servicio continuado a los clientes es una parte importante de cu
 
 Además, puede estandarizar la codificación, configurar contratos, implementar una política de descuentos y crear mapas de ruta para los empleados del servicio.  
 
-En general, existen dos aspectos en la administración de servicios: configurar el sistema, y usarlo para precios, contratos, pedidos, despacho de personal de servicios y programador de tareas.  
+En general, existen dos aspectos en la gestión de servicios: configurar el sistema, y usarlo para precios, contratos, pedidos, despacho de personal de servicios y programador de proyectos.  
 
 En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas que las describen.   
 
@@ -35,7 +35,7 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 |Crear y gestionar los acuerdos contractuales entre usted y sus clientes.|[Cumplimiento de contratos de servicio](service-fulfill-service-contracts.md)|  
 |Ofrecer servicio a clientes y factura los pedidos de servicio.|[Prestación del servicio](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Administrar cobros](receivables-manage-receivables.md)   
 [Proyectos](projects-how-create-jobs.md)   
 [[!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)

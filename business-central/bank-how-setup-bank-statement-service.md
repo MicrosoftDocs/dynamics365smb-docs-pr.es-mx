@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Yodlee, feed, stream, payment process'
 ms.search.form: '1280, 1290'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configurar el servicio Envestnet Yodlee Bank Feeds
+# Configurar el servicio Envestnet Yodlee bank feeds
 
 Puede importar estados de cuenta electrónicos de su banco para rellenar rápidamente la página **Diario de conciliación de pagos** para que pueda liquidar pagos y conciliar la cuenta bancaria. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
@@ -18,7 +18,7 @@ Puede importar estados de cuenta electrónicos de su banco para rellenar rápida
 > Debido a la directiva sobre servicios de pago en Europa (PSD2), después del 14 de septiembre de 2019 ya no podrá importar automáticamente estados de cuenta bancarios del Reino Unido a [!INCLUDE[prod_short](includes/prod_short.md)]. Estamos analizando la posibilidad de ofrecer esta función nuevamente en el futuro.
 
 > [!NOTE]
-> El servicio Envestnet Yodlee Bank Feeds solo se admite en la versión en línea de Business Central. Para usar esta funcionalidad localmente, debe obtener una cuenta de marca compartida de Envestnet y agregar código para integrarse con la API de Yodlee.
+> El servicio Envestnet Yodlee Bank Feeds solo se admite en la versión en línea de Business Central. Esta funcionalidad no es compatible con las versiones locales de [!INCLUDE [prod_short](includes/prod_short.md)] ni para entornos de [!INCLUDE [prod_short](includes/prod_short.md)] hospedados en servicios de aplicaciones de ISV integrados. Para usar esta funcionalidad localmente, debe obtener una cuenta de marca compartida de Envestnet y agregar código para integrarse con la API de Yodlee.
 >
 > El servicio Envestnet Yodlee Bank Feeds solo se admite en Estados Unidos y Canadá.
 > Solo se admiten los bancos que residan en estos países o regiones, aunque los bancos de otros países o regiones puedan aparecer en la ventana de selección de banco de Envestnet Yodlee Bank Feeds en [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -35,22 +35,24 @@ Después de habilitar el servicio de fuentes de banco, debe vincular una cuenta 
 * Una cuenta vinculada debe ser desvinculada porque desea dejar de usar el servicio de fuente de banco de la cuenta.
 * Las cuentas en línea se han modificado y desea actualizar la información en las cuentas en [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Cuando se ha habilitado el servicio de fuente de banco, puede definir una cuenta bancaria que importe automáticamente nuevos estados de cuenta en la página **Diario de conciliación de pagos** cada dos horas. Las transacciones para los pagos que ya se hayan registrado como liquidados o conciliados en la página **Diario de conciliación de pagos** no se importarán. Para obtener más información, vea la sección “Para habilitar la importación automática de los estados de cuenta bancarios”.
+Cuando se ha habilitado el servicio de fuente de banco, puede definir una cuenta bancaria que importe automáticamente nuevos estados de cuenta de banco en la página **Diario de conciliación de pagos** cada dos horas. Las transacciones para los pagos que ya se hayan registrado como liquidados o conciliados en la página **Diario de conciliación de pagos** no se importarán. Para obtener más información, vea la sección "Para habilitar la importación automática de los estados de cuenta bancarios".
 
 > [!NOTE]  
 > Si usa la guía configuración asistida de la Configuración de la empresa, algunos de los pasos en los procedimientos siguientes se producen automáticamente cuando accede a la configuración de la cuenta bancaria de la empresa. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).
 
-## <a name="to-enable-the-bank-feed-service"></a>Para activar el servicio de fuente de banco
+## Para activar el servicio de fuente de banco
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Abra la cuenta bancaria que usará para el servicio de fuente de banco.
-3. En la página **Cuenta bancaria**, en el campo **Formato de importación de estados de cuenta bancarios**, seleccione YODLEEBANKFEED.  
+3. En la página **Ficha de cuenta bancaria**, en el campo **Formato de importación de estado de cuenta de banco**, seleccione YODLEEBANKFEED.  
 
-El servicio de fuente de banco se activará cuando vincule una cuenta a la cuenta bancaria en línea relacionada. Vea el procedimiento siguiente.  
+El servicio de fuente de banco se activa cuando vincule una cuenta a la cuenta bancaria en línea relacionada. Vea el procedimiento siguiente.  
 
 > [!NOTE]
 > Si utiliza la guía de configuración asistida de **Configuración de la empresa**, habilite el servicio seleccionando la casilla de verificación **Usar un servicio de fuente de banco**. Para obtener más información, consulte [Crear nuevas empresas en Business Central](about-new-company.md).
 
-## <a name="to-create-a-new-linked-bank-account"></a>Para crear una nueva cuenta bancaria vinculada
+## Para crear una nueva cuenta bancaria vinculada
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Seleccione la cuenta bancaria correspondiente y, a continuación, seleccione **Crear una nueva cuenta bancaria vinculada**. La página **Vinculación de cuenta bancaria** se abre después de unos segundos.
 
@@ -78,7 +80,8 @@ El servicio de fuente de banco se activará cuando vincule una cuenta a la cuent
 9. En la página **Vinculación de banco**, seleccione la línea para una cuenta bancaria en línea y, a continuación, seleccione la acción **Vincular a banco existente**.
 10. En la página **Lista de bancos**, seleccione la cuenta bancaria que desee vincular y, a continuación, haga clic en **Aceptar**.
 
-## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Para vincular una cuenta bancaria a una cuenta bancaria en línea.
+## Para vincular una cuenta bancaria a una cuenta bancaria en línea.
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Seleccione la línea para una cuenta bancaria que no está vinculada a una cuenta en línea y, a continuación, seleccione la acción **Vincular a banco en línea**. La página **Vinculación de banco en línea** se abre rellenada previamente con el nombre del banco en el panel **Vincular cuenta**.
 3. Seleccione el nombre del banco. Se abre el panel **Iniciar sesión**.
@@ -91,25 +94,29 @@ El servicio de fuente de banco se activará cuando vincule una cuenta a la cuent
 
 En la página **Lista de bancos**, se activa la casilla **Vinculado**.
 
-## <a name="to-edit-the-credentials-for-an-online-bank-account"></a>Para editar las credenciales de una cuenta bancaria en línea
+## Para editar las credenciales de una cuenta bancaria en línea
+
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Bancos** y luego elija el enlace relacionado.  
 2. Elija la línea para una cuenta bancaria que está vinculada a una cuenta en línea y, a continuación, seleccione la acción **Editar información de cuenta de banco en línea**.
 3. Actualice las credenciales.
 
-## <a name="to-unlink-a-bank-account"></a>Para desvincular una cuenta bancaria
+## Para desvincular una cuenta bancaria
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.  
 2. Seleccione la línea para una cuenta bancaria vinculada que desee desvincular de su cuenta en línea relacionada y, a continuación, seleccione la acción **Desvincular un banco en línea**.
 
 > [!NOTE]  
 > Si selecciona **Sí** en el cuadro de diálogo de confirmación, el vínculo a la cuenta bancaria en línea se elimina y se eliminan los detalles de inicio de sesión. Para vincular nuevamente la cuenta bancaria a una cuenta bancaria en línea, debe volver a iniciar sesión en el banco. Para obtener más información, vea la sección "Para vincular una cuenta bancaria a una cuenta bancaria en línea".
 
-## <a name="to-update-bank-account-linking"></a>Para actualizar la vinculación de la cuenta bancaria
+## Para actualizar la vinculación de la cuenta bancaria
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Seleccione la cuenta bancaria correspondiente y, a continuación, seleccione la acción **Actualizar vinculación de banco**.
 
 Si surgen problemas para alguna de las cuentas bancarias vinculadas en la página **Lista de bancos**, se abre la página **Vinculación de banco** y se especifican qué cuentas bancarias tienen problemas. Los problemas se solucionan mejor desvinculando la cuenta y reconstruyendo el vínculo. Para obtener más información, vea la sección "Para vincular una cuenta bancaria a una cuenta bancaria en línea".
 
-## <a name="to-enable-automatic-import-of-bank-statements"></a>Para activar la importación automática de los extractos de cuenta
+## Para activar la importación automática de los extractos de cuenta
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Seleccione la línea para una cuenta bancaria vinculada y, a continuación, seleccione la acción **Configuración de la importación automática de estados de cuenta bancarios**.
 3. En la página **Configuración de la importación automática de estados de cuenta bancarios**, en el campo **N.º de días incluidos**, especifique hasta qué fecha en el pasado desea obtener nuevas transacciones bancarias.
@@ -123,7 +130,8 @@ Cada hora, la página **Diario de conciliación de pagos** mostrará cualquier n
 > [!NOTE]  
 > Las transacciones para los pagos que ya se hayan registrado como liquidados o conciliados en la página **Diario de conciliación de pagos** no se importarán.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también .
+
 [Configurar banca](bank-setup-banking.md)  
 [Conciliar bancos](bank-manage-bank-accounts.md)  
 [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md)  

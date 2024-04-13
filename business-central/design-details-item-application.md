@@ -9,7 +9,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-item-application"></a>Detalles de diseño: Liquidación de productos
+# Detalles de diseño: Liquidación de productos
 
 Cuando se registra una transacción de inventario, el registro de cantidad se guarda en los movimientos de producto y el registro de valor en los movimientos de valoración. Para obtener más información, consulte [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md).  
 
@@ -27,7 +27,7 @@ Las liquidaciones de producto se pueden crear de las siguientes formas.
 |Método|Descripción|Tipo de aplicación|  
 |------------|---------------------------------------|----------------------|  
 |Automática|Se produce como un desvío de costo general según la valuación de inventarios|Liquidación de cantidad|  
-|Fijo|Realizado por el usuario cuando:<br /><br /> -   Procesar devoluciones<br />-   Registrar correcciones<br />-   Procedimiento para deshacer registros de cantidades<br />-   Creación de los remisiones directas **Nota**: La liquidación fija se puede realizar manualmente si especifica un número de movimiento en el campo **Liq. mov. prod.** o con una función, como **Revertir líneas de documentos registrados**.|Liquidación de cantidad<br /><br /> Costo liquidación **Nota:** La liquidación del costo solo se produce en transacciones de entrada cuando el campo **Liq. movimiento prod.** se rellena para crear una liquidación fija. Vea la tabla siguiente.|  
+|Fijo|Realizado por el usuario cuando:<br /><br /> -   Procesar devoluciones<br />-   Registrar correcciones<br />-   Procedimiento para deshacer registros de cantidades<br />-   Creación de los envíos directos **Nota**: La liquidación fija se puede realizar manualmente si especifica un número de movimiento en el campo **Liq. movimiento prod.** o con una función, como **Revertir líneas documentos registrados**.|Liquidación de cantidad<br /><br /> Costo liquidación **Nota:** La liquidación del costo solo se produce en transacciones de entrada cuando el campo **Liq. movimiento prod.** se rellena para crear una liquidación fija. Vea la tabla siguiente.|  
 
 El hecho que de que se hagan liquidaciones de cantidad o de costo depende de la dirección de la transacción de inventario y de si la liquidación de producto se realiza de modo automático o fijo, en conexión con procesos especiales.  
 
@@ -48,42 +48,42 @@ Un movimiento de liquidación de producto registra la siguiente información.
 |Campo|Descripción|  
 |---------------------------------|---------------------------------------|  
 |**Nº mov. producto**|el número del movimiento del producto para la cual se ha creado este movimiento de liquidación.|  
-|**Nº mov. prod. entrada**|El número de movimiento contable de producto correspondiente a la entrada de inventario con el que debería vincularse la transacción (si corresponde).|  
-|**Nº mov. prod. salida**|El número de movimiento de producto correspondiente a la salida de inventario con el que debería vincularse la transacción (si corresponde).|  
+|**Nº mov. prod. entrada**|El número de movimiento de producto correspondiente a la entrada de inventario con el que debería vincularse la transacción (si es aplicable).|  
+|**Nº mov. prod. salida**|El número de movimiento de producto correspondiente a la salida de inventario con el que debería vincularse la transacción (si es aplicable).|  
 |**Cantidad**|la cantidad que desea aplicarse.|  
 |**Fecha registro**|la fecha de la transacción.|  
 
-## <a name="inventory-increase"></a>Entrada de inventario
+## Entrada de inventario  
 Cuando registra una entrada de inventario, se registra un único movimiento de liquidación de producto sin que exista una liquidación con un movimiento externo.  
 
-### <a name="example"></a>Ejemplo
+### Ejemplo  
 En la tabla siguiente se muestra el movimiento de liquidación de producto que se crea al registrar una recepción de compra de 10 unidades.  
 
 |Fecha reg.|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|Nº mov. producto|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|1|0|10|1|  
+|01-01-20|0|0|10|0|  
 
-## <a name="inventory-decrease"></a>Salida de inventario
+## Salida de inventario  
 Cuando registra una salida de inventario, se crea un movimiento de liquidación de producto que vincula la salida de inventario con una entrada de inventario. Este vínculo se crea mediante la guía de la valoración de existencias del producto. En el caso de productos que usen métodos de coste FIFO, Estándar y Promedio, la vinculación se basa en el principio de "primero en entrar, primero en salir". La salida de inventario se aplica a la entrada de inventario con la fecha de registro más temprana. En el caso de productos que usen métodos de costo LIFO, la vinculación se basa en el principio de "último en entrar, primero en salir". La salida de inventario se aplica a la entrada de inventario con la fecha de registro más reciente.  
 
 En la tabla **Mov. producto**, el campo **Cantidad pendiente** muestra la cantidad que todavía no se ha procesado. Si la cantidad pendiente es mayor que 0, se selecciona la casilla **Abrir**.  
 
-### <a name="example-1"></a>Ejemplo
+### Ejemplo  
 El ejemplo a continuación muestra el movimiento de liquidación de producto creado cuando se registra una remisión de ventas de 5 de los productos que se recibieron en el ejemplo anterior. El primer movimiento de liquidación de producto es la recepción de compra. El segundo movimiento de liquidación es la remisión de venta.  
 
 En la tabla siguiente se muestran los dos movimientos de liquidación de producto que son el resultado de la entrada de inventario y de la salida de inventario, respectivamente.  
 
 |Fecha reg.|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|Nº mov. producto|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|1|0|10|1|  
-|03-01-20|1|2|-5|2|  
+|01-01-20|0|0|10|0|  
+|03-01-20|0|2|-5|2|  
 
-## <a name="fixed-application"></a>Liquidación fija
+## Liquidación fija  
 Se realiza una liquidación fija cuando especifica que el costo de una entrada de inventario debería aplicarse a una salida de inventario específica o viceversa. La liquidación fija afecta a las cantidades restantes de los movimientos, pero también revierte el costo exacto del movimiento original que está liquidando.  
 
-Para llevar a cabo una liquidación fija, deberá utilizar los campos **Liq. por nº orden producto** o **Liq. movimiento prod.** situados en las líneas del documento para especificar el movimiento de producto al que desea aplicar la línea de transacción. Por ejemplo, podría realizar una liquidación fija cuando desee crear una liquidación de costo que especifique que debería aplicarse una devolución de ventas a una remisión de ventas concreta con el fin de invertir el costo de dicho remisión de ventas. En este caso, [!INCLUDE[prod_short](includes/prod_short.md)] ignorará el método de administración de costos y aplicará la salida de inventario (o la entrada, en caso de tratarse de una devolución de ventas) al movimiento de producto que especifique. La ventaja de llevar a cabo una liquidación fija, es que el costo de la transacción original se pasa a la nueva transacción.  
+Para llevar a cabo una liquidación fija, deberá utilizar los campos **Liq. por nº orden producto** o **Liq. movimiento prod.** situados en las líneas del documento para especificar el movimiento de producto al que desea aplicar la línea de transacción. Por ejemplo, podría realizar una liquidación fija cuando desee crear una liquidación de costo que especifique que debería aplicarse una devolución de ventas a una remisión de ventas concreta con el fin de invertir el costo de dicho remisión de ventas. En este caso, [!INCLUDE[prod_short](includes/prod_short.md)] ignorará el método de costo y aplicará la salida de inventario (o la entrada, en caso de tratarse de una devolución de ventas) al movimiento de producto que especifique. La ventaja de llevar a cabo una liquidación fija, es que el costo de la transacción original se pasa a la nueva transacción.  
 
-### <a name="example--fixed-application-in-purchase-return"></a>Ejemplo: Liquidación fija en devolución de compra
+### Ejemplo: Liquidación fija en devolución de compra  
 El ejemplo siguiente, en el que se ilustra el efecto de la liquidación fija de una devolución de compra de un producto mediante la valuación de inventarios FIFO, se basa en el escenario siguiente:  
 
 1. En el movimiento 1, el usuario registra una compra en un costo de 10,00 $.  
@@ -94,7 +94,7 @@ En la tabla siguiente se muestran los movimientos de producto como consecuencia 
 
 |**Fecha registro**|**Tipo mov. producto**|**Cantidad**|**Importe costo (real)**|**Nº mov. producto**|  
 |----------------------|---------------------------------------------------|------------------|----------------------------------------------------|---------------------------------------------------|  
-|04-01-20|Compras|10|10.00|1|  
+|04-01-20|Compras|10|10.00|0|  
 |05-01-20|Compras|10|20.00|2|  
 |06-01-20|Compras (devolución)|-10|-20,00|3|  
 
@@ -108,7 +108,7 @@ En la tabla siguiente se muestra el movimiento de liquidación de producto que e
 
 A continuación, el costo de la segunda compra, $ 20,00, se pasará correctamente a la devolución de la compra.  
 
-### <a name="example--fixed-application-with-average-cost"></a>Ejemplo: Liquidación fija con costo promedio
+### Ejemplo: Liquidación fija con costo promedio  
 El ejemplo siguiente, en el que se ilustra el efecto de la liquidación fija, se basa en el escenario siguiente de un producto que usa la valoración de existencias Media:  
 
 1. En los números de movimiento 1 y 2, el usuario registra dos facturas de compra. La segunda factura tiene el costo unitario directo incorrecto de 1000,00 $.  
@@ -123,8 +123,8 @@ La siguiente tabla muestra el resultado del escenario en las entradas de valor d
 
 |Fecha reg.|Tipo mov. producto|Cdad. valuada|Importe costo (Real)|Liq. por nº orden producto|Valuado a costo promedio|Nº mov. producto|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Compras|1|200.00||No|1|1|  
-|01-01-20|Compras|1|1000.00||No|2|2|  
+|01-01-20|Compras|0|200.00||N.º|0|0|  
+|01-01-20|Compras|0|1000.00||No|2|2|  
 |01-01-20|Compra|-1|-1000|2|No|3|3|  
 |01-01-20|Compra|1|100,00||No|4|4|  
 |01-01-20|Ventas|-2|-300,00||Sí|5|5|  
@@ -133,10 +133,10 @@ Si el usuario no hubiera realizado la liquidación fija entre la nota de crédit
 
 En la tabla siguiente se muestra el resultado en los movimientos de valoración del producto si el paso 2 del escenario anterior se lleva a cabo mediante una liquidación fija.  
 
-|Fecha reg.|Tipo mov. producto|Cdad. valuada|Importe costo (real)|Liq. por nº orden producto|Valuado a costo promedio|Nº mov. producto|N.º de movimiento|  
+|Fecha reg.|Tipo mov. producto|Cdad. valuada|Importe de costo (real)||Valuado a costo promedio|Nº mov. producto|N.º mov.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Compras|1|200.00||No|1|1|  
-|01-01-20|Compras|1|1000.00||No|2|2|  
+|01-01-20|Compras|0|200.00||N.º|0|0|  
+|01-01-20|Compras|0|1000.00||No|2|2|  
 |01-01-20|Compra|-1|433,33||Sí|3|3|  
 |01-01-20|Compra|1|100,00||No|4|4|  
 |01-01-20|Venta|-2|866,67||Sí|5|5|  
@@ -148,7 +148,7 @@ En el número de movimiento 5, el valor del campo **Importe costo (real)** para 
 > [!NOTE]  
 >  Si crea una liquidación fija para una salida de inventario para un producto que utiliza el método de costo Promedio, esta salida no recibirá el costo promedio para el producto de la forma habitual, si no que recibirá el costo de la entrada de inventario que haya especificado. Dicha salida de inventario ya no formará parte del cálculo del costo promedio.  
 
-### <a name="example--fixed-application-in-sales-return"></a>Ejemplo: Liquidación fija en devolución de venta
+### Ejemplo: Liquidación fija en devolución de venta  
 Las liquidaciones fijas también son un método muy válido para revertir el costo con exactitud, por ejemplo con devoluciones de ventas.  
 
 El ejemplo siguiente, en el que se ilustra cómo una liquidación fija garantiza una reversión de costo exacta, se basa en el escenario siguiente:  
@@ -162,7 +162,7 @@ En la tabla siguiente se muestra el resultado de los pasos 1 a 3 del escenario e
 
 |Fecha reg.|Tipo mov. producto|Cdad. valuada|Importe costo (real)|Liq. movimiento prod.|Nº mov. producto|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Compras|1|1000.00||1|1|  
+|01-01-20|Compras|0|1000.00||0|0|  
 |01-02-20|Venta|-1|1000.00||2|2|  
 |01-03-20|Venta (nota de crédito)|1|1000|2|3|3|  
 
@@ -170,16 +170,16 @@ En la tabla siguiente se muestra el movimiento de valoración que es el resultad
 
 |Fecha reg.|Tipo mov. producto|Cdad. valuada|Importe costo (real)|Liq. movimiento prod.|Nº mov. producto|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-04-20|(Cargo de producto)|1|100.00||1|4|  
+|01-04-20|(Cargo de producto)|0|100.00||0|4|  
 
 En la tabla siguiente se muestra el efecto de la reversión de costo exacta en los movimientos de valoración del producto.  
 
 |Fecha reg.|Tipo mov. producto|Cdad. valuada|Importe costo (real)|Liq. movimiento prod.|Nº mov. producto|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Compras|1|1000.00||1|1|  
+|01-01-20|Compras|0|1000.00||0|0|  
 |01-02-20|Venta|-1|1100.00||2|2|  
 |01-03-20|Venta (nota de crédito)|1|1100.00|2|3|3|  
-|01-04-20|(Cargo de producto)|1|100.00||1|4|  
+|01-04-20|(Cargo de producto)|0|100.00||0|4|  
 
 Al ejecutar el proceso **Valorar existencias - movs. producto**, el aumento de costo del movimiento de compra, debido al cargo de producto, se desvía al movimiento de venta (número de movimiento 2). A continuación, el movimiento de venta desvía este aumento de costo al movimiento de crédito de ventas (movimiento número 3). El resultado final es que el costo se revierte correctamente.  
 
@@ -189,10 +189,10 @@ Al ejecutar el proceso **Valorar existencias - movs. producto**, el aumento de c
 > [!NOTE]  
 >  Si registra una transacción con una liquidación fija y el movimiento de producto al que lo está aplicando está cerrado (lo que significa que la cantidad restante es cero), el programa deshará automáticamente la liquidación anterior y volverá a aplicar el movimiento del producto utilizando la liquidación fija que ha especificado.  
 
-## <a name="transfer-application"></a>Solicitud de transferencia
+## Solicitud de transferencia  
 Cuando un producto se transfiere de una ubicación a otra, dentro del inventario de la empresa, se crea una liquidación entre los dos movimientos de transferencia. La valoración de un movimiento de transferencia depende de la valuación de inventarios. En el caso de productos con método de costo Promedio, la valuación se lleva a cabo mediante el costo promedio en el periodo de costo promedio en el que tiene lugar la fecha de valuación de la transferencia. En el caso de productos con otros métodos de costo, la valuación se lleva a cabo realizando un seguimiento retroactivo hasta el costo de la entrada de inventario original.  
 
-### <a name="example--average-costing-method"></a>Ejemplo: Método de coste promedio
+### Ejemplo: Método de coste promedio  
 El ejemplo siguiente, en el que se ilustra cómo se liquidan los movimientos de transferencia, se basa en el escenario siguiente de un producto que usa la valuación de inventarios Media y un periodo de costo promedio de un día.  
 
 1. El usuario compra el producto con un costo de 10,00 $.  
@@ -208,7 +208,7 @@ En la tabla siguiente se muestra el efecto de la transferencia en los movimiento
 |01-02-20|Transferencia|EAST|-1|15.00|3|  
 |01-02-20|Transferencia|WEST|1|15.00|4|  
 
-### <a name="example--standard-costing-method"></a>Ejemplo: Método de costo Estándar
+### Ejemplo: Método de costo Estándar  
 El ejemplo siguiente, en el que se ilustra cómo se liquidan los movimientos de transferencia, se basa en el escenario siguiente de un producto que usa la valuación de inventarios Estándar y un periodo de costo promedio de un día.  
 
 1. El usuario compra el producto con un costo estándar de 10,00 $.  
@@ -224,7 +224,7 @@ En la tabla siguiente se muestra el efecto de la transferencia en los movimiento
 
 Como el valor de la entrada de inventario original es 10,00 $, la transferencia se valora en ese costo, no en 12,00 $.  
 
-## <a name="reapplication"></a>Nueva liquidación
+## Nueva liquidación  
 Debido a la forma en la que se calcula el costo unitario de un producto, una liquidación de producto que sea incorrecta podría resultar en un costo promedio sesgado y en un costo unitario también sesgado. Los escenarios siguientes pueden provocar liquidaciones de producto incorrectas, lo que requiere deshacerlas y volver a liquidar los movimientos de producto:  
 
 * Ha olvidado realizar una liquidación fija.  
@@ -234,7 +234,7 @@ Debido a la forma en la que se calcula el costo unitario de un producto, una liq
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ofrece una característica para analizar y corregir las liquidaciones de productos. Este trabajo se realiza en la página **Hoja liquidación**.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Detalles de diseño: Problema de liquidación de producto conocido](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Detalles de diseño: Costo de inventario](design-details-inventory-costing.md)  
 [Detalles de diseño: Métodos de costo](design-details-costing-methods.md)  

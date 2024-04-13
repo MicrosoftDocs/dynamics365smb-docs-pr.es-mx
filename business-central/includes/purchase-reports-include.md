@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -14,8 +14,8 @@ La siguiente tabla describe algunos de los informes clave en los informes de com
 |---------|---------|---------|
 |[Estadísticas compras](https://businesscentral.dynamics.com?report=312)|[!INCLUDE [reports-purchase-statistics](reports-purchase-statistics.md)]|312|
 |[Proveedor - Lista de los 10 mejores](https://businesscentral.dynamics.com?report=311)|Muestra información de compras de proveedores durante un periodo determinado. Puede elegir el número de proveedores que desea incluir en el informe.<br>Los proveedores aparecen ordenados por importes, y, opcionalmente, pueden estar ordenados por importe de compras o por saldo. El informe ofrece una rápida visión de los proveedores a los que más se compra o a los que más se debe.|311|
-|[Catálogo de productos de proveedor](https://businesscentral.dynamics.com?report=320)|Muestra una lista de proveedores para los productos seleccionados o productos para proveedores seleccionados. De cada combinación de producto y proveedor se indica el costo unitario directo, el plazo de entrega (días) y el código de producto del proveedor.<br>En EE. UU., Canadá y México, este informe no está disponible. En su lugar, utilice el informe **Catálogo de productos/proveedores** (10164).|320|
-|[Catálogo de producto/proveedor](https://businesscentral.dynamics.com?report=720)|Muestra una lista de proveedores para los productos seleccionados o productos para proveedores seleccionados. De cada combinación de producto y proveedor se indica el costo unitario directo, el plazo de entrega (días) y el código de producto del proveedor.<br>En EE. UU., Canadá y México, este informe no está disponible. En su lugar, utilice el informe **Catálogo de productos/proveedores** (10164).|720|
+|[Catálogo de productos de proveedor](https://businesscentral.dynamics.com?report=320)|Muestra una lista de proveedores para los productos seleccionados o productos para proveedores seleccionados. De cada combinación de producto y proveedor se indica el precio de compra, el plazo de entrega (días) y el código de producto del proveedor.<br>En EE. UU., Canadá y México, este informe no está disponible. En su lugar, utilice el informe **Catálogo de productos/proveedores** (10164).|320|
+|[Catálogo de producto/proveedor](https://businesscentral.dynamics.com?report=720)|Muestra una lista de proveedores para los productos seleccionados o productos para proveedores seleccionados. De cada combinación de producto y proveedor se indica el precio de compra, el plazo de entrega (días) y el código de producto del proveedor.<br>En EE. UU., Canadá y México, este informe no está disponible. En su lugar, utilice el informe **Catálogo de productos/proveedores** (10164).|720|
 |[Compras prov./producto](https://businesscentral.dynamics.com?report=313)|Muestra una lista de los movimientos de productos por cada proveedor durante un periodo determinado. El informe contiene información sobre cantidad facturada, importes y posibles descuentos. Utilícelo, por ejemplo, para analizar compras de productos por parte de la empresa y para saber si existe alguna relación entre descuentos y compras de productos.|313|
 |[Lista de precios y costo de inventario](https://businesscentral.dynamics.com?report=716)|Muestra una lista con información de precios de los productos seleccionados o las unidades de almacenamiento: costo unitario directo, último costo directo, precio unitario, porcentaje de beneficio bruto y beneficio bruto.|716|
 |[Proyección existencias en inventario](https://businesscentral.dynamics.com?report=707)|Si desea tener una descripción general sobre artículos específicos y unidades de almacenamiento y su disponibilidad. Este informe mostrará los valores acumulados como los requisitos brutos, las recepciones programadas y planificadas, el inventario, etc. |707|

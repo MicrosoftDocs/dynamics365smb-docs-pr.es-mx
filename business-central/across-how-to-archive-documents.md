@@ -3,31 +3,34 @@ title: Archivar documentos de venta y compra
 description: 'Puede archivar pedidos de venta y de compra, cotizaciones, devoluciones y pedidos abiertos.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.topic: how-to
-ms.date: 08/18/2023
+ms.date: 02/26/2024
 ms.custom: bap-template
 ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ms.service: dynamics-365-business-central
 ---
-# <a name="archive-documents"></a>Archivar documentos
+# Archivar documentos
 
-Puede archivar pedidos de venta y de compra, cotizaciones, devoluciones y pedidos abiertos. Puede archivar un documento de ventas o compras varias veces y guardar una versión archivada diferente cada vez.
+Puede archivar pedidos de venta y de compra, cotizaciones, devoluciones y pedidos abiertos. Si está utilizando funciones de administración de proyectos, también puede archivar sus proyectos. Puede archivar documentos y proyectos varias veces, lo que guarda una versión archivada diferente cada vez.
 
-Para documentos de ventas archivados donde el original aún existe y no está registrado, puede usar la acción **Restaurar** para sobrescribir el documento original con una versión archivada del documento. La acción sólo funciona para documentos de ventas.
+Para documentos de ventas, si el original aún existe y no está registrado, puede usar la acción **Restaurar** para sobrescribirlo con una versión archivada del documento. 
 
-Para los documentos archivados en los que se elimina el original, solo puede reutilizar el contenido copiando los datos, por ejemplo, usando la acción **Copiar desde documento**.  
+> [!NOTE]
+> Solo puede restaurar documentos y proyectos de ventas. La acción no está disponible para documentos de compra archivados.
 
-## <a name="to-set-up-automatic-document-archiving"></a>Para configurar el archivado automático de documentos
+Para los documentos archivados en los que se elimina el original, puede reutilizar el contenido copiando los datos, por ejemplo, usando la acción **Copiar desde documento**.  
 
-Puede configurar el archivado automático de pedidos de venta y compra, presupuestos, pedidos abiertos y órdenes de devolución. Cuando el archivado automático está activado, se crea una nueva versión del documento archivado cuando alguien hace lo siguiente:
+## Para configurar el archivado automático de documentos
 
-* Cambia o elimina un documento.
+Puede automatizar el archivado para crear una nueva versión del documento archivado cuando alguien haga lo siguiente:
+
+* Cambia o elimina un documento o proyecto.
 * Imprime, descarga o envía un documento por correo electrónico.
 * Convierte una cotización en un pedido o factura.
 * Publica un pedido.
 
-El siguiente procedimiento describe cómo configurar el archivado automático de los documentos de ventas. Los pasos son parecidos para documentos de compra.
+Los siguientes pasos describen cómo configurar el archivado automático de documentos de ventas desde la página **Configuración de ventas y cuentas por cobrar**. Los pasos son similares para los documentos de compra y los proyectos. Para documentos de compra, utilice la página **Compras y cuentas por pagar**. Para proyectos, utilice la página **Configuración del proyecto**.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.
 2. En la ficha desplegable **archivar**, especifique si desea activar el archivo automático para los distintos tipos de documentos de ventas. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -40,9 +43,9 @@ En la siguiente tabla se describen las opciones para el campo **Archivar cotizac
 |**Pregunta**|Solicite al usuario que elija si desea archivar cotizaciones de ventas cuando se eliminan.|
 |**Siempre**|Archive automáticamente las cotizaciones de venta cuando se eliminan.|
 
-## <a name="to-manually-archive-a-sales-order"></a>Archivar manualmente pedidos de venta
+## Archivar manualmente pedidos de venta
 
-El siguiente procedimiento describe cómo archivar manualmente un pedido de venta. Los pasos son similares para todas las órdenes, órdenes abiertas, órdenes de devolución y cotizaciones.
+El siguiente procedimiento describe cómo archivar manualmente un pedido de venta. Los pasos son similares para todos los documentos y proyectos que puede archivar.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2. Abra un pedido de venta del que desee archivar.  
@@ -50,26 +53,26 @@ El siguiente procedimiento describe cómo archivar manualmente un pedido de vent
 
 El pedido de ventas está archivado. Puede verlo en la página **Pedidos de venta archivados**.
 
-## <a name="to-restore-a-non-posted-sales-document-or-a-project-from-the-archive"></a>Para restaurar un pedido de venta no registrado desde el archivo
+## Para restaurar un documento de ventas no contabilizado o un proyecto del archivo
 
-El procedimiento siguiente describe cómo restaurar un pedido de venta archivado al pedido de venta original. Restaurar un documento solo es posible cuando el documento original no se ha registrado. Los pasos son similares para todas las órdenes, órdenes abiertas, órdenes de devolución y cotizaciones.
+El procedimiento siguiente describe cómo restaurar un pedido de venta archivado al pedido de venta original. Restaurar un documento solo es posible cuando el documento original no se ha registrado. Los pasos son similares para todos los pedidos, pedidos abiertos, pedidos de devolución y cotizaciones y también para proyectos.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Archivos pedido venta** y, a continuación, elija el vínculo relacionado.
 2. Seleccione el pedido de venta archivado, o una versión de este, que desea restaurar y después seleccione **Volver a crear**.  
 
-El contenido del pedido original se sustituye con el de la versión archivada.
+El contenido del pedido de cliente o proyecto original se sustituye por la versión archivada.
 
-## <a name="to-delete-archived-versions"></a>Para eliminar pedidos de venta archivados
+## Para eliminar versiones archivadas
 
-Use una política de retención para limpiar los documentos archivados que ya no necesita. Las políticas de retención permiten a los administradores definir cuánto tiempo desean almacenar los datos. Por ejemplo, pueden configurar una política que elimine datos después de una fecha de vencimiento. Para obtener más información, consulte [Definir directivas de retención](admin-data-retention-policies.md).
+Use una política de retención para limpiar las versiones archivadas que ya no necesita. Las políticas de retención permiten a los administradores definir cuánto tiempo desean almacenar los datos. Por ejemplo, pueden configurar una política que elimine datos después de una fecha de vencimiento. Para obtener más información, consulte [Definir directivas de retención](admin-data-retention-policies.md).
 
-Hay algunas cosas a tener en cuenta sobre la creación de políticas de retención para documentos archivados:
+Hay algunas cosas a tener en cuenta sobre la creación de políticas de retención para documentos y proyectos archivados:
 
-* *Si no se eliminó el documento original, Business Central no eliminará las versiones archivadas. Las versiones archivadas no caducan mientras exista el original.
-* Cuando configura la directiva de retención, puede especificar que desea que la política elimine todas las versiones archivadas de un documento excepto la más reciente. Por ejemplo, puede tener 10 versiones de un documento y desea conservar una copia de la última. 
-* Business Central calcula la fecha de caducidad de los documentos en función de la fecha de la versión archivada más reciente.
+* Si no se elimina el documento original, [!INCLUDE [prod_short](includes/prod_short.md)] no eliminará las versiones archivadas. Las versiones archivadas no caducan mientras exista el original.
+* Cuando configura la directiva de retención, puede especificar que desea que la política elimine todas las versiones archivadas excepto la más reciente. Por ejemplo, puede tener 10 versiones y desea conservar una copia de la última. 
+* [!INCLUDE [prod_short](includes/prod_short.md)] calcula la fecha de caducidad de los documentos en función de la fecha de la versión archivada más reciente.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Seguir líneas de documentos](across-how-to-track-document-lines.md)  
 [Ventas](sales-manage-sales.md)  

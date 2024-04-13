@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bill, sale, invoice, order'
 ms.search.form: '43, 48, 9301'
-ms.date: 11/01/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="invoice-sales"></a>Facturar ventas
+# Facturar ventas
 
 Normalmente puede crear un pedido o una factura de venta para registrar el contrato con un cliente para vender determinados productos según los términos de entrega y pago establecidos.  
 
@@ -24,15 +24,15 @@ En todas las demás situaciones, los pedidos de venta y las facturas de venta fu
 
 Puede negocias con el cliente creando primero creando una cotización de venta, que puede convertir en una factura de venta cuando acuerde la venta. Obtenga más información en [Crear cotizaciones de ventas](sales-how-make-offers.md).
 
-## <a name="create-sales-invoices"></a>Crear factura de venta
+## Crear factura de venta
 
-Si el cliente decide comprar, registre la factura de venta para crear los movimientos de cantidad y valor relacionados. Cuando registre la factura de venta, también puede enviarla como PDF anexo. Puede rellenar previamente el cuerpo de correo electrónico con un resumen de la factura y la información de pagos, por ejemplo, proporcionando un vínculo a PayPal. Obtenga más información en [Enviar documentos por correo electrónico](ui-how-send-documents-email.md). Cuando el cliente paga la factura, puede registrar ese pago de diferentes maneras, según el tamaño y los flujos de trabajo preferidos de su organización. Obtenga más información en la sección [Registrar pagos](#register-payments).  
+Si el cliente decide comprar, registre la factura de venta para crear los movimientos de cantidad y valor relacionados. Cuando registre la factura de venta, también puede enviarla como PDF anexo. Puede rellenar previamente el cuerpo de correo electrónico con un resumen de la factura y la información de pagos, por ejemplo, proporcionando un vínculo a PayPal. Obtenga más información en [Enviar documentos por correo electrónico](ui-how-send-documents-email.md#to-send-documents-by-email). Cuando el cliente paga la factura, puede registrar ese pago de diferentes maneras, según el tamaño y los flujos de trabajo preferidos de su organización. Obtenga más información en la sección [Registrar pagos](#register-payments).  
 
 Las ficha de producto puede ser del tipo **Inventario**, **Servicio** o **No inventario** para especificar si el producto representa una unidad de inventario físico, una unidad de tiempo de mano de obra o una unidad física no guardada en el inventario, respectivamente. Obtenga más información en [Registrar nuevos productos](inventory-how-register-new-items.md). El proceso de la factura de venta es el mismo para los tres tipos de producto.
 
 Puede rellenar los campos de clientes en la factura de venta de dos formas en función de si el cliente ya está registrado. Consulte el paso 2 del siguiente procedimiento.
 
-### <a name="to-create-a-sales-invoice"></a>Para crear una factura de venta
+### Para crear una factura de venta
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas venta** y luego elija el enlace relacionado.  
 2. En el campo **Nombre cliente**, escriba el nombre de un cliente existente. Sin embargo, si el cliente es nuevo y, por tanto, no está registrado, siga estos pasos para completar la información estándar del cliente en la página **Factura de venta**:
@@ -89,11 +89,11 @@ El cuadro de diálogo **Registrar y enviar confirmación** muestra el método pr
 
 El producto relacionado y los movimientos de cliente se han creado ahora en su sistema y la factura de venta se genera como un documento PDF. La factura de venta se elimina de la lista de facturas de venta y se reemplaza con un nuevo documento de la lista de facturas de venta registradas.  
 
-### <a name="calculate-invoice-discounts-on-sales"></a>Calcular descuentos en factura para ventas
+### Calcular descuentos en factura para ventas
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="posted-invoices"></a>Facturas registradas
+## Facturas registradas
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -101,7 +101,7 @@ Puede corregir o cancelar fácilmente una factura de venta registrada antes del 
 
 [Abra la lista **Histórico facturas venta**](https://businesscentral.dynamics.com/?page=143) en [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="register-payments"></a>Registrar pagos
+## Registrar pagos
 
 En función de sus necesidades comerciales, puede recibir un pago y registrarlo de diferentes maneras: de forma manual, automática y mediante servicios de pago.  
 
@@ -116,17 +116,17 @@ Incluso puede crear facturas pagadas directamente para clientes no registrados c
 > [!TIP]
 > Si desea enviar a sus clientes recordatorios de pagos vencidos, debe configurar primero niveles y términos de recordatorio. Obtenga más información en [Configurar términos y niveles de recordatorios](finance-setup-reminders.md).  
 
-## <a name="external-document-numbers"></a>Números de documento externo
+## Números de documento externo
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Ventas](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Imprimir la lista de picking](sales-how-print-picking-list.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
-[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
+[Enviar documentos por correo electrónico](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Facturación masiva desde Microsoft Bookings en Business Central ](finance-bookings.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

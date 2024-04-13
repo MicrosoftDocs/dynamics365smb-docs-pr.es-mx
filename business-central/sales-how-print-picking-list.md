@@ -1,21 +1,21 @@
 ---
-title: Imprimir lista de picking de inventario a partir de una orden de venta
+title: Imprimir lista de picking de inventario a partir de un pedido de venta
 description: 'Puede imprimir una lista de picking de inventario directamente desde una orden de venta, ventas, factura y otros documentos de venta de salida.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/25/2021
+ms.date: 02/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="print-the-picking-list"></a>Imprimir la lista de picking
+# Imprimir la lista de picking
 
 Puede imprimir una lista de picking de inventario directamente desde una orden de venta y otros documentos que inicien el envío de los productos.
 
 Este informe se utiliza normalmente en empresas sin funcionalidad dedicada a la gestión de almacenes, de modo que un trabajador de inventario pueda ver o imprimir la lista de picking del documento de ventas relacionado. En empresas con un volumen más alto o procesos más complejos, el envío y el picking se planifican y se realizan en documentos de almacén dedicados. Obtenga más información en [Flujo de salida del almacén](design-details-outbound-warehouse-flow.md).
 
-## <a name="to-print-a-picking-list-from-a-sales-order"></a>Para imprimir una lista de picking a partir de un pedido de venta
+## Para imprimir una lista de picking a partir de un pedido de venta
 
 El procedimiento siguiente se basa en un pedido de venta. Los pasos son similares para otros documentos de venta que se pueden usar para iniciar el envío de productos, como órdenes de transferencia.
 
@@ -29,9 +29,9 @@ También puede guardar la lista de picking como un documento, por ejemplo, para 
 > [!NOTE]
 > Si ha usado la función **Desplegar L.M.** en el pedido de venta, solo se muestran en el informe los componentes del producto de ensamblado relacionado. Obtenga más información en [Trabajar con listas de materiales](inventory-how-work-BOMs.md).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también .
 
-[Inventario](inventory-manage-inventory.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Flujo de salida del almacén](design-details-outbound-warehouse-flow.md)
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '555, 556, 557, 558, 9372, 9370, 9371'
-ms.date: 09/22/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-analysis-reports"></a>Crear informes de análisis
+# Crear informes de análisis
 
 Los directores de ventas necesitan analizar las facturaciones, los ingresos brutos y otros indicadores clave del rendimiento de las ventas con regularidad. Los compradores están más interesados en la dinámica de los volúmenes de compra, las actuaciones de los proveedores y los precios de compra. A su vez, los directores de inventario/logística necesitan información sobre la rotación de inventarios, sobre los análisis de los movimientos de inventario y sobre las estadísticas de valores de existencias. Por lo tanto, no existe un informe de análisis único para todos.
 
-Puede personalizar informes de análisis basados en registros del histórico de transacciones, por ejemplo, ajustes de inventario, transferencias, compras y ventas. En un informe personalizado, los datos de origen, derivados de los movimientos del producto (con los movimientos de valor asociados) se pueden combinar, comparar y presentar de la forma que más convenga al usuario. En este sentido, el informe de análisis es muy similar al informe de tabla dinámica de Microsoft Excel.  
+Puede personalizar informes de análisis basados en registros del histórico de transacciones, por ejemplo, ajustes de inventario, transferencias, compras y ventas. En un informe personalizado, los datos de origen, derivados de los movimientos del producto (con los movimientos de valor asociados) se pueden combinar, comparar y presentar de la forma que más convenga al usuario. En este sentido, el informe de análisis es similar al informe de tabla dinámica de Microsoft Excel.  
 
 Entonces, por ejemplo, puede crear un informe personalizado que se centre en sus cuentas clave en términos de rotación total de productos en cantidades y cantidades vendidas, ganancia bruta y porcentaje de ganancia bruta durante el mes actual. Luego puede hacer que compare esas cifras con los resultados de meses anteriores o el mismo mes del año pasado y calcule las desviaciones. Todo esto se puede hacer en una sola vista, lo que permite explorar la causa de los problemas identificados e incluso elegir el desplegable para profundizar hasta los detalles del nivel de transacciones individuales.  
 
@@ -22,7 +22,7 @@ El informe de análisis consta de los objetos que desea analizar, como clientes,
 
 Además de informes de análisis, puede crear y ver información similar en vistas de análisis, que se basan en dimensiones. Obtenga más información en [Analizar datos por dimensiones](bi-how-analyze-data-dimension.md).
 
-## <a name="example"></a>Ejemplo
+## Ejemplo
 
 Puede configurar estas líneas (objetos que desea analizar):  
 
@@ -36,7 +36,7 @@ Luego puede configurar estas columnas (cómo desea que se analicen los objetos):
 - Ventas del mes anterior  
 - Porcentaje de ventas del mes anterior  
 
-## <a name="setting-up-line-and-column-layouts"></a>Configuración de plantillas de líneas y columnas
+## Configuración de plantillas de líneas y columnas
 
 En la página **Informe de análisis**, puede ver distintas plantillas de líneas y columnas que configura en:
 
@@ -56,7 +56,7 @@ Basándose en las líneas y columnas definidas, [!INCLUDE[prod_short](includes/p
 
 Puede, por ejemplo, configurar un grupo de líneas y varios grupos de plantillas de columna para mostrar los informes mensuales y anuales respectivamente.
 
-## <a name="set-up-analysis-column-templates"></a>Configurar plantillas de columnas de análisis
+## Configurar plantillas de columnas de análisis
 
 El procedimiento siguiente se basa en vistas de análisis de ventas. Los pasos son similares para las vistas de análisis de compras y de inventario.
 
@@ -73,7 +73,7 @@ Una plantilla de columna de análisis contiene un conjunto de líneas donde cada
     Además, en el campo **Tipo mov. cont.**, si selecciona **Movs. prods.**, se copian las cifras reales del movimiento del producto. Si selecciona **Movs. ppto. prods.**, se copian las cifras presupuestadas del presupuesto.  
 5. Para guardar los cambios, elija **Aceptar**.  
 
-## <a name="set-up-analysis-line-templates"></a>Configurar plantillas de líneas de análisis
+## Configurar plantillas de líneas de análisis
 
 El procedimiento siguiente se basa en informes de análisis para ventas. Los pasos son similares para los informes de análisis de compras y de inventario.
 
@@ -87,7 +87,7 @@ Una plantilla de línea de análisis contiene un conjunto de líneas donde cada 
 > [!NOTE]  
 > Opcionalmente, para crear muchas líneas individuales para cada producto, cliente, etc., puede seleccionar la opción de inserción adecuada para rellenar todos los campos correspondientes en la línea. Posteriormente, si lo necesita, puede editar las líneas manualmente. Para insertar líneas, elija la acción **Insertar productos** o **Insertar grupos de productos**.  
 
-## <a name="create-a-new-sales-analysis-report"></a>Crear un nuevo informe de análisis de ventas
+## Crear un nuevo informe de análisis de ventas
 
 El procedimiento siguiente se basa en informes de análisis para ventas. Los pasos son similares para los informes de análisis de compras y de inventario.
 
@@ -102,7 +102,7 @@ Con los informes de análisis, puede analizar la dinámica de sus ventas según 
 > [!NOTE]  
 > La formación de combinaciones de plantillas de línea y de columna para crear informes y la asignación de nombres únicos es opcional. Si lo hace, no necesitará seleccionar plantillas de línea y de columna en la página **Informe de análisis de ventas**. Cuando haya elegido un nombre de informe, puede cambiar las plantillas de línea y de columna independientemente y, más tarde, seleccionar de nuevo el nombre de informe para restaurar la combinación original.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Inteligencia empresarial financiera](bi.md)  
 [Finanzas](finance.md)  

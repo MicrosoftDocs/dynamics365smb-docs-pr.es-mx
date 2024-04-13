@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: client
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="merge-duplicate-records"></a>Combinar registros duplicados
+# Combinar registros duplicados
 
 A medida que diferentes usuarios crean nuevas fichas de cliente, proveedor o contacto a lo largo del tiempo, o que los nuevos registros se crean automáticamente durante la migración, un cliente, proveedor o contacto puede estar representado en el sistema con más de un registro. En este caso, puede utilizar la página **Combinar duplicados** de la ficha del registro que desea conservar. La página le ofrece una visión general de los valores de campo duplicado y le ofrece funciones para seleccionar los valores que desea conservar o descartar al combinar dos registros en uno.
 
@@ -26,7 +26,7 @@ El procedimiento siguiente se basa en una ficha de cliente. Los pasos son pareci
 3. En la página **Ficha de cliente**, seleccione la acción **Combinar con**.
 4. En la página **Combinar duplicado**, en el campo **Combinar con**, seleccione el cliente que cree que es un duplicado del que ha abierto, indicado en el campo **Actual**.
 
-    La ficha desplegable **Campos** enumera los campos en los que los valores son diferentes para los dos clientes. Esto significa que si el cliente seleccionado es realmente un duplicado, solo se deben enumerar unos pocos campos, como errores de escritura y otros errores de entrada de datos.
+    La ficha desplegable **Campos** enumera los campos en los que los valores son diferentes para los dos clientes. Esto significa que si el cliente seleccionado es realmente un duplicado, solo se deben enumerar algunos campos, como errores de escritura y otros errores de entrada de datos.
 
     La ficha desplegable **Tablas relacionadas** enumera las tablas en las que hay campos con una relación en ambos clientes. Los campos **Recuento actual** y **Recuento duplicado** muestran el número de campos en las tablas relacionadas en las que se usa el valor **Nº** del cliente actual y del cliente duplicado. En la página **Combinar duplicado**, esta sección es solo informativa; sin embargo, si existen conflictos de combinación, los resolverá en la página **Combinar conflictos duplicados**. Consulte los pasos 8 a 12.   
 
@@ -55,7 +55,7 @@ El procedimiento siguiente se basa en una ficha de cliente. Los pasos son pareci
 > [!NOTE]
 > Para los contactos, puede usar la funcionalidad para encontrar contactos duplicados antes de usar la página **Combinar duplicados**. Para obtener más información, vea [Búsqueda de contactos duplicados](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Ventas](sales-manage-sales.md)  
 [Configurar contactos](marketing-setup-contacts.md)  

@@ -9,13 +9,15 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-table-structure"></a>Detalles de diseño: Estructura de tablas
+# Detalles de diseño: estructura de tabla
+
 Para entender cómo se almacenan y registran los movimientos de dimensión, es importante comprender la estructura de tabla.  
 
-## <a name="table-480-dimension-set-entry"></a>Tabla 480, Mov. grupo dimensiones
+## Tabla 480, Mov. grupo dimensiones  
+
 Esta tabla no se puede modificar. Tras escribir los datos en la tabla, no se podrá eliminar o modificar.
 
-|N.º de campo|Nombre de campo|Tipo de datos|Comentario|  
+|N.º de campo|Nombre de campo|Tipo dato|Comentario|  
 |---------------|----------------|---------------|-------------|  
 |1|**Id.**|Entero|>0,0 está reservado para el grupo de dimensiones vacío. Hace referencia al campo 3 de la tabla 481.|  
 |2|**Cód. dimensión**|Código 20|Relación de tabla con la tabla 348.|  
@@ -24,17 +26,17 @@ Esta tabla no se puede modificar. Tras escribir los datos en la tabla, no se pod
 |5|**Nombre dimensión**|Texto 30|CalcField. Búsqueda en la tabla 348.|  
 |6|**Nombre valor dimensión**|Texto 30|CalcField. Búsqueda en la tabla 349.|  
 
-## <a name="table-481-dimension-set-tree-node"></a>Tabla 481, Nodo árbol grupo dimensiones
+## Tabla 481, Nodo árbol grupo dimensiones  
 Esta tabla no se puede modificar. Se usa para buscar un grupo de dimensiones. Si no se encuentra el grupo de dimensiones, se crea un nuevo grupo.  
 
-|Nº campo|Nombre de campo|Tipo de datos|Comentario|  
+|N.º de campo|Nombre de campo|Tipo dato|Comentario|  
 |---------------|----------------|---------------|-------------|  
 |1|**Id. grupo dimensiones principal**|Entero|0 para el nodo de nivel superior.|  
 |2|**Id. valor de dimensión**|Entero|Relación de tabla con el campo 12 de la tabla 349.|  
 |3|**Id. grupo dimensiones**|Entero|AutoIncrement. Se usa en el campo 1 de la tabla 480.|  
 |4|**Utilizándose**|Booleano|Falso si no se usa.|  
 
-## <a name="table-482-reclas-dimension-set-buffer"></a>Tabla 482 Almacenaje grupo de dimensiones reclas.
+## Tabla 482 Almacenaje grupo de dimensiones reclas.  
 Esta tabla se usa cuando se modifica un código de valor de dimensión, por ejemplo, en un movimiento de producto mediante la página **Diario reclasificación producto**.  
 
 |N.º de campo|Nombre de campo|Tipo de datos|Comentario|  
@@ -48,14 +50,14 @@ Esta tabla se usa cuando se modifica un código de valor de dimensión, por ejem
 |7|**Nombre valor dimensión**|Texto 30|CalcField. Búsqueda en la tabla 349.|  
 |8|**Nuevo nombre valor dimensión**|Texto 30|CalcField. Búsqueda en la tabla 349.|  
 
-## <a name="transaction-and-budget-tables"></a>Tablas de transacción y de presupuesto
+## Tablas de transacción y de presupuesto  
 Además de otros campos de dimensión en la tabla, este campo es importante:  
 
 |N.º de campo|Nombre de campo|Tipo de datos|Comentario|  
 |---------------|----------------|---------------|-------------|  
 |480|**Id. grupo dimensiones**|Entero|Hace referencia al campo 1 de la tabla 480.|  
 
-### <a name="table-83-item-journal-line"></a>Tabla 83, Lín. diario producto
+### Tabla 83, Lín. diario producto  
 Además de otros campos de dimensión en la tabla, estos campos son importantes.  
 
 |N.º de campo|Nombre de campo|Tipo de datos|Comentario|  
@@ -63,19 +65,19 @@ Además de otros campos de dimensión en la tabla, estos campos son importantes.
 |480|**Id. grupo dimensiones**|Entero|Hace referencia al campo 1 de la tabla 480.|  
 |481|**Id. grupo dimensiones nuevo**|Entero|Hace referencia al campo 1 de la tabla 480.|  
 
-### <a name="table-349-dimension-value"></a>Tabla 349, Valor de dimensión
+### Tabla 349, Valor de dimensión  
 Además de otros campos de dimensión en la tabla, estos campos son importantes.  
 
 |N.º de campo|Nombre de campo|Tipo de datos|Comentario|  
 |---------------|----------------|---------------|-------------|  
 |12|**Id. valor de dimensión**|Entero|AutoIncrement. Se usa para las referencias de las tablas 480 y 481.|  
 
-### <a name="tables-that-contain-the-dimension-set-id-field"></a>Tablas que contienen el campo Id. grupo dimensiones
+### Tablas que contienen el campo Id. grupo dimensiones
  El campo **Id. grupo dimensiones** (480) existe en las siguientes tablas. En el caso de tablas que almacenan datos registrados, el campo solo muestra dimensiones no modificables marcadas como Explorar en profundidad. En el caso de tablas que almacenan documentos de trabajo, el campo se puede modificar. Las tablas de búfer que se usan internamente no necesitan capacidades que se puedan modificar o no se puedan modificar.  
 
  El campo 480 no se puede modificar en las tablas siguientes.  
 
-|Nº tabla|Nombre tabla|  
+|Tabla n.º|Nombre de la tabla|  
 |---------------|----------------|  
 |17|**Mov. contabilidad**|  
 |21|**Mov. cliente**|  
@@ -140,7 +142,7 @@ El campo 480 se puede modificar en las tablas siguientes.
 |89|**Lín. diario L.M.**|  
 |96|**Mov. presupuesto**|  
 |207|**Lín. diario recurso**|  
-|210|**Lín. diario proyecto**|  
+|210|**Línea de diario de proyecto**|  
 |221|**Diario gen. distribución**|  
 |246|**Lín. hoja demanda**|  
 |295|**Cab. recordatorio**|  
@@ -163,17 +165,17 @@ El campo 480 se puede modificar en las tablas siguientes.
 
 El campo 480 existe en las siguientes tablas de búfer.  
 
-|Nº tabla|Nombre tabla|  
+|Tabla n.º|Nombre de la tabla|  
 |---------------|----------------|  
 |49|**Mem. inter. factura**|  
-|212|**Mem. inter. proyecto**|  
+|212|**Buffer registro proyecto**|  
 |372|**Mem. inter. pago**|  
 |382|**Mem. inter. mov. CV**|  
 |461|**Mem. int. lín. fact. anticipo**|  
 |5637|**A/F Mem. int. reg. C/G**|  
 |7136|**Búfer del presupuesto de productos**|  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Información general de los movimientos del grupo dimensiones](design-details-dimension-set-entries-overview.md)  
 [Detalles de diseño: Búsqueda de combinaciones de dimensiones](design-details-searching-for-dimension-combinations.md)   

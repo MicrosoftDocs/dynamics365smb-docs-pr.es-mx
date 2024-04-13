@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'cancel, undo, correct'
 ms.search.form: '6640, 6643, 9307, 9309, 9308, 6652, 145, 147'
-ms.date: 04/01/2021
+ms.date: 03/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="process-purchase-returns-or-cancellations"></a>Procesamiento de devoluciones de compra o cancelaciones
+# Procesar devoluciones de compras o cancelaciones
 
 Si desea devolver productos al proveedor o cancelar servicios comprados, puede crear y registrar una nota de crédito de compras que especifique el cambio solicitado en relación a la factura de compra original. Para incluir la información correcta de la factura de compras, puede crear el abono de compra directamente de la factura de compra contabilizada o puede crear un nuevo abono de compra con información de factura copiada.
 
@@ -23,11 +23,11 @@ Normalmente, se crea una nota de crédito de compra o un pedido de devolución d
 
 El cambio puede relacionarse con todos los productos en la factura de compra original o solo algunos de los productos. Por consiguiente, puede devolver productos parcialmente recibidos o exigir un reembolso parcial de los servicios recibidos. En ese caso, debe editar la información de las líneas del abono de compra o en el pedido de devolución de compras.
 
-Además de la original factura de compra registrada, puede liquidar el abono de compra o el pedido de devolución de compra a otros documentos de compra, por ejemplo otra factura de compra registrada, porque usted también devuelve los productos entregados con dicha factura.
+Además de la factura de compra registrada original, puede liquidar la nota de crédito de compra o el pedido de devolución de compra a otros documentos de compra, por ejemplo otra factura de compra registrada, porque usted también devuelve los productos entregados con dicha factura.
 
 El registro de la nota de crédito también revertirá cualquier coste de producto que se hubiera asignado al documento registrado, de forma que los movimientos de valor del producto son los mismos de antes que se asignara el cargo de producto.
 
-## <a name="inventory-costing"></a>Inventario y valoración
+## Inventario y valoración
 Para conservar la correcta valuación de inventarios, normalmente desea tomar los artículos devueltos del inventario al costo unitario en el que fueron comprados, no al costo unitario actual. Esto se denomina reversión de costo exacto.
 
 Existen dos funciones para asignar la reversión de costo exacta automáticamente.  
@@ -41,7 +41,7 @@ Para asignar manualmente la reversión del costo exacto, debe elegir el campo **
 
 Para obtener más información, consulte [Detalles de diseño: valoración de inventario](design-details-inventory-costing.md).
 
-## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Para crear una nota de crédito de compra desde una factura de compra registrada.
+## Para crear una nota de crédito de compra desde una factura de compra registrada.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas compra** y, a continuación, elija el vínculo relacionado.  
 2. En la página **Facturas de compra registradas**, seleccione la factura de compra que desea revertir y, a continuación, seleccione la acción **Crear abono correctivo**.
@@ -60,9 +60,9 @@ Para obtener más información, consulte [Detalles de diseño: valoración de in
 
 Las facturas de compra registradas a las que se aplica la nota de crédito ahora están revertidas. Si ya ha pagado la factura original, el proveedor ahora deberá reembolsarle el pago a usted. Si la nota de crédito es solo para parte del producto en la factura original, puede pagar solo el importe pendiente en la factura de compra original para cerrarla.
 
-La nota de crédito de compra se elimina y se reemplaza por un nuevo documento en la lista de notas de crédito de compra registradas.
+La nota de crédito de compra se ha eliminado y remplazado por un nuevo documento en la lista de notas de crédito de compra registradas.
 
-## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Crear un nuevo abono de compra copiando una factura de compra registrada.
+## Crear un nuevo abono de compra copiando una factura de compra registrada.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Notas de crédito de compra** y, luego, elija el vínculo relacionado.
 2. Seleccione la acción **Nuevo** para abrir una nota de crédito de compra vacía.
@@ -74,7 +74,7 @@ La nota de crédito de compra se elimina y se reemplaza por un nuevo documento e
 8. Elija el botón **Aceptar**. Las líneas de factura copiadas se insertarán en el abono de compra.
 9. Complete el abono de compra como se explica en [Para crear un abono de compra de una factura de compras registrada](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
-## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Crear un pedido de devolución de compras basado en uno o más documentos de compras registrados
+## Crear un pedido de devolución de compras basado en uno o más documentos de compras registrados
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Devolución de pedidos** y, a continuación, seleccione el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -124,7 +124,7 @@ La nota de crédito de compra se elimina y se reemplaza por un nuevo documento e
 10. En la página **Pedido dev. compra**, en el campo **Cód. auditoría dev.** de cada línea, seleccione el motivo de la devolución.
 11. Seleccione la acción **Registrar**.
 
-## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Para crear un pedido de sustitución a partir de un pedido de devolución de compra
+## Para crear un pedido de sustitución a partir de un pedido de devolución de compra
 
 Puede estar de acuerdo con el proveedor en que compense un producto comprado, sustituyendo el producto. El producto de sustitución puede ser el mismo u otro distinto. Esta situación se puede dar si el proveedor le envió por error un producto equivocado.  
 
@@ -133,7 +133,7 @@ Puede estar de acuerdo con el proveedor en que compense un producto comprado, su
 3. En la página **Mover líneas compra negativas**, rellene los campos en una línea según sea necesario.
 4. Elija el botón **Aceptar**. La línea negativa se elimina del pedido de devolución de compra y se crea un nuevo pedido de compra. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).  
 
-## <a name="to-create-a-purchase-allowance"></a>Para crear una deducción de compra
+## Para crear una deducción de compra
 
 Si los productos que recibe del proveedor no son satisfactorios, como cuando están dañados o son del color o tamaño incorrecto, es posible que el proveedor le ofrezca una deducción de compra.  
 
@@ -145,22 +145,22 @@ Puede registrar este costo reducido de compra como un cargo de producto en una n
 4. Seleccione **Cargo (prod.)** en el campo **Tipo** de la ficha desplegable **Líneas**.  
 5. En el campo **N.º**, seleccione el valor de cargo apropiado de producto.  
 
-    Puede que desee crear un número de costo de producto especial para cubrir las deducciones de compra.  
+    Puede que desee crear un número de coste de producto especial para cubrir las deducciones de compra.  
 6. En el campo **Cantidad**, introduzca **1**.  
 7. En el campo **Precio compra**, introduzca el importe de la deducción de compra.  
 8. Asigne la deducción de compra como un cargo de producto a los productos de la remisión registrada. Para obtener más información, consulte [Usar los cargos de producto para costos comerciales adicionales](payables-how-assign-item-charges.md). Una vez asignada la deducción, vuelva a la página **Abono de compra**.
 
 Cuando registre el pedido de devolución de compra, la deducción de compra se añadirá al importe del movimiento de compra correspondiente. De este modo podrá mantener la precisión de la valuación de inventarios.  
 
-## <a name="to-combine-return-shipments"></a>Para combinar envíos devueltos
+## Para combinar envíos devueltos
 
 Si desea devolver los productos cubiertos por distintos pedidos de devolución de compra al mismo vendedor, entonces puede utilizar la función **Combinar envíos devueltos**.  
 
 Cuando envíe los productos, registre los pedidos de devolución de compras relacionados como enviados para crear envíos de devolución de compra registrados.  
 
-Cuando vaya a facturar estos productos, en lugar de facturar cada pedido de devolución de compra por separado, cree una nota de crédito de compras y copie automáticamente las líneas de envío de devolución de compra registradas en este documento. Luego registre la nota de crédito de compra y facture con comodidad todos los pedidos de devolución de compra pendientes al mismo tiempo.  
+Cuando vaya a facturar estos productos, en lugar de facturar cada pedido de devolución de compra por separado, cree una nota de crédito de compra y copie automáticamente las líneas de envío de devolución de compra registradas en este documento. Luego registre la nota de crédito de compra y facture con comodidad todos los pedidos de devolución de compra pendientes al mismo tiempo.  
 
-Cuando se combinan envíos de devolución en una misma nota de crédito y se registran, se crea una nota de crédito de compra registrada para las líneas facturadas. El campo **Cantidad facturada** del pedido de devolución de compra de origen se actualiza en función de la cantidad facturada. Sin embargo, este pedido de devolución de compra original no se elimina, aunque se haya recibido y facturado por completo, por lo que debe eliminar el pedido de devolución de compra manualmente.
+Cuando se combinan remisiones devueltas en una nota de crédito y se registran, se crea una nota de crédito de compra registrada para las líneas facturadas. El campo **Cantidad facturada** del pedido de devolución de compra de origen se actualiza en función de la cantidad facturada. Sin embargo, este pedido de devolución de compra original no se elimina, aunque se haya recibido y facturado por completo, por lo que debe eliminar el pedido de devolución de compra manualmente.
 
 > [!NOTE]  
 > El procedimiento siguiente supone que hay varios pedidos de devolución de compra para el proveedor y que están registrados como enviados.     
@@ -174,13 +174,13 @@ Cuando se combinan envíos de devolución en una misma nota de crédito y se reg
     Si ha seleccionado una línea de envío de devolución incorrecta o desea comenzar desde el principio, solo elimine las líneas de la nota de crédito de compras y vuelva a usar la función **Tomar líns. envío devol.**  
 6. Seleccione la acción **Registrar**.  
 
-### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Para eliminar pedidos de devolución de compra abiertos después del registro del envío de devolución
+### Para eliminar pedidos de devolución de compra abiertos después del registro del envío de devolución  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Eliminar pedidos de devolución de compra facturados** y, a continuación, elija el enlace relacionado.  
 2. Rellene los campos según sea necesario y, a continuación, haga clic en el botón **Aceptar**.  
 3. También puede eliminar los pedidos de devolución de compra individuales manualmente.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también .
 [Compras](purchasing-manage-purchasing.md)  
 [Registrar compras](purchasing-how-record-purchases.md)  
 [Corregir o cancelar facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

@@ -1,16 +1,17 @@
 ---
 title: 'Configurar recursos, hojas de horas y proyectos'
-description: 'Este tema describe cómo configurar recursos, hojas de horas y proyectos para administrar proyectos y sus presupuestos.'
+description: 'Este tema describe cómo configurar recursos, hojas de horas para administrar proyectos y sus presupuestos.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: projects
 ms.search.form: '289, 290, 376, 462, 463, 1029, 8904, 9014, 9015'
-ms.date: 06/22/2021
-ms.author: bholtorf
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="setting-up-project-management"></a>Configurar la administración de proyectos
+# Configurar la administración de proyectos
 
 Antes de poder usar [!INCLUDE[prod_short](includes/prod_short.md)] para administrar proyectos, debe configurar los recursos, las hojas de horas y los proyectos.
 
@@ -20,19 +21,18 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 | Para | Vea |
 | --- | --- |
-| Configurar la administración de proyectos.|[Configurar la información general de los proyectos](projects-how-setup-jobs.md#to-set-general-information-for-jobs)|
-| Configure los recursos y los costos y precios relacionados para recursos individuales, grupos de recursos o todos los recursos disponibles de la empresa. |[Configurar recursos](projects-how-setup-resources.md) |
-| Habilitar los recursos para notificar el uso del tiempo de un individuo o una máquina, y habilitar que un administrador pueda revisar el uso y su asignación. |[Configuración de hojas de horas](projects-how-setup-time-sheets.md) |
+| Configurar la administración de proyectos.|[Configurar la información general de los proyectos](projects-how-setup-jobs.md#to-set-general-information-for-projects)|
+| Configure los recursos y los costes y precios relacionados para recursos individuales, grupos de recursos o todos los recursos disponibles de la empresa. |[Configurar recursos](projects-how-setup-resources.md) |
+| Habilitar los recursos para notificar el uso del tiempo de un individuo o una máquina, y habilitar que un administrador pueda revisar el uso y su asignación. |[Configurar partes de horas](projects-how-setup-time-sheets.md) |
 | Crear fichas de proyecto y preparar tareas de proyecto. Configurar precios de los productos y los recursos de proyecto y definir los grupos contables de proyectos. |[Configurar proyectos](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Administrar proyectos](projects-manage-projects.md)  
 [Vídeo: Cómo crear un proyecto en Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,11 +6,11 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'trade, sell'
 ms.search.form: 253
-ms.date: 09/02/2022
+ms.date: 01/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="sales"></a>Venta
+# Venta
 
 Puede crear una factura o una orden de venta para registrar el contrato con un cliente para vender determinados productos según términos de entrega y pago determinados.
 
@@ -45,14 +45,14 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 | Vincular un pedido de ventas a una orden de compra para vender un producto de envío directo que se entregará directamente desde el proveedor al cliente. |[Realizar envíos directos](sales-how-drop-shipment.md) |
 |Crear un producto del catálogo enviado desde un proveedor a su almacén para poder enviar el producto a su cliente.|[Crear pedidos especiales](sales-how-to-create-special-orders.md)|
 | Realice una acción en una factura de venta registrada sin abonar para crear automáticamente una nota de crédito y para cancelar la factura de venta o regenerarla para poder hacer correcciones. |[Corregir o cancelar facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md) |
-| Crea una nota de crédito de venta para revertir una factura de venta registrada específica para reflejar qué productos devuelve el cliente y qué importe de pago se reembolsará. |[Procesamiento de devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md) |
+| Crea una nota de crédito de venta para revertir una factura de venta registrada específica para reflejar qué productos de Customer Returns y qué importe de pago se reembolsará. |[Procesar devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md) |
 |Administrar el compromiso de su cliente para comprar grandes cantidades entregadas en varios envíos a lo largo del tiempo.|[Trabajar con pedidos de venta abiertos](sales-how-to-create-blanket-sales-orders.md)|
 |Vender productos de ensamblado que no están disponibles actualmente mediante una orden de ensamblado vinculada para suministrar la cantidad total o parcial del pedido de venta.|[Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md)|
 |Facturar a un cliente una vez por varios envíos, combinándolos en una única factura.|[Agrupar envíos en una factura única](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Informar a los clientes las fechas de entrega de los pedidos, mediante el cálculo de la fecha fecha capaz de comprometer o la fecha del neto no comprometido.|[Calcular fechas de compromiso de entrega de pedido](sales-how-to-calculate-order-promising-dates.md)|
 |Resolver la confusión cuando existen dos o más registros para el mismo cliente.|[Combinar registros duplicados](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configuración de ventas](sales-setup-sales.md)  
 [Registrar nuevos clientes](sales-how-register-new-customers.md)  
