@@ -53,20 +53,22 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 | Para  | Vea |
 | --- | --- |
 | Establezca los requisitos previos para utilizar la función de activos fijos (definición de valores predeterminados, contabilidad de activos fijos, grupos de contabilización, claves de asignación, diarios y tipos de contabilización). | [Configurar activos fijos](fa-setup.md)|
-| Crear activos fijos, asignar métodos de amortización, registrar adquisiciones, valores residuales e imprimir listas de activos fijos. |[Activos fijos adquiridos](fa-how-acquire.md) |
+| Gestionar presupuestos de activos fijos, presupuestar costos de adquisición, presupuestar ventas/bajas de activos fijos y presupuestar amortización. |[Administrar presupuestos para activos fijos](fa-how-manage-budgets.md) |
+| Crear activos fijos, asignar métodos de amortización, registrar adquisiciones, valores residuales e imprimir listas de activos fijos. |[Adquirir activos fijos](fa-how-acquire.md) |
+| Conocer varios métodos de amortización de activos fijos. |[Métodos de amortización](fa-depreciation-methods.md) |
+| Registrar y calcular la amortización y analizarla en informes de activos fijos. |[Depreciar o amortizar activos fijos](fa-how-depreciate-amortize.md) |
+| Obtenga más información sobre las capacidades integradas de informes y análisis para activos fijos. | [Visión general del análisis de activos fijos](fa-analytics-overview.md) |
 | Registrar visitas de servicio, así como registrar y supervisar los costos de mantenimiento. |[Mantener activos fijos](fa-how-maintain.md) |
 | Actualizar información de seguros, registrar costos de adquisición en pólizas de seguros, modificar la cobertura del seguro, ver estadísticas de seguros y enumerar pólizas de seguros. |[Aseguramiento de activos fijos](fa-how-insure.md) |
 | Reclasificar activos fijos, transferir activos fijos a distintas ubicaciones, dividir o combinar activos. |[Permite transferir, dividir o combinar activos fijos](fa-how-trans-split-combine.md) |
 | Ajustar valores de activos fijos, registrar apreciación y transacciones de depreciación. |[Revalorizar activos fijos](fa-how-revalue.md) |
-| Registrar y calcular la amortización y analizarla en informes de activos fijos. |[Depreciar o amortizar activos fijos](fa-how-depreciate-amortize.md) |
-| Conocer varios métodos de amortización de activos fijos. |[Métodos de amortización](fa-depreciation-methods.md) |
-| Registrar transacciones de venta/baja, ver movimientos de venta/baja y registrar ventas/bajas parciales. |[Cancelar o retirar activos fijos](fa-how-dispose-retire.md) |
-| Gestionar presupuestos de activos fijos, presupuestar costos de adquisición, presupuestar ventas/bajas de activos fijos y presupuestar amortización. |[Administrar presupuestos para activos fijos](fa-how-manage-budgets.md) |
-| Obtenga más información sobre las capacidades integradas de informes y análisis para activos fijos. | [Informes y análisis de activos fijos](fa-reports.md) |
+| Registrar transacciones de venta/baja, ver movimientos de venta/baja y registrar ventas/bajas parciales. |[Dar de baja o retirar activos fijos](fa-how-dispose-retire.md) |
+
 
 ## Consulte también .
 
 [Configurar activos fijos](fa-setup.md)  
+[Visión general del análisis de activos fijos](fa-analytics-overview.md)   
 [Información general sobre finanzas](finance.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

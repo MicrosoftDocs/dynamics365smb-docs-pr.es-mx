@@ -2,42 +2,43 @@
 title: 'Detalles de diseño: costo promedio'
 description: El costo promedio de un artículo se calcula con una media ponderada periódica.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '8645,'
-ms.date: 06/06/2023
-ms.author: bholtorf
+ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="design-details-average-cost"></a>Detalles de diseño: costo promedio
+# Detalles de diseño: costo promedio
 
-El costo promedio de un artículo se calcula con una media ponderada periódica. La media se basa en el período de costo promedio que se configura en [!INCLUDE[prod_short](includes/prod_short.md)].  
+El costo promedio de un artículo se calcula con una media ponderada periódica. La media se basa en el período de costo promedio que ha especificado en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 La fecha de valoración se establece automáticamente.  
 
-## <a name="setting-up-average-cost-calculation"></a>Configurar el cálculo del costo promedio
+## Configurar el cálculo del costo promedio
 
 En la tabla siguiente se describen los dos campos de la página **Configuración de inventario** que se deben rellenar para habilitar el cálculo de costo promedio.  
 
 |Campo|Descripción|  
 |---------------------------------|---------------------------------------|  
-|**Periodo costo promedio**|Especifica en qué periodo se calcula el costo promedio. Las siguientes opciones están disponibles:<br /><br /> - **DÍA**<br />- **Semana**<br />- **Mes**<br />- **Periodo contable**<br /><br /> Reducciones en inventario que se registraran en el periodo de costo promedio toman el costo promedio calculado para dicho periodo.|  
-|**Tipo cálculo cto. Prom.**|Especifica cómo se calcula el costo promedio. Las siguientes opciones están disponibles:<br /><br /> - **Artículo**<br />- **Producto, variante y almacén**<br /> Con esta opción, se calculan los costo promedio por cada producto, por cada ubicación y por cada variante del producto. El costo promedio de este producto dependerá de dónde se encuentre almacenado y de la variante que seleccione, por ejemplo, el color.|  
+|**Periodo costo promedio**|Especifica en qué periodo se calcula el costo promedio. Las siguientes opciones están disponibles:<br /><br /> - **DÍA**<br />- **Semana**<br />- **Mes**<br />- **Periodo contable**<br /><br /> Reducciones en inventario que se registraran en el periodo de costo promedio reciben el costo promedio calculado para dicho periodo.|  
+|**Tipo cálculo cto. Prom.**|Especifica cómo se calcula el costo promedio. Las siguientes opciones están disponibles:<br /><br /> - **Artículo**<br />- **Producto, variante y almacén**<br /> Con esta opción, se calcula el costo promedio por cada producto, por cada ubicación y por cada variante del producto. El costo promedio de este producto dependerá de dónde se encuentre almacenado y de la variante que seleccione, por ejemplo, el color.|  
 
 > [!NOTE]  
 > Solo puede usar un periodo de costo promedio y un tipo de costo promedio en un ejercicio.  
 >
 > La página **Pedidos contables** muestra el periodo de costo promedio y el tipo de cálculo de costo promedio que está en vigor durante ese periodo, por cada periodo contable.  
 
-## <a name="calculating-average-cost"></a>Cálculo de costo promedio
+## Cálculo de costo promedio
 
  Cuando se registra una transacción para un producto que utiliza el método de valoración de existencias Promedio, se crea un movimiento en la tabla **Punto de entrada aj. costo promedio**. Esta entrada contiene el número de producto de la transacción, el código de variante y el código de almacén. El movimiento también contiene el campo **Fecha valoración**, el cual especifica la última fecha del periodo de costo promedio en la que se registró la transacción.  
 
 > [!NOTE]  
 > Este campo no se debe confundir con el campo **Fecha valoración** de la tabla **Movimiento valor**, que muestra la fecha en la que el valor surte efecto y se usa para determinar el periodo de costo promedio al que corresponde el movimiento de valoración.  
 
- El costo promedio de una transacción se calcula al ajustar el costo del producto. Para obtener más información, consulte [Detalles de diseño: Ajuste de costo](design-details-cost-adjustment.md). Un ajuste de costos utiliza los movimientos de la tabla **Punto de entrada aj. costo promedio** para identificar para qué productos (o productos, almacenes y variantes) se deben calcular los costos promedio. Para cada movimiento cuyo costo no se haya ajustado aún, el ajuste de costo realiza lo siguiente para determinar el costo promedio:  
+ El costo promedio de una transacción se calcula al ajustar el costo del producto. Para obtener más información, consulte [Detalles de diseño: Ajuste de costo](design-details-cost-adjustment.md). Un ajuste de costos utiliza los movimientos de la tabla **Punto de entrada aj. costo promedio** para identificar para qué productos (o productos, almacenes y variantes) se deben calcular los costos promedio. Para cada movimiento cuyo costo no se haya ajustado aún, el ajuste de costo usa lo siguiente para determinar el costo promedio:  
 
 - Determinar el costo del producto al comienzo del periodo de costo promedio.  
 - Añade la suma de los costos de entrada que fueron registrados durante el periodo de costo promedio. Esto incluye las compras, las devoluciones de venta, los ajustes positivos y las salidas de producción y ensamblado.  
@@ -46,11 +47,11 @@ En la tabla siguiente se describen los dos campos de la página **Configuración
 
  El programa aplica el costo promedio calculado a las salidas de inventario del elemento (producto, almacén o variante) con fechas de registro durante el periodo de costo promedio. Para las salidas de inventario que se aplican de forma fija a salidas de inventario en el periodo de costo promedio, [!INCLUDE [prod_short](includes/prod_short.md)] reenvía el costo promedio calculado desde la entrada a la salida.  
 
-### <a name="example-average-cost-period--day"></a>Ejemplo: Periodo de costo promedio = Día
+### Ejemplo: Periodo de costo promedio = Día
 
 En el ejemplo siguiente se muestra el efecto de calcular el costo promedio basado en un periodo de costo promedio de un día. El campo **Tipo cálculo cto. Prom.** en la página **Configuración de inventario** está configurado en **Producto**.  
 
-En la tabla siguiente se muestran los movimientos de producto del producto del costo promedio de muestra, ITEM1, antes de que se haya ejecutado el proceso **Valorar existencias - movs. producto**.  
+En la tabla siguiente se muestran los movimientos de producto del producto del costo medio de muestra, ITEM1, antes de que se haya ejecutado el proceso **Ajustar costo: movimientos de producto**.  
 
 | **Fecha registro** | **Tipo mov. producto** | **Cantidad** | **Importe costo (real)** | **N.º de movimiento** |
 |--|--|--|--|--|
@@ -84,13 +85,13 @@ En la tabla siguiente se muestran los movimientos de producto del producto del c
 | 02-02-23 |   Compras | 1 | 100.00 | 5 |
 | 02-03-23 |   Venta | -1 | -100,00 | 6 |
 
-### <a name="example-average-cost-period--month"></a>Ejemplo: Periodo de costo promedio = Mes
+### Ejemplo: Periodo de costo promedio = Mes
 
  En este ejemplo se muestra el efecto de calcular el costo promedio basado en un periodo de costo promedio de un mes. El campo **Tipo cálculo cto. Prom.** en la página **Configuración de inventario** está configurado en **Producto**.  
 
  Si el periodo de costo promedio es un mes, [!INCLUDE [prod_short](includes/prod_short.md)] crea una entrada para cada combinación de número de producto, código de variante, código de almacén y fecha de valoración.  
 
- En la tabla siguiente se muestran los movimientos de producto del producto del costo promedio de muestra, ITEM1, antes de que se haya ejecutado el proceso **Valorar existencias - movs. producto**.  
+ En la tabla siguiente se muestran los movimientos de producto del producto del costo medio de muestra, ITEM1, antes de que se haya ejecutado el proceso **Ajustar costo: movimientos de producto**.  
 
 | **Fecha registro** | **Tipo mov. producto** | **Cantidad** | **Importe costo (real)** | **N.º de movimiento** |
 |--|--|--|--|--|
@@ -129,7 +130,7 @@ El costo promedio de la entrada número 3 se calcula en el período de costo pro
 
 Para obtener el costo promedio para febrero, [!INCLUDE [prod_short](includes/prod_short.md)] agrega el costo promedio del producto recibido en el inventario (100,00) se suma al costo promedio al comienzo del periodo (30,00). La suma (130,00) luego se divide por la cantidad total en el inventario (2). Este cálculo da el costo promedio resultante del producto en el período de febrero (65,00). El programa asigna dicho costo promedio a las salidas de inventario ocurridas en el periodo (entradas 4 y 6).  
 
-## <a name="setting-the-valuation-date"></a>Definición de la fecha de valoración
+## Definición de la fecha de valoración
 
  El campo **Fecha valoración** de la tabla **Movimiento valor** determina a qué periodo de costo promedio pertenece un movimiento de salida de inventario. Este ajuste también se aplica al inventario de trabajo en curso.  
 
@@ -142,7 +143,7 @@ Para obtener el costo promedio para febrero, [!INCLUDE [prod_short](includes/pro
 | 3 | Anterior a la última fecha de valuación de los movimientos de valuación aplicados | Positivo | No | Última fecha de valuación de los movimientos de valuación aplicados |
 | 4 |  | Negativo | Sí | Fecha de registro del movimiento de valoración de revalorización |
 
-### <a name="example"></a>Ejemplo
+### Ejemplo
 
 En la siguiente tabla de movimientos de valoración se ilustran los distintos escenarios.  
 
@@ -164,7 +165,7 @@ En la siguiente tabla de movimientos de valoración se ilustran los distintos es
 
 Si la cantidad en el inventario es menor que cero después de registrar la salida de existencias, la fecha de valoración se establece en la fecha de registro de la salida de existencias. Esta fecha se puede modificar cuando se aplica la entrada de inventario, según las reglas descritas en la nota anteriormente en esta sección.  
 
-## <a name="recalculating-average-cost"></a>Nuevo cálculo de costo promedio
+## Nuevo cálculo de costo promedio
 
 Valorar las salidas de inventario como media ponderada sería sencillo en varios escenarios:
 
@@ -187,7 +188,7 @@ Esta flexibilidad puede obligar a volver a calcular el costo promedio después d
 
 Puede cambiar la base de valoración del inventario dentro de un periodo contable si se modifican los valores de los campos **Periodo costo promedio** y **Tipo cálculo cto. Prom.**. Sin embargo, le recomendamos que tenga cuidado y consulte a su auditor.  
 
-### <a name="example-of-recalculated-average-cost"></a>Ejemplo de costo promedio recalculado
+### Ejemplo de costo promedio recalculado
 
 Este ejemplo muestra cómo [!INCLUDE [prod_short](includes/prod_short.md)] recalcula el costo promedio cuando se registra en una fecha anterior a una salida de inventario. El ejemplo se basa en el periodo de costo promedio de **Día**.  
 
@@ -212,7 +213,7 @@ En la tabla siguiente se muestran los movimientos de valoración que hay para el
 | 15-02-20 | -1 | -17,00 | 3 |
 | 16-02-20 | -1 | -17,00 | 4 |
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Detalles de diseño: coste de inventario](design-details-inventory-costing.md)  
 [Detalles de diseño: métodos de coste](design-details-costing-methods.md)  
@@ -222,6 +223,6 @@ En la tabla siguiente se muestran los movimientos de valoración que hay para el
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Glosario de términos de procesos de negocio de Dynamics 365](/dynamics365/guidance/business-processes/glossary)  
-[Definir resumen de costes de productos y servicios](/dynamics365/guidance/business-processes/product-service-define-cost-overview)  
+[Proceso de negocio para el cálculo del coste del producto y cómo se relaciona con otros procesos con Dynamics 365](/dynamics365/guidance/business-processes/design-to-retire-define-product-costing-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
