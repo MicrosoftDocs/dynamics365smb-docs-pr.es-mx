@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Concilie los pagos de clientes con el diario de recepción de efectivo o de los movimientos de cliente.
+# <a name="reconcile-customer-payments-with-a-cash-receipt-journal-or-from-customer-ledger-entries"></a>Concilie los pagos de clientes con el diario de recepción de efectivo o de los movimientos de cliente.
 
 Cuando recibe un pago de un cliente o efectúa un reembolso, puede liquidar el pago o reembolsarlo para cerrar débitos o haber pendientes. Puede especificar el importe a liquidar. Por ejemplo, puede liquidar pagos parciales en movimientos de cliente. El cierre de movimientos contables de cliente mantiene al día las estadísticas de cliente, los estados de cuenta de la cuenta, los intereses, etc.
 
