@@ -19,11 +19,11 @@ En la tabla siguiente se muestran varias formas de introducir fechas y horas y c
 |1.12.22 5|01-12-22 05:00:00|
 |1.12.22|01-12-22 00:00:00|
 |11 12|11/mes actual/año actual 12:00:00|
-|1112 12|11/12/año actual 12:00:00|
+|1112 12|11-12-año actual 12:00:00|
 |h u hoy|fecha de hoy 0:00:00|
 |h hora|fecha de hoy hora real|
-|h 10:30|fecha de hoy 10:30:00|
-|h 3:3:3|fecha de hoy 03:03:03|
+|t 10:30|fecha de hoy 10:30:00|
+|t 3:3:3|fecha de hoy 03:03:03|
 |t o fecha de trabajo|la fecha de trabajo 00:00:00|
 |l o lunes|Lunes de la semana actual 00:00:00|
 |ma o martes|Martes de la semana actual 0:00:00|
@@ -32,7 +32,7 @@ En la tabla siguiente se muestran varias formas de introducir fechas y horas y c
 |v o viernes|Viernes de la semana actual 00:00:00|
 |s o sábado|Sábado de la semana actual 00:00:00|
 |do o domingo|Domingo de la semana actual 00:00:00|
-|ma 10:30|Martes de la semana actual 10:30:00|
+|tu 10:30|Martes de la semana actual 10:30:00|
 |ma 3:3:3|Martes de la semana actual 03:03:03|
 |m23 h|Martes de la semana 23 del año de la fecha de trabajo, hora del día actual|
 |m23|Martes de la semana 23 del año de la fecha de trabajo|

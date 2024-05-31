@@ -9,16 +9,16 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-inventory-posting"></a>Detalles de diseño: Registro de inventario
+# Detalles de diseño: Registro de inventario
 
 Cada transacción de inventario, como una remisión de compra o una remisión de venta, registra dos movimientos de distintos tipos.  
 
 |Tipo movimiento|Descripción|  
 |----------|-----------|  
-|Cantidad|Refleja el cambio de la cantidad de inventario. Esta información se almacena en los movimientos de producto.<br /><br /> Acompañado por entradas de solicitud de productos.|  
+|Cantidad|Refleja el cambio de la cantidad de existencias. Esta información se almacena en los movimientos de producto.<br /><br /> Acompañado por entradas de solicitud de productos.|  
 |Valor|Refleja el cambio del valor de inventario. Esta información se almacena en los movimientos de valoración.<br /><br /> Puede haber uno o más movimientos de valor por cada movimiento de producto o cada movimiento de capacidad.<br /><br /> Para obtener información acerca de los movimientos de valores de capacidad relacionados con el uso de los recursos de producción o de ensamblado, consulte [Detalles de diseño: Registro de órdenes de producción](design-details-production-order-posting.md).|  
 
- En relación con los registros de cantidad, hay movimientos de liquidación de productos para vincular la entrada de inventario con la salida de inventario. Esto permite el motor de valoración desvíe los costos de las entradas a las salidas relacionadas, y viceversa. Para obtener más información, consulte [Detalles de diseño: Liquidación de productos](design-details-item-application.md).  
+ En relación con registros de cantidad, hay movimientos de liquidación de productos para vincular la entrada de existencias con la salida de existencias. Esto permite el motor de valoración desvíe los costos de las entradas a las salidas relacionadas, y viceversa. Para obtener más información, consulte [Detalles de diseño: Liquidación de productos](design-details-item-application.md).  
 
  Los movimientos de producto, los movimientos de valoración y los movimientos de liquidación de producto se crean como resultado del registro de una línea del diario de productos, ya sea indirectamente mediante el registro de una línea de pedido o directamente en la página Diario productos.  
 
@@ -26,26 +26,26 @@ Cada transacción de inventario, como una remisión de compra o una remisión de
 
  ![Flujo de entrada al reconciliar el inventario con contabilidad general.](media/design_details_inventory_costing_1_entry_flow.png "Flujo de entrada al reconciliar el inventario con C/G")  
 
-## <a name="example"></a>Ejemplo:
+## Ejemplo:
 
 En el ejemplo siguiente se muestra cómo los movimientos de producto, los movimientos de valoración y los movimientos de liquidación de producto dan como resultado movimientos de contabilidad.  
 
  Registra un pedido de compra como recibido y facturado para 10 productos con un costo unitario directo de 7 $ y una tasa de costos generales de 1 $. La fecha de registro es 01-01-20. Se crean los siguientes registros:  
 
-### <a name="item-ledger-entries-1"></a>Movimientos contables de producto (1)
+### Movimientos contables de producto (1)
 
 |Fecha reg.|Tipo mov.|Importe costo (Real)|Cantidad|Nº mov.|  
 |------------|----------|--------------------|--------|---------|  
 |01-01-20|Compra|80,00|10|1|  
 
-### <a name="value-entries-1"></a>Movimientos de valor (1)
+### Movimientos de valor (1)
 
 |Fecha reg.|Tipo mov.|Importe costo (Real)|Nº mov. producto|Nº mov.|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-01-20|Costo directo|70.00|1|1|  
 |01-01-20|Costo indirecto|10.00|1|2|  
 
-### <a name="item-application-entries-1"></a>Movimientos de liquidación de producto (1)
+### Movimientos de liquidación de producto (1)
 
 |Nº mov.|Nº mov. producto|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -53,23 +53,23 @@ En el ejemplo siguiente se muestra cómo los movimientos de producto, los movimi
 
  A continuación, registre una venta de 10 unidades del producto con una fecha de registro de 15-01-20.  
 
-### <a name="item-ledger-entries-2"></a>Movimientos contables de producto (2)
+### Movimientos contables de producto (2)
 
 |Fecha reg.|Tipo mov.|Importe costo (Real)|Cantidad|Nº mov.|  
 |------------|----------|--------------------|--------|---------|  
 |15-01-20|Ventas|-80,00|-10|2|  
 
-### <a name="value-entries-2"></a>Movimientos de valor (2)
+### Movimientos de valor (2)
 
 |Fecha reg.|Tipo mov.|Importe costo (Real)|Nº mov. producto|Nº mov.|  
 |------------|----------|--------------------|---------------------|---------|  
 |15-01-20|Costo directo|-80,00|2|3|  
 
-### <a name="item-application-entries-2"></a>Movimientos de liquidación de producto (2)
+### Movimientos de liquidación de producto (2)
 
 |Nº mov.|Nº mov. producto|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|  
 |---------|---------------------|----------------------|-----------------------|--------|  
-|2|2|1|2|-10|  
+|2|2|0|2|-10|  
 
 Al final del periodo contable se ejecuta el proceso de **Reg. var. inventario en cont.** en contabilidad para conciliar estas transacciones de inventario con la contabilidad.  
 
@@ -77,7 +77,7 @@ Al final del periodo contable se ejecuta el proceso de **Reg. var. inventario en
 
  En las tablas siguientes se muestra el resultado de conciliar las transacciones de inventario en este ejemplo con la contabilidad.  
 
-### <a name="value-entries-3"></a>Movimientos de valor (3)
+### Movimientos de valor (3)  
 
 |Fecha reg.|Tipo mov.|Importe costo (Real)|Costo regis. en contab.|Nº mov. producto|Nº mov.|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -85,7 +85,7 @@ Al final del periodo contable se ejecuta el proceso de **Reg. var. inventario en
 |01-01-20|Costo indirecto|10.00|10.00|1|2|  
 |15-01-20|Costo directo|-80,00|-80,00|2|3|  
 
-### <a name="general-ledger-entries-3"></a>Movimientos de contabilidad (3)
+### Movimientos de contabilidad (3)
 
 |Fecha reg.|Cuenta de contabilidad|Nº cuenta (demostración En-US)|Importe|Nº mov.|  
 |------------|-----------|------------------------|------|---------|  
@@ -103,7 +103,7 @@ Al final del periodo contable se ejecuta el proceso de **Reg. var. inventario en
 
  La relación entre los movimientos de valoración y los movimientos de contabilidad se almacena en la tabla **Relación movs. productos - C/G**  
 
-### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3"></a>Movimientos de relación en C/G: tabla Relación movs. productos (3)
+### Movimientos de relación en C/G: tabla Relación movs. productos (3)
 
 |Nº mov. contabilidad|Nº mov. valor|Nº asto. registro|  
 |-------------|---------------|----------------|  
@@ -114,13 +114,13 @@ Al final del periodo contable se ejecuta el proceso de **Reg. var. inventario en
 |5|3|1|  
 |6|3|1|  
 
-## <a name="assembly-and-production-posting"></a>Registro del ensamblado y de producción
+## Registro del ensamblado y de producción
 
 La capacidad y los movimientos de recursos representan el tiempo registrado como consumido en producción o en ensamblado. Estos costes de proceso se registran como movimientos de valoración en la contabilidad junto con los costes de materiales relacionados en una estructura similar a la descrita para los movimientos de producto en este tema.  
 
 Para obtener más información, consulte [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md).  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  
  [Detalles de diseño: cuentas de contabilidad](design-details-accounts-in-the-general-ledger.md)  

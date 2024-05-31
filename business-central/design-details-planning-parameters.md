@@ -9,7 +9,7 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-planning-parameters"></a>Detalles de diseño: Parámetros de la planificación
+# Detalles de diseño: Parámetros de la planificación
 
 En este artículo se describen los parámetros de planificación que puede usar en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -24,11 +24,11 @@ La forma en que el sistema de planificación controla el suministro de productos
 |Modificar los pedidos de suministro|Cantidad mínima pedido<br /><br /> Cantidad máxima pedido<br /><br /> Múltiplos de pedido|
 |Delimitación del producto planificado|Directiva fabricación:<br /><br /> -  Fab-contra-stock<br />- Fab-contra-pedido|
 
-## <a name="define-whether-the-item-is-planned"></a>Definir si se planifica el producto
+## Definir si se planifica el producto  
 
 Para incluir un producto o UA en el proceso de planificación, debe asignarle una política de reorden. De lo contrario, debe planificarse manualmente, por ejemplo, mediante la característica Planificación de pedidos.  
 
-## <a name="define-when-to-reorder"></a>Definir cuándo hacer la reorden
+## Definir cuándo hacer la reorden  
 
 Por lo general, las propuestas de reorden solo se lanzan cuando la cantidad disponible proyectada ha caído o está por debajo de una cantidad determinada. El punto de reorden define la cantidad. De lo contrario, será cero. Se puede ajustar cero si se especifica un inventario de seguridad. Si define un plazo de seguridad, la propuesta se entregará en el periodo anterior a la fecha de vencimiento requerida.  
 
@@ -41,19 +41,19 @@ En la página **Configuración fabricación**, debe configurar el plazo de segur
 
 Los campo **Periodo de reprogramación**, **Periodo de acumulación de lotes** y **Periodo de tolerancia** también desempeñan un rol en la reorden. Para obtener más información, vea [Optimizar cuando se produzca el reorden y según la cantidad de reorden](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-## <a name="define-how-much-to-reorder"></a>Definir qué cantidad de la reorden
+## Definir qué cantidad de la reorden
 
 Si el sistema de planificación detecta necesidad de reorden, la política de reorden determina el momento del pedido y la cantidad correspondiente.  
 
 Independiente de la directiva de reorden, el sistema de planificación sigue normalmente esta lógica:  
 
 1. Calcule la cantidad de la propuesta de pedido para cubrir el nivel de inventario mínimo del producto, normalmente el inventario de seguridad. Si no se especifica nada, el nivel de inventario mínimo es cero.  
-2. Si el inventario disponible proyectado se encuentran por debajo de la cantidad de inventario de seguridad, se sugiere un pedido de aprovisionamiento con programación retroactiva. La cantidad de pedido al menos llenará el inventario de seguridad, y se puede aumentar mediante la demanda bruta dentro del ciclo, mediante la directiva de reorden y los modificadores de pedido.  
+2. Si las existencias disponibles proyectadas se encuentran por debajo de la cantidad de inventario de seguridad, se sugiere un pedido de aprovisionamiento con programación retroactiva. La cantidad de pedido al menos llenará el inventario de seguridad, y se puede aumentar mediante la demanda bruta dentro del ciclo, mediante la directiva de reorden y los modificadores de pedido.  
 3. Si el inventario proyectado se encuentra por debajo del punto de reorden o lo ha alcanzado (calculado a partir de cambios agregados dentro del ciclo) y por encima del inventario de seguridad, se sugiere un pedido de excepción con programación anticipada. Tanto la demanda bruta que debe satisfacerse como la directiva de reorden determinarán la cantidad del pedido. Como mínimo, la cantidad del pedido coincidirá con el punto de reorden.  
 4. Si hay más demanda bruta que vence antes de la fecha de fin de la propuesta de pedido con programación anticipada y esta demanda lleva al inventario disponible proyectado actualmente calculado por debajo de la cantidad de inventario de seguridad, la cantidad del pedido se aumenta para suplir el déficit. El pedido de suministro sugerido se programa hacia atrás a partir de la fecha de vencimiento de la demanda bruta que habría infringido el inventario de seguridad.  
 5. Si el campo **Ciclo** no está relleno, solo se agrega la demanda bruta en la misma fecha de vencimiento.  
 
-### <a name="reordering-policies"></a>Políticas de reorden
+### Políticas de reorden  
 
 Las siguientes políticas de reorden afectan a la cuenta que recibirá la reorden. Para obtener más información sobre las políticas de reorden, vaya a [Detalles de diseño: Gestión de políticas de reorden](design-details-handling-reordering-policies.md).  
 
@@ -64,7 +64,7 @@ Las siguientes políticas de reorden afectan a la cuenta que recibirá la reorde
 |**Pedido**|Se calculará la cantidad de pedido para cubrir cada evento de demanda individual y el conjunto de demanda-suministro permanecerá vinculado hasta su ejecución. No se tiene en cuenta ningún parámetro de planificación.|  
 |**Lote a lote**|La cantidad se calcula para cubrir la suma de la demanda que vence en el ciclo.|  
 
-## <a name="optimize-when-and-how-much-to-reorder"></a>Optimizar cuando se produzca la reorden y según la cantidad de reorden
+## Optimizar cuando se produzca la reorden y según la cantidad de reorden  
 
 Un planificador puede optimizar los parámetros de planificación para limitar las sugerencias de reorden, acumular demanda (cantidad dinámica de reorden) o evitar acciones de planificación insignificantes. Los siguientes campos contribuyen a optimizar el momento y la cantidad de reorden.  
 
@@ -101,13 +101,13 @@ En los siguientes ejemplos, las flechas negras representan el aprovisionamiento 
 
 **Valores predeterminados:** el valor predeterminado del campo **Ciclo** y los tres campos del periodo de reorden están en blanco. Para todos los campos, excepto el campo **Periodo de tolerancia** esto significa 0D (cero días). Si el campo **Periodo amortiguador** está en blanco, se usará el valor global en el campo **Periodo predet. amortiguador** en la página **Configuración fabricación**.  
 
-## <a name="modify-the-supply-orders"></a>Modificar los pedidos de suministro
+## Modificar los pedidos de suministro  
 
 Cuando se ha calculado la cantidad de la propuesta de pedido, uno o más de los modificadores de pedido pueden ajustarla. Por ejemplo, la cantidad de pedido máxima es mayor que o igual a la cantidad de pedido mínima, que es mayor que o igual al múltiplo de pedido.  
 
 La cantidad se reduce si supera la cantidad de pedido máximo. A continuación, se aumenta si se encuentra por debajo de la cantidad de pedido mínima. Finalmente, se redondea hacia arriba de modo que coincida con un múltiplo de pedido especificado. Las cantidades pendientes utilizan los mismos ajustes hasta que la demanda total se haya convertido a propuestas de pedidos.  
 
-## <a name="delimit-the-item"></a>Delimitación del producto
+## Delimitación del producto  
 
 El campo **Política fabricación** en la página **Ficha producto** define qué otros pedidos propone el cálculo de MRP.  
 
@@ -115,7 +115,7 @@ Si utiliza la opción **Fab-contra-existencias**, los pedidos solo afectan al pr
 
 Si utiliza la opción **Fab-contra-pedido**, el sistema de planificación analiza la L.M. de producción del producto y crea propuestas de pedido vinculadas para los productos de nivel inferior que también se hayan definido como Fab-contra-pedido. Esto continúa siempre que haya productos de fabricación contra pedido en las estructuras de L.M. descendentes.
 
-## <a name="use-low-level-codes-to-manage-derived-demand"></a>Utilizar códigos de bajo nivel para gestionar la demanda derivada
+## Utilizar códigos de bajo nivel para gestionar la demanda derivada
 
 Utilice códigos de bajo nivel para hacer que la demanda derivada de componentes avance hasta los niveles inferiores de la L.M. Para obtener más información sobre los códigos de bajo nivel, vaya a [Prioridad de producto / Cód. nivel más bajo](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
@@ -131,7 +131,7 @@ Como alternativa al cálculo automático que se realiza de forma dinámica si el
 > [!NOTE]
 > Aunque active el campo **Código dinámico de nivel bajo** esté seleccionado, los códigos de nivel bajo de los productos componentes no cambiarán dinámicamente si se elimina o se define como no certificada una L.M. principal. Este caso puede dificultar la adición de productos nuevos al final de la estructura de productos, ya que se podría superar el número máximo de códigos de nivel bajo. Por lo tanto, para estructuras de productos grandes que alcancen el límite del código de nivel más bajo, puede ejecutar el trabajo por lotes de **Calcular código de nivel bajo** con frecuencia para mantener la estructura.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .  
 
 [Detalles de diseño: gestión de políticas de reorden](design-details-handling-reordering-policies.md)  
 [Detalles de diseño: equilibrio de oferta y demanda](design-details-balancing-demand-and-supply.md)  
