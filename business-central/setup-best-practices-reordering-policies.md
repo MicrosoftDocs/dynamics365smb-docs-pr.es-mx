@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setup-best-practices-reordering-policies"></a>Procedimientos recomendados de configuración: políticas de reorden
+# Procedimientos recomendados de configuración: políticas de reorden
 
 El campo **Política reorden** en las fichas de producto ofrece cuatro métodos de planificación distintos que determinan la forma en que interactúan los parámetros individuales de planificación.  
 
@@ -34,7 +34,7 @@ La tabla siguiente proporciona los procedimientos recomendados para seleccionar 
 |**Cdad. fija reordenada**|Utilice para productos C.<br /><br /> Combine con parámetros de puntos de reorden.<br /><br /> En la fabricación, utilice para los componentes de nivel inferior.<br /><br /> No utilice si el producto suele ser reservado.|Los productos C, como las tazas de té, son productos de valor inferior con una velocidad de pedido alta y regular. La mejor política de reorden para productos C es, por tanto, aquella que garantiza la disponibilidad constante y permanece siempre por encima de un punto de reorden.<br /><br /> Si el usuario reserva una cantidad para alguna demanda distante, se afectará a la base de la planificación. Aunque el nivel de inventario estimado es aceptable en relación con el punto de reorden, las cantidades pueden no estar disponibles debido a la reserva.|  
 |**Cdad. máxima**|Utilice para productos C con altos costos de traslado o limitaciones de almacenamiento.<br /><br /> Combine con uno o más modificadores de pedidos (cantidad máxima o mínima de pedido o múltiplos de pedido).|Los productos C, como las tazas de té, son productos de valor inferior con una velocidad de pedido alta y regular. La mejor política de reorden para productos C es, por tanto, aquella que garantiza la disponibilidad constante y permanece siempre por encima de un punto de reorden, pero por debajo de un nivel de inventario máximo.<br /><br /> Para modificar el pedido propuesto, tal vez desee reducir la cantidad del pedido a una cantidad máxima especificada de pedido, aumentarla a una cantidad de pedido mínima especificada o redondearla para alcanzar un múltiplo de pedido especificado. **Nota**: Si se utiliza con un punto de reorden, el inventario permanecerá entre el punto de reorden y la cantidad máxima.|  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
  [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
  [Detalles de diseño: gestión de políticas de reorden](design-details-handling-reordering-policies.md)  
