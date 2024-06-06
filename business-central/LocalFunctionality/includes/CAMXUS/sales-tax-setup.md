@@ -13,7 +13,7 @@ A quienes asigne los códigos de área de impuestos determinará los impuestos q
 
 Si cambia a la opción vacía *Mi empresa*, recomendamos que empiece a usar todas las guías de configuración asistida, incluida la del impuesto sobre las ventas. Si prefiere configurar los impuestos sin asistente, este artículo explica qué debe tener en cuenta. No obstante, le recomendamos que trabaje en colaboración con su asesor tributario.  
 
-## Grupos de impuesto, áreas de impuesto y jurisdicciones fiscales
+## <a name="tax-groups-tax-areas-and-tax-jurisdictions"></a>Grupos de impuesto, áreas de impuesto y jurisdicciones fiscales
 
 En [!INCLUDE[prod_short](../../../includes/prod_short.md)], un grupo de impuestos representa un grupo de productos de inventario o de recursos que están sujetos a las mismas condiciones tributarias. Por ejemplo, puede configurar un grupo de impuesto para los productos imponibles y otro para productos no imponibles. Deberá asignar códigos de grupo de impuestos a los productos de inventario y en las cuentas de contabilidad. De manera similar, deberá asignar códigos de área de impuesto a los clientes, las ubicaciones, y a su propia configuración de la empresa. La guía asistida de configuración le ayuda a realizar este proceso.  
 

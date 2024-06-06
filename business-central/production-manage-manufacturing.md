@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Fabricación
+# <a name="manufacturing"></a>Fabricación
 
 > [!NOTE]
 > La funcionalidad descrita en este tema y los subtemas solo están visibles en la interfaz de usuario si tiene la experiencia **Premium**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
@@ -38,7 +38,7 @@ En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas
 |Utilizar la página **Diario de capacidad** para registrar capacidades consumidas que no están asignadas a una orden de producción, como el trabajo de mantenimiento.|[Registrar capacidades](production-how-to-post-capacities.md)|  
 |Calcular y ajustar el costo de artículos de producción terminados y componentes consumidos para la reconciliación financiera.|[Sobre los costos del orden de producción terminada](finance-about-finished-production-order-costs.md)|  
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Planificación](production-planning.md)  
