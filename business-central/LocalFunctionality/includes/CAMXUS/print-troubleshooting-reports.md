@@ -15,11 +15,11 @@ Debe tener acceso a [!INCLUDE[prod_short](../../../includes/prod_short.md)] Obje
 
 Puede imprimir estos informes y enviarlos al Microsoft Certified Partner correspondiente para que le ayude a resolver cualquier problema con la implementación de [!INCLUDE[prod_short](../../../includes/prod_short.md)].  
 
-## Para imprimir el informe Información de licencia  
+## <a name="to-print-the-license-information-report"></a>Para imprimir el informe Información de licencia
 1.  En [!INCLUDE[prod_short](../../../includes/prod_short.md)] Diseñador de objetos, en el menú **Herramientas**, elija **Información de licencia**.  
 2.  En la página **Información de licencia**, puede obtener una vista preliminar de la información de la licencia, o puede elegir el botón **Exportar** para imprimir el informe **Información de licencia**.  
 
-## Para imprimir el informe de diccionario de datos  
+## <a name="to-print-the-data-dictionary-report"></a>Para imprimir el informe de diccionario de datos
 1.  En [!INCLUDE[prod_short](../../../includes/prod_short.md)] Diseñador de objetos, en el menú **Herramientas**, elija **Diseñador de objetos**.  
 2.  Elija el botón **Informe**.  
 3.  En la columna **Tipo**, encuentre el **Id.** 10315, que es el informe **Diccionario datos**.  
