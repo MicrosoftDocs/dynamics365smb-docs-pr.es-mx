@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 En la siguiente tabla se describen algunos de los reportes clave de los reportes de activos fijos.

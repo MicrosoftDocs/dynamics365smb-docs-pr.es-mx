@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="understanding-the-chart-of-accounts"></a>Descripción del catálogo de cuentas
+# Descripción del catálogo de cuentas
 
 Un catálogo de cuentas (COA) sirve como un directorio completo de cuentas financieras y sus correspondientes números de referencia. Un COA normalmente tiene dos categorías principales de cuentas:
 
@@ -39,7 +39,7 @@ La composición del catálogo de cuentas de su empresa es una decisión estraté
 * Una empresa de tecnología podría centrarse en activos intangibles como patentes y software.
 * Una planta de fabricación haría un seguimiento de los activos fijos y los suministros.
 
-## <a name="the-chart-of-accounts-page"></a>La página del catálogo de cuentas
+## La página del catálogo de cuentas
 
 El catálogo de cuentas muestra todas las cuentas de contabilidad. Desde el catálogo de cuentas, puede realizar acciones como las siguientes:  
 
@@ -51,11 +51,11 @@ El catálogo de cuentas muestra todas las cuentas de contabilidad. Desde el cat�
 
 Puede agregar, cambiar o eliminar cuentas de contabilidad. Sin embargo, para evitar discrepancias, no puede eliminar una cuenta de contabilidad si sus datos se utilizan en el catálogo de cuentas. Además, puede bloquear el borrado accidental de cuentas en periodos delicados. Para obtener más información sobre cómo proteger cuentas contra la eliminación, vaya a [Eliminar cuentas](finance-setup-chart-accounts.md#delete-accounts).  
 
-## <a name="the-code-hierarchy-in-gl-accounts"></a>La jerarquía de códigos en cuentas de contabilidad
+## La jerarquía de códigos en cuentas de contabilidad
 
 Las empresas suelen crear una estructura jerárquica en los códigos de cuentas de contabilidad para reflejar su lugar en el catálogo de cuentas. Por ejemplo, en algunas implementaciones, los códigos de cuenta de contabilidad general que comienzan con **1** denotan cuentas de activos, mientras que los códigos de cuentas de contabilidad general que comienzan con 3 denotan cuentas de patrimonio. En algunas regiones, existen regulaciones locales para el uso de un catálogo de cuentas estándar. Para ayudar a los usuarios a comprender esta jerarquía sin la necesidad de conocer la estructura del código interno, puede definir encabezados y subtotales en su catálogo de cuentas que encapsule estas estructuras internas.
 
-## <a name="designing-your-chart-of-accounts"></a>Diseñar su catálogo de cuentas
+## Diseñar su catálogo de cuentas
 
 Cada línea del plan contable es una cuenta de contabilidad de uno de los tipos:
 
@@ -70,17 +70,17 @@ Un catálogo de cuentas minimalista puede consistir únicamente en líneas de cu
 > [!TIP]
 > Si utiliza tipos de cuenta distintos de **Registro** en su catálogo de cuentas, puede definir diferentes vistas para mostrar las cuentas de registro "sin procesar" sin los tipos de cuentas de tipo informe para totalizar y encabezados. Por ejemplo, Mostrar solo cuentas de registro y Ocultar cuentas bloqueadas.
 
-## <a name="use-dimensions-to-simplify-your-chart-of-accounts"></a>Utilice dimensiones para simplificar su catálogo de cuentas
+## Utilice dimensiones para simplificar su catálogo de cuentas
 
 Las dimensiones son valores que clasifican los movimientos de modo que pueda realizar el seguimiento y el análisis de los documentos, como pedidos de venta. Las dimensiones pueden, por ejemplo, indicar de qué proyecto o departamento procede un movimiento. Así, en lugar de configurar cuentas de libro mayor separadas para cada departamento y proyecto, puede utilizar las dimensiones como base para el análisis y evitar tener que crear un catálogo de cuentas complicado.
 
 Para obtener más información sobre las dimensiones, vaya a [Trabajar con dimensiones](finance-dimensions.md).
 
-## <a name="get-a-quick-overview-of-your-finances"></a>Obtener una descripción general rápida de sus finanzas
+## Obtener una descripción general rápida de sus finanzas
 
 La página **Catálogo de cuentas** muestra las cuentas en una lista jerárquica que ofrece acceso rápido a la información clave de cada cuenta. Sin embargo, la lista es estática y, si tiene muchas cuentas, es posible que deba desplazarse para ver la información de diferentes cuentas. Si solo desea una descripción general rápida de los conceptos básicos, como cambios netos y saldos, la página **Introducción al catálogo de cuentas** es una alternativa útil. El diseño de columnas en la página es el mismo que el de la página **Catálogo de cuentas** (aunque con menos columnas), por lo que resulta fácil de entender. Puede expandir o contraer los niveles jerárquicos. Para facilitar el cambio entre las páginas, la página **Introducción al catálogo de cuentas** está disponible en la página de **Catálogo de cuentas**.
 
-## <a name="access-to-create-and-edit-the-chart-of-accounts"></a>Acceso para crear y editar el catálogo de cuentas
+## Acceso para crear y editar el catálogo de cuentas
 
 En una organización pequeña, como la empresa de demostración CRONUS, la mayoría de los usuarios pueden editar el catálogo de cuentas, excepto los usuarios con una licencia de TEAM MEMBER. Sin embargo, en organizaciones más grandes normalmente los roles de usuario y los permisos limitan el acceso para editar el catálogo de cuentas. Si es administrador o tiene el rol Administrador de negocio o Contable, puede controlar los permisos de usuario para dar a las personas adecuadas acceso a las tablas relevantes. Para obtener más información, vaya a la sección [Obtener un resumen de los permisos de un usuario](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
 
@@ -95,7 +95,7 @@ Here are some examples of such standards that have been implemented in localized
 * [Standard chart of accounts in Denmark](localfunctionality/denmark/how-to-set-up-standard-coa.md)
 -->
 
-## <a name="chart-of-accounts-best-practices"></a>Procedimientos recomendados del catálogo de cuentas
+## Procedimientos recomendados del catálogo de cuentas
 
 Estos son algunos de los procedimientos recomendados que podría considerar al desarrollar y mantener sus planes de cuentas:
 
@@ -105,7 +105,7 @@ Estos son algunos de los procedimientos recomendados que podría considerar al d
 * Utilice dimensiones para simplificar su catálogo de cuentas. No tener cuentas de contabilidad específicas para cada producto o departamento.
 * Agregue nuevas cuentas de contabilidad a medida que vayan llegando, pero elimine cuentas de su catálogo de cuentas solo durante el final del período financiero.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configurar o cambiar el catálogo de cuentas](finance-setup-chart-accounts.md)  
 [Comprender la contabilidad general](finance-general-ledger.md)

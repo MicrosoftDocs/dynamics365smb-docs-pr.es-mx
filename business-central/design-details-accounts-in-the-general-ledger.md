@@ -3,18 +3,18 @@ title: 'Detalles de diseño: cuentas de contabilidad | Documentos de Microsoft'
 description: 'Para conciliar los movimientos de inventario y de capacidad con la contabilidad, los movimientos de valoración relacionas se registran en cuentas distintas en la contabilidad.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: null
 ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="design-details-accounts-in-the-general-ledger"></a>Detalles de diseño: cuentas de contabilidad
+# Detalles de diseño: cuentas de contabilidad
 
 Para conciliar los movimientos de inventario y de capacidad con la contabilidad, los movimientos de valoración relacionas se registran en cuentas distintas en la contabilidad. Para obtener más información, consulte [Detalles de diseño: Conciliación con contabilidad](design-details-reconciliation-with-the-general-ledger.md).  
 
-## <a name="from-the-inventory-ledger"></a>Desde los movimientos de inventario
+## Desde los movimientos de inventario  
 
 En la tabla siguiente se muestra la relación entre diferentes tipos de movimientos de valoración de inventario así como las cuentas y las cuentas de contrapartida en contabilidad.  
 
@@ -58,7 +58,7 @@ En la tabla siguiente se muestra la relación entre diferentes tipos de movimien
 |Salida de ensamblado|Desviación|Cost. gen. fabricación|N.º|Inventario|Desv. costo gen. fab.|  
 |Salida de ensamblado|Redondeo||N.º|Inventario|Ajuste inventario|  
 
-## <a name="from-the-capacity-ledger"></a>Desde los movimientos de capacidad
+## Desde los movimientos de capacidad  
 
  En la tabla siguiente se muestra la relación entre diferentes tipos de movimientos de valoración de capacidad así como las cuentas y las cuentas de contrapartida en contabilidad. Los movimientos de capacidad representan el tiempo de trabajo consumido en trabajos de ensamblado o de producción.  
 
@@ -69,13 +69,13 @@ En la tabla siguiente se muestra la relación entre diferentes tipos de movimien
 |Producción|Centro máquina/Centro trabajo|Costo directo|Cuenta WIP|Costo directo aplic.|  
 |Producción|Centro máquina/Centro trabajo|Costo indirecto|WIP Cuenta|Cost. gen. liqd.|  
 
-## <a name="assembly-costs-are-always-actual"></a>Los costos de ensamblado son siempre reales
+## Los costos de ensamblado son siempre reales  
 
  Como se muestra en de la tabla anterior, los registros de ensamblado no aparecen representados en las cuentas provisionales. Esto se debe a que el concepto de trabajo en curso no se aplica al registro de la salida de ensamblado, a diferencia del registro de la salida de producción. Los costos de ensamblado se registran solo como costo real, nunca como costo esperado.  
 
  Para obtener más información, consulte [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md).  
 
-## <a name="calculating-the-amount-to-post-to-the-general-ledger"></a>Cálculo del importe que registrar en la contabilidad
+## Cálculo del importe que registrar en la contabilidad  
 
  Los campos siguientes de la tabla **Movimiento valor** se usan para calcular el importe de costo esperado que se registra en contabilidad:  
 
@@ -91,7 +91,7 @@ En la tabla siguiente se muestra cómo se calculan los importes para registrar e
 |Costo real|Importe costo (Real) - Costo regis. en contab.|  
 |Costo esperado|Importe costo (previsto) – Costo esperado reg. en cont.|  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .  
 
 [Detalles de diseño: coste de inventario](design-details-inventory-costing.md)  
 [Detalles de diseño: registro de inventario](design-details-inventory-posting.md)  
