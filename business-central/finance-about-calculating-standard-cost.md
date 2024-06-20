@@ -10,7 +10,7 @@ ms.date: 10/10/2023
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Acerca del cálculo de costo estándar
+# <a name="about-calculating-standard-cost"></a>Acerca del cálculo de costo estándar
 
 Muchas empresas de fabricación eligen una base de valuación de costo estándar. Esto también se aplica a las empresas que llevan a cabo la fabricación ligera, como ensamblado y kitting. Un sistema de costos estándar determina el costo unitario del inventario en función de ciertos costos históricos o esperados razonables. Los estudios sobre costos anteriores y sobre costos futuros previstos pueden ofrecer una base para calcular costos estándar. Dichos costos quedan fijos hasta que se tome la decisión de cambiarlos. El costo real para fabricar un producto puede ser diferente de los costos estándar calculados. Para controlar la gestión, el costo real se compara con el costo estándar de un producto en particular, y se identifican y analizan las diferencias o *variaciones*.  
 
@@ -22,7 +22,7 @@ Los costos estándar se pueden mantener para los productos que se rellenan con l
 |**Ensamblado**|Costo directo del material, costo directo o de mano de obra fija y costo general.|  
 |**Ord. prod.**|Costo directo del material, costo de mano de obra, costo de subcontratista y costo general.|  
 
-## Configuración de los costos estándar
+## <a name="setting-up-standard-costs"></a>Configuración de los costos estándar
 
 Dado que el costo estándar de un producto fabricado o ensamblado puede incluir diversos elementos de costo, entre ellos, costos de materiales, de capacidad (mano de obra) y de subcontratistas, ya sean directos o generales, deben establecerse los costos estándar para cada uno de estos elementos.  
 
@@ -39,7 +39,7 @@ Los elementos de costo claves siguientes conforman el costo directo total de un 
 - Costos de capacidad.  
 - Costos de subcontratistas para los productos fabricados solo.  
 
-### Costos de materiales
+### <a name="material-costs"></a>Costos de materiales
 
 Los costos de materiales son aquellos que se asocian con productos semiterminados y materias prima que se hayan comprado. El costo unitario del material puede estar compuesto por elementos de costo directos e indirectos.  
 
@@ -57,7 +57,7 @@ El costo de materiales de un producto fabricado se puede representar de dos form
 |Un nivel|El producto fabricado es igual al costo total de todos los productos comprados o subensamblados en la L.M. de producción de dicho producto.|  
 |Nivel o multinivel distribuido|El producto fabricado representa la suma del costo de materiales de todos los productos semiterminados en la L.M. de ese producto y el costo de todos los productos comprados en la L.M. de producción de ese producto.|  
 
-### Costos de capacidad
+### <a name="capacity-costs"></a>Costos de capacidad
 
 Los costos de capacidad son aquellos que están asociados con la mano de obra interna y con los costos de maquinaria. Debe configurar estos costos para cada recurso (en la administración de ensamblados) y trabajo o centro de máquina en la ruta (en la producción). Al igual que con los materiales, puede identificar los elementos directos e indirectos de los costos de capacidad. Por ejemplo, el costo directo para un centro de trabajo podría ser la tasa de planta establecida para llevar a cabo una función específica. El costo indirecto para un centro de trabajo puede representar ciertos gastos de la fábrica, como iluminación, calefacción, etc. Al igual que los costos de materiales, puede expresar el costo general de capacidad como un porcentaje de costo indirecto o como una tasa general fija.  
 
@@ -82,13 +82,13 @@ Para especificar el tiempo de preparación en la ruta por motivos de planificaci
 
 En el caso de un solo nivel, se trata del costo de mano de obra requerido para fabricar el producto final y se especifica en la ruta de producción del producto. En el caso de varios niveles, se trata del costo de capacidad que se especifica para cada producto que se fabrica individualmente que se incluye en la L.M. del producto principal.  
 
-### Costos de los subcontratistas
+### <a name="subcontractor-costs"></a>Costos de los subcontratistas
 
 Los costos de subcontratistas son aquellos asociados con los servicios que ofrecen los fabricantes o los subcontratistas externos de una empresa. De forma similar a los materiales y a la capacidad, los costos de subcontratistas pueden estar compuestos por cantidades directas y generales. Los costos directos de subcontratistas representan el cargo efectivo por cada unidad de servicio prestado. Por ejemplo, los costos generales de subcontratistas pueden representar costos de transporte y manipulación en los que incurre la empresa con un pedido que se ha subcontratado.  
 
 Dado que la subcontratación es una capacidad externalizada, puede configurar el costo de los servicios subcontratados tanto directos como indirectos en la ficha del centro de trabajo que representa la operación de subcontratación.  
 
-## Actualización de los costos estándar
+## <a name="updating-standard-costs"></a>Actualización de los costos estándar
 
 Para actualizar o calcular el costo estándar de productos de ensamblado, use la función de la ficha de producto.  
 
@@ -99,9 +99,9 @@ El proceso de actualizar o calcular los costos estándar normalmente consiste en
 3.  La implementación de los costos estándar que se introducen al ejecutar los procesos por lotes anteriores. Los costos estándar no tienen efecto hasta que se implementan. Use la tarea por lotes **Implementar cambios de costo estándar** que actualiza los cambios de costo estándar en los artículos con aquellos incluidos en la tabla Hoja de trabajo de costo estándar.  
 4.  Implementación de los cambios para actualizar el campo **Costo unitario** en la ficha del producto y realizar una revaluación de inventario. Para obtener más información, vea [Revaluación de inventario](inventory-how-revalue-inventory.md).
 
-## Usar trabajos por lotes para actualizar los costos estándar
+## <a name="use-batch-jobs-to-update-standard-costs"></a>Usar trabajos por lotes para actualizar los costos estándar
 Las siguientes secciones describen los trabajos por lotes que puede utilizar para actualizar los costos estándar.
-### Sugerir costo estándar prod.
+### <a name="suggest-item-standard-cost"></a>Sugerir costo estándar prod.
 
  Crea propuestas para modificar los costos y el reparto de costos de los costos estándar en las fichas de producto. Una vez finalizado el proceso, podrá ver el resultado en la ventana Hoja trab. costo estándar.
 
@@ -109,7 +109,7 @@ Las siguientes secciones describen los trabajos por lotes que puede utilizar par
 > Este trabajo por lotes está pensado para los productos comprados solamente. Si desea actualizar un producto con una L.M. de producción o una L.M. de ensamblado, primero deberá rellenar la hoja de trabajo con todos los componentes y, a continuación, ejecutar el trabajo por lotes Distribuir costo estándar.
 
 Este proceso sólo crea sugerencias. No procesa los cambios sugeridos. Si está de acuerdo con dichas sugerencias y desea aplicarlas, es decir, actualizarlas en las fichas de producto e insertarlas en el Diario de revalorización, seleccione en Implementar cambios de costo estándar en la ventana Hoja trab. costo estándar.
-#### Opciones
+#### <a name="options"></a>Opciones
 
 **Costo estándar**: Introduzca el factor de ajuste que desea utilizar para actualizar el costo estándar. También puede seleccionar un método de redondeo para el nuevo costo estándar. Tiene que rellenar el campo con un valor decimal para el aumento de porcentaje, por ejemplo 1,1.
 
@@ -117,21 +117,21 @@ Este proceso sólo crea sugerencias. No procesa los cambios sugeridos. Si está 
 
 **Tasa costes generales**: especifique el factor de ajuste que desea utilizar para actualizar la tasa de costes generales. También puede seleccionar un método de redondeo para la nueva tasa de costos generales. Tiene que rellenar el campo con un valor decimal para el aumento de porcentaje, por ejemplo 1,1.
 
-### Sugerir costo estánd. c. trab./máq.
+### <a name="suggest-workmach-ctr-std-cost"></a>Sugerir costo estánd. c. trab./máq.
 
 Crea propuestas para modificar los costos y el reparto de costos de los costos estándar en el centro de trabajo, centro de máquina o tarjetas de recursos. Una vez finalizado el proceso, podrá ver el resultado en la ventana **Hoja trab. costo estándar**.
 
 Este proceso sólo crea sugerencias. No procesa los cambios sugeridos. Si está de acuerdo con dichas sugerencias y desea aplicarlas, es decir, actualizarlas en las fichas de recurso y el centro de trabajo/máquina e insertarlas en la ventana del Diario de revalorización, seleccione en **Implementar cambios de costo estándar** en la ventana **Hoja trab. costo estándar**.
 
 Una vez ejecutado el trabajo por lotes, si desea ver el impacto en su producción o en los departamentos de ensamblado, puede ejecutar el trabajo por lotes **Distribuir costo estándar** para actualizar los costos estándar en los centros de trabajo, los centros de máquina, los recursos de ensamblado, las L.M. de producción y las L.M. de ensamblado.
-#### Opciones
+#### <a name="options-1"></a>Opciones
 **Costo estándar**: Introduzca el factor de ajuste que desea utilizar para actualizar el costo estándar. También puede seleccionar un **método de redondeo** para el nuevo costo estándar. Tiene que rellenar el campo con un valor decimal para el aumento de porcentaje, por ejemplo 1,1.
 
 **% Costo indirecto**: especifique el factor de ajuste que desea utilizar para actualizar el % de costo indirecto. También puede seleccionar un método de redondeo para el nuevo % de costo indirecto. Tiene que rellenar el campo con un valor decimal para el aumento de porcentaje, por ejemplo 1,1.
 
 **Tasa costes generales**: especifique el factor de ajuste que desea utilizar para actualizar la tasa de costes generales. También puede seleccionar un método de redondeo para la nueva tasa de costos generales. Tiene que rellenar el campo con un valor decimal para el aumento de porcentaje, por ejemplo 1,1.
 
-### Reg. var. inventario en cont.
+### <a name="post-inventory-cost-to-gl"></a>Reg. var. inventario en cont.
 
  Registra los cambios de cantidad y valor del inventario en los movimientos de producto y en los movimientos de valor, respectivamente, al registrar transacciones de inventario, como remisiones de venta o recepciones de compra.
 
@@ -149,7 +149,7 @@ Si desea asegurarse de que el trabajo por lotes no encuentre ningún error mient
  
 > [!IMPORTANT]  
 > Antes de ejecutarlo, debería utilizar el proceso **Ajustar costo: movimientos de producto**. Esto garantiza que, al ejecutarlo, los costos que se registrarán en el módulo de contabilidad estarán actualizado.
-#### Opciones
+#### <a name="options-2"></a>Opciones
 
 |Opción  |Descripción  |
 |--------------|---------|
@@ -157,7 +157,7 @@ Si desea asegurarse de que el trabajo por lotes no encuentre ningún error mient
 |**Nº documento**|Introduzca en este campo un número de documento si ha elegido la opción Por grupo contable inventario. El número de documento aparecerá en los movimientos registrados.|
 |**Registrar**|Active este campo si desea que el trabajo por lotes registre automáticamente en la contabilidad. Si no desea registrar la variación de existencias, el proceso sólo imprimirá un informe de test que mostrará los valores que se pueden registrar en el módulo de contabilidad y en el informe aparecerá: **Informe test (no registrado)**.|
 
-### Distribuir costo estándar
+### <a name="roll-up-standard-cost"></a>Distribuir costo estándar
 
 Distribuye los costos estándar de productos montados y fabricados. En ellos influirá el cambio en los costos estándar de componentes sugeridos por el trabajo por lotes **Sugerir costo estándar prod.**. Además, también influirán en ellos el cambio del costo estándar de los recursos de la capacidad de producción y de ensamblado sugeridos por el proceso **Sugerir costo estánd. c. trab./máq.**.
 
@@ -167,14 +167,14 @@ Una vez ejecutado uno o ambos trabajos por lote, y realizada la distribución, t
 > Esta característica solo distribuye el costo estándar en fichas de productos, no en las fichas SKU.
 
 Este proceso sólo crea sugerencias. No procesa los cambios sugeridos. Si está de acuerdo con dichas sugerencias y desea aplicarlas, es decir, actualizarlas en las fichas de producto e insertarlas en la ventana del **Diario de revalorización**, puede utilizar el trabajo por lotes **Implementar cambio costo estándar**. Tiene acceso a este trabajo por lotes desde la ventana de **Hoja trab. costo estándar**.
-#### Opciones
+#### <a name="options-3"></a>Opciones
 
 **Fecha cálculo**: Introduzca la fecha que corresponda a la versión de la lista de materiales de producción para la que desea realizar la distribución.
  
-### Implementar cambio costo estándar
+### <a name="implement-standard-cost-change"></a>Implementar cambio costo estándar
 
 Actualiza los cambios de costo estándar de la tabla **Producto** con los de la tabla **Hoja trab. costo estándar**. Se pueden crear y modificar las sugerencias de cambios de costo utilizando el proceso **Sugerir costo estándar prod.** o **Sugerir costo estánd. c. trab./máq.** Se transfiere el contenido de todos los campos de las sugerencias de cambio de costo estándar. Al aplicar sugerencias de cambios de costos estándares, puede verlos en la ficha de producto y/o en las fichas de centro de trabajo o centro de máquina. También se crea un diario de revalorización para actualizar el valor de existencias existente.
-#### Opciones
+#### <a name="options-4"></a>Opciones
 
 **Fecha registro**: Introduzca la fecha en que debe realizarse la revalorización.
 
@@ -186,7 +186,7 @@ Actualiza los cambios de costo estándar de la tabla **Producto** con los de la 
 
 Elija **Aceptar** para iniciar el trabajo por lotes. Si no desea ejecutar el proceso en este momento, seleccione **Cancelar** para cerrar la ventana.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Detalles de diseño: métodos de coste](design-details-costing-methods.md)  
 [Actualizar costos estándar](finance-how-to-update-standard-costs.md)  
