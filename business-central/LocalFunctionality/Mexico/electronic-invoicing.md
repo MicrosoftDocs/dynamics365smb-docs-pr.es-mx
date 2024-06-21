@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Facturación electrónica en la versión para México
+# <a name="electronic-invoicing-in-the-mexican-version"></a>Facturación electrónica en la versión para México
 
 Las empresas mexicanas deben tener la posibilidad de enviar facturas de forma electrónica como archivos de Comprobante Fiscal Digital por Internet (CFDI). [!INCLUDE[prod_short](../../includes/prod_short.md)] admite CFDI para que pueda exportar facturas de ventas y servicios, así como notas de crédito con formato de documentos electrónicos que cuenten con la firma digital requerida.
 
@@ -36,7 +36,7 @@ El archivo de CFDI es un archivo XML que incluye lo siguiente:
 > [!IMPORTANT]  
 > Debe enviar las facturas electrónicas a un PAC, que es un proveedor de servicios autorizado designado por las autoridades fiscales de México (SAT). Tenga en cuenta que SAT ha certificado a varios PAC en México, por lo que deberá obtener la información pertinente para comunicarse con el PAC que elija. De manera predeterminada, [!INCLUDE [prod_short](../../includes/prod_short.md)] admite la integración con [Interfactura](https://interfactura.com/), pero puede utilizar otro PAC de su elección.  
 
-## Comenzar
+## <a name="get-started"></a>Comenzar
 
 Antes de poder usar [!INCLUDE[prod_short](../../includes/prod_short.md)] para la facturación electrónica, debe obtener la certificación apropiada, el sello digital y números de control de las autoridades fiscales. Debe instalar el certificado en el equipo en el que genera los archivos de CFDI. Para obtener más información, vea [Configurar la facturación electrónica](how-to-set-up-electronic-invoicing.md). Para obtener información sobre los certificados y las claves de SAT, consulte el sitio web del [Servicio de Administración Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772).  
 
@@ -50,7 +50,7 @@ Además, debe especificar los servicios web que utiliza para comunicarse con el 
 
 También debe especificar información sobre su empresa y cada uno de sus clientes y proveedores. Para obtener más información, vea [Configurar la facturación electrónica](how-to-set-up-electronic-invoicing.md).  
 
-## Enviar documentos electrónicos
+## <a name="send-electronic-documents"></a>Enviar documentos electrónicos
 
 Una vez que registre una factura o una nota de crédito, podrá enviarla al cliente. Pero antes debe obtener el sello digital de un PAC. [!INCLUDE[prod_short](../../includes/prod_short.md)] se comunica con el PAC a través de servicios web para solicitar un sello y, de este modo, su empresa y el PAC firman digitalmente el documento de forma automática.  
 
@@ -63,7 +63,7 @@ Asimismo, si desea imprimir los documentos, estos incluirán un código de barra
 
 Para obtener más información, consulte [Generar facturas electrónicas](how-to-generate-electronic-invoices.md).  
 
-## Cancelar documentos
+## <a name="cancel-documents"></a>Cancelar documentos
 
 En ocasiones, puede revertir una transacción; por ejemplo, si debe cambiar el almacén de un envío por alguna razón. También puede enviar dichas cancelaciones como documentos electrónicos.  
 
@@ -80,14 +80,14 @@ La siguiente tabla proporciona una descripción general de las opciones del camp
 
 Si elige el código *01*, también debe especificar el documento que sustituye el documento cancelado en el campo **N.º doc. de sustitución**.  
 
-### Enviar una factura de venta registrada para su cancelación
+### <a name="send-a-posted-sales-invoice-for-cancellation"></a>Enviar una factura de venta registrada para su cancelación
 
 1. Abra la factura de venta registrada que desea cancelar y, a continuación, seleccione **Cancelar**.  
 2. Seleccione **Cancelar solicitud** y confirme. De este modo, podrá enviar la solicitud de cancelación al servicio del PAC y recibirá el id. de cancelación correspondiente al documento.  
 3. Una vez que reciba una respuesta del servicio del PAC que confirme el envío correcto, el estado se actualiza a **Cancelación en curso**. A continuación, se toma el id. de cancelación que consta en la respuesta y se actualiza el documento. Con este paso se actualizará el campo **Fecha y hora de firma**.  
 4. Si aparece un mensaje de error, el estado se actualiza a **Error de cancelación**. Los detalles del error se muestran en los campos **Código de error** y **Descripción del error**. Con este paso se actualizará el campo **Fecha y hora de firma**.  
 
-### Enviar una solicitud de actualización de estado
+### <a name="send-a-request-to-update-the-status"></a>Enviar una solicitud de actualización de estado
 
 Las autoridades del SAT deben procesar y aprobar el documento que necesita cancelar. La información sobre el estado debe solicitarse al servicio del PAC.  
 
@@ -96,15 +96,15 @@ Utilice la opción **Obtener respuesta** para consultar y actualizar el estado d
 > [!NOTE]  
 > Las respuestas posibles **EnProceso**, **Rechazado** y **Cancelado** actualizan el campo **Estado del documento electrónico** para los siguientes valores, respectivamente: **Cancelación en curso**, **Error de cancelación** o **Cancelado**. 
 
-### Cancelar manualmente una factura de venta registrada
+### <a name="manually-cancel-a-posted-sales-invoice"></a>Cancelar manualmente una factura de venta registrada
 
 En ciertos casos, por ejemplo, cuando el documento no puede procesarse correctamente debido a códigos de razón incorrectos o si el SAT no puede clasificarlo, o debido a otras razones, puede forzar la cancelación de forma manual. Para ello, simplemente seleccione la acción **Marcar como cancelada** en el menú para cancelar manualmente la factura de venta registrada. 
 
-### Lote de solicitudes de estado de factura electrónica
+### <a name="e-invoice-status-request-batch"></a>Lote de solicitudes de estado de factura electrónica
 
 El usuario puede programar un trabajo por lotes para procesar un documento con un valor de **Estado del documento electrónicos** igual a **Error de cancelación** y **Cancelación en curso**.  
 
-## Componente de comunicación
+## <a name="communication-component"></a>Componente de comunicación
 
 Técnicamente, el componente [!INCLUDE[prod_short](../../includes/prod_short.md)] para facturación electrónica se implementa en un ensamblado de biblioteca (Microsoft.Dynamics.NAV.MX.dll), que se incluye automáticamente con [!INCLUDE[prod_short](../../includes/prod_short.md)]. El componente gestiona la comunicación con los servicios web del PAC y también genera los códigos QR que se incluyen en los documentos impresos.  
 
@@ -119,7 +119,7 @@ Al generar un documento electrónico para solicitar un sello, [!INCLUDE[prod_sho
 
 El PAC devuelve un documento XML que incluye la cadena original y, también, una sección para el sello digital. En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede exportar los archivos XML de los documentos que tienen una firma digital y obtener así más detalles sobre los datos que se incluyen en cada elemento XML.  
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Configurar la facturación electrónica](how-to-set-up-electronic-invoicing.md)  
 [Configurar servicios web de PAC](how-to-set-up-pac-web-services.md)  

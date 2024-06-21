@@ -11,13 +11,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Detalles de diseño: Costo de inventario
+# <a name="design-details-inventory-costing"></a>Detalles de diseño: Costo de inventario
 
 En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan en las características de valoración de inventario en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 La valuación de inventarios, también conocida como "administración de costos", se refiere al registro y la creación de informes sobre los costos operativos de la empresa.  
 
-## En esta sección
+## <a name="in-this-section"></a>En esta sección
 
 [Detalles de diseño: Métodos de costo](design-details-costing-methods.md)  
 [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
