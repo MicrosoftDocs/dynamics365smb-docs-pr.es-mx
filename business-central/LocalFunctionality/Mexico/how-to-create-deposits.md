@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="create-deposits-in-the-mexican-version"></a>Cómo crear depósitos en la versión para México
+# Cómo crear depósitos en la versión para México
 
 [!INCLUDE [create-deposits](../includes/CAMXUS/create-deposits.md)]
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Funcionalidad local de México](mexico-local-functionality.md)  
 [Finanzas](../../finance.md)  
