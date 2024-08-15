@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-cost-accounting"></a>Configuración de contabilidad de costos
+# <a name="set-up-cost-accounting"></a>Configuración de contabilidad de costos
 
 Antes de empezar a trabajar con la contabilidad de costos, debe realizar tareas de configuración.
 
@@ -24,7 +24,7 @@ De esta manera, crea la siguiente ecuación de contabilidad:
 
 Al imprimir el plan del tipo de costo, el plan de centros de costo y el plan de informes de objetos de costo, puede analizar esta relación.
 
-## <a name="setting-up-cost-types"></a>Configuración de tipos de costo
+## <a name="set-up-cost-types"></a>Configuración de tipos de costo
 
 El plan de tipos de costo es similar al catálogo de cuentas de la contabilidad general. Puede configurar el plan de tipos de costo de la siguiente forma:  
 
