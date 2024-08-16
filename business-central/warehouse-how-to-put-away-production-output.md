@@ -10,7 +10,7 @@ ms.date: 08/12/2024
 ms.custom: bap-template
 ms.search.forms: '9326, 99000831, 9315, 7375'
 ---
-# Guardar la producción o el montaje
+# <a name="put-away-production-or-assembly-output"></a>Guardar la producción o el montaje
 
 La forma de ubicar la salida de su producción depende de cómo esté configurado el almacén. Obtenga más información en [Configuración de Warehouse Management](warehouse-setup-warehouse.md).  
 
@@ -22,11 +22,11 @@ En una configuración básica de almacén para el flujo de entrada (almacenamien
 
 En configuraciones de almacén avanzadas donde una ubicación requiere almacenamiento, cree un documento de almacenamiento interno o un documento de movimiento para almacenar la salida.  
 
-## Para colocar la salida de producción con una ubicación de inventario
+## <a name="to-put-away-production-output-with-an-inventory-put-away"></a>Para colocar la salida de producción con una ubicación de inventario
 
 El primer paso para almacenar la salida es crear la solicitud de almacén de entrada. Esta solicitud informa al almacén de que la salida del pedido de producción o ensamblado está preparada para ubicación.
 
-### Para crear la solicitud de entrada al almacén  
+### <a name="to-create-the-inbound-warehouse-request"></a>Para crear la solicitud de entrada al almacén
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Orden de producción lanzada** y, a continuación, elija el vínculo relacionado.  
 2. Elija la orden de producción que está preparada para el almacenamiento y, después, elija la acción **Crear solicitud entrada almacén**.  
@@ -34,7 +34,7 @@ El primer paso para almacenar la salida es crear la solicitud de almacén de ent
 > [!NOTE]  
 > También puede crear la solicitud de almacén de entrada eligiendo el campo **Crear solicitud de entrada** al actualizar la orden de producción. Obtener más información en [Actualizar o replanificar órdenes de producción](production-how-to-replan-refresh-production-orders.md).  
 
-### Para almacenar la producción con un almacenamiento de inventario  
+### <a name="to-put-away-output-with-an-inventory-put-away"></a>Para almacenar la producción con un almacenamiento de inventario
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicación de inventario** y, luego, elija el vínculo relacionado.  
 2. Cree una ubicación de inventario nueva. Obtenga más información en [Almacenar productos con almacenes de inventario](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
@@ -50,14 +50,14 @@ Cuando se registra un almacenamiento de inventario, se supone que todas las oper
 
 Si solo necesita publicar la configuración o el tiempo de ejecución en la última operación, configure la cantidad de salida en la última operación en 0. Puedes elegir no publicar la última línea eliminándola.
 
-## Para almacenar el ensamblaje y la producción en configuraciones de almacén avanzadas
+## <a name="to-put-away-assembly-and-production-output-in-advanced-warehouse-configurations"></a>Para almacenar el ensamblaje y la producción en configuraciones de almacén avanzadas
 
 Cuando se registra la salida de una orden de producción o de ensamblaje en un almacén que utiliza almacenamiento y selección dirigidos, la salida se dirige al contenedor definido en la orden de producción o de ensamblaje. Para obtener más información sobre las diferentes formas de mover artículos en el almacén con configuraciones avanzadas, vaya a  [Mover artículos en configuraciones avanzadas de almacén](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet).
 
 > [!NOTE]  
 > No puede indicar el número de documento de origen, como el número de orden de producción, en los documentos de almacenamiento interno, almacenamiento o movimiento para los procesos de salida de ensamblado o producción.  
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

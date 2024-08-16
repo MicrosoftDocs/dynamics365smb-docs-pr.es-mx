@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Tutorial: Realice previsiones de flujo de caja utilizando informes financieros
+# <a name="walkthrough-make-cash-flow-forecasts-using-financial-reports"></a>Tutorial: Realice previsiones de flujo de caja utilizando informes financieros
 
 Este tutorial describe cómo puede utilizar la característica de informes financieros para elaborar previsiones del flujo de caja. Los informes financieros realizan cálculos que no se pueden realizar directamente en el catálogo de cuentas del flujo de caja. En los informes financieros, puede configurar los subtotales para las recepciones y los desembolsos del flujo de caja. Estos subtotales se pueden incluir de los nuevos totales que pueden usarse en la elaboración de previsiones del flujo de caja.  
 
-## Acerca de este tutorial
+## <a name="about-this-walkthrough"></a>Acerca de este tutorial
 
 En este tutorial se describen las siguientes tareas:  
 
@@ -26,28 +26,28 @@ En este tutorial se describen las siguientes tareas:
 - Asignación de una definición de columna a un informe financiero.  
 - Ver e imprimir la previsión del flujo de caja.  
 
-### Requisitos previos
+### <a name="prerequisites"></a>Requisitos previos
 
 Para completar este tutorial, necesitará:  
 
 - [!INCLUDE[prod_short](includes/prod_short.md)]  
 - Una hoja de trabajo de flujo de caja con líneas registradas  
 
-## Roles
+## <a name="roles"></a>Roles
 
 En este tutorial, se demuestran las tareas realizadas por el siguiente rol de usuario:  
 
 - Controlador  
 
-## Historia
+## <a name="story"></a>Historia
 
 Ken es un controlador de CRONUS que efectúa previsiones mensuales del flujo de caja. Ken incluye las finanzas, las ventas, las compras y los activos fijos en las previsiones y las envía a Sara, directora de Finanzas, para una perspectiva de negocio.  
 
-## Configuración de un nuevo nombre de informe financiero
+## <a name="set-up-a-new-financial-report-name"></a>Configuración de un nuevo nombre de informe financiero
 
 El nombre del informe financiero es el nombre que se le da a la previsión de flujo de caja que incluye una serie de líneas definidas y una definición de columna.  
 
-### Configuración de un nuevo nombre de informe financiero  
+### <a name="set-up-a-new-financial-report-name-1"></a>Configuración de un nuevo nombre de informe financiero
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Informes financieros** y luego elija el vínculo relacionado.  
 2. En la página **Informes financieros**, elija **Nuevo** para crear un nuevo nombre de informe financiero de flujo de caja.  
@@ -55,11 +55,11 @@ El nombre del informe financiero es el nombre que se le da a la previsión de fl
 4. En el campo **Descripción**, introduzca **Previsión de flujo de caja**.  
 5. Deje los campos **Definición de fila** y **Definición de columna** en blanco.
 
-## Configurar líneas de definición de fila
+## <a name="set-up-row-definition-lines"></a>Configurar líneas de definición de fila
 
 Después de configurar un nombre de informe financiero, Ken define cada línea en el informe financiero de flujo de caja. Ken define las líneas que se pueden mostrar en los informes además de las líneas que se sólo se utilizan para realizar cálculos.  
 
-### Configurar líneas de definición de fila  
+### <a name="set-up-row-definition-lines-1"></a>Configurar líneas de definición de fila
 
 1. En la página **Informes financieros**, seleccione el nuevo informe financiero **Pronóstico** que ha creado y, a continuación, elija la acción **Editar definición de fila**.  
 2. En la página **Definición de fila**, especifique cada línea como se muestra en la siguiente tabla.  
@@ -95,7 +95,7 @@ Después de configurar un nombre de informe financiero, Ken define cada línea e
     > [!NOTE]
     > El número de fila R10 se utiliza para capturar totales de cuentas para clientes. El número de fila R20 se utiliza para calcular la suma de todas las recepciones de efectivo. El número de fila R30 se utiliza para capturar totales de cuentas para proveedores. El número de fila R40 se utiliza para calcular la suma de todos los desembolsos de efectivo. El número de fila R50 se utiliza para capturar la suma de exceso de efectivo. El número de fila R60 se utiliza para capturar los fondos líquidos. El número de fila R70 se utiliza para calcular el flujo de caja previsto.
 
-## Configurar una definición de columna nueva
+## <a name="set-up-a-new-column-definition"></a>Configurar una definición de columna nueva
 
 Antes de imprimir la previsión del flujo de caja, Ken tiene que crear la definición de columna para la información numérica. En las columnas, Ken define la información necesaria para utilizarla desde las líneas.
 
@@ -104,7 +104,7 @@ Antes de imprimir la previsión del flujo de caja, Ken tiene que crear la defini
 - La tercera columna tiene el número *C30* con el título **Año completo** y contiene el saldo del periodo en los saldos del ejercicio completo.  
 - Por último, Ken asigna la definición de columna como opción predeterminada para el informe financiero **Previsiones**.  
 
-### Configurar una definición de columna nueva
+### <a name="set-up-a-new-column-definition-1"></a>Configurar una definición de columna nueva
 
 1. En la página **Informes financieros**, seleccione el nombre de informe financiero nuevo **Previsión** que ha creado. En la pestaña **Inicio**, en el grupo **Procesar**, elija **Editar definición de columna**.
 
@@ -120,22 +120,22 @@ Antes de imprimir la previsión del flujo de caja, Ken tiene que crear la defini
     |C20|Importe hasta fecha|Saldo a la fecha|Movs.|Importe neto|Siempre|  
     |C30|Todo el ejercicio|Todo el ejercicio|Movs.|Importe neto|Siempre|
 
-## Asignar definición de columna al nombre del informe financiero
+## <a name="assig-the-column-definition-to-the-financial-report-name"></a>Asignar definición de columna al nombre del informe financiero
 
 Ken ahora está preparado para asignar la definición de columna al nombre del informe financiero.  
 
-### Asigne una definición de columna al nombre de informe financiero
+### <a name="assign-the-column-definition-to-the-financial-report-name"></a>Asigne una definición de columna al nombre de informe financiero
 
 1. En la página **Informes financieros**, seleccione el informe financiero **Pronóstico** que ha creado y, a continuación, elija la acción **Editar definición de columna**.  
 2. En el campo **Nombre**, seleccione la definición de columna **Flujo de caja** para asignarla como definición de columna predeterminada.  
 
-## Ver e imprimir la previsión del flujo de caja
+## <a name="view-and-print-the-cash-flow-forecast"></a>Ver e imprimir la previsión del flujo de caja
 
 1. En la página **Informes financieros**, elija el informe financiero **Previsión** para ver la previsión de flujo de caja.  
 2. En la página **Informe financiero**, puede seleccionar un importe y después ver los movimientos de la previsión del flujo de caja que conforman el importe. Además, puede ver la fórmula que se utiliza para calcular el importe. También puede filtrar los importes por fecha y dimensión.  
 3. Elija la acción **Imprimir** para que se imprima la previsión de flujo de caja.  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Trabajar con informes financieros](bi-how-work-account-schedule.md)  
 [Analizar el flujo de efectivo de la empresa](finance-analyze-cash-flow.md)  

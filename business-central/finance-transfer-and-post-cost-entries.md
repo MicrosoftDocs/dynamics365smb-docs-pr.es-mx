@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Transferencia y contabilización de entradas de costes
+# <a name="transferring-and-posting-cost-entries"></a>Transferencia y contabilización de entradas de costes
 
 Antes de definir asignaciones de costo, debe entender cómo provienen los movimientos de costo de los orígenes siguientes:  
 
@@ -20,7 +20,7 @@ Antes de definir asignaciones de costo, debe entender cómo provienen los movimi
 - Registros automáticas de asignación de costos reales.  
 - Transferencia de los movimientos de presupuesto a real.
 
-## Criterios para transferir asientos de contabilidad general a asientos de costos
+## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Criterios para transferir asientos de contabilidad general a asientos de costos
 
 Es importante comprender los criterios para transferir asientos de contabilidad general a asientos de costos. Durante la transferencia, el proceso de **Transferir movs. contabilidad a costes** utiliza el siguiente criterio para determinar si y cómo se transfieren los movimientos de contabilidad.  
 
@@ -41,13 +41,13 @@ Los asientos del libro mayor no se transfieren si:
 - Los movimientos tienen una fecha de registro antes de **Fecha inicio para transferencia C/G**.  
 - Los movimientos se registraron con una fecha de cierre. Éstos son normalmente movimientos que restablecen el saldo de regularización al final del año.
 
-## Transferencia de asientos del libro mayor a asientos de costos
+## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Transferencia de asientos del libro mayor a asientos de costos
 
 Puede transferir movimientos de contabilidad a movimientos de costo.  
 
 Antes de ejecutar el proceso para transferir movimientos de contabilidad a movimientos de costo, debe preparar la transferencia para evitar el registro manual de corrección.  
 
-### Para preparar la transferencia  
+### <a name="to-prepare-the-transfer"></a>Para preparar la transferencia
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad de costos** y, luego, elija el vínculo relacionado.  
 2.  En la página **Configuración contabilidad costos**, verifique que el campo **Fecha inicio para transferencia C/G** esté definido el valor correcto.  
@@ -57,14 +57,14 @@ Antes de ejecutar el proceso para transferir movimientos de contabilidad a movim
 6.  Para cada cuenta contable correspondiente, en la página **Ficha cuenta**, compruebe que el campo **Nº tipo costo**. está vinculado correctamente a un tipo de costo. Para obtener más información, consulte [Configuración de contabilidad de costos](finance-set-up-cost-accounting.md).  
 7.  Verifique que todos los movimientos de contabilidad correspondientes tengan valores de dimensión que correspondan a un centro de costo y a un objeto de costo.  
 
-### Para transferir movimientos de contabilidad a movimientos de costo
+### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a>Para transferir movimientos de contabilidad a movimientos de costo
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Transferir movimientos de contabilidad a costes** y luego elija el enlace relacionado.  
 2.  Para iniciar la transferencia, elija el botón **Sí**. El proceso transfiere todas las entradas del libro mayor que aún no se hayan transferido.  
 
 Durante la transferencia, el proceso crea conexiones en las entradas en la tabla **Mov. costo** y la tabla **Registro costos**. Esto permite realizar un seguimiento del origen de los movimientos de costo.
 
-## Transferencia automática y entradas combinadas
+## <a name="automatic-transfer-and-combined-entries"></a>Transferencia automática y entradas combinadas
 
 En contabilidad de costos, puede transferir los movimientos de contabilidad a un tipo de costo mediante un registro combinado. Puede especificar si un tipo de costo recibe las movimientos agrupados en el campo **Combinar movimientos** en la definición del tipo de costo. La siguiente tabla describe las distintas opciones.  
 
@@ -77,15 +77,15 @@ En contabilidad de costos, puede transferir los movimientos de contabilidad a un
 > [!IMPORTANT]  
 >  Si ha seleccionado la casilla **Transf. autom. desde C/G** en la página **Configuración contabilidad costos**, [!INCLUDE[prod_short](includes/prod_short.md)] actualiza la contabilidad de costos después de cada registro en la contabilidad. Ya no se pueden realizar movimientos combinados.
 
-## Resultados de la transferencia de asientos del libro mayor a asientos de costos
+## <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Resultados de la transferencia de asientos del libro mayor a asientos de costos
 
 Durante la transferencia de movimientos de contabilidad a movimientos de costo, [!INCLUDE[prod_short](includes/prod_short.md)]  crea conexiones en los movimientos de la tabla **Mov. contabilidad**, la tabla **Mov. costo** y la tabla  **Registro costos** para permitir realizar un seguimiento de las conexiones entre los movimientos de costos y los movimientos de contabilidad.  
 
-### Movimientos de contabilidad
+### <a name="general-ledger-entries"></a>Movimientos de contabilidad
 
 Para cada movimiento de contabilidad que se transfiere a la contabilidad de costos, [!INCLUDE[prod_short](includes/prod_short.md)] rellena el campo de costo **N.º de movimiento**.  
 
-### Entradas de costos
+### <a name="cost-entries"></a>Entradas de costos
 
 Para cada movimiento de costo, [!INCLUDE[prod_short](includes/prod_short.md)] guarda el número de movimiento del movimiento de contabilidad correspondiente en el campo **Nº mov. contabilidad** en la tabla **Mov. costo**.  
 
@@ -95,11 +95,11 @@ El campo **Cuenta** en la tabla **Mov. costo** contiene el número de la cuenta 
 
 Para movimientos de costo únicos, [!INCLUDE[prod_short](includes/prod_short.md)] transfiere el texto de registro del movimiento de contabilidad al campo de texto **Descripción**. Para movimientos combinados, el campo de texto muestra que estos movimientos se transfieren como movimientos combinados. Por ejemplo, para un movimiento combinado del mes de octubre de 2013, el texto puede ser **Movimientos combinados, octubre de 2013**.  
 
-### Registro de costos
+### <a name="cost-register"></a>Registro de costos
 
 En la tabla **Registro costos**, [!INCLUDE[prod_short](includes/prod_short.md)] crea un movimiento con la transferencia de origen de la contabilidad. La entrada registra los números de entrada primero y último de las entradas del libro mayor que se transfieren, además de los números de entrada primero y último de las entradas de costos que se crean.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
  [Acerca de la contabilidad de costos](finance-about-cost-accounting.md)  
  [Configuración de contabilidad de costos](finance-set-up-cost-accounting.md)  
