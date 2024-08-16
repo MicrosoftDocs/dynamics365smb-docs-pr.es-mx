@@ -1,17 +1,18 @@
 ---
 title: Supervisar el progreso y el rendimiento del proyecto
-description: Describe cómo puede crear un método de trabajo en curso (WIP) y calcular el WIP para estimar el valor financiero de los proyectos mientras están en progreso.
+description: Describe cómo se puede crear un método de trabajo en proceso (WIP) y calcular el WIP para estimar el valor financiero de los proyectos mientras están en curso.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 02/22/2024
+ms.date: 07/31/2024
 ms.custom: bap-template
 ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
 ms.service: dynamics-365-business-central
 ---
-# <a name="monitor-project-progress-and-performance"></a>Supervisar el progreso y el rendimiento del proyecto
+
+# Supervisar el progreso y el rendimiento del proyecto
 
 Con la función Trabajo en curso (WIP) puede estimar el valor financiero de los proyectos en curso en el libro mayor.
 
@@ -28,28 +29,28 @@ Puede calcular WIP basándose en lo siguiente:
 <!--If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.-->
 <!--Unhide the above paragraph?-->
 
-## <a name="create-a-project-wip-method"></a>Crear un método de proyecto WIP
+## Crear un método de proyecto WIP
 
 Cree un método de proyecto WIP que satisfaga las necesidades de su organización y establézcalo como predeterminado.  
 
 > [!NOTE]
 > Tras haber usado el nuevo método para crear los movimientos del WIP, no podrá modificar o eliminar ese método.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **métodos wip de proyecto** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") Icono, ingrese  **Métodos WIP del proyecto**, luego elija el vincular relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Cierre la página.   
-4. Para convertir en predeterminado este nuevo método, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **configuración de proyectos** y luego elija el enlace relacionado.  
+4. Para convertir en predeterminado este nuevo método, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") Icono, ingrese a **Configuración de proyectos** y luego elija el vincular relacionado.  
 5. En el campo **Método WIP predet.**, seleccione el método de la lista.
 
-## <a name="define-a-wip-method-for-a-project"></a>Definir un método de WIP para un proyecto
+## Definir un método de WIP para un proyecto
 
 Al crear un proyecto nuevo, debe especificar el método WIP que se aplica. En algunos casos, el método de proyecto WIP que utiliza ya está configurado como predeterminado.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos**, y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**. Obtenga más información en [Crear proyectos](projects-how-create-jobs.md).  
-3. En la página **Ficha de proyecto**, en el campo **Método WIP**, seleccione un método WIP de la lista. Si se ha definido un método predeterminado, puede seleccionar otra opción si es necesario.  
+3. En la página **Proyecto tarjeta**, en el campo **Método WIP**  de la pestaña rápida **Publicación**, Seleccionar un método WIP de la lista. Si se ha definido un método predeterminado, puede seleccionar otra opción si es necesario.  
 
-### <a name="define-a-wip-method-for-a-project-task"></a>Definir un método de WIP para una tarea de proyecto
+### Definir un método de WIP para una tarea de proyecto
 
 Puede definir un método WIP para una tarea de proyecto, excluir algunas tareas de proyecto del cálculo del WIP o agrupar tareas para que se calculen juntas. 
 
@@ -90,15 +91,15 @@ En el siguiente ejemplo, las tareas del proyecto se dividen en dos agrupaciones 
 
 Notará:
 
-* Del *1000* al *1299*: se calculará el WIP por separado para este grupo de tareas de proyecto. Sin embargo, tenga en cuenta que dos de las tareas, 1010 y 1110, se excluyen del cálculo de WIP porque su tipo de tarea de proyecto es **Registro**.
+* *1000* a *1299*: el WIP se calcula por separado para este grupo de tareas del proyecto. Sin embargo, tenga en cuenta que dos de las tareas, 1010 y 1110, se excluyen del cálculo de WIP porque su tipo de tarea de proyecto es **Registro**.
 
-* Del *1300* al *1399*: se calculará el WIP por separado para este grupo de tareas de proyecto.
+* *1300* a *1399*: el WIP se calcula por separado para este grupo de tareas del proyecto.
 
-## <a name="calculate-wip"></a>Calcular WIP
+## Calcular WIP
 
 Puede determinar el importe WIP que se debe registrar en cuentas de balance para informes del final de periodo. Para hacerlo, debe usar el proyecto por lotes **Calcular WIP proyecto**.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **calcular wip proyecto** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") Icono, ingrese **Proyecto Calcular WIP**, luego elija el vincular relacionado.  
 2. Elija la acción **Calcular WIP**.
 3. En la página **Calcular WIP proyecto**, rellene los campos según sea necesario.
 4. Elija el botón **Aceptar**.  
@@ -106,7 +107,7 @@ Puede determinar el importe WIP que se debe registrar en cuentas de balance para
 > [!NOTE]  
 > El proyecto por lotes solo calcula el WIP, es decir, no lo registra en el módulo de contabilidad. Para registrarlo, ejecute proyecto por lotes **Registrar WIP en C/G** una vez que haya calculado el WIP. Obtenga más información en el siguiente procedimiento.
 
-## <a name="post-wip"></a>Registrar WIP
+## Registrar WIP
 
 Cuando ha calculado WIP, puede registrarlo en las cuentas de balance de los informes de fin de periodo. Para ello, debe usar el proyecto por lotes **Registrar WIP en C/G proyecto**.
 
@@ -114,24 +115,24 @@ Cuando ha calculado WIP, puede registrarlo en las cuentas de balance de los info
 2. En la página **Registrar WIP en C/G proyecto**, rellene los campos según sea necesario.  
 3. Elija el botón **Aceptar**.
 
-## <a name="calculate-and-post-project-completion-entries"></a>Calcular y registrar los movimientos de finalización de proyecto
+## Calcular y registrar los movimientos de finalización de proyecto
 
 Cuando haya terminado todas las actividades de un proyecto, incluidos los registros de consumo y la facturación, tiene que actualizar el estado del proyecto a **Completado**. Después, debe revertir cualquier WIP que haya registrado en contabilidad.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos**, y luego elija el enlace relacionado.  
 2. Seleccione un proyecto abierto y, a continuación, elija la acción **Editar**.
-3. En el campo **Estado**, seleccione **Completado**.
+3. En la pestaña rápida **Publicación**, en el campo **Estado**, Seleccionar **Completado**.
 4. Siga los pasos de asistencia para calcular y publicar el WIP, o siga los pasos 5 y 6 para hacerlo manualmente.  
 5. Elija la acción **Calcular WIP**.
 6. En la página **Calcular WIP proyecto**, rellene los campos según sea necesario.  
 
-     Los movimientos de proyecto en curso del proyecto creados al ejecutar el proceso tendrán marcada la casilla **Proyecto completado** para indicar que se trata de movimientos de finalización.  
+     Las entradas del proyecto WIP creadas al ejecutar el trabajo por lotes tendrán la casilla de verificación  **Proyecto completado**  seleccionada para mostrar que son entradas de finalización.  
 7. Elija la acción **Registrar WIP en C/G**.
 8. En la página **Registrar WIP en C/G proyecto**, rellene los campos según sea necesario.  
 
-     Los movimientos de contabilidad del proyecto en curso del proyecto creados al ejecutar el proyecto por lotes tendrán marcada la casilla de verificación **Proyecto completado** para indicar que se trata de movimientos de finalización.
+     Las entradas del libro mayor del proyecto WIP creadas al ejecutar el proyecto por lotes tendrán la casilla de verificación  **Proyecto completado**  seleccionada para mostrar que son entradas de finalización.
 
-## <a name="view-project-ledger-entries"></a>Ver entradas de movimientos contables del proyecto
+## Ver entradas de movimientos contables del proyecto
 
 Los movimientos relativos a proyectos se guardan en los registros de movimientos de proyectos y se numeran de forma secuencial, empezando por 1. Desde el registro de movimientos de proyecto, se puede obtener un resumen de todos los movimientos de proyecto.    
 
@@ -140,15 +141,15 @@ Los movimientos relativos a proyectos se guardan en los registros de movimientos
 
 En la página **Movimientos de proyecto** puede revisar los movimientos que está asociado con algún proyecto.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
-[Tutorial: cálculo del trabajo en curso para un proyecto](walkthrough-calculating-work-in-process-for-a-job.md)
-[Administrar proyectos](projects-manage-projects.md)  
-[Administración de costos de inventario](finance-manage-inventory-costs.md)  
-[Finanzas](finance.md)  
-[Compras](purchasing-manage-purchasing.md)  
-[Ventas](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Tutorial: Cálculo del trabajo en proceso para un proyecto](walkthrough-calculating-work-in-process-for-a-job.md)    
+[Administrar proyectos](projects-manage-projects.md)    
+[Administración de costos de inventario](finance-manage-inventory-costs.md)    
+[Finanzas](finance.md)    
+[Compras](purchasing-manage-purchasing.md)    
+[Ventas](sales-manage-sales.md)    
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

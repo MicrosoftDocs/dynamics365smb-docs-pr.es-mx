@@ -6,12 +6,13 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: reconcile
 ms.search.form: '377, 378, 165, 1284'
-ms.date: 10/04/2023
+ms.date: 07/24/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="manage-and-reconcile-your-bank-accounts"></a>Administre y concilie sus cuentas bancarias
+
+# Administra y concilia tus cuentas bancarias
 
 Se debe completar una conciliación de banco a intervalos regulares para todos sus bancos para garantizar que los registros de caja de la empresa sean correctos. Para ello, compare y haga corresponder los movimientos en sus bancos internos con las transacciones bancarias en su banco, y luego registre los saldos en sus bancos internos para que los totales estén disponibles para los directores financieros. La conciliación bancaria también es una forma práctica de descubrir y resolver pagos faltantes y errores de contabilidad.
 
@@ -20,9 +21,9 @@ Puede realizar la tarea por separado del proceso de pagos, en la página **Conci
 > [!NOTE]  
 > En las versiones de EE. UU., también puede realizar las conciliaciones bancarias en la página **Hoja de trabajo de conciliación bancaria**, que es más adecuada para cheques y depósitos, pero no ofrece importación de archivos de estado de cuenta bancario. Para usar esta página en lugar de la página **Conciliación banco**, anule la selección del campo **Reconocimiento banc con auto. coinc.** en la página **Configuración de contabilidad**. Para obtener más información, consulte la sección [Conciliar cuentas bancarias](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) en Funcionalidad local para Estados Unidos.
 
-Para poder gestionar sus bancos en [!INCLUDE[prod_short](includes/prod_short.md)], debe configurar cada banco como una ficha de banco. Además, debe configurar los servicios electrónicos que puede usar para importar estados de cuenta bancarios y exportar archivos de pagos. Para obtener más información, consulte [Configurar bancos](bank-setup-banking.md).
+Antes de poder administrar sus cuentas bancarias dentro de [!INCLUDE[prod_short](includes/prod_short.md)], debe configurar cada cuenta bancaria como una cuenta bancaria tarjeta. Además, debe configurar los servicios electrónicos que puede usar para importar estados de cuenta bancarios y exportar archivos de pagos. Para obtener más información, consulte [Configurar bancos](bank-setup-banking.md).
 
-En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
+En la tabla siguiente se indican una serie de tareas con vínculos a los artículos que las describen.
 
 | Para | Vea |
 | --- | --- |
@@ -32,7 +33,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 > [!TIP]
 > Use la conciliación bancaria para ayudar a comprobar que sus libros estén actualizados y no publique la conciliación hasta que esté satisfecho con la conciliación.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configurar banca](bank-setup-banking.md)  
 [Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md)  

@@ -5,12 +5,13 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 40
-ms.date: 12/12/2023
+ms.date: 07/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos
+
+# Cerrar las entradas del libro mayor de partidas abiertas resultantes de la aplicación fija en el diario de partidas
 
 Puede utilizar el campo **Liquidar por mov.** en la página **Diario de productos** para crear manualmente una liquidación fija entre una transacción de entrada y la transacción de salida original. Por ejemplo, para corregir la transacción de salida o procesar su devolución.  
 
@@ -23,7 +24,7 @@ Puede cambiar y volver a liquidar los movimientos de liquidación en determinada
 
 El siguiente procedimiento muestra cómo cerrar los movimientos realizando dos registros correctores en el diario de productos.  
 
-## <a name="to-close-open-item-ledger-entries-that-result-from-a-fixed-application-in-the-item-journal"></a>Para cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos
+## Para cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos  
 
 1. Utilice el campo **Liquidar por mov.** para registrar un ajuste positivo con la cantidad correspondiente. Esto cierra el movimiento negativo original con una liquidación fija.  
 
@@ -32,13 +33,13 @@ El siguiente procedimiento muestra cómo cerrar los movimientos realizando dos r
 
     El campo **Liq. por n.º mov.** especifica si la cantidad que aparece en la línea del diario de productos debe liquidarse en un documento ya registrado. Si es así, introduzca el número de movimiento del producto sobre el que debe liquidarse la línea del diario.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
-[Quitar y volver a liquidar los movimientos de productos](finance-how-to-remove-and-reapply-item-entries.md)  
-[Procesamiento de devoluciones de ventas y cancelaciones](sales-how-process-sales-returns-cancellations.md)  
-[Configuración de valuación de inventarios](finance-set-up-inventory-valuation-and-costing.md)  
-[Administración de costos de inventario](finance-manage-inventory-costs.md)  
-[Detalles de diseño: Métodos de costo](design-details-costing-methods.md)
+[Eliminar y volver a aplicar entradas del libro mayor de artículos](finance-how-to-remove-and-reapply-item-entries.md)    
+[Procesar devoluciones y cancelaciones de ventas](sales-how-process-sales-returns-cancellations.md)    
+[Configuración de valoración y cálculo de costos de inventario](finance-set-up-inventory-valuation-and-costing.md)    
+[Administración de costos de inventario](finance-manage-inventory-costs.md)    
+[Detalles de diseño: Métodos de costo](design-details-costing-methods.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

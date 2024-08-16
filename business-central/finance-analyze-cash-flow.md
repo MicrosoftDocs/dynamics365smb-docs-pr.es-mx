@@ -1,17 +1,18 @@
 ---
-title: Análisis de los flujos de caja
+title: Analizar flujos de efectivo
 description: 'Describe cómo usar los gráficos Ciclo de efectivo, Ingresos y gastos, Flujo de efectivo y Previsión de flujo de efectivo para analizar el flujo de dinero de entrada y salida pasado y futuro de su empresa.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera'
 ms.search.form: '762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818'
-ms.date: 12/20/2021
+ms.date: 07/31/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="analyze-cash-flow-in-your-company"></a>Analizar el flujo de caja de la empresa
+
+# Analice el flujo de caja de su empresa
 Los gráficos del Área de tareas contable proporcionan información que le puede ayudar a tomar decisiones sólidas sobre qué debe hacer con el efectivo.  
 
 | Para responder a preguntas como las siguientes | Use este gráfico |
@@ -19,7 +20,7 @@ Los gráficos del Área de tareas contable proporcionan información que le pued
 | ¿Durante cuánto tiempo el proceso de venta obstaculiza mi efectivo?</br> ¿Debo aumentar o disminuir los niveles de inventario? |Ciclo de efectivo |
 | ¿Cuándo entra y sale el efectivo de mi empresa?</br> ¿Algunos periodos son mejores que otros? |Flujo de caja |
 | ¿Parece que los números están descuadrados para un periodo?</br> ¿Debo investigarlo? |Ingresos y gastos |
-| ¿Cuándo podría suceder un exceso o un déficit de efectivo?</br> ¿Debo pagar la deuda o pedir prestado para cubrir costes próximos? |Previsiones de flujo de caja |
+| ¿Cuándo podría producirse un superávit o déficit de efectivo?</br> ¿Debo pagar la deuda o pedir prestado para cubrir costes próximos? |Previsiones de flujo de caja |
 
 En el área de trabajo Contable, en **Rendimiento finanzas**, los gráficos **Ciclo de efectivo**, **Flujo de efectivo** e **Ingresos y gastos** proporcionan formas de analizar el flujo de efectivo:  
 
@@ -36,18 +37,18 @@ Si desea examinar la previsión, además de los movimientos de previsión, tambi
 * Resta los pagos y suma los cobros.  
 * Omite los pedidos de venta y de compra duplicados.  
 
-## <a name="to-view-a-cash-flow-worksheet"></a>Para ver la hoja de flujo de caja
+## Para ver la hoja de flujo de caja
 
 1. Busque **Previsiones de flujo de efectivo** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione una previsión de flujo de efectivo y, a continuación, seleccione la acción **Hoja flujos efectivo**.  
 3. En la página **Hoja flujos efectivo**, elija la acción **Proponer líneas de hoja de trabajo**.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también .
 
-[Configurar las finanzas](finance-setup-finance.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Configuración del análisis de flujo de efectivo](finance-setup-cash-flow-analyses.md)  
-[Prever el flujo de efectivo en Dynamics 365 Business Central](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)  
-[Configure previsiones de flujo de caja con Azure AI en Dynamics 365 Business Central](/training/modules/setup-cash-flow-forecasts/)  
+[Configuración de finanzas](finance-setup-finance.md)    
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
+[Configuración del análisis del flujo de efectivo](finance-setup-cash-flow-analyses.md)    
+[Pronostique su flujo de efectivo en Dynamics 365 Business Central](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)    
+[Configure previsiones de flujo de caja con Azure AI en Dynamics 365 Business Central](/training/modules/setup-cash-flow-forecasts/)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,12 +5,13 @@ author: jswymer
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI'
-ms.date: 07/05/2024
+ms.date: 08/05/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="preparing-closing-statements"></a>Preparación de declaraciones de cierre
+
+# Preparación de declaraciones de cierre
 
 [!INCLUDE [prod_short](includes/prod_short.md)] ofrece informes estándar que pueden ayudarle a reunir la información que necesita para preparar los estados de cierre de su empresa. La siguiente tabla describe los informes.  
 
@@ -26,11 +27,11 @@ ms.reviewer: jswymer
 
 Para buscar un informe, seleccione la bombilla que abre la función Dígame. ![...](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba el nombre tal como aparece en la tabla y luego elija el enlace relacionado.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
-[Cerrar años y periodos](year-close-years-periods.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Inteligencia empresarial](bi.md)
+[Años y periodos de cierre](year-close-years-periods.md)    
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Inteligencia empresarial](bi.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

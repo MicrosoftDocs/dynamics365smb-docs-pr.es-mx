@@ -1,31 +1,32 @@
 ---
 title: Actividades opcionales para periodos de cierre
-description: En este tema se describen los procesos y las actividades opcionales para cerrar periodos contables en Business Central.
+description: Este artículo describe los procesos y actividades opcionales para cerrar períodos contables en Business Central.
 author: jswymer
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments'
-ms.date: 08/29/2022
+ms.date: 08/02/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="overview-of-tasks-to-close-accounting-periods"></a>Resumen de tareas para cerrar periodos contables
 
-[!INCLUDE[prod_short](includes/prod_short.md)] no le fuerza a cerrar los períodos, pero numerosas actividades de fin de período (fin de mes) que puede realizar. Este tema proporciona una visión general de procesos y actividades opcionales para cerrar períodos.  
+# Resumen de tareas para cerrar periodos contables
 
-## <a name="general-ledger"></a>Contabilidad
+[!INCLUDE[prod_short](includes/prod_short.md)] no te obliga a cerrar períodos, sin embargo, hay muchas actividades de fin de período (fin de mes) que puedes realizar. Este artículo proporciona una descripción general de los procesos y actividades opcionales para el cierre de períodos.  
+
+## Contabilidad
 
 * Especifique períodos de registro para todo el sistema y específicos para el usuario.  
 
-    Esto especifica las fechas entre las cuales puede efectuar registros. En función de su empresa, puede permitir el registro al inicio del periodo o hacia el final. Obtenga más información en [Especificar períodos contables](finance-how-specify-posting-periods.md).  
+    Esto especifica las fechas entre las cuales puede efectuar registros. Dependiendo de su negocio, es posible que desee permitir la publicación al comienzo del período o hacia el final. Obtenga más información en [Especificar períodos contables](finance-how-specify-posting-periods.md).  
 * Lleve a cabo todos los ajustes de contabilidad necesarios.  
 * Actualice y registre los Diarios periódicos.  
   <!--* Process Consolidations-->
 * Ejecute los informes financieros de la siguiente manera:  
   * Abra la página **Informes financieros** y, a continuación, seleccione la acción **Imprimir**.  
 
-## <a name="sales-and-receivables"></a>Ventas y cobros
+## Ventas y cobros
 
 * Registre todas las órdenes, facturas, notas de crédito y devoluciones de ventas.  
 * Registre todo los diarios de recepciones de efectivo.  
@@ -33,7 +34,7 @@ ms.reviewer: jswymer
 * Concilie los cobros en el libro de contabilidad  
 * Ejecute el proceso **Eliminar peds. venta factdos**.  
 
-## <a name="purchases-and-payables"></a>Compras y pagos
+## Compras y pagos
 
 * Registre todas las órdenes, facturas, notas de crédito y devoluciones de compra.  
 * Registre todos los registros de pagos.  
@@ -41,7 +42,7 @@ ms.reviewer: jswymer
 * Ejecute el informe **Antigüedad pagos** y concilie las cuentas por pagar en el libro de contabilidad.  
 * Ejecute el proceso **Eliminar peds. compra factdos**.  
 
-## <a name="fixed-assets"></a>Activos fijos
+## Activos fijos
 
 * Todos los costos de mantenimiento se han registrado mediante los diarios de activos o las facturas.
 * Registrar ajustes.
@@ -49,15 +50,15 @@ ms.reviewer: jswymer
 * Registrar depreciación.
 * Actualizar y registrar el diario periódico de activos fijos.
 
-## <a name="intercompany"></a>Intercompany
+## Intercompany
 
 * Procesar transacciones entre empresas vinculadas
 
-## <a name="calculate-and-process-sales-tax"></a>Calcular y procesar los impuestos de venta
+## Calcular y procesar los impuestos de venta
 
 * Complete las declaraciones de impuestos.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Cerrar años y periodos](year-close-years-periods.md)  
 [Cierre de libros](year-close-books.md)  

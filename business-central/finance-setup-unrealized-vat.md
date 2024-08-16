@@ -1,22 +1,22 @@
 ---
-title: Configurar el impuesto sobre el valor añadido no realizado
+title: Establecer el impuesto al valor agregado no realizado
 description: 'Si utiliza contabilidad basada en efectivo, puede especificar cómo gestionar el IVA no realizado para venta y compras.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'cash, VAT, unrealized, cash-based'
 ms.search.form: '118, 472, 473'
-ms.date: 04/01/2021
+ms.date: 08/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Configurar el IVA no realizado para la contabilidad basada en efectivo
+# Configurar el IVA no realizado para la contabilidad en base a caja
 
-Si utiliza métodos de contabilidad basada en efectivo, puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para gestionar el IVA no realizado.
+Si utiliza métodos de contabilidad basados en caja, puede configurarlos para manejar el IVA no realizado. [!INCLUDE[prod_short](includes/prod_short.md)] 
 
-## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Usar las cuentas de contabilidad para el IVA no realizado
+## Usar las cuentas de contabilidad para el IVA no realizado
 
 Puede elegir que los importes de IVA se calculen y registren en una cuenta temporal al registrar una factura y que, a continuación, se registren en la cuenta correcta y se incluyan en las declaraciones de IVA cuando se registre el pago real de la factura. Antes de poder hacerlo, deberá [configurar los grupos de registro de IVA](finance-setup-vat.md).
 
@@ -31,7 +31,7 @@ Para utilizar cuentas para IVA no realizado, realice los pasos siguientes:
 | Opción | Descripción |
 | --- | --- |
 | En blanco | Elija esta opción si no desea utilizar la característica de IVA no realizado. |
-| Porcentaje | Los pagos liquidan tanto el IVA como el importe de factura proporcionalmente al porcentaje de pago del importe restante de la factura. El importe del IVA pagado se transfiere de la cuenta del IVA no realizado a la cuenta de IVA realizado. |
+| Porcentaje | Los pagos cubren tanto el IVA como el importe de la factura en proporción al porcentaje del pago del importe restante de la factura. El importe del IVA pagado se transfiere de la cuenta del IVA no realizado a la cuenta de IVA realizado. |
 | Primero | Los pagos liquidan primero el IVA y después los importes de factura. En este caso, el importe transferido de la cuenta del IVA no realizado a la cuenta del IVA será equivalente al importe del pago hasta que se haya pagado el IVA total. |
 | Último | Los pagos liquidan primero el importe de factura y después el IVA. En este caso, no se transferirá ningún importe de la cuenta del IVA no realizado a la cuenta del IVA hasta que se haya pagado el importe total de la factura, excluyendo el IVA. |
 | Primero (pagado totalmente) | Los pagos liquidarán primero el impuesto (como en la opción _Primero_), pero el importe no se transferirá a la cuenta del IVA hasta que se haya pagado completamente el importe del IVA. |
@@ -46,7 +46,7 @@ Para utilizar cuentas para IVA no realizado, realice los pasos siguientes:
 > [!NOTE]  
 > El importe de IVA se registrará en esta cuenta y permanecerá hasta que se registre el pago del cliente. A continuación, el importe se transfiere a la cuenta para el IVA soportado.
 
-## <a name="see-also"></a>Consulte también
-[Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)
+## Consulte también .
+[Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

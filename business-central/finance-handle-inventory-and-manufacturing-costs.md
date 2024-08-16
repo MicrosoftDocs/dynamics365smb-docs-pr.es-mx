@@ -1,22 +1,23 @@
 ---
-title: Administrar costos de fabricación e inventario
-description: 'Descubra cómo una serie de campos, páginas y reportes están dirigidos a usuarios que administran directa o indirectamente el costo de los productos u operaciones.'
+title: Gestionar inventario y costos de fabricación.
+description: 'Conozca cuántos campos, páginas e informes están dirigidos a los usuarios que administran directa o indirectamente el costo de artículos u operaciones.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/16/2021
+ms.date: 07/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="handling-inventory-and-manufacturing-costs"></a>Administración de costos de inventario y de fabricación
 
-Aunque la mayoría de las funciones de contabilidad de costos se llevan a cabo mediante procesos subyacentes que no requieren la interacción del usuario, tales como la liquidación de movimientos y el ajuste automático de costos, existen varios campos, páginas e informes destinados a los usuarios que administran directa o indirectamente el costo de los productos o las operaciones.  
+# Manejo de inventario y costos de fabricación
+
+Aunque gran parte de la funcionalidad de contabilidad de costos se expresa en procesos subyacentes sin interacción del usuario, como la aplicación de entrada y el ajuste automático de costos, muchos campos, páginas e informes están dirigidos a usuarios que administran directa o indirectamente el costo de los artículos u operaciones.  
 
  La asignación de cargos de los productos a documentos de compra es un ejemplo de una tarea indirecta de contabilidad de costos. La actualización del costo unitario de un producto de ensamblado o un producto de L.M. es un ejemplo de una tarea de contabilidad de costos más directa.  
 
- En la tabla siguiente se describe una secuencia de tareas, con vínculos a temas que las describen.   
+ En la tabla siguiente se indican una serie de tareas con vínculos a los artículos que las describen.   
 
 |**Para**|**Vea**|  
 |------------|-------------|  
@@ -29,10 +30,10 @@ Aunque la mayoría de las funciones de contabilidad de costos se llevan a cabo m
 |Deshacer manualmente una liquidación de producto o liquidar de nuevo movimientos de productos creados por la aplicación.|[Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Utilice el campo **Liquidar por mov.** en el diario de productos para crear manualmente una liquidación fija entre una transacción de entrada y la transacción de salida original.|[Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
-[Administración de costos de inventario](finance-manage-inventory-costs.md)
-[Detalles de diseño: Costos de inventario](design-details-inventory-costing.md)
+[Gestionar los costes de inventario](finance-manage-inventory-costs.md)    
+[Detalles de diseño: coste de inventario](design-details-inventory-costing.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

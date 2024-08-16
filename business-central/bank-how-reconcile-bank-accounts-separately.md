@@ -6,10 +6,11 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 10/24/2023
+ms.date: 07/24/2024
 ms.custom: bap-template
 ---
-# <a name="reconcile-bank-accounts"></a>Conciliar cuentas bancarias
+
+# Conciliar cuentas bancarias
 
 La conciliación bancaria ayuda a garantizar que lo que hay en sus libros coincida con los estados de cuenta que recibe de su banco. La conciliación de cuentas bancarias compara y hace coincidir las entradas en las cuentas bancarias que ha configurado en [!INCLUDE[prod_short](includes/prod_short.md)] con transacciones bancarias en su banco. Luego, la conciliación puede contabilizar los saldos en sus cuentas bancarias en [!INCLUDE[prod_short](includes/prod_short.md)] para ponerlos a disposición de los directores de finanzas. La conciliación bancaria también es una forma práctica de descubrir y resolver pagos faltantes y errores de contabilidad.
 
@@ -22,7 +23,7 @@ Sin embargo, también puede conciliar bancos en la página **Diario de conciliac
 
 Las líneas de la página **Conciliación banco** se dividen en dos paneles. El panel de **Líneas de estado de cuenta bancario** muestra tanto las transacciones bancarias como los movimientos con pagos pendientes. El panel **Movimientos bancarios** muestra los movimientos del banco interno.
 
-## <a name="about-bank-reconciliation"></a>Acerca de la conciliación bancaria
+## Acerca de la conciliación bancaria 
 
 La conciliación de transacciones en estados de cuenta de banco con movimientos de banco en [!INCLUDE[prod_short](includes/prod_short.md)] se denomina *conciliación*. Hay tres formas de hacer coincidir las transacciones con las entradas bancarias:
 
@@ -40,7 +41,7 @@ La casilla **Liquidado** se activa en las líneas en las que los movimientos coi
 
 Cuando el valor en el campo **Saldo total** en el panel **Líneas de estado de cuenta de banco** es igual al valor total del campo **Saldo a conciliar**, además del campo **Saldo últ. edo. cta. bco.**, en el panel **Movs. bancos**, puede seleccionar la acción **Registrar**. Los movimientos del libro mayor de banco no coincidentes permanecerán en la página, lo que indica las discrepancias que debe resolver para conciliar el banco.
 
-Cualquier línea que no pueda coincidir, indicada por un valor en el campo **Diferencia**, permanecerá en la página **Conciliación banco** después de registrar. Representan algún tipo de discrepancia que debe resolver antes de completar la conciliación de banco. La siguiente tabla describe algunas situaciones comerciales típicas que pueden causar diferencias.
+Cualquier línea que no pueda coincidir, indicada por un valor en el campo  **Diferencia**, permanecerá en la página  **Conciliación de cuenta bancaria**  después de la publicación. Representan algún tipo de discrepancia que debe resolver antes de completar la conciliación de banco. La siguiente tabla describe algunas situaciones comerciales típicas que pueden causar diferencias.
 
 | Diferencia | Motivo | Resolución |
 |------------|--------|------------|
@@ -55,7 +56,7 @@ Puede rellenar el panel **Líneas de estado de cuenta bancario** en la página *
 * Automáticamente, utilizando la función **Importar estado de cuenta** para rellenar el panel **Líneas de los estado de cuentas de cuenta** con transacciones bancarias basándose en un archivo importado que proporciona el banco.
 * Manualmente, usando la función **Proponer líneas** para rellenar el panel de **Líneas del estado de cuenta** basándose en las facturas en [!INCLUDE[prod_short](includes/prod_short.md)] que tienen pagos pendientes.
 
-## <a name="add-bank-statement-lines-by-importing-a-bank-statement"></a>Agregar líneas de estado de cuentas de banco importando un estado de cuenta de banco
+## Agregar líneas de estado de cuentas de banco importando un estado de cuenta de banco
 
 El panel de las **Líneas del estado de cuenta** completará con las transacciones bancarias de acuerdo con un archivo o secuencia importados proporcionados por el banco.
 
@@ -72,7 +73,7 @@ Para importar estados de cuenta de banco como fuentes bancarias, debe configurar
 6. Si tiene un archivo de estado de cuenta bancario, seleccione la acción **Importar estado de cuenta bancario**.
 7. Busque el archivo y haga clic en el botón **Abrir** para importar las transacciones bancarias en el panel de las **Líneas del estado de cuenta** en la página **Conciliación banco**.
 
-## <a name="to-fill-in-bank-reconciliation-lines-with-the-suggest-lines-action"></a>Para rellenar las líneas de conciliación bancarias con la acción Proponer líneas
+## Para rellenar las líneas de conciliación bancarias con la acción Proponer líneas
 
 El panel de las **Líneas del estado de cuenta** se completará de acuerdo con las facturas en [!INCLUDE[prod_short](includes/prod_short.md)] que tienen pagos pendientes.  
 
@@ -86,7 +87,7 @@ El panel de las **Líneas del estado de cuenta** se completará de acuerdo con l
 4. Si no desea que los asientos del libro mayor de cuentas bancarias incluyan asientos invertidos abiertos no conciliados, seleccione la opción de alternancia **Excluir entradas invertidas**. De manera predeterminada, la lista de movimientos contables de cuentas bancarias incluirá los movimientos revertidos hasta la fecha del estado de cuenta de banco.
 5. Elija el botón **Aceptar**.
 
-## <a name="match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Conciliar automáticamente las líneas de estado de cuenta de banco con movimientos de banco
+## Conciliar automáticamente las líneas de estado de cuenta de banco con movimientos de banco
 
 La página **Conciliación banco** ofrece una funcionalidad de coincidente automática basada en una coincidencia de texto en una línea del estado de cuenta (panel izquierdo) con texto en uno o más movimientos de contabilidad (panel derecho). Puede sobrescribir la coincidencia automática sugerida y puede optar por no utilizar la coincidencia automática. Para obtener más información, consulte [Conciliar las líneas de estado de cuenta de banco con los movimientos de banco manualmente](#match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
@@ -104,7 +105,7 @@ Puede investigar la base de las coincidencias utilizando la acción **Detalles d
 > [!TIP]
 > Puede utilizar una combinación de conciliación manual y automática. Si ha conciliado movimientos manualmente, la conciliación automática no sobrescribirá sus selecciones.
 
-## <a name="match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Conciliar manualmente las líneas de estado de cuenta de banco con movimientos de la cuenta
+## Conciliar manualmente las líneas de estado de cuenta de banco con movimientos de la cuenta
 
 > [!TIP]
 > Al conciliar líneas y movimientos manualmente, las acciones **Mostrar todo**, **Mostrar movimientos revertidos**, **Ocultar movimientos revertido** y **Mostrar no coincidentes** pueden facilitar la obtención de una visión general. De forma predeterminada, las entradas del libro mayor de cuentas bancarias no incluyen entradas invertidas no coincidentes. Para incluir estas entradas en la lista y emparejarlas manualmente, elija la acción **Mostrar entradas invertidas**. Si elige ocultar las entradas invertidas después de haber realizado una o más coincidencias, las entradas coincidentes aún se muestran.
@@ -129,12 +130,12 @@ Puede investigar la base de las coincidencias utilizando la acción **Detalles d
 > [!TIP]
 > Para eliminar un coincidencia, seleccione la línea de estado de cuenta bancaria y, a continuación, seleccione la acción **Eliminar conciliación**. Si ha conciliado varias líneas de estado de cuenta de banco con un asiento y necesita eliminar una o más de las líneas conciliadas, todas las conciliaciones manuales se eliminan para el asiento cuando elige **Eliminar conciliación**.
 
-## <a name="validate-your-bank-reconciliation"></a>Validar su conciliación bancaria
+## Validar su conciliación bancaria
 
 Para comprobar la conciliación de su cuenta bancaria antes de publicarla, utilice la acción **Informe de prueba** para tener una vista previa de la conciliación. El siguiente informe está disponible en los siguientes contextos:
 
 * Cuando esté preparando una conciliación bancaria en la página **Conciliación de cuenta bancaria**.
-* Cuando concilia pagos en la página **Diarios de conciliación de pagos**.
+* Al conciliar pagos en la página  **Diario de conciliación de pagos** .
 
 Las líneas que no se pueden emparejar permanecen en la página **Reconciliación de cuenta bancaria** después de la contabilización. Estas líneas contienen un valor en el campo **Diferencia**. La diferencia representa una discrepancia que debe resolver antes de completar la conciliación de banco. La siguiente tabla describe algunas situaciones comerciales típicas que pueden causar diferencias.
 
@@ -156,7 +157,7 @@ La siguiente tabla describe los campos del informe de prueba que pueden ayudarlo
 |Fecha de estado de cuenta| La fecha especificada en el campo **Fecha de estado de cuenta** en la página **Conciliación de cuenta bancaria**.|
 |Saldo últ. estado de cuenta|El saldo especificado en el campo **Saldo del último estado de cuenta** en la página **Conciliación de cuenta bancaria**. Esto se completa automáticamente a partir de la conciliación más reciente para la misma cuenta bancaria. El valor es cero si esta es su primera conciliación de cuenta bancaria.|
 |Saldo final de estado de cuenta|El saldo especificado en el campo **Saldo final de estado de cuenta** en la página **Conciliación de cuenta bancaria**. |
-|Número de cuenta de mayor <*número*> Saldo a la <*fecha*> | El saldo de la cuenta de contabilidad general en la fecha de finalización del estado de cuenta. Este es el saldo sin filtrar a esa fecha. Si su banco usa su moneda local, este saldo debe ser el mismo que el saldo de su cuenta bancaria (que se muestra en el lado derecho del encabezado del informe) cuando haya conciliado todas las líneas del estado de cuenta. Un **()** vacío en el nombre de este campo significa que su banco utiliza la moneda local.<br><br>Una discrepancia en este y los campos anteriores podría indicar que ha contabilizado directamente en la cuenta de mayor o que está utilizando la misma cuenta de mayor para varios bancos, lo cual no se recomienda. Los bancos están vinculados al libro mayor a través del grupo de contabilización de cuentas bancarias especificado para la cuenta.<br><br>El informe de prueba muestra una advertencia si tiene publicaciones directas, incluso si el saldo de la publicación es cero. Las contabilizaciones directas que no se equilibran a menudo dan lugar a diferencias acumuladas para futuras conciliaciones bancarias. Debe verificar el saldo del libro mayor y las entradas del libro mayor antes de registrar la conciliación bancaria. Para obtener más información sobre la publicación directa, vaya a [Evitar la publicación directa](#avoid-direct-posting).|
+|Número de cuenta de mayor <*número*> Saldo a la <*fecha*> | El saldo de la cuenta de contabilidad general en la fecha de finalización del estado de cuenta. Este es el saldo sin filtrar a esa fecha. Si su banco usa su moneda local, este saldo debe ser el mismo que el saldo de su cuenta bancaria (que se muestra en el lado derecho del encabezado del informe) cuando haya conciliado todas las líneas del estado de cuenta. Un **()** vacío en el nombre de este campo significa que su banco utiliza la moneda local.<br><br>Una discrepancia en este y los campos anteriores podría indicar que ha contabilizado directamente en la cuenta de mayor o que está utilizando la misma cuenta de mayor para varios bancos, lo cual no se recomienda. Los bancos están vinculados al libro mayor a través del grupo de contabilización de cuentas bancarias especificado para la cuenta.<br><br>El informe de prueba muestra una advertencia si tiene publicaciones directas, incluso si el saldo de la publicación es cero. Las contabilizaciones directas que no están equilibradas suelen dar lugar a diferencias acumuladas para futuras conciliaciones bancarias. Debe verificar el saldo del libro mayor y las entradas del libro mayor antes de registrar la conciliación bancaria. Para obtener más información sobre la publicación directa, vaya a [Evitar la publicación directa](#avoid-direct-posting).|
 |Número de cuenta de C/G <*número*> Saldo (<*$*>) en la <*fecha*>| El saldo de la cuenta de contabilidad general en la fecha de finalización del estado de cuenta en la divisa local. El saldo se convierte a la moneda de la cuenta bancaria utilizando el tipo de cambio vigente en la fecha de finalización del estado de cuenta. Este es el saldo sin filtrar a esa fecha. Compare esto con el **Número de cuenta de mayor <* número *> Saldo en el campo <* fecha*>* si su banco utiliza una moneda extranjera. El valor en el campo Número de cuenta de mayor <* número *> Saldo a la <* fecha*> para la moneda local puede diferir ligeramente porque la conversión de moneda puede generar pequeñas diferencias. El saldo de su banco debe estar muy cerca de este saldo.  |
 |Saldo de cuenta bancaria a <*fecha*>| El saldo de la cuenta bancaria en la fecha de finalización del estado de cuenta.|
 |Suma de las diferencias    | La suma de las diferencias de las líneas del estado de cuenta. Para acceder a los detalles, active la opción **Imprimir transacciones pendientes** cuando ingresa criterios para el informe. Una diferencia es una línea de estado de cuenta de banco que no coincide completamente con uno o más movimientos bancarios. No puede contabilizar una conciliación de cuenta bancaria que tenga diferencias. Puede registrar una conciliación bancaria que contenga movimientos de banco que no coincidan con las líneas del estado de cuenta. Este valor se muestra en el campo **Transacciones bancarias pendientes** y en una sección separada si activa la opción Imprimir transacciones pendientes.      |
@@ -172,14 +173,14 @@ La siguiente tabla describe los campos del informe de prueba que pueden ayudarlo
 >
 > Puede utilizar el valor para compararlo con su estado de cuenta de banco.
 
-## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines"></a>Para crear movimientos contables faltantes con el fin de conciliar las líneas del estado de cuenta de banco
+## Para crear movimientos contables faltantes con el fin de conciliar las líneas del estado de cuenta de banco
 
 En ocasiones, un estado de cuenta de banco contiene importes por los intereses y los recargos cobrados. Dichas líneas del estado de cuenta de cuenta de banco no pueden conciliarse porque no existen movimientos contables relacionados en [!INCLUDE[prod_short](includes/prod_short.md)]. A continuación, deberá registrar una linea de diario para cada transacción para crear un movimiento relacionado que pueda coincidir.
 
 1. En la página **Conciliación banco** seleccione la acción **Transferir al diario general**.  
 2. En la página **Transf. conciliación al diario**, especifique el diario general que se usará y haga clic en **Aceptar**.
 
-    La página **Diario general** se abre con nuevas líneas del diario para las líneas de los estados de cuenta de banco en las que faltan movimientos contables.
+    La página  **Diarios generales**  se abre con nuevas líneas de diario para cualquier línea de extracto bancario que no tenga entradas de libro mayor.
 3. Complete la línea del diario con la información, como la cuenta de contrapartida. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
 4. Para revisar el resultado de la publicación antes de publicar, elija la acción **Informe de prueba** y, a continuación, elija una opción para acceder al informe. El informe **Estado de cuenta bancaria** muestra los mismos campos que en el encabezado de la página **Conciliación de cuenta bancaria**.
 5. Seleccione la acción **Registrar**.
@@ -188,11 +189,11 @@ En ocasiones, un estado de cuenta de banco contiene importes por los intereses y
 6. Actualice o reabra la página **Conciliación banco**. El nuevo movimiento aparecerá en el panel **Movs. bancos**.
 7. Concilie la línea del estado de cuenta bancario con el movimiento de banco manual o automáticamente.
 
-## <a name="find-outstanding-transactions-in-previous-periods"></a>Encontrar transacciones pendientes en periodos anteriores
+## Encontrar transacciones pendientes en periodos anteriores
 
 Puede utilizar el informe estado de cuenta de banco para buscar transacciones pendientes en períodos anteriores. Las transacciones pendientes se abrieron antes de la fecha del estado de cuenta de banco y no se han cerrado, o se cerraron después de publicar la conciliación bancaria.
 
-Cuando ejecuta el informe Estado de cuenta de banco desde la página Lista de estados de cuenta de banco, puede activar la opción **Movimientos pendientes** y el informe incluirá una sección que enumera los movimientos pendientes.
+Cuando ejecuta el informe de extracto bancario desde la página  **Lista de extractos de cuenta bancaria**, puede activar el interruptor  **Entradas pendientes**, y el informe incluirá una sección que enumera las entradas pendientes.
 
 **Ejemplo** Tenemos las entradas A, B y C del libro mayor de cuentas bancarias en nuestra cuenta bancaria para el mes de agosto. Cuando conciliamos nuestra cuenta bancaria de agosto, encontramos una línea de estado de cuenta bancario que coincide con la entrada A, pero ninguna para B y C. De este modo, publicamos la conciliación con la entrada A conciliada y B y C como entradas pendientes.
 
@@ -200,31 +201,31 @@ En septiembre, recibimos un pago por la entrada B y decidimos conciliar nuestra 
 
 Si imprimimos el informe de agosto, tendremos transacciones pendientes para nuestras entradas B y C, aunque cerramos la entrada B en septiembre.
 
-## <a name="undo-a-bank-account-reconciliation"></a>Deshacer una conciliación de cuenta bancaria
+## Deshacer una conciliación de cuenta bancaria
 
-Si descubre un error en una conciliación bancaria registrada, puede utilizar la acción **Deshacer** en la página **Lista de estados de cuenta de banco** para corregirla. Cuando deshaga una conciliación bancaria publicada, las entradas se mueven a la página **Conciliación bancaria** y se marcarán como **Abierto**, lo que significa que no están conciliadas. A continuación, puede corregir la conciliación bancaria y volver a contabilizarla.
+Si descubre un error en una conciliación bancaria registrada, puede utilizar la acción **Deshacer** en la página **Lista de estados de cuenta de banco** para corregirla. Cuando se deshace una conciliación bancaria registrada, las entradas se mueven a la página  **Conciliaciones de cuentas bancarias**  y se marcan como  **Abiertas**, lo que significa que no se concilian. A continuación, puede corregir la conciliación bancaria y volver a contabilizarla.
 
 > [!NOTE]
 > En la versión norteamericana, para usar la función Deshacer para conciliaciones bancarias y estados de cuenta de banco registrados, debe activar el control de alternancia **Conciliación banco con coincidencia automática** en la página **Configuración de contabilidad general**. La función Deshacer no está disponible para los estados de cuenta de banco publicados desde hojas de trabajo de conciliación bancaria.
 
-### <a name="reusing-the-bank-statement-number"></a>Reutilizar el número de estado de cuenta de banco
+### Reutilizar el número de estado de cuenta de banco
 
 El número de estado de cuenta de banco utilizado para la nueva conciliación bancaria se toma de la cuenta bancaria al igual que el saldo del último estado de cuenta de banco. Puede cambiar estos valores antes de iniciar una nueva conciliación bancaria. Sin embargo, cuando crea una nueva conciliación bancaria, [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba si el número de estado de cuenta ya está asignado a un estado de cuenta de banco registrado. Si el número está en uso, pero desea que el nuevo estado de cuenta de banco lo use en su lugar, puede usar **Cambiar n.º estado de cuenta**. en la página **Cuenta bancaria Reconciliación**.
 
-### <a name="examples"></a>Ejemplos
+### Ejemplos
 
 Los siguientes ejemplos muestran cómo corregir un error en una conciliación bancaria registrada con o sin el mismo número de estado de cuenta.
 
-#### <a name="example-1"></a>Ejemplo 1
+#### Ejemplo 1
 
-Hizo conciliaciones bancarias para enero, febrero y marzo. El número de estado de cuenta de banco era 100 para marzo. Más tarde, descubre que marzo solo incluyó entradas hasta el 30, lo que significa que faltan entradas para el 31. Por lo tanto, debe volver a realizar la conciliación bancaria de marzo. En este caso, abriremos la página **Estado de cuenta de banco**, elija e estado de cuenta de marzo y, luego, elija **Deshacer**. 
+Hizo conciliaciones bancarias para enero, febrero y marzo. El número de estado de cuenta de banco era 100 para marzo. Más tarde, descubre que marzo solo incluyó entradas hasta el 30, lo que significa que faltan entradas para el 31. Por lo tanto, debe volver a realizar la conciliación bancaria de marzo. En este caso, abriremos la página  **Lista de extractos de cuentas bancarias**, elegiremos el extracto de marzo y luego elegiremos  **Deshacer**. 
 
 La nueva conciliación bancaria recibe el estado de cuenta número 101. Para reasignar el número 100, elija **Cambiar n.º estado de cuenta.** e introduzca **100**. 
 
 > [!TIP]
 > Recuerde establecer la fecha de finalización adecuada del estado de cuenta (en este ejemplo, es el 31 de marzo) y editar el campo **Saldo últ. edo. cta. banco**. 
 
-#### <a name="example-2"></a>Ejemplo 2
+#### Ejemplo 2
 
 Hizo conciliaciones bancarias para enero, febrero, junio y julio. Descubre que febrero fue incorrecto. Supongamos que tenía el número de estado de cuenta 100. Al igual que en el ejemplo 1, utiliza las opciones Deshacer y Últ. nº estado de cuenta. Acciones para cambiar el número de estado de cuenta como en el ejemplo n.º 1 anterior y ahora puede rehacer la conciliación bancaria de febrero.  
 
@@ -239,20 +240,20 @@ Si la próxima conciliación bancaria que realice es para agosto, considere camb
 >
 > El valor de Saldo últ. edo. cta. banco se guarda en la cuenta bancaria para minimizar los errores al realizar conciliaciones bancarias, pero también se puede editar, lo que le permite realizar conciliaciones bancarias en el orden que desee. Esto también significa que si deshace un estado de cuenta de banco, es posible que el nuevo saldo final no sea el saldo del último estado de cuenta de banco del siguiente estado de cuenta de banco. No existe una función que le permita mover un saldo hacia adelante a todos los estados de cuenta de banco posteriores, así que tenga esto en cuenta cuando use la opción Deshacer.  
 
-## <a name="avoid-direct-posting"></a>Evitar el registro directo
+## Evitar el registro directo
 
 No utilice una cuenta de mayor que permita la contabilización directa en su grupo de contabilización de cuenta bancaria. La contabilización directa interrumpirá la conexión entre el asiento del libro mayor de la cuenta bancaria y el asiento del libro mayor de la cuenta del L/M. Cuando concilia su cuenta bancaria, las entradas registradas directamente en la cuenta de mayor no se incluirán y será difícil completar la conciliación.
 
 Este error ocurre a menudo al ingresar un saldo inicial para una cuenta bancaria. Es importante que no registre el saldo de apertura directamente en el libro mayor. Los asientos en la cuenta de mayor que se registran directamente en la cuenta de mayor causarán problemas. Por ejemplo, estas entradas pueden impedirle conciliar su cuenta bancaria. Para las cuentas bancarias en moneda extranjera, las entradas pueden hacer que se acumulen diferencias después de contabilizar más conciliaciones bancarias debido a los ajustes del tipo de cambio de moneda. A menudo, contabiliza el saldo bancario inicial directamente en la cuenta bancaria y el importe termina en la cuenta del L/M. Como alternativa, lo revierte más tarde contra una cuenta de contabilidad que utilice para equilibrar el saldo inicial del libro mayor. En ambos casos, debe equilibrar cualquier registro directo en la cuenta de contabilidad antes de iniciar su primera conciliación bancaria, especialmente si la cuenta bancaria está en una divisa extranjera.
 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
-[Conciliar bancos](bank-manage-bank-accounts.md)  
-[Conciliar cuentas bancarias usando la asistencia de conciliación bancaria (vista previa)](bank-reconciliation-with-copilot.md)
-[Aplicar pagos automáticamente y conciliar cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Configurar banca](bank-setup-banking.md)  
-[Configurar reglas para la liquidación automática de los pagos](receivables-how-set-up-payment-application-rules.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Conciliación de cuentas bancarias](bank-manage-bank-accounts.md)    
+[Conciliar cuentas bancarias con la asistencia de conciliación bancaria (vista previa)](bank-reconciliation-with-copilot.md)  
+[Aplicación automática de pagos y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md)    
+[Configuración de la banca](bank-setup-banking.md)    
+[Establecer reglas para la aplicación automática de pagos](receivables-how-set-up-payment-application-rules.md)    
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

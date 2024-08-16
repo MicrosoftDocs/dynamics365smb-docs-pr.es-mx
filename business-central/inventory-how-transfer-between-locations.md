@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 07/08/2024
+ms.date: 08/12/2024
 ms.custom: bap-template
 ms.search.keywords: 'move, warehouse'
 ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755'
@@ -23,7 +23,7 @@ Puede transferir inventarios de productos entre almacenes creando pedidos de tra
 
 Puede enviar una transferencia de salida desde un almacén y recibir una transferencia de entrada en el destino. Con él, puede:
 
-* Seguimiento de una cantidad en tránsito
+* Seguimiento de una cantidad en tránsito.
 * Defina calendarios, rutas y tiempos de manejo de entrada y salida para el cálculo y la planificación de fechas. Para obtener más información sobre la planificación, vaya a [Sobre la funcionalidad de la planificación](production-about-planning-functionality.md).
 * Use diferentes funciones de almacén para los almacenes de entrada y salida.
 * Utilice pedidos de transferencia para transferencias directas, con algunas limitaciones.
@@ -33,7 +33,7 @@ Puede enviar una transferencia de salida desde un almacén y recibir una transfe
 Puede utilizar la página **Diarios de reclasificación de producto** para:
 
 * Transferencia directa de productos entre almacenes.
-* Mueva productos entre ubicaciones. Para obtener más información sobre la transferencia de productos entre ubicaciones, vaya a [Mover productos no planificados en configuraciones básicas de almacén](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
+* Mover artículos entre contenedores. Para obtener más información sobre cómo transferir artículos entre contenedores, vaya a Mover artículos sin planificar en configuraciones básicas de almacén [.](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
 * Cambie un número de serie o lote por un nuevo número de serie o lote. Para obtener más información sobre cómo reclasificar los números de serie o lote, vaya a [Reclasificar números de serie o lote](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 * Cambiar la fecha de caducidad a una nueva fecha.
 * Reclasifique productos desde un almacén en blanco hasta un almacén real.
@@ -45,7 +45,7 @@ Puede utilizar la página **Diarios de reclasificación de producto** para:
 2. En la página **Pedido de transferencia**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Si ha rellenado los campos **Cód. en tránsito**, **Cód. transportista** y **Cód. servicio transportista** en la página **Ruta transf. espec.** al configurar la ruta de transferencia, los campos correspondientes del pedido de transferencia se rellenan automáticamente.
+    > Si ha rellenado los campos **Cód. en tránsito**, **Cód. transportista** y **Cód. servicio transportista** en la página **Ruta transf. espec.** al configurar la ruta de transferencia, los campos correspondientes del pedido de transferencia se rellenan automáticamente.
 
     Cuando se especifica un valor en el campo **Servicio transportista**, se calcula la fecha de recepción en el almacén de destino de la transferencia, sumando el tiempo de envío del transportista a la fecha de envío.
 
@@ -63,6 +63,18 @@ Puede utilizar la página **Diarios de reclasificación de producto** para:
 
     Como trabajador de almacén en el almacén de procedencia de la transferencia, continúe con la recepción de los productos. Las líneas del pedido de transferencia son las mismas que en el envío y no se pueden editar.
 5. Seleccione la acción **Registrar**, seleccione la opción **Recepción** y seleccione el botón **Aceptar**.
+
+### Deshacer un envío de transferencia
+
+Si detecta un error en una cantidad de una orden de transferencia registrada, siempre que no se reciba el envío, puede corregir fácilmente la cantidad. En la página  **Envío de transferencia registrado**, la acción  **Deshacer envío**  crea líneas correctivas, de la siguiente manera:
+
+* El valor del campo **Cantidad enviada** disminuye en la cantidad que ha deshecho.
+* El valor del campo **Cantidad a enviar** se incrementa en la cantidad que ha deshecho.
+* Se activa la casilla **Corrección** para las líneas.
+
+Si la cantidad enviada en un envío de almacén, se crea una línea correctiva en el envío de almacén registrado.
+
+Para completar la corrección, vuelva a abrir la orden de transferencia, introduzca la cantidad correcta y luego contabilice el pedido. Si utiliza un envío de almacén para enviar la orden, cree y registre un nuevo envío de almacén.
 
 ### Contabilizar varios pedidos de transferencia en un lote
 
@@ -104,6 +116,43 @@ El siguiente procedimiento muestra cómo configurar el informe **Contabilizar pe
 8. En el campo **Hora inicial**, introduzca **4 p. m.**.
 9. Elija la acción **Establecer estado en Preparado**.
 
+### Comparación de diferentes configuraciones para órdenes de transferencia
+
+Puede publicar órdenes de transferencia en diferentes modos, con o sin una ubicación en tránsito. Desactive el interruptor de  **Transferencia directa**  y Seleccionar la ubicación temporal en el campo  **Código en tránsito**  en la página  **Orden de transferencia** . Cuando registra el envío de una orden de transferencia que utiliza la ubicación en tránsito, los artículos en la línea ya no están disponibles en una de sus ubicaciones porque están en tránsito. Registro directo garantiza que no se utilice una ubicación en tránsito y que el envío y la recepción se procesen simultáneamente. El comportamiento exacto de registro directo puede ser diferente según el valor seleccionado en el campo  **Contabilización de transferencia directa**  en la página  **Configuración de inventario** .
+
+La siguiente tabla describe cómo difieren las combinaciones.
+
+|Capacidad|El campo  **Transferencia directa**  está deshabilitado en la página  **Orden de transferencia** |**La transferencia directa** está habilitada en la página de **Orden de transferencia** </br>**La contabilización de transferencia directa** está configurada como  **Transferencia directa** en la página  **Configuración de inventario** .|**La transferencia directa** está habilitada en la página de  **Orden de transferencia** </br>**La contabilización de transferencia directa** está configurada en  **Recepción y envío** en la página  **Configuración de inventario** .|
+|---|---|---|---|
+|Utilice la ubicación en tránsito|Sí|N.º|N.º|
+|Puede enviar el recibo sin envío.</br>Puede utilizar  **Deshacer recibo**.|Sí|N.º|N.º|
+|Publicación parcial|Sí|N.º|Sí|
+|Movs. productos|4:</br>Traslado desde el lugar de origen,</br>Transferencia a En tránsito,</br>Transferencia desde En tránsito,</br>Traslado a destino.|2:</br>Traslado desde el lugar de origen,</br>Traslado a destino.|4:</br>Traslado desde el lugar de origen,</br>Transferir a *espacio en blanco*,</br>Transferencia desde *blanco*,</br>Traslado a destino.|
+|Documentos publicados|Envío de transferencia postal,</br>Recibo de transferencia enviado.|Transferencia directa publicada|Envío de transferencia postal,</br>Recibo de transferencia enviado.|
+|Reserva: de entrada y de salida|Sí|Sí|Sí|
+|Cargos por artículo: asignar al recibo de transferencia contabilizado|Sí|N.º|Sí|
+|Manipulación de almacén|Total|N.º|Limitado, ver más abajo|
+
+Matriz de manejo de almacén para configuración: la  **Transferencia directa**  está habilitada en la página  **Orden de transferencia**  y la  **Contabilización de transferencia directa**  está configurada en  **Transferencia directa**  en la página  **Configuración de inventario** .
+
+|Desde \ Hasta|Para: Sin manipulación de almacén|Para: Recibo de almacén|Para: Almacenamiento de inventario|Para: Colocación y recogida dirigida|
+|-|-|-|-|-|
+|**Desde: Sin manipulación de almacén**|1|No compatible|1, 4|No compatible|
+|**Desde: Envío de almacén**|1, 2|No compatible|1,2,4|No compatible|
+|**Desde: Inventario de almacenamiento**|1, 3|No compatible|1,3,4|No compatible|
+|**Desde: Almacenamiento y recogida dirigidos**|2|No compatible|2|No compatible|
+
+Los números en las celdas muestran las opciones de publicación admitidas.
+
+1. Publicación de orden de transferencia. Para algunas combinaciones, es posible que tengas que completar el campo  **Cantidad a enviar** .
+2. Crear y publicar un envío de almacén.
+3. Crear y publicar una selección de inventario.
+4. Crear y publicar un almacenamiento de inventario. Para algunas combinaciones, es posible que tengas que completar el campo  **Cantidad a enviar** .
+
+Independientemente del método, se realizan las transacciones de envío y recepción. Por ejemplo, puede crear una orden de transferencia desde una ubicación que requiere recolección de inventario a una ubicación que requiere almacenamiento de inventario. Puede crear y registrar el almacenamiento de inventario, y se crean tanto las transacciones de envío como las de recepción. También puedes contabilizar dichos documentos desde una orden de transferencia o desde una selección de inventario.  
+
+Para obtener más información sobre el manejo de almacén, consulte  [Descripción general de la gestión de almacén](design-details-warehouse-management.md).
+
 ## Para transferir productos con el diario de reclasificación de productos
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios reclasif. producto**, y luego elija el enlace relacionado.
@@ -117,17 +166,6 @@ El siguiente procedimiento muestra cómo configurar el informe **Contabilizar pe
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Deshacer un envío de transferencia
-
-Si detecta un error en una cantidad de una orden de transferencia registrada, siempre que no se reciba el envío, puede corregir fácilmente la cantidad. En la página **Envío de transferencia registrado**, la acción **Deshacer envío** crea líneas correctivas, de la siguiente manera:
-
-* El valor del campo **Cantidad enviada** disminuye en la cantidad que ha deshecho.
-* El valor del campo **Cantidad a enviar** se incrementa en la cantidad que ha deshecho.
-* Se activa la casilla **Corrección** para las líneas.
-
-Si la cantidad se ha enviado en un envío de almacén, se crea una línea de corrección en el envío de almacén registrado.
-
-Para completar la corrección, vuelva a abrir la orden de transferencia, introduzca la cantidad correcta y luego contabilice el pedido. Si utiliza un envío de almacén para enviar la orden, cree y registre un nuevo envío de almacén.
 
 ## Consulte también .
 

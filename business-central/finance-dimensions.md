@@ -6,12 +6,13 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 04/26/2024
+ms.date: 08/08/2024
 ms.custom: bap-template
 ms.search.keywords: 'analysis, history, track, business intelligence'
 ms.search.form: '408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253'
 ---
-# <a name="work-with-dimensions"></a>Trabajar con dimensiones
+
+# Trabajar con dimensiones
 
 Las dimensiones son valores que clasifican los movimientos de modo que pueda realizar el seguimiento y el análisis de los documentos, como pedidos de venta. Las dimensiones pueden, por ejemplo, indicar de qué proyecto o departamento procede un movimiento.  
 
@@ -24,7 +25,7 @@ Otro ejemplo es configurar una dimensión que se llame *Departamento* y luego us
 * Quién lo vendió.
 * Qué cliente lo compró.
 
-## <a name="analyze-by-dimensions"></a>Analizar por dimensiones
+## Analizar por dimensiones
 
 Las Dimensiones desempeñan una función importante en la inteligencia empresarial, por ejemplo al definir vistas de análisis. Obtenga más información en [Analizar datos por dimensiones](bi-how-analyze-data-dimension.md).
 
@@ -34,13 +35,13 @@ Las Dimensiones desempeñan una función importante en la inteligencia empresari
 > [!NOTE]
 > Las vistas de análisis suelen utilizar datos de dimensiones. Si descubre que se ha usado una dimensión incorrecta en los movimientos de contabilidad (G/L), puede corregir los valores de dimensión y actualizar sus vistas de análisis. Esto ayuda a que sus informes y análisis financieros sean precisos. Obtenga más información en [Resolución de problemas y corrección de dimensiones](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## <a name="dimension-sets"></a>Grupos de dimensiones
+## Grupos de dimensiones
 
-Un grupo de dimensiones es una combinación única de valores de dimensión. Se almacenan como movimientos de grupo de dimensiones en la base de datos. Cada movimiento de grupo de dimensiones representa un valor de dimensión único. Además, cada conjunto de dimensiones y la entrada de conjunto de dimensiones dentro de él se identifican mediante un ID de conjunto de dimensiones común.  
+Un grupo de dimensiones es una combinación única de valores de dimensión. Se almacenan como entradas grupo de dimensiones en la base de datos. Cada movimiento de grupo de dimensiones representa un valor de dimensión único. Además, cada conjunto de dimensiones y la entrada de conjunto de dimensiones dentro de él se identifican mediante un ID de conjunto de dimensiones común.  
 
 Cuando crea una línea de diario, cabecera de documentos o línea de documentos, puede especificar una combinación de valores de dimensión. En lugar de explícitamente guardar cada valor de dimensión en la base de datos, un Id. de grupo de dimensiones se asigna a la línea de diario, cabecera de documentos o línea de documentos para especificar el grupo de dimensiones.  
 
-## <a name="set-up-dimensions"></a>Configurar dimensiones
+## Configurar dimensiones
 
 Puede definir las dimensiones y los valores de dimensión para clasificar los diarios y los documentos, como pedidos de venta y pedidos de compra. Las dimensiones se configuran en la página **Dimensiones**, donde se crea una línea para cada dimensión, como *Proyecto*, *Departamento*, *Área* y *Vendedor*.
 
@@ -48,13 +49,13 @@ También se configuran los valores de dimensión. Digamos que los valores repres
 
 Cuando se configuran dimensiones y valores, puede definir dimensiones globales y de acceso directo en la página **Configuración de contabilidad**. Estas dimensiones estarán siempre disponibles para que las seleccione como campos en líneas de diario y documento, y asientos contables, sin abrir primero la página **Dimensiones**. Obtenga más información en la sección [Para configurar dimensiones globales y abreviadas](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions).
 
-* Las **dimensiones globales** se usan como filtros, por ejemplo, en informes, trabajos por lotes y XMLports. Solo puede utilizar dos dimensiones globales, por lo que debería elegir las dimensiones que use a menudo.
+* Las **dimensiones globales** se usan como filtros, por ejemplo, en informes, trabajos por lotes y XMLports. Solo puedes utilizar dos dimensiones globales, así que elige las dimensiones que utilizarás con frecuencia.
 * Las **dimensiones abreviadas** están disponibles como campos en diarios, líneas de documento y movimienos contables. Puede crear un máximo de ocho.  
 
 > [!NOTE]
 > Después de utilizar una nueva dimensión en cualquier entrada, como una línea o un nuevo registro, no puede eliminar la dimensión, incluso si no publica la entrada. Esto es porque [!INCLUDE[prod_short](includes/prod_short.md)] crea inmediatamente un conjunto de dimensiones para la línea o registro. Obtenga más información en la sección [Grupos de dimensiones](finance-dimensions.md#dimension-sets).
 
-### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Para configurar dimensiones predeterminadas para clientes, proveedores y otras cuentas
+### Para configurar dimensiones predeterminadas para clientes, proveedores y otras cuentas
 
 Puede asignar una dimensión predeterminada para una determinada cuenta. La dimensión se copia en el diario o el documento cuando introduzca el número de cuenta en una línea, pero puede eliminar o cambiar el código de la línea si es necesario. También puede requerir una dimensión en obligatoria para registrar un movimiento en un tipo de cuenta específico. > 
 
@@ -91,7 +92,7 @@ Puede asignar una dimensión predeterminada para una determinada cuenta. La dime
 > [!NOTE]  
 > Si es necesario tener asignada una dimensión distinta a la dimensión predeterminada para el tipo de cuenta, debe configurar una nueva dimensión predeterminada para la cuenta. La dimensión predeterminada de la cuenta sustituirá a la dimensión predeterminada del tipo de cuenta.  
 
-### <a name="to-set-up-default-dimension-priorities"></a>Para configurar prioridades de dimensiones predeterminadas
+### Para configurar prioridades de dimensiones predeterminadas
 
 Distintos tipos de cuentas, por ejemplo, una cuenta de cliente y una cuenta de producto, pueden tener dimensiones predeterminadas diferentes. Como resultado, un movimiento podría tener más de una propuesta de dimensión predeterminada. Para evitar este tipo de conflictos, puede aplicar reglas de prioridad a los diversos orígenes.
 
@@ -103,9 +104,9 @@ Distintos tipos de cuentas, por ejemplo, una cuenta de cliente y una cuenta de p
 > [!IMPORTANT]  
 > Si configura dos tablas con la misma prioridad en un mismo código de origen, [!INCLUDE[prod_short](includes/prod_short.md)] selecciona siempre la tabla con el Id. de tabla inferior.  
 
-### <a name="to-set-up-dimension-combinations"></a>Para configurar combinaciones de dimensión
+### Para configurar combinaciones de dimensión
 
-Para evitar registrar movimientos con dimensiones contradictorias o irrelevantes, puede bloquear o limitar determinadas combinaciones de dos dimensiones. Una dimensión está bloqueada si no es posible registrar ambas dimensiones en el mismo movimiento independientemente de los valores de dimensión. En cambio, una combinación de dimensión limitada impica que puede registrar ambas dimensiones en el mismo movimiento, pero únicamente para determinadas combinaciones de valores de dimensión.
+Para evitar registrar movimientos con dimensiones contradictorias o irrelevantes, puede bloquear o limitar determinadas combinaciones de dos dimensiones. Una combinación de dimensiones bloqueada significa que no puedes publicar ambas dimensiones en la misma entrada, independientemente de cuáles sean los valores de las dimensiones. En cambio, una combinación de dimensión limitada impica que puede registrar ambas dimensiones en el mismo movimiento, pero únicamente para determinadas combinaciones de valores de dimensión.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Combinaciones de dimensiones** y luego elija el enlace relacionado.  
 2. En la página **Combinación dimensión**, seleccione el campo de la combinación de dimensión que desee entre las opciones siguientes.  
@@ -114,7 +115,7 @@ Para evitar registrar movimientos con dimensiones contradictorias o irrelevantes
     |----------------------------------|---------------------------------------|  
     |**Nº limitaciones**|Esta combinación de dimensión no tiene restricciones. Se permiten todos los valores de dimensión.|  
     |**Limitado**|Esta combinación de dimensión tiene determinadas restricciones en función de los valores de dimensión que introduzca. Debe definir las limitaciones en la página **Combinación valor dimensión**.|  
-    |**Bloqueado**|Esta combinación de dimensión no está permitida.|  
+    |**Bloqueado**|Esta combinación de dimensiones no está permitida.|  
 
 3. Si selecciona la opción **Limitado**, debe definir las combinaciones de valores de dimensión que están bloqueadas. Para ello, elija el campo para definir la combinación de valores de dimensión.  
 4. A continuación, seleccione una combinación de valores de dimensión que esté bloqueada y escriba **Bloqueado** en el campo. Un campo en blanco significa que se permite la combinación de valores de dimensión. Repita el proceso con múltiples dimensiones bloqueadas.  
@@ -126,7 +127,7 @@ Para evitar registrar movimientos con dimensiones contradictorias o irrelevantes
 >
 > Para mostrar el nombre de la dimensión en lugar del código, seleccione el campo **Muestra nombre columna**.
 
-### <a name="to-set-up-global-and-shortcut-dimensions"></a>Para configurar dimensiones globales y abreviadas
+### Para configurar dimensiones globales y abreviadas
 
 Las dimensiones globales y abreviadas se pueden utilizar como filtros en cualquier parte de [!INCLUDE[prod_short](includes/prod_short.md)], incluyendo en informes, trabajos por lotes, páginas de movimientos y vistas de análisis. Las dimensiones globales y abreviadas se pueden insertar directamente sin tener que abrir primero la página **Dimensiones**. En las líneas de diario y de documento, puede seleccionar dimensiones globales y abreviadas en un campo de la línea. Puede configurar dos dimensiones globales y ocho abreviadas. Elija las dimensiones que utiliza con más frecuencia.
 
@@ -141,7 +142,7 @@ Las dimensiones globales y abreviadas se pueden utilizar como filtros en cualqui
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad**, y luego elija el enlace relacionado.
 2. En la ficha desplegable **Dimensiones**, rellene los campos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="to-change-global-dimensions"></a>Para cambiar las dimensiones globales
+#### Para cambiar las dimensiones globales
 
 Al cambiar una dimensión global o abreviada, se actualizan todos los movimientos registrados con esa dimensión. Debido a que este proceso puede llevar mucho tiempo y afectar al rendimiento, se proporcionan dos modos diferentes de adaptar el proceso al tamaño de la base de datos.  
 
@@ -151,8 +152,8 @@ Al cambiar una dimensión global o abreviada, se actualizan todos los movimiento
 
     |Opción|Descripción|
     |-|-|
-    |**Secuencial**|(Predeterminado) Todo el cambio de dimensión se realiza en una transacción que revierte todos los movimientos a las dimensiones que tenían antes del cambio.<br /><br />Se recomienda esta opción si la empresa tiene relativamente pocos movimientos registrados, en cuyo caso el trabajo por lotes lleva el menor tiempo posible en completarse. El proceso bloquea varias tablas y bloquea a otros usuarios hasta que se realice. Tenga en cuenta que, con bases de datos grandes, el proceso podría no completarse en este modo. En ese caso, use la opción **En paralelo**.|
-    |**En paralelo**|El cambio de dimensión ocurre en múltiples sesiones en segundo plano y la operación se divide en múltiples transacciones. Para usar esta opción, active el control de alternancia **Procesamiento en paralelo**. <br /><br />Recomiendamos esta opción para bases de datos grandes o empresas con muchos movimientos registrados porque se tardará el menor tiempo posible en completarse. Tenga en cuenta que, en este modo, el proceso de actualización no se iniciará si hay más de una sesión de base de datos activa.|  
+    |**Secuencial**|(Predeterminado) Todo el cambio de dimensión se realiza en una transacción que revierte todos los movimientos a las dimensiones que tenían antes del cambio.<br /><br />Se recomienda esta opción si la empresa tiene relativamente pocos movimientos registrados, en cuyo caso el trabajo por lotes lleva el menor tiempo posible en completarse. El proceso bloquea varias tablas y bloquea a otros usuarios hasta que sea Listo. Tenga en cuenta que con bases de datos grandes, es posible que el proceso no se complete en este modo. En ese caso, use la opción **En paralelo**.|
+    |**En paralelo**|El cambio de dimensión ocurre en múltiples sesiones en segundo plano y la operación se divide en múltiples transacciones. Para usar esta opción, active el control de alternancia **Procesamiento en paralelo**. <br /><br />Recomendamos esta opción para bases de datos grandes o empresas con numerosas entradas publicadas porque se completará en el menor tiempo posible. Tenga en cuenta que en este modo, el proceso de actualización no se iniciará si hay más de una sesión de base de datos activa.|  
 
 4. En los campos **Cód. dimensión global 1** o **Cód. dimensión global 2**, escriba las nuevas dimensiones. Las dimensiones actuales se muestran en gris detrás de los campos.
 5. Según el modo, realice una de las siguientes acciones:
@@ -163,7 +164,7 @@ Al cambiar una dimensión global o abreviada, se actualizan todos los movimiento
 6. Cierre la sesión de [!INCLUDE[prod_short](includes/prod_short.md)] y luego vuelva a iniciar sesión.
 7. Elija la acción **Iniciar** para iniciar el procesamiento en paralelo de los cambios de dimensión.
 
-### <a name="example-of-dimension-setup"></a>Ejemplo de configuración de dimensiones
+### Ejemplo de configuración de dimensiones
 
 Supongamos que su empresa desea realizar un seguimiento de las transacciones en función de la estructura organizativa y las ubicaciones geográficas. Para ello, puede configurar dos dimensiones en la página **Dimensiones**:
 
@@ -204,7 +205,7 @@ Para **DEPARTAMENTO**, agregue los siguientes valores de dimensión:
 
 Con esta configuración, puede agregar las dos dimensiones como las dos dimensiones globales en la página **Configuración de contabilidad**. Esto significa que puede usar ÁREA Y DEPARTAMENTO como filtros para los movimientos de contabilidad, así como en todos los informes. También están disponibles ambas dimensiones globales de forma automática para el uso en líneas de movimientos y cabeceras de documentos, como dimensiones abreviadas.
 
-## <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Obtener una visión general de las dimensiones utilizadas varias veces
+## Obtener una visión general de las dimensiones utilizadas varias veces
 
 La página **Dimensiones predet.-Múltiple** especifica cómo un grupo de cuentas usa dimensiones y valores de dimensión. Puede configurar esto resaltando varias cuentas y luego especificando las dimensiones predeterminadas y los valores de dimensión para ellas. Después, la aplicación sugiere estas dimensiones y valores de dimensión siempre que estas cuentas se utilizan, por ejemplo, en una línea del diario. Esto facilita el registro de movimientos, ya que los campos de dimensión se rellenan automáticamente. No obstante, tenga en cuenta también que los valores de dimensión sugeridos se pueden cambiar en, por ejemplo, una línea de diario.
 
@@ -216,7 +217,7 @@ La página **Dimensiones predet.-Múltiple** contiene los campos siguientes:
 |**Cód. valor dimensión**|Muestra un valor de dimensión único o el término (Problema). Si en el campo se muestra un valor de dimensión, todas las cuentas resaltadas tienen el mismo valor de dimensión predeterminado para una dimensión. Si en el campo se muestra el término (Problema), no todas las cuentas resaltadas tendrán el mismo valor de dimensión predeterminado para una dimensión. Al seleccionar el campo **Código de dimensión**, verá una lista de todas las dimensiones que están disponibles para una dimensión. Si selecciona un valor de dimensión, se definirá como el valor de dimensión predeterminado para todas las cuentas resaltadas.|
 |**Registro valor**|Muestra una regla de valor al registrar única o el término (Problema). Si en el campo se muestra la regla de valor al registrar, todas las cuentas resaltadas tienen la misma regla de valor al registrar para un valor de dimensión. Si en el campo se muestra el término (Problema), no todas las cuentas resaltadas tendrán la misma regla de valor al registrar para un valor de dimensión. Al seleccionar el campo **Regisro de valores**, podrá ver una lista de reglas de registro de valores para una dimensión. Si selecciona una regla de registro de valores, se aplicará a todas las cuentas resaltadas.|
 
-## <a name="use-dimensions"></a>Usar dimensiones
+## Usar dimensiones
 
 En un documento como una orden de venta, puede agregar información de dimensión de una línea en particular y del mismo documento. Así, en la página **Pedido de ventas**, podría introducir valores de dimensión para las dos primeras dimensiones abreviadas en las líneas de venta individuales y luego agregar más información de dimensión si elige el botón **Dimensiones**.  
 
@@ -224,7 +225,7 @@ Si trabaja con un diario, puede agregar información de dimensiones a un movimie
 
 También puede configurar dimensiones predeterminadas para cuentas o tipos de cuenta, para que esas dimensiones o valores de dimensión se completen automáticamente.
 
-### <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Para ver dimensiones globales en páginas de movimientos de contabilidad
+### Para ver dimensiones globales en páginas de movimientos de contabilidad
 
 El nombre y la definición de las dimensiones globales los establece la empresa. Para ver las dimensiones globales correspondientes a su empresa, abra la página **Configuración contabilidad**.
 
@@ -238,11 +239,11 @@ En una página de movimiento de contabilidad, puede ver si hay dimensiones globa
 > [!NOTE]  
 > La página **Dimensiones movimiento** muestra las dimensiones de un movimiento de contabilidad cada vez. Verá que se desplaza por los movimientos de contabilidad, el contenido de la página **Dimensiones movimiento** va cambiando según corresponda.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
-[Inteligencia empresarial](bi.md)  
-[Finanzas](finance.md)  
-[Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Inteligencia empresarial](bi.md)    
+[Finanzas](finance.md)    
+[Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)    
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

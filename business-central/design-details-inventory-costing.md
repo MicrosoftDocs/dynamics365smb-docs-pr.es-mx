@@ -1,26 +1,27 @@
 ---
-title: 'Detalles de diseño: coste de inventario'
+title: Detalles de diseño - Cálculo de costos de inventario
 description: En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan en las características de valoración de inventario en Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'design, inventory, costing'
 ms.search.form: 8645
-ms.date: 06/08/2021
+ms.date: 07/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-inventory-costing"></a>Detalles de diseño: Costo de inventario
+
+# Detalles de diseño: coste de inventario
 
 En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan en las características de valoración de inventario en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 La valuación de inventarios, también conocida como "administración de costos", se refiere al registro y la creación de informes sobre los costos operativos de la empresa.  
 
-## <a name="in-this-section"></a>En esta sección
+## En esta sección
 
-[Detalles de diseño: Métodos de costo](design-details-costing-methods.md)  
-[Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
+[Detalles de diseño: métodos de coste](design-details-costing-methods.md)  
+[Detalles de diseño: liquidación de artículos](design-details-item-application.md)  
 [Detalles de diseño: Problema de liquidación de producto conocido](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Detalles de diseño: ajuste de costo](design-details-cost-adjustment.md)  
 [Detalles de diseño: Fecha registro en el movimiento de valor de ajuste](design-details-inventory-adjustment-value-entry-posting-date.md)  

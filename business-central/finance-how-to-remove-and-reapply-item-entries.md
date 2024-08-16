@@ -1,16 +1,17 @@
 ---
-title: Eliminar y liquidar de nuevo los movimientos de producto
+title: Eliminar y volver a aplicar entradas de artículos
 description: Puede ver y modificar manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '506, 521, 9125'
-ms.date: 04/01/2021
+ms.date: 07/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="remove-and-reapply-item-ledger-entries"></a>Eliminar y liquidar de nuevo los movimientos contables de producto
+
+# Eliminar y volver a aplicar entradas del libro mayor de artículos
 En la página **Hoja liquidación**, puede ver y modificar manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.  
 
 Cuando registra una transacción en la que entran o salen productos del inventario, se crea una liquidación de producto entre cada aumento y disminución de inventario. Dichas liquidaciones determinan el flujo de costos desde los bienes que se reciben en el inventario al costo de los bienes que salen del inventario. Debido a la forma en la que se calcula el costo unitario, una liquidación de producto que sea incorrecta podría resultar en un costo promedio sesgado y en un costo unitario también sesgado. Para obtener más información, consulte Detalles de diseño: Liquidación de productos.
@@ -23,7 +24,7 @@ Es posible que en los siguientes ejemplos, sea necesario deshacer una liquidaci�
 
 Si es posible, utilice un documento para volver a liquidar un movimiento de producto. Por ejemplo, si necesita realizar una devolución de compra de un producto al que ya se ha aplicado una venta, puede realizar una repetición de la liquidación creando y registrando el documento de devolución de compra utilizando la liquidación correcta en el campo **Liq. por nº orden producto** situado en la línea de devolución de compra. Puede utilizar la función **Obtener líneas de documentos registrados para revertir** o la función **Copiar de documento** en el documento de devolución de compra para facilitar este proceso. Cuando registra el documento, el movimiento de producto se vuelve a liquidar automáticamente. Para obtener más información, vea [Procesar devoluciones de compra o cancelaciones](purchasing-how-process-purchase-returns-cancellations.md).
 
-Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene que corregir una liquidación fija, utilice la página **Hoja liquidación** para realizar la corrección.
+Si no puede usar un documento para volver a presentar una solicitud, como cuando tiene que corregir una solicitud corregida, utilice la página  **Hoja de trabajo de solicitud**  para corregir una solicitud.
 
 > [!Warning]  
 > A continuación se muestran algunos aspectos importantes que es necesario tener en cuenta a la hora de trabajar con la hoja de liquidación:
@@ -33,7 +34,7 @@ Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene q
     - Es posible eliminar liquidaciones de más de un movimiento a la vez desde la hoja de liquidación. Sin embargo, dado que la liquidación de movimientos afecta al conjunto de movimientos disponibles para ser liquidados, no es posible crear una liquidación para más de un movimiento a la vez.
     - La hoja de liquidación no puede realizar una liquidación si se da el caso siguiente: si no hay suficiente cantidad que liquidar en las existencias, la hoja de liquidación no puede llevar a cabo el proceso si intente liquidar un movimiento de salida de inventario que no incluya información de seguimiento del producto con un movimiento de salida de inventario que sí incluya información de seguimiento.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Para eliminar una liquidación de producto con la Hoja de liquidación
+## Para eliminar una liquidación de producto con la Hoja de liquidación
 
 1.  Elija el icono ![Bombilla que abre la función Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja liquidación** y, a continuación, elija el vínculo relacionado.  
 2.  La página **Hoja liquidación** se abre y muestra los movimientos de producto existentes para todos los productos.  
@@ -43,14 +44,14 @@ Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene q
 6.  Seleccione la acción **Eliminar liquidación**. De esta forma, se elimina el movimiento de liquidación del producto que vincula los dos movimientos y lo traslada a la página **Ver movs. conciliados - Movs. sin conciliar**.  
 7.  Cierre la página **Ver, Movs. conciliados - Movs. conciliados**.  
 
- El campo **Cantidad pendiente** de los dos movimientos de producto aumenta según la cantidad que se ha desliquidado. El movimiento de producto eliminado está ya disponible para la nueva liquidación en la página **Ver movs. conciliados - Movs. sin conciliar**.  
+ El campo  **Cantidad restante**  de las dos entradas del libro mayor de artículos se incrementa con la cantidad que no se ha aplicado. El movimiento de producto eliminado está ya disponible para la nueva liquidación en la página **Ver movs. conciliados - Movs. sin conciliar**.  
 
 > [!IMPORTANT]  
 >  No debe dejar movimientos de liquidación sin liquidar durante periodos más largos porque otros usuarios no pueden procesar los productos afectados hasta que vuelva a liquidar los movimientos o cierre la página **Hoja liquidación**. Se muestra el mensaje de error siguiente si intenta realizar acciones relacionadas con un movimiento de liquidación no aplicado manualmente:  
 >   
 >  **No puede realizar esta acción porque los movimientos del producto \<item\> no están liquidados en la Hoja de liquidación del usuario \<user\>.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Para volver a liquidar un producto con la Hoja liquidación
+## Para volver a liquidar un producto con la Hoja liquidación
 
 1.  Elija el icono ![Bombilla que abre la función Dígame 2.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja liquidación** y, a continuación, elija el vínculo relacionado.  
 2.  La página **Hoja liquidación** se abre y muestra los movimientos de producto existentes para todos los productos.  
@@ -67,13 +68,13 @@ Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene q
     >  Si ha elegido llevar a cabo una liquidación que creará un bucle infinito en el proceso de ajuste del costo, la liquidación que ha propuesto no se realiza. Esto puede ocurrir cuando los movimientos originales han creado existencias negativas. La liquidación no se realiza. Por tanto, debe seleccionar un movimiento diferente para la liquidación.  
 6.  If el campo **Ajuste automático de costo** en **Configuración de inventario** se establece en **Siempre**, el proceso de ajuste del costo se ejecuta automáticamente una vez que se haya realizado una nueva liquidación. De lo contrario, ejecute el proceso **Valorar existencias - movs. producto** para asegurarse de que todos los costos estén actualizados.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también .
 
-[Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
- [Procesamiento de devoluciones de compra o cancelaciones](purchasing-how-process-purchase-returns-cancellations.md)  
+[Cerrar asientos de artículos abiertos resultantes de una aplicación fija en el diario de artículos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)    
+ [Procesar devoluciones o cancelaciones de compras](purchasing-how-process-purchase-returns-cancellations.md)    
  [Gestión de costos de inventario](finance-manage-inventory-costs.md)   
- [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
- [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Detalles de diseño: Aplicación del artículo](design-details-item-application.md)    
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
