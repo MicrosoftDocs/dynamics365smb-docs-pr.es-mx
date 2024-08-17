@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Eliminar y volver a aplicar entradas del libro mayor de artículos
+# <a name="remove-and-reapply-item-ledger-entries"></a>Eliminar y volver a aplicar entradas del libro mayor de artículos
 En la página **Hoja liquidación**, puede ver y modificar manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.  
 
 Cuando registra una transacción en la que entran o salen productos del inventario, se crea una liquidación de producto entre cada aumento y disminución de inventario. Dichas liquidaciones determinan el flujo de costos desde los bienes que se reciben en el inventario al costo de los bienes que salen del inventario. Debido a la forma en la que se calcula el costo unitario, una liquidación de producto que sea incorrecta podría resultar en un costo promedio sesgado y en un costo unitario también sesgado. Para obtener más información, consulte Detalles de diseño: Liquidación de productos.
@@ -34,7 +34,7 @@ Si no puede usar un documento para volver a presentar una solicitud, como cuando
     - Es posible eliminar liquidaciones de más de un movimiento a la vez desde la hoja de liquidación. Sin embargo, dado que la liquidación de movimientos afecta al conjunto de movimientos disponibles para ser liquidados, no es posible crear una liquidación para más de un movimiento a la vez.
     - La hoja de liquidación no puede realizar una liquidación si se da el caso siguiente: si no hay suficiente cantidad que liquidar en las existencias, la hoja de liquidación no puede llevar a cabo el proceso si intente liquidar un movimiento de salida de inventario que no incluya información de seguimiento del producto con un movimiento de salida de inventario que sí incluya información de seguimiento.
 
-## Para eliminar una liquidación de producto con la Hoja de liquidación
+## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Para eliminar una liquidación de producto con la Hoja de liquidación
 
 1.  Elija el icono ![Bombilla que abre la función Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja liquidación** y, a continuación, elija el vínculo relacionado.  
 2.  La página **Hoja liquidación** se abre y muestra los movimientos de producto existentes para todos los productos.  
@@ -51,7 +51,7 @@ Si no puede usar un documento para volver a presentar una solicitud, como cuando
 >   
 >  **No puede realizar esta acción porque los movimientos del producto \<item\> no están liquidados en la Hoja de liquidación del usuario \<user\>.**  
 
-## Para volver a liquidar un producto con la Hoja liquidación
+## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Para volver a liquidar un producto con la Hoja liquidación
 
 1.  Elija el icono ![Bombilla que abre la función Dígame 2.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja liquidación** y, a continuación, elija el vínculo relacionado.  
 2.  La página **Hoja liquidación** se abre y muestra los movimientos de producto existentes para todos los productos.  
@@ -68,7 +68,7 @@ Si no puede usar un documento para volver a presentar una solicitud, como cuando
     >  Si ha elegido llevar a cabo una liquidación que creará un bucle infinito en el proceso de ajuste del costo, la liquidación que ha propuesto no se realiza. Esto puede ocurrir cuando los movimientos originales han creado existencias negativas. La liquidación no se realiza. Por tanto, debe seleccionar un movimiento diferente para la liquidación.  
 6.  If el campo **Ajuste automático de costo** en **Configuración de inventario** se establece en **Siempre**, el proceso de ajuste del costo se ejecuta automáticamente una vez que se haya realizado una nueva liquidación. De lo contrario, ejecute el proceso **Valorar existencias - movs. producto** para asegurarse de que todos los costos estén actualizados.  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Cerrar asientos de artículos abiertos resultantes de una aplicación fija en el diario de artículos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)    
  [Procesar devoluciones o cancelaciones de compras](purchasing-how-process-purchase-returns-cancellations.md)    

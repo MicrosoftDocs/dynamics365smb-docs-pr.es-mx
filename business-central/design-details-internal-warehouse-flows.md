@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 08/12/2024
 ms.custom: bap-template
 ---
-# Flujos para producción, ensamblaje y proyectos
+# <a name="flows-for-production-assembly-and-projects"></a>Flujos para producción, ensamblaje y proyectos
 
 Los flujos internos, como la selección de componentes y el almacenamiento de artículos finales para ensamblaje, proyectos y órdenes de producción, son similares a los flujos de entrada o salida. Muchos de los procesos pueden parecer familiares. Este artículo proporciona información sobre cómo trabajar con flujos de almacén internos con varios niveles de complejidad.
 
-## Descripción general de las diferentes opciones de configuración
+## <a name="overview-of-different-configuration-options"></a>Descripción general de las diferentes opciones de configuración
 
 Puede configurar funciones de almacén de varias formas. Es importante que las opciones que elija mejoren sus procesos sin causar gastos generales. Las siguientes tablas describen configuraciones típicas para tratar con bienes físicos para producción, proyectos y órdenes de ensamblaje.
 
-### Flujo de entrada (ubicación)
+### <a name="inbound-flow-put-away"></a>Flujo de entrada (ubicación)
 
 |Nivel de complejidad|Description|Configuración|Cód. ubicación|Flujo de entrada de la orden de producción|Flujo de entrada de la orden de ensamblaje|Flujo de entrada de proyectos|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
@@ -28,7 +28,7 @@ Puede configurar funciones de almacén de varias formas. Es importante que las o
 
 Algunas configuraciones no le permiten utilizar documentos de almacén dedicados para registrar almacenamientos. Sin embargo, si su ubicación usa contenedores, puede usar documentos de movimiento genéricos para mover artículos producidos o ensamblados al almacén. Obtenga más información en [Mover productos](warehouse-move-items.md).
 
-### Flujo de salida (pick)
+### <a name="outbound-flow-pick"></a>Flujo de salida (pick)
 
 |Nivel de complejidad|Descripción|Configuración|Cód. ubicación|Flujo de salida de la orden de producción|Flujo de salida de la orden de ensamblaje|Flujo de salida de proyectos|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
@@ -37,7 +37,7 @@ Algunas configuraciones no le permiten utilizar documentos de almacén dedicados
 |Avanzada|Actividades de picking consolidadas para múltiples documentos de origen.|Producción, Montaje, Proyectos: Picking en almacén|Opcional. Controlado por el control de alternancia Código Bin es Obligatorio|Órdenes de producción -> Picking de almacén -> Diario de consumo |Órdenes de montaje -> Selección de almacén| Proyecto(s) -> Picking de almacén -> Diario de proyectos |
 |Avanzada|Igual que arriba + Actividades de selección/ubicación dirigidas|Selección y ubicación dirigidas (los conmutadores dependientes se habilitan automáticamente)|Obligatorio|Igual que en el caso anterior|Igual que en el caso anterior| La selección y ubicación dirigidas no son compatibles con los proyectos|
 
-## Almacenes sin actividad de almacén dedicada
+## <a name="warehouses-without-dedicated-warehouse-activity"></a>Almacenes sin actividad de almacén dedicada
 
 Incluso si no utiliza actividades de almacén dedicadas, es posible que desee realizar un seguimiento de aspectos como el consumo y la producción. Los siguientes artículos proporcionan información sobre cómo procesar recepciones para documentos de origen.
 
@@ -45,9 +45,9 @@ Incluso si no utiliza actividades de almacén dedicadas, es posible que desee re
 * [Ensamblar artículos](assembly-how-to-assemble-items.md)
 * [Registrar el consumo o uso para proyectos](projects-how-record-job-usage.md)
 
-## Configuración básica de almacén
+## <a name="basic-warehouse-configuration"></a>Configuración básica de almacén
 
-### Flujos hacia y desde producción en una configuración básica de almacén  
+### <a name="flows-to-and-from-production-in-a-basic-warehouse-configuration"></a>Flujos hacia y desde producción en una configuración básica de almacén
 
 Los flujos de entrada y salida en una configuración básica de almacén implican la siguiente configuración en la página **Tarjeta de ubicación** para la ubicación:
 
@@ -64,7 +64,7 @@ Para ubicaciones que usan contenedores, los documentos de movimiento de inventar
 * Los campos **Cód. ubic. para producción**, **Cód. ubic. desde producción** y **Abre ubic. aprovision. manual** de la ubicación o de la máquina/centro de trabajo definen los flujos predeterminados a las áreas de producción y desde ellas.
 * Administre el movimiento de artículos producidos en la página **Movimiento interno** sin una relación con una orden de producción.
 
-### Flujos hacia y desde ensamblado en una configuración básica de almacén  
+### <a name="flows-to-and-from-assembly-in-a-basic-warehouse-configuration"></a>Flujos hacia y desde ensamblado en una configuración básica de almacén
 
 El flujo de salida en una configuración básica de almacén implica las siguientes configuraciones en la página  **Ubicación tarjeta** para la ubicación:
 
@@ -83,7 +83,7 @@ Para almacenes que usan ubicaciones:
 
 [!INCLUDE [prod_short](includes/prod_short.md)] es compatible con los flujos de ensamblado ensamblar para stock y ensamblar para pedido. Obtenga más información en [Descripción de ensamblar para pedido y ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock). En relación con la gestión de almacenes, ensamblar para stock es parte del flujo de almacén interno y ensamblar para ordenar está en el flujo de almacén de salida. Obtenga más información en [Tratamiento de productos de ensamblar para pedido con los picking de inventario](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-### Flujos de gestión de proyectos en una configuración básica de almacén
+### <a name="flows-for-project-management-in-a-basic-warehouse-configuration"></a>Flujos de gestión de proyectos en una configuración básica de almacén
 
 El flujo de salida en una configuración básica de almacén implica las siguientes configuraciones en la página  **Ubicación tarjeta** para la ubicación:
 
@@ -93,9 +93,9 @@ Utilice documentos de **Picking de inventario** para seleccionar componentes de 
 
 Para una ubicación que utiliza contenedores, el campo **Código de contenedor al proyecto** en la ubicación define los flujos predeterminados para la gestión de proyectos.
 
-## Configuración avanzada de almacén  
+## <a name="advanced-warehouse-configurations"></a>Configuración avanzada de almacén
 
-### Flujos hacia y desde producción en configuraciones avanzadas de almacén
+### <a name="flows-to-and-from-production-in-advanced-warehouse-configurations"></a>Flujos hacia y desde producción en configuraciones avanzadas de almacén
 
 El flujo de salida en una configuración de almacén avanzada implica las siguientes configuraciones en la página  **Ubicación tarjeta** para la ubicación:
 
@@ -112,7 +112,7 @@ Para almacenes que usan ubicaciones:
 * Los campos **Cód. ubic. para producción**, **Cód. ubic. desde producción** y **Abre ubic. aprovision. manual** de la ubicación o de la máquina/centro de trabajo definen los flujos predeterminados a las áreas de producción y desde ellas. 
 * Administre el movimiento de artículos producidos en las páginas **Hoja de trabajo de movimiento** o **Almacenamiento interno de almacén**, sin una relación con una orden de producción.
 
-### Flujos hacia y desde ensamblaje en configuraciones avanzadas de almacén
+### <a name="flows-to-and-from-assembly-in-advanced-warehouse-configurations"></a>Flujos hacia y desde ensamblaje en configuraciones avanzadas de almacén
 
 El flujo de salida en una configuración de almacén avanzada implica las siguientes configuraciones en la página  **Ubicación tarjeta** para la ubicación:
 
@@ -132,7 +132,7 @@ Para almacenes que usan ubicaciones:
 
 Ensamblar para stock es parte del flujo de almacén interno y ensamblar para ordenar está en el flujo de almacén de salida. Obtenga más información en [Tratamiento de productos de ensamblar para pedido en los envíos de almacén](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-### Flujos de gestión de proyectos en configuraciones avanzadas de almacén
+### <a name="flows-to-project-management-in-advanced-warehouse-configurations"></a>Flujos de gestión de proyectos en configuraciones avanzadas de almacén
 
 El flujo de salida en una configuración de almacén avanzada implica las siguientes configuraciones en la página  **Ubicación tarjeta** para la ubicación:
 
@@ -142,7 +142,7 @@ Utilice los documentos **Selección de almacén** y la página **Hoja de trabajo
 
 Para almacenes que utilizan ubicaciones, el campo **Código de contenedor a proyectos** en la ubicación define los flujos predeterminados para el área de proyectos.
 
-## Consulte también .  
+## <a name="see-also"></a>Consulte también .
 
 [Información general de la administración de almacenes](design-details-warehouse-management.md)
 

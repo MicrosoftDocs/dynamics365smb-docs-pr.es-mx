@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Preparación de declaraciones de cierre
+# <a name="preparing-closing-statements"></a>Preparación de declaraciones de cierre
 
 [!INCLUDE [prod_short](includes/prod_short.md)] ofrece informes estándar que pueden ayudarle a reunir la información que necesita para preparar los estados de cierre de su empresa. La siguiente tabla describe los informes.  
 
@@ -27,7 +27,7 @@ ms.reviewer: jswymer
 
 Para buscar un informe, seleccione la bombilla que abre la función Dígame. ![...](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba el nombre tal como aparece en la tabla y luego elija el enlace relacionado.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Años y periodos de cierre](year-close-years-periods.md)    
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
