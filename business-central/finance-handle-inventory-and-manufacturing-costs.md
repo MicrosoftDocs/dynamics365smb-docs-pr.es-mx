@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="handling-inventory-and-manufacturing-costs"></a>Manejo de inventario y costos de fabricación
+# Manejo de inventario y costos de fabricación
 
 Aunque gran parte de la funcionalidad de contabilidad de costos se expresa en procesos subyacentes sin interacción del usuario, como la aplicación de entrada y el ajuste automático de costos, muchos campos, páginas e informes están dirigidos a usuarios que administran directa o indirectamente el costo de los artículos u operaciones.  
 
@@ -30,7 +30,7 @@ Aunque gran parte de la funcionalidad de contabilidad de costos se expresa en pr
 |Deshacer manualmente una liquidación de producto o liquidar de nuevo movimientos de productos creados por la aplicación.|[Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Utilice el campo **Liquidar por mov.** en el diario de productos para crear manualmente una liquidación fija entre una transacción de entrada y la transacción de salida original.|[Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Gestionar los costes de inventario](finance-manage-inventory-costs.md)    
 [Detalles de diseño: coste de inventario](design-details-inventory-costing.md)    

@@ -11,7 +11,7 @@ ms.date: 07/27/2024
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-user-settings-and-preferences"></a>Administrar configuraciones y preferencias de usuario
+# Administrar configuraciones y preferencias de usuario
 
 Como administrador, puede configurar el usuario en [!INCLUDE[prod_short](includes/prod_short.md)], similar a cómo los usuarios individuales administran sus propias preferencias en la página **Mi configuración**.  
 
@@ -22,7 +22,7 @@ Obtenga una descripción general de todos los usuarios en la lista **Usuarios** 
 
 La página **Configuración de usuario** tarjeta es similar a la página **Mi configuración** a la que cada usuario tiene acceso, y es una herramienta poderosa para usted como administrador para establecer configuraciones predeterminadas y borrar páginas personalizadas, por ejemplo.  
 
-## <a name="types-of-user-settings"></a>Tipos de configuraciones de usuario
+## Tipos de configuraciones de usuario
 
 *Configuraciones de usuario* no es lo mismo que *configuración de usuario*, que se refiere al usuario como entidad y al acceso del usuario en el sistema. Además, la configuración del usuario no tiene nada que ver con la personalización de un usuario, como cambios superficiales en la interfaz de usuario. La configuración del usuario determina la configuración predefinida para cada usuario en varios aspectos de la forma en que la aplicación se presenta al usuario. El siguiente párrafo enumera los cinco tipos de configuraciones y preferencias de usuario que el administrador puede establecer de forma individual o central:
 
@@ -58,21 +58,21 @@ La página **Configuración de usuario** tarjeta es similar a la página **Mi co
 > [!NOTE]
 > Si se realiza la sincronización de un usuario de Microsoft 365 mientras que hay usuarios con sesión iniciada en [!INCLUDE[prod_short](includes/prod_short.md)], estos usuarios deben actualizar el navegador o cerrar sesión y volver a iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)] para ver un posible idioma diferente que se hubiera establecido a través de la acción de sincronización.
 
-## <a name="overview-of-all-user-specific-changes"></a>Resumen de todos los cambios específicos del usuario
+## Resumen de todos los cambios específicos del usuario
 
 Como administrador, puede obtener un resumen de los cambios individuales en [!INCLUDE [prod_short](includes/prod_short.md)] que cada usuario podría haber realizado en diversas páginas de [!INCLUDE [prod_short](includes/prod_short.md)]. A medida que los usuarios realizan cambios en su experiencia en [!INCLUDE [prod_short](includes/prod_short.md)], estos cambios se reflejan en la lista de **Páginas personalizadas** . <!--Administrators can also set these settings for users before they log in the first time, so users do not have to do it themselves, providing them a better *getting started* experience.-->
 
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## <a name="review-or-delete-user-personalizations"></a>Revisar o eliminar personalizaciones de usuario
+## Revisar o eliminar personalizaciones de usuario
 
 1. Seleccionar la ![Búsqueda de página o informe.](media/ui-search/search_small.png "Icono de Buscar por página o informe") Icono, ingrese a **Páginas personalizadas** y luego Seleccionar el vincular relacionado.
 2. Esto muestra la lista de usuarios y sus páginas personalizadas. Para borrar la personalización de un usuario, haga clic en la fila correspondiente o en Seleccionar **Administrar**, y luego en Seleccionar **Eliminar**.
 
 Esto elimina la personalización y la experiencia del usuario de la página correspondiente vuelve al estado predeterminado.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Disponibilidad nacional/regional e idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

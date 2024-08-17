@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="transfer-bank-funds"></a>Transferir fondos bancarios
+# Transferir fondos bancarios
 
 Es posible que en ocasiones necesites transferir una cantidad de una cuenta bancaria a otra. [!INCLUDE[prod_short](includes/prod_short.md)]  Para ello, debe registrar la transacción en la página  **Diarios generales** . La tarea varía en función de si los bancos usan la misma divisa o distintas divisas.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Para registrar transferencias entre bancos con el mismo código de divisa
+## Para registrar transferencias entre bancos con el mismo código de divisa
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales**, y luego elija el enlace relacionado.
 2. En una línea de diario, rellene los campos **Fecha registro** y **Nº documento**.
@@ -29,7 +29,7 @@ Es posible que en ocasiones necesites transferir una cantidad de una cuenta banc
 7. En el campo **Cta. contrapartida**, seleccione la cuenta a la que quiere transferir los fondos.
 8. Registre el diario.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Para registrar transferencias entre bancos con códigos de divisa distintos
+## Para registrar transferencias entre bancos con códigos de divisa distintos
 
 Para transferir fondos entre cuentas bancarias que usan distintas divisas, debe registrar dos líneas de diario general.
 
@@ -66,7 +66,7 @@ Para transferir fondos entre cuentas bancarias que usan distintas divisas, debe 
     > Una cantidad sin signo es un débito y una cantidad con signo menos es un crédito.
 10. Registre el diario.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Conciliar bancos](bank-manage-bank-accounts.md)  
 [Configurar banca](bank-setup-banking.md)  

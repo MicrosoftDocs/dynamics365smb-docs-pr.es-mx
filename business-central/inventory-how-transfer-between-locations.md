@@ -12,14 +12,14 @@ ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 57
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="transfer-inventory-between-locations"></a>Transferir el inventario entre almacenes
+# Transferir el inventario entre almacenes
 
 Puede transferir inventarios de productos entre almacenes creando pedidos de transferencia. También puede usar el diario de reclasificación de productos.
 
 > [!NOTE]
 > Para transferir productos, debe configurar los almacenes y las rutas de transferencia. Para obtener más información sobre cómo configurar ubicaciones, vaya a  [Configurar ubicaciones](inventory-how-setup-locations.md). No puede usar pedidos de transferencia para almacenes *en blanco*.
 
-## <a name="transfer-orders"></a>Pedidos de transferencia
+## Pedidos de transferencia
 
 Puede enviar una transferencia de salida desde un almacén y recibir una transferencia de entrada en el destino. Con él, puede:
 
@@ -28,7 +28,7 @@ Puede enviar una transferencia de salida desde un almacén y recibir una transfe
 * Use diferentes funciones de almacén para los almacenes de entrada y salida.
 * Utilice pedidos de transferencia para transferencias directas, con algunas limitaciones.
 
-## <a name="item-reclassification-journals"></a>Diarios de reclasificación de productos
+## Diarios de reclasificación de productos
 
 Puede utilizar la página **Diarios de reclasificación de producto** para:
 
@@ -39,7 +39,7 @@ Puede utilizar la página **Diarios de reclasificación de producto** para:
 * Reclasifique productos desde un almacén en blanco hasta un almacén real.
 * Cree entradas de almacén si no gestiona las actividades del almacén.
 
-## <a name="to-transfer-items-with-a-transfer-order"></a>Para transferir productos con un pedido de transferencia
+## Para transferir productos con un pedido de transferencia
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de transferencia** y luego elija el enlace relacionado.
 2. En la página **Pedido de transferencia**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -64,7 +64,7 @@ Puede utilizar la página **Diarios de reclasificación de producto** para:
     Como trabajador de almacén en el almacén de procedencia de la transferencia, continúe con la recepción de los productos. Las líneas del pedido de transferencia son las mismas que en el envío y no se pueden editar.
 5. Seleccione la acción **Registrar**, seleccione la opción **Recepción** y seleccione el botón **Aceptar**.
 
-### <a name="undo-a-transfer-shipment"></a>Deshacer un envío de transferencia
+### Deshacer un envío de transferencia
 
 Si detecta un error en una cantidad de una orden de transferencia registrada, siempre que no se reciba el envío, puede corregir fácilmente la cantidad. En la página  **Envío de transferencia registrado**, la acción  **Deshacer envío**  crea líneas correctivas, de la siguiente manera:
 
@@ -76,7 +76,7 @@ Si la cantidad enviada en un envío de almacén, se crea una línea correctiva e
 
 Para completar la corrección, vuelva a abrir la orden de transferencia, introduzca la cantidad correcta y luego contabilice el pedido. Si utiliza un envío de almacén para enviar la orden, cree y registre un nuevo envío de almacén.
 
-### <a name="post-multiple-transfer-orders-in-a-batch"></a>Contabilizar varios pedidos de transferencia en un lote
+### Contabilizar varios pedidos de transferencia en un lote
 
 El siguiente procedimiento explica cómo contabilizar pedidos de transferencia en un lote.
 
@@ -96,7 +96,7 @@ El siguiente procedimiento explica cómo contabilizar pedidos de transferencia e
     > [!NOTE]
     > La contabilización de varios documentos puede llevar algún tiempo y bloquear a otros usuarios. Considere habilitar la publicación en segundo plano. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
-### <a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a>Programar una entrada de la cola de trabajos para contabilizar varios documentos en un lote
+### Programar una entrada de la cola de trabajos para contabilizar varios documentos en un lote
 
 Como alternativa, puede usar la cola de trabajos para programar la contabilidad, para que se realice en un momento que sea conveniente para su organización. Por ejemplo, para su empresa puede tener sentido ejecutar ciertas rutinas cuando la mayor parte de la introducción de datos del día ha concluido.
 
@@ -116,7 +116,7 @@ El siguiente procedimiento muestra cómo configurar el informe **Contabilizar pe
 8. En el campo **Hora inicial**, introduzca **4 p. m.**.
 9. Elija la acción **Establecer estado en Preparado**.
 
-### <a name="comparison-of-different-settings-for-transfer-orders"></a>Comparación de diferentes configuraciones para órdenes de transferencia
+### Comparación de diferentes configuraciones para órdenes de transferencia
 
 Puede publicar órdenes de transferencia en diferentes modos, con o sin una ubicación en tránsito. Desactive el interruptor de  **Transferencia directa**  y Seleccionar la ubicación temporal en el campo  **Código en tránsito**  en la página  **Orden de transferencia** . Cuando registra el envío de una orden de transferencia que utiliza la ubicación en tránsito, los artículos en la línea ya no están disponibles en una de sus ubicaciones porque están en tránsito. Registro directo garantiza que no se utilice una ubicación en tránsito y que el envío y la recepción se procesen simultáneamente. El comportamiento exacto de registro directo puede ser diferente según el valor seleccionado en el campo  **Contabilización de transferencia directa**  en la página  **Configuración de inventario** .
 
@@ -153,7 +153,7 @@ Independientemente del método, se realizan las transacciones de envío y recepc
 
 Para obtener más información sobre el manejo de almacén, consulte  [Descripción general de la gestión de almacén](design-details-warehouse-management.md).
 
-## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Para transferir productos con el diario de reclasificación de productos
+## Para transferir productos con el diario de reclasificación de productos
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios reclasif. producto**, y luego elija el enlace relacionado.
 2. En la página **Diarios reclasif. producto**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -167,7 +167,7 @@ Para obtener más información sobre el manejo de almacén, consulte  [Descripci
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Gestionar inventario](inventory-manage-inventory.md)  
 [Configurar almacenes](inventory-how-setup-locations.md)  

@@ -12,7 +12,7 @@ ms.date: 08/07/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="create-gl-budgets"></a>Crear presupuestos contables
+# Crear presupuestos contables
 
 Puede tener varios presupuestos para idénticos periodos de tiempo si crea presupuestos con nombres distintos. En primer lugar, debe configurar el nombre del presupuesto e introducir las cifras del presupuesto. El nombre del presupuesto se incluye en todos los movimientos de presupuesto que cree.  
 
@@ -22,7 +22,7 @@ Los presupuestos juegan un papel importante en la inteligencia empresarial. Entr
 
 En contabilidad de costos, trabaja con los presupuestos de costos de forma similar. Más información en [Crear presupuestos de costo](finance-create-cost-budgets.md).  
 
-## <a name="to-create-a-new-gl-budget"></a>Para crear un nuevo presupuesto contable
+## Para crear un nuevo presupuesto contable
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Presupuestos contables** y luego elija el enlace relacionado.  
 2. Elija la acción **Editar lista** y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -37,7 +37,7 @@ En contabilidad de costos, trabaja con los presupuestos de costos de forma simil
 > [!NOTE]  
 > En la ficha desplegable **Filtros** puede filtrar la información de presupuesto por las dimensiones de presupuesto que haya configurado con ese nombre de presupuesto.
 
-## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Exportar e importar presupuestos contables con Excel
+## Exportar e importar presupuestos contables con Excel
 
 Prácticamente en todas las demás páginas, puede exportar datos en páginas de presupuesto a Microsoft Excel para su posterior procesamiento o análisis. Más información en [Exportar los datos de negocio a Excel](about-export-data.md).
 
@@ -46,7 +46,7 @@ Prácticamente en todas las demás páginas, puede exportar datos en páginas de
 
 De igual forma, al importar un presupuesto contable, todos los valores que existían en las líneas de cabecera se eliminan. Se eliminan para evitar totales incorrectos después de importar datos creados o editados en Excel.
 
-### <a name="scenario"></a>Escenario
+### Escenario
 
 Usted sabe que el nuevo costo de los salarios presupuestados será en moneda local ($) 1 200 000. Desea permitir que el departamento de Salarios presupueste las tres líneas específicas (de tipo de cuenta Publicación) para empleados a tiempo completo, empleados a tiempo parcial y ayuda temporal. Las tres líneas se agrupan bajo una línea de encabezado de Salarios.
 
@@ -54,7 +54,7 @@ Indique 1 200 000 en la línea Encabezado, exporte el presupuesto a Excel y, l
 
 El departamento de Salarios distribuye el importe en las tres cuentas contables. Cuando vuelve a importar al presupuesto contable, las tres cuentas se completan con los nuevos datos de Excel, que suman 1.200.000 $ y la línea Mayor está en blanco.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Cómo exportar los datos de su empresa a Excel](about-export-data.md)    
 [Finanzas](finance.md)    

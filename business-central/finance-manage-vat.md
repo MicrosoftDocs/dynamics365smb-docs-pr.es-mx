@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="vat-management-overview"></a>Información general de la administración de IVA
+# Información general de la administración de IVA
 El Impuesto al Valor Agregado (IVA) es un impuesto indirecto sobre el consumo de bienes y servicios. El IVA se aplica en cada etapa de la cadena de suministro donde se agrega valor desde la producción inicial hasta el punto de venta. Para comenzar con la gestión del IVA, consulte los siguientes artículos.  
 
 |  Artículo  |  Descripción  |  
@@ -30,7 +30,7 @@ El Impuesto al Valor Agregado (IVA) es un impuesto indirecto sobre el consumo de
 | [Validar el CIF/NIF](finance-how-validate-vat-registration-number.md) | Este artículo explicac cómo usar la validación de Business Central para los CIF/NIF de sus contactos, clientes y proveedores, según el servicio de validación de números de IVA VIES de la Unión Europea.|
 
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .  
 [Finanzas](finance.md)    
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

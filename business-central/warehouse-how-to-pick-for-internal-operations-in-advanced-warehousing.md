@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-projects-in-advanced-warehouse-configurations"></a>Selección para producción, ensamblaje o proyectos en configuraciones de almacén avanzadas
+# Selección para producción, ensamblaje o proyectos en configuraciones de almacén avanzadas
 
 La forma en que selecciona los componentes para la producción, los proyectos o las órdenes de ensamblaje depende de cómo esté configurado su almacén como ubicación. Obtenga más información en [Configuración de Warehouse Management](warehouse-setup-warehouse.md).
 
@@ -36,7 +36,7 @@ Para seleccionar o mover componentes para documentos de origen en forma de extra
 |Pedido de ensamblado|Cambie el estado a Lanzada.|
 |Proyectos | Cambiar el estado a Abierto o crear un proyecto con el estado Abierto de inmediato.|  
 
-## <a name="production"></a>Producción
+## Producción
 
 Utilice documentos de **Picking almacén** para seleccionar componentes de producción en el flujo a producción.
 
@@ -45,24 +45,24 @@ Para un almacén que usa ubicaciones para mover productos a ubicaciones de aprov
 * Para un almacén que utiliza almacenaje y picking dirigidos, siga los pasos del artículo [Mover productos en configuraciones avanzadas de almacén](warehouse-how-to-move-items-in-advanced-warehousing.md).
 * Para otros almacenes, siga las instrucciones del artículo [Mover productos internos en configuraciones básicas de almacén](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-## <a name="assembly"></a>Ensamblado
+## Ensamblado  
 
 Utilice los documentos **Picking almacén** para mover componentes del ensamblado al área de ensamblado.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] es compatible con los tipos ensamblar para stock y ensamblar para pedido de los flujos de ensamblado. Para obtener más información sobre el ensamblado para pedido en el flujo de salida del almacén, vaya a [Tratamiento de productos de ensamblado para pedido en los envíos de almacén](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## <a name="project-management"></a>Administración de proyectos
+## Administración de proyectos  
 
 Utilice los documentos de  **Selección de almacén**  para seleccionar componentes del proyecto en el flujo hacia la gestión del proyecto.
 
 > [!NOTE]
 > El proyecto no admite configuraciones avanzadas en las que la opción  **Selección y ubicación dirigidas**  esté activada.
 
-## <a name="check-whether-items-are-available-for-picking"></a>Verifique si los artículos están disponibles para ser recogidos
+## Verifique si los artículos están disponibles para ser recogidos
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Para crear documentos de picking de forma masiva con la hoja de trabajo de picking
+## Para crear documentos de picking de forma masiva con la hoja de trabajo de picking
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja trabajo picking** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Tomar documentos almacén**.  
@@ -114,7 +114,7 @@ Utilice los documentos de  **Selección de almacén**  para seleccionar componen
 
 8. Elija el botón **Aceptar**.  
 
-## <a name="to-pick-items-for-a-production-order-assembly-order-or-project"></a>Para seleccionar artículos para una orden de producción, una orden de ensamblaje o un proyecto
+## Para seleccionar artículos para una orden de producción, una orden de ensamblaje o un proyecto
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Picking** y luego elija el enlace relacionado.  
 
@@ -150,7 +150,7 @@ Utilice los documentos de  **Selección de almacén**  para seleccionar componen
     * [Ensamblar artículos](assembly-how-to-assemble-items.md)
     * [Registrar el consumo o uso para proyectos](projects-how-record-job-usage.md)
 
-## <a name="flushing-production-components-in-an-advanced-warehouse-configuration"></a>Baja de componentes de producción en una configuración de almacén avanzada
+## Baja de componentes de producción en una configuración de almacén avanzada
 
 Los métodos de baja afectan al flujo de componentes en producción. Obtenga más información en [Bajar componentes según la salida de la operación](production-how-to-flush-components-according-to-operation-output.md). Según el método de baja seleccionado, puede realizar el picking de componentes para la producción de las siguientes maneras:
 
@@ -158,7 +158,7 @@ Los métodos de baja afectan al flujo de componentes en producción. Obtenga má
 * Utilice un documento de **Picking almacén** para registrar el picking para productos que usan el método de baja **Pick + Adelante** y **Pick + Atrás**. El consumo de los componentes se produce automáticamente cuando cambie el estado de la orden de fabricación o al iniciar o finalizar una operación. Todos los componentes necesarios deben estar disponibles. De lo contrario, el registro del consumo de baja se detiene para ese componente.
 * Use un documento de **Movimiento de almacén** sin una referencia a un documento de origen u otras formas de registrar el movimiento de componentes que usan el método de baja **Adelante** o **Atrás** . Los componentes se consumen automáticamente al cambiar de estado la orden de fabricación o al iniciar o finalizar una operación. Todos los componentes necesarios deben estar disponibles. De lo contrario, el registro del consumo de baja se detiene para ese componente. Obtenga más información en [Desplazar productos](warehouse-move-items.md).
 
-### <a name="example"></a>Ejemplo:
+### Ejemplo:
 
 Tiene un pedido de fabricación de 15 unidades del producto SP-SCM1004. Algunos de los elementos de la lista de componentes deben eliminarse manualmente en un diario de consumo. Se puede realizar el picking y la baja de otros productos automáticamente mediante el método de baja **Pick + Atrás**.  
 
@@ -181,7 +181,7 @@ En la ilustración siguiente se muestra cuando se rellena el campo **Cód. ubica
 
 :::image type="content" source="media/binflow.png" alt-text="Descripción general de cuándo y cómo se rellena el campo Código de ubicación.":::
 
-## <a name="make-to-order-mto-production-components-in-an-advanced-warehouse-configuration"></a>Componentes de producción bajo pedido (MTO) en una configuración de almacén avanzada
+## Componentes de producción bajo pedido (MTO) en una configuración de almacén avanzada
 
 En escenarios en los que un artículo producido consta de materias primas y artículos semiacabados con la política de fabricación establecida en **Fabricación contra pedido**, la selección de almacén para esos componentes semiacabados se agrega a la misma orden de producción con el campo **Código de nivel de planificación** completado. Se espera que los artículos semiacabados estén disponibles para el consumo de inmediato y no requieran selección, por lo que no se incluyen en el documento de selección del almacén. Las selecciones de almacén creadas solo incluyen materias primas para artículos producidos y para artículos semiacabados.
 
@@ -189,7 +189,7 @@ Sin embargo, si hay artículos semiacabados disponibles en stock, el sistema de 
 Esta configuración no es compatible con las selecciones de almacén y, según la frecuencia, debe cambiar la política de fabricación de dichos artículos semiacabados a **Fabricación contra stock** o divida manualmente la línea de componentes de la orden de producción cuando necesite seleccionar los artículos semiacabados producidos anteriormente.
 
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 - [Gestionar inventario](inventory-manage-inventory.md)  
 - [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  

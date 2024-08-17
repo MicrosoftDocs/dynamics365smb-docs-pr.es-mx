@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="update-standard-costs"></a>Actualizar los costes estándar
+# Actualizar los costes estándar
 Debe actualizar periódicamente los costos estándar de los componentes y distribuir los nuevos costos al producto principal. El proceso normalmente consiste en los cuatro pasos siguientes:  
 
 1.  Actualizar los costos en los niveles de componente y de capacidad. Para obtener más información, consulte el proceso **Sugerir costo estándar prod.**.  
@@ -21,7 +21,7 @@ Debe actualizar periódicamente los costos estándar de los componentes y distri
 
 Para obtener más información, consulte [Acerca de Calcular el costo estándar](finance-about-calculating-standard-cost.md).
   
-## <a name="to-update-standard-costs"></a>Para actualizar los costos estándar
+## Para actualizar los costos estándar
 
 1.  Ejecute el proceso **Valorar existencias - movs. producto**. Para iniciar el trabajo por lotes, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ajustar costo: movimientos de producto** y, luego, elija el vínculo relacionado. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Revise los resultados y realice los cambios que considere necesarios.  
 2.  Ejecute el proceso **Reg. var. inventario en cont.**. Para iniciar el trabajo por lotes, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Registro de costos de inventario en contabilidad** y, luego, elija el vínculo relacionado. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Revise los resultados y realice los cambios que considere necesarios.  
@@ -36,7 +36,7 @@ Para obtener más información, consulte [Acerca de Calcular el costo estándar]
     7.  Ejecute el proceso **Implementar cambios de costo estándar**.  
 4.  Revise y publique la página  **Diarios de revaluación de artículos**, que se ha completado con entradas de los pasos anteriores de este proceso.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
  [Acerca del cálculo de costo estándar](finance-about-calculating-standard-cost.md)   
  [Administración de costos de inventario](finance-manage-inventory-costs.md)   
