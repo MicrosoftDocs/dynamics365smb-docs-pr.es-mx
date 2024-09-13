@@ -30,7 +30,7 @@ Para cada proyecto, especifique información diversa:
 > [!NOTE]
 > El control de alternancia **Aplicar enlace de uso de forma predeterminada** de la página **Configuración de proyectos** indica si las entradas del libro mayor de proyectos están vinculadas a las líneas de planificación de proyecto de forma predeterminada. Active el control de alternancia para aplicar esta configuración a todos los proyectos nuevos. Puede habilitar o deshabilitar el seguimiento del uso del proyecto para un proyecto específico activando o desactivando el control de alternancia **Aplicar enlace de uso** en la página **Ficha de proyecto**.
 
-### <a name="specify-a-default-location-for-project-items"></a>Especificar una ubicación predeterminada para los elementos del proyecto
+### <a name="to-set-up-project-usage-tracking"></a>Especificar una ubicación predeterminada para los elementos del proyecto
 
 Puede ahorrar tiempo en la entrada de datos especificando una ubicación y un contenedor predeterminados para los proyectos en la página **Tarjeta de proyecto**. Cuando crea tareas de proyecto, líneas de planificación de proyecto y líneas de diario de proyecto para el proyecto, la ubicación y el contenedor predeterminados se asignan automáticamente. Sin embargo, puede cambiar el código de ubicación y el contenedor de tareas y líneas si es necesario.
 
@@ -48,7 +48,7 @@ Hay algunas cosas que debes saber sobre el uso de ubicaciones predeterminadas:
 
 Cuando los proyectos involucran a varios clientes, facturar a los clientes adecuados por las tareas adecuadas puede resultar un desafío. [!INCLUDE [prod_short](includes/prod_short.md)] hace que la facturación sea menos compleja al permitirle especificar los clientes a facturar y vender en cada línea de tarea del proyecto, para que pueda generar automáticamente facturas para los clientes correctos. Para obtener más información sobre cómo facturar a varios clientes, vaya a [Facturar a uno o más clientes por tareas de proyecto](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
-### <a name="to-set-up-project-usage-tracking"></a>Para configurar el seguimiento de uso de proyecto
+### <a name="synchronize-the-cost-of-used-items"></a>Para configurar el seguimiento de uso de proyecto
 
 Cuando está trbajando en un proyecto, es posible que desee saber cómo va el seguimiento en comparación con el plan. Para explorar el uso, puede crear un vínculo entre las líneas de planificación de proyecto y la utilización real. El vínculo le permite realizar un seguimiento de sus costos y comprender cuánto trabajo queda. De forma predeterminada, el tipo de línea de planificación de proyecto es **Presupuesto**, pero utilizar el tipo de línea **Presupuesto y facturable** tiene efectos similares.
 

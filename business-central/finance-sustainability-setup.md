@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Configuración del módulo de sostenibilidad 
+# <a name="sustainability-module-setup"></a>Configuración del módulo de sostenibilidad
 
 Antes de que el módulo de sostenibilidad pueda funcionar correctamente, debe configurar algunos controles e instrucciones básicos relacionados con toda la funcionalidad.
 
 Para configurar un módulo de sostenibilidad, siga los pasos:
 
-## Centro de roles  
+## <a name="role-center"></a>Centro de roles
 
 Para las personas cuyas responsabilidades principales involucran procesos de sostenibilidad, se recomienda utilizar el centro de funciones de  *Gerente de Sostenibilidad* . Para configurar este centro de roles, siga estos pasos: seguir  
 
@@ -29,7 +29,7 @@ Para las personas cuyas responsabilidades principales involucran procesos de sos
 
 El centro de funciones de Gerente de Sostenibilidad facilita la gestión eficiente de todas las áreas clave relacionadas con la sostenibilidad. *·*  Abarca características fundamentales de sostenibilidad, así como procesos financieros y de adquisiciones. Además, proporciona visibilidad de los KPI más críticos relacionados con la sostenibilidad.
 
-## Configuración de sostenibilidad  
+## <a name="sustainability-setup"></a>Configuración de sostenibilidad
 
 1. Seleccione el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") icono, escriba **Configuración de sostenibilidad** y luego seleccione el vínculo relacionado.
 2. En la ficha desplegable **General**, configure los campos obligatorios relacionados con el módulo de sostenibilidad.
@@ -72,7 +72,7 @@ El centro de funciones de Gerente de Sostenibilidad facilita la gestión eficien
     | **Precisión de redondeo de emisiones** | Especifique el tamaño del intervalo que se usará al redondear cantidades de emisiones al informar a las autoridades. |
     | **Tipo de redondeo de emisiones** | Especifique cómo el programa redondea las cantidades de emisiones cuando informa a las autoridades. Las siguientes opciones están disponibles: **Más cercano**, **Hacia arriba** y **Hacia abajo**. |
 
-## Tasas de emisión   
+## <a name="emission-fees"></a>Tasas de emisión
 
 Para realizar un seguimiento de las tarifas internas de carbono o calcular sus emisiones utilizando equivalentes de dióxido de carbono (CO2), debe configurar la página  **Tarifas de emisiones** . Para configurar esta información, seguir siga estos pasos:  
 
@@ -89,7 +89,7 @@ Para realizar un seguimiento de las tarifas internas de carbono o calcular sus e
 
 Si no configuró las  **Tarifas de emisión** antes de publicar sus entradas de sustentabilidad y desea calcular sus tarifas de carbono y CO2e de manera retroactiva, debe ejecutar la acción  **Calcular tarifas de emisión**  para actualizar los valores en las  **Entradas del libro mayor de sustentabilidad**.  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Finanzas](finance.md)    
 [Información general de administración de la sostenibilidad](finance-manage-sustainability.md)    

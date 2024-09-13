@@ -62,7 +62,7 @@ Después de rellenar el **Informe de Intrastat**, puede ejecutar la acción **Li
 
 Ejecute el informe **Lista de verificación del informe Intrastat** para verificar las líneas de Intrastat antes de que se exporten al formato requerido. La verificación se ejecuta dentro del **Informe de Intrastat**.
 
-## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Recalcular peso o unidad de medida suplementaria
+## <a name="recalculate-weight-or-supplementary-unit-of-measure"></a>Recalcular peso o unidad de medida suplementaria
 
 Si recibió el mensaje de error *El "peso total" de la línea de informe de intrastat no debe estar en blanco*, probablemente se deba a que no configuró el **Peso neto** en el origen, artículo o activo fijo utilizado. En este caso, busque la ficha del artículo o el activo fijo y agregue el valor requerido. Después de eso, solo necesita volver a abrir el **Informe de Intrastat** y seguir estos pasos:
 

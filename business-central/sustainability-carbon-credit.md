@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Trabajar con créditos de carbono  
+# <a name="work-with-carbon-credit"></a>Trabajar con créditos de carbono
 
 Cuando las empresas no pueden reducir sus emisiones por diversas razones, pueden comprar créditos de carbono para compensar sus emisiones. Al comprar créditos de carbono, una empresa puede seguir emitiendo la cantidad equivalente de gases y seguir siendo neutral en carbono. Estos créditos se compran a proveedores especializados, lo que incentiva la reducción de emisiones.  
 
 En general, los créditos de carbono son permisos que permiten al propietario emitir una determinada cantidad de dióxido de carbono (CO₂) u otros gases de efecto invernadero (GEI). Un crédito de carbono normalmente representa el derecho a emitir una tonelada métrica de CO₂ o una cantidad equivalente de otro GEI, por lo que es importante habilitar esta opción para algunas organizaciones.  
 
-## Establecer el crédito de carbono  
+## <a name="set-up-the-carbon-credit"></a>Establecer el crédito de carbono
 
 El crédito de carbono en [!INCLUDE[prod_short](includes/prod_short.md)] se puede configurar como el **Artículo**. Para configurar el **Artículo** como crédito de carbono, seguir siga estos pasos:
   
@@ -32,9 +32,9 @@ El crédito de carbono en [!INCLUDE[prod_short](includes/prod_short.md)] se pued
 > [!NOTE]
 > Puede configurar cualquier tipo de artículo, ya sea inventario, servicio o no inventario, como crédito de carbono.  
 
-## Para comprar créditos de carbono 
+## <a name="to-purchase-carbon-credit"></a>Para comprar créditos de carbono
 
-### Documentos de compras 
+### <a name="purchase-documents"></a>Documentos de compras
 
 Para trabajar con cualquier documento relacionado con una compra, siga estos pasos: seguir
 
@@ -49,7 +49,7 @@ Para trabajar con cualquier documento relacionado con una compra, siga estos pas
 > [!NOTE]
 > Aunque el crédito de carbono disminuirá el valor de las entradas, verá una cantidad positiva de valor en las  **Emisiones de CO2**. Pero una vez que publique el documento, verá un valor con un registro negativo en la **Entrada del Libro Mayor de Sostenibilidad** con el **Crédito de GEI** como un **Tipo de Documento**.  
 
-### Diarios de sostenibilidad 
+### <a name="sustainability-journals"></a>Diarios de sostenibilidad
 
 Para trabajar con  **Sustainability Journal** seguir los pasos son:  
 
@@ -60,7 +60,7 @@ Para trabajar con  **Sustainability Journal** seguir los pasos son:
 5. Seleccionar **Entrada manual** e ingrese el valor que desea publicar como crédito de carbono en el campo **Emisión de CO2** .  
 6. Registre el diario.   
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Finanzas](finance.md)    
 [Registrar entradas de sostenibilidad](finance-sustainability-journal.md)    

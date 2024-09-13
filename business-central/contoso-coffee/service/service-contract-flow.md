@@ -21,7 +21,7 @@ Este tutorial demuestra varios procesos principales:
 - Completar la entrada de tiempo para la Orden de Servicio
 - Registrar y facturar el pedido de contrato de servicio
 
-## <a name="creation-of-service-items"></a>Creación de productos de servicio
+## <a name="create-service-items"></a>Creación de productos de servicio
 
 ### <a name="scenario"></a>Escenario
 
@@ -45,7 +45,7 @@ Susan, la procesadora de pedidos, registra un pedido de venta que vende un artí
 
 - Se crea un producto de servicio para el cliente 10 000
 
-## <a name="invoicing-a-service-contract"></a>Facturar un contrato de servicio
+## <a name="invoice-a-service-contract"></a>Facturar un contrato de servicio
 
 ### <a name="scenario-1"></a>Escenario
 

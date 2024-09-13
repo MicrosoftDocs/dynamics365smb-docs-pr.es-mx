@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Información general de la administración de IVA
+# <a name="vat-management-overview"></a>Información general de la administración de IVA
 El Impuesto al Valor Agregado (IVA) es un impuesto indirecto sobre el consumo de bienes y servicios. El IVA se aplica en cada etapa de la cadena de suministro donde se agrega valor desde la producción inicial hasta el punto de venta. Para comenzar con la gestión del IVA, consulte los siguientes artículos.  
 
 |  Artículo  |  Descripción  |  
@@ -31,7 +31,7 @@ El Impuesto al Valor Agregado (IVA) es un impuesto indirecto sobre el consumo de
 | [Múltiples números de registro de IVA](finance-how-use-multiple-vat-registrations.md) | Descubra cómo configurar múltiples números de registro de impuesto al valor agregado (IVA) (como tasa de IVA alternativa) para sus clientes que operan en diferentes países o regiones. |
 
 
-## Consulte también . 
+## <a name="see-also"></a>Consulte también .
 [Finanzas](finance.md)    
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

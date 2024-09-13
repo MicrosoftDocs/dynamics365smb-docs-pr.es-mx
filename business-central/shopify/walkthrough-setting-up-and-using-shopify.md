@@ -10,13 +10,13 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Tutorial: Configurar y usar el Shopify Connector
+# <a name="walkthrough-set-up-and-use-the-shopify-connector"></a>Tutorial: Configurar y usar el Shopify Connector
 
 Esta sección muestra algunos escenarios típicos y lo guía a través de los pasos para probar o capacitar a los usuarios en el flujo de trabajo de la tienda [!INCLUDE[prod_short](../includes/prod_short.md)] integrada y Shopify.
 
-## Requisitos previos
+## <a name="prerequisites"></a>Requisitos previos
 
-### Shopify
+### <a name="shopify"></a>Shopify
 
 Debe tener:
 
@@ -25,13 +25,13 @@ Debe tener:
 
 Obtenga más información sobre cómo crear pruebas y configuraciones recomendadas de Shopify en [Crear y configurar una cuenta de Shopify](shopify-account.md).
 
-### Business Central
+### <a name="business-central"></a>Business Central
 
 Debe tener una cuenta de [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 Por ejemplo, puede crear una cuenta de demostración o iniciar una prueba. Obtenga más información en [Preparar entornos de demostración de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) y [Registrarse para la prueba](../trial-signup.md). 
 
-## Conectar Business Central a la tienda de Shopify
+## <a name="connect-business-central-to-the-shopify-shop"></a>Conectar Business Central a la tienda de Shopify
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)], haga lo siguiente:
 
@@ -62,13 +62,13 @@ Configurar asignación de ubicación:
 3. En el  **Filtro de ubicación**, ingrese **''|ESTE|PRINCIPAL**.
 4. Para habilitar una sincronización de inventario para una ubicación seleccionada, en el campo  Shopify Cálculo de stock **, Seleccionar** Saldo disponible proyectado para hoy **.**
 
-## Tutorial: Comienzar a vender productos en línea
+## <a name="walkthrough-start-selling-products-online"></a>Tutorial: Comienzar a vender productos en línea
 
-### Escenario
+### <a name="scenario"></a>Escenario
 
 Supongamos que desea probar Shopify como una tienda en línea sin perder mucho tiempo con la configuración, especialmente porque ya mantiene sus artículos en [!INCLUDE[prod_short](../includes/prod_short.md)] correctamente. Después de iniciar su tienda en línea de Shopify, obtiene inmediatamente nuevos clientes que están satisfechos con su tienda y su experiencia de compra. Entonces, deciden dejar propinas al momento de pagar.
 
-### Pasos
+### <a name="steps"></a>Pasos
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)], siga estos pasos:
 
@@ -128,13 +128,13 @@ Ahora los datos físicos y financieros se registran en [!INCLUDE[prod_short](../
 
 En **Administrador de Shopify**, observe que el pedido ahora está marcado como *Cumplido*. También puede revisar los detalles del envío y ver la URL de seguimiento allí. Si vuelve a ejecutar **Sincronizar pedidos desde Shopify**, el pedido se archivará en ambos sistemas.
 
-## Tutorial: Agregar los clientes a una nueva tienda en línea
+## <a name="walkthrough-add-your-customers-to-your-new-online-store"></a>Tutorial: Agregar los clientes a una nueva tienda en línea
 
-### Escenario
+### <a name="scenario-1"></a>Escenario
 
 Después de un lanzamiento rápido y exitoso de su nueva tienda en línea, desea que sus clientes actuales la visiten y comiencen a realizar pedidos. Dependiendo de su plan y proceso de Shopify, puede probar flujos B2B y DTC
 
-### Pasos de DTC
+### <a name="dtc-steps"></a>Pasos de DTC
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)], haga lo siguiente:
 
@@ -146,7 +146,7 @@ En [!INCLUDE[prod_short](../includes/prod_short.md)], haga lo siguiente:
 
 En **Administrador de Shopify**, observe que el cliente se haya importado. Abra los clientes y observe que el nombre y el apellido del cliente provienen del campo **Nombre de contacto** de la **Tarjeta de cliente**. El nombre de la empresa se puede encontrar en la dirección predeterminada, vinculada al cliente. Si utiliza  **cuentas de clientes clásicas**, puede Seleccionar **Enviar invitación a la cuenta** para invitar al cliente. Con las  **Nuevas cuentas de clientes**, no se requiere una contraseña para que los clientes inicien sesión. En cambio, Shopify permite a sus clientes iniciar sesión utilizando un código de verificación único de 6 dígitos enviado por correo electrónico. 
 
-### Pasos B2B
+### <a name="b2b-steps"></a>Pasos B2B
 
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
@@ -161,13 +161,13 @@ En [!INCLUDE[prod_short](../includes/prod_short.md)], haga lo siguiente:
 En  **Shopify Admin**, observe que se importaron tanto la empresa como el cliente. Abra los clientes y observe que el cuadro informativo de la empresa tiene enlaces a la empresa, la ubicación y los permisos asignados.
 Para invitar al cliente, Seleccionar **[...]** en el cuadro de datos de la **Empresa**, y luego Seleccionar **Enviar correo electrónico de acceso B2B**.
 
-## Tutorial: ajuste fino de la gestión de artículos
+## <a name="walkthrough-fine-tuning-of-item-management"></a>Tutorial: ajuste fino de la gestión de artículos
 
-### Escenario 
+### <a name="scenario-2"></a>Escenario
 
 Le gustaría agregar más flexibilidad y control a sus procesos en torno a la gestión de productos. Desea mejorar las descripciones del producto y desea agregar más pasos de revisión antes de que los productos estén disponibles para todos los clientes.
 
-### Pasos
+### <a name="steps-1"></a>Pasos
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)], haga lo siguiente:
 
@@ -252,7 +252,7 @@ Tenga en cuenta que el inventario para la mesa de conferencias de ANTWERP es 100
 
 En la tienda online, abra el catálogo de productos y busque el producto  Shopify Escritorio ATHENS **.**  Tenga en cuenta que hay diferentes opciones disponibles. Para diferentes opciones, los precios son diferentes. Preste atención a la información de descuento.
 
-### Pasos adicionales para B2B
+### <a name="additional-steps-for-b2b"></a>Pasos adicionales para B2B
 
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
@@ -295,7 +295,7 @@ En  **Shopify Admin**, explora los precios del catálogo **B2B** .
 
 En la **Tienda online Shopify** abra el catálogo de productos y busque el producto *ATHENS Desk*. Tenga en cuenta la información sobre precios y descuentos.
 
-## Tutorial: verificación y sincronización de pedidos para compradores individuales y representantes de empresas
+## <a name="walkthrough-check-out-and-order-synchronization-for-individual-buyer-and-company-representative"></a>Tutorial: verificación y sincronización de pedidos para compradores individuales y representantes de empresas
 
 Esta es una continuación del [Tutorial: Comenzar a vender productos en línea](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). También puedes probar con tus propios datos, por ejemplo, usando tu tienda o sandbox. Shopify 
 
@@ -344,19 +344,19 @@ El pedido importado está listo para ser procesado.
 3. En el pedido enviado en nombre de la empresa, puede ver un valor en el campo  **Número de orden de compra**, que también se transfiere al campo  **Número de documento externo**  del documento de ventas creado.
 4. Debido a que configuramos la empresa B2B para manejar pagos fuera de Shopify, el **Estado financiero** está establecido en **Pendiente**. Después de recibir el pago, Seleccionar selecciona la acción  **Marcar como pagado** . El estado financiero se actualiza en Shopify.
 
-## Tutorial: Importar artículos, clientes y empresas desde Shopify
+## <a name="walkthrough-import-items-customers-companies-from-shopify"></a>Tutorial: Importar artículos, clientes y empresas desde Shopify
 
-### Escenario 
+### <a name="scenario-3"></a>Escenario
 
 Ya tiene una tienda en línea exitosa y le gustaría comenzar a usar [!INCLUDE[prod_short](../includes/prod_short.md)] como software de administración comercial. Le gustaría importar la mayor cantidad posible de datos de Shopify.
 
-### Pasos
+### <a name="steps-2"></a>Pasos
 
 Esta es una continuación del [Tutorial: comenzar a vender productos en línea](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online) y el [Tutorial: agregar clientes a la nueva tienda en línea](walkthrough-setting-up-and-using-shopify.md#walkthrough-add-your-customers-to-your-new-online-store). También puedes probar con tus propios datos, por ejemplo, usando tu tienda o sandbox. Shopify 
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)], siga los pasos que se enumeran a continuación.
 
-#### Preparar los datos
+#### <a name="prepare-data"></a>Preparar los datos
 
 1. Cambie a una prueba gratuita de 30 días sin datos de muestra. Para obtener más información, consulte [Agregar sus propios datos a una prueba vacía](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
 2. Seleccione el icono ![Bombilla que abre la característica Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tiendas de Shopify** y luego seleccione el vínculo relacionado.
@@ -379,7 +379,7 @@ Configure la tienda Shopify como se describe aquí:
 10. En el campo  **Importación de empresa desde Shopify**, Seleccionar **Todos los clientes**.
 11. Activa la opción  **Crear automáticamente empresa desconocida** .
 
-#### Ejecutar la sincronización
+#### <a name="run-the-synchronization"></a>Ejecutar la sincronización
 
 1. Seleccione el icono ![Bombilla que abre la característica Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tiendas de Shopify** y luego seleccione el vínculo relacionado.
 2. Seleccione la tienda *DEMO2* para la que desea sincronizar datos para abrir la página **Tarjeta de tienda de Shopify**.
@@ -388,7 +388,7 @@ Configure la tienda Shopify como se describe aquí:
 5. Seleccione **Sincronizar clientes**.
 6. Seleccione **Sincronizar empresas**
 
-### Resultados
+### <a name="results"></a>Resultados
 
 * Los productos de Shopify se importan. Para verificarlo, seleccione ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos de Shopify**, y luego seleccione el vínculo relacionado.
 * Se crean elementos con imágenes. Para verificarlo, seleccione ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Producto**, y luego seleccione el vínculo relacionado.
@@ -396,6 +396,6 @@ Configure la tienda Shopify como se describe aquí:
 * Shopify Las empresas son importadas. Para verificarlo, seleccione ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Empresas de Shopify** y luego seleccione el vínculo relacionado.
 * Se crean clientes. Para verificarlo, seleccione ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes de** y luego seleccione el vínculo relacionado.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Empezar a usar el conector de Shopify](get-started.md)  

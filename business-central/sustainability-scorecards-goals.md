@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Cuadros de mando y objetivos de sostenibilidad
+# <a name="sustainability-scorecards-and-goals-overview"></a>Cuadros de mando y objetivos de sostenibilidad
 
 Este artículo ofrece orientación sobre cómo crear cuadros de mando y objetivos, y cómo actualizar el estado de los objetivos. Los cuadros de mando y los objetivos permiten a las organizaciones seleccionar métricas de sostenibilidad y realizar un seguimiento de ellas en relación con objetivos comerciales clave. Se pueden crear objetivos basados en valores actuales y objetivo, de modo que los usuarios puedan realizar un seguimiento del progreso de las emisiones actuales en comparación con períodos anteriores.  
 
-## Crear un cuadro de mando  
+## <a name="create-a-scorecard"></a>Crear un cuadro de mando
 
 Para crear un nuevo  *Cuadro de Mando de Sostenibilidad*, siga estos pasos:
 
@@ -26,7 +26,7 @@ Para crear un nuevo  *Cuadro de Mando de Sostenibilidad*, siga estos pasos:
 
 > [¡NOTA!] En el campo **Propietario**, solo puede elegir usuarios que hayan seleccionado el campo **Administrador de sustentabilidad**  en la tabla **Configuración de usuario** . 
 
-## Crear metas  
+## <a name="create-goals"></a>Crear metas
 
 Para crear un nuevo  *Objetivo de Sostenibilidad*, seguir siga estos pasos:
 
@@ -49,7 +49,7 @@ Si tiene muchos objetivos en la página, puede usar la acción  **Mostrar mis ob
 > [!NOTE]
 > Los usuarios pueden configurar diferentes combinaciones de objetivos para toda la empresa, países o regiones específicos y un centro de responsabilidad para un *Cuadro de Mando de Sostenibilidad*. Los usuarios también pueden utilizar diferentes períodos para el mismo modelo de seguimiento. 
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Configuración de sostenibilidad](finance-sustainability-setup.md)    
 [Plan de cuentas de sostenibilidad y contabilidad](finance-sustainability-accounts-ledger.md)    

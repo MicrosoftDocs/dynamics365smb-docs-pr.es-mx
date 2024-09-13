@@ -10,11 +10,11 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Analizar las entradas de sostenibilidad con informes financieros 
+# <a name="analyzing-sustainability-entries-with-financial-reports"></a>Analizar las entradas de sostenibilidad con informes financieros
 
 La función  *Informes financieros*  le brinda información sobre los datos financieros que se muestran en su plan de cuentas (COA). Puede configurar informes financieros para analizar cifras en cuentas de contabilidad (G/L) y comparan los movimientos de contabilidad con los presupuestados. Pero también puedes analizar datos estadísticos y de sostenibilidad con la misma función, e incluso combinar los tres tipos de datos.  
 
-## Requisitos previos para informes financieros  
+## <a name="prerequisites-for-financial-reporting"></a>Requisitos previos para informes financieros
 
 La configuración de informes financieros requiere una comprensión de la estructura de los datos que desea analizar. Hay algunos conceptos clave a los que probablemente deba prestar atención antes de diseñar sus informes financieros: 
 
@@ -36,7 +36,7 @@ La configuración de informes financieros requiere una comprensión de la estruc
 > [!NOTE]
 > Puede encontrar más detalles sobre el uso de informes financieros con datos financieros y planes de cuentas aquí [Crear informes financieros utilizando datos financieros y categorías de cuentas](bi-how-work-account-schedule.md).   
 
-## Crear un nuevo informe financiero  
+## <a name="create-a-new-financial-report"></a>Crear un nuevo informe financiero
 
 Para crear rápidamente sus propios informes financieros, puede empezar por copiar uno existente, como se describe en el paso 3 siguiente. 
 
@@ -65,7 +65,7 @@ Para crear o editar un definición de fila, seguir siga estos pasos:
 > [!NOTE]
 > Las definiciones de filas no tienen versiones. Cuando cambia un definición de fila, se reemplaza la versión anterior y sus cambios se guardarán en la base de datos. 
 
-### Análisis de datos de sostenibilidad  
+### <a name="analyzing-sustainability-data"></a>Análisis de datos de sostenibilidad
 
 1. Ingrese el número de fila. **·** Para identificar su materia prima y agregar **Descripción** como texto que aparecerá en la línea del informe financiero. 
 2. En la columna Tipo de totalización, elija la opción  **Cuentas de sostenimiento** .   
@@ -75,14 +75,14 @@ Para crear o editar un definición de fila, seguir siga estos pasos:
    2. **Tarifa de carbono** si desea informar el equivalente financiero (tarifa de carbono) desde el campo  **Tarifa de carbono**  en las  **Entradas del libro mayor de sostenibilidad**. 
 5. Si elige  **Fórmula** como **Tipo de total**, puede usar fórmulas matemáticas en la columna **Total** .  
 
-### Análisis de datos estadísticos
+### <a name="analyzing-statistical-data"></a>Análisis de datos estadísticos
 
 1. Ingrese el número de fila. **·** Para identificar su fila y agregar **Descripción** como texto que aparecerá en la línea del informe financiero. 
 2. En la columna  **Tipo de total**, elija la opción  **Cuentas estadísticas** .   
 3. En el campo **Total**, elija una o más cuentas de sostenibilidad utilizando todos los filtros aplicables. 
 4. Si elige  **Fórmula** como **Tipo de total**, puede usar fórmulas matemáticas en la columna **Total** .  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Visión general de la gestión de la sostenibilidad](finance-manage-sustainability.md)    
 [Informes y análisis de sostenibilidad en Business Central](sustainability-reports.md)   
