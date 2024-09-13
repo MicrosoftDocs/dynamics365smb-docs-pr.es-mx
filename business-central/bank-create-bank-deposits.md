@@ -8,14 +8,14 @@ ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: 'bank, deposit'
 ms.search.form: '10140, 10141, 10143, 10144, 10146, 10147, 10148, 36646'
-ms.date: 07/25/2024
+ms.date: 08/29/2024
 ms.custom: bap-template
 ---
 
-# <a name="create-bank-deposits"></a>Crear depósitos bancarios
+# Crear depósitos bancarios
 
 > [!NOTE]
-> La capacidad de crear depósitos bancarios es nueva en el lanzamiento de versiones 1 de Business Central de 2022 para muchas versiones de país o región. Si utilizaba Business Central en los Estados Unidos, Canadá o México antes de ese lanzamiento, es posible que esté usando las capacidades anteriores. Puede continuar, pero las nuevas capacidades reemplazarán a las anteriores en una versión futura. Para empezar a usar las nuevas características descritas en este artículo, su administrador puede ir a la página **Administración de características** y active **Actualización de características: conciliación y depósitos bancarios estandarizados**.  
+> La capacidad de crear depósitos bancarios es nueva en 2022 lanzamiento de versiones 1 para muchas versiones de países/regiones. [!INCLUDE [prod_short](includes/prod_short.md)]  Si utilizaba [!INCLUDE [prod_short](includes/prod_short.md)] en Estados Unidos, Canadá o México antes de ese lanzamiento, es posible que esté usando las capacidades anteriores. Puede continuar, pero las nuevas capacidades reemplazarán a las anteriores en una versión futura. Para empezar a usar las nuevas características descritas en este artículo, su administrador puede ir a la página **Administración de características** y active **Actualización de características: conciliación y depósitos bancarios estandarizados**.  
 
 Use la página **Depósitos bancarios** para registrar depósitos como un solo documento que registra uno o varios movimientos en una cuenta bancaria. Por lo general, los depósitos bancarios se utilizan para registrar depósitos en efectivo. La página Depósitos bancarios está disponible en el menú **Tesorería** en el área de tareas del administrador de negocio y otras áreas de tareas que se ocupan de la tesorería.
 
@@ -27,36 +27,36 @@ Los importes de los depósitos bancarios pueden proceder de varias fuentes:
 
 Las líneas de depósito bancario contienen información sobre depósitos individuales, como cheques de clientes. El total de los importes de las líneas debe sumar el importe total del depósito.
 
-Después de completar la información y las líneas del depósito, debe registrarlo. El registro actualizará los libros de contabilidad correspondientes. Estos libros de contabilidad incluyen el libro mayor y la contabilidad de bancos, clientes y proveedores. Los depósitos registrados se almacenan para referencia futura en la página **Depósitos bancarios registrados**.
+Después de completar la información y las líneas del depósito, debe registrarlo. La publicación actualiza los libros contables relevantes, incluido el libro mayor y los libros contables de banco, clientes y proveedores. Los depósitos registrados se almacenan para referencia futura en la página **Depósitos bancarios registrados**.
 
 El informe **Depósito bancario** muestra los depósitos de clientes y proveedores con el importe del depósito original, el importe del depósito que permanece pendiente y el importe aplicado. El informe también muestra el importe total del depósito registrado para conciliar.
 
-## <a name="before-you-start"></a>Antes de comenzar
+## Antes de comenzar
 
 Hay algunas cosas para configurar antes de poder utilizar depósitos bancarios. Debe tener lista una serie numérica y un libro de diario general. También debe especificar si desea registrar los importes de los depósitos bancarios como una suma total. Es decir, como un total de todos los importes en las líneas de depósito. De lo contrario, cada línea se registra como un movimiento individual. El registro de un depósito como un único movimiento de banco puede facilitar la conciliación bancaria.
 
-### <a name="number-series-and-lump-sum-deposits"></a>Serie numérica y depósitos de suma total
+### Serie numérica y depósitos de suma total
 
 Debe configurar una serie numérica para depósitos bancarios y luego especificar la serie en el campo **Núms. depósitos bancarios** en la página **Configuración de ventas y cobros**. Para obtener más información acerca de las series numéricas, vaya a [Crear series numéricas](ui-create-number-series.md).
 
 Además, en la página **Configuración de ventas y cobros**, si desea registrar depósitos como sumas totales en lugar de líneas individuales, active el botón de alternancia **Registrar depósitos bancarios como suma total**. El registro de un depósito como suma total, que crea un movimiento de banco por el importe total del depósito, que puede facilitar la conciliación bancaria.
 
-### <a name="general-journal-templates-for-bank-deposits"></a>Libros de diario general para depósitos bancarios
+### Libros de diario general para depósitos bancarios
 
 También debe crear un libro diario general para depósitos. Los diarios generales se utilizan para registrar movimientos de cuentas bancarias y de clientes, proveedores, activos fijos y contabilidad. Los libros diario diseñan el diario general para que se adapte al propósito de su trabajo. Es decir, los campos del libro diario son exactamente los que necesita.
 
-Los depósitos serán recepciones de efectivo, así que es posible que desee reutilizar su serie numérica para diarios de recepciones de efectivo. Como alternativa, si tiene que distinguir entre depósitos bancarios y movimientos del diario de recepciones de efectivo, utilice una serie numérica diferente.
+Los depósitos son recibos de efectivo, por lo que es posible que desees reutilizar tus series de números para los diarios de recibos de efectivo. Como alternativa, si tiene que distinguir entre depósitos bancarios y movimientos del diario de recepciones de efectivo, utilice una serie numérica diferente.
 
-También deberá crear un trabajo por lotes para la plantilla. Para crear un trabajo por lotes, en la página **Libros diario general**, elija la acción **Lotes**. Para obtener más información sobre los lotes, vaya a [Uso de libros de diario y lotes](ui-work-general-journals.md#use-journal-templates-and-batches).
+También es necesario crear un trabajo por lotes para la plantilla. Para crear un trabajo por lotes, en la página **Libros diario general**, elija la acción **Lotes**. Para obtener más información sobre los lotes, vaya a [Uso de libros de diario y lotes](ui-work-general-journals.md#use-journal-templates-and-batches).
 
-## <a name="dimensions-on-bank-deposit-lines"></a>Dimensiones en líneas de depósito bancario
+## Dimensiones en líneas de depósito bancario
 
-Las líneas del depósito bancario usarán automáticamente las dimensiones predeterminadas que especificó en los campos **Cód. departamento** y **Cód. grupo clientes**. Cuando elige **Cliente** o **Proveedor** en el campo **Tipo mov.**, las dimensiones que se especifican para el cliente o proveedor sustituirán a las predeterminadas. Puede cambiar las dimensiones en las líneas, según sea necesario.
+Las líneas del depósito bancario utilizan las dimensiones predeterminadas que usted especificó en los campos  **Código de departamento** y **Código de grupo de clientes** . Cuando elige **Cliente** o **Proveedor** en el campo **Tipo de cuenta**, las dimensiones del cliente o proveedor reemplazan las predeterminadas. Puede cambiar las dimensiones en las líneas, según sea necesario.
 
 > [!TIP]
 > Las dimensiones en las líneas se establecen de acuerdo con las prioridades de dimensión predeterminadas. Las dimensiones de la línea tenían prioridad sobre las dimensiones de la cabecera. Para evitar conflictos, puede crear reglas que prioricen cuándo utilizar una dimensión según el origen. Si desea cambiar la forma en que se priorizan las dimensiones, puede cambiar su ranking en la página **Prioridades de dimensión predeterminadas**. Para obtener más información, consulte [Para configurar prioridades de dimensiones predeterminadas](finance-dimensions.md#to-set-up-default-dimension-priorities).
 
-## <a name="create-a-bank-deposit"></a>Crear un depósito bancario
+## Crear un depósito bancario
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Depósitos bancarios** y luego elija el vínculo relacionado.
 2. Elija **Nuevo** para abrir la página **Deposito bancario**.
@@ -73,7 +73,7 @@ Las líneas del depósito bancario usarán automáticamente las dimensiones pred
 5. En el campo **Total importe depósito**, introduzca el importe total del depósito. Este total debe ser la suma de los importes en todas las líneas.
 6. Rellene los campos restantes según sea necesario. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
-    La fecha en el campo **Fecha de contabilización**  y las dimensiones en los campos **Código de departamento**  y **Código de grupo de clientes**  se asignarán a las líneas que cree para el depósito bancario. Puede cambiarlos si lo necesita.
+    La fecha en el campo **Fecha de contabilización**  y las dimensiones en los campos **Código de departamento**  y **Código de grupo de clientes**  se asignan a las líneas que usted crea para el depósito bancario. Puede cambiarlos si lo necesita.
 
 7. Dependiendo de si desea registrar el depósito bancario como una suma total o cada línea individualmente en el movimiento del banco, active o desactive el botón de alternancia **Registrar como suma total**. La configuración predeterminada proviene del mismo botón de alternancia de la página **Configuración de ventas y cobros**.
 
@@ -94,16 +94,19 @@ Las líneas del depósito bancario usarán automáticamente las dimensiones pred
 11. Si va a depositar un pago en efectivo para una factura de cliente específica, elija la acción **Liquidar movs.** y, a continuación, introduzca el número de factura en el campo **Liq. por id**.
 12. Si está listo para registrar el depósito bancario, elija la acción **Registrar**.
 
-    > [!TIP]
-    > Antes de registrar el depósito, puede usar la acción **Informe de prueba** para revisar sus datos. El informe mostrará si hay algún problema, como datos que faltan, que impida el registro.  
+    > [!NOTE]
+    > Si la cuenta bancaria tiene dimensiones predeterminadas donde el campo  **Contabilización de valor**  contiene  **Código obligatorio**,  **Mismo código** o  **Sin código**, debe contabilizar el depósito como una suma global. Si no lo publica como una suma global, la publicación puede fallar porque los valores de dimensión de las cuentas en las líneas de depósito bancario violan las reglas de publicación de valores de la cuenta bancaria.
 
-## <a name="find-posted-bank-deposits"></a>Encontrar depósitos bancarios registrados
+    > [!TIP]
+    > Antes de publicar el depósito, puede utilizar la acción  **Informe de prueba**  para revisar sus datos. El informe muestra si hay algún problema, como datos faltantes, que pueda impedir la publicación.  
+
+## Encontrar depósitos bancarios registrados
 
 La página **Depósitos bancarios registrados** indica los depósitos anteriores de su empresa. En la lista puede revisar los comentarios y dimensiones que se especificaron para los depósitos. Puede abrir el depósito bancario para ver más detalles, y desde ahí puede investigar más. Por ejemplo, puede elegir la acción **Buscar movimientos** para ver los movimientos de banco registrados. Desde el movimiento de banco, puede encontrar su movimiento de contabilidad registrado correspondiente.
 
-Si desea buscar todos los movimientos de contabilidad para las líneas de depósito registradas, vaya a la página **Registro movs. contabilidad** y use la acción **Contabilidad**. Allí encontrará todos los movimientos de contabilidad, incluidos los movimientos de clientes y proveedores.
+Si desea buscar todos los movimientos de contabilidad para las líneas de depósito registradas, vaya a la página **Registro movs. contabilidad** y use la acción **Contabilidad**. La acción muestra todas las entradas del libro mayor, incluidas las entradas de clientes y proveedores.
 
-## <a name="reverse-a-posted-bank-deposit"></a>Revertir un depósito bancario registrado
+## Revertir un depósito bancario registrado
 
 Hay un par de formas de revertir un depósito bancario registrado:
 
@@ -113,7 +116,7 @@ Hay un par de formas de revertir un depósito bancario registrado:
 > [!NOTE]
 > Solo puede revertir un registro que contenga un único tipo de movimiento. Es decir, el registro debe contener solo movimientos de clientes o de proveedores, pero no ambos. Si un registro contiene ambos, debe revertir manualmente el depósito.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance.md)  

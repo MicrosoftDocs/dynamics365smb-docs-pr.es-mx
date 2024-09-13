@@ -4,19 +4,32 @@ description: Aprenda a configurar características de sostenibilidad.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
-ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
-ms.search.form: null
-ms.date: 05/08/2024
+ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD, equivalent, CO2e, CO2, carbon, role center, fees'
+ms.search.form: '6221, 6235, 6245'
+ms.date: 08/22/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="sustainability-setup"></a>Configuración de sostenibilidad
+# Configuración del módulo de sostenibilidad 
 
 Antes de que el módulo de sostenibilidad pueda funcionar correctamente, debe configurar algunos controles e instrucciones básicos relacionados con toda la funcionalidad.
 
 Para configurar un módulo de sostenibilidad, siga los pasos:
+
+## Centro de roles  
+
+Para las personas cuyas responsabilidades principales involucran procesos de sostenibilidad, se recomienda utilizar el centro de funciones de  *Gerente de Sostenibilidad* . Para configurar este centro de roles, siga estos pasos: seguir  
+
+1. Seleccione el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") Icono, ingrese a **Mi configuración** y luego Seleccionar el vincular relacionado.
+2. En el campo  **Rol**, Seleccionar la página  **Roles disponibles** .
+3. Elige la línea  **Gerente de Sostenibilidad** .
+4. Seleccione **Aceptar**.
+
+El centro de funciones de Gerente de Sostenibilidad facilita la gestión eficiente de todas las áreas clave relacionadas con la sostenibilidad. *·*  Abarca características fundamentales de sostenibilidad, así como procesos financieros y de adquisiciones. Además, proporciona visibilidad de los KPI más críticos relacionados con la sostenibilidad.
+
+## Configuración de sostenibilidad  
 
 1. Seleccione el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") icono, escriba **Configuración de sostenibilidad** y luego seleccione el vínculo relacionado.
 2. En la ficha desplegable **General**, configure los campos obligatorios relacionados con el módulo de sostenibilidad.
@@ -33,7 +46,13 @@ Para configurar un módulo de sostenibilidad, siga los pasos:
     > [!NOTE]
     > Después de activar o desactivar la comprobación de errores en segundo plano en los diarios, deberá volver a iniciar sesión antes de iniciar la nueva configuración.
 
-3. En la ficha desplegable **Cálculos**, configure los campos obligatorios relacionados con las fórmulas que se utilizan para calcular las emisiones.
+3. En la pestaña rápida **Adquisiciones**, configure los campos obligatorios relacionados con el uso de funciones de sostenibilidad en el proceso de compra.  
+
+    | Campo | Descripción |
+    |-------|-------------|
+    | **Utilice las emisiones en los documentos de compra** | Si habilita este campo, en los documentos de compra aparecerán campos y características relacionados con la sostenibilidad, como la  **Cuenta de sostenibilidad** o diferentes emisiones. |
+
+4. En la ficha desplegable **Cálculos**, configure los campos obligatorios relacionados con las fórmulas que se utilizan para calcular las emisiones.
 
     | Campo | Descripción |
     |-------|-------------|
@@ -41,7 +60,7 @@ Para configurar un módulo de sostenibilidad, siga los pasos:
     | **Posiciones decimales distancia** | Especifique el número de decimales que se muestran para las mediciones de distancia. El ajuste predeterminado es *2:5*, indica que se muestran un mínimo de dos decimales y un máximo de cinco decimales para todos los importes. También puede introducir un número fijo. Por ejemplo, si introduce *2*, se muestran dos decimales para todos los importes. |
     | **N.º decimales para importes personalizados** | Especifique el número de decimales que se muestran para los importes personalizados. El ajuste predeterminado es *2:5*, indica que se muestran un mínimo de dos decimales y un máximo de cinco decimales para todos los importes. También puede introducir un número fijo. Por ejemplo, si introduce *2*, se muestran dos decimales para todos los importes. |
 
-4. En la ficha desplegable **Informes**, complete la configuración configurando los campos relacionados con la presentación de informes a las autoridades.
+5. En la ficha desplegable **Informes**, complete la configuración configurando los campos relacionados con la presentación de informes a las autoridades.
 
     > [!NOTE]
     > En la versión 24.0, [!INCLUDE[prod_short](includes/prod_short.md)] no admite informes para ninguna autoridad. Por lo tanto, los campos que están relacionados con la configuración de esta funcionalidad en la ficha desplegable **Informes** están destinados a futuras capacidades de generación de informes. Sin embargo, los partners también pueden utilizar estos campos en versiones localizadas.
@@ -53,12 +72,29 @@ Para configurar un módulo de sostenibilidad, siga los pasos:
     | **Precisión de redondeo de emisiones** | Especifique el tamaño del intervalo que se usará al redondear cantidades de emisiones al informar a las autoridades. |
     | **Tipo de redondeo de emisiones** | Especifique cómo el programa redondea las cantidades de emisiones cuando informa a las autoridades. Las siguientes opciones están disponibles: **Más cercano**, **Hacia arriba** y **Hacia abajo**. |
 
-## <a name="see-also"></a>Consulte también .
+## Tasas de emisión   
 
-[Finanzas](finance.md)  
-[Información general de la administración de la sostenibilidad](finance-manage-sustainability.md)  
-[Plan de cuentas de sostenibilidad y contabilidad](finance-sustainability-accounts-ledger.md)  
-[Registrar entradas de sostenibilidad](finance-sustainability-journal.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+Para realizar un seguimiento de las tarifas internas de carbono o calcular sus emisiones utilizando equivalentes de dióxido de carbono (CO2), debe configurar la página  **Tarifas de emisiones** . Para configurar esta información, seguir siga estos pasos:  
+
+1. Seleccione el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") Icono, ingrese **Tarifas de emisión** y luego Seleccionar el vincular relacionado. 
+2. En el campo **Tipo de emisión**, elija la emisión de GEI que desea configurar: **CO2**, **CH4** o **N2O**. Esta opción es obligatoria.   
+3. Puede especificar además el **Tipo de alcance**. Si deja este campo en blanco, se aplicará a todos los ámbitos, pero puede configurarlo para cada uno.  
+4. Puede configurar la **Fecha de inicio** y la **Fecha de finalización**. Esto en particular significa que puedes usar diferentes configuraciones para diferentes períodos. 
+5. El  **Código de país/región** y el  **Código de responsabilidad** son campos opcionales y usted puede elegir si desea usarlos. Estos campos pueden ser útiles ya que es posible tener diferentes tarifas de carbono por país/región o utilizar diferentes conversiones al CO2e por país/región o por instalación (centro de responsabilidad).  
+6. El campo  **Tarifa de Carbono** representa la tarifa interna de carbono que una empresa se cobra a sí misma por cada unidad de CO2 equivalente que emite. Se puede utilizar en función de algunas normativas locales o regionales, pero también para cálculos internos. **La tarifa de carbono se calculará cada vez que registre emisiones y esta información será visible en los** Entradas del Libro Mayor de Sostenibilidad **, sin ninguna publicación adicional en el** Libro Mayor **.** Puede configurar la  **Tarifa de Carbono** por unidad de medida que tenga en la  **Configuración de Sostenibilidad** y se puede completar solo para la línea donde el  **Tipo de Emisión** es **CO2**. 
+7. El  **Factor Equivalente de Carbono** especifica el coeficiente que convierte el impacto de varios gases de efecto invernadero en la cantidad equivalente de dióxido de carbono en función de su potencial de calentamiento global. Si el **Tipo de emisión** es CO2, el **Factor de carbono equivalente** siempre será *1* y no se puede modificar este valor, porque el CO2 es el gas de referencia utilizado para calcular el potencial de calentamiento global (PCG) de otros gases de efecto invernadero; como el CO2 es la línea de base, su PCG se establece en *1*. Para otros gases GEI, los usuarios deben configurar los valores manualmente. Para realizar un cálculo correcto, puedes utilizar el siguiente ejemplo: Si asumimos que 1 kilogramo de N2O equivale a 298 kilogramos de CO2, debes calcular 1/298 y el resultado que debes completar será 0.00336.  
+
+> [!NOTE]
+> **El campo Tarifa de Carbono** en las **Entradas del Libro Mayor de Sostenibilidad** no se calculará en función de los valores de **Emisiones de CO2** . En lugar de ello, como base para esta fórmula, [!INCLUDE[prod_short](includes/prod_short.md)] utilizaremos el campo de **Emisiones de CO2e** . **El campo de emisiones de CO2e se calculará en función de todas las emisiones registradas al momento de la inscripción y el factor de carbono equivalente configurado para cada uno de los gases en la página de tarifas de emisión.**  **·**  **·**   
+
+Si no configuró las  **Tarifas de emisión** antes de publicar sus entradas de sustentabilidad y desea calcular sus tarifas de carbono y CO2e de manera retroactiva, debe ejecutar la acción  **Calcular tarifas de emisión**  para actualizar los valores en las  **Entradas del libro mayor de sustentabilidad**.  
+
+## Consulte también .
+
+[Finanzas](finance.md)    
+[Información general de administración de la sostenibilidad](finance-manage-sustainability.md)    
+[Plan de cuentas de sostenibilidad y contabilidad](finance-sustainability-accounts-ledger.md)    
+[Registrar entradas de sostenibilidad](finance-sustainability-journal.md)    
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
